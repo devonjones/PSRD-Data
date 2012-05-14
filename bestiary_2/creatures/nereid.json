@@ -1,0 +1,124 @@
+{
+    "dexterity": "29", 
+    "ac": "25, touch 25, flat-footed 15 (+5 deflection, +9 Dex, +1 dodge)", 
+    "special_attacks": "drowning kiss", 
+    "intelligence": "14", 
+    "melee": "touch +10 (poison)", 
+    "cr": "10", 
+    "xp": "9,600", 
+    "speed": "30 ft., swim 60 ft.", 
+    "alignment": "CN", 
+    "size": "Medium", 
+    "environment": "any aquatic", 
+    "strength": "11", 
+    "constitution": "24", 
+    "source": "Bestiary 2", 
+    "treasure": "standard", 
+    "charisma": "21", 
+    "languages": "Aquan, Common, Sylvan", 
+    "immune": "cold, poison", 
+    "init": "+9", 
+    "fortitude": "+11", 
+    "spells": {
+        "spell-like abilities": "(CL 12th; concentration +17)<p class=\"stat-block-2\">At will-<i>control water</i>, <i>suggestion</i> (DC 20; only against creatures that are currently fascinated by her beguiling aura)</p><p class=\"stat-block-2\">1/day-<i>summon monster VI</i> (water elementals only)</p>"
+    }, 
+    "type": "creature", 
+    "feats": "Ability Focus (poison), Agile Maneuvers, Defensive Combat Training, Dodge, Mobility, Weapon Finesse", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Beguiling Aura", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Any creature sexually attracted to women runs the risk of being beguiled by a nereid if it looks upon her beauty from a distance of 30 feet or less. If the creature fails a DC 25 Will save, it is immediately fascinated. A nereid may use her suggestion spell-like ability at will against creatures that are fascinated by her beguiling aura. This is a mind-affecting compulsion effect. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Drowning Kiss", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "A nereid can flood the lungs of a willing, helpless, or fascinated creature by touching it (traditionally by kissing the creature on the lips). If the target cannot breathe water, it cannot hold its breath and immediately begins to drown. On its turn, the target can attempt a DC 23 Fortitude save to cough up this water; otherwise it falls unconscious at 0 hp. On the next round, the target must save again or drop to &ndash;1 hit points and be dying; on the third round it must save again or die. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Touch or spray&mdash;contact; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d2 Con plus blindness; cure 2 consecutive saves.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Shawl", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "A nereid's shawl (hardness 2, hp 6) contains a portion of her life force. If the shawl is ever destroyed, the nereid takes 1d6 points of Constitution drain per hour until she dies. A nereid can craft a new shawl from water by making a DC 25 Will save, but each attempt takes 1d4 hours to complete. Attempts to destroy or steal a nereid's shawl require the sunder or disarm attempts.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Transparency", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "When underwater, a nereid's body becomes transparent, effectively rendering her invisible. She can become visible or transparent at will as a free action.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Unearthly Grace", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "A nereid adds her Charisma bonus as a deflection bonus to her Armor Class and CMD if she wears no armor.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Nereids are capricious and often dangerous aquatic fey that appear as strikingly beautiful women, often seen bathing unclothed in the water. Many sailors have met their doom following a nereid, for though a nereid's beauty is otherworldly, her watery kiss is death. Others seek out nereids, for if one can secure control over the creature's shawl, the cloth can be used to force the nereid's compliance. A nereid forced to obey in this manner immediately attempts to slay her master as soon as she can secure her shawl's safety.</p>"
+        }
+    ], 
+    "senses": "low-light vision; Perception +21", 
+    "description": "This beautiful woman has pearlescent skin and long, dark hair. Her nudity is barely hidden by a diaphanous, wet shawl.", 
+    "ranged": "spray +15 touch (poison)", 
+    "hp": "126 (12d6+84)", 
+    "weaknesses": "shawl", 
+    "wisdom": "22", 
+    "defensive_abilities": "transparency", 
+    "creature_type": "Fey", 
+    "special_qualities": "change shape (medium water elemental, elemental body II), unearthly grace", 
+    "dr": "10/cold iron", 
+    "base_attack": "+6", 
+    "name": "Nereid", 
+    "skills": "Bluff +20, Escape Artist +24, Knowledge (nature) +17, Perception +21, Perform (sing) +20, Sense Motive +21, Stealth +24, Swim +23", 
+    "reflex": "+17", 
+    "cmd": "37", 
+    "cmb": "+15", 
+    "will": "+14", 
+    "aura": "beguiling aura", 
+    "sr": "21", 
+    "organization": "solitary or troupe (1 nereid plus 1 giant squid, 1 giant octopus, 1 giant moray eel, or an orca)", 
+    "creature_subtype": "water"
+}

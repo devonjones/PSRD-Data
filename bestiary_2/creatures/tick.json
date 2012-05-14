@@ -1,0 +1,153 @@
+{
+    "source": "Bestiary 2", 
+    "sections": [
+        {
+            "dexterity": "10", 
+            "ac": "16, touch 11, flat-footed 16 (+5 natural, +1 size)", 
+            "special_attacks": "blood drain (1 Constitution)", 
+            "intelligence": "-", 
+            "racial_modifiers": "+4 Stealth", 
+            "melee": "bite +2 (1d4 plus grab, attach, and disease)", 
+            "cr": "1", 
+            "xp": "400", 
+            "speed": "20 ft., climb 20 ft.", 
+            "alignment": "N", 
+            "size": "Small", 
+            "strength": "11", 
+            "constitution": "15", 
+            "source": "Bestiary 2", 
+            "treasure": "none", 
+            "charisma": "2", 
+            "environment": "temperate forests", 
+            "immune": "mind-affecting effects", 
+            "init": "+0", 
+            "fortitude": "+5", 
+            "reflex": "+0", 
+            "senses": "darkvision 60 ft., scent; Perception +0", 
+            "description": "This dog-sized tick has a grotesquely bulbous body and a thin head equipped with hooked mandibles. ", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Grab", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "A giant tick can grab targets of any size, and has a +8 racial bonus on grapple checks rather than the normal +4 bonus most creatures with grab possess.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Disease", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "Red ache: Bite&mdash;injury; save Fort DC 13; onset 1d3 days; frequency 1/day; effect 1d6 Str damage; cure 2 consecutive saves. The DC is Constitution-based.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 2"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>In areas where large creatures like megafauna or dinosaurs dwell, the giant tick behaves much like its smaller kin&mdash;it lies in wait in the undergrowth, and when a suitable host passes by, it drops onto the body to feed. In other areas, these vermin are much more aggressive, and actively hunt smaller prey like dogs, livestock, or even humanoids. A giant tick drains blood quickly, but once it has caused 6 points of Constitution damage, it drops off, sated, to crawl away to digest. A giant tick is 3 feet long and weighs 50 pounds.</p>"
+                }
+            ], 
+            "hp": "13 (2d8+4)", 
+            "wisdom": "11", 
+            "creature_type": "Vermin", 
+            "base_attack": "+1", 
+            "name": "Tick, Giant", 
+            "skills": "Climb +8, Stealth +8", 
+            "type": "creature", 
+            "cmd": "10 (22 vs. trip)", 
+            "cmb": "+0 (+8 grapple)", 
+            "will": "+0", 
+            "organization": "solitary, pair, cluster (3-6), or nest (7-12)"
+        }, 
+        {
+            "dexterity": "14", 
+            "ac": "23, touch 20, flat-footed 21 (+2 Dex, +3 natural, +8 size)", 
+            "special_attacks": "blood drain (1d4 Con), cling, distraction (DC 21)", 
+            "intelligence": "-", 
+            "racial_modifiers": "uses Dex on Climb checks", 
+            "melee": "swarm (4d6 plus disease, distraction, and blood drain)", 
+            "cr": "9", 
+            "xp": "6,400", 
+            "speed": "30 ft., climb 30 ft.", 
+            "alignment": "N", 
+            "size": "Fine", 
+            "strength": "1", 
+            "constitution": "16", 
+            "source": "Bestiary 2", 
+            "treasure": "none", 
+            "charisma": "1", 
+            "environment": "temperate forests", 
+            "immune": "mind-affecting effects, weapon damage", 
+            "init": "+2", 
+            "fortitude": "+13", 
+            "type": "creature", 
+            "senses": "darkvision 60 ft., scent; Perception +0", 
+            "description": "The rasping legs of this hideous, shining carpet of fist-sized ticks rattle ominously as the swarm skitters forward. ", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Cling", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "If a creature leaves a tick swarm's square, the swarm takes 1d6 points of damage to reflect the loss of its numbers as several ticks cling to the victim. A creature with ticks clinging to it takes swarm damage at the end of its turn each round. As a full round action, the creature can remove the ticks with a DC 20 Reflex save. At least 10 points of damage from any area effect destroys all clinging ticks. The save DC is Dexterity-based.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Disease", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "Bubonic Plague: Bite&mdash;injury; save Fort DC 21; onset 1 day; frequency 1/day; effect 1d4 Con damage, 1 Cha damage, fatigue; cure 2 consecutive saves. The DC is Con-based.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 2"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Tick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks. </p>"
+                }
+            ], 
+            "hp": "120 (16d8+48)", 
+            "wisdom": "11", 
+            "defensive_abilities": "swarm traits", 
+            "creature_type": "Vermin", 
+            "base_attack": "+12", 
+            "name": "Tick Swarm", 
+            "skills": "Climb +10", 
+            "reflex": "+7", 
+            "cmd": "&mdash", 
+            "cmb": "&shy;-", 
+            "will": "+5", 
+            "organization": "solitary, pair, or colony (3-6)", 
+            "creature_subtype": "swarm"
+        }
+    ], 
+    "name": "Tick", 
+    "type": "section"
+}

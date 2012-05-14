@@ -1,0 +1,130 @@
+{
+    "dexterity": "14", 
+    "ac": "17, touch 12, flat-footed 15 (+5 armor, +2 Dex)", 
+    "special_attacks": "channel positive energy 5/day (DC 12, 1d6)", 
+    "intelligence": "10", 
+    "resist": "cold 5", 
+    "melee": "trident +0 (1d8)", 
+    "cr": "1/2", 
+    "xp": "200", 
+    "speed": "30 ft.; 20 ft. in armor, swim 30 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "environment": "any land", 
+    "strength": "11", 
+    "constitution": "8", 
+    "treasure": "NPC gear (scale mail, trident, other treasure)", 
+    "charisma": "14", 
+    "languages": "Aquan, Common", 
+    "source": "Bestiary 2", 
+    "init": "+1", 
+    "fortitude": "+1", 
+    "spells": {
+        "spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1/day-<i>hydraulic push</i></p>", 
+        "domain spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">6/day-dazing touch</p><p class=\"stat-block-2\">6/day-icicle (1d6+1 cold damage)</p>", 
+        "cleric spells prepared": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1st-<i>bless</i>, <i>charm person</i>, <i>divine favor</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>guidance</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domains</b> Charm, Water</p>"
+    }, 
+    "type": "creature", 
+    "feats": "Weapon Focus (heavy mace)", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Elemental Affinity", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Undine sorcerers with the elemental (water) bloodline treat their Charisma score as 2 points higher for all sorcerer class abilities. Undine clerics with the Water domain cast their Water domain powers and spells at +1 caster level.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Undines are humans whose ancestry includes elemental beings of water, such as marids. This connection with the Plane of Water is most noticeably manifested in their coloration, which tends to mimic that of lakes or oceans&mdash;all undines have limpid, blue eyes, and their skin and hair can range from pale blue-white to the deep blue or green of the sea.</p>"
+        }, 
+        {
+            "sections": [
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"+2-dexterity,-+2-wisdom,--2-strength\">Undines are both perceptive and agile, but tend to adapt rather than match force with force. </p>", 
+                    "type": "section", 
+                    "name": "+2 Dexterity, +2 Wisdom, -2 Strength", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"speed\">Undines have a swim speed of 30 feet.</p>", 
+                    "type": "section", 
+                    "name": "Speed", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"darkvision\">Undines can see in the dark up to 60 feet.</p>", 
+                    "type": "section", 
+                    "name": "Darkvision", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"spell-like-abilities\"><i>Hydraulic push</i> 1/day. (Caster level equals the undine's total Hit Dice.)</p>", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"elemental-resistance\">Undines have cold resistance 5.</p>", 
+                    "type": "section", 
+                    "name": "Elemental Resistance", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"elemental-affinity\">See above.</p>", 
+                    "type": "section", 
+                    "name": "Elemental Affinity", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"languages\">Undines begin play speaking Common and Aquan. Undines with high Intelligence scores can choose any of the following bonus languages: Auran, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran.</p>", 
+                    "type": "section", 
+                    "name": "Languages", 
+                    "sections": []
+                }
+            ], 
+            "name": "Undine", 
+            "subtype": "monster_race", 
+            "text": "<p>Undines are defined by class levels&mdash;they do not possess racial Hit Dice. Undines have the following racial traits.</p>", 
+            "source": "Bestiary 2", 
+            "type": "race"
+        }
+    ], 
+    "senses": "darkvision 60 ft.; Perception +3", 
+    "description": "This blue-haired, blue-skinned man moves with a liquid grace. His ears are fin-like, and his hands and feet are webbed.", 
+    "ranged": "sling +2 (1d4)", 
+    "hp": "8 (1d8)", 
+    "wisdom": "17", 
+    "creature_type": "Outsider", 
+    "special_qualities": "elemental affinity", 
+    "base_attack": "+0", 
+    "name": "Undine", 
+    "level": "cleric 1", 
+    "skills": "Diplomacy +6, Knowledge (religion) +4, Swim +4", 
+    "reflex": "+3", 
+    "cmd": "12", 
+    "cmb": "+0", 
+    "will": "+5", 
+    "organization": "solitary, pair, or gang (3-5)", 
+    "creature_subtype": "native"
+}

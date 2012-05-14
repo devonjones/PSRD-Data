@@ -1,0 +1,51 @@
+{
+    "school": "conjuration", 
+    "saving_throw": "none", 
+    "name": "Stone Call", 
+    "descriptor": [
+        "earth"
+    ], 
+    "text": "<p>A rain of dirt, gravel, and small pebbles fills the area, dealing 2d6 points of bludgeoning damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, this debris covers the ground, making the entire area difficult terrain. At the end of the duration, the rocks disappear, leaving no aftereffects (other than the damage dealt).</p>", 
+    "spell_resistance": "no", 
+    "level": [
+        {
+            "class": "Druid", 
+            "level": 2
+        }, 
+        {
+            "class": "Ranger", 
+            "level": 2
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 2
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 2
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Player's Guide", 
+    "range": "medium (100 ft. + 10 ft./level)", 
+    "effects": [
+        {
+            "text": "cylinder (40-ft. radius, 20 ft. high)", 
+            "name": "Area"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "type": "DF"
+        }
+    ], 
+    "duration": "1 round/level", 
+    "subschool": "creation", 
+    "type": "spell"
+}

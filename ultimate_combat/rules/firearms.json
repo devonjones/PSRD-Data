@@ -1,0 +1,736 @@
+{
+    "source": "Ultimate Combat", 
+    "sections": [
+        {
+            "source": "Ultimate Combat", 
+            "text": "<p>Guns are not strangers to fantasy. The earliest authors of fantasy and weird fiction often included guns in their stories. Heroes like Burroughs's John Carter or Howard's Solomon Kane carried pistols alongside their swords, and it's hard to imagine a pirate ship without cannons blazing. These authors likely included guns because they are exciting, but also because the guns they chose were primitive ones&mdash;relatively unpredictable weapons, prone to misfire and malfunction. This made firearms excellent storytelling devices. Such weapons could cause hero or villain to falter or triumph, changing the action within the tale in a flash or a fizzle. Still, a firearm remains an ominous and terrible weapon in the hands of a skilled gunman.</p><p>This section presents an anachronistic collection of hand-held black powder weapons. Most of them are single-shot muzzle-loaders with highly inefficient triggering mechanisms&mdash;traditional sword and sorcery firearms. More advanced firearms are also presented for those brave enough to mix their fantasy with a technology much closer to that of the Old West than the slow and unstable weapons that gave musketeers their name. If you are interested in letting such weapons in your game, do so with the following warning: Advanced guns can substantially change the assumptions of your game world, in the same way that they changed the face of warfare in the real world. If you like your fantasy to be of the more traditional variety, stand clear. Or, better yet, run for cover. </p>", 
+            "type": "section", 
+            "name": "Firearms"
+        }, 
+        {
+            "source": "Ultimate Combat", 
+            "text": "<p>Firearms and gunslingers are not for every campaign, and even if you are excited about introducing firearms into your campaign, you should still make a decision about how commonplace they are. The following are broad categories of firearm rarity and the rules that govern them. Pathfinder's world of Golarion uses the rules for emerging guns, which is also the default category of gun rarity detailed in this Pathfinder RPG supplement. </p>", 
+            "type": "section", 
+            "name": "Firearms in Your Campaign", 
+            "sections": [
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"no-guns\">If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them.</p>", 
+                    "type": "section", 
+                    "name": "No Guns"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"very-rare-guns\">Early firearms are rare; advanced firearms, the gunslinger class, the Amateur Gunslinger feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items&mdash;things of wonder and mystery&mdash;rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the Gunsmithing feat.</p>", 
+                    "type": "section", 
+                    "name": "Very Rare Guns"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"emerging-guns\">Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two&mdash;the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition given in this chapter are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the Craft Firearms feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items&mdash;the stuff of high-level treasure troves. </p>", 
+                    "type": "section", 
+                    "name": "Emerging Guns"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"commonplace-guns\">While still expensive and tricky to wield, early firearms are readily available. Instead of requiring the Exotic Weapon Proficiency feat, all firearms are martial weapons. Early firearms and their ammunition cost 25% of the amounts listed in this book, but advanced firearms and their ammunition are still rare and cost the full price to purchase or craft. </p>", 
+                    "type": "section", 
+                    "name": "Commonplace Guns"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"guns-everywhere\">Guns are commonplace. Early firearms are seen as antiques, and advanced firearms are widespread. Firearms are simple weapons, and early firearms, advanced guns, and their ammunition are bought or crafted for 10% of the cost listed in this chapter. The gunslinger loses the gunsmith class feature and instead gains the gun training class feature at 1st level.</p>", 
+                    "type": "section", 
+                    "name": "Guns Everywhere"
+                }
+            ]
+        }, 
+        {
+            "source": "Ultimate Combat", 
+            "text": "<p class=\"body-copy-indent para-style-override-4\">Firearms work differently from other ranged projectile weapons&mdash;they instead use the following rules. </p>", 
+            "type": "section", 
+            "name": "Firearm Rules", 
+            "sections": [
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"firearm-proficiency\">The Exotic Weapon Proficiency (firearms) feat allows you to use all firearms without penalty. A nonproficient character takes the standard &ndash;4 penalty on attack rolls with firearms, and a nonproficient character who loads a firearm increases all misfire values by 4 for the shots he loads.</p><p>Even though the Exotic Weapon Proficiency (firearms) feat grants you proficiency with all firearms, anytime you take a feat that modifies a single type of weapon (such as Weapon Focus or Rapid Reload), you must still pick one specific type of firearm (such as musket, axe musket, blunderbuss, pistol, or double pistol) for that feat to affect.</p><p>All firearms are part of the same weapon group for the purposes of the fighter's weapon training class feature. </p>", 
+                    "type": "section", 
+                    "name": "Firearm Proficiency"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"capacity\">A firearm's capacity is the number of shots it can hold at one time. When making a full-attack action, you may fire a firearm as many times in a round as you have attacks, up to this limit, unless you can reload the weapon as a swift or free action while making a full-attack action. In the case of early firearms, capacity often indicates the number of barrels a firearm has. In the case of advanced firearms, it typically indicates the number of chambers the weapon has.</p>", 
+                    "type": "section", 
+                    "name": "Capacity"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"range-and-penetration\">Armor, whether manufactured or natural, provides little protection against the force of a bullet at short range. </p>", 
+                    "type": "section", 
+                    "name": "Range and Penetration", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"early-firearms\" class=\"stat-block-2\">When firing an early firearm, the attack resolves against the target's touch AC when the target is within the first range increment of the weapon, but this type of attack is not considered a touch attack for the purposes of feats and abilities such as Deadly Aim. At higher range increments, the attack resolves normally, including taking the normal cumulative &ndash;2 penalty for each full range increment. Unlike other projectile weapons, early firearms have a maximum range of five range increments. </p>", 
+                            "type": "section", 
+                            "name": "Early Firearms"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-firearms\" class=\"stat-block-2\">Advanced firearms resolve their attacks against touch AC when the target is within the first five range increments, but this type of attack is not considered a touch attack for the purposes of feats such as Deadly Aim. At higher range increments, the attack resolves normally, including taking the normal cumulative &ndash;2 penalty for each full-range increment. Advanced firearms have a maximum range of 10 range increments.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Firearms"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"loading-a-firearm\">You need at least one hand free to load one-handed and two-handed firearms. In the case of two-handed firearms, you hold the weapon in one hand and load it with the other&mdash;you only need to hold it in two hands to aim and shoot the firearm. Loading siege firearms requires both hands, and one hand usually manipulates a large ramrod (which can be wielded as a club in combat). </p><p>The Rapid Reload feat reduces the time required to load one-handed and two-handed firearms, but this feat does not reduce the time it takes to load siege firearms.</p><p>Loading any firearm provokes attacks of opportunity. </p><p>Other rules for loading a firearm depend on whether the firearm is an early firearm or an advanced firearm.</p>", 
+                    "type": "section", 
+                    "name": "Loading a Firearm", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"early-firearms\" class=\"stat-block-2\">Early firearms are muzzle-loaded, requiring bullets or pellets and black powder to be rammed down the muzzle. If an early firearm has multiple barrels, each barrel must be loaded separately. It is a standard action to load each barrel of a one-handed early firearm and a full-round action to load each barrel of a two-handed early firearm. It takes three full-round actions by one person to load a siege firearm. This can be reduced to two full-round actions if more than one person is loading the cannon. </p>", 
+                            "type": "section", 
+                            "name": "Early Firearms"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-firearms\" class=\"stat-block-2\">Advanced firearms are chamber-loaded. It is a move action to load a one-handed or two-handed advanced firearm to its full capacity. </p>", 
+                            "type": "section", 
+                            "name": "Advanced Firearms"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"misfires\">If the natural result of your attack roll falls within a firearm's misfire value, that shot misses, even if you would have otherwise hit the target. When a firearm misfires, it gains the broken condition. While it has the broken condition, it suffers the normal disadvantages that broken weapons do, and its misfire value increases by 4 unless the wielder has gun training in the particular type of firearm. In that case, the misfire value increases by 2 instead of 4. </p>", 
+                    "type": "section", 
+                    "name": "Misfires", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"early-firearms\" class=\"stat-block-2\">If an early firearm with the broken condition misfires again, it explodes. When a nonmagical firearm explodes, the weapon is destroyed. Magical firearms are wrecked, which means they can't fire until they are fully restored (which requires either the <i>make whole</i> spell or the Gunsmithing feat). When a gun explodes, pick one corner of your square&mdash;the explosion creates a burst from that point of origin. Each firearm has a burst size noted in parentheses after its misfire value. Any creature within this burst (including the firearm's wielder) takes damage as if it had been hit by the weapon&mdash;a DC 12 Reflex save halves this damage.</p>", 
+                            "type": "section", 
+                            "name": "Early Firearms"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-firearms\" class=\"stat-block-2\">Advanced firearms can misfire, but when they do, they only gain the broken condition. A further misfire does not cause advanced firearms to explode.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Firearms"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"ammunition\">Firearm ammunition takes two forms: either black powder and shot (either bullets or pellets) or cartridges. Unlike other types of ammunition, firearm ammunition is destroyed when it is used, and has no chance of being retrieved on a miss. No part of a cartridge can be reused to create new cartridges. Firearm ammunition cannot be treated with poison, unless you are using a pitted bullet.</p>", 
+                    "type": "section", 
+                    "name": "Ammunition"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"concealing-firearms\">Like light weapons and hand crossbows, one-handed firearms are easy to conceal on your person. Some smaller firearms (like the coat pistol) can grant bonuses to conceal a weapon on your person. </p>", 
+                    "type": "section", 
+                    "name": "Concealing Firearms"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"inappropriately-sized-firearms\">You cannot make optimum use of a firearm that is not properly sized for you. A cumulative &ndash;2 penalty applies on attack rolls for each size category of difference between your size and the size of the firearm. If you are not proficient with the firearm, a &ndash;4 nonproficiency penalty also applies. The size of a firearm never affects how many hands you need to use to shoot it, the exception being siege firearms and Large or larger creatures. In most cases, a Large or larger creature can use a siege firearm as a two-handed firearm, but the creature takes a &ndash;4 penalty for using it this way because of its awkwardness. </p>", 
+                    "type": "section", 
+                    "name": "Inappropriately Sized Firearms"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"bucklers\">You can use a one-handed or two-handed firearm without penalty while carrying a buckler. </p>", 
+                    "type": "section", 
+                    "name": "Bucklers"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"fire-while-prone\">Firearms, like crossbows, can be fired while their wielders are prone.</p>", 
+                    "type": "section", 
+                    "name": "Fire while Prone"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"firearms,-black-powder,-and-water\">Black powder becomes useless when exposed to water, but powder horns and cartridges protect black powder from exposure. You cannot normally load an early firearm underwater or fire any firearm underwater without magical aid.</p>", 
+                    "type": "section", 
+                    "name": "Firearms, Black Powder, and Water"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"deflecting-and-snatching-bullets\">The Deflect Arrows feat and the Snatch Arrows feat can be used to deflect bullets, but not pellets shot from a scatter weapon. Neither of these feats can be used to deflect siege firearm attacks. </p>", 
+                    "type": "section", 
+                    "name": "Deflecting and Snatching Bullets"
+                }
+            ]
+        }, 
+        {
+            "source": "Ultimate Combat", 
+            "text": "<p>There are two general categories of firearms: early and advanced. </p><p>Firearms are further divided into one-handed, two-handed, and siege firearms. As the category's name implies, one-handed firearms need only one hand to wield and shoot. Two-handed firearms work best when you use two-hands while shooting them. Two-handed firearms can be shot with one hand at a &ndash;4 penalty on the attack roll. Siege weapons are typically mounted on some sort of platform, movable or otherwise, and have greater power but a much slower rate of fire&mdash;they're detailed in their own section.</p>", 
+            "type": "section", 
+            "name": "Firearm Descriptions", 
+            "sections": [
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"scatter-weapon-quality\">A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a &ndash;2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as Vital Strike. Effects that grant concealment, such as fog or smoke, or the <i>blur, invisibility</i>, or <i>mirror image</i> spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius.</p>", 
+                    "type": "section", 
+                    "name": "Scatter Weapon Quality"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p>Early firearms are typically matchlock, wheellock, or flintlock weapons, and require more finesse and care to use than advanced firearms. Early firearms are muzzle-loaded, requiring a bullet and powder (or other special alchemical substances) to be shoved down the barrel before the weapon is fired. Early firearm ammunition can be loaded from a cartridge, but that cartridge is made of soft material (like paper or cloth) that is torn open so that the contents may be shoved down the barrel.</p>", 
+                    "type": "section", 
+                    "name": "Early Firearms", 
+                    "sections": [
+                        {
+                            "text": "<table id=\"table-early-firearms\"><caption>Table: Early Firearms</caption>\n<thead><tr><th>Firearm</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Misfire</th><th>Capacity</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"11\"><i>One-Handed Firearms</i></td></tr>\n<tr class=\"even\"><td>Buckler gun</td><td>750 gp</td><td>1d4</td><td>1d6</td><td>&times;4</td><td>10 ft.</td><td>1 (5 ft.)</td><td>2</td><td>6 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Pepperbox</td><td>3,000 gp</td><td>1d6</td><td>1d8</td><td>&times;4</td><td>20 ft.</td><td>1&ndash;2 (5 ft.)</td><td>6</td><td>5 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Pistol</td><td>1,000 gp</td><td>1d6</td><td>1d8</td><td>&times;4</td><td>20 ft.</td><td>1 (5 ft.)</td><td>1</td><td>4 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Pistol, coat</td><td>750 gp</td><td>1d3</td><td>1d4</td><td>&times;3</td><td>10 ft.</td><td>1 (5 ft.)</td><td>1</td><td>1 lb.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Pistol, dagger</td><td>740 gp</td><td>1d3</td><td>1d4</td><td>&times;3</td><td>10 ft.</td><td>1 (5 ft.)</td><td>1</td><td>1 lb.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Pistol, double-barreled</td><td>1,750 gp</td><td>1d6</td><td>1d8</td><td>&times;4</td><td>20 ft.</td><td>1&ndash;2 (5 ft.)</td><td>2</td><td>5 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Pistol, dragon</td><td>1,000 gp</td><td>1d4</td><td>1d6</td><td>&times;4</td><td>20 ft.</td><td>1&ndash;2 (5 ft.)</td><td>1</td><td>3 lbs.</td><td>B and P</td><td>scatter</td></tr>\n<tr class=\"odd\"><td>Pistol, sword cane</td><td>775 gp</td><td>1d3</td><td>1d4</td><td>&times;3</td><td>10 ft.</td><td>1 (5 ft.)</td><td>1</td><td>1 lb.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td colspan=\"11\"><i>Two-Handed Firearms</i></td></tr>\n<tr class=\"odd\"><td>Blunderbuss</td><td>2,000 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>special</td><td>1&ndash;2 (10 ft.)</td><td>1</td><td>8 lbs.</td><td>B and P </td><td>scatter</td></tr>\n<tr class=\"even\"><td>Culverin</td><td>4,000 gp</td><td>2d6</td><td>2d8</td><td>&times;4</td><td>30 ft.</td><td>1 (10 ft.)</td><td>1</td><td>40 lbs.</td><td>B and P</td><td>scatter</td></tr>\n<tr class=\"odd\"><td>Double hackbut</td><td>4,000 gp</td><td>2d10</td><td>2d12</td><td>&times;4</td><td>50 ft.</td><td>1&ndash;2 (5 ft.)</td><td>2</td><td>18 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Fire lance</td><td>25 gp</td><td>1d4</td><td>1d6</td><td>&times;4</td><td>10 ft.</td><td>1&ndash;4 (5 ft.)</td><td>1</td><td>4 lbs.</td><td>P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Musket</td><td>1,500 gp</td><td>1d10</td><td>1d12</td><td>&times;4</td><td>40 ft.</td><td>1&ndash;2 (5 ft.)</td><td>1</td><td>9 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Musket, axe</td><td>1,600 gp</td><td>1d6</td><td>1d8</td><td>&times;4</td><td>30 ft.</td><td>1&ndash;2 (5 ft.)</td><td>1</td><td>6 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Musket, double-barreled</td><td>2,500 gp</td><td>1d10</td><td>1d12</td><td>&times;4</td><td>10 ft.</td><td>1&ndash;3 (5 ft.)</td><td>2</td><td>11 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Musket, warhammer</td><td>1,600 gp</td><td>1d6</td><td>1d8</td><td>&times;4</td><td>30 ft.</td><td>1&ndash;2 (5 ft.)</td><td>1</td><td>6 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tfoot><tr><td colspan=\"11\"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weights twice as much.<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies \u201cor.\u201d </td></tr></tfoot></table>", 
+                            "type": "table", 
+                            "name": "Early", 
+                            "source": "Ultimate Combat"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"blunderbuss\">This weapon fires pellets or a bullet from its trumpet-shaped barrel, making it an effective fowling weapon or close-fighting personal defense weapon. The blunderbuss fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A blunderbuss uses a bullet or pellets and a single dose of black powder or a single alchemical cartridge as ammunition. </p>", 
+                            "type": "section", 
+                            "name": "Blunderbuss"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"buckler-gun\">The front of this buckler is fitted with a small, double-barreled gun that can be shot while wearing the buckler. Unlike with a double-barreled pistol, you can only shoot one barrel at a time. You must remove the buckler to reload the gun. Each barrel of a buckler gun uses a bullet and 1 dose of black powder or single alchemical cartridge as ammunition. Because of its awkward construction, a buckler gun is always considered an off-handed weapon.</p>", 
+                            "type": "section", 
+                            "name": "Buckler Gun"
+                        }, 
+                        {
+                            "name": "Culverin", 
+                            "text": "<p id=\"culverin-(hand-bombard)\">The culverin, also known as a hand bombard, consists of a simple smoothbore tube, sealed at one end except for a small hole used to ignite a gunpowder charge. A wooden stock partially encases the barrel, allowing the wielder to hold it under his arm with relative ease when carrying it. Firing a culverin without support (such as a wall, a window, or a stand) imparts a &ndash;4 penalty on the attack rolls, and the wielder is knocked prone. A culverin uses 4 doses of black powder and grapeshot. Note that these statistics simulate only the original, hand-held culverins&mdash;their larger descendants are considered cannons and are dealt with in the section on siege weapons.</p>", 
+                            "source": "Ultimate Combat", 
+                            "abbrev": "Hand Bombard", 
+                            "type": "section"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"double-hackbut\">This double-length rifle uses a pair of trunnions to mount its barrel into a swiveling mechanism fastened to a lightweight, two-wheeled carriage. It takes a full-round action to set up the carriage. The carriage has a hind leg, allowing the wielder to wheel the device about and immediately prop it for stability during combat. Unlike other two-handed firearms, you must fire the double hackbut while it is mounted, or else firing it imparts a &ndash;4 penalty on attack rolls and the recoil knocks the wielder prone. A Large or larger creature can fire a double hackbut one size smaller than it is without its mounting as a normal two-handed weapon and without the danger of being knocked prone, but takes the normal penalty for firing an inappropriately sized weapon.</p>", 
+                            "type": "section", 
+                            "name": "Double Hackbut"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"fire-lance\">This primitive firearm is nothing more than a long tube that, when ignited, propels a short gout of flame and a javelin. Unlike other firearms, the fire lance is wildly imprecise, and targets AC rather than touch AC. A fire lance is always treated as having the broken condition for the purpose of determining the effects of a misfire. A fire lances uses a javelin and 2 doses of black powder as ammunition. </p>", 
+                            "type": "section", 
+                            "name": "Fire Lance"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"musket\">This long-barreled firearm has a much greater range than a pistol. A musket uses either a bullet and a single dose of black powder or an alchemical cartridge as its ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Musket"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"musket,-axe\">This musket features an axe blade at the end of its barrel. It can be used as both a musket and a battleaxe. It is considered a double weapon for purposes of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the axe are considered broken. An axe musket uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition. </p>", 
+                            "type": "section", 
+                            "name": "Musket, Axe"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"musket,-double-barreled\">This musket has two parallel barrels; each barrel can be shot independently as a separate action, or both can be fired at once as the same attack. If both barrels are fired at once, they must both target the same creature or object, and the gun becomes wildly inaccurate, taking a &ndash;4 penalty on each shot. Each barrel of a double-barreled musket uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Musket, Double-Barreled"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"musket,-warhammer\">This musket has a warhammer head at the end of its barrel, which allows it to be used as both a musket and a warhammer. It is considered a double weapon for purposes of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the warhammer are considered broken. A warhammer musket uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Musket, Warhammer"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pepperbox\">This pistol has six barrels instead of one. The entire barrel housing can be quickly rotated by hand between shots (a free action requiring one free hand), allowing all six bullets to be fired before the weapon must be reloaded. Each barrel of a pepperbox uses either a bullet and a single dose of black powder or a single alchemical cartridge as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Pepperbox"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pistol\">The single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. A pistol uses either a bullet and a singe dose of black powder or an alchemical cartridge as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Pistol"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pistol,-coat\">Less powerful than other firearms, this pistol is small enough to be easily concealed in a jacket or coat. You get a +2 bonus on Sleight of Hand checks made to conceal a coat pistol on your body. A coat pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition. </p>", 
+                            "type": "section", 
+                            "name": "Pistol, Coat"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pistol,-dagger\">A combination of a coat pistol and a blade, the dagger pistol can be used as both weapons. The awkwardness of the configuration means you do not gain the bonus on Sleight of Hand checks that either of those stand-alone weapons grants. The dagger pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the dagger component are considered broken. A dagger pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Pistol, Dagger"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pistol,-double-barreled\">This pistol has two parallel barrels; each barrel can be fired independently as a separate action, or both can be shot at once with the same action. If both barrels are shot at once, they must both target the same creature or object, and the pistol becomes wildly inaccurate, imparting a &ndash;4 penalty on each shot.</p>", 
+                            "type": "section", 
+                            "name": "Pistol, Double-Barreled"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pistol,-dragon\">Like a miniature blunderbuss, the dragon pistol fires pellets or a bullet from its flared barrel. The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. For ammunition, a dragon pistol uses a bullet or group of pellets and a single dose of black powder, or else a single alchemical cartridge (with either bullets or pellets) as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Pistol, Dragon"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pistol,-sword-cane\">A combination weapon, this gun mixes a coat pistol with a sword cane (<i>Advanced Player's Guide</i> 179). The sword cane pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. The pistol attachment makes the nature of the weapon a little more difficult to hide. An observer must make a DC 15 Perception check to realize that an undrawn sword cane pistol is a weapon rather than a walking stick; the DC decreases to 5 if the observer is able to handle the weapon. A sword cane pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition. The sword part of the weapon must be drawn in order to load the pistol part of the weapon. </p>", 
+                            "type": "section", 
+                            "name": "Pistol, Sword Cane"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p>Advanced firearms are more reliable and accurate than early firearms. The ammunition of an advanced firearm takes the form of metal (usually brass) cartridges that are loaded into a chamber rather than shoved down the muzzle.</p>", 
+                    "type": "section", 
+                    "name": "Advanced Firearms", 
+                    "sections": [
+                        {
+                            "text": "<table id=\"table-advanced-firearms\"><caption>Table: Advanced Firearms</caption>\n<thead><tr><th>Firearm</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Misfire</th><th>Capacity</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"11\"><i>One-Handed Firearms</i></td></tr>\n<tr class=\"even\"><td>Revolver</td><td> 4,000 gp</td><td>1d6</td><td>1d8</td><td>&times;4</td><td>20 ft.</td><td>1</td><td>6</td><td>4 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td colspan=\"11\"><i>Two-Handed Firearms</i></td></tr>\n<tr class=\"even\"><td>Rifle</td><td>5,000 gp</td><td>1d8</td><td>1d10</td><td>&times;4</td><td>80 ft.</td><td>1</td><td>1</td><td>12 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Rifle, pepperbox</td><td>7,000 gp</td><td>1d8</td><td>1d10</td><td>&times;4</td><td>80 ft. </td><td>1&ndash;2</td><td>4</td><td>15 lbs.</td><td>B and P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Shotgun</td><td>5,000 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>20 ft.</td><td>1&ndash;2</td><td>1</td><td>12 lbs.</td><td>B and P</td><td>scatter</td></tr>\n<tr class=\"odd\"><td>Shotgun, double-barreled</td><td>7,000 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>20 ft.</td><td>1&ndash;2</td><td>2</td><td>15 lbs.</td><td>B and P</td><td>scatter</td></tr>\n<tfoot><tr><td colspan=\"11\"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.\n<sup>2</sup> A weapon with two types is both types if the entry specifies \u201cand.\u201d</td></tr></tfoot></table>", 
+                            "type": "table", 
+                            "name": "Advanced", 
+                            "source": "Ultimate Combat"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"revolver\">A revolver is a pistol with a revolving cylinder containing six chambers. Each chamber can hold a metal cartridge, and when one cartridge is shot, the cylinder automatically rotates (no extra hand or action required), readying the next chamber for firing. A revolver uses metal cartridges as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Revolver"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rifle\">This improvement on the musket, featuring grooved barrels, can fire farther and with more accuracy than early long-bore firearms. A rifle uses metal cartridges as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Rifle"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rifle,-pepperbox\">The four barrels of this rifle are set into a turnable housing that can be quickly rotated by hand (a free action) between shots. A pepperbox rifle uses metal cartridges as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Rifle, Pepperbox"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"shotgun\">This advanced version of the blunderbuss shoots in a 30-foot cone when firing pellets, and has a 20-foot range increment when firing a bullet (often called a slug). A shotgun uses metal cartridges (loaded with either a bullet or pellets) as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Shotgun"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"shotgun,-double-barreled\">This twin-barreled shotgun can be shot either one barrel at a time, or both together as one attack. A double shot that fires bullets is inaccurate, and takes a &ndash;4 penalty on both attacks. A double shot that fires bullets targets only a single creature and increases the damage of each barrel to 2d6 points (Small) or 2d8 points (Medium) for a total of 4d6 or 4d8 points. A double-barreled shotgun uses metal cartridges (loaded with either a bullet or pellets) as ammunition.</p>", 
+                            "type": "section", 
+                            "name": "Shotgun, Double-Barreled"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p>Those who wield guns have a number of options when it comes to loading their weapons, and often need gunsmith's kits to provide proper care and upkeep for their firearms. </p>", 
+                    "type": "section", 
+                    "name": "Firearm Ammunition and Adventuring Gear", 
+                    "sections": [
+                        {
+                            "text": "<table id=\"table-firearm-gear\"><caption>Table: Firearm Gear</caption>\n<thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead><thead>\n<tr class=\"odd\"><td>Alchemical cartridge, dragon's breath</td><td>40 gp</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Alchemical cartridge, entangling shot</td><td>40 gp</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Alchemical cartridge, flare</td><td>10 gp</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Alchemical cartridge, paper (bullet or pellet)</td><td>12 gp</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Alchemical cartridge, salt shot</td><td>12 gp</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Black powder (dose)</td><td>10 gp</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Black powder (keg)</td><td>1,000 gp</td><td>5 lbs.</td></tr>\n<tr class=\"even\"><td>Firearm bullet (1)</td><td>1 gp</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Firearm bullet (30)</td><td>30 gp</td><td>1/2 lb. </td></tr>\n<tr class=\"even\"><td>Bullet, adamantine</td><td>61 gp</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Firearm bullet, pitted</td><td>5 gp<sup>1</sup></td><td>&mdash; </td></tr>\n<tr class=\"even\"><td>Firearm bullet, silver</td><td>25 gp</td><td>&mdash; </td></tr>\n<tr class=\"odd\"><td>Gunsmith's kit</td><td>15 gp</td><td>2 lb. </td></tr>\n<tr class=\"even\"><td>Metal cartridge</td><td>15 gp</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Pellets (handful)</td><td>1 gp</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Pellets (30 handfuls)</td><td>30 gp</td><td>1/2 lb.</td></tr>\n<tr class=\"odd\"><td>Powder horn</td><td>3 gp</td><td>1 lb.</td></tr>\n</thead><tfoot><tr><td colspan=\"3\"><sup>1</sup> Does not include the cost of poison compound.</td></tr></tfoot></table>", 
+                            "type": "table", 
+                            "name": "Firearm", 
+                            "source": "Ultimate Combat"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"alchemical-cartridges\">An alchemical cartridge is a prepared bundle of black powder with a bullet or pellets, sometimes with more exotic material added, which is then wrapped in paper or cloth and sealed with beeswax, lard, or tallow. There are many types of alchemical cartridges, the simplest being the paper cartridge&mdash;a simple mix of black powder and either pellets or a bullet. Alchemical cartridges make loading a firearm easier, reducing the time to load a firearm by one step (a full-round action becomes a standard action, a standard action becomes a move action, and a move action becomes a free action), but they tend to be unstable. The misfire value of a weapon firing an alchemical cartridge increases as listed in each entry. </p>", 
+                            "type": "section", 
+                            "name": "Alchemical Cartridges", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "text": "<p id=\"dragon's-breath-cartridge\" class=\"stat-block-2\">This cartridge contains alchemical compounds that, when fired, produce a cone of fire instead of the normal attack of a one-handed or two-handed firearm with the scatter weapon quality. The nonmagical flame deals 2d6 points of fire damage to all targets within the cone of the scatter firearm (DC 15 Reflex save for half). These cartridges cannot be used in firearms that don't have the scatter weapon quality. Because this ammunition forces a saving throw instead of making an attack roll, the misfire rules are slightly different. If you roll a 1 with either of the damage dice, the firearm misfires. </p>", 
+                                    "type": "section", 
+                                    "name": "Dragon's Breath Cartridge"
+                                }, 
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "text": "<p id=\"entangling-shot-cartridge\" class=\"stat-block-2\">This mix of black powder and an alchemically treated resin strong enough to survive the shot can only be loaded into a blunderbuss, a dragon pistol, or other scatter weapon. It deals half damage to those hit by a cone attack made with this weapon, but any creature hit by the shot must succeed at a DC 15 Reflex saving throw or become entangled for 2d4 rounds. An entangling shot cartridge increases the firearm's misfire value by 2.</p>", 
+                                    "type": "section", 
+                                    "name": "Entangling Shot Cartridge"
+                                }, 
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "text": "<p id=\"flare-cartridge\" class=\"stat-block-2\">When a flare cartridge hits its target, it only deals half damage, but the creature struck is blinded for 1 round (Fort DC 15 reduces this to dazzled), and creatures within a 20-foot burst are dazzled for 1 round (Fort DC 15 negates the effect). Flare cartridges are also useful for sending up signal flares. Firing a flare cartridge increases the firearm's misfire value by 2 unless it is fired from a blunderbuss or a dragon pistol, in which case doing so only increases the firearm's misfire value by 1. Flares can only be used to attack single creatures; they do not work as a shot for a cone scatter attack. </p>", 
+                                    "type": "section", 
+                                    "name": "Flare Cartridge"
+                                }, 
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "text": "<p id=\"paper-cartridge\" class=\"stat-block-2\">This simple mix of black powder and either pellets or a bullet increases the misfire value by 1.</p>", 
+                                    "type": "section", 
+                                    "name": "Paper Cartridge"
+                                }, 
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "text": "<p id=\"salt-shot-cartridge\" class=\"stat-block-2\">This mix of black powder and rock salt can only be loaded into a blunderbuss, a dragon pistol, or other scatter weapon. It deals nonlethal instead of lethal damage, and increases the misfire value by 1. You can only use it with a scatter weapon's cone attack.</p>", 
+                                    "type": "section", 
+                                    "name": "Salt Shot Cartridge"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"black-powder\">Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode&mdash;a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a powder horn protects the powder from explosion.</p>", 
+                            "type": "section", 
+                            "name": "Black Powder"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bullet\">The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. </p>", 
+                            "type": "section", 
+                            "name": "Bullet"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bullet,-adamantine\">These expensive bullets are crafted from adamantine. They ignore hardness 20 or less when attacking objects.</p>", 
+                            "type": "section", 
+                            "name": "Bullet, Adamantine"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bullet,-pitted\">This ammunition is pitted with a pattern of small pocks into which specially formulated poison compounds can be applied. A poison compound is a derivative of a standard toxin that is alchemically reduced to a solid form. These can be made from any standard injury or contact poison with a Craft (poison) check equal to the poison's DC + 4. The cost of purchasing an already prepared poison compound for the purpose of treating pitted bullets is equal to the poison's base cost + 20 gp. Once crafted, the compound can be pasted into the ammunition's pitted design and allowed to harden. Upon completion, the bullet can be fired from an appropriate firearm, releasing the poison compound into its target upon impact, but the poison's DC is reduced by 2. A pitted bullet cannot be used with an alchemical cartridge.</p>", 
+                            "type": "section", 
+                            "name": "Bullet, Pitted"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bullet,-silver\">This ammunition is specifically crafted from silver, and though nonmagical, it is particularly detrimental to lycanthropes, automatically confirming any critical threats against such creatures. A firearm that is shooting a silver bullet takes a &ndash;1 penalty on damage rolls (with a minimum of 1 point of damage).</p>", 
+                            "type": "section", 
+                            "name": "Bullet, Silver"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"gunsmith's-kit\">This small kit has all the tools a person needs to create, repair, and restore firearms, except for the necessary raw materials. Without such a kit, you cannot properly construct or provide upkeep for firearms.</p>", 
+                            "type": "section", 
+                            "name": "Gunsmith's Kit"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"metal-cartridge\">These sturdier versions of alchemical cartridges serve as the ammunition for advanced firearms. They can hold either bullets or pellets. </p>", 
+                            "type": "section", 
+                            "name": "Metal Cartridge"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"pellets\">A handful of pellets, along with a dose of black powder, is commonly used as ammunition for one-handed and two-handed firearms with the scatter weapon quality, though rocks or other small bits of hard material can be used in the pellets' place. Using anything other than pellets or alchemical cartridges when firing off a cone attack with a scatter weapon increases the weapon's misfire range by 1 (though this increase can be removed by switching back to standard ammunition).</p>", 
+                            "type": "section", 
+                            "name": "Pellets"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"powder-horn\">Typically crafted from animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of black powder. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water.</p>", 
+                            "type": "section", 
+                            "name": "Powder Horn"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Ultimate Combat", 
+            "text": "<p>The following magic items and magic qualities all pertain to firearms. Most grant extra abilities or protections to the firearm user, but others protect creatures from some of the effects of firearms. </p>", 
+            "type": "section", 
+            "name": "Firearm Magic Items", 
+            "sections": [
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p>The following special ability allows a firearm to be fired with the affected ammunition in environments without air, including underwater. </p>", 
+                    "type": "section", 
+                    "name": "Firearm Ammunition Special Ability", 
+                    "sections": [
+                        {
+                            "requirements": "Craft Magic Arms and Armor, air bubble", 
+                            "name": "Dry Load", 
+                            "cl": "3rd", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This special ability can only be applied to alchemical or metal firearm cartridges. <i>Dry load </i>cartridges can be used to load guns underwater or in other airless environments, such as a vacuum. This ability protects the cartridge's contents as it is being loaded and creates a residual bubble of air that surrounds the firearm, further protecting the ammunition and allowing the firearm with this ammunition to be fired in an airless environment. After the cartridge is loaded, the bubble of air lasts for 3 minutes, or until the firearm is fired, whichever occurs first. </p><p>A firearm loaded with this ammunition still takes the &ndash;2 penalty on attack rolls when fired underwater for every 5 feet of water the bullet passes through, in addition to the normal penalties to range. When firing a <i>dry load</i> cartridge underwater or in an airless environment, a misfire that results in a firearm explosion occurs normally.</p>"
+                                }
+                            ], 
+                            "price": "30 gp per cartridge or 1,500 gp for 50 cartridges", 
+                            "source": "Ultimate Combat", 
+                            "aura": "faint abjuration", 
+                            "type": "item"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p>Several types of magical bullets have been developed to be used with firearms. The following represent just a few of these types.</p>", 
+                    "type": "section", 
+                    "name": "Specific Firearm Ammunition", 
+                    "sections": [
+                        {
+                            "slot": "none", 
+                            "requirements": "Craft Magic Arms and Armor, symbol of pain (burrowing bullet) or symbol of stunning (greater burrowing bullet)", 
+                            "name": "Burrowing Bullet", 
+                            "weight": "&mdash", 
+                            "cl": "9th (burrowing bullet) or 13th (greater burrowing bullet)", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This <i>+1 firearm bullet</i> deals normal damage, but when it hits a living creature, it burrows into the creature's flesh, causing wracking pain until removed or until the bullet burrows its way out of the creature. While these bullets burrow, the creature is staggered. This effect lasts for 1d3 rounds or until the bullet is removed with a DC 15 Heal check made as a standard action. <i>Greater burrowing bullets</i> take longer to pass though the bodies of living creatures (the staggered effect lasts 1d3+2 rounds) and are harder to remove (DC 20 Heal check as a standard action). </p>"
+                                }
+                            ], 
+                            "price": "1,722 gp (burrowing bullet) or 3,447 gp (greater burrowing bullet)", 
+                            "source": "Ultimate Combat", 
+                            "cost": "861 gp (burrowing bullet) or 1,723 gp (greater burrowing bullet)", 
+                            "aura": "moderate necromancy", 
+                            "type": "item"
+                        }, 
+                        {
+                            "slot": "none", 
+                            "requirements": "Craft Magic Arms and Armor, faerie fire", 
+                            "name": "Tracer Bullet", 
+                            "weight": "&mdash", 
+                            "cl": "2nd", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>These <i>+1 firearm bullets</i> deal no damage, but instead cause a pale glow to outline the target, granting the effect of a <i>faerie fire</i> spell and causing the target to take a &ndash;2 penalty to AC against ranged attacks. These effects last for 1d4 rounds.</p>"
+                                }
+                            ], 
+                            "price": "100 gp", 
+                            "source": "Ultimate Combat", 
+                            "cost": "50 gp", 
+                            "aura": "faint evocation", 
+                            "type": "item"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p>The following special abilities are exclusively for firearms.</p>", 
+                    "type": "section", 
+                    "name": "Magic Firearm Special Abilities", 
+                    "sections": [
+                        {
+                            "requirements": "Craft Magic Arms and Armor, heroism, creator must be a grit user", 
+                            "name": "Lucky", 
+                            "cl": "8th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This special ability can only be placed on one-handed or two-handed firearms. A <i>lucky firearm</i> has its own magical reservoir of grit. Usually this grit is stored within the marks of an engraving or in a trinket that hangs from the firearm. Often these marks take the form of holy symbols or fetishes, but such a reservoir can take just about any form. This reservoir holds 1 grit point, which is refreshed at the start of each day. Whether or not the wielder of a <i>lucky firearm</i> has any deeds, she can always spend 1 grit point from the <i>lucky firearm</i> to reroll an attack from it that would result in a misfire. When the wielder does so, she must take the second result, even if that attack roll also results in a misfire.</p>"
+                                }
+                            ], 
+                            "price": "+1 bonus", 
+                            "source": "Ultimate Combat", 
+                            "aura": "moderate transmutation", 
+                            "type": "item"
+                        }, 
+                        {
+                            "requirements": "Craft Magic Arms and Armor, greater heroism, creator must be a grit user", 
+                            "name": "Lucky, Greater", 
+                            "cl": "12th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This special ability can only be placed on one-handed or two-handed firearms. A <i>greater lucky firearm</i> is nearly identical to a <i>lucky gun</i>, but its reservoir holds 3 grit points instead of 1. A firearm cannot have both this special ability and the <i>lucky </i>special ability.</p>"
+                                }
+                            ], 
+                            "price": "+3 bonus", 
+                            "source": "Ultimate Combat", 
+                            "aura": "moderate enchantment", 
+                            "type": "item"
+                        }, 
+                        {
+                            "requirements": "Craft Magic Arms and Armor, mending", 
+                            "name": "Reliable", 
+                            "cl": "8th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This special ability can only be placed on firearms. A <i>reliable firearm</i> is enchanted so that it is less likely to jam than other firearms. This enchantment reduces the misfire value of the affected firearm by 1 (minimum 0). This reduction occurs after any increases are calculated for firing with the broken condition, or for any other effect that might increase the misfire value of a firearm.</p>"
+                                }
+                            ], 
+                            "price": "+1 bonus", 
+                            "source": "Ultimate Combat", 
+                            "aura": "moderate transmutation", 
+                            "type": "item"
+                        }, 
+                        {
+                            "requirements": "Craft Magic Arms and Armor, make whole", 
+                            "name": "Reliable, Greater", 
+                            "cl": "12th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This special ability can only be placed on one-handed or two-handed firearms. A <i>greater reliable firearm</i> is enchanted so as to be less likely to jam than other firearms. It reduces the misfire value of the affected firearm by 4 (minimum 0). This reduction occurs after any increases are calculated for firing with the broken condition, or for any other effect that might increase the misfire value of a firearm. A firearm with <i>greater reliable</i> cannot have the <i>reliable </i>special ability.</p>"
+                                }
+                            ], 
+                            "price": "+3 bonus", 
+                            "source": "Ultimate Combat", 
+                            "aura": "moderate enchantment", 
+                            "type": "item"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p>The following wondrous items either enhance firearms or protect against them.</p>", 
+                    "type": "section", 
+                    "name": "Wondrous Items", 
+                    "sections": [
+                        {
+                            "slot": "neck", 
+                            "name": "Amulet of Bullet Protection", 
+                            "weight": "&mdash", 
+                            "cl": "5th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This amulet, usually crafted from the splintered remains of spent firearm bullets shaped into a rough holy symbol or clover, grants the wearer a luck bonus to AC against firearm attacks that target touch AC. </p>"
+                                }, 
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Construction"
+                                }
+                            ], 
+                            "price": "1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), or 37,500 gp (+5)", 
+                            "source": "Ultimate Combat", 
+                            "aura": "faint abjuration", 
+                            "subtype": "neck", 
+                            "type": "item"
+                        }, 
+                        {
+                            "slot": "none (see below)", 
+                            "requirements": "Craft Wondrous Item, air bubble", 
+                            "name": "Dry Load Powder Horn", 
+                            "weight": "1 lb.", 
+                            "cl": "3rd", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This magical powder horn holds 20 doses of black powder. Furthermore, when a firearm is loaded with black powder directly from this horn, the horn creates a small pocket of air that envelops the gun and allows that shot to be fired underwater or in an area lacking air, such as a vacuum. Once the gun is loaded with powder from the <i>dry load powder horn</i>, it retains the pocket of air for 10 minutes or until the firearm is fired, whichever comes first. </p><p>Firing a firearm that has been loaded from this horn underwater still incurs the &ndash;2 penalty on attack rolls for every 5 feet of water the bullet passes through, in addition to the normal penalties to range. When a shot loaded from a <i>dry load powder horn</i> results in a firearm explosion while underwater or in an airless environment, that explosion occurs normally.</p>"
+                                }
+                            ], 
+                            "price": "2,000 gp", 
+                            "source": "Ultimate Combat", 
+                            "cost": "1,000 gp", 
+                            "aura": "faint conjuration", 
+                            "type": "item"
+                        }, 
+                        {
+                            "slot": "none (see below)", 
+                            "requirements": "Craft Wondrous Item, true strike", 
+                            "name": "Far-Reaching Sight", 
+                            "weight": "1 lb.", 
+                            "cl": "3rd", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This sight can be attached to a single two-handed firearm. When this is done, the sight becomes part of the weapon, but can be removed from that weapon with a full-round action. A firearm wielder can choose to spend a full-round action to make a single shot with a firearm that has this sight. When she does, she can resolve the attack against the touch AC of her target regardless of the range increment.</p>"
+                                }
+                            ], 
+                            "price": "4,000 gp", 
+                            "source": "Ultimate Combat", 
+                            "cost": "2,000 gp", 
+                            "aura": "faint divination", 
+                            "type": "item"
+                        }, 
+                        {
+                            "slot": "none; Price 10,000 gp; Weight 1 lb.", 
+                            "requirements": "Craft Wondrous Items, animate object", 
+                            "name": "Figurine of Wondrous Power", 
+                            "cl": "11th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This <i>figure of wondrous</i> power uses the same general rules for all magic items of this type. </p><p>This statuette of a spider with stubby legs can be used once per day for 1 minute. When activated, the figurine spouts longer, segmented legs, and scampers about the activator, picking lint off robes, chiseling grime from armor, or otherwise grooming its activator. If commanded to do so as a free action, it perches on the muzzle of a one-handed or two-handed firearm barrel and, after the firearm is fired, travels down the barrel and cleans out the firearm. Each time the slate spider cleans a firearm, the next shot the firearm fires has no chance of misfiring.</p><p>When animated, a <i>slate spider</i> has 1 hit point and is considered an attended object. An animated slate spider will never willingly leave space of its animator. </p>"
+                                }
+                            ], 
+                            "source": "Ultimate Combat", 
+                            "abbrev": "Slate Spider", 
+                            "cost": "5,000 gp", 
+                            "aura": "moderate transmutation", 
+                            "type": "item"
+                        }, 
+                        {
+                            "slot": "none", 
+                            "requirements": "Craft Wondrous Item, silence", 
+                            "name": "Oil of Silence", 
+                            "weight": "&mdash", 
+                            "cl": "5th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>When applied to a one-handed or two-handed firearm, this strange grayish oil renders that firearm silent for 1 hour. Five vials of <i>oil of silence</i> can be used in conjunction to silence a Large firearm siege engine, and 10 can be used to silence a Huge firearm siege engine. The oil does not work on firearm siege engines that are larger than Huge. </p>"
+                                }
+                            ], 
+                            "price": "250 gp", 
+                            "source": "Ultimate Combat", 
+                            "cost": "125 gp", 
+                            "aura": "faint illusion", 
+                            "type": "item"
+                        }, 
+                        {
+                            "slot": "none (see below)", 
+                            "requirements": "Craft Wondrous Item, true seeing", 
+                            "name": "See Invisibility Sight", 
+                            "weight": "1 lb.", 
+                            "cl": "8th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "type": "section", 
+                                    "name": "Description", 
+                                    "text": "<p>This sight can be attached to a single two-handed firearm. When this is done, the sight becomes part of the weapon, but can be removed from that weapon with a full-round action. A firearm wielder using a firearm that has this sight can choose to spend a full-round action to either locate an invisible creature within line of sight or make a single shot that ignores the invisibility of a creature that she knows is in the area.</p>"
+                                }
+                            ], 
+                            "price": "12,000 gp", 
+                            "source": "Ultimate Combat", 
+                            "cost": "6,000 gp", 
+                            "aura": "moderate divination", 
+                            "type": "item"
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "name": "Firearms", 
+    "type": "section"
+}

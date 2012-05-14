@@ -1,0 +1,87 @@
+{
+    "dexterity": "10", 
+    "ac": "20, touch 10, flat-footed 20 (+10 natural)", 
+    "intelligence": "6", 
+    "melee": "slam +14 (1d8+10 plus mummy rot)", 
+    "cr": "5", 
+    "xp": "1,600", 
+    "speed": "20 ft.", 
+    "alignment": "LE", 
+    "size": "Medium", 
+    "environment": "any", 
+    "strength": "24", 
+    "constitution": "-", 
+    "source": "Bestiary", 
+    "treasure": "standard", 
+    "charisma": "15", 
+    "languages": "Common", 
+    "immune": "undead traits", 
+    "init": "+0", 
+    "fortitude": "+4", 
+    "reflex": "+2", 
+    "feats": "Power Attack, Toughness, Skill Focus (Perception), Weapon Focus (slam)", 
+    "senses": "darkvision 60 ft.; Perception +16", 
+    "description": "Wrapped from head to toe in ancient strips of moldering linen, this humanoid moves with a shuffling gait.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Despair", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "All creatures within a 30-foot radius that see a mummy must make a DC 16 Will save or be paralyzed by fear for 1d4 rounds. Whether or not the save is successful, that creature cannot be affected again by the same mummy's despair ability for 24 hours. This is a paralysis and a mind-affecting fear affect. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Mummy Rot", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Curse and disease&mdash;slam; save Fort DC 16; onset 1 minute; frequency 1/day; effect 1d6 Con and 1d6 Cha; cure &mdash;. Mummy rot is both a curse and disease and can only be cured if the curse is first removed, at which point the disease can be magically removed. Even after the curse element of mummy rot is lifted, a creature suffering from it cannot recover naturally over time. Anyone casting a conjuration (healing) spell on the afflicted creature must succeed on a DC 20 caster level check, or the spell is wasted and the healing has no effect. Anyone who dies from mummy rot turns to dust and cannot be raised without a resurrection or greater magic. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Created to guard the tombs of the honored dead, mummies are ever vigilant for those who would desecrate their sacred ground.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Mummies are created through a rather lengthy and gruesome embalming process, during which all of the body's major organs are removed and replaced with dried herbs and flowers. After this process, the flesh is anointed with sacred oils and wrapped in purified linens. The creator then finishes the ritual with a <i>create undead</i> spell.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Although most mummies are created merely as guardians and remain loyal to their charge until their destruction, certain powerful mummies have much more free will. The majority are at least 10th-level clerics, and are often kings or pharaohs who have called upon dark gods or sinister necromancers to bind their souls to their bodies after death&mdash;usually as a means to extend their rule beyond the grave, but at times simply to escape what they fear will be an eternity of torment in their own afterlife.</p>"
+        }
+    ], 
+    "hp": "60 (8d8+24)", 
+    "weaknesses": "vulnerable to fire", 
+    "wisdom": "15", 
+    "creature_type": "Undead", 
+    "dr": "5/-", 
+    "base_attack": "+6", 
+    "name": "Mummy", 
+    "skills": "Perception +16, Stealth +11", 
+    "type": "creature", 
+    "cmd": "23", 
+    "cmb": "+13", 
+    "will": "+8", 
+    "aura": "despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)", 
+    "organization": "solitary, warden squad (2-6), or guardian detail (7-12)"
+}

@@ -1,0 +1,119 @@
+{
+    "source": "Bestiary 2", 
+    "sections": [
+        {
+            "dexterity": "10", 
+            "ac": "30, touch 2, flat-footed 30 (+28 natural, -8 size)", 
+            "special_attacks": "constrict (2d8+19), rapid stinging", 
+            "intelligence": "-", 
+            "racial_modifiers": "+4 Climb, +4 Perception, +4 Stealth", 
+            "melee": "2 claws +23 (2d8+13 plus grab), sting +23 (2d6+13 plus poison)", 
+            "cr": "15", 
+            "xp": "51,200", 
+            "speed": "60 ft.", 
+            "alignment": "N", 
+            "size": "Colossal", 
+            "strength": "36", 
+            "constitution": "20", 
+            "space": "30 ft.", 
+            "treasure": "none", 
+            "charisma": "2", 
+            "environment": "warm deserts", 
+            "immune": "mind-affecting effects", 
+            "init": "+0", 
+            "fortitude": "+19", 
+            "reflex": "+8", 
+            "senses": "darkvision 60 ft., tremorsense 60 ft.; Perception +4", 
+            "description": "This towering scorpion's carapace is as black as coal, and its claws are each as long as a man's body.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Poison", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "Sting&mdash;injury; save Fort DC 29; frequency 1/round for 6 rounds; effect 1d4 Str, 1d4 Dex, and 1d4 Con; cure 3 saves.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Rapid Stinging", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "A black scorpion's stinger strikes with astounding speed; it can make one additional attack in a round with its sting as a swift action.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 2"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>The immense black scorpion is one of the largest desert predators. Capable of stinging with blinding speed, this creature is constantly on the hunt. </p>"
+                }
+            ], 
+            "hp": "228 (24d8+120)", 
+            "reach": "30 ft.", 
+            "wisdom": "10", 
+            "creature_type": "Vermin", 
+            "base_attack": "+18", 
+            "name": "Scorpion, Black", 
+            "skills": "Climb +17, Perception +4, Stealth -12", 
+            "type": "creature", 
+            "cmd": "49 (61 vs. trip)", 
+            "cmb": "+39", 
+            "will": "+8", 
+            "source": "Bestiary 2", 
+            "organization": "solitary"
+        }, 
+        {
+            "dexterity": "10", 
+            "ac": "12, touch 10, flat-footed 12 (+2 natural)", 
+            "special_attacks": "rend (2 claws, 2d4)", 
+            "intelligence": "-", 
+            "racial_modifiers": "+4 Perception, +12 Stealth in caves", 
+            "melee": "2 claws +2 (1d4), sting +2 (1d4 plus poison)", 
+            "cr": "1", 
+            "xp": "400", 
+            "speed": "60 ft., climb 40 ft.", 
+            "alignment": "N", 
+            "size": "Medium", 
+            "strength": "11", 
+            "constitution": "13", 
+            "source": "Bestiary 2", 
+            "treasure": "none", 
+            "charisma": "2", 
+            "environment": "any underground", 
+            "immune": "mind-affecting effects", 
+            "init": "+0", 
+            "text": "<StatBlockSection Special Abilities  [(u'Poison (Ex)', u'Sting&mdash;injury; save Fort DC 12; frequency 1/round for 4 rounds; effect 1d2 Str; cure 1 save.')]>", 
+            "fortitude": "+4", 
+            "reflex": "+1", 
+            "senses": "darkvision 60 ft., tremorsense 60 ft.; Perception +4", 
+            "description": "This man-sized, bulky scorpion has thick, unyielding armor that makes it almost seem to be made of stone. ", 
+            "sections": [], 
+            "hp": "16 (3d8+3)", 
+            "wisdom": "10", 
+            "creature_type": "Vermin", 
+            "base_attack": "+2", 
+            "name": "Scorpion, Cave", 
+            "skills": "Climb +8, Perception +4, Stealth +0 (+12 in caves)", 
+            "type": "creature", 
+            "cmd": "12 (24 vs. trip)", 
+            "cmb": "+2", 
+            "will": "+1", 
+            "organization": "solitary, pair, or swarm (3-12)"
+        }
+    ], 
+    "name": "Scorpion", 
+    "type": "section"
+}

@@ -1,0 +1,107 @@
+{
+    "dexterity": "22", 
+    "ac": "29, touch 17, flat-footed 22 (+6 Dex, +1 dodge, +12 natural)", 
+    "special_attacks": "rend (2 talons, 2d6+9)", 
+    "intelligence": "17", 
+    "melee": "bite +25 (2d6+6 plus 1d4 Cha drain), 2 talons +25 (1d6+6 plus grab and popobala fever), 2 wings +20 (1d6+3)", 
+    "cr": "15", 
+    "xp": "51,200", 
+    "speed": "30 ft., climb 30 ft., fly 80 ft. (average)", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "environment": "warm coasts or forests", 
+    "strength": "23", 
+    "constitution": "22", 
+    "source": "Bestiary 3", 
+    "treasure": "standard", 
+    "charisma": "22", 
+    "languages": "Common", 
+    "immune": "disease, nausea, poison, sickened, stunning", 
+    "init": "+10", 
+    "fortitude": "+12", 
+    "spells": {
+        "spell-like abilities": "(CL 16th; concentration +22)<p class=\"stat-block-2\">At will-<i>clairaudience/clairvoyance, ghost sound</i> (DC 16), <i>ventriloquism</i> (DC 17)</p><p class=\"stat-block-2\">3/day-<i>dominate person</i> (DC 21, can only dominate and control one person at a time), <i>eyebite</i> (DC 22), <i>feeblemind</i> (DC 21), <i>spell turning</i>, <i>suggestion</i> (DC 19), <i>telekinesis</i> (DC 21)</p><p class=\"stat-block-2\">1/day-<i>animate objects</i></p>"
+    }, 
+    "type": "creature", 
+    "feats": "Dodge, Flyby Attack, Improved Initiative, Mobility, Power Attack, Skill Focus (Intimidate), Toughness, Weapon Focus (bite), Weapon Focus (talons)", 
+    "senses": "blindsense 60 ft., darkvision 60 ft.; Perception +24", 
+    "description": "This brawny, sallow-skinned figure is muscular but lean, with batlike wings and a single hideous eye in its noseless face.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Change Shape", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A popobala loses its frightful presence, popobala fever, and stench abilities when not in its true form.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Harvester of Sorrow", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A popobala heals as a result of the suffering of others. It gains fast healing 10 if at least one creature within 15 feet has one or more of the following conditions: confused, cowering, dying, exhausted, fatigued, frightened, nauseated, panicked, shaken, sickened, staggered, or stunned.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Horrid Haunting", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A popobala may use ghost sound or ventriloquism as a free action whenever it manipulates a creature or object with animate objects, dominate person, or telekinesis. The ghost sound or ventriloquism originates from the controlled object or creature.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Popobala Fever", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A creature wounded by a popobala's talons becomes sickened for 1d6 minutes unless it makes a DC 25 Fortitude save. A creature already sickened by the fever becomes nauseated for 1d6 rounds. One already nauseated by the fever is helpless for 1d6 rounds. This is a disease effect. The save DC is Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The popobala is a much-feared shapeshifter that haunts and hunts warm coastal lands, roaming night and day to terrorize and spread anarchy and unrest while slaking its insatiable twin urges for violence and prurience. Shifting freely between bat, human, and its natural form, the popobala is most dreaded for its mesmeric charms, but it is more than capable of engaging in savage bloodletting against those who anger it. Popobalas are attracted to chaos, anarchy, and unrest, as the intensity of emotions and uncertainty inflames its already fierce urges. War, changes of government, and religious or ethnic strife or persecution&mdash;all of these excite a popobala, and if a society remains too settled and stable, the beast is never above fomenting unrest through its own predations.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A typical popobala is 5 feet tall with a 12 foot wingspan. It weighs only 100 pounds. </p>"
+        }
+    ], 
+    "hp": "225 (18d10+126); fast healing 10 (see harvester of sorrow)", 
+    "wisdom": "17", 
+    "defensive_abilities": "harvester of sorrow", 
+    "creature_type": "Monstrous Humanoid", 
+    "special_qualities": "horrid haunting, change shape (bat, dire bat, or humanoid; polymorph)", 
+    "dr": "10/magic", 
+    "base_attack": "+18", 
+    "name": "Popobala", 
+    "skills": "Acrobatics +18, Bluff +27, Climb +14, Disguise +18, Intimidate +40, Knowledge (local) +24, Perception +24, Perform (act) +18, Sense Motive +15, Stealth +27", 
+    "reflex": "+17", 
+    "cmd": "41", 
+    "cmb": "+24 (+28 grapple)", 
+    "will": "+14", 
+    "aura": "frightful presence (30 ft., DC 26), stench (DC 26, 1d6 minutes)", 
+    "organization": "solitary", 
+    "creature_subtype": "shapechanger"
+}

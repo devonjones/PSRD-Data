@@ -1,0 +1,143 @@
+{
+    "source": "Bestiary 2", 
+    "sections": [
+        {
+            "dexterity": "15", 
+            "ac": "13, touch 13, flat-footed 10 (+2 Dex, +1 size)", 
+            "intelligence": "2", 
+            "racial_modifiers": "+4 Acrobatics, +4 Climb", 
+            "melee": "bite +3 (1d4+1)", 
+            "cr": "1/2", 
+            "xp": "200", 
+            "speed": "30 ft.", 
+            "alignment": "N", 
+            "size": "Small", 
+            "strength": "12", 
+            "constitution": "12", 
+            "treasure": "none", 
+            "charisma": "5", 
+            "environment": "warm forests or plains", 
+            "source": "Bestiary 2", 
+            "init": "+2", 
+            "fortitude": "+3", 
+            "reflex": "+4", 
+            "feats": "Weapon Finesse", 
+            "senses": "low-light vision; Perception +1", 
+            "description": "A hairy, stout animal with opposable thumbs, this creature has a pronounced muzzle and bright red buttocks.", 
+            "sections": [
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Baboons are known for their aggressive nature and distinctive build, including a canine-like maw filled with sharp teeth, strong jaw muscles, a short tail, and prominent calluses on their brightly colored and protruding buttocks. Though they are primarily vegetarians, baboons are known to eat fish, insects, shellfish, and other small creatures. Ferociously territorial, baboons are quick to rise and defend their homes from any sort of intruders.</p>"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>A baboon is 3 feet tall and weighs 70 pounds.</p>"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"starting-statistics\"><b>Size</b>: Small; <b>Speed</b>: 30 ft.; <b>Attack</b> bite (1d4); <b>Ability Scores</b>: Str 12, Dex 15, Con 12, Int 2, Wis 12, Cha 5; <b>Special Qualities</b>: low-light vision.</p>", 
+                    "type": "section", 
+                    "name": "Baboon", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"4th-level-advancement\"><b>Ability Scores</b> Str +2, Con +2.</p>", 
+                            "type": "section", 
+                            "name": "4th-Level Advancement"
+                        }
+                    ]
+                }
+            ], 
+            "hp": "5 (1d8+1)", 
+            "wisdom": "12", 
+            "creature_type": "Animal", 
+            "base_attack": "+0", 
+            "name": "Primate, Baboon", 
+            "skills": "Acrobatics +10, Climb +5", 
+            "type": "creature", 
+            "cmd": "12", 
+            "cmb": "+0", 
+            "will": "+1", 
+            "organization": "solitary, pair, or mission (3-6)"
+        }, 
+        {
+            "dexterity": "16", 
+            "ac": "15, touch 15, flat-footed 12 (+3 Dex, +2 size)", 
+            "special_attacks": "distraction (DC 14)", 
+            "intelligence": "2", 
+            "racial_modifiers": "+4 Acrobatics, +8 Climb", 
+            "melee": "swarm (2d6 plus distraction)", 
+            "cr": "2", 
+            "xp": "600", 
+            "speed": "30 ft., climb 20 ft.", 
+            "alignment": "N", 
+            "size": "Tiny", 
+            "strength": "7", 
+            "constitution": "17", 
+            "space": "10 ft.", 
+            "treasure": "none", 
+            "charisma": "11", 
+            "environment": "warm forests", 
+            "source": "Bestiary 2", 
+            "init": "+3", 
+            "fortitude": "+6", 
+            "type": "creature", 
+            "feats": "Lightning Reflexes, Weapon Finesse", 
+            "senses": "low-light vision; Perception +5", 
+            "description": "Screeches and bestial calls precede this pack of monkeys, each primate propelling itself forward on calloused knuckles.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Coordinated Swarm", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "A monkey swarm coordinates its attacks more than a typical swarm, and deals swarm damage one step higher than a swarm of its HD would normally cause.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 2"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Monkeys sometimes travel in huge colonies of hundreds of individuals. In such quantities, these primates can become quite dangerous, capable of overwhelming many foes by their sheer numbers.</p>"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Unlike most swarms, monkey swarms work well together. A swarm of monkeys does not possess a true hive mind, but it is capable of working in tandem with other swarms to make basic tactical decisions in combat.</p>"
+                }
+            ], 
+            "hp": "22 (3d8+9)", 
+            "reach": "0 ft.", 
+            "wisdom": "12", 
+            "defensive_abilities": "half damage from weapons, swarm traits", 
+            "creature_type": "Animal", 
+            "special_qualities": "coordinated swarm", 
+            "base_attack": "+2", 
+            "name": "Primate, Monkey Swarm", 
+            "skills": "Acrobatics +11, Climb +10, Perception +5", 
+            "reflex": "+8", 
+            "cmd": "&mdash", 
+            "cmb": "-", 
+            "will": "+2", 
+            "organization": "solitary, pair, mission (3-6 swarms), or tribe (7-12 swarms plus 1-4 gorillas)", 
+            "creature_subtype": "swarm"
+        }
+    ], 
+    "name": "Primate", 
+    "type": "section"
+}

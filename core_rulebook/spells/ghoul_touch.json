@@ -1,0 +1,40 @@
+{
+    "school": "necromancy", 
+    "saving_throw": "Fortitude negates", 
+    "name": "Ghoul Touch", 
+    "level": [
+        {
+            "class": "Sorcerer", 
+            "level": 2
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 2
+        }
+    ], 
+    "text": "<p>Imbuing you with negative energy, this spell allows you to paralyze a single living humanoid for the duration of the spell with a successful melee touch attack.</p><p>A paralyzed subject exudes a carrion stench that causes all living creatures (except you) in a 10-foot-radius spread to become sickened (Fortitude negates). A <i>neutralize poison </i>spell removes the effect from a sickened creature, and creatures immune to poison are unaffected by the stench. This is a poison effect.</p>", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "source": "Core Rulebook", 
+    "range": "touch", 
+    "effects": [
+        {
+            "text": "living humanoid touched", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "cloth from a ghoul or earth from a ghoul's lair", 
+            "type": "M"
+        }
+    ], 
+    "duration": "1d6+2 rounds", 
+    "type": "spell"
+}

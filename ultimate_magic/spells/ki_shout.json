@@ -1,0 +1,43 @@
+{
+    "school": "evocation", 
+    "saving_throw": "Fortitude partial", 
+    "name": "Ki Shout", 
+    "descriptor": [
+        "sonic"
+    ], 
+    "text": "<p>With a guttural bark, you unleash a sudden blast of sonic energy that strikes your opponent. The target takes 1d6 points of sonic damage per level (maximum 20d6) and is stunned for 1 round; a successful Fortitude save reduces the damage by half and negates the stun.</p>", 
+    "spell_resistance": "yes", 
+    "level": [
+        {
+            "class": "Bard", 
+            "level": 5
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 7
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 7
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Ultimate Magic", 
+    "range": "close (25 ft + 5 ft./2 levels)", 
+    "effects": [
+        {
+            "text": "one living creature", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "instantaneous", 
+    "type": "spell"
+}

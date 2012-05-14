@@ -1,0 +1,46 @@
+{
+    "school": "conjuration", 
+    "saving_throw": "none, see text", 
+    "name": "Raise Animal Companion", 
+    "parent": "Raise Dead", 
+    "level": [
+        {
+            "class": "Druid", 
+            "level": 5
+        }, 
+        {
+            "class": "Paladin", 
+            "level": 4
+        }, 
+        {
+            "class": "Ranger", 
+            "level": 4
+        }
+    ], 
+    "text": "<p>This spell functions as <i>raise dead</i>, but it only affects an animal companion, familiar, or paladin's bonded mount.</p>", 
+    "spell_resistance": "yes (harmless)", 
+    "casting_time": "1 minute", 
+    "source": "Ultimate Magic", 
+    "range": "touch", 
+    "effects": [
+        {
+            "text": "dead animal companion or bonded mount", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "a diamond worth ,000 gp", 
+            "type": "M"
+        }
+    ], 
+    "duration": "instantaneous", 
+    "subschool": "healing", 
+    "type": "spell"
+}

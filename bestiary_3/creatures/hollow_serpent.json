@@ -1,0 +1,125 @@
+{
+    "dexterity": "29", 
+    "ac": "31, touch 19, flat-footed 21 (+9 Dex, +1 dodge, +12 natural, -1 size)", 
+    "cmd": "43 (can't be tripped)", 
+    "special_attacks": "channel negative energy (8d6, DC 24, 9/day), constrict (4d10+10 plus energy drain), energy drain (1 level, DC 26), life-draining coils", 
+    "intelligence": "6", 
+    "melee": "2 bites +23 (4d10+10 plus grab)", 
+    "type": "creature", 
+    "cr": "16", 
+    "xp": "76,800", 
+    "speed": "50 ft., climb 50 ft.", 
+    "alignment": "NE", 
+    "size": "Large", 
+    "environment": "any underground", 
+    "strength": "25", 
+    "constitution": "-", 
+    "source": "Bestiary 3", 
+    "treasure": "double", 
+    "charisma": "22", 
+    "languages": "Aklo; telepathy 100 ft.", 
+    "immune": "undead traits", 
+    "init": "+9", 
+    "fortitude": "+14", 
+    "spells": {
+        "spell-like abilities": "(CL 16th; concentration +22)<p class=\"stat-block-2\">Constant-<i>freedom of movement</i></p><p class=\"stat-block-2\">1/day-<i>horrid wilting</i> (DC 24), <i>waves of exhaustion</i></p>"
+    }, 
+    "reflex": "+17", 
+    "feats": "Agile Maneuvers, Channel Smite, Dodge, Great Fortitude, Iron Will, Lightning Reflexes, Lunge, Toughness, Vital Strike, Weapon Finesse", 
+    "senses": "darkvision 60 ft., lifesense; Perception +17", 
+    "description": "This creature looks like an oversized, empty snakeskin, its body covered in barbs and maw filled with jagged teeth.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Channel Negative Energy", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "As a standard action, a hollow serpent can channel negative energy in a 30-foot burst as a 16th-level evil cleric. This ability requires no divine focus. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Desiccation Aura", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A cloud of moisture-draining dust fills the air in a 30-foot radius around a hollow serpent. Living creatures within this area must make a DC 26 Fortitude save or take 1d6 points of Strength damage as water is leached from their flesh. Whether or not the save is successful, a creature cannot be affected again by the same hollow serpent's desiccation aura for 24 hours. Creatures without fleshy bodies are immune to this aura, while creatures with the aquatic or water subtypes take a &ndash;4 penalty on the saving throw. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Life-Draining Coils", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A hollow serpent seethes with negative energy capable of sapping the life force of creatures trapped within its coils. Every time a creature takes constriction damage from a hollow serpent, it gains one negative level. The hollow serpent also gains 5 temporary hit points for each negative level it bestows.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Lifesense", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A hollow serpent notices and locates living creatures within 60 feet, just as if it possessed the blindsight ability.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Swift Strike", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "When a hollow serpent takes a full-attack action, it can make two bite attacks instead of just one.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Crafted from the shed skins of great snakes by serpentfolk necromancers and other foul spellcasters, hollow serpents are plagued by an eternal hunger they can never sate. The act of draining energy from living creatures blunts these supernatural pangs, driving the hollow serpent to constantly seek new prey.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A hollow serpent is a difficult undead to create&mdash;most of them were crafted by a long-forgotten god of the serpentfolk and not by mortal spellcasters at all. The exact methods by which a mortal might create a hollow serpent are obscure, but most scholars have come to the conclusion that the use of powerful artifacts or the aid of a demigod may be required for such a feat.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A hollow serpent is 15 feet long and weighs 500 pounds. </p>"
+        }
+    ], 
+    "hp": "230 (20d8+140); fast healing 10", 
+    "reach": "10 ft.", 
+    "wisdom": "19", 
+    "defensive_abilities": "channel resistance +4, freedom of movement", 
+    "creature_type": "Undead", 
+    "special_qualities": "swift strike", 
+    "dr": "10/magic and silver", 
+    "base_attack": "+15", 
+    "name": "Hollow Serpent", 
+    "skills": "Climb +28, Escape Artist +19, Perception +17, Stealth +18", 
+    "sr": "27", 
+    "space": "10 ft.", 
+    "cmb": "+25 (+29 grapple)", 
+    "will": "+18", 
+    "aura": "desiccation aura (30 ft., DC 16)", 
+    "organization": "solitary, pair, or nest (3-8)"
+}

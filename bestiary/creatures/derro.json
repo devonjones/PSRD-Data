@@ -1,0 +1,108 @@
+{
+    "dexterity": "15", 
+    "ac": "17, touch 13, flat-footed 15 (+2 armor, +2 Dex, +2 natural, +1 size)", 
+    "special_attacks": "sneak attack +1d6", 
+    "intelligence": "10", 
+    "melee": "short sword +5 (1d4) or aklys +5 (1d6)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "20 ft.", 
+    "alignment": "CE", 
+    "size": "Small", 
+    "environment": "any underground", 
+    "strength": "11", 
+    "constitution": "18", 
+    "treasure": "NPC Gear (leather armor, short sword or aklys, repeating light crossbow with 10 poisoned bolts, other treasure)", 
+    "charisma": "16", 
+    "languages": "Aklo, Undercommon", 
+    "source": "Bestiary", 
+    "init": "+6", 
+    "fortitude": "+5", 
+    "spells": {
+        "spell-like abilities": "(CL 3rd)<p class=\"stat-block-2\">At will-<i>darkness, ghost sound</i> (DC 13)</p><p class=\"stat-block-2\">1/day-<i>daze</i> (DC 13), <i>sound burst</i> (DC 15)</p>"
+    }, 
+    "type": "creature", 
+    "feats": "Improved Initiative, Weapon Finesse", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Madness", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Derros use their Charisma modifier on Will saves instead of their Wisdom modifier, and are immune to insanity and confusion effects. Only a miracle or wish can remove a derro's madness. If this occurs, the derro gains 6 points of Wisdom and loses 6 points of Charisma.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison Use", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Derros are not at risk of poisoning themselves when handling poison. They use Medium spider venom to poison their crossbow bolts, and generally carry 10 pre-poisoned bolts at all times.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Vulnerability to Sunlight", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "A derro takes 1 point of Con damage after every hour it is exposed to sunlight.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Though derros dwell deep under most of the surface world's cities, very few know of the sadistic creatures' existence. Descended from mysterious fey that once dwelt deep underground, the derros lust for the comforts of the surface, yet the light of the sun causes them to blister, burn, and die. Derros often abduct surface dwellers to perform hideous experiments on them in their never-ending quest to divine what protects those who dwell above from the burning death, yet the intrinsic madness that plagues all derros dooms these experiments to failure every time. In the end, traumatized victims are returned to their homes, memories not quite completely wiped of their ordeal, to live the rest of their lives in vague fear of a nightmare they can't quite recall.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A typical derro fights with a short sword or a repeating light crossbow with plenty of poison bolts. Some derros also carry an aklys&mdash;a hooked throwing club attached to a 20-foot- long cord. This cord limits the club's range, but allows the derro to retrieve it as a move-equivalent action after it has been thrown.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Derro leaders are typically sorcerers of at least 3rd level, although they also make excellent rogues. Many derros wield strange and unusual weapons like hooked polearms, eerie whistling aklyses, long hollow spears that can be filled with toxins, or crystalline throwing wedges that shatter on impact to create horrific bleeding wounds.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A derro stands 3 feet tall and weighs 70 pounds.</p>"
+        }
+    ], 
+    "senses": "darkvision 60 ft.; Perception +0", 
+    "description": "This pale blue humanoid has bulging white eyes, wild hair, four-fingered hands, and a large hooked club.", 
+    "ranged": "repeating light crossbow +5 (1d6/19-20 plus poison) or aklys +5 (1d6)", 
+    "hp": "25 (3d8+12)", 
+    "weaknesses": "vulnerability to sunlight", 
+    "wisdom": "5", 
+    "creature_type": "Humanoid", 
+    "special_qualities": "madness, poison use", 
+    "base_attack": "+2", 
+    "name": "Derro", 
+    "skills": "Perception +0, Stealth +9", 
+    "reflex": "+3", 
+    "cmd": "13", 
+    "cmb": "+1", 
+    "will": "+6", 
+    "sr": "14", 
+    "organization": "solitary, team (2-4), squad (5-8 plus 1 sorcerer of 3rd-5th level), or band (11-20 plus 30% noncombatants plus 3 sorcerers of 3rd-8th level)", 
+    "creature_subtype": "derro"
+}

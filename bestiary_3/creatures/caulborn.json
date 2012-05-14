@@ -1,0 +1,115 @@
+{
+    "dexterity": "19", 
+    "ac": "19, touch 18, flat-footed 15 (+4 deflection, +4 Dex, +1 natural)", 
+    "special_attacks": "consume thoughts", 
+    "intelligence": "25", 
+    "melee": "bite +13 (2d6+3), 2 claws +12 (1d6+3)", 
+    "cr": "7", 
+    "xp": "3,200", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "spells": {
+        "spell-like abilities": "(CL 7th; concentration +11)<p class=\"stat-block-2\">Constant-<i>detect magic</i>, <i>detect thoughts</i> (DC 16), <i>read magic</i></p><p class=\"stat-block-2\">3/day-<i>charm monster</i> (DC 18), <i>daze monster</i> (DC 16), <i>hold monster</i> (DC 19), <i>hypnotic pattern</i> (DC 16), <i>vampiric touch</i> (DC 17)</p><p class=\"stat-block-2\">1/week-<i>plane shift</i> (willing targets only)</p>"
+    }, 
+    "environment": "any", 
+    "strength": "16", 
+    "constitution": "16", 
+    "source": "Bestiary 3", 
+    "treasure": "double", 
+    "charisma": "19", 
+    "languages": "Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Giant, Infernal; telepathy 100 ft.", 
+    "immune": "visual effects", 
+    "init": "+4", 
+    "fortitude": "+6", 
+    "size": "Medium", 
+    "type": "creature", 
+    "feats": "Combat Casting, Combat Expertise, Combat Reflexes, Iron Will, Weapon Focus (bite)", 
+    "senses": "blindsense 60 ft., darkvision 60 ft., thoughtsense; Perception +15", 
+    "description": "This creature has a split-jawed mouth, a hoodlike growth on its head, and two hideously elongated fingers on each hand.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Consume Thoughts", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A caulborn can consume the thoughts of a willing, helpless, or fascinated creature with a touch attack. If the target fails a DC 18 Will save, the caulborn can alter the victim's memory as if using modify memory. This process deals 1d4 points of Intelligence and Wisdom damage to the target. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Cooperative Scrying", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "Three or more caulborn joining hands can scry on a place or creature as if using the scrying spell (DC 20), but with no limit to the spell's duration so long as at least three of the caulborn involved continue to join hands and concentrate. This ability functions at CL 7th (or at the highest CL available to the most powerful caulborn in the group). The save DC is Charisma-based, adjusted by the modifier of the caulborn with the highest Charisma score.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Hive Mind", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "As long as there are at least two caulborn within 300 feet of each other, if one caulborn in the group is aware of a particular danger, they all are. No caulborn in a group is considered flanked or flat-footed unless all of them are.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Psychic Deflection", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A caulborn adds its Charisma modifier as a deflection bonus to its AC. The caulborn loses this bonus when unconscious.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Thoughtsense", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A caulborn notices and locates living, conscious creatures within 60 feet, just as if it possessed the blindsight ability. Spells such as nondetection or mind blank make an affected creature undetectable by this sense.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Caulborn are a race of telepathic prophets and historians who subsist on the psychic energy of others. They wander the planes in search of new facts and concepts to add to the pulsating brain-sacks that serve as their collective memories. When a band of caulborn find a particularly interesting site, they settle down to dwell there for many years until they feel that they have learned all there is to know about the location.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A caulborn is literally a creature of the mind. Its body is self-sustaining, and it exists solely to record and catalogue new thoughts. While they are not evil, caulborn have little interest in alliances or friendship with other races.</p>"
+        }
+    ], 
+    "hp": "76 (9d10+27)", 
+    "wisdom": "20", 
+    "defensive_abilities": "premonition, psychic deflection", 
+    "creature_type": "Outsider", 
+    "special_qualities": "cooperative scrying, hive mind", 
+    "base_attack": "+9", 
+    "name": "Caulborn", 
+    "skills": "Acrobatics +12, Appraise +12, Bluff +14, Intimidate +14, Knowledge (all) +14, Perception +15, Sense Motive +12, Stealth +11, Use Magic Device +9", 
+    "reflex": "+8", 
+    "cmd": "30", 
+    "cmb": "+12", 
+    "will": "+13", 
+    "organization": "solitary, pair, or colony (3-12)", 
+    "creature_subtype": "extraplanar"
+}

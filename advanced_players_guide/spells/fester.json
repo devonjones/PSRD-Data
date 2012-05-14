@@ -1,0 +1,40 @@
+{
+    "school": "necromancy", 
+    "saving_throw": "Fortitude partial", 
+    "name": "Fester", 
+    "level": [
+        {
+            "class": "Inquisitor", 
+            "level": 3
+        }, 
+        {
+            "class": "Witch", 
+            "level": 2
+        }
+    ], 
+    "text": "<p>Necrotic energy permeates the target, blocking healing abilities. The subject gains spell resistance equal to 12 + your caster level against effects that restore hit points or grant temporary hit points. In addition, any healing provided by effects that ignore spell resistance (such as fast healing, regeneration, and some spells) are halved. If the target succeeds on a Fortitude saving throw, <i>fester</i> lasts only a single round.</p>", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Player's Guide", 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "effects": [
+        {
+            "text": "one living creature", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "rotted meat", 
+            "type": "M"
+        }
+    ], 
+    "duration": "1 round/level or 1 round; see text", 
+    "type": "spell"
+}

@@ -1,0 +1,81 @@
+{
+    "dexterity": "19", 
+    "ac": "27, touch 14, flat-footed 22 (+4 Dex, +1 dodge, +13 natural, -1 size)", 
+    "special_attacks": "captivating cloud, constrict (1d6+8)", 
+    "intelligence": "1", 
+    "melee": "bite +23 (2d6+8/19-20 plus 3d6 acid), 4 tentacles +21 (1d6+4 plus grab)", 
+    "cr": "13", 
+    "xp": "25,600", 
+    "speed": "10 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "26", 
+    "constitution": "19", 
+    "space": "10 ft.", 
+    "treasure": "incidental", 
+    "charisma": "6", 
+    "environment": "temperate or warm forests or swamps", 
+    "immune": "acid, plant traits", 
+    "init": "+8", 
+    "fortitude": "+16", 
+    "reflex": "+12", 
+    "feats": "Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Toughness, Weapon Focus (bite), Weapon Focus (tentacle)", 
+    "senses": "low-light vision, tremorsense 60 ft.; Perception +13", 
+    "description": "Large tendrils ending in tiny claws unfurl from the central stalk of this plant, which rises like a serpent ready to strike. ", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Captivating Cloud", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Once per day as a swift action, a viper vine can emit a transparent cloud of pollen in a 60-foot spread that has the power to lull the minds of those that smell it. Once activated, the cloud persists for 5 rounds unless dispersed by moderate or stronger wind. All creatures in the cloud must succeed on a DC 24 Will saving throw each round or become captivated. Once a creature becomes captivated, it takes no actions save to approach the viper vine via the most direct route possible. If this path leads it into a dangerous area, such as through fire or off a cliff, that creature receives a second saving throw to end the effect before moving into peril. A victim that is attacked by the viper vine gets a new saving throw as a free action during each of the vine's attacks to overcome the effect. This is a mind-affecting effect. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Cold Lethargy", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Exposure to any cold effect slows a viper vine (as a slow spell) for 1d4 rounds.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A voracious, flesh-eating carnivore, the viper vine has a single enormous bloom arising from a thick, leafy tangle of snake-like vines. When the plant senses the approach of suitable prey through its sensitive, shallowly buried root system, it rises up like an agitated snake and unfurls its brightly colored bloom, an act that releases a cloud of mind-numbing pollen. While stories speaking of the plant's ability to lure prey into its clutches by virtue of its swaying motion persist, this effect is in fact created by this invisible, odorless pollen cloud.</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Since viper vines gain nourishment through the consumption of creatures rather than through moisture and soil, they have developed rudimentary locomotion and are able to drag themselves along the ground with their tentacle-like root system. They even possess a form of rudimentary sentience, allowing them to not only discern differences in prey and make limited tactical decisions, but also to avoid creatures that are particularly large or dangerous looking. The area around the hunting grounds of these predators is often strewn with the remains of victims, and it is not unusual to find the rotting corpses of wild animals, ill-fated adventurers, and even giants in their immediate vicinity, along with a scattering of incidental treasure left behind by the plant's victims. </p>"
+        }
+    ], 
+    "hp": "190 (20d8+100)", 
+    "weaknesses": "cold lethargy", 
+    "reach": "10 ft. (20 ft. with tentacle)", 
+    "wisdom": "10", 
+    "creature_type": "Plant", 
+    "base_attack": "+15", 
+    "name": "Viper Vine", 
+    "skills": "Perception +13, Stealth +13", 
+    "type": "creature", 
+    "cmd": "39 (can't be tripped)", 
+    "cmb": "+24 (+28 grapple)", 
+    "will": "+6", 
+    "source": "Bestiary 2", 
+    "organization": "solitary"
+}

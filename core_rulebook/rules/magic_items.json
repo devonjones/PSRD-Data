@@ -1,0 +1,274 @@
+{
+    "source": "Core Rulebook", 
+    "text": "<p>Armor\nWeapons\nPotions\nRings\nRods\nScrolls\nStaves\nWands\nWondrous Items\nIntelligent Items\nCursed Items\nSpecific Cursed Items\nArtifacts\nMagic Item Creation\n</p>", 
+    "sections": [
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>When <i>detect magic </i>identifies a magic item's school of magic, this information refers to the school of the spell placed within the potion, scroll, or wand, or the prerequisite given for the item. The description of each item provides its aura strength and the school to which it belongs.</p><p>If more than one spell is given as a prerequisite, use the highest-level spell. If no spells are included in the prerequisites, use the following default guidelines.</p>", 
+            "type": "section", 
+            "name": "Magic Items and Detect Magic", 
+            "sections": [
+                {
+                    "text": "<table>\n<thead><tr><th>Item Nature</th><th>School</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Armor and protection items</td><td>Abjuration</td></tr>\n<tr class=\"even\"><td>Weapons or offensive items</td><td>Evocation</td></tr>\n<tr class=\"odd\"><td>Bonus to ability score, skill check, etc.</td><td>Transmutation</td></tr></tbody></table>", 
+                    "type": "table", 
+                    "name": "Item Nature", 
+                    "source": "Core Rulebook"
+                }
+            ]
+        }, 
+        {
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "name": "Using Items", 
+            "sections": [
+                {
+                    "text": "<table id=\"table-15-2-random-magic-item-generation\"><caption>Table: Random Magic Item Generation</caption>\n<thead><tr><th>Minor</th><th>Medium</th><th>Major</th><th>Item</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>01&ndash;04</td><td>01&ndash;10</td><td>01&ndash;10</td><td>Armor and shields</td></tr>\n<tr class=\"even\"><td>05&ndash;09</td><td>11&ndash;20</td><td>11&ndash;20</td><td>Weapons</td></tr>\n<tr class=\"odd\"><td>10&ndash;44</td><td>21&ndash;30</td><td>21&ndash;25</td><td>Potions</td></tr>\n<tr class=\"even\"><td>45&ndash;46</td><td>31&ndash;40</td><td>26&ndash;35</td><td>Rings</td></tr>\n<tr class=\"odd\"><td>&mdash;</td><td>41&ndash;50</td><td>36&ndash;45</td><td>Rods</td></tr>\n<tr class=\"even\"><td>47&ndash;81</td><td>51&ndash;65</td><td>46&ndash;55</td><td>Scrolls</td></tr>\n<tr class=\"odd\"><td>&mdash;</td><td>66&ndash;68</td><td>56&ndash;75</td><td>Staves</td></tr>\n<tr class=\"even\"><td>82&ndash;91</td><td>69&ndash;83</td><td>76&ndash;80</td><td>Wands</td></tr>\n<tr class=\"odd\"><td>92&ndash;100</td><td>84&ndash;100</td><td>81&ndash;100</td><td>Wondrous items</td></tr></tbody></table>", 
+                    "type": "table", 
+                    "name": "Random", 
+                    "source": "Core Rulebook"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>To use a magic item, it must be activated, although sometimes activation simply means putting a ring on your finger. Some items, once donned, function constantly. In most cases, though, using an item requires a standard action that does not provoke attacks of opportunity. By contrast, spell completion items are treated like spells in combat and do provoke attacks of opportunity.</p><p>Activating a magic item is a standard action unless the item description indicates otherwise. However, the casting time of a spell is the time required to activate the same power in an item, regardless of the type of magic item, unless the item description specifically states otherwise.</p><p>The four ways to activate magic items are described below.</p>", 
+                    "type": "section"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p id=\"spell-completion\">This is the activation method for scrolls. A scroll is a spell that is mostly finished. The preparation is done for the caster, so no preparation time is needed beforehand as with normal spellcasting. All that's left to do is perform the finishing parts of the spellcasting (the final gestures, words, and so on). To use a spell completion item safely, a character must be of high enough level in the right class to cast the spell already. If he can't already cast the spell, there's a chance he'll make a mistake. Activating a spell completion item is a standard action (or the spell's casting time, whichever is longer) and provokes attacks of opportunity exactly as casting a spell does.</p>", 
+                    "type": "section", 
+                    "name": "Spell Completion"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p id=\"spell-trigger\">Spell trigger activation is similar to spell completion, but it's even simpler. No gestures or spell finishing is needed, just a special knowledge of spellcasting that an appropriate character would know, and a single word that must be spoken. Spell trigger items can be used by anyone whose class can cast the corresponding spell. This is the case even for a character who can't actually cast spells, such as a 3rd-level paladin. The user must still determine what spell is stored in the item before she can activate it. Activating a spell trigger item is a standard action and does not provoke attacks of opportunity.</p>", 
+                    "type": "section", 
+                    "name": "Spell Trigger"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p id=\"command-word\">If no activation method is suggested either in the magic item description or by the nature of the item, assume that a command word is needed to activate it. Command word activation means that a character speaks the word and the item activates. No other special knowledge is needed.</p><p>A command word can be a real word, but when this is the case, the holder of the item runs the risk of activating the item accidentally by speaking the word in normal conversation. More often, the command word is some seemingly nonsensical word, or a word or phrase from an ancient language no longer in common use. Activating a command word magic item is a standard action and does not provoke attacks of opportunity.</p><p>Sometimes the command word to activate an item is written right on the item. Occasionally, it might be hidden within a pattern or design engraved on, carved into, or built into the item, or the item might bear a clue to the command word.</p><p>The Knowledge (arcana) and Knowledge (history) skills might be useful in helping to identify command words or deciphering clues regarding them. A successful check against DC 30 is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide some insight into a clue. The spells <i>detect magic, identify, </i>and <i>analyze dweomer </i>all reveal command words if the properties of the item are successfully identified.</p>", 
+                    "type": "section", 
+                    "name": "Command Word"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p id=\"use-activated\">This type of item simply has to be used in order to activate it. A character has to drink a potion, swing a sword, interpose a shield to deflect a blow in combat, look through a lens, sprinkle dust, wear a ring, or don a hat. Use activation is generally straightforward and self-explanatory.</p><p>Many use-activated items are objects that a character wears. Continually functioning items are practically always items that one wears. A few must simply be in the character's possession (meaning on his person). However, some items made for wearing must still be activated. Although this activation sometimes requires a command word (see above), usually it means mentally willing the activation to happen. The description of an item states whether a command word is needed in such a case.</p><p>Unless stated otherwise, activating a use-activated magic item is either a standard action or not an action at all and does not provoke attacks of opportunity, unless the use involves performing an action that provokes an attack of opportunity in itself. If the use of the item takes time before a magical effect occurs, then use activation is a standard action. If the item's activation is subsumed in its use and takes no extra time use, activation is not an action at all.</p><p>Use activation doesn't mean that if you use an item, you automatically know what it can do. You must know (or at least guess) what the item can do and then use the item in order to activate it, unless the benefit of the item comes automatically, such as from drinking a potion or swinging a sword.</p>", 
+                    "type": "section", 
+                    "name": "Use Activated"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>When an article of magic clothing or jewelry is discovered, most of the time size shouldn't be an issue. Many magic garments are made to be easily adjustable, or they adjust themselves magically to the wearer. Size should not keep characters of various kinds from using magic items.</p><p>There may be rare exceptions, especially with race-specific items. </p>", 
+                    "type": "section", 
+                    "name": "Size and Magic Items", 
+                    "sections": [
+                        {
+                            "source": "Core Rulebook", 
+                            "text": "<p>Armor and weapons that are found at random have a 30% chance of being Small (01&ndash;30), a 60% chance of being Medium (31&ndash;90), and a 10% chance of being any other size (91&ndash;100).</p>", 
+                            "type": "section", 
+                            "name": "Armor and Weapon Sizes"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>Many magic items need to be donned by a character who wants to employ them or benefit from their abilities. It's possible for a creature with a humanoid-shaped body to wear as many as 15 magic items at the same time. However, each of those items must be worn on (or over) a particular part of the body, known as a \u201cslot.\u201d</p><p>A humanoid-shaped body can be decked out in magic gear consisting of one item from each of the following groups, keyed to which slot on the body the item is worn.</p>", 
+            "type": "section", 
+            "name": "Magic Items on the Body", 
+            "sections": [
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>suits of armor.</p>", 
+                    "type": "section", 
+                    "name": "Armor"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>belts and girdles.</p>", 
+                    "type": "section", 
+                    "name": "Belts"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>robes and vestments.</p>", 
+                    "type": "section", 
+                    "name": "Body"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>mantles, shirts, and vests.</p>", 
+                    "type": "section", 
+                    "name": "Chest"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>eyes, glasses, and goggles.</p>", 
+                    "type": "section", 
+                    "name": "Eyes"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>boots, shoes, and slippers.</p>", 
+                    "type": "section", 
+                    "name": "Feet"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>gauntlets and gloves.</p>", 
+                    "type": "section", 
+                    "name": "Hands"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>circlets, crowns, hats, helms, and masks.</p>", 
+                    "type": "section", 
+                    "name": "Head"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>headbands and phylacteries.</p>", 
+                    "type": "section", 
+                    "name": "Headband"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>amulets, brooches, medallions, necklaces, periapts, and scarabs.</p>", 
+                    "type": "section", 
+                    "name": "Neck"
+                }, 
+                {
+                    "name": "Ring", 
+                    "text": "<p>rings.</p>", 
+                    "source": "Core Rulebook", 
+                    "abbrev": "up to two", 
+                    "type": "section"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>shields.</p>", 
+                    "type": "section", 
+                    "name": "Shield"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>capes and cloaks.</p>", 
+                    "type": "section", 
+                    "name": "Shoulders"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>bracelets and bracers. </p><p>Of course, a character may carry or possess as many items of the same type as he wishes. However, additional items beyond those in the slots listed above have no effect. </p><p>Some items can be worn or carried without taking up a slot on a character's body. The description of an item indicates when an item has this property.</p>", 
+                    "type": "section", 
+                    "name": "Wrist"
+                }
+            ]
+        }, 
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>Magic items produce spells or spell-like effects. For a saving throw against a spell or spell-like effect from a magic item, the DC is 10 + the level of the spell or effect + the ability modifier of the minimum ability score needed to cast that level of spell. </p><p>Staves are an exception to the rule. Treat the saving throw as if the wielder cast the spell, including caster level and all modifiers to save DCs. </p><p>Most item descriptions give saving throw DCs for various effects, particularly when the effect has no exact spell equivalent (making its level otherwise difficult to determine quickly).</p>", 
+            "type": "section", 
+            "name": "Saving Throws Against Magic Item Powers"
+        }, 
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>A magic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them&mdash;even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item's saving throw bonus equals 2 + 1/2 its caster level (rounded down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.</p><p>Magic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost. Magic items that take damage in excess of half their total hit points, but not more than their total hit points, gain the broken condition, and might not function properly.</p>", 
+            "type": "section", 
+            "name": "Damaging Magic Items", 
+            "sections": [
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>Repairing a magic item requires material components equal to half the cost to create the item, and requires half the time. The <i>make whole </i>spell can also repair a damaged (or even a destroyed) magic items&mdash;if the caster is high enough level.</p>", 
+                    "type": "section", 
+                    "name": "Repairing Magic Items"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>Many items, particularly wands and staves, are limited in power by the number of charges they hold. Normally, charged items have 50 charges at most (10 for staves). If such an item is found as a random part of a treasure, roll d% and divide by 2 to determine the number of charges left (round down, minimum 1). If the item has a maximum number of charges other than 50, roll randomly to determine how many charges are left. </p><p>Prices listed are always for fully charged items. (When an item is created, it is fully charged.) For an item that's worthless when its charges run out (which is the case for almost all charged items), the value of the partially used item is proportional to the number of charges left. For an item that has usefulness in addition to its charges, only part of the item's value is based on the number of charges left.</p>", 
+                    "type": "section", 
+                    "name": "Charges, Doses, and Multiple Uses"
+                }
+            ]
+        }, 
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>Magic items are valuable, and most major cities have at least one or two purveyors of magic items, from a simple potion merchant to a weapon smith that specializes in magic swords. Of course, not every item in this book is available in every town. </p><p>The following guidelines are presented to help GMs determine what items are available in a given community. These guidelines assume a setting with an average level of magic. Some cities might deviate wildly from these baselines, subject to GM discretion. The GM should keep a list of what items are available from each merchant and should replenish the stocks on occasion to represent new acquisitions.</p><p>The number and types of magic items available in a community depend upon its size. Each community has a base value associated with it (see Table: Available Magic Items). There is a 75% chance that any item of that value or lower can be found for sale with little effort in that community. In addition, the community has a number of other items for sale. These items are randomly determined and are broken down by category (minor, medium, or major). After determining the number of items available in each category, refer to Table: Random Magic Item Generation to determine the type of each item (potion, scroll, ring, weapon, etc.) before moving on to the individual charts to determine the exact item. Reroll any items that fall below the community's base value.</p><p>If you are running a campaign with low magic, reduce the base value and the number of items in each community by half. Campaigns with little or no magic might not have magic items for sale at all. GMs running these sorts of campaigns should make some adjustments to the challenges faced by the characters due to their lack of magic gear.</p><p>Campaigns with an abundance of magic items might have communities with twice the listed base value and random items available. Alternatively, all communities might count as one size category larger for the purposes of what items are available. In a campaign with very common magic, all magic items might be available for purchase in a metropolis.</p><p>Nonmagical items and gear are generally available in a community of any size unless the item is particularly expensive, such as full plate, or made of an unusual material, such as an adamantine longsword. These items should follow the base value guidelines to determine their availability, subject to GM discretion. </p>", 
+            "type": "section", 
+            "name": "Purchasing Magic Items", 
+            "sections": [
+                {
+                    "text": "<table id=\"table-15-1-available-magic-items\"><caption>Table: Available Magic Items</caption>\n<thead><tr><th>Community Size</th><th>Base Value</th><th>Minor</th><th>Medium</th><th>Major</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Thorp</td><td>50 gp</td><td>1d4 items</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Hamlet</td><td>200 gp</td><td>1d6 items</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Village</td><td>500 gp</td><td>2d4 items</td><td>1d4 items</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Small town</td><td>1,000 gp</td><td>3d4 items</td><td>1d6 items</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Large town</td><td>2,000 gp</td><td>3d4 items</td><td>2d4 items</td><td>1d4 items</td></tr>\n<tr class=\"even\"><td>Small city</td><td>4,000 gp</td><td>4d4 items</td><td>3d4 items</td><td>1d6 items</td></tr>\n<tr class=\"odd\"><td>Large city</td><td>8,000 gp</td><td>4d4 items</td><td>3d4 items</td><td>2d4 items</td></tr>\n<tr class=\"even\"><td>Metropolis</td><td>16,000 gp</td><td>*</td><td>4d4 items</td><td>3d4 items</td></tr></tbody>\n<tfoot><tr><td colspan=\"5\">* in a metropolis, nearly all minor magic items are available.</td></tr>\n</tfoot></table>", 
+                    "type": "table", 
+                    "name": "Available", 
+                    "source": "Core Rulebook"
+                }
+            ]
+        }, 
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>Each general type of magic item gets an overall description, followed by descriptions of specific items.</p><p>General descriptions include notes on activation, random generation, and other material. The AC, hardness, hit points, and break DC are given for typical examples of some magic items. The AC assumes that the item is unattended and includes a &ndash;5 penalty for the item's effective Dexterity of 0. If a creature holds the item, use the creature's Dexterity modifier in place of the &ndash;5 penalty.</p><p>Some individual items, notably those that just store spells, don't get full-blown descriptions. Reference the spell's description for details, modified by the form of the item (potion, scroll, wand, and so on). Assume that the spell is cast at the minimum level required to cast it.</p><p>Items with full descriptions have their powers detailed, and each of the following topics is covered in notational form as part of its entry.</p>", 
+            "type": "section", 
+            "name": "Magic Item Descriptions", 
+            "sections": [
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>Most of the time, a <i>detect magic </i>spell reveals the school of magic associated with a magic item and the strength of the aura an item emits. This information (when applicable) is given at the beginning of the item's notational entry. See the <i>detect magic </i>spell description for details.</p>", 
+                    "type": "section", 
+                    "name": "Aura"
+                }, 
+                {
+                    "name": "Caster Level", 
+                    "text": "<p>The next item in a notational entry gives the caster level of the item, indicating its relative power. The caster level determines the item's saving throw bonus, as well as range or other level-dependent aspects of the powers of the item (if variable). It also determines the level that must be contended with should the item come under the effect of a <i>dispel magic </i>spell or similar situation.</p><p>For potions, scrolls, and wands, the creator can set the caster level of an item at any number high enough to cast the stored spell but not higher than her own caster level. For other magic items, the caster level is determined by the item itself. </p>", 
+                    "source": "Core Rulebook", 
+                    "abbrev": "CL", 
+                    "type": "section"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>Most magic items can only be utilized if worn or wielded in their proper slots. If the item is stowed or placed elsewhere, it does not function. If the slot lists \u201cnone,\u201d the item must be held or otherwise carried to function.</p>", 
+                    "type": "section", 
+                    "name": "Slot"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>This is the cost, in gold pieces, to purchase the item, if it is available for sale. Generally speaking, magic items can be sold by PCs for half this value. </p>", 
+                    "type": "section", 
+                    "name": "Price"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>This is the weight of an item. When a weight figure is not given, the item has no weight worth noting (for purposes of determining how much of a load a character can carry).</p>", 
+                    "type": "section", 
+                    "name": "Weight"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>This section of a magic item describes the item's powers and abilities. Potions, scrolls, staves, and wands refer to various spells as part of their descriptions (see Spell Lists for details on these spells).</p>", 
+                    "type": "section", 
+                    "name": "Description"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>With the exception of artifacts, most magic items can be built by a spellcaster with the appropriate feats and prerequisites. This section describes those prerequisites. </p>", 
+                    "type": "section", 
+                    "name": "Construction"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>Certain requirements must be met in order for a character to create a magic item. These include feats, spells, and miscellaneous requirements such as level, alignment, and race or kind. The prerequisites for creation of an item are given immediately following the item's caster level.</p><p>A spell prerequisite may be provided by a character who has prepared the spell (or who knows the spell, in the case of a sorcerer or bard), or through the use of a spell completion or spell trigger magic item or a spell-like ability that produces the desired spell effect. For each day that passes in the creation process, the creator must expend one spell completion item or one charge from a spell trigger item if either of those objects is used to supply a prerequisite.</p><p>It is possible for more than one character to cooperate in the creation of an item, with each participant providing one or more of the prerequisites. In some cases, cooperation may even be necessary.</p><p>If two or more characters cooperate to create an item, they must agree among themselves who will be considered the creator for the purpose of determinations where the creator's level must be known.</p>", 
+                    "type": "section", 
+                    "name": "Requirements"
+                }, 
+                {
+                    "source": "Core Rulebook", 
+                    "text": "<p>This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of an item, but additional material components might increase this number. The cost to create includes the costs derived from the base cost plus the costs of the components.</p>", 
+                    "type": "section", 
+                    "name": "Cost"
+                }
+            ]
+        }
+    ], 
+    "name": "Magic Items", 
+    "type": "section"
+}

@@ -1,0 +1,147 @@
+{
+    "dexterity": "15", 
+    "ac": "20, touch 13, flat-footed 18 (+2 Dex, +7 natural, +1 size)", 
+    "intelligence": "-", 
+    "racial_modifiers": "+6 Stealth", 
+    "melee": "bite +3 (1d6+1 plus poison)", 
+    "type": "creature", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "40 ft.", 
+    "alignment": "N", 
+    "size": "Small", 
+    "strength": "12", 
+    "constitution": "-", 
+    "source": "Bestiary", 
+    "treasure": "none", 
+    "charisma": "1", 
+    "environment": "any", 
+    "immune": "construct traits", 
+    "init": "+2", 
+    "fortitude": "+0", 
+    "reflex": "+2", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+    "description": "This creature resembles a small, metallic cobra. Its body is made of overlapping iron plates, and its eyes are pinpoints of red light.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Find Target", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Once per day, an iron cobra's creator can order it to find and kill a specific creature within 1 mile, which it does as if guided by discern location. The creator must have seen or be holding an item from the specified creature for this order to function.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "An iron cobra's bite injects poison from a hidden reservoir within its body. Because it is a construct, the cobra does not naturally produce this poison, and its creator must refill this reservoir manually. The reservoir holds enough poison for 3 successful bite attacks, after which the creature merely deals bite damage. Refilling the reservoir takes 5 rounds and provokes attacks of opportunity. The creator can fill the reservoir with any injury poison (typically black adder venom), though acid, alchemical substances, and even stranger liquids have been used.Black Adder Venom: Bite&mdash;injury; save Fort DC 11; frequency 1/round for 6 rounds; effect 1d2 Con damage; cure 1 save.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The iron cobra is a simple construct that resembles a hooded cobra made out of metal. The iron cobra is typically used as a bodyguard or guardian of treasure, though its magical ability to unerringly locate creatures means it is also used as an assassin. Since an iron cobra's poison reservoir can contain multiple types of venom, the construct's specific use can be further tailored by varying the poison used. Some spellcasters even fill these reservoirs with potions, so that when the cobra bites, it injects the potion into its target. This is a somewhat dangerous method for gaining the effects of a potion, but it does free up the cobra's master to do other things in a combat round apart from quaffing potions.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Iron is the most common material for these creations, but some crafters prefer more exotic materials when creating the serpentine constructs.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Adamantine Cobra (+1 CR)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>This cobra is more solidly built than others. Its natural armor bonus increases to +12, it gains +5 hp per HD, and it gains DR 10/&mdash;.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Cold Iron Cobra (+0 CR)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>This cobra's natural attacks count as cold iron for the purpose of bypassing damage reduction.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Darkwood Cobra (+0 CR)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>This cobra is more mobile; it gains a swim speed of 30 ft. and a climb speed of 20 ft.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Mithral Cobra (+1 CR)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>This cobra is much swifter. Its Dexterity increases by +4 and its speed to 70 ft., and it can make 2 bite attacks per round as a full attack action.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "text": "<p>An iron cobra's body is built from 100 pounds of magically treated materials (typically iron).</p>", 
+            "type": "section", 
+            "name": "Construction", 
+            "sections": [
+                {
+                    "requirements": "Craft Construct, animate object, discern location, geas/quest", 
+                    "name": "Iron Cobra", 
+                    "cl": "7th", 
+                    "sections": [], 
+                    "price": "4,000 gp (iron); 20,000 gp (adamantine), 8,00 gp (cold iron), 5,000 (darkwood), or 10,000 gp (mithral)", 
+                    "source": "Bestiary", 
+                    "cost": "2,000 gp (iron); 10,000 gp (adamantine); 4,000 gp (cold iron), 2,500 gp (darkwood); 5,000 gp (mithral)", 
+                    "skill": "Craft (armor), Craft (blacksmithing), Craft (carpentry [for darkwood cobras only]), or Craft (weapons) DC 15", 
+                    "type": "item"
+                }
+            ]
+        }
+    ], 
+    "hp": "15 (1d10+10)", 
+    "wisdom": "11", 
+    "creature_type": "Construct", 
+    "special_qualities": "find target", 
+    "dr": "5/-", 
+    "base_attack": "+1", 
+    "name": "Iron Cobra", 
+    "skills": "Stealth +12", 
+    "sr": "13", 
+    "cmd": "13 (can't be tripped)", 
+    "cmb": "+1", 
+    "will": "+0", 
+    "organization": "solitary, pair, or nest (3-10)"
+}

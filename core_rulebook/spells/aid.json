@@ -1,0 +1,43 @@
+{
+    "school": "enchantment", 
+    "saving_throw": "none", 
+    "name": "Aid", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "text": "<p><i>Aid </i>grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at caster level 10th).</p>", 
+    "spell_resistance": "yes (harmless)", 
+    "level": [
+        {
+            "class": "Cleric", 
+            "level": 2
+        }, 
+        {
+            "class": "Oracle", 
+            "level": 2
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Core Rulebook", 
+    "range": "touch", 
+    "effects": [
+        {
+            "text": "living creature touched", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "type": "DF"
+        }
+    ], 
+    "duration": "1 min./level", 
+    "subschool": "compulsion", 
+    "type": "spell"
+}

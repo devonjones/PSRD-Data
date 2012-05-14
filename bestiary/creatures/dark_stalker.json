@@ -1,0 +1,107 @@
+{
+    "dexterity": "18", 
+    "ac": "18, touch 14, flat-footed 14 (+2 armor, +4 Dex, +2 natural)", 
+    "special_attacks": "death throes, sneak attack (+3d6)", 
+    "intelligence": "9", 
+    "racial_modifiers": "+4 Climb, +4 Perception, +4 Stealth", 
+    "melee": "2 short swords +6/+6 (1d6+2 plus poison/19-20)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "30 ft.", 
+    "alignment": "CN", 
+    "spells": {
+        "spell-like abilities": "(CL 6th)<p class=\"stat-block-2\">At will-<i>deeper darkness, detect magic, fog cloud</i></p>"
+    }, 
+    "environment": "any underground", 
+    "strength": "14", 
+    "constitution": "14", 
+    "treasure": "NPC gear (leather armor, short swords [2], black smear [6], other treasure)", 
+    "charisma": "13", 
+    "languages": "Dark Folk, Undercommon", 
+    "source": "Bestiary", 
+    "init": "+4", 
+    "fortitude": "+4", 
+    "size": "Medium", 
+    "type": "creature", 
+    "feats": "Double Slice, Two-Weapon Fighting, Weapon Finesse", 
+    "senses": "see in darkness; Perception +8", 
+    "description": "This tall humanoid's pale brow and black, soulless eyes are all that can be seen above a black scarf wrapped around its face.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Death Throes", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "When a dark stalker is slain, its body combusts in a flash of white-hot flame. This acts like a fireball that deals 3d6 points of fire damage to all creatures within a 20-foot-radius burst. A DC 15 Reflex save halves this damage. A dark stalker's gear and treasure are unaffected by this explosion. This save is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison Use", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Dark stalkers are skilled in the use of poison and never risk accidentally poisoning themselves. Like their diminutive kin, the dark creepers, dark stalkers use black poison on their weapons and generally carry six doses on them.Black Smear&mdash;injury; save Fort DC 15; frequency 1/round for 6 rounds; effect 1d2 Str; cure 1 save. The poison DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "See in Darkness", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "A dark stalker can see perfectly in darkness of any kind, including that created by deeper darkness.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The strange and mysterious dark stalkers are the undisputed leaders of dark folk society. Deep underground, these creatures dwell in strange villages (some rumors suggest entire cities) built of stone and fungus in remote caverns where they are served and worshiped by their coarser, diminutive kin, the dark creepers. Dark stalkers come to the surface rarely, but when they do it is on a mission, and with a force of creatures such that it never ends well for those they seek to rob or torment.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Dark stalkers are tall, frail humanoids with incredibly pale skin. They constantly wear multiple layers of dark cloth and black leather armor, yet unlike their lesser kin, a dark stalker's garb is always clean and spotless. Each dark stalker carries a pair of short swords&mdash;they prefer these weapons to all others. Dark stalkers are 6 feet tall and weigh 100 pounds.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>In a fight, dark stalkers are not above sacrificing lesser creatures, including dark creepers, to win the day or cover their retreat if things go poorly. They hate well-lit areas and always prefer to fight under the cover of <i>deeper darkness</i>. Dark stalkers rarely fight to the death if it can be avoided, preferring to slip away if things begin to look grim.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The origins of the dark stalkers and the dark creepers are shrouded in mystery, made more difficult to decipher by the fact that the dark stalkers do not keep records of their history. Many scholars believe that, just as the drow descended from elves, so too must the dark folk have descended from humanity, their eerie powers and spell-like abilities the result of generation upon generation of devotion to profane and sinister magic. Alas, the truth of the race's history may never be known.</p>"
+        }
+    ], 
+    "hp": "39 (6d8+12)", 
+    "weaknesses": "light blindness", 
+    "wisdom": "11", 
+    "creature_type": "Humanoid", 
+    "special_qualities": "poison use", 
+    "base_attack": "+4", 
+    "name": "Dark Stalker", 
+    "skills": "Climb +10, Perception +8, Sleight of Hand +5, Stealth +8", 
+    "reflex": "+9", 
+    "cmd": "20", 
+    "cmb": "+6", 
+    "will": "+2", 
+    "organization": "solitary, gang (1 dark stalker and 2-5 dark creepers), or clan (20-80 dark creepers plus 1 dark stalker per 20 dark creepers)", 
+    "creature_subtype": "dark folk"
+}

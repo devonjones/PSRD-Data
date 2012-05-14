@@ -1,0 +1,90 @@
+{
+    "dexterity": "14", 
+    "ac": "24, touch 12, flat-footed 21 (+2 Dex, +1 dodge, +12 natural, -1 size)", 
+    "cmd": "30 (can't be tripped)", 
+    "special_attacks": "constrict (2d8+10), grab (Huge)", 
+    "intelligence": "2", 
+    "resist": "cold 10", 
+    "melee": "2 slams +16 (2d8+7 plus grab)", 
+    "cr": "9", 
+    "xp": "6,400", 
+    "speed": "20 ft., climb 20 ft., swim 40 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "25", 
+    "constitution": "20", 
+    "source": "Bestiary 3", 
+    "treasure": "incidental (1d6 sargassum fiend bulbs, other treasure)", 
+    "charisma": "15", 
+    "environment": "any oceans", 
+    "immune": "plant traits", 
+    "init": "+6", 
+    "fortitude": "+15", 
+    "type": "creature", 
+    "feats": "Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Stealthy, Weapon Focus (slam)", 
+    "senses": "blindsense 60 ft., tremorsense 120 ft.; Perception +11", 
+    "description": "This shifting mass of green seaweed transforms from the shape of a humanoid back to a patch of algae, continually changing.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Grab", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A sargassum fiend can grab Huge or smaller foes, and has a +8 racial bonus on grapple checks rather than the normal +4 bonus most creatures with grab possess.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Mirage", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A sargassum fiend emits a powerful scent that causes specific, miragelike hallucinations. All creatures within 300 feet of a sargassum fiend must make a DC 18 Will save or become enraptured by the scent. An enraptured creature sees the monster as whatever would most compel it to approach. This might be a lost loved one, a child in need of help, an enchanting mermaid, the promise of dry land, and so on. The extent of this illusion functions as mirage arcana (CL equals the sargassum's CR), but is a mind-affecting phantasm, not a glamer. This effect ends immediately if the plant makes an attack against any target. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A sargassum fiend is a free-floating mass of intelligent seaweed capable of luring its victims to their deaths via a powerful hallucinogenic pheromone. Once the sargassum fiend lures prey within striking distance, it grabs the entranced creature and attempts to crush it to death. Experienced sailors tell tales of entire crews jumping overboard to swim out to a murderous field of the sea plants.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The strange pheromone produced by a sargassum fiend can be harvested from the numerous bulbs that grow within the fiend's body, but these bulbs rot quickly once harvested. A fresh bulb lasts for 1 hour before becoming useless; until that point it can be crushed as a standard action to produce a mirage effect as detailed above. A single sargassum fiend generally has 1d6 bulbs of musk when slain&mdash;harvesting one requires a DC 29 Survival check. To date, no alchemical or magical process has successfully preserved this musk.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Sargassum fiends usually reach sizes up to 10 feet in diameter before splitting, their means of asexual reproduction. Mutations have been known to exist, however, and sea-faring scholars have recorded individual sargassum fiends reaching masses of truly enormous size, up to Colossal. Such enormous sargassum fiends can be created by advancing their Hit Dice by a minimum of 5 HD per size increase step.</p>"
+        }
+    ], 
+    "hp": "123 (13d8+65)", 
+    "reach": "10 ft.", 
+    "wisdom": "11", 
+    "creature_type": "Plant", 
+    "dr": "5/slashing", 
+    "base_attack": "+9", 
+    "name": "Sargassum Fiend", 
+    "skills": "Climb +19, Escape Artist +4, Perception +11, Stealth +7, Swim +15", 
+    "reflex": "+8", 
+    "space": "10 ft.", 
+    "cmb": "+17 (+25 grapple)", 
+    "will": "+4", 
+    "aura": "mirage (300 ft., DC 18)", 
+    "organization": "solitary, pair, or bed (3-8)", 
+    "creature_subtype": "aquatic"
+}

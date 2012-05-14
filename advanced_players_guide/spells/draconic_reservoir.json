@@ -1,0 +1,50 @@
+{
+    "school": "evocation", 
+    "saving_throw": "Fortitude negates (harmless)", 
+    "name": "Draconic Reservoir", 
+    "descriptor": [
+        "acid", 
+        "cold", 
+        "electricity", 
+        "or fire"
+    ], 
+    "text": "<p id=\"draconic-reservoir\"><i>Draconic reservoir</i> functions as <i>protection from energy</i>, absorbing 6 points of one type of energy damage per caster level (acid, cold, electricity, or fire, maximum 60 points). Each round, as a swift action, the subject can release 1d6 points of the absorbed energy and apply it to any melee attack, as if using an <i>acidic</i>, <i>flaming</i>, <i>frost</i>, or <i>shock</i> weapon. The first creature the subject strikes with this attack takes the energy damage in addition to any other consequences of the attack. Releasing energy in this way does not \u201cfree up\u201d space to absorb still more energy; the maximum amount of energy the spell can absorb remains fixed. The subject cannot release more energy than he currently has absorbed. Once the subject has absorbed all the energy allowed by the spell, he takes damage as normal from that energy type. Once the energy has been released, the spell is discharged.</p><p id=\"draconic-reservoir\"><i>Draconic reservoir</i> does not stack with <i>protection from energy</i>. <i>Draconic reservoir</i> overlaps (and does not stack with) <i>resist energy</i>. If a character is warded by <i>draconic reservoir</i> and <i>resist energy</i>, <i>draconic reservoir</i> absorbs damage until it reaches its maximum limit.</p>", 
+    "spell_resistance": "yes (harmless)", 
+    "level": [
+        {
+            "class": "Alchemist", 
+            "level": 3
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 3
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 3
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Player's Guide", 
+    "range": "touch", 
+    "effects": [
+        {
+            "text": "creature touched", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "a scale from dragon that produces the energy you seek to absorb", 
+            "type": "M"
+        }
+    ], 
+    "duration": "10 minutes/level or until discharged; see text", 
+    "type": "spell"
+}

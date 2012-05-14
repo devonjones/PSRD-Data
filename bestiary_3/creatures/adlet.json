@@ -1,0 +1,86 @@
+{
+    "dexterity": "26", 
+    "ac": "25, touch 20, flat-footed 15 (+8 Dex, +2 dodge, +5 natural)", 
+    "special_attacks": "frozen breath", 
+    "intelligence": "13", 
+    "racial_modifiers": "+8 Stealth in snow", 
+    "melee": "+1 spear +17/+12/+7 (1d8+7/&times;3), bite +10 (1d6+2 plus 1d6 cold)", 
+    "cr": "10", 
+    "xp": "9,600 each", 
+    "speed": "40 ft.", 
+    "alignment": "CN", 
+    "spells": {
+        "spell-like abilities": "(CL 10th; concentration +11)<p class=\"stat-block-2\">Constant-<i>pass without trace, ray of frost</i></p><p class=\"stat-block-2\">3/day-<i>fog cloud, sleet storm</i></p><p class=\"stat-block-2\">1/day-<i>ice storm, wind walk</i> (self only)</p>"
+    }, 
+    "environment": "cold plains, hills, or mountains", 
+    "strength": "18", 
+    "constitution": "18", 
+    "source": "Bestiary 3", 
+    "treasure": "standard (+1 spear, other treasure)", 
+    "charisma": "13", 
+    "languages": "Common, Adlet", 
+    "immune": "cold", 
+    "init": "+12", 
+    "fortitude": "+9", 
+    "size": "Medium", 
+    "type": "creature", 
+    "feats": "Diehard, Dodge, Improved Initiative, Multiattack, Power Attack, Run, Self-Sufficient, Weapon Focus (spear)", 
+    "senses": "low-light vision, scent; Perception +13", 
+    "description": "This humanoid wolf's fur is snowy white and its eyes piercing blue; it grips an ornate spear in its fist. ", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Arctic Stride", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "An adlet can move through any sort of difficult terrain at its normal speed while within arctic or snowy terrain. Magically altered terrain affects an adlet normally.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Frozen Breath", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "An adlet's breath is supernaturally cold, and deals an additional 1d6 points of cold damage with its bite as a result. Once every 1d4 rounds as a swift action, it can exhale, filling a 10-foot-radius spread around it with frigid air that deals 2d6 points of cold damage and staggers those in the area with numbing cold. A DC 21 Fortitude save negates the staggered effect but not the cold damage. The save DC is Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Adlets are cunning hunters of the arctic wilds. Tall, sinewy, nimble, and very quick, they see themselves as the true heritors of untamed arctic lands, and are offended by any other humanoid species that attempts to settle in such regions. Although not normally evil, adlets are very aggressive and warlike. They also have no social taboo against cannibalism, and their practice of eating their dead rather than burying them only further builds misconceptions about their morality.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Deeply religious, adlets worship the power and cruelty of nature, seeing divinity in the lash of the blizzard's wind, the ferocity of the polar bear, and the immensity of the towering iceberg. Many become oracles or druids, but all adlets know their place in the natural world. One in every dozen adlets is a shaman: an adlet with the advanced creature template and the ability to summon a greater ice elemental or 1d4+1 large ice elementals (see <i>Bestiary 2</i> 114) and <i>commune with nature</i> once per day each as spell-like abilities. An adlet is 6 feet tall and weighs 250 pounds.</p>"
+        }
+    ], 
+    "hp": "127 each (15d8+60)", 
+    "weaknesses": "vulnerability to fire", 
+    "wisdom": "17", 
+    "creature_type": "Humanoid", 
+    "special_qualities": "arctic stride", 
+    "base_attack": "+11", 
+    "name": "Adlet", 
+    "skills": "Acrobatics +13 (+17 when jumping), Climb +12, Handle Animal +9, Heal +5, Perception +13, Stealth +13 (+21 in snow), Survival +20, Swim +9", 
+    "reflex": "+17", 
+    "cmd": "35", 
+    "cmb": "+15", 
+    "will": "+8", 
+    "organization": "solitary, pair, or pack (3-18 plus 1 shaman)", 
+    "creature_subtype": "adlet, cold"
+}

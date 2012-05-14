@@ -1,0 +1,49 @@
+{
+    "school": "abjuration", 
+    "saving_throw": "Will negates (see text)", 
+    "name": "Miserable Pity", 
+    "parent": "Sanctuary", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "text": "<p>This spell functions as <i>sanctuary</i>, except creatures attempting to attack the target who fail their saves also feel a strong sense of pity toward the target, as if it were weak, pathetic, and not a threat. If the target breaks the spell by attacking, any creature that failed its save against the spell gains a +2 morale bonus on attack rolls against the target for 1 minute.</p>", 
+    "spell_resistance": "yes", 
+    "level": [
+        {
+            "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 2
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 2
+        }, 
+        {
+            "class": "Witch", 
+            "level": 2
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Ultimate Magic", 
+    "range": "touch", 
+    "effects": [
+        {
+            "text": "creature touched", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "1 round/level and 1 minute; see text", 
+    "type": "spell"
+}

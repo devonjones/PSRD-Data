@@ -1,0 +1,154 @@
+{
+    "source": "Bestiary", 
+    "sections": [
+        {
+            "dexterity": "13", 
+            "ac": "12, touch 11, flat-footed 11 (+1 Dex, +1 natural)", 
+            "special_attacks": "pull (tongue, 5 feet), swallow whole (1d4 bludgeoning damage, AC 10, 1 hp), tongue", 
+            "intelligence": "1", 
+            "racial_modifiers": "+4 Acrobatics (+8 jumping), +4 Stealth", 
+            "melee": "bite +3 (1d6+2 plus grab) or tongue +3 touch (grab)", 
+            "cr": "1", 
+            "xp": "400", 
+            "speed": "30 ft., swim 30 ft.", 
+            "alignment": "N", 
+            "size": "Medium", 
+            "strength": "15", 
+            "constitution": "16", 
+            "space": "5 ft.", 
+            "treasure": "none", 
+            "charisma": "6", 
+            "environment": "temperate or warm marshes and aquatic", 
+            "source": "Bestiary", 
+            "init": "+1", 
+            "fortitude": "+6", 
+            "reflex": "+6", 
+            "feats": "Lightning Reflexes", 
+            "senses": "low-light vision, scent; Perception +3", 
+            "description": "This creature looks like a normal frog, with moist, mottled, blackish-green skin, but grown to truly monstrous size.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Tongue", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary", 
+                            "text": "A giant frog's tongue is a primary attack with reach equal to three times the frog's normal reach (15 feet for a Medium giant frog). A giant frog's tongue deals no damage on a hit, but can be used to grab. A giant frog does not gain the grappled condition while using its tongue in this manner.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Giant frogs have razor-sharp teeth lining their mouths. They are 6 feet long and weigh 200 pounds.</p>"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "text": "<p><b>Size</b> Medium; <b>Speed</b> 30 ft., swim 30 ft.; <b>AC</b> +1 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6; <b>Special Qualities</b> low-light vision, scent, tongue, pull.</p>", 
+                    "type": "section", 
+                    "name": "Frog", 
+                    "sections": [
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p><b>Ability Scores</b> Str +2, Dex +2; <b>Special Qualities</b> swallow whole.</p>", 
+                            "type": "section", 
+                            "name": "4th-Level Adv."
+                        }
+                    ]
+                }
+            ], 
+            "hp": "15 (2d8+6)", 
+            "reach": "5 ft. (15 ft. with tongue)", 
+            "wisdom": "8", 
+            "creature_type": "Animal", 
+            "base_attack": "+1", 
+            "name": "Frog, Giant", 
+            "skills": "Acrobatics +9 (+13 jumping), Perception +3, Stealth +5, Swim +10", 
+            "type": "creature", 
+            "cmd": "14 (18 vs. trip)", 
+            "cmb": "+3 (+7 grapple)", 
+            "will": "-1", 
+            "organization": "solitary, pair, or army (3-8)"
+        }, 
+        {
+            "dexterity": "12", 
+            "ac": "13, touch 13, flat-footed 12 (+1 Dex, +2 size)", 
+            "intelligence": "1", 
+            "racial_modifiers": "+4 Acrobatics (+8 jumping), +4 Stealth; uses Dex to swim", 
+            "melee": "bite +3 (1 plus poison)", 
+            "cr": "1/2", 
+            "xp": "200", 
+            "speed": "10 ft., swim 20 ft.", 
+            "alignment": "N", 
+            "size": "Tiny", 
+            "strength": "2", 
+            "constitution": "11", 
+            "space": "2-1/2 ft.", 
+            "treasure": "none", 
+            "charisma": "10", 
+            "environment": "warm marshes and aquatic", 
+            "source": "Bestiary", 
+            "init": "+1", 
+            "fortitude": "+2", 
+            "reflex": "+3", 
+            "feats": "Weapon Finesse", 
+            "senses": "low-light vision; Perception +3", 
+            "description": "This small frog is bright green and red, with electric-blue stripes on its hind legs.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Poison", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary", 
+                            "text": "Injury; save Fort DC 10; frequency 1/round for 6 rounds; effect 1d2 Con damage; cure 1 save", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Poisonous frogs are a bright green color, with additional bright yellow, red, or blue markings. They are just over a foot long and weigh 10 pounds. The poison of poisonous frogs is often gathered by primitive tribes and used to coat darts and arrows for hunting.</p>"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>You can make a larger poison frog either by applying the giant simple template or by giving a normal giant frog a poison frog's venomous bite.</p>"
+                }
+            ], 
+            "hp": "4 (1d8)", 
+            "reach": "0 ft.", 
+            "wisdom": "9", 
+            "creature_type": "Animal", 
+            "base_attack": "+0", 
+            "name": "Frog, Poison", 
+            "skills": "Acrobatics +5 (+1 jumping), Perception +3, Stealth +13, Swim + 9", 
+            "type": "creature", 
+            "cmd": "5 (9 vs. trip)", 
+            "cmb": "-1", 
+            "will": "-1", 
+            "organization": "solitary, pair, or army (3-12)"
+        }
+    ], 
+    "name": "Frog", 
+    "type": "section"
+}

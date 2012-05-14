@@ -1,0 +1,618 @@
+{
+    "source": "Bestiary 3", 
+    "sections": [
+        {
+            "source": "Bestiary 3", 
+            "text": "<p>Clockwork constructs are the technological cousins of golems, constructed with a combination of magic and precise technologies dependant upon the internal churning and turning of thousands of intricate springs, screws, and gears. </p><p>There are those who would scoff at the work of clockwork engineers, whose constructs seem at best merely imitations of the creations brought to life by practitioners of the purely arcane arts. However, those canny enough to realize the potential of clockwork engines know their true power to be both exotic and potent. In worlds where clockworks are common, these creatures can rival even the most powerful of golems for raw power. Massive giants comprising countless nuts and bolts have torn entire empires asunder. Time and time again, clockwork creatures have proven themselves a formidable presence in the face of more traditional rivals, and those who have borne witness to the feats of these creatures know to hold their tongues before questioning the constructs' power.</p><p>Clockwork creatures function by combining magical energies and clockwork mechanisms. The myriad metal parts that go into the construction of a clockwork creation require absolute precision in order to function properly, so they must be built by only the steadiest of hands. Amateurish attempts at clockwork construction typically result in nonfunctional units or misfires, and many an engineering lab has been burned to the ground by novices seeking to learn the basics of clockworks and the elements that power them.</p><p>Particularly guileful crafters may construct miniature clockwork spies that can record sound, and rumors tell of even more advanced technologies that allow visual recording. While magical wonders such as spells can allow the user to scry information or to see where one isn't normally physically able to, clockwork spies provide an edge in that their memories are concrete and incorruptible, enabling them to make flawless recordings of events not subject to the regular perversions of human memories.</p><p>Clockwork creations, as their names suggests, must be wound up before they animate. The creator of a clockwork crafts a unique key for each creation. This key is typically inserted into the clockwork's back and turned clockwise to wind it. Turning the key counterclockwise has the effect of winding the machine down, though only a willing (or completely helpless) machine will allow itself to be unwound in this way, meaning either its creator or someone its creator has specifically designated can normally do so. Since each key is totally unique, construction of a new key (or bypassing a key entirely) requires a successful Disable Device check (DC = 20 + the clockwork's CR). Larger clockworks tend to have larger keys, and particularly huge keys require more than one set of hands to turn. Rather than seek assistance from other engineers, eccentric or hermetic inventors often rely upon other clockwork creations to help them turn keys or aid in the creation of more monumental constructs. Other times, engineers give copies of keys to their most trusted clockworks, which can be programmed to wind allies and even themselves as the situation requires.</p><p>Much like golems and animated objects, clockwork creatures can be given any number of commands; a perpetually turning script in their core records those orders and programs the rest of the machine. Only one who possesses a key to the clockwork can program it, but any commands given to the construct last until the clockwork is reprogrammed or destroyed. An individual clockwork's potential is only limited by its creator's innovation and aptitude. Unlike many golems, which are trapped in bodies resembling lumbering and fallible cages, clockwork constructs can be repeatedly reworked and reengineered&mdash;gears can be oiled, springs can be replaced, and pistons can be fine-tuned. The ever-adjustable framework of these mechanical beasts allows for extreme variation from creation to creation.</p><p>Since clockwork creations are mostly mechanical and are at the mercy of their creator's adeptness with the technology, they are prone to the follies of human error. Loose bolts, improper programming, or lack of maintenance are all cause for malfunctions, errors that can range from minute energy leaks to deadly explosions. The most common cause of malfunction, however, is not imparted by the creator, but by the clockwork's destroyer. Creatures attacking the machine gradually unhinge screws and twist cogs with each landed blow, giving the clockwork a greater chance of backfire. Many combat clockworks are thus accompanied by clockwork servants&mdash;servitor clockworks that quickly and readily fix their mechanical allies in the heat of battle.</p><p>In the earlier days of clockwork technology, many practical hindrances prevented rapid maturation of the devices. Clockwork machines were powered by inefficient, costly resources; however, the advent of arcane enchantment not only has allowed for greater precision in the crafting of gears and other key components, but has also opened up a wide new range of possibilities for defensive systems and offensive weaponry. Early attempts to combine clockwork with steam power or other nonmagical forms of energy tended to overcomplicate the already delicate machinery, and have long since been abandoned as a result. Whispers abound of an even more unusual category of clockwork that has solved this problem and has merged the complexities of steam power with the adaptability of magical energies, yet such exotic and unusual clockworks remain nothing more than rumors in most worlds at this time.</p>", 
+            "type": "section", 
+            "name": "Clockwork", 
+            "sections": []
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "text": "<p class=\"flavor-text\">The gears of this enormous, four-armed mechanical giant shriek and grind in a deafening cacophony as it lumbers forth.</p>", 
+            "type": "section", 
+            "name": "Clockwork Goliath", 
+            "sections": [
+                {
+                    "dexterity": "20", 
+                    "ac": "35, touch 13, flat-footed 28 (+5 Dex, +2 dodge, +22 natural, -4 size)", 
+                    "cmd": "66", 
+                    "special_attacks": "self-destruction, trample (3d6+25, DC 41)", 
+                    "intelligence": "-", 
+                    "melee": "4 slams +41 (3d6+17)", 
+                    "cr": "19", 
+                    "xp": "204,800", 
+                    "speed": "40 ft.", 
+                    "alignment": "N", 
+                    "size": "Gargantuan", 
+                    "strength": "45", 
+                    "constitution": "-", 
+                    "source": "Bestiary 3", 
+                    "treasure": "none", 
+                    "charisma": "1", 
+                    "environment": "any", 
+                    "immune": "construct traits", 
+                    "init": "+9", 
+                    "fortitude": "+9", 
+                    "type": "creature", 
+                    "feats": "Improved InitiativeB, Lightning ReflexesB", 
+                    "sections": [
+                        {
+                            "subtype": "special_abilities", 
+                            "sections": [
+                                {
+                                    "name": "Cannon", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "One of a goliath's arms ends in a cannon. The goliath may use this as one of its four slam attacks, or it can use it to fire cannonballs. A cannon has a range increment of 100 feet, and deals 6d6 points of bludgeoning and piercing damage on a hit with a &times;4 critical modifier. A clockwork goliath's cannon can hold up to 12 cannonballs&mdash;reloading a single cannonball is a standard action.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Self-Destruction", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "When a goliath's hit points are reduced to 10% its total (21 hp for most clockwork goliaths) or less but still above 0, it self-destructs on its next turn, bursting in an explosion of metal scraps and steam that deals 12d6 points of slashing damage plus 12d6 points of fire damage to all creatures within a 20-foot-radius burst. A successful DC 24 Reflex save halves the damage. The save is Constitution-based.", 
+                                    "sections": []
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Special Abilities", 
+                            "source": "Bestiary 3"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>The thunderous clockwork goliath is easily recognized as the epitome of technology created to destroy. The exact nature of a clockwork goliath's \u201chands\u201d varies&mdash;they all resolve as slam attacks in melee combat, though.</p>"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>The clockwork goliath towers over most creatures and buildings; standing at a height of 45 feet, it weighs over 100 tons.</p>"
+                        }
+                    ], 
+                    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+                    "ranged": "cannon +29/+24/+19/+14 (6d6/&times;4)", 
+                    "hp": "214 (28d10+60)", 
+                    "weaknesses": "vulnerable to electricity", 
+                    "reach": "20 ft.", 
+                    "wisdom": "11", 
+                    "creature_type": "Construct", 
+                    "special_qualities": "swift reactions, winding", 
+                    "dr": "15/adamantine", 
+                    "base_attack": "+28", 
+                    "name": "Clockwork Goliath", 
+                    "reflex": "+16", 
+                    "space": "20 ft.", 
+                    "cmb": "+49", 
+                    "will": "+9", 
+                    "organization": "solitary, pair, or siege (3-6)", 
+                    "creature_subtype": "clockwork"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "text": "<p>The clockwork goliath is one of the most difficult of its kind to create. The creator must start with crafted clockwork pieces worth 20,000 gp. </p>", 
+                    "type": "section", 
+                    "name": "Construction", 
+                    "sections": [
+                        {
+                            "name": "Clockwork Goliath", 
+                            "cl": "18th", 
+                            "type": "item", 
+                            "price": "300,000 gp", 
+                            "source": "Bestiary 3", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "name": "CONSTRUCTION", 
+                                    "sections": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "text": "<p class=\"flavor-text\">Long and metallic, this serpentine construction resembles a mechanical eel with several paddle-like limbs.</p>", 
+            "type": "section", 
+            "name": "Clockwork Leviathan", 
+            "sections": [
+                {
+                    "dexterity": "18", 
+                    "ac": "28, touch 14, flat-footed 22 (+4 Dex, +2 dodge, +14 natural, -2 size)", 
+                    "special_attacks": "breath weapon (60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day), grind, swallow whole (2d8+16 slashing damage plus 2d6 fire damage, AC 17, 20 hp)", 
+                    "intelligence": "-", 
+                    "racial_modifiers": "+12 Stealth (+16 in water)", 
+                    "melee": "bite +25 (2d6+11), 2 slam +25 (1d8+11 plus grab)", 
+                    "cr": "12", 
+                    "xp": "19,200", 
+                    "speed": "30 ft., swim 60 ft.", 
+                    "alignment": "N", 
+                    "size": "Huge", 
+                    "strength": "33", 
+                    "constitution": "-", 
+                    "space": "15 ft.", 
+                    "treasure": "none", 
+                    "charisma": "1", 
+                    "environment": "any", 
+                    "immune": "fire, construct traits", 
+                    "init": "+8", 
+                    "fortitude": "+5", 
+                    "type": "creature", 
+                    "feats": "Improved InitiativeB, Lightning ReflexesB", 
+                    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+                    "sections": [
+                        {
+                            "subtype": "special_abilities", 
+                            "sections": [
+                                {
+                                    "name": "Breath Weapon", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "A clockwork leviathan's breath weapon is a powerful jet of scorching steam&mdash;it functions equally well above and under water.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Grind", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "A clockwork leviathan deals an additional 1d8+16 points of slashing damage when it makes a successful grapple check because of the myriad twisting gears and churning pistons that make up its jagged underbelly.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Swallow Whole", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "A clockwork leviathan's interior is filled with injurious grinding gears and superheated water&mdash;in addition to taking damage, a swallowed creature must hold its breath or risk drowning as long as it remains inside a clockwork leviathan's \u201cstomach.\u201d", 
+                                    "sections": []
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Special Abilities", 
+                            "source": "Bestiary 3"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>Clockwork leviathans are equally capable of functioning on land and in water. Sailors who are haunted by the memories of these treacherous machines need not exaggerate their yarns, for the reality of an aquatic construct such as this holds enough terror in its story for even the hardiest of seafarers.</p>"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>A clockwork leviathan's numerous metal plates and links are made of such resilient material that they never rust, even after long exposure to the briny sea waters that leviathans often patrol. </p>"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>Clockwork leviathans are 25 feet long and weigh just over 3 tons.</p>"
+                        }
+                    ], 
+                    "hp": "128 (16d10+40)", 
+                    "weaknesses": "vulnerable to electricity", 
+                    "reach": "15 ft.", 
+                    "wisdom": "11", 
+                    "creature_type": "Construct", 
+                    "special_qualities": "swift reactions, winding", 
+                    "dr": "10/adamantine", 
+                    "base_attack": "+16", 
+                    "name": "Clockwork Leviathan", 
+                    "skills": "Stealth +8 (+12 in water), Swim +19", 
+                    "reflex": "+11", 
+                    "cmd": "45 (can't be tripped)", 
+                    "cmb": "+29 (+33 grapple)", 
+                    "will": "+5", 
+                    "source": "Bestiary 3", 
+                    "organization": "solitary or pod (2-4)", 
+                    "creature_subtype": "clockwork"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "text": "<p>When creating these clockworks, great care must be taken to waterproof their components. The creator must start with crafted clockwork pieces worth 10,000 gp. </p>", 
+                    "type": "section", 
+                    "name": "Construction", 
+                    "sections": [
+                        {
+                            "name": "CLOCKWORK LEVIATHAN", 
+                            "cl": "12th", 
+                            "type": "item", 
+                            "price": "130,000 gp", 
+                            "source": "Bestiary 3", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "name": "CONSTRUCTION", 
+                                    "sections": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "text": "<p class=\"flavor-text\">This four-armed, human-sized clockwork construct balances on three legs that rise into a central body.</p>", 
+            "type": "section", 
+            "name": "Clockwork Servant", 
+            "sections": [
+                {
+                    "dexterity": "14", 
+                    "ac": "16, touch 14, flat-footed 12 (+2 Dex, +2 dodge, +2 natural)", 
+                    "intelligence": "-", 
+                    "melee": "slam +6 (1d4+6)", 
+                    "cr": "2", 
+                    "xp": "600", 
+                    "speed": "30 ft.", 
+                    "alignment": "N", 
+                    "size": "Medium", 
+                    "strength": "19", 
+                    "constitution": "-", 
+                    "source": "Bestiary 3", 
+                    "treasure": "none", 
+                    "charisma": "1", 
+                    "environment": "any", 
+                    "immune": "construct traits", 
+                    "init": "+6", 
+                    "fortitude": "+0", 
+                    "type": "creature", 
+                    "feats": "Improved InitiativeB, Lightning ReflexesB", 
+                    "sections": [
+                        {
+                            "subtype": "special_abilities", 
+                            "sections": [
+                                {
+                                    "name": "Net", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "As a standard action, a clockwork servant can launch a net from its shoulder. The launcher itself can contain up to five nets&mdash;loading a folded net into the launcher is a standard action. Some clockwork servants are outfitted with masterwork or even magic nets, although the clockwork servant presented here is armed with standard nets.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Repair Clockwork", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "Clockwork servants are adept at repairing other clockwork constructs. As a standard action that does not provoke an attack of opportunity, a clockwork servant can repair damage done to either itself or an adjacent clockwork creature, healing 1d10 points of damage to the target.", 
+                                    "sections": []
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Special Abilities", 
+                            "source": "Bestiary 3"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>Since clockwork engineers can't always be present to make sure their devices are working at full capacity, the clockwork servant was invented to serve that role. Clockwork servants excel at repairing themselves and other clockworks on the battlefield, proving useful for skirmishes and campaigns alike.</p>"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>Rumors of clockwork servants with magically imparted intelligence persist among explorers of certain strange ruins&mdash;while no smarter than the average human, such \u201cawakened\u201d clockwork servants have skills and feats as appropriate for their Hit Dice (Disable Device +7, Perception +2, and Skill Focus [Disable Device] for most intelligent clockwork servants), and are said to serve in more complex roles than mere repair workers. An intelligent clockwork has an Intelligence score of 11 and can speak one language.</p>"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>Clockwork servants are about 5 feet tall and weigh over 400 pounds.</p>"
+                        }
+                    ], 
+                    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+                    "ranged": "net +4 (entangle, see page 147 of the Core Rulebook)", 
+                    "hp": "31 (2d10+20); fast healing 2", 
+                    "weaknesses": "vulnerable to electricity", 
+                    "wisdom": "11", 
+                    "creature_type": "Construct", 
+                    "special_qualities": "repair clockwork, swift reactions, winding", 
+                    "base_attack": "+2", 
+                    "name": "Clockwork Servant", 
+                    "reflex": "+4", 
+                    "cmd": "20", 
+                    "cmb": "+6", 
+                    "will": "+0", 
+                    "organization": "solitary, team (2-4), or squadron (5-10)", 
+                    "creature_subtype": "clockwork"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "text": "<p>The creator of a clockwork servant must start with crafted clockwork pieces worth 500 gp. </p>", 
+                    "type": "section", 
+                    "name": "Construction", 
+                    "sections": [
+                        {
+                            "name": "CLOCKWORK SERVANT", 
+                            "cl": "12th", 
+                            "type": "item", 
+                            "price": "7,500 gp (13,500 for an intelligent servant)", 
+                            "source": "Bestiary 3", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "name": "CONSTRUCTION", 
+                                    "sections": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "text": "<p class=\"flavor-text\">Cogs and gears are visible in the gaps of this metallic creature's armor. It wields a polearm as it stands ready at attention.</p>", 
+            "type": "section", 
+            "name": "Clockwork Soldier", 
+            "sections": [
+                {
+                    "dexterity": "15", 
+                    "ac": "20, touch 14, flat-footed 16 (+2 Dex, +2 dodge, +6 natural)", 
+                    "special_attacks": "latch", 
+                    "intelligence": "-", 
+                    "melee": "+1 halberd +18/+13 (1d10+13/&times;3)", 
+                    "cr": "6", 
+                    "xp": "2,400", 
+                    "speed": "30 ft.", 
+                    "alignment": "N", 
+                    "size": "Medium", 
+                    "strength": "28", 
+                    "constitution": "-", 
+                    "source": "Bestiary 3", 
+                    "treasure": "standard (+1 halberd, other treasure)", 
+                    "charisma": "1", 
+                    "environment": "any", 
+                    "immune": "construct traits", 
+                    "init": "+6", 
+                    "fortitude": "+2", 
+                    "type": "creature", 
+                    "feats": "Improved InitiativeB, Lightning ReflexesB", 
+                    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+                    "sections": [
+                        {
+                            "subtype": "special_abilities", 
+                            "sections": [
+                                {
+                                    "name": "Efficient Winding", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "A clockwork soldier can function for 2 days per Hit Die every time it is wound.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Latch", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "Clockwork soldiers have specially designed hands that easily grasp and lock onto weapons and objects. A soldier can attempt to disarm or grapple as a standard action without provoking an attack of opportunity, and it receives a +2 bonus on disarm checks. In addition, it receives a +2 bonus to CMD against attempts to disarm it.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Proficient", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "A clockwork soldier is proficient with all simple and martial weapons.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Standby", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "A clockwork soldier can place itself on standby as a standard action. While on standby, a clockwork soldier cannot move or take any actions. It remains aware of its surroundings but takes a &ndash;4 penalty on Perception checks. Time spent on standby does not count against the soldier's wind-down duration. A clockwork soldier can exit standby as a swift action&mdash;if it does so to initiate combat, it gains a +4 racial bonus on its Initiative check.", 
+                                    "sections": []
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Special Abilities", 
+                            "source": "Bestiary 3"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>The clockwork soldier is a mechanical mercenary that fights to the death for its creator. With the ability to wield most weapons with full proficiency, clockwork soldiers are versatile and wholly unpredictable foes. Most are armed with magic weapons&mdash;a <i>+1 halberd</i> being the most common armament.</p>"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>Clockwork soldiers are among the most efficient constructs of their kind. They are ideal for sentry and guard duty. Clockwork soldiers have the same basic shape as a human. They are 6 feet tall and weigh 500 pounds.</p>"
+                        }
+                    ], 
+                    "hp": "64 (8d10+20)", 
+                    "weaknesses": "vulnerable to electricity", 
+                    "wisdom": "11", 
+                    "creature_type": "Construct", 
+                    "special_qualities": "efficient winding, proficient, standby, swift reactions", 
+                    "dr": "5/adamantine", 
+                    "base_attack": "+8", 
+                    "name": "Clockwork Soldier", 
+                    "reflex": "+6", 
+                    "cmd": "31 (33 vs. disarm)", 
+                    "cmb": "+17 (+19 disarm)", 
+                    "will": "+2", 
+                    "organization": "solitary, pair, trio, troop (3-8), or company (9-12 plus 1-4 clockwork servants)", 
+                    "creature_subtype": "clockwork"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "text": "<p>The creator must start with crafted clockwork pieces worth 1,000 gp; the cost of the soldier's weapon is not included in this price.</p>", 
+                    "type": "section", 
+                    "name": "Construction", 
+                    "sections": [
+                        {
+                            "name": "CLOCKWORK SOLDIER", 
+                            "cl": "12th", 
+                            "type": "item", 
+                            "price": "37,000 gp", 
+                            "source": "Bestiary 3", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "name": "CONSTRUCTION", 
+                                    "sections": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "text": "<p class=\"flavor-text\">This tiny steel creature has one oversized eye, a spherical body, and several spiderlike legs of grinding metal.</p>", 
+            "type": "section", 
+            "name": "Clockwork Spy", 
+            "sections": [
+                {
+                    "dexterity": "13", 
+                    "ac": "15, touch 15, flat-footed 12 (+1 Dex, +2 dodge, +2 size)", 
+                    "special_attacks": "record audio, self-destruct", 
+                    "intelligence": "-", 
+                    "racial_modifiers": "+2 Climb, +2 Stealth", 
+                    "melee": "slam +3 (1d2)", 
+                    "cr": "1/2", 
+                    "xp": "200", 
+                    "speed": "30 ft., fly 30 ft. (clumsy)", 
+                    "alignment": "N", 
+                    "size": "Tiny", 
+                    "strength": "10", 
+                    "constitution": "-", 
+                    "source": "Bestiary 3", 
+                    "treasure": "incidental (gemstone worth 50 gp)", 
+                    "charisma": "1", 
+                    "environment": "any", 
+                    "immune": "construct traits", 
+                    "init": "+5", 
+                    "fortitude": "+0", 
+                    "type": "creature", 
+                    "feats": "Improved InitiativeB, Lightning ReflexesB", 
+                    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+                    "sections": [
+                        {
+                            "subtype": "special_abilities", 
+                            "sections": [
+                                {
+                                    "name": "Record Audio", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "A clockwork spy can record nearby sounds as a swift action, archiving all sound within a 20-foot spread onto a small gemstone worth 50 gp embedded in its body. The clockwork spy can record up to 1 hour of sound per Hit Die it possesses. Starting and stopping playback of recorded sound is a swift action. Removing a gemstone or installing a gemstone into a clockwork spy requires a DC 25 Disable Device check as a full-round action&mdash;failure does not damage the gemstone but does erase any recorded sounds on the gemstone. Since clockwork spies are not intelligent, they must be given simple commands as to when they are to start recording sounds. A clockwork spy can differentiate between creature types and subtypes, but not between specific individuals&mdash;a spy can be ordered to start recording sound as soon as a humanoid (human) or an aberration comes in range, but it cannot be ordered to start recording when a specific person comes within range. Once a clockwork spy begins recording sound, it cannot cease recording early. Likewise, it cannot record sound onto a gemstone that already contains a recording.", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Self-Destruct", 
+                                    "type": "ability", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ], 
+                                    "source": "Bestiary 3", 
+                                    "text": "Unless specifically programmed otherwise by its creator, a clockwork spy explodes 1 round after it is destroyed. During this round, the thing shrieks and thrashes about as if undergoing convulsions. On what would normally have been the clockwork spy's next action, it explodes, dealing 1d6 points of fire damage in a 5-foot radius (Reflex DC 10 for half damage). A DC 20 Disable Device check made as a standard action can halt the spy's self-destruct sequence, but does not prevent it from dying. A clockwork spy that self-destructs automatically destroys its gemstone, along with any information contained inside it. The save DC is Constitution-based.", 
+                                    "sections": []
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Special Abilities", 
+                            "source": "Bestiary 3"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>These spindly and discreet mechanical arachnids are ideal for surveillance and reconnaissance missions, and can be vital tools in political intrigues or illicit consortium tactics. Their retractable, insectile wings make the swift creatures even craftier foes than most would anticipate. As they are less combat-oriented than many other clockworks, if a clockwork spy is caught in the act of recording its target, escape is usually the most practical course of action for it.</p>"
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<p>Clockwork spies are about 2 feet wide from leg to leg, and weigh less than 40 pounds.</p>"
+                        }
+                    ], 
+                    "hp": "5 (1d10)", 
+                    "weaknesses": "vulnerable to electricity", 
+                    "wisdom": "11", 
+                    "creature_type": "Construct", 
+                    "special_qualities": "swift reactions, winding", 
+                    "base_attack": "+1", 
+                    "name": "Clockwork Spy", 
+                    "skills": "Climb +2, Fly -3, Stealth +11", 
+                    "reflex": "+3", 
+                    "cmd": "12", 
+                    "cmb": "+0", 
+                    "will": "+0", 
+                    "organization": "solitary", 
+                    "creature_subtype": "clockwork"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "text": "<p>These delicate constructs are full of small parts and difficult to construct. The creator must start with crafted clockwork pieces worth 250 gp. </p>", 
+                    "type": "section", 
+                    "name": "Construction", 
+                    "sections": [
+                        {
+                            "name": "CLOCKWORK SPY", 
+                            "cl": "12th", 
+                            "type": "item", 
+                            "price": "1,250 gp", 
+                            "source": "Bestiary 3", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "name": "CONSTRUCTION", 
+                                    "sections": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "name": "Clockwork", 
+    "type": "section"
+}

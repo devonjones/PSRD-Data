@@ -1,0 +1,144 @@
+{
+    "dexterity": "17", 
+    "ac": "17, touch 13, flat-footed 13 (+4 armor, +3 Dex)", 
+    "special_attacks": "sneak attack +1d6", 
+    "intelligence": "8", 
+    "racial_modifiers": "+2 Knowledge (planes), +2 Stealth", 
+    "resist": "cold 5, electricity 5", 
+    "melee": "dagger +3 (1d4+1/19-20)", 
+    "cr": "1/2", 
+    "xp": "200", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "spells": {
+        "spell-like abilities": "(CL 1st; concentration -3)<p class=\"stat-block-2\">1/day-<i>disguise self</i> (humanoid only)</p>"
+    }, 
+    "environment": "any (Plane of Shadow)", 
+    "strength": "13", 
+    "constitution": "14", 
+    "treasure": "NPC gear (chain shirt, dagger, other treasure)", 
+    "charisma": "14", 
+    "languages": "Common", 
+    "source": "Bestiary 2", 
+    "init": "+3", 
+    "text": "<p>Fetchling rogue 1</p>", 
+    "fortitude": "+2", 
+    "size": "Medium", 
+    "type": "creature", 
+    "feats": "Weapon Finesse", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +3", 
+    "description": "This gaunt man appears drained of color, like a person viewed at twilight or in a dark alley.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Shadow Blending", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Attacks against a fetchling in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability does not grant total concealment; it just increases the miss chance.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Fetchlings are descended from generations of humans trapped on the Plane of Shadow. Infused with the essence of that plane, they are more and less than human, and often serve as middlemen in planar trade and politics. Other than their yellow eyes, their flesh has no color&mdash;it is either stark white, midnight black, or a shade of gray. On the Material Plane, they conceal themselves with heavy clothing or dim light so they can work without prejudice. The name \u201cfetchling\u201d is a human word; their own name for their race is <i>kayal</i>, meaning \u201cshadow people.\u201d</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A fetchling stands 6 feet tall, but is generally lithe and wiry of frame, weighing only 150 pounds. Fetchlings live as long as half-elves.</p>"
+        }, 
+        {
+            "sections": [
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"+2-dexterity,-+2-charisma,--2-wisdom\">Fetchlings are quick and forceful, but often strange and easily distracted easily by errant thoughts.</p>", 
+                    "type": "section", 
+                    "name": "+2 Dexterity, +2 Charisma, -2 Wisdom", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"darkvision\">Fetchlings see in the dark up to 60 feet.</p>", 
+                    "type": "section", 
+                    "name": "Darkvision", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"low-light-vision\">Fetchlings can see twice as far as humans in conditions of dim light.</p>", 
+                    "type": "section", 
+                    "name": "Low-Light Vision", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"skilled\">Fetchlings have a +2 racial bonus on Knowledge (planes) and Stealth checks.</p>", 
+                    "type": "section", 
+                    "name": "Skilled", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"shadow-blending\">See above.</p>", 
+                    "type": "section", 
+                    "name": "Shadow Blending", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"shadowy-resistance\">Fetchlings have cold resistance 5 and electricity resistance 5.</p>", 
+                    "type": "section", 
+                    "name": "Shadowy Resistance", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Spell-Like Abilities", 
+                    "sections": [], 
+                    "text": "<p id=\"spell-like-abilities\">A fetchling can use <i>disguise self</i> once per day as a spell-like ability. It can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, it gains <i>shadow walk</i> (self only) as a spell-like ability usable once per day, and at 13th level, it gains <i>plane shift</i> (self only, to the Plane of Shadow or the Material Plane only) usable once per day. A fetchling's caster level is equal to its total Hit Dice.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "text": "<p id=\"languages\"> Fetchlings begin play speaking Common. A fetchling with a high Intelligence score can choose any of the following languages: Aklo, Aquan, Auran, Draconic, D'ziriak (understanding only, cannot speak), Ignan, Terran, and any regional human tongue.</p>", 
+                    "type": "section", 
+                    "name": "Languages", 
+                    "sections": []
+                }
+            ], 
+            "name": "Fetchling", 
+            "subtype": "monster_race", 
+            "text": "<p>Fetchlings are defined by their class levels&mdash;they do not possess racial HD. They have the following racial traits.</p>", 
+            "source": "Bestiary 2", 
+            "type": "race"
+        }
+    ], 
+    "hp": "6 (1d8+2)", 
+    "wisdom": "8", 
+    "creature_type": "Outsider", 
+    "special_qualities": "trapfinding +1", 
+    "base_attack": "+0", 
+    "name": "Fetchling", 
+    "skills": "Appraise +3, Bluff +6, Diplomacy +6, Knowledge (local) +3, Knowledge (planes) +2, Perception +3, Sense Motive +3, Stealth +8", 
+    "reflex": "+5", 
+    "cmd": "14", 
+    "cmb": "+1", 
+    "will": "-1", 
+    "organization": "solitary, pair, guild (3-12), or enclave (13-30 plus 1-4 2nd-4th level rogue spies, 1-4 2nd-4th level sorcerers, and 1 3rd-6th level fighter/rogue leader)", 
+    "creature_subtype": "native"
+}

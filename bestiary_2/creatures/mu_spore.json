@@ -1,0 +1,84 @@
+{
+    "dexterity": "9", 
+    "ac": "37, touch 1, flat-footed 37 (-1 Dex, +36 natural, -8 size)", 
+    "special_attacks": "spore cough, constrict (3d8+16), swallow whole (20d8 acid, AC 28, 41 hp)", 
+    "intelligence": "18", 
+    "resist": "acid 30", 
+    "melee": "bite +32 (6d6+16/19-20 plus grab), 4 tentacles +27 (3d8+8/19-20 plus grab)", 
+    "cr": "21", 
+    "xp": "409,600", 
+    "speed": "40 ft., fly 30 ft. (perfect)", 
+    "alignment": "CN", 
+    "size": "Colossal", 
+    "environment": "any", 
+    "strength": "42", 
+    "constitution": "29", 
+    "space": "30 ft.", 
+    "treasure": "standard", 
+    "charisma": "29", 
+    "languages": "Aklo, Common, Terran, Undercommon", 
+    "immune": "acid, plant traits", 
+    "init": "+3", 
+    "fortitude": "+26", 
+    "reflex": "+11", 
+    "feats": "Awesome Blow, Critical Focus, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Critical (bite), Improved Critical (tentacles), Improved Initiative, Improved Lightning Reflexes, Improved Vital Strike, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (bite), Weapon Focus (tentacles)", 
+    "senses": "blindsight 240 ft., low-light vision; Perception +43", 
+    "description": "Tentacles and eyes cover this floating, fungoid monster, and its vast mouth opens like a toothy cavern.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Grasping Tendrils", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Sticky, arm-length tendrils cover a mu spore. A mu spore can use these tendrils to attempt a grab as an immediate action when an adjacent creature hits it with a melee attack. As it is only using the tendrils (instead of conducting the grapple normally), it takes a &ndash;20 penalty to its CMB to make and maintain the grapple (+31 CMB with tendrils). The mu spore does not gain the grappled condition while grappling a creature with its tendrils.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Spore Cough", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Once every 1d4 rounds as a standard action, a mu spore can release a cloud of burrowing spores in a 100-foot cone. The burrowing spores deal 20d8 points of damage to all creatures and wooden structures in the area, or half damage to any creatures that make a DC 34 Reflex save. Plants and plant creatures are immune to this damage. The save DC is Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A mu spore is a thankfully rare plant of vast power and strange intellect. The smallest of mu spores (such as the one presented here) are never less than a hundred feet long from tentacle tip to tentacle tip, and weigh a minimum of 200,000 pounds. Yet despite their vast bulk, mu spores are capable of flying with an uncommon grace, venting jets of foul-smelling spores to guide their flight through the air.</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Mu spores dwell in vast caverns, but sometimes drift up to the surface through immense pits or tunnels&mdash;they have no fear of sunlight, but prefer nocturnal habits. Mu spores are more than just ravenous eaters of nations&mdash;they possess uncommon intellects, and if peaceful contact can be made, their knowledge can be quite valuable. Even more valuable, to many debased alchemists, are the strange secretions and spores they emit, for these rare materials can be brewed into the strangest of drugs and elixirs.</p>"
+        }
+    ], 
+    "hp": "418 (31d8+279); fast healing 10", 
+    "reach": "30 ft. (60 ft. with tentacle)", 
+    "wisdom": "28", 
+    "defensive_abilities": "grasping tendrils", 
+    "creature_type": "Plant", 
+    "dr": "10/epic", 
+    "base_attack": "+23", 
+    "name": "Mu Spore", 
+    "skills": "Fly +33, Knowledge (dungeoneering, geography, nature) +35, Perception +43, Sense Motive +40", 
+    "type": "creature", 
+    "cmd": "56 (can't be tripped)", 
+    "cmb": "+47 (+51 grapple)", 
+    "will": "+19", 
+    "source": "Bestiary 2", 
+    "organization": "solitary or pair"
+}

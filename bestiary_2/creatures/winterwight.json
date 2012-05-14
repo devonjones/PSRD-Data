@@ -1,0 +1,94 @@
+{
+    "dexterity": "23", 
+    "ac": "32, touch 16, flat-footed 26 (+6 Dex, +16 natural)", 
+    "special_attacks": "rend (2 claws 2d8+22)", 
+    "intelligence": "11", 
+    "melee": "bite +30 (2d8+15 plus blightfire), 2 claws +30 (2d6+15 plus blightfire)", 
+    "cr": "17", 
+    "xp": "102,400", 
+    "speed": "30 ft.", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "environment": "any cold land", 
+    "strength": "40", 
+    "constitution": "-", 
+    "source": "Bestiary 2", 
+    "treasure": "standard", 
+    "charisma": "29", 
+    "languages": "Common", 
+    "immune": "cold, undead traits", 
+    "init": "+10", 
+    "fortitude": "+15", 
+    "spells": {
+        "spell-like abilities": "(CL 17th; concentration +26)<p class=\"stat-block-2\">Constant-<i>air walk</i></p><p class=\"stat-block-2\">At will-<i>cone of cold</i> (DC 24), <i>dimension door</i>, <i>greater dispel magic</i>, <i>sleet storm</i>, <i>wall of ice</i></p><p class=\"stat-block-2\">3/day-<i>polar ray</i></p><p class=\"stat-block-2\">1/day-<i>control weather</i></p>"
+    }, 
+    "type": "creature", 
+    "feats": "Blind-Fight, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike", 
+    "senses": "darkvision 60 ft.; Perception +27", 
+    "description": "Human-sized and of a deathly blue color, this long-taloned skeletal creature is partially encased in jagged sheets of ice.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Aura of Cold", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Winterwights are surrounded by a 10-foot radius of deathly chill. Any creatures within this area during the winterwight's turn takes 2d10 points of cold damage. All creatures of the cold subtype within this area (including the winterwight) are treated as having fast healing 10.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Blightfire", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Whenever a winterwight damages a creature with a bite or claw, the wound erupts with tongues of black fire. For the next 5 rounds, the victim must make a DC 29 Fortitude saving throw at the start of its turn or take 1d6 points of Constitution drain. The winterwight gains 10 temporary hit points each time the creature fails a saving throw against blightfire. A creature cannot be affected by more than one instance of blightfire at a time. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The winterwight is an undead horror born from the coldest depths of the negative energy plane. Infused with the dark, cold magic that permeates this realm of death, the winterwight takes the form of a skeleton coated in armor of jagged ice.</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Though it resembles an ordinary skeleton from a distance, the winterwight's frame is much sturdier than the average humanoid's, its frozen armor intertwining with its bone structure to form an incredibly hardy chassis. Sometimes called hatewraiths because of their insatiable lust for suffering, these frozen horrors are often found in areas that suffer from magical cold or frozen climates.</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Winterwights are 7 feet tall and weigh 250 pounds.</p>"
+        }
+    ], 
+    "hp": "270 (20d8+180); fast healing 10", 
+    "weaknesses": "vulnerability to fire", 
+    "wisdom": "18", 
+    "defensive_abilities": "channel resistance +4", 
+    "creature_type": "Undead", 
+    "dr": "15/bludgeoning and good", 
+    "base_attack": "+15", 
+    "name": "Winterwight", 
+    "skills": "Acrobatics +26, Intimidate +32, Perception +27, Stealth +29", 
+    "reflex": "+14", 
+    "cmd": "46", 
+    "cmb": "+30", 
+    "will": "+16", 
+    "aura": "cold (10 ft.)", 
+    "sr": "28", 
+    "organization": "solitary, pair, or incursion (3-6)", 
+    "creature_subtype": "cold"
+}

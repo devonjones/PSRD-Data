@@ -1,0 +1,162 @@
+{
+    "source": "Bestiary", 
+    "sections": [
+        {
+            "dexterity": "14", 
+            "ac": "15, touch 13, flat-footed 13 (+2 Dex, +2 natural, +1 size)", 
+            "intelligence": "1", 
+            "racial_modifiers": "+8 Escape Artist", 
+            "resist": "electricity 10", 
+            "melee": "bite +3 (1d6+1) and tail -2 touch (1d6 electricity)", 
+            "cr": "2", 
+            "xp": "600", 
+            "speed": "5 ft., swim 30 ft.", 
+            "alignment": "N", 
+            "size": "Small", 
+            "strength": "13", 
+            "constitution": "19", 
+            "treasure": "none", 
+            "charisma": "6", 
+            "environment": "warm fresh water", 
+            "source": "Bestiary", 
+            "init": "+6", 
+            "fortitude": "+7", 
+            "reflex": "+5", 
+            "feats": "Improved Initiative", 
+            "senses": "low-light vision; Perception +4", 
+            "description": "This six-foot-long, snake-like fish moves slowly. A strange popping and snapping sound occasionally emits from the creature's body.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Electricity", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary", 
+                            "text": "An electric eel can produce a powerful jolt of electricity from its tail, delivering the jolt with a successful touch attack. On a critical hit, the creature struck must make a DC 15 Fortitude save or be stunned for 1d4 rounds. The save DC is Constitution-based.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>The electric eel is a curious fish that breathes air instead of water, yet certainly its most unusual characteristic is its ability to generate powerful jolts of electricity. An electric eel is 6 feet long and weighs 45 pounds.</p>"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "text": "<p><b>Size</b> Small; <b>Speed </b>5 ft., swim 30 ft.; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6; <b>Special Qualities</b> amphibious, low-light vision, electricity resistance 5.</p>", 
+                    "type": "section", 
+                    "name": "Electric Eel", 
+                    "sections": [
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p><b>AC</b> +2 natural armor; <b>Ability Scores</b> Dex +2, Con +2; <b>Special Qualities</b> electricity (1d6), electricity resistance 10.</p>", 
+                            "type": "section", 
+                            "name": "4th-Level Advancement"
+                        }
+                    ]
+                }
+            ], 
+            "hp": "17 (2d8+8)", 
+            "wisdom": "10", 
+            "creature_type": "Animal", 
+            "base_attack": "+1", 
+            "name": "Eel, Electric", 
+            "skills": "Escape Artist +10, Perception +4, Stealth +10, Swim +9", 
+            "type": "creature", 
+            "cmd": "13 (can't be tripped)", 
+            "cmb": "+1", 
+            "will": "+0", 
+            "organization": "solitary"
+        }, 
+        {
+            "dexterity": "14", 
+            "ac": "19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)", 
+            "special_attacks": "gnaw", 
+            "intelligence": "1", 
+            "racial_modifiers": "+8 Escape Artist", 
+            "melee": "bite +11 (2d6+9 plus grab)", 
+            "cr": "5", 
+            "xp": "1,600", 
+            "speed": "swim 30 ft.", 
+            "alignment": "N", 
+            "size": "Large", 
+            "strength": "22", 
+            "constitution": "16", 
+            "space": "10 ft.", 
+            "treasure": "none", 
+            "charisma": "8", 
+            "environment": "warm oceans", 
+            "source": "Bestiary", 
+            "init": "+6", 
+            "fortitude": "+8", 
+            "type": "creature", 
+            "feats": "Improved Initiative, Lightning Reflexes, Skill Focus (Stealth), Weapon Focus (bite)", 
+            "senses": "low-light vision, scent; Perception +7", 
+            "description": "This sixteen-foot-long eel slithers through the water with uncanny grace, mouth open to display large teeth and a second set of jaws.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Gnaw", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary", 
+                            "text": "If a giant moray begins a round with a grabbed foe, it inflicts automatic bite damage (2d6+9 points of damage). A giant moray eel possesses a second set of jaws in its throat that aid in swallowing&mdash;it can make a second bite attack (+11 attack, 1d6+3) against a foe it has already grabbed.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>The moray eel is a ferocious predator, capable of holding prey in its primary jaws while a smaller set of jaws inside its throat chews away bite-sized portions.</p>"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "text": "<p><b>Size</b> Medium; <b>AC</b> +5 natural armor; <b>Speed </b>swim 30 ft.; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8; <b>Special Qualities</b> low-light vision, grab.</p>", 
+                    "type": "section", 
+                    "name": "Moray Eel", 
+                    "sections": [
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p><b>Size</b> Large; <b>AC</b> +3 natural armor; <b>Attack</b> bite (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> gnaw.</p>", 
+                            "type": "section", 
+                            "name": "7th-Level Advancement"
+                        }
+                    ]
+                }
+            ], 
+            "hp": "52 (7d8+21)", 
+            "reach": "10 ft.", 
+            "wisdom": "12", 
+            "creature_type": "Animal", 
+            "base_attack": "+5", 
+            "name": "Eel, Giant Moray", 
+            "skills": "Escape Artist +10, Perception +7, Stealth +8, Swim +14", 
+            "reflex": "+9", 
+            "cmd": "24 (can't be tripped)", 
+            "cmb": "+12 (+16 grapple)", 
+            "will": "+3", 
+            "organization": "solitary, pair, or nest (3-6)", 
+            "creature_subtype": "aquatic"
+        }
+    ], 
+    "name": "Eel", 
+    "type": "section"
+}

@@ -1,0 +1,44 @@
+{
+    "school": "evocation", 
+    "saving_throw": "see text", 
+    "name": "Prismatic Spray", 
+    "level": [
+        {
+            "class": "Sorcerer", 
+            "level": 7
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 7
+        }
+    ], 
+    "type": "spell", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "source": "Core Rulebook", 
+    "range": "60 ft.", 
+    "effects": [
+        {
+            "text": "cone-shaped burst", 
+            "name": "Area"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "text": "<p>This spell causes seven shimmering, multicolored beams of light to spray from your hand. Each beam has a different power. Creatures in the area of the spell with 8 HD or less are automatically blinded for 2d4 rounds. Every creature in the area is randomly struck by one or more beams, which have additional effects.</p>", 
+    "duration": "instantaneous", 
+    "sections": [
+        {
+            "text": "<table>\n<thead><tr><th>1d8</th><th>Color of Beam</th><th></th></tr></thead>\n<tr class=\"odd\"><td>1</td><td>Red</td><td>20 points fire damage (Reflex half)</td></tr>\n<tr class=\"even\"><td>2</td><td>Orange</td><td>40 points acid damage (Reflex half)</td></tr>\n<tr class=\"odd\"><td>3</td><td>Yellow</td><td>80 points electricity damage (Reflex half)</td></tr>\n<tr class=\"even\"><td>4</td><td>Green</td><td style=\"white-space:normal;\">Poison (Frequency 1/rd. for 6 rd.; Init. effect death; Sec. effect 1 Con/rd.; Cure 2 consecutive Fort saves)*</td></tr>\n<tr class=\"odd\"><td>5</td><td>Blue</td><td><i>Flesh to stone</i> (Fortitude negates)</td></tr>\n<tr class=\"even\"><td>6</td><td>Indigo</td><td>Insane, as insanity spell (Will negates)</td></tr>\n<tr class=\"odd\"><td>7</td><td>Violet</td><td>Sent to another plane (Will negates)</td></tr>\n<tr class=\"even\"><td>8</td><td>Struck by two rays</td><td>Roll twice more, ignoring any \u201c8\u201d results</td></tr>\n<tfoot><tr><td colspan=\"3\">* See poisons.</td></tr></tfoot></table>", 
+            "type": "table", 
+            "name": "1d8", 
+            "source": "Core Rulebook"
+        }
+    ]
+}

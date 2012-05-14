@@ -1,0 +1,48 @@
+{
+    "school": "evocation", 
+    "saving_throw": "Reflex negates", 
+    "name": "Ball Lightning", 
+    "descriptor": [
+        "air", 
+        "electricity"
+    ], 
+    "text": "<p>You create two globes of lightning that fly in whichever direction you indicate. For every 4 caster levels above 7th, you create an additional globe of lightning (3 globes at 11th, 4 globes at 15th, to the maximum of 5 globes at 19th). These globes fly at a rate of 20 feet per round and have perfect maneuverability. Wind does not affect a flying sphere's course.</p><p>If a globe enters a space with a creature, it stops moving for the round and deals 3d6 points of electricity damage to that creature, though a successful Reflex save negates the damage. Creatures wearing metal armor take a &ndash;4 penalty on this saving throw.</p><p>Each globe moves as long as you actively direct it (it's a move action for you to direct all the spheres created by a single casting of this spell); otherwise they stay at rest. These globes have no mass and cannot push aside unwilling creatures or move solid objects. A <i>ball lightning</i> globe winks out if it exceeds the spell's range.</p>", 
+    "spell_resistance": "yes", 
+    "level": [
+        {
+            "class": "Druid", 
+            "level": 4
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 4
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 4
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Player's Guide", 
+    "range": "medium (100 ft. + 10 ft./level)", 
+    "effects": [
+        {
+            "text": "two or more 5-ft.-diameter spheres", 
+            "name": "Effect"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "a small iron ring", 
+            "type": "M/DF"
+        }
+    ], 
+    "duration": "1 round/level", 
+    "type": "spell"
+}

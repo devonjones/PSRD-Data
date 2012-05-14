@@ -1,0 +1,51 @@
+{
+    "school": "transmutation", 
+    "saving_throw": "Will negates (object)", 
+    "name": "Chill Metal", 
+    "descriptor": [
+        "cold"
+    ], 
+    "type": "spell", 
+    "spell_resistance": "yes (object)", 
+    "level": [
+        {
+            "class": "Druid", 
+            "level": 2
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Core Rulebook", 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "effects": [
+        {
+            "text": "metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lbs. of metal/level, none of which can be more than 30 ft. away from any of the rest", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "type": "DF"
+        }
+    ], 
+    "text": "<p><i>Chill metal </i>makes metal extremely cold. Unattended, nonmagical metal gets no saving throw. Magical metal is allowed a saving throw against the spell. An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.</p><p>A creature takes cold damage if its equipment is chilled. It takes full damage if its armor, shield, or weapon is affected. The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing or wielding such an item.</p><p>On the first round of the spell, the metal becomes chilly and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell's duration. During the second (and also the next-to-last) round, icy coldness causes pain and damage. In the third, fourth, and fifth rounds, the metal is freezing cold, and causes more damage, as shown on the table below.</p>", 
+    "duration": "7 rounds", 
+    "sections": [
+        {
+            "text": "<table>\n<thead><tr><th>Round</th><th>Metal Temperature</th><th>Damage</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>1</td><td>Cold</td><td>None</td></tr>\n<tr class=\"even\"><td>2</td><td>Icy</td><td>1d4 points</td></tr>\n<tr class=\"odd\"><td>3&ndash;5</td><td>Freezing</td><td>2d4 points</td></tr>\n<tr class=\"even\"><td>6</td><td>Icy</td><td>1d4 points</td></tr>\n<tr class=\"odd\"><td>7</td><td>Cold</td><td>None</td></tr></tbody></table>", 
+            "type": "table", 
+            "name": "Round", 
+            "source": "Core Rulebook"
+        }, 
+        {
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "text": "<p>Any heat intense enough to damage the creature negates cold damage from the spell (and vice versa) on a point-for-point basis. Underwater, <i>chill metal </i>deals no damage, but ice immediately forms around the affected metal, making it float if unattended.</p><p><i>Chill metal </i>counters and dispels <i>heat metal</i>.</p>"
+        }
+    ]
+}

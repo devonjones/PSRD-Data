@@ -1,0 +1,91 @@
+{
+    "dexterity": "15", 
+    "ac": "16, touch 13, flat-footed 14 (+2 Dex, +3 natural, +1 size)", 
+    "special_attacks": "shock", 
+    "intelligence": "2", 
+    "racial_modifiers": "+2 Perception, +4 Stealth", 
+    "melee": "bite +4 (1d4)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "40 ft., climb 20 ft., swim 20 ft.", 
+    "alignment": "N", 
+    "size": "Small", 
+    "strength": "10", 
+    "constitution": "13", 
+    "source": "Bestiary", 
+    "treasure": "incidental", 
+    "charisma": "6", 
+    "environment": "warm marshes", 
+    "immune": "electricity", 
+    "init": "+6", 
+    "fortitude": "+4", 
+    "reflex": "+5", 
+    "feats": "Improved Initiative, Skill Focus (Stealth)", 
+    "senses": "darkvision 60 ft., electricity sense, low-light vision; Perception +8", 
+    "description": "This dog-sized lizard has two horns, one on either side of its head, and green scales that crackle with sparks of lightning.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Electricity Sense", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Shocker lizards automatically detect any electrical discharges within 100 feet.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Shock", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Shocker lizards can deliver an electrical shock to a single opponent within 5 feet. This attack deals 1d8 points of nonlethal electricity damage to living opponents (Reflex DC 12 half). This save DC is Constitution-based. Additionally, if two or more shocker lizards are within 20 feet of each other, they can work together to create a lethal shock once every 1d4 rounds. This effect has a radius of 20 feet, centered on any one contributing lizard. All creatures within that radius take 2d8 points of lethal electricity damage for each lizard contributing to the shock, to a maximum of 12d8. A Reflex save (DC 10 + the number of lizards contributing) halves the damage.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A shocker lizard has a pale yellow underside, with bright green scales elsewhere on its 3-foot-long body, and weighs about 25 pounds. Shocker lizards tend toward group living, as their electrical abilities grow in power when they are close to another lizard. </p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A shocker lizard colony is usually located near a source of water. Once the colony has settled on a location, the lizards become very territorial and attack anything that intrudes on them. A solitary shocker lizard is a timid and hesitant creature&mdash;but when several of them gather they become formidable and fearsome opponents capable of killing creatures several times their own size.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A shocker lizard relies on its electricity abilities in combat, and a lizard tends to bite only after its shock has rendered an opponent unconscious, or when the shock seems to have no effect at all. A solitary lizard flees once it delivers its shocks, but if other shocker lizards are nearby, they all hone in on their comrade's discharges and attempt to administer lethal shocks to their foe.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Many have attempted to capture and tame shocker lizards, but this often proves a difficult and painful task. Alone and in captivity, shocker lizards tend to wither and die swiftly unless their keepers spend a lot of time grooming and playing with the lizards to keep them company. Kept in pairs or larger numbers, captive shocker lizards thrive, but their increasing electrical ability makes them more difficult to manage for keepers who aren't themselves immune to electricity.</p>"
+        }
+    ], 
+    "hp": "19 (3d10+3)", 
+    "wisdom": "13", 
+    "creature_type": "Magical Beast", 
+    "base_attack": "+3", 
+    "name": "Shocker Lizard", 
+    "skills": "Climb +8, Perception +8, Stealth +17, Swim +8", 
+    "type": "creature", 
+    "cmd": "14 (18 vs. trip)", 
+    "cmb": "+2", 
+    "will": "+2", 
+    "organization": "solitary, pair, clutch (3-6), or colony (7-12)"
+}

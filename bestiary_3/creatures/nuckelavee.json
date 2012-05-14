@@ -1,0 +1,94 @@
+{
+    "dexterity": "24", 
+    "ac": "23, touch 17, flat-footed 15 (+7 Dex, +1 dodge, +6 natural, -1 size)", 
+    "special_attacks": "breath weapon (30-ft. cone, 10d6 damage plus disease, Reflex DC 21 for half, usable every 1d4 rounds), trample (1d6+7, DC 21)", 
+    "intelligence": "13", 
+    "melee": "mwk longsword +11 (1d8+9/19-20), bite +10 (1d8+6 plus disease), 2 hooves +5 (1d6+3 plus disease)", 
+    "cr": "9", 
+    "xp": "6,400", 
+    "speed": "50 ft., swim 50 ft.", 
+    "alignment": "NE", 
+    "size": "Large", 
+    "environment": "cold swamps or coastlines", 
+    "strength": "22", 
+    "constitution": "22", 
+    "space": "10 ft.", 
+    "treasure": "standard (masterwork longsword, other treasure)", 
+    "charisma": "21", 
+    "languages": "Aklo, Common, Sylvan", 
+    "immune": "disease, poison", 
+    "init": "+7", 
+    "fortitude": "+9", 
+    "spells": {
+        "spell-like abilities": "(CL 9th; concentration +14)<p class=\"stat-block-2\">3/day-<i>control water</i>, <i>diminish plants</i>, <i>obscuring mist</i></p>"
+    }, 
+    "type": "creature", 
+    "feats": "Dodge, Lightning Reflexes, Lightning Stance, Mobility, Spring Attack, Wind Stance", 
+    "aura": "frightful presence (30 ft., DC 20)", 
+    "senses": "low-light vision; Perception +17", 
+    "description": "This skinless creature resembles a horse and its humanoid rider, fused into a single hideous being of rage and sickness.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Breath Weapon", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A nuckelavee's breath weapon is a cone of withering foulness that causes painful welts, cramps, and bleeding, and only harms living creatures&mdash;this damage bypasses all energy resistance and damage reduction. Non-creature plants in the area are affected as if by a blight spell. Any creature that fails its Reflex save against the breath weapon must make a DC 21 Fortitude save or contract mortasheen (see below). The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Disease", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "Mortasheen: Contact; save Fort DC 21; frequency 1/day; effect 1d4 Con and target is fatigued; cure 2 consecutive saves. Animals take a &ndash;2 penalty on their saves against this disease. The save DC is Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The dreaded nuckelavee is a manifestation of pollution and filth, be it the natural decay of a red tide or the intrusive pollution of sewage and other urban waste. A nuckelavee is a living irony&mdash;a carrier of disease and a spreader of corruption that unleashes its wrath against other sources that bring corruption into the world. The corruption spread by nuckelavees only serves to further their own sense of self-loathing and overall rage. While nuckelavees might, incidentally, carry out vengeance for the victims of such pollution, defending the denizens of their rivers, swamps, and bogs is not their primary drive, for they revel in inflicting the very corruption they hate and enjoy little more than watching their enemies sicken and die.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Folktales tell of talismans to carry&mdash;fetishes of seaweed garlands, horsehair soaked in brine, or vials of sanctified seawater&mdash;or of prayers to recite to ward away nuckelavees or convince them the bearer is innocent. In truth, however, these old solutions offer no protection from the vile plague-bearers.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A nuckelavee is the same size as a horse.</p>"
+        }
+    ], 
+    "hp": "104 (11d6+66)", 
+    "reach": "5 ft.", 
+    "wisdom": "17", 
+    "creature_type": "Fey", 
+    "special_qualities": "amphibious, undersized weapons", 
+    "dr": "10/cold iron", 
+    "base_attack": "+5", 
+    "name": "Nuckelavee", 
+    "skills": "Acrobatics +21 (+29 when jumping), Escape Artist +21, Intimidate +16, Knowledge (nature) +15, Perception +17, Stealth +17, Swim +28", 
+    "reflex": "+16", 
+    "cmd": "30 (34 vs. trip)", 
+    "cmb": "+12", 
+    "will": "+10", 
+    "source": "Bestiary 3", 
+    "organization": "solitary", 
+    "creature_subtype": "aquatic"
+}

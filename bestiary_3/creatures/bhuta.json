@@ -1,0 +1,103 @@
+{
+    "dexterity": "25", 
+    "ac": "25, touch 25, flat-footed 17 (+7 deflection, +7 Dex, +1 dodge)", 
+    "special_attacks": "bleed (1d8), blood drain (1d6 Constitution)", 
+    "intelligence": "11", 
+    "melee": "2 incorporeal claws +17 (5d8 plus bleed)", 
+    "cr": "11", 
+    "xp": "12,800", 
+    "speed": "fly 30 ft. (perfect)", 
+    "alignment": "NE", 
+    "size": "Medium", 
+    "environment": "any aboveground natural area", 
+    "strength": "-", 
+    "constitution": "-", 
+    "source": "Bestiary 3", 
+    "treasure": "none", 
+    "charisma": "22", 
+    "languages": "Common", 
+    "immune": "undead traits", 
+    "init": "+7", 
+    "fortitude": "+10", 
+    "spells": {
+        "spell-like abilities": "(CL 11th; concentration +17) <p class=\"stat-block-2\">At will-<i>animal trance</i> (DC 18), <i>speak with animals, veil</i> (self only, as animal with backward feet; DC 22)</p><p class=\"stat-block-2\">3/day-<i>charm animal</i> (DC 17)</p><p class=\"stat-block-2\">1/day-<i>magic jar</i> (animals only, DC 21)</p>"
+    }, 
+    "type": "creature", 
+    "feats": "Animal Affinity, Dodge, Flyby Attack, Iron Will, Lunge, Mobility, Stealthy", 
+    "senses": "darkvision 60 ft., scent; Perception +13", 
+    "description": "This ghostly apparition floats in the air on backward-facing feet. Its hands end in sharp talons, and its eyes glow with blue fire. ", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Blood Drain", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "As a standard action, a bhuta can suck blood from an adjacent opponent that is taking bleed damage. The target takes 1d6 points of Constitution damage (Fort DC 23 for half). The bhuta heals 5 hit points when it drains blood.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Cold Iron Weakness", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A cold iron weapon is considered to be magical when used against a bhuta. A magic cold iron weapon always functions as a ghost touch weapon when used against a bhuta.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A bhuta is a ghostlike undead creature born of horrible death or murder in a natural setting. It is a manifestation of rage at the injustice of a death that interrupted important business or unsated desires. Doomed to haunt the wilderness within several miles of the site of its demise, a bhuta turns to the local fauna as tools for its vengeance.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A bhuta can appear in a variety of animalistic forms by using its <i>veil</i> ability, but its natural appearance is that of a bestial humanoid phantom that floats a foot above the ground as it moves. While bhutas are incorporeal, the touch of their claws creates horrific, bleeding wounds. A bhuta's feet point backward. To disguise its nature, a bhuta can appear solid, manifesting in long robes that help disguise the fact that it floats and has strange feet. By means of its <i>magic jar</i> spell-like ability, a bhuta can also possess living animals to use as its minions; an animal possessed by a bhuta casts no shadow, and therefore prefers to lurk in heavily canopied or thicketed areas, waiting for the right time to  strike out and attack intruders.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Animals find themselves attracted to bhutas, which use their spell-like abilities to manipulate such victims toward evil and deceptive ends. Bhutas generally avoid influencing animal companions or domesticated animals, for changes in behavior among such creatures can easily arouse suspicion and reveal a bhuta's presence and influence.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A bhuta might have tasks it wishes to complete from its previous existence as a living creature, or it might work against those who slew its living form. This link to its past life is vague and compulsive rather than clear, unlike that of a ghost.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Bhutas who have no specific target for retribution still seek to trouble those living in or near their domains, coaxing passersby into accepting them as traveling companions and using their influence over animals as a testament to their benevolence. When invited to join a group, a bhuta can journey outside its normal territory. However, a bhuta's hunger for living blood usually drives it to attack its companions before it wanders far.</p>"
+        }
+    ], 
+    "hp": "147 (14d8+84)", 
+    "weaknesses": "cold iron", 
+    "wisdom": "8", 
+    "defensive_abilities": "incorporeal, channel resistance +4", 
+    "creature_type": "Undead", 
+    "base_attack": "+10", 
+    "name": "Bhuta", 
+    "skills": "Bluff +16, Escape Artist +9, Fly +15, Handle Animal +14, Knowledge (nature) +8, Perception +13, Ride +9, Sense Motive +13, Stealth +24", 
+    "reflex": "+11", 
+    "cmd": "35", 
+    "cmb": "+17", 
+    "will": "+10", 
+    "organization": "solitary or with a group of animals", 
+    "creature_subtype": "incorporeal"
+}

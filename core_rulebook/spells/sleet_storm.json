@@ -1,0 +1,48 @@
+{
+    "school": "conjuration", 
+    "saving_throw": "none", 
+    "name": "Sleet Storm", 
+    "descriptor": [
+        "cold"
+    ], 
+    "text": "<p>Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the Acrobatics skill for details).</p><p>The sleet extinguishes torches and small fires.</p>", 
+    "spell_resistance": "no", 
+    "level": [
+        {
+            "class": "Druid", 
+            "level": 3
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 3
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 3
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Core Rulebook", 
+    "range": "long (400 ft. + 40 ft./level)", 
+    "effects": [
+        {
+            "text": "cylinder (40-ft. radius, 20 ft. high)", 
+            "name": "Area"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "dust and water", 
+            "type": "M/DF"
+        }
+    ], 
+    "duration": "1 round/level", 
+    "subschool": "creation", 
+    "type": "spell"
+}

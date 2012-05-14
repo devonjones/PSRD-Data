@@ -1,0 +1,118 @@
+{
+    "source": "Bestiary 3", 
+    "sections": [
+        {
+            "dexterity": "18", 
+            "ac": "20, touch 15, flat-footed 16 (+4 Dex, +5 natural, +1 size)", 
+            "special_attacks": "seek target, shearing jaws", 
+            "intelligence": "-", 
+            "melee": "bite +15 (1d8+10/19-20 plus grab), 2 claws +15 (1d4+5)", 
+            "cr": "7", 
+            "xp": "3,200", 
+            "speed": "30 ft., swim 60 ft.", 
+            "alignment": "N", 
+            "spells": {
+                "spell-like abilities": "(CL 7th; concentration +4)<p class=\"stat-block-2\">3/day-<i>invisibility</i></p>"
+            }, 
+            "strength": "21", 
+            "constitution": "-", 
+            "source": "Bestiary 3", 
+            "treasure": "none", 
+            "charisma": "5", 
+            "environment": "any", 
+            "immune": "construct traits", 
+            "init": "+4", 
+            "fortitude": "+3", 
+            "size": "Small", 
+            "reflex": "+7", 
+            "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+            "description": "This small humanoid figure grinds and clatters as it moves, its body carved from bones decorated with fine scrimshaw.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Scrimshaw Magic", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Spell-Like"
+                            ], 
+                            "source": "Bestiary 3", 
+                            "text": "When a tupilaq is created, its creator can inscribe a single spell he knows (as long as that spell is no higher than 2nd level and requires no material components) into the tupilaq as a complex scrimshaw design. The tupilaq gains the ability to use that spell as a spell-like ability (CL 7th) three times per day. The tupilaq's creator can inscribe a new spell onto the tupilaq if he wishes, replacing the previous scrimshaw. Inscribing a new scrimshaw requires 24 hours of work and an expenditure of 500 gp in materials. The tupilaq presented here utilizes invisibility in this manner. Erase can destroy a tupilaq's scrimshaw if it fails a Fortitude save against the spell. If a tupilaq's scrimshaw is removed in this manner, it loses access to the spell as a spell-like ability, and seeks out its creator to attack and kill him. The tupilaq's creator becomes the target of the tupilaq's seek target ability in this case. If a tupilaq's creator is already dead, the tupilaq instead seeks out the nearest living creature and attacks this new target on sight, continuing this spree of murder until it is itself destroyed.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Seek Target", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Bestiary 3", 
+                            "text": "A tupilaq's creator can place a drop of blood, lock of hair, or other portion of a creature's body in the tupilaq's maw as a standard action. From that point on, the tupilaq constantly knows what direction that creature is located in, and gains a +20 insight bonus on all Perception checks made to locate the creature. A new target cannot be assigned to a tupilaq in this manner until its previous target is dead.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Shearing Jaws", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 3", 
+                            "text": "All tupilaqs are crafted with oversized jaws capable of tearing and pulling. A tupilaq applies twice its Strength modifier to damage with a successful bite attack and threatens a critical hit on a roll of 19&ndash;20. A tupilaq is treated as Large for all checks made to move a grappled opponent.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 3"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Tupilaqs are small constructs crafted out of whale bones and whale teeth for the sole purpose of murdering the creator's enemies. A tupilaq's appearance can vary based on its construction, but all have prominent jaws and a small body with hands and feet fit for swimming. A tupilaq usually stands 3 feet tall and weighs only 30 pounds.</p>"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Tupilaqs must be created in secrecy&mdash;if any other person discovers the tupilaq is being created, the attempt to build the construct immediately fails. As part of its creation, the creator invites or lures a host spirit to possess the tupilaq. Most often, the animus of a tupilaq is that of a dead child or other small humanoid, and the parity of size between the new vessel and the spirit's previous body is what gives the creature a speed and agility on land and in water that is atypical for most constructs. This trapped spirit is also what makes a tupilaq so savage and murderous.</p>"
+                }
+            ], 
+            "hp": "59 (9d10+10)", 
+            "wisdom": "11", 
+            "creature_type": "Construct", 
+            "special_qualities": "scrimshaw magic", 
+            "dr": "10/bludgeoning", 
+            "base_attack": "+9", 
+            "name": "Tupilaq", 
+            "skills": "Swim +13", 
+            "type": "creature", 
+            "cmd": "27", 
+            "cmb": "+13 (+17 grapple)", 
+            "will": "+3", 
+            "organization": "solitary"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "text": "<p class=\"flavor-text\">A tupilaq is built from 30 pounds of whale bones, bound together with sinew. When the creature's creation is complete, the sinew falls away and the bones fuse together to create the animated creature.  </p>", 
+            "type": "section", 
+            "name": "Construction", 
+            "sections": [
+                {
+                    "requirements": "Craft Construct, geas/quest, keen edge, locate creature, creator must be caster level 8th, creation must be done in complete secrecy", 
+                    "name": "Tupilaq", 
+                    "cl": "8th", 
+                    "sections": [], 
+                    "price": "21,000 gp", 
+                    "source": "Bestiary 3", 
+                    "cost": "10,500 gp", 
+                    "skill": "Craft (scrimshaw) DC 20", 
+                    "type": "item"
+                }
+            ]
+        }
+    ], 
+    "name": "Tupilaq", 
+    "type": "section"
+}

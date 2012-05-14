@@ -1,0 +1,51 @@
+{
+    "school": "evocation", 
+    "saving_throw": "none", 
+    "name": "Discovery Torch", 
+    "descriptor": [
+        "light"
+    ], 
+    "text": "<p class=\"stat-description-2\">An object you touch emanates bright light within the spell's area. The effect looks like a regular flame but creates no heat and uses no oxygen. Allies within the area of this light gain a +2 enhancement bonus on Perception and Sense Motive checks, as well as on Knowledge checks to identify monsters that are also within the area and their special powers and vulnerabilities.</p><p class=\"stat-description-indent-1\">When an inquisitor casts this spell, the light emanation doubles (40-ft.-radius emanation) while that inquisitor has a judgment active.</p><p class=\"stat-description-indent-1\">Light spells counter and dispel darkness spells of an equal or lower level.</p>", 
+    "spell_resistance": "no", 
+    "level": [
+        {
+            "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Cleric", 
+            "level": 3
+        }, 
+        {
+            "class": "Oracle", 
+            "level": 3
+        }, 
+        {
+            "class": "Inquisitor", 
+            "level": 2
+        }
+    ], 
+    "casting_time": "1 round", 
+    "source": "Ultimate Combat", 
+    "range": "touch", 
+    "effects": [
+        {
+            "text": "object touched", 
+            "name": "Target"
+        }, 
+        {
+            "text": "20-ft.-radius emanation or 40-ft.-radius emanation from object touched (see below)", 
+            "name": "Area"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "10 minutes/level", 
+    "type": "spell"
+}

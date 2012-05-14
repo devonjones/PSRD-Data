@@ -1,0 +1,97 @@
+{
+    "dexterity": "12", 
+    "ac": "15, touch 9, flat-footed 14 (+1 Dex, +6 natural, -2 size)", 
+    "special_attacks": "pounce", 
+    "intelligence": "2", 
+    "racial_modifiers": "+2 Perception", 
+    "melee": "5 bites +6 (1d8+3)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "20 ft., swim 20 ft.", 
+    "alignment": "N", 
+    "size": "Huge", 
+    "strength": "17", 
+    "constitution": "18", 
+    "space": "15 ft.", 
+    "treasure": "standard", 
+    "charisma": "9", 
+    "environment": "temperate marshes", 
+    "source": "Bestiary", 
+    "init": "+1", 
+    "fortitude": "+8", 
+    "reflex": "+7", 
+    "feats": "Combat Reflexes, Iron Will, Lightning Reflexes", 
+    "senses": "darkvision 60 ft., low-light vision, scent; Perception +10", 
+    "description": "Multiple angry snake-like heads rise from the sleek, serpentine body of this terrifying monster.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Fast Healing", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "A hydra's fast healing ability is equal to its current number of heads (minimum fast healing 5). This fast healing applies only to damage inflicted on the hydra's body.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Hydra Traits", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "A hydra can be killed by severing all of its heads or slaying its body. Any attack that is not an attempt to sever a head affects the body, including area attacks or attacks that cause piercing or bludgeoning damage. To sever a head, an opponent must make a sunder attempt with a slashing weapon targeting a head. A head is considered a separate weapon with hardness 0 and hit points equal to the hydra's HD. To sever a head, an opponent must inflict enough damage to reduce the head's hit points to 0 or less. Severing a head deals damage to the hydra's body equal to the hydra's current HD. A hydra can't attack with a severed head, but takes no other penalties.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Regenerate Head", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "When a hydra's head is destroyed, two heads regrow in 1d4 rounds. A hydra cannot have more than twice its original number of heads at any one time. To prevent new heads from growing, at least 5 points of acid or fire damage must be dealt to the stump (a touch attack to hit) before they appear. Acid or fire damage from area attacks can affect stumps and the body simultaneously. A hydra doesn't die from losing its heads until all are cut off and the stumps seared by acid or fire.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>You can make more powerful hydras by increasing their Hit Dice&mdash;each added HD increases the hydra's statistics as appropriate, but also gives it one additional head and a +1 increase to its natural armor. A hydra's CR increases by +1 for each Hit Die it gains.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Cryohydra/Pyrohydra (+2 CR)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Variants of the standard hydra, the cryohydra lives in cold marshes or on glaciers, while the pyrohydra prefers deserts or volcanic mountains. A cryohydra gains the Cold subtype, while a pyrohydra gains the Fire subtype. Each of its heads has a breath weapon (15-ft. cone, 3d6 cold damage [cryohydra] or 3d6 fire damage [pyrohydra], Reflex half) useable every 1d4 rounds. The save DC is 10 + 1/2 the hydra's HD + the hydra's Con modifier. Although fire attacks cannot prevent a pyrohydra's neck stump from growing new heads (since it is immune to fire), 5 points of cold damage does. Acid works normally on both hydra variants.</p>"
+        }
+    ], 
+    "hp": "47 (5d10+20); fast healing 5", 
+    "reach": "10 ft.", 
+    "wisdom": "11", 
+    "creature_type": "Magical Beast", 
+    "special_qualities": "hydra traits, regenerate head", 
+    "base_attack": "+5", 
+    "name": "Hydra", 
+    "skills": "Perception +10, Swim +11", 
+    "type": "creature", 
+    "cmd": "21 (can't be tripped)", 
+    "cmb": "+10", 
+    "will": "+3", 
+    "organization": "solitary"
+}

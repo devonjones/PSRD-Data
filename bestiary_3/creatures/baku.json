@@ -1,0 +1,101 @@
+{
+    "dexterity": "21", 
+    "ac": "15, touch 15, flat-footed 10 (+5 Dex)", 
+    "special_attacks": "mental drain", 
+    "intelligence": "15", 
+    "melee": "2 claws +15 (1d4+2), gore +15 (1d6+2)", 
+    "type": "creature", 
+    "cr": "8", 
+    "xp": "4,800", 
+    "speed": "30 ft., fly 60 ft. (perfect)", 
+    "alignment": "N", 
+    "spells": {
+        "spell-like abilities": "(CL 10th; concentration +17)<p class=\"stat-block-2\">At will-<i>invisibility</i>, <i>lullaby</i>, <i>sleep</i> (DC 18)</p><p class=\"stat-block-2\">3/day-<i>deep slumber</i> (DC 20), <i>dream</i></p><p class=\"stat-block-2\">1/day-<i>ethereal jaunt</i>, <i>modify memory</i> (DC 21)</p>"
+    }, 
+    "environment": "any", 
+    "strength": "14", 
+    "constitution": "18", 
+    "source": "Bestiary 3", 
+    "treasure": "standard", 
+    "charisma": "25", 
+    "languages": "Aklo, Celestial, Common", 
+    "immune": "mind-affecting effects, sleep", 
+    "init": "+9", 
+    "fortitude": "+11", 
+    "size": "Medium", 
+    "reflex": "+12", 
+    "feats": "Alertness, Flyby Attack, Improved Initiative, Iron Will, Weapon Finesse", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +16", 
+    "description": "This floating creature has long brown fur. Its face features a pair of long tusks and a curious elongated trunk for a snout.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Dream Claws", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A baku's claws are treated as cold iron and magic for purposes of overcoming damage reduction.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Dream Eating", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A baku can feed upon the dreams of any single sleeping creature within 100 feet. Alternatively, the baku can feed upon the dreams of a creature that it manages to contact with its dream spell-like ability. A creature can resist this effect with a DC 22 Will save. When a baku feeds in this way, it can elect to consume only nightmares or all dreams. If it only consumes nightmares, the target creature is immune to the effects of the nightmare spell, the dream haunting ability of the night hag, and other similar attacks for that period of sleep. If the baku instead feeds on all of the creature's dreams, that creature is fatigued upon waking and does not gain any benefits it would have received from sleep, such as natural healing or the ability to regain spells after resting. This is a mind-affecting sleep effect. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Mental Drain", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "When a baku attacks with a claw, it can choose, as a swift action, to deal 1d4 points of Intelligence damage on that attack. A DC 22 Will save negates this ability damage. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Bizarre creatures that feed on thoughts, bakus stay hidden from humanoids and feed on their creativity and dreams as well as their fears and nightmares. Bakus rarely encounter others of their kind, living largely solitary lives. Some sages speculate the creatures are not born, but rather spontaneously manifest as if spun from dreams, nightmares, and creative thoughts. Bakus are about 5 feet long and weigh 100 pounds.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Bakus dislike feeding on thoughts concerning themselves, and tend to cease when their target begins thinking of the baku. For this reason, bakus keep hidden in settlements, floating in the evening air above bedrooms and boarding houses, siphoning sustenance from the dreaming populace. Bakus themselves do not sleep. </p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Given their connection to dreams and nightmares, bakus are mortal enemies of night hags. Though usually calm and gentle creatures, bakus that encounter night hags dedicate themselves to hunting them down and ridding the world of their dark influence. A baku uses its <i>ethereal jaunt</i> spell-like ability to fight night hags as they inflict nightmares on their victims.</p>"
+        }
+    ], 
+    "hp": "95 (10d10+40)", 
+    "wisdom": "16", 
+    "creature_type": "Magical Beast", 
+    "special_qualities": "dream claws", 
+    "dr": "10/cold iron", 
+    "base_attack": "+10", 
+    "name": "Baku", 
+    "skills": "Diplomacy +15, Fly +18, Perception +16, Sense Motive +13, Spellcraft +8, Stealth +16", 
+    "sr": "19", 
+    "cmd": "27 (31 vs. trip)", 
+    "cmb": "+12", 
+    "will": "+8", 
+    "organization": "solitary"
+}

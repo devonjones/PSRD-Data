@@ -1,0 +1,87 @@
+{
+    "dexterity": "10", 
+    "ac": "21, touch 10, flat-footed 21 (+11 natural)", 
+    "special_attacks": "constrict (tentacle 1d4+3), implant, pull (tentacle, 5 ft.)", 
+    "intelligence": "6", 
+    "racial_modifiers": "+12 Disguise as tree stump", 
+    "melee": "bite +12 (1d6+3), 8 tentacles +11 (1d4+1 plus grab and pull)", 
+    "cr": "8", 
+    "xp": "4,800", 
+    "speed": "5 ft., burrow 5 ft., climb 5 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "17", 
+    "constitution": "17", 
+    "space": "5 ft.", 
+    "treasure": "incidental", 
+    "charisma": "7", 
+    "environment": "any forest", 
+    "source": "Bestiary 3", 
+    "init": "+4", 
+    "fortitude": "+9", 
+    "reflex": "+6", 
+    "feats": "Great Fortitude, Greater GrappleB, Greater Weapon Focus (tentacle), Improved Initiative, Lightning Reflexes, Multiattack, Skill Focus (Perception), Weapon Focus (tentacle)", 
+    "senses": "all-around vision, darkvision 60 ft.; Perception +14", 
+    "description": "A small forest animal sits motionless atop a worn stump&mdash;and then the stump's face peels open into a maw of sharp teeth.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Corpse Lure", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "By setting a corpse atop its stump and riddling the body with small, extruded filaments, a wolf-in-sheep's-clothing can crudely maneuver the corpse, manipulating it like a puppet. The corpse cannot leave the stump or perform complex actions, but is instead used to lure larger prey within range of the wolf-in-sheep's-clothing's tentacles. The largest corpse a wolf-in-sheep's-clothing can manipulate in this fashion is two size categories smaller than itself (thus Tiny creatures for a Medium wolf-in-sheep's-clothing). When a wolf-in-sheep's-clothing uses a corpse like this, it gains a +8 bonus on Disguise checks beyond its normal racial bonus.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Implant", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A wolf-in-sheep's-clothing can infest a creature with its eggs in one of two ways. A creature that eats a carcass used by the monster as a corpse lure automatically becomes implanted. Alternatively, up to once per day, a wolf-in-sheep's-clothing can implant an egg into a helpless or pinned creature as part of a grapple action. The target can resist being implanted with a DC 19 Fortitude save, but if it fails, the seed gestates and becomes a self-aware creature that slowly steals nourishment from its host before finally exploding free of its host's gut. The parasite can be cut free of the host's belly with a DC 25 Heal check, which takes 1 hour and deals 3d6 slashing damage regardless of success or failure. Remove disease (or any similar effect) also kills an implanted egg.<p class=\"stat-block-2\"><i>Wolf-in-Sheep's-Clothing Egg</i>: Infestation&mdash;ingestion; <i>save</i> Fort 19; <i>onset</i> 1 day; <i>frequency</i> 1/day; <i>effect</i> 1d4 Str damage until host reaches 0, then 3d6 damage as parasite bursts free; <i>cure</i> 3 consecutive saves. The save DC is Constitution-based.</p>", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A wolf-in-sheep's-clothing appears at first to be little more than a tree stump sitting in a clearing, perhaps with a small animal sitting atop it. Only when a predator comes close does it become clear that the small animal is in fact long dead, given false life by tendrils springing up through its form, but by then it's too late, as the wolf-in-sheep's-clothing drags the would-be hunter into its waiting maw.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Though intelligent, these monsters see little need for the company of others. Their method of reproduction is as hideous as their tactic of using corpses as lures, for they implant their parasitic eggs in living hosts, giving their spawn a fresh meal to eat upon hatching.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A wolf-in-sheep's-clothing is usually about 4 to 5 feet across and weighs 200 pounds.</p>"
+        }
+    ], 
+    "hp": "97 (13d8+39)", 
+    "reach": "5 ft. (15 ft. with tentacle)", 
+    "wisdom": "14", 
+    "creature_type": "Aberration", 
+    "special_qualities": "corpse lure", 
+    "base_attack": "+9", 
+    "name": "Wolf-in-Sheep's-Clothing", 
+    "skills": "Climb +15, Disguise -1 (+11 as tree stump), Knowledge (nature) +4, Perception +14, Sense Motive +8, Stealth +9", 
+    "type": "creature", 
+    "cmd": "22 (can't be tripped)", 
+    "cmb": "+12 (+16 grapple)", 
+    "will": "+10", 
+    "organization": "solitary"
+}

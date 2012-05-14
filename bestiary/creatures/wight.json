@@ -1,0 +1,124 @@
+{
+    "dexterity": "12", 
+    "ac": "15, touch 11, flat-footed 14 (+1 Dex, +4 natural)", 
+    "special_attacks": "create spawn, energy drain (1 level, DC 14)", 
+    "intelligence": "11", 
+    "racial_modifiers": "+8 Stealth", 
+    "melee": "slam +4 (1d4+1 plus energy drain)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "30 ft.", 
+    "alignment": "LE", 
+    "size": "Medium", 
+    "environment": "any", 
+    "strength": "12", 
+    "constitution": "-", 
+    "treasure": "standard", 
+    "charisma": "15", 
+    "languages": "Common", 
+    "source": "Bestiary", 
+    "init": "+1", 
+    "fortitude": "+3", 
+    "reflex": "+2", 
+    "feats": "Blind-Fight, Skill Focus (Perception)", 
+    "senses": "darkvision 60 ft.; Perception +11", 
+    "description": "The flesh of this walking corpse is rotting and putrid, its body skeletal in places and its eye sockets glowing with red light.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Create Spawn", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Any humanoid creature that is slain by a wight becomes a wight itself in only 1d4 rounds. Spawn so created are less powerful than typical wights, and suffer a &ndash;2 penalty on all d20 rolls and checks, as well as &ndash;2 hp per HD. Spawn are under the command of the wight that created them and remain enslaved until its death, at which point they lose their spawn penalties and become full-fledged and free-willed wights. They do not possess any of the abilities they had in life.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Resurrection Vulnerability", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "A raise dead or similar spell cast on a wight destroys it (Will negates). Using the spell in this way does not require a material component.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Wights are humanoids who rise as undead due to necromancy, a violent death, or an extremely malevolent personality. In some cases, a wight arises when an evil undead spirit permanently bonds with a corpse, often the corpse of a slain warrior. They are barely recognizable to those who knew them in life; their flesh is twisted by evil and undeath, the eyes burn with hatred, and the teeth become beast-like. In some ways, a wight bridges the gap between a ghoul and a spectre&mdash;a warped animated corpse whose touch steals living energy.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>As undead, wights do not need to breathe, so they are sometimes found underwater, though they are not particularly good swimmers unless they were originally swimming creatures such as aquatic elves or merfolk. Underwater wights prefer low-ceilinged caves where their limited swimming isn't as much of a liability.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The wight presented here is a typical example of its kind, but sometimes when a wight creates spawn from particularly unusual humanoids, the resulting wights are quite different in power, such as the following three variants.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Brute Wight (CR 5)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Giants that are killed by wights become hunchbacked, simple-minded undead. Brute wights are giant advanced wights, but cannot create spawn of their own.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Cairn Wight (CR 4)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Some societies deliberately create these specialized wights to serve as guardians for barrows or other burial sites. A cairn wight is an advanced wight that fights with a weapon, typically a sword, that channels its energy drain attack and affects creatures damaged by the weapon as if they had been struck by the wight's slam attack.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<Heading 4:Frost Wight (CR 4)>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Wights created in cold environments sometimes become pale undead with blue-white eyes and ice in their hair. Frost wights have the cold subtype and their slam attacks deal 1d6 cold damage in addition to the normal effects. A creature touching a frost wight with natural weapons or unarmed strikes takes 1d6 cold damage.</p>"
+        }
+    ], 
+    "hp": "26 (4d8+8)", 
+    "weaknesses": "resurrection vulnerability", 
+    "wisdom": "13", 
+    "defensive_abilities": "undead traits", 
+    "creature_type": "Undead", 
+    "special_qualities": "create spawn", 
+    "base_attack": "+3", 
+    "name": "Wight", 
+    "skills": "Intimidate +9, Knowledge (religion) +7, Perception +11, Stealth +16", 
+    "type": "creature", 
+    "cmd": "15", 
+    "cmb": "+4", 
+    "will": "+5", 
+    "organization": "solitary, pair, gang (3-6), or pack (7-12)"
+}

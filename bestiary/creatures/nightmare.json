@@ -1,0 +1,124 @@
+{
+    "source": "Bestiary", 
+    "sections": [
+        {
+            "dexterity": "15", 
+            "ac": "19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)", 
+            "special_attacks": "smoke", 
+            "intelligence": "13", 
+            "melee": "bite +9 (1d4+4), 2 hooves +4 (1d6+2 plus 1d4 fire)", 
+            "cr": "5", 
+            "xp": "1,600", 
+            "speed": "40 ft., fly 90 ft. (good)", 
+            "alignment": "NE", 
+            "spells": {
+                "spell-like abilities": "(CL 6th)<p class=\"stat-block-2\">1/day (self plus 1 rider only)-<i>plane shift</i></p>"
+            }, 
+            "environment": "any (Abaddon)", 
+            "strength": "18", 
+            "constitution": "16", 
+            "space": "10 ft.", 
+            "treasure": "none", 
+            "charisma": "12", 
+            "languages": "Abyssal, Infernal", 
+            "source": "Bestiary", 
+            "init": "+6", 
+            "fortitude": "+8", 
+            "size": "Large", 
+            "type": "creature", 
+            "feats": "Alertness, Improved Initiative, Run", 
+            "senses": "darkvision 60 ft.; Perception +12", 
+            "description": "This eerie horse-like creature's skin is an inky blackness. Fire spurts from its hair and nostrils, and its hooves spray sparks.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Smoke", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Bestiary", 
+                            "text": "In battle, a nightmare exhales smoke that chokes and blinds foes, filling a 15-foot cone each round as a free action. Anyone in the cone must succeed on a DC 16 Fortitude save or become sickened until 1d6 minutes after leaving the area. This smoke acts as obscuring mist for the purposes of concealment. The smoke persists for 1 round. The save DC is Constitution-based.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Nightmares are flaming harbingers of death. They allow only the most evil of creatures to ride them, and are never mere mounts, but rather willing partners in destruction.</p>"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>The cauchemar is a more dangerous variant of the nightmare, particularly valued for its ability to enter the Ethereal Plane with its rider in addition to being able to use <i>plane shift</i> to invade other realities.</p>"
+                }
+            ], 
+            "hp": "51 (6d10+18)", 
+            "reach": "5 ft.", 
+            "wisdom": "13", 
+            "creature_type": "Outsider", 
+            "base_attack": "+6", 
+            "name": "Nightmare", 
+            "skills": "Fly +13, Intimidate +10, Knowledge (planes) +10, Perception +12, Sense Motive +12, Stealth +7, Survival +10", 
+            "reflex": "+7", 
+            "cmd": "23 (27 vs. trip)", 
+            "cmb": "+11", 
+            "will": "+3", 
+            "organization": "solitary", 
+            "creature_subtype": "evil, extraplanar"
+        }, 
+        {
+            "dexterity": "15", 
+            "ac": "26, touch 10, flat-footed 24 (+2 Dex, +16 natural, -2 size)", 
+            "special_attacks": "smoke (DC 22)", 
+            "intelligence": "16", 
+            "melee": "bite +22 (2d6+10), 2 hooves +17 (2d6+5 plus 1d6 fire)", 
+            "cr": "11", 
+            "xp": "12,800", 
+            "speed": "40 ft., fly 90 ft. (good)", 
+            "alignment": "NE", 
+            "spells": {
+                "spell-like abilities": "(CL 15th)<p class=\"stat-block-2\">1/hour (self plus 1 rider only)-<i>ethereal jaunt</i>, <i>plane shift</i></p>"
+            }, 
+            "environment": "any (Abaddon)", 
+            "strength": "31", 
+            "constitution": "21", 
+            "space": "15 ft.", 
+            "treasure": "none", 
+            "charisma": "12", 
+            "languages": "Abyssal, Infernal", 
+            "source": "Bestiary", 
+            "init": "+6", 
+            "fortitude": "+14", 
+            "size": "Huge", 
+            "type": "creature", 
+            "feats": "Alertness, Cleave, Improved Initiative, Improved Overrun, Iron Will, Power Attack, Run", 
+            "senses": "darkvision 60 ft.; Perception +22", 
+            "description": "This towering, burning equine stands upon smoking hooves. Hellfire shimmers in its hateful eyes.", 
+            "sections": [], 
+            "hp": "147 (14d10+70)", 
+            "reach": "10 ft.", 
+            "wisdom": "12", 
+            "creature_type": "Outsider", 
+            "base_attack": "+14", 
+            "name": "Nightmare, Cauchemar", 
+            "skills": "Acrobatics +19, Bluff +18, Fly +19, Intimidate +18, Knowledge (arcana, planes) +20, Perception +22, Sense Motive +22, Stealth +11", 
+            "reflex": "+11", 
+            "cmd": "38 (42 vs. trip)", 
+            "cmb": "+26", 
+            "will": "+7", 
+            "organization": "solitary", 
+            "creature_subtype": "evil, extraplanar"
+        }
+    ], 
+    "name": "Nightmare", 
+    "type": "section"
+}

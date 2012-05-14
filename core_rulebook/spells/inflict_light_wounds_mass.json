@@ -1,0 +1,37 @@
+{
+    "school": "necromancy", 
+    "saving_throw": "Will half", 
+    "name": "Inflict Light Wounds, Mass", 
+    "parent": "Inflict Light Wounds", 
+    "level": [
+        {
+            "class": "Cleric", 
+            "level": 5
+        }, 
+        {
+            "class": "Oracle", 
+            "level": 5
+        }
+    ], 
+    "text": "<p>Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage + 1 point per caster level (maximum +25) to nearby living enemies.</p><p>Like other <i>inflict </i>spells, <i>mass inflict light wounds </i>cures undead in its area rather than damaging them. A cleric capable of spontaneously casting <i>inflict </i>spells can also spontaneously cast <i>mass inflict </i>spells.</p>", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "source": "Core Rulebook", 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "effects": [
+        {
+            "text": "one creature/level, no two of which can be more than 30 ft. apart", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "instantaneous", 
+    "type": "spell"
+}

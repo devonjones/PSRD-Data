@@ -1,0 +1,88 @@
+{
+    "dexterity": "15", 
+    "ac": "25, touch 10, flat-footed 23 (+2 Dex, +15 natural, -2 size)", 
+    "special_attacks": "acid spit, rend (1d10+11)", 
+    "intelligence": "14", 
+    "resist": "cold 10", 
+    "melee": "bite +21 (2d6+11), 2 claws +21 (1d10+11)", 
+    "cr": "13", 
+    "xp": "25,600", 
+    "speed": "50 ft., climb 30 ft.", 
+    "alignment": "CG", 
+    "size": "Huge", 
+    "environment": "underground", 
+    "strength": "32", 
+    "constitution": "23", 
+    "space": "15 ft.", 
+    "treasure": "standard", 
+    "charisma": "25", 
+    "languages": "Aklo, Common, Undercommon", 
+    "immune": "acid", 
+    "init": "+2", 
+    "fortitude": "+11", 
+    "spells": {
+        "spell-like abilities": "(CL 16th; concentration +23)<p class=\"stat-block-2\">At will-<i>dancing lights</i>, <i>faerie fire</i> </p><p class=\"stat-block-2\">3/day-<i>daylight</i>, <i>giant vermin</i>, <i>insect plague</i>, <i>repel vermin</i> (DC 21), <i>summon swarm</i></p>"
+    }, 
+    "reflex": "+7", 
+    "feats": "Awesome Blow, Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Iron Will, Point-Blank Shot, Power Attack, Weapon Focus (acid spit)", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Acid Spit", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "An azruverda can spit a stream of acid at a target within 60 feet as a ranged touch attack that deals 10d6 points of acid damage.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Vermin Master", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "An azruverda can mentally control to up to 32 HD (twice the azruverda's racial Hit Dice) of vermin at any one time through a combination of supernatural pheromones and magical manipulation. To control a vermin, the azruverda must be able to see it, and it must be within 120 feet. Attempting to control a vermin is a standard action&mdash;the vermin can resist this attempt with a DC 25 Will save.  If the vermin fails this save, the azruverda can issue a simple mental command like \u201cfight,\u201d \u201ccome here,\u201d \u201cgo there,\u201d or \u201cstand still\u201d as a swift action. Though composed of thousands of individuals, vermin with the swarm subtype are vulnerable to this ability as well. An azruverda can release a creature from this control as a free action. Vermin affected by this ability act normally unless an azruverda is actively controlling it, but never attack their master azruverda. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Although repulsive in shape, these enormous, human-faced insectoid creatures are generally peaceful and serene. Left to its own devices, an azruverda is typically content to cultivate fungal gardens in deep underground sanctuaries. These gardens are beautiful to behold&mdash;masterful combinations of fungi, rocks, and other objects arranged in an artistic manner. Although generally solitary, azruverdas collaborate when a threat intrudes upon one of their underground homes. </p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Azruverdas stand 16 feet tall on their many legs and weigh close to 4,000 pounds.</p>"
+        }
+    ], 
+    "senses": "darkvision 60 ft., tremorsense 100 ft.; Perception +22", 
+    "description": "A humanoid head peers forth from this enormous creature's beautifully iridescent, spike-covered beetle carapace. ", 
+    "ranged": "acid spit +13 touch (10d6 acid)", 
+    "hp": "168 (16d8+96)", 
+    "reach": "15 ft.", 
+    "wisdom": "16", 
+    "creature_type": "Aberration", 
+    "special_qualities": "vermin master", 
+    "dr": "10/magic and slashing", 
+    "base_attack": "+12", 
+    "name": "Azruverda", 
+    "skills": "Climb +26, Handle Animal +17, Intimidate +26, Knowledge (dungeoneering) +12, Knowledge (nature) +12, Perception +22, Sense Motive +13, Spellcraft +15, Survival +16", 
+    "type": "creature", 
+    "cmd": "37 (39 vs. bull rush, 45 vs. trip)", 
+    "cmb": "+25 (+29 bull rush)", 
+    "will": "+15", 
+    "source": "Bestiary 3", 
+    "organization": "solitary, pair, or brood (3-7)"
+}

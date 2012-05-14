@@ -1,0 +1,141 @@
+{
+    "source": "Bestiary 3", 
+    "sections": [
+        {
+            "dexterity": "15", 
+            "ac": "20, touch 20, flat-footed 18 (+2 Dex, +8 size)", 
+            "special_attacks": "distraction (DC 19), infestation", 
+            "intelligence": "-", 
+            "melee": "swarm +10 (2d6 plus distraction and infestation)", 
+            "cr": "7", 
+            "xp": "3,200", 
+            "speed": "10 ft.", 
+            "alignment": "N", 
+            "size": "Fine", 
+            "strength": "1", 
+            "constitution": "18", 
+            "space": "10 ft.", 
+            "treasure": "none", 
+            "charisma": "1", 
+            "environment": "any", 
+            "immune": "mind-affecting effects, weapon damage", 
+            "init": "+2", 
+            "fortitude": "+11", 
+            "type": "creature", 
+            "senses": "blindsense 30 ft.; Perception +0", 
+            "description": "This nauseating carpet of wriggling white grubs undulates outward in a pallid wave of hunger.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Infestation", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 3", 
+                            "text": "Any living creature that takes damage from a rot grub swarm becomes infested unless it succeeds at a DC 19 Reflex save. On a failed save, the infested creature takes 1d4 points of Constitution damage per round as the rot grubs burrow through and consume its flesh&mdash;this effect continues as long as the victim remains in the swarm and continues for 1d6 rounds after it leaves the swarm. Any energy-based attack (including damage from negative energy) that deals at least 5 points of damage to the victim automatically destroys all of the rot grubs infesting it, ending the effect prematurely. Additionally, any effect that removes disease instantly ends a rot grub infestation. Immunity to disease offers no defense. The save DC is Constitution-based.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 3"
+                }
+            ], 
+            "hp": "85 (10d8+40)", 
+            "reach": "0 ft.", 
+            "wisdom": "10", 
+            "defensive_abilities": "swarm traits", 
+            "creature_type": "Vermin", 
+            "base_attack": "+7", 
+            "name": "Parasite, Rot Grub Swarm", 
+            "reflex": "+5", 
+            "cmd": "&mdash", 
+            "cmb": "-", 
+            "will": "+3", 
+            "source": "Bestiary 3", 
+            "organization": "solitary", 
+            "creature_subtype": "swarm"
+        }, 
+        {
+            "dexterity": "12", 
+            "ac": "15, touch 12, flat-footed 14 (+1 Dex, +3 natural, +1 size)", 
+            "special_attacks": "gnaw, grab (Medium)", 
+            "intelligence": "-", 
+            "melee": "bite +6 (1d6+3 plus poison and grab)", 
+            "cr": "3", 
+            "xp": "800", 
+            "speed": "20 ft.", 
+            "alignment": "N", 
+            "size": "Small", 
+            "strength": "14", 
+            "constitution": "18", 
+            "source": "Bestiary 3", 
+            "treasure": "none", 
+            "charisma": "1", 
+            "environment": "any", 
+            "immune": "mind-affecting effects", 
+            "init": "+1", 
+            "fortitude": "+8", 
+            "reflex": "+2", 
+            "senses": "blindsense 30 ft.; Perception +0", 
+            "description": "This twitching, pale maggot is the size of a large dog. A circular mouth quivers and gasps at one end of its pulsating body.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Gnaw", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 3", 
+                            "text": "A rot grub that is grappling a foe and chooses to damage the foe with an additional grapple check deals twice its normal bite damage (2d6+6 for most giant rot grubs), in addition to injecting an additional dose of poison with each successful check.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Poison", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 3", 
+                            "text": "Bite&mdash;injury; save Fort DC 16; frequency 1/round for 5 rounds; effect 1d3 Str; cure 1 save.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 3"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Rot grubs are foul, nauseating parasites that feed on flesh and use corpses as nests in which to grow. While a rot grub can derive nourishment from dead flesh, its true hunger is for the flesh of the living. Thankfully, rot grub swarms occur only rarely, as they require the infested carcass of a Huge or larger creature and many weeks to build up the numbers necessary to constitute a swarm.</p>"
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>In some cases, a rot grub continues to feed and grow, eventually reaching enormous size as a giant rot grub.</p>"
+                }
+            ], 
+            "hp": "34 (4d8+16)", 
+            "wisdom": "10", 
+            "creature_type": "Vermin", 
+            "base_attack": "+3", 
+            "name": "Parasite, Giant Rot Grub", 
+            "type": "creature", 
+            "cmd": "15", 
+            "cmb": "+4 (+8 grapple)", 
+            "will": "+1", 
+            "organization": "solitary, pair, or nest (3-8)"
+        }
+    ], 
+    "name": "Parasite", 
+    "type": "section"
+}

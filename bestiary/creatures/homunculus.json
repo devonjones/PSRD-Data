@@ -1,0 +1,105 @@
+{
+    "dexterity": "15", 
+    "ac": "14, touch 14, flat-footed 12 (+2 Dex, +2 size)", 
+    "intelligence": "10", 
+    "melee": "1 bite +3 (1d4-1 plus poison)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "20 ft., fly 50 ft. (good)", 
+    "alignment": "Any alignment (same as creator)", 
+    "size": "Tiny", 
+    "environment": "any", 
+    "strength": "8", 
+    "constitution": "-", 
+    "space": "2-1/2 ft.", 
+    "treasure": "none", 
+    "charisma": "7", 
+    "languages": "Common (cannot speak); telepathic link", 
+    "source": "Bestiary", 
+    "init": "+2", 
+    "fortitude": "+0", 
+    "reflex": "+4", 
+    "feats": "Lightning Reflexes", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +3", 
+    "description": "This vaguely humanoid creature is about the size of a cat but looks more like a toothy, winged devil.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Bite&mdash;injury; save Fort DC 13; frequency 1/minute for 60 minutes; effect sleep for 1 minute; cure 1 save. The save DC is Constitution-based and includes a +2 racial bonus.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Telepathic Link", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "A homunculus cannot speak, but the process of creating one links it telepathically with its creator. A homunculus knows what its master knows and can convey to him or her everything it sees and hears, out to a distance of 1,500 feet.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A homunculus is a miniature servant created by a spellcaster from his own blood. They are weak combatants but make effective spies, messengers, and scouts. A homunculus's creator determines its precise features; some are more refined looking, but most creators don't bother to improve the creature's appearance beyond the minimum necessary for functioning.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Homunculi are little more than tools designed to carry out assigned tasks. They are extensions of their creators, sharing the same alignment and basic nature. A homunculus never willingly travels more than a mile from its master, though it can be removed forcibly. If this occurs, the creature does everything in its power to return to this range, as it cannot communicate with its master beyond this distance. An attack that destroys a homunculus deals 2d10 points of damage to its master. If the creature's master is slain, the homunculus goes insane&mdash;it loses its Intelligence score, all feats, and all skill ranks, and generally claims the immediate surroundings as its domain, mindlessly attacking any who intrude upon its lair.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>On rare occasions, a homunculus freed from its servitude rises above its master's original intent and becomes more than a half-insane construct guardian of a long-forgotten lair. In some cases, a homunculus might even come to see itself as the rightful heir to its master's legacy, or even the reincarnated spirit of the master himself.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "text": "<p>A homunculus is shaped from a mixture of clay, ash, mandrake root, spring water, and one pint of the creator's own blood. These materials cost 50 gp. After the body is sculpted, it is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist's laboratory, and costing an additional 1,000 gp to supply. If the creator is personally constructing the creature's body, the building and ritual can be performed together. A homunculus with more than 2 Hit Dice can be created, but each additional Hit Die adds +2,000 gp to the cost to create.</p><p>The person whose blood is used to form a homunculus's body becomes its master; it is possible for one person to give blood for the creation, another to sculpt the base material, and another to magically animate it as a minion for the one who provided the blood.</p>", 
+            "type": "section", 
+            "name": "Construction", 
+            "sections": [
+                {
+                    "requirements": "Craft Construct, arcane eye, mirror image, mending", 
+                    "name": "Homunculus", 
+                    "cl": "7th", 
+                    "sections": [], 
+                    "price": "2,050 gp", 
+                    "source": "Bestiary", 
+                    "cost": "1,050 gp.", 
+                    "skill": "Craft (leather) or Craft (sculptures) DC 12", 
+                    "type": "item"
+                }
+            ]
+        }
+    ], 
+    "hp": "11 (2d10)", 
+    "reach": "0 ft.", 
+    "wisdom": "12", 
+    "defensive_abilities": "construct traits", 
+    "creature_type": "Construct", 
+    "base_attack": "+2", 
+    "name": "Homunculus", 
+    "skills": "Fly +10, Perception +3, Stealth +12", 
+    "type": "creature", 
+    "cmd": "11", 
+    "cmb": "+2", 
+    "will": "+1", 
+    "organization": "solitary"
+}

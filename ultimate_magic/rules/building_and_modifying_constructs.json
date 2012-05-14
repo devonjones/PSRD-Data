@@ -1,0 +1,418 @@
+{
+    "source": "Ultimate Magic", 
+    "sections": [
+        {
+            "source": "Ultimate Magic", 
+            "text": "<p class=\"body-copy\">\n</p><p>The Craft Construct feat allows a spellcaster to create all manner of permanent constructs in a process much like magic item creation. Each construct has a purchase price and a crafting cost, along with a list of requirements and the skills used to create them. Some require special materials in addition to the cost for basic crafting supplies, generally for the construct's body. Special material costs increase both the purchase price and the crafting cost of the construct. The DC to craft a construct is 5 + the default caster level of the construct, just like for a magic item. Like when crafting magic items, a creator with a sufficiently high skill bonus may ignore these requirements. Each missing requirement increases the Craft DC by 5. Regardless, the creator must meet all item creation feats and minimum caster level requirements. Crafting a construct takes 1 day per 1,000 gp in the item's base price, excluding any special material costs. This process is identical to the process for crafting a magic item, including the rules for accelerating creation and handling interruptions (see Magic Item Creation).</p>", 
+            "type": "section", 
+            "name": "Building and Modifying Constructs", 
+            "sections": [
+                {
+                    "source": "Ultimate Magic", 
+                    "text": "<p>Not all constructs are built with the Craft Construct feat. Spells like <i>animate objects</i> allow a caster to temporarily animate an existing object. These constructs are in many ways weaker than manufactured constructs, as they are susceptible to dispelling and antimagic.</p><p>A caster can use the <i>animate objects</i> spell to instantly create a temporary construct. A <i>permanency</i> spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. Craft Construct creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the animated object entry.</p>", 
+                    "type": "section", 
+                    "name": "Animated Objects", 
+                    "sections": [
+                        {
+                            "requirements": "Craft Construct, animate objects, permanency", 
+                            "name": "Animated Object", 
+                            "cl": "11th", 
+                            "price": "as determined by CR", 
+                            "source": "Ultimate Magic", 
+                            "cost": "1/2 price", 
+                            "skill": "Spellcraft or appropriate Craft skill", 
+                            "type": "item"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "text": "<p>The following are new abilities that can be applied to animated objects, whether created by the <i>animate objects</i> spell or with the Craft Construct feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in the Animated Object description.</p>", 
+                    "type": "section", 
+                    "name": "New Animated Object Abilities", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"augmented-critical-(ex,-1-cp)\">Increase the threat range for the animated object's melee attacks by 1 or the threat multiplier by 1. This cannot combine with itself or with the piercing attack or slashing attack object abilities.</p>", 
+                            "type": "section", 
+                            "name": "Augmented Critical (Ex, 1 CP)"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"exceptional-reach-(ex,-1-cp)\">The object gains +5 feet of reach with one melee attack. Increase reach on all attacks for an additional +1 CP.</p>", 
+                            "type": "section", 
+                            "name": "Exceptional Reach (Ex, 1 CP)"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"improved-attack-(ex,-1-cp)\">All the animated object's melee or ranged attacks do damage as though it were one size category larger. A crafter must purchase Improved Attack separately for melee and ranged attacks.</p>", 
+                            "type": "section", 
+                            "name": "Improved Attack (Ex, 1 CP)"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"piercing-attack-(ex,-1-cp)\">Replace one melee attack with an attack that does the same amount of piercing damage and has a <span class=\"char-style-override-9\">&times;</span>3 multiplier. Replace all melee attacks for an additional +1 CP. Object abilities that specify slam attacks do not work on piercing attacks. </p>", 
+                            "type": "section", 
+                            "name": "Piercing Attack (Ex, 1 CP)"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"ranged-attack-(ex,-2-cp)\">Replace one slam attack with a ranged attack. It does the same amount of damage, and has a range of 20 feet. Replace all attacks for an additional +2 CP. Object abilities that specify slam attacks do not work on ranged attacks. </p>", 
+                            "type": "section", 
+                            "name": "Ranged Attack (Ex, 2 CP)"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"slashing-attack-(ex,-1-cp)\">Replace one slam attack with an attack that does slashing damage and has either a 19&ndash;20 threat range (for blade-like attacks) or a <span class=\"char-style-override-9\">&times;</span>3 threat multiplier (for axe- or scythelike attacks). Replace all melee attacks for an additional +1 CP. Object abilities that specify slam attacks do not work on slashing attacks.</p>", 
+                            "type": "section", 
+                            "name": "Slashing Attack (Ex, 1 CP)"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"trip-(ex,-2-cp)\">The object gains the trip special ability with one of its slam attacks.</p>", 
+                            "type": "section", 
+                            "name": "Trip (Ex, 2 CP)"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Ultimate Magic", 
+            "text": "<p>Constructs typically have no Intelligence score, an average Wisdom score, and a Charisma of 1. Their dexterity is usually poor to average, though exceptionally nimble constructs do exist. Nearly all constructs of size Medium or larger have high Strength scores; constructs never have a Constitution score.</p><p>New constructs should stick fairly close to the Monster Statistics by CR table. As they are usually mindless combat brutes, most use the \u00e2&euro;&oelig;high attack\u00e2&euro;? column, with damage falling in between the High and Low average damage columns. Note that all the construct's saving throws are likely to be poor, and they have no favored saves. Lacking a Constitution score, a construct's hit points also tend to be low in comparison to creatures with similar CRs. Consider giving any construct that doesn't have either damage reduction or hardness a higher AC to compensate.</p>", 
+            "type": "section", 
+            "name": "Building New Constructs", 
+            "sections": [
+                {
+                    "text": "<table style=\"white-space: normal;\"><caption>Table: Constructs</caption>\n<thead><tr><th>Name</th><th>CR</th><th>Materials</th><th>Price</th><th>Cost</th><th>Special Abilities</th></tr></thead>\n<tr class=\"odd\"><td>Tiny animated object</td><td>1/2</td><td>&mdash;</td><td>250 gp</td><td>125 gp</td><td>Variable</td></tr>\n<tr class=\"even\"><td>Homunculus</td><td>1</td><td>50 gp</td><td>2,050 gp</td><td>1,050 gp</td><td>Poison, telepathic link</td></tr>\n<tr class=\"odd\"><td>Small animated object</td><td>2</td><td>&mdash;</td><td>2,000 gp</td><td>1,000 gp</td><td>Variable</td></tr>\n<tr class=\"even\"><td>Iron cobra</td><td>2</td><td>&mdash;</td><td>4,000 gp</td><td>2,000 gp</td><td>Find target, poison</td></tr>\n<tr class=\"odd\"><td>Darkwood cobra</td><td>2</td><td>&mdash;</td><td>5,000 gp</td><td>2,500 gp</td><td>Find target, poison</td></tr>\n<tr class=\"even\"><td>Soulbound doll</td><td>2</td><td>300 gp</td><td>4,300 gp</td><td>2,300 gp</td><td>DR, variable, susceptible to mind-affecting effects</td></tr>\n<tr class=\"odd\"><td>Medium animated object</td><td>3</td><td>&mdash;</td><td>4,500 gp</td><td>2,250 gp</td><td>Variable</td></tr>\n<tr class=\"even\"><td>Mithral cobra</td><td>3</td><td>&mdash;</td><td>10,000 gp</td><td>5,000 gp</td><td>Find target, poison</td></tr>\n<tr class=\"odd\"><td>Adamantine cobra</td><td>3</td><td>&mdash;</td><td>20,000 gp</td><td>10,000 gp</td><td>High DR, find target, poison</td></tr>\n<tr class=\"even\"><td>Necrophidius</td><td>3</td><td>1,000 gp</td><td>7,500 gp</td><td>4,425 gp</td><td>DR, dance of death, paralysis</td></tr>\n<tr class=\"odd\"><td>Carrion golem</td><td>4</td><td>500 gp</td><td>10,500 gp</td><td>5,500 gp</td><td>DR/bludgeoning or slashing, stench</td></tr>\n<tr class=\"even\"><td>Scarecrow</td><td>4</td><td>500 gp</td><td>15,500 gp</td><td>8,000 gp</td><td>Immune to cold, fascinating gaze, fear, vulnerable to fire</td></tr>\n<tr class=\"odd\"><td>Large animated object</td><td>5</td><td>&mdash;</td><td>12,500 gp</td><td>6,250 gp</td><td>Variable</td></tr>\n<tr class=\"even\"><td>Ice golem</td><td>5</td><td>500 gp</td><td>18,500 gp</td><td>9,500 gp</td><td>Cold, golem, icy destruction</td></tr>\n<tr class=\"odd\"><td>Wood golem</td><td>6</td><td>300 gp</td><td>19,300 gp</td><td>9,800 gp</td><td>Golem, splintering</td></tr>\n<tr class=\"even\"><td>Huge animated object</td><td>7</td><td>&mdash;</td><td>25,000 gp</td><td>12,500 gp</td><td>Variable</td></tr>\n<tr class=\"odd\"><td>Flesh golem</td><td>7</td><td>500 gp</td><td>20,500 gp</td><td>10,500 gp</td><td>Berserk, golem</td></tr>\n<tr class=\"even\"><td>Glass golem</td><td>8</td><td>1,000 gp</td><td>33,000 gp</td><td>17,000gp</td><td>DR, golem, deflect spells, dazzling brightness</td></tr>\n<tr class=\"odd\"><td>Stained glass golem</td><td>8</td><td>1,000 gp</td><td>39,400 gp</td><td>20,200 gp</td><td>DR, golem, deflect spells, dazzling brightness</td></tr>\n<tr class=\"even\"><td>Alchemical golem</td><td>9</td><td>3,000 gp</td><td>33,000 gp</td><td>18,000 gp</td><td>High DR, golem, alchemy, bombs, splash</td></tr>\n<tr class=\"odd\"><td>Gargantuan animated object</td><td>9</td><td>&mdash;</td><td>40,000 gp</td><td>20,000 g</td><td>Variable</td></tr>\n<tr class=\"even\"><td>Clay golem</td><td>10</td><td>1,500 g</td><td>41,500 gp</td><td>21,500 gp</td><td>Special DR, golem, berserk, cursed wounds</td></tr>\n<tr class=\"odd\"><td>Colossal animated object</td><td>11</td><td>&mdash;</td><td>60,000 gp</td><td>30,000 gp</td><td>Variable</td></tr>\n<tr class=\"even\"><td>Stone golem</td><td>11</td><td>5,000 gp</td><td>105,000 gp</td><td>55,000 gp</td><td>Golem, full healing, minor spell vulnerabilities, slow </td></tr>\n<tr class=\"odd\"><td>Clockwork golem</td><td>12</td><td>10,000 gp</td><td>120,000 gp</td><td>65,000 gp</td><td>High DR, golem, death burst, grind, wall of gears</td></tr>\n<tr class=\"even\"><td>Iron golem</td><td>13</td><td>10,000 gp</td><td>150,000 gp</td><td>80,000 gp</td><td>High DR, golem, breath weapon</td></tr>\n<tr class=\"odd\"><td>Mithral golem</td><td>16</td><td>50,000 gp</td><td>250,000 gp</td><td>150,000 gp</td><td>High DR, golem, fluid form</td></tr>\n<tr class=\"even\"><td>Adamantine golem</td><td>19</td><td>100,000 gp</td><td>600,000 gp</td><td>350,000 gp</td><td>Epic DR, golem, indestructible, destructive strike</td></tr></table>", 
+                    "type": "table", 
+                    "name": "Constructs", 
+                    "source": "Ultimate Magic"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "text": "<p>This section provides guidelines for those seeking to calculate the costs of crafting their own constructs. As a rough guideline, a construct's price is equal to its challenge rating squared, then multiplied by 500 gp. Constructs with a fractional CR rating base their price on that fraction of 500 gp. For example, a CR 1/2 construct has a price of 250 gp. The cost of magical supplies for the Craft Construct feat is half this price, with the construct taking 1 day to create per 1,000 gp of the construct's base price. Some constructs, particularly golems, have additional raw material costs that must be paid in full, regardless of whether the creator possesses the Craft Construct feat. Raw materials typically cost somewhere between 5% and 10% of the construct's base price.</p><p>Constructs with multiple special abilities cost more to create. The first special ability is included in the construct's base cost. The next two special abilities increase the calculated price by +1/2 CR per ability. Thereafter, any additional special abilities add +1 CR per ability. Examples of special abilities include having a higher DR value than a typical construct of its CR (above DR 5 for CRs 1&ndash;8, above DR 10 for CR 9+), monster statistics that exceed those recommended for the construct's CR (see Monster Statistics by CR), the standard golem immunity to magic, DR or hardness that can't be overcome by all adamantine weapons, ability to be fully healed by a single spell, and most special attacks and special qualities.</p><p>Particularly powerful special abilities, such as an iron golem's exceptionally high attack bonus, count as two lesser abilities. Animated objects are a special case&mdash;their base price is not increased by any abilities paid for with Construction Points (see the Animated Object description), since these abilities are already factored into an animated object's CR. In addition, golems and homunculi created with extra Hit Dice, the advanced template, or shield guardian abilities should all be priced as described previously, rather than by adjusting pricing for their new CR.</p><p>Abilities that weaken or potentially place a construct at a disadvantage rarely reduce the construct's price. An exception is the berserk ability. Constructs that have a chance of going berserk receive &ndash;1 CR adjustment to their calculated price if control can be reestablished (like a flesh golem) or &ndash;2 CR adjustment for permanent loss of control (like a clay golem). </p><p>The following is an example of the calculated costs for creating a stone golem (CR 11). A stone golem's special abilities are golem immunity to magic, full healing from <i>transmute mud to rock</i>, a high to-hit bonus (+22 vs. the +19 typical for CR 11), and the ability to slow its foes. Further, since its spell vulnerabilities are not tied to common spells or effects, its immunity to magic cost is doubled, giving the stone golem a total of 5 special abilities. The first special ability doesn't affect the cost, the next two increase the cost by +1/2 CR each, and the final two each increase the cost by +1 CR individually, making its effective CR for pricing equal to 14. This produces a calculated price of 98,000 gp, rounded up to an even 100,000 gp.</p><p>When designing a new construct, keep in mind that the above pricing formula only serves as a guideline. As with magic items, construct pricing remains more art than science, and like magic items, compare new constructs to existing ones for guidance. If you're not sure, err on the side of a higher price.</p>", 
+                    "type": "section", 
+                    "name": "Pricing a New Construct"
+                }
+            ]
+        }, 
+        {
+            "source": "Ultimate Magic", 
+            "text": "<p>Even with the best of care, most constructs will eventually become damaged. Unless a construct suffers some sort of structural damage that radically alters its physical form, the construct continues to function at its full efficiency, and only falls apart once reduced to 0 hit points. Ideally, however, a construct should see some repair before it reaches that point. The <i>make whole</i> or <i>rapid repair</i> spells provide the easiest way to keep a construct in good condition. Both spells repair damaged constructs, even magic-immune ones like golems. </p><p>Failing that, a crafter can repair a construct with the Craft Construct feat. When repairing a construct, its master spends 100 gp per Hit Die of the construct, and then makes a skill check as if he were crafting the construct with a DC of 5 less than the DC for crafting that construct. With a success, the construct regains 1d6 hit points per Hit Die of the construct. Completing a repair takes 1 day per 1,000 gp spent on the repair (minimum of 1 day). Repair in this way can only be performed while the construct is inanimate or nonfunctioning. At any time, a construct's creator can deactivate a construct under his control with a touch and a standard action.</p><p>A construct that has been completely destroyed cannot be repaired, though at the GM's option some of the materials may be usable in the construction of a new construct.</p><p>Additionally, some constructs have special means of repair, usually involving spells related to the golem's nature (such as the use of acid damage to heal a clay golem.)</p>", 
+            "type": "section", 
+            "name": "Repairing Constructs"
+        }, 
+        {
+            "source": "Ultimate Magic", 
+            "text": "<p>Standard constructs can be modified to enhance their base abilities, alter their appearance or function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a modification provides a construct's creator with a simple way to create a unique construct. A modification can only be performed while the construct is inanimate or nonfunctioning. </p><p>Performing modifications on one's own construct requires the Craft Construct feat, and the creator must pay any additional crafting requirements and/or costs associated with the modification. Completing a modification requires 1 day per 1,000 gp of the modification's base price (minimum 1 day).</p>", 
+            "type": "section", 
+            "name": "Construct Modifications", 
+            "sections": [
+                {
+                    "source": "Ultimate Magic", 
+                    "text": "<p>These modifications are used to alter a construct's basic properties: Armor Class, Hit Dice, and weaponry.</p>", 
+                    "type": "section", 
+                    "name": "Basic Modifications", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"armor-modification\">This modification adds an enhancement bonus to the construct's natural armor bonus or adds a magic armor property. The cost for magical enhancements equals the cost for creating magic armor as described under Creating Magic Armor. </p>", 
+                            "type": "section", 
+                            "name": "Armor Modification"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"hit-dice-modification\">Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using the rules for adding creature Hit Dice using the information in Monster Creation. Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice.</p>", 
+                            "type": "section", 
+                            "name": "Hit Dice Modification"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"weapon-modification\">This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for creating magic weapons as described under Magic Items - Weapons. Performing a weapon modification also requires the Craft Magical Arms and Armor feat.</p>", 
+                            "type": "section", 
+                            "name": "Weapon Modification"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"ability-score-modification\">Using this modification, a crafter can permanently increase one of the construct's ability scores by +2 per modification. He cannot increase any abilities with a score of 0. The cost for permanently increasing an ability score is 5,000 gp.</p>", 
+                            "type": "section", 
+                            "name": "Ability Score Modification"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "text": "<p>These modifications represent more complex changes to the structure and function of the construct. The cost is equivalent to the minimum level to cast the spell &times; the spell level &times; 250 gp.</p>", 
+                    "type": "section", 
+                    "name": "Complex Modifications", 
+                    "sections": [
+                        {
+                            "requirements": "Craft Construct, regenerate", 
+                            "name": "Bioconstruct Modification", 
+                            "text": "<p class=\"stat-description-2\">Merging the arts of transmutation and necromancy, powerful spellcasters work living organs into a golem, imbuing it with properties normally associated with beings that are alive. These organs are placed in canopic jars of specially prepared arcane fluids that are then sealed into the golem's body, though not necessarily in anatomically correct locations. Specific organs produce specific effects. Each organ is counted as a separate upgrade, and the costs of multiple bioconstruct organs are cumulative. Bioconstruct upgrades only work with golems, and cannot be placed into animated objects. </p><p class=\"stat-description-indent-2\">All bioconstruct upgrades have the same weakness&mdash;they are susceptible to critical hits. An attacker that confirms a critical hit against a golem with a bioconstruct upgrade deals damage to the construct and also destroys one upgrade. The damaged upgrade ceases to function and the construct loses abilities associated with the upgrade. If a construct has more than one bioconstruct upgrade, only one is damaged. The GM randomly determines the damaged organ.</p><Heading 5:Heart><p id=\"heart\" class=\"stat-description-indent-2\">This upgrade permits a golem to receive partial benefits of magical healing and provides a hit point bonus as if the golem had a Constitution score of 12, but the construct does not gain a Constitution score in this process. Negative energy spells cast upon the golem can affect the heart, causing it to cease functioning for the duration of the effect (or 1 round for instantaneous effects). If the spell has a save, the heart uses the golem's saving throws.</p><Heading 5:Brain><p id=\"brain\" class=\"stat-description-indent-2\">This upgrade doesn't permit the golem to think independently, but instead, the brain works as a storage device, permitting the golem to acquire skills and feats as if it had an Intelligence score of 10. Enchantment spells or spells with mind-affecting effects that are cast upon the golem can affect the brain, causing the brain to cease functioning for the duration of the spell. While the brain is suppressed in this fashion, the construct temporarily loses access to its skills and feats. If the spell has a save, the brain uses the golem's saving throws.</p>", 
+                            "source": "Ultimate Magic", 
+                            "cost": "22,750 gp", 
+                            "cr_increase": "+1", 
+                            "type": "item"
+                        }, 
+                        {
+                            "requirements": "Craft Construct, Craft Magic Arms and Armor, animate objects, the construct modified must be the same size as the creator", 
+                            "name": "Construct Armor", 
+                            "text": "<p class=\"stat-description-2\">This modification allows the construct to be worn like armor by its creator. So long as the creator wears it, the construct performs no independent actions, remaining under the control of the creator, and any attacks directed at the wearer first target the construct. When a construct is destroyed while serving as armor, the wearer loses all the benefits, but regains all the hindrances until the armor is removed, which takes the same amount of time that removing breastplate armor does. If the construct is still active, the creator can order the removal of the armor with a swift action, at which point the construct leaves the creator's space and enters a space adjacent to the creator. Donning construct armor takes a full-round action if the construct is still active. The creator cannot don a construct with this modification if the construct has been destroyed.</p><p class=\"stat-description-indent-2\">The construct's wearer retains his base attacks and saves. Construct armor counts as breastplate armor for purposes of determining AC, weight, Dexterity modifiers to AC, and chance of arcane spell failure. </p>", 
+                            "source": "Ultimate Magic", 
+                            "cost": "35,000 gp", 
+                            "cr_increase": "+1", 
+                            "type": "item"
+                        }, 
+                        {
+                            "requirements": "Craft Construct, scrying", 
+                            "name": "Crafter's Eyes", 
+                            "text": "<p class=\"stat-description-2\">The crafter gives her construct crystalline eyes that permit her to use a <i>scrying</i> or <i>greater scrying</i> spell to see from the perspective of her creation. This modification requires the crafter also to prepare a special crystalline orb magically bonded to the eyes, which serves as her focus for the <i>scrying</i> or <i>greater scrying</i> spell. The cost of creating that focus is included in the cost of modifying the construct. </p><p class=\"stat-description-indent-2\">Unlike normal <i>scrying</i> or<i> greater scrying</i>, there is no chance of failure for viewing creatures though the sensor; the creator simply sees what the construct sees for the duration of the spell. Spells cast through the sensor still have the normal chance of operating through the construct's eyes. </p>", 
+                            "source": "Ultimate Magic", 
+                            "cost": "8,000 gp", 
+                            "cr_increase": "none", 
+                            "type": "item"
+                        }, 
+                        {
+                            "requirements": "Craft Construct, Craft Magic Arms and Armor, animate objects, Small or Tiny construct", 
+                            "name": "Construct Limb", 
+                            "text": "<p class=\"stat-description-2\">This modification can be performed on a Small or Tiny construct, such as an iron cobra or a homunculus. The creator modifies the construct such that she can slip it over her arm and control its actions as part of her own. The construct limb retains any melee attacks that the construct has, and the creator can use special attacks as if she were the construct (using the construct's attack statistics and effects), but treat the creator as the creature making attacks for the purpose of determining attacks of opportunity and other actions that could be triggered by an attack made by the creator.</p><p class=\"stat-description-indent-2\">The limb also provides the wearer with limited protection in combat, roughly equivalent to that of a heavy steel shield. The wearer is considered proficient in this shield. The wearer retains the remainder of her abilities.</p><p class=\"stat-description-indent-2\">A construct limb counts as a heavy steel shield for purposes of determining AC, weight, Dexterity modifiers to AC, and chance of arcane spell failure.</p>", 
+                            "source": "Ultimate Magic", 
+                            "cost": "27,000 gp", 
+                            "cr_increase": "none", 
+                            "type": "item"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Rune-Carved", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"requirements\" class=\"stat-block-1\">Craft Construct, variable (see below).</p>", 
+                            "type": "section", 
+                            "name": "Requirements"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"cr-increase\" class=\"stat-block-1\">none</p>", 
+                            "type": "section", 
+                            "name": "CR Increase"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"cost\" class=\"stat-block-1\">variable (see below)</p><p class=\"stat-description-2\">This subcategory of complex modification allows a construct's creator to carve a runic spell trigger into her creation. Choose one of the following runes. The cost of the rune and any prerequisites are detailed in the rune's description. Once per day, the first time the rune is triggered, its effect occurs. As an immediate action, the creator can attempt to delay the effect until the next time it is triggered. Doing so requires that the construct be within line of sight of the creator (or for the creator to be using <i>scrying</i> or <i>greater scrying </i>through the crafter's eyes construct modification) and that the caster make a Spellcraft check equal to 10 + the caster level of the rune's effect. </p><p class=\"stat-description-indent-2\">A construct can have more than one rune-carved modification, and even multiple runes of the same type. If it has multiple applications of the same rune, the first one goes off when it is first triggered, the second one goes off when the trigger happens next, and so on. Multiple runes of different types go off when first triggered, even if the different runes share similar triggers. </p><p class=\"stat-description-indent-2\">It is rumored that there are many more runes than these, but the following are some of the best known and most common runes used by construct crafters.</p>", 
+                            "type": "section", 
+                            "name": "Cost"
+                        }, 
+                        {
+                            "name": "Rune of Agony", 
+                            "cl": "9th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Trigger and Effect", 
+                                    "text": "<p class=\"stat-description-2\">This modification is triggered the first time the modified construct takes damage. Creatures within a 20-foot-radius spread must succeed on a DC 17 Fortitude save or suffer from wracking pains that impose a &ndash;4 penalty on attack rolls, skill checks, and ability checks for 1 minute. On a successful saving throw, the creature takes the penalties imposed by the rune for 1 round. </p>"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Modification"
+                                }
+                            ], 
+                            "source": "Ultimate Magic", 
+                            "aura": "Moderate necromancy", 
+                            "type": "item"
+                        }, 
+                        {
+                            "name": "Rune of Imprisonment", 
+                            "cl": "18th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Trigger and Effect", 
+                                    "text": "<p class=\"stat-description-2\">This rune is triggered the first time the construct is hit with a touch or ranged touch attack spell. The caster of the triggering spells must succeed at a DC 22 Will save or be captured, both body and soul, within a gem embedded in the modified construct's body. The gem holds the caster until either the gem or the construct is destroyed. A gem can only hold one creature at a time; once it captures a creature, the rune does not trigger again until the gem is replaced.</p><p class=\"stat-description-indent-2\">While a creature is trapped within the gem, the gem is vulnerable to critical hits; if an attacker confirms a critical hit, the construct takes damage and the gem is destroyed, releasing the entrapped creature into a space adjacent to the construct. The broken gem must then be replaced before the <i>rune of imprisonment</i> can function again. </p>"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Modification"
+                                }
+                            ], 
+                            "source": "Ultimate Magic", 
+                            "aura": "Strong conjuration", 
+                            "type": "item"
+                        }, 
+                        {
+                            "name": "Rune of Lightning", 
+                            "cl": "5th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Trigger and Effect", 
+                                    "text": "<p class=\"stat-description-2\">This rune is triggered when the modified construct is hit by a melee attack. The rune releases a 5-foot-radius burst of electricity dealing 3d8 points of electrical damage to all creatures within the burst. A successful DC 12 Reflex saving throw halves the damage. </p>"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Modification"
+                                }
+                            ], 
+                            "source": "Ultimate Magic", 
+                            "aura": "faint evocation", 
+                            "type": "item"
+                        }, 
+                        {
+                            "name": "Rune of Shielding", 
+                            "cl": "3rd", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Trigger and Effect", 
+                                    "text": "<p class=\"stat-description-2\">This rune is triggered the first time the modified construct is attacked with a melee attack, ranged attack, or <i>magic missile</i>. The construct gains a +4 shield bonus to its Armor Class for 3 minutes. This is a force effect and applies against incorporeal touch attacks. </p>"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Modification"
+                                }
+                            ], 
+                            "source": "Ultimate Magic", 
+                            "aura": "faint abjuration", 
+                            "type": "item"
+                        }, 
+                        {
+                            "name": "Rune of Terror", 
+                            "cl": "7th", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Trigger and Effect", 
+                                    "text": "<p class=\"stat-description-2\">This rune is triggered the first time a creature moves adjacent to the modified construct. The rune creates 20-foot-radius spread of necromantic energy. Creatures in the area must succeed on a DC 20 Will saving throw or become panicked for 1d4 rounds. If the Will save succeeds, the creature is shaken for 1 round.</p>"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "type": "section", 
+                                    "name": "Modification"
+                                }
+                            ], 
+                            "source": "Ultimate Magic", 
+                            "aura": "moderate necromancy", 
+                            "type": "item"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Shatter Stash", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"requirements\" class=\"stat-block-1\">Craft Construct, <i>shatter</i>, and variable (see below)</p>", 
+                            "type": "section", 
+                            "name": "Requirements"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"cr-increase\" class=\"stat-block-1\">none</p>", 
+                            "type": "section", 
+                            "name": "CR Increase"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"cost\" class=\"stat-block-1\">variable (see below)</p><p class=\"stat-description-2\">For this subcategory of complex modification, parts of the golem are made with hollowed sections carved from deliberately weaker materials, designed to shatter when struck by attackers. A confirmed critical deals critical damage to the construct and shatters the hollowed section, releasing whatever substance the creator placed inside. Once the shatter stash is damaged, this modification is destroyed (it cannot be repaired). A construct can only have one shatter stash at a time. After the modification is destroyed, the construct can be modified with shatter stash again at the normal cost.</p><p class=\"stat-description-indent-2\">The following are some of the more common shatter stashes, though others exist.</p>", 
+                            "type": "section", 
+                            "name": "Cost"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "requirements": "fireball", 
+                                    "type": "item", 
+                                    "name": "Modification", 
+                                    "cost": "1,200 gp"
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Corrosive Jet Stash", 
+                            "text": "<p class=\"stat-description-2\">A 15-foot burst of corrosive liquid sprays out of the modified construct's stash. Creatures within the burst must succeed on a DC 15 Fortitude saving throw or take 2d6 points of acid damage and be nauseated for 1d4 rounds. On a successful save, the afflicted creature takes no damage but is sickened for 1 round. </p>"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "requirements": "fireball", 
+                                    "type": "item", 
+                                    "name": "Modification", 
+                                    "cost": "1,200 gp"
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Firebomb Stash", 
+                            "text": "<p class=\"stat-description-2\">A 15-foot burst of fire explodes out of the modified construct's stash. Creatures within the burst must succeed on a DC 12 Reflex saving throw or take 2d6 points of fire damage. A successful save halves the damage. </p>"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "requirements": "cone of cold", 
+                                    "type": "item", 
+                                    "name": "Modification", 
+                                    "cost": "1,000 gp"
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Frost Mist Stash", 
+                            "text": "<p class=\"stat-description-2\">A 15-foot burst of frosty mist erupts out of the modified construct's stash. Any creatures within the burst must succeed on a DC 14 Fortitude saving throw or else take 1d6 points of damage and become entangled for 1 round. A successful save halves the damage and the target does not become entangled.  </p>"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "requirements": "lightning bolt", 
+                                    "type": "item", 
+                                    "name": "Modification", 
+                                    "cost": "1,200 gp"
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Lightning Lash Stash", 
+                            "text": "<p class=\"stat-description-2\">A 30-foot burst of electricity cracks out of the modified construct's stash. Those within the burst must succeed on a DC 15 Reflex saving throw or take 3d8 points of electrical damage. A successful save halves the damage. </p>"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "requirements": "stinking cloud", 
+                                    "type": "item", 
+                                    "name": "Modification", 
+                                    "cost": "2,000 gp"
+                                }
+                            ], 
+                            "type": "section", 
+                            "name": "Willsap Gas Stash", 
+                            "text": "<p class=\"stat-description-2\">A 15-foot burst of toxic gas hisses out of this stash. Living creatures within this burst must succeed on a DC 13 Will saving throw or become confused for 1 round. This is a poison effect. </p>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "name": "Building and Modifying Constructs", 
+    "type": "section"
+}

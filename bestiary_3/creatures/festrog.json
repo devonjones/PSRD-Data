@@ -1,0 +1,106 @@
+{
+    "dexterity": "13", 
+    "ac": "14, touch 11, flat-footed 13 (+1 Dex, +3 natural)", 
+    "special_attacks": "charging trip, diseased pustules, feed", 
+    "intelligence": "10", 
+    "melee": "bite +4 (1d6+3 plus feed), 2 claws +5 (1d4+3)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "30 ft.; four-footed run", 
+    "alignment": "NE", 
+    "size": "Medium", 
+    "environment": "any land", 
+    "strength": "17", 
+    "constitution": "-", 
+    "source": "Bestiary 3", 
+    "treasure": "standard", 
+    "charisma": "11", 
+    "languages": "Common", 
+    "immune": "undead traits", 
+    "init": "+1", 
+    "fortitude": "+0", 
+    "reflex": "+1", 
+    "feats": "Weapon Focus (claw)", 
+    "senses": "darkvision 60 ft., scent; Perception +6", 
+    "description": "This hideously malformed, hairless, pustule-covered corpse moves and snarls more like an undead hound than an undead man.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Charging Trip", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A festrog that hits with its bite after making a charge attack on all fours can attempt to trip its opponent (+4 bonus). This trip does not provoke attacks of opportunity.", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 3", 
+                    "sections": [], 
+                    "type": "section", 
+                    "name": "descriptor", 
+                    "text": "When a festrog takes damage from a piercing or slashing weapon, some of its boils rupture, squirting the attacker with puslike fluids. The noxious secretions carry a potent contact disease that causes those infected to break out into painful necrotic boils. Necrotic Boils: Disease&mdash;contact; save Fort DC 11; onset 1 day; frequency 1/day; effect 1d4 Con; cure 1 save."
+                }, 
+                {
+                    "name": "Diseased Pustules", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Feed", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "Every time a festrog makes a successful bite attack, it feeds on its opponent's flesh and gains 5 temporary hit points. The festrog cannot have more than 5 temporary hit points gained by this ability at one time.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Four-Footed Run", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A festrog can run on all fours at speed of 50 feet if it doesn't hold or carry anything in its hands. When running on all fours, it is treated as if it had the Run feat.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A festrog is an undead abomination spawned when a creature is killed by a massive release of negative energy (perhaps due to planar bleeding, the destruction of a potent artifact, or even certain magical attacks by powerful undead), and then mutilated by an outside force, such as the scavenging of wild animals. Sometimes called dog-ghouls for their ability to run on all fours, the name often causes opponents to misinterpret this creature's abilities and grossly underestimate its intelligence, for the festrog is in fact a rather canny monstrosity.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Festrogs inhabit remote areas near places where they were slain. It's not uncommon for a tribe of festrogs to share territories with ghouls. Most festrogs gather in small bands, based on whatever loose affiliations they might recall from when they were alive, and choose dwellings in sunless areas easily defended with group tactics. Like ghouls, they tend to skulk about graveyards, though they prefer ones with tombs and mausoleums so they can hide during the day. They hunt nocturnally in packs, preferring open areas like plains, farmlands, or open forests where they can track down prey with few places for it to run or hide. These packs wander seminomadically, often traveling miles beyond their dwellings in pursuit of mortal flesh.</p>"
+        }
+    ], 
+    "hp": "9 (2d8)", 
+    "wisdom": "12", 
+    "creature_type": "Undead", 
+    "base_attack": "+1", 
+    "name": "Festrog", 
+    "skills": "Climb +8, Perception +6, Stealth +6, Survival +3", 
+    "type": "creature", 
+    "cmd": "15 (19 vs. trip)", 
+    "cmb": "+4", 
+    "will": "+4", 
+    "organization": "solitary, pair, gang (3-5), or pack (6-11)"
+}

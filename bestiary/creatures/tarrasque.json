@@ -1,0 +1,117 @@
+{
+    "dexterity": "16", 
+    "ac": "40, touch 5, flat-footed 37 (+3 Dex, +35 natural, -8 size)", 
+    "cmd": "66", 
+    "special_attacks": "rush, spines, swallow whole (6d6+22 plus 6d6 acid, AC 27, hp 52)", 
+    "intelligence": "3", 
+    "racial_modifiers": "+8 Perception", 
+    "melee": "bite +37 (4d8+15/15-20/&times;3 plus grab), 2 claws +37 (1d12+15), 2 gores +37 (1d10+15), tail slap +32 (3d8+7)", 
+    "type": "creature", 
+    "cr": "25", 
+    "xp": "1,638,400", 
+    "speed": "40 ft.", 
+    "alignment": "N", 
+    "size": "Colossal", 
+    "environment": "any", 
+    "strength": "41", 
+    "constitution": "34", 
+    "source": "Bestiary", 
+    "treasure": "none", 
+    "charisma": "14", 
+    "languages": "Aklo (cannot speak)", 
+    "immune": "ability damage, acid, bleed, disease, energy drain, fire, mind-affecting effects, paralysis, permanent wounds, petrification, poison, polymorph", 
+    "init": "+7", 
+    "fortitude": "+31", 
+    "reflex": "+22", 
+    "feats": "Awesome Blow, Blind-Fight, Bleeding Critical, Cleave, Combat Reflexes, Critical Focus, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Run, Staggering Critical", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Carapace", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "The tarrasque's scales deflect cones, lines, rays, and magic missile spells, rendering the tarrasque immune to such effects. There is a 30% chance a deflected effect reflects back in full force at the caster; otherwise it is simply negated.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Powerful Leaper", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "The tarrasque uses its Strength to modify Acrobatics checks made to jump, and has a +24 racial bonus on Acrobatics checks made to jump.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Regeneration", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "No form of attack can suppress the tarrasque's regeneration&mdash;it regenerates even if disintegrated or slain by a death effect. If the tarrasque fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is inflicted upon its remains. It can be banished or otherwise transported as a means to save a region, but the method to truly kill it has yet to be discovered.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Rush", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Once per minute for 1 round, the tarrasque can move at a speed of 150 feet. This increases its Acrobatics bonus on checks made to jump to +87.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Spines", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "The tarrasque can loose a volley of six spear-like spines from its body as a standard action with a toss of its head or a lash of its tail. Make an attack roll for each spine&mdash;all targets must be within 30 feet of each other. The spines have a range increment of 120 ft.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The legendary tarrasque is among the world's most destructive monsters. Thankfully, it spends most of its time in a deep torpor in an unknown cavern in a remote corner of the world&mdash;yet when it wakens, kingdoms die.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Although far from intelligent, the tarrasque is smart enough to understand a few words in Aklo (though it cannot speak). Likewise, it isn't mindless in its rampages, but instead focuses on targets that threaten it, and is difficult to distract with trickery.</p>"
+        }
+    ], 
+    "senses": "low-light vision, scent; Perception +43", 
+    "description": "This immense reptilian beast towers over the surroundings like a dinosaur, all teeth and horns and claws and thrashing spiked tail.", 
+    "ranged": "6 spines +25 (2d10+15/&times;3)", 
+    "hp": "525 (30d10+360); regeneration 40", 
+    "reach": "30 ft. (60 ft. with tail slap)", 
+    "wisdom": "15", 
+    "creature_type": "Magical Beast", 
+    "special_qualities": "carapace, powerful leaper", 
+    "dr": "15/epic", 
+    "base_attack": "+30", 
+    "name": "Tarrasque", 
+    "skills": "Acrobatics +3 (+43 when jumping), Perception +43", 
+    "sr": "36", 
+    "space": "30 ft.", 
+    "cmb": "+53 (+57 grapple)", 
+    "will": "+12", 
+    "aura": "frightful presence (300 ft., DC 27)", 
+    "organization": "solitary"
+}

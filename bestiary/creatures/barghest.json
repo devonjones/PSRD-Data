@@ -1,0 +1,113 @@
+{
+    "source": "Bestiary", 
+    "text": "<p class=\"flavor-text\"><i>This snarling, canine beast pads forward on all fours, its slender front limbs looking more like hands than a wolf's paws.</i></p>", 
+    "type": "section", 
+    "name": "Barghest", 
+    "sections": [
+        {
+            "dexterity": "15", 
+            "ac": "17, touch 12, flat-footed 15 (+2 Dex, +5 natural)", 
+            "special_attacks": "feed", 
+            "intelligence": "14", 
+            "melee": "bite +10 (1d6+4), 2 claws +10 (1d4+4)", 
+            "cr": "4", 
+            "xp": "1,200", 
+            "speed": "30 ft.", 
+            "alignment": "LE", 
+            "spells": {
+                "spell-like abilities": "(CL 6th)<p class=\"stat-block-2\">At will-<i>blink</i>, <i>levitate, misdirection</i></p><p class=\"stat-block-2\">1/day-<i>charm monster</i> (DC 16), <i>crushing despair</i> (DC 16), <i>dimension door</i></p>"
+            }, 
+            "environment": "any", 
+            "strength": "19", 
+            "constitution": "15", 
+            "treasure": "standard", 
+            "charisma": "14", 
+            "languages": "Common, Goblin, Infernal", 
+            "source": "Bestiary", 
+            "init": "+6", 
+            "fortitude": "+6", 
+            "size": "Medium", 
+            "type": "creature", 
+            "feats": "Combat Reflexes, Improved Initiative, Great Fortitude", 
+            "senses": "darkvision 60 ft., scent; Perception +11", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Feed", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Bestiary", 
+                            "text": "Once per month, a barghest can devour a nonevil humanoid's corpse as a full-round action to gain a growth point. It gains a bonus equal to its growth point total on attack rolls, CMB rolls, saving throws, and skill checks. Its maximum hit points increase by 5 for each growth point it gains. For every 2 growth points, a barghest's caster level for its spell-like abilities and its CR increase by +1. When a barghest reaches 4 growth points, it sheds its skin and becomes a greater barghest, losing all of its growth points (and bonuses) but gaining the stats presented on this page for a greater barghest.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Said to be fiendish relations of all goblinoid races, the hateful barghests come to the Material Plane to feed. As they consume the bodies of innocents, they grow increasingly powerful. A barghest eventually sheds its skin to transform into a greater barghest, at which point it often seeks out a tribe of goblins or other creatures to rule.</p>"
+                }
+            ], 
+            "hp": "45 (6d10+12)", 
+            "wisdom": "14", 
+            "creature_type": "Outsider", 
+            "special_qualities": "change shape (goblin or wolf, polymorph)", 
+            "dr": "5/magic", 
+            "base_attack": "+6", 
+            "name": "Barghest", 
+            "skills": "Acrobatics +11, Bluff +11, Diplomacy +11, Intimidate +11, Perception +11, Sense Motive +11, Stealth +11, Survival +11", 
+            "reflex": "+7", 
+            "cmd": "22 (24 vs. trip)", 
+            "cmb": "+10", 
+            "will": "+7", 
+            "organization": "solitary or cult (1 plus goblin tribe)", 
+            "creature_subtype": "evil, extraplanar, lawful, shapechanger"
+        }, 
+        {
+            "dexterity": "15", 
+            "ac": "20, touch 11, flat-footed 18 (+2 Dex, +9 natural, -1 size)", 
+            "intelligence": "18", 
+            "melee": "bite +14 (1d8+6), 2 claws +14 (1d6+6)", 
+            "cr": "7", 
+            "xp": "3,200", 
+            "speed": "40 ft.", 
+            "alignment": "LE", 
+            "spells": {
+                "spell-like abilities": "(CL 9th)<p class=\"stat-block-2\">At will- <i>blink</i>, <i>invisibility sphere, levitate, misdirection</i></p><p class=\"stat-block-2\">1/day-<i>charm monster</i> (DC 18), <i>crushing despair</i> (DC 18), <i>dimension door, mass bull's strength, mass enlarge</i></p>"
+            }, 
+            "strength": "23", 
+            "constitution": "19", 
+            "charisma": "18", 
+            "languages": "Common, Goblin, Infernal", 
+            "source": "Bestiary", 
+            "init": "+6", 
+            "fortitude": "+9", 
+            "size": "Large", 
+            "type": "creature", 
+            "feats": "Combat Casting, Combat Reflexes, Improved Initiative, Great Fortitude, Lightning Reflexes", 
+            "senses": "darkvision 60 ft., scent; Perception +16", 
+            "sections": [], 
+            "hp": "85 (9d10+36)", 
+            "wisdom": "18", 
+            "creature_type": "Outsider", 
+            "special_qualities": "change shape (goblin or wolf, polymorph)", 
+            "dr": "10/magic", 
+            "base_attack": "+9", 
+            "name": "Greater Barghest", 
+            "skills": "Acrobatics +14, Bluff +16, Climb +15, Diplomacy +16, Intimidate +16, Perception +16, Sense Motive +16, Stealth +10, Survival +16, Swim +15", 
+            "reflex": "+10", 
+            "cmd": "28 (32 vs. trip)", 
+            "cmb": "+16", 
+            "will": "+10", 
+            "creature_subtype": "evil, extraplanar, lawful, shapechanger"
+        }
+    ]
+}

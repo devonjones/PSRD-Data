@@ -1,0 +1,94 @@
+{
+    "dexterity": "15", 
+    "ac": "19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)", 
+    "intelligence": "2", 
+    "racial_modifiers": "+8 Acrobatics, +4 Perception, +4 Stealth", 
+    "resist": "cold 10", 
+    "melee": "2 bites +8 (1d8+2 plus poison)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "20 ft., climb 20 ft., swim 20 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "14", 
+    "constitution": "13", 
+    "space": "10 ft.", 
+    "treasure": "incidental", 
+    "charisma": "4", 
+    "environment": "temperate hills or underground", 
+    "immune": "petrification", 
+    "init": "+2", 
+    "fortitude": "+6", 
+    "reflex": "+7", 
+    "feats": "Skill Focus (Stealth), Toughness, Weapon Focus (bite)", 
+    "senses": "all-around vision, darkvision 60 ft., low-light vision, scent; Perception +11", 
+    "description": "This large snake has two heads, one at each end of its long, coiling body. Both display large sets of fangs.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "Bite&mdash;injury; save Fort DC 14; frequency 1/round for 6 rounds; effect 1d3 Con; cure 1 save.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Split", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 2", 
+                    "text": "An amphisbaena functions normally even if cut in half. If dealt a critical hit with a slashing weapon, the creature is cut in half but continues to function as two separate creatures, each with half the original amphisbaena's current hit points (rounded down) after the damage from the critical hit is applied. Once split, an amphisbaena cannot be split again. If left alone for 1 minute, the split amphisbaena can rejoin its two halves and become a single whole creature again (add the two creatures' hit points together). If one of the split creatures is slain, the amphisbaena can regrow the lost portion over the course of 1d3 weeks.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The reclusive amphisbaena is a dreaded viper with a head at either end of its thick, serpentine coils. It travels in a strange, undulant crawl akin to that of a sidewinder, looping the coils of its long body back and forth and keeping both of its heads at the alert. Amphisbaenas are said to have formed from the blood of medusas, and while such stories are highly suspect, the creatures possess a natural immunity to petrification, which make them favored pets of medusas or other creatures with the petrification ability.</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Adult amphisbaenas can grow up to 14 feet in length and weigh as much as 250 pounds. While their thick coils twitch and ripple with muscle, they are not constrictors; their attacks rely on speed and their deadly venom. Most amphisbaenas have dark, bluish-black scales with lighter bands; however, they can be encountered in a variety of colors appropriate to their habitats. Some reports even claim lizard-like versions of this beast exists, with short legs and long curved talons.</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The amphisbaena's two heads can act independently, and the creature can move freely in either direction. In combat, it uses this ability to its utmost advantage, constantly spinning about to change up the direction of its strikes and guarding against enemies attempting to sneak closer or flank it. Unlike most snakes, amphisbaenas are aggressive, attacking anything that enters their territory. While they prefer smaller prey, they have been known to hunt gnomes, halflings, and other Small humanoids, and will sometimes attack larger foes if they're starving or preparing to shed.</p>"
+        }, 
+        {
+            "source": "Bestiary 2", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Amphisbaenas reproduce infrequently, laying small clutches of up to a dozen dark onyx eggs at a time. Avidly sought by animal trainers and collectors, amphisbaena eggs can fetch between 300 to 500 gp on the market. Despite minimal intelligence, amphisbaenas are driven primarily by their instincts and are extremely difficult and dangerous to train. All attempts to train an amphisbaena take a &ndash;8 penalty on any Handle Animal checks as a result.</p>"
+        }
+    ], 
+    "hp": "45 (6d10+12)", 
+    "reach": "5 ft.", 
+    "wisdom": "13", 
+    "defensive_abilities": "split", 
+    "creature_type": "Magical Beast", 
+    "base_attack": "+6", 
+    "name": "Amphisbaena", 
+    "skills": "Acrobatics +10 (+6 jump), Climb +10, Perception +11, Stealth +11, Swim +10", 
+    "type": "creature", 
+    "cmd": "21 (can't be tripped)", 
+    "cmb": "+9", 
+    "will": "+3", 
+    "source": "Bestiary 2", 
+    "organization": "solitary or pack (2-5)"
+}

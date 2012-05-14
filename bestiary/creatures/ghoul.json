@@ -1,0 +1,83 @@
+{
+    "dexterity": "15", 
+    "ac": "14, touch 12, flat-footed 12 (+2 Dex, +2 natural)", 
+    "special_attacks": "paralysis (1d4+1 rounds, DC 13, elves are immune to this effect)", 
+    "intelligence": "13", 
+    "melee": "bite +3 (1d6+1 plus disease and paralysis) and 2 claws +3 (1d6+1 plus paralysis)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "30 ft.", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "environment": "any land", 
+    "strength": "13", 
+    "constitution": "-", 
+    "treasure": "standard", 
+    "charisma": "14", 
+    "languages": "Common", 
+    "source": "Bestiary", 
+    "init": "+2", 
+    "fortitude": "+2", 
+    "reflex": "+2", 
+    "feats": "Weapon Finesse", 
+    "senses": "darkvision 60 ft.; Perception +7", 
+    "description": "This humanoid creature has long, sharp teeth, and its pallid flesh is stretched tightly over its starved frame.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Disease", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary", 
+                    "text": "Ghoul Fever: Bite&mdash;injury; save Fort DC 13; onset 1 day; frequency 1/day; effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Ghouls are undead that haunt graveyards and eat corpses. Legends hold that the first ghouls were either cannibalistic humans whose unnatural hunger dragged them back from death or humans who in life fed on the rotting remains of their kin and died (and were reborn) from the foul disease&mdash;the true source of these undead scavengers is unclear.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Ghouls lurk on the edges of civilization (in or near cemeteries or in city sewers) where they can find ample supplies of their favorite food. Though they prefer rotting bodies and often bury their victims for a while to improve their taste, they eat fresh kills if they are hungry enough. Though most surface ghouls live primitively, rumors speak of ghoul cities deep underground led by priests who worship ancient cruel gods or strange demon lords of hunger. These \u00e2&euro;&oelig;civilized\u00e2&euro;? ghouls are no less horrific in their eating habits, and in fact the concept of a well-laid ghoul banquet table is perhaps even more horrifying than the concept of taking a meal fresh from the coffin.</p>"
+        }, 
+        {
+            "source": "Bestiary", 
+            "text": "<p>Ghasts are ghouls with the advanced monster template. A ghast's paralysis even affects elves. Ghasts roam in packs of their own kind or lead groups of common ghouls. The stink of death and corruption surrounding these creatures is overwhelming, granting them the stench extraordinary ability (10-foot radius, Fort DC 15 negates, sickened for 1d6+4 minutes).</p>", 
+            "type": "section", 
+            "name": "Ghast", 
+            "sections": []
+        }, 
+        {
+            "source": "Bestiary", 
+            "text": "<p>These aquatic cousins of the ghoul lurk near hidden reefs or other places where ships are likely to meet their ends. Lacedons have a base land speed of 30 feet and a swim speed of 30 feet.</p>", 
+            "type": "section", 
+            "name": "Lacedon", 
+            "sections": []
+        }
+    ], 
+    "hp": "13 (2d8+4)", 
+    "wisdom": "14", 
+    "defensive_abilities": "channel resistance +2", 
+    "creature_type": "Undead", 
+    "base_attack": "+1", 
+    "name": "Ghoul", 
+    "skills": "Acrobatics +4, Climb +6, Perception +7, Stealth +7, Swim +3", 
+    "type": "creature", 
+    "cmd": "14", 
+    "cmb": "+2", 
+    "will": "+5", 
+    "organization": "solitary, gang (2-4), or pack (7-12)"
+}
