@@ -118,7 +118,7 @@
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"domain-spells\">1st&mdash;<i>detect aberration</i>, 2nd&mdash;<i>stone call</i>, 3rd&mdash;<i>deeper darkness</i>, 4th&mdash;<i>blackwing host</i>, 5th&mdash;<i>wall of stone</i>, 6th&mdash;<i>conjure black pudding</i>, 7th&mdash;<i>statue</i> (looking like a stalagmite or stalactite), 8th&mdash;<i>earthquake</i>, 9th&mdash;<i>imprisonment</i>.</p>", 
+                            "text": "<p id=\"domain-spells\">1st&mdash;<i>detect aberration</i>, 2nd&mdash;<i>stone call</i>, 3rd&mdash;<i>deeper darkness</i>, 4th&mdash;<i>echolocation</i>, 5th&mdash;<i>wall of stone</i>, 6th&mdash;<i>conjure black pudding</i>, 7th&mdash;<i>statue</i> (looking like a stalagmite or stalactite), 8th&mdash;<i>earthquake</i>, 9th&mdash;<i>imprisonment</i>.</p>", 
                             "type": "section", 
                             "name": "Domain Spells"
                         }
@@ -561,7 +561,7 @@
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"starting-statistics\"><b>Size</b> Small; <b>Speed</b> 20 ft., fly 20 ft. (poor); <b>AC</b> +6 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 13, Dex 12, Con 13, Int &mdash;, Wis 11, Cha 4; <b>Special Qualities</b> darkvision; <b>CMD</b> trip +8.</p>", 
+                            "text": "<p id=\"starting-statistics\"><b>Size</b> Small; <b>Speed</b> 20 ft., fly 20 ft. (poor); <b>AC</b> +6 natural armor; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 13, Dex 12, Con 13, Int &mdash;, Wis 11, Cha 4; <b>Special Qualities</b> darkvision; <b>CMD</b> trip +8.</p>", 
                             "type": "section", 
                             "name": "Starting Statistics"
                         }, 
@@ -719,7 +719,7 @@
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"7th-level-advancement\"><b>Size</b> Large; <b>AC</b> +2 natural armor; <b>Attack</b> sting (1d8 plus poison); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Attacks</b> trample (1d4).</p>", 
+                            "text": "<p id=\"7th-level-advancement\"><b>Size</b> Large; <b>AC</b> +2 natural armor; <b>Attack</b> sting (1d8 plus poison); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4.</p>", 
                             "type": "section", 
                             "name": "7th-Level Advancement"
                         }
@@ -974,14 +974,11 @@
             "type": "section"
         }, 
         {
-            "source": "Ultimate Magic", 
-            "text": "<p>A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread. </p>", 
-            "type": "section", 
             "name": "Saurian Shaman", 
             "sections": [
                 {
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"nature-bond\">A saurian shaman who chooses an animal companion must select a dinosaur. If choosing a domain, a saurian shaman must choose from the Animal, Destruction, Fire, and War domains.</p>", 
+                    "text": "<p id=\"nature-bond\">A saurian shaman who chooses an animal companion must select a dinosaur. If choosing a domain, a saurian shaman must choose from the Animal, Destruction, Strength, and War domains.</p>", 
                     "type": "section", 
                     "name": "Nature Bond"
                 }, 
@@ -1027,7 +1024,11 @@
                     "type": "section", 
                     "name": "Bonus Feat"
                 }
-            ]
+            ], 
+            "text": "<p>A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread. </p>", 
+            "source": "Ultimate Magic", 
+            "abbrev": "Archetype", 
+            "type": "section"
         }, 
         {
             "name": "Shark Shaman", 
@@ -1058,7 +1059,7 @@
                 }, 
                 {
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"totemic-summons\">At 5th level, a shark shaman may cast <i>summon nature's ally</i> as a standard action when summoning rays and sharks, and summoned rays and sharks gain temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability. </p>", 
+                    "text": "<p id=\"totemic-summons\">At 5th level, a shark shaman may use <i>summon nature's ally I</i> to summon a stingray and <i>summon nature's ally II</i> to summon a manta ray. She may cast <i>summon nature's ally</i> as a standard action when summoning rays and sharks, and summond rays and sharks gain a number of temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability.</p>", 
                     "type": "ability", 
                     "name": "Totemic Summons", 
                     "ability_types": [
