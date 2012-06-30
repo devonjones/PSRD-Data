@@ -21,14 +21,68 @@
     "languages": "Aklo, Common, Sylvan", 
     "immune": "poison", 
     "init": "+4", 
-    "text": "<StatBlockSection Special Abilities  [(u'Poison (Ex)', u'Bite&mdash;injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d6 Wisdom damage; cure 3 saves.'), (u'Spider Empathy (Ex)', u\"This ability functions as a druid's wild empathy, save that it works only on spiders. A jorogumo gains a racial bonus on this check equal to her Hit Dice (normally +14). Spiders are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing the jorogumo to train them and use them as guardians (though it does not grant them skills or feats).\"), (u'Spider Legs (Ex)', u\"A jorogumo's spider legs can emerge or retract as a free action. When a jorogumo's spider legs are present, she gains a +8 circumstance bonus on Climb checks and gains Deflect Arrows as a bonus feat.\"), (u'Swift Shapechanger (Ex)', u'A jorogumo can assume spider or human form as a swift action.')]>", 
     "fortitude": "+10", 
     "size": "Medium", 
     "type": "creature", 
     "feats": "Dodge, Improved Critical (bite), Improved Iron Will, Iron Will, Mobility, Power Attack, Spring Attack", 
     "senses": "darkvision 60 ft.; Perception +18", 
     "description": "Eight spindly spider legs, flocked with coarse black hairs, stretch from the back of this otherwise beautiful black-haired woman.", 
-    "sections": [], 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "Bite&mdash;injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d6 Wisdom damage; cure 3 saves.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Spider Empathy", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "This ability functions as a druid's wild empathy, save that it works only on spiders. A jorogumo gains a racial bonus on this check equal to her Hit Dice (normally +14). Spiders are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing the jorogumo to train them and use them as guardians (though it does not grant them skills or feats).", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Spider Legs", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A jorogumo's spider legs can emerge or retract as a free action. When a jorogumo's spider legs are present, she gains a +8 circumstance bonus on Climb checks and gains Deflect Arrows as a bonus feat.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Swift Shapechanger", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 3", 
+                    "text": "A jorogumo can assume spider or human form as a swift action.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Jorogumos are seductive schemers who secret themselves away in isolated mountain valleys where they lure travelers, especially men, to their dooms. Exclusively female, jorogumos must mate with humanoids to produce fertile eggs. After copulation, a jorogumo paralyzes her partner by poisoning him into a coma. She lays a single egg within the father's body, then cocoons the corpse and hides the victim. Periodic visits to re-poison the victim ensure his coma lasts for the 2d4 days required for the young jorogumo to hatch and feed. Jorogumos are enthusiastic enemies of tengus and attack them on sight&mdash;they never take tengus as \u201cmates.\u201d</p>"
+        }
+    ], 
     "hp": "161 (14d10+84)", 
     "wisdom": "17", 
     "creature_type": "Monstrous Humanoid", 

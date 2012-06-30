@@ -95,12 +95,36 @@
             "environment": "any underground", 
             "immune": "mind-affecting effects", 
             "init": "+0", 
-            "text": "<StatBlockSection Special Abilities  [(u'Poison (Ex)', u'Sting&mdash;injury; save Fort DC 12; frequency 1/round for 4 rounds; effect 1d2 Str; cure 1 save.')]>", 
             "fortitude": "+4", 
             "reflex": "+1", 
             "senses": "darkvision 60 ft., tremorsense 60 ft.; Perception +4", 
             "description": "This man-sized, bulky scorpion has thick, unyielding armor that makes it almost seem to be made of stone. ", 
-            "sections": [], 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Poison", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 2", 
+                            "text": "Sting&mdash;injury; save Fort DC 12; frequency 1/round for 4 rounds; effect 1d2 Str; cure 1 save.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 2"
+                }, 
+                {
+                    "source": "Bestiary 2", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>The squat cave scorpion is quite well suited for life in caves. With its bulky armor, a cave scorpion at rest looks like a pile of stones. The cave scorpion's favorite food is dwarven meat, and when a cave scorpion finds a working dwarven mine, it can quickly become a major inconvenience. Dwarven societies often post hefty bounties on cave scorpion stingers.</p>"
+                }
+            ], 
             "hp": "16 (3d8+3)", 
             "wisdom": "10", 
             "creature_type": "Vermin", 
