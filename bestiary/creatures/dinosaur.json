@@ -150,16 +150,30 @@
             "size": "Medium", 
             "strength": "15", 
             "constitution": "19", 
+            "treasure": "none", 
             "charisma": "14", 
+            "environment": "warm forests", 
             "source": "Bestiary", 
             "init": "+6", 
-            "text": "<StatBlockSection Ecology  [(u'Environment', u'warm forests'), (u'Organization', u'solitary, pair, or pack (3&ndash;12)'), (u'Treasure', u'none')]>", 
             "fortitude": "+8", 
             "reflex": "+6", 
             "feats": "Improved Initiative, Run", 
             "senses": "low-light vision, scent; Perception +14", 
             "description": "This brightly colored dinosaur exudes a dangerous ferocity. Each foot is armed with a large, sickle-shaped claw.", 
-            "sections": [], 
+            "sections": [
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>As swift and agile as it is deadly, the deinonychus is a pack hunter, running with several of its kind to take down prey and rip it apart with their gutting talons.</p>"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>You can apply the young simple template to create statistics for smaller, more agile velociraptors. Conversely, you can either increase the deinonychus to Large size and its Hit Dice to 8 or simply apply the giant and advanced simple templates to create a formidable megaraptor.</p>"
+                }
+            ], 
             "hp": "34 (4d8+16)", 
             "wisdom": "12", 
             "creature_type": "Animal", 
@@ -169,7 +183,8 @@
             "type": "creature", 
             "cmd": "17", 
             "cmb": "+5", 
-            "will": "+2"
+            "will": "+2", 
+            "organization": "solitary, pair, or pack (3-12)"
         }, 
         {
             "dexterity": "15", 
