@@ -1,6 +1,6 @@
 {
     "dexterity": "13", 
-    "ac": "12, touch 12, flat-footed 11", 
+    "ac": "12, touch 12, flat-footed 11 (+1 deflection, +1 Dex)", 
     "special_attacks": "frightener, telekinesis", 
     "intelligence": "5", 
     "cr": "2", 
@@ -11,58 +11,18 @@
     "environment": "any", 
     "strength": "-", 
     "constitution": "-", 
-    "treasure": "incidental", 
-    "init": "+1", 
-    "languages": "Common", 
     "source": "Bestiary 2", 
+    "treasure": "incidental", 
     "charisma": "12", 
+    "languages": "Common", 
+    "immune": "undead traits", 
+    "init": "+1", 
+    "fortitude": "+2", 
     "type": "creature", 
     "feats": "Ability Focus (fear), Alertness", 
     "senses": "darkvision 60 ft.; Perception +9", 
     "description": "A ghostly, skeletal figure rises up amid a whirling cyclone of tools, plates, utensils, and other loose objects. ", 
     "sections": [
-        {
-            "source": "Bestiary 2", 
-            "sections": [], 
-            "type": "section", 
-            "text": "<p>(+1 deflection, +1 Dex)</p>"
-        }, 
-        {
-            "source": "Bestiary 2", 
-            "sections": [], 
-            "type": "section", 
-            "text": "<Heading 4:hp>"
-        }, 
-        {
-            "source": "Bestiary 2", 
-            "sections": [], 
-            "type": "section", 
-            "text": "<p class=\"stat-block-1\"> 16 (3d8+3)</p>"
-        }, 
-        {
-            "source": "Bestiary 2", 
-            "sections": [], 
-            "type": "section", 
-            "text": "<Heading 4:Fort>"
-        }, 
-        {
-            "source": "Bestiary 2", 
-            "sections": [], 
-            "type": "section", 
-            "text": "<p class=\"stat-block-1\"> +2, <b>Ref</b> +2, <b>Will</b> +4</p>"
-        }, 
-        {
-            "source": "Bestiary 2", 
-            "sections": [], 
-            "type": "section", 
-            "text": "<Heading 4:Defensive Abilities>"
-        }, 
-        {
-            "source": "Bestiary 2", 
-            "sections": [], 
-            "type": "section", 
-            "text": "<p class=\"stat-block-1\"> incorporeal, natural invisibility, rejuvenation; <b>Immune</b> undead traits</p>"
-        }, 
         {
             "subtype": "special_abilities", 
             "sections": [
@@ -118,14 +78,18 @@
             "text": "<p>A poltergeist is an angry spirit that forms from the soul of a creature that, for whatever reason, becomes unable to leave the site of its death. Sometimes, this might be due to an unfinished task&mdash;other times, it might be due to a powerful necromantic effect. Desecrating a grave site by building a structure over the body below is the most common method of accidentally creating a poltergeist. The poltergeist experiences great trauma over its condition; this trauma twists its psyche to evil and fosters an overall hatred of the living expressed in outbursts of rage. A poltergeist is bound to a specific place, usually a building, room, or recognizable area (a section of a cemetery, a stretch of lonely road, and so on). This place typically corresponds to its place of death or the resting place of its mortal remains.</p>"
         }
     ], 
+    "hp": "16 (3d8+3)", 
     "wisdom": "12", 
+    "defensive_abilities": "incorporeal, natural invisibility, rejuvenation", 
     "creature_type": "Undead", 
     "special_qualities": "site bound", 
     "base_attack": "+2", 
     "name": "Poltergeist", 
     "skills": "Fly +5, Perception +9", 
-    "creature_subtype": "incorporeal", 
+    "reflex": "+2", 
     "cmd": "&mdash", 
     "cmb": "-", 
-    "organization": "solitary or haunting (2-7)"
+    "will": "+4", 
+    "organization": "solitary or haunting (2-7)", 
+    "creature_subtype": "incorporeal"
 }
