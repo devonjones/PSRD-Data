@@ -1,84 +1,63 @@
 {
+    "dexterity": "15", 
+    "ac": "15, touch 13, flat-footed 13 (+2 armor, +2 Dex, +1 size)", 
+    "special_attacks": "swarming", 
+    "intelligence": "14", 
+    "racial_modifiers": "+2 Craft (alchemy), +4 Handle Animal to influence rodents, +2 Perception, +2 Use Magic Device", 
+    "melee": "dagger -1 (1d3-2/19-20)", 
+    "cr": "1/3", 
+    "xp": "135", 
+    "speed": "20 ft.", 
+    "alignment": "N", 
+    "size": "Small", 
+    "environment": "warm deserts or urban", 
+    "strength": "6", 
+    "constitution": "11", 
+    "treasure": "NPC gear (leather armor, light crossbow with 20 bolts, dagger, other treasure)", 
+    "charisma": "9", 
+    "languages": "Common", 
     "source": "Bestiary 3", 
+    "init": "+2", 
+    "fortitude": "+0", 
+    "type": "creature", 
+    "feats": "Skill Focus (Perception)", 
     "sections": [
         {
-            "dexterity": "15", 
-            "ac": "15, touch 13, flat-footed 13 (+2 armor, +2 Dex, +1 size)", 
-            "special_attacks": "swarming", 
-            "intelligence": "14", 
-            "racial_modifiers": "+2 Craft (alchemy), +4 Handle Animal to influence rodents, +2 Perception, +2 Use Magic Device", 
-            "melee": "dagger -1 (1d3-2/19-20)", 
-            "cr": "1/3", 
-            "xp": "135", 
-            "speed": "20 ft.", 
-            "alignment": "N", 
-            "size": "Small", 
-            "environment": "warm deserts or urban", 
-            "strength": "6", 
-            "constitution": "11", 
-            "treasure": "NPC gear (leather armor, light crossbow with 20 bolts, dagger, other treasure)", 
-            "charisma": "9", 
-            "languages": "Common", 
-            "source": "Bestiary 3", 
-            "init": "+2", 
-            "fortitude": "+0", 
-            "type": "creature", 
-            "feats": "Skill Focus (Perception)", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
-                    "subtype": "special_abilities", 
-                    "sections": [
-                        {
-                            "name": "Swarming", 
-                            "type": "ability", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Bestiary 3", 
-                            "text": "Ratfolk are used to living and fighting communally, and are adept at swarming foes for their own gain and their foes' detriment. Up to two ratfolk can share the same square at the same time. If two ratfolk in the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares.", 
-                            "sections": []
-                        }
+                    "name": "Swarming", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
                     ], 
-                    "type": "section", 
-                    "name": "Special Abilities", 
-                    "source": "Bestiary 3"
-                }, 
-                {
                     "source": "Bestiary 3", 
-                    "sections": [], 
-                    "type": "section", 
-                    "text": "<p>Ratfolk are small, rodentlike humanoids often found traveling in nomadic trading caravans or perhaps dwelling in colonies in slums, sewers, and other normally undesirable urban sectors. Tinkerers and hoarders by nature, many ratfolk are shrewd merchants, carefully navigating the shifting alliances of black markets and bazaars. They love their stockpiles of interesting items far more than money, and would rather trade for more baubles to add to their hoards than for mere coins. </p>"
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "sections": [], 
-                    "type": "section", 
-                    "text": "<p>Ratfolk are extremely communal, and live in large warrens with plenty of hidden crannies in which to stash their hoards or flee in times of danger, gravitating toward subterranean tunnels or tightly packed tenements in city ghettos. They feel an intense bond with their large families and kin networks, as well as with ordinary rodents of all sorts, living in chaotic harmony and fighting fiercely to defend each other when threatened.</p>"
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "sections": [], 
-                    "type": "section", 
-                    "text": "<p>Ratfolk are generally 4 feet tall and weigh 80 pounds. They often wear robes to conceal their forms in cities, as they know other humanoids find their rodent features distasteful. </p>"
+                    "text": "Ratfolk are used to living and fighting communally, and are adept at swarming foes for their own gain and their foes' detriment. Up to two ratfolk can share the same square at the same time. If two ratfolk in the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares.", 
+                    "sections": []
                 }
             ], 
-            "senses": "darkvision 60 ft.; Perception +9", 
-            "description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.", 
-            "ranged": "light crossbow +3 (1d6/19-20)", 
-            "hp": "8 (1d8)", 
-            "wisdom": "10", 
-            "creature_type": "Humanoid", 
-            "base_attack": "+0", 
-            "name": "Ratfolk", 
-            "level": "expert 1", 
-            "skills": "Appraise +6, Craft (alchemy) +8, Diplomacy +3, Disable Device +6, Handle Animal +3 (+7 with rodents), Perception +9, Sense Motive +4, Survival +4, Use Magic Device +11", 
-            "reflex": "+2", 
-            "cmd": "9", 
-            "cmb": "-3", 
-            "will": "+2", 
-            "organization": "solitary, pair, pack (3-12), or colony (13-100)", 
-            "creature_subtype": "ratfolk"
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 3"
         }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Ratfolk are small, rodentlike humanoids often found traveling in nomadic trading caravans or perhaps dwelling in colonies in slums, sewers, and other normally undesirable urban sectors. Tinkerers and hoarders by nature, many ratfolk are shrewd merchants, carefully navigating the shifting alliances of black markets and bazaars. They love their stockpiles of interesting items far more than money, and would rather trade for more baubles to add to their hoards than for mere coins. </p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Ratfolk are extremely communal, and live in large warrens with plenty of hidden crannies in which to stash their hoards or flee in times of danger, gravitating toward subterranean tunnels or tightly packed tenements in city ghettos. They feel an intense bond with their large families and kin networks, as well as with ordinary rodents of all sorts, living in chaotic harmony and fighting fiercely to defend each other when threatened.</p>"
+        }, 
+        {
+            "source": "Bestiary 3", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Ratfolk are generally 4 feet tall and weigh 80 pounds. They often wear robes to conceal their forms in cities, as they know other humanoids find their rodent features distasteful. </p>"
+        },
         {
             "sections": [
                 {
@@ -118,9 +97,11 @@
                 }, 
                 {
                     "source": "Bestiary 3", 
-                    "text": "<p>See above.</p>", 
-                    "type": "section", 
+                    "text": "See Ratfolk/Special Abilities/Swarming", 
+                    "type": "link", 
                     "name": "Swarming", 
+                    "url": "pfsrd://PFSRD/Monsters/Ratfolk/Special Abilities/Swarming",
+                    "display": true,
                     "sections": []
                 }, 
                 {
@@ -138,6 +119,20 @@
             "type": "race"
         }
     ], 
+    "senses": "darkvision 60 ft.; Perception +9", 
+    "description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.", 
+    "ranged": "light crossbow +3 (1d6/19-20)", 
+    "hp": "8 (1d8)", 
+    "wisdom": "10", 
+    "creature_type": "Humanoid", 
+    "base_attack": "+0", 
     "name": "Ratfolk", 
-    "type": "section"
+    "level": "expert 1", 
+    "skills": "Appraise +6, Craft (alchemy) +8, Diplomacy +3, Disable Device +6, Handle Animal +3 (+7 with rodents), Perception +9, Sense Motive +4, Survival +4, Use Magic Device +11", 
+    "reflex": "+2", 
+    "cmd": "9", 
+    "cmb": "-3", 
+    "will": "+2", 
+    "organization": "solitary, pair, pack (3-12), or colony (13-100)", 
+    "creature_subtype": "ratfolk"
 }
