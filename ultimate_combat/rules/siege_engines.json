@@ -82,7 +82,7 @@
                         {
                             "text": "<table><caption>Table: Siege Engine Assembly</caption>\n<thead><tr><th>Engine Size</th><th>Time Required</th><th>Workers Required</th></tr></thead>\n<tr class=\"odd\"><td>Small</td><td>1 minute</td><td>1</td></tr>\n<tr class=\"even\"><td>Medium</td><td>10 minutes</td><td>2</td></tr>\n<tr class=\"odd\"><td>Large</td><td>1 hour</td><td>4</td></tr>\n<tr class=\"even\"><td>Huge</td><td>2 hours</td><td>6</td></tr>\n<tr class=\"odd\"><td>Gargantuan</td><td>4 hours</td><td>8</td></tr>\n<tr class=\"even\"><td>Colossal</td><td>8 hours</td><td>12</td></tr></table>", 
                             "type": "table", 
-                            "name": "Siege", 
+                            "name": "Table: Siege Engine Assembly", 
                             "source": "Ultimate Combat"
                         }
                     ]
@@ -188,7 +188,7 @@
                                         {
                                             "text": "<table id=\"table-indirect-attack-check-modifiers\"><caption>Table: Indirect Attack Check Modifiers</caption>\n<thead><tr><th>Condition</th><th>Modifier</th></tr></thead>\n<tr class=\"odd\"><td>No line of sight to target square</td><td>&ndash;6</td></tr>\n<tr class=\"even\"><td>Successive shots (crew can see where most recent miss landed)</td><td>Cumulative +2 per previous miss (maximum +10)</td></tr>\n<tr class=\"odd\"><td>Successive shots (crew can't see where most recent missed shot landed, but observer is providing feedback)</td><td>Cumulative +1 per previous miss (maximum +5)</td></tr>\n<tr class=\"even\"><td>Successive shots after a hit</td><td>+10 </td></tr></table>", 
                                             "type": "table", 
-                                            "name": "Indirect", 
+                                            "name": "Table: Indirect Attack Check Modifiers", 
                                             "source": "Ultimate Combat"
                                         }
                                     ]
@@ -207,7 +207,7 @@
                 {
                     "text": "<table><caption>Table:  Ranged Siege Engines</caption>\n<thead><tr><th>Direct-Fire Engines</th><th>Cost</th><th>Dmg</th><th>Critical</th><th>Range</th><th>Type<sup>1</sup></th><th>Crew</th><th>Aim</th><th>Load</th><th>Speed</th></tr></thead>\n<tr class=\"even\"><td colspan=\"10\"><i>Large Siege Engines</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Ballista, light</td><td>500 gp</td><td>3d8</td><td>19&ndash;20/&times;2</td><td>120 ft.</td><td>P</td><td>1</td><td>0</td><td>2</td><td>10 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Cannon</td><td>6,000 gp</td><td>6d6</td><td>&times;4</td><td>100 ft.</td><td>B and P</td><td>2</td><td>1</td><td>3</td><td>10 ft.</td></tr>\n<tr class=\"odd\"><td colspan=\"10\"><i>Huge Siege Engines</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Ballista, heavy</td><td>800 gp</td><td>4d8</td><td>19&ndash;20/&times;2</td><td>180 ft.</td><td>P</td><td>3</td><td>2</td><td>3</td><td>0 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Cannon, fiend's mouth</td><td>9,000 gp</td><td>8d6</td><td>&times;4</td><td>150 ft.</td><td>B and P</td><td>3</td><td>1</td><td>3</td><td>0 ft. </td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Firedrake</td><td>4,000 gp</td><td>6d6</td><td>&mdash;</td><td>&mdash;</td><td>fire</td><td>3</td><td>2</td><td>5</td><td>10 ft.</td></tr>\n<tr class=\"odd\"><td colspan=\"10\"><i>Gargantuan Siege Engines</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Ballista, gate breaker</td><td>1,200 gp</td><td>6d8</td><td>19&ndash;20/&times;2</td><td>100 ft.</td><td>B</td><td>5</td><td>3</td><td>5</td><td>0 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Firewyrm</td><td>6,000 gp</td><td>6d6</td><td>&mdash;</td><td>&mdash;</td><td>fire</td><td>5</td><td>2</td><td>6</td><td>0 ft.</td></tr>\n<tr><th>&nbsp;&nbsp;Indirect-Fire Engines</th><th>Cost</th><th>Dmg</th><th>Critical</th><th>Range</th><th>Type</th><th>Crew</th><th>Aim</th><th>Load</th><th>Speed</th></tr>\n<tr class=\"odd\"><td colspan=\"10\"><i>Large Siege Engines</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Bombard, light</td><td>6,000 gp</td><td>5d6</td><td>&times;4</td><td>100 ft. (50 ft. min.)</td><td>B and P</td><td>2</td><td>1</td><td>3</td><td>10 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Catapult, light</td><td>550 gp</td><td>4d6</td><td>&times;2\t</td><td>150 ft. (50 ft. min.)</td><td>B</td><td>2</td><td>2</td><td>3</td><td>10 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Trebuchet, light</td><td>800 gp</td><td>4d6</td><td>&times;2</td><td>200 ft. (100 ft. min.)</td><td>B</td><td>3</td><td>2</td><td>3</td><td>0 ft.</td></tr>\n<tr class=\"odd\"><td colspan=\"10\"><i>Huge Siege Engines</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Bombard, standard</td><td>8,000 gp</td><td>7d6</td><td>&times;4</td><td>150 ft. (100 ft. min.)</td><td>B and P</td><td>2</td><td>1</td><td>3</td><td>0 ft. </td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Catapult, standard</td><td>800 gp</td><td>6d6</td><td>&times;2</td><td>200 ft. (100 ft. min.)</td><td>B</td><td>3</td><td>2</td><td>3</td><td>0 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Springal, arrow</td><td>1,000 gp</td><td>3d8</td><td>&times;3</td><td>100 ft. (50 ft. min.)</td><td>P</td><td>3</td><td>2</td><td>3</td><td>0 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Springal, rocket</td><td>6,000 gp</td><td>3d10</td><td>&times;4</td><td>100 ft. (50 ft. min.)</td><td>fire</td><td>3</td><td>2</td><td>3</td><td>0 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Trebuchet, standard</td><td>1,000 gp</td><td>6d6</td><td>&times;2</td><td>300 ft. (150 ft. min.)</td><td>B</td><td>4</td><td>2</td><td>3</td><td>0 ft.</td></tr>\n<tr class=\"odd\"><td colspan=\"10\"><i>Gargantuan Siege Engines</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Bombard, heavy</td><td>8,000 gp</td><td>9d6</td><td>&times;4</td><td>200 ft. (100 ft. min.)</td><td>B and P</td><td>4</td><td>3</td><td>5</td><td>0 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Catapult, heavy</td><td>1,000 gp</td><td>8d6</td><td>&times;2</td><td>300 ft. (100 ft. min.)</td><td>B</td><td>4</td><td>3</td><td>3</td><td>0 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Trebuchet, heavy</td><td>1,500 gp</td><td>8d6</td><td>&times;2</td><td>400 ft. (200 ft. min.)</td><td>B</td><td>4</td><td>3</td><td>3</td><td>0 ft.</td></tr>\n<tfoot><tr><td colspan=\"10\"><sup>1</sup> A weapon with two types is both types if the entry specifies &ldquo;and.&rdquo;</td></tr></tfoot></table>", 
                     "type": "table", 
-                    "name": "Ranged", 
+                    "name": "Table: Ranged Siege Engines", 
                     "source": "Ultimate Combat"
                 }, 
                 {
@@ -372,7 +372,7 @@
                         {
                             "text": "<table><caption>Table: Special Siege Engine Ammunition</caption>\n<thead><tr><th>Ammunition</th><th>Cost</th><th>Weight</th></tr></thead>\n<tr class=\"odd\"><td>Alchemist's fire</td><td>200 gp</td><td>10 lbs.</td></tr>\n<tr class=\"even\"><td>Blast shot</td><td>30 gp</td><td>25 lbs.</td></tr>\n<tr class=\"odd\"><td>Bomb</td><td>600 gp</td><td>30 lbs.</td></tr>\n<tr class=\"even\"><td>Chain shot</td><td>50 gp</td><td>30 lbs. </td></tr>\n<tr class=\"odd\"><td>Liquid ice</td><td>400 gp</td><td>20 lbs.</td></tr>\n<tr class=\"even\"><td>Plague bundle</td><td>80 gp</td><td>20 lbs.</td></tr>\n<tr class=\"odd\"><td>Smoke shot</td><td>250 gp</td><td>20 lbs.</td></tr></table>", 
                             "type": "table", 
-                            "name": "Special", 
+                            "name": "Table: Special Siege Engine Ammunition", 
                             "source": "Ultimate Combat"
                         }, 
                         {
@@ -428,7 +428,7 @@
                         {
                             "text": "<table id=\"table-close-assault-siege-engines\"><caption>Table: Close Assault Siege Engines</caption>\n<thead><tr><th>Close Assault Engines</th><th>Cost</th><th>Dmg</th><th>Critical</th><th>Type</th><th>Crew</th><th>Speed</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"7\"><i>Bridge, assault</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Large</td><td>1 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Huge</td><td>10 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Gargantuan</td><td>50 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Colossal</td><td>250 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Corvus</td><td>100 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>1</td><td>Special</td></tr>\n<tr class=\"odd\"><td colspan=\"7\"><i>Gallery</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Large</td><td>250 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>3</td><td>15 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Huge</td><td>500 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>6</td><td>15 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Gargantuan</td><td>1000 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>9</td><td>15 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Colossal</td><td>2000 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>18</td><td>15 ft.</td></tr>\n<tr class=\"even\"><td colspan=\"7\"><i>Ladder, escalade</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Large</td><td>5 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>2</td><td>as crew speed</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Huge</td><td>10 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>4</td><td>as crew speed</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Gargantuan</td><td>50 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>6</td><td>as crew speed</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Colossal</td><td>250 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>8</td><td>as crew speed</td></tr>\n<tr class=\"odd\"><td colspan=\"7\"><i>Ram</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Large</td><td>500 gp</td><td>2d6 </td><td>&times;3</td><td>B</td><td>5</td><td>15 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Huge</td><td>1000 gp</td><td>3d6 </td><td>&times;3</td><td>B</td><td>10</td><td>15 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Gargantuan</td><td>2000 gp</td><td>6d6</td><td>&times;3</td><td>B</td><td>20</td><td>15 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Colossal</td><td>5000 gp</td><td>10d6</td><td>&times;3</td><td>B</td><td>40</td><td>15 ft.</td></tr>\n<tr class=\"even\"><td colspan=\"7\">Siege tower</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Large</td><td>1000 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>6</td><td>15 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Huge</td><td>2000 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>12</td><td>15 ft.</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Gargantuan</td><td>5000 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>24</td><td>15 ft.</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Colossal</td><td>10,000 gp</td><td>&mdash; </td><td>&mdash;</td><td>&mdash;</td><td>48</td><td>15 ft.</td></tr></table>", 
                             "type": "table", 
-                            "name": "Close", 
+                            "name": "Table: Close Assault Siege Engines", 
                             "source": "Ultimate Combat"
                         }, 
                         {
@@ -440,7 +440,7 @@
                                 {
                                     "text": "<table><caption>Table: Bridges and Escalade Ladders</caption>\n<thead><tr><th>Size</th><th>Width</th><th>Length/Height</th></tr></thead>\n<tr class=\"odd\"><td>Large</td><td>5 ft.</td><td>20 ft. </td></tr>\n<tr class=\"even\"><td>Huge</td><td>5 ft.</td><td>30 ft.</td></tr>\n<tr class=\"odd\"><td>Gargantuan</td><td>10 ft.</td><td>40 ft.</td></tr>\n<tr class=\"even\"><td>Colossal</td><td>10 ft.</td><td>60 ft.</td></tr></table>", 
                                     "type": "table", 
-                                    "name": "Bridges", 
+                                    "name": "Table: Bridges and Escalade Ladders", 
                                     "source": "Ultimate Combat"
                                 }
                             ]
@@ -528,7 +528,7 @@
                                 {
                                     "text": "<table><caption>Table: Siege Tower Complement</caption>\n<thead><tr><th>Size</th><th>Soldiers</th></tr></thead>\n<tr class=\"odd\"><td>Large</td><td>5</td></tr>\n<tr class=\"even\"><td>Huge</td><td>20</td></tr>\n<tr class=\"odd\"><td>Gargantuan</td><td>50</td></tr>\n<tr class=\"even\"><td>Colossal</td><td>200</td></tr></table>", 
                                     "type": "table", 
-                                    "name": "Siege", 
+                                    "name": "Table: Siege Tower Complement", 
                                     "source": "Ultimate Combat"
                                 }
                             ]
@@ -552,7 +552,7 @@
                         {
                             "text": "<table id=\"table-buildings\"><caption>Table: Buildings</caption>\n<thead><tr><th></th><th></th><th colspan=\"4\">Hit Points</th></tr>\n<tr><th rowspan=\"2\">Material</th><th>Hardness</th><th>Large</th><th>Huge</th><th>Colossal</th><th>Gargantuan</th></tr></thead>\n<tr class=\"even\"><td>Wood</td><td>5</td><td>120</td><td>270</td><td>960</td><td>3,240</td></tr>\n<tr class=\"odd\"><td>Stone</td><td>8</td><td>200</td><td>450</td><td>1,600</td><td>5400</td></tr>\n<tr class=\"even\"><td>Iron or steel</td><td>10</td><td>400</td><td>900</td><td>3,200</td><td>10,800</td></tr>\n<tr class=\"odd\"><td>Adamantine</td><td>20</td><td>560</td><td>1,260</td><td>4,480</td><td>15,120</td></tr></table>", 
                             "type": "table", 
-                            "name": "Buildings", 
+                            "name": "Table: Buildings", 
                             "source": "Ultimate Combat"
                         }
                     ]
@@ -566,7 +566,7 @@
                         {
                             "text": "<table id=\"table-gates\"><caption>Table: Gates</caption>\n<thead><tr><th></th><th></th><th></th><th colspan=\"4\">Hit Points</th></tr>\n<tr><th>Material</th><th>Break DC<sup>1</sup></th><th>Hardness</th><th>Large</th><th>Huge</th><th>Colossal</th><th>Gargantuan</th></tr></thead>\n<tr class=\"odd\"><td>Wood</td><td>35</td><td>5</td><td>60</td><td>135</td><td>240</td><td>540</td></tr>\n<tr class=\"even\"><td>Stone</td><td>38</td><td>8</td><td>100</td><td>225</td><td>400</td><td>900</td></tr>\n<tr class=\"odd\"><td>Iron or steel</td><td>24</td><td>10</td><td>200</td><td>500</td><td>800</td><td>1,800</td></tr>\n<tr class=\"even\"><td>Adamantine</td><td>48</td><td>20</td><td>280</td><td>630</td><td>1,120</td><td>2,520</td></tr>\n<tfoot><tr><td colspan=\"7\"><sup>1</sup> The DC assumes the gate is size Large and is barred and locked. Huge doors increase the break DC by 5, Colossal doors increase the DC by 10, and Gargantuan doors increase the DC by 15. <i>Arcane lock</i> increases the DC by 10. </td></tr></tfoot></table>", 
                             "type": "table", 
-                            "name": "Gates", 
+                            "name": "Table: Gates", 
                             "source": "Ultimate Combat"
                         }
                     ]

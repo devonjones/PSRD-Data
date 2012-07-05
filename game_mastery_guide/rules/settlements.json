@@ -11,7 +11,7 @@
                 {
                     "text": "<table id=\"settlement-population-ranges\"><caption>Settlement Population Ranges</caption><tr class=\"odd\"><td style=\"white-space:normal;\" colspan=\"2\">A settlement's population is left to the GM to assign, but you can use a settlement's type to help you determine just how many folks live in the city. Since the actual number of people who dwell in a settlement has no impact on game play, the number you choose is largely cosmetic&mdash;feel free to adjust the suggested values below to fit your campaign.</td></tr>\n<thead><tr id=\"settlement-type-population-range\" class=\"odd\"><th>Settlement Type</th><th>Population Range</th></tr></thead>\n<tr class=\"even\"><td>Thorp</td><td>Fewer than 20</td></tr>\n<tr class=\"odd\"><td>Hamlet</td><td>21&ndash;60</td></tr>\n<tr class=\"even\"><td>Village</td><td>61&ndash;200</td></tr>\n<tr class=\"odd\"><td>Small town</td><td>201&ndash;2,000</td></tr>\n<tr class=\"even\"><td>Large town</td><td>2,001&ndash;5,000</td></tr>\n<tr class=\"odd\"><td>Small city</td><td>5,001&ndash;10,000</td></tr>\n<tr class=\"even\"><td>Large city</td><td>10,001&ndash;25,000</td></tr>\n<tr class=\"odd\"><td>Metropolis</td><td>More than 25,000</td></tr></table>", 
                     "type": "table", 
-                    "name": "Settlement", 
+                    "name": "Settlement Population Ranges", 
                     "source": "Game Mastery Guide"
                 }, 
                 {
@@ -100,13 +100,13 @@
                                 {
                                     "text": "<table id=\"table-7-36:-settlement-statistics\"><caption>Table:  Settlement Statistics</caption>\n<thead><tr><th>Type</th><th>Modifiers</th><th>Qualitites</th><th>Danger</th><th>Base Limit</th><th>Purchase Limit</th><th>Spellcasting</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Thorp</td><td>&ndash;4</td><td>1</td><td>&ndash;10</td><td>50 gp</td><td>500 gp</td><td>1st</td></tr>\n<tr class=\"even\"><td>Hamlet</td><td>&ndash;2</td><td>1</td><td>&ndash;5</td><td>200 gp</td><td>1,000 gp</td><td>2nd</td></tr>\n<tr class=\"odd\"><td>Village</td><td>&ndash;1</td><td>2</td><td>0</td><td>500 gp</td><td>2,500 gp</td><td>3rd</td></tr>\n<tr class=\"even\"><td>Small town</td><td>0</td><td>2</td><td>0</td><td>1,000 gp</td><td>5,000 gp</td><td>4th</td></tr>\n<tr class=\"odd\"><td>Large town</td><td>0</td><td>3</td><td>5</td><td>2,000 gp</td><td>10,000 gp</td><td>5th</td></tr>\n<tr class=\"even\"><td>Small city</td><td>+1</td><td>4</td><td>5</td><td>4,000 gp</td><td>25,000 gp</td><td>6th</td></tr>\n<tr class=\"odd\"><td>Large city</td><td>+2</td><td>5</td><td>10</td><td>8,000 gp</td><td>50,000 gp</td><td>7th</td></tr>\n<tr class=\"even\"><td>Metropolis</td><td>+4</td><td>6</td><td>10</td><td>16,000 gp</td><td>100,000 gp</td><td>8th</td></tr></tbody></table>", 
                                     "type": "table", 
-                                    "name": "Settlement", 
+                                    "name": "Table: Settlement Statistics", 
                                     "source": "Game Mastery Guide"
                                 }, 
                                 {
                                     "text": "<table id=\"table-7-37:-available-magic-items\"><caption>Table:  Available Magic Items</caption>\n<thead><tr><th>Community Size</th><th>Base Value</th><th>Minor</th><th>Medium</th><th>Major</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Thorp</td><td>50 gp</td><td>1d4 items</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Hamlet</td><td>200 gp</td><td>1d6 items</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Village</td><td>500 gp</td><td>2d4 items</td><td>1d4 items</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Small town</td><td>1,000 gp</td><td>3d4 items</td><td>1d6 items</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Large town</td><td>2,000 gp</td><td>3d4 items</td><td>2d4 items</td><td>1d4 items</td></tr>\n<tr class=\"even\"><td>Small city</td><td>4,000 gp</td><td>4d4 items</td><td>3d4 items</td><td>1d6 items</td></tr>\n<tr class=\"odd\"><td>Large city</td><td>8,000 gp</td><td>4d4 items</td><td>3d4 items</td><td>2d4 items</td></tr>\n<tr class=\"even\"><td>Metropolis</td><td>16,000 gp</td><td>*</td><td>4d4 items</td><td>3d4 items</td></tr></tbody>\n<tfoot><tr><td colspan=\"5\">* In a metropolis, nearly all minor magic items are available.</td></tr>\n</tfoot></table>", 
                                     "type": "table", 
-                                    "name": "Available", 
+                                    "name": "Table: Available Magic Items", 
                                     "source": "Game Mastery Guide"
                                 }
                             ]
@@ -140,7 +140,7 @@
                                 {
                                     "text": "<table id=\"guards!-guards!\"><caption>Guards! Guards!</caption><tr><td style=\"white-space:normal;\">It's inevitable&mdash;sooner or later, the PCs will want to call upon the town guard or cause a situation where citizens do so instead. Calling for the guard requires a Diplomacy check modified by the settlement's law modifier. It's only a DC 5 check to call for the guard&mdash;with a success, the guards generally arrive on the scene in 1d6 minutes. Every 5 points by which the Diplomacy check exceeds DC 5 (rounding down) reduces the arrival time by 1 minute&mdash;if this reduces their arrival time below 1 minute, the increments of reduction instead change to 1 round. For example, the party wizard is being mugged and calls for the guard. The result of his Diplomacy check is a 23, and the GM rolls a 2 on 1d6 to determine how long it'll be before the guards arrive. Since the wizard rolled three thimes the amount he needed, the 2-minute wait time is reduced to 8 rounds.</td></tr></table>", 
                                     "type": "table", 
-                                    "name": "Guards!", 
+                                    "name": "Guards! Guards!", 
                                     "source": "Game Mastery Guide"
                                 }
                             ]
