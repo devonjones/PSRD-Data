@@ -3,15 +3,15 @@
     "ac": "13, touch 13, flat-footed 10 (+3 Dex)", 
     "intelligence": "13", 
     "resist": "fire 5", 
-    "melee": "scimitar +0 (1d6)", 
+    "melee": "scimitar +0 (1d6/18-20)", 
     "cr": "1/2", 
     "xp": "200", 
     "speed": "30 ft.", 
     "alignment": "N", 
     "spells": {
-        "sorcerer spell-like abilities": "(CL 1st; concentration +5)<p class=\"stat-block-2\">6/day-elemental ray (1d6 fire)</p>", 
-        "sorcerer spells known": "(CL 1st; concentration +5)<p class=\"stat-block-2\">1st (4/day)-<i>mage armor</i>, <i>magic missile</i></p><p class=\"stat-block-2\">0 (at will)-<i>acid splash</i>, <i>detect magic</i>, <i>flare</i> (DC 15), <i>prestidigitation</i></p>", 
-        "ifrit spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1/day-<i>burning hands</i> (DC 14)</p>", 
+        "bloodline spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">6/day-elemental ray (1d6 fire)</p>", 
+        "sorcerer spells known": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1st (4/day)-<i>mage armor</i>, <i>magic missile</i></p><p class=\"stat-block-2\">0 (at will)-<i>acid splash</i>, <i>detect magic</i>, <i>flare</i> (DC 14), <i>prestidigitation</i></p>", 
+        "ifrit spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1/day-<i>burning hands</i> (DC 15)</p>", 
         "bloodline": "elemental (fire)"
     }, 
     "environment": "any land", 
@@ -32,7 +32,7 @@
             "subtype": "special_abilities", 
             "sections": [
                 {
-                    "name": "Elemental Affinity", 
+                    "name": "Fire Affinity", 
                     "type": "ability", 
                     "ability_types": [
                         "Extraordinary"
@@ -85,14 +85,14 @@
                     "source": "Bestiary 2", 
                     "text": "<p id=\"elemental-resistance\">Ifrits have fire resistance 5.</p>", 
                     "type": "section", 
-                    "name": "Elemental Resistance", 
+                    "name": "Energy Resistance", 
                     "sections": []
                 }, 
                 {
                     "source": "Bestiary 2", 
                     "text": "See Ifrit/Special Abilities/Elemental Affinity", 
                     "type": "link", 
-                    "name": "Elemental Affinity", 
+                    "name": "Fire Affinity", 
                     "display": true,
                     "url": "pfsrd://PFSRD/Monsters/Ifrit/Special Abilities/Elemental Affinity",
                     "sections": []
@@ -115,7 +115,7 @@
     "hp": "8 (1d6+2)", 
     "wisdom": "6", 
     "creature_type": "Outsider", 
-    "special_qualities": "bloodline arcana, elemental affinity", 
+    "special_qualities": "bloodline arcana, fire affinity", 
     "base_attack": "+0", 
     "name": "Ifrit", 
     "level": "sorcerer 1", 

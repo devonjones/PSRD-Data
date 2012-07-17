@@ -40,7 +40,7 @@
             "init": "+7", 
             "fortitude": "+12", 
             "spells": {
-                "spell-like abilities": "(CL 17th; concentration +20)<p class=\"stat-block-2\">Constant-<i>deathwatch</i>, <i>displacement, true seeing</i></p><p class=\"stat-block-2\">At will-<i>enervation</i>, <i>fear</i> (DC21), <i>greater teleport </i>(self plus 50 lbs. of objects only), <i>vampiric touch</i></p><p class=\"stat-block-2\">3/day-<i>locate creature</i>, <i>plane shift</i> (DC 24)</p><p class=\"stat-block-2\">1/day-<i>energy drain</i> (DC 24), <i>finger of death</i> (DC 24), summon (level 6, 1d3 derghodaemons 50%)</p>"
+                "spell-like abilities": "(CL 17th; concentration +24)<p class=\"stat-block-2\">Constant-<i>deathwatch</i>, <i>displacement, true seeing</i></p><p class=\"stat-block-2\">At will-<i>enervation</i>, <i>fear</i> (DC21), <i>greater teleport </i>(self plus 50 lbs. of objects only), <i>vampiric touch</i></p><p class=\"stat-block-2\">3/day-<i>locate creature</i>, <i>plane shift</i> (DC 24)</p><p class=\"stat-block-2\">1/day-<i>energy drain</i> (DC 24), <i>finger of death</i> (DC 24), summon (level 6, 1d3 derghodaemons 50%)</p>"
             }, 
             "type": "creature", 
             "feats": "Combat Reflexes, Dodge, Flyby Attack, Iron Will, Mobility, Nimble Moves, Power Attack, Spring Attack, Weapon Finesse", 
@@ -57,7 +57,7 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "As a standard action, an astradaemon that begins its turn with a grappled opponent can attempt to draw out and consume the soul of its victim, killing it instantly. This ability only works on living creatures, which may resist with a DC 27 Fortitude saving throw. The save is Constitution-based. For every 5 HD of the slain creature, the daemon gains a +1 profane bonus on attacks, saving throws, and checks for 24 hours. This ability does not consume all of the soul, and pieces of it still exist after the daemon completes its feast (enough to be able to resurrect the slain victim normally).", 
+                            "text": "As a standard action, an astradaemon that begins its turn with a grappled opponent can attempt to draw out and consume the soul of its victim, killing it instantly. This ability only works on living creatures, which may resist with a DC 25 Fortitude saving throw. The save is Constitution-based. For every 5 HD of the slain creature, the daemon gains a +1 profane bonus on attacks, saving throws, and checks for 24 hours. This ability does not consume all of the soul, and pieces of it still exist after the daemon completes its feast (enough to be able to resurrect the slain victim normally).", 
                             "sections": []
                         }, 
                         {
@@ -90,7 +90,7 @@
             "dr": "10/good and silver", 
             "base_attack": "+17", 
             "name": "Daemon, Astradaemon", 
-            "skills": "Acrobatics +24 (+48 jump), Escape Artist +27, Fly +11, Intimidate +27, Knowledge (planes) +22, Perception +22, Sense Motive +22, Stealth +23, Survival +22", 
+            "skills": "Acrobatics +24 (+48 jump), Escape Artist +27, Fly +9, Intimidate +27, Knowledge (planes) +22, Perception +22, Sense Motive +22, Stealth +23, Survival +22", 
             "reflex": "+17", 
             "space": "10 ft.", 
             "cmb": "+23", 
@@ -123,7 +123,7 @@
             "init": "+4", 
             "fortitude": "+2", 
             "spells": {
-                "spell-like abilities": "(CL 6th; concentration +6)<p class=\"stat-block-2\">Constant-<i>detect good, detect magic</i></p><p class=\"stat-block-2\">At will-<i>invisibility </i>(self only)</p><p class=\"stat-block-2\">3/day-<i>lesser confusion </i>(DC 12)</p><p class=\"stat-block-2\">1/week-<i>commune</i> (CL 12th, six questions)</p>"
+                "spell-like abilities": "(CL 6th; concentration +7)<p class=\"stat-block-2\">Constant-<i>detect good, detect magic</i></p><p class=\"stat-block-2\">At will-<i>invisibility </i>(self only)</p><p class=\"stat-block-2\">3/day-<i>lesser confusion </i>(DC 12)</p><p class=\"stat-block-2\">1/week-<i>commune</i> (CL 12th, six questions)</p>"
             }, 
             "type": "creature", 
             "feats": "Improved Initiative, Lightning Reflexes", 
@@ -286,6 +286,7 @@
             "cmd": "38 (40 vs. trip)", 
             "special_attacks": "rend (2 claws, 1d8+12 plus 2 Con damage)", 
             "intelligence": "7", 
+            "racial_modifiers": "+4 Perception", 
             "resist": "cold 10, electricity 10, fire 10", 
             "melee": "5 claws +21 (1d6+8/19-20)", 
             "cr": "12", 
@@ -419,7 +420,7 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "A hydrodaemon can spit at a single target within 20 feet, making a ranged touch attack as a standard action. A target hit by this spittle must succeed on a DC 17 Will save or fall asleep for 6 rounds. The save DC is Constitution-based.", 
+                            "text": "A hydrodaemon can spit at a single target within 20 feet, making a ranged touch attack as a standard action. A target hit by this spittle must succeed on a DC 19 Will save or fall asleep for 6 rounds. The save DC is Constitution-based.", 
                             "sections": []
                         }
                     ], 
@@ -463,7 +464,7 @@
         {
             "dexterity": "24", 
             "ac": "23, touch 16, flat-footed 16 (+7 Dex, +7 natural, -1 size)", 
-            "cmd": "32", 
+            "cmd": "35", 
             "special_attacks": "breath of flies", 
             "intelligence": "16", 
             "resist": "cold 10, electricity 10, fire 10", 
@@ -477,7 +478,7 @@
             "strength": "25", 
             "constitution": "23", 
             "source": "Bestiary 2", 
-            "treasure": "standard", 
+            "treasure": "standard (+1 composite longbow, other treasure)", 
             "charisma": "16", 
             "languages": "Abyssal, Draconic, Infernal; telepathy 100 ft.", 
             "immune": "acid, death effects, disease, poison", 
@@ -542,7 +543,7 @@
             ], 
             "senses": "darkvision 60 ft., deathwatch, detect good; Perception +22", 
             "description": "This human-shaped beast has a horse's skull for a head. It walks on cracked hooves and bears the rotting wings of a carrion bird.", 
-            "ranged": "+1 composite longbow +18/+13 (1d8+8/&times;3 plus contagion)", 
+            "ranged": "+1 composite longbow +18/+13 (2d6+8/&times;3 plus contagion)", 
             "hp": "115 (10d10+60)", 
             "reach": "10 ft.", 
             "wisdom": "21", 
@@ -553,7 +554,7 @@
             "skills": "Fly +18, Heal +18, Intimidate +16, Knowledge (planes) +16, Perception +22, Sense Motive +22, Stealth +16, Survival +15, Use Magic Device +16", 
             "reflex": "+14", 
             "space": "10 ft.", 
-            "cmb": "+15", 
+            "cmb": "+18", 
             "will": "+12", 
             "aura": "infectious aura (50 ft.)", 
             "sr": "20", 
@@ -563,7 +564,7 @@
         {
             "dexterity": "22", 
             "ac": "25, touch 15, flat-footed 19 (+6 Dex, +10 natural, -1 size)", 
-            "cmd": "35", 
+            "cmd": "37", 
             "intelligence": "21", 
             "resist": "cold 10, electricity 10, fire 10", 
             "melee": "bite +20 (2d8+6/19-20 plus disease), 2 claws +19 (2d6+6 plus hunger)", 
@@ -583,7 +584,7 @@
             "init": "+6", 
             "fortitude": "+11", 
             "spells": {
-                "spell-like abilities": "(CL 11th; concentration +15)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i>, <i>fly</i>, <i>see invisibility</i></p><p class=\"stat-block-2\">At will-<i>fear</i> (DC 15), <i>deeper darkness</i>, <i>greater teleport</i> (self plus 50 lbs. of objects only)</p><p class=\"stat-block-2\">3/day-<i>blight </i>(DC 18), <i>diminish plants</i>, quickened <i>magic missile</i></p><p class=\"stat-block-2\">1/day-<i>horrid wilting</i> (DC 22), <i>waves of fatigue</i></p>"
+                "spell-like abilities": "(CL 11th; concentration +15)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i>, <i>see invisibility</i></p><p class=\"stat-block-2\">At will-<i>cause fear</i> (DC 15), <i>deeper darkness</i>, <i>greater teleport</i> (self plus 50 lbs. of objects only)</p><p class=\"stat-block-2\">3/day-<i>blight </i>(DC 19), <i>diminish plants</i>, quickened <i>magic missile</i></p><p class=\"stat-block-2\">1/day-<i>horrid wilting</i> (DC 22), <i>waves of fatigue</i></p>"
             }, 
             "type": "creature", 
             "feats": "Blind-Fight, Combat Reflexes, Great Fortitude, Improved Critical (bite), Iron Will, Quicken Spell-Like Ability (magic missile), Weapon Focus (bite)", 
@@ -600,7 +601,7 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "A meladaemon radiates an aura of hunger to a radius of 20 feet. Every round a creature begins its turn within this aura, it must succeed on a DC 23 Fortitude save or take 1d6 nonlethal damage and become fatigued from extreme hunger. Creatures that do not need to eat are immune to this effect. The save DC is Constitution-based.", 
+                            "text": "A meladaemon radiates an aura of hunger to a radius of 20 feet. Every round a creature begins its turn within this aura, it must succeed at a DC 22 Fortitude save or take 1d6 nonlethal damage and become fatigued from extreme hunger. Creatures that do not need to eat are immune to this effect. The save DC is Constitution-based.", 
                             "sections": []
                         }, 
                         {
@@ -610,7 +611,7 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "Daemonic wasting: Bite&mdash;injury; save Fort DC 23; onset 1 day; frequency 1/day; effect 1d4 Con and 1d4 Cha damage; cure 2 consecutive saves. The save DC is Constitution-based.", 
+                            "text": "Daemonic wasting: Bite&mdash;injury; save Fort DC 22; onset 1 day; frequency 1/day; effect 1d4 Con and 1d4 Cha damage; cure 2 consecutive saves. The save DC is Constitution-based.", 
                             "sections": []
                         }, 
                         {
@@ -648,10 +649,10 @@
             "dr": "10/good", 
             "base_attack": "+14", 
             "name": "Daemon, Meladaemon", 
-            "skills": "Bluff +21, Fly +19, Heal +11, Intimidate +21, Knowledge (planes) +22, Knowledge (religion) +22, Perception +20, Sense Motive +20, Spellcraft +22, Stealth +19, Survival +20, Use Magic Device +14", 
+            "skills": "Bluff +21, Fly +17, Heal +11, Intimidate +21, Knowledge (planes) +22, Knowledge (religion) +22, Perception +20, Sense Motive +20, Spellcraft +22, Stealth +19, Survival +20, Use Magic Device +14", 
             "reflex": "+15", 
             "space": "10 ft.", 
-            "cmb": "+19", 
+            "cmb": "+21", 
             "will": "+14", 
             "aura": "consumptive aura (20 ft.)", 
             "sr": "22", 
@@ -667,8 +668,8 @@
                 {
                     "dexterity": "26", 
                     "ac": "38, touch 18, flat-footed 30 (+4 deflection, +8 Dex, +20 natural, -4 size)", 
-                    "cmd": "54", 
-                    "special_attacks": "drain soul, soul-drained breath, trample (2d8+18, DC 22)", 
+                    "cmd": "54 (58 vs. trip)", 
+                    "special_attacks": "drain soul, soul-drained breath, trample (2d8+18, DC 32)", 
                     "intelligence": "12", 
                     "resist": "cold 10, electricity 10, fire 10", 
                     "melee": "2 bites +28 (2d8+12/19-20 plus grab), 4 claws +28 (2d6+12 plus grab), gore +28 (2d8+12)", 
@@ -688,7 +689,7 @@
                     "init": "+12", 
                     "fortitude": "+29", 
                     "spells": {
-                        "spell-like abilities": "(CL 20th; concentration +27)<p class=\"stat-block-2\">Constant-<i>air walk</i>, <i>true seeing, unholy aura</i> (DC 25)</p><p class=\"stat-block-2\">At will-<i>greater teleport</i> (self plus 50 lbs. objects only), <i>telekinesis</i>, <i>wall of fire, wall of ice</i></p><p class=\"stat-block-2\">3/day-quickened<i> disintegrate </i>(DC 23), <i>wall of force</i></p><p class=\"stat-block-2\">1/day-<i>blasphemy</i> (DC 24), summon (any 1 <span class=\"stat-block-cr\">CR 19</span> or lower daemon, 100%), <i>wail of the banshee</i> (DC 26)</p>"
+                        "spell-like abilities": "(CL 20th; concentration +27)<p class=\"stat-block-2\">Constant-<i>air walk</i>, <i>true seeing, unholy aura</i> (DC 25)</p><p class=\"stat-block-2\">At will-<i>greater teleport</i> (self plus 50 lbs. objects only), <i>telekinesis</i>, <i>wall of fire, wall of ice</i></p><p class=\"stat-block-2\">3/day-quickened<i> disintegrate </i>(DC 23), <i>wall of force</i></p><p class=\"stat-block-2\">1/day-<i>blasphemy</i> (DC 24), summon (level 9 any 1 CR 19 or lower daemon, 100%), <i>wail of the banshee</i> (DC 26)</p>"
                     }, 
                     "type": "creature", 
                     "feats": "Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Quicken Spell-Like Ability (disintegrate)", 
@@ -714,7 +715,7 @@
                                         "Supernatural"
                                     ], 
                                     "source": "Bestiary 2", 
-                                    "text": "A creature grappled by an olethrodaemon's grab attack from its claws can be transferred to its mouth as a move action requiring no combat maneuver check. As a standard action, an olethrodaemon that begins its turn with an opponent grappled in either of its mouths can swallow the opponent by succeeding on another grapple check. If successful, the creature is swallowed into one of the olethrodaemon's many stomachs. These stomachs grind their contents and drain the life force from living creatures. Every round a creature remains in an olethrodaemon's stomach, it takes 4d8+18 points of damage and gains 1d4 negative levels. The creature can attempt to cut its way out of the olethrodaemon's stomach, but it suffers the chance of just cutting into another stomach chamber. An olethrodaemon's stomach is AC 20 and has 40 hit points. Once a creature deals enough damage to allow escape, it has a 50% chance to end up in another stomach chamber instead of escaping. Due to the multiple stomach chambers, an olethrodaemon can house and drain up to four medium creatures at one time. This ability otherwise functions as the swallow whole special attack. It is a DC 32 Fortitude save to remove negative levels gained in this fashion.", 
+                                    "text": "A creature grappled by an olethrodaemon's grab attack from its claws can be transferred to its mouth as a move action requiring no combat maneuver check. As a standard action, an olethrodaemon that begins its turn with an opponent grappled in either of its mouths can swallow the opponent by succeeding on another grapple check. If successful, the creature is swallowed into one of the olethrodaemon's many stomachs. These stomachs grind their contents and drain the life force from living creatures. Every round a creature remains in an olethrodaemon's stomach, it takes 4d8+18 points of damage and gains 1d4 negative levels. The creature can attempt to cut its way out of the olethrodaemon's stomach, but it suffers the chance of just cutting into another stomach chamber. An olethrodaemon's stomach is AC 20 and has 40 hit points. Once a creature deals enough damage to allow escape, it has a 50% chance to end up in another stomach chamber instead of escaping. Due to the multiple stomach chambers, an olethrodaemon can house and drain up to four medium creatures at one time. This ability otherwise functions as the swallow whole special attack. It is a DC 33 Fortitude save to remove negative levels gained in this fashion. This save is Constitution-based.", 
                                     "sections": []
                                 }, 
                                 {
@@ -784,7 +785,7 @@
             "special_attacks": "constrict (2d6+10)", 
             "intelligence": "14", 
             "resist": "cold 10, electricity 10, fire 10", 
-            "melee": "2 claws +19 (2d6+7/18-20/&times;3 plus grab and 1d6 bleed), tentacles +17 (1d10+3 plus poison)", 
+            "melee": "2 claws +18 (2d6+7/18-20/&times;3 plus grab and 1d6 bleed), tentacles +16 (1d10+3 plus poison)", 
             "cr": "10", 
             "speed": "30 ft., swim 50 ft.", 
             "alignment": "NE", 
@@ -874,11 +875,11 @@
         {
             "dexterity": "23", 
             "ac": "35, touch 19, flat-footed 29 (+4 deflection, +6 Dex, +16 natural, -1 size)", 
-            "cmd": "47", 
+            "cmd": "51", 
             "special_attacks": "weapon steep", 
             "intelligence": "17", 
             "resist": "cold 10, electricity 10, fire 10", 
-            "melee": "+2 wounding halberd +32/+27/+22/+17 (2d8+18), bite +24 (1d8+5)", 
+            "melee": "+2 wounding halberd 2d8+18/19-20/x3, bite +24 (1d8+5)", 
             "cr": "18", 
             "speed": "30 ft., fly 60 ft. (good)", 
             "alignment": "NE", 
@@ -893,9 +894,9 @@
             "immune": "acid, death effects, disease, poison", 
             "init": "+10", 
             "text": "<p><span class=\"char-style-override-30\">XP</span> 153,600</p>", 
-            "fortitude": "+16", 
+            "fortitude": "+25", 
             "spells": {
-                "spell-like abilities": "(CL 18th; concentration +23)<p class=\"stat-block-2\">Constant-<i>fly</i>, <i>true seeing, unholy aura</i> (DC 23)</p><p class=\"stat-block-2\">At will-<i>greater teleport</i> (self plus 50 lbs. of objects only)</p><p class=\"stat-block-2\">3/day-<i>chain lightning</i> (DC 21), <i>cone of cold</i> (DC 20), <i>flame strike</i> (DC 19)</p><p class=\"stat-block-2\">1/day-summon (level 5, 2 derghodaemons 50%)</p>"
+                "spell-like abilities": "(CL 18th; concentration +23)<p class=\"stat-block-2\">Constant-<i>true seeing, unholy aura</i> (DC 23)</p><p class=\"stat-block-2\">At will-<i>greater teleport</i> (self plus 50 lbs. of objects only)</p><p class=\"stat-block-2\">3/day-<i>chain lightning</i> (DC 21), <i>cone of cold</i> (DC 20), <i>flame strike</i> (DC 20)</p><p class=\"stat-block-2\">1/day-summon (level 5, 2 derghodaemons 50%)</p>"
             }, 
             "type": "creature", 
             "feats": "Combat Expertise, Combat Reflexes, Greater Vital Strike, Improved CriticalB (halberd), Improved Initiative, Improved Sunder, Improved Vital Strike, Lunge, Power Attack, Quick Draw, Vital Strike, Weapon FocusB (halberd)", 
@@ -935,10 +936,10 @@
             "base_attack": "+19", 
             "name": "Daemon, Purrodaemon", 
             "skills": "Acrobatics +28, Bluff +21, Diplomacy +17, Fly +16, Intimidate +27, Knowledge (planes) +25, Perception +26, Sense Motive +26, Spellcraft +23, Stealth +24, Survival +17", 
-            "reflex": "+12", 
+            "reflex": "+21", 
             "space": "10 ft.", 
             "cmb": "+31", 
-            "will": "+10", 
+            "will": "+14", 
             "aura": "fear (15 ft., DC 24), unholy aura", 
             "sr": "29", 
             "organization": "solitary, patrol (2-5), or unit (6-12)", 

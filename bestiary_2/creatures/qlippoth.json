@@ -57,7 +57,7 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "Creatures\nthat succumb to an augnagar\u2019s horrific appearance are driven momentarily insane with fear. This results in 2 points of Charisma damage and leaves the victim confused for 1d3 rounds.", 
+                            "text": "Creatures that succumb to an augnagar\u2019s horrific appearance are driven momentarily insane. This results in 2 points of Charisma damage and leaves the victim confused for 1d3 rounds.", 
                             "sections": []
                         }, 
                         {
@@ -304,8 +304,8 @@
         {
             "dexterity": "8", 
             "ac": "37, touch 7, flat-footed 37 (+4 deflection, -1 Dex, +2 insight, +30 natural, -8 size)", 
-            "cmd": "60 (can't be tripped)", 
-            "special_attacks": "abyssal transformation, entropic beams, horrific appearance", 
+            "cmd": "62 (can't be tripped)", 
+            "special_attacks": "abyssal transformation, entropic beams, horrific appearance (DC 30)", 
             "intelligence": "29", 
             "resist": "acid 30, electricity 10, fire 10", 
             "melee": "2 claws +31 (4d6+15/19-20 plus grab), 4 wings +26 (2d8+7)", 
@@ -440,7 +440,7 @@
             "space": "30 ft.", 
             "cmb": "+47 (+51 grapple)", 
             "will": "+28", 
-            "aura": "stench (DC 32, 10 rounds)", 
+            "aura": "stench (DC 32, 10 rounds), cloak of chaos (DC 26)", 
             "sr": "31", 
             "organization": "solitary", 
             "creature_subtype": "chaotic, evil, extraplanar, qlippoth"
@@ -448,10 +448,10 @@
         {
             "dexterity": "21", 
             "ac": "24, touch 15, flat-footed 19 (+5 Dex, +9 natural)", 
-            "special_attacks": "horrific appearance", 
+            "special_attacks": "horrific appearance (DC 18)", 
             "intelligence": "9", 
             "resist": "electricity 10, fire 10", 
-            "melee": "4 bites +16 (1d6+3/19-20 plus 1d4 acid), bite +16 (2d6+3/19-20 plus 1d4 acid)", 
+            "melee": "4 bites +15 (1d6+3/19-20 plus 1d4 acid), bite +15 (2d6+3/19-20 plus 1d4 acid)", 
             "cr": "10", 
             "xp": "9,600", 
             "speed": "5 ft., fly 30 ft. (good)", 
@@ -542,7 +542,7 @@
             "dexterity": "16", 
             "ac": "21, touch 12, flat-footed 18 (+3 Dex, +9 natural, -1 size)", 
             "cmd": "27 (31 vs. trip)", 
-            "special_attacks": "braincloud, horrific appearance, constrict (1d4+6)", 
+            "special_attacks": "braincloud, horrific appearance (DC 15), constrict (1d4+6)", 
             "intelligence": "12", 
             "racial_modifiers": "+4 Intimidate, +4 Perception, +4 Use Magic Device", 
             "resist": "acid 10, electricity 10, fire 10", 
@@ -625,7 +625,7 @@
             "dr": "10/cold iron or lawful", 
             "base_attack": "+7", 
             "name": "Qlippoth, Shoggti", 
-            "skills": "Escape Artist +13, Intimidate +13, Knowledge (planes) +11, Perception +18, Sense Motive +14, Stealth +9, Use Magic Device +19", 
+            "skills": "Escape Artist +13, Intimidate +16, Knowledge (planes) +11, Perception +18, Sense Motive +14, Stealth +9, Use Magic Device +19", 
             "reflex": "+5", 
             "space": "10 ft.", 
             "cmb": "+14 (+18 grapple)", 
@@ -635,15 +635,15 @@
         }, 
         {
             "dexterity": "34", 
-            "ac": "33, touch 21, flat-footed 21 (+4 deflection, +12 Dex, +8 natural, -1 size)", 
-            "cmd": "51 (67 vs. trip)", 
+            "ac": "33, touch 25, flat-footed 21 (+4 deflection, +12 Dex, +8 natural, -1 size)", 
+            "cmd": "55 (71 vs. trip)", 
             "special_attacks": "horrific appearance (DC 27), savage stingers", 
             "intelligence": "24", 
             "resist": "electricity 10, fire 10", 
             "melee": "3 stings +27 (1d6+8/19-20 plus ability drain), 5 tentacles +22 (1d6+4 plus 2d6 acid)", 
             "cr": "18", 
             "xp": "153,600", 
-            "speed": "40 ft., climb 40 ft.", 
+            "speed": "40 ft., climb 40 ft, fly 60-ft. (good).", 
             "alignment": "CE", 
             "size": "Large", 
             "environment": "any (Abyss)", 
@@ -657,7 +657,7 @@
             "init": "+12", 
             "fortitude": "+25", 
             "spells": {
-                "spell-like abilities": "(CL 18th; concentration +25)<p class=\"stat-block-2\">Constant-<i>cloak of chaos</i> (DC 25), <i>displacement</i>, <i>fly</i>, <i>freedom of movement</i>, <i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>dimension door</i>, <i>greater dispel magic</i>, <i>telekinesis</i> (DC 22)</p><p class=\"stat-block-2\">3/day-quickened <i>dimension door</i>, <i>flesh to stone</i> (DC 23), <i>word of chaos</i> (DC 24)</p><p class=\"stat-block-2\">1/day-<i>binding</i> (DC 25), <i>plane shift</i> (DC 24), <i>telekinetic sphere</i> (DC 25), <i>temporal stasis</i> (DC 25)</p>"
+                "spell-like abilities": "(CL 18th; concentration +25)<p class=\"stat-block-2\">Constant-<i>cloak of chaos</i> (DC 25), <i>displacement</i>, <i>freedom of movement</i>, <i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>dimension door</i>, <i>greater dispel magic</i>, <i>telekinesis</i> (DC 22)</p><p class=\"stat-block-2\">3/day-quickened <i>dimension door</i>, <i>flesh to stone</i> (DC 23), <i>word of chaos</i> (DC 24)</p><p class=\"stat-block-2\">1/day-<i>binding</i> (DC 25), <i>plane shift</i> (DC 24), <i>telekinetic sphere</i> (DC 25), <i>temporal stasis</i> (DC 25)</p>"
             }, 
             "type": "creature", 
             "feats": "Combat Expertise, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Critical (sting), Improved Vital Strike, Lightning Reflexes, Quicken Spell-Like Ability (dimension door), Staggering Critical, Vital Strike", 
@@ -728,7 +728,7 @@
             "hp": "290 (20d10+180); fast healing 10", 
             "reach": "10 ft.", 
             "wisdom": "27", 
-            "defensive_abilities": "evasion", 
+            "defensive_abilities": "displacement, evasion, freedom of movement", 
             "creature_type": "Outsider", 
             "special_qualities": "demon hunter", 
             "dr": "15/cold iron and lawful", 
@@ -739,6 +739,7 @@
             "space": "10 ft.", 
             "cmb": "+29", 
             "will": "+18", 
+            "aura": "cloak of chaos (DC 25)", 
             "sr": "25 vs. lawful spells and creatures", 
             "organization": "solitary, pair, or patrol (3-4)", 
             "creature_subtype": "chaotic, evil, extraplanar, qlippoth"

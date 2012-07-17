@@ -1,7 +1,7 @@
 {
     "dexterity": "14", 
     "ac": "17, touch 12, flat-footed 15 (+5 armor, +2 Dex)", 
-    "special_attacks": "channel positive energy 5/day (DC 12, 1d6)", 
+    "special_attacks": "channel positive energy 7/day (DC 12, 1d6)", 
     "intelligence": "10", 
     "resist": "cold 5", 
     "melee": "trident +0 (1d8)", 
@@ -17,15 +17,15 @@
     "charisma": "14", 
     "languages": "Aquan, Common", 
     "source": "Bestiary 2", 
-    "init": "+1", 
+    "init": "+2", 
     "fortitude": "+1", 
     "spells": {
-        "spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1/day-<i>hydraulic push</i></p>", 
+        "spell-like abilities": "(CL 1st; concentration +3)<p class=\"stat-block-2\">1/day-<i>hydraulic push</i></p>", 
         "domain spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">6/day-dazing touch</p><p class=\"stat-block-2\">6/day-icicle (1d6+1 cold damage)</p>", 
         "cleric spells prepared": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1st-<i>bless</i>, <i>charm person</i>, <i>divine favor</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>guidance</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domains</b> Charm, Water</p>"
     }, 
     "type": "creature", 
-    "feats": "Weapon Focus (heavy mace)", 
+    "feats": "Extra Channel", 
     "sections": [
         {
             "subtype": "special_abilities", 
@@ -85,7 +85,7 @@
                     "source": "Bestiary 2", 
                     "text": "<p id=\"elemental-resistance\">Undines have cold resistance 5.</p>", 
                     "type": "section", 
-                    "name": "Elemental Resistance", 
+                    "name": "Energy Resistance", 
                     "sections": []
                 }, 
                 {
@@ -93,7 +93,7 @@
                     "text": "See Undine/Special Abilities/Elemental Affinity", 
                     "type": "link",
                     "display": true,
-                    "name": "Elemental Affinity", 
+                    "name": "Water Affinity", 
                     "url": "pfsrd://PFSRD/Monsters/Undine/Special Abilities/Elemental Affinity",
                     "sections": []
                 }, 
@@ -118,7 +118,7 @@
     "hp": "8 (1d8)", 
     "wisdom": "17", 
     "creature_type": "Outsider", 
-    "special_qualities": "elemental affinity", 
+    "special_qualities": "water affinity", 
     "base_attack": "+0", 
     "name": "Undine", 
     "level": "cleric 1", 
