@@ -39,7 +39,8 @@
                     "text": "<p>Orcs are brutal and savage.</p>", 
                     "type": "section", 
                     "name": "+4 Strength, -2 Intelligence, -2 Wisdom, -2 Charisma", 
-                    "sections": []
+                    "sections": [],
+                    "create_index": false
                 }, 
                 {
                     "source": "Bestiary", 
@@ -50,16 +51,20 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p></p>", 
-                    "type": "section", 
+                    "text": "", 
+                    "type": "link", 
                     "name": "Ferocity", 
+                    "display": true,
+                    "url": "pfsrd://PFSRD/Rules Bestiary (All)/Universal Monster Rules/Ferocity",
                     "sections": []
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p></p>", 
-                    "type": "section", 
+                    "text": "", 
+                    "type": "link", 
                     "name": "Light Sensitivity", 
+                    "display": true,
+                    "url": "pfsrd://PFSRD/Rules Bestiary (All)/Universal Monster Rules/Light Sensitivity",
                     "sections": []
                 }, 
                 {
@@ -75,6 +80,20 @@
                     "type": "section", 
                     "name": "Languages", 
                     "sections": []
+                },
+                {
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "See Also", 
+                    "sections": [
+                        {
+                            "source": "Bestiary",
+                            "type": "link",
+                            "text": "Orc Monster Entry",
+                            "url": "pfsrd://PFSRD/Monsters/Orc"
+                        }
+                    ],
+                    "create_index": false
                 }
             ], 
             "name": "Orc", 
