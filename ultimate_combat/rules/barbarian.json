@@ -9,6 +9,7 @@
             "text": "<p id=\"rage-powers\">Any barbarian who meets the powers' prerequisites can select and use the following new rage powers. Totem rage powers grant powers related to a theme. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a beast totem rage power (see the <i>Advanced Player's Guide</i>) cannot later choose to gain any of the dragon totem rage powers (any rage power with &ldquo;dragon totem&rdquo; in its title), unless she has the totem warrior archetype. </p>", 
             "type": "section", 
             "name": "Rage Powers", 
+            "create_index": true,
             "sections": [
                 {
                     "source": "Ultimate Combat", 
@@ -301,361 +302,368 @@
             ]
         }, 
         {
-            "name": "Armored Hulk", 
+            "name": "Barbarian Archetypes",
+            "type": "section",
+            "source": "Ultimate Combat", 
             "sections": [
                 {
+                    "name": "Armored Hulk", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">An armored hulk gains proficiency in heavy armor.</p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"indomitable-stance\">An armored hulk gains a +1 bonus on combat maneuver checks and to CMD for overrun combat maneuvers, and on Reflex saves against trample attacks. She also gains a +1 bonus to her AC against charge attacks and on attack and damage rolls against charging creatures. This ability replaces fast movement.</p>", 
+                            "type": "ability", 
+                            "name": "Indomitable Stance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"armored-swiftness\">At 2nd level, an armored hulk moves faster in medium and heavy armor. When wearing medium or heavy armor, an armored hulk can move 5 feet faster than normal, to a maximum of her speed. This ability replaces uncanny dodge. </p>", 
+                            "type": "ability", 
+                            "name": "Armored Swiftness", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"resilience-of-steel\">At 3rd level, an armored hulk is able to use her armor to help avoid deadly hits. While wearing heavy armor, she gains a +1 bonus to AC that applies only on critical hit confirmation rolls. This bonus increases by +1 every 3 levels beyond 3rd (maximum +6 at 18th level). This ability replaces trap sense. </p>", 
+                            "type": "ability", 
+                            "name": "Resilience of Steel", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"improved-armored-swiftness\">At 5th level, an armored hulk's land speed is faster than the norm for her race by +10 feet. This benefit applies when she is wearing any armor, including heavy armor, but not while carrying a heavy load. Apply this bonus before modifying the armored hulk's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed. This ability replaces improved uncanny dodge. </p>", 
+                            "type": "ability", 
+                            "name": "Improved Armored Swiftness", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-powers\">The following rage powers complement the armored hulk archetype: boasting taunt, greater guarded life, guarded life, guarded stance, increased damage reduction, no escape, overbearing advance, overbearing onslaught, reflexive dodge, rolling dodge, and unexpected strike. </p>", 
+                            "type": "section", 
+                            "name": "Rage Powers"
+                        }
+                    ], 
+                    "text": "<p>Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">An armored hulk gains proficiency in heavy armor.</p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "Scarred Rager", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"terrifying-visage\">A scarred rager adds 1/2 her barbarian level on Intimidate checks against humanoids who are not members of barbarian tribes. When dealing with barbarians, the scarred rager may choose to add this bonus on Diplomacy checks instead. The DC of any fear effect created by the scarred rager also increases by 1. This ability replaces fast movement.</p>", 
+                            "type": "ability", 
+                            "name": "Terrifying Visage", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tolerance\">At 2nd level, a scarred rager who fails a save against an effect that causes her to become nauseated, sickened, fatigued, or exhausted can make a second save to negate the effect on the start of her next turn. Only one additional save is allowed. If the effect does not allow a saving throw, its duration is halved instead (minimum of 1 round). This ability replaces uncanny dodge. </p>", 
+                            "type": "ability", 
+                            "name": "Tolerance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"scarification\">At 3rd level, a scarred rager can ignore 1 point of bleed damage per round. This amount increases by 1 every three levels beyond 3rd. At 15th level, a scarred rager can ignore 1 bleed effect each round. This ability replaces trap sense.</p>", 
+                            "type": "ability", 
+                            "name": "Scarification", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"improved-tolerance\">At 5th level, a scarred rager's tolerance ability also applies to effects that would cause her to become dazed, frightened, shaken, or stunned. This replaces improved uncanny dodge.</p>", 
+                            "type": "ability", 
+                            "name": "Improved Tolerance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-powers\">The following rage powers complement the scarred rager archetype: auspicious mark, body bludgeon, come and get me, increased damage reduction, inspire ferocity, internal fortitude, intimidating glare, reckless abandon, regenerative vigor, renewed life, renewed vigor, renewed vitality, roused anger, and terrifying howl.</p>", 
+                            "type": "section", 
+                            "name": "Rage Powers"
+                        }
+                    ], 
+                    "text": "<p>Some barbarians wear marks of prowess and savagery upon their bodies. The scarred rager believes each wound tells the tales of her prowess and bravery. She augments these ragged trophies with brands and tattoos in order to win the notice and favor of her gods, ancestors, or totem spirits. The scarred rager's gnarled and exotic appearance terrifies civilized onlookers, but is awe-inspiring to her savage kin. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"indomitable-stance\">An armored hulk gains a +1 bonus on combat maneuver checks and to CMD for overrun combat maneuvers, and on Reflex saves against trample attacks. She also gains a +1 bonus to her AC against charge attacks and on attack and damage rolls against charging creatures. This ability replaces fast movement.</p>", 
-                    "type": "ability", 
-                    "name": "Indomitable Stance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "Sea Reaver", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">A sea reaver is not proficient with medium armor. </p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"marine-terror\">A sea reaver can hold her breath for a number of rounds equal to four times her Constitution score. In addition, a sea reaver can move normally though squares of standing water or bog that is 1 foot deep. It does not cost her extra movement to traverse these terrains. Lastly, a sea reaver ignores the normal cover bonus to AC when attacking creatures that are partially immersed in water. This ability replaces fast movement. </p>", 
+                            "type": "ability", 
+                            "name": "Marine Terror", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"eyes-of-the-storm\">At 2nd level, a sea reaver ignores any concealment provided by fog, rain, sleet, mist, wind, or other weather effects that is less than total concealment, and any penalties weather applies on Perception checks are halved. This ability replaces uncanny dodge.</p>", 
+                            "type": "ability", 
+                            "name": "Eyes of the Storm", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"savage-sailor\">At 3rd level, a sea reaver gains a +1 bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. These bonuses improve by +1 every three levels after 3rd. This ability replaces trap sense.</p>", 
+                            "type": "ability", 
+                            "name": "Savage Sailor", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sure-footed\">At 5th level, a sea reaver takes no penalties when moving across slick surfaces, whether natural or magical (e.g., <i>grease</i>, <i>ice storm</i>, and <i>sleet storm</i>). She is not at risk of falling, is not denied her Dexterity bonus when moving across such areas, and does not treat them as difficult terrain. This ability replaces improved uncanny dodge.</p>", 
+                            "type": "ability", 
+                            "name": "Sure-Footed", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-powers\">The following rage powers complement the sea reaver archetype: bestial leaper, bestial swimmer, come and get me, hurling charge, raging leaper, raging swimmer, rolling dodge, and smasher.</p>", 
+                            "type": "section", 
+                            "name": "Rage Powers"
+                        }
+                    ], 
+                    "text": "<p>Not all barbarians hunt forests, plains, and mountains. Some are raiding terrors on the sea and coasts, pillaging those who hoard treasure and pursuing monsters of the deep. Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"armored-swiftness\">At 2nd level, an armored hulk moves faster in medium and heavy armor. When wearing medium or heavy armor, an armored hulk can move 5 feet faster than normal, to a maximum of her speed. This ability replaces uncanny dodge. </p>", 
-                    "type": "ability", 
-                    "name": "Armored Swiftness", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "Titan Mauler", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"big-game-hunter\">A titan mauler gains a +1 bonus on attack rolls and a +1 dodge bonus to AC in melee with creatures larger than themselves. This ability replaces fast movement. </p>", 
+                            "type": "ability", 
+                            "name": "Big Game Hunter", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"jotungrip\">At 2nd level, a titan mauler may choose to wield a two-handed weapon in one hand with a &ndash;2 penalty on attack rolls while doing so. The weapon must be appropriately sized for her, and it is treated as one-handed when determining the effect of Power Attack, Strength bonus to damage, and the like. This ability replaces uncanny dodge.</p>", 
+                            "type": "ability", 
+                            "name": "Jotungrip", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"massive-weapons\">At 3rd level, a titan mauler becomes skilled in the use of massive weapons looted from her titanic foes. The attack roll penalty for using weapons too large for her size is reduced by 1, and this reduction increases by 1 for every three levels beyond 3rd (to a minimum of 0). This ability replaces trap sense. </p>", 
+                            "type": "ability", 
+                            "name": "Massive Weapons", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"evade-reach\">At 5th level, as a swift action, a titan mauler may choose one creature within her line of sight. Until the end of her turn, that target's reach is treated as if it were 5 feet shorter with respect to reaching the titan mauler, and this reduction increases by 5 feet for every five levels beyond 5th. This ability replaces improved uncanny dodge.</p>", 
+                            "type": "ability", 
+                            "name": "Evade Reach", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"titanic-rage\">At 14th level, a titan mauler may choose to gain the benefits of <i>enlarge person</i> when she enters a rage. While using titanic rage, she must spend 2 rounds of rage per round, and she becomes exhausted rather than fatigued when the rage ends. This ability replaces indomitable will. </p>", 
+                            "type": "ability", 
+                            "name": "Titanic Rage", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-powers\">The following rage powers complement the titan mauler archetype: body bludgeon, greater ground breaker, ground breaker, knockback, mighty swing, powerful blow, smasher, and strength surge. </p>", 
+                            "type": "section", 
+                            "name": "Rage Powers"
+                        }
+                    ], 
+                    "text": "<p>In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone tactics and traditions with one purpose&mdash;to bring low these massive foes. While her enemies' size makes the creatures strong, the titan mauler is even stronger, taking up weapons from her fallen foes that no lesser warrior can lift, and using them when she beseeches the spirits to grant her increased size and greater ferocity against her titanic foes. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"resilience-of-steel\">At 3rd level, an armored hulk is able to use her armor to help avoid deadly hits. While wearing heavy armor, she gains a +1 bonus to AC that applies only on critical hit confirmation rolls. This bonus increases by +1 every 3 levels beyond 3rd (maximum +6 at 18th level). This ability replaces trap sense. </p>", 
-                    "type": "ability", 
-                    "name": "Resilience of Steel", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "True Primitive", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">A true primitive is proficient with hide armor and armors made from bone. A true primitive is also proficient with bone shields and the following weapons: battleaxe, blowgun, club, greatclub, handaxe, longspear, shortspear, sling, and spear. </p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"illiteracy\">A true primitive cannot read or write, and her superstition about such things leads her to refuse to ever learn to read or write, even if she multiclasses into other classes.</p>", 
+                            "type": "section", 
+                            "name": "Illiteracy"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"favored-terrain\">A true primitive has a favored terrain representing her native homeland. This ability functions as the ranger class feature, and the true primitive's bonuses in that terrain improve by +2 at 5th level and every five levels thereafter. However, she does not gain any additional favored terrains. This ability replaces fast movement.</p>", 
+                            "type": "ability", 
+                            "name": "Favored Terrain", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"trophy-fetish\">A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength. At 3rd level, a true primitive can attach a trophy fetish to one of the traditional true primitive weapons listed above. When wielding that weapon, the true primitive gains a +1 morale bonus on damage rolls. Furthermore, if that weapon has the fragile property, once per day, the true primitive can ignore the effects of a single natural 1 roll. A trophy fetish can also be attached to a suit of hide armor, granting the true primitive a +1 morale bonus on saving throws. Furthermore, if that armor has the fragile property, once per day, the true primitive can chose not to have the armor break on the confirmation of a critical hit made against her. Every five levels beyond 3rd, a true primitive can use an additional trophy fetish. Multiple trophy fetishes can be attached to the same armor or weapon; their effects stack. A trophy fetish can be sundered (hardness 5, 1 hit point) but is not damaged by area attacks or attacks that do not specifically target it. It has no effect if attached to other types of weapons or armor. This ability replaces trap sense.</p>", 
+                            "type": "ability", 
+                            "name": "Trophy Fetish", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-powers\">The following rage powers complement the true primitive archetype: animal fury, eater of magic, ghost hunter, greater primal scent, low-light vision, night vision, primal scent, scent, spell sunder, sunder enchantment, superstition, and witch hunter.</p>", 
+                            "type": "section", 
+                            "name": "Rage Powers"
+                        }
+                    ], 
+                    "text": "<p>Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent. They gain power from their truly primitive nature; their bodies and spirits are hardened by the wild and untainted existence far from the pathetic softness of so-called civilization. Even when forced to mingle with civilization, the true primitive stays apart in both traditions and trappings. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"improved-armored-swiftness\">At 5th level, an armored hulk's land speed is faster than the norm for her race by +10 feet. This benefit applies when she is wearing any armor, including heavy armor, but not while carrying a heavy load. Apply this bonus before modifying the armored hulk's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed. This ability replaces improved uncanny dodge. </p>", 
-                    "type": "ability", 
-                    "name": "Improved Armored Swiftness", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "Urban Barbarian", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">An urban barbarian is not proficient with medium armor. </p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"skills\">An urban barbarian does not gain Handle Animal (Cha), Knowledge (nature) (Int), or Survival (Wis) as class skills; instead, she gains Diplomacy (Cha), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), and Profession (Wis) as class skills. </p>", 
+                            "type": "section", 
+                            "name": "Skills"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"crowd-control\">At 1st level, an urban barbarian gains a +1 bonus on attack rolls and a +1 dodge bonus to AC when adjacent to two or more enemies. In addition, her movement is not impeded by crowds, and she gains a bonus equal to 1/2 her barbarian level on Intimidate checks to influence crowds. This ability replaces fast movement. </p>", 
+                            "type": "ability", 
+                            "name": "Crowd Control", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"controlled-rage\">When an urban barbarian rages, instead of making a normal rage she may apply a +4 morale bonus to her Strength, Dexterity, or Constitution. This bonus increases to +6 when she gains greater rage and +8 when she gains mighty rage. She may apply the full bonus to one ability score or may split the bonus between several scores in increments of +2. When using a controlled rage, an urban barbarian gains no bonus on Will saves, takes no penalties to AC, and can still use Intelligence-, Dexterity-, and Charisma-based skills. This ability otherwise follows the normal rules for rage.</p>", 
+                            "type": "ability", 
+                            "name": "Controlled Rage", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-powers\">The following rage powers complement the urban barbarian archetype: boasting taunt, clear mind, deadly accuracy, guarded stance, intimidating glare, lethal accuracy, no escape, quick reflexes, perfect accuracy, sharpened accuracy, surprise accuracy, and unexpected strike.</p>", 
+                            "type": "section", 
+                            "name": "Rage Powers"
+                        }
+                    ], 
+                    "text": "<p>Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on the trappings and ways of their adoptive homes and bend their savage powers to its challenges. While these urban barbarians' rough edges are smoothed into civility, they can use their primal nature and upbringing to move with the ebb and flow of civilization's natural rhythms. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-powers\">The following rage powers complement the armored hulk archetype: boasting taunt, greater guarded life, guarded life, guarded stance, increased damage reduction, no escape, overbearing advance, overbearing onslaught, reflexive dodge, rolling dodge, and unexpected strike. </p>", 
-                    "type": "section", 
-                    "name": "Rage Powers"
+                    "abbrev": "Archetype", 
+                    "type": "section"
+                }, 
+                {
+                    "name": "Wild Rager", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"uncontrolled-rage\">A wild rager's rage functions as normal, except that when she reduces a creature to 0 or fewer hit points, she must attempt a Will save (DC 10 + the barbarian's level + the barbarian's Charisma modifier) or become confused. For the remainder of her current turn, she attacks the nearest creature other than herself. On the following round, refer to the <i>confusion</i> spell to determine her actions. At the end of this round, and each round thereafter, she can attempt a new saving throw to end the <i>confusion</i> effect. The rounds during which she is confused do not count against the rounds she has spent raging that day, but she cannot end her rage voluntarily, nor can she use rage powers while confused.</p>", 
+                            "type": "ability", 
+                            "name": "Uncontrolled Rage", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"wild-fighting\">At 2nd level, even when not raging, wild ragers often fight with reckless, savage abandon. A wild rager using the full-attack action can make one extra attack per round at her highest base attack bonus. Until the beginning of her next turn, however, she takes a &ndash;2 penalty on attack rolls and &ndash;4 penalty to AC. This ability replaces uncanny dodge. </p>", 
+                            "type": "ability", 
+                            "name": "Wild Fighting", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-conversion\">At 5th level, a wild rager who fails a saving throw against any mind-affecting effect can attempt a new saving throw at the beginning of her next turn. If the save succeeds, that effect ends and she instead rages and becomes confused as noted above. This ability replaces improved uncanny dodge.</p>", 
+                            "type": "ability", 
+                            "name": "Rage Conversion", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rage-powers\">The following rage powers complement the wild rager archetype: animal fury, bloody blow, body bludgeon, brawler, crippling blow, greater brawler, intimidating glare, mighty swing, no escape, powerful blow, and quick reflexes.</p>", 
+                            "type": "section", 
+                            "name": "Rage Powers"
+                        }
+                    ], 
+                    "text": "<p>Rages are barely controlled, but there are those who wholly give in to their more savage side, letting their rages take them to a confusing and uncontrolled place of terrible savagery. These barbarians become beasts, consumed with absolute bloodlust to the point where they cannot tell friend from foe.</p>", 
+                    "source": "Ultimate Combat", 
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }
-            ], 
-            "text": "<p>Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Scarred Rager", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"terrifying-visage\">A scarred rager adds 1/2 her barbarian level on Intimidate checks against humanoids who are not members of barbarian tribes. When dealing with barbarians, the scarred rager may choose to add this bonus on Diplomacy checks instead. The DC of any fear effect created by the scarred rager also increases by 1. This ability replaces fast movement.</p>", 
-                    "type": "ability", 
-                    "name": "Terrifying Visage", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tolerance\">At 2nd level, a scarred rager who fails a save against an effect that causes her to become nauseated, sickened, fatigued, or exhausted can make a second save to negate the effect on the start of her next turn. Only one additional save is allowed. If the effect does not allow a saving throw, its duration is halved instead (minimum of 1 round). This ability replaces uncanny dodge. </p>", 
-                    "type": "ability", 
-                    "name": "Tolerance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"scarification\">At 3rd level, a scarred rager can ignore 1 point of bleed damage per round. This amount increases by 1 every three levels beyond 3rd. At 15th level, a scarred rager can ignore 1 bleed effect each round. This ability replaces trap sense.</p>", 
-                    "type": "ability", 
-                    "name": "Scarification", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"improved-tolerance\">At 5th level, a scarred rager's tolerance ability also applies to effects that would cause her to become dazed, frightened, shaken, or stunned. This replaces improved uncanny dodge.</p>", 
-                    "type": "ability", 
-                    "name": "Improved Tolerance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-powers\">The following rage powers complement the scarred rager archetype: auspicious mark, body bludgeon, come and get me, increased damage reduction, inspire ferocity, internal fortitude, intimidating glare, reckless abandon, regenerative vigor, renewed life, renewed vigor, renewed vitality, roused anger, and terrifying howl.</p>", 
-                    "type": "section", 
-                    "name": "Rage Powers"
-                }
-            ], 
-            "text": "<p>Some barbarians wear marks of prowess and savagery upon their bodies. The scarred rager believes each wound tells the tales of her prowess and bravery. She augments these ragged trophies with brands and tattoos in order to win the notice and favor of her gods, ancestors, or totem spirits. The scarred rager's gnarled and exotic appearance terrifies civilized onlookers, but is awe-inspiring to her savage kin. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Sea Reaver", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">A sea reaver is not proficient with medium armor. </p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"marine-terror\">A sea reaver can hold her breath for a number of rounds equal to four times her Constitution score. In addition, a sea reaver can move normally though squares of standing water or bog that is 1 foot deep. It does not cost her extra movement to traverse these terrains. Lastly, a sea reaver ignores the normal cover bonus to AC when attacking creatures that are partially immersed in water. This ability replaces fast movement. </p>", 
-                    "type": "ability", 
-                    "name": "Marine Terror", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"eyes-of-the-storm\">At 2nd level, a sea reaver ignores any concealment provided by fog, rain, sleet, mist, wind, or other weather effects that is less than total concealment, and any penalties weather applies on Perception checks are halved. This ability replaces uncanny dodge.</p>", 
-                    "type": "ability", 
-                    "name": "Eyes of the Storm", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"savage-sailor\">At 3rd level, a sea reaver gains a +1 bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. These bonuses improve by +1 every three levels after 3rd. This ability replaces trap sense.</p>", 
-                    "type": "ability", 
-                    "name": "Savage Sailor", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sure-footed\">At 5th level, a sea reaver takes no penalties when moving across slick surfaces, whether natural or magical (e.g., <i>grease</i>, <i>ice storm</i>, and <i>sleet storm</i>). She is not at risk of falling, is not denied her Dexterity bonus when moving across such areas, and does not treat them as difficult terrain. This ability replaces improved uncanny dodge.</p>", 
-                    "type": "ability", 
-                    "name": "Sure-Footed", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-powers\">The following rage powers complement the sea reaver archetype: bestial leaper, bestial swimmer, come and get me, hurling charge, raging leaper, raging swimmer, rolling dodge, and smasher.</p>", 
-                    "type": "section", 
-                    "name": "Rage Powers"
-                }
-            ], 
-            "text": "<p>Not all barbarians hunt forests, plains, and mountains. Some are raiding terrors on the sea and coasts, pillaging those who hoard treasure and pursuing monsters of the deep. Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Titan Mauler", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"big-game-hunter\">A titan mauler gains a +1 bonus on attack rolls and a +1 dodge bonus to AC in melee with creatures larger than themselves. This ability replaces fast movement. </p>", 
-                    "type": "ability", 
-                    "name": "Big Game Hunter", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"jotungrip\">At 2nd level, a titan mauler may choose to wield a two-handed weapon in one hand with a &ndash;2 penalty on attack rolls while doing so. The weapon must be appropriately sized for her, and it is treated as one-handed when determining the effect of Power Attack, Strength bonus to damage, and the like. This ability replaces uncanny dodge.</p>", 
-                    "type": "ability", 
-                    "name": "Jotungrip", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"massive-weapons\">At 3rd level, a titan mauler becomes skilled in the use of massive weapons looted from her titanic foes. The attack roll penalty for using weapons too large for her size is reduced by 1, and this reduction increases by 1 for every three levels beyond 3rd (to a minimum of 0). This ability replaces trap sense. </p>", 
-                    "type": "ability", 
-                    "name": "Massive Weapons", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"evade-reach\">At 5th level, as a swift action, a titan mauler may choose one creature within her line of sight. Until the end of her turn, that target's reach is treated as if it were 5 feet shorter with respect to reaching the titan mauler, and this reduction increases by 5 feet for every five levels beyond 5th. This ability replaces improved uncanny dodge.</p>", 
-                    "type": "ability", 
-                    "name": "Evade Reach", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"titanic-rage\">At 14th level, a titan mauler may choose to gain the benefits of <i>enlarge person</i> when she enters a rage. While using titanic rage, she must spend 2 rounds of rage per round, and she becomes exhausted rather than fatigued when the rage ends. This ability replaces indomitable will. </p>", 
-                    "type": "ability", 
-                    "name": "Titanic Rage", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-powers\">The following rage powers complement the titan mauler archetype: body bludgeon, greater ground breaker, ground breaker, knockback, mighty swing, powerful blow, smasher, and strength surge. </p>", 
-                    "type": "section", 
-                    "name": "Rage Powers"
-                }
-            ], 
-            "text": "<p>In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone tactics and traditions with one purpose&mdash;to bring low these massive foes. While her enemies' size makes the creatures strong, the titan mauler is even stronger, taking up weapons from her fallen foes that no lesser warrior can lift, and using them when she beseeches the spirits to grant her increased size and greater ferocity against her titanic foes. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "True Primitive", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">A true primitive is proficient with hide armor and armors made from bone. A true primitive is also proficient with bone shields and the following weapons: battleaxe, blowgun, club, greatclub, handaxe, longspear, shortspear, sling, and spear. </p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"illiteracy\">A true primitive cannot read or write, and her superstition about such things leads her to refuse to ever learn to read or write, even if she multiclasses into other classes.</p>", 
-                    "type": "section", 
-                    "name": "Illiteracy"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"favored-terrain\">A true primitive has a favored terrain representing her native homeland. This ability functions as the ranger class feature, and the true primitive's bonuses in that terrain improve by +2 at 5th level and every five levels thereafter. However, she does not gain any additional favored terrains. This ability replaces fast movement.</p>", 
-                    "type": "ability", 
-                    "name": "Favored Terrain", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"trophy-fetish\">A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength. At 3rd level, a true primitive can attach a trophy fetish to one of the traditional true primitive weapons listed above. When wielding that weapon, the true primitive gains a +1 morale bonus on damage rolls. Furthermore, if that weapon has the fragile property, once per day, the true primitive can ignore the effects of a single natural 1 roll. A trophy fetish can also be attached to a suit of hide armor, granting the true primitive a +1 morale bonus on saving throws. Furthermore, if that armor has the fragile property, once per day, the true primitive can chose not to have the armor break on the confirmation of a critical hit made against her. Every five levels beyond 3rd, a true primitive can use an additional trophy fetish. Multiple trophy fetishes can be attached to the same armor or weapon; their effects stack. A trophy fetish can be sundered (hardness 5, 1 hit point) but is not damaged by area attacks or attacks that do not specifically target it. It has no effect if attached to other types of weapons or armor. This ability replaces trap sense.</p>", 
-                    "type": "ability", 
-                    "name": "Trophy Fetish", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-powers\">The following rage powers complement the true primitive archetype: animal fury, eater of magic, ghost hunter, greater primal scent, low-light vision, night vision, primal scent, scent, spell sunder, sunder enchantment, superstition, and witch hunter.</p>", 
-                    "type": "section", 
-                    "name": "Rage Powers"
-                }
-            ], 
-            "text": "<p>Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent. They gain power from their truly primitive nature; their bodies and spirits are hardened by the wild and untainted existence far from the pathetic softness of so-called civilization. Even when forced to mingle with civilization, the true primitive stays apart in both traditions and trappings. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Urban Barbarian", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">An urban barbarian is not proficient with medium armor. </p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"skills\">An urban barbarian does not gain Handle Animal (Cha), Knowledge (nature) (Int), or Survival (Wis) as class skills; instead, she gains Diplomacy (Cha), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), and Profession (Wis) as class skills. </p>", 
-                    "type": "section", 
-                    "name": "Skills"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"crowd-control\">At 1st level, an urban barbarian gains a +1 bonus on attack rolls and a +1 dodge bonus to AC when adjacent to two or more enemies. In addition, her movement is not impeded by crowds, and she gains a bonus equal to 1/2 her barbarian level on Intimidate checks to influence crowds. This ability replaces fast movement. </p>", 
-                    "type": "ability", 
-                    "name": "Crowd Control", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"controlled-rage\">When an urban barbarian rages, instead of making a normal rage she may apply a +4 morale bonus to her Strength, Dexterity, or Constitution. This bonus increases to +6 when she gains greater rage and +8 when she gains mighty rage. She may apply the full bonus to one ability score or may split the bonus between several scores in increments of +2. When using a controlled rage, an urban barbarian gains no bonus on Will saves, takes no penalties to AC, and can still use Intelligence-, Dexterity-, and Charisma-based skills. This ability otherwise follows the normal rules for rage.</p>", 
-                    "type": "ability", 
-                    "name": "Controlled Rage", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-powers\">The following rage powers complement the urban barbarian archetype: boasting taunt, clear mind, deadly accuracy, guarded stance, intimidating glare, lethal accuracy, no escape, quick reflexes, perfect accuracy, sharpened accuracy, surprise accuracy, and unexpected strike.</p>", 
-                    "type": "section", 
-                    "name": "Rage Powers"
-                }
-            ], 
-            "text": "<p>Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on the trappings and ways of their adoptive homes and bend their savage powers to its challenges. While these urban barbarians' rough edges are smoothed into civility, they can use their primal nature and upbringing to move with the ebb and flow of civilization's natural rhythms. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Wild Rager", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"uncontrolled-rage\">A wild rager's rage functions as normal, except that when she reduces a creature to 0 or fewer hit points, she must attempt a Will save (DC 10 + the barbarian's level + the barbarian's Charisma modifier) or become confused. For the remainder of her current turn, she attacks the nearest creature other than herself. On the following round, refer to the <i>confusion</i> spell to determine her actions. At the end of this round, and each round thereafter, she can attempt a new saving throw to end the <i>confusion</i> effect. The rounds during which she is confused do not count against the rounds she has spent raging that day, but she cannot end her rage voluntarily, nor can she use rage powers while confused.</p>", 
-                    "type": "ability", 
-                    "name": "Uncontrolled Rage", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"wild-fighting\">At 2nd level, even when not raging, wild ragers often fight with reckless, savage abandon. A wild rager using the full-attack action can make one extra attack per round at her highest base attack bonus. Until the beginning of her next turn, however, she takes a &ndash;2 penalty on attack rolls and &ndash;4 penalty to AC. This ability replaces uncanny dodge. </p>", 
-                    "type": "ability", 
-                    "name": "Wild Fighting", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-conversion\">At 5th level, a wild rager who fails a saving throw against any mind-affecting effect can attempt a new saving throw at the beginning of her next turn. If the save succeeds, that effect ends and she instead rages and becomes confused as noted above. This ability replaces improved uncanny dodge.</p>", 
-                    "type": "ability", 
-                    "name": "Rage Conversion", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rage-powers\">The following rage powers complement the wild rager archetype: animal fury, bloody blow, body bludgeon, brawler, crippling blow, greater brawler, intimidating glare, mighty swing, no escape, powerful blow, and quick reflexes.</p>", 
-                    "type": "section", 
-                    "name": "Rage Powers"
-                }
-            ], 
-            "text": "<p>Rages are barely controlled, but there are those who wholly give in to their more savage side, letting their rages take them to a confusing and uncontrolled place of terrible savagery. These barbarians become beasts, consumed with absolute bloodlust to the point where they cannot tell friend from foe.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
+            ]
         }
     ]
 }

@@ -1,446 +1,439 @@
 {
     "source": "Advanced Player's Guide", 
+    "text": "<p>By their nature, rogues are varied and versatile. There are rogues who haunt the city, those who stalk the forest, and those who serve as agents of law. Wherever there is space for someone to make her mark with agility and wit, the rogue is there, using her wide range of skills and abilities to make a place for herself, whether openly or through cunning and subterfuge. And where a rogue's natural cunning and quick thinking aren't enough to win the day, well&mdash;there's always the option of a knife in the back.</p><p>The following rogue themes represent some of the most popular and effective roguish archetypes. Each archetype comes with one or more class features that must be taken. In addition, each archetype includes a number of new rogue talent suggestions that, while not mandatory, help to flesh out the character. Rogue talents and advanced rogue talents marked with an asterisk (*) in the archetype sections can be found in the <i>Pathfinder RPG Core Rulebook</i>.</p>", 
     "sections": [
         {
             "source": "Advanced Player's Guide", 
-            "text": "<p>By their nature, rogues are varied and versatile. There are rogues who haunt the city, those who stalk the forest, and those who serve as agents of law. Wherever there is space for someone to make her mark with agility and wit, the rogue is there, using her wide range of skills and abilities to make a place for herself, whether openly or through cunning and subterfuge. And where a rogue's natural cunning and quick thinking aren't enough to win the day, well&mdash;there's always the option of a knife in the back.</p><p>The following rogue themes represent some of the most popular and effective roguish archetypes. Each archetype comes with one or more class features that must be taken. In addition, each archetype includes a number of new rogue talent suggestions that, while not mandatory, help to flesh out the character. Rogue talents and advanced rogue talents marked with an asterisk (*) in the archetype sections can be found in the <i>Pathfinder RPG Core Rulebook</i>.</p>", 
+            "text": "<p id=\"rogue-talents\">The following new rogue talents can be taken by any rogue who meets the prerequisites. Note that rogue talents marked with a double asterisk (**) in this list add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the attack roll is made.</p>", 
             "type": "section", 
-            "name": "Rogue", 
+            "name": "Rogue Talents", 
             "sections": [
                 {
+                    "name": "Assault Leader", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"assault-leader\">Once per day, when the rogue misses with an attack on a flanked opponent, she can designate a single ally who is also flanking the target that her attack missed. That ally can make a single melee attack against the opponent as an immediate action.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
                     "source": "Advanced Player's Guide", 
-                    "text": "<p id=\"rogue-talents\">The following new rogue talents can be taken by any rogue who meets the prerequisites. Note that rogue talents marked with a double asterisk (**) in this list add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the attack roll is made.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents", 
-                    "sections": [
-                        {
-                            "name": "Assault Leader", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"assault-leader\">Once per day, when the rogue misses with an attack on a flanked opponent, she can designate a single ally who is also flanking the target that her attack missed. That ally can make a single melee attack against the opponent as an immediate action.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Befuddling Strike**", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"befuddling-strike**\">When the rogue deals sneak attack damage against an opponent, that opponent takes a &ndash;2 penalty on attack rolls against the rogue for 1d4 rounds. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Camouflage", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"camouflage\">Once per day, a rogue with this talent can craft simple but effective camouflage from the surrounding foliage. The rogue needs 1 minute to prepare the camouflage, but once she does, it is good for the rest of the day or until the rogue fails a saving throw against an area effect spell that deals fire, cold, or acid damage, whichever comes first. The rogue gains a +4 bonus on Stealth checks while within terrain that matches the foliage used to make the camouflage. This ability cannot be used in areas without natural foliage.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Canny Observer", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"canny-observer\">When a rogue with this talent makes a Perception check to hear the details of a conversation or to find concealed or secret objects (including doors and traps), she gains a +4 bonus.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Charmer", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"charmer\">Once per day, the rogue can roll two dice while making a Diplomacy check, and take the better result. She must choose to use this talent before making the Diplomacy check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Coax Information", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"coax-information\">A rogue with this talent can use Bluff or Diplomacy in place of Intimidate to force an opponent to act friendly toward her. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "source": "Advanced Player's Guide", 
-                            "text": "<p id=\"combat-swipe\">A rogue who selects this talent gains Improved Steal as a bonus feat.</p>", 
-                            "type": "section", 
-                            "name": "Combat Swipe", 
-                            "subtype": "rogue_talent"
-                        }, 
-                        {
-                            "name": "Cunning Trigger", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"cunning-trigger\">A rogue with this talent can use a swift action to set off any trap within 30 feet that she constructed. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Distracting Attack**", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"distracting-attack**\">A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy. When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become flat-footed against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent. Creatures with uncanny dodge are immune to distracting attack.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Expert Leaper", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"expert-leaper\">When making jump checks, the rogue is always considered to have a running start. Also, when the rogue deliberately falls, a DC 15 Acrobatics check allows her to ignore the first 20 feet fallen, instead of the first 10 feet. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Fast Fingers", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"fast-fingers\">Once per day, a rogue with this talent can roll two dice while making a Sleight of Hand check and take the better result. She must choose to use this talent before making the Sleight of Hand check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Fast Getaway", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"fast-getaway\">After successfully making a sneak attack or Sleight of Hand check, a rogue with this talent can spend a move action to take the withdraw action. She can move no more than her speed during this movement. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Fast Picks", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"fast-picks\">A rogue with this talent can use the Disable Device skill to attempt to open a lock as a standard action instead of a full-round action. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Follow Clues", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"follow-clues\">A rogue with this talent can use Perception to follow tracks as per the Survival skill.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Guileful Polyglot", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"guileful-polyglot\">A rogue with this talent who has at least one rank in Linguistics gains four additional languages. A rogue with this talent who does not have any ranks in Linguistics gains two additional languages. If the rogue later gains ranks in Linguistics, she gains two additional languages, to a total of four additional languages above those granted by the Linguistics skill itself.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Hard to Fool", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"hard-to-fool\">Once per day, a rogue with this talent can roll two dice while making a Sense Motive check, and take the better result. She must choose to use this talent before making the Sense Motive check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Honeyed Words", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"honeyed-words\">Once per day, the rogue can roll two dice while making a Bluff check, and take the better result. She must choose to use this talent before making the Bluff check. A rogue can use this ability one additional time per day for every five rogue levels she possesses.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Lasting Poison", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"lasting-poison\">A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a full-round action, or a standard action if the rogue has the swift poison talent.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Nimble Climber", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"nimble-climber\">When a rogue with this talent fails a Climb check by 5 or more, she can immediately make another Climb check at the surface's base DC +10. If successful, she stops her fall by clinging onto the surface. The rogue does not take falling damage when she stops her fall in this manner.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Offensive Defense**", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"offensive-defense**\">When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the rogue gains a +1 dodge bonus to AC for each sneak attack die rolled for 1 round. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Peerless Maneuver", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"peerless-maneuver\">Once per day, a rogue with this talent can roll two dice while making an Acrobatics check, and take the better result. She must choose to use this talent before making the Acrobatics check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Positioning Attack", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"positioning-attack\">Once per day, when a rogue with this talent hits a creature with a melee attack, she can move up to 30 feet without provoking attacks of opportunity. The movement must end in a space adjacent to the creature hit with the melee attack. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Powerful Sneak**", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"powerful-sneak**\">Whenever a rogue with this talent takes a full attack action, she can elect to take a &ndash;2 penalty on all attack rolls until the start of her next turn. If an attack during this time is a sneak attack, she treats all 1s on the sneak attack damage dice as 2s. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "sections": [
-                                {
-                                    "text": "<table>\n<thead><tr><th>Disguise</th><th>Time</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Minor details only</td><td>1 full-round action</td></tr>\n<tr class=\"even\"><td>Disguise as a different gender</td><td>1 minute</td></tr>\n<tr class=\"odd\"><td>Disguise as a different race</td><td>1 minute</td></tr>\n<tr class=\"even\"><td>Disguise as a different age category</td><td>1 minute</td></tr>\n<tr class=\"odd\"><td>Disguise as a different size category</td><td>1 minute</td></tr></tbody></table>", 
-                                    "type": "table", 
-                                    "name": "Disguise", 
-                                    "source": "Advanced Player's Guide"
-                                }
-                            ], 
-                            "name": "Quick Disguise", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"quick-disguise\">A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her person to create startlingly effective disguises, reducing the amount of time it takes to create a disguise using the Disguise skill. </p><p>The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Quick Trapsmith", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"quick-trapsmith\">As a full-round action, a rogue with this talent can set a simple trap with a CR no greater than 1/2 her rogue level. To do this, she must purchase the components, spend the required time constructing the trap in advance, and have its components at hand. The type of trap that can be constructed in this way is subject to GM discretion.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Snap Shot", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"snap-shot\">A rogue with this talent may treat her intitiative roll as a 20 for a surprise round, regardless of her initiative, but she may only take an attack action with a ranged weapon. Her normal initiative roll is used in subsequent rounds. If two or more rogues possess this talent, their initiative determines the order in which they act, but they all go before any other creature. If a rogue is prevented from acting in the surprise round, this talent has no effect. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Sniper's Eye", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"sniper's-eye\">A rogue with this talent can apply her sneak attack damage on ranged attacks targeting foes within 30 feet that benefit from concealment. Foes with total concealment are still immune. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "source": "Advanced Player's Guide", 
-                            "text": "<p id=\"strong-impression\">A rogue who selects this talent gains Intimidating Prowess as a bonus feat. </p>", 
-                            "type": "section", 
-                            "name": "Strong Impression", 
-                            "subtype": "rogue_talent"
-                        }, 
-                        {
-                            "source": "Advanced Player's Guide", 
-                            "text": "<p id=\"survivalist\">A rogue with this talent adds Heal and Survival to her list of class skills.</p>", 
-                            "type": "section", 
-                            "name": "Survivalist", 
-                            "subtype": "rogue_talent"
-                        }, 
-                        {
-                            "name": "Swift Poison", 
-                            "subtype": "rogue_talent", 
-                            "text": "<p id=\"swift-poison\">A rogue with this talent can apply poison to a weapon as a move action, instead of a standard action.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }
-                    ]
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Befuddling Strike**", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"befuddling-strike**\">When the rogue deals sneak attack damage against an opponent, that opponent takes a &ndash;2 penalty on attack rolls against the rogue for 1d4 rounds. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Camouflage", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"camouflage\">Once per day, a rogue with this talent can craft simple but effective camouflage from the surrounding foliage. The rogue needs 1 minute to prepare the camouflage, but once she does, it is good for the rest of the day or until the rogue fails a saving throw against an area effect spell that deals fire, cold, or acid damage, whichever comes first. The rogue gains a +4 bonus on Stealth checks while within terrain that matches the foliage used to make the camouflage. This ability cannot be used in areas without natural foliage.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Canny Observer", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"canny-observer\">When a rogue with this talent makes a Perception check to hear the details of a conversation or to find concealed or secret objects (including doors and traps), she gains a +4 bonus.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Charmer", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"charmer\">Once per day, the rogue can roll two dice while making a Diplomacy check, and take the better result. She must choose to use this talent before making the Diplomacy check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Coax Information", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"coax-information\">A rogue with this talent can use Bluff or Diplomacy in place of Intimidate to force an opponent to act friendly toward her. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
                 }, 
                 {
                     "source": "Advanced Player's Guide", 
-                    "text": "<p id=\"advanced-rogue-talents\">The following new advanced rogue talents can be selected by any rogue of 10th level or higher who meets the prerequisites.</p>", 
+                    "text": "<p id=\"combat-swipe\">A rogue who selects this talent gains Improved Steal as a bonus feat.</p>", 
                     "type": "section", 
-                    "name": "Advanced Rogue Talents", 
+                    "name": "Combat Swipe", 
+                    "subtype": "rogue_talent"
+                }, 
+                {
+                    "name": "Cunning Trigger", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"cunning-trigger\">A rogue with this talent can use a swift action to set off any trap within 30 feet that she constructed. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Distracting Attack**", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"distracting-attack**\">A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy. When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become flat-footed against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent. Creatures with uncanny dodge are immune to distracting attack.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Expert Leaper", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"expert-leaper\">When making jump checks, the rogue is always considered to have a running start. Also, when the rogue deliberately falls, a DC 15 Acrobatics check allows her to ignore the first 20 feet fallen, instead of the first 10 feet. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Fast Fingers", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"fast-fingers\">Once per day, a rogue with this talent can roll two dice while making a Sleight of Hand check and take the better result. She must choose to use this talent before making the Sleight of Hand check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Fast Getaway", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"fast-getaway\">After successfully making a sneak attack or Sleight of Hand check, a rogue with this talent can spend a move action to take the withdraw action. She can move no more than her speed during this movement. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Fast Picks", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"fast-picks\">A rogue with this talent can use the Disable Device skill to attempt to open a lock as a standard action instead of a full-round action. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Follow Clues", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"follow-clues\">A rogue with this talent can use Perception to follow tracks as per the Survival skill.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Guileful Polyglot", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"guileful-polyglot\">A rogue with this talent who has at least one rank in Linguistics gains four additional languages. A rogue with this talent who does not have any ranks in Linguistics gains two additional languages. If the rogue later gains ranks in Linguistics, she gains two additional languages, to a total of four additional languages above those granted by the Linguistics skill itself.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Hard to Fool", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"hard-to-fool\">Once per day, a rogue with this talent can roll two dice while making a Sense Motive check, and take the better result. She must choose to use this talent before making the Sense Motive check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Honeyed Words", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"honeyed-words\">Once per day, the rogue can roll two dice while making a Bluff check, and take the better result. She must choose to use this talent before making the Bluff check. A rogue can use this ability one additional time per day for every five rogue levels she possesses.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Lasting Poison", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"lasting-poison\">A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a full-round action, or a standard action if the rogue has the swift poison talent.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Nimble Climber", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"nimble-climber\">When a rogue with this talent fails a Climb check by 5 or more, she can immediately make another Climb check at the surface's base DC +10. If successful, she stops her fall by clinging onto the surface. The rogue does not take falling damage when she stops her fall in this manner.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Offensive Defense**", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"offensive-defense**\">When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the rogue gains a +1 dodge bonus to AC for each sneak attack die rolled for 1 round. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Peerless Maneuver", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"peerless-maneuver\">Once per day, a rogue with this talent can roll two dice while making an Acrobatics check, and take the better result. She must choose to use this talent before making the Acrobatics check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Positioning Attack", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"positioning-attack\">Once per day, when a rogue with this talent hits a creature with a melee attack, she can move up to 30 feet without provoking attacks of opportunity. The movement must end in a space adjacent to the creature hit with the melee attack. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Powerful Sneak**", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"powerful-sneak**\">Whenever a rogue with this talent takes a full attack action, she can elect to take a &ndash;2 penalty on all attack rolls until the start of her next turn. If an attack during this time is a sneak attack, she treats all 1s on the sneak attack damage dice as 2s. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
                     "sections": [
                         {
-                            "name": "Another Day", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"another-day\">Once per day, when the rogue would be reduced to 0 or fewer hit points by a melee attack, she can take a 5-foot step as an immediate action. If the movement takes her out of the reach of the attack, she takes no damage from the attack. The rogue is staggered for 1 round on her next turn.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Deadly Cocktail", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"deadly-cocktail\">A rogue with this talent can apply two doses of poison to a weapon at once. These can be separate poisons, in which case they both affect the target individually, or two doses of the same toxin, in which case the poisons' frequency is extended by 50% and the save DC increases by +2. This talent is an exception to the rule that injury poisons can only be delivered one dose at a time.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Deadly Sneak**", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"deadly-sneak**\">Whenever a rogue with this talent uses the powerful sneak rogue talent, she treats all 1s and 2s on the sneak attack damage dice as 3s. A rogue must have the powerful sneak rogue talent before choosing this talent.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Entanglement of Blades**", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"entanglement-of-blades**\">When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the target cannot take a 5-foot step until the beginning of the rogue's next turn. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Fast Tumble", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"fast-tumble\">When a rogue with this talent uses Acrobatics to move at full speed through a threatened square without provoking an attack of opportunity, the DC of the Acrobatics check does not increase by 10. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Frugal Trapsmith", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"frugal-trapsmith\">When a rogue with this talent constructs a mechanical trap, she only pays 75% of the normal cost. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Hunter's Surprise", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"hunter's-surprise\">Once per day, a rogue with this talent can designate a single enemy she is adjacent to as her prey. Until the end of her next turn, she can add her sneak attack damage to all attacks made against her prey, even if she is not flanking it or it is not flat-footed.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Knock-Out Blow", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"knock-out-blow\">Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an opponent. She must declare the use of knock-out blow before she makes the attack. If the attack hits, it does normal damage, but instead of dealing sneak attack damage (and instead of any effect that triggers when the rogue deals sneak attack damage), the target falls unconscious for 1d4 rounds. A successful Fortitude save reduces this effect to staggered for 1 round. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Master of Disguise", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"master-of-disguise\">Once per day, a rogue with this talent gains a +10 bonus on a single Disguise check. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Redirect Attack", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"redirect-attack\">Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack to strike at an adjacent creature with a free action. The creature targeted must be within melee reach of the attack that hit the rogue, and the creature that made the attack against the rogue must make a new attack roll against the new target. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Stealthy Sniper", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"stealthy-sniper\">When a rogue with this talent uses the Stealth skill to snipe, she only suffers a &ndash;10 penalty on the Stealth check, instead of &ndash;20. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "name": "Thoughtful Reexamining", 
-                            "subtype": "rogue_advanced_talent", 
-                            "text": "<p id=\"thoughtful-reexamining\">Once per day, a rogue with this talent can reroll a Knowledge, Sense Motive, or Perception skill check to try to gain new or better information from the roll. This reroll can be made any time during the same day as the original check. </p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Advanced Player's Guide", 
-                            "type": "ability"
+                            "text": "<table>\n<thead><tr><th>Disguise</th><th>Time</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Minor details only</td><td>1 full-round action</td></tr>\n<tr class=\"even\"><td>Disguise as a different gender</td><td>1 minute</td></tr>\n<tr class=\"odd\"><td>Disguise as a different race</td><td>1 minute</td></tr>\n<tr class=\"even\"><td>Disguise as a different age category</td><td>1 minute</td></tr>\n<tr class=\"odd\"><td>Disguise as a different size category</td><td>1 minute</td></tr></tbody></table>", 
+                            "type": "table", 
+                            "name": "Disguise", 
+                            "source": "Advanced Player's Guide"
                         }
-                    ]
+                    ], 
+                    "name": "Quick Disguise", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"quick-disguise\">A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her person to create startlingly effective disguises, reducing the amount of time it takes to create a disguise using the Disguise skill. </p><p>The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Quick Trapsmith", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"quick-trapsmith\">As a full-round action, a rogue with this talent can set a simple trap with a CR no greater than 1/2 her rogue level. To do this, she must purchase the components, spend the required time constructing the trap in advance, and have its components at hand. The type of trap that can be constructed in this way is subject to GM discretion.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Snap Shot", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"snap-shot\">A rogue with this talent may treat her intitiative roll as a 20 for a surprise round, regardless of her initiative, but she may only take an attack action with a ranged weapon. Her normal initiative roll is used in subsequent rounds. If two or more rogues possess this talent, their initiative determines the order in which they act, but they all go before any other creature. If a rogue is prevented from acting in the surprise round, this talent has no effect. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Sniper's Eye", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"sniper's-eye\">A rogue with this talent can apply her sneak attack damage on ranged attacks targeting foes within 30 feet that benefit from concealment. Foes with total concealment are still immune. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "source": "Advanced Player's Guide", 
+                    "text": "<p id=\"strong-impression\">A rogue who selects this talent gains Intimidating Prowess as a bonus feat. </p>", 
+                    "type": "section", 
+                    "name": "Strong Impression", 
+                    "subtype": "rogue_talent"
+                }, 
+                {
+                    "source": "Advanced Player's Guide", 
+                    "text": "<p id=\"survivalist\">A rogue with this talent adds Heal and Survival to her list of class skills.</p>", 
+                    "type": "section", 
+                    "name": "Survivalist", 
+                    "subtype": "rogue_talent"
+                }, 
+                {
+                    "name": "Swift Poison", 
+                    "subtype": "rogue_talent", 
+                    "text": "<p id=\"swift-poison\">A rogue with this talent can apply poison to a weapon as a move action, instead of a standard action.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Player's Guide", 
+            "text": "<p id=\"advanced-rogue-talents\">The following new advanced rogue talents can be selected by any rogue of 10th level or higher who meets the prerequisites.</p>", 
+            "type": "section", 
+            "name": "Advanced Rogue Talents", 
+            "sections": [
+                {
+                    "name": "Another Day", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"another-day\">Once per day, when the rogue would be reduced to 0 or fewer hit points by a melee attack, she can take a 5-foot step as an immediate action. If the movement takes her out of the reach of the attack, she takes no damage from the attack. The rogue is staggered for 1 round on her next turn.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Deadly Cocktail", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"deadly-cocktail\">A rogue with this talent can apply two doses of poison to a weapon at once. These can be separate poisons, in which case they both affect the target individually, or two doses of the same toxin, in which case the poisons' frequency is extended by 50% and the save DC increases by +2. This talent is an exception to the rule that injury poisons can only be delivered one dose at a time.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Deadly Sneak**", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"deadly-sneak**\">Whenever a rogue with this talent uses the powerful sneak rogue talent, she treats all 1s and 2s on the sneak attack damage dice as 3s. A rogue must have the powerful sneak rogue talent before choosing this talent.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Entanglement of Blades**", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"entanglement-of-blades**\">When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the target cannot take a 5-foot step until the beginning of the rogue's next turn. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Fast Tumble", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"fast-tumble\">When a rogue with this talent uses Acrobatics to move at full speed through a threatened square without provoking an attack of opportunity, the DC of the Acrobatics check does not increase by 10. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Frugal Trapsmith", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"frugal-trapsmith\">When a rogue with this talent constructs a mechanical trap, she only pays 75% of the normal cost. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Hunter's Surprise", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"hunter's-surprise\">Once per day, a rogue with this talent can designate a single enemy she is adjacent to as her prey. Until the end of her next turn, she can add her sneak attack damage to all attacks made against her prey, even if she is not flanking it or it is not flat-footed.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Knock-Out Blow", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"knock-out-blow\">Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an opponent. She must declare the use of knock-out blow before she makes the attack. If the attack hits, it does normal damage, but instead of dealing sneak attack damage (and instead of any effect that triggers when the rogue deals sneak attack damage), the target falls unconscious for 1d4 rounds. A successful Fortitude save reduces this effect to staggered for 1 round. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Master of Disguise", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"master-of-disguise\">Once per day, a rogue with this talent gains a +10 bonus on a single Disguise check. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Redirect Attack", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"redirect-attack\">Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack to strike at an adjacent creature with a free action. The creature targeted must be within melee reach of the attack that hit the rogue, and the creature that made the attack against the rogue must make a new attack roll against the new target. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Stealthy Sniper", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"stealthy-sniper\">When a rogue with this talent uses the Stealth skill to snipe, she only suffers a &ndash;10 penalty on the Stealth check, instead of &ndash;20. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Thoughtful Reexamining", 
+                    "subtype": "rogue_advanced_talent", 
+                    "text": "<p id=\"thoughtful-reexamining\">Once per day, a rogue with this talent can reroll a Knowledge, Sense Motive, or Perception skill check to try to gain new or better information from the roll. This reroll can be made any time during the same day as the original check. </p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
                 }
             ]
         }, 
