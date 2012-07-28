@@ -728,430 +728,438 @@
             ]
         }, 
         {
-            "name": "Dragon Shaman", 
+            "source": "Ultimate Magic", 
+            "type": "section", 
+            "name": "Druid Archetypes", 
+            "create_index": true,
             "sections": [
                 {
+                    "name": "Dragon Shaman", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"nature-bond\">A dragon shaman who chooses an animal companion must select a crocodile or monitor lizard. If choosing a domain, the dragon shaman must choose from the Air, Animal, Destruction, Earth, Fire, War, and Water domains.</p>", 
+                            "type": "section", 
+                            "name": "Nature Bond"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wild-empathy\">A dragon shaman can use her wild empathy ability with lizards as a full-round action with a +4 bonus. </p>", 
+                            "type": "ability", 
+                            "name": "Wild Empathy", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"totem-transformation\">At 2nd level, a dragon shaman may adopt an aspect of the dragon while retaining her normal form. She gains one of the following bonuses: movement (fly speed 30 feet [average], the druid must be 5th level to select this bonus), senses (low-light vision, +4 racial bonus to Perception), toughness (+2 natural armor bonus to AC, Endurance feat), or natural weapons (bite [1d6] and 2 claws [1d4] for a Medium shaman, +2 bonus on CMB on grapple checks). While using totem transformation, the dragon shaman may speak normally and can cast <i>speak with animals</i> (lizards only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The dragon shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape.</p>", 
+                            "type": "ability", 
+                            "name": "Totem Transformation", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"totemic-summons\">At 5th level, a dragon shaman may cast <i>summon nature's ally</i> as a standard action when summoning lizards, and summoned lizards gain temporary hit points equal to her druid level. She can apply the young template to any lizard to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the advanced or the giant template, or increase it by two to apply both the advanced and giant templates. This ability replaces a thousand faces.</p>", 
+                            "type": "ability", 
+                            "name": "Totemic Summons", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wild-shape\">At 6th level, a dragon shaman's wild shape ability functions at her druid level &ndash; 4. If she takes on the form of a lizard, she instead uses her unmodified druid level.</p>", 
+                            "type": "ability", 
+                            "name": "Wild Shape", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"dragon-bite\">At 8th level, a dragon shaman's bite attack (whether using totem transformation or wild shape to take the form of a lizard) deals +1d6 points of energy damage (acid, cold, electricity, or fire). She chooses what kind of energy damage that she deals each time she bites. This ability replaces the additional use of wild shape at 8th level.</p>", 
+                            "type": "ability", 
+                            "name": "Dragon Bite", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a dragon shaman gains one of the following bonus feats: Combat Casting, Dazzling Display, Magical Aptitude, Skill Focus (Knowledge [arcana]), and Spell Penetration. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
+                            "type": "section", 
+                            "name": "Bonus Feat"
+                        }
+                    ], 
+                    "text": "<p>Your totem is the legendary dragon, fearsome and deadly yet cunning and wise, a creature born of pure magic and raw elemental fury, bound within a shell of fangs, claws, and scales that few dare to challenge. Though your initial focus is on dragons' mundane cousins, as your powers grow you become attuned to actual dragons.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"nature-bond\">A dragon shaman who chooses an animal companion must select a crocodile or monitor lizard. If choosing a domain, the dragon shaman must choose from the Air, Animal, Destruction, Earth, Fire, War, and Water domains.</p>", 
-                    "type": "section", 
-                    "name": "Nature Bond"
+                    "type": "class_archetype",
+                    "subtype": "druid"
                 }, 
                 {
+                    "name": "Menhir Savant", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"spirit-sense\">At 1st level, a menhir savant can detect the presence of undead; fey; outsiders; and astral, ethereal, or incorporeal creatures. This ability functions like <i>detect undead</i>, and the druid detects all of these creatures rather than trying to detect one kind. This ability replaces nature sense and wild empathy.</p>", 
+                            "type": "ability", 
+                            "name": "Spirit Sense", 
+                            "ability_types": [
+                                "Spell-Like"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"place-magic\">At 2nd level, a menhir savant learns to identify and tap into ley lines in different types of terrain. As a free action, she can tap into the magic of a nearby ley line and increase her caster level by +1 for 1 round. She can use this ability a number of times per day equal to 3 + her Wisdom bonus. This ability replaces woodland stride and trackless step.</p>", 
+                            "type": "ability", 
+                            "name": "Place Magic", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"walk-the-lines\">At 9th level, a menhir savant can use her connection to ley lines to cast <i>transport via plants</i> a number of times per day equal to her Wisdom bonus.</p>", 
+                            "type": "ability", 
+                            "name": "Walk the Lines", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"empty-body\">At 13th level, a menhir savant can become ethereal as a standard action, as if using <i>ethereal jaunt</i>. She can remain ethereal for a number of rounds per day equal to her druid level. These rounds do not need to be consecutive. This ability replaces a thousand faces. </p>", 
+                            "type": "ability", 
+                            "name": "Empty Body", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Some druids study the paths of nature's power through the nodes and ley lines that connect standing stones and megalithic circles, learning to tap into their energies.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"wild-empathy\">A dragon shaman can use her wild empathy ability with lizards as a full-round action with a +4 bonus. </p>", 
-                    "type": "ability", 
-                    "name": "Wild Empathy", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "druid"
                 }, 
                 {
+                    "name": "Mooncaller", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"night-sight\">At 2nd level, a mooncaller gains low-light vision. If she already has low-light vision, she gains darkvision with a range of 30 feet. If she already has darkvision, the range of her darkvision is increased by 30 feet. This ability replaces woodland stride. </p>", 
+                            "type": "ability", 
+                            "name": "Night Sight", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"resist-call-of-the-wild\">At 4th level, a mooncaller gains a +4 bonus on saving throws to avoid confusion, daze, feeblemind, and insanity effects. She also gains a +4 bonus against the exceptional, spell-like, and supernatural abilities of creatures with the shapechanger subtype. This ability replaces resist nature's lure. </p>", 
+                            "type": "ability", 
+                            "name": "Resist Call of the Wild", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"purity-of-body\">At 9th level, a mooncaller gains immunity to all diseases, including supernatural and magical diseases. This ability replaces venom immunity. </p>", 
+                            "type": "ability", 
+                            "name": "Purity of Body", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wolfsbane\">At 13th level, a mooncaller gains DR 3/silver, increasing to DR 4/silver at 16th level and DR 5/silver at 19th level. This ability replaces a thousand faces. </p>", 
+                            "type": "ability", 
+                            "name": "Wolfsbane", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from light to dark and back again. </p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"totem-transformation\">At 2nd level, a dragon shaman may adopt an aspect of the dragon while retaining her normal form. She gains one of the following bonuses: movement (fly speed 30 feet [average], the druid must be 5th level to select this bonus), senses (low-light vision, +4 racial bonus to Perception), toughness (+2 natural armor bonus to AC, Endurance feat), or natural weapons (bite [1d6] and 2 claws [1d4] for a Medium shaman, +2 bonus on CMB on grapple checks). While using totem transformation, the dragon shaman may speak normally and can cast <i>speak with animals</i> (lizards only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The dragon shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape.</p>", 
-                    "type": "ability", 
-                    "name": "Totem Transformation", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "druid"
                 }, 
                 {
+                    "name": "Pack Lord", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"pack-bond\">A pack lord druid may not select a domain and must choose an animal companion. The druid gains a +2 bonus on wild empathy and Handle Animal checks made regarding her animal companion. The pack lord may have more than one animal companion, but she must divide up her effective druid level between her companions to determine the abilities of each companion. For example, a 4th-level pack lord can have one 4th-level companion, two 2nd-level companions, or one 1st-level and one 3rd-level companion.</p><p>Each time a pack lord's druid level increases, she must decide how to allocate the increase among her animal companions (including the option of adding a new 1st-level companion). Once a druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the pack lord's service (she must release the companion or wait until the companion dies to allocate its levels to another companion, which she can do the next time she prepares spells). The share spells animal companion ability only applies to one animal companion at a time&mdash;the pack lord cannot use it to cast a one-target spell and have it affect all of her animal companions. This ability replaces nature bond.</p>", 
+                            "type": "ability", 
+                            "name": "Pack Bond", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"improved-empathic-link\">The pack lord gains an empathic link with all of her animal companions. This functions like an empathic link with a familiar. In addition, as a swift action the pack lord can shift her perception to one of her companions, allowing her to experience what it sees, hears, and so on. She can maintain this connection as long as she likes (as long as the companion is within 1 mile) and end it as a free action. The druid can only use this ability on one companion at a time, and cannot see, hear, or smell with her own body while maintaining this connection. This ability replaces the 6th-level additional use of wild shape.</p>", 
+                            "type": "ability", 
+                            "name": "Improved Empathic Link", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Some druids bond with many animal companions rather than just one, achieving a level of communion rare even in druidic circles and leading their pack brothers and pack sisters with total authority.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"totemic-summons\">At 5th level, a dragon shaman may cast <i>summon nature's ally</i> as a standard action when summoning lizards, and summoned lizards gain temporary hit points equal to her druid level. She can apply the young template to any lizard to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the advanced or the giant template, or increase it by two to apply both the advanced and giant templates. This ability replaces a thousand faces.</p>", 
-                    "type": "ability", 
-                    "name": "Totemic Summons", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "druid"
                 }, 
                 {
+                    "name": "Reincarnated Druid", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"mysterious-stranger\">At 2nd level, a reincarnated druids adds 1/2 her druid level to the DC of Sense Motive, Diplomacy, and Knowledge checks to learn about her. This ability replaces woodland stride.</p>", 
+                            "type": "ability", 
+                            "name": "Mysterious Stranger", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"resist-death's-touch\">At 4th level, a reincarnated druid gains a +4 bonus on saving throws against death effects, energy drain, and necromancy effects, and on stabilization checks when dying. This ability replaces resist nature's lure.</p>", 
+                            "type": "ability", 
+                            "name": "Resist Death's Touch", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"many-lives\">At 5th level, if a reincarnated druid is killed, she may automatically <i>reincarnate</i> (as the spell) 1 day later. The reincarnated druid appears in a safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the presence of her remains as if using <i>locate object</i> as a spell-like ability. If she is killed during these 7 days, she remains dead and does not reincarnate. The many lives ability does not function ifthe reincarnated druid is slain by a death effect. A reincarnated druid cannot be raised from the dead or resurrected, though she can be reincarnated.</p>", 
+                            "type": "ability", 
+                            "name": "Many Lives", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wild-shape\">A reincarnated druid gains this ability at 6th level, and it functions at her druid level &ndash; 2.</p>", 
+                            "type": "ability", 
+                            "name": "Wild Shape", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"cheat-death\">At 9th level, once per day, a reincarnated druid may reroll a save against a death effect, energy drain, or necromancy effect before the result of the roll is revealed, or reroll a failed stabilization check while dying. She must take the result of the second roll, even if it is worse than the original roll. This ability replaces venom immunity. </p>", 
+                            "type": "ability", 
+                            "name": "Cheat Death", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"tongue-of-the-sun-and-moon\">At 15th level, a reincarnated druid can speak with any living creature. This ability replaces timeless body.</p>", 
+                            "type": "ability", 
+                            "name": "Tongue of the Sun and Moon", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Spun off into the endless circle of life, an incarnate druid is an embodiment of nature's eternal renewal. She lives many lives and wanders the world devoid of attachments, a stranger to all yet one with all life.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"wild-shape\">At 6th level, a dragon shaman's wild shape ability functions at her druid level &ndash; 4. If she takes on the form of a lizard, she instead uses her unmodified druid level.</p>", 
-                    "type": "ability", 
-                    "name": "Wild Shape", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "druid"
                 }, 
                 {
+                    "name": "Saurian Shaman", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"nature-bond\">A saurian shaman who chooses an animal companion must select a dinosaur. If choosing a domain, a saurian shaman must choose from the Animal, Destruction, Strength, and War domains.</p>", 
+                            "type": "section", 
+                            "name": "Nature Bond"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wild-empathy\">A saurian shaman can use wild empathy with dinosaurs and reptiles as a full-round action with a +4 bonus. </p>", 
+                            "type": "ability", 
+                            "name": "Wild Empathy", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"totem-transformation\">At 2nd level, a saurian shaman may adopt an aspect of the saurian while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (+10 enhancement bonus to land speed), scales (+2 natural armor bonus to AC), senses (low-light vision, scent), or natural weapons (bite [1d6], 2 claws [1d4] for a Medium druid, rake, +2 CMB to grapple). While using totem transformation, a saurian shaman may speak normally and can cast <i>speak with animals</i> (reptiles and dinosaurs only) at will. </p>", 
+                            "type": "ability", 
+                            "name": "Totem Transformation", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"totemic-summons\">At 5th level, a saurian shaman may cast <i>summon nature's ally</i> as a standard action when summoning reptiles and dinosaurs, and these summoned creatures gain temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability. </p>", 
+                            "type": "ability", 
+                            "name": "Totemic Summons", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wild-shape\">At 6th level, a saurian shaman's wild shape ability functions at her druid level &ndash;2. If she takes on the form of a reptile or a dinosaur, she instead uses her druid level +2.</p>", 
+                            "type": "ability", 
+                            "name": "Wild Shape", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a saurian shaman gains one of the following bonus feats: Improved Overrun, Nimble Moves, Power Attack, Skill Focus (Intimidate), or Vital Strike. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
+                            "type": "section", 
+                            "name": "Bonus Feat"
+                        }
+                    ], 
+                    "text": "<p>A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread. </p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"dragon-bite\">At 8th level, a dragon shaman's bite attack (whether using totem transformation or wild shape to take the form of a lizard) deals +1d6 points of energy damage (acid, cold, electricity, or fire). She chooses what kind of energy damage that she deals each time she bites. This ability replaces the additional use of wild shape at 8th level.</p>", 
-                    "type": "ability", 
-                    "name": "Dragon Bite", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "druid"
                 }, 
                 {
+                    "name": "Shark Shaman", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"nature-bond\">A shark shaman who chooses an animal companion must select a shark. If choosing a domain, a shark shaman may choose the Animal, Death, War, or Water domain.</p>", 
+                            "type": "section", 
+                            "name": "Nature Bond"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wild-empathy\">A shark shaman can use wild empathy with fish as a full-round action with a +4 bonus. </p>", 
+                            "type": "ability", 
+                            "name": "Wild Empathy", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"totem-transformation\">At 2nd level, a shark shaman may adopt an aspect of the shark while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (can breathe water, swim speed 30 feet), senses (scent 30 feet, scent 90 feet in water), natural weapons (bite 1d6 for a Medium shaman), or shark skin (+2 natural armor, creatures grappling the shaman take 1 point of slashing damage per round of grapple). While using totem transformation, the shark shaman may speak normally and can cast <i>speak with animals</i> (fish only) at will. </p>", 
+                            "type": "ability", 
+                            "name": "Totem Transformation", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"totemic-summons\">At 5th level, a shark shaman may use <i>summon nature's ally I</i> to summon a stingray and <i>summon nature's ally II</i> to summon a manta ray. She may cast <i>summon nature's ally</i> as a standard action when summoning rays and sharks, and summond rays and sharks gain a number of temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability.</p>", 
+                            "type": "ability", 
+                            "name": "Totemic Summons", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wild-shape\">At 6th level, a shark shaman's wild shape ability functions at her druid level &ndash;2. If she takes on the form of a shark, she instead uses her druid level +2. </p>", 
+                            "type": "ability", 
+                            "name": "Wild Shape", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats: Bleeding Critical, Improved Initiative, Lightning Reflexes, Self-Sufficient, or Skill Focus (Swim). She must meet prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
+                            "type": "section", 
+                            "name": "Bonus Feat"
+                        }
+                    ], 
+                    "text": "<p>Some druids emulate the deadly shark, a remorseless hunter that marine dwellers dread. Like a true shark, a shark shaman leaves blood and fear in her wake. </p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a dragon shaman gains one of the following bonus feats: Combat Casting, Dazzling Display, Magical Aptitude, Skill Focus (Knowledge [arcana]), and Spell Penetration. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
-                    "type": "section", 
-                    "name": "Bonus Feat"
+                    "type": "class_archetype",
+                    "subtype": "druid"
+                }, 
+                {
+                    "name": "Storm Druid", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"spontaneous-domain-casting\">A storm druid can channel stored spell energy into domain spells that she has not prepared ahead of time. She can &ldquo;lose&rdquo; a prepared spell in order to cast any domain spell of the same level or lower. This replaces spontaneous casting.</p>", 
+                            "type": "section", 
+                            "name": "Spontaneous Domain Casting"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"nature-bond\">A storm druid may not choose an animal companion. A storm druid must choose the Air or Weather domain, or the Cloud, Storm, or Wind subdomain.</p>", 
+                            "type": "ability", 
+                            "name": "Nature Bond", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"windwalker\">At 2nd level, the penalties from natural or magical wind effects are treated as one step less severe for a storm druid. This ability replaces woodland stride.</p>", 
+                            "type": "ability", 
+                            "name": "Windwalker", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"stormvoice\">At 3rd level, a storm druid's voice can magically carry over howling winds and peals of thunder. Whenever a Perception check is needed to hear the druid's voice, the DC is reduced by an amount equal to the druid's level. This ability replaces trackless step.</p>", 
+                            "type": "ability", 
+                            "name": "Stormvoice", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"eyes-of-the-storm\">At 4th level, a storm druid can see through 10 feet of magical fog, mist, gas, wind, rain, or similar inclement weather conditions, ignoring any concealment it might grant. This distance increases by 5 feet for every 4 levels beyond 4th. This ability replaces resist nature's lure.</p>", 
+                            "type": "ability", 
+                            "name": "Eyes of the Storm", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"windlord\">At 9th level, a storm druid can select another domain or subdomain from those available to her through her nature bond. This ability replaces venom immunity. </p>", 
+                            "type": "section", 
+                            "name": "Windlord"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"storm-lord\">At 13th level, a storm druid is unaffected by natural and magical wind effects. She also becomes immune to deafness and gains +2 bonus on saving throws against sonic effects. This ability replaces a thousand faces.</p>", 
+                            "type": "ability", 
+                            "name": "Storm Lord", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>While most druids focus their attention upon the rich earth and the bounty of nature that springs forth from it, the storm druid's eyes have ever been cast to the skies and the endless expanse of blue, channeling the most raw and untamed aspects of nature.</p>", 
+                    "source": "Ultimate Magic", 
+                    "type": "class_archetype",
+                    "subtype": "druid"
                 }
-            ], 
-            "text": "<p>Your totem is the legendary dragon, fearsome and deadly yet cunning and wise, a creature born of pure magic and raw elemental fury, bound within a shell of fangs, claws, and scales that few dare to challenge. Though your initial focus is on dragons' mundane cousins, as your powers grow you become attuned to actual dragons.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Menhir Savant", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"spirit-sense\">At 1st level, a menhir savant can detect the presence of undead; fey; outsiders; and astral, ethereal, or incorporeal creatures. This ability functions like <i>detect undead</i>, and the druid detects all of these creatures rather than trying to detect one kind. This ability replaces nature sense and wild empathy.</p>", 
-                    "type": "ability", 
-                    "name": "Spirit Sense", 
-                    "ability_types": [
-                        "Spell-Like"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"place-magic\">At 2nd level, a menhir savant learns to identify and tap into ley lines in different types of terrain. As a free action, she can tap into the magic of a nearby ley line and increase her caster level by +1 for 1 round. She can use this ability a number of times per day equal to 3 + her Wisdom bonus. This ability replaces woodland stride and trackless step.</p>", 
-                    "type": "ability", 
-                    "name": "Place Magic", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"walk-the-lines\">At 9th level, a menhir savant can use her connection to ley lines to cast <i>transport via plants</i> a number of times per day equal to her Wisdom bonus.</p>", 
-                    "type": "ability", 
-                    "name": "Walk the Lines", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"empty-body\">At 13th level, a menhir savant can become ethereal as a standard action, as if using <i>ethereal jaunt</i>. She can remain ethereal for a number of rounds per day equal to her druid level. These rounds do not need to be consecutive. This ability replaces a thousand faces. </p>", 
-                    "type": "ability", 
-                    "name": "Empty Body", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ], 
-            "text": "<p>Some druids study the paths of nature's power through the nodes and ley lines that connect standing stones and megalithic circles, learning to tap into their energies.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Mooncaller", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"night-sight\">At 2nd level, a mooncaller gains low-light vision. If she already has low-light vision, she gains darkvision with a range of 30 feet. If she already has darkvision, the range of her darkvision is increased by 30 feet. This ability replaces woodland stride. </p>", 
-                    "type": "ability", 
-                    "name": "Night Sight", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"resist-call-of-the-wild\">At 4th level, a mooncaller gains a +4 bonus on saving throws to avoid confusion, daze, feeblemind, and insanity effects. She also gains a +4 bonus against the exceptional, spell-like, and supernatural abilities of creatures with the shapechanger subtype. This ability replaces resist nature's lure. </p>", 
-                    "type": "ability", 
-                    "name": "Resist Call of the Wild", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"purity-of-body\">At 9th level, a mooncaller gains immunity to all diseases, including supernatural and magical diseases. This ability replaces venom immunity. </p>", 
-                    "type": "ability", 
-                    "name": "Purity of Body", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wolfsbane\">At 13th level, a mooncaller gains DR 3/silver, increasing to DR 4/silver at 16th level and DR 5/silver at 19th level. This ability replaces a thousand faces. </p>", 
-                    "type": "ability", 
-                    "name": "Wolfsbane", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ], 
-            "text": "<p>A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from light to dark and back again. </p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Pack Lord", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"pack-bond\">A pack lord druid may not select a domain and must choose an animal companion. The druid gains a +2 bonus on wild empathy and Handle Animal checks made regarding her animal companion. The pack lord may have more than one animal companion, but she must divide up her effective druid level between her companions to determine the abilities of each companion. For example, a 4th-level pack lord can have one 4th-level companion, two 2nd-level companions, or one 1st-level and one 3rd-level companion.</p><p>Each time a pack lord's druid level increases, she must decide how to allocate the increase among her animal companions (including the option of adding a new 1st-level companion). Once a druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the pack lord's service (she must release the companion or wait until the companion dies to allocate its levels to another companion, which she can do the next time she prepares spells). The share spells animal companion ability only applies to one animal companion at a time&mdash;the pack lord cannot use it to cast a one-target spell and have it affect all of her animal companions. This ability replaces nature bond.</p>", 
-                    "type": "ability", 
-                    "name": "Pack Bond", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"improved-empathic-link\">The pack lord gains an empathic link with all of her animal companions. This functions like an empathic link with a familiar. In addition, as a swift action the pack lord can shift her perception to one of her companions, allowing her to experience what it sees, hears, and so on. She can maintain this connection as long as she likes (as long as the companion is within 1 mile) and end it as a free action. The druid can only use this ability on one companion at a time, and cannot see, hear, or smell with her own body while maintaining this connection. This ability replaces the 6th-level additional use of wild shape.</p>", 
-                    "type": "ability", 
-                    "name": "Improved Empathic Link", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ], 
-            "text": "<p>Some druids bond with many animal companions rather than just one, achieving a level of communion rare even in druidic circles and leading their pack brothers and pack sisters with total authority.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Reincarnated Druid", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"mysterious-stranger\">At 2nd level, a reincarnated druids adds 1/2 her druid level to the DC of Sense Motive, Diplomacy, and Knowledge checks to learn about her. This ability replaces woodland stride.</p>", 
-                    "type": "ability", 
-                    "name": "Mysterious Stranger", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"resist-death's-touch\">At 4th level, a reincarnated druid gains a +4 bonus on saving throws against death effects, energy drain, and necromancy effects, and on stabilization checks when dying. This ability replaces resist nature's lure.</p>", 
-                    "type": "ability", 
-                    "name": "Resist Death's Touch", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"many-lives\">At 5th level, if a reincarnated druid is killed, she may automatically <i>reincarnate</i> (as the spell) 1 day later. The reincarnated druid appears in a safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the presence of her remains as if using <i>locate object</i> as a spell-like ability. If she is killed during these 7 days, she remains dead and does not reincarnate. The many lives ability does not function ifthe reincarnated druid is slain by a death effect. A reincarnated druid cannot be raised from the dead or resurrected, though she can be reincarnated.</p>", 
-                    "type": "ability", 
-                    "name": "Many Lives", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wild-shape\">A reincarnated druid gains this ability at 6th level, and it functions at her druid level &ndash; 2.</p>", 
-                    "type": "ability", 
-                    "name": "Wild Shape", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"cheat-death\">At 9th level, once per day, a reincarnated druid may reroll a save against a death effect, energy drain, or necromancy effect before the result of the roll is revealed, or reroll a failed stabilization check while dying. She must take the result of the second roll, even if it is worse than the original roll. This ability replaces venom immunity. </p>", 
-                    "type": "ability", 
-                    "name": "Cheat Death", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"tongue-of-the-sun-and-moon\">At 15th level, a reincarnated druid can speak with any living creature. This ability replaces timeless body.</p>", 
-                    "type": "ability", 
-                    "name": "Tongue of the Sun and Moon", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>Spun off into the endless circle of life, an incarnate druid is an embodiment of nature's eternal renewal. She lives many lives and wanders the world devoid of attachments, a stranger to all yet one with all life.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Saurian Shaman", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"nature-bond\">A saurian shaman who chooses an animal companion must select a dinosaur. If choosing a domain, a saurian shaman must choose from the Animal, Destruction, Strength, and War domains.</p>", 
-                    "type": "section", 
-                    "name": "Nature Bond"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wild-empathy\">A saurian shaman can use wild empathy with dinosaurs and reptiles as a full-round action with a +4 bonus. </p>", 
-                    "type": "ability", 
-                    "name": "Wild Empathy", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"totem-transformation\">At 2nd level, a saurian shaman may adopt an aspect of the saurian while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (+10 enhancement bonus to land speed), scales (+2 natural armor bonus to AC), senses (low-light vision, scent), or natural weapons (bite [1d6], 2 claws [1d4] for a Medium druid, rake, +2 CMB to grapple). While using totem transformation, a saurian shaman may speak normally and can cast <i>speak with animals</i> (reptiles and dinosaurs only) at will. </p>", 
-                    "type": "ability", 
-                    "name": "Totem Transformation", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"totemic-summons\">At 5th level, a saurian shaman may cast <i>summon nature's ally</i> as a standard action when summoning reptiles and dinosaurs, and these summoned creatures gain temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability. </p>", 
-                    "type": "ability", 
-                    "name": "Totemic Summons", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wild-shape\">At 6th level, a saurian shaman's wild shape ability functions at her druid level &ndash;2. If she takes on the form of a reptile or a dinosaur, she instead uses her druid level +2.</p>", 
-                    "type": "ability", 
-                    "name": "Wild Shape", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a saurian shaman gains one of the following bonus feats: Improved Overrun, Nimble Moves, Power Attack, Skill Focus (Intimidate), or Vital Strike. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
-                    "type": "section", 
-                    "name": "Bonus Feat"
-                }
-            ], 
-            "text": "<p>A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread. </p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Shark Shaman", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"nature-bond\">A shark shaman who chooses an animal companion must select a shark. If choosing a domain, a shark shaman may choose the Animal, Death, War, or Water domain.</p>", 
-                    "type": "section", 
-                    "name": "Nature Bond"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wild-empathy\">A shark shaman can use wild empathy with fish as a full-round action with a +4 bonus. </p>", 
-                    "type": "ability", 
-                    "name": "Wild Empathy", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"totem-transformation\">At 2nd level, a shark shaman may adopt an aspect of the shark while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (can breathe water, swim speed 30 feet), senses (scent 30 feet, scent 90 feet in water), natural weapons (bite 1d6 for a Medium shaman), or shark skin (+2 natural armor, creatures grappling the shaman take 1 point of slashing damage per round of grapple). While using totem transformation, the shark shaman may speak normally and can cast <i>speak with animals</i> (fish only) at will. </p>", 
-                    "type": "ability", 
-                    "name": "Totem Transformation", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"totemic-summons\">At 5th level, a shark shaman may use <i>summon nature's ally I</i> to summon a stingray and <i>summon nature's ally II</i> to summon a manta ray. She may cast <i>summon nature's ally</i> as a standard action when summoning rays and sharks, and summond rays and sharks gain a number of temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability.</p>", 
-                    "type": "ability", 
-                    "name": "Totemic Summons", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wild-shape\">At 6th level, a shark shaman's wild shape ability functions at her druid level &ndash;2. If she takes on the form of a shark, she instead uses her druid level +2. </p>", 
-                    "type": "ability", 
-                    "name": "Wild Shape", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats: Bleeding Critical, Improved Initiative, Lightning Reflexes, Self-Sufficient, or Skill Focus (Swim). She must meet prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
-                    "type": "section", 
-                    "name": "Bonus Feat"
-                }
-            ], 
-            "text": "<p>Some druids emulate the deadly shark, a remorseless hunter that marine dwellers dread. Like a true shark, a shark shaman leaves blood and fear in her wake. </p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Storm Druid", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"spontaneous-domain-casting\">A storm druid can channel stored spell energy into domain spells that she has not prepared ahead of time. She can &ldquo;lose&rdquo; a prepared spell in order to cast any domain spell of the same level or lower. This replaces spontaneous casting.</p>", 
-                    "type": "section", 
-                    "name": "Spontaneous Domain Casting"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"nature-bond\">A storm druid may not choose an animal companion. A storm druid must choose the Air or Weather domain, or the Cloud, Storm, or Wind subdomain.</p>", 
-                    "type": "ability", 
-                    "name": "Nature Bond", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"windwalker\">At 2nd level, the penalties from natural or magical wind effects are treated as one step less severe for a storm druid. This ability replaces woodland stride.</p>", 
-                    "type": "ability", 
-                    "name": "Windwalker", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"stormvoice\">At 3rd level, a storm druid's voice can magically carry over howling winds and peals of thunder. Whenever a Perception check is needed to hear the druid's voice, the DC is reduced by an amount equal to the druid's level. This ability replaces trackless step.</p>", 
-                    "type": "ability", 
-                    "name": "Stormvoice", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"eyes-of-the-storm\">At 4th level, a storm druid can see through 10 feet of magical fog, mist, gas, wind, rain, or similar inclement weather conditions, ignoring any concealment it might grant. This distance increases by 5 feet for every 4 levels beyond 4th. This ability replaces resist nature's lure.</p>", 
-                    "type": "ability", 
-                    "name": "Eyes of the Storm", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"windlord\">At 9th level, a storm druid can select another domain or subdomain from those available to her through her nature bond. This ability replaces venom immunity. </p>", 
-                    "type": "section", 
-                    "name": "Windlord"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"storm-lord\">At 13th level, a storm druid is unaffected by natural and magical wind effects. She also becomes immune to deafness and gains +2 bonus on saving throws against sonic effects. This ability replaces a thousand faces.</p>", 
-                    "type": "ability", 
-                    "name": "Storm Lord", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>While most druids focus their attention upon the rich earth and the bounty of nature that springs forth from it, the storm druid's eyes have ever been cast to the skies and the endless expanse of blue, channeling the most raw and untamed aspects of nature.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
+            ]
         }
     ], 
     "name": "Druid", 
