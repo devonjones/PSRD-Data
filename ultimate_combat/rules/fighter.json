@@ -5,725 +5,733 @@
     "name": "Fighter", 
     "sections": [
         {
-            "name": "Armor Master", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"deflective-shield\">At 2nd level, an armor master specializes in using his shield to deflect attacks. He gains a +1 bonus to his touch AC, and this bonus increases for every four levels beyond 2nd (to a maximum of +6 at 20th level); however, this bonus cannot exceed the sum of the armor and enhancement bonus to AC provided by the shield that the armor master is currently carrying. This ability replaces bravery. </p>", 
-                    "type": "ability", 
-                    "name": "Deflective Shield", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"armored-defense\">At 5th level, an armor master gains DR 1/&mdash; when wearing light armor, DR 2/&mdash; when wearing medium armor, and DR 3/&mdash; when wearing heavy armor. At 19th level, this damage reduction increases to DR 4/&mdash; when wearing light armor, DR 8/&mdash; when wearing medium armor, and DR 12/&mdash; when wearing heavy armor. This damage reduction stacks with that provided by adamantine armor, but not with other forms of damage reduction. This damage reduction does not apply if the armor master is stunned, unconscious, or helpless. This ability replaces weapon training 1 and 3, and armor mastery.</p>", 
-                    "type": "ability", 
-                    "name": "Armored Defense", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"fortification\">At 9th level, an armor master can use his armor to shield critical areas from injury. He treats any armor he wears as if it had the <i>light fortification</i> special ability. At 13th level, his armor gains the <i>moderate fortification</i> special ability. This fortification does not stack in any way with armor that has these special abilities. In these cases the armor master takes the better of the two fortifications. This ability replaces weapon training 2 and 4. </p>", 
-                    "type": "ability", 
-                    "name": "Fortification", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"indestructible\">At 20th level, an armor master gains complete immunity to critical hits and sneak attacks while he is wearing armor. In addition, unless his armor has the fragile armor quality, it cannot be sundered while he is wearing it. This ability replaces weapon mastery.</p>", 
-                    "type": "ability", 
-                    "name": "Indestructible", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>All fighters have two main tools of their trade&mdash;weapons and armor. While many fighters hone their weapon skills to a point of inescapable grace and lethality, there are those who live under the maxim that a good offense can be accomplished though an impenetrable defense. To these fighters, proper use of armor and shields ensures that they can fight another day, and that the frustration of enemies who can't seem to crack an armor master's superior defenses is just the first symptom of his foes' eventual defeat.</p>", 
             "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Brawler", 
+            "type": "section", 
+            "name": "Fighter Archetypes", 
+            "create_index": true,
             "sections": [
                 {
+                    "name": "Armor Master", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"deflective-shield\">At 2nd level, an armor master specializes in using his shield to deflect attacks. He gains a +1 bonus to his touch AC, and this bonus increases for every four levels beyond 2nd (to a maximum of +6 at 20th level); however, this bonus cannot exceed the sum of the armor and enhancement bonus to AC provided by the shield that the armor master is currently carrying. This ability replaces bravery. </p>", 
+                            "type": "ability", 
+                            "name": "Deflective Shield", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"armored-defense\">At 5th level, an armor master gains DR 1/&mdash; when wearing light armor, DR 2/&mdash; when wearing medium armor, and DR 3/&mdash; when wearing heavy armor. At 19th level, this damage reduction increases to DR 4/&mdash; when wearing light armor, DR 8/&mdash; when wearing medium armor, and DR 12/&mdash; when wearing heavy armor. This damage reduction stacks with that provided by adamantine armor, but not with other forms of damage reduction. This damage reduction does not apply if the armor master is stunned, unconscious, or helpless. This ability replaces weapon training 1 and 3, and armor mastery.</p>", 
+                            "type": "ability", 
+                            "name": "Armored Defense", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"fortification\">At 9th level, an armor master can use his armor to shield critical areas from injury. He treats any armor he wears as if it had the <i>light fortification</i> special ability. At 13th level, his armor gains the <i>moderate fortification</i> special ability. This fortification does not stack in any way with armor that has these special abilities. In these cases the armor master takes the better of the two fortifications. This ability replaces weapon training 2 and 4. </p>", 
+                            "type": "ability", 
+                            "name": "Fortification", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"indestructible\">At 20th level, an armor master gains complete immunity to critical hits and sneak attacks while he is wearing armor. In addition, unless his armor has the fragile armor quality, it cannot be sundered while he is wearing it. This ability replaces weapon mastery.</p>", 
+                            "type": "ability", 
+                            "name": "Indestructible", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>All fighters have two main tools of their trade&mdash;weapons and armor. While many fighters hone their weapon skills to a point of inescapable grace and lethality, there are those who live under the maxim that a good offense can be accomplished though an impenetrable defense. To these fighters, proper use of armor and shields ensures that they can fight another day, and that the frustration of enemies who can't seem to crack an armor master's superior defenses is just the first symptom of his foes' eventual defeat.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"close-control\">At 2nd level, a brawler becomes skilled at forcefully moving his opponent around the battlefield. The brawler gains a +1 bonus on bull rush, drag, and reposition combat maneuver checks. The brawler also gains a +1 bonus to CMD when attacked with the bull rush, drag, and reposition maneuvers. These bonuses increase by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces armor training 1. </p>", 
-                    "type": "ability", 
-                    "name": "Close Control", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
+                    "name": "Brawler", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"close-control\">At 2nd level, a brawler becomes skilled at forcefully moving his opponent around the battlefield. The brawler gains a +1 bonus on bull rush, drag, and reposition combat maneuver checks. The brawler also gains a +1 bonus to CMD when attacked with the bull rush, drag, and reposition maneuvers. These bonuses increase by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces armor training 1. </p>", 
+                            "type": "ability", 
+                            "name": "Close Control", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"close-combatant\">At 3rd level, a brawler gains a +1 bonus on attack rolls and a +3 bonus on damage rolls with weapons in the close weapon group. Both of these bonuses increase by +1 for every four levels beyond 3rd (to a maximum of +5 on attack rolls and +7 on damage rolls at 19th level). This ability replaces weapon training 1 and 2.</p>", 
+                            "type": "ability", 
+                            "name": "Close Combatant", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"menacing-stance\">At 7th level, a brawler constantly harries and distracts his enemies. While adjacent to the brawler, enemies take a &ndash;1 penalty on attack rolls and a &ndash;4 penalty on concentration checks. These penalties increase by 1 for every four levels after 7th level (to a maximum of &ndash;4 on attack rolls and &ndash;7 on concentration checks at 19th level). Creatures do not take these penalties if the brawler is dazed, helpless, staggered, stunned, or unconscious. This ability replaces armor training 2, 3, and 4 and armor mastery. </p>", 
+                            "type": "ability", 
+                            "name": "Menacing Stance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"no-escape\">At 9th level, taking a 5-foot step out of the area of a brawler's menacing stance or moving out of the area of a brawler's menacing stance with a withdraw action provokes an attack of opportunity from the brawler. This ability replaces weapon training 3 and 4. </p>", 
+                            "type": "ability", 
+                            "name": "No Escape", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"stand-still\">At 13th level, a brawler gains Stand Still as a bonus feat, even if he does not have the Combat Reflexes feat. If the brawler already has the Stand Still feat, he can take any other combat feat instead. Furthermore, he gains a bonus equal to 1/2 his fighter level on combat maneuver checks when using the Stand Still feat.</p>", 
+                            "type": "section", 
+                            "name": "Stand Still"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-mastery\">A brawler must select a close weapon for this ability.</p>", 
+                            "type": "ability", 
+                            "name": "Weapon Mastery", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>All melee is up close and personal, but some warriors bring it as close as they can get. Brawlers can be found anywhere, among all races and societies. A brawler could be hired muscle in a tavern, a local crime syndicate enforcer, or a hotheaded recruit among the ranks of a baron's guard. Often brawlers' in-your-face attitudes are as powerful as their tactics. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"close-combatant\">At 3rd level, a brawler gains a +1 bonus on attack rolls and a +3 bonus on damage rolls with weapons in the close weapon group. Both of these bonuses increase by +1 for every four levels beyond 3rd (to a maximum of +5 on attack rolls and +7 on damage rolls at 19th level). This ability replaces weapon training 1 and 2.</p>", 
-                    "type": "ability", 
-                    "name": "Close Combatant", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
+                    "name": "Cad", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">A cad is not proficient with medium armor, heavy armor, or tower shields.</p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"skills\">Acrobatics (Dex), Bluff (Cha), Escape Artist (Dex), Sleight of Hand (Dex), and Stealth (Dex) are class skills for a cad. </p>", 
+                            "type": "section", 
+                            "name": "Skills"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"dirty-maneuvers\">At 2nd level, a cad becomes skilled at deceiving and discomfiting his opponents. The cad gains a +1 bonus on disarm, dirty trick, and steal combat maneuver checks. The cad also gains a +1 bonus to CMD when attacked with the disarm, dirty trick, and steal combat  maneuvers. These bonuses increase by 1 for every four levels after 2nd (to a maximum of +5 at 18th level).  This ability replaces bravery. </p>", 
+                            "type": "ability", 
+                            "name": "Dirty Maneuvers", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"catch-off-guard\">At 3rd level, the cad gains the Catch Off-Guard feat. This ability replaces armor training 1.</p>", 
+                            "type": "section", 
+                            "name": "Catch Off-Guard"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"payback\">At 5th level, a cad gains a +1 bonus on attack and damage rolls against any creature that has attacked the cad since the beginning of his last turn. This bonus increases by +1 for every four levels beyond 5th (to a maximum of +4 at 17th level). This ability replaces weapon training 1, 3, and 4. </p>", 
+                            "type": "ability", 
+                            "name": "Payback", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"deadly-surprise\">At 7th level, when a cad hits an opponent that is denied its Dexterity bonus to AC against him with a weapon or unarmed attack, he may attempt a dirty trick combat maneuver as an immediate action as part of the attack. This ability replaces armor training 2.</p>", 
+                            "type": "ability", 
+                            "name": "Deadly Surprise", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"razor-sharp-chair-leg\">At 9th level, as a swift action, a cad may alter the type of damage dealt by an improvised weapon to bludgeoning, piercing, or slashing damage. In addition, the cad has a critical threat range of 19&ndash;20/<span class=\"char-style-override-9\">&times;</span>2 with any improvised melee weapon. This ability replaces weapon training 2.</p>", 
+                            "type": "ability", 
+                            "name": "Razor-Sharp Chair Leg", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"craven-combatant\">At 11th level, when fighting defensively or using Combat Expertise or total defense, a cad cannot be flanked except by a rogue or ninja whose level is four or more higher than the cad's fighter level. This ability replaces armor training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Craven Combatant", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sweeping-prank\">At 13th level, as a standard action, a cad can use a dirty trick maneuver against any two adjacent opponents that he can reach, making a separate combat maneuver check against each opponent. He must use the same dirty trick maneuver against each opponent. </p><p>At 17th level, the cad can use this ability as a full-round action to attempt a dirty trick maneuver against a number of enemies equal to 2 + his Dexterity bonus (if any). This ability replaces weapon training 3 and 4. </p>", 
+                            "type": "ability", 
+                            "name": "Sweeping Prank", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"treacherous-blow\">At 15th level, when a cad confirms a critical hit, he can attempt a dirty trick combat maneuver as part of that attack as an immediate action. This ability replaces armor training 4. </p>", 
+                            "type": "ability", 
+                            "name": "Treacherous Blow", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"ultimate-payback\">At 20th level, any critical threats a cad makes against an opponent that has attacked him since the beginning of his last turn are automatically confirmed. This ability replaces weapon mastery. </p>", 
+                            "type": "ability", 
+                            "name": "Ultimate Payback", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>In combat, most fighters have some sort of code of honor. Some believe that one should not kick enemies when they are down, or should limit use of other such dirty tricks to the most dire of circumstances. The cad places no such limitations on himself. Battles are for winning, and anything that gives the cad the upper hand against his enemies is a legitimate tactic. No trick is too treacherous if it leads to victory.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"menacing-stance\">At 7th level, a brawler constantly harries and distracts his enemies. While adjacent to the brawler, enemies take a &ndash;1 penalty on attack rolls and a &ndash;4 penalty on concentration checks. These penalties increase by 1 for every four levels after 7th level (to a maximum of &ndash;4 on attack rolls and &ndash;7 on concentration checks at 19th level). Creatures do not take these penalties if the brawler is dazed, helpless, staggered, stunned, or unconscious. This ability replaces armor training 2, 3, and 4 and armor mastery. </p>", 
-                    "type": "ability", 
-                    "name": "Menacing Stance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
+                    "name": "Dragoon", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">A dragoon is not proficient with tower shields.</p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"skilled-rider\">At 1st level, a dragoon gains both the Mounted Combat and Skill Focus (Ride) feats as bonus feats. This ability replaces the 1st-level fighter bonus combat feat. </p>", 
+                            "type": "ability", 
+                            "name": "Skilled Rider", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"spear-training\">At 5th level, a dragoon must select weapon training with the spear group. The dragoon's weapon training bonus with spears improves by +1 on attack rolls and +2 on damage rolls for every four levels beyond 5th (to a maximum of +4 on attack rolls and +8 on damage rolls at 17th level). The dragoon does not gain weapon training in any other groups as he increases in level. </p>", 
+                            "type": "ability", 
+                            "name": "Spear Training", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"spinning-lance\">At 7th level, a dragoon may alternate attacks with the piercing head of his lance with reach, or with the butt end (treat as a club) against adjacent targets. Unlike a double weapon, the masterwork quality and magical special abilities apply to both ends of the lance, except for those weapon special abilities that apply only to edged weapons. This ability replaces armor training 2.</p>", 
+                            "type": "ability", 
+                            "name": "Spinning Lance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"banner\">At 9th level, a dragoon may attach a banner to his lance. This is identical to the cavalier class feature. The bonuses provided by the dragoon's banner increase by +1 for every five levels beyond 9th (to a maximum of +3 at 19th level). Cavalier levels stack with his dragoon level for determining the effect of his banner, and he can take the better banner progression. This ability replaces weapon training 2, 3, and 4.</p>", 
+                            "type": "ability", 
+                            "name": "Banner", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"piercing-lance\">At 11th level, as a standard action or as part of a charge, a dragoon attacking a mounted opponent can make two attacks, one against the mount and the other against the rider, using his highest base attack bonus. Furthermore, if the mount is hit and its rider attempts to negate the hit with the Mounted Combat feat, the dragoon's attack roll is considered 4 higher when calculating the DC of the Ride check to negate the hit. This ability replaces armor training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Piercing Lance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"leaping-lance\">At 15th level, a dragoon and his mount suffer no armor check penalty on Acrobatics checks while mounted. When charging, a dragoon may jump from his mount toward his target. If he jumps 10 feet, his charge modifiers on attack rolls and to AC are doubled and he is still considered mounted for lance damage, mounted combat feats, and so on. This ability replaces armor training 4.</p>", 
+                            "type": "ability", 
+                            "name": "Leaping Lance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-mastery\">The dragoon must select the lance for this ability. </p>", 
+                            "type": "section", 
+                            "name": "Weapon Mastery"
+                        }
+                    ], 
+                    "text": "<p>These gallant lancers serve in the vanguard of many armies or as knights-errant. They are born leaders and masters of the mounted charge. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"no-escape\">At 9th level, taking a 5-foot step out of the area of a brawler's menacing stance or moving out of the area of a brawler's menacing stance with a withdraw action provokes an attack of opportunity from the brawler. This ability replaces weapon training 3 and 4. </p>", 
-                    "type": "ability", 
-                    "name": "No Escape", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
+                    "name": "Gladiator", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"skills\">A gladiator gains Perform (act, comedy, and dance) (Cha) as class skills. </p>", 
+                            "type": "section", 
+                            "name": "Skills"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">A gladiator is not proficient with heavy armor or tower shields. Instead he gains the Performance Weapon Mastery feat at 1st level as a bonus feat. This bonus feat is in addition to the bonus feat a fighter gains at 1st level. Furthermore, a gladiator using piecemeal armor is considered to be wearing a suit of armor as long as he wearing two or three armor pieces, gaining the +1 to armor bonus but still taking the +5% chance of arcane spell failure if the pieces are mixed. </p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bonus-feats\">A gladiator may choose to take combat or performance feats as bonus feats. </p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"fame\">At 2nd level, when a gladiator begins a performance combat, he always starts with at least 1 victory point. If he already has victory points, he gains 1 extra victory point. At 10th level, the gladiator starts out with at least 2 victory points. If he already has victory points, he gains 2 extra victory points. This ability replaces bravery.</p>", 
+                            "type": "ability", 
+                            "name": "Fame", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Most fighters battle out of necessity, with each battle a contest of life and death. Some, however, fight for glory and for the adulation of the crowd. The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"stand-still\">At 13th level, a brawler gains Stand Still as a bonus feat, even if he does not have the Combat Reflexes feat. If the brawler already has the Stand Still feat, he can take any other combat feat instead. Furthermore, he gains a bonus equal to 1/2 his fighter level on combat maneuver checks when using the Stand Still feat.</p>", 
-                    "type": "section", 
-                    "name": "Stand Still"
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-mastery\">A brawler must select a close weapon for this ability.</p>", 
-                    "type": "ability", 
-                    "name": "Weapon Mastery", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>All melee is up close and personal, but some warriors bring it as close as they can get. Brawlers can be found anywhere, among all races and societies. A brawler could be hired muscle in a tavern, a local crime syndicate enforcer, or a hotheaded recruit among the ranks of a baron's guard. Often brawlers' in-your-face attitudes are as powerful as their tactics. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Cad", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">A cad is not proficient with medium armor, heavy armor, or tower shields.</p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"skills\">Acrobatics (Dex), Bluff (Cha), Escape Artist (Dex), Sleight of Hand (Dex), and Stealth (Dex) are class skills for a cad. </p>", 
-                    "type": "section", 
-                    "name": "Skills"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"dirty-maneuvers\">At 2nd level, a cad becomes skilled at deceiving and discomfiting his opponents. The cad gains a +1 bonus on disarm, dirty trick, and steal combat maneuver checks. The cad also gains a +1 bonus to CMD when attacked with the disarm, dirty trick, and steal combat  maneuvers. These bonuses increase by 1 for every four levels after 2nd (to a maximum of +5 at 18th level).  This ability replaces bravery. </p>", 
-                    "type": "ability", 
-                    "name": "Dirty Maneuvers", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"catch-off-guard\">At 3rd level, the cad gains the Catch Off-Guard feat. This ability replaces armor training 1.</p>", 
-                    "type": "section", 
-                    "name": "Catch Off-Guard"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"payback\">At 5th level, a cad gains a +1 bonus on attack and damage rolls against any creature that has attacked the cad since the beginning of his last turn. This bonus increases by +1 for every four levels beyond 5th (to a maximum of +4 at 17th level). This ability replaces weapon training 1, 3, and 4. </p>", 
-                    "type": "ability", 
-                    "name": "Payback", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"deadly-surprise\">At 7th level, when a cad hits an opponent that is denied its Dexterity bonus to AC against him with a weapon or unarmed attack, he may attempt a dirty trick combat maneuver as an immediate action as part of the attack. This ability replaces armor training 2.</p>", 
-                    "type": "ability", 
-                    "name": "Deadly Surprise", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"razor-sharp-chair-leg\">At 9th level, as a swift action, a cad may alter the type of damage dealt by an improvised weapon to bludgeoning, piercing, or slashing damage. In addition, the cad has a critical threat range of 19&ndash;20/<span class=\"char-style-override-9\">&times;</span>2 with any improvised melee weapon. This ability replaces weapon training 2.</p>", 
-                    "type": "ability", 
-                    "name": "Razor-Sharp Chair Leg", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"craven-combatant\">At 11th level, when fighting defensively or using Combat Expertise or total defense, a cad cannot be flanked except by a rogue or ninja whose level is four or more higher than the cad's fighter level. This ability replaces armor training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Craven Combatant", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sweeping-prank\">At 13th level, as a standard action, a cad can use a dirty trick maneuver against any two adjacent opponents that he can reach, making a separate combat maneuver check against each opponent. He must use the same dirty trick maneuver against each opponent. </p><p>At 17th level, the cad can use this ability as a full-round action to attempt a dirty trick maneuver against a number of enemies equal to 2 + his Dexterity bonus (if any). This ability replaces weapon training 3 and 4. </p>", 
-                    "type": "ability", 
-                    "name": "Sweeping Prank", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"treacherous-blow\">At 15th level, when a cad confirms a critical hit, he can attempt a dirty trick combat maneuver as part of that attack as an immediate action. This ability replaces armor training 4. </p>", 
-                    "type": "ability", 
-                    "name": "Treacherous Blow", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"ultimate-payback\">At 20th level, any critical threats a cad makes against an opponent that has attacked him since the beginning of his last turn are automatically confirmed. This ability replaces weapon mastery. </p>", 
-                    "type": "ability", 
-                    "name": "Ultimate Payback", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>In combat, most fighters have some sort of code of honor. Some believe that one should not kick enemies when they are down, or should limit use of other such dirty tricks to the most dire of circumstances. The cad places no such limitations on himself. Battles are for winning, and anything that gives the cad the upper hand against his enemies is a legitimate tactic. No trick is too treacherous if it leads to victory.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Dragoon", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">A dragoon is not proficient with tower shields.</p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"skilled-rider\">At 1st level, a dragoon gains both the Mounted Combat and Skill Focus (Ride) feats as bonus feats. This ability replaces the 1st-level fighter bonus combat feat. </p>", 
-                    "type": "ability", 
-                    "name": "Skilled Rider", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"spear-training\">At 5th level, a dragoon must select weapon training with the spear group. The dragoon's weapon training bonus with spears improves by +1 on attack rolls and +2 on damage rolls for every four levels beyond 5th (to a maximum of +4 on attack rolls and +8 on damage rolls at 17th level). The dragoon does not gain weapon training in any other groups as he increases in level. </p>", 
-                    "type": "ability", 
-                    "name": "Spear Training", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"spinning-lance\">At 7th level, a dragoon may alternate attacks with the piercing head of his lance with reach, or with the butt end (treat as a club) against adjacent targets. Unlike a double weapon, the masterwork quality and magical special abilities apply to both ends of the lance, except for those weapon special abilities that apply only to edged weapons. This ability replaces armor training 2.</p>", 
-                    "type": "ability", 
-                    "name": "Spinning Lance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"banner\">At 9th level, a dragoon may attach a banner to his lance. This is identical to the cavalier class feature. The bonuses provided by the dragoon's banner increase by +1 for every five levels beyond 9th (to a maximum of +3 at 19th level). Cavalier levels stack with his dragoon level for determining the effect of his banner, and he can take the better banner progression. This ability replaces weapon training 2, 3, and 4.</p>", 
-                    "type": "ability", 
-                    "name": "Banner", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"piercing-lance\">At 11th level, as a standard action or as part of a charge, a dragoon attacking a mounted opponent can make two attacks, one against the mount and the other against the rider, using his highest base attack bonus. Furthermore, if the mount is hit and its rider attempts to negate the hit with the Mounted Combat feat, the dragoon's attack roll is considered 4 higher when calculating the DC of the Ride check to negate the hit. This ability replaces armor training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Piercing Lance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"leaping-lance\">At 15th level, a dragoon and his mount suffer no armor check penalty on Acrobatics checks while mounted. When charging, a dragoon may jump from his mount toward his target. If he jumps 10 feet, his charge modifiers on attack rolls and to AC are doubled and he is still considered mounted for lance damage, mounted combat feats, and so on. This ability replaces armor training 4.</p>", 
-                    "type": "ability", 
-                    "name": "Leaping Lance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-mastery\">The dragoon must select the lance for this ability. </p>", 
-                    "type": "section", 
-                    "name": "Weapon Mastery"
-                }
-            ], 
-            "text": "<p>These gallant lancers serve in the vanguard of many armies or as knights-errant. They are born leaders and masters of the mounted charge. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Gladiator", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"skills\">A gladiator gains Perform (act, comedy, and dance) (Cha) as class skills. </p>", 
-                    "type": "section", 
-                    "name": "Skills"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">A gladiator is not proficient with heavy armor or tower shields. Instead he gains the Performance Weapon Mastery feat at 1st level as a bonus feat. This bonus feat is in addition to the bonus feat a fighter gains at 1st level. Furthermore, a gladiator using piecemeal armor is considered to be wearing a suit of armor as long as he wearing two or three armor pieces, gaining the +1 to armor bonus but still taking the +5% chance of arcane spell failure if the pieces are mixed. </p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"bonus-feats\">A gladiator may choose to take combat or performance feats as bonus feats. </p>", 
-                    "type": "section", 
-                    "name": "Bonus Feats"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"fame\">At 2nd level, when a gladiator begins a performance combat, he always starts with at least 1 victory point. If he already has victory points, he gains 1 extra victory point. At 10th level, the gladiator starts out with at least 2 victory points. If he already has victory points, he gains 2 extra victory points. This ability replaces bravery.</p>", 
-                    "type": "ability", 
-                    "name": "Fame", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>Most fighters battle out of necessity, with each battle a contest of life and death. Some, however, fight for glory and for the adulation of the crowd. The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Tactician", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">A tactician is not proficient with heavy armor or tower shields.</p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"strategic-training\">A tactician gains 4 skill points + a number of skill points equal to his Intelligence modifier at each level, instead of the normal 2 skill points + Intelligence modifier at each level. Furthermore, Diplomacy (Cha), Knowledge (geography) (Int), Knowledge (nobility) (Int), Linguistics (Int), and Sense Motive (Wis) are all class skills for the tactician. This ability replaces the bonus fighter combat feat gained at 1st level.</p>", 
-                    "type": "ability", 
-                    "name": "Strategic Training", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"bonus-feats\">A tactician may choose Skill Focus or any teamwork feat, in addition to combat feats, as bonus feats. </p>", 
-                    "type": "section", 
-                    "name": "Bonus Feats"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tactical-awareness\">At 2nd level, a tactician gains a +1 bonus on initiative checks. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This ability replaces bravery.</p>", 
-                    "type": "ability", 
-                    "name": "Tactical Awareness", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tactician\">At 5th level, a tactician gains this ability as the cavalier class feature. He may use this ability once per day at 5th level, plus one additional time for every five levels after 5th (to a maximum of four times at 20th level). If the tactician also has cavalier levels, these levels stack for determining the number of uses per day, and he can take the better progression. This ability replaces weapon training 1.</p>", 
-                    "type": "ability", 
                     "name": "Tactician", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">A tactician is not proficient with heavy armor or tower shields.</p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"strategic-training\">A tactician gains 4 skill points + a number of skill points equal to his Intelligence modifier at each level, instead of the normal 2 skill points + Intelligence modifier at each level. Furthermore, Diplomacy (Cha), Knowledge (geography) (Int), Knowledge (nobility) (Int), Linguistics (Int), and Sense Motive (Wis) are all class skills for the tactician. This ability replaces the bonus fighter combat feat gained at 1st level.</p>", 
+                            "type": "ability", 
+                            "name": "Strategic Training", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bonus-feats\">A tactician may choose Skill Focus or any teamwork feat, in addition to combat feats, as bonus feats. </p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tactical-awareness\">At 2nd level, a tactician gains a +1 bonus on initiative checks. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This ability replaces bravery.</p>", 
+                            "type": "ability", 
+                            "name": "Tactical Awareness", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tactician\">At 5th level, a tactician gains this ability as the cavalier class feature. He may use this ability once per day at 5th level, plus one additional time for every five levels after 5th (to a maximum of four times at 20th level). If the tactician also has cavalier levels, these levels stack for determining the number of uses per day, and he can take the better progression. This ability replaces weapon training 1.</p>", 
+                            "type": "ability", 
+                            "name": "Tactician", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"cooperative-combatant\">At 11th level, when a tactician uses the aid another special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can grant different allies different bonuses. This ability replaces armor training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Cooperative Combatant", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"battle-insight\">At 15th level, as a swift action, a tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tactician's next turn. The tactician can use this ability a number of times per day equal to 3 + his Intelligence modifier. </p>", 
+                            "type": "ability", 
+                            "name": "Battle Insight", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield. These fighters use their training and tactical acumen to overcome challenges that would overwhelm mere brute strength and skill at arms. </p>", 
+                    "source": "Ultimate Combat", 
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
+                    "name": "Thunderstriker", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"strapped-shield\">At 3rd level, a thunderstriker takes no penalty on attack rolls when using a weapon in two hands while wearing a buckler. This ability replaces armor training 1. </p>", 
+                            "type": "ability", 
+                            "name": "Strapped Shield", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"hardbuckler\">At 7th level, a thunderstriker may make shield bash attacks with a buckler as if it were a light shield. This ability replaces armor training 2.</p>", 
+                            "type": "ability", 
+                            "name": "Hardbuckler", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"knockback-smash\">At 11th level, when a thunderstriker uses his buckler to attack, he gains a bonus equal to the enhancement bonus of the buckler on both attack and damage rolls. This ability replaces armor training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Knockback Smash", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"hammer-and-anvil\">At 13th level, a thunderstriker suffers only half the normal penalties for two-weapon fighting when using a buckler as his off-hand weapon. This ability replaces weapon training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Hammer and Anvil", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"buckler-defense\">At 15th level, a thunderstriker retains partial use of his buckler even when using a weapon in both hands or in each hand (rather than losing his shield bonus until the beginning of his next turn). He gains a +1 shield bonus to AC and may apply the benefits of any feats he knows that require the use of a shield, but does not benefit from any magical properties his shield may possess. This ability replaces armor training 4.</p>", 
+                            "type": "ability", 
+                            "name": "Buckler Defense", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"balanced-bashing\">At 17th level, a thunderstriker no longer suffers two-weapon fighting penalties when using a buckler as his off-hand weapon. This ability replaces weapon training 4. </p>", 
+                            "type": "ability", 
+                            "name": "Balanced Bashing", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"improved-buckler-defense\">At 19th level, a thunderstriker does not forfeit his shield bonus to AC from a buckler when fighting two-handed. This ability replaces armor mastery. </p>", 
+                            "type": "ability", 
+                            "name": "Improved Buckler Defense", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>The thunderstriker adopts an unusual fighting style, gripping a heavy weapon with both hands and switching to a defensive posture with weapon and buckler, lashing out with the shield with surprising speed and power.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"cooperative-combatant\">At 11th level, when a tactician uses the aid another special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can grant different allies different bonuses. This ability replaces armor training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Cooperative Combatant", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"battle-insight\">At 15th level, as a swift action, a tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tactician's next turn. The tactician can use this ability a number of times per day equal to 3 + his Intelligence modifier. </p>", 
-                    "type": "ability", 
-                    "name": "Battle Insight", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield. These fighters use their training and tactical acumen to overcome challenges that would overwhelm mere brute strength and skill at arms. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Thunderstriker", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"strapped-shield\">At 3rd level, a thunderstriker takes no penalty on attack rolls when using a weapon in two hands while wearing a buckler. This ability replaces armor training 1. </p>", 
-                    "type": "ability", 
-                    "name": "Strapped Shield", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"hardbuckler\">At 7th level, a thunderstriker may make shield bash attacks with a buckler as if it were a light shield. This ability replaces armor training 2.</p>", 
-                    "type": "ability", 
-                    "name": "Hardbuckler", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"knockback-smash\">At 11th level, when a thunderstriker uses his buckler to attack, he gains a bonus equal to the enhancement bonus of the buckler on both attack and damage rolls. This ability replaces armor training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Knockback Smash", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"hammer-and-anvil\">At 13th level, a thunderstriker suffers only half the normal penalties for two-weapon fighting when using a buckler as his off-hand weapon. This ability replaces weapon training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Hammer and Anvil", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"buckler-defense\">At 15th level, a thunderstriker retains partial use of his buckler even when using a weapon in both hands or in each hand (rather than losing his shield bonus until the beginning of his next turn). He gains a +1 shield bonus to AC and may apply the benefits of any feats he knows that require the use of a shield, but does not benefit from any magical properties his shield may possess. This ability replaces armor training 4.</p>", 
-                    "type": "ability", 
-                    "name": "Buckler Defense", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"balanced-bashing\">At 17th level, a thunderstriker no longer suffers two-weapon fighting penalties when using a buckler as his off-hand weapon. This ability replaces weapon training 4. </p>", 
-                    "type": "ability", 
-                    "name": "Balanced Bashing", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"improved-buckler-defense\">At 19th level, a thunderstriker does not forfeit his shield bonus to AC from a buckler when fighting two-handed. This ability replaces armor mastery. </p>", 
-                    "type": "ability", 
-                    "name": "Improved Buckler Defense", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>The thunderstriker adopts an unusual fighting style, gripping a heavy weapon with both hands and switching to a defensive posture with weapon and buckler, lashing out with the shield with surprising speed and power.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Tower Shield Specialist", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"burst-barrier\">At 2nd level, a tower shield specialist can use his shield to screen himself from burst spells and effects, gaining a +1 bonus on Reflex saves against them while employing a tower shield. This bonus increases by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces bravery.</p>", 
-                    "type": "ability", 
-                    "name": "Burst Barrier", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tower-shield-training\">At 3rd level, a tower shield specialist gains armor training as normal, but while he employs a tower shield, the armor penalty is reduced by 3 and the maximum Dexterity bonus allowed by his armor increases by 2. The benefit increases every four levels thereafter as per standard armor training; if the tower shield specialist is not employing a tower shield, the benefits to armor training revert to the normal bonuses. </p>", 
-                    "type": "ability", 
-                    "name": "Tower Shield Training", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tower-shield-specialist\">At 5th level, when a tower shield specialist employs a tower shield in combat, he does not take the &ndash;2 penalty on attack rolls because of the shield's encumbrance. This ability replaces weapon training 1.</p>", 
-                    "type": "ability", 
                     "name": "Tower Shield Specialist", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"burst-barrier\">At 2nd level, a tower shield specialist can use his shield to screen himself from burst spells and effects, gaining a +1 bonus on Reflex saves against them while employing a tower shield. This bonus increases by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces bravery.</p>", 
+                            "type": "ability", 
+                            "name": "Burst Barrier", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tower-shield-training\">At 3rd level, a tower shield specialist gains armor training as normal, but while he employs a tower shield, the armor penalty is reduced by 3 and the maximum Dexterity bonus allowed by his armor increases by 2. The benefit increases every four levels thereafter as per standard armor training; if the tower shield specialist is not employing a tower shield, the benefits to armor training revert to the normal bonuses. </p>", 
+                            "type": "ability", 
+                            "name": "Tower Shield Training", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tower-shield-specialist\">At 5th level, when a tower shield specialist employs a tower shield in combat, he does not take the &ndash;2 penalty on attack rolls because of the shield's encumbrance. This ability replaces weapon training 1.</p>", 
+                            "type": "ability", 
+                            "name": "Tower Shield Specialist", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tower-shield-defense\">At 9th level, while using a tower shield, a tower shield specialist gains his shield bonus against touch attacks. This ability replaces weapon training 2. </p>", 
+                            "type": "ability", 
+                            "name": "Tower Shield Defense", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"immediate-repositioning\">At 13th level, as an immediate action, a tower shield specialist can reposition his tower shield to another facing, but he cannot use this ability to interrupt an attack. This ability replaces weapon training 3. </p>", 
+                            "type": "ability", 
+                            "name": "Immediate Repositioning", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tower-shield-evasion\">At 16th level, while using a tower shield, the tower shield specialist gains evasion, as the rogue class ability. At 20th level, the shield specialist gains improved evasion, as the rogue advanced talent, while using a tower shield. This ability replaces both weapon training 4 and weapon mastery.</p>", 
+                            "type": "ability", 
+                            "name": "Tower Shield Evasion", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Many fighters believe the tower shield is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors. Tower shield specialists defy those notions, using their massive shields with startling skill and incredible effect. They use these seemingly clumsy shields to perform deft maneuvers that confound their enemies.</p>", 
+                    "source": "Ultimate Combat", 
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
+                    "name": "Unarmed Fighter", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">An unarmed fighter is not proficient with medium armor, heavy armor, or shields. An unarmed fighter is proficient with all monk weapons, including exotic monk weapons. </p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"unarmed-style\">At 1st level, a unarmed fighter gains the Improved Unarmed Strike feat and any single style feat (see Chapter 3) as a bonus feat. The unarmed fighter need not meet all the prerequisites of the style feat he chooses, but style feats that grant additional uses of the Elemental Fist feat cannot be taken until the unarmed fighter has that feat. This ability replaces the bonus feat at 1st level.</p>", 
+                            "type": "section", 
+                            "name": "Unarmed Style"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"harsh-training\">At 2nd level, an unarmed fighter gains a +1 bonus on saving throws against effects that cause the exhausted, fatigued, or staggered conditions or temporary penalties to ability scores. This bonus increases by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces bravery.</p>", 
+                            "type": "ability", 
+                            "name": "Harsh Training", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tough-guy\">At 3rd level, an unarmed fighter gains DR/&mdash; equal to half his fighter level against nonlethal damage or damage taken while he is grappled. This ability replaces armor training 1. </p>", 
+                            "type": "ability", 
+                            "name": "Tough Guy", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-training\">At 5th level, an unarmed fighter gains a +1 bonus on attack and damage rolls with weapons in the monk and natural weapon groups, improving by +1 for every four levels beyond 5th (to a maximum of +4 at 17th level). This ability replaces weapon training 1, 2, 3, and 4. </p>", 
+                            "type": "ability", 
+                            "name": "Weapon Training", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"clever-wrestler\">At 7th level, an unarmed fighter takes no penalties to Dexterity or on attack rolls while grappled, and retains his Dexterity bonus to AC while pinning an opponent. The unarmed fighter can make attacks of opportunity even when grappled and even against creatures attempting to grapple him if the opponent has the Improved Grapple feat or the grab ability. This ability replaces armor training 2.</p>", 
+                            "type": "ability", 
+                            "name": "Clever Wrestler", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"trick-throw\">At 9th level, when an unarmed fighter successfully trips an opponent with an unarmed attack, he can attempt a dirty trick combat maneuver against that creature (before the opponent becomes prone) as an immediate action that does not provoke attacks of opportunity. This ability replaces weapon training 2. </p>", 
+                            "type": "ability", 
+                            "name": "Trick Throw", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"takedown\">At 11th level, if an unarmed fighter succeeds on a drag maneuver, he can attempt a trip maneuver against the same target as a swift action that does not provoke attacks of opportunity. At 15th level, he may do so after a successful grapple check. This ability replaces armor training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Takedown", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"eye-gouge\">At 13th level, if an unarmed fighter confirms a critical hit with his unarmed strike or begins his turn grappled, he may attempt a dirty trick maneuver to blind his target as a swift action that does not provoke attacks of opportunity. A target more than one size category larger is unaffected. This ability replaces weapon training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Eye Gouge", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sucker-punch\">At 17th level, when an unarmed fighter strikes a creature that is denied its Dexterity bonus to AC, or that he has successfully pinned with a grapple check, he can attempt a dirty trick or trip combat maneuver against that target as a swift action. This ability replaces armor training 4.</p>", 
+                            "type": "ability", 
+                            "name": "Sucker Punch", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sheer-toughness\">At 19th level, an unarmed fighter becomes immune to nonlethal damage and the exhausted, fatigued, and staggered conditions. This ability replaces armor mastery.</p>", 
+                            "type": "ability", 
+                            "name": "Sheer Toughness", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-mastery\">This ability applies to unarmed strikes only. </p>", 
+                            "type": "ability", 
+                            "name": "Weapon Mastery", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Not all fighters need weapons to make their mark on the world. The unarmed fighter picks up a weapon only rarely, and when he does, he prefers the weapons of the monk. There are even those who mistake them for monks, but these fighters enter the fight without <i>ki</i>, and instead have a tough perseverance that few can rival. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"tower-shield-defense\">At 9th level, while using a tower shield, a tower shield specialist gains his shield bonus against touch attacks. This ability replaces weapon training 2. </p>", 
-                    "type": "ability", 
-                    "name": "Tower Shield Defense", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "fighter"
                 }, 
                 {
+                    "name": "Unbreakable", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">An unbreakable is not proficient with tower shields. </p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tough-as-nails\">An unbreakable gains Endurance and Die Hard as bonus feats. This ability replaces the fighter's 1st-level bonus feat. </p>", 
+                            "type": "section", 
+                            "name": "Tough as Nails"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"unflinching\">At 2nd level, an unbreakable gains a +1 bonus on Will saves against mind-affecting effects. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This ability replaces bravery. </p>", 
+                            "type": "ability", 
+                            "name": "Unflinching", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"heroic-recovery\">At 5th level, an unbreakable gains the Heroic Recovery feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any combat feat instead. In addition, he may use this feat one additional time per day for every four levels after 5th (to a maximum of 4 times per day at 17th level). This ability replaces weapon training 1.</p>", 
+                            "type": "ability", 
+                            "name": "Heroic Recovery", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"heroic-defiance\">At 9th level, an unbreakable gains the Heroic Defiance feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any combat feat instead. In addition, he may use this feat one additional time per day for every four levels after 9th (to a maximum of 3 times per day at 19th level). This ability replaces weapon training 2.</p>", 
+                            "type": "ability", 
+                            "name": "Heroic Defiance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"quick-recovery\">At 11th level, an unbreakable needs only 15 minutes of rest or to be subject to a healing spell or effect to recover from the fatigued condition. This ability replaces armor training 3. </p>", 
+                            "type": "ability", 
+                            "name": "Quick Recovery", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"stalwart\">At 13th level, when an unbreakable succeeds on a Fortitude or Will save against a spell or spell-like ability that has a partial effect even on a successful save, he is completely unaffected by it. This ability replaces weapon training 3.</p>", 
+                            "type": "ability", 
+                            "name": "Stalwart", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"unlimited-endurance\">At 15th level, when an unbreakable is exhausted, he only suffers the effects of the fatigued condition instead, but does require 1 hour of rest to reduce this condition to the actual fatigued condition. This ability replaces armor training 4. </p>", 
+                            "type": "ability", 
+                            "name": "Unlimited Endurance", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"miraculous-recovery\">At 17th level, when an unbreakable makes a saving throw to recover from an ongoing effect, he may roll twice and choose the better roll. This ability replaces weapon training 4.</p>", 
+                            "type": "ability", 
+                            "name": "Miraculous Recovery", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"unbreakable-mind\">At 20th level, an unbreakable becomes nearly impossible to sway with honeyed words or magic. He gains immunity to mind-affecting effects. This ability replaces weapon mastery.</p>", 
+                            "type": "ability", 
+                            "name": "Unbreakable Mind", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his mind upon a course of action. The unbreakable endures any trial to do what must be done, and when his mind is set toward a goal, nothing can stop him from achieving it, though many may try. He is a juggernaut and a zealot, supremely confident in his own abilities. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"immediate-repositioning\">At 13th level, as an immediate action, a tower shield specialist can reposition his tower shield to another facing, but he cannot use this ability to interrupt an attack. This ability replaces weapon training 3. </p>", 
-                    "type": "ability", 
-                    "name": "Immediate Repositioning", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tower-shield-evasion\">At 16th level, while using a tower shield, the tower shield specialist gains evasion, as the rogue class ability. At 20th level, the shield specialist gains improved evasion, as the rogue advanced talent, while using a tower shield. This ability replaces both weapon training 4 and weapon mastery.</p>", 
-                    "type": "ability", 
-                    "name": "Tower Shield Evasion", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>Many fighters believe the tower shield is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors. Tower shield specialists defy those notions, using their massive shields with startling skill and incredible effect. They use these seemingly clumsy shields to perform deft maneuvers that confound their enemies.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Unarmed Fighter", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">An unarmed fighter is not proficient with medium armor, heavy armor, or shields. An unarmed fighter is proficient with all monk weapons, including exotic monk weapons. </p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"unarmed-style\">At 1st level, a unarmed fighter gains the Improved Unarmed Strike feat and any single style feat (see Chapter 3) as a bonus feat. The unarmed fighter need not meet all the prerequisites of the style feat he chooses, but style feats that grant additional uses of the Elemental Fist feat cannot be taken until the unarmed fighter has that feat. This ability replaces the bonus feat at 1st level.</p>", 
-                    "type": "section", 
-                    "name": "Unarmed Style"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"harsh-training\">At 2nd level, an unarmed fighter gains a +1 bonus on saving throws against effects that cause the exhausted, fatigued, or staggered conditions or temporary penalties to ability scores. This bonus increases by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces bravery.</p>", 
-                    "type": "ability", 
-                    "name": "Harsh Training", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tough-guy\">At 3rd level, an unarmed fighter gains DR/&mdash; equal to half his fighter level against nonlethal damage or damage taken while he is grappled. This ability replaces armor training 1. </p>", 
-                    "type": "ability", 
-                    "name": "Tough Guy", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-training\">At 5th level, an unarmed fighter gains a +1 bonus on attack and damage rolls with weapons in the monk and natural weapon groups, improving by +1 for every four levels beyond 5th (to a maximum of +4 at 17th level). This ability replaces weapon training 1, 2, 3, and 4. </p>", 
-                    "type": "ability", 
-                    "name": "Weapon Training", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"clever-wrestler\">At 7th level, an unarmed fighter takes no penalties to Dexterity or on attack rolls while grappled, and retains his Dexterity bonus to AC while pinning an opponent. The unarmed fighter can make attacks of opportunity even when grappled and even against creatures attempting to grapple him if the opponent has the Improved Grapple feat or the grab ability. This ability replaces armor training 2.</p>", 
-                    "type": "ability", 
-                    "name": "Clever Wrestler", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"trick-throw\">At 9th level, when an unarmed fighter successfully trips an opponent with an unarmed attack, he can attempt a dirty trick combat maneuver against that creature (before the opponent becomes prone) as an immediate action that does not provoke attacks of opportunity. This ability replaces weapon training 2. </p>", 
-                    "type": "ability", 
-                    "name": "Trick Throw", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"takedown\">At 11th level, if an unarmed fighter succeeds on a drag maneuver, he can attempt a trip maneuver against the same target as a swift action that does not provoke attacks of opportunity. At 15th level, he may do so after a successful grapple check. This ability replaces armor training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Takedown", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"eye-gouge\">At 13th level, if an unarmed fighter confirms a critical hit with his unarmed strike or begins his turn grappled, he may attempt a dirty trick maneuver to blind his target as a swift action that does not provoke attacks of opportunity. A target more than one size category larger is unaffected. This ability replaces weapon training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Eye Gouge", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sucker-punch\">At 17th level, when an unarmed fighter strikes a creature that is denied its Dexterity bonus to AC, or that he has successfully pinned with a grapple check, he can attempt a dirty trick or trip combat maneuver against that target as a swift action. This ability replaces armor training 4.</p>", 
-                    "type": "ability", 
-                    "name": "Sucker Punch", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sheer-toughness\">At 19th level, an unarmed fighter becomes immune to nonlethal damage and the exhausted, fatigued, and staggered conditions. This ability replaces armor mastery.</p>", 
-                    "type": "ability", 
-                    "name": "Sheer Toughness", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-mastery\">This ability applies to unarmed strikes only. </p>", 
-                    "type": "ability", 
-                    "name": "Weapon Mastery", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>Not all fighters need weapons to make their mark on the world. The unarmed fighter picks up a weapon only rarely, and when he does, he prefers the weapons of the monk. There are even those who mistake them for monks, but these fighters enter the fight without <i>ki</i>, and instead have a tough perseverance that few can rival. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Unbreakable", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">An unbreakable is not proficient with tower shields. </p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tough-as-nails\">An unbreakable gains Endurance and Die Hard as bonus feats. This ability replaces the fighter's 1st-level bonus feat. </p>", 
-                    "type": "section", 
-                    "name": "Tough as Nails"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"unflinching\">At 2nd level, an unbreakable gains a +1 bonus on Will saves against mind-affecting effects. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This ability replaces bravery. </p>", 
-                    "type": "ability", 
-                    "name": "Unflinching", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"heroic-recovery\">At 5th level, an unbreakable gains the Heroic Recovery feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any combat feat instead. In addition, he may use this feat one additional time per day for every four levels after 5th (to a maximum of 4 times per day at 17th level). This ability replaces weapon training 1.</p>", 
-                    "type": "ability", 
-                    "name": "Heroic Recovery", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"heroic-defiance\">At 9th level, an unbreakable gains the Heroic Defiance feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any combat feat instead. In addition, he may use this feat one additional time per day for every four levels after 9th (to a maximum of 3 times per day at 19th level). This ability replaces weapon training 2.</p>", 
-                    "type": "ability", 
-                    "name": "Heroic Defiance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"quick-recovery\">At 11th level, an unbreakable needs only 15 minutes of rest or to be subject to a healing spell or effect to recover from the fatigued condition. This ability replaces armor training 3. </p>", 
-                    "type": "ability", 
-                    "name": "Quick Recovery", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"stalwart\">At 13th level, when an unbreakable succeeds on a Fortitude or Will save against a spell or spell-like ability that has a partial effect even on a successful save, he is completely unaffected by it. This ability replaces weapon training 3.</p>", 
-                    "type": "ability", 
-                    "name": "Stalwart", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"unlimited-endurance\">At 15th level, when an unbreakable is exhausted, he only suffers the effects of the fatigued condition instead, but does require 1 hour of rest to reduce this condition to the actual fatigued condition. This ability replaces armor training 4. </p>", 
-                    "type": "ability", 
-                    "name": "Unlimited Endurance", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"miraculous-recovery\">At 17th level, when an unbreakable makes a saving throw to recover from an ongoing effect, he may roll twice and choose the better roll. This ability replaces weapon training 4.</p>", 
-                    "type": "ability", 
-                    "name": "Miraculous Recovery", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"unbreakable-mind\">At 20th level, an unbreakable becomes nearly impossible to sway with honeyed words or magic. He gains immunity to mind-affecting effects. This ability replaces weapon mastery.</p>", 
-                    "type": "ability", 
-                    "name": "Unbreakable Mind", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his mind upon a course of action. The unbreakable endures any trial to do what must be done, and when his mind is set toward a goal, nothing can stop him from achieving it, though many may try. He is a juggernaut and a zealot, supremely confident in his own abilities. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
+                    "type": "class_archetype",
+                    "subtype": "fighter"
+                } 
+            ]
+        },
         {
             "source": "Ultimate Combat", 
             "text": "<p>Weapon groups are defined as follows (GMs may add other weapons to these groups, or add entirely new groups):</p>", 
@@ -732,9 +740,21 @@
             "sections": [
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"axes\">bardiche, battleaxe, dwarven waraxe, greataxe, handaxe, heavy pick, hooked axe, knuckle axe, light pick, mattock, orc double axe, pata, and throwing axe</p><p id=\"blades&lt;/a&gt;,-heavy\">,-heavy\"><b>Blades, Heavy</b>bastard sword, chakram, double chicken saber, double walking stick katana, elven curve blade, falcata, falchion, greatsword, great terbutje, katana, khopesh, longsword, nine-ring broadsword, nodachi, scimitar, scythe, seven-branched sword, shotel, temple sword, terbutje, and two-bladed sword</p><p id=\"blades&lt;/a&gt;,-light\">,-light\"><b>Blades, Light</b>bayonet, butterfly sword, dagger, gladius, kama, kerambit, kukri, pata, quadrens, rapier, short sword, sica, sickle, starknife, swordbreaker dagger, sword cane, and wakizashi</p>", 
+                    "text": "<p id=\"axes\">bardiche, battleaxe, dwarven waraxe, greataxe, handaxe, heavy pick, hooked axe, knuckle axe, light pick, mattock, orc double axe, pata, and throwing axe</p>", 
                     "type": "section", 
                     "name": "Axes"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"blades-heavy\">bastard sword, chakram, double chicken saber, double walking stick katana, elven curve blade, falcata, falchion, greatsword, great terbutje, katana, khopesh, longsword, nine-ring broadsword, nodachi, scimitar, scythe, seven-branched sword, shotel, temple sword, terbutje, and two-bladed sword</p>", 
+                    "type": "section", 
+                    "name": "Blades, Heavy"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
+                    "text": "<p id=\"blades-light\">bayonet, butterfly sword, dagger, gladius, kama, kerambit, kukri, pata, quadrens, rapier, short sword, sica, sickle, starknife, swordbreaker dagger, sword cane, and wakizashi</p>", 
+                    "type": "section", 
+                    "name": "Blades, Light"
                 }, 
                 {
                     "source": "Ultimate Combat", 
