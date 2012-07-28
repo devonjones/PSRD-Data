@@ -253,370 +253,378 @@
             ]
         }, 
         {
-            "name": "Bandit", 
+            "source": "Ultimate Combat", 
+            "type": "section", 
+            "name": "Rogue Archetypes", 
+            "create_index": true,
             "sections": [
                 {
+                    "name": "Bandit", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"ambush\">At 4th level, a bandit becomes fully practiced in the art of ambushing. When she acts in the surprise round, she can take a move action, standard action, and swift action during the surprise round, not just a move or standard action. This ability replaces uncanny dodge. </p>", 
+                            "type": "ability", 
+                            "name": "Ambush", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"fearsome-strike\">At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent frightened for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat. This ability replaces uncanny dodge. </p>", 
+                            "type": "ability", 
+                            "name": "Fearsome Strike", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the bandit archetype: assault leader, combat trick, cunning trigger, snap shot, strong impression, surprise attack, terrain master*, underhanded*, and weapon training.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the bandit archetype: hide in plain sight*, knock-out blow, and opportunist.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>Bandits, brigands, and highwaymen hone their craft along the roadsides and byways of the world, where they leap from the shadows to plunder the spoils of passing travelers. Bandits tend to have a variety of skills; sometimes these skills are similar to a ranger's, but a bandit's tactics always deal with surprise followed by intimidation, with the clear threat of naked force if intimidation does not do the trick. But not all bandits are ruthless thugs. There are those who become outlaws in opposition to tyrants or similar oppressors. These bandits target the status quo and distribute their spoils back into the needy hands of the peasantry. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"ambush\">At 4th level, a bandit becomes fully practiced in the art of ambushing. When she acts in the surprise round, she can take a move action, standard action, and swift action during the surprise round, not just a move or standard action. This ability replaces uncanny dodge. </p>", 
-                    "type": "ability", 
-                    "name": "Ambush", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "rogue"
                 }, 
                 {
+                    "name": "Chameleon", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"misdirection\">At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in Bluff. These points refresh at the start of each day. Before making a Stealth check, she can choose to put stealth points into the roll, gaining a bonus on Stealth checks equal to the number of stealth points she puts into the roll. If she gains a bonus on Bluff checks because of a feat (such as Skill Focus [Bluff]), she adds a number of points to her stealth pool equal to the bonus the feat grants. This ability replaces trapfinding. </p>", 
+                            "type": "ability", 
+                            "name": "Misdirection", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"effortless-sneak\">At 3rd level, the chameleon chooses a single terrain from the ranger's favored terrain class feature. While she is within that terrain, she can take 10 on any Stealth check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain. This ability replaces trap sense. </p>", 
+                            "type": "ability", 
+                            "name": "Effortless Sneak", 
+                            "ability_types": [
+                                "Spell-Like"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the chameleon archetype: camouflage, fast stealth, quick disguise, and terrain mastery*.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the chameleon archetype: hide in plain sight* and master of disguise.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether disappearing into crowded city streets, vanishing into desert sands, or slipping into the darkness of subterranean tunnels, the chameleon relies upon her ability to become part of her surroundings.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"fearsome-strike\">At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent frightened for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat. This ability replaces uncanny dodge. </p>", 
-                    "type": "ability", 
-                    "name": "Fearsome Strike", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "type": "class_archetype",
+                    "subtype": "rogue"
                 }, 
                 {
+                    "name": "Charlatan", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"natural-born-liar\">At 1st level, when a charlatan successfully deceives a creature with a Bluff, that creature takes a &shy;&ndash;2 penalty on the charlatan's Bluff checks for the next 24 hours. This ability does not stack with itself. This ability replaces trapfinding. </p>", 
+                            "type": "ability", 
+                            "name": "Natural Born Liar", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"grand-hoax\">At 3rd level, the charlatan begins to master the art of the grand hoax and learns to create deceptions designed to bestow harm upon her foes. She gains the rumormonger advanced talent, even though she is not yet 10th level. This ability takes the place of trap sense.</p>", 
+                            "type": "ability", 
+                            "name": "Grand Hoax", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the charlatan archetype: black market connections*, coax information, cunning lie*, honeyed words, and underhanded*.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the charlatan archetype: hard to fool*, skill mastery, and unwitting ally*.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>A charlatan is a master of lies and deception. Whether creating simple cons or elaborately woven hoaxes capable of swaying the masses and those in positions of power, a charlatan is often a purveyor of snake-oil, forgeries, and rumormongering. </p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the bandit archetype: assault leader, combat trick, cunning trigger, snap shot, strong impression, surprise attack, terrain master*, underhanded*, and weapon training.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
+                    "type": "class_archetype",
+                    "subtype": "rogue"
                 }, 
                 {
+                    "name": "Driver", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"hard-drive\">When driving a vehicle that uses a group of animals or magical beasts as muscle propulsion, the DCs of all driving checks are reduced by 2, the maximum speed of the vehicle increases by 10 feet, and the acceleration increases by 5 feet. This ability takes the place of trapfinding. </p>", 
+                            "type": "ability", 
+                            "name": "Hard Drive", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"driver's-fortitude\">At 3rd level, the driver learns to keep driving and maintain control of her vehicle, even when mortally wounded. If the driver drops below 0 hit points but is not dead, she can attempt a DC 15 Fortitude save each round to remain conscious and in control of her vehicle, though she may take no other actions. This ability replaces trap sense.</p>", 
+                            "type": "ability", 
+                            "name": "Driver's Fortitude", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the driver archetype: firearm training* and getaway artist*.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the driver archetype: feat and getaway master*.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>A driver makes her living driving vehicles in the service of those who can pay for her considerable talents. She may be a wagon-driver practiced at smuggling contraband, an accomplished musher blazing arctic trails, or a seemingly refined coach driver placing her roguish talents in the service of a wealthy patron. This archetype works best with the vehicle combat rules in Chapter 4.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the bandit archetype: hide in plain sight*, knock-out blow, and opportunist.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
+                    "type": "class_archetype",
+                    "subtype": "rogue"
+                }, 
+                {
+                    "name": "Knife master", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"hidden-blade\">A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light blade.  This ability replaces trapfinding.</p>", 
+                            "type": "section", 
+                            "name": "Hidden Blade"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sneak-stab\">A knife master focuses her ability to deal sneak attack damage with daggers and similar weapons to such a degree that she can deal more sneak attack damage with those weapons at the expense of sneak attacks with other weapons. When she makes a sneak attack with a dagger, kerambit, kukri, punching daggers, starknife, or swordbreaker dagger (<i>Advanced Player's Guide</i> 178), she uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s. This ability is identical in all other ways to sneak attack, and supplements that ability.</p>", 
+                            "type": "ability", 
+                            "name": "Sneak Stab", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"blade-sense\">At 3rd level, a knife master is so skilled in combat involving light blades that she gains a +1 dodge bonus to AC against attacks made against her with light blades. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.</p>", 
+                            "type": "ability", 
+                            "name": "Blade Sense", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the knife master archetype: befuddling strike, combat trick, offensive defense, surprise attack, underhanded*, and weapon training.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the knife master archetype: another day, confounding blades*, deadly sneak, entanglement of blades, and unwitting ally*.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>The knife master is a trained killer who specializes in close-up combat and the wave and weave of knife fighting. In her hands, daggers and other similar light blades become truly deadly instruments..</p>", 
+                    "source": "Ultimate Combat", 
+                    "type": "class_archetype",
+                    "subtype": "rogue"
+                }, 
+                {
+                    "name": "Pirate", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sea-legs\">At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the Sea Legs feat as a bonus feat, even if she does not meet the prerequisites. This ability replaces trapfinding.</p>", 
+                            "type": "ability", 
+                            "name": "Sea Legs", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"swinging-reposition\">At 2nd level, a pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures into her combat style. Provided she is wearing light armor, when fighting in an environment where such structures exist, the rogue incorporates them into her Acrobatics checks by grabbing hold of the structure and swinging toward her opponent, making either a charge or a bull rush maneuver. Once she completes her attack or maneuver, she can reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a free action, even if the charge ends her turn. This movement does not provoke attacks of opportunity. This ability replaces the 2nd-level rogue talent.</p>", 
+                            "type": "ability", 
+                            "name": "Swinging Reposition", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"unflinching\">Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense. This ability replaces trapfinding. </p>", 
+                            "type": "ability", 
+                            "name": "Unflinching", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the pirate archetype: black market connections*, combat trick, finesse rogue, firearm training*, hold breath*, rope master*, and strong stroke*.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the pirate archetype: getaway master*, hard to fool*, and unwitting ally*. </p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>A pirate breaks from the confines of country and king to commit her crimes upon the high seas. She holds allegiance only to her ship and its captain (if even that much is true), and lives a lawless life upon the waves, plundering ships and shorelines as suits her whim. </p>", 
+                    "source": "Ultimate Combat", 
+                    "type": "class_archetype",
+                    "subtype": "rogue"
+                }, 
+                {
+                    "name": "Roof Runner", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"roof-running\">At 1st level, a roof runner becomes entirely adept at moving across the tops of buildings, spires, and similar locations. Provided she is wearing light armor, the roof runner can move at full speed while traveling across the tops of buildings or similar structures, and takes no penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof. This ability replaces trapfinding.</p>", 
+                            "type": "ability", 
+                            "name": "Roof Running", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tumbling-descent\">At 2nd level, a roof runner can use her acrobatics skill to attempt a rapid descent from a rooftop or another surface, ricocheting against another surface and then diving through an opening (such as a balcony or window) directly below. So long as she has at least two surfaces no farther than 10 feet apart to bounce against, she can ricochet her body back from one to the next, descending great distances with a single check. The DC is 10 + 5 for every additional 10-foot increment descended beyond the initial 10 feet dropped. If she fails, she falls the full distance. This ability replaces trap sense.</p>", 
+                            "type": "ability", 
+                            "name": "Tumbling Descent", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the roof runner archetype: expert leaper, ledge walker, nimble climber, stand up, and terrain mastery*.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talent complements the roof runner archetype: fast tumble.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>A specialized urban acrobat, the roof runner makes her home high atop the spires and gables of great cities. She is skilled at traveling these uneven surfaces at full speed, performing daring leaps and deftly balancing upon narrow and precarious ledges.</p>", 
+                    "source": "Ultimate Combat", 
+                    "type": "class_archetype",
+                    "subtype": "rogue"
+                }, 
+                {
+                    "name": "Sanctified Rogue", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"divine-purpose\">At 4th level, the favor of a deity or religious institution grants a special blessing on a sanctified rogue, shoring up some of her weaknesses. She gains a +1 sacred bonus on Fortitude and Will saving throws. This ability replaces uncanny dodge.</p>", 
+                            "type": "ability", 
+                            "name": "Divine Purpose", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"divine-epiphany\">At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an <i>augury</i> spell. The caster level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces improved uncanny dodge. </p>", 
+                            "type": "ability", 
+                            "name": "Divine Epiphany", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the sanctified rogue archetype: esoteric scholar*, major magic, and minor magic.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the sanctified rogue archetype: feat and skill mastery.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>The sanctified rogue serves a higher purpose, acting as a representative of a church or cult, or following the tenets of a specific faith or deity. While most sanctified rogues share the beliefs or ideals of the religions they represent, not all of them are necessarily pious. A handful of disreputable holy thieves serve purely as mercenaries. At the other end of spectrum, however, more sanctified rogues adhere to the tenets of their faith with fanatical devotion. Regardless, all seem blessed with the ability to call upon divine favor to aid them in times of need.</p>", 
+                    "source": "Ultimate Combat", 
+                    "type": "class_archetype",
+                    "subtype": "rogue"
+                }, 
+                {
+                    "name": "Survivalist", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"hardy\">At 1st level, a survivalist is already prepared to endure extreme hardships and environmental conditions. She can go twice the normal number of days without water and triple the normal number of days without food before feeling the effects of either thirst or starvation. This ability replaces trapfinding.</p>", 
+                            "type": "ability", 
+                            "name": "Hardy", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"endure-elements\">At 3rd level, a survivalist rogue gains <i>endure elements</i> as a spell-like ability, as the spell of the same name. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense. </p>", 
+                            "type": "ability", 
+                            "name": "Endure Elements", 
+                            "ability_types": [
+                                "Spell-Like"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"rogue-talents\">The following rogue talents complement the survivalist archetype: hold breath*, iron guts*, resiliency, strong stroke*, survivalist, terrain mastery*, and wall scramble*.</p>", 
+                            "type": "section", 
+                            "name": "Rogue Talents"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the survivalist archetype: another day, defensive roll, feat, and skill mastery.</p>", 
+                            "type": "section", 
+                            "name": "Advanced Talents"
+                        }
+                    ], 
+                    "text": "<p>The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue. Whether in blazing deserts or frigid arctic wastes&mdash;or simply the cold, hard reality of the streets&mdash;the survivalist uses her training to both ensure her own success and provide for the safety of her allies.</p>", 
+                    "source": "Ultimate Combat", 
+                    "type": "class_archetype",
+                    "subtype": "rogue"
                 }
-            ], 
-            "text": "<p>Bandits, brigands, and highwaymen hone their craft along the roadsides and byways of the world, where they leap from the shadows to plunder the spoils of passing travelers. Bandits tend to have a variety of skills; sometimes these skills are similar to a ranger's, but a bandit's tactics always deal with surprise followed by intimidation, with the clear threat of naked force if intimidation does not do the trick. But not all bandits are ruthless thugs. There are those who become outlaws in opposition to tyrants or similar oppressors. These bandits target the status quo and distribute their spoils back into the needy hands of the peasantry. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Chameleon", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"misdirection\">At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in Bluff. These points refresh at the start of each day. Before making a Stealth check, she can choose to put stealth points into the roll, gaining a bonus on Stealth checks equal to the number of stealth points she puts into the roll. If she gains a bonus on Bluff checks because of a feat (such as Skill Focus [Bluff]), she adds a number of points to her stealth pool equal to the bonus the feat grants. This ability replaces trapfinding. </p>", 
-                    "type": "ability", 
-                    "name": "Misdirection", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"effortless-sneak\">At 3rd level, the chameleon chooses a single terrain from the ranger's favored terrain class feature. While she is within that terrain, she can take 10 on any Stealth check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain. This ability replaces trap sense. </p>", 
-                    "type": "ability", 
-                    "name": "Effortless Sneak", 
-                    "ability_types": [
-                        "Spell-Like"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the chameleon archetype: camouflage, fast stealth, quick disguise, and terrain mastery*.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the chameleon archetype: hide in plain sight* and master of disguise.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether disappearing into crowded city streets, vanishing into desert sands, or slipping into the darkness of subterranean tunnels, the chameleon relies upon her ability to become part of her surroundings.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Charlatan", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"natural-born-liar\">At 1st level, when a charlatan successfully deceives a creature with a Bluff, that creature takes a &shy;&ndash;2 penalty on the charlatan's Bluff checks for the next 24 hours. This ability does not stack with itself. This ability replaces trapfinding. </p>", 
-                    "type": "ability", 
-                    "name": "Natural Born Liar", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"grand-hoax\">At 3rd level, the charlatan begins to master the art of the grand hoax and learns to create deceptions designed to bestow harm upon her foes. She gains the rumormonger advanced talent, even though she is not yet 10th level. This ability takes the place of trap sense.</p>", 
-                    "type": "ability", 
-                    "name": "Grand Hoax", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the charlatan archetype: black market connections*, coax information, cunning lie*, honeyed words, and underhanded*.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the charlatan archetype: hard to fool*, skill mastery, and unwitting ally*.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>A charlatan is a master of lies and deception. Whether creating simple cons or elaborately woven hoaxes capable of swaying the masses and those in positions of power, a charlatan is often a purveyor of snake-oil, forgeries, and rumormongering. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Driver", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"hard-drive\">When driving a vehicle that uses a group of animals or magical beasts as muscle propulsion, the DCs of all driving checks are reduced by 2, the maximum speed of the vehicle increases by 10 feet, and the acceleration increases by 5 feet. This ability takes the place of trapfinding. </p>", 
-                    "type": "ability", 
-                    "name": "Hard Drive", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"driver's-fortitude\">At 3rd level, the driver learns to keep driving and maintain control of her vehicle, even when mortally wounded. If the driver drops below 0 hit points but is not dead, she can attempt a DC 15 Fortitude save each round to remain conscious and in control of her vehicle, though she may take no other actions. This ability replaces trap sense.</p>", 
-                    "type": "ability", 
-                    "name": "Driver's Fortitude", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the driver archetype: firearm training* and getaway artist*.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the driver archetype: feat and getaway master*.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>A driver makes her living driving vehicles in the service of those who can pay for her considerable talents. She may be a wagon-driver practiced at smuggling contraband, an accomplished musher blazing arctic trails, or a seemingly refined coach driver placing her roguish talents in the service of a wealthy patron. This archetype works best with the vehicle combat rules in Chapter 4.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Knife master", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"hidden-blade\">A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light blade.  This ability replaces trapfinding.</p>", 
-                    "type": "section", 
-                    "name": "Hidden Blade"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sneak-stab\">A knife master focuses her ability to deal sneak attack damage with daggers and similar weapons to such a degree that she can deal more sneak attack damage with those weapons at the expense of sneak attacks with other weapons. When she makes a sneak attack with a dagger, kerambit, kukri, punching daggers, starknife, or swordbreaker dagger (<i>Advanced Player's Guide</i> 178), she uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s. This ability is identical in all other ways to sneak attack, and supplements that ability.</p>", 
-                    "type": "ability", 
-                    "name": "Sneak Stab", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"blade-sense\">At 3rd level, a knife master is so skilled in combat involving light blades that she gains a +1 dodge bonus to AC against attacks made against her with light blades. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.</p>", 
-                    "type": "ability", 
-                    "name": "Blade Sense", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the knife master archetype: befuddling strike, combat trick, offensive defense, surprise attack, underhanded*, and weapon training.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the knife master archetype: another day, confounding blades*, deadly sneak, entanglement of blades, and unwitting ally*.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>The knife master is a trained killer who specializes in close-up combat and the wave and weave of knife fighting. In her hands, daggers and other similar light blades become truly deadly instruments..</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Pirate", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sea-legs\">At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the Sea Legs feat as a bonus feat, even if she does not meet the prerequisites. This ability replaces trapfinding.</p>", 
-                    "type": "ability", 
-                    "name": "Sea Legs", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"swinging-reposition\">At 2nd level, a pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures into her combat style. Provided she is wearing light armor, when fighting in an environment where such structures exist, the rogue incorporates them into her Acrobatics checks by grabbing hold of the structure and swinging toward her opponent, making either a charge or a bull rush maneuver. Once she completes her attack or maneuver, she can reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a free action, even if the charge ends her turn. This movement does not provoke attacks of opportunity. This ability replaces the 2nd-level rogue talent.</p>", 
-                    "type": "ability", 
-                    "name": "Swinging Reposition", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"unflinching\">Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense. This ability replaces trapfinding. </p>", 
-                    "type": "ability", 
-                    "name": "Unflinching", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the pirate archetype: black market connections*, combat trick, finesse rogue, firearm training*, hold breath*, rope master*, and strong stroke*.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the pirate archetype: getaway master*, hard to fool*, and unwitting ally*. </p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>A pirate breaks from the confines of country and king to commit her crimes upon the high seas. She holds allegiance only to her ship and its captain (if even that much is true), and lives a lawless life upon the waves, plundering ships and shorelines as suits her whim. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Roof Runner", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"roof-running\">At 1st level, a roof runner becomes entirely adept at moving across the tops of buildings, spires, and similar locations. Provided she is wearing light armor, the roof runner can move at full speed while traveling across the tops of buildings or similar structures, and takes no penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof. This ability replaces trapfinding.</p>", 
-                    "type": "ability", 
-                    "name": "Roof Running", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tumbling-descent\">At 2nd level, a roof runner can use her acrobatics skill to attempt a rapid descent from a rooftop or another surface, ricocheting against another surface and then diving through an opening (such as a balcony or window) directly below. So long as she has at least two surfaces no farther than 10 feet apart to bounce against, she can ricochet her body back from one to the next, descending great distances with a single check. The DC is 10 + 5 for every additional 10-foot increment descended beyond the initial 10 feet dropped. If she fails, she falls the full distance. This ability replaces trap sense.</p>", 
-                    "type": "ability", 
-                    "name": "Tumbling Descent", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the roof runner archetype: expert leaper, ledge walker, nimble climber, stand up, and terrain mastery*.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talent complements the roof runner archetype: fast tumble.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>A specialized urban acrobat, the roof runner makes her home high atop the spires and gables of great cities. She is skilled at traveling these uneven surfaces at full speed, performing daring leaps and deftly balancing upon narrow and precarious ledges.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Sanctified Rogue", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"divine-purpose\">At 4th level, the favor of a deity or religious institution grants a special blessing on a sanctified rogue, shoring up some of her weaknesses. She gains a +1 sacred bonus on Fortitude and Will saving throws. This ability replaces uncanny dodge.</p>", 
-                    "type": "ability", 
-                    "name": "Divine Purpose", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"divine-epiphany\">At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an <i>augury</i> spell. The caster level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces improved uncanny dodge. </p>", 
-                    "type": "ability", 
-                    "name": "Divine Epiphany", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the sanctified rogue archetype: esoteric scholar*, major magic, and minor magic.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the sanctified rogue archetype: feat and skill mastery.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>The sanctified rogue serves a higher purpose, acting as a representative of a church or cult, or following the tenets of a specific faith or deity. While most sanctified rogues share the beliefs or ideals of the religions they represent, not all of them are necessarily pious. A handful of disreputable holy thieves serve purely as mercenaries. At the other end of spectrum, however, more sanctified rogues adhere to the tenets of their faith with fanatical devotion. Regardless, all seem blessed with the ability to call upon divine favor to aid them in times of need.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Survivalist", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"hardy\">At 1st level, a survivalist is already prepared to endure extreme hardships and environmental conditions. She can go twice the normal number of days without water and triple the normal number of days without food before feeling the effects of either thirst or starvation. This ability replaces trapfinding.</p>", 
-                    "type": "ability", 
-                    "name": "Hardy", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"endure-elements\">At 3rd level, a survivalist rogue gains <i>endure elements</i> as a spell-like ability, as the spell of the same name. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense. </p>", 
-                    "type": "ability", 
-                    "name": "Endure Elements", 
-                    "ability_types": [
-                        "Spell-Like"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"rogue-talents\">The following rogue talents complement the survivalist archetype: hold breath*, iron guts*, resiliency, strong stroke*, survivalist, terrain mastery*, and wall scramble*.</p>", 
-                    "type": "section", 
-                    "name": "Rogue Talents"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"advanced-talents\">The following advanced rogue talents complement the survivalist archetype: another day, defensive roll, feat, and skill mastery.</p>", 
-                    "type": "section", 
-                    "name": "Advanced Talents"
-                }
-            ], 
-            "text": "<p>The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue. Whether in blazing deserts or frigid arctic wastes&mdash;or simply the cold, hard reality of the streets&mdash;the survivalist uses her training to both ensure her own success and provide for the safety of her allies.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
+            ]
         }
     ]
 }
