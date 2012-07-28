@@ -5,168 +5,176 @@
     "name": "Cleric", 
     "sections": [
         {
-            "name": "Crusader", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"diminished-spellcasting\">A crusader chooses only one domain and gains one fewer spell of each level than normal. If this reduces the number to 0, she may cast spells of that level only if they are domain spells or if her Wisdom allows bonus spells of that level. </p>", 
-                    "type": "section", 
-                    "name": "Diminished Spellcasting"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"bonus-feat\">A crusader gains a bonus feat at 1st level, then again at 5th level and every five levels thereafter (to a maximum of six at 20th level). These bonus feats must be chosen from the following list: Heavy Armor Proficiency, Improved Shield Bash, Martial Weapon Proficiency, Saving Shield, Shield Focus, Tower Shield Proficiency, and Weapon Focus*. At 10th level, a crusader may also choose from the following feats: Exotic Weapon Proficiency, Greater Shield Focus, Greater Weapon Focus*, Improved Critical*, Shield Slam, Shield Specialization, and Weapon Specialization*. At 20th level, a crusader may also choose from the following feats: Greater Shield Specialization and Greater Weapon Specialization*. Bonus feats marked with an asterisk (*) must be applied to the favored weapon of the crusader's deity. A crusader need not meet the normal class- or level-based prerequisites for these bonus feats. </p>", 
-                    "type": "section", 
-                    "name": "Bonus Feat"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"legion's-blessing\">At 8th level, a crusader gains the ability to confer beneficial spells quickly to a large group of allies. As a full-round action, the crusader may confer the effects of a single harmless spell with a range of touch to a number of creatures equal to half her cleric level. The spell's range remains touch, so all intended recipients must be within the crusader's reach when the spell is cast. Using the legion's blessing expends the prepared spell, but it also requires the crusader to sacrifice another prepared spell three levels higher, as when spontaneously using a cure or inflict spell. The higher-level spell is not cast but is simply lost, its magical energy used to power the legion's blessing.</p>", 
-                    "type": "ability", 
-                    "name": "Legion's Blessing", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ], 
-            "text": "<p>Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth. </p>", 
             "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Divine Strategist", 
+            "type": "section", 
+            "name": "Cleric Archetypes", 
+            "create_index": true,
             "sections": [
                 {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"domains\">A divine strategist gains only a single domain. </p>", 
-                    "type": "section", 
-                    "name": "Domains"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"master-tactician\">A divine strategist can always act in a surprise round even if she fails to make a Perception check to notice enemies, though she is considered flat-footed until she acts. In addition, the divine strategist gains a bonus on initiative checks equal to 1/2 her cleric level. At 20th level, a divine strategist's initiative roll is automatically a natural 20. Allies able to see and hear the divine strategist gain a bonus on initiative checks equal to 1/4 the divine strategist's level. This is a language-dependent ability. This ability replaces channel energy.</p>", 
-                    "type": "ability", 
-                    "name": "Master Tactician", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"caster-support\">A divine strategist can use the aid another action to assist another divine spellcaster, granting a +2 circumstance bonus on caster level checks and concentration checks until the beginning of the divine strategist's next turn. This bonus increases by +1 at 4th level and every four levels thereafter<span class=\"char-style-override-12\"> </span>(to a maximum of +7 at 20th level)<span class=\"char-style-override-12\">.</span> The allied caster must remain adjacent to the divine strategist to gain this benefit. Caster support can be used to assist arcane spellcasters or characters using magical items, but they gain only half the normal bonus. </p>", 
-                    "type": "ability", 
-                    "name": "Caster Support", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"tactical-expertise\">At 8th level, a divine strategist knows how to take best advantage of tactical opportunities. Whenever she is flanking or makes an attack of opportunity, she may add her Intelligence bonus (if any) as a bonus on the attack roll. In addition, once per day as a swift action she may add her Intelligence modifier as a bonus on any single d20 roll made as part of a readied action. She can use this ability one additional time per day for every two levels after 8th.</p>", 
-                    "type": "ability", 
-                    "name": "Tactical Expertise", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>The divine strategist leads the armies of the faithful, not from the front lines but through her clever strategy and tactical acumen. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Evangelist", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"single-minded\">An evangelist focuses her skills and learning on proclamation rather than the fine details of the church's deeper mysteries or martial training. Thus, she may select only one domain and does not gain Medium Armor Proficiency or Shield Proficiency.</p>", 
-                    "type": "section", 
-                    "name": "Single-Minded"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"public-speaker\">An evangelist gains Perform as a class skill. In addition, she is trained to project her voice with great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount equal to her class level plus her Charisma modifier (minimum 0).</p>", 
-                    "type": "section", 
-                    "name": "Public Speaker"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sermonic-performance\">An evangelist gains the ability to deliver a select number of supernatural and spell-like performances through the force and power of her divinely inspired preaching and exhortation. This ability is similar in all respects to bardic performance as used by a bard of the same level (including interactions with feats, spells, and prestige classes), using Perform (oratory) as the evangelist's performance skill. However, an evangelist gains only the following types of bardic performance: countersong, fascinate, and inspire courage at 1st level; inspire greatness at 9th level; and inspire heroics at 15th level. Sermonic performance replaces the 1st-, 9th-, and 15th-level channel energy abilities. This caps the cleric's channel energy damage at 7d6 points.</p>", 
-                    "type": "section", 
-                    "name": "Sermonic Performance"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"spontaneous-casting\">An evangelist does not gain the ability to spontaneously cast cure or inflict spells by sacrificing prepared spells. However, an evangelist can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or above:</p>", 
-                    "type": "section", 
-                    "name": "Spontaneous Casting", 
+                    "name": "Crusader", 
                     "sections": [
                         {
-                            "text": "<table><thead><tr><th>Spell Level</th><th>Spontaneous Spell</th></tr></thead>\n<tr class=\"odd\"><td>1st level</td><td><i>command</i></td></tr>\n<tr class=\"even\"><td>2nd level</td><td><i>enthrall</i></td></tr>\n<tr class=\"odd\"><td>3rd level</td><td><i>tongues</i> </td></tr>\n<tr class=\"even\"><td>4th level</td><td><i>suggestion</i></td></tr>\n<tr class=\"odd\"><td>5th level</td><td><i>greater command</i></td></tr>\n<tr class=\"even\"><td>6th level</td><td><i>geas/quest</i></td></tr>\n<tr class=\"odd\"><td>7th level</td><td><i>mass suggestion</i></td></tr>\n<tr class=\"even\"><td>8th level</td><td><i>sympathy</i></td></tr>\n<tr class=\"odd\"><td>9th level</td><td><i>demand</i></td></tr></table>", 
-                            "type": "table", 
-                            "name": "Spell Level", 
-                            "source": "Ultimate Combat"
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"diminished-spellcasting\">A crusader chooses only one domain and gains one fewer spell of each level than normal. If this reduces the number to 0, she may cast spells of that level only if they are domain spells or if her Wisdom allows bonus spells of that level. </p>", 
+                            "type": "section", 
+                            "name": "Diminished Spellcasting"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bonus-feat\">A crusader gains a bonus feat at 1st level, then again at 5th level and every five levels thereafter (to a maximum of six at 20th level). These bonus feats must be chosen from the following list: Heavy Armor Proficiency, Improved Shield Bash, Martial Weapon Proficiency, Saving Shield, Shield Focus, Tower Shield Proficiency, and Weapon Focus*. At 10th level, a crusader may also choose from the following feats: Exotic Weapon Proficiency, Greater Shield Focus, Greater Weapon Focus*, Improved Critical*, Shield Slam, Shield Specialization, and Weapon Specialization*. At 20th level, a crusader may also choose from the following feats: Greater Shield Specialization and Greater Weapon Specialization*. Bonus feats marked with an asterisk (*) must be applied to the favored weapon of the crusader's deity. A crusader need not meet the normal class- or level-based prerequisites for these bonus feats. </p>", 
+                            "type": "section", 
+                            "name": "Bonus Feat"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"legion's-blessing\">At 8th level, a crusader gains the ability to confer beneficial spells quickly to a large group of allies. As a full-round action, the crusader may confer the effects of a single harmless spell with a range of touch to a number of creatures equal to half her cleric level. The spell's range remains touch, so all intended recipients must be within the crusader's reach when the spell is cast. Using the legion's blessing expends the prepared spell, but it also requires the crusader to sacrifice another prepared spell three levels higher, as when spontaneously using a cure or inflict spell. The higher-level spell is not cast but is simply lost, its magical energy used to power the legion's blessing.</p>", 
+                            "type": "ability", 
+                            "name": "Legion's Blessing", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
                         }
-                    ]
+                    ], 
+                    "text": "<p>Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth. </p>", 
+                    "source": "Ultimate Combat", 
+                    "abbrev": "Archetype", 
+                    "type": "section"
+                }, 
+                {
+                    "name": "Divine Strategist", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"domains\">A divine strategist gains only a single domain. </p>", 
+                            "type": "section", 
+                            "name": "Domains"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"master-tactician\">A divine strategist can always act in a surprise round even if she fails to make a Perception check to notice enemies, though she is considered flat-footed until she acts. In addition, the divine strategist gains a bonus on initiative checks equal to 1/2 her cleric level. At 20th level, a divine strategist's initiative roll is automatically a natural 20. Allies able to see and hear the divine strategist gain a bonus on initiative checks equal to 1/4 the divine strategist's level. This is a language-dependent ability. This ability replaces channel energy.</p>", 
+                            "type": "ability", 
+                            "name": "Master Tactician", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"caster-support\">A divine strategist can use the aid another action to assist another divine spellcaster, granting a +2 circumstance bonus on caster level checks and concentration checks until the beginning of the divine strategist's next turn. This bonus increases by +1 at 4th level and every four levels thereafter<span class=\"char-style-override-12\"> </span>(to a maximum of +7 at 20th level)<span class=\"char-style-override-12\">.</span> The allied caster must remain adjacent to the divine strategist to gain this benefit. Caster support can be used to assist arcane spellcasters or characters using magical items, but they gain only half the normal bonus. </p>", 
+                            "type": "ability", 
+                            "name": "Caster Support", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"tactical-expertise\">At 8th level, a divine strategist knows how to take best advantage of tactical opportunities. Whenever she is flanking or makes an attack of opportunity, she may add her Intelligence bonus (if any) as a bonus on the attack roll. In addition, once per day as a swift action she may add her Intelligence modifier as a bonus on any single d20 roll made as part of a readied action. She can use this ability one additional time per day for every two levels after 8th.</p>", 
+                            "type": "ability", 
+                            "name": "Tactical Expertise", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>The divine strategist leads the armies of the faithful, not from the front lines but through her clever strategy and tactical acumen. </p>", 
+                    "source": "Ultimate Combat", 
+                    "abbrev": "Archetype", 
+                    "type": "section"
+                }, 
+                {
+                    "name": "Evangelist", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"single-minded\">An evangelist focuses her skills and learning on proclamation rather than the fine details of the church's deeper mysteries or martial training. Thus, she may select only one domain and does not gain Medium Armor Proficiency or Shield Proficiency.</p>", 
+                            "type": "section", 
+                            "name": "Single-Minded"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"public-speaker\">An evangelist gains Perform as a class skill. In addition, she is trained to project her voice with great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount equal to her class level plus her Charisma modifier (minimum 0).</p>", 
+                            "type": "section", 
+                            "name": "Public Speaker"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sermonic-performance\">An evangelist gains the ability to deliver a select number of supernatural and spell-like performances through the force and power of her divinely inspired preaching and exhortation. This ability is similar in all respects to bardic performance as used by a bard of the same level (including interactions with feats, spells, and prestige classes), using Perform (oratory) as the evangelist's performance skill. However, an evangelist gains only the following types of bardic performance: countersong, fascinate, and inspire courage at 1st level; inspire greatness at 9th level; and inspire heroics at 15th level. Sermonic performance replaces the 1st-, 9th-, and 15th-level channel energy abilities. This caps the cleric's channel energy damage at 7d6 points.</p>", 
+                            "type": "section", 
+                            "name": "Sermonic Performance"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"spontaneous-casting\">An evangelist does not gain the ability to spontaneously cast cure or inflict spells by sacrificing prepared spells. However, an evangelist can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or above:</p>", 
+                            "type": "section", 
+                            "name": "Spontaneous Casting", 
+                            "sections": [
+                                {
+                                    "text": "<table><thead><tr><th>Spell Level</th><th>Spontaneous Spell</th></tr></thead>\n<tr class=\"odd\"><td>1st level</td><td><i>command</i></td></tr>\n<tr class=\"even\"><td>2nd level</td><td><i>enthrall</i></td></tr>\n<tr class=\"odd\"><td>3rd level</td><td><i>tongues</i> </td></tr>\n<tr class=\"even\"><td>4th level</td><td><i>suggestion</i></td></tr>\n<tr class=\"odd\"><td>5th level</td><td><i>greater command</i></td></tr>\n<tr class=\"even\"><td>6th level</td><td><i>geas/quest</i></td></tr>\n<tr class=\"odd\"><td>7th level</td><td><i>mass suggestion</i></td></tr>\n<tr class=\"even\"><td>8th level</td><td><i>sympathy</i></td></tr>\n<tr class=\"odd\"><td>9th level</td><td><i>demand</i></td></tr></table>", 
+                                    "type": "table", 
+                                    "name": "Spell Level", 
+                                    "source": "Ultimate Combat"
+                                }
+                            ]
+                        }
+                    ], 
+                    "text": "<p>The evangelist is the voice of her religion in the world. Where others nurture the faith among believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call to all around to heed the truth, or obey the call to war and crusade against the enemies of the church.</p>", 
+                    "source": "Ultimate Combat", 
+                    "abbrev": "Archetype", 
+                    "type": "section"
+                }, 
+                {
+                    "name": "Merciful Healer", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"willing-healer\">A merciful healer must choose the Healing domain. She does not gain a second domain. If the cleric worships a deity, that deity must be one that grants the Healing domain. A merciful healer must channel positive energy.</p>", 
+                            "type": "section", 
+                            "name": "Willing Healer"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"channel-energy\">As the cleric ability, save that a merciful healer must channel positive energy, and when she does, she cannot choose to target undead. This ability is otherwise identical to the cleric ability of the same name. </p>", 
+                            "type": "ability", 
+                            "name": "Channel Energy", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"combat-medic\">A merciful healer does not provoke attacks of opportunity when using the Heal skill to stabilize another creature or casting healing spells.</p>", 
+                            "type": "ability", 
+                            "name": "Combat Medic", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"merciful-healing\">At 3rd level, a merciful healer can channel positive energy to relieve one or more harmful conditions. The merciful healer chooses one of the following harmful conditions at 3rd level: fatigued, shaken, or sickened. When the merciful healer channels energy she can remove the chosen condition from one living creature that she heals within her channel energy burst. At 6th level, she can choose another condition. It can be one of those she didn't choose at 3rd level, or one of the following conditions: dazed, diseased, or staggered. She can remove the selected condition or the one she chose at 3rd level from up to two creatures within her channel energy burst. She gains another condition at 9th level, and can choose an above condition or one of the following conditions: cursed, exhausted, frightened, nauseated, or poisoned. She can remove that condition, or a condition she previously chose, from one or two creatures within the burst. Finally, at 12th level, she can choose a lower-level condition or one of the following conditions: blinded, deafened, paralyzed, or stunned. She can remove that condition or one she previously chose from one, two, or three creatures within her channel energy burst. Feats and effects that affect a paladin's mercy also affect this ability.</p>", 
+                            "type": "ability", 
+                            "name": "Merciful Healing", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"true-healer\">At 8th level, when a merciful healer channels holy energy, she can choose to apply the benefits of merciful healing or to reroll any 1s when determining how much damage she heals with the holy energy. She must choose which benefit to take before she rolls to see how much damage she heals.</p>", 
+                            "type": "ability", 
+                            "name": "True Healer", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>The merciful healer is a master of battlefield revivification, sustaining and restoring allies to keep them in the fight. </p>", 
+                    "source": "Ultimate Combat", 
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }
-            ], 
-            "text": "<p>The evangelist is the voice of her religion in the world. Where others nurture the faith among believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call to all around to heed the truth, or obey the call to war and crusade against the enemies of the church.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Merciful Healer", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"willing-healer\">A merciful healer must choose the Healing domain. She does not gain a second domain. If the cleric worships a deity, that deity must be one that grants the Healing domain. A merciful healer must channel positive energy.</p>", 
-                    "type": "section", 
-                    "name": "Willing Healer"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"channel-energy\">As the cleric ability, save that a merciful healer must channel positive energy, and when she does, she cannot choose to target undead. This ability is otherwise identical to the cleric ability of the same name. </p>", 
-                    "type": "ability", 
-                    "name": "Channel Energy", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"combat-medic\">A merciful healer does not provoke attacks of opportunity when using the Heal skill to stabilize another creature or casting healing spells.</p>", 
-                    "type": "ability", 
-                    "name": "Combat Medic", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"merciful-healing\">At 3rd level, a merciful healer can channel positive energy to relieve one or more harmful conditions. The merciful healer chooses one of the following harmful conditions at 3rd level: fatigued, shaken, or sickened. When the merciful healer channels energy she can remove the chosen condition from one living creature that she heals within her channel energy burst. At 6th level, she can choose another condition. It can be one of those she didn't choose at 3rd level, or one of the following conditions: dazed, diseased, or staggered. She can remove the selected condition or the one she chose at 3rd level from up to two creatures within her channel energy burst. She gains another condition at 9th level, and can choose an above condition or one of the following conditions: cursed, exhausted, frightened, nauseated, or poisoned. She can remove that condition, or a condition she previously chose, from one or two creatures within the burst. Finally, at 12th level, she can choose a lower-level condition or one of the following conditions: blinded, deafened, paralyzed, or stunned. She can remove that condition or one she previously chose from one, two, or three creatures within her channel energy burst. Feats and effects that affect a paladin's mercy also affect this ability.</p>", 
-                    "type": "ability", 
-                    "name": "Merciful Healing", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"true-healer\">At 8th level, when a merciful healer channels holy energy, she can choose to apply the benefits of merciful healing or to reroll any 1s when determining how much damage she heals with the holy energy. She must choose which benefit to take before she rolls to see how much damage she heals.</p>", 
-                    "type": "ability", 
-                    "name": "True Healer", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ], 
-            "text": "<p>The merciful healer is a master of battlefield revivification, sustaining and restoring allies to keep them in the fight. </p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
+            ]
         }
     ]
 }

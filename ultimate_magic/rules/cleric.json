@@ -290,156 +290,164 @@
                     "name": "Weather"
                 }
             ]
-        }, 
+        },
         {
-            "name": "Cloistered Cleric", 
+            "source": "Ultimate Magic", 
+            "type": "section", 
+            "name": "Cleric Archetypes",
+            "create_index": true,
             "sections": [
                 {
+                    "name": "Cloistered Cleric", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">Cloistered clerics are proficient with light armor and with the following weapons: club, heavy mace, light mace, quarterstaff, and sling. They are not proficient with shields.</p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"class-skills\">The cloistered cleric's class skills are Appraise (Int), Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).</p>", 
+                            "type": "section", 
+                            "name": "Class Skills"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"skill-ranks-per-level\">4 + Int modifier.</p>", 
+                            "type": "section", 
+                            "name": "Skill Ranks per Level"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"diminished-spellcasting\">A cloistered cleric chooses only one domain from her deity's list of domains, and her number of non-domain spells per day for each spell level is one less than normal (for example, a 4th-level cloistered cleric has three cantrips, two 1st-level spells, one 1st-level domain spell, one 2nd-level spell, and one 2nd-level domain spell). If this reduces the number of spells per day for that level to 0, she gains only the bonus spells she would be entitled to based on her Wisdom score for that level, plus her domain spell for that level.</p>", 
+                            "type": "section", 
+                            "name": "Diminished Spellcasting"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"breadth-of-knowledge\">At 1st level, a cloistered cleric gains a bonus on Knowledge skill checks equal to half her class level (minimum +1) and can make Knowledge skill checks untrained.</p>", 
+                            "type": "section", 
+                            "name": "Breadth of Knowledge"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"well-read\">At 2nd level, a cloistered cleric gains a +2 bonus on skill checks, caster level checks, and saving throws if such rolls pertain to mundane or magical glyphs, runes, scrolls, symbols, and other writings. </p>", 
+                            "type": "ability", 
+                            "name": "Well-Read", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"verbal-instruction\">At 3rd level, a cloistered cleric can use the aid another action to assist an ally within 30 feet on a skill or ability check. The ally must be able to hear and understand the cleric's instructions. For every three class levels beyond 3rd, the cloistered cleric can instruct one additional ally. If all allies are not engaged in the same task, using this ability is a full-round action rather than a standard action.</p>", 
+                            "type": "ability", 
+                            "name": "Verbal Instruction", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"scribe-scroll\">At 4th level, a cloistered cleric gains Scribe Scroll as a bonus feat.</p>", 
+                            "type": "ability", 
+                            "name": "Scribe Scroll", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Cloistered clerics typically live in a temple and rarely interact with the outside world. They are bookish and well learned in the lore of the faith, paying less attention to its magical and martial aspects. A cloistered cleric has the following class features.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">Cloistered clerics are proficient with light armor and with the following weapons: club, heavy mace, light mace, quarterstaff, and sling. They are not proficient with shields.</p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "Separatist", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"weapon-and-armor-proficiency\">Separatists do not gain proficiency in their deity's favored weapon (though they are not prohibited from using it or learning its use).</p>", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"forbidden-rites\">A separatist selects one domain from her deity's domain list, and a second domain that is not on her deity's domain list. This second domain cannot be an alignment domain that doesn't match the cleric's or her deity's alignment. For example, a lawful good separatist cleric of a neutral good deity cannot choose the Chaos or Evil domain with this ability, but can select the Lawful domain even though her deity isn't lawful.</p><p>Granted powers from the cleric's second domain function as if the cleric's level, Wisdom, and Charisma were 2 lower than normal (minimum level 1) in terms of effect, DC, and uses per day. This also means the separatist doesn't gain the domain's higher-level ability until 2 levels later than normal. If the second domain grants additional class skills, the separatist gains these as normal. In all other respects, this ability works like and replaces the standard cleric's domain ability.</p>", 
+                            "type": "section", 
+                            "name": "Forbidden Rites"
+                        }
+                    ], 
+                    "text": "<p>A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of defiant divine expression. Though most members of her faith would call her a separatist or heretic, she continues to receive spells from her deity. Charismatic separatists may develop a large following of like-minded believers and eventually found a splinter church of their deity&mdash;and they are just as likely to be the cause of a holy civil war as the branches of the religion fight to determine which is the true faith. </p><p>A cleric who does not serve a deity cannot take the separatist archetype. A separatist has the following class features.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"class-skills\">The cloistered cleric's class skills are Appraise (Int), Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).</p>", 
-                    "type": "section", 
-                    "name": "Class Skills"
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "Theologian", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"focused-domain\">A theologian chooses only one domain from her deity's portfolio rather than the normal two domains. All level-dependent effects of the granted powers from the theologian's domain function as if she were two cleric levels higher than her actual cleric level. This does not allow her to gain domain-granted powers earlier than normal. </p><p>A theologian can prepare domain spells using her non-domain slots. She cannot use her spontaneous casting ability on domain spells, even if they are prepared in non-domain slots. In all other respects, this works like and replaces the standard cleric domain ability.</p>", 
+                            "type": "section", 
+                            "name": "Focused Domain"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"domain-secret\">At 5th level, the theologian chooses one domain spell. That spell becomes permanently modified with one of the following metamagic feats: Bouncing Spell, Disruptive Spell, Ectoplasmic Spell, Enlarge Spell, Extend Spell, Focused Spell, Intensified Spell, Silent Spell, Still Spell. This metamagic feat does not increase the level of the spell. Once chosen, this modification cannot be changed. The domain specialist need not have the metamagic feat to apply it to a spell using this ability. At every 5 levels after 5th, the domain specialist may choose an additional domain spell to modify in this way. She cannot modify the same spell more than once.</p>", 
+                            "type": "ability", 
+                            "name": "Domain Secret", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>A theologian is an expert on one particular area of her religion. She is so focused on that area that she eschews the broader sweep of her deity's dogma and focuses intensely upon that aspect of it, embodying its power in all she does. Theologians tend to be more zealous than other clerics, and many crusades are started by theologians. A theologian has the following class features.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"skill-ranks-per-level\">4 + Int modifier.</p>", 
-                    "type": "section", 
-                    "name": "Skill Ranks per Level"
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }, 
                 {
+                    "name": "Undead Lord", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"death-magic\">An undead lord must select the Death domain (and the Undead subdomain, if available in the campaign). She does not gain a second domain. In all other respects, this works like and replaces the standard cleric's domain ability.</p>", 
+                            "type": "section", 
+                            "name": "Death Magic"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"corpse-companion\">With a ritual requiring 8 hours, an undead lord can animate a single skeleton or zombie whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed half her cleric level. She can dismiss her companion as a standard action, which destroys it.</p>", 
+                            "type": "ability", 
+                            "name": "Corpse Companion", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-feats\">All undead lords gain Command Undead as a bonus feat. In addition, at 10th level, she may select one of the following as a bonus feat: Channel Smite, Extra Channel, Improved Channel, Quick Channel, Skeleton Summoner, Undead Master.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"unlife-healer\">At 8th level, the undead lord's spells, spell-like abilities, and supernatural abilities used to heal undead heal an extra 50% damage. At 16th level, these effects automatically heal the maximum possible damage for the effect + the extra 50%. This does not stack with abilities or feats such as Empower Spell or Maximize Spell.</p>", 
+                            "type": "ability", 
+                            "name": "Unlife Healer", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>An undead lord is a cleric focused on using necromancy to control undead. Her flock is the walking dead and her choir the keening spirits of the damned. This unliving congregation is the manifestation of her unceasing love affair with death.</p><p>A cleric cannot take the undead lord archetype unless her deity's portfolio includes the Death domain or a similar domain that promotes undeath. An undead lord has the following class features.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"diminished-spellcasting\">A cloistered cleric chooses only one domain from her deity's list of domains, and her number of non-domain spells per day for each spell level is one less than normal (for example, a 4th-level cloistered cleric has three cantrips, two 1st-level spells, one 1st-level domain spell, one 2nd-level spell, and one 2nd-level domain spell). If this reduces the number of spells per day for that level to 0, she gains only the bonus spells she would be entitled to based on her Wisdom score for that level, plus her domain spell for that level.</p>", 
-                    "type": "section", 
-                    "name": "Diminished Spellcasting"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"breadth-of-knowledge\">At 1st level, a cloistered cleric gains a bonus on Knowledge skill checks equal to half her class level (minimum +1) and can make Knowledge skill checks untrained.</p>", 
-                    "type": "section", 
-                    "name": "Breadth of Knowledge"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"well-read\">At 2nd level, a cloistered cleric gains a +2 bonus on skill checks, caster level checks, and saving throws if such rolls pertain to mundane or magical glyphs, runes, scrolls, symbols, and other writings. </p>", 
-                    "type": "ability", 
-                    "name": "Well-Read", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"verbal-instruction\">At 3rd level, a cloistered cleric can use the aid another action to assist an ally within 30 feet on a skill or ability check. The ally must be able to hear and understand the cleric's instructions. For every three class levels beyond 3rd, the cloistered cleric can instruct one additional ally. If all allies are not engaged in the same task, using this ability is a full-round action rather than a standard action.</p>", 
-                    "type": "ability", 
-                    "name": "Verbal Instruction", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"scribe-scroll\">At 4th level, a cloistered cleric gains Scribe Scroll as a bonus feat.</p>", 
-                    "type": "ability", 
-                    "name": "Scribe Scroll", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
+                    "abbrev": "Archetype", 
+                    "type": "section"
                 }
-            ], 
-            "text": "<p>Cloistered clerics typically live in a temple and rarely interact with the outside world. They are bookish and well learned in the lore of the faith, paying less attention to its magical and martial aspects. A cloistered cleric has the following class features.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Separatist", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"weapon-and-armor-proficiency\">Separatists do not gain proficiency in their deity's favored weapon (though they are not prohibited from using it or learning its use).</p>", 
-                    "type": "section", 
-                    "name": "Weapon and Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"forbidden-rites\">A separatist selects one domain from her deity's domain list, and a second domain that is not on her deity's domain list. This second domain cannot be an alignment domain that doesn't match the cleric's or her deity's alignment. For example, a lawful good separatist cleric of a neutral good deity cannot choose the Chaos or Evil domain with this ability, but can select the Lawful domain even though her deity isn't lawful.</p><p>Granted powers from the cleric's second domain function as if the cleric's level, Wisdom, and Charisma were 2 lower than normal (minimum level 1) in terms of effect, DC, and uses per day. This also means the separatist doesn't gain the domain's higher-level ability until 2 levels later than normal. If the second domain grants additional class skills, the separatist gains these as normal. In all other respects, this ability works like and replaces the standard cleric's domain ability.</p>", 
-                    "type": "section", 
-                    "name": "Forbidden Rites"
-                }
-            ], 
-            "text": "<p>A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of defiant divine expression. Though most members of her faith would call her a separatist or heretic, she continues to receive spells from her deity. Charismatic separatists may develop a large following of like-minded believers and eventually found a splinter church of their deity&mdash;and they are just as likely to be the cause of a holy civil war as the branches of the religion fight to determine which is the true faith. </p><p>A cleric who does not serve a deity cannot take the separatist archetype. A separatist has the following class features.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Theologian", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"focused-domain\">A theologian chooses only one domain from her deity's portfolio rather than the normal two domains. All level-dependent effects of the granted powers from the theologian's domain function as if she were two cleric levels higher than her actual cleric level. This does not allow her to gain domain-granted powers earlier than normal. </p><p>A theologian can prepare domain spells using her non-domain slots. She cannot use her spontaneous casting ability on domain spells, even if they are prepared in non-domain slots. In all other respects, this works like and replaces the standard cleric domain ability.</p>", 
-                    "type": "section", 
-                    "name": "Focused Domain"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"domain-secret\">At 5th level, the theologian chooses one domain spell. That spell becomes permanently modified with one of the following metamagic feats: Bouncing Spell, Disruptive Spell, Ectoplasmic Spell, Enlarge Spell, Extend Spell, Focused Spell, Intensified Spell, Silent Spell, Still Spell. This metamagic feat does not increase the level of the spell. Once chosen, this modification cannot be changed. The domain specialist need not have the metamagic feat to apply it to a spell using this ability. At every 5 levels after 5th, the domain specialist may choose an additional domain spell to modify in this way. She cannot modify the same spell more than once.</p>", 
-                    "type": "ability", 
-                    "name": "Domain Secret", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }
-            ], 
-            "text": "<p>A theologian is an expert on one particular area of her religion. She is so focused on that area that she eschews the broader sweep of her deity's dogma and focuses intensely upon that aspect of it, embodying its power in all she does. Theologians tend to be more zealous than other clerics, and many crusades are started by theologians. A theologian has the following class features.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Undead Lord", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"death-magic\">An undead lord must select the Death domain (and the Undead subdomain, if available in the campaign). She does not gain a second domain. In all other respects, this works like and replaces the standard cleric's domain ability.</p>", 
-                    "type": "section", 
-                    "name": "Death Magic"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"corpse-companion\">With a ritual requiring 8 hours, an undead lord can animate a single skeleton or zombie whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed half her cleric level. She can dismiss her companion as a standard action, which destroys it.</p>", 
-                    "type": "ability", 
-                    "name": "Corpse Companion", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-feats\">All undead lords gain Command Undead as a bonus feat. In addition, at 10th level, she may select one of the following as a bonus feat: Channel Smite, Extra Channel, Improved Channel, Quick Channel, Skeleton Summoner, Undead Master.</p>", 
-                    "type": "section", 
-                    "name": "Bonus Feats"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"unlife-healer\">At 8th level, the undead lord's spells, spell-like abilities, and supernatural abilities used to heal undead heal an extra 50% damage. At 16th level, these effects automatically heal the maximum possible damage for the effect + the extra 50%. This does not stack with abilities or feats such as Empower Spell or Maximize Spell.</p>", 
-                    "type": "ability", 
-                    "name": "Unlife Healer", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ], 
-            "text": "<p>An undead lord is a cleric focused on using necromancy to control undead. Her flock is the walking dead and her choir the keening spirits of the damned. This unliving congregation is the manifestation of her unceasing love affair with death.</p><p>A cleric cannot take the undead lord archetype unless her deity's portfolio includes the Death domain or a similar domain that promotes undeath. An undead lord has the following class features.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
+            ]
         }
     ], 
     "name": "Cleric", 
