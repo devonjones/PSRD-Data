@@ -14,105 +14,119 @@
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"breath-weapon-bomb*\">Instead of drawing the components of, creating, and throwing a bomb, the alchemist can draw the components, drink them, mix them within his body, and then expel them as a breath weapon as a standard action. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each creature within the cone takes damage as if it had suffered a direct hit from the alchemist's bomb, but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage. Unlike throwing normal bombs, drawing, drinking, and expelling breath weapon bombs does not provoke attacks of opportunity. An alchemist must be at least 6th level before selecting this discovery. </p>", 
                     "type": "section", 
+                    "subtype": "alchemist_discovery",
                     "name": "Breath Weapon Bomb*"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"explosive-missile:\"> As a standard action, the alchemist can infuse a single arrow, crossbow bolt, or one-handed firearm bullet with the power of his bomb, load the ammunition, and shoot the ranged weapon. He must be proficient with the weapon in order to accomplish this. When the infused ammunition hits its target, it deals damage normally and detonates as if the alchemist had thrown the bomb at the target. If the explosive missile misses, it does not detonate. An alchemist must be at least 4th level before selecting this discovery.</p>", 
                     "type": "section", 
+                    "subtype": "alchemist_discovery",
                     "name": "Explosive Missile"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"immolation-bomb\">*: When the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds). When the bomb hits the direct target, the bomb deals 1d6 + the alchemist's Intelligence modifier in damage, and those within the splash zone take damage equal to 1 + the alchemist's Intelligence modifier. It repeats this damage against the direct target of the bomb each round the immolation bomb lasts, dealing the damage at the start of the alchemist's turn. Splash damage is dealt again to any creature that is adjacent to the direct target when it takes damage from the immolation bomb. A creature taking damage from an immolation bomb's direct hit can attempt to extinguish the flames as a full-round action that requires a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier). Because of the alchemical nature of this bomb, rolling on the ground does not grant a bonus on the saving throw, and dousing a creature with water does not stop it from burning. These bombs can be used underwater. An alchemist must be at least 3rd level before selecting this discovery. </p>", 
                     "type": "section", 
+                    "subtype": "alchemist_discovery",
                     "name": "Immolation Bomb"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"nauseating-flesh\">The alchemist's body is suffused with poison. Any creature that bites, engulfs, or swallows the alchemist must make a Fortitude saving throw or be nauseated for 1d4 rounds. An alchemist must be at least 12th level before selecting this discovery. The alchemist with this discovery does not suffer the effect of  the poison of his own nauseating flesh.</p>", 
                     "type": "section", 
+                    "subtype": "alchemist_discovery",
                     "name": "Nauseating Flesh"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"poison-conversion\">By spending 1 minute, the alchemist can convert 1 dose of poison from its current type (contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a dose of Small centipede poison (an injury poison) to an inhaled poison. This process requires an alchemy lab. An alchemist must be at least 6th level before selecting this discovery.</p>", 
                     "type": "section", 
+                    "subtype": "alchemist_discovery",
                     "name": "Poison Conversion"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"siege-bomb\">*: As a standard action, the alchemist infuses a single piece of ammunition on a loaded siege weapon with the power of his bomb. As long as the siege engine with this ammunition is fired before the start of the alchemist's next turn, the ammunition does damage normally, and also deals the damage of the alchemist's bomb. The splash radius of the bomb effect is 20 feet rather than 5 feet. Creatures that take the bomb's damage (either direct damage or splash damage), take 1d6 points of fire damage (or another energy type, if the alchemist is capable of modifying his bombs in that way) each round until the fire is extinguished. Extinguishing the flames is a full-round action that requires a Reflex save. Rolling on the ground provides the target with a +2 bonus on the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames. An alchemist must be at least 12th level and must possess the explosive bomb discovery before selecting this discovery.</p>", 
                     "type": "section", 
+                    "subtype": "alchemist_discovery",
                     "name": "Siege Bomb"
                 }
             ]
         }, 
         {
-            "name": "Beastmorph", 
+            "source": "Ultimate Combat", 
+            "type": "section", 
+            "name": "Alchemist Archetypes", 
+            "create_index": true,
             "sections": [
                 {
+                    "name": "Beastmorph", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"beastform-mutagen\">At 3rd level, a beastmorph's mutagen causes him to take on animalistic features&mdash;whether those of an animal, a magical beast, an animal-like humanoid (such as a lizardfolk), or a monstrous humanoid. For example, when the beastmorph uses his mutagen, he may gain a furry muzzle and pointed ears like a werewolf, scaly skin like a lizardfolk or sahuagin, or compound eyes and mandibles like a giant insect. The beastmorph also gains his choice of one of the abilities listed in the <i>alter self</i> spell, which persists as long as the mutagen. He may select a different ability each time he creates a mutagen. This ability replaces swift alchemy.</p>", 
+                            "type": "section", 
+                            "name": "Beastform Mutagen"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"improved-beastform-mutagen\">At 6th level, a beastmorph's mutagen grants him additional abilities and options. The alchemist gains his choice of two of the abilities listed in the <i>beast shape I</i> spell, which persist as long as the mutagen. He may select two different abilities each time he creates a mutagen. This ability replaces swift poisoning.</p>", 
+                            "type": "section", 
+                            "name": "Improved Beastform Mutagen"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"greater-beastform-mutagen\">At 10th level, a beastmorph's mutagen grants him three of the abilities listed in the <i>beast shape II</i> spell, which persist as long as the mutagen. He may select three different abilities each time he creates a mutagen. This ability replaces poison resistance +2, +4, and +6, as well as poison immunity.</p>", 
+                            "type": "section", 
+                            "name": "Greater Beastform Mutagen"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"grand-beastform-mutagen\">At 14th level, a beastmorph's mutagen grants him four of the abilities listed in the <i>beast shape III</i> spell, which persist as long as the mutagen. He may select four different abilities each time he creates a mutagen. This ability replaces persistent mutagen.</p>", 
+                            "type": "section", 
+                            "name": "Grand Beastform Mutagen"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"discoveries\">The following discoveries complement the beastmorph archetype: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, mummification, spontaneous healing, tentacle, and wings.</p>", 
+                            "type": "section", 
+                            "name": "Discoveries"
+                        }
+                    ], 
+                    "text": "<p>Beastmorphs study the anatomy of monsters, learning how they achieve their strange powers. They use their knowledge to duplicate these abilities, but at the cost of taking on inhuman shapes when they use mutagens.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"beastform-mutagen\">At 3rd level, a beastmorph's mutagen causes him to take on animalistic features&mdash;whether those of an animal, a magical beast, an animal-like humanoid (such as a lizardfolk), or a monstrous humanoid. For example, when the beastmorph uses his mutagen, he may gain a furry muzzle and pointed ears like a werewolf, scaly skin like a lizardfolk or sahuagin, or compound eyes and mandibles like a giant insect. The beastmorph also gains his choice of one of the abilities listed in the <i>alter self</i> spell, which persists as long as the mutagen. He may select a different ability each time he creates a mutagen. This ability replaces swift alchemy.</p>", 
-                    "type": "section", 
-                    "name": "Beastform Mutagen"
+                    "type": "class_archetype",
+                    "subtype": "alchemist"
                 }, 
                 {
+                    "name": "Ragechemist", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"sturdy-rage\">At 6th level, whenever a ragechemist uses his rage mutagen, he also gains a +4 bonus to natural armor, but the penalty on Will saving throws and to Intelligence for taking damage increases to &ndash;4. This ability replaces swift poisoning.</p>", 
+                            "type": "section", 
+                            "name": "Sturdy Rage"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"lumbering-rage\">At 10th level, whenever a ragechemist uses his rage mutagen ability, he may have the mutagen also give him a +2 morale bonus to Constitution, but when he takes a penalty on Will saving throws and to Intelligence, he also takes a &ndash;1 penalty to Dexterity. This ability replaces poison immunity.</p>", 
+                            "type": "section", 
+                            "name": "Lumbering Rage"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"discoveries\">The following discoveries complement the ragechemist: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, tentacle, and vestigial arm.</p>", 
+                            "type": "section", 
+                            "name": "Discoveries"
+                        }
+                    ], 
+                    "text": "<p>Some alchemists create mutagens that tap into a primal anger that fuels their physical transformation. These alchemists have little control over their altered selves. </p><p> <b>Rage Mutagen</b>At 2nd level, whenever a ragechemist creates a mutagen that improves his Strength, that mutagen grants the rage chemist a +6 bonus to Strength, a +2 bonus to natural armor, and a &ndash;2 penalty to Intelligence. Furthermore, while under the effects of this mutagen, whenever the alchemist takes damage, his rage grows, with detrimental effects. At the end of each turn that he takes hit point damage, the ragechemist must succeed at a Will saving throw (DC 15, or DC 20 if any of the damage came from a critical hit that turn) or take a &ndash;2 penalty on Will saving throws and to Intelligence. These penalties end 1 hour after the mutagen ends and stack with themselves. If the penalty lowers the ragechemist's Intelligence score to 0, the ragechemist is comatose until 1 hour after the mutagen expires. This ability replaces poison use.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"improved-beastform-mutagen\">At 6th level, a beastmorph's mutagen grants him additional abilities and options. The alchemist gains his choice of two of the abilities listed in the <i>beast shape I</i> spell, which persist as long as the mutagen. He may select two different abilities each time he creates a mutagen. This ability replaces swift poisoning.</p>", 
-                    "type": "section", 
-                    "name": "Improved Beastform Mutagen"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"greater-beastform-mutagen\">At 10th level, a beastmorph's mutagen grants him three of the abilities listed in the <i>beast shape II</i> spell, which persist as long as the mutagen. He may select three different abilities each time he creates a mutagen. This ability replaces poison resistance +2, +4, and +6, as well as poison immunity.</p>", 
-                    "type": "section", 
-                    "name": "Greater Beastform Mutagen"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"grand-beastform-mutagen\">At 14th level, a beastmorph's mutagen grants him four of the abilities listed in the <i>beast shape III</i> spell, which persist as long as the mutagen. He may select four different abilities each time he creates a mutagen. This ability replaces persistent mutagen.</p>", 
-                    "type": "section", 
-                    "name": "Grand Beastform Mutagen"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"discoveries\">The following discoveries complement the beastmorph archetype: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, mummification, spontaneous healing, tentacle, and wings.</p>", 
-                    "type": "section", 
-                    "name": "Discoveries"
+                    "type": "class_archetype",
+                    "subtype": "alchemist"
                 }
-            ], 
-            "text": "<p>Beastmorphs study the anatomy of monsters, learning how they achieve their strange powers. They use their knowledge to duplicate these abilities, but at the cost of taking on inhuman shapes when they use mutagens.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Ragechemist", 
-            "sections": [
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"sturdy-rage\">At 6th level, whenever a ragechemist uses his rage mutagen, he also gains a +4 bonus to natural armor, but the penalty on Will saving throws and to Intelligence for taking damage increases to &ndash;4. This ability replaces swift poisoning.</p>", 
-                    "type": "section", 
-                    "name": "Sturdy Rage"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"lumbering-rage\">At 10th level, whenever a ragechemist uses his rage mutagen ability, he may have the mutagen also give him a +2 morale bonus to Constitution, but when he takes a penalty on Will saving throws and to Intelligence, he also takes a &ndash;1 penalty to Dexterity. This ability replaces poison immunity.</p>", 
-                    "type": "section", 
-                    "name": "Lumbering Rage"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"discoveries\">The following discoveries complement the ragechemist: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, tentacle, and vestigial arm.</p>", 
-                    "type": "section", 
-                    "name": "Discoveries"
-                }
-            ], 
-            "text": "<p>Some alchemists create mutagens that tap into a primal anger that fuels their physical transformation. These alchemists have little control over their altered selves. </p><p> <b>Rage Mutagen</b>At 2nd level, whenever a ragechemist creates a mutagen that improves his Strength, that mutagen grants the rage chemist a +6 bonus to Strength, a +2 bonus to natural armor, and a &ndash;2 penalty to Intelligence. Furthermore, while under the effects of this mutagen, whenever the alchemist takes damage, his rage grows, with detrimental effects. At the end of each turn that he takes hit point damage, the ragechemist must succeed at a Will saving throw (DC 15, or DC 20 if any of the damage came from a critical hit that turn) or take a &ndash;2 penalty on Will saving throws and to Intelligence. These penalties end 1 hour after the mutagen ends and stack with themselves. If the penalty lowers the ragechemist's Intelligence score to 0, the ragechemist is comatose until 1 hour after the mutagen expires. This ability replaces poison use.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }
+            ]
+        } 
     ]
 }

@@ -8,58 +8,70 @@
             "name": "Gunslinger"
         }, 
         {
-            "name": "Gun Tank", 
+            "source": "Ultimate Combat", 
+            "type": "section", 
+            "name": "Gunslinger Archetypes", 
+            "create_index": true,
             "sections": [
                 {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"armor-proficiency\">A gun tank is proficient with all armors and shields, including tower shields. </p>", 
-                    "type": "section", 
-                    "name": "Armor Proficiency"
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"deeds\">A gun tank swaps a pair of deeds for the following. The new deed descriptions include information on which deeds from the gunslinger class feature these new deeds replace.</p>", 
-                    "type": "section", 
-                    "name": "Deeds", 
+                    "name": "Gun Tank", 
                     "sections": [
                         {
                             "source": "Ultimate Combat", 
-                            "text": "<p id=\"gun-tank's-resolve\" class=\"stat-block-2\">At 1st level, the gun tank can shrug off the most serious of attacks. When the gun tank is wearing medium or heavy armor and is subject to a critical hit or sneak attack, she can spend 1 grit point as an immediate action to attempt to negate the critical hit or sneak attack damage. At 1st level, she has a 25% chance of doing so. At 10th level, the chance increases to 50%. At 15th level, the chance increases to 75%. While a gun tank's resolve does not stack with the <i>fortification</i> armor special ability, it does work in concert with that armor special ability or similar effects, so a gun tank can use this ability even after the <i>armor of fortification</i> has failed to negate the critical hit or sneak attack damage. This deed replaces the gunslinger's dodge deed.</p>", 
+                            "text": "<p id=\"armor-proficiency\">A gun tank is proficient with all armors and shields, including tower shields. </p>", 
+                            "type": "section", 
+                            "name": "Armor Proficiency"
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"deeds\">A gun tank swaps a pair of deeds for the following. The new deed descriptions include information on which deeds from the gunslinger class feature these new deeds replace.</p>", 
+                            "type": "section", 
+                            "name": "Deeds", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "text": "<p id=\"gun-tank's-resolve\" class=\"stat-block-2\">At 1st level, the gun tank can shrug off the most serious of attacks. When the gun tank is wearing medium or heavy armor and is subject to a critical hit or sneak attack, she can spend 1 grit point as an immediate action to attempt to negate the critical hit or sneak attack damage. At 1st level, she has a 25% chance of doing so. At 10th level, the chance increases to 50%. At 15th level, the chance increases to 75%. While a gun tank's resolve does not stack with the <i>fortification</i> armor special ability, it does work in concert with that armor special ability or similar effects, so a gun tank can use this ability even after the <i>armor of fortification</i> has failed to negate the critical hit or sneak attack damage. This deed replaces the gunslinger's dodge deed.</p>", 
+                                    "type": "ability", 
+                                    "name": "Gun Tank's Resolve", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Combat", 
+                                    "text": "<p id=\"gun-tank's-resilience\" class=\"stat-block-2\">At 15th level, when the gun tank has at least 1 grit point and makes a successful Fortitude saving throw against an attack that would deal half damage or have a partial effect, she takes no damage or other effects from that attack. Furthermore, she gains a +2 bonus on all saving throws against fear and mind-affecting effects. This deed replaces the evasive deed.</p>", 
+                                    "type": "ability", 
+                                    "name": "Gun Tank's Resilience", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Combat", 
+                            "text": "<p id=\"bullet-deflection\">A gun tank is adept at modifying and using her armor to stop firearm attacks. Starting at 2nd level, a gun tank wearing medium or heavy armor gains half the armor's bonus plus the armor's enhancement bonus (if any) as a deflection bonus against any non-siege firearm or splash weapon attack (including the alchemist's bomb class ability). This ability has no affect on spells, spell-like abilities, or supernatural abilities that make a touch attack. This ability replaces nimble.</p>", 
                             "type": "ability", 
-                            "name": "Gun Tank's Resolve", 
+                            "name": "Bullet Deflection", 
                             "ability_types": [
                                 "Extraordinary"
                             ]
                         }, 
                         {
                             "source": "Ultimate Combat", 
-                            "text": "<p id=\"gun-tank's-resilience\" class=\"stat-block-2\">At 15th level, when the gun tank has at least 1 grit point and makes a successful Fortitude saving throw against an attack that would deal half damage or have a partial effect, she takes no damage or other effects from that attack. Furthermore, she gains a +2 bonus on all saving throws against fear and mind-affecting effects. This deed replaces the evasive deed.</p>", 
+                            "text": "<p id=\"armor-training\">At 4th level, a gun tank learns to be more maneuverable while wearing armor. Whenever she is wearing armor, the armor check penalty is reduced by 1 (to a minimum of 0) and the maximum Dexterity bonus allowed by her armor increases by 1. Every four levels thereafter (8th, 12th, and 16th), the bonus increases by 1, to a maximum of a &ndash;4 reduction of the armor check penalty and a +4 increase to the maximum Dexterity bonus allowed. This ability stacks with the fighter class ability of the same name. If the gun tank has both class features, she takes the most advantageous benefit of the two class features. This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter.</p>", 
                             "type": "ability", 
-                            "name": "Gun Tank's Resilience", 
+                            "name": "Armor Training", 
                             "ability_types": [
                                 "Extraordinary"
                             ]
-                        }
-                    ]
-                }, 
-                {
+                        } 
+                    ], 
+                    "text": "<p>Gunslingers usually don't use heavy armor, but there are a few who use and modify their armor to protect themselves from both traditional weapons and gunfire. These gun tanks trundle into battle with barrels blazing, dealing out punishment with their firearms while knowing few can penetrate their hard protective shells.</p>", 
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"bullet-deflection\">A gun tank is adept at modifying and using her armor to stop firearm attacks. Starting at 2nd level, a gun tank wearing medium or heavy armor gains half the armor's bonus plus the armor's enhancement bonus (if any) as a deflection bonus against any non-siege firearm or splash weapon attack (including the alchemist's bomb class ability). This ability has no affect on spells, spell-like abilities, or supernatural abilities that make a touch attack. This ability replaces nimble.</p>", 
-                    "type": "ability", 
-                    "name": "Bullet Deflection", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Combat", 
-                    "text": "<p id=\"armor-training\">At 4th level, a gun tank learns to be more maneuverable while wearing armor. Whenever she is wearing armor, the armor check penalty is reduced by 1 (to a minimum of 0) and the maximum Dexterity bonus allowed by her armor increases by 1. Every four levels thereafter (8th, 12th, and 16th), the bonus increases by 1, to a maximum of a &ndash;4 reduction of the armor check penalty and a +4 increase to the maximum Dexterity bonus allowed. This ability stacks with the fighter class ability of the same name. If the gun tank has both class features, she takes the most advantageous benefit of the two class features. This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter.</p>", 
-                    "type": "ability", 
-                    "name": "Armor Training", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
-                }, 
+                    "type": "class_archetype",
+                    "subtype": "gunslinger"
+                },
                 {
                     "name": "Musket Master", 
                     "sections": [
@@ -119,8 +131,8 @@
                     ], 
                     "text": "<p class=\"body-copy-indent para-style-override-4\">Pistols and other one-handed firearms are often easy to conceal and faster to load than other firearms, and do sufficient damage for most situations. But some gunslingers want a little more firepower and range. These are the musket masters; the best of these gunslingers can reload a musket with dazzling speed, potentially putting even their pistol-wielding brethren to shame.</p>", 
                     "source": "Ultimate Combat", 
-                    "abbrev": "Archetype", 
-                    "type": "section"
+                    "type": "class_archetype",
+                    "subtype": "gunslinger"
                 }, 
                 {
                     "name": "Mysterious Stranger", 
@@ -181,8 +193,8 @@
                     ], 
                     "text": "<p>Gunslingers use a potent mixture of common sense and manual dexterity in order to control the fickle power of their weapons. But a few rare gunslingers seem to accomplish their chosen tasks purely through willpower and an unwillingness to ever give up. These mysterious strangers use their force of personality to keep going when the chips are down, often moving on from a region as soon as they accomplish their goals&mdash;hence the name. </p>", 
                     "source": "Ultimate Combat", 
-                    "abbrev": "Archetype", 
-                    "type": "section"
+                    "type": "class_archetype",
+                    "subtype": "gunslinger"
                 }, 
                 {
                     "name": "Pistolero", 
@@ -246,14 +258,10 @@
                     ], 
                     "text": "<p>While most gunslingers have favorite firearms, there are those rare ones who choose to specialize in one-handed firearms exclusively. These gunslingers are called pistoleros. While they lack the flexibility of being able to pick up any kind of firearm and use it with reasonable proficiency, they are crackerjack shots with pistols and similar firearms. Their skill and aim with these firearms at close range is second to none, and they rarely misfire with these weapons.</p>", 
                     "source": "Ultimate Combat", 
-                    "abbrev": "Archetype", 
-                    "type": "section"
+                    "type": "class_archetype",
+                    "subtype": "gunslinger"
                 }
-            ], 
-            "text": "<p>Gunslingers usually don't use heavy armor, but there are a few who use and modify their armor to protect themselves from both traditional weapons and gunfire. These gun tanks trundle into battle with barrels blazing, dealing out punishment with their firearms while knowing few can penetrate their hard protective shells.</p>", 
-            "source": "Ultimate Combat", 
-            "abbrev": "Archetype", 
-            "type": "section"
+            ]
         }
     ], 
     "name": "Gunslinger", 

@@ -12,10 +12,12 @@
             "text": "<p>The following are new mysteries for oracles. An oracle must pick one mystery upon taking her first level of oracle. Once made, this choice cannot be changed. Unless otherwise noted, the DC to save against these revelations is equal to 10 + 1/2 the oracle's class level + the oracle's Charisma modifier. Effects that duplicate spells use the oracle's class level as her caster level.</p>", 
             "type": "section", 
             "name": "Mysteries", 
+            "create_index": true,
             "sections": [
                 {
                     "source": "Ultimate Magic", 
                     "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "name": "Ancestor", 
                     "sections": [
                         {
@@ -145,6 +147,7 @@
                 {
                     "source": "Ultimate Magic", 
                     "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "name": "Dark Tapestry", 
                     "sections": [
                         {
@@ -265,6 +268,7 @@
                 {
                     "source": "Ultimate Magic", 
                     "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "name": "Metal", 
                     "sections": [
                         {
@@ -394,6 +398,7 @@
                 {
                     "source": "Ultimate Magic", 
                     "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "name": "Time", 
                     "sections": [
                         {
@@ -523,6 +528,7 @@
                 {
                     "source": "Ultimate Magic", 
                     "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "name": "Wood", 
                     "sections": [
                         {
@@ -652,308 +658,316 @@
             ]
         }, 
         {
-            "name": "Dual-Cursed Oracle", 
+            "source": "Ultimate Magic", 
+            "type": "section", 
+            "name": "Oracle Archetypes", 
+            "create_index": true,
             "sections": [
                 {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"recommended-mysteries\">Any.</p>", 
-                    "type": "section", 
-                    "name": "Recommended Mysteries"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"oracle's-curse\">A dual-cursed oracle must choose two curses at 1st level. One of these curses (oracle's choice) never changes its abilities as the oracle gains levels; for example, an oracle with clouded vision never gains darkvision 60 feet, blindsense, or blindsight. The other curse comes with its normal benefits.</p>", 
-                    "type": "section", 
-                    "name": "Oracle's Curse"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"class-skills\">A dual-cursed oracle gains no additional class skills from her mystery.</p>", 
-                    "type": "section", 
-                    "name": "Class Skills"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-spells\"><i>ill omen</i> (2nd), <i>oracle's burden</i> (4th), <i>bestow curse</i> (6th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
-                    "type": "section", 
-                    "name": "Bonus Spells"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"revelations\">A dual-cursed oracle gains a new revelation at 5th level and 13th level. These are in addition to the normal revelations she receives at 3rd level, 7th level, and so on. In addition, the cursed oracle may select the following revelations in place of a mystery revelation.</p>", 
-                    "type": "section", 
-                    "name": "Revelations", 
+                    "name": "Dual-Cursed Oracle", 
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"misfortune\">At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll. Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.</p>", 
-                            "type": "ability", 
-                            "name": "Misfortune", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "text": "<p id=\"recommended-mysteries\">Any.</p>", 
+                            "type": "section", 
+                            "name": "Recommended Mysteries"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"oracle's-curse\">A dual-cursed oracle must choose two curses at 1st level. One of these curses (oracle's choice) never changes its abilities as the oracle gains levels; for example, an oracle with clouded vision never gains darkvision 60 feet, blindsense, or blindsight. The other curse comes with its normal benefits.</p>", 
+                            "type": "section", 
+                            "name": "Oracle's Curse"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"class-skills\">A dual-cursed oracle gains no additional class skills from her mystery.</p>", 
+                            "type": "section", 
+                            "name": "Class Skills"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-spells\"><i>ill omen</i> (2nd), <i>oracle's burden</i> (4th), <i>bestow curse</i> (6th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"revelations\">A dual-cursed oracle gains a new revelation at 5th level and 13th level. These are in addition to the normal revelations she receives at 3rd level, 7th level, and so on. In addition, the cursed oracle may select the following revelations in place of a mystery revelation.</p>", 
+                            "type": "section", 
+                            "name": "Revelations", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"misfortune\">At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll. Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.</p>", 
+                                    "type": "ability", 
+                                    "name": "Misfortune", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"fortune\">At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 5th level, and one additional time per day for every six oracle levels beyond 5th.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fortune", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "text": "<p>All oracles are cursed to some degree, but some oracles bear an even heavier burden. Though doubly afflicted with supernatural or physical hindrances, a dual-cursed oracle can manipulate fortune and gains greater insights into her mystery.</p>", 
+                    "source": "Ultimate Magic", 
+                    "type": "class_archetype",
+                    "subtype": "oracle"
+                }, 
+                {
+                    "name": "Enlightened Philosopher", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"alignment\">Any lawful.</p>", 
+                            "type": "section", 
+                            "name": "Alignment"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"recommended-mysteries\">ancestor, fire, heavens, lore, metal, nature, stone, time, waves, wood.</p>", 
+                            "type": "section", 
+                            "name": "Recommended Mysteries"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"class-skills\">An enlightened philosopher adds Linguistics and all Knowledge skills to her list of class skills. These replace the additional class skills from her mystery.</p>", 
+                            "type": "section", 
+                            "name": "Class Skills"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-spells\"><i>owl's wisdom</i> (4th), <i>water walk</i> (6th), <i>discern lies</i> (8th), <i>true seeing</i> (10th), <i>wind walk</i> (12th), <i>ethereal jaunt</i> (14th), <i>moment of prescience</i> (16th), <i>astral projection</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"revelations\">An enlightened philosopher must take the following revelation at 7th level.</p>", 
+                            "type": "section", 
+                            "name": "Revelations", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"mental-acuity\">As the lore mystery revelation.</p>", 
+                                    "type": "ability", 
+                                    "name": "Mental Acuity", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"fortune\">At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 5th level, and one additional time per day for every six oracle levels beyond 5th.</p>", 
-                            "type": "ability", 
-                            "name": "Fortune", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"final-revelation\">Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the <i>reincarnate</i> spell). This replaces the final revelation of the oracle's mystery.</p>", 
+                            "type": "section", 
+                            "name": "Final Revelation"
                         }
-                    ]
-                }
-            ], 
-            "text": "<p>All oracles are cursed to some degree, but some oracles bear an even heavier burden. Though doubly afflicted with supernatural or physical hindrances, a dual-cursed oracle can manipulate fortune and gains greater insights into her mystery.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Enlightened Philosopher", 
-            "sections": [
-                {
+                    ], 
+                    "text": "<p>The enlightened philosopher seeks enlightenment through compassion, moderation, and humility. By following her philosophy's teachings, the enlightened philosopher seeks to reach enlightenment and become one with the universe.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"alignment\">Any lawful.</p>", 
-                    "type": "section", 
-                    "name": "Alignment"
+                    "type": "class_archetype",
+                    "subtype": "oracle"
                 }, 
                 {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"recommended-mysteries\">ancestor, fire, heavens, lore, metal, nature, stone, time, waves, wood.</p>", 
-                    "type": "section", 
-                    "name": "Recommended Mysteries"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"class-skills\">An enlightened philosopher adds Linguistics and all Knowledge skills to her list of class skills. These replace the additional class skills from her mystery.</p>", 
-                    "type": "section", 
-                    "name": "Class Skills"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-spells\"><i>owl's wisdom</i> (4th), <i>water walk</i> (6th), <i>discern lies</i> (8th), <i>true seeing</i> (10th), <i>wind walk</i> (12th), <i>ethereal jaunt</i> (14th), <i>moment of prescience</i> (16th), <i>astral projection</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
-                    "type": "section", 
-                    "name": "Bonus Spells"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"revelations\">An enlightened philosopher must take the following revelation at 7th level.</p>", 
-                    "type": "section", 
-                    "name": "Revelations", 
+                    "name": "Planar Oracle", 
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"mental-acuity\">As the lore mystery revelation.</p>", 
-                            "type": "ability", 
-                            "name": "Mental Acuity", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
-                        }
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"final-revelation\">Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the <i>reincarnate</i> spell). This replaces the final revelation of the oracle's mystery.</p>", 
-                    "type": "section", 
-                    "name": "Final Revelation"
-                }
-            ], 
-            "text": "<p>The enlightened philosopher seeks enlightenment through compassion, moderation, and humility. By following her philosophy's teachings, the enlightened philosopher seeks to reach enlightenment and become one with the universe.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Planar Oracle", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"recommended-mysteries\">dark tapestry, flame, heavens, stone, waves, wind.</p>", 
-                    "type": "section", 
-                    "name": "Recommended Mysteries"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-spells\"><i>endure elements</i> (2nd), <i>elemental speech</i> (4th), <i>tongues</i> (6th), <i>planar adaptation</i> (8th), <i>plane shift</i> (10th), <i>mass planar adaptation</i> (12th), <i>shadow walk</i> (14th), <i>etherealness</i> (16th), <i>gate</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
-                    "type": "section", 
-                    "name": "Bonus Spells"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"revelations\">At 1st level, you must choose one Outer Plane with which you have an affinity. This choice cannot be changed. A planar oracle must take the following revelation at 3rd level.</p>", 
-                    "type": "section", 
-                    "name": "Revelations", 
-                    "sections": [
+                            "text": "<p id=\"recommended-mysteries\">dark tapestry, flame, heavens, stone, waves, wind.</p>", 
+                            "type": "section", 
+                            "name": "Recommended Mysteries"
+                        }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"planar-resistance\">At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.</p>", 
-                            "type": "ability", 
-                            "name": "Planar Resistance", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"final-revelation\">At 20th level, you become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to &ldquo;outsider (extraplanar),&rdquo; except on your associated plane, where your type is &ldquo;outsider (native).&rdquo; In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. This replaces the final revelation of the oracle's mystery.</p>", 
-                    "type": "section", 
-                    "name": "Final Revelation"
-                }
-            ], 
-            "text": "<p>A planar oracle has an affinity with one of the Outer Planes. She is at home on the multiple planes of the Great Beyond, and can eventually become an outsider herself.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Possessed Oracle", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"recommended-mysteries\">Any.</p>", 
-                    "type": "section", 
-                    "name": "Recommended Mysteries"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"oracle's-curse\">A possessed oracle must choose the haunted or tongues curse at 1st level.</p>", 
-                    "type": "section", 
-                    "name": "Oracle's Curse"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-spells\"><i>ventriloquism</i> (1st), <i>spider climb</i> (4th), <i>screech</i> (6th), <i>sleepwalk</i> (8th), <i>telekinesis</i> (10th), <i>animate objects</i> (12th), <i>divine vessel</i> (16th). These bonus spells replace the oracle's normal mystery bonus spells at these levels.</p>", 
-                    "type": "section", 
-                    "name": "Bonus Spells"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"revelations\">A possessed oracle must take the following revelation at 1st level.</p>", 
-                    "type": "section", 
-                    "name": "Revelations", 
-                    "sections": [
+                            "text": "<p id=\"bonus-spells\"><i>endure elements</i> (2nd), <i>elemental speech</i> (4th), <i>tongues</i> (6th), <i>planar adaptation</i> (8th), <i>plane shift</i> (10th), <i>mass planar adaptation</i> (12th), <i>shadow walk</i> (14th), <i>etherealness</i> (16th), <i>gate</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"two-minds\">You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may reroll a failed Will save once per day as an immediate action. You must take the second result, even if it is worse.</p>", 
-                            "type": "ability", 
-                            "name": "Two Minds", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }
-                    ]
-                }
-            ], 
-            "text": "<p>Some oracles are possessed by spirits, demons, or similar beings. Instead of the possessed oracle drawing her powers from deities, these otherworldly forces work their magic through her.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Seer", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"recommended-mysteries\">lore, nature, time.</p>", 
-                    "type": "section", 
-                    "name": "Recommended Mysteries"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-spells\"><i>detect thoughts</i> (4th), <i>clairaudience/clairvoyance</i> (6th), <i>scrying</i> (8th), <i>true seeing</i> (10th), <i>legend lore</i> (12th), <i>greater scrying</i> (14th), <i>vision</i> (16th), <i>foresight</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
-                    "type": "section", 
-                    "name": "Bonus Spells"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"revelations\">A seer must take the following revelations at the listed levels.</p>", 
-                    "type": "section", 
-                    "name": "Revelations", 
-                    "sections": [
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"natural-divination\">As the nature mystery revelation. You must take this revelation at 1st level.</p>", 
-                            "type": "ability", 
-                            "name": "Natural Divination", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "text": "<p id=\"revelations\">At 1st level, you must choose one Outer Plane with which you have an affinity. This choice cannot be changed. A planar oracle must take the following revelation at 3rd level.</p>", 
+                            "type": "section", 
+                            "name": "Revelations", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"planar-resistance\">At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.</p>", 
+                                    "type": "ability", 
+                                    "name": "Planar Resistance", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
                             ]
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"gift-of-prophecy\">Once per day, you can enter a trance to gain a glimpse of the future. This trance lasts for 1 minute, which must be uninterrupted and during which you can take no other actions. At 3rd level, you gain the benefits of an <i>augury</i> spell with 90% effectiveness. At 5th level, you gain the benefits of a <i>divination</i> spell with 90% effectiveness. At 9th level, the knowledge you gain is equivalent to a <i>commune</i> spell. None of these spell effects require material components. You must take this revelation at 3rd level.</p>", 
-                            "type": "ability", 
-                            "name": "Gift of Prophecy", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
+                            "text": "<p id=\"final-revelation\">At 20th level, you become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to &ldquo;outsider (extraplanar),&rdquo; except on your associated plane, where your type is &ldquo;outsider (native).&rdquo; In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. This replaces the final revelation of the oracle's mystery.</p>", 
+                            "type": "section", 
+                            "name": "Final Revelation"
                         }
-                    ]
-                }
-            ], 
-            "text": "<p>While all oracles possess some ability at divination, the seer is a true prophet, able to see things as they really are, or will be.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }, 
-        {
-            "name": "Stargazer", 
-            "sections": [
-                {
+                    ], 
+                    "text": "<p>A planar oracle has an affinity with one of the Outer Planes. She is at home on the multiple planes of the Great Beyond, and can eventually become an outsider herself.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"recommended-mysteries\">dark tapestry, heavens, lore, nature, time.</p>", 
-                    "type": "section", 
-                    "name": "Recommended Mysteries"
+                    "type": "class_archetype",
+                    "subtype": "oracle"
                 }, 
                 {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"class-skills\">A stargazer adds Knowledge (nature), Perception, and Survival to her list of class skills. These replace the additional class skills from her mystery.</p>", 
-                    "type": "section", 
-                    "name": "Class Skills"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"bonus-spells\"><i>faerie fire</i> (2nd), <i>glitterdust</i> (4th), <i>guiding star</i> (6th), <i>wandering star motes</i> (8th), <i>meteor swarm</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
-                    "type": "section", 
-                    "name": "Bonus Spells"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"revelations\">A stargazer must take the following revelations at the listed levels.</p>", 
-                    "type": "section", 
-                    "name": "Revelations", 
+                    "name": "Possessed Oracle", 
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"guiding-star\">As the heavens mystery revelation. You must take this revelation at 1st level.</p>", 
-                            "type": "ability", 
-                            "name": "Guiding Star", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
+                            "text": "<p id=\"recommended-mysteries\">Any.</p>", 
+                            "type": "section", 
+                            "name": "Recommended Mysteries"
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"star-chart\">As the heavens mystery revelation. You must take this revelation at 7th level.</p>", 
-                            "type": "ability", 
-                            "name": "Star Chart", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "text": "<p id=\"oracle's-curse\">A possessed oracle must choose the haunted or tongues curse at 1st level.</p>", 
+                            "type": "section", 
+                            "name": "Oracle's Curse"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-spells\"><i>ventriloquism</i> (1st), <i>spider climb</i> (4th), <i>screech</i> (6th), <i>sleepwalk</i> (8th), <i>telekinesis</i> (10th), <i>animate objects</i> (12th), <i>divine vessel</i> (16th). These bonus spells replace the oracle's normal mystery bonus spells at these levels.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"revelations\">A possessed oracle must take the following revelation at 1st level.</p>", 
+                            "type": "section", 
+                            "name": "Revelations", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"two-minds\">You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may reroll a failed Will save once per day as an immediate action. You must take the second result, even if it is worse.</p>", 
+                                    "type": "ability", 
+                                    "name": "Two Minds", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
                             ]
                         }
-                    ]
+                    ], 
+                    "text": "<p>Some oracles are possessed by spirits, demons, or similar beings. Instead of the possessed oracle drawing her powers from deities, these otherworldly forces work their magic through her.</p>", 
+                    "source": "Ultimate Magic", 
+                    "type": "class_archetype",
+                    "subtype": "oracle"
+                }, 
+                {
+                    "name": "Seer", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"recommended-mysteries\">lore, nature, time.</p>", 
+                            "type": "section", 
+                            "name": "Recommended Mysteries"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-spells\"><i>detect thoughts</i> (4th), <i>clairaudience/clairvoyance</i> (6th), <i>scrying</i> (8th), <i>true seeing</i> (10th), <i>legend lore</i> (12th), <i>greater scrying</i> (14th), <i>vision</i> (16th), <i>foresight</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"revelations\">A seer must take the following revelations at the listed levels.</p>", 
+                            "type": "section", 
+                            "name": "Revelations", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"natural-divination\">As the nature mystery revelation. You must take this revelation at 1st level.</p>", 
+                                    "type": "ability", 
+                                    "name": "Natural Divination", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"gift-of-prophecy\">Once per day, you can enter a trance to gain a glimpse of the future. This trance lasts for 1 minute, which must be uninterrupted and during which you can take no other actions. At 3rd level, you gain the benefits of an <i>augury</i> spell with 90% effectiveness. At 5th level, you gain the benefits of a <i>divination</i> spell with 90% effectiveness. At 9th level, the knowledge you gain is equivalent to a <i>commune</i> spell. None of these spell effects require material components. You must take this revelation at 3rd level.</p>", 
+                                    "type": "ability", 
+                                    "name": "Gift of Prophecy", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "text": "<p>While all oracles possess some ability at divination, the seer is a true prophet, able to see things as they really are, or will be.</p>", 
+                    "source": "Ultimate Magic", 
+                    "type": "class_archetype",
+                    "subtype": "oracle"
+                }, 
+                {
+                    "name": "Stargazer", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"recommended-mysteries\">dark tapestry, heavens, lore, nature, time.</p>", 
+                            "type": "section", 
+                            "name": "Recommended Mysteries"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"class-skills\">A stargazer adds Knowledge (nature), Perception, and Survival to her list of class skills. These replace the additional class skills from her mystery.</p>", 
+                            "type": "section", 
+                            "name": "Class Skills"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"bonus-spells\"><i>faerie fire</i> (2nd), <i>glitterdust</i> (4th), <i>guiding star</i> (6th), <i>wandering star motes</i> (8th), <i>meteor swarm</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"revelations\">A stargazer must take the following revelations at the listed levels.</p>", 
+                            "type": "section", 
+                            "name": "Revelations", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"guiding-star\">As the heavens mystery revelation. You must take this revelation at 1st level.</p>", 
+                                    "type": "ability", 
+                                    "name": "Guiding Star", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"star-chart\">As the heavens mystery revelation. You must take this revelation at 7th level.</p>", 
+                                    "type": "ability", 
+                                    "name": "Star Chart", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "text": "<p>Some oracles seek meaning in the pattern of the stars across the night sky, the trails of comets, and the eternal orbits of the planets.</p>", 
+                    "source": "Ultimate Magic", 
+                    "type": "class_archetype",
+                    "subtype": "oracle"
                 }
-            ], 
-            "text": "<p>Some oracles seek meaning in the pattern of the stars across the night sky, the trails of comets, and the eternal orbits of the planets.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Archetype", 
-            "type": "section"
-        }
+            ]
+        } 
     ], 
     "name": "Oracle", 
     "type": "section"
