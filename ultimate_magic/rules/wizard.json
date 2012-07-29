@@ -98,140 +98,148 @@
                     "text": "<p>In some lands, scholars of magic insist that material things consist of five elements, not four: fire, earth, metal, water, and wood. Rather than directly opposing each other, these five elements counter and generate each other in a wheel-like formation: wood overcomes earth, earth overcomes water, water overcomes fire, fire overcomes metal, and metal overcomes wood. Similar to the four types of elemental wizard schools, some wizards specialize in the schools of magic based on metal or wood. Like a normal arcane school, an elemental school grants a number of school powers and one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the elemental school's spell list (see below). Unlike a normal arcane school, each elemental school requires the wizard to select his opposed element as his opposition school&mdash;in the case of the five-element system, he must choose the element that overcomes his element as his opposition element (so a metal elementalist must select fire as his opposition school because fire overcomes metal). He does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal.</p>", 
                     "type": "section", 
                     "name": "Five Elements"
-                }
+                },
+                {
+                    "name": "Metal", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"metal-magic\">At 1st level, add the following spells to your wizard spell list at the listed spell level: 3rd&mdash;<i>chill metal</i>, <i>heat metal</i>, 5th&mdash;<i>rusting grasp</i>, 9th&mdash;<i>repel metal or stone</i>.</p><p>Whenever you cast a spell that deals hit point damage, you deal extra damage to creatures made of metal or wearing medium or heavy metal armor. Affected creatures take additional damage equal to 1/2 your wizard level. This bonus damage is not increased by Empower Spell or similar effects. This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. The damage is of the same type as the spell.</p>", 
+                            "type": "section", 
+                            "name": "Metal Magic"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"metal-rending\">At 20th level, whenever you cast a spell on a creature made of metal or wearing medium or heavy armor, you can roll twice to penetrate the creature's spell resistance and take the better result.</p>", 
+                            "type": "ability", 
+                            "name": "Metal Rending", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"iron-skin\">You gain a +2 armor bonus to your Armor Class for 10 minutes; this bonus increases by +1 for every 5 caster levels (maximum +6 at 20th level). You can use this ability a number of times per day equal to 3 + your Intelligence bonus.</p>", 
+                            "type": "ability", 
+                            "name": "Iron Skin", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"shrapnel-burst\">At 8th level, as a swift action, you can cause jagged pieces of metal to explode outward from your body. These shards deal 1d6 points of piercing damage per two wizard levels (minimum 1d6) to all creatures within a 10-foot-radius burst. A Reflex save halves this damage. In addition, the twisted scraps of metal make the area difficult terrain until your next turn (at which time they disappear). You can use this ability once per day, plus one additional time per day at 13th and 18th level. At 10th-level, the shrapnel bypasses damage reduction as if it were a magic weapon.</p>", 
+                            "type": "ability", 
+                            "name": "Shrapnel Burst", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"metal-elementalist-wizard-spells\">0&mdash;<i>mending</i>; 1st&mdash;<i>gravity bow</i>, <i>magic weapon</i>, <i>shocking grasp</i>; 2nd&mdash;<i>defensive shock</i>, <i>glitterdust</i>, <i>make whole</i>, <i>shatter</i>, <i>silk to steel</i>; 3rd&mdash;<i>chill metal</i>, <i>heat metal</i>, <i>lightning bolt</i>, <i>keen edge</i>, <i>magic weapon (greater)</i>, <i>versatile weapon</i>; 4th&mdash;<i>malfunction</i>, <i>shout</i>, <i>stoneskin</i>; 5th&mdash;<i>lightning arc</i>, <i>major creation</i>, <i>rapid repair</i>, <i>rusting grasp</i>, <i>soothe construct</i>, <i>unbreakable construct</i>; 6th&mdash;<i>chain lightning</i>, <i>disintegrate</i>, <i>wall of iron</i>; 7th&mdash;<i>control construct</i>, <i>lightning rod</i>, <i>statue</i>; 8th&mdash;<i>call construct</i>, <i>iron body</i>, <i>shout (greater)</i>, <i>stormbolts</i>; 9th&mdash;<i>meteor swarm</i>, <i>repel metal or stone</i>, <i>ride the lightning</i>.</p>", 
+                            "type": "section", 
+                            "name": "Metal Elementalist Wizard Spells"
+                        }
+                    ], 
+                    "text": "<p>Metal represents firmness, rigidity, persistence, strength, determination, and electricity. It is commonly represented by gold and silver as its purest forms, though lower magic relating to iron and steel is part of the metal school.</p>", 
+                    "source": "Ultimate Magic", 
+                    "abbrev": "Elemental School", 
+                    "type": "section"
+                }, 
+                {
+                    "name": "Wood", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wood-magic\">At 1st level, add the following spells to your wizard spell list at the listed spell level: 2nd&mdash;<i>entangle</i>, 3rd&mdash;<i>tree shape</i>, 4th&mdash;<i>plant growth</i>, 5th&mdash;<i>command plants</i>, 6th&mdash;<i>tree stride</i>, 7th&mdash;<i>liveoak</i>, 8th&mdash;<i>transmute metal to wood</i>, 9th&mdash;<i>control plants</i>.</p>", 
+                            "type": "section", 
+                            "name": "Wood Magic"
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"flexible-enhancement\">A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain a +1 enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus increases by +1 for every five wizard levels you possess to a maximum of +5 at 20th level. You can change this bonus to a new ability score when you prepare spells. At 20th level, this bonus applies to two of these ability scores of your choice.</p>", 
+                            "type": "ability", 
+                            "name": "Flexible Enhancement", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"splintered-spear\">As a standard action, you can create a wooden shortspear appropriate to your size, which hurls itself as a ranged attack against one target within 100 feet (range penalties apply), using your Intelligence modifier as an attack bonus instead of your Strength or Dexterity modifier. The spear deals normal damage according to its size, plus your Intelligence modifier, then breaks into countless splinters; the target takes 1 point of bleed damage each round on its turn. At 6th-level and every 6 levels thereafter, the spear gains a +1 enhancement bonus and the bleed damage increases by +1. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.</p>", 
+                            "type": "ability", 
+                            "name": "Splintered Spear", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"cooperative-defense\">At 8th level, whenever a spell or effect targets you and one or more allies within 30 feet, you can use this ability to allow your allies to use your saving throw against the effect in place of their own. Each ally must make this choice individually before the rolls are made. Using this ability is an immediate action. You can use this ability once per day at 8th level, and one additional time per day for every four wizard levels beyond 8th.</p>", 
+                            "type": "ability", 
+                            "name": "Cooperative Defense", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"wood-elementalist-wizard-spells\">0&mdash;<i>light</i>; 1st&mdash;<i>alter winds</i>, <i>animate rope</i>, <i>charm person</i>; 2nd&mdash;<i>cat's grace</i>, <i>entangle</i>, <i>protection from arrows</i>, <i>web</i>, <i>whispering wind</i>; 3rd&mdash;<i>cloak of winds</i>, <i>tongues</i>, <i>tree shape</i>, <i>wind wall</i>; 4th&mdash;<i>charm monster</i>, <i>hallucinatory terrain</i>, <i>minor creation</i>, <i>plant growth</i>, <i>river of wind</i>, <i>secure shelter, sirocco</i>; 5th&mdash;<i>command plants</i>, <i>fabricate</i>, <i>fickle winds</i>, <i>mirage arcana</i>, <i>sending</i>, <i>telepathic bond</i>; 6th&mdash;<i>battemind link</i>, <i>cat's grace (mass)</i>, <i>tree stride</i>; 7th&mdash;<i>control weather</i>, <i>liveoak</i>, <i>scouring winds</i>; 8th&mdash;<i>charm monster (mass)</i>, <i>euphoric tranquility</i>, <i>transmute metal to wood</i>; 9th&mdash;<i>control plants</i>, <i>refuge</i>, <i>winds of vengeance</i>.</p>", 
+                            "type": "section", 
+                            "name": "Wood Elementalist Wizard Spells"
+                        }
+                    ], 
+                    "text": "<p>Wood represents flexibility, warmth, wind, generosity, cooperation, and idealism. Practitioners of this elemental magic often resemble druids in character and in the use of their magic.</p>", 
+                    "source": "Ultimate Magic", 
+                    "abbrev": "Elemental School", 
+                    "type": "section"
+                } 
             ]
         }, 
         {
-            "name": "Metal", 
+            "source": "Ultimate Magic", 
+            "type": "section", 
+            "name": "Wizard Archetypes", 
+            "create_index": true,
             "sections": [
                 {
+                    "name": "Scrollmaster", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"scroll-blade\">A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon. In the hands of the wizard, the scroll acts as a short sword with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell on it counts as a masterwork short sword. The scrollmaster is proficient in this weapon, and feats and abilities that affect short swords (such as Weapon Focus) apply to this weapon. A scrollmaster cannot wield two scrollblades at the same time.</p><p>Activating this ability is a free action. A scroll blade only retains its abilities in the hands of the scrollmaster. The scroll blade has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful hit by the scroll blade reduces its hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed. </p><p>If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a <i>scroll of empowered fireball</i> counts as a 3rd-level spell).</p><p>At 3rd level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a reach weapon. For example, he could use a <i>scroll of charm monster</i> (a 4th-level wizard spell) as either a <i>+2 short sword</i> or a <i>+1 short sword</i> with reach.</p><p>At 5th level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of the following weapon properties: <i>defending</i>, <i>frost</i>, <i>icy burst</i>, <i>keen</i>, <i>ki focus</i>, <i>shock</i>, <i>shocking burst</i>, <i>speed</i>. Adding any of these properties consumes an amount of enhancement bonus equal to the property's cost (see Table 15&ndash;9: Melee Weapon Special Abilities in the <i>Core Rulebook</i>). The scrollmaster must know the prerequisite spell or spells to craft the weapon property in question (for example, he must know <i>haste</i> to be able to give his scroll blade the <i>speed</i> property). This ability replaces the wizard's arcane bond.</p>", 
+                            "type": "ability", 
+                            "name": "Scroll Blade", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"scroll-shield\">A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a light wooden shield. In the hands of the wizard, the scroll grants a +1 shield bonus with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell counts as a masterwork light shield sword. The scroll shield has no armor check penalty, arcane spell failure chance, or maximum Dexterity bonus. The scrollmaster is considered proficient in this shield. A scrollmaster can use a scrollblade in one hand and a scroll shield in the other hand.</p><p>Activating this ability is a free action. A scroll shield only retains its abilities in the hands of the scrollmaster. The scroll shield has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful attack roll against the wizard reduces the scroll shield's hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed.</p><p>At 5th level, when using a 3rd-level or higher wizard scroll as a scroll shield, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give it any of the following shield properties: <i>ghost touch</i>, <i>light fortification</i>, <i>moderate fortification</i>. Adding any of these properties consumes an amount of bonus equal to the property's cost (see Table 15&ndash;5: Shield Special Abilities in the <i>Core Rulebook</i>). The scrollmaster must know the prerequisite spell or spells to craft the shield property in question (for example, he must know <i>limited wish </i>to be able to give his scroll shield the <i>fortification</i> property).</p><p>If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a <i>scroll of empowered fireball</i> counts as a 3rd-level spell).</p>", 
+                            "type": "ability", 
+                            "name": "Scroll Shield", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Magic", 
+                            "text": "<p id=\"improved-scroll-casting\">At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a staff). The scrollmaster must have already deciphered the writing on the scroll to use this ability. This ability replaces the 10th-level wizard bonus feat.</p>", 
+                            "type": "ability", 
+                            "name": "Improved Scroll Casting", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
+                    ], 
+                    "text": "<p>To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls, often one in each in each hand, practicing combat techniques resembling some monk martial arts.</p>", 
                     "source": "Ultimate Magic", 
-                    "text": "<p id=\"metal-magic\">At 1st level, add the following spells to your wizard spell list at the listed spell level: 3rd&mdash;<i>chill metal</i>, <i>heat metal</i>, 5th&mdash;<i>rusting grasp</i>, 9th&mdash;<i>repel metal or stone</i>.</p><p>Whenever you cast a spell that deals hit point damage, you deal extra damage to creatures made of metal or wearing medium or heavy metal armor. Affected creatures take additional damage equal to 1/2 your wizard level. This bonus damage is not increased by Empower Spell or similar effects. This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. The damage is of the same type as the spell.</p>", 
-                    "type": "section", 
-                    "name": "Metal Magic"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"metal-rending\">At 20th level, whenever you cast a spell on a creature made of metal or wearing medium or heavy armor, you can roll twice to penetrate the creature's spell resistance and take the better result.</p>", 
-                    "type": "ability", 
-                    "name": "Metal Rending", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"iron-skin\">You gain a +2 armor bonus to your Armor Class for 10 minutes; this bonus increases by +1 for every 5 caster levels (maximum +6 at 20th level). You can use this ability a number of times per day equal to 3 + your Intelligence bonus.</p>", 
-                    "type": "ability", 
-                    "name": "Iron Skin", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"shrapnel-burst\">At 8th level, as a swift action, you can cause jagged pieces of metal to explode outward from your body. These shards deal 1d6 points of piercing damage per two wizard levels (minimum 1d6) to all creatures within a 10-foot-radius burst. A Reflex save halves this damage. In addition, the twisted scraps of metal make the area difficult terrain until your next turn (at which time they disappear). You can use this ability once per day, plus one additional time per day at 13th and 18th level. At 10th-level, the shrapnel bypasses damage reduction as if it were a magic weapon.</p>", 
-                    "type": "ability", 
-                    "name": "Shrapnel Burst", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"metal-elementalist-wizard-spells\">0&mdash;<i>mending</i>; 1st&mdash;<i>gravity bow</i>, <i>magic weapon</i>, <i>shocking grasp</i>; 2nd&mdash;<i>defensive shock</i>, <i>glitterdust</i>, <i>make whole</i>, <i>shatter</i>, <i>silk to steel</i>; 3rd&mdash;<i>chill metal</i>, <i>heat metal</i>, <i>lightning bolt</i>, <i>keen edge</i>, <i>magic weapon (greater)</i>, <i>versatile weapon</i>; 4th&mdash;<i>malfunction</i>, <i>shout</i>, <i>stoneskin</i>; 5th&mdash;<i>lightning arc</i>, <i>major creation</i>, <i>rapid repair</i>, <i>rusting grasp</i>, <i>soothe construct</i>, <i>unbreakable construct</i>; 6th&mdash;<i>chain lightning</i>, <i>disintegrate</i>, <i>wall of iron</i>; 7th&mdash;<i>control construct</i>, <i>lightning rod</i>, <i>statue</i>; 8th&mdash;<i>call construct</i>, <i>iron body</i>, <i>shout (greater)</i>, <i>stormbolts</i>; 9th&mdash;<i>meteor swarm</i>, <i>repel metal or stone</i>, <i>ride the lightning</i>.</p>", 
-                    "type": "section", 
-                    "name": "Metal Elementalist Wizard Spells"
+                    "type": "class_archetype",
+                    "subtype": "wizard"
                 }
-            ], 
-            "text": "<p>Metal represents firmness, rigidity, persistence, strength, determination, and electricity. It is commonly represented by gold and silver as its purest forms, though lower magic relating to iron and steel is part of the metal school.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Elemental School", 
-            "type": "section"
-        }, 
-        {
-            "name": "Wood", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wood-magic\">At 1st level, add the following spells to your wizard spell list at the listed spell level: 2nd&mdash;<i>entangle</i>, 3rd&mdash;<i>tree shape</i>, 4th&mdash;<i>plant growth</i>, 5th&mdash;<i>command plants</i>, 6th&mdash;<i>tree stride</i>, 7th&mdash;<i>liveoak</i>, 8th&mdash;<i>transmute metal to wood</i>, 9th&mdash;<i>control plants</i>.</p>", 
-                    "type": "section", 
-                    "name": "Wood Magic"
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"flexible-enhancement\">A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain a +1 enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus increases by +1 for every five wizard levels you possess to a maximum of +5 at 20th level. You can change this bonus to a new ability score when you prepare spells. At 20th level, this bonus applies to two of these ability scores of your choice.</p>", 
-                    "type": "ability", 
-                    "name": "Flexible Enhancement", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"splintered-spear\">As a standard action, you can create a wooden shortspear appropriate to your size, which hurls itself as a ranged attack against one target within 100 feet (range penalties apply), using your Intelligence modifier as an attack bonus instead of your Strength or Dexterity modifier. The spear deals normal damage according to its size, plus your Intelligence modifier, then breaks into countless splinters; the target takes 1 point of bleed damage each round on its turn. At 6th-level and every 6 levels thereafter, the spear gains a +1 enhancement bonus and the bleed damage increases by +1. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.</p>", 
-                    "type": "ability", 
-                    "name": "Splintered Spear", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"cooperative-defense\">At 8th level, whenever a spell or effect targets you and one or more allies within 30 feet, you can use this ability to allow your allies to use your saving throw against the effect in place of their own. Each ally must make this choice individually before the rolls are made. Using this ability is an immediate action. You can use this ability once per day at 8th level, and one additional time per day for every four wizard levels beyond 8th.</p>", 
-                    "type": "ability", 
-                    "name": "Cooperative Defense", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"wood-elementalist-wizard-spells\">0&mdash;<i>light</i>; 1st&mdash;<i>alter winds</i>, <i>animate rope</i>, <i>charm person</i>; 2nd&mdash;<i>cat's grace</i>, <i>entangle</i>, <i>protection from arrows</i>, <i>web</i>, <i>whispering wind</i>; 3rd&mdash;<i>cloak of winds</i>, <i>tongues</i>, <i>tree shape</i>, <i>wind wall</i>; 4th&mdash;<i>charm monster</i>, <i>hallucinatory terrain</i>, <i>minor creation</i>, <i>plant growth</i>, <i>river of wind</i>, <i>secure shelter, sirocco</i>; 5th&mdash;<i>command plants</i>, <i>fabricate</i>, <i>fickle winds</i>, <i>mirage arcana</i>, <i>sending</i>, <i>telepathic bond</i>; 6th&mdash;<i>battemind link</i>, <i>cat's grace (mass)</i>, <i>tree stride</i>; 7th&mdash;<i>control weather</i>, <i>liveoak</i>, <i>scouring winds</i>; 8th&mdash;<i>charm monster (mass)</i>, <i>euphoric tranquility</i>, <i>transmute metal to wood</i>; 9th&mdash;<i>control plants</i>, <i>refuge</i>, <i>winds of vengeance</i>.</p>", 
-                    "type": "section", 
-                    "name": "Wood Elementalist Wizard Spells"
-                }
-            ], 
-            "text": "<p>Wood represents flexibility, warmth, wind, generosity, cooperation, and idealism. Practitioners of this elemental magic often resemble druids in character and in the use of their magic.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "Elemental School", 
-            "type": "section"
-        }, 
-        {
-            "name": "Scrollmaster", 
-            "sections": [
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"scroll-blade\">A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon. In the hands of the wizard, the scroll acts as a short sword with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell on it counts as a masterwork short sword. The scrollmaster is proficient in this weapon, and feats and abilities that affect short swords (such as Weapon Focus) apply to this weapon. A scrollmaster cannot wield two scrollblades at the same time.</p><p>Activating this ability is a free action. A scroll blade only retains its abilities in the hands of the scrollmaster. The scroll blade has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful hit by the scroll blade reduces its hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed. </p><p>If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a <i>scroll of empowered fireball</i> counts as a 3rd-level spell).</p><p>At 3rd level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a reach weapon. For example, he could use a <i>scroll of charm monster</i> (a 4th-level wizard spell) as either a <i>+2 short sword</i> or a <i>+1 short sword</i> with reach.</p><p>At 5th level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of the following weapon properties: <i>defending</i>, <i>frost</i>, <i>icy burst</i>, <i>keen</i>, <i>ki focus</i>, <i>shock</i>, <i>shocking burst</i>, <i>speed</i>. Adding any of these properties consumes an amount of enhancement bonus equal to the property's cost (see Table 15&ndash;9: Melee Weapon Special Abilities in the <i>Core Rulebook</i>). The scrollmaster must know the prerequisite spell or spells to craft the weapon property in question (for example, he must know <i>haste</i> to be able to give his scroll blade the <i>speed</i> property). This ability replaces the wizard's arcane bond.</p>", 
-                    "type": "ability", 
-                    "name": "Scroll Blade", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"scroll-shield\">A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a light wooden shield. In the hands of the wizard, the scroll grants a +1 shield bonus with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell counts as a masterwork light shield sword. The scroll shield has no armor check penalty, arcane spell failure chance, or maximum Dexterity bonus. The scrollmaster is considered proficient in this shield. A scrollmaster can use a scrollblade in one hand and a scroll shield in the other hand.</p><p>Activating this ability is a free action. A scroll shield only retains its abilities in the hands of the scrollmaster. The scroll shield has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful attack roll against the wizard reduces the scroll shield's hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed.</p><p>At 5th level, when using a 3rd-level or higher wizard scroll as a scroll shield, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give it any of the following shield properties: <i>ghost touch</i>, <i>light fortification</i>, <i>moderate fortification</i>. Adding any of these properties consumes an amount of bonus equal to the property's cost (see Table 15&ndash;5: Shield Special Abilities in the <i>Core Rulebook</i>). The scrollmaster must know the prerequisite spell or spells to craft the shield property in question (for example, he must know <i>limited wish </i>to be able to give his scroll shield the <i>fortification</i> property).</p><p>If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a <i>scroll of empowered fireball</i> counts as a 3rd-level spell).</p>", 
-                    "type": "ability", 
-                    "name": "Scroll Shield", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Ultimate Magic", 
-                    "text": "<p id=\"improved-scroll-casting\">At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a staff). The scrollmaster must have already deciphered the writing on the scroll to use this ability. This ability replaces the 10th-level wizard bonus feat.</p>", 
-                    "type": "ability", 
-                    "name": "Improved Scroll Casting", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ], 
-            "text": "<p>To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls, often one in each in each hand, practicing combat techniques resembling some monk martial arts.</p>", 
-            "source": "Ultimate Magic", 
-            "abbrev": "archetype", 
-            "type": "section"
+            ]
         }
     ], 
     "name": "Wizard", 
