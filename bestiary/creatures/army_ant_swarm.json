@@ -112,8 +112,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Sting&mdash;injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d2 Str; cure 1 save", 
-                            "sections": []
+                            "text": "Sting", 
+                            "sections": [
+                                { 
+                                    "cure": "1 save",
+                                    "name": "Giant Ant Venom",
+                                    "subtype": "poison",
+                                    "contracted": "injury",
+                                    "effect": "1d2 Strength",
+                                    "source": "Bestiary",
+                                    "frequency": "1/round for 4 rounds",
+                                    "save": "Fortitude DC 14",
+                                    "type": "affliction"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

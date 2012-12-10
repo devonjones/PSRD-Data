@@ -45,8 +45,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary", 
-                    "text": "Injury&mdash;bite; save Fortitude DC 16; frequency 1/minute for 10 minutes; effect 1d4 Str; cure 2 consecutive saves. The DC is Constitution-based.", 
-                    "sections": []
+                    "text": "Bite", 
+                    "sections": [
+                        {
+                            "cure": "2 consecutive saves", 
+                            "name": "Couatl Venom", 
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "effect": "1d4 Strength", 
+                            "source": "Bestiary", 
+                            "frequency": "1/minute for 10 minutes", 
+                            "save": "Fortitude DC 16, The save DC is Constitution-based.", 
+                            "type": "affliction"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

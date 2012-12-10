@@ -32,10 +32,22 @@
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "sections": [], 
                             "type": "section", 
                             "name": "Poison (EX)", 
-                            "text": "Bite&mdash;injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d3 Dex damage; cure 1 save. The save DC is Constitution-based and includes a +2 racial bonus."
+                            "text": "Bite",
+                            "sections": [
+                                {
+                                    "cure": "1 save", 
+                                    "name": "Giant Centipede Venom", 
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "effect": "1d3 Dexterity", 
+                                    "source": "Bestiary", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "save": "Fortitude DC 13, The save DC is Constitution-based and includes a +2 racial bonus.", 
+                                    "type": "affliction"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 
@@ -109,8 +121,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Bite&mdash;injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d4 Dex damage; cure 1 save. The save DC is Constitution-based and includes a +2 racial bonus.", 
-                            "sections": []
+                            "text": "Bite", 
+                            "sections": [
+                                {
+                                    "cure": "1 save", 
+                                    "name": "Centipede Swarm Venom", 
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "effect": "1d4 Dexterity damage", 
+                                    "source": "Bestiary", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "save": "Fortitude DC 13, The save DC is Constitution-based and includes a +2 racial bonus.", 
+                                    "type": "affliction"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

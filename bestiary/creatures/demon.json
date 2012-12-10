@@ -784,8 +784,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Claw&mdash;injury; save Fortitude DC 13; frequency 1/round for 6 rounds; effect 1d2 Dexterity; cure 2 consecutive saves. The DC includes a +2 racial bonus.", 
-                            "sections": []
+                            "text": "Claw", 
+                            "sections": [
+                                {
+                                    "cure": "2 consecutive saves", 
+                                    "name": "Quasit Poison", 
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "effect": "1d2 Dexterity", 
+                                    "source": "Bestiary", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "save": "Fortitude DC 13, The DC includes a +2 racial bonus.", 
+                                    "type": "affliction"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

@@ -34,8 +34,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary", 
-                    "text": "Bite&mdash;injury; save Fort DC 15; frequency 1/round for 10 rounds; effect 1d2 Dex; cure 2 consecutive saves. The save DC is Constitution based.", 
-                    "sections": []
+                    "text": "Bite", 
+                    "sections": [
+                        {
+                            "cure": "2 consecutive saves", 
+                            "name": "Ettercap Venom", 
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "effect": "1d2 Dexterity", 
+                            "source": "Bestiary", 
+                            "frequency": "1/round for 10 rounds", 
+                            "save": "Fortitude DC 15, The save DC is Constitution-based.", 
+                            "type": "affliction"
+                        }
+                    ]
                 }, 
                 {
                     "name": "Spider Empathy", 
@@ -55,48 +67,49 @@
                     ], 
                     "source": "Bestiary", 
                     "text": "The ettercap is particularly skilled at crafting cunning traps with its webs. Deadfalls, nooses, and spear traps are the most common traps ettercaps build with their webs. An ettercap doesn't require gold to build its traps, merely time.", 
-                    "sections": []
+                    "sections": [
+                        {
+                            "source": "Bestiary", 
+                            "name": "Ettercap Deadfall",
+                            "reset": "repair", 
+                            "perception": "DC 20", 
+                            "trigger": "location", 
+                            "trap_type": "mechanical", 
+                            "effect": "Atk +10 melee (4d6), multiple targets (all targets in a 10-ft. square).", 
+                            "disable_device": "DC 20", 
+                            "cr": 3, 
+                            "type": "trap"
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "name": "Ettercap Noose",
+                            "reset": "repair", 
+                            "perception": "DC 20", 
+                            "trigger": "location1", 
+                            "trap_type": "mechanical", 
+                            "effect": "Atk +15 CMB check (grapple).", 
+                            "disable_device": "DC 20", 
+                            "cr": 1, 
+                            "type": "trap"
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "name": "Ettercap Spear Trap",
+                            "reset": "repair", 
+                            "perception": "DC 20", 
+                            "trigger": "location", 
+                            "trap_type": "mechanical", 
+                            "effect": "Atk +15 ranged (1d8+1/&times;3)", 
+                            "disable_device": "DC 20", 
+                            "cr": 2, 
+                            "type": "trap"
+                        } 
+                    ]
                 }
             ], 
             "type": "section", 
             "name": "Special Abilities", 
             "source": "Bestiary"
-        }, 
-        {
-            "source": "Bestiary", 
-            "name": "Ettercap Deadfall",
-            "reset": "repair", 
-            "perception": "DC 20", 
-            "trigger": "location", 
-            "trap_type": "mechanical", 
-            "effect": "Atk +10 melee (4d6), multiple targets (all targets in a 10-ft. square).", 
-            "disable_device": "DC 20", 
-            "cr": 3, 
-            "type": "trap"
-        }, 
-        {
-            "source": "Bestiary", 
-            "name": "Ettercap Noose",
-            "reset": "repair", 
-            "perception": "DC 20", 
-            "trigger": "location1", 
-            "trap_type": "mechanical", 
-            "effect": "Atk +15 CMB check (grapple).", 
-            "disable_device": "DC 20", 
-            "cr": 1, 
-            "type": "trap"
-        }, 
-        {
-            "source": "Bestiary", 
-            "name": "Ettercap Spear Trap",
-            "reset": "repair", 
-            "perception": "DC 20", 
-            "trigger": "location", 
-            "trap_type": "mechanical", 
-            "effect": "Atk +15 ranged (1d8+1/&times;3)", 
-            "disable_device": "DC 20", 
-            "cr": 2, 
-            "type": "trap"
         }, 
         {
             "source": "Bestiary", 

@@ -54,8 +54,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary", 
-                    "text": "Bite&mdash;injury; save Fort DC 18; frequency 1/round for 8 rounds; effect 1d2 Constitution damage; cure 2 consecutive saves. The save DC is Constitution-based.", 
-                    "sections": []
+                    "text": "Bite", 
+                    "sections": [
+                        {
+                            "cure": "2 consecutive saves", 
+                            "name": "Phase Spider Venom", 
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "effect": "1d2 Constitution", 
+                            "source": "Bestiary", 
+                            "frequency": "1/round for 8 rounds", 
+                            "save": "Fortitude DC 18, The save DC is Constitution-based.", 
+                            "type": "affliction"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

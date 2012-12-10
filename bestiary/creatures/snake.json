@@ -85,8 +85,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Bite&mdash;injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2 Con; cure 1 save.", 
-                            "sections": []
+                            "text": "Bite", 
+                            "sections": [
+                                {
+                                    "cure": "cure 1 save", 
+                                    "name": "Snake Venom", 
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "effect": "1d2 Constitution", 
+                                    "source": "Bestiary", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "save": "Fortitude DC 13", 
+                                    "type": "affliction"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

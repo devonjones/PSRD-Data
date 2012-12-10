@@ -76,11 +76,16 @@
             "name": "Violet Venom", 
             "sections": [
                 {
-                    "source": "Bestiary", 
-                    "text": "<p>Poison&mdash;contact; <i>save</i> Fort DC 13, <i>frequency</i> 1/minute for 6 minutes, <i>effect</i> 1d2 Strength and 1d2 Con damage; <i>cure</i> 1 save; <i>cost</i> 800 gp.</p>", 
-                    "type": "section", 
                     "name": "Violet Venom", 
-                    "sections": []
+                    "type": "affliction",
+                    "subtype": "poison", 
+                    "cure": "1 save", 
+                    "contracted": "contact", 
+                    "effect": "1d2 Strength and 1d2 Constitution damage", 
+                    "source": "Bestiary", 
+                    "frequency": "1/minute for 6 minutes", 
+                    "save": "Fortitude DC 13", 
+                    "cost": "800 gp"
                 }
             ]
         }

@@ -441,8 +441,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Bite&mdash;injury; save Fort DC 9; frequency 1/round for 6 rounds; effect 1d2 Con; cure 1 save.", 
-                            "sections": []
+                            "text": "Bite", 
+                            "sections": [
+                                {
+                                    "cure": "cure 1 save", 
+                                    "name": "Viper Venom", 
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "effect": "1d2 Constituton", 
+                                    "source": "Bestiary", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "save": "Fortitude DC 9", 
+                                    "type": "affliction"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

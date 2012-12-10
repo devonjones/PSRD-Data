@@ -37,8 +37,21 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary", 
-                    "text": "Demon Fever: Bite&mdash;injury; save Fort DC 20; onset immediate; frequency 1/day; effect 1d6 Con damage (target must save a 2nd time or 1 point of the damage is drain instead); cure 2 consecutive saves. The save DC is Constitution-based.", 
-                    "sections": []
+                    "text": "Bite", 
+                    "sections": [
+                        {
+                            "cure": "2 consecutive saves", 
+                            "name": "Demon Fever", 
+                            "subtype": "disease", 
+                            "contracted": "injury", 
+                            "effect": "1d6 Constitution damage (target must save a 2nd time or 1 point of the damage is drain instead)", 
+                            "onset": "immediate", 
+                            "source": "Core Rulebook", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 20, The save DC is Constitution-based.", 
+                            "type": "affliction"
+                        }
+                    ]
                 }, 
                 {
                     "name": "Dream Haunting", 
