@@ -50,96 +50,105 @@
         }, 
         {
             "source": "Bestiary", 
-            "text": "<p>&ldquo;Lich&rdquo; is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery. A lich retains all the base creature's statistics and special abilities except as noted here.</p>", 
             "type": "section", 
             "name": "Creating a Lich", 
             "sections": [
                 {
                     "source": "Bestiary", 
-                    "text": "<p>Same as the base creature + 2.</p>", 
+                    "text": "<p>&ldquo;Lich&rdquo; is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery. A lich retains all the base creature's statistics and special abilities except as noted here.</p>", 
+                    "type": "template", 
                     "type": "section", 
-                    "name": "CR", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p> Any evil.</p>", 
-                    "type": "section", 
-                    "name": "Alignment", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>The creature's type changes to undead. Do not recalculate BAB, saves, or skill ranks.</p>", 
-                    "type": "section", 
-                    "name": "Type", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>A lich gains darkvision 60 ft.</p>", 
-                    "type": "section", 
-                    "name": "Senses", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>A lich has a +5 natural armor bonus or the base creature's natural armor bonus, whichever is better.</p>", 
-                    "type": "section", 
-                    "name": "Armor Class", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>Change all of the creature's racial Hit Dice to d8s. All Hit Dice derived from class levels remain unchanged. As undead, liches use their Charisma modifiers to determine bonus hit points (instead of Constitution).</p>", 
-                    "type": "section", 
-                    "name": "Hit Dice", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>A lich gains channel resistance +4, DR 15/bludgeoning and magic, and immunity to cold and electricity (in addition to those granted by its undead traits). The lich also gains the following defensive ability.</p><p class=\"stat-block-2\"><i>Rejuvenation (Su)</i>When a lich is destroyed, its phylactery (which is generally hidden by the lich in a safe place far from where it chooses to dwell) immediately begins to rebuild the undead spellcaster's body nearby. This process takes 1d10 days&mdash;if the body is destroyed before that time passes, the phylactery merely starts the process anew. After this time passes, the lich wakens fully healed (albeit without any gear it left behind on its old body), usually with a burning need for revenge against those who previously destroyed it.</p>", 
-                    "type": "section", 
-                    "name": "Defensive Abilities", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>A lich has a touch attack that it can use once per round as a natural weapon. A lich fighting without weapons uses its natural weapons (if it has any) in addition to its touch attack (which is treated as a primary natural weapon that replaces one claw or slam attack, if the creature has any). A lich armed with a weapon uses its weapons normally, and can use its touch attack as a secondary natural weapon.</p>", 
-                    "type": "section", 
-                    "name": "Melee Attack", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>A lich's touch attack uses negative energy to deal 1d8 points of damage to living creatures + 1 point of damage per 2 Hit Dice possessed by the lich. As negative energy, this damage can be used to heal undead creatures. A lich can take a full-round action to infuse itself with this energy, healing damage as if it had used its touch attack against itself.</p>", 
-                    "type": "section", 
-                    "name": "Damage", 
-                    "sections": []
-                }, 
-                {
-                    "name": "Special Attacks", 
-                    "sections": [], 
-                    "text": "<p>A lich gains the two special attacks described below. Save DCs are equal to 10 + 1/2 lich's HD + lich's Cha modifier unless otherwise noted.</p><p class=\"stat-block-2\"><i>Fear Aura</i> Creatures of less than 5 HD in a 60-foot radius that look at the lich must succeed on a Will save or become frightened. Creatures with 5 HD or more must succeed at a Will save or be shaken for a number of rounds equal to the lich's Hit Dice. A creature that successfully saves cannot be affected again by the same lich's aura for 24 hours. This is a mind-affecting fear effect.</p><p class=\"stat-block-2\"><i>Paralyzing Touch (Su):</i> Any living creature a lich hits with its touch attack must succeed on a Fortitude save or be permanently paralyzed. <i>Remove paralysis</i> or any spell that can remove a curse can free the victim (see the <i>bestow curse</i> spell description, with a DC equal to the lich's save DC). The effect cannot be dispelled. Anyone paralyzed by a lich seems dead, though a DC 20 Perception check or a DC 15 Heal check reveals that the victim is still alive.</p>", 
-                    "ability_types": [
-                        "Supernatural"
-                    ], 
-                    "source": "Bestiary", 
-                    "type": "ability"
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>Int +2, Wis +2, Cha +2. Being undead, a lich has no Constitution score.</p>", 
-                    "type": "section", 
-                    "name": "Abilities", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>Liches have a +8 racial bonus on Perception, Sense Motive, and Stealth checks. A lich always treats Climb, Disguise, Fly, Intimidate, Knowledge (arcana), Knowledge (religion), Perception, Sense Motive, Spellcraft, and Stealth as class skills. Otherwise, skills are the same as the base creature.</p>", 
-                    "type": "section", 
-                    "name": "Skills", 
-                    "sections": []
+                    "abbrev": "CR +2", 
+                    "name": "Lich", 
+                    "sections": [
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>Same as the base creature + 2.</p>", 
+                            "type": "section", 
+                            "name": "CR", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p> Any evil.</p>", 
+                            "type": "section", 
+                            "name": "Alignment", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>The creature's type changes to undead. Do not recalculate BAB, saves, or skill ranks.</p>", 
+                            "type": "section", 
+                            "name": "Type", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>A lich gains darkvision 60 ft.</p>", 
+                            "type": "section", 
+                            "name": "Senses", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>A lich has a +5 natural armor bonus or the base creature's natural armor bonus, whichever is better.</p>", 
+                            "type": "section", 
+                            "name": "Armor Class", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>Change all of the creature's racial Hit Dice to d8s. All Hit Dice derived from class levels remain unchanged. As undead, liches use their Charisma modifiers to determine bonus hit points (instead of Constitution).</p>", 
+                            "type": "section", 
+                            "name": "Hit Dice", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>A lich gains channel resistance +4, DR 15/bludgeoning and magic, and immunity to cold and electricity (in addition to those granted by its undead traits). The lich also gains the following defensive ability.</p><p class=\"stat-block-2\"><i>Rejuvenation (Su)</i>When a lich is destroyed, its phylactery (which is generally hidden by the lich in a safe place far from where it chooses to dwell) immediately begins to rebuild the undead spellcaster's body nearby. This process takes 1d10 days&mdash;if the body is destroyed before that time passes, the phylactery merely starts the process anew. After this time passes, the lich wakens fully healed (albeit without any gear it left behind on its old body), usually with a burning need for revenge against those who previously destroyed it.</p>", 
+                            "type": "section", 
+                            "name": "Defensive Abilities", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>A lich has a touch attack that it can use once per round as a natural weapon. A lich fighting without weapons uses its natural weapons (if it has any) in addition to its touch attack (which is treated as a primary natural weapon that replaces one claw or slam attack, if the creature has any). A lich armed with a weapon uses its weapons normally, and can use its touch attack as a secondary natural weapon.</p>", 
+                            "type": "section", 
+                            "name": "Melee Attack", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>A lich's touch attack uses negative energy to deal 1d8 points of damage to living creatures + 1 point of damage per 2 Hit Dice possessed by the lich. As negative energy, this damage can be used to heal undead creatures. A lich can take a full-round action to infuse itself with this energy, healing damage as if it had used its touch attack against itself.</p>", 
+                            "type": "section", 
+                            "name": "Damage", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Special Attacks", 
+                            "sections": [], 
+                            "text": "<p>A lich gains the two special attacks described below. Save DCs are equal to 10 + 1/2 lich's HD + lich's Cha modifier unless otherwise noted.</p><p class=\"stat-block-2\"><i>Fear Aura</i> Creatures of less than 5 HD in a 60-foot radius that look at the lich must succeed on a Will save or become frightened. Creatures with 5 HD or more must succeed at a Will save or be shaken for a number of rounds equal to the lich's Hit Dice. A creature that successfully saves cannot be affected again by the same lich's aura for 24 hours. This is a mind-affecting fear effect.</p><p class=\"stat-block-2\"><i>Paralyzing Touch (Su):</i> Any living creature a lich hits with its touch attack must succeed on a Fortitude save or be permanently paralyzed. <i>Remove paralysis</i> or any spell that can remove a curse can free the victim (see the <i>bestow curse</i> spell description, with a DC equal to the lich's save DC). The effect cannot be dispelled. Anyone paralyzed by a lich seems dead, though a DC 20 Perception check or a DC 15 Heal check reveals that the victim is still alive.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Bestiary", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>Int +2, Wis +2, Cha +2. Being undead, a lich has no Constitution score.</p>", 
+                            "type": "section", 
+                            "name": "Abilities", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>Liches have a +8 racial bonus on Perception, Sense Motive, and Stealth checks. A lich always treats Climb, Disguise, Fly, Intimidate, Knowledge (arcana), Knowledge (religion), Perception, Sense Motive, Spellcraft, and Stealth as class skills. Otherwise, skills are the same as the base creature.</p>", 
+                            "type": "section", 
+                            "name": "Skills", 
+                            "sections": []
+                        }
+                    ]
                 }
             ]
         }

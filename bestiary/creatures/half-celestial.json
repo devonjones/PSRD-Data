@@ -38,83 +38,92 @@
         }, 
         {
             "source": "Bestiary", 
-            "text": "<p>&ldquo;Half-celestial&rdquo; is an inherited or acquired template that can be added to any living, corporeal creature with an Intelligence score of 4 or more. A half-celestial creature retains the base creature's statistics and special abilities except as noted here.</p>", 
             "type": "section", 
             "name": "Creating a Half-Celestial", 
             "sections": [
                 {
                     "source": "Bestiary", 
-                    "text": "<p>HD 5 or less, as base creature + 1; HD 6&ndash;10, as base creature + 2; HD 11 or more, as base creature + 3.</p>", 
+                    "text": "<p>&ldquo;Half-celestial&rdquo; is an inherited or acquired template that can be added to any living, corporeal creature with an Intelligence score of 4 or more. A half-celestial creature retains the base creature's statistics and special abilities except as noted here.</p>", 
+                    "subtype": "template", 
                     "type": "section", 
-                    "name": "CR", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>Any good.</p>", 
-                    "type": "section", 
-                    "name": "Alignment", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>The creature's type changes to outsider (native). Do not recalculate HD, BAB, or saves.</p>", 
-                    "type": "section", 
-                    "name": "Type", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>Natural armor improves by +1.</p>", 
-                    "type": "section", 
-                    "name": "Armor Class", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>It gains darkvision 60 feet; immunity to disease; +4 racial bonus on saves vs. poison; acid, cold, and electricity resist 10; DR 5/magic (if HD 11 or less) or 10/magic (if HD 12 or more); and SR equal to CR + 11 (maximum 35).</p>", 
-                    "type": "section", 
-                    "name": "Defenses/Qualities", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>Unless the base creature flies better, the half-celestial flies at twice the base creature's land speed (good maneuverability).</p>", 
-                    "type": "section", 
-                    "name": "Speed", 
-                    "sections": []
-                }, 
-                {
-                    "name": "Special Abilities", 
+                    "name": "Half-Celestial", 
+                    "abbrev": "CR varies",
                     "sections": [
                         {
-                            "text": "<table>\n<thead><tr><th>HD</th><th>Abilities</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>1&ndash;2</td><td><i>Protection from evil</i> 3/day, <i>bless</i></td></tr>\n<tr class=\"even\"><td>3&ndash;4</td><td> <i>Aid, Detect evil</i> </td></tr>\n<tr class=\"odd\"><td>5&ndash;6 </td><td><i>Cure serious wounds, Neutralize poison</i> </td></tr>\n<tr class=\"even\"><td>7&ndash;8</td><td><i>Holy smite, Remove disease</i></td></tr>\n<tr class=\"odd\"><td>9&ndash;10 </td><td><i>Dispel evil</i></td></tr>\n<tr class=\"even\"><td>11&ndash;12</td><td><i>Holy word</i></td></tr>\n<tr class=\"odd\"><td>13&ndash;14 </td><td><i>Holy aura</i> 3/day, <i>Hallow</i></td></tr>\n<tr class=\"even\"><td>15&ndash;16</td><td> <i>Mass charm monster</i></td></tr>\n<tr class=\"odd\"><td>17&ndash;18</td><td><i>Summon monster IX</i> (celestials only)</td></tr>\n<tr class=\"even\"><td>19&ndash;20 </td><td><i>Resurrection</i></td></tr>\n</tbody></table>", 
-                            "sections": [], 
-                            "type": "table", 
-                            "name": "HD", 
-                            "source": "Bestiary"
+                            "source": "Bestiary", 
+                            "text": "<p>HD 5 or less, as base creature + 1; HD 6&ndash;10, as base creature + 2; HD 11 or more, as base creature + 3.</p>", 
+                            "type": "section", 
+                            "name": "CR", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>Any good.</p>", 
+                            "type": "section", 
+                            "name": "Alignment", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>The creature's type changes to outsider (native). Do not recalculate HD, BAB, or saves.</p>", 
+                            "type": "section", 
+                            "name": "Type", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>Natural armor improves by +1.</p>", 
+                            "type": "section", 
+                            "name": "Armor Class", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>It gains darkvision 60 feet; immunity to disease; +4 racial bonus on saves vs. poison; acid, cold, and electricity resist 10; DR 5/magic (if HD 11 or less) or 10/magic (if HD 12 or more); and SR equal to CR + 11 (maximum 35).</p>", 
+                            "type": "section", 
+                            "name": "Defenses/Qualities", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>Unless the base creature flies better, the half-celestial flies at twice the base creature's land speed (good maneuverability).</p>", 
+                            "type": "section", 
+                            "name": "Speed", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Special Abilities", 
+                            "sections": [
+                                {
+                                    "text": "<table>\n<thead><tr><th>HD</th><th>Abilities</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>1&ndash;2</td><td><i>Protection from evil</i> 3/day, <i>bless</i></td></tr>\n<tr class=\"even\"><td>3&ndash;4</td><td> <i>Aid, Detect evil</i> </td></tr>\n<tr class=\"odd\"><td>5&ndash;6 </td><td><i>Cure serious wounds, Neutralize poison</i> </td></tr>\n<tr class=\"even\"><td>7&ndash;8</td><td><i>Holy smite, Remove disease</i></td></tr>\n<tr class=\"odd\"><td>9&ndash;10 </td><td><i>Dispel evil</i></td></tr>\n<tr class=\"even\"><td>11&ndash;12</td><td><i>Holy word</i></td></tr>\n<tr class=\"odd\"><td>13&ndash;14 </td><td><i>Holy aura</i> 3/day, <i>Hallow</i></td></tr>\n<tr class=\"even\"><td>15&ndash;16</td><td> <i>Mass charm monster</i></td></tr>\n<tr class=\"odd\"><td>17&ndash;18</td><td><i>Summon monster IX</i> (celestials only)</td></tr>\n<tr class=\"even\"><td>19&ndash;20 </td><td><i>Resurrection</i></td></tr>\n</tbody></table>", 
+                                    "sections": [], 
+                                    "type": "table", 
+                                    "name": "HD", 
+                                    "source": "Bestiary"
+                                }
+                            ], 
+                            "text": "<p>A half-celestial gains the following.</p><p><i>Smite Evil</i> Once per day as a swift action the half-celestial can smite evil as a paladin of the same level as its Hit Dice. The smite persists until the target is dead of the half-celestial rests.</p><p><i>Spell-Like Abilities</i>: A half-celestial with an Int or Wis score of 8 or higher has a cumulative number of spell-like abilities depending on its Hit Dice. Unless otherwise noted, an ability is usable once per day. Caster level equals the creature's HD (or the caster evel of the base creature's spell-like abilities, whichever is higher).</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Bestiary", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>A half-celestial gains a +4 bonus on three ability scores of its choice and a +2 bonus on the other three.</p>", 
+                            "type": "section", 
+                            "name": "Abilities", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary", 
+                            "text": "<p>A half-celestial with racial Hit Dice has skill points per racial Hit Die equal to 6 + its Intelligence modifier. Racial class skills are unchanged from the base creature's. Skill ranks from class levels are unaffected.</p>", 
+                            "type": "section", 
+                            "name": "Skills", 
+                            "sections": []
                         }
-                    ], 
-                    "text": "<p>A half-celestial gains the following.</p><p><i>Smite Evil</i> Once per day as a swift action the half-celestial can smite evil as a paladin of the same level as its Hit Dice. The smite persists until the target is dead of the half-celestial rests.</p><p><i>Spell-Like Abilities</i>: A half-celestial with an Int or Wis score of 8 or higher has a cumulative number of spell-like abilities depending on its Hit Dice. Unless otherwise noted, an ability is usable once per day. Caster level equals the creature's HD (or the caster evel of the base creature's spell-like abilities, whichever is higher).</p>", 
-                    "ability_types": [
-                        "Supernatural"
-                    ], 
-                    "source": "Bestiary", 
-                    "type": "ability"
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>A half-celestial gains a +4 bonus on three ability scores of its choice and a +2 bonus on the other three.</p>", 
-                    "type": "section", 
-                    "name": "Abilities", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "text": "<p>A half-celestial with racial Hit Dice has skill points per racial Hit Die equal to 6 + its Intelligence modifier. Racial class skills are unchanged from the base creature's. Skill ranks from class levels are unaffected.</p>", 
-                    "type": "section", 
-                    "name": "Skills", 
-                    "sections": []
+                    ]
                 }
             ]
         }

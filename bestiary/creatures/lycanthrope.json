@@ -9,69 +9,78 @@
             "sections": [
                 {
                     "source": "Bestiary", 
-                    "text": "<p>&ldquo;Lycanthrope&rdquo; is an inherited (for natural lycanthropes) or acquired (for afflicted lycanthropes) template that can be added to any humanoid.</p>", 
                     "type": "section", 
                     "name": "Creating a Lycanthrope", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p>Same as base creature or base animal (whichever is higher) + 1.</p>", 
+                            "text": "<p>&ldquo;Lycanthrope&rdquo; is an inherited (for natural lycanthropes) or acquired (for afflicted lycanthropes) template that can be added to any humanoid.</p>", 
+                            "subtype": "template", 
                             "type": "section", 
-                            "name": "Challenge Rating", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>The creature (referred to hereafter as the base creature) gains the shapechanger subtype. The lycanthrope takes on the characteristics of some type of animal (referred to hereafter as the base animal) within one size category of the base creature's size. A lycanthrope's hybrid form is the same size as the base animal or the base creature, whichever is larger.</p>", 
-                            "type": "section", 
-                            "name": "Size and Type", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>In hybrid or animal form the lycanthrope has the natural armor bonus of the base animal increased by +2.</p>", 
-                            "type": "section", 
-                            "name": "AC", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>A natural lycanthrope gains DR 10/silver in animal or hybrid form. An afflicted lycanthrope gains DR 5/silver in animal or hybrid form.</p>", 
-                            "type": "section", 
-                            "name": "Defensive Abilities", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Same as the base creature or base animal, depending on which form the lycanthrope is using. Hybrids use the base creature's speed.</p>", 
-                            "type": "section", 
-                            "name": "Speed", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>A lycanthrope gains natural attacks in animal and hybrid forms according to the base animal.</p>", 
-                            "type": "section", 
-                            "name": "Melee", 
-                            "sections": []
-                        }, 
-                        {
-                            "name": "Special Attacks", 
-                            "sections": [], 
-                            "text": "<p>A lycanthrope retains all the special attacks, qualities, and abilities of the base creature. In hybrid or animal form it gains the special attacks, qualities, and abilities of the base animal. A lycanthrope also gains low-light vision, scent, and the following:</p><p class=\"stat-block-2\"><i>Change Shape</i>  All lycanthropes have three forms&mdash;a humanoid form, an animal form, and a hybrid form. Equipment does not meld with the new form between humanoid and hybrid form, but does between those forms and animal form. A natural lycanthrope can shift to any of its three alternate forms as a move-equivalent action. An afflicted lycanthrope can assume animal or hybrid form as a full-round action by making a DC 15 Constitution check, or humanoid form as a full-round action by making a DC 20 Constitution check. On nights when the full moon is visible, an afflicted lycanthrope gains a +5 morale bonus to Constitution checks made to assume animal or hybrid form, but a &ndash;5 penalty to Constitution checks made to assume humanoid form. An afflicted lycanthrope reverts to its humanoid form automatically with the next sunrise, or after 8 hours of rest, whichever comes first. A slain lycanthrope reverts to its humanoid form, although it remains dead.</p><p class=\"stat-block-2\"><i>Curse of Lycanthropy (Su)</i> A natural lycanthrope's bite attack in animal or hybrid form infects a humanoid target with lycanthropy (Fortitude DC 15 negates). If the victim's size is not within one size category of the lycanthrope, this ability has no effect.</p><p class=\"stat-block-2\"><i>Lycanthropic Empathy (Ex)</i> In any form, natural lycanthropes can communicate and empathize with animals related to their animal form. They can use Diplomacy to alter such an animal's attitude, and when so doing gain a +4 racial bonus on the check. Afflicted lycanthropes only gain this ability in animal or hybrid form.</p>", 
-                            "ability_types": [
-                                "Supernatural"
-                            ], 
-                            "source": "Bestiary", 
-                            "type": "ability"
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>+2 Wis, &ndash;2 Cha in all forms; +2 Str, +2 Con in hybrid and animal forms. Lycanthropes have enhanced senses but are not fully in control of their emotions and animalistic urges. In addition to these adjustments to the base creature's stats, a lycanthrope's ability scores change when he assumes hybrid or animal form. In human form, the lycanthrope's ability scores are unchanged from the base creature's form. In animal and hybrid form, the lycanthrope's ability scores are the same as the base creature's or the base animal's, whichever ability score is higher.</p>", 
-                            "type": "section", 
-                            "name": "Ability Scores", 
-                            "sections": []
-                        }
+                            "abbrev": "CR +1", 
+                            "name": "Lycanthrope", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Same as base creature or base animal (whichever is higher) + 1.</p>", 
+                                    "type": "section", 
+                                    "name": "Challenge Rating", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>The creature (referred to hereafter as the base creature) gains the shapechanger subtype. The lycanthrope takes on the characteristics of some type of animal (referred to hereafter as the base animal) within one size category of the base creature's size. A lycanthrope's hybrid form is the same size as the base animal or the base creature, whichever is larger.</p>", 
+                                    "type": "section", 
+                                    "name": "Size and Type", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>In hybrid or animal form the lycanthrope has the natural armor bonus of the base animal increased by +2.</p>", 
+                                    "type": "section", 
+                                    "name": "AC", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>A natural lycanthrope gains DR 10/silver in animal or hybrid form. An afflicted lycanthrope gains DR 5/silver in animal or hybrid form.</p>", 
+                                    "type": "section", 
+                                    "name": "Defensive Abilities", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Same as the base creature or base animal, depending on which form the lycanthrope is using. Hybrids use the base creature's speed.</p>", 
+                                    "type": "section", 
+                                    "name": "Speed", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>A lycanthrope gains natural attacks in animal and hybrid forms according to the base animal.</p>", 
+                                    "type": "section", 
+                                    "name": "Melee", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Special Attacks", 
+                                    "sections": [], 
+                                    "text": "<p>A lycanthrope retains all the special attacks, qualities, and abilities of the base creature. In hybrid or animal form it gains the special attacks, qualities, and abilities of the base animal. A lycanthrope also gains low-light vision, scent, and the following:</p><p class=\"stat-block-2\"><i>Change Shape</i>  All lycanthropes have three forms&mdash;a humanoid form, an animal form, and a hybrid form. Equipment does not meld with the new form between humanoid and hybrid form, but does between those forms and animal form. A natural lycanthrope can shift to any of its three alternate forms as a move-equivalent action. An afflicted lycanthrope can assume animal or hybrid form as a full-round action by making a DC 15 Constitution check, or humanoid form as a full-round action by making a DC 20 Constitution check. On nights when the full moon is visible, an afflicted lycanthrope gains a +5 morale bonus to Constitution checks made to assume animal or hybrid form, but a &ndash;5 penalty to Constitution checks made to assume humanoid form. An afflicted lycanthrope reverts to its humanoid form automatically with the next sunrise, or after 8 hours of rest, whichever comes first. A slain lycanthrope reverts to its humanoid form, although it remains dead.</p><p class=\"stat-block-2\"><i>Curse of Lycanthropy (Su)</i> A natural lycanthrope's bite attack in animal or hybrid form infects a humanoid target with lycanthropy (Fortitude DC 15 negates). If the victim's size is not within one size category of the lycanthrope, this ability has no effect.</p><p class=\"stat-block-2\"><i>Lycanthropic Empathy (Ex)</i> In any form, natural lycanthropes can communicate and empathize with animals related to their animal form. They can use Diplomacy to alter such an animal's attitude, and when so doing gain a +4 racial bonus on the check. Afflicted lycanthropes only gain this ability in animal or hybrid form.</p>", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ], 
+                                    "source": "Bestiary", 
+                                    "type": "ability"
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>+2 Wis, &ndash;2 Cha in all forms; +2 Str, +2 Con in hybrid and animal forms. Lycanthropes have enhanced senses but are not fully in control of their emotions and animalistic urges. In addition to these adjustments to the base creature's stats, a lycanthrope's ability scores change when he assumes hybrid or animal form. In human form, the lycanthrope's ability scores are unchanged from the base creature's form. In animal and hybrid form, the lycanthrope's ability scores are the same as the base creature's or the base animal's, whichever ability score is higher.</p>", 
+                                    "type": "section", 
+                                    "name": "Ability Scores", 
+                                    "sections": []
+                                }
+                            ]
+                        } 
                     ]
                 }, 
                 {

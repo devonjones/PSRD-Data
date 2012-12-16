@@ -64,147 +64,156 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p>&ldquo;Zombie&rdquo; is an acquired template that can be added to any corporeal creature (other than an undead), referred to hereafter as the base creature.</p>", 
                     "type": "section", 
                     "name": "Creating a Zombie", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p>This depends on the creature's new total number of Hit Dice, as follows:</p>", 
+                            "text": "<p>&ldquo;Zombie&rdquo; is an acquired template that can be added to any corporeal creature (other than an undead), referred to hereafter as the base creature.</p>", 
+                            "subtype": "template", 
                             "type": "section", 
-                            "name": "Challenge Rating", 
+                            "name": "Zombie", 
+                            "abbrev": "CR varies", 
                             "sections": [
                                 {
-                                    "text": "<table>\n<thead><tr><th>HD</th><th>CR</th><th>XP</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>1/2</td><td>1/8</td><td>50</td></tr>\n<tr class=\"even\"><td>1</td><td>1/4</td><td>100</td></tr>\n<tr class=\"odd\"><td>2</td><td>1/2</td><td>200</td></tr>\n<tr class=\"even\"><td>3&ndash;4</td><td>1</td><td>400</td></tr>\n<tr class=\"odd\"><td>5&ndash;6</td><td>2</td><td>600</td></tr>\n<tr class=\"even\"><td>7&ndash;8</td><td>3</td><td>800</td></tr>\n<tr class=\"odd\"><td>9&ndash;10</td><td>4</td><td>1,200</td></tr>\n<tr class=\"even\"><td>11&ndash;12</td><td>5</td><td>1,600</td></tr>\n<tr class=\"odd\"><td>13&ndash;16</td><td>6</td><td>2,400</td></tr>\n<tr class=\"even\"><td>17&ndash;20</td><td>7</td><td>3,200</td></tr>\n<tr class=\"odd\"><td>21&ndash;24</td><td>8</td><td>4,800</td></tr>\n<tr class=\"even\"><td>25&ndash;28</td><td>9</td><td>6,400</td></tr></tbody></table>", 
-                                    "sections": [], 
-                                    "type": "table", 
-                                    "name": "HD", 
-                                    "source": "Bestiary"
-                                }
-                            ]
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Always neutral evil.</p>", 
-                            "type": "section", 
-                            "name": "Alignment", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>The creature's type changes to undead. It retains any subtype except for alignment subtypes (such as good) and subtypes that indicate kind. It does not gain the augmented subtype. It uses all the base creature's statistics and special abilities except as noted here.</p>", 
-                            "type": "section", 
-                            "name": "Type", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Natural armor is based on the zombie's size:</p>", 
-                            "type": "section", 
-                            "name": "Armor Class", 
-                            "sections": [
-                                {
-                                    "text": "<table>\n<thead><tr><th>Zombie Size</th><th>Natural Armor Bonus</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Tiny or smaller</td><td>+0</td></tr>\n<tr class=\"even\"><td>Small</td><td>+1</td></tr>\n<tr class=\"odd\"><td>Medium</td><td>+2</td></tr>\n<tr class=\"even\"><td>Large</td><td>+3</td></tr>\n<tr class=\"odd\"><td>Huge</td><td>+4</td></tr>\n<tr class=\"even\"><td>Gargantuan</td><td>+7</td></tr>\n<tr class=\"odd\"><td>Colossal</td><td>+11</td></tr></tbody></table>", 
-                                    "sections": [], 
-                                    "type": "table", 
-                                    "name": "Zombie Size", 
-                                    "source": "Bestiary"
-                                }
-                            ]
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Drop HD gained from class levels (minimum of 1) and change racial HD to d8s. Zombies gain a number of additional HD as noted on the following table.</p>", 
-                            "type": "section", 
-                            "name": "Hit Dice", 
-                            "sections": [
-                                {
-                                    "text": "<table>\n<thead><tr><th>Zombie Size</th><th>Bonus Hit Dice</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Tiny or smaller</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Small or Medium</td><td>+1 HD</td></tr>\n<tr class=\"odd\"><td>Large</td><td>+2 HD</td></tr>\n<tr class=\"even\"><td>Huge</td><td>+4 HD</td></tr>\n<tr class=\"odd\"><td>Gargantuan</td><td>+6 HD</td></tr>\n<tr class=\"even\"><td>Colossal</td><td>+10 HD</td></tr></tbody></table>", 
-                                    "sections": [], 
-                                    "type": "table", 
-                                    "name": "Zombie Size", 
-                                    "source": "Bestiary"
+                                    "source": "Bestiary", 
+                                    "text": "<p>This depends on the creature's new total number of Hit Dice, as follows:</p>", 
+                                    "type": "section", 
+                                    "name": "Challenge Rating", 
+                                    "sections": [
+                                        {
+                                            "text": "<table>\n<thead><tr><th>HD</th><th>CR</th><th>XP</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>1/2</td><td>1/8</td><td>50</td></tr>\n<tr class=\"even\"><td>1</td><td>1/4</td><td>100</td></tr>\n<tr class=\"odd\"><td>2</td><td>1/2</td><td>200</td></tr>\n<tr class=\"even\"><td>3&ndash;4</td><td>1</td><td>400</td></tr>\n<tr class=\"odd\"><td>5&ndash;6</td><td>2</td><td>600</td></tr>\n<tr class=\"even\"><td>7&ndash;8</td><td>3</td><td>800</td></tr>\n<tr class=\"odd\"><td>9&ndash;10</td><td>4</td><td>1,200</td></tr>\n<tr class=\"even\"><td>11&ndash;12</td><td>5</td><td>1,600</td></tr>\n<tr class=\"odd\"><td>13&ndash;16</td><td>6</td><td>2,400</td></tr>\n<tr class=\"even\"><td>17&ndash;20</td><td>7</td><td>3,200</td></tr>\n<tr class=\"odd\"><td>21&ndash;24</td><td>8</td><td>4,800</td></tr>\n<tr class=\"even\"><td>25&ndash;28</td><td>9</td><td>6,400</td></tr></tbody></table>", 
+                                            "sections": [], 
+                                            "type": "table", 
+                                            "name": "HD", 
+                                            "source": "Bestiary"
+                                        }
+                                    ]
                                 }, 
                                 {
                                     "source": "Bestiary", 
-                                    "text": "<p>Zombies use their Charisma modifiers to determine bonus hit points (instead of Constitution).</p>", 
+                                    "text": "<p>Always neutral evil.</p>", 
                                     "type": "section", 
+                                    "name": "Alignment", 
                                     "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>The creature's type changes to undead. It retains any subtype except for alignment subtypes (such as good) and subtypes that indicate kind. It does not gain the augmented subtype. It uses all the base creature's statistics and special abilities except as noted here.</p>", 
+                                    "type": "section", 
+                                    "name": "Type", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Natural armor is based on the zombie's size:</p>", 
+                                    "type": "section", 
+                                    "name": "Armor Class", 
+                                    "sections": [
+                                        {
+                                            "text": "<table>\n<thead><tr><th>Zombie Size</th><th>Natural Armor Bonus</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Tiny or smaller</td><td>+0</td></tr>\n<tr class=\"even\"><td>Small</td><td>+1</td></tr>\n<tr class=\"odd\"><td>Medium</td><td>+2</td></tr>\n<tr class=\"even\"><td>Large</td><td>+3</td></tr>\n<tr class=\"odd\"><td>Huge</td><td>+4</td></tr>\n<tr class=\"even\"><td>Gargantuan</td><td>+7</td></tr>\n<tr class=\"odd\"><td>Colossal</td><td>+11</td></tr></tbody></table>", 
+                                            "sections": [], 
+                                            "type": "table", 
+                                            "name": "Zombie Size", 
+                                            "source": "Bestiary"
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Drop HD gained from class levels (minimum of 1) and change racial HD to d8s. Zombies gain a number of additional HD as noted on the following table.</p>", 
+                                    "type": "section", 
+                                    "name": "Hit Dice", 
+                                    "sections": [
+                                        {
+                                            "text": "<table>\n<thead><tr><th>Zombie Size</th><th>Bonus Hit Dice</th></tr></thead>\n<tbody>\n<tr class=\"odd\"><td>Tiny or smaller</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Small or Medium</td><td>+1 HD</td></tr>\n<tr class=\"odd\"><td>Large</td><td>+2 HD</td></tr>\n<tr class=\"even\"><td>Huge</td><td>+4 HD</td></tr>\n<tr class=\"odd\"><td>Gargantuan</td><td>+6 HD</td></tr>\n<tr class=\"even\"><td>Colossal</td><td>+10 HD</td></tr></tbody></table>", 
+                                            "sections": [], 
+                                            "type": "table", 
+                                            "name": "Zombie Size", 
+                                            "source": "Bestiary"
+                                        }, 
+                                        {
+                                            "source": "Bestiary", 
+                                            "text": "<p>Zombies use their Charisma modifiers to determine bonus hit points (instead of Constitution).</p>", 
+                                            "type": "section", 
+                                            "sections": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.</p>", 
+                                    "type": "section", 
+                                    "name": "Saves", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Zombies lose their defensive abilities and gain all of the qualities and immunities granted by the undead type. Zombies gain DR 5/slashing.</p>", 
+                                    "type": "section", 
+                                    "name": "Defensive Abilities", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Winged zombies can still fly, but maneuverability drops to clumsy. If the base creature flew magically, so can the zombie. Retain all other movement types.</p>", 
+                                    "type": "section", 
+                                    "name": "Speed", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>A zombie retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature. It also gains a slam attack that deals damage based on the zombie's size, but as if it were one size category larger than its actual size  (see Natural Attacks).</p>", 
+                                    "type": "section", 
+                                    "name": "Attacks", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>A zombie retains none of the base creature's special attacks.</p>", 
+                                    "type": "section", 
+                                    "name": "Special Attacks", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>Str +2, Dex &ndash;2. A zombie has no Con or Int score, and its Wis and Cha become 10.</p>", 
+                                    "type": "section", 
+                                    "name": "Abilities", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>A zombie's base attack is equal to 3/4 its Hit Dice.</p>", 
+                                    "type": "section", 
+                                    "name": "BAB", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>A zombie has no skill ranks.</p>", 
+                                    "type": "section", 
+                                    "name": "Skills", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "source": "Bestiary", 
+                                    "text": "<p>A zombie loses all feats possessed by the base creature, and does not gain feats as its Hit Dice increase, but it does gain Toughness as a bonus feat.</p>", 
+                                    "type": "section", 
+                                    "name": "Feats", 
+                                    "sections": []
+                                }, 
+                                {
+                                    "name": "Special Qualities", 
+                                    "sections": [], 
+                                    "text": "<p>A zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A zombie gains the following special quality.</p><p class=\"stat-block-2\"><i>Staggered</i> Zombies have poor reflexes and can only perform a single move action or standard action each round. A zombie can move up to its speed and attack in the same round as a charge action.</p>", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "source": "Bestiary", 
+                                    "type": "ability"
                                 }
                             ]
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.</p>", 
-                            "type": "section", 
-                            "name": "Saves", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Zombies lose their defensive abilities and gain all of the qualities and immunities granted by the undead type. Zombies gain DR 5/slashing.</p>", 
-                            "type": "section", 
-                            "name": "Defensive Abilities", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Winged zombies can still fly, but maneuverability drops to clumsy. If the base creature flew magically, so can the zombie. Retain all other movement types.</p>", 
-                            "type": "section", 
-                            "name": "Speed", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>A zombie retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature. It also gains a slam attack that deals damage based on the zombie's size, but as if it were one size category larger than its actual size  (see Natural Attacks).</p>", 
-                            "type": "section", 
-                            "name": "Attacks", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>A zombie retains none of the base creature's special attacks.</p>", 
-                            "type": "section", 
-                            "name": "Special Attacks", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>Str +2, Dex &ndash;2. A zombie has no Con or Int score, and its Wis and Cha become 10.</p>", 
-                            "type": "section", 
-                            "name": "Abilities", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>A zombie's base attack is equal to 3/4 its Hit Dice.</p>", 
-                            "type": "section", 
-                            "name": "BAB", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>A zombie has no skill ranks.</p>", 
-                            "type": "section", 
-                            "name": "Skills", 
-                            "sections": []
-                        }, 
-                        {
-                            "source": "Bestiary", 
-                            "text": "<p>A zombie loses all feats possessed by the base creature, and does not gain feats as its Hit Dice increase, but it does gain Toughness as a bonus feat.</p>", 
-                            "type": "section", 
-                            "name": "Feats", 
-                            "sections": []
-                        }, 
-                        {
-                            "name": "Special Qualities", 
-                            "sections": [], 
-                            "text": "<p>A zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A zombie gains the following special quality.</p><p class=\"stat-block-2\"><i>Staggered</i> Zombies have poor reflexes and can only perform a single move action or standard action each round. A zombie can move up to its speed and attack in the same round as a charge action.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
-                            "source": "Bestiary", 
-                            "type": "ability"
                         }
                     ]
                 }
