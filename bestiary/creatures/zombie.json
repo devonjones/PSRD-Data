@@ -285,14 +285,52 @@
                             "sections": []
                         }, 
                         {
-                            "name": "Special Attacks", 
-                            "sections": [], 
-                            "text": "<p>A plague zombie gains the following special attacks.</p><p class=\"stat-block-2\"><i>Death Burst</i> When a plague zombie dies, it explodes in a burst of decay. All creatures adjacent to the plague zombie are exposed to its plague as if struck by a slam attack and must make a Fortitude save or contract zombie rot.</p><p class=\"stat-block-2\"><i>Disease (Su)</i>The slam attack&mdash;as well as any other natural attacks&mdash;of a plague zombie carries the zombie rot disease.<i>Zombie rot</i>: slam; <i>save</i> Fort DC = 10 + 1/2 the zombie's Hit Dice + the zombie's Cha modifier; <i>onset</i> 1d4 days; <i>frequency</i> 1/day; <i>effect</i> 1d2 Con, this damage cannot be healed while the creature is infected; <i>cure</i> 2 consecutive saves. Anyone who dies while infected rises as a plague zombie in 2d6 hours.</p>", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ], 
                             "source": "Bestiary", 
-                            "type": "ability"
+                            "name": "Special Attacks", 
+                            "type": "section",
+                            "text": "A plague zombie gains the following special attacks.", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary", 
+                                    "name": "Death Burst", 
+                                    "type": "ability",
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ], 
+                                    "text": "When a plague zombie dies, it explodes in a burst of decay. All creatures adjacent to the plague zombie are exposed to its plague as if struck by a slam attack and must make a Fortitude save or contract zombie rot." 
+                                },
+                                {
+                                    "source": "Bestiary", 
+                                    "name": "Disease", 
+                                    "type": "ability",
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ], 
+                                    "text": "<p>The slam attack&mdash;as well as any other natural attacks&mdash;of a plague zombie carries the zombie rot disease.",
+                                    "sections": [
+                                        {
+                                            "source": "Bestiary", 
+                                            "contracted": "injury", 
+                                            "type": "affliction",
+                                            "subtype": "disease", 
+                                            "name": "Zombie Rot", 
+                                            "save": "Forttude DC 10 + 1/2 the zombie's Hit Dice + the zombie's Cha modifier", 
+                                            "onset": "1d4 days", 
+                                            "frequency": "1/day", 
+                                            "effect": "1d2 Constitution, this damage cannot be healed while the creature is infected;", 
+
+                                            "cure": "2 consecutive saves", 
+                                            "sections": [
+                                                {
+                                                    "source": "Bestiary", 
+                                                    "type": "section", 
+                                                    "text": "Anyone who dies while infected rises as a plague zombie in 2d6 hours."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

@@ -44,13 +44,25 @@
                 },
                 {
                     "source": "Bestiary", 
-                    "sections": [], 
                     "type": "ability", 
                     "ability_types": [
                         "Extraordinary"
                     ], 
                     "name": "Spores",
-                    "text": "<p class=\"stat-block-1\"> Any creature struck by a basidirond's slam attack is coated with spores. The creature struck must make a DC 16 Fortitude save or these spores take root in his flesh, and particularly in his lungs. The save DC is Constititon-based.<i>Basidirond Spores</i>: Disease&mdash;inhaled; <i>save</i> Fort DC 16; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Con damage; <i>cure</i> 1 save.</p>"
+                    "text": "Any creature struck by a basidirond's slam attack is coated with spores. The creature struck must make a DC 16 Fortitude save or these spores take root in his flesh, and particularly in his lungs.",
+                    "sections": [
+                        {
+                            "name": "Basidirond Spores", 
+                            "source": "Bestiary", 
+                            "contracted": "inhaled", 
+                            "type": "affliction",
+                            "subtype": "disease", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "1d2 Constitution", 
+                            "save": "Fortitude DC 16. The save DC is Constitution based.", 
+                            "cure": "1 save" 
+                        }
+                    ]
                 }, 
                 {
                     "source": "Bestiary", 

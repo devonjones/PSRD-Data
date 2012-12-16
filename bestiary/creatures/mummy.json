@@ -42,9 +42,29 @@
                     "ability_types": [
                         "Supernatural"
                     ], 
+                    "text": "Curse and disease&mdash;slam", 
                     "source": "Bestiary", 
-                    "text": "Curse and disease&mdash;slam; save Fort DC 16; onset 1 minute; frequency 1/day; effect 1d6 Con and 1d6 Cha; cure &mdash;. Mummy rot is both a curse and disease and can only be cured if the curse is first removed, at which point the disease can be magically removed. Even after the curse element of mummy rot is lifted, a creature suffering from it cannot recover naturally over time. Anyone casting a conjuration (healing) spell on the afflicted creature must succeed on a DC 20 caster level check, or the spell is wasted and the healing has no effect. Anyone who dies from mummy rot turns to dust and cannot be raised without a resurrection or greater magic. The save DC is Charisma-based.", 
-                    "sections": []
+                    "sections": [
+                        {
+                            "source": "Bestiary", 
+                            "type": "affliction",
+                            "subtype": "disease", 
+                            "name": "Mummy Rot", 
+                            "onset": "1 minute", 
+                            "frequency": "1/day", 
+                            "cure": "&mdash;", 
+                            "effect": "1d6 Constitution damage and 1d6 Charisma damage", 
+                            "save": "Fortitude DC 16. The save DC is Charisma-based.", 
+                            "contracted": "injury", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary", 
+                                    "type": "section", 
+                                    "text": "Mummy rot is both a curse and disease and can only be cured if the curse is first removed, at which point the disease can be magically removed. Even after the curse element of mummy rot is lifted, a creature suffering from it cannot recover naturally over time. Anyone casting a conjuration (healing) spell on the afflicted creature must succeed on a DC 20 caster level check, or the spell is wasted and the healing has no effect. Anyone who dies from mummy rot turns to dust and cannot be raised without a resurrection or greater magic." 
+                                }
+                            ]
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

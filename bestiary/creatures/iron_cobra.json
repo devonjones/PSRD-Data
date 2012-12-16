@@ -43,8 +43,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary", 
-                    "text": "An iron cobra's bite injects poison from a hidden reservoir within its body. Because it is a construct, the cobra does not naturally produce this poison, and its creator must refill this reservoir manually. The reservoir holds enough poison for 3 successful bite attacks, after which the creature merely deals bite damage. Refilling the reservoir takes 5 rounds and provokes attacks of opportunity. The creator can fill the reservoir with any injury poison (typically black adder venom), though acid, alchemical substances, and even stranger liquids have been used.Black Adder Venom: Bite&mdash;injury; save Fort DC 11; frequency 1/round for 6 rounds; effect 1d2 Con damage; cure 1 save.", 
-                    "sections": []
+                    "text": "An iron cobra's bite injects poison from a hidden reservoir within its body. Because it is a construct, the cobra does not naturally produce this poison, and its creator must refill this reservoir manually. The reservoir holds enough poison for 3 successful bite attacks, after which the creature merely deals bite damage. Refilling the reservoir takes 5 rounds and provokes attacks of opportunity. The creator can fill the reservoir with any injury poison (typically black adder venom), though acid, alchemical substances, and even stranger liquids have been used. Bite: Black Adder Venom", 
+                    "sections": [
+                        {
+                            "cure": "1 save", 
+                            "name": "Black Adder Venom", 
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "effect": "1d2 Constitution", 
+                            "source": "Bestiary", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 11", 
+                            "type": "affliction"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

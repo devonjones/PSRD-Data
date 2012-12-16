@@ -193,8 +193,21 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "If a bearded devil hits a single opponent with both claw attacks, it also lashes at the same target with its spiky, filthy beard. The victim takes 1d8+2 points of damage and must succeed on a DC 17 Fortitude save or contract devil chills. The save DC is Constitution-based.Devil Chills: Disease&mdash;injury; save Fort DC 17; onset 1d4 days; frequency 1/day; effect 1d4 Str damage; cure 3 consecutive saves.", 
-                            "sections": []
+                            "text": "If a bearded devil hits a single opponent with both claw attacks, it also lashes at the same target with its spiky, filthy beard. The victim takes 1d8+2 points of damage and must succeed on a DC 17 Fortitude save or contract devil chills. The save DC is Constitution-based.", 
+                            "sections": [
+                                {
+                                    "cure": "3 consecutive saves", 
+                                    "name": "Devil Chills, Bearded Devil", 
+                                    "subtype": "disease", 
+                                    "contracted": "injury", 
+                                    "effect": "1d3 Strength", 
+                                    "onset": "1d4 days", 
+                                    "source": "Bestiary", 
+                                    "frequency": "1/day", 
+                                    "save": "Fortitude DC 17", 
+                                    "type": "affliction"
+                                }
+                            ]
                         }, 
                         {
                             "name": "Infernal Wound", 
@@ -803,8 +816,21 @@
                                         "Supernatural"
                                     ], 
                                     "source": "Bestiary", 
-                                    "text": "Devil Chills: Bite&mdash;injury; save Fort DC 32; onset immediate; frequency 1/day; effect 1d4 Str damage; cure 3 consecutive saves. The save DC is Constitution-based.", 
-                                    "sections": []
+                                    "text": "Bite", 
+                                    "sections": [
+                                        {
+                                            "cure": "3 consecutive saves", 
+                                            "name": "Devil Chills, Pit Fiend", 
+                                            "subtype": "disease", 
+                                            "contracted": "injury", 
+                                            "effect": "1d4 Strength", 
+                                            "onset": "immediate", 
+                                            "source": "Bestiary", 
+                                            "frequency": "1/day", 
+                                            "save": "Fortitude DC 32, The save DC is Constitution-based.", 
+                                            "type": "affliction"
+                                        }
+                                    ]
                                 }, 
                                 {
                                     "name": "Poison", 
