@@ -46,97 +46,106 @@
         }, 
         {
             "source": "Bestiary 3", 
-            "text": "<p>&ldquo;Animal Lord&rdquo; is an inherited template that can be added to any humanoid of 10 Hit Dice or more, referred to hereafter as the base creature. The animal lord also gains the characteristics of one type of animal (of a size no larger than one step larger than the base creature's size), referred to hereafter as the base animal.</p>", 
             "type": "section", 
             "name": "Creating an Animal Lord", 
             "sections": [
                 {
                     "source": "Bestiary 3", 
-                    "text": "<p id=\"cr\">Same as the base creature or the base animal (whichever is higher) +2.</p>", 
+                    "text": "<p>&ldquo;Animal Lord&rdquo; is an inherited template that can be added to any humanoid of 10 Hit Dice or more, referred to hereafter as the base creature. The animal lord also gains the characteristics of one type of animal (of a size no larger than one step larger than the base creature's size), referred to hereafter as the base animal.</p>", 
+                    "subtype": "template",
                     "type": "section", 
-                    "name": "CR", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"alignment\">Any neutral.</p>", 
-                    "type": "section", 
-                    "name": "Alignment", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"type\">The base creature's type changes to outsider (native, shapechanger). Do not recalculate class Hit Dice, BAB, or saves.</p>", 
-                    "type": "section", 
-                    "name": "Type", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"senses\">An animal lord gains the senses of both the base creature and the base animal in both of its forms.</p>", 
-                    "type": "section", 
-                    "name": "Senses", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"ac\">An animal lord gains the base animal or base creature's natural armor bonus, whichever is higher, in both of its forms&mdash;this bonus is increased by +2 to determine the animal lord's actual natural armor bonus.</p>", 
-                    "type": "section", 
-                    "name": "AC", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"defensive-abilities\">An animal lord gains DR 10/silver. It also gains all of the base animal's defensive abilities in both of its forms.</p>", 
-                    "type": "section", 
-                    "name": "Defensive Abilities", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"speed\">An animal lord's base speed is that of its base creature form or its base animal form, whichever is greater. Animal lords whose base animal has a burrow, climb, fly, or swim speed can use that mode of movement even in humanoid form, instantly growing the necessary appendages as necessary. </p>", 
-                    "type": "section", 
-                    "name": "Speed", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"melee\">An animal lord in humanoid form can instantaneously transform parts of its body to make all of the natural attacks possessed by the base animal. An animal lord typically prefers to use its natural attacks in melee combat, but often carries manufactured ranged weapons to diversify its combat options as well.</p>", 
-                    "type": "section", 
-                    "name": "Melee", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"special-attacks\">An animal lord gains all of the special attacks possessed by the base animal and can employ them in both humanoid and animal form. It also gains abilities determined by its species affinity (see below).</p>", 
-                    "type": "section", 
-                    "name": "Special Attacks", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"ability-scores\">Animal lords use the higher ability score between the base creature and the base animal as their base ability scores, then increase all of these ability scores by +4. </p>", 
-                    "type": "section", 
-                    "name": "Ability Scores", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 3", 
-                    "text": "<p id=\"skills\">An animal lord gains all of the base animal's racial modifiers to skill checks.</p>", 
-                    "type": "section", 
-                    "name": "Skills", 
-                    "sections": []
-                }, 
-                {
-                    "name": "Special Qualities", 
-                    "sections": [], 
-                    "text": "<p id=\"special-qualities\">An animal lord gains the following special qualities.</p><p id=\"change-shape\"><i>Change Shape</i> An animal lord has two forms&mdash;a humanoid and an animal form. When an animal lord in humanoid form uses the base animal's defensive abilities, movement types, attacks, and other features, the animal lord's body instantaneously changes as appropriate to allow the use of that ability, growing wings or claws or fangs as necessary. The animal lord can use this ability to take the shape of the base animal (as <i>shapechange</i>) as a move action. </p><p id=\"dominion\"><i>Dominion (Su)</i>In both forms, an animal lord is treated as if constantly under the effects of a <i>speak with animals</i> spell, but this only applies to creatures of the animal lord's species affinity (see below). In addition, an animal lord can cast <i>charm animal</i> on any animal of its affinity as a spell-like ability at will (CL equals the animal lord's HD). </p>", 
-                    "ability_types": [
-                        "Supernatural"
-                    ], 
-                    "source": "Bestiary 3", 
-                    "type": "ability"
-                }
+                    "name": "Animal Lord", 
+                    "abbrev": "CR +2",
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"cr\">Same as the base creature or the base animal (whichever is higher) +2.</p>", 
+                            "type": "section", 
+                            "name": "CR", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"alignment\">Any neutral.</p>", 
+                            "type": "section", 
+                            "name": "Alignment", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"type\">The base creature's type changes to outsider (native, shapechanger). Do not recalculate class Hit Dice, BAB, or saves.</p>", 
+                            "type": "section", 
+                            "name": "Type", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"senses\">An animal lord gains the senses of both the base creature and the base animal in both of its forms.</p>", 
+                            "type": "section", 
+                            "name": "Senses", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"ac\">An animal lord gains the base animal or base creature's natural armor bonus, whichever is higher, in both of its forms&mdash;this bonus is increased by +2 to determine the animal lord's actual natural armor bonus.</p>", 
+                            "type": "section", 
+                            "name": "AC", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"defensive-abilities\">An animal lord gains DR 10/silver. It also gains all of the base animal's defensive abilities in both of its forms.</p>", 
+                            "type": "section", 
+                            "name": "Defensive Abilities", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"speed\">An animal lord's base speed is that of its base creature form or its base animal form, whichever is greater. Animal lords whose base animal has a burrow, climb, fly, or swim speed can use that mode of movement even in humanoid form, instantly growing the necessary appendages as necessary. </p>", 
+                            "type": "section", 
+                            "name": "Speed", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"melee\">An animal lord in humanoid form can instantaneously transform parts of its body to make all of the natural attacks possessed by the base animal. An animal lord typically prefers to use its natural attacks in melee combat, but often carries manufactured ranged weapons to diversify its combat options as well.</p>", 
+                            "type": "section", 
+                            "name": "Melee", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"special-attacks\">An animal lord gains all of the special attacks possessed by the base animal and can employ them in both humanoid and animal form. It also gains abilities determined by its species affinity (see below).</p>", 
+                            "type": "section", 
+                            "name": "Special Attacks", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"ability-scores\">Animal lords use the higher ability score between the base creature and the base animal as their base ability scores, then increase all of these ability scores by +4. </p>", 
+                            "type": "section", 
+                            "name": "Ability Scores", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 3", 
+                            "text": "<p id=\"skills\">An animal lord gains all of the base animal's racial modifiers to skill checks.</p>", 
+                            "type": "section", 
+                            "name": "Skills", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Special Qualities", 
+                            "sections": [], 
+                            "text": "<p id=\"special-qualities\">An animal lord gains the following special qualities.</p><p id=\"change-shape\"><i>Change Shape</i> An animal lord has two forms&mdash;a humanoid and an animal form. When an animal lord in humanoid form uses the base animal's defensive abilities, movement types, attacks, and other features, the animal lord's body instantaneously changes as appropriate to allow the use of that ability, growing wings or claws or fangs as necessary. The animal lord can use this ability to take the shape of the base animal (as <i>shapechange</i>) as a move action. </p><p id=\"dominion\"><i>Dominion (Su)</i>In both forms, an animal lord is treated as if constantly under the effects of a <i>speak with animals</i> spell, but this only applies to creatures of the animal lord's species affinity (see below). In addition, an animal lord can cast <i>charm animal</i> on any animal of its affinity as a spell-like ability at will (CL equals the animal lord's HD). </p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Bestiary 3", 
+                            "type": "ability"
+                        }
+                    ]
+                } 
             ]
         }, 
         {

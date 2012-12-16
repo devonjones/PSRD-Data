@@ -52,108 +52,117 @@
         }, 
         {
             "source": "Bestiary 2", 
-            "text": "<p>&ldquo;Petitioner&rdquo; is an acquired template that can be added to any creature whose soul migrates to one of the Outer Planes following its death (henceforth referred to as the base creature). The petitioner uses all of the base creature's statistics and abilities except as noted below.</p>", 
             "type": "section", 
             "name": "Creating a Petitioner", 
             "sections": [
                 {
                     "source": "Bestiary 2", 
-                    "text": "<p id=\"cr\">A petitioner's CR is 1. In some cases, at the GM's discretion, particularly large or unusual petitioners with higher than normal ability scores may begin with a higher CR; compare the petitioner's statistics to the values on Table 1&ndash;1 on page 293 to help determine an unusual petitioner's starting CR. </p>", 
+                    "text": "<p>&ldquo;Petitioner&rdquo; is an acquired template that can be added to any creature whose soul migrates to one of the Outer Planes following its death (henceforth referred to as the base creature). The petitioner uses all of the base creature's statistics and abilities except as noted below.</p>", 
+                    "subtype": "template",
                     "type": "section", 
-                    "name": "CR", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"alignment\">A petitioner's alignment is identical to that of its home plane.</p>", 
-                    "type": "section", 
-                    "name": "Alignment", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"size-and-type\">The creature's type changes to outsider. It loses all subtypes. Its size does not change.</p>", 
-                    "type": "section", 
-                    "name": "Size and Type", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"senses\">Petitioners lose any unusual senses they had, but gain darkvision 60 feet. </p>", 
-                    "type": "section", 
-                    "name": "Senses", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"armor-class\">The petitioner loses all racial bonuses to its Armor Class.</p>", 
-                    "type": "section", 
-                    "name": "Armor Class", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"hit-dice\">Petitioners lose all racial and class-based Hit Dice and gain 2d10 racial Hit Dice as outsiders. </p>", 
-                    "type": "section", 
-                    "name": "Hit Dice", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"saves\">Petitioners have good Fortitude and Reflex saves; a petitioner's base saves are Fort +3, Ref +3, Will +0.</p>", 
-                    "type": "section", 
-                    "name": "Saves", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"defensive-abilities\">Petitioners lose all the defensive abilities of the base creature. Petitioners are immune to mind-affecting effects. </p>", 
-                    "type": "section", 
-                    "name": "Defensive Abilities", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"attacks\">The creature's BAB is +2, subject to modification for size and Strength. It loses all natural attacks and gains a slam attack as appropriate for a creature of its size.</p>", 
-                    "type": "section", 
-                    "name": "Attacks", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"special-attacks\">Petitioners lose all special attacks. </p>", 
-                    "type": "section", 
-                    "name": "Special Attacks", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"abilities\">Same as the base creature. </p>", 
-                    "type": "section", 
-                    "name": "Abilities", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"feats\">Petitioners lose all feats. As a 2 HD outsider, a petitioner gains one feat&mdash;typically Toughness. </p>", 
-                    "type": "section", 
-                    "name": "Feats", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"skills\">Petitioners lose all skill ranks they possessed as mortals. As a 2 HD outsider, a petitioner has 12 skill ranks it can spend on skills (with a maximum of 2 ranks in any one skill), and gains bonus skill ranks as appropriate for its Intelligence. Unlike most outsiders, petitioners do not gain an additional 4 class skills beyond those available to all outsiders. </p>", 
-                    "type": "section", 
-                    "name": "Skills", 
-                    "sections": []
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"special-qualities\">Petitioners lose all special qualities, along with all abilities granted by class levels (including increases on saving throws and to HD and BAB). </p>", 
-                    "type": "section", 
-                    "name": "Special Qualities", 
-                    "sections": []
-                }
+                    "name": "Petitioner", 
+                    "abbrev": "CR 1",
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"cr\">A petitioner's CR is 1. In some cases, at the GM's discretion, particularly large or unusual petitioners with higher than normal ability scores may begin with a higher CR; compare the petitioner's statistics to the values on Table 1&ndash;1 on page 293 to help determine an unusual petitioner's starting CR. </p>", 
+                            "type": "section", 
+                            "name": "Challenge Rating", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"alignment\">A petitioner's alignment is identical to that of its home plane.</p>", 
+                            "type": "section", 
+                            "name": "Alignment", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"size-and-type\">The creature's type changes to outsider. It loses all subtypes. Its size does not change.</p>", 
+                            "type": "section", 
+                            "name": "Size and Type", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"senses\">Petitioners lose any unusual senses they had, but gain darkvision 60 feet. </p>", 
+                            "type": "section", 
+                            "name": "Senses", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"armor-class\">The petitioner loses all racial bonuses to its Armor Class.</p>", 
+                            "type": "section", 
+                            "name": "Armor Class", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"hit-dice\">Petitioners lose all racial and class-based Hit Dice and gain 2d10 racial Hit Dice as outsiders. </p>", 
+                            "type": "section", 
+                            "name": "Hit Dice", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"saves\">Petitioners have good Fortitude and Reflex saves; a petitioner's base saves are Fort +3, Ref +3, Will +0.</p>", 
+                            "type": "section", 
+                            "name": "Saves", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"defensive-abilities\">Petitioners lose all the defensive abilities of the base creature. Petitioners are immune to mind-affecting effects. </p>", 
+                            "type": "section", 
+                            "name": "Defensive Abilities", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"attacks\">The creature's BAB is +2, subject to modification for size and Strength. It loses all natural attacks and gains a slam attack as appropriate for a creature of its size.</p>", 
+                            "type": "section", 
+                            "name": "Attacks", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"special-attacks\">Petitioners lose all special attacks. </p>", 
+                            "type": "section", 
+                            "name": "Special Attacks", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"abilities\">Same as the base creature. </p>", 
+                            "type": "section", 
+                            "name": "Abilities", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"feats\">Petitioners lose all feats. As a 2 HD outsider, a petitioner gains one feat&mdash;typically Toughness. </p>", 
+                            "type": "section", 
+                            "name": "Feats", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"skills\">Petitioners lose all skill ranks they possessed as mortals. As a 2 HD outsider, a petitioner has 12 skill ranks it can spend on skills (with a maximum of 2 ranks in any one skill), and gains bonus skill ranks as appropriate for its Intelligence. Unlike most outsiders, petitioners do not gain an additional 4 class skills beyond those available to all outsiders. </p>", 
+                            "type": "section", 
+                            "name": "Skills", 
+                            "sections": []
+                        }, 
+                        {
+                            "source": "Bestiary 2", 
+                            "text": "<p id=\"special-qualities\">Petitioners lose all special qualities, along with all abilities granted by class levels (including increases on saving throws and to HD and BAB). </p>", 
+                            "type": "section", 
+                            "name": "Special Qualities", 
+                            "sections": []
+                        }
+                    ]
+                } 
             ]
         }, 
         {
