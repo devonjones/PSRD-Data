@@ -33,8 +33,20 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary", 
-                    "text": "Three times per day, a sea hag can cast her dire gaze upon any single creature within 30 feet. The target must succeed on a DC 14 Will save or be staggered as strange nebulous distress and a gnawing sense of impending doom plagues the victim. If a sea hag uses her evil eye on someone already afflicted by this curse, the victim must make a DC 14 Fortitude save or be overwhelmed with fright and collapse into a comatose state for 3 days. Each day that passes, the comatose victim must make a DC 14 Fortitude save or perish. The evil eye is a mind-affecting fear effect. The save DCs are Charisma-based.Evil Eye Curse: Gaze&mdash;failed save; save Will DC 14; frequency1/day; effect staggered (or fall comatose if already under the effects of the evil eye).", 
-                    "sections": []
+                    "text": "Three times per day, a sea hag can cast her dire gaze upon any single creature within 30 feet. The target must succeed on a DC 14 Will save or be staggered as strange nebulous distress and a gnawing sense of impending doom plagues the victim. If a sea hag uses her evil eye on someone already afflicted by this curse, the victim must make a DC 14 Fortitude save or be overwhelmed with fright and collapse into a comatose state for 3 days. Each day that passes, the comatose victim must make a DC 14 Fortitude save or perish. The evil eye is a mind-affecting fear effect. The save DCs are Charisma-based. Evil Eye Curse: Gaze&mdash;failed save", 
+                    "sections": [
+                        {
+                            "source": "Bestiary", 
+                            "name": "Evil Eye", 
+                            "type": "affliction",
+                            "subtype": "curse", 
+                            "frequency": "1/day", 
+                            "save": "Will DC 14. The save DC is Charisma-based.", 
+                            "effect": "staggered (or fall comatose if already under the effects of the evil eye).", 
+
+                            "contracted": "gaze"
+                        }
+                    ] 
                 }, 
                 {
                     "name": "Horrific Appearance", 

@@ -60,8 +60,21 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Drow are skilled in the use of poison and never risk accidentally poisoning themselves. Drow favor an insidious toxin that causes its victims to lapse into unconsciousness&mdash;this poison allows drow to capture slaves with great ease.Drow Poison&mdash;injury; save Fort DC 13; frequency 1/minute for 2 minutes; initial effect unconsciousness for 1 minute; secondary effect unconsciousness for 2d4 hours; cure 1 save.", 
-                            "sections": []
+                            "text": "Drow are skilled in the use of poison and never risk accidentally poisoning themselves. Drow favor an insidious toxin that causes its victims to lapse into unconsciousness&mdash;this poison allows drow to capture slaves with great ease.", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary", 
+                                    "name": "Drow Poison", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 13", 
+                                    "frequency": "1/minute for 2 minutes", 
+                                    "initial_effect": "unconsciousness for 1 minute", 
+                                    "secondary_effect": "unconsciousness for 2d4 hours", 
+                                    "cure": "1 save"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

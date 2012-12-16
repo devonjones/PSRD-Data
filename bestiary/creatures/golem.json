@@ -476,8 +476,20 @@
                                         "Supernatural"
                                     ], 
                                     "source": "Bestiary", 
-                                    "text": "As a free action once every 1d4+1 rounds, an iron golem can exhale a 10-foot cube of poisonous gas. This gas cloud persists for 1 round; any creature within the area when the golem creates it (as well as any creature that passes through the cloud during the remainder of that round) is exposed to the cloud's poisonous effects. This poison is magically created each time the golem uses this power.Breath weapon&mdash;inhaled; save Fort 19; frequency 1/round for 4 rounds; effect 1d4 Constitution damage; cure 2 saves. The save DC is Constitution-based.", 
-                                    "sections": []
+                                    "text": "As a free action once every 1d4+1 rounds, an iron golem can exhale a 10-foot cube of poisonous gas. This gas cloud persists for 1 round; any creature within the area when the golem creates it (as well as any creature that passes through the cloud during the remainder of that round) is exposed to the cloud's poisonous effects. This poison is magically created each time the golem uses this power.", 
+                                    "sections": [
+                                        {
+                                            "source": "Bestiary", 
+                                            "name": "Breath weapon, Iron Golem", 
+                                            "type": "affliction",
+                                            "subtype": "poison", 
+                                            "contracted": "inhaled", 
+                                            "save": "Fortitude DC 19. The save DC is Constitution-based.", 
+                                            "frequency": "1/round for 4 rounds", 
+                                            "effect": "1d4 Constitution damage", 
+                                            "cure": "2 saves"
+                                        }
+                                    ]
                                 }, 
                                 {
                                     "name": "Immunity to Magic", 
