@@ -60,15 +60,23 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Medium; <b>AC</b> +1 natural; <b>Speed</b> swim 60 ft., jet 240 ft.; <b>Attack</b> tentacles (1d4 plus grab), bite (1d3); <b>Ability Scores</b> Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2; <b>Special Qualities</b> low-light vision, ink cloud.</p>", 
-                    "type": "section", 
+                    "size": "Medium", 
+                    "ac": "+1 natural armor", 
+                    "speed": "swim 60 ft., jet 240 ft.", 
+                    "attack": "tentacles (1d4 plus grab), bite (1d3)", 
+                    "ability_scores": "Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2", 
+                    "special_qualities": "low-light vision, ink cloud", 
+                    "type": "animal_companion", 
+                    "subtype": "base",
                     "name": "Squid", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p><b>Ability</b> <b>Scores</b> Str +2, Con +2.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "ability_scores": "Str +2, Con +2",
+                            "level": "4th", 
+                            "name": "4th-Level Advancement", 
+                            "type": "animal_companion", 
+                            "subtype": "advancement"
                         }
                     ]
                 }

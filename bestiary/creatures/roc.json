@@ -48,15 +48,26 @@
         }, 
         {
             "source": "Bestiary", 
-            "text": "<p><b>Size</b> Medium; <b>AC</b> +5 natural armor; <b>Speed</b> 20 ft., fly 80 ft.; <b>Attack </b>2 talons (1d4), bite (1d6); <b>Ability Scores</b> Str 12, Dex 19, Con 9, Int 2, Wis 13, Cha 11; <b>Special Qualities</b> low-light vision.</p>", 
-            "type": "section", 
+            "size": "Medium", 
+            "ac": "+5 natural armor", 
+            "speed": "20 ft., fly 80 ft.", 
+            "attack": "2 talons (1d4), bite (1d6)", 
+            "ability_scores": "Str 12, Dex 19, Con 9, Int 2, Wis 13, Cha 11", 
+            "special_qualities": "low-light vision", 
+            "type": "animal_companion", 
+            "subtype": "base", 
             "name": "Roc", 
             "sections": [
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Large; <b>AC</b> +3 natural armor; <b>Attack</b> 2 talons (1d6 plus grab), bite (1d8); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4.</p>", 
-                    "type": "section", 
-                    "name": "7th-Level Advancement"
+                    "size": "Large", 
+                    "ac": "+3 natural armor", 
+                    "attack": "2 talons (1d6 plus grab), bite (1d8)", 
+                    "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
+                    "level": "7th", 
+                    "name": "7th-Level Advancement", 
+                    "type": "animal_companion", 
+                    "subtype": "advancement"
                 }
             ]
         }

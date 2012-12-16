@@ -65,15 +65,23 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Small; <b>Speed</b> 40 ft., climb 20 ft., swim 20 ft.; <b>Attack</b> bite (1d4); <b>Ability Scores</b> Str 10, Dex 17, Con 12, Int 2, Wis 12, Cha 4; <b>Special Qualities</b> low-light vision, scent.</p>", 
-                    "type": "section", 
+                    "size": "Small", 
+                    "speed": "40 ft., climb 20 ft., swim 20 ft.", 
+                    "attack": "bite (1d4)", 
+                    "ability_scores": "Str 10, Dex 17, Con 12, Int 2, Wis 12, Cha 4", 
+                    "special_qualities": "low-light vision, scent.", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
                     "name": "Dire Rat", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p><b>Attack</b> bite (1d4 plus disease); <b>Ability Scores</b> Str +2, Con +2.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "attack": "bite (1d4 plus disease)", 
+                            "ability_scores": "Str +2, Con +2", 
+                            "level": "4th", 
+                            "name": "4th-Level Advancement", 
+                            "type": "animal_companion", 
+                            "subtype": "advancement"
                         }
                     ]
                 }

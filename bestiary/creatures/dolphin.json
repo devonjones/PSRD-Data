@@ -51,15 +51,24 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Medium; <b>Speed </b>swim 80 ft.; <b>AC</b> +1 natural armor; <b>Attack</b> slam (1d4); <b>Ability Scores</b> Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 6; <b>Special Qualities</b> low-light vision, hold breath.</p>", 
-                    "type": "section", 
+                    "size": "Medium",
+                    "speed": "swim 80 ft.", 
+                    "ac": "+1 natural armor", 
+                    "attack": "slam (1d4)", 
+                    "ability_scores": "Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 6", 
+                    "special_qualities": "low-light vision, hold breath", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
                     "name": "Dolphin", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p><b>Ability Scores</b> Str +2, Dex +2, Con +2; <b>Special Qualities</b> blindsight 120 ft.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "ability_scores": "Str +2, Dex +2, Con +2", 
+                            "special_qualities": "blindsight 120 ft", 
+                            "level": "4th", 
+                            "name": "4th-Level Advancement", 
+                            "type": "animal_companion", 
+                            "subtype": "advancement"
                         }
                     ]
                 }
@@ -110,15 +119,27 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Medium; <b>Speed </b>swim 80 ft.; <b>AC</b> +1 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 11, Dex 19, Con 10, Int 2, Wis 14, Cha 6; <b>Special Qualities</b> low-light vision, hold breath.</p>", 
-                    "type": "section", 
+                    "size": "Medium", 
+                    "speed": "swim 80 ft.", 
+                    "ac": "+1 natural armor", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str 11, Dex 19, Con 10, Int 2, Wis 14, Cha 6", 
+                    "special_qualities": "low-light vision, hold breath", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
                     "name": "Orca", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p><b>Size</b> Large; <b>AC</b> +2 natural armor; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> blindsight 120 ft.</p>", 
-                            "type": "section", 
-                            "name": "7th-Level Advancement"
+                            "size": "Large", 
+                            "ac": "+2 natural armor", 
+                            "attack": "bite (1d8)", 
+                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
+                            "special_qualities": "blindsight 120 ft", 
+                            "level": "7th", 
+                            "name": "7th-Level Advancement", 
+                            "type": "animal_companion", 
+                            "subtype": "advancement"
                         }
                     ]
                 }

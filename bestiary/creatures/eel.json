@@ -52,15 +52,24 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Small; <b>Speed </b>5 ft., swim 30 ft.; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6; <b>Special Qualities</b> amphibious, low-light vision, electricity resistance 5.</p>", 
-                    "type": "section", 
+                    "size": "Small", 
+                    "speed": "5 ft., swim 30 ft.", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6", 
+                    "special_qualities": "amphibious, low-light vision, electricity resistance 5", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
                     "name": "Electric Eel", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p><b>AC</b> +2 natural armor; <b>Ability Scores</b> Dex +2, Con +2; <b>Special Qualities</b> electricity (1d6), electricity resistance 10.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "ac": "+2 natural armor", 
+                            "ability_scores": "Dex +2, Con +2", 
+                            "special_qualities": "electricity (1d6), electricity resistance 10", 
+                            "level": "4th", 
+                            "name": "4th-Level Advancement", 
+                            "type": "animal_companion", 
+                            "subtype": "advancement"
                         }
                     ]
                 }
@@ -129,15 +138,26 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Medium; <b>AC</b> +5 natural armor; <b>Speed </b>swim 30 ft.; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8; <b>Special Qualities</b> low-light vision, grab.</p>", 
-                    "type": "section", 
+                    "size": "Medium", 
+                    "ac": "+5 natural armor", 
+                    "speed": "swim 30 ft.", 
+                    "attack": "bite (1d8)", 
+                    "ability_scores": "Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8", 
+                    "special_qualities": "low-light vision, grab", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
                     "name": "Moray Eel", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p><b>Size</b> Large; <b>AC</b> +3 natural armor; <b>Attack</b> bite (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> gnaw.</p>", 
-                            "type": "section", 
-                            "name": "7th-Level Advancement"
+                            "ac": "+3 natural armor", 
+                            "attack": "bite (2d6)", 
+                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
+                            "special_qualities": "gnaw", 
+                            "level": "7th", 
+                            "name": "7th-Level Advancement", 
+                            "type": "animal_companion", 
+                            "subtype": "advancement"
                         }
                     ]
                 }

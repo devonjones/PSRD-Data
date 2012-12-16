@@ -71,15 +71,24 @@
                 }, 
                 {
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Small; <b>AC</b> +1 natural; <b>Speed</b> 20 ft., swim 30 ft., jet 200 ft.; <b>Attack</b> bite (1d3), tentacles (grab); <b>Ability Scores</b> Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3; <b>Special Qualities</b> low-light vision, ink cloud.</p>", 
-                    "type": "section", 
+                    "size": "Small", 
+                    "ac": "+1 natural armor", 
+                    "speed": "20 ft., swim 30 ft., jet 200 ft.", 
+                    "attack": "bite (1d3), tentacles (grab)", 
+                    "ability_scores": "Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3", 
+                    "special_qualities": "low-light vision, ink cloud", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
                     "name": "Octopus", 
                     "sections": [
                         {
                             "source": "Bestiary", 
-                            "text": "<p><b>Attack</b> bite (1d3 plus poison); <b>Ability Scores</b> Str +2, Con +2.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "attack": "bite (1d3 plus poison)", 
+                            "ability_scores": "Str +2, Con +2", 
+                            "level": "4th", 
+                            "name": "4th-Level Advancement", 
+                            "type": "animal_companion", 
+                            "subtype": "advancement"
                         }
                     ]
                 }
