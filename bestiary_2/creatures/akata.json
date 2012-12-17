@@ -74,8 +74,28 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 2", 
-                    "text": "Void Death: Bite&mdash;injury; save Fort DC 12; onset 1 hour; frequency 1/day; effect 1d2 Dex and 1d2 Con damage; an infected creature who dies rises as a void zombie 2d4 hours later (see below); cure 2 consecutive saves.", 
-                    "sections": []
+                    "text": "Bite:", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Void Death", 
+                            "type": "affliction",
+                            "subtype": "disease", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 12",
+                            "onset": "1 hour", 
+                            "frequency": "1/day", 
+                            "effect": "1d2 Dexterity damage and 1d2 Constitution damage", 
+                            "cure": "2 consecutive saves", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 2", 
+                                    "type": "section",
+                                    "text": "an infected creature who dies rises as a void zombie 2d4 hours later"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

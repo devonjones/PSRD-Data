@@ -196,16 +196,16 @@
                             "text": "If a bearded devil hits a single opponent with both claw attacks, it also lashes at the same target with its spiky, filthy beard. The victim takes 1d8+2 points of damage and must succeed on a DC 17 Fortitude save or contract devil chills. The save DC is Constitution-based.", 
                             "sections": [
                                 {
-                                    "cure": "3 consecutive saves", 
+                                    "source": "Bestiary", 
                                     "name": "Devil Chills, Bearded Devil", 
+                                    "type": "affliction", 
                                     "subtype": "disease", 
                                     "contracted": "injury", 
-                                    "effect": "1d3 Strength", 
-                                    "onset": "1d4 days", 
-                                    "source": "Bestiary", 
-                                    "frequency": "1/day", 
                                     "save": "Fortitude DC 17", 
-                                    "type": "affliction"
+                                    "onset": "1d4 days", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d4 Strength damage", 
+                                    "cure": "3 consecutive saves"
                                 }
                             ]
                         }, 
@@ -299,18 +299,18 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Sting", 
+                            "text": "The save DC is Constitution-based. Sting:", 
                             "sections": [
                                 {
-                                    "cure": "2 consecutive saves", 
+                                    "source": "Bestiary", 
                                     "name": "Bone Devil Venom", 
+                                    "type": "affliction", 
                                     "subtype": "poison", 
                                     "contracted": "injury", 
-                                    "effect": "1d3 Strength", 
-                                    "source": "Bestiary", 
+                                    "save": "Fortitude DC 20", 
                                     "frequency": "1/round for 6 rounds", 
-                                    "save": "Fortitude DC 20, The save DC is Constitution-based.", 
-                                    "type": "affliction"
+                                    "effect": "1d3 Strength damage", 
+                                    "cure": "2 consecutive saves"
                                 }
                             ]
                         }
@@ -648,18 +648,18 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary", 
-                            "text": "Sting", 
+                            "text": "The save DC is Constitution-based, and includes a +2 racial bonus. Sting:", 
                             "sections": [
                                 {
-                                    "cure": "1 save", 
+                                    "source": "Bestiary", 
                                     "name": "Imp Venom", 
+                                    "type": "affliction", 
                                     "subtype": "poison", 
                                     "contracted": "injury", 
-                                    "effect": "1d2 Dexterity", 
-                                    "source": "Bestiary", 
+                                    "save": "Fortitude DC 13, ", 
                                     "frequency": "1/round for 6 rounds", 
-                                    "save": "Fortitude DC 13, The save DC is Constitution-based, and includes a +2 racial bonus.", 
-                                    "type": "affliction"
+                                    "effect": "1d2 Dexterity", 
+                                    "cure": "1 save"
                                 }
                             ]
                         }
@@ -816,19 +816,19 @@
                                         "Supernatural"
                                     ], 
                                     "source": "Bestiary", 
-                                    "text": "Bite", 
+                                    "text": "The save DC is Constitution-based. Bite:", 
                                     "sections": [
                                         {
-                                            "cure": "3 consecutive saves", 
+                                            "source": "Bestiary", 
                                             "name": "Devil Chills, Pit Fiend", 
+                                            "type": "affliction", 
                                             "subtype": "disease", 
                                             "contracted": "injury", 
-                                            "effect": "1d4 Strength", 
+                                            "save": "Fortitude DC 32", 
                                             "onset": "immediate", 
-                                            "source": "Bestiary", 
                                             "frequency": "1/day", 
-                                            "save": "Fortitude DC 32, The save DC is Constitution-based.", 
-                                            "type": "affliction"
+                                            "effect": "1d4 Strength damage", 
+                                            "cure": "3 consecutive saves"
                                         }
                                     ]
                                 }, 
@@ -839,18 +839,18 @@
                                         "Extraordinary"
                                     ], 
                                     "source": "Bestiary", 
-                                    "text": "Bite", 
+                                    "text": "The save DC is Constitution-based. Bite:", 
                                     "sections": [
                                         {
-                                            "cure": "3 consecutive saves", 
+                                            "source": "Bestiary", 
                                             "name": "Pit Fiend Venom", 
+                                            "type": "affliction", 
                                             "subtype": "poison", 
                                             "contracted": "injury", 
-                                            "effect": "1d6 Constitution", 
-                                            "source": "Bestiary", 
+                                            "save": "Fortitude DC 32, ", 
                                             "frequency": "1/round for 10 rounds", 
-                                            "save": "Fortitude DC 32, The save DC is Constitution-based.", 
-                                            "type": "affliction"
+                                            "effect": "1d6 Constitution damage", 
+                                            "cure": "3 consecutive saves"
                                         }
                                     ]
                                 }

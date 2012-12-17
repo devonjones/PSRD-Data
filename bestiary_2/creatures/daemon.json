@@ -140,8 +140,28 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "Cacodaemonia: Bite&mdash;injury; save Fort DC 12; onset 1 day; frequency 1/day; effect 1d2 Wis damage, cure 2 consecutive saves. In addition to the normal effects of the disease, as long as a victim is infected, the cacodaemon can telepathically communicate with the creature over any distance (as long as they remain on the same plane).", 
-                            "sections": []
+                            "text": "Bite:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 2", 
+                                    "name": "Cacodaemonia", 
+                                    "type": "affliction",
+                                    "subtype": "disease", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 12",
+                                    "onset": "1 day", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d2 Wisdom damage", 
+                                    "cure": "2 consecutive saves", 
+                                    "sections": [
+                                        {
+                                            "source": "Bestiary 2", 
+                                            "type": "section",
+                                            "text": "In addition to the normal effects of the disease, as long as a victim is infected, the cacodaemon can telepathically communicate with the creature over any distance (as long as they remain on the same plane)."
+                                        }
+                                    ]
+                                }
+                            ]
                         }, 
                         {
                             "name": "Soul Lock", 
@@ -611,8 +631,21 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "Daemonic wasting: Bite&mdash;injury; save Fort DC 22; onset 1 day; frequency 1/day; effect 1d4 Con and 1d4 Cha damage; cure 2 consecutive saves. The save DC is Constitution-based.", 
-                            "sections": []
+                            "text": "The save DC is Constitution-based. Bite:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 2", 
+                                    "name": "Daemonic wasting", 
+                                    "type": "affliction",
+                                    "subtype": "disease", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 22",
+                                    "onset": "1 day", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d4 Constitution damage and 1d4 Charisma damage", 
+                                    "cure": "2 consecutive saves" 
+                                }
+                            ]
                         }, 
                         {
                             "name": "Hunger", 
@@ -829,8 +862,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "Tentacles&mdash;injury; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d2 Con plus staggered for 1 round; cure 2 consecutive saves.", 
-                            "sections": []
+                            "text": "Tentacles:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 2", 
+                                    "name": "Piscodaemon Venom", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 22", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "effect": "1d2 Constitution plus staggered for 1 round", 
+                                    "cure": "2 consecutive saves"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

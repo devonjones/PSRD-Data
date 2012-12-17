@@ -175,8 +175,27 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "Bite&mdash;injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d2 Con drain; cure 1 save. The thick, orange poison injected by a chernobue is semi-alive. As soon as the poisoned victim is cured of the poison (by making a save, being targeted with an effect like neutralize poison, or enduring the full duration of the poison), the orange fluid bursts from the victim's body, causing 1d6 Charisma damage and rendering the victim unconscious for 2d6 rounds unless he makes a final DC 23 Fortitude save. The save DC is Constitution-based.", 
-                            "sections": []
+                            "text": "The save DC is Constitution-based. Bite:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 2", 
+                                    "name": "Chernobue Venom", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 23", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "effect": "1d2 Constitution drain", 
+                                    "cure": "1 save",
+                                    "sections": [
+                                        {
+                                            "source": "Bestiary 2", 
+                                            "type": "section",
+                                            "text": "The thick, orange poison injected by a chernobue is semi-alive. As soon as the poisoned victim is cured of the poison (by making a save, being targeted with an effect like neutralize poison, or enduring the full duration of the poison), the orange fluid bursts from the victim's body, causing 1d6 Charisma damage and rendering the victim unconscious for 2d6 rounds unless he makes a final DC 23 Fortitude save."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

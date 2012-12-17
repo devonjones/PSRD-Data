@@ -38,18 +38,31 @@
                             ], 
                             "source": "Bestiary 2", 
                             "text": "A creature that strikes a giant toad with an unarmed strike or natural weapon exposes itself to the toad's poisonous skin.", 
-                            "sections": []
+                            "sections": [
+                                {
+                                    "source": "Bestiary 2", 
+                                    "type": "section", 
+                                    "text": "Skin:",
+                                    "sections": [
+                                        {
+                                            "source": "Bestiary 2", 
+                                            "name": "Tentamort Venom", 
+                                            "type": "affliction",
+                                            "subtype": "poison", 
+                                            "contracted": "contact", 
+                                            "save": "Fortitude DC 14", 
+                                            "frequency": "1/round for 4 rounds", 
+                                            "effect": "1d2 Wisdom damage", 
+                                            "cure": "1 save"
+                                        }
+                                    ]
+                                } 
+                            ]
                         }
                     ], 
                     "type": "section", 
                     "name": "Special Abilities", 
                     "source": "Bestiary 2"
-                }, 
-                {
-                    "source": "Bestiary 2", 
-                    "sections": [], 
-                    "type": "section", 
-                    "text": "<p>Skin&mdash;contact; <i>save</i> Fort DC 14; <i>frequency</i> 1/round for 4 rounds; <i>effect</i> 1d2 Wisdom damage; <i>cure</i> 1 save.</p>"
                 }, 
                 {
                     "source": "Bestiary 2", 

@@ -57,8 +57,21 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 2", 
-                    "text": "Lurkers typically coat their daggers with shadow essence poison.<p class=\"stat-block-2\"><i>Shadow essence poison</i>: Injury; <i>save</i> Fortitude DC 17; <i>frequency</i> 1/round for 6 rounds; <i>initial effect</i> 1 Str drain; <i>secondary effect</i> 1d3 Str damage; <i>cure</i> 1 save.</p>", 
-                    "sections": []
+                    "text": "Lurkers typically coat their daggers with shadow essence poison.", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Shadow essence poison", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 17", 
+                            "frequency": "1/round for 6 rounds", 
+                            "initial_effect": "1 Strength Drain", 
+                            "secondary_effect": "1d3 Strength Damage", 
+                            "cure": "1 save"
+                        }
+                    ]
                 }, 
                 {
                     "name": "Ritual Gate", 

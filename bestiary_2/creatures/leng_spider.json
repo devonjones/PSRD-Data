@@ -35,8 +35,27 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary 2", 
-                    "text": "Bite&mdash;injury; save Fort DC 25; frequency 1/round for 6 rounds; effect 1d4 Con plus confusion for 1 round; cure 2 consecutive saves. A Leng spider's venom causes flesh to blister and rot away and the mind to experience vivid and horrific hallucinations&mdash;these visions cause the poisoned creature to react in an unpredictable manner, as if confused. The hallucination element of this poison is mind-affecting. The save DC is Constitution-based.", 
-                    "sections": []
+                    "text": "The save DC is Constitution-based. Bite:", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Leng Spider Venom", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 25. ", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "1d4 Constitution plus confusion for 1 round", 
+                            "cure": "2 consecutive saves",
+                            "sections": [
+                                {
+                                    "source": "Bestiary 2", 
+                                    "type": "section",
+                                    "text": "A Leng spider's venom causes flesh to blister and rot away and the mind to experience vivid and horrific hallucinations&mdash;these visions cause the poisoned creature to react in an unpredictable manner, as if confused. The hallucination element of this poison is mind-affecting."
+                                }
+                            ]
+                        }
+                    ]
                 }, 
                 {
                     "name": "Web Weaponry", 

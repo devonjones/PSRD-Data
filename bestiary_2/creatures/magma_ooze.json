@@ -84,10 +84,22 @@
                 }, 
                 {
                     "source": "Bestiary 2", 
-                    "text": "<p id=\"poisonous\">Whether from toxic metals or magical contamination, these oozes are deadly poison in addition to mobile burning death. A poisonous ooze is +1 CR.</p><p id=\"magma-ooze-poison\"><i>Magma Ooze Poison</i>: Slam&mdash;injury; <i>save</i> Fort DC 19; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Con; <i>cure</i> 2 consecutive saves.</p>", 
+                    "text": "<p id=\"poisonous\">Whether from toxic metals or magical contamination, these oozes are deadly poison in addition to mobile burning death. A poisonous ooze is +1 CR. Slam:", 
                     "type": "section", 
                     "name": "Poisonous", 
-                    "sections": []
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Magma Ooze Poison", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 19", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "1d2 Constitution", 
+                            "cure": "2 consecutive saves"
+                        }
+                    ]
                 }
             ]
         }

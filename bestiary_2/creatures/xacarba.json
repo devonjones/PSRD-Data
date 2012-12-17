@@ -39,8 +39,42 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary 2", 
-                    "text": "Bite&mdash;injury; save Fort DC 25; frequency 1/round for 6 rounds; effect one chosen by the xacarba from three options; cure 2 consecutive saves. The save DC is Constitution-based.<p class=\"stat-block-2\"><i>Fiendish Bile</i>: <i>effect</i> 1d4 Str damage (good-aligned creatures also take 2d8 points of damage).</p><p class=\"stat-block-2\"><i>Mysterious Blood</i>: <i>effect</i> 1d4 Dex and 1d4 Wis damage plus confusion for 1 round.</p><p class=\"stat-block-2\"><i>Vile Disjunction</i>: <i>effect</i> targeted <i>greater dispel magic</i> (CL 18th) on the creature.</p>", 
-                    "sections": []
+                    "text": "The xacarba can choose between three poisions.  The save DC of each is Constitution-based. Bite:", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Fiendish Bile", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 25", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "1d4 Strength damage (good-aligned creatures also take 2d8 points of damage).", 
+                            "cure": "2 consecutive saves"
+                        },
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Mysterious Blood", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 25", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "1d4 Dex and 1d4 Wis damage plus confusion for 1 round.", 
+                            "cure": "2 consecutive saves"
+                        },
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Vile Disjunction", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 25", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "Targeted <i>greater dispel magic</i> (CL 18th) on the creature.", 
+                            "cure": "2 consecutive saves"
+                        }
+                    ]
                 }, 
                 {
                     "name": "Redirect Spell", 

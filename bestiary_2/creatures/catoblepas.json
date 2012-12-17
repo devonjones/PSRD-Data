@@ -35,8 +35,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 2", 
-                    "text": "A catoblepas's horrid, stinking breath is 60-foot cone of poison gas. Breath&mdash;contact; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d6 Con damage; cure 3 consecutive saves. The save DC is Constitution-based.", 
-                    "sections": []
+                    "text": "A catoblepas's horrid, stinking breath is 60-foot cone of poison gas. The save DC is Constitution-based. Breath:", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 2", 
+                            "name": "Catoblepas Venom", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "contact", 
+                            "save": "Fortitude DC 23", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "1d6 Constitution", 
+                            "cure": "3 consecutive saves"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 
