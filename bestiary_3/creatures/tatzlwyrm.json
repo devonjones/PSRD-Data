@@ -35,8 +35,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A tatzlwyrm's breath contains a poisonous vapor. While grappling, instead of making a bite or rake attack, a tatzlwyrm can breathe poison into its victim's face. A tatzlwyrm must begin its turn grappling to use this ability&mdash;it can't begin a grapple and use its poison gasp in the same turn.<p class=\"stat-block-2\"><i>Tatzlwyrm poison</i>: Breath&mdash;inhaled; <i>save</i> Fort DC 12; <i>frequency</i> 1/round for 2 rounds; <i>effect</i> 1d2 Str damage; <i>cure</i> 1 save. The save DC is Constitution-based.</p>", 
-                    "sections": []
+                    "text": "A tatzlwyrm's breath contains a poisonous vapor. While grappling, instead of making a bite or rake attack, a tatzlwyrm can breathe poison into its victim's face. A tatzlwyrm must begin its turn grappling to use this ability&mdash;it can't begin a grapple and use its poison gasp in the same turn. The save DC is Constitution-based. Breath:", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "name": "Tatzlwyrm poison", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "inhaled", 
+                            "save": "Fortitude DC 12", 
+                            "frequency": "1/round for 2 rounds", 
+                            "effect": "1d2 Strength damage", 
+                            "cure": "1 save"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

@@ -48,8 +48,20 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "Mortasheen: Contact; save Fort DC 21; frequency 1/day; effect 1d4 Con and target is fatigued; cure 2 consecutive saves. Animals take a &ndash;2 penalty on their saves against this disease. The save DC is Constitution-based.", 
-                    "sections": []
+                    "text": "The save DC is Constitution-based.",
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "name": "Mortasheen", 
+                            "type": "affliction",
+                            "subtype": "disease", 
+                            "contracted": "contact", 
+                            "save": "Fortitude DC 21", 
+                            "frequency": "1/day", 
+                            "effect": "1d4 Constitution and target is fatigued", 
+                            "cure": "2 consecutive saves. Animals take a &ndash;2 penalty on their saves against this disease."
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

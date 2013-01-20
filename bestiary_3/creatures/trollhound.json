@@ -32,8 +32,21 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A trollhound's saliva is an infectious brew of contagion. Creatures bitten by a trollhound are often afflicted with bloodfire fever, a disease characterized by deep internal pain, as if the victim's blood were on fire. Additional symptoms include loss of muscular coordination, pus-filled blisters, and overall lethargy and fatigue. Trolls and trollhounds alike are immune to bloodfire fever, even though trollhounds often exhibit the pus-filled blisters that come with the disease.<p id=\"bloodfire-fever\" class=\"stat-block-2 para-style-override\"><i>Bloodfire fever</i>: Bite&mdash;injury; <i>save</i> Fort DC 14; <i>onset</i> 1 day; <i>frequency</i> 1/day; <i>effect</i> 1d3 Str damage, 1d3 Dex damage, and target is fatigued; <i>cure</i> 2 consecutive saves. The save DC is Constitution-based.</p>", 
-                    "sections": []
+                    "text": "A trollhound's saliva is an infectious brew of contagion. Creatures bitten by a trollhound are often afflicted with bloodfire fever, a disease characterized by deep internal pain, as if the victim's blood were on fire. Additional symptoms include loss of muscular coordination, pus-filled blisters, and overall lethargy and fatigue. Trolls and trollhounds alike are immune to bloodfire fever, even though trollhounds often exhibit the pus-filled blisters that come with the disease. The save DC is Constitution-based. Bite:", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "name": "Bloodfire fever", 
+                            "type": "affliction",
+                            "subtype": "disease", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 14", 
+                            "onset": "1 day", 
+                            "frequency": "1/day", 
+                            "effect": "1d3 Strength damage, 1d3 Dexterity damage, and target is fatigued", 
+                            "cure": "2 consecutive saves"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

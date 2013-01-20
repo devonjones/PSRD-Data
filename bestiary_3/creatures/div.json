@@ -330,8 +330,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 3", 
-                            "text": "Bite&mdash;injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2 Wis; cure 2 consecutive saves.", 
-                            "sections": []
+                            "text": "Bite:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Doru Venom", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 13", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "effect": "1d2 Wisdom damage", 
+                                    "cure": "2 consecutive saves"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 
@@ -428,8 +440,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 3", 
-                            "text": "Sting&mdash;injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d6 Str; cure 2 consecutive saves.", 
-                            "sections": []
+                            "text": "Sting:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Ghawwas Venom", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 23", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "effect": "1d6 Strength damage", 
+                                    "cure": "2 consecutive saves"
+                                }
+                            ]
                         }, 
                         {
                             "name": "Rough Hide", 
@@ -525,7 +549,33 @@
                             "ability_types": [
                                 "Supernatural"
                             ], 
-                            "text": "<p>A pairaka carries two diseases. Its claws infect targets with bubonic plague, and any willing contact with its skin (such as through caressing, grappling, or more) exposes victims to the shakes. Bubonic Plague: Claw&mdash;injury; save Fort DC 17; onset 1 day; frequency 1/day; effect 1d4 Str damage, 1 Cha damage, and target is fatigued; cure 2 consecutive saves.</p><p>Shakes: Contact; save Fort DC 13; onset 1 day; frequency 1/day; effect 1d8 Dex damage; cure 2 consecutive saves.</p>"
+                            "text": "<p>A pairaka carries two diseases. Its claws infect targets with bubonic plague, and any willing contact with its skin (such as through caressing, grappling, or more) exposes victims to the shakes. Claw:",
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Pairaka Bubonic Plague", 
+                                    "type": "affliction",
+                                    "subtype": "disease", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 17", 
+                                    "onset": "1 day", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d4 Strength damage, 1 Charisma damage, and target is fatigued", 
+                                    "cure": "2 consecutive saves"
+                                },
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Pairaka Shakes", 
+                                    "type": "affliction",
+                                    "subtype": "disease", 
+                                    "contracted": "contact", 
+                                    "save": "Fortitude DC 13", 
+                                    "onset": "1 day", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d8 Dexterity damage", 
+                                    "cure": "2 consecutive saves"
+                                }
+                            ]
                         }, 
                         {
                             "name": "Lustful Dreams", 

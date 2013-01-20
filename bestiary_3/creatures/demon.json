@@ -225,8 +225,21 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 3", 
-                            "text": "A schir gnaws constantly at the ends of its halberd. This infuses the blades with disease from the demon's filthy spittle. Any creature struck by a schir's halberd must succeed at a DC 15 Fortitude save or contract gray pox&mdash;a frightening disease that causes weakness, gray splotches on the skin, and eventual catatonia. The save DC is Constitution-based.<p class=\"stat-block-2\"><i>Gray Pox</i>: Halberd&mdash;injury; <i>save</i> Fort DC 15; <i>onset</i> 1 day; <i>frequency</i> 1/day; <i>effect</i> 1d6 Str damage; <i>cure</i> 2 consecutive saves.</p>", 
-                            "sections": []
+                            "text": "A schir gnaws constantly at the ends of its halberd. This infuses the blades with disease from the demon's filthy spittle. Any creature struck by a schir's halberd must succeed at a DC 15 Fortitude save or contract gray pox&mdash;a frightening disease that causes weakness, gray splotches on the skin, and eventual catatonia. The save DC is Constitution-based. Halberd:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Gray Pox", 
+                                    "type": "affliction",
+                                    "subtype": "disease", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 15", 
+                                    "onset": "1 day", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d6 Strength damage", 
+                                    "cure": "2 consecutive saves"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

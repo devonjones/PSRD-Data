@@ -35,8 +35,21 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 3", 
-                            "text": "While ash giants are immune to disease, they carry a contagious form of leprosy. Any creature struck by an ash giant's attacks is exposed to this virulent sickness.<p class=\"stat-block-2\"><i>Ash Leprosy</i>: Injury; <i>save</i> Fort 23; <i>onset</i> 1 minute; <i>frequency</i> 1 day; <i>effect</i> 1d2 Con damage, 1d2 Cha drain; <i>cure</i> 2 consecutive saves. The save DC is Constitution-based.</p>", 
-                            "sections": []
+                            "text": "While ash giants are immune to disease, they carry a contagious form of leprosy. Any creature struck by an ash giant's attacks is exposed to this virulent sickness. The save DC is Constitution-based.", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Ash Leprosy", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 23", 
+                                    "onset": "1 minute", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d2 Constitution damage, 1d2 Charisma drain", 
+                                    "cure": "2 consecutive saves"
+                                }
+                            ]
                         }, 
                         {
                             "name": "Oversized Weapon", 

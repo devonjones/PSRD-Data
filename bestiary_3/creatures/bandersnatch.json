@@ -168,13 +168,25 @@
             "sections": [
                 {
                     "name": "Confounding Bandersnatch (+1 CR)", 
-                    "sections": [], 
-                    "text": "<p>Confounding bandersnatches drip infectious madness from their quills and claws. <i>Poison</i>  Claws and quills&mdash;injury; <i>save</i> Fort DC 29; <i>frequency</i> 1/minute for 6 minutes; <i>effect</i> confused for 1 minute; <i>cure</i> 2 consecutive saves. The save DC is Constitution-based.</p>", 
+                    "text": "<p>Confounding bandersnatches drip infectious madness from their quills and claws. <i>Poison</i>  The save DC is Constitution-based. Claws and quills:</p>", 
                     "ability_types": [
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 3", 
-                    "type": "ability"
+                    "type": "ability",
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "name": "Confounding Bandersnatch Venom", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 29", 
+                            "frequency": "1/minute for 6 minute", 
+                            "effect": "confused for 1 minute", 
+                            "cure": "2 consecutive saves"
+                        }
+                    ]
                 }, 
                 {
                     "source": "Bestiary 3", 

@@ -379,8 +379,27 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 3", 
-                            "text": "Bite&mdash;injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2 Wis plus modify memory; cure 1 save. Each time a victim takes Wisdom damage from this poison, a modify memory effect causes the victim to forget the previous minute's interactions with the raktavarna, as long as the raktavarna is no longer visible or is in object form. The save DC is Constitution-based.", 
-                            "sections": []
+                            "text": "The save DC is Constitution-based. Bite:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Raktavarna Rakshasa Venom", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 13", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "effect": "1d2 Wisdom plus modify memory", 
+                                    "cure": "1 save",
+                                    "sections": [
+                                        {
+                                            "source": "Bestiary 3", 
+                                            "type": "section", 
+                                            "text": "Each time a victim takes Wisdom damage from this poison, a modify memory effect causes the victim to forget the previous minute's interactions with the raktavarna, as long as the raktavarna is no longer visible or is in object form."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 

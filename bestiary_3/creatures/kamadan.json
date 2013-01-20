@@ -79,10 +79,22 @@
         }, 
         {
             "source": "Bestiary 3", 
-            "sections": [], 
             "type": "section", 
             "name": "Dusk Kamadan (CR +1)",
-            "text": "<p id=\"dusk-kamadan\">A dusk kamadan has midnight black fur and snakes bearing black and red ring patterns on their bodies. A dusk kamadan has the advanced creature template, and its snakes have a poisonous bite: Snakes&mdash;injury; <i>save</i> Fort DC 17; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Con; <i>cure</i> 2 consecutive saves.</p>"
+            "text": "<p id=\"dusk-kamadan\">A dusk kamadan has midnight black fur and snakes bearing black and red ring patterns on their bodies. A dusk kamadan has the advanced creature template, and its snakes have a poisonous bite: Snakes:",
+            "sections": [
+                {
+                    "source": "Bestiary 3", 
+                    "name": "Dusk Kamadan Snake Venom", 
+                    "type": "affliction",
+                    "subtype": "poison", 
+                    "contracted": "injury", 
+                    "save": "Fortitude DC 17", 
+                    "frequency": "1/round for 6 rounds", 
+                    "effect": "1d2 Constitution", 
+                    "cure": "2 consecutive saves"
+                }
+            ]
         }, 
         {
             "source": "Bestiary 3", 

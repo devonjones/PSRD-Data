@@ -39,8 +39,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A creature that strikes a fey giant toad with an unarmed strike or natural weapon exposes itself to the toad's poisonous skin.<p class=\"stat-block-2\">Skin&mdash;contact; <i>save</i> Fort DC 14; <i>frequency</i> 1/round for 4 rounds; <i>effect</i> 1d2 Wisdom damage; <i>cure</i> 1 save.</p>", 
-                    "sections": []
+                    "text": "A creature that strikes a fey giant toad with an unarmed strike or natural weapon exposes itself to the toad's poisonous skin. Skin:", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "name": "Fey Giant Toad Venom", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "contact", 
+                            "save": "Fortitude DC 14", 
+                            "frequency": "1/round for 4 rounds", 
+                            "effect": "1d2 Wisdom damage", 
+                            "cure": "1 save"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

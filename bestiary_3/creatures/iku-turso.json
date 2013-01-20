@@ -34,7 +34,28 @@
                     "ability_types": [
                         "Supernatural"
                     ], 
-                    "text": "An iku-turso's bite inflicts a strange, supernatural disease called tursas. This disease causes the victim's skin to grow painfully scaly, causes strange hallucinations, and eventually transforms the victim into an iku-turso.Tursas: Bite&mdash;injury; save Fort DC 20; onset 1 minute; frequency 1/day; effect 1d3 Wis damage and 1d6 Cha drain; cure 2 consecutive saves. As long as a victim suffers any ability damage from tursas, it gains the ability to breathe water. A creature reduced to 0 Charisma by this disease transforms into a fully grown and healthy iku-turso&mdash;it immediately forgets its previous life and abilities and seeks out the nearest iku-turso community to join it. A wish or miracle can reverse this transformation. The save DC is Constitution-based."
+                    "text": "An iku-turso's bite inflicts a strange, supernatural disease called tursas. This disease causes the victim's skin to grow painfully scaly, causes strange hallucinations, and eventually transforms the victim into an iku-turso. Bite:",
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "name": "Tursas", 
+                            "type": "affliction", 
+                            "subtype": "disease", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 20", 
+                            "onset": "1 minute", 
+                            "frequency": "1/day", 
+                            "effect": "1d3 Wisdom damage and 1d6 Charisma drain", 
+                            "cure": "2 consecutive saves",
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "text": "As long as a victim suffers any ability damage from tursas, it gains the ability to breathe water. A creature reduced to 0 Charisma by this disease transforms into a fully grown and healthy iku-turso&mdash;it immediately forgets its previous life and abilities and seeks out the nearest iku-turso community to join it. A wish or miracle can reverse this transformation. The save DC is Constitution-based."
+                                }
+                            ]
+                        }
+                    ]
                 }, 
                 {
                     "name": "Light Lure", 

@@ -42,8 +42,20 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A number of times per day equal to its Constitution modifier (minimum 1/day), a vishkanya can envenom a weapon that it wields with its toxic saliva or blood (using blood requires the vishkanya to be injured when it uses this ability). Applying venom in this way is a swift action.<p class=\"stat-block-2\"><i>Vishkanya Venom</i>: Injury; <i>save</i> Fort DC 10 + 1/2 the vishkanya's Hit Dice + the vishkanya's Constitution modifier; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Dex; <i>cure</i> 1 save.</p>", 
-                    "sections": []
+                    "text": "A number of times per day equal to its Constitution modifier (minimum 1/day), a vishkanya can envenom a weapon that it wields with its toxic saliva or blood (using blood requires the vishkanya to be injured when it uses this ability). Applying venom in this way is a swift action.", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "name": "Vishkanya Venom", 
+                            "type": "affliction",
+                            "subtype": "poison", 
+                            "contracted": "injury", 
+                            "save": "Fortitude DC 10 + 1/2 the vishkanya's Hit Dice + the vishkanya's Constitution modifier", 
+                            "frequency": "1/round for 6 rounds", 
+                            "effect": "1d2 Dexterity", 
+                            "cure": "1 save"
+                        }
+                    ]
                 }
             ], 
             "type": "section", 

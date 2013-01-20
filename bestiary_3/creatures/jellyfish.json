@@ -34,8 +34,27 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 3", 
-                            "text": "Tentacle&mdash;injury; save Fort DC 14; frequency 1/round for 6 rounds; effect 1 Con and 1 Cha; cure 2 consecutive saves. If a creature fails two consecutive saving throws, its jaw locks, its tongue swells, and its lips pull back, making speech impossible. This condition ends when the Charisma damage is healed.", 
-                            "sections": []
+                            "text": "Tentacle:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Death's Head Jellyfish Venom", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 14", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "effect": "1 Constitution and 1 Charisma", 
+                                    "cure": "2 consecutive saves",
+                                    "sections": [
+                                        {
+                                            "source": "Bestiary 3", 
+                                            "type": "section", 
+                                            "text": "If a creature fails two consecutive saving throws, its jaw locks, its tongue swells, and its lips pull back, making speech impossible. This condition ends when the Charisma damage is healed." 
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 
@@ -111,8 +130,20 @@
                                 "Extraordinary"
                             ], 
                             "source": "Bestiary 3", 
-                            "text": "Tentacle&mdash;injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d4 Dex and 1d4 Con; cure 2 consecutive saves. The save DC is Constitution-based.", 
-                            "sections": []
+                            "text": "The save DC is Constitution-based. Tentacle:", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary 3", 
+                                    "name": "Sapphire Jellyfish Venom", 
+                                    "type": "affliction",
+                                    "subtype": "poison", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 23", 
+                                    "frequency": "1/round for 6 rounds", 
+                                    "effect": "1d4 Dexterity and 1d4 Constitution", 
+                                    "cure": "2 consecutive saves"
+                                }
+                            ]
                         }
                     ], 
                     "type": "section", 
