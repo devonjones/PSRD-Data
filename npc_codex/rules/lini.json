@@ -16,7 +16,7 @@
                     "intelligence": "12", 
                     "melee": "sickle \u20131 (1d4\u20132)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "20 ft.", 
                     "alignment": "N", 
                     "size": "Small", 
@@ -27,7 +27,6 @@
                     "languages": "Common, Druidic, Gnome, Goblin, Sylvan", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'Lini casts goodberry at the start of each day.'), (u'During Combat', u'Lini attempts to stay out of melee, sending her animal companion to fight while she uses her magic to heal, summon allies, and control the environment.')]>", 
                     "fortitude": "+5", 
                     "spells": {
                         "druid spells prepared": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1st-<i>entangle</i> (DC 14), <i>goodberry</i></p><p class=\"stat-block-2\">0 (at will)-<i>detect magic</i>, <i>know direction</i>, <i>resistance</i></p>", 
@@ -36,6 +35,14 @@
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Self-Sufficient", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Lini casts goodberry at the start of each day.</p><p class='stat-block-1'><b>During Combat </b>Lini attempts to stay out of melee, sending her animal companion to fight while she uses her magic to heal, summon allies, and control the environment.</p>"
+                        }
+                    ], 
                     "senses": "low-light vision; Perception +9", 
                     "ranged": "sling +2 (1d3\u20132)", 
                     "hp": "11 (1d8+3)", 
@@ -46,10 +53,11 @@
                     "base_attack": "+0", 
                     "name": "Lini", 
                     "skills": "Craft (jewelry) +3, Handle Animal +6, Heal +9, Knowledge (geography) +5, Knowledge (nature) +7, Perception +9, Spellcraft +5, Survival +7", 
-                    "super_race": "400gnome druid 1", 
+                    "super_race": "gnome druid 1", 
                     "cmd": "8", 
                     "cmb": "\u20133", 
                     "will": "+5; +2 vs. illusions", 
+                    "abbrev": "Level 1", 
                     "reflex": "+1", 
                     "combat_gear": "goodberries (5), scroll of cure light wounds, acid", 
                     "creature_subtype": "gnome"
@@ -61,7 +69,7 @@
                     "intelligence": "12", 
                     "melee": "+1 sickle +5 (1d4\u20131)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "20 ft.", 
                     "alignment": "N", 
                     "size": "Small", 
@@ -72,7 +80,6 @@
                     "languages": "Common, Druidic, Gnome, Goblin, Sylvan", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"Lini casts goodberry at the start of each day. Before combat, she casts barkskin on herself and bull's strength and greater magic fang on her animal companion.\"), (u'During Combat', u'Lini avoids melee, sending in her animal companion.'), (u'Base Statistics', u\"Without barkskin, Lini's statistics are\"), (u'AC', u'17, touch 13, flat-footed 16.')]>", 
                     "fortitude": "+9", 
                     "spells": {
                         "spell-like abilities": "(CL 7th; concentration +10)1/day-dancing lights, ghost sound (DC 14), prestidigitation, speak with animals", 
@@ -81,6 +88,14 @@
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Augment Summoning, Natural Spell, Self-Sufficient, Spell Focus (conjuration)", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Lini casts goodberry at the start of each day. Before combat, she casts barkskin on herself and bull's strength and greater magic fang on her animal companion.</p><p class='stat-block-1'><b>During Combat </b>Lini avoids melee, sending in her animal companion.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, Lini's statistics are</p><p class='stat-block-1'><b>AC </b>17, touch 13, flat-footed 16.</p>"
+                        }
+                    ], 
                     "senses": "low-light vision; Perception +16", 
                     "ranged": "sling +7 (1d3\u20132)", 
                     "hp": "56 (7d8+21)", 
@@ -91,10 +106,11 @@
                     "base_attack": "+5", 
                     "name": "Lini", 
                     "skills": "Craft (jewelry) +3, Handle Animal +13, Heal +14, Knowledge (geography) +11, Knowledge (nature) +13, Perception +16, Spellcraft +11, Survival +13", 
-                    "super_race": "3,200gnome druid 7", 
+                    "super_race": "gnome druid 7", 
                     "cmd": "14", 
                     "cmb": "+2", 
                     "will": "+10; +2 vs. illusions, +4 vs. fey and plant-targeted effects", 
+                    "abbrev": "Level 7", 
                     "reflex": "+4", 
                     "combat_gear": "goodberries (5), potion of eagle's splendor, scrolls of call lightning (2), wand of cure moderate wounds (32 charges), wand of greater magic fang (7 charges), wand of produce flame (43 charges), acid", 
                     "creature_subtype": "gnome"
@@ -106,7 +122,7 @@
                     "intelligence": "12", 
                     "melee": "+3 sickle +11/+6 (1d4+1)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "20 ft.", 
                     "alignment": "N", 
                     "size": "Small", 
@@ -118,7 +134,6 @@
                     "languages": "Common, Druidic, Gnome, Goblin, Sylvan", 
                     "immune": "poison", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"Lini casts goodberry at the start of each day. Before combat, she casts barkskin and stoneskin on herself and animal growth, bull's strength, and greater magic fang on her animal companion. If she's joined by several allies, Lini casts mass bull's strength to improve their attacks.\"), (u'During Combat', u'Lini attempts to stay out of melee, sending her animal companion to fight while she uses her magic.'), (u'Base Statistics', u\"Without barkskin, Lini's statistics are\"), (u'AC', u'19, touch 14, flat-footed 18.')]>", 
                     "fortitude": "+12", 
                     "spells": {
                         "spell-like abilities": "(CL 12th; concentration +15)<p class=\"stat-block-2\">1/day-<i>dancing lights</i>, <i>ghost sound</i> (DC 14), <i>prestidigitation</i>, <i>speak with animals</i></p>", 
@@ -127,6 +142,14 @@
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Augment Summoning, Combat Casting, Lightning Reflexes, Natural Spell, Self-Sufficient, Spell Focus (conjuration)", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Lini casts goodberry at the start of each day. Before combat, she casts barkskin and stoneskin on herself and animal growth, bull's strength, and greater magic fang on her animal companion. If she's joined by several allies, Lini casts mass bull's strength to improve their attacks.</p><p class='stat-block-1'><b>During Combat </b>Lini attempts to stay out of melee, sending her animal companion to fight while she uses her magic.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, Lini's statistics are</p><p class='stat-block-1'><b>AC </b>19, touch 14, flat-footed 18.</p>"
+                        }
+                    ], 
                     "senses": "low-light vision; Perception +23", 
                     "ranged": "+2 sling +13/+8 (1d3)", 
                     "hp": "93 (12d8+36)", 
@@ -138,10 +161,11 @@
                     "base_attack": "+9", 
                     "name": "Lini", 
                     "skills": "Craft (jewelry) +3, Handle Animal +18, Heal +19, Knowledge (geography) +16, Knowledge (nature) +18, Perception +23, Spellcraft +16, Survival +17", 
-                    "super_race": "19,200gnome druid 12", 
+                    "super_race": "gnome druid 12", 
                     "cmd": "19", 
                     "cmb": "+6", 
                     "will": "+15; +2 vs. illusions, +4 vs. fey and plant-targeted effects", 
+                    "abbrev": "Level 12", 
                     "reflex": "+8", 
                     "combat_gear": "goodberries (5), scrolls of call lightning storm (2), scrolls of tree stride (2), wand of cure serious wounds (31 charges), wand of flame blade (21 charges), acid", 
                     "creature_subtype": "gnome"

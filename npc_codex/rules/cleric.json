@@ -15,7 +15,7 @@
                     "intelligence": "10", 
                     "melee": "morningstar \u20131 (1d8\u20131)", 
                     "cr": "1/2", 
-                    "xp": "", 
+                    "xp": "200", 
                     "speed": "30 ft.", 
                     "alignment": "LE", 
                     "spells": {
@@ -29,13 +29,18 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The cleric uses channeled energy, tanglefoot bags, and longstrider to escape.')]>", 
                     "fortitude": "+3", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Selective Channeling, Weapon Focus (light crossbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The cleric uses channeled energy, tanglefoot bags, and longstrider to escape.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -81,7 +86,7 @@
                     "base_attack": "+0", 
                     "name": "Mercenary Healer", 
                     "skills": "Appraise +4, Diplomacy +7, Knowledge (religion) +4, Spellcraft +4", 
-                    "super_race": "200human cleric 1", 
+                    "super_race": "human cleric 1", 
                     "cmd": "10", 
                     "cmb": "\u20131", 
                     "will": "+4", 
@@ -96,7 +101,7 @@
                     "intelligence": "8", 
                     "melee": "mwk greatsword with magic weapon +4 (2d6+4/19\u201320)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "20 ft.", 
                     "alignment": "CE", 
                     "spells": {
@@ -110,13 +115,18 @@
                     "languages": "Common, Dwarven", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts magic weapon.'), (u'During Combat', u'The cleric uses destructive smite as often as possible.'), (u'Base Statistics', u\"Without magic weapon, the cleric's statistics are\"), (u'Melee', u'mwk greatsword +4 (2d6+3/19\\u201320).')]>", 
                     "fortitude": "+5", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts magic weapon.</p><p class='stat-block-1'><b>During Combat </b>The cleric uses destructive smite as often as possible.</p><p class='stat-block-1'><b>Base Statistics </b>Without magic weapon, the cleric's statistics are</p><p class='stat-block-1'><b>Melee </b>mwk greatsword +4 (2d6+3/19\u201320).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -132,7 +142,7 @@
                     "base_attack": "+1", 
                     "name": "War Priest", 
                     "skills": "Knowledge (religion) +5, Perception +4 (+6 to notice unusual stonework)", 
-                    "super_race": "400dwarf cleric 2", 
+                    "super_race": "dwarf cleric 2", 
                     "cmd": "13 (17 vs. bull rush or trip)", 
                     "cmb": "+3", 
                     "will": "+6; +2 vs. poison, spells, and spell-like abilities", 
@@ -147,7 +157,7 @@
                     "intelligence": "10", 
                     "melee": "quarterstaff +3 (1d6+1)", 
                     "cr": "2", 
-                    "xp": "", 
+                    "xp": "600", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "spells": {
@@ -161,13 +171,18 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "\u20131", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The cleric uses his scroll of darkness, then follows with ranged spells.')]>", 
                     "fortitude": "+4", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Extra Channel, Scribe Scroll, Selective Channeling, Spell Focus (enchantment)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The cleric uses his scroll of darkness, then follows with ranged spells.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -183,7 +198,7 @@
                     "base_attack": "+2", 
                     "name": "Scholar Priest", 
                     "skills": "Knowledge (arcana) +7, Perception +6, Sense Motive +9, Spellcraft +7", 
-                    "super_race": "600human cleric 3", 
+                    "super_race": "human cleric 3", 
                     "cmd": "12", 
                     "cmb": "+3", 
                     "will": "+6", 
@@ -198,7 +213,7 @@
                     "intelligence": "10", 
                     "melee": "trident +2 (1d8\u20131)", 
                     "cr": "3", 
-                    "xp": "", 
+                    "xp": "800", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "size": "Medium", 
@@ -210,7 +225,6 @@
                     "languages": "Common, Elven", 
                     "immune": "sleep", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts barkskin.'), (u'During Combat', u'The cleric casts entropic shield, then uses hold person, entangle, and bane arrows.'), (u'Base Statistics', u'Without barkskin, her statistics are'), (u'AC', u'17, touch 12, flat-footed 15.')]>", 
                     "fortitude": "+5", 
                     "spells": {
                         "domain spell-like abilities": "(CL 4th; concentration +8)<p class=\"stat-block-2\">7/day-storm burst (1d6+2 nonlethal damage)</p>", 
@@ -219,6 +233,14 @@
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Deadly Aim, Martial Weapon Proficiency (shortbow), Skill Focus (Stealth)", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts barkskin.</p><p class='stat-block-1'><b>During Combat </b>The cleric casts entropic shield, then uses hold person, entangle, and bane arrows.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, her statistics are</p><p class='stat-block-1'><b>AC </b>17, touch 12, flat-footed 15.</p>"
+                        }
+                    ], 
                     "senses": "low-light vision; Perception +9", 
                     "ranged": "shortbow +5 (1d6/\u00d73)", 
                     "hp": "25 (4d8+4)", 
@@ -228,7 +250,7 @@
                     "base_attack": "+3", 
                     "name": "Shoreline Cleric", 
                     "skills": "Heal +8, Knowledge (nature) +2, Knowledge (religion) +5, Perception +9, Sense Motive +8, Stealth +7", 
-                    "super_race": "800half-elf cleric 4", 
+                    "super_race": "half-elf cleric 4", 
                     "cmd": "14", 
                     "cmb": "+2", 
                     "will": "+8; +2 vs. enchantments", 
@@ -243,7 +265,7 @@
                     "intelligence": "10", 
                     "melee": "mwk longsword +8 (1d8+3/19\u201320)", 
                     "cr": "4", 
-                    "xp": "", 
+                    "xp": "1,200", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "spells": {
@@ -257,7 +279,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "\u20131", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts magic vestment.'), (u'During Combat', u'The cleric attacks with her longsword, and casts magic weapon or align weapon as needed. When fighting undead, she channels positive energy. Otherwise, she uses ranged magical attacks only as a last resort.'), (u'Base Statistics', u\"Without magic vestment, the cleric's statistics are\"), (u'AC', u'18, touch 9, flat-footed 18.')]>", 
                     "fortitude": "+7", 
                     "size": "Medium", 
                     "type": "creature", 
@@ -265,6 +286,12 @@
                     "feats": "Combat Casting, Heavy Armor Proficiency, Improved Shield Bash, Weapon Focus (longsword)", 
                     "senses": "Perception +6", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts magic vestment.</p><p class='stat-block-1'><b>During Combat </b>The cleric attacks with her longsword, and casts magic weapon or align weapon as needed. When fighting undead, she channels positive energy. Otherwise, she uses ranged magical attacks only as a last resort.</p><p class='stat-block-1'><b>Base Statistics </b>Without magic vestment, the cleric's statistics are</p><p class='stat-block-1'><b>AC </b>18, touch 9, flat-footed 18.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -308,7 +335,7 @@
                     "base_attack": "+3", 
                     "name": "Noble Crusader", 
                     "skills": "Diplomacy +9, Heal +6, Knowledge (nobility) +6, Knowledge (religion) +5, Perception +6", 
-                    "super_race": "1,200human cleric 5", 
+                    "super_race": "human cleric 5", 
                     "cmd": "15", 
                     "cmb": "+6", 
                     "will": "+7", 
@@ -323,7 +350,7 @@
                     "intelligence": "8", 
                     "melee": "+1 heavy mace +6 (1d6+1)", 
                     "cr": "5", 
-                    "xp": "", 
+                    "xp": "1,600", 
                     "speed": "15 ft.", 
                     "alignment": "CN", 
                     "spells": {
@@ -337,13 +364,18 @@
                     "languages": "Common, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u\"The cleric tries to persuade living, intelligent opponents to stop fighting and discuss a peaceful solution over a drink, using calm emotions, charm person, or suggestion if necessary. When fighting undead, he casts eagle's splendor to improve his channel energy ability, and uses his potion and scroll if the battle goes poorly.\")]>", 
                     "fortitude": "+8", 
                     "size": "Small", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Extra Channel, Toughness, Turn Undead", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The cleric tries to persuade living, intelligent opponents to stop fighting and discuss a peaceful solution over a drink, using calm emotions, charm person, or suggestion if necessary. When fighting undead, he casts eagle's splendor to improve his channel energy ability, and uses his potion and scroll if the battle goes poorly.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -389,7 +421,7 @@
                     "base_attack": "+4", 
                     "name": "Carousing Champion", 
                     "skills": "Acrobatics +0, Climb \u20131, Diplomacy +8, Heal +9, Perception +5", 
-                    "super_race": "1,600halfling cleric 6", 
+                    "super_race": "halfling cleric 6", 
                     "cmd": "14", 
                     "cmb": "+3", 
                     "will": "+9; +2 vs. fear", 
@@ -404,7 +436,7 @@
                     "intelligence": "8", 
                     "melee": "mwk spiked chain +7 (2d4+1)", 
                     "cr": "6", 
-                    "xp": "", 
+                    "xp": "2,400", 
                     "speed": "20 ft.", 
                     "alignment": "LE", 
                     "spells": {
@@ -418,13 +450,18 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts deathwatch.'), (u'During Combat', u'The cleric casts magic weapon and shield of faith. If she has minions, she orders them to attack so she can use magic from a distance. She casts darkness to hide in and channels negative energy. If forced out of the darkness, she disables targets with bestow curse, blindness, and poison, then uses her spiked chain.')]>", 
                     "fortitude": "+8", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Blind-Fight, Combat Casting, Command Undead, Heavy Armor Proficiency, Improved Channel, Spell Focus (necromancy)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts deathwatch.</p><p class='stat-block-1'><b>During Combat </b>The cleric casts magic weapon and shield of faith. If she has minions, she orders them to attack so she can use magic from a distance. She casts darkness to hide in and channels negative energy. If forced out of the darkness, she disables targets with bestow curse, blindness, and poison, then uses her spiked chain.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -465,7 +502,7 @@
                     "base_attack": "+5", 
                     "name": "Vivisectionist Cleric", 
                     "skills": "Heal +9, Knowledge (religion) +6, Perception +7, Spellcraft +5", 
-                    "super_race": "2,400human cleric 7", 
+                    "super_race": "human cleric 7", 
                     "cmd": "16", 
                     "cmb": "+6", 
                     "will": "+9", 
@@ -480,7 +517,7 @@
                     "intelligence": "8", 
                     "melee": "+1 greataxe +12/+7 (1d12+9/\u00d73)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "20 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -492,7 +529,6 @@
                     "languages": "Common, Orc", 
                     "immune": "fire (96 points)", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts protection from energy (fire).'), (u'During Combat', u'The cleric casts divine power and shield of faith at the start of combat, then closes to melee distance. If combat starts and he cannot reach any opponents on the first round, he casts chaos hammer or unholy blight. If fighting creatures he knows are good, he uses his scythe of evil ability on his greataxe. If he has allies, he casts prayer.')]>", 
                     "fortitude": "+8", 
                     "spells": {
                         "domain spell-like abilities": "(CL 8th; concentration +10)<p class=\"stat-block-2\">5/day-touch of evil (4 rounds)</p>", 
@@ -502,6 +538,12 @@
                     "subtype": "npc", 
                     "feats": "Heavy Armor Proficiency, Power Attack, Toughness, Weapon Focus (greataxe)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts protection from energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The cleric casts divine power and shield of faith at the start of combat, then closes to melee distance. If combat starts and he cannot reach any opponents on the first round, he casts chaos hammer or unholy blight. If fighting creatures he knows are good, he uses his scythe of evil ability on his greataxe. If he has allies, he casts prayer.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -548,7 +590,7 @@
                     "base_attack": "+6", 
                     "name": "Wrath Priest", 
                     "skills": "Intimidate +7, Perception +5, Spellcraft +3", 
-                    "super_race": "3,200half-orc cleric 8", 
+                    "super_race": "half-orc cleric 8", 
                     "cmd": "20", 
                     "cmb": "+10", 
                     "will": "+8; +2 resistance vs. good", 
@@ -563,7 +605,7 @@
                     "intelligence": "10", 
                     "melee": "dagger +5/+0 (1d4\u20131/19\u201320)", 
                     "cr": "8", 
-                    "xp": "", 
+                    "xp": "4,800", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -576,13 +618,18 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The cleric casts bear's endurance, delay poison, and freedom of movement.\"), (u'During Combat', u'The cleric lets allies or undead minions handle the bulk of the fighting, using bestow curse, contagion, and slay living against individual foes or channeling negative energy against groups or to heal herself and her undead allies.'), (u'Base Statistics', u\"Without bear's endurance, the cleric's statistics are\"), (u'hp', u'71'), (u'Fort', u'+9'), (u'Con', u'14.')]>", 
                     "fortitude": "+11", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Casting, Command Undead, Greater Spell Focus (necromancy), Improved Channel, Improved Initiative, Spell Focus (necromancy)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts bear's endurance, delay poison, and freedom of movement.</p><p class='stat-block-1'><b>During Combat </b>The cleric lets allies or undead minions handle the bulk of the fighting, using bestow curse, contagion, and slay living against individual foes or channeling negative energy against groups or to heal herself and her undead allies.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance, the cleric's statistics are</p><p class='stat-block-1'><b>hp </b>71</p><p class='stat-block-1'><b>Fort </b>+9</p><p class='stat-block-1'><b>Con </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -629,7 +676,7 @@
                     "base_attack": "+6", 
                     "name": "Death Priest", 
                     "skills": "Craft (alchemy) +6, Heal +10, Intimidate +7, Knowledge (religion) +12, Perception +10", 
-                    "super_race": "4,800human cleric 9", 
+                    "super_race": "human cleric 9", 
                     "cmd": "18", 
                     "cmb": "+5", 
                     "will": "+11", 
@@ -643,7 +690,7 @@
                     "intelligence": "10", 
                     "melee": "+1 falchion +11/+6 (2d4+5/18\u201320)", 
                     "cr": "9", 
-                    "xp": "", 
+                    "xp": "6,400", 
                     "speed": "20 ft.", 
                     "alignment": "CE", 
                     "spells": {
@@ -657,7 +704,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts magic circle against good and magic vestment.'), (u'During Combat', u'The cleric drinks a potion of invisibility, then uses summon monster V and summon monster IV to overwhelm opponents, and attacks with flame strike, casting righteous might before entering melee.'), (u'Base Statistics', u\"Without magic circle against good and magic vestment, the cleric's statistics are\"), (u'AC', u'20, touch 10, flat-footed 20.')]>", 
                     "fortitude": "+10", 
                     "size": "Medium", 
                     "type": "creature", 
@@ -665,6 +711,12 @@
                     "feats": "Augment Summoning, Combat Casting, Heavy Armor Proficiency, Improved Initiative, Power Attack, Spell Focus (conjuration)", 
                     "senses": "Perception +14", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts magic circle against good and magic vestment.</p><p class='stat-block-1'><b>During Combat </b>The cleric drinks a potion of invisibility, then uses summon monster V and summon monster IV to overwhelm opponents, and attacks with flame strike, casting righteous might before entering melee.</p><p class='stat-block-1'><b>Base Statistics </b>Without magic circle against good and magic vestment, the cleric's statistics are</p><p class='stat-block-1'><b>AC </b>20, touch 10, flat-footed 20.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -708,7 +760,7 @@
                     "base_attack": "+7", 
                     "name": "Mother of Beasts", 
                     "skills": "Handle Animal +11, Heal +8, Knowledge (nature) +1, Knowledge (religion) +6, Perception +14, Spellcraft +8", 
-                    "super_race": "6,400human cleric 10", 
+                    "super_race": "human cleric 10", 
                     "cmd": "20", 
                     "cmb": "+10", 
                     "will": "+12; +2 vs. good opponents", 
@@ -724,7 +776,7 @@
                     "resist": "electricity 20, fire 10", 
                     "melee": "mwk heavy mace +10/+5 (1d8+1)", 
                     "cr": "10", 
-                    "xp": "", 
+                    "xp": "9,600", 
                     "speed": "20 ft.", 
                     "alignment": "LE", 
                     "size": "Medium", 
@@ -735,7 +787,6 @@
                     "languages": "Common, Ignan, Infernal", 
                     "source": "NPC Codex", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts freedom of movement and resist energy (electricity).'), (u'During Combat', u'The cleric casts fire shield (warm shield), uses his wand of shield of faith, then attacks with fire spells, switching to blade barrier, channeled energy, and flame strike against fire-resistant opponents.')]>", 
                     "fortitude": "+9", 
                     "spells": {
                         "domain spell-like abilities": "(CL 11th; concentration +16)<p class=\"stat-block-2\">8/day-fire bolt (1d6+5 fire), touch of law</p>", 
@@ -745,6 +796,12 @@
                     "subtype": "npc", 
                     "feats": "Extra Channel, Greater Spell Focus (evocation), Improved Channel, Improved Initiative, Lightning Reflexes, Selective Channeling, Spell Focus (evocation)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts freedom of movement and resist energy (electricity).</p><p class='stat-block-1'><b>During Combat </b>The cleric casts fire shield (warm shield), uses his wand of shield of faith, then attacks with fire spells, switching to blade barrier, channeled energy, and flame strike against fire-resistant opponents.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -770,7 +827,7 @@
                     "base_attack": "+8", 
                     "name": "Fire Cleric", 
                     "skills": "Intimidate +7, Knowledge (nobility, religion) +6, Knowledge (planes) +7, Linguistics +5, Perception +11, Sense Motive +13, Spellcraft +8", 
-                    "super_race": "9,600human cleric 11", 
+                    "super_race": "human cleric 11", 
                     "cmd": "18", 
                     "cmb": "+9", 
                     "will": "+13", 
@@ -785,7 +842,7 @@
                     "intelligence": "10", 
                     "melee": "mwk whip +9/+4 (1d3\u20131 nonlethal)", 
                     "cr": "11", 
-                    "xp": "", 
+                    "xp": "12,800", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "spells": {
@@ -799,13 +856,18 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The cleric uses his wand of bear's endurance, then casts magic vestment.\"), (u'During Combat', u'The cleric uses charm spells, hold spells, and suggestion to disable opponents or turn them into allies. He casts heroism and prayer to bolster companions, and uses his copycat domain power and spell resistance to protect himself, channeling negative energy to harm creatures who resist enchantment.'), (u'Base Statistics', u\"Without bear's endurance and magic vestment, the cleric's statistics are\"), (u'AC', u'24, touch 13, flat-footed 22'), (u'hp', u'81'), (u'Fort', u'+10'), (u'Con', u'12.')]>", 
                     "fortitude": "+12", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Extra Channel, Greater Spell Focus (enchantment), Improved Channel, Improved Initiative, Lightning Reflexes, Selective Channeling, Spell Focus (enchantment)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric uses his wand of bear's endurance, then casts magic vestment.</p><p class='stat-block-1'><b>During Combat </b>The cleric uses charm spells, hold spells, and suggestion to disable opponents or turn them into allies. He casts heroism and prayer to bolster companions, and uses his copycat domain power and spell resistance to protect himself, channeling negative energy to harm creatures who resist enchantment.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance and magic vestment, the cleric's statistics are</p><p class='stat-block-1'><b>AC </b>24, touch 13, flat-footed 22</p><p class='stat-block-1'><b>hp </b>81</p><p class='stat-block-1'><b>Fort </b>+10</p><p class='stat-block-1'><b>Con </b>12.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -851,7 +913,7 @@
                     "base_attack": "+9", 
                     "name": "Trickster Priest", 
                     "skills": "Bluff +11, Diplomacy +17, Heal +14, Intimidate +8, Perception +11, Spellcraft +6", 
-                    "super_race": "12,800human cleric 12", 
+                    "super_race": "human cleric 12", 
                     "cmd": "21", 
                     "cmb": "+8", 
                     "will": "+14", 
@@ -866,7 +928,7 @@
                     "intelligence": "12", 
                     "melee": "+1 flaming greatsword +16/+11 (2d6+8/17\u201320 plus 1d6 fire) or mwk dagger +15/+10 (1d4+7/19\u201320)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -877,7 +939,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The cleric casts bear's endurance and stoneskin.\"), (u'During Combat', u'The cleric targets weak-looking opponents first, using spells to blind and damage multiple enemies before attacking with her greatsword.'), (u'Base Statistics', u\"Without bear's endurance and stoneskin, the cleric's statistics are\"), (u'hp', u'95'), (u'Fort', u'+11'), (u'DR', u'none'), (u'Con', u'14.')]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "domain spell-like abilities": "(CL 13th; concentration +16)<p class=\"stat-block-2\">6/day-battle rage (+6 damage), strength surge (+6)</p>", 
@@ -887,6 +948,12 @@
                     "subtype": "npc", 
                     "feats": "Cleave, Combat Casting, Extra Channel, Heavy Armor Proficiency, Improved Critical (greatsword), Power Attack, Vital Strike, Weapon Focus (greatsword)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts bear's endurance and stoneskin.</p><p class='stat-block-1'><b>During Combat </b>The cleric targets weak-looking opponents first, using spells to blind and damage multiple enemies before attacking with her greatsword.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance and stoneskin, the cleric's statistics are</p><p class='stat-block-1'><b>hp </b>95</p><p class='stat-block-1'><b>Fort </b>+11</p><p class='stat-block-1'><b>DR </b>none</p><p class='stat-block-1'><b>Con </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -933,7 +1000,7 @@
                     "base_attack": "+9", 
                     "name": "Profane General", 
                     "skills": "Diplomacy +7, Heal +11, Intimidate +4, Knowledge (engineering, nobility, planes) +6, Knowledge (history, religion) +9, Knowledge (local) +3, Perception +16, Ride \u20131, Spellcraft +9", 
-                    "super_race": "19,200human cleric 13", 
+                    "super_race": "human cleric 13", 
                     "cmd": "24", 
                     "cmb": "+14", 
                     "will": "+12", 
@@ -948,7 +1015,7 @@
                     "intelligence": "13", 
                     "melee": "mwk glaive +11/+6 (1d8\u20131/\u00d73)", 
                     "cr": "13", 
-                    "xp": "", 
+                    "xp": "25,600", 
                     "speed": "15 ft.", 
                     "alignment": "N", 
                     "size": "Small", 
@@ -960,7 +1027,6 @@
                     "languages": "Common, Gnome, Sylvan", 
                     "immune": "fire (120 points)", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The cleric casts air walk, bear's endurance, delay poison, freedom of movement, and protection from energy (fire).\"), (u'During Combat', u\"The cleric prefers to paralyze, repel, or disable opponents with greater command and barrier spells, but reacts aggressively if his opponents won't surrender or agree to a truce.\"), (u'Base Statistics', u\"Without bear's endurance, the cleric's statistics are\"), (u'hp', u'101'), (u'Fort', u'+14'), (u'Con', u'14.')]>", 
                     "fortitude": "+16", 
                     "spells": {
                         "domain spell-like abilities": "(CL 14th; concentration +20)<p class=\"stat-block-2\">9/day-bit of luck, resistant touch</p>", 
@@ -970,6 +1036,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Casting, Dodge, Extra Channel, Improved Channel, Improved Initiative, Selective Channeling, Turn Undead", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts air walk, bear's endurance, delay poison, freedom of movement, and protection from energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The cleric prefers to paralyze, repel, or disable opponents with greater command and barrier spells, but reacts aggressively if his opponents won't surrender or agree to a truce.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance, the cleric's statistics are</p><p class='stat-block-1'><b>hp </b>101</p><p class='stat-block-1'><b>Fort </b>+14</p><p class='stat-block-1'><b>Con </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1015,7 +1087,7 @@
                     "base_attack": "+10", 
                     "name": "Sacred Guardian", 
                     "skills": "Craft (armor) +3, Craft (jewelry) +6, Diplomacy +9, Heal +15, Knowledge (arcana, history, nobility) +6, Knowledge (local) +3, Knowledge (religion) +10, Perception +22, Sense Motive +12, Spellcraft +8", 
-                    "super_race": "25,600gnome cleric 14", 
+                    "super_race": "gnome cleric 14", 
                     "cmd": "23", 
                     "cmb": "+8", 
                     "will": "+18; +2 vs. illusions", 
@@ -1030,7 +1102,7 @@
                     "intelligence": "10", 
                     "melee": "+3 scythe +17/+12/+7 (2d4+6/19\u201320/\u00d74)", 
                     "cr": "14", 
-                    "xp": "", 
+                    "xp": "38,400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -1044,7 +1116,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The cleric casts bear's endurance, desecrate, freedom of movement, and greater magic weapon.\"), (u'During Combat', u'The cleric relies on offensive spells, or on channel energy if he has undead allies.'), (u'Base Statistics', u\"Without bear's endurance and greater magic weapon, the cleric's statistics are\"), (u'hp', u'116'), (u'Fort', u'+12'), (u'Melee', u'+1 scythe +15/+10/+5 (2d4+4/19\\u201320/\\xd74)'), (u'Con', u'14.')]>", 
                     "fortitude": "+14", 
                     "size": "Medium", 
                     "type": "creature", 
@@ -1052,6 +1123,12 @@
                     "feats": "Combat Casting, Command Undead, Critical Focus, Extra Channel, Improved Channel, Improved Critical (scythe), Improved Initiative, Spell Focus (evocation), Weapon Focus (scythe)", 
                     "senses": "Perception +20", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts bear's endurance, desecrate, freedom of movement, and greater magic weapon.</p><p class='stat-block-1'><b>During Combat </b>The cleric relies on offensive spells, or on channel energy if he has undead allies.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance and greater magic weapon, the cleric's statistics are</p><p class='stat-block-1'><b>hp </b>116</p><p class='stat-block-1'><b>Fort </b>+12</p><p class='stat-block-1'><b>Melee </b>+1 scythe +15/+10/+5 (2d4+4/19\u201320/\u00d74)</p><p class='stat-block-1'><b>Con </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1075,7 +1152,7 @@
                     "base_attack": "+11", 
                     "name": "Master of Undeath", 
                     "skills": "Bluff +5, Intimidate +5, Knowledge (local) +6, Knowledge (religion) +9, Perception +20, Spellcraft +11", 
-                    "super_race": "38,400human cleric 15", 
+                    "super_race": "human cleric 15", 
                     "cmd": "25", 
                     "cmb": "+13", 
                     "will": "+17", 
@@ -1091,7 +1168,7 @@
                     "resist": "cold 20, electricity 20, fire 30", 
                     "melee": "mwk quarterstaff +13/+8/+3 (1d4\u20131)", 
                     "cr": "15", 
-                    "xp": "", 
+                    "xp": "51,200", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Small", 
@@ -1103,7 +1180,6 @@
                     "languages": "Aquan, Auran, Common, Halfling", 
                     "immune": "fire (120 points)", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The cleric casts air walk, bear's endurance, freedom of movement, protection from energy (fire), and resist energy (fire).\"), (u'During Combat', u'The cleric summons air and water elementals and uses Elemental Channel to keep these defenders alive so he can cast attack spells at his opponents.'), (u'Base Statistics', u\"Without bear's endurance, protection from energy, and resist energy, the cleric's statistics are\"), (u'hp', u'123'), (u'Fort', u'15'), (u'Immune', u'&mdash;'), (u'Resist', u'cold 20, electricity 20'), (u'Con', u'14.')]>", 
                     "fortitude": "+17", 
                     "spells": {
                         "domain spell-like abilities": "(CL 16th; concentration +23)<p class=\"stat-block-2\">10/day- icicle (1d6+8 cold damage), lightning arc (1d6+8 electricity)</p>", 
@@ -1113,6 +1189,12 @@
                     "subtype": "npc", 
                     "feats": "Augment Summoning, Combat Casting, Elemental Channel (air, water), Extra Channel, Improved Initiative, Lightning Reflexes, Spell Focus (conjuration)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts air walk, bear's endurance, freedom of movement, protection from energy (fire), and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The cleric summons air and water elementals and uses Elemental Channel to keep these defenders alive so he can cast attack spells at his opponents.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance, protection from energy, and resist energy, the cleric's statistics are</p><p class='stat-block-1'><b>hp </b>123</p><p class='stat-block-1'><b>Fort </b>15</p><p class='stat-block-1'><b>Immune </b>&mdash;</p><p class='stat-block-1'><b>Resist </b>cold 20, electricity 20</p><p class='stat-block-1'><b>Con </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1128,7 +1210,7 @@
                     "base_attack": "+12", 
                     "name": "Elemental Priest", 
                     "skills": "Acrobatics +1 (\u20133 when jumping), Climb +0, Diplomacy +10, Knowledge (arcana) +9, Knowledge (nature) +6, Knowledge (planes) +14, Linguistics +5, Perception +19, Spellcraft +9, Stealth +5, Swim +3", 
-                    "super_race": "51,200halfling cleric 16", 
+                    "super_race": "halfling cleric 16", 
                     "cmd": "21", 
                     "cmb": "+10", 
                     "will": "+20; +2 vs. fear", 
@@ -1143,7 +1225,7 @@
                     "intelligence": "8", 
                     "melee": "+2 greataxe +18/+13/+8 (1d12+6/19\u201320/\u00d73)", 
                     "cr": "16", 
-                    "xp": "", 
+                    "xp": "76,800", 
                     "speed": "20 ft.", 
                     "alignment": "CE", 
                     "spells": {
@@ -1157,7 +1239,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts air walk and magic circle against good.'), (u'During Combat', u'Depending on her estimation of her opponents, the cleric might attack with spells or use divine power and righteous might to improve her melee abilities.')]>", 
                     "fortitude": "+13", 
                     "size": "Medium", 
                     "type": "creature", 
@@ -1165,6 +1246,12 @@
                     "feats": "Bleeding Critical, Combat Casting, Critical Focus, Heavy Armor Proficiency, Improved Channel, Improved Critical (greataxe), Improved Initiative, Improved Vital Strike, Vital Strike, Weapon Focus (greataxe)", 
                     "senses": "Perception +5", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts air walk and magic circle against good.</p><p class='stat-block-1'><b>During Combat </b>Depending on her estimation of her opponents, the cleric might attack with spells or use divine power and righteous might to improve her melee abilities.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1188,7 +1275,7 @@
                     "base_attack": "+12", 
                     "name": "Herald of Armageddon", 
                     "skills": "Knowledge (arcana) +11, Sense Motive +16, Spellcraft +19", 
-                    "super_race": "76,800human cleric 17", 
+                    "super_race": "human cleric 17", 
                     "cmd": "28", 
                     "cmb": "+15", 
                     "will": "+16; +1 vs. good", 
@@ -1203,7 +1290,7 @@
                     "intelligence": "12", 
                     "melee": "+4 short sword +21/+16/+11 (1d6+5/17\u201320)", 
                     "cr": "17", 
-                    "xp": "", 
+                    "xp": "102,400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -1215,7 +1302,6 @@
                     "languages": "Common, Elven, Orc", 
                     "immune": "sleep", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts delay poison, greater magic weapon (on her sword and crossbow), freedom of movement, greater spell immunity, magic vestment, and undetectable alignment.'), (u'During Combat', u'The cleric uses magic to turn invisible or hinder vision, then makes hit-and-run attacks.'), (u'Base Statistics', u\"Without greater magic weapon and magic vestment, the cleric's statistics are\"), (u'AC', u'23, touch 17, flat-footed 19'), (u'Melee', u'+1 short sword +18/+13/+8 (1d6+2/17\\u201320)'), (u'Ranged', u'+1 seeking light crossbow +17/+12/+7 (1d8+1/19\\u201320).')]>", 
                     "fortitude": "+17", 
                     "spells": {
                         "domain spell-like abilities": "(CL 18th; concentration +24)<p class=\"stat-block-2\">9/day-bleeding touch (9 rounds), copycat (18 rounds)</p><p class=\"stat-block-2\">At will-master's illusion (18 rounds/day, DC 27)</p>", 
@@ -1225,6 +1311,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Casting, Combat Reflexes, Deadly Aim, Dodge, Improved Critical (short sword), Rapid Reload, Vital Strike, Weapon Finesse, Weapon Focus (short sword)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts delay poison, greater magic weapon (on her sword and crossbow), freedom of movement, greater spell immunity, magic vestment, and undetectable alignment.</p><p class='stat-block-1'><b>During Combat </b>The cleric uses magic to turn invisible or hinder vision, then makes hit-and-run attacks.</p><p class='stat-block-1'><b>Base Statistics </b>Without greater magic weapon and magic vestment, the cleric's statistics are</p><p class='stat-block-1'><b>AC </b>23, touch 17, flat-footed 19</p><p class='stat-block-1'><b>Melee </b>+1 short sword +18/+13/+8 (1d6+2/17\u201320)</p><p class='stat-block-1'><b>Ranged </b>+1 seeking light crossbow +17/+12/+7 (1d8+1/19\u201320).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1270,7 +1362,7 @@
                     "base_attack": "+13", 
                     "name": "Shadow Cleric", 
                     "skills": "Bluff +11, Diplomacy +11, Disguise +11, Knowledge (religion) +13, Perception +8, Sense Motive +18, Stealth +24", 
-                    "super_race": "102,400elf cleric 18", 
+                    "super_race": "elf cleric 18", 
                     "cmd": "31", 
                     "cmb": "+14", 
                     "will": "+21; +2 vs. enchantments", 
@@ -1285,7 +1377,7 @@
                     "intelligence": "8", 
                     "melee": "+4 spiked chain +23/+18/+13 (2d4+10/19\u201320)", 
                     "cr": "18", 
-                    "xp": "", 
+                    "xp": "153,600", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -1298,7 +1390,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts air walk, freedom of movement, greater magic weapon, and magic vestment.'), (u'During Combat', u'The cleric uses melee attacks and channeled energy against close opponents. Against ranged opponents, he uses spells to divide, blind, and kill.'), (u'Base Statistics', u\"Without greater magic weapon and magic vestment, the cleric's statistics are\"), (u'AC', u'28, touch 14, flat-footed 28'), (u'Melee', u'+1 spiked chain +20/+15/+10 (2d4+7/19\\u201320).')]>", 
                     "fortitude": "+16", 
                     "size": "Medium", 
                     "type": "creature", 
@@ -1307,6 +1398,12 @@
                     "senses": "Perception +21", 
                     "gear": "+1 full plate, +1 spiked chain, javelin of lightning, amulet of natural armor +2, belt of physical might +4 (Str, Con), cloak of resistance +1, headband of mental prowess +2 (Wis, Cha), phylactery of negative channeling, ring of force shield, ring of protection +4, silver unholy symbol, unholy water, materials for unhallow (worth 1,000 gp), onyx gems (worth 1,500 gp each), platinum rings for shield other (worth 100 gp), silver dust for desecrate (worth 25 gp), 3,450 gp", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts air walk, freedom of movement, greater magic weapon, and magic vestment.</p><p class='stat-block-1'><b>During Combat </b>The cleric uses melee attacks and channeled energy against close opponents. Against ranged opponents, he uses spells to divide, blind, and kill.</p><p class='stat-block-1'><b>Base Statistics </b>Without greater magic weapon and magic vestment, the cleric's statistics are</p><p class='stat-block-1'><b>AC </b>28, touch 14, flat-footed 28</p><p class='stat-block-1'><b>Melee </b>+1 spiked chain +20/+15/+10 (2d4+7/19\u201320).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1320,7 +1417,7 @@
                     "base_attack": "+14", 
                     "name": "Priest of Oblivion", 
                     "skills": "Knowledge (local) +4, Knowledge (religion) +12, Perception +21, Sense Motive +17", 
-                    "super_race": "153,600human cleric 19", 
+                    "super_race": "human cleric 19", 
                     "cmd": "32", 
                     "cmb": "+18", 
                     "will": "+18", 
@@ -1334,7 +1431,7 @@
                     "intelligence": "13", 
                     "melee": "rod of the viper +18/+13/+8 (1d8+3)", 
                     "cr": "19", 
-                    "xp": "", 
+                    "xp": "204,800", 
                     "speed": "30 ft.", 
                     "alignment": "LE", 
                     "size": "Medium", 
@@ -1346,7 +1443,6 @@
                     "languages": "Common, Infernal", 
                     "immune": "fire", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The cleric casts delay poison, freedom of movement, magic vestment (armor and shield), and spell turning.'), (u'During Combat', u'The cleric first conjures devils to defend him.'), (u'Base Statistics', u\"Without magic vestmentthe cleric's statistics are\"), (u'AC', u'29, touch 14, flat-footed 29.')]>", 
                     "fortitude": "+18", 
                     "spells": {
                         "domain spell-like abilities": "(CL 20th; concentration +25)<p class=\"stat-block-2\">8/day-fire bolt (1d6+10 fire)</p><p class=\"stat-block-2\">4/day-dispelling touch</p>", 
@@ -1356,6 +1452,12 @@
                     "subtype": "npc", 
                     "feats": "Alignment Channel (evil), Augment Summoning, Combat Casting, Greater Spell Focus (evocation), Improved Initiative, Improved Iron Will, Iron Will, Shield Focus, Spell Focus (conjuration), Spell Focus (evocation), Spell Penetration", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The cleric casts delay poison, freedom of movement, magic vestment (armor and shield), and spell turning.</p><p class='stat-block-1'><b>During Combat </b>The cleric first conjures devils to defend him.</p><p class='stat-block-1'><b>Base Statistics </b>Without magic vestmentthe cleric's statistics are</p><p class='stat-block-1'><b>AC </b>29, touch 14, flat-footed 29.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1371,7 +1473,7 @@
                     "base_attack": "+15", 
                     "name": "Fire Diabolist", 
                     "skills": "Bluff +13, Diplomacy +16, Intimidate +13, Knowledge (arcana) +9, Knowledge (religion) +14, Perception +20, Sense Motive +18, Spellcraft +14", 
-                    "super_race": "204,800human cleric 20", 
+                    "super_race": "human cleric 20", 
                     "cmd": "30", 
                     "cmb": "+16", 
                     "will": "+23", 

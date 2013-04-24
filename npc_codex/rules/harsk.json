@@ -16,7 +16,7 @@
                     "intelligence": "10", 
                     "melee": "battleaxe +3 (1d8+2/\u00d73)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -26,11 +26,18 @@
                     "languages": "Common, Dwarven", 
                     "source": "NPC Codex", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'Harsk prefers fighting with his crossbow over his battleaxe. His hatred for giants often motivates him to target creatures of that subtype to the exclusion of others.')]>", 
                     "fortitude": "+4", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Rapid Reload", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>Harsk prefers fighting with his crossbow over his battleaxe. His hatred for giants often motivates him to target creatures of that subtype to the exclusion of others.</p>"
+                        }
+                    ], 
                     "senses": "darkvision 60 ft.; Perception +6", 
                     "gear": "studded leather, battleaxe, heavy crossbow with 30 bolts, antitoxin, backpack, smokestick, trail rations (4), signal whistle, tea pot, 11 gp", 
                     "ranged": "heavy crossbow +4 (1d10/19\u201320)", 
@@ -42,10 +49,11 @@
                     "base_attack": "+1", 
                     "name": "Harsk", 
                     "skills": "Handle Animal +3, Heal +6, Knowledge (geography, nature) +4, Perception +6 (+8 to notice unusual stonework), Stealth +6, Survival +6", 
-                    "super_race": "400dwarf ranger 1", 
+                    "super_race": "dwarf ranger 1", 
                     "cmd": "16 (20 vs. bull rush, 20 vs. trip)", 
                     "cmb": "+3", 
                     "will": "+2; +2 vs. poison, spells, and spell-like abilities", 
+                    "abbrev": "Level 1", 
                     "reflex": "+5", 
                     "creature_subtype": "dwarf"
                 }, 
@@ -56,7 +64,7 @@
                     "intelligence": "10", 
                     "melee": "+1 battleaxe +10/+5 (1d8+3/\u00d73)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -67,7 +75,6 @@
                     "languages": "Common, Dwarven", 
                     "source": "NPC Codex", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u\"Harsk prefers fighting with his crossbow over his battleaxe but isn't afraid to get dirty in melee if the situation calls for it. His hatred for giants often motivates him to target creatures of that subtype to the exclusion of others.\")]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "ranger spells prepared": "(CL 4th; concentration +6)<p class=\"stat-block-2\">2nd-<i>barkskin</i></p><p class=\"stat-block-2\">1st-<i>entangle</i> (DC 13), <i>resist energy</i></p>"
@@ -75,6 +82,14 @@
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Endurance, Far Shot, Improved Precise Shot, Iron Will, Point-Blank Shot, Precise Shot, Rapid Reload", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>Harsk prefers fighting with his crossbow over his battleaxe but isn't afraid to get dirty in melee if the situation calls for it. His hatred for giants often motivates him to target creatures of that subtype to the exclusion of others.</p>"
+                        }
+                    ], 
                     "senses": "darkvision 60 ft.; Perception +12", 
                     "ranged": "+2 heavy crossbow +12 (1d10+2/19\u201320)", 
                     "hp": "64 (7d10+21)", 
@@ -85,10 +100,11 @@
                     "base_attack": "+7", 
                     "name": "Harsk", 
                     "skills": "Handle Animal +9, Heal +12, Knowledge (geography, nature) +10, Perception +12 (+14 to notice unusual stonework), Stealth +13, Survival +12", 
-                    "super_race": "3,200dwarf ranger 7", 
+                    "super_race": "dwarf ranger 7", 
                     "cmd": "22 (26 vs. bull rush, 26 vs. trip)", 
                     "cmb": "+9", 
                     "will": "+8; +2 vs. poison, spells, and spell-like abilities", 
+                    "abbrev": "Level 7", 
                     "reflex": "+10", 
                     "combat_gear": "potions of cure moderate wounds (3), potions of pass without trace (2), screaming bolts (4), tanglefoot bag", 
                     "creature_subtype": "dwarf"
@@ -100,7 +116,7 @@
                     "intelligence": "10", 
                     "melee": "+2 battleaxe +16/+11/+6 (1d8+4/\u00d73)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -111,7 +127,6 @@
                     "languages": "Common, Dwarven", 
                     "source": "NPC Codex", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u\"Harsk prefers fighting with his crossbow over his battleaxe but isn't afraid to get dirty in melee if the situation calls for it. His hatred for giants often motivates him to target creatures of that subtype to the exclusion of others, and to choose one as his quarry. If tracking a giant, he casts resist energy against an energy type that giant uses before engaging.\")]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "ranger spells prepared": "(CL 9th; concentration +11)<p class=\"stat-block-2\">3rd-<i>neutralize poison</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>bear's endurance</i>, <i>cure light wounds</i></p><p class=\"stat-block-2\">1st-<i>entangle</i> (DC 13), <i>longstrider</i>, <i>resist energy</i></p>"
@@ -119,6 +134,14 @@
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Endurance, Far Shot, Improved Critical (heavy crossbow), Improved Precise Shot, Iron Will, Pinpoint Targeting, Point-Blank Shot, Precise Shot, Rapid Reload, Weapon Focus (heavy crossbow)", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>Harsk prefers fighting with his crossbow over his battleaxe but isn't afraid to get dirty in melee if the situation calls for it. His hatred for giants often motivates him to target creatures of that subtype to the exclusion of others, and to choose one as his quarry. If tracking a giant, he casts resist energy against an energy type that giant uses before engaging.</p>"
+                        }
+                    ], 
                     "senses": "darkvision 60 ft.; Perception +17", 
                     "ranged": "+3 flaming heavy crossbow +22 (1d10+3/17\u201320 plus 1d6 fire)", 
                     "hp": "106 (12d10+36)", 
@@ -129,10 +152,11 @@
                     "base_attack": "+12", 
                     "name": "Harsk", 
                     "skills": "Handle Animal +14, Heal +17, Knowledge (geography, nature) +15, Perception +17 (+19 to notice unusual stonework), Stealth +21, Survival +17", 
-                    "super_race": "19,200dwarf ranger 12", 
+                    "super_race": "dwarf ranger 12", 
                     "cmd": "32 (36 vs. bull rush, 36 vs. trip)", 
                     "cmb": "+14", 
                     "will": "+10; +2 vs. poison, spells, and spell-like abilities", 
+                    "abbrev": "Level 12", 
                     "reflex": "+16", 
                     "combat_gear": "seeking bolts (20), potions of pass without trace (2), wand of cure moderate wounds (35 charges), tanglefoot bag", 
                     "creature_subtype": "dwarf"

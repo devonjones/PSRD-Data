@@ -15,7 +15,7 @@
                     "intelligence": "10", 
                     "melee": "longsword +3 (1d8+3/19\u201320) or shortspear +3 (1d6+2)", 
                     "cr": "1/2", 
-                    "xp": "", 
+                    "xp": "200", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -27,12 +27,17 @@
                     "languages": "Common, Elven", 
                     "immune": "sleep", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The ranger ambushes her target from stealth or takes cover in tree branches. If she has allies, she attacks enemies that her allies have injured. She uses a smokestick to signal trouble or cover her retreat.')]>", 
                     "fortitude": "+3", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Point-Blank Shot, Skill Focus (Perception)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The ranger ambushes her target from stealth or takes cover in tree branches. If she has allies, she attacks enemies that her allies have injured. She uses a smokestick to signal trouble or cover her retreat.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -78,7 +83,7 @@
                     "base_attack": "+1", 
                     "name": "Novice Scout", 
                     "skills": "Climb +6, Knowledge (local) +1, Knowledge (nature) +4, Perception +10, Stealth +7, Survival +5", 
-                    "super_race": "200half-elf ranger 1", 
+                    "super_race": "half-elf ranger 1", 
                     "cmd": "16", 
                     "cmb": "+3", 
                     "will": "+1; +2 vs. enchantments", 
@@ -93,7 +98,7 @@
                     "intelligence": "13", 
                     "melee": "short sword +4 (1d4+1/19\u201320)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Small", 
@@ -104,12 +109,17 @@
                     "languages": "Common, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The ranger shoots at opponents who attempt to harm innocents or his allies. If trying to capture someone alive, he uses a tanglefoot bag. If trying to disperse a hostile crowd, he throws a thunderstone.')]>", 
                     "fortitude": "+4", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Point-Blank Shot, Precise Shot", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The ranger shoots at opponents who attempt to harm innocents or his allies. If trying to capture someone alive, he uses a tanglefoot bag. If trying to disperse a hostile crowd, he throws a thunderstone.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -155,7 +165,7 @@
                     "base_attack": "+2", 
                     "name": "Town Watcher", 
                     "skills": "Acrobatics +7 (+3 when jumping), Climb +8, Diplomacy +1, Intimidate +4, Knowledge (geography, nature) +5, Knowledge (local) +2, Perception +8, Stealth +12, Survival +6, Swim +5", 
-                    "super_race": "400halfling ranger 2", 
+                    "super_race": "halfling ranger 2", 
                     "cmd": "15", 
                     "cmb": "+2", 
                     "will": "+2; +2 vs. fear", 
@@ -170,7 +180,7 @@
                     "intelligence": "10", 
                     "melee": "2 mwk handaxes +6 (1d6+3/\u00d73)", 
                     "cr": "2", 
-                    "xp": "", 
+                    "xp": "600", 
                     "speed": "30 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -181,12 +191,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'If hunting an animal, the ranger drinks his potion of hide from animals.'), (u'During Combat', u\"The ranger sneaks close, then charges into melee. If his target is more powerful than expected, he retreats and drinks his potion of bull's strength.\")]>", 
                     "fortitude": "+5", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Double Slice, Endurance, Quick Draw, Two-Weapon Fighting, Weapon Focus (handaxe)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>If hunting an animal, the ranger drinks his potion of hide from animals.</p><p class='stat-block-1'><b>During Combat </b>The ranger sneaks close, then charges into melee. If his target is more powerful than expected, he retreats and drinks his potion of bull's strength.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -212,7 +227,7 @@
                     "base_attack": "+3", 
                     "name": "Poacher", 
                     "skills": "Climb +9, Intimidate +4, Knowledge (geography) +5, Knowledge (local) +2, Knowledge (nature) +6, Perception +7, Stealth +7, Survival +7", 
-                    "super_race": "600human ranger 3", 
+                    "super_race": "human ranger 3", 
                     "cmd": "17", 
                     "cmb": "+6", 
                     "will": "+2", 
@@ -228,7 +243,7 @@
                     "resist": "fire 10", 
                     "melee": "mwk falchion +7 (2d4+3/18\u201320)", 
                     "cr": "3", 
-                    "xp": "", 
+                    "xp": "800", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -239,7 +254,6 @@
                     "languages": "Common, Orc", 
                     "source": "NPC Codex", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The ranger casts resist energy (fire).'), (u'During Combat', u'The ranger keeps her foes as far away as possible.'), (u'Base Statistics', u\"Without resist energy, the ranger's statistics are\"), (u'Resist', u'none.')]>", 
                     "fortitude": "+5", 
                     "spells": {
                         "ranger spells prepared": "(CL 1st; concentration +2)<p class=\"stat-block-2\">1st-<i>resist energy</i></p>"
@@ -248,6 +262,12 @@
                     "subtype": "npc", 
                     "feats": "Endurance, Point-Blank Shot, Precise Shot, Rapid Shot", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The ranger keeps her foes as far away as possible.</p><p class='stat-block-1'><b>Base Statistics </b>Without resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -274,7 +294,7 @@
                     "base_attack": "+4", 
                     "name": "Border Guard", 
                     "skills": "Climb +8, Intimidate +8, Knowledge (geography) +5, Knowledge (local) +2, Knowledge (nature) +7, Perception +8, Stealth +10, Survival +8", 
-                    "super_race": "800half-orc ranger 4", 
+                    "super_race": "half-orc ranger 4", 
                     "cmd": "20", 
                     "cmb": "+6", 
                     "will": "+2", 
@@ -290,7 +310,7 @@
                     "resist": "fire 10", 
                     "melee": "mwk scimitar +8 (1d6+2/18\u201320) or<p class=\"stat-block-2\">lance +7 (1d8+2/\u00d73)</p>", 
                     "cr": "4", 
-                    "xp": "", 
+                    "xp": "1,200", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -302,7 +322,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The ranger casts endure elements and resist energy (fire).'), (u'During Combat', u'The ranger shoots from horseback. When fighting dangerous opponents, she uses oil of magic weapon on her bow and drinks her potion of blur.'), (u'Base Statistics', u\"Without resist energy, the ranger's statistics are\"), (u'Resist', u'none.')]>", 
                     "fortitude": "+7", 
                     "spells": {
                         "ranger spells prepared": "(CL 2nd; concentration +3)<p class=\"stat-block-2\">1st-<i>endure elements</i>, <i>resist energy</i></p>"
@@ -311,6 +330,12 @@
                     "subtype": "npc", 
                     "feats": "Endurance, Improved Initiative, Mounted Archery, Mounted Combat, Point-Blank Shot, Weapon Focus (composite shortbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts endure elements and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The ranger shoots from horseback. When fighting dangerous opponents, she uses oil of magic weapon on her bow and drinks her potion of blur.</p><p class='stat-block-1'><b>Base Statistics </b>Without resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -337,7 +362,7 @@
                     "base_attack": "+5", 
                     "name": "Mounted Archer", 
                     "skills": "Handle Animal +7, Heal +9, Knowledge (geography, nature) +8, Perception +9, Ride +9, Stealth +9, Survival +9", 
-                    "super_race": "1,200human ranger 5", 
+                    "super_race": "human ranger 5", 
                     "cmd": "20", 
                     "cmb": "+7", 
                     "will": "+3", 
@@ -352,7 +377,7 @@
                     "intelligence": "12", 
                     "melee": "mwk dagger +9/+4 (1d3+1/19\u201320)", 
                     "cr": "5", 
-                    "xp": "", 
+                    "xp": "1,600", 
                     "speed": "20 ft.", 
                     "alignment": "N", 
                     "size": "Small", 
@@ -364,7 +389,6 @@
                     "languages": "Common, Gnome, Sylvan", 
                     "immune": "poison", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The ranger casts delay poison.'), (u'During Combat', u'The ranger uses Precise Shot to help allies in melee.'), (u'Base Statistics', u\"Without delay poison, the ranger's statistics are\"), (u'Immune', u'none.')]>", 
                     "fortitude": "+6", 
                     "spells": {
                         "ranger spells prepared": "(CL 3rd; concentration +4)<p class=\"stat-block-2\">1st-<i>alarm</i>, <i>delay poison</i></p>"
@@ -373,6 +397,12 @@
                     "subtype": "npc", 
                     "feats": "Dodge, Endurance, Point-Blank Shot, Precise Shot, Rapid Reload, Weapon Focus (light crossbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts delay poison.</p><p class='stat-block-1'><b>During Combat </b>The ranger uses Precise Shot to help allies in melee.</p><p class='stat-block-1'><b>Base Statistics </b>Without delay poison, the ranger's statistics are</p><p class='stat-block-1'><b>Immune </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -389,7 +419,7 @@
                     "base_attack": "+6", 
                     "name": "Tunnel Rat", 
                     "skills": "Acrobatics +8 (+4 when jumping), Climb +6, Knowledge (dungeoneering, nature) +10, Knowledge (engineering) +4, Perception +12, Stealth +15, Survival +10", 
-                    "super_race": "1,600gnome ranger 6", 
+                    "super_race": "gnome ranger 6", 
                     "cmd": "20", 
                     "cmb": "+6", 
                     "will": "+3; +2 vs. illusions", 
@@ -405,7 +435,7 @@
                     "resist": "fire 10", 
                     "melee": "+1 warhammer +9/+4 (1d8+6/\u00d73), mwk heavy shield +9/+4 (1d4+5 plus bull rush)", 
                     "cr": "6", 
-                    "xp": "", 
+                    "xp": "2,400", 
                     "speed": "30 ft.", 
                     "alignment": "LE", 
                     "size": "Medium", 
@@ -416,7 +446,6 @@
                     "languages": "Common, Dwarven", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts longstrider and resist energy (fire), then drinks his potion of bull's strength.\"), (u'During Combat', u'The ranger uses Shield Slam to push opponents into difficult terrain, off cliffs, or into the area of spike growth.'), (u'Base Statistics', u\"Without bull's strength, longstrider, and resist  energy, the ranger's statistics are\"), (u'Resist', u'none'), (u'Speed', u'20 ft.'), (u'Melee', u'+1 warhammer +7/+2 (1d8+4/\\xd73), mwk heavy shield +7/+2 (1d4+3 plus bull rush)'), (u'Str', u'16'), (u'CMB', u'+10'), (u'CMD', u'22 (26 vs. bull rush or trip)'), (u'Skills', u'Climb +9, Swim +7.')]>", 
                     "fortitude": "+8", 
                     "spells": {
                         "ranger spells prepared": "(CL 4th; concentration +6)<p class=\"stat-block-2\">2nd-<i>spike growth</i></p><p class=\"stat-block-2\">1st-<i>longstrider</i>, <i>resist energy</i></p>"
@@ -424,6 +453,14 @@
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Double Slice, Endurance, Improved Shield Bash, Improved Two-Weapon Fighting, Power Attack, Shield Slam, Two-Weapon Fighting", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts longstrider and resist energy (fire), then drinks his potion of bull's strength.</p><p class='stat-block-1'><b>During Combat </b>The ranger uses Shield Slam to push opponents into difficult terrain, off cliffs, or into the area of spike growth.</p><p class='stat-block-1'><b>Base Statistics </b>Without bull's strength, longstrider, and resist  energy, the ranger's statistics are</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>20 ft.</p><p class='stat-block-1'><b>Melee </b>+1 warhammer +7/+2 (1d8+4/\u00d73), mwk heavy shield +7/+2 (1d4+3 plus bull rush)</p><p class='stat-block-1'><b>Str </b>16</p><p class='stat-block-1'><b>CMB </b>+10</p><p class='stat-block-1'><b>CMD </b>22 (26 vs. bull rush or trip)</p><p class='stat-block-1'><b>Skills </b>Climb +9, Swim +7.</p>"
+                        }
+                    ], 
                     "senses": "Perception +12", 
                     "ranged": "mwk heavy crossbow +10 (1d10/19\u201320)", 
                     "hp": "59 (7d10+16)", 
@@ -434,7 +471,7 @@
                     "base_attack": "+7", 
                     "name": "Mountaineer", 
                     "skills": "Climb +11, Knowledge (dungeoneering, geography, nature) +8, Perception +12 (+14 to notice unusual stonework), Profession (miner) +8, Stealth +6, Survival +10, Swim +9", 
-                    "super_race": "2,400dwarf ranger 7", 
+                    "super_race": "dwarf ranger 7", 
                     "cmd": "24 (28 vs. bull rush or trip)", 
                     "cmb": "+12", 
                     "will": "+5; +2 vs. poison, spells, and spell-like abilities", 
@@ -450,7 +487,7 @@
                     "resist": "fire 10", 
                     "melee": "mwk elven curve blade +15/+10 (1d10+1/18\u201320)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "30 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -462,7 +499,6 @@
                     "languages": "Common, Elven, Orc", 
                     "immune": "sleep", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, cat's grace, and resist energy (fire).\"), (u'During Combat', u'If ranger acts in the surprise round, she casts entangle. She prefers to attack at range and from cover.'), (u'Base Statistics', u\"Without barkskin, cat's grace, and resist energy, the ranger's statistics are\"), (u'Init', u'+4'), (u'AC', u'20, touch 15, flat-footed 16'), (u'Ref', u'+11'), (u'Melee', u'mwk elven curve blade +13/+8 (1d10+1/18\\u201320)'), (u'Ranged', u'+1 longbow +13/+8 (1d8+1/\\xd73)'), (u'Dex', u'19'), (u'CMD', u'+24'), (u'Skills', u'Acrobatics +11, Ride +10, Stealth +14.')]>", 
                     "fortitude": "+8", 
                     "spells": {
                         "ranger spells prepared": "(CL 5th; concentration +6)<p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>cat's grace</i></p><p class=\"stat-block-2\">1st-<i>entangle</i>, <i>resist energy</i></p>"
@@ -471,6 +507,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Reflexes, Deadly Aim, Endurance, Point-Blank Shot, Power Attack, Precise Shot, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, cat's grace, and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>If ranger acts in the surprise round, she casts entangle. She prefers to attack at range and from cover.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, cat's grace, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>Init </b>+4</p><p class='stat-block-1'><b>AC </b>20, touch 15, flat-footed 16</p><p class='stat-block-1'><b>Ref </b>+11</p><p class='stat-block-1'><b>Melee </b>mwk elven curve blade +13/+8 (1d10+1/18\u201320)</p><p class='stat-block-1'><b>Ranged </b>+1 longbow +13/+8 (1d8+1/\u00d73)</p><p class='stat-block-1'><b>Dex </b>19</p><p class='stat-block-1'><b>CMD </b>+24</p><p class='stat-block-1'><b>Skills </b>Acrobatics +11, Ride +10, Stealth +14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -486,7 +528,7 @@
                     "base_attack": "+8", 
                     "name": "Orc slayer", 
                     "skills": "Acrobatics +13, Climb +9, Heal +8, Knowledge (dungeoneering, geography) +6, Knowledge (nature) +8, Perception +14, Ride +12, Stealth +16, Survival +12, Swim +7", 
-                    "super_race": "3,200elf ranger 8", 
+                    "super_race": "elf ranger 8", 
                     "cmd": "26", 
                     "cmb": "+9", 
                     "will": "+4; +2 vs. enchantments", 
@@ -501,7 +543,7 @@
                     "intelligence": "10", 
                     "melee": "mwk spiked chain +14/+9 (2d4+6)", 
                     "cr": "8", 
-                    "xp": "", 
+                    "xp": "4,800", 
                     "speed": "30 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -513,7 +555,6 @@
                     "languages": "Common, Elven", 
                     "immune": "sleep", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The ranger casts barkskin and pass without trace.'), (u'During Combat', u'The ranger attacks from stealth using his bow. He might drag a Small opponent underwater, relying on Endurance to outlast his drowning foe (though he has his potion of water breathing just in case).'), (u'Base Statistics', u\"Without barkskin, the ranger's statistics are\"), (u'AC', u'16, touch 12, flat-footed 15.')]>", 
                     "fortitude": "+8", 
                     "spells": {
                         "ranger spells prepared": "(CL 6th; concentration +8)<p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>snare</i></p><p class=\"stat-block-2\">1st-<i>pass without trace</i>, <i>speak with animals</i> (2)</p>"
@@ -522,6 +563,12 @@
                     "subtype": "npc", 
                     "feats": "Deadly Aim, Endurance, Exotic Weapon Proficiency (spiked chain), Improved Critical (composite longbow), Point-Blank Shot, Rapid Shot, Skill Focus (Stealth), Vital Strike, Weapon Focus (composite longbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin and pass without trace.</p><p class='stat-block-1'><b>During Combat </b>The ranger attacks from stealth using his bow. He might drag a Small opponent underwater, relying on Endurance to outlast his drowning foe (though he has his potion of water breathing just in case).</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, the ranger's statistics are</p><p class='stat-block-1'><b>AC </b>16, touch 12, flat-footed 15.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -568,7 +615,7 @@
                     "base_attack": "+9", 
                     "name": "Swampwalker", 
                     "skills": "Climb +12, Handle Animal +6, Knowledge (nature) +12, Perception +16, Stealth +16, Survival +14, Swim +16", 
-                    "super_race": "4,800half-elf ranger 9", 
+                    "super_race": "half-elf ranger 9", 
                     "cmd": "25", 
                     "cmb": "+13", 
                     "will": "+5; +2 vs. enchantments", 
@@ -584,7 +631,7 @@
                     "resist": "fire 20", 
                     "melee": "+1 rapier +14/+9 (1d4+3/17\u201320), mwk handaxe +14/+9 (1d4+1/\u00d73)", 
                     "cr": "9", 
-                    "xp": "", 
+                    "xp": "6,400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -595,7 +642,6 @@
                     "languages": "Common, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The ranger casts barkskin, endure elements, longstrider, and resist energy (fire).'), (u'During Combat', u'The ranger prefers melee, using Mobility and Spring Attack to engage the enemy leader while her pirate allies deal with underlings.'), (u'Base Statistics', u\"Without barkskin, longstrider, and resist energy, the ranger's statistics are\"), (u'AC', u'22, touch 17, flat-footed 17'), (u'Resist', u'none'), (u'Speed', u'20 ft.')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "ranger spells prepared": "(CL 7th; concentration +9)<p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>wind wall</i></p><p class=\"stat-block-2\">1st-<i>endure elements</i>, <i>longstrider</i>, <i>resist energy</i></p>"
@@ -604,6 +650,12 @@
                     "subtype": "npc", 
                     "feats": "Dodge, Endurance, Improved Two-Weapon Fighting, Mobility, Spring Attack, Two-Weapon Defense, Two-Weapon Fighting, Vital Strike, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, endure elements, longstrider, and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The ranger prefers melee, using Mobility and Spring Attack to engage the enemy leader while her pirate allies deal with underlings.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, longstrider, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>AC </b>22, touch 17, flat-footed 17</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>20 ft.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -650,7 +702,7 @@
                     "base_attack": "+10", 
                     "name": "Pirate Queen", 
                     "skills": "Acrobatics +11, Climb +17, Knowledge (geography, nature) +8, Perception +17, Profession (sailor) +10, Stealth +21, Survival +15, Swim +15", 
-                    "super_race": "6,400halfling ranger 10", 
+                    "super_race": "halfling ranger 10", 
                     "cmd": "27", 
                     "cmb": "+11", 
                     "will": "+7; +2 vs. fear", 
@@ -666,7 +718,7 @@
                     "resist": "fire 20", 
                     "melee": "+1 gnome hooked hammer +13/+8/+3 (1d6+3/19\u201320/\u00d73), mwk gnome hooked hammer +13 (1d4+2/19\u201320/\u00d74) or<p class=\"stat-block-2\">mwk longspear +15/+10/+5 (1d6+3/\u00d73)</p>", 
                     "cr": "10", 
-                    "xp": "", 
+                    "xp": "9,600", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -678,7 +730,6 @@
                     "languages": "Common, Giant, Gnome", 
                     "immune": "poison", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, bear's endurance, delay poison, and resist energy (fire).\"), (u'During Combat', u'If facing multiple opponents with reach, the ranger uses Lunge.'), (u'Base Statistics', u\"Without barkskin, bear's endurance, delay poison, and resist energy, the ranger's statistics are\"), (u'hp', u'94'), (u'Fort', u'+10'), (u'AC', u'21, touch 15, flat-footed 18'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Con', u'14.')]>", 
                     "fortitude": "+12", 
                     "spells": {
                         "ranger spells prepared": "(CL 8th; concentration +10)<p class=\"stat-block-2\">3rd-<i>cure moderate wounds</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>bear's endurance</i></p><p class=\"stat-block-2\">1st-<i>delay poison</i>, <i>entangle</i>, <i>resist energy</i></p>"
@@ -687,6 +738,12 @@
                     "subtype": "npc", 
                     "feats": "Dodge, Double Slice, Endurance, Improved Critical (gnome hooked hammer), Lunge, Mobility, Power Attack, Two-Weapon Fighting, Two-Weapon Rend, Vital Strike", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, bear's endurance, delay poison, and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>If facing multiple opponents with reach, the ranger uses Lunge.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, bear's endurance, delay poison, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>hp </b>94</p><p class='stat-block-1'><b>Fort </b>+10</p><p class='stat-block-1'><b>AC </b>21, touch 15, flat-footed 18</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Con </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -733,7 +790,7 @@
                     "base_attack": "+11", 
                     "name": "Giant-Killer", 
                     "skills": "Acrobatics +17 (+13 when jumping), Climb +8, Knowledge (dungeoneering, local) +5, Knowledge (geography, nature) +8, Linguistics +1, Perception +18, Stealth +19, Survival +16, Swim +8", 
-                    "super_race": "9,600gnome ranger 11", 
+                    "super_race": "gnome ranger 11", 
                     "cmd": "26", 
                     "cmb": "+12", 
                     "will": "+6; +2 vs. illusions", 
@@ -749,7 +806,7 @@
                     "resist": "fire 20", 
                     "melee": "+1 kukri +16/+11/+6 (1d4+5/18\u201320), +1 kukri +16/+11 (1d4+5/18\u201320)", 
                     "cr": "11", 
-                    "xp": "", 
+                    "xp": "12,800", 
                     "speed": "40 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -761,7 +818,6 @@
                     "languages": "Common, Elven, Orc", 
                     "immune": "poison", 
                     "init": "+8", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, cat's grace, delay poison, longstrider, and resist energy (fire).\"), (u'During Combat', u'The ranger attacks with his bow using Deadly Aim. In melee, he uses his kukris or attempts to grapple.'), (u'Base Statistics', u\"Without barkskin, cat's grace, delay poison, longstrider, and resist energy, the ranger's statistics are\"), (u'Init', u'+6'), (u'Senses', u'normal'), (u'AC', u'20, touch 14, flat-footed 17'), (u'Ref', u'+11'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Speed', u'30 ft.'), (u'Ranged', u'mwk longbow +15/+10/+5 (1d8+4/\\xd73)'), (u'Dex', u'14'), (u'CMD', u'30 (32 vs. grapple)'), (u'Skills', u'Acrobatics +12, Stealth +17.')]>", 
                     "fortitude": "+11", 
                     "spells": {
                         "ranger spells prepared": "(CL 9th; concentration +10)<p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>cat's grace</i>, <i>wind wall</i></p><p class=\"stat-block-2\">1st-<i>delay poison</i>, <i>longstrider</i>, <i>resist energy</i></p>"
@@ -770,6 +826,12 @@
                     "subtype": "npc", 
                     "feats": "Deadly Aim, Dodge, Double Slice, Endurance, Improved Grapple, Improved Initiative, Improved Two-Weapon Fighting, Improved Unarmed Strike, Point-Blank Shot, Two-Weapon Fighting, Weapon Focus (kukri)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, cat's grace, delay poison, longstrider, and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The ranger attacks with his bow using Deadly Aim. In melee, he uses his kukris or attempts to grapple.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, cat's grace, delay poison, longstrider, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>Init </b>+6</p><p class='stat-block-1'><b>Senses </b>normal</p><p class='stat-block-1'><b>AC </b>20, touch 14, flat-footed 17</p><p class='stat-block-1'><b>Ref </b>+11</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Ranged </b>mwk longbow +15/+10/+5 (1d8+4/\u00d73)</p><p class='stat-block-1'><b>Dex </b>14</p><p class='stat-block-1'><b>CMD </b>30 (32 vs. grapple)</p><p class='stat-block-1'><b>Skills </b>Acrobatics +12, Stealth +17.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -816,7 +878,7 @@
                     "base_attack": "+12", 
                     "name": "Bounty Hunter", 
                     "skills": "Acrobatics +14 (+18 when jumping), Bluff +10, Climb +12, Disguise +7, Knowledge (geography, nature) +8, Knowledge (local) +5, Linguistics +2, Perception +16, Sense Motive +11, Stealth +19, Survival +16, Swim +10", 
-                    "super_race": "12,800human ranger 12", 
+                    "super_race": "human ranger 12", 
                     "cmd": "32 (34 vs. grapple)", 
                     "cmb": "+16 (+18 grapple)", 
                     "will": "+6", 
@@ -832,7 +894,7 @@
                     "resist": "electricity 20", 
                     "melee": "+1 cold iron rapier +17/+12/+7 (1d6+3/15\u201320), +1 silver dagger +17/+12/+7 (1d4+2/19\u201320)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "40 ft.", 
                     "alignment": "N", 
                     "size": "Medium", 
@@ -844,7 +906,6 @@
                     "languages": "Abyssal, Celestial, Common, Elven, Infernal", 
                     "immune": "fire (120 points), poison, sleep", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, bear's endurance, delay poison, longstrider, protection from energy (fire), and resist energy (electricity).\"), (u'During Combat', u'If fighting demons or devils, the ranger applies oil of bless weapon to one weapon and drinks her potion of heroism.'), (u'Base Statistics', u\"Without barkskin, bear's endurance, delay poison, longstrider, protection from energy, and resist energy, the ranger's statistics are\"), (u'AC', u'24, touch 16, flat-footed 18'), (u'hp', u'99'), (u'Fort', u'+10'), (u'Immune', u'sleep'), (u'Resist', u'none'), (u'Speed', u'30'), (u'Con', u'12'), (u'Skills', u'Acrobatics +15.')]>", 
                     "fortitude": "+12", 
                     "spells": {
                         "ranger spells prepared": "(CL 10th; concentration +12)<p class=\"stat-block-2\">3rd-<i>cure moderate wounds</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>bear's endurance</i>, <i>protection from energy</i></p><p class=\"stat-block-2\">1st-<i>delay poison</i>, <i>longstrider</i>, <i>resist energy</i> (2)</p>"
@@ -853,6 +914,12 @@
                     "subtype": "npc", 
                     "feats": "Dodge, Double Slice, Endurance, Greater Two-Weapon Fighting, Improved Critical (rapier), Improved Two-Weapon Fighting, Improved Vital Strike, Skill Focus (Perception), Two-Weapon Fighting, Two-Weapon Rend, Vital Strike, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, bear's endurance, delay poison, longstrider, protection from energy (fire), and resist energy (electricity).</p><p class='stat-block-1'><b>During Combat </b>If fighting demons or devils, the ranger applies oil of bless weapon to one weapon and drinks her potion of heroism.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, bear's endurance, delay poison, longstrider, protection from energy, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>AC </b>24, touch 16, flat-footed 18</p><p class='stat-block-1'><b>hp </b>99</p><p class='stat-block-1'><b>Fort </b>+10</p><p class='stat-block-1'><b>Immune </b>sleep</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>30</p><p class='stat-block-1'><b>Con </b>12</p><p class='stat-block-1'><b>Skills </b>Acrobatics +15.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -899,7 +966,7 @@
                     "base_attack": "+13", 
                     "name": "Fiendslayer", 
                     "skills": "Acrobatics +15 (+19 when jumping), Knowledge (nature) +13, Knowledge (planes) +10, Linguistics +3, Perception +26, Ride +12, Stealth +21, Survival +18, Swim +10", 
-                    "super_race": "19,200half-elf ranger 13", 
+                    "super_race": "half-elf ranger 13", 
                     "cmd": "31", 
                     "cmb": "+15", 
                     "will": "+7; +2 vs. enchantments", 
@@ -915,7 +982,7 @@
                     "resist": "electricity 30", 
                     "melee": "+1 scimitar +18/+13/+8 (1d6+6/15\u201320), +2 light shield +21/+16 (1d3+7 plus bull rush)", 
                     "cr": "13", 
-                    "xp": "", 
+                    "xp": "25,600", 
                     "speed": "40 ft.", 
                     "alignment": "LE", 
                     "size": "Medium", 
@@ -927,7 +994,6 @@
                     "languages": "Common, Orc", 
                     "immune": "fire (120 points)", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The ranger casts barkskin, endure elements, freedom of movement, longstrider, pass without trace, protection from energy (fire), and resist energy (electricity).'), (u'During Combat', u'The ranger casts wind wall to separate foes, then uses Improved Shield Bash to manipulate positioning.'), (u'Base Statistics', u\"Without barkskin, longstrider, protection from energy, and resist energy, the ranger's statistics are\"), (u'AC', u'23, touch 14, flat-footed 21'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Speed', u'30 ft.'), (u'Skills', u'Acrobatics +11.')]>", 
                     "fortitude": "+14", 
                     "spells": {
                         "ranger spells prepared": "(CL 11th; concentration +13)<p class=\"stat-block-2\">4th-<i>freedom of movement</i></p><p class=\"stat-block-2\">3rd-<i>neutralize poison</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>protection from energy</i>, <i>wind wall</i></p><p class=\"stat-block-2\">1st-<i>endure elements</i>, <i>longstrider</i>, <i>pass without trace</i>, <i>resist energy</i></p>"
@@ -936,6 +1002,12 @@
                     "subtype": "npc", 
                     "feats": "Blind-Fight, Dodge, Double Slice, Endurance, Improved Critical (scimitar), Improved Initiative, Improved Shield Bash, Improved Two-Weapon Fighting, Power Attack, Shield Master, Shield Slam, Two-Weapon Fighting", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, endure elements, freedom of movement, longstrider, pass without trace, protection from energy (fire), and resist energy (electricity).</p><p class='stat-block-1'><b>During Combat </b>The ranger casts wind wall to separate foes, then uses Improved Shield Bash to manipulate positioning.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, longstrider, protection from energy, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>AC </b>23, touch 14, flat-footed 21</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Skills </b>Acrobatics +11.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -982,7 +1054,7 @@
                     "base_attack": "+14", 
                     "name": "Desert Stalker", 
                     "skills": "Acrobatics +11 (+15 when jumping), Climb +13, Diplomacy +4, Handle Animal +7, Heal +10, Intimidate +1, Knowledge (geography) +8, Knowledge (nature) +13, Perception +19, Ride +9, Sense Motive +5, Stealth +18, Survival +15", 
-                    "super_race": "25,600half-orc ranger 14", 
+                    "super_race": "half-orc ranger 14", 
                     "cmd": "33", 
                     "cmb": "+19", 
                     "will": "+8", 
@@ -998,7 +1070,7 @@
                     "resist": "electricity 30, fire 30", 
                     "melee": "+1 good outsider-bane orc double axe +21/+16/+11 (1d8+7/19\u201320/\u00d73), +1 orc double axe +21/+16/+11 (1d8+7/19\u201320/\u00d73)", 
                     "cr": "14", 
-                    "xp": "", 
+                    "xp": "38,400", 
                     "speed": "40 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -1010,7 +1082,6 @@
                     "languages": "Abyssal, Celestial, Common, Orc", 
                     "immune": "cold (120 points)", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, cat's grace, freedom of movement, longstrider, pass without trace, protection from energy (cold), and resist energy (electricity, fire).\"), (u'During Combat', u\"The ranger uses her bow against flying targets, but prefers melee and uses a potion of fly if her prey won't land.\"), (u'Base Statistics', u\"Without barkskin, cat's grace, longstrider, protection from energy, and resist energy, the ranger's statistics are\"), (u'Init', u'+5'), (u'AC', u'19, touch 12, flat-footed 18'), (u'Ref', u'+15'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Speed', u'30 ft.'), (u'Ranged', u'mwk composite longbow +17/+12/+7 (1d8+6/\\xd73)'), (u'Dex', u'13'), (u'CMD', u'33'), (u'Skills', u'Ride +8, Stealth +18.')]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "ranger spells prepared": "(CL 12th; concentration +14)<p class=\"stat-block-2\">4th-<i>freedom of movement</i></p><p class=\"stat-block-2\">3rd-<i>cure moderate wounds</i>, <i>neutralize poison</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>cat's grace</i>, <i>protection from energy</i></p><p class=\"stat-block-2\">1st-<i>longstrider</i>, <i>pass without trace</i>, <i>resist energy</i> (2)</p>"
@@ -1019,6 +1090,12 @@
                     "subtype": "npc", 
                     "feats": "Double Slice, Endurance, Greater Two-Weapon Fighting, Improved Critical (orc double axe), Improved Initiative, Improved Two-Weapon Fighting, Iron Will, Lightning Reflexes, Point-Blank Shot, Power Attack, Two-Weapon Defense, Two-Weapon Fighting, Weapon Focus (orc double axe)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, cat's grace, freedom of movement, longstrider, pass without trace, protection from energy (cold), and resist energy (electricity, fire).</p><p class='stat-block-1'><b>During Combat </b>The ranger uses her bow against flying targets, but prefers melee and uses a potion of fly if her prey won't land.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, cat's grace, longstrider, protection from energy, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>Init </b>+5</p><p class='stat-block-1'><b>AC </b>19, touch 12, flat-footed 18</p><p class='stat-block-1'><b>Ref </b>+15</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Ranged </b>mwk composite longbow +17/+12/+7 (1d8+6/\u00d73)</p><p class='stat-block-1'><b>Dex </b>13</p><p class='stat-block-1'><b>CMD </b>33</p><p class='stat-block-1'><b>Skills </b>Ride +8, Stealth +18.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1045,7 +1122,7 @@
                     "base_attack": "+15", 
                     "name": "Angel Slayer", 
                     "skills": "Bluff +7, Climb +18, Intimidate +1, Knowledge (nature) +13, Knowledge (planes) +10, Linguistics +2, Perception +20, Ride +10, Stealth +20, Survival +15, Swim +18", 
-                    "super_race": "38,400half-orc ranger 15", 
+                    "super_race": "half-orc ranger 15", 
                     "cmd": "35", 
                     "cmb": "+21", 
                     "will": "+12", 
@@ -1061,7 +1138,7 @@
                     "resist": "electricity 30", 
                     "melee": "+1 holy scimitar +21/+16/+11/+6 (1d6+6/18\u201320), +1 undead-bane   light hammer +21/+16/+11 (1d4+6)", 
                     "cr": "15", 
-                    "xp": "", 
+                    "xp": "51,200", 
                     "speed": "40 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -1073,7 +1150,6 @@
                     "languages": "Common", 
                     "immune": "cold (120 points), fire (120 points), poison", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The ranger casts barkskin, delay poison, freedom of movement, longstrider, protection from energy (cold, fire), and resist energy (electricity).'), (u'During Combat', u'The ranger allows herself to be surrounded by weak undead so she can use Great Cleave and Power Attack.'), (u'Base Statistics', u\"Without barkskin, delay poison, longstrider, protection from energy, and resist energy, the ranger's statistics are\"), (u'AC', u'20, touch 14, flat-footed 18'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Speed', u'30 ft.'), (u'Skills', u'Acrobatics +17.')]>", 
                     "fortitude": "+17", 
                     "spells": {
                         "ranger spells prepared": "(CL 13th; concentration +15)<p class=\"stat-block-2\">4th-<i>freedom of movement</i></p><p class=\"stat-block-2\">3rd-<i>remove disease</i> (2)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>owl's wisdom</i>, <i>protection from energy</i> (2)</p><p class=\"stat-block-2\">1st-<i>calm animals</i>, <i>delay poison</i>, <i>longstrider</i>, <i>resist energy</i></p>"
@@ -1082,6 +1158,12 @@
                     "subtype": "npc", 
                     "feats": "Cleave, Double Slice, Endurance, Great Fortitude, Greater Two-Weapon Fighting, Improved Two-Weapon Fighting, Improved Vital Strike, Point-Blank Shot, Power Attack, Two-Weapon Fighting, Two-Weapon Rend, Vital Strike, Weapon Focus (light hammer, scimitar)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, delay poison, freedom of movement, longstrider, protection from energy (cold, fire), and resist energy (electricity).</p><p class='stat-block-1'><b>During Combat </b>The ranger allows herself to be surrounded by weak undead so she can use Great Cleave and Power Attack.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, delay poison, longstrider, protection from energy, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>AC </b>20, touch 14, flat-footed 18</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Skills </b>Acrobatics +17.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1108,7 +1190,7 @@
                     "base_attack": "+16", 
                     "name": "Undead Slayer", 
                     "skills": "Acrobatics +17 (+21 when jumping), Climb +13, Heal +15, Knowledge (dungeoneering) +8, Knowledge (local, planes) +5, Knowledge (nature) +6, Knowledge (religion) +15, Perception +21, Perform (string) +1, Ride +10, Spellcraft +13, Stealth +21, Survival +15, Swim +13", 
-                    "super_race": "51,200human ranger 16", 
+                    "super_race": "human ranger 16", 
                     "cmd": "35", 
                     "cmb": "+21", 
                     "will": "+10", 
@@ -1123,7 +1205,7 @@
                     "intelligence": "10", 
                     "melee": "+1 elven curve blade +20/+15/+10/+5 (1d10+4/18\u201320)", 
                     "cr": "16", 
-                    "xp": "", 
+                    "xp": "76,800", 
                     "speed": "40 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -1135,7 +1217,6 @@
                     "languages": "Common, Elven", 
                     "immune": "poison, sleep", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, bear's endurance, darkvision, delay poison, longstrider, and pass without trace.\"), (u'During Combat', u'The ranger prefers ranged combat. He uses Deadly Aim with Rapid Shot, hoping to also use Tiring Critical.'), (u'Base Statistics', u\"Without barkskin, bear's endurance, darkvision, delay poison, and longstrider, the ranger's statistics are\"), (u'Senses', u'low-light vision'), (u'AC', u'28, touch 19, flat-footed 21'), (u'hp', u'108'), (u'Fort', u'+13'), (u'Immune', u'sleep'), (u'Speed', u'30 ft.'), (u'Con', u'11'), (u'Skills', u'Acrobatics +23.')]>", 
                     "fortitude": "+15", 
                     "spells": {
                         "ranger spells prepared": "(CL 14th; concentration +15)<p class=\"stat-block-2\">3rd-<i>darkvision</i>, <i>neutralize poison</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>bear's endurance</i>, <i>protection from energy</i>, <i>snare</i></p><p class=\"stat-block-2\">1st-<i>delay poison</i>, <i>hide from animals</i>, <i>longstrider</i>, <i>pass without trace</i>, <i>resist energy</i></p>"
@@ -1144,6 +1225,12 @@
                     "subtype": "npc", 
                     "feats": "Critical Focus, Deadly Aim, Dodge, Endurance, Improved Critical (composite longbow), Manyshot, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Rapid Shot, Shot on the Run, Spring Attack, Tiring Critical", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, bear's endurance, darkvision, delay poison, longstrider, and pass without trace.</p><p class='stat-block-1'><b>During Combat </b>The ranger prefers ranged combat. He uses Deadly Aim with Rapid Shot, hoping to also use Tiring Critical.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, bear's endurance, darkvision, delay poison, and longstrider, the ranger's statistics are</p><p class='stat-block-1'><b>Senses </b>low-light vision</p><p class='stat-block-1'><b>AC </b>28, touch 19, flat-footed 21</p><p class='stat-block-1'><b>hp </b>108</p><p class='stat-block-1'><b>Fort </b>+13</p><p class='stat-block-1'><b>Immune </b>sleep</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Con </b>11</p><p class='stat-block-1'><b>Skills </b>Acrobatics +23.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1170,7 +1257,7 @@
                     "base_attack": "+17", 
                     "name": "Daredevil Hunter", 
                     "skills": "Acrobatics +23 (+27 when jumping), Climb +9, Handle Animal +8, Knowledge (arcana, local) +10, Knowledge (nature) +13, Perception +21, Ride +11, Stealth +26, Survival +21, Swim +5", 
-                    "super_race": "76,800elf ranger 17", 
+                    "super_race": "elf ranger 17", 
                     "cmd": "39", 
                     "cmb": "+19", 
                     "will": "+9; +2 vs. enchantments", 
@@ -1186,7 +1273,7 @@
                     "resist": "electricity 30", 
                     "melee": "+2 dwarven urgrosh +25/+20/+15/+10 (1d8+8/19\u201320/\u00d73), +2 dwarven urgrosh +25/+20/+15 (1d6+8/19\u201320/\u00d73)", 
                     "cr": "17", 
-                    "xp": "", 
+                    "xp": "102,400", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -1198,7 +1285,6 @@
                     "languages": "Common, Dwarven", 
                     "immune": "fire (120 points), poison", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, bear's endurance, delay poison, longstrider, protection from energy (fire), and resist energy (electricity).\"), (u'During Combat', u'The ranger uses Mobility and Spring Attack to overcome enemy reach, and Greater Vital Strike to make devastating single blows.'), (u'Base Statistics', u\"Without barkskin, bear's endurance, delay poison, freedom of movement, longstrider, protection from energy, and resist energy, the ranger's statistics are\"), (u'AC', u'26, touch 16, flat-footed 23'), (u'hp', u'167'), (u'Fort', u'+16'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Speed', u'20 ft.'), (u'Con', u'16.')]>", 
                     "fortitude": "+18", 
                     "spells": {
                         "ranger spells prepared": "(CL 15th; concentration +17)<p class=\"stat-block-2\">4th-<i>cure serious wounds</i>, <i>freedom of movement</i></p><p class=\"stat-block-2\">3rd-<i>cure moderate wounds</i>, <i>water walk</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>bear's endurance</i>, <i>protection from energy</i>, <i>wind wall</i></p><p class=\"stat-block-2\">1st-<i>delay poison</i>, <i>detect snares and pits</i> (2), <i>longstrider</i>, <i>resist energy</i></p>"
@@ -1207,6 +1293,12 @@
                     "subtype": "npc", 
                     "feats": "Dodge, Double Slice, Endurance, Greater Two-Weapon Fighting, Greater Vital Strike, Improved Critical (dwarven urgrosh), Improved Initiative, Improved Two-Weapon Fighting, Improved Vital Strike, Mobility, Spring Attack, Two-Weapon Fighting, Two-Weapon Rend, Vital Strike, Weapon Focus (dwarven urgrosh)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, bear's endurance, delay poison, longstrider, protection from energy (fire), and resist energy (electricity).</p><p class='stat-block-1'><b>During Combat </b>The ranger uses Mobility and Spring Attack to overcome enemy reach, and Greater Vital Strike to make devastating single blows.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, bear's endurance, delay poison, freedom of movement, longstrider, protection from energy, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>AC </b>26, touch 16, flat-footed 23</p><p class='stat-block-1'><b>hp </b>167</p><p class='stat-block-1'><b>Fort </b>+16</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>20 ft.</p><p class='stat-block-1'><b>Con </b>16.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1253,7 +1345,7 @@
                     "base_attack": "+18", 
                     "name": "Golem-Breaker", 
                     "skills": "Acrobatics +19, Climb +14, Heal +10, Knowledge (arcana) +15, Knowledge (dungeoneering) +18, Knowledge (engineering) +10, Knowledge (geography, nature) +8, Perception +20 (+22 to notice unusual stonework), Stealth +12, Survival +15, Swim +9", 
-                    "super_race": "102,400dwarf ranger 18", 
+                    "super_race": "dwarf ranger 18", 
                     "cmd": "40 (44 vs. bull rush or trip)", 
                     "cmb": "+24", 
                     "will": "+10; +2 vs. poison, spells, and spell-like abilities", 
@@ -1269,7 +1361,7 @@
                     "resist": "cold 30, electricity 30, fire 30", 
                     "melee": "+1 greataxe +21/+16/+11/+6 (1d12+2/\u00d73)", 
                     "cr": "18", 
-                    "xp": "", 
+                    "xp": "153,600", 
                     "speed": "40 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -1281,7 +1373,6 @@
                     "languages": "Common, Draconic", 
                     "immune": "electricity (120 points), fire (120 points), poison", 
                     "init": "+11", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, bear's endurance, darkvision, delay poison, freedom of movement, longstrider, nondetection, protection from energy (electricity, fire), and resist energy (cold, electricity, fire).\"), (u'During Combat', u'The ranger slays spellcasters with bane arrows. He rings his chime of interruption to hamper spellcasting.'), (u'Base Statistics', u\"Without barkskin, bear's endurance, darkvision, longstrider, nondetection, protection from energy, and resist  energy, the ranger's statistics are\"), (u'Senses', u'normal'), (u'hp', u'157'), (u'Fort', u'+17'), (u'Defensive Abilities', u'improved evasion'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Speed', u'30 ft.'), (u'Con', u'14'), (u'Skills', u'Acrobatics +22.')]>", 
                     "fortitude": "+19", 
                     "spells": {
                         "ranger spells prepared": "(CL 16th; concentration +18)<p class=\"stat-block-2\">4th-<i>freedom of movement</i>, <i>nondetection</i></p><p class=\"stat-block-2\">3rd-<i>darkvision</i>, <i>neutralize poison</i>, <i>repel vermin</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>bear's endurance</i>, <i>protection from energy</i> (2)</p><p class=\"stat-block-2\">1st-<i>delay poison, longstrider</i>, <i>resist energy</i> (3)</p>"
@@ -1290,6 +1381,12 @@
                     "subtype": "npc", 
                     "feats": "Critical Focus, Deadly Aim, Dodge, Endurance, Improved Critical (longbow), Improved Initiative, Improved Iron Will, Improved Precise Shot, Iron Will, Lightning Reflexes, Manyshot, Point-Blank Shot, Precise Shot, Quick Draw, Rapid Shot, Staggering Critical, Stunning Critical", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, bear's endurance, darkvision, delay poison, freedom of movement, longstrider, nondetection, protection from energy (electricity, fire), and resist energy (cold, electricity, fire).</p><p class='stat-block-1'><b>During Combat </b>The ranger slays spellcasters with bane arrows. He rings his chime of interruption to hamper spellcasting.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, bear's endurance, darkvision, longstrider, nondetection, protection from energy, and resist  energy, the ranger's statistics are</p><p class='stat-block-1'><b>Senses </b>normal</p><p class='stat-block-1'><b>hp </b>157</p><p class='stat-block-1'><b>Fort </b>+17</p><p class='stat-block-1'><b>Defensive Abilities </b>improved evasion</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Con </b>14</p><p class='stat-block-1'><b>Skills </b>Acrobatics +22.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1306,7 +1403,7 @@
                     "base_attack": "+19", 
                     "name": "Mage Hunter", 
                     "skills": "Acrobatics +22 (+26 when jumping), Climb +14, Handle Animal +7, Heal +10, Knowledge (arcana, local) +10, Knowledge (dungeoneering, geography) +8, Knowledge (history) +5, Knowledge (nature) +7, Linguistics +1, Perception +24, Ride +14, Spellcraft +13, Stealth +29, Survival +15, Swim +9", 
-                    "super_race": "153,600human ranger 19", 
+                    "super_race": "human ranger 19", 
                     "cmd": "41", 
                     "cmb": "+20", 
                     "will": "+14", 
@@ -1322,7 +1419,7 @@
                     "resist": "cold 30", 
                     "melee": "+2 longsword +28/+23/+18/+13 (1d8+11/19\u201320)", 
                     "cr": "19", 
-                    "xp": "", 
+                    "xp": "204,800", 
                     "speed": "40 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -1334,7 +1431,6 @@
                     "languages": "Common", 
                     "immune": "fire (120 points), poison", 
                     "init": "+9", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The ranger casts barkskin, bear's endurance, darkvision, freedom of movement, longstrider, pass without trace, protection from energy (fire), resist energy (cold), and tree stride.\"), (u'During Combat', u'The ranger swears to kill one target with his oathbow, using his boots of speed and feats to gain extra attacks. Against dangerous foes, he uses poison.'), (u'Base Statistics', u\"Without barkskin, bear's endurance, darkvision, longstrider, protection from energy, and resist energy, the ranger's statistics are\"), (u'Senses', u'normal'), (u'AC', u'26, touch 18, flat-footed 21'), (u'hp', u'144'), (u'Fort', u'+18'), (u'Immune', u'none'), (u'Resist', u'none'), (u'Speed', u'30 ft.'), (u'Con', u'12'), (u'Skills', u'Acrobatics +15.')]>", 
                     "fortitude": "+20", 
                     "spells": {
                         "ranger spells prepared": "(CL 17th; concentration +19)<p class=\"stat-block-2\">4th-<i>commune with nature</i>, <i>freedom of movement</i>, <i>tree stride</i></p><p class=\"stat-block-2\">3rd-<i>darkvision</i>, <i>neutralize poison</i>, <i>remove disease</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, <i>bear's endurance</i>, <i>protection from energy</i>, <i>snare</i>, <i>spike growth</i></p><p class=\"stat-block-2\">1st-<i>alarm</i>, <i>endure elements</i>, <i>longstrider</i>, <i>pass without trace</i>, <i>resist energy</i></p>"
@@ -1343,6 +1439,12 @@
                     "subtype": "npc", 
                     "feats": "Bleeding Critical, Blinding Critical, Combat Reflexes, Critical Focus, Deadly Aim, Dodge, Endurance, Improved Critical (composite longbow), Improved Initiative, Improved Precise Shot, Manyshot, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Rapid Shot, Weapon Focus (composite longbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The ranger casts barkskin, bear's endurance, darkvision, freedom of movement, longstrider, pass without trace, protection from energy (fire), resist energy (cold), and tree stride.</p><p class='stat-block-1'><b>During Combat </b>The ranger swears to kill one target with his oathbow, using his boots of speed and feats to gain extra attacks. Against dangerous foes, he uses poison.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, bear's endurance, darkvision, longstrider, protection from energy, and resist energy, the ranger's statistics are</p><p class='stat-block-1'><b>Senses </b>normal</p><p class='stat-block-1'><b>AC </b>26, touch 18, flat-footed 21</p><p class='stat-block-1'><b>hp </b>144</p><p class='stat-block-1'><b>Fort </b>+18</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Con </b>12</p><p class='stat-block-1'><b>Skills </b>Acrobatics +15.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1359,7 +1461,7 @@
                     "base_attack": "+20", 
                     "name": "Supreme Hunter", 
                     "skills": "Acrobatics +15 (+19 when jumping), Climb +19, Handle Animal +12,Heal +15, Knowledge (dungeoneering) +8, Knowledge (geography) +13, Knowledge (nature) +18, Knowledge (planes) +5, Perception +25, Ride +18, Stealth +28, Survival +25, Swim +14", 
-                    "super_race": "204,800human ranger 20", 
+                    "super_race": "human ranger 20", 
                     "cmd": "45", 
                     "cmb": "+26", 
                     "will": "+13", 

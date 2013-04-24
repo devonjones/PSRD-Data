@@ -15,7 +15,7 @@
                     "intelligence": "17", 
                     "melee": "quarterstaff +0 (1d6)", 
                     "cr": "1/2", 
-                    "xp": "", 
+                    "xp": "200", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -28,7 +28,6 @@
                     "languages": "Common, Draconic, Dwarven, Elven, Infernal", 
                     "source": "NPC Codex", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor.'), (u'During Combat', u\"The wizard uses hand of the apprentice to throw her quarterstaff or casts burning hands. She offers to use her scroll of enlarge person on an ally who'll protect her.\"), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'11, touch 11, flat-footed 10.')]>", 
                     "fortitude": "+2", 
                     "size": "Medium", 
                     "type": "creature", 
@@ -36,6 +35,12 @@
                     "feats": "Alertness, Combat Casting, Improved Initiative, Scribe Scroll", 
                     "senses": "Perception +4", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor.</p><p class='stat-block-1'><b>During Combat </b>The wizard uses hand of the apprentice to throw her quarterstaff or casts burning hands. She offers to use her scroll of enlarge person on an ally who'll protect her.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>11, touch 11, flat-footed 10.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -59,7 +64,7 @@
                     "base_attack": "+0", 
                     "name": "Cautious Mage", 
                     "skills": "Knowledge (arcana, history, planes) +7, Linguistics +7, Perception +4, Sense Motive +3, Spellcraft +7", 
-                    "super_race": "200human wizard 1", 
+                    "super_race": "human wizard 1", 
                     "cmd": "11", 
                     "cmb": "+0", 
                     "will": "+3", 
@@ -74,7 +79,7 @@
                     "intelligence": "15", 
                     "melee": "dagger +3 (1d3+1/19\u201320)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Small", 
@@ -85,7 +90,6 @@
                     "languages": "Common, Dwarven, Gnome, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The wizard casts color spray, then casts grease between himself and foes. If threatened, he drinks his potion of invisibility.')]>", 
                     "fortitude": "+2", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 2nd; concentration +4)<p class=\"stat-block-2\">5/day-dazing touch</p>", 
@@ -96,6 +100,12 @@
                     "subtype": "npc", 
                     "feats": "Dodge, Scribe Scroll", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The wizard casts color spray, then casts grease between himself and foes. If threatened, he drinks his potion of invisibility.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -112,7 +122,7 @@
                     "base_attack": "+1", 
                     "name": "Street Magician", 
                     "skills": "Bluff +3, Knowledge (arcana, geography, history) +6, Knowledge (local) +7, Perception +2, Spellcraft +6", 
-                    "super_race": "400gnome enchanter 2", 
+                    "super_race": "gnome enchanter 2", 
                     "cmd": "13", 
                     "cmb": "+1", 
                     "will": "+2; +2 vs. illusions", 
@@ -127,7 +137,7 @@
                     "intelligence": "17", 
                     "melee": "mwk rapier +3 (1d6/18\u201320)", 
                     "cr": "2", 
-                    "xp": "", 
+                    "xp": "600", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -139,7 +149,6 @@
                     "languages": "Common, Draconic, Elven, Orc, Sylvan", 
                     "immune": "sleep", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard uses her wand to cast mage armor.'), (u'During Combat', u'The wizard attacks with scorching ray, her longbow, and hand of the apprentice. If forced into melee, she casts mirror image and obscuring mist.'), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'12, touch 12, flat-footed 10.')]>", 
                     "fortitude": "+2", 
                     "spells": {
                         "wizard spells prepared": "(CL 3rd; concentration +6)<p class=\"stat-block-2\">2nd-<i>mirror image</i>, <i>scorching ray</i></p><p class=\"stat-block-2\">1st-<i>magic missile</i>, <i>shield</i>, <i>shocking grasp</i></p><p class=\"stat-block-2\">0 (at will)-<i>daze</i> (DC 13), <i>detect magic</i>, <i>light</i>, <i>resistance</i></p>"
@@ -148,6 +157,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Casting, Point-Blank Shot, Scribe Scroll", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard uses her wand to cast mage armor.</p><p class='stat-block-1'><b>During Combat </b>The wizard attacks with scorching ray, her longbow, and hand of the apprentice. If forced into melee, she casts mirror image and obscuring mist.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>12, touch 12, flat-footed 10.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -163,7 +178,7 @@
                     "base_attack": "+1", 
                     "name": "Battle Mage", 
                     "skills": "Acrobatics +4, Climb +2, Knowledge (arcana) +9, Knowledge (history) +7, Perception +5, Spellcraft +9 (+11 to identify magic item properties), Stealth +4", 
-                    "super_race": "600elf wizard 3", 
+                    "super_race": "elf wizard 3", 
                     "cmd": "14", 
                     "cmb": "+2", 
                     "will": "+3; +2 vs. enchantments", 
@@ -177,7 +192,7 @@
                     "intelligence": "18", 
                     "melee": "club +1 (1d6\u20131)", 
                     "cr": "3", 
-                    "xp": "", 
+                    "xp": "800", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "spells": {
@@ -191,13 +206,18 @@
                     "languages": "Common, Draconic, Dwarven, Elven, Orc", 
                     "source": "NPC Codex", 
                     "init": "+8", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor.'), (u'During Combat', u\"If surprised, the wizard uses forewarned to cast cat's grace in the surprise round. He uses web, color spray, or sleep against targets he intends to capture.\"), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'14, touch 14, flat-footed 11.')]>", 
                     "fortitude": "+2", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Casting, Dodge, Improved Initiative, Scribe Scroll", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor.</p><p class='stat-block-1'><b>During Combat </b>If surprised, the wizard uses forewarned to cast cat's grace in the surprise round. He uses web, color spray, or sleep against targets he intends to capture.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>14, touch 14, flat-footed 11.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -213,7 +233,7 @@
                     "base_attack": "+2", 
                     "name": "Investigator Wizard", 
                     "skills": "Diplomacy +4, Intimidate +4, Knowledge (arcana, local) +10, Knowledge (geography, history, nobility, religion) +8, Perception +5, Sense Motive +5, Spellcraft +11", 
-                    "super_race": "800human diviner 4", 
+                    "super_race": "human diviner 4", 
                     "cmd": "15", 
                     "cmb": "+1", 
                     "will": "+5", 
@@ -227,7 +247,7 @@
                     "intelligence": "18", 
                     "melee": "mwk longsword +3 (1d8/19\u201320)", 
                     "cr": "4", 
-                    "xp": "", 
+                    "xp": "1,200", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -242,13 +262,18 @@
                     "languages": "Common, Draconic, Elven, Gnoll, Goblin, Orc", 
                     "immune": "sleep", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor. When she prepares spells, she uses physical enhancement to increase her Constitution. She studies the combat area for the best places to use spells like grease and web, then hides in ambush.'), (u'During Combat', u'The wizard casts web on her opponents or in their path (especially if there is a pit or ravine present). She casts summon swarm into the web. If trapped opponents are escaping from the web, she casts empowered burning hands on them.'), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'14, touch 13, flat-footed 11.')]>", 
                     "fortitude": "+2", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Empower Spell, Improved Initiative, Lightning Reflexes, Scribe Scroll, Spell Focus (evocation)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor. When she prepares spells, she uses physical enhancement to increase her Constitution. She studies the combat area for the best places to use spells like grease and web, then hides in ambush.</p><p class='stat-block-1'><b>During Combat </b>The wizard casts web on her opponents or in their path (especially if there is a pit or ravine present). She casts summon swarm into the web. If trapped opponents are escaping from the web, she casts empowered burning hands on them.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>14, touch 13, flat-footed 11.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -294,7 +319,7 @@
                     "base_attack": "+2", 
                     "name": "Jungle Wizard", 
                     "skills": "Acrobatics +7, Climb +3, Fly +7, Knowledge (arcana) +12, Knowledge (geography) +10, Knowledge (history) +9, Knowledge (nature) +11, Perception +7, Spellcraft +12 (+14 to identify magic item properties), Survival +4, Swim +1", 
-                    "super_race": "1,200elf transmuter 5", 
+                    "super_race": "elf transmuter 5", 
                     "cmd": "15", 
                     "cmb": "+2", 
                     "will": "+5; +2 vs. enchantments", 
@@ -308,7 +333,7 @@
                     "intelligence": "18", 
                     "melee": "mwk falchion +3 (2d4\u20131/18\u201320)", 
                     "cr": "5", 
-                    "xp": "", 
+                    "xp": "1,600", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -322,13 +347,18 @@
                     "languages": "Auran, Common, Draconic, Dwarven, Giant, Orc", 
                     "source": "NPC Codex", 
                     "init": "+8", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The wizard casts mage armor and see invisibility. If she has a few rounds to prepare, she casts fox's cunning on herself and uses her wand of enlarge person on her allies.\"), (u'During Combat', u'The wizard casts haste on her allies, hold person on her most dangerous opponent, and touch of idiocy on a spellcaster.'), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'12, touch 12, flat-footed 11.')]>", 
                     "fortitude": "+5", 
                     "size": "Medium", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Brew Potion, Combat Casting, Improved Initiative, Scribe Scroll, Spell Focus (enchantment)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor and see invisibility. If she has a few rounds to prepare, she casts fox's cunning on herself and uses her wand of enlarge person on her allies.</p><p class='stat-block-1'><b>During Combat </b>The wizard casts haste on her allies, hold person on her most dangerous opponent, and touch of idiocy on a spellcaster.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>12, touch 12, flat-footed 11.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -375,7 +405,7 @@
                     "base_attack": "+3", 
                     "name": "Tribal Seer", 
                     "skills": "Diplomacy +3, Heal +5, Intimidate +6, Knowledge (arcana) +11, Knowledge (geography, history, local, nature) +8, Knowledge (religion) +9, Perception +7, Sense Motive +3, Spellcraft +12, Survival +3", 
-                    "super_race": "1,600half-orc diviner 6", 
+                    "super_race": "half-orc diviner 6", 
                     "cmd": "14", 
                     "cmb": "+2", 
                     "will": "+7", 
@@ -390,7 +420,7 @@
                     "intelligence": "16", 
                     "melee": "dagger +2 (1d3\u20132/19\u201320) or quarterstaff +2 (1d4\u20132)", 
                     "cr": "6", 
-                    "xp": "", 
+                    "xp": "2,400", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Small", 
@@ -401,7 +431,6 @@
                     "languages": "Common, Draconic, Dwarven, Goblin, Halfling, Infernal", 
                     "source": "NPC Codex", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor and protection from arrows. If she has an ally who attacks in melee, she casts protection from energy (electricity) on that ally to protect him from her lightning bolt spells; otherwise, she casts it on herself (warding against fire).'), (u'During Combat', u'The wizard tries to catch multiple opponents with black tentacles, then follows up with a lightning bolt to hit as many targets as possible. She uses her imp to invisibly deliver shocking grasp and empowered shocking grasp.'), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'15, touch 15, flat-footed 12.')]>", 
                     "fortitude": "+5", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 7th; concentration +10)<p class=\"stat-block-2\">6/day-force missile (1d4+3)</p>", 
@@ -411,6 +440,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Casting, Empower Spell, Improved Familiar, Improved Initiative, Iron Will, Scribe Scroll", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor and protection from arrows. If she has an ally who attacks in melee, she casts protection from energy (electricity) on that ally to protect him from her lightning bolt spells; otherwise, she casts it on herself (warding against fire).</p><p class='stat-block-1'><b>During Combat </b>The wizard tries to catch multiple opponents with black tentacles, then follows up with a lightning bolt to hit as many targets as possible. She uses her imp to invisibly deliver shocking grasp and empowered shocking grasp.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>15, touch 15, flat-footed 12.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -457,7 +492,7 @@
                     "base_attack": "+3", 
                     "name": "Thunder Wizard", 
                     "skills": "Acrobatics +5 (+1 when jumping), Bluff +6, Climb +0, Knowledge (arcana) +13, Knowledge (dungeoneering) +9, Knowledge (engineering) +7, Knowledge (planes) +8, Perception +10, Spellcraft +13, Stealth +10, Use Magic Device +5", 
-                    "super_race": "2,400halfling evoker 7", 
+                    "super_race": "halfling evoker 7", 
                     "cmd": "14", 
                     "cmb": "+0", 
                     "will": "+10; +2 vs. fear", 
@@ -472,7 +507,7 @@
                     "intelligence": "18", 
                     "melee": "rapier +4 (1d6/18\u201320)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -484,7 +519,6 @@
                     "languages": "Common, Draconic, Elven, Gnome, Orc, Sylvan", 
                     "immune": "sleep", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor.'), (u'During Combat', u'The wizard uses charm person, confusion, and suggestion to turn opponents against each other. By casting greater invisibility on herself, she can remain hidden while she manipulates her targets. She uses her wand of touch of idiocy against enemy spellcasters.'), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'15, touch 14, flat-footed 12.')]>", 
                     "fortitude": "+4", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 8th; concentration +12)<p class=\"stat-block-2\">7/day-dazing touch</p>", 
@@ -494,6 +528,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Casting, Craft Wand, Improved Initiative, Iron Will, Scribe Scroll, Spell Focus (enchantment)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor.</p><p class='stat-block-1'><b>During Combat </b>The wizard uses charm person, confusion, and suggestion to turn opponents against each other. By casting greater invisibility on herself, she can remain hidden while she manipulates her targets. She uses her wand of touch of idiocy against enemy spellcasters.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>15, touch 14, flat-footed 12.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -539,7 +579,7 @@
                     "base_attack": "+4", 
                     "name": "Seductive Enchanter", 
                     "skills": "Acrobatics +8, Bluff +9, Diplomacy +6, Knowledge (arcana) +15, Knowledge (local, nobility) +11, Perception +9, Perform (dance) +4, Sense Motive +3, Spellcraft +15 (+17 identify magic item properties)", 
-                    "super_race": "3,200elf enchanter 8", 
+                    "super_race": "elf enchanter 8", 
                     "cmd": "18", 
                     "cmb": "+4", 
                     "will": "+8; +2 vs. enchantments", 
@@ -554,7 +594,7 @@
                     "intelligence": "18", 
                     "melee": "battleaxe +5 (1d8+1/\u00d73)", 
                     "cr": "8", 
-                    "xp": "", 
+                    "xp": "4,800", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -566,7 +606,6 @@
                     "languages": "Common, Dwarven, Goblin, Terran, Undercommon", 
                     "immune": "fire (108 points)", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The wizard casts bear's endurance, mage armor, and protection from energy (fire).\"), (u'During Combat', u'The wizard casts greater invisibility, then uses transmute rock to mud to trap foes. He casts area damage spells at trapped targets and uses stinking cloud and resilient sphere to hinder those who escape the mud.'), (u'Base Statistics', u\"Without bear's endurance, mage armor, and protection from energy (fire), the wizard's statistics are\"), (u'AC', u'11, touch 10, flat-footed 11'), (u'hp', u'74'), (u'Fort', u'+6'), (u'Immune', u'none'), (u'Con', u'16.')]>", 
                     "fortitude": "+8", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 9th; concentration +13)<p class=\"stat-block-2\">At will-elemental wall (9 rounds/day)</p><p class=\"stat-block-2\">7/day-force missile (1d4+4)</p>", 
@@ -577,6 +616,12 @@
                     "feats": "Combat Casting, Empower Spell, Improved Initiative, Scribe Scroll, Spell Focus (evocation), Spell Penetration, Toughness", 
                     "senses": "Perception +12", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts bear's endurance, mage armor, and protection from energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The wizard casts greater invisibility, then uses transmute rock to mud to trap foes. He casts area damage spells at trapped targets and uses stinking cloud and resilient sphere to hinder those who escape the mud.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance, mage armor, and protection from energy (fire), the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>11, touch 10, flat-footed 11</p><p class='stat-block-1'><b>hp </b>74</p><p class='stat-block-1'><b>Fort </b>+6</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Con </b>16.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -601,7 +646,7 @@
                     "base_attack": "+4", 
                     "name": "Cave Wizard", 
                     "skills": "Appraise +15 (+17 to assess nonmagical metals or gemstones), Climb +4, Craft (alchemy) +12, Fly +6, Knowledge (arcana, dungeoneering) +16, Knowledge (engineering) +12, Perception +12 (+14 to notice unusual stonework), Sense Motive +4, Spellcraft +16", 
-                    "super_race": "4,800dwarf evoker 9", 
+                    "super_race": "dwarf evoker 9", 
                     "cmd": "15 (19 vs. bull rush or trip)", 
                     "cmb": "+5", 
                     "will": "+9; +2 vs. poison, spells, and spell-like abilities", 
@@ -616,7 +661,7 @@
                     "intelligence": "18", 
                     "melee": "mwk dagger +5 (1d3\u20132/19\u201320)", 
                     "cr": "9", 
-                    "xp": "", 
+                    "xp": "6,400", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Small", 
@@ -627,7 +672,6 @@
                     "languages": "Common, Draconic, Dwarven, Elven, Gnome, Sylvan", 
                     "source": "NPC Codex", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor from her wand.'), (u'During Combat', u'The wizard prefers to prank others rather than cause deliberate harm. She casts greater invisibility, then harasses and annoys her targets with glitterdust, grease, major image, persistent image, and solid fog. If attacked with lethal force, she retaliates with cloudkill, empowered scorching ray, and magic missile.'), (u'Base Statistics', u\"Without mage armor, the wizard's statistics are\"), (u'AC', u'16, touch 15, flat-footed 13.')]>", 
                     "fortitude": "+7", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 10th; concentration +14)<p class=\"stat-block-2\">At will-invisibility field (10 rounds/day)</p><p class=\"stat-block-2\">7/day-blinding ray</p>", 
@@ -638,6 +682,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Casting, Craft Wand, Craft Wondrous Item, Dodge, Empower Spell, Improved Initiative, Scribe Scroll, Spell Focus (illusion)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor from her wand.</p><p class='stat-block-1'><b>During Combat </b>The wizard prefers to prank others rather than cause deliberate harm. She casts greater invisibility, then harasses and annoys her targets with glitterdust, grease, major image, persistent image, and solid fog. If attacked with lethal force, she retaliates with cloudkill, empowered scorching ray, and magic missile.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>16, touch 15, flat-footed 13.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -684,7 +734,7 @@
                     "base_attack": "+5", 
                     "name": "Prankster Illusionist", 
                     "skills": "Acrobatics +7 (+3 when jumping), Appraise +12, Craft (sculptures) +14, Fly +12, Knowledge (arcana) +17, Knowledge (geography, local, nature) +10, Perception +9, Perform (oratory) +6, Spellcraft +17, Stealth +11", 
-                    "super_race": "6,400gnome illusionist 10", 
+                    "super_race": "gnome illusionist 10", 
                     "cmd": "16", 
                     "cmb": "+2", 
                     "will": "+10; +2 vs. illusions", 
@@ -700,7 +750,7 @@
                     "resist": "fire 30", 
                     "melee": "mwk dagger +6 (1d4/19\u201320)", 
                     "cr": "10", 
-                    "xp": "", 
+                    "xp": "9,600", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "spells": {
@@ -714,7 +764,6 @@
                     "languages": "Aklo, Common, Dwarven, Elven, Goblin, Infernal", 
                     "source": "NPC Codex", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor, false life, resist energy (fire), and see invisibility.'), (u'During Combat', u'The wizard casts solid fog on a group of enemies, then casts wall of fire in a circle (focused inward) around the solid fog. As opponents leave the fog, he attacks them directly with eyebite and enervation. He might cast fear to drive opponents through the wall of fire, or cast fireball on a group of opponents grouped together.'), (u'Base Statistics', u\"Without false life, mage armor, resist energy, and see invisibility, the wizard's statistics are\"), (u'Senses', u'darkvision 60 ft.'), (u'AC', u'12, touch 11, flat-footed 11'), (u'hp', u'85'), (u'Resist', u'none.')]>", 
                     "fortitude": "+10", 
                     "size": "Medium", 
                     "type": "creature", 
@@ -722,6 +771,12 @@
                     "feats": "Brew Potion, Combat Casting, Command Undead, Craft Wondrous Item, Greater Spell Focus (necromancy), Improved Channel, Improved Initiative, Iron Will, Scribe Scroll, Spell Focus (necromancy), Toughness", 
                     "senses": "darkvision 60 ft., see invisibility; Perception +4", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor, false life, resist energy (fire), and see invisibility.</p><p class='stat-block-1'><b>During Combat </b>The wizard casts solid fog on a group of enemies, then casts wall of fire in a circle (focused inward) around the solid fog. As opponents leave the fog, he attacks them directly with eyebite and enervation. He might cast fear to drive opponents through the wall of fire, or cast fireball on a group of opponents grouped together.</p><p class='stat-block-1'><b>Base Statistics </b>Without false life, mage armor, resist energy, and see invisibility, the wizard's statistics are</p><p class='stat-block-1'><b>Senses </b>darkvision 60 ft.</p><p class='stat-block-1'><b>AC </b>12, touch 11, flat-footed 11</p><p class='stat-block-1'><b>hp </b>85</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -765,7 +820,7 @@
                     "base_attack": "+5", 
                     "name": "Undead Creator", 
                     "skills": "Craft (alchemy) +19, Fly +5, Heal +4, Intimidate +7, Knowledge (arcana) +19, Knowledge (dungeoneering, engineering, geography, history, local, nature, nobility, planes) +13, Knowledge (religion) +18, Perception +4, Spellcraft +19", 
-                    "super_race": "9,600human necromancer 11", 
+                    "super_race": "human necromancer 11", 
                     "cmd": "16", 
                     "cmb": "+5", 
                     "will": "+10", 
@@ -779,7 +834,7 @@
                     "intelligence": "22", 
                     "melee": "+1 greataxe +11/+6 (1d12+5/\u00d73)", 
                     "cr": "11", 
-                    "xp": "", 
+                    "xp": "12,800", 
                     "speed": "30 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -791,7 +846,6 @@
                     "languages": "Abyssal, Common, Draconic, Giant, Goblin, Infernal, Orc", 
                     "immune": "fire (120 points)", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor, protection from arrows, protection from energy (fire), and see invisibility. He uses physical enhancement to increase his Constitution.'), (u'During Combat', u'The wizard casts mass enlarge person on allies, then casts black tentacles, disintegrate, and area damage spells. If out of attack spells, he casts transformation and enters melee.'), (u'Base Statistics', u\"Without mage armor, protection from arrows, protection from energy (fire), and see invisibility, the wizard's statistics are\"), (u'Senses', u'darkvision 60 ft.'), (u'AC', u'11, touch 11, flat-footed 11'), (u'DR', u'none'), (u'Immune', u'none.')]>", 
                     "fortitude": "+9", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 12th; concentration +18)<p class=\"stat-block-2\">At will-change shape (<i>beast shape III/elemental body II</i>, 12 rounds/day)</p><p class=\"stat-block-2\">9/day-telekinetic fist (1d4+6 bludgeoning)</p>", 
@@ -802,6 +856,12 @@
                     "feats": "Brew Potion, Combat Casting, Craft Wondrous Item, Improved Initiative, Power Attack, Scribe Scroll, Toughness, Vital Strike, Weapon Focus (greataxe)", 
                     "senses": "darkvision 60 ft., see invisibility; Perception +11", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor, protection from arrows, protection from energy (fire), and see invisibility. He uses physical enhancement to increase his Constitution.</p><p class='stat-block-1'><b>During Combat </b>The wizard casts mass enlarge person on allies, then casts black tentacles, disintegrate, and area damage spells. If out of attack spells, he casts transformation and enters melee.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, protection from arrows, protection from energy (fire), and see invisibility, the wizard's statistics are</p><p class='stat-block-1'><b>Senses </b>darkvision 60 ft.</p><p class='stat-block-1'><b>AC </b>11, touch 11, flat-footed 11</p><p class='stat-block-1'><b>DR </b>none</p><p class='stat-block-1'><b>Immune </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -827,7 +887,7 @@
                     "base_attack": "+6", 
                     "name": "Toothy Transmuter", 
                     "skills": "Climb +8, Fly +8, Handle Animal +4, Intimidate +11, Knowledge (arcana) +19, Knowledge (dungeoneering, geography, history, local, nature) +14, Perception +11, Sense Motive +6, Spellcraft +19, Stealth +3, Survival +6, Swim +8", 
-                    "super_race": "12,800half-orc transmuter 12", 
+                    "super_race": "half-orc transmuter 12", 
                     "cmd": "20", 
                     "cmb": "+9", 
                     "will": "+11", 
@@ -843,7 +903,7 @@
                     "resist": "fire 30", 
                     "melee": "club +6/+1 (1d6)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "40 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -855,7 +915,6 @@
                     "languages": "Abyssal, Common, Draconic, Dwarven, Goblin, Ignan, Infernal", 
                     "immune": "fire (120 points)", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor, protection from energy (fire), resist energy (fire), and statue.'), (u'During Combat', u'The wizard casts greater invisibility, fly, and maximized fireball. He follows up with phantasmal killer, shout, and necromantic rays.'), (u'Base Statistics', u\"Without mage armor, protection from energy, and resist energy, the wizard's statistics are\"), (u'AC', u'15, touch 14, flat-footed 12'), (u'Immune', u'none'), (u'Resist', u'none.')]>", 
                     "fortitude": "+9", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 13th; concentration +19)<p class=\"stat-block-2\">At will-elemental wall (13 rounds/day)</p><p class=\"stat-block-2\">9/day-force missile (1d4+6)</p>", 
@@ -869,6 +928,12 @@
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor, protection from energy (fire), resist energy (fire), and statue.</p><p class='stat-block-1'><b>During Combat </b>The wizard casts greater invisibility, fly, and maximized fireball. He follows up with phantasmal killer, shout, and necromantic rays.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, protection from energy, and resist energy, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>15, touch 14, flat-footed 12</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
                             "text": "<p>These mages love to cause collateral damage with fires.</p>"
                         }
                     ], 
@@ -879,7 +944,7 @@
                     "base_attack": "+6", 
                     "name": "Pyromaniac Mage", 
                     "skills": "Climb +5, Craft (alchemy) +19, Fly +18, Knowledge (arcana) +21, Knowledge (engineering, planes) +19, Knowledge (geography, history, local, religion) +14, Perception +12, Sense Motive +4, Spellcraft +19, Stealth +12, Survival +4", 
-                    "super_race": "19,200human evoker 13", 
+                    "super_race": "human evoker 13", 
                     "cmd": "20", 
                     "cmb": "+6", 
                     "will": "+12", 
@@ -895,7 +960,7 @@
                     "resist": "electricity 30, fire 30", 
                     "melee": "dagger +8/+3 (1d4+1/19\u201320)", 
                     "cr": "13", 
-                    "xp": "", 
+                    "xp": "25,600", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -906,7 +971,6 @@
                     "languages": "Common, Draconic, Dwarven, Elven, Gnome, Halfling, Orc", 
                     "source": "NPC Codex", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts darkvision, endure elements, mage armor, nondetection, resist energy (electricity, fire), see invisibility, and spell turning.'), (u'During Combat', u\"The wizard uses tactics specific to his quarry, choosing spells with saving throws that target his prey's weakest defenses. When facing a target he knows little about, he casts greater invisibility and then enlarged black tentacles to give him time to find the perfect spell. Against single targets, he casts disintegrate, enlarged maximized scorching ray, or maximized magic missile. He uses telekinesis to hurl boulders if the kill is supposed to look like an accident.\"), (u'Base Statistics', u\"Without darkvision, mage armor, resist energy (electricity, fire), and see invisibility, the wizard's statistics are\"), (u'AC', u'17, touch 16, flat-footed 13'), (u'Senses', u'low-light vision'), (u'Defensive Abilities', u'none'), (u'Resist', u'none.')]>", 
                     "fortitude": "+7", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 14th; concentration +20)<p class=\"stat-block-2\">At will-elemental wall (14 rounds/day)</p><p class=\"stat-block-2\">9/day-<i>force missile</i> (1d4+7)</p>", 
@@ -916,6 +980,12 @@
                     "subtype": "npc", 
                     "feats": "Craft Wondrous Item, Enlarge Spell, Greater Spell Focus (evocation), Maximize Spell, Point-Blank Shot, Precise Shot, Scribe Scroll, Skill Focus (Perception), Spell Focus (evocation, transmutation), Spell Penetration", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts darkvision, endure elements, mage armor, nondetection, resist energy (electricity, fire), see invisibility, and spell turning.</p><p class='stat-block-1'><b>During Combat </b>The wizard uses tactics specific to his quarry, choosing spells with saving throws that target his prey's weakest defenses. When facing a target he knows little about, he casts greater invisibility and then enlarged black tentacles to give him time to find the perfect spell. Against single targets, he casts disintegrate, enlarged maximized scorching ray, or maximized magic missile. He uses telekinesis to hurl boulders if the kill is supposed to look like an accident.</p><p class='stat-block-1'><b>Base Statistics </b>Without darkvision, mage armor, resist energy (electricity, fire), and see invisibility, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>17, touch 16, flat-footed 13</p><p class='stat-block-1'><b>Senses </b>low-light vision</p><p class='stat-block-1'><b>Defensive Abilities </b>none</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -962,7 +1032,7 @@
                     "base_attack": "+7", 
                     "name": "Mage Sniper", 
                     "skills": "Acrobatics +9, Climb +11, Fly +17, Handle Animal +4, Knowledge (arcana) +23, Knowledge (geography) +14, Knowledge (local) +19, Knowledge (nature) +15, Perception +27, Spellcraft +23, Stealth +18, Survival +10, Swim +6", 
-                    "super_race": "25,600half-elf evoker 14", 
+                    "super_race": "half-elf evoker 14", 
                     "cmd": "24", 
                     "cmb": "+8", 
                     "will": "+11; +2 vs. enchantments", 
@@ -977,7 +1047,7 @@
                     "resist": "electricity 30", 
                     "melee": "mwk quarterstaff +7/+2 (1d6\u20131)", 
                     "cr": "14", 
-                    "xp": "", 
+                    "xp": "38,400", 
                     "speed": "30 ft.", 
                     "alignment": "LE", 
                     "size": "Medium", 
@@ -989,7 +1059,6 @@
                     "languages": "Abyssal, Aquan, Auran, Common, Ignan, Infernal, Terran", 
                     "immune": "fire (120 points)", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor, magic circle against good, protection from energy (fire), resist energy (electricity), and see invisibility.'), (u'During Combat', u'The wizard leads with mass hold person, followed by widened black tentacles or incendiary cloud if opponents are immune to enchantments. He banishes creatures summoned by foes, charms enemies with his staff, summons allies to protect him, turns uncharmed enemies against each other with confusion, and targets leaders with disintegrate or phantasmal killer.'), (u'Base Statistics', u\"Without mage armor, magic circle against good, protection from energy (fire), resist energy (electricity), and see invisibility, the wizard's statistics are\"), (u'Senses', u'normal'), (u'AC', u'18, touch 15, flat-footed 15'), (u'Defensive Abilities', u'none'), (u'Immune', u'none'), (u'Resist', u'none.')]>", 
                     "fortitude": "+11", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 15th; concentration +21)<p class=\"stat-block-2\">At will-dimensional steps (450 feet/day)</p><p class=\"stat-block-2\">9/day-acid dart (1d6+7 acid)</p>", 
@@ -1000,6 +1069,12 @@
                     "feats": "Augment Summoning, Combat Casting, Craft Wondrous Item, Dodge, Extend Spell, Greater Spell Focus (conjuration), Improved Initiative, Quicken Spell, Scribe Scroll, Spell Focus (Conjuration), Spell Penetration, Toughness, Widen Spell", 
                     "senses": "see invisibility; Perception +15", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor, magic circle against good, protection from energy (fire), resist energy (electricity), and see invisibility.</p><p class='stat-block-1'><b>During Combat </b>The wizard leads with mass hold person, followed by widened black tentacles or incendiary cloud if opponents are immune to enchantments. He banishes creatures summoned by foes, charms enemies with his staff, summons allies to protect him, turns uncharmed enemies against each other with confusion, and targets leaders with disintegrate or phantasmal killer.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, magic circle against good, protection from energy (fire), resist energy (electricity), and see invisibility, the wizard's statistics are</p><p class='stat-block-1'><b>Senses </b>normal</p><p class='stat-block-1'><b>AC </b>18, touch 15, flat-footed 15</p><p class='stat-block-1'><b>Defensive Abilities </b>none</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1024,7 +1099,7 @@
                     "base_attack": "+7", 
                     "name": "Cruel Conjurer", 
                     "skills": "Bluff +16, Diplomacy +16, Fly +10, Knowledge (arcana, planes) +24, Knowledge (dungeoneering, geography) +14, Knowledge (nature, religion) +19, Perception +15, Ride +7, Sense Motive +10, Spellcraft +24", 
-                    "super_race": "38,400human conjurer 15", 
+                    "super_race": "human conjurer 15", 
                     "cmd": "21", 
                     "cmb": "+6", 
                     "will": "+12", 
@@ -1040,7 +1115,7 @@
                     "resist": "cold 10, electricity 30", 
                     "melee": "+1 spell storing warhammer +8/+3 (1d8/\u00d73)", 
                     "cr": "15", 
-                    "xp": "", 
+                    "xp": "51,200", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -1052,7 +1127,6 @@
                     "languages": "Common, Dwarven, Giant, Gnome, Goblin, Orc, Terran, Undercommon", 
                     "immune": "fire (120 points)", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor, mind blank, protection from energy (fire), resist energy (electricity), see invisibility, and stoneskin. She casts telepathic bond on allies.'), (u'During Combat', u\"The wizard's warhammer contains hold person.\"), (u'Base Statistics', u\"Without mage armor, mind blank, protection from energy, resist energy, see invisibility, and stoneskin, the wizard's statistics are\"), (u'Senses', u'darkvision 60 ft.'), (u'AC', u'22, touch 17, flat-footed 19'), (u'Fort', u'+13'), (u'Ref', u'+11'), (u'Will', u'+18; +2 vs. poison, spells, and spell-like abilities'), (u'Defensive  Abilities', u'defensive training (+4 dodge bonus to AC vs. giants), energy absorption (48/day)'), (u'DR', u'none'), (u'Immune', u'none'), (u'Resist', u'cold 10.')]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "abjurer spells prepared": "(CL 16th; concentration +22)<p class=\"stat-block-2\">8th-quickened<i> charm monster</i> (DC 23), <i>mind blank</i>, <i>prismatic wall</i></p><p class=\"stat-block-2\">7th-<i>banishment</i> (DC 23), quickened<i> haste, mass hold person</i> (DC 25), <i>phase door</i></p><p class=\"stat-block-2\">6th-<i>globe of invulnerability</i>, <i>greater dispel magic</i>, <i>greater heroism</i>, <i>mass bull's strength</i>, <i>mass suggestion</i> (DC 24)</p><p class=\"stat-block-2\">5th-<i>break enchantment</i>, stilled <i>dimension door</i>, <i>dominate person</i> (2, DC 23), <i>telepathic bond</i>, <i>wall of stone</i></p><p class=\"stat-block-2\">4th-<i>arcane eye</i>, <i>charm monster</i> (DC 22), <i>confusion</i> (DC 22), <i>remove curse</i>, <i>solid fog</i>, <i>stoneskin</i></p><p class=\"stat-block-2\">3rd-<i>dispel magic</i>, <i>haste</i> (DC 19), <i>hold person</i> (2, DC 21), <i>protection from energy</i>, <i>wind wall</i></p><p class=\"stat-block-2\">2nd-<i>acid arrow</i>, <i>hideous laughter</i> (DC 20), <i>invisibility</i>, <i>levitate</i>, <i>resist energy</i> (2), <i>see invisibility</i></p><p class=\"stat-block-2\">1st-<i>alarm</i>, <i>charm person</i> (DC 19), <i>expeditious retreat</i>, <i>feather fall</i>, <i>grease</i>, <i>mage armor</i>, <i>true strike</i></p><p class=\"stat-block-2\">0 (at will)-<i>dancing lights</i>, <i>detect magic</i>, <i>message</i>, <i>resistance</i></p><p class=\"stat-block-2\"><b>Opposition Schools</b> evocation, necromancy</p>"
@@ -1061,6 +1135,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Casting, Craft Wondrous Item, Dodge, Forge Ring, Greater Spell Focus (enchantment), Improved Initiative, Iron Will, Quicken Spell, Scribe Scroll, Spell Focus (enchantment), Spell Penetration, Still Spell", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor, mind blank, protection from energy (fire), resist energy (electricity), see invisibility, and stoneskin. She casts telepathic bond on allies.</p><p class='stat-block-1'><b>During Combat </b>The wizard's warhammer contains hold person.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, mind blank, protection from energy, resist energy, see invisibility, and stoneskin, the wizard's statistics are</p><p class='stat-block-1'><b>Senses </b>darkvision 60 ft.</p><p class='stat-block-1'><b>AC </b>22, touch 17, flat-footed 19</p><p class='stat-block-1'><b>Fort </b>+13</p><p class='stat-block-1'><b>Ref </b>+11</p><p class='stat-block-1'><b>Will </b>+18; +2 vs. poison, spells, and spell-like abilities</p><p class='stat-block-1'><b>Defensive  Abilities </b>defensive training (+4 dodge bonus to AC vs. giants), energy absorption (48/day)</p><p class='stat-block-1'><b>DR </b>none</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>cold 10.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1078,7 +1158,7 @@
                     "base_attack": "+8", 
                     "name": "Deep Marshal", 
                     "skills": "Appraise +14 (+16 to assess nonmagical metals or gemstones), Climb +2, Craft (sculpture) +14, Knowledge (arcana, dungeoneering, engineering) +24, Knowledge (geography, history, planes) +19, Perception +17 (+19 to notice unusual stonework), Sense Motive +12, Spellcraft +24, Survival +7, Swim +2", 
-                    "super_race": "51,200dwarf abjurer 16", 
+                    "super_race": "dwarf abjurer 16", 
                     "cmd": "24 (28 vs. bull rush or trip)", 
                     "cmb": "+7", 
                     "will": "+18; +4 vs. mind-affecting, +2 vs. poison, spells, and spell-like abilities", 
@@ -1093,7 +1173,7 @@
                     "intelligence": "22", 
                     "melee": "+1 dagger +10/+5 (1d3+1/19\u201320)", 
                     "cr": "16", 
-                    "xp": "", 
+                    "xp": "76,800", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -1105,7 +1185,6 @@
                     "languages": "Common, Draconic, Dwarven, Elven, Gnome, Halfling, Infernal, Orc, Sylvan", 
                     "immune": "detect thoughts, discern lies, alignment detection", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts darkvision, mage armor, moment of prescience, nondetection, and statue.'), (u'During Combat', u'The wizard prefers to evade combat by casting dimension door or greater invisibility.'), (u'Base Statistics', u\"Without darkvision, mage armor, and moment of prescience, the wizard's statistics are\"), (u'Senses', u'low-light vision'), (u'AC', u'20, touch 17, flat-footed 16'), (u'Defensive Abilities', u'defensive training (+4 dodge bonus to AC vs. giants).')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "wizard spells prepared": "(CL 17th; concentration +23)<p class=\"stat-block-2\">9th-<i>power word kill</i></p><p class=\"stat-block-2\">8th-<i>horrid wilting</i> (DC 24), <i>moment of prescience</i></p><p class=\"stat-block-2\">7th-quickened<i> hold person</i> (DC 24), <i>insanity</i> (DC 24), <i>statue</i></p><p class=\"stat-block-2\">6th-<i>chain lightning</i> (DC 22), <i>disintegrate</i> (DC 23), <i>greater dispel magic</i>, <i>mass suggestion</i> (DC 23), <i>true seeing</i></p><p class=\"stat-block-2\">5th-<i>baleful polymorph</i> (DC 22), stilled <i>dimension door, dominate person</i> (DC 22), <i>passwall</i>, <i>prying eyes</i></p><p class=\"stat-block-2\">4th-<i>bestow curse</i> (DC 20), <i>confusion</i> (DC 21), <i>greater invisibility</i>, <i>locate creature</i>, <i>solid fog</i></p><p class=\"stat-block-2\">3rd-<i>clairaudience/clairvoyance</i>, <i>dispel magic</i>, <i>hold person</i> (DC 20), <i>nondetection</i>, <i>slow</i> (DC 20)<i></i></p><p class=\"stat-block-2\">2nd-<i>alter self</i>, <i>darkvision</i>, <i>detect thoughts</i> (DC 18), <i>invisibility</i> (2), <i>knock</i></p><p class=\"stat-block-2\">1st-<i>charm person</i> (DC 18), <i>feather fall</i>, <i>grease</i>, <i>mage armor</i>, <i>magic missile</i>, <i>obscuring mist</i></p><p class=\"stat-block-2\">0 (at will)-<i>detect magic</i>, <i>detect poison</i>, <i>mage hand</i>, <i>open/close</i></p>"
@@ -1115,6 +1194,12 @@
                     "feats": "Combat Casting, Combat Expertise, Craft Wondrous Item, Dodge, Extend Spell, Improved Initiative, Quicken Spell, Scribe Scroll, Silent Spell, Spell Focus (enchantment), Spell Focus (transmutation), Spell Penetration, Still Spell", 
                     "senses": "darkvision 60 ft., low-light vision; Perception +19", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts darkvision, mage armor, moment of prescience, nondetection, and statue.</p><p class='stat-block-1'><b>During Combat </b>The wizard prefers to evade combat by casting dimension door or greater invisibility.</p><p class='stat-block-1'><b>Base Statistics </b>Without darkvision, mage armor, and moment of prescience, the wizard's statistics are</p><p class='stat-block-1'><b>Senses </b>low-light vision</p><p class='stat-block-1'><b>AC </b>20, touch 17, flat-footed 16</p><p class='stat-block-1'><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1129,7 +1214,7 @@
                     "base_attack": "+8", 
                     "name": "Mage Spy", 
                     "skills": "Bluff +15, Climb +5, Craft (alchemy) +14, Diplomacy +5, Disguise +10, Fly +13, Knowledge (arcana) +19, Knowledge (engineering, geography, history, local, nobility, religion) +14, Perception +19, Sense Motive +17, Spellcraft +19, Stealth +22, Use Magic Device +13", 
-                    "super_race": "76,800gnome wizard 17", 
+                    "super_race": "gnome wizard 17", 
                     "cmd": "23", 
                     "cmb": "+7", 
                     "will": "+16; +2 vs. illusions", 
@@ -1145,7 +1230,7 @@
                     "resist": "cold 20, fire 30", 
                     "melee": "mwk silver dagger +9/+4 (1d4\u20131/19\u201320)", 
                     "cr": "17", 
-                    "xp": "", 
+                    "xp": "102,400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -1156,7 +1241,6 @@
                     "languages": "Aklo, Common, Draconic, Dwarven, Elven, Gnome, Goblin, Orc, Undercommon", 
                     "source": "NPC Codex", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts false life, mage armor, mind blank, resist energy (fire), see invisibility, and spell turning.'), (u'During Combat', u'The wizard casts time stop and energy drain on the most dangerous-looking target, then thins out the ranks of his enemies with chain lightning.'), (u'Base Statistics', u\"Without false life, mage armor, mind blank, resist energy (fire), see invisibility, and spell turning, the wizard's statistics are\"), (u'AC', u'19, touch 16, flat-footed 18'), (u'hp', u'155'), (u'Fort', u'+14'), (u'Ref', u'+11'), (u'Will', u'+17'), (u'Defensive Abilities', u'none'), (u'Resist', u'cold 20.')]>", 
                     "fortitude": "+14", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 18th; concentration +26)<p class=\"stat-block-2\">11/day-grave touch (9 rounds)</p>", 
@@ -1167,6 +1251,12 @@
                     "feats": "Alertness, Combat Casting, Command Undead, Craft Wondrous Item, Extra Channel, Forge Ring, Greater Spell Focus (necromancy), Improved Channel, Improved Initiative, Maximize Spell, Quicken Spell, Scribe Scroll, Spell Focus (evocation, necromancy), Toughness, Weapon Focus (ray)", 
                     "senses": "see invisibility; Perception +24", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts false life, mage armor, mind blank, resist energy (fire), see invisibility, and spell turning.</p><p class='stat-block-1'><b>During Combat </b>The wizard casts time stop and energy drain on the most dangerous-looking target, then thins out the ranks of his enemies with chain lightning.</p><p class='stat-block-1'><b>Base Statistics </b>Without false life, mage armor, mind blank, resist energy (fire), see invisibility, and spell turning, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>19, touch 16, flat-footed 18</p><p class='stat-block-1'><b>hp </b>155</p><p class='stat-block-1'><b>Fort </b>+14</p><p class='stat-block-1'><b>Ref </b>+11</p><p class='stat-block-1'><b>Will </b>+17</p><p class='stat-block-1'><b>Defensive Abilities </b>none</p><p class='stat-block-1'><b>Resist </b>cold 20.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1181,7 +1271,7 @@
                     "base_attack": "+9", 
                     "name": "Grand Necromancer", 
                     "skills": "Fly +22, Heal +20, Intimidate +16, Knowledge (arcana, planes, religion) +29, Knowledge (history, local) +21, Perception +24, Sense Motive +24, Spellcraft +29, Stealth +19, Use Magic Device +18", 
-                    "super_race": "102,400human necromancer 18", 
+                    "super_race": "human necromancer 18", 
                     "cmd": "23", 
                     "cmb": "+8", 
                     "will": "+17; +4 vs. mind-affecting", 
@@ -1197,7 +1287,7 @@
                     "resist": "cold 30", 
                     "melee": "+1 dagger +9/+4 (1d4/19\u201320)", 
                     "cr": "18", 
-                    "xp": "", 
+                    "xp": "153,600", 
                     "speed": "35 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -1209,7 +1299,6 @@
                     "languages": "Common, Draconic, Dwarven, Elven, Giant, Goblin, Gnome, Halfling, Sylvan, Undercommon", 
                     "immune": "electricity (120 points), fire (120 points)", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts mage armor, mind blank, misdirection, protection from energy (electricity, fire), resist energy (cold), and spell turning.'), (u'During Combat', u'The wizard uses dominate monster, weird, and mass hold person to control enemies, plus incendiary cloud and horrid wilting if they resist enchantments. She uses polymorph any object to change the last survivor into a marionette for her collection.'), (u'Base Statistics', u\"Without mage armor, mind blank, misdirection, protection from energy, resist energy, and spell turning, the wizard's statistics are\"), (u'AC', u'20, touch 16, flat-footed 17'), (u'Defensive Abilities', u'none'), (u'Immune', u'none'), (u'Resist', u'none.')]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "arcane school spell-like abilities": "(CL 19th; concentration +27)<p class=\"stat-block-2\">11/day-dazing touch</p>", 
@@ -1220,6 +1309,12 @@
                     "feats": "Combat Casting, Craft Wand, Craft Wondrous Item, Dodge, Extend Spell, Fleet, Forge Ring, Greater Spell Focus (enchantment), Improved Initiative, Improved Iron Will, Iron Will, Quicken Spell, Scribe Scroll, Skill Focus (Perception), Spell Focus (enchantment)", 
                     "senses": "low-light vision; Perception +24", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts mage armor, mind blank, misdirection, protection from energy (electricity, fire), resist energy (cold), and spell turning.</p><p class='stat-block-1'><b>During Combat </b>The wizard uses dominate monster, weird, and mass hold person to control enemies, plus incendiary cloud and horrid wilting if they resist enchantments. She uses polymorph any object to change the last survivor into a marionette for her collection.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, mind blank, misdirection, protection from energy, resist energy, and spell turning, the wizard's statistics are</p><p class='stat-block-1'><b>AC </b>20, touch 16, flat-footed 17</p><p class='stat-block-1'><b>Defensive Abilities </b>none</p><p class='stat-block-1'><b>Immune </b>none</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1244,7 +1339,7 @@
                     "base_attack": "+9", 
                     "name": "Puppet Master", 
                     "skills": "Bluff +17, Craft (puppets) +16, Diplomacy +17, Disguise +12, Fly +15, Handle Animal +7, Intimidate +17, Knowledge (arcana) +26, Knowledge (dungeoneering, engineering, geography, nature, nobility, planes, religion) +16, Knowledge (history, local) +21, Perception +24, Perform (comedy) +12, Sense Motive +15, Spellcraft +21", 
-                    "super_race": "153,600half-elf enchanter 19", 
+                    "super_race": "half-elf enchanter 19", 
                     "cmd": "24", 
                     "cmb": "+8", 
                     "will": "+17; +2 vs. enchantments, +4 vs. mind-affecting", 
@@ -1260,7 +1355,7 @@
                     "resist": "cold 30, electricity 30", 
                     "melee": "quarterstaff +9/+4 (1d6\u20131)", 
                     "cr": "19", 
-                    "xp": "", 
+                    "xp": "204,800", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "size": "Medium", 
@@ -1272,7 +1367,6 @@
                     "languages": "Aklo, Celestial, Common, Draconic, Dwarf, Elven, Giant, Gnome, Halfling, Orc, Sylvan", 
                     "immune": "fire (120 points), sleep", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The wizard casts foresight, mage armor, mind blank, moment of prescience, protection from energy (fire), resist energy (cold, electricity), spell turning, and stoneskin.'), (u'During Combat', u'The wizard casts maximized disintegrate, meteor swarm, mass charm monster, and prismatic spray.'), (u'Base Statistics', u\"Without foresight, mage armor, mind blank, moment of prescience, protection from energy, resist energy, spell turning, and stoneskin, the wizard's base statistics are\"), (u'AC', u'20, touch 16, flat-footed 19'), (u'Fort', u'+14'), (u'Ref', u'+12'), (u'Will', u'+18; +2 vs. enchantments'), (u'Defensive  Abilities', u'none'), (u'DR', u'none'), (u'Immune', u'sleep'), (u'Resist', u'none'), (u'CMD', u'25.')]>", 
                     "fortitude": "+14", 
                     "spells": {
                         "wizard spells prepared": "(CL 20th; concentration +29)<p class=\"stat-block-2\">9th-maximized<i> disintegrate</i> (DC 25), <i>foresight</i>, <i>meteor swarm</i> (DC 28), <i>summon monster IX</i>, <i>time stop</i></p><p class=\"stat-block-2\">8th-<i>discern location</i>, <i>greater shout</i> (DC 29), <i>mass charm monster</i> (DC 27), <i>mind blank</i>, <i>moment of prescience</i></p><p class=\"stat-block-2\">7th-<i>forcecage</i> (2, DC 28), <i>prismatic spray</i> (2, DC 26), <i>spell turning</i></p><p class=\"stat-block-2\">6th-<i>chain lightning</i> (2, DC 27), <i>greater dispel magic </i>(2), <i>true seeing</i></p><p class=\"stat-block-2\">5th-<i>baleful polymorph</i> (DC 24), <i>break enchantment</i>, <i>cloudkill</i> (DC 24), <i>feeblemind</i> (DC 24), <i>teleport</i>, <i>wall of force</i></p><p class=\"stat-block-2\">4th-<i>dimension door </i>(2), <i>greater invisibility</i>, <i>ice storm </i>(2), <i>stoneskin</i></p><p class=\"stat-block-2\">3rd-<i>dispel magic</i>, <i>protection from energy, stinking cloud</i> (DC 22),<i> suggestion</i> (DC 22), <i>tongues</i>, <i>vampiric touch</i></p><p class=\"stat-block-2\">2nd-<i>invisibility</i>, <i>mirror image</i>, <i>resist energy</i> (2), <i>shatter</i>, <i>web</i> (DC 21)</p><p class=\"stat-block-2\">1st-<i>charm person</i> (2, DC 20), <i>mage armor </i>(2), <i>magic missile</i> (3)</p><p class=\"stat-block-2\">0 (at will)-<i>detect magic</i>, <i>light</i>, <i>mage hand</i>, <i>read magic</i></p>"
@@ -1282,6 +1376,12 @@
                     "feats": "Combat Casting, Craft Staff, Craft Wondrous Item, Extend Spell, Forge Ring, Greater Spell Focus (evocation), Improved Initiative, Maximize Spell, Quicken Spell, Scribe Scroll, Silent Spell, Spell Focus (evocation), Spell Penetration, Still Spell, Toughness", 
                     "senses": "low-light vision; Perception +18", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The wizard casts foresight, mage armor, mind blank, moment of prescience, protection from energy (fire), resist energy (cold, electricity), spell turning, and stoneskin.</p><p class='stat-block-1'><b>During Combat </b>The wizard casts maximized disintegrate, meteor swarm, mass charm monster, and prismatic spray.</p><p class='stat-block-1'><b>Base Statistics </b>Without foresight, mage armor, mind blank, moment of prescience, protection from energy, resist energy, spell turning, and stoneskin, the wizard's base statistics are</p><p class='stat-block-1'><b>AC </b>20, touch 16, flat-footed 19</p><p class='stat-block-1'><b>Fort </b>+14</p><p class='stat-block-1'><b>Ref </b>+12</p><p class='stat-block-1'><b>Will </b>+18; +2 vs. enchantments</p><p class='stat-block-1'><b>Defensive  Abilities </b>none</p><p class='stat-block-1'><b>DR </b>none</p><p class='stat-block-1'><b>Immune </b>sleep</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>CMD </b>25.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1297,7 +1397,7 @@
                     "base_attack": "+10", 
                     "name": "Master Universalist", 
                     "skills": "Diplomacy +16, Fly +14, Intimidate +11, Knowledge (arcana, history, planes) +32, Knowledge (geography, local, nature, nobility, religion) +22, Perception +18, Sense Motive +11, Spellcraft +32 (+34 to identify magic item properties), Stealth +11, Use Magic Device +21", 
-                    "super_race": "204,800elf wizard 20", 
+                    "super_race": "elf wizard 20", 
                     "cmd": "27", 
                     "cmb": "+9", 
                     "will": "+18; +2 vs. enchantments, +4 vs. mind-affecting", 

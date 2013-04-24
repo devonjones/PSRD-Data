@@ -15,7 +15,7 @@
                     "intelligence": "10", 
                     "melee": "short sword +3 (1d6+2/19\u201320)", 
                     "cr": "1/2", 
-                    "xp": "", 
+                    "xp": "200", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -26,12 +26,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue hides so he can use sneak attack.'), (u'During Combat', u'The rogue continues to engage his initial opponent in melee, or throws acid if all his opponents are at range.')]>", 
                     "fortitude": "+1", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Improved Initiative, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue hides so he can use sneak attack.</p><p class='stat-block-1'><b>During Combat </b>The rogue continues to engage his initial opponent in melee, or throws acid if all his opponents are at range.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -77,7 +82,7 @@
                     "base_attack": "+0", 
                     "name": "Cutpurse", 
                     "skills": "Acrobatics +7, Climb +6, Disable Device +7, Escape Artist +7, Knowledge (local) +4, Perception +3, Sleight of Hand +7, Stealth +7, Swim +6", 
-                    "super_race": "200human rogue 1", 
+                    "super_race": "human rogue 1", 
                     "cmd": "15", 
                     "cmb": "+2", 
                     "will": "\u20131", 
@@ -92,7 +97,7 @@
                     "intelligence": "8", 
                     "melee": "mwk greataxe +5 (1d12+4/3)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "30 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -103,12 +108,17 @@
                     "languages": "Common, Orc", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue charges at the nearest foe.')]>", 
                     "fortitude": "+1", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue charges at the nearest foe.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -155,7 +165,7 @@
                     "base_attack": "+1", 
                     "name": "Skulking Brute", 
                     "skills": "Acrobatics +5, Climb +6, Intimidate +7, Perception +6, Ride +2, Sense Motive +6, Stealth +5", 
-                    "super_race": "400half-orc rogue 2", 
+                    "super_race": "half-orc rogue 2", 
                     "cmd": "16", 
                     "cmb": "+4", 
                     "will": "+1", 
@@ -170,7 +180,7 @@
                     "intelligence": "13", 
                     "melee": "rapier +3 (1d6+1/18\u201320)", 
                     "cr": "2", 
-                    "xp": "", 
+                    "xp": "600", 
                     "speed": "30 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -182,12 +192,17 @@
                     "languages": "Common, Dwarven, Elven", 
                     "immune": "sleep", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The rogue picks a perch that's hard to reach and waits for targets to come into range.\"), (u'During Combat', u'The rogue uses her sleep arrow against ranged attackers or anyone she needs to keep alive.')]>", 
                     "fortitude": "+3", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Point-Blank Shot, Precise Shot, Skill Focus (Perception)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue picks a perch that's hard to reach and waits for targets to come into range.</p><p class='stat-block-1'><b>During Combat </b>The rogue uses her sleep arrow against ranged attackers or anyone she needs to keep alive.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -234,7 +249,7 @@
                     "base_attack": "+2", 
                     "name": "Skilled Sniper", 
                     "skills": "Acrobatics +9, Climb +7, Disguise +5, Escape Artist +9, Perception +11, Perform (wind) +5, Ride +6, Stealth +9, Survival +3, Swim +7", 
-                    "super_race": "600half-elf rogue 3", 
+                    "super_race": "half-elf rogue 3", 
                     "cmd": "16", 
                     "cmb": "+3", 
                     "will": "+1; +2 vs. enchantments", 
@@ -249,7 +264,7 @@
                     "intelligence": "13", 
                     "melee": "mwk rapier +3 (1d6\u20131/18\u201320)", 
                     "cr": "3", 
-                    "xp": "", 
+                    "xp": "800", 
                     "speed": "30 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -260,7 +275,6 @@
                     "languages": "Common, Elven", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'Using Bluff or Disguise, the rogue avoids combat.'), (u'During Combat', u'The rogue uses Improved Feint to make sneak attacks while trying to escape.')]>", 
                     "fortitude": "+1", 
                     "spells": {
                         "rogue spell-like abilities": "(CL 4th, concentration +5)<p class=\"stat-block-2\">3/day-<i>prestidigitation</i></p><p class=\"stat-block-2\">2/day-<i>disguise self</i></p>"
@@ -269,6 +283,12 @@
                     "subtype": "npc", 
                     "feats": "Combat Expertise, Deceitful, Improved Feint", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Using Bluff or Disguise, the rogue avoids combat.</p><p class='stat-block-1'><b>During Combat </b>The rogue uses Improved Feint to make sneak attacks while trying to escape.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -295,7 +315,7 @@
                     "base_attack": "+3", 
                     "name": "Charlatan", 
                     "skills": "Bluff +13, Diplomacy +11, Disable Device +9, Disguise +13, Heal +3, Knowledge (local) +8, Perception +8, Perform (sing) +9, Sense Motive +8, Sleight of Hand +9, Stealth +9, Use Magic Device +11", 
-                    "super_race": "800human rogue 4", 
+                    "super_race": "human rogue 4", 
                     "cmd": "14", 
                     "cmb": "+2", 
                     "will": "+2", 
@@ -310,7 +330,7 @@
                     "intelligence": "10", 
                     "melee": "+1 short sword +9 (1d4+1/19\u201320)", 
                     "cr": "4", 
-                    "xp": "", 
+                    "xp": "1,200", 
                     "speed": "20 ft.", 
                     "alignment": "LE", 
                     "size": "Small", 
@@ -321,12 +341,17 @@
                     "languages": "Common, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+8", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses surprise and flanking to make sneak attacks, as well as his slow reactions rogue talent.')]>", 
                     "fortitude": "+4", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Improved Initiative, Lightning Reflexes, Point-Blank Shot, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses surprise and flanking to make sneak attacks, as well as his slow reactions rogue talent.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -373,7 +398,7 @@
                     "base_attack": "+3", 
                     "name": "Guild Initiate", 
                     "skills": "Acrobatics +14 (+10 when jumping), Bluff +10, Climb +10, Disable Device +14, Knowledge (local) +8, Perception +9, Sleight of Hand +12, Stealth +16", 
-                    "super_race": "1,200halfling rogue 5", 
+                    "super_race": "halfling rogue 5", 
                     "cmd": "16", 
                     "cmb": "+2", 
                     "will": "+1; +2 vs. fear", 
@@ -388,7 +413,7 @@
                     "intelligence": "10", 
                     "melee": "mwk short sword +6 (1d6+1/19\u201320)", 
                     "cr": "5", 
-                    "xp": "", 
+                    "xp": "1,600", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -399,12 +424,17 @@
                     "languages": "Common, Dwarven", 
                     "source": "NPC Codex", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue prefers to find an elevated spot so she can shoot opponents while they waste time climbing to her.'), (u'During Combat', u'The rogue uses Rapid Shot, making the most of Point Blank Shot and her darkvision.')]>", 
                     "fortitude": "+5", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Point-Blank Shot, Precise Shot, Rapid Reload, Rapid Shot, Weapon Focus (light crossbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue prefers to find an elevated spot so she can shoot opponents while they waste time climbing to her.</p><p class='stat-block-1'><b>During Combat </b>The rogue uses Rapid Shot, making the most of Point Blank Shot and her darkvision.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -451,7 +481,7 @@
                     "base_attack": "+4", 
                     "name": "Cave Stalker", 
                     "skills": "Acrobatics +12 (+8 when jumping), Climb +12, Escape Artist +12, Knowledge (dungeoneering) +9, Perception +11 (+13 to notice unusual stonework), Stealth +12, Survival +8, Swim +10", 
-                    "super_race": "1,600dwarf rogue 6", 
+                    "super_race": "dwarf rogue 6", 
                     "cmd": "18 (22 vs. bull rush or trip)", 
                     "cmb": "+5", 
                     "will": "+4; +2 vs. poison, spells, and spell-like abilities", 
@@ -466,7 +496,7 @@
                     "intelligence": "13", 
                     "melee": "+1 rapier +10 (1d6+3/18\u201320)", 
                     "cr": "6", 
-                    "xp": "", 
+                    "xp": "2,400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -477,12 +507,17 @@
                     "languages": "Common, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses Spring Attack and Combat Expertise.')]>", 
                     "fortitude": "+4", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Reflexes, Dodge, Mobility, Spring Attack, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses Spring Attack and Combat Expertise.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -529,7 +564,7 @@
                     "base_attack": "+5", 
                     "name": "Freelance Thief", 
                     "skills": "Acrobatics +14, Bluff +9, Climb +12, Diplomacy +9, Disable Device +14, Disguise +9, Knowledge (local) +11, Perception +10, Sense Motive +10, Sleight of Hand +14, Stealth +14", 
-                    "super_race": "2,400human rogue 7", 
+                    "super_race": "human rogue 7", 
                     "cmd": "22", 
                     "cmb": "+7", 
                     "will": "+3", 
@@ -544,7 +579,7 @@
                     "intelligence": "14", 
                     "melee": "mwk dagger +7/+2 (1d3\u20131/19\u201320)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -555,12 +590,17 @@
                     "languages": "Common, Draconic, Dwarven, Gnome, Sylvan", 
                     "source": "NPC Codex", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses her crossbow to make direct attacks.')]>", 
                     "fortitude": "+6", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Dodge, Improved Initiative, Lightning Reflexes, Skill Focus (Craft [traps])", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses her crossbow to make direct attacks.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -577,7 +617,7 @@
                     "base_attack": "+6", 
                     "name": "Trapsmith", 
                     "skills": "Acrobatics +14 (+10 when jumping), Bluff +11, Climb +10, Craft (traps) +20, Disable Device +19, Escape Artist +14, Knowledge (dungeoneering) +13, Knowledge (engineering) +10, Perception +14, Stealth +18, Use Magic Device +11", 
-                    "super_race": "3,200gnome rogue 8", 
+                    "super_race": "gnome rogue 8", 
                     "cmd": "19", 
                     "cmb": "+4", 
                     "will": "+4; +2 vs. illusions", 
@@ -592,7 +632,7 @@
                     "intelligence": "14", 
                     "melee": "+1 rapier +11/+6 (1d6+1/18\u201320)", 
                     "cr": "8", 
-                    "xp": "", 
+                    "xp": "4,800", 
                     "speed": "30 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -604,12 +644,17 @@
                     "languages": "Common, Draconic, Dwarven, Elven", 
                     "immune": "sleep", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue understands that fighting and killing raises too many questions, and thus uses Diplomacy and Bluff to avoid combat and maintain his cover if at all possible.'), (u'During Combat', u'The rogue prefers to use sneak attacks and disarm combat maneuvers against his opponents, and flees if he can get away safely. If any who are present can identify him as a spy&mdash;or if their continued existence is against the interests of his shadowy paymasters&mdash;he strikes to kill.')]>", 
                     "fortitude": "+4", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Agile Maneuvers, Combat Expertise, Deceitful, Greater Disarm, Improved Disarm, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue understands that fighting and killing raises too many questions, and thus uses Diplomacy and Bluff to avoid combat and maintain his cover if at all possible.</p><p class='stat-block-1'><b>During Combat </b>The rogue prefers to use sneak attacks and disarm combat maneuvers against his opponents, and flees if he can get away safely. If any who are present can identify him as a spy&mdash;or if their continued existence is against the interests of his shadowy paymasters&mdash;he strikes to kill.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -661,7 +706,7 @@
                     "base_attack": "+6", 
                     "name": "Deadly Spy", 
                     "skills": "Acrobatics +16, Bluff +16, Diplomacy +14, Disable Device +16, Disguise +16, Escape Artist +16, Knowledge (local) +14, Perception +13, Sense Motive +11, Sleight of Hand +16, Stealth +16", 
-                    "super_race": "4,800elf rogue 9", 
+                    "super_race": "elf rogue 9", 
                     "cmd": "20 (22 vs. disarm)", 
                     "cmb": "+10 (+14 disarm)", 
                     "will": "+2; +2 vs. enchantments", 
@@ -676,7 +721,7 @@
                     "intelligence": "13", 
                     "melee": "+1 keen rapier +13/+8 (1d6+3/15\u201320)", 
                     "cr": "9", 
-                    "xp": "", 
+                    "xp": "6,400", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "size": "Medium", 
@@ -687,12 +732,17 @@
                     "languages": "Common, Elven", 
                     "source": "NPC Codex", 
                     "init": "+8", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The rogue relishes combat, but often prefers to hide the full extent of his abilities until he's completely surrounded, the better to take his enemies by surprise and make use of Whirlwind Attack.\"), (u'During Combat', u'The rogue charges into combat, trying to get in the middle of as many enemies as possible before using Whirlwind Attack, laughing and singing prayers as he lays waste to his enemies.')]>", 
                     "fortitude": "+4", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Expertise, Dodge, Improved Initiative, Mobility, Nimble Moves, Spring Attack, Weapon Finesse, Weapon Focus (rapier), Whirlwind Attack", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue relishes combat, but often prefers to hide the full extent of his abilities until he's completely surrounded, the better to take his enemies by surprise and make use of Whirlwind Attack.</p><p class='stat-block-1'><b>During Combat </b>The rogue charges into combat, trying to get in the middle of as many enemies as possible before using Whirlwind Attack, laughing and singing prayers as he lays waste to his enemies.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -739,7 +789,7 @@
                     "base_attack": "+7", 
                     "name": "Dancing Dervish", 
                     "skills": "Acrobatics +17, Climb +15, Disable Device +19, Escape Artist +17, Intimidate +13, Perception +12, Perform (dance) +13, Sleight of Hand +17, Stealth +17, Swim +15", 
-                    "super_race": "6,400human rogue 10", 
+                    "super_race": "human rogue 10", 
                     "cmd": "25", 
                     "cmb": "+9", 
                     "will": "+2", 
@@ -754,7 +804,7 @@
                     "intelligence": "12", 
                     "melee": "+1 rapier +15/+10 (1d6+3/15\u201320 plus poison)", 
                     "cr": "10", 
-                    "xp": "", 
+                    "xp": "9,600", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -766,12 +816,17 @@
                     "languages": "Common, Dwarven, Elven", 
                     "immune": "sleep", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue applies blue whinnis poison to his rapier and dagger.'), (u'During Combat', u'The rogue focuses on one target, using Power Attack, sneak attack, and the ongoing effects of his bleeding attack ability and blue whinnis poison to deal as much damage as possible in a short amount of time. If the target tries to flee, the contract killer uses Stand Still to prevent escape, or throws his poisoned dagger.')]>", 
                     "fortitude": "+5", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Reflexes, Improved Critical (rapier), Power Attack, Stand Still, Toughness, Weapon Finesse, Weapon Focus (rapier)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue applies blue whinnis poison to his rapier and dagger.</p><p class='stat-block-1'><b>During Combat </b>The rogue focuses on one target, using Power Attack, sneak attack, and the ongoing effects of his bleeding attack ability and blue whinnis poison to deal as much damage as possible in a short amount of time. If the target tries to flee, the contract killer uses Stand Still to prevent escape, or throws his poisoned dagger.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -818,7 +873,7 @@
                     "base_attack": "+8", 
                     "name": "Contract Killer", 
                     "skills": "Acrobatics +19, Bluff +13, Climb +16, Disable Device +21, Disguise +13, Intimidate +13, Knowledge (local) +15, Perception +17, Stealth +19", 
-                    "super_race": "9,600elf rogue 11", 
+                    "super_race": "elf rogue 11", 
                     "cmd": "26", 
                     "cmb": "+10", 
                     "will": "+5; +2 vs. enchantments", 
@@ -833,7 +888,7 @@
                     "intelligence": "18", 
                     "melee": "+1 frost dagger +12/+7 (1d4/19\u201320 plus 1d6 cold)", 
                     "cr": "11", 
-                    "xp": "", 
+                    "xp": "12,800", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "size": "Medium", 
@@ -844,7 +899,6 @@
                     "languages": "Common, Dwarven, Elven, Gnome, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue uses his wand of mage armor.'), (u'During Combat', u\"If forced to fight, the rogue uses the disarm combat maneuver against his opponent's weapon to defuse the situation.\"), (u'Base Statistics', u\"Without mage armor, the rogue's statistics are\"), (u'AC', u'14, touch 14, flat-footed 11.')]>", 
                     "fortitude": "+6", 
                     "spells": {
                         "rogue spell-like abilities": "(CL 12th, concentration +16)<p class=\"stat-block-2\">3/day-<i>message</i></p><p class=\"stat-block-2\">2/day-<i>comprehend languages</i></p>"
@@ -853,6 +907,12 @@
                     "subtype": "npc", 
                     "feats": "Alertness, Combat Expertise, Deceitful, Dodge, Greater Disarm, Improved Disarm, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue uses his wand of mage armor.</p><p class='stat-block-1'><b>During Combat </b>If forced to fight, the rogue uses the disarm combat maneuver against his opponent's weapon to defuse the situation.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the rogue's statistics are</p><p class='stat-block-1'><b>AC </b>14, touch 14, flat-footed 11.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -899,7 +959,7 @@
                     "base_attack": "+9", 
                     "name": "Dilettante", 
                     "skills": "Acrobatics +17, Bluff +22, Diplomacy +18, Disable Device +19, Disguise +22, Knowledge (local) +19, Knowledge (nobility, religion) +16, Perception +20, Perform (dance, sing) +18, Sense Motive +20, Stealth +17, Use Magic Device +18", 
-                    "super_race": "12,800human rogue 12", 
+                    "super_race": "human rogue 12", 
                     "cmd": "22", 
                     "cmb": "+8", 
                     "will": "+7", 
@@ -914,7 +974,7 @@
                     "intelligence": "13", 
                     "melee": "+1 short sword +12/+7 (1d6+1/17\u201320), +1 short sword +12/+7 (1d6+1/17\u201320) or<p class=\"stat-block-2\"><i>+1 short sword</i> +14/+9 (1d6+1/17\u201320)</p>", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "20 ft.", 
                     "alignment": "LE", 
                     "size": "Medium", 
@@ -924,7 +984,6 @@
                     "charisma": "12", 
                     "source": "NPC Codex", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses flanking and sneak attacks as often as possible. He relies on his resiliency and defensive roll rogue talents to stay alive against dangerous opponents.')]>", 
                     "fortitude": "+7", 
                     "spells": {
                         "rogue spell-like abilities": "(CL 13th, concentration +14)<p class=\"stat-block-2\">3/day-<i>detect magic</i></p>"
@@ -933,6 +992,12 @@
                     "subtype": "npc", 
                     "feats": "Dodge, Improved Critical (short sword), Improved Two-Weapon Fighting, Iron Will, Toughness, Two-Weapon Defense, Two-Weapon Fighting, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses flanking and sneak attacks as often as possible. He relies on his resiliency and defensive roll rogue talents to stay alive against dangerous opponents.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -979,7 +1044,7 @@
                     "base_attack": "+9", 
                     "name": "Guildmaster", 
                     "skills": "Acrobatics +20 (+16 when jumping), Bluff +17, Climb +8, Disable Device +19, Disguise +9, Knowledge (arcana) +6, Knowledge (dungeoneering) +5, Knowledge (history) +2, Knowledge (local) +14, Perception +18 (+20 to notice unusual stonework), Sense Motive +18, Sleight of Hand +12, Stealth +20, Swim +8, Use Magic Device +9", 
-                    "super_race": "19,200dwarf rogue 13", 
+                    "super_race": "dwarf rogue 13", 
                     "cmd": "25 (29 vs. bull rush or trip)", 
                     "cmb": "+9", 
                     "will": "+9; +2 vs. poison, spells, and spell-like abilities", 
@@ -994,7 +1059,7 @@
                     "intelligence": "13", 
                     "melee": "+2 vicious spiked chain +19/+14 (2d4+5/19\u201320 plus 2d6)", 
                     "cr": "13", 
-                    "xp": "", 
+                    "xp": "25,600", 
                     "speed": "30 ft.", 
                     "alignment": "CE", 
                     "size": "Medium", 
@@ -1004,13 +1069,18 @@
                     "charisma": "10", 
                     "source": "NPC Codex", 
                     "init": "+10", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses trip and disarm combat maneuvers to hinder opponents before finishing them off with damaging attacks.')]>", 
                     "fortitude": "+6", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Expertise, Exotic Weapon Proficiency (spiked chain), Greater Disarm, Greater Trip, Improved Critical (spiked chain), Improved Disarm, Improved Initiative, Improved Trip, Toughness, Weapon Finesse, Weapon Focus (spiked chain)", 
                     "senses": "Perception +16", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses trip and disarm combat maneuvers to hinder opponents before finishing them off with damaging attacks.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1055,7 +1125,7 @@
                     "base_attack": "+10", 
                     "name": "Chain Mauler", 
                     "skills": "Acrobatics +23, Climb +19, Disable Device +23, Escape Artist +23, Intimidate +17, Knowledge (dungeoneering) +8, Knowledge (local) +9, Knowledge (religion) +6, Perception +16, Sleight of Hand +23, Stealth +23, Survival +13, Swim +19", 
-                    "super_race": "25,600human rogue 14", 
+                    "super_race": "human rogue 14", 
                     "cmd": "29 (31 vs. disarm or trip)", 
                     "cmb": "+12 (+16 disarm or trip)", 
                     "will": "+4", 
@@ -1070,7 +1140,7 @@
                     "intelligence": "10", 
                     "melee": "mwk rapier +14/+9/+4 (1d6+2/18\u201320)", 
                     "cr": "14", 
-                    "xp": "", 
+                    "xp": "38,400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -1081,12 +1151,17 @@
                     "languages": "Common, Elven", 
                     "source": "NPC Codex", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue uses his ring of invisibility and finds a hiding place from which he can ambush the PCs.'), (u'During Combat', u'The rogue uses Manyshot and Rapid Shot against his foes. If discovered, he uses his ring of invisibility again and changes location.')]>", 
                     "fortitude": "+7", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Dodge, Improved Precise Shot, Manyshot, Mobility, Point-Blank Shot, Precise Shot, Rapid Shot, Shot on the Run, Skill Focus (Stealth), Weapon Focus (composite longbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue uses his ring of invisibility and finds a hiding place from which he can ambush the PCs.</p><p class='stat-block-1'><b>During Combat </b>The rogue uses Manyshot and Rapid Shot against his foes. If discovered, he uses his ring of invisibility again and changes location.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1133,7 +1208,7 @@
                     "base_attack": "+11", 
                     "name": "Unseen Archer", 
                     "skills": "Acrobatics +24, Climb +20, Disguise +17, Knowledge (dungeoneering) +8, Knowledge (geography) +5, Knowledge (nature) +15, Perception +21, Ride +21, Stealth +30, Swim +10", 
-                    "super_race": "38,400half-elf rogue 15", 
+                    "super_race": "half-elf rogue 15", 
                     "cmd": "31", 
                     "cmb": "+13", 
                     "will": "+7; +2 vs. enchantments", 
@@ -1148,7 +1223,7 @@
                     "intelligence": "10", 
                     "melee": "sword of subtlety +18/+13/+8 (1d6+5/17\u201320)", 
                     "cr": "15", 
-                    "xp": "", 
+                    "xp": "51,200", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -1159,7 +1234,6 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+8", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue drinks a potion of resist energy if he expects his target to use energy attacks and uses shield on himself.'), (u'During Combat', u'The rogue uses Sickening Critical or Intimidate to hinder opponents so he can use Shatter Defenses to sneak attack them. If the opponent has magical protections, the rogue uses the dispelling attack rogue talent to break those defenses.')]>", 
                     "fortitude": "+12", 
                     "spells": {
                         "rogue spell-like abilities": "(CL 16th, concentration +16)<p class=\"stat-block-2\">3/day-<i>detect magic</i></p><p class=\"stat-block-2\">2/day-<i>shield</i></p>"
@@ -1168,6 +1242,12 @@
                     "subtype": "npc", 
                     "feats": "Critical Focus, Dazzling Display, Improved Critical (short sword), Improved Initiative, Improved Iron Will, Iron Will, Shatter Defenses, Sickening Critical, Step Up, Weapon Finesse, Weapon Focus (short sword)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue drinks a potion of resist energy if he expects his target to use energy attacks and uses shield on himself.</p><p class='stat-block-1'><b>During Combat </b>The rogue uses Sickening Critical or Intimidate to hinder opponents so he can use Shatter Defenses to sneak attack them. If the opponent has magical protections, the rogue uses the dispelling attack rogue talent to break those defenses.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1214,7 +1294,7 @@
                     "base_attack": "+12", 
                     "name": "Mage Slayer", 
                     "skills": "Acrobatics +23, Disable Device +25, Fly +20, Intimidate +20, Knowledge (arcana) +16, Perception +20, Spellcraft +16, Stealth +23", 
-                    "super_race": "51,200half-orc rogue 16", 
+                    "super_race": "half-orc rogue 16", 
                     "cmd": "30", 
                     "cmb": "+16", 
                     "will": "+13", 
@@ -1229,7 +1309,7 @@
                     "intelligence": "14", 
                     "melee": "+1 shock rapier +19/+14/+9 (1d6+1/15\u201320 plus 1d6 electricity)", 
                     "cr": "16", 
-                    "xp": "", 
+                    "xp": "76,800", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -1240,12 +1320,17 @@
                     "languages": "Common, Dwarven, Elven", 
                     "source": "NPC Codex", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The rogue prefers to work from the shadows, manipulating events and people to do his bidding. If combat is needed, he always attacks from surprise, when his foes least expect it.'), (u'During Combat', u\"The rogue prefers to move up, strike suddenly, withdraw before his foes can respond, and use his hat of disguise to change his appearance once he's out of sight. He relies on his rogue talents to protect him.\")]>", 
                     "fortitude": "+9", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Expertise, Dodge, Greater Feint, Improved Critical (rapier), Improved Feint, Iron Will, Mobility, Spring Attack, Toughness, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The rogue prefers to work from the shadows, manipulating events and people to do his bidding. If combat is needed, he always attacks from surprise, when his foes least expect it.</p><p class='stat-block-1'><b>During Combat </b>The rogue prefers to move up, strike suddenly, withdraw before his foes can respond, and use his hat of disguise to change his appearance once he's out of sight. He relies on his rogue talents to protect him.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1292,7 +1377,7 @@
                     "base_attack": "+12", 
                     "name": "Masked Lord", 
                     "skills": "Bluff +21, Climb +8, Diplomacy +21, Disable Device +23, Disguise +21, Escape Artist +19, Intimidate +9, Knowledge (arcana, geography) +7, Knowledge (local) +22, Knowledge (nobility) +12, Perception +15, Perform (act) +8, Ride +11, Sense Motive +15, Sleight of Hand +14, Stealth +26, Use Magic Device +16", 
-                    "super_race": "76,800human rogue 17", 
+                    "super_race": "human rogue 17", 
                     "cmd": "32", 
                     "cmb": "+12", 
                     "will": "+9", 
@@ -1307,7 +1392,7 @@
                     "intelligence": "14", 
                     "melee": "+1 wounding dagger +19/+14/+9 (1d3+1/17\u201320 plus 1 bleed), +1 dagger +19/+14/+9 (1d3+1/17\u201320) or +1 wounding dagger +21/+16/+11 (1d3+1/17\u201320 plus 1 bleed)", 
                     "cr": "17", 
-                    "xp": "", 
+                    "xp": "102,400", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -1317,12 +1402,17 @@
                     "languages": "Common, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+5", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses his boots of speed and enters melee, trying to kill one opponent as quickly as possible before moving to another. In ranged combat, he uses Quick Draw to draw and throw multiple daggers in 1 round.')]>", 
                     "fortitude": "+9", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Expertise, Critical Focus, Greater Feint, Greater Two-Weapon Fighting, Improved Critical (dagger), Improved Feint, Improved Two-Weapon Fighting, Quick Draw, Two-Weapon Defense, Two-Weapon Fighting, Weapon Finesse, Weapon Focus (dagger)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses his boots of speed and enters melee, trying to kill one opponent as quickly as possible before moving to another. In ranged combat, he uses Quick Draw to draw and throw multiple daggers in 1 round.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1370,7 +1460,7 @@
                     "base_attack": "+13", 
                     "name": "Dagger Master", 
                     "skills": "Acrobatics +28 (+24 when jumping), Bluff +21, Climb +23, Diplomacy +12, Disable Device +28, Escape Artist +26, Intimidate +12, Knowledge (local) +14, Perception +23, Sleight of Hand +26, Stealth +30, Swim +12", 
-                    "super_race": "102,400halfling rogue 18", 
+                    "super_race": "halfling rogue 18", 
                     "cmd": "29", 
                     "cmb": "+12", 
                     "will": "+7; +2 vs. fear", 
@@ -1384,7 +1474,7 @@
                     "intelligence": "10", 
                     "melee": "rapier of puncturing +23/+18/+13 (1d6+4/15\u201320 plus 1 bleed)", 
                     "cr": "18", 
-                    "xp": "", 
+                    "xp": "153,600", 
                     "speed": "30 ft.", 
                     "alignment": "LE", 
                     "size": "Medium", 
@@ -1395,12 +1485,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+10", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses Spring Attack and Lightning Stance to reach opponents, and uses his rapier of puncturing to make sneak attacks.')]>", 
                     "fortitude": "+12", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Critical Focus, Dodge, Improved Critical (rapier), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Stance, Mobility, Spring Attack, Staggering Critical, Toughness, Vital Strike, Weapon Finesse, Weapon Focus (rapier), Wind Stance", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses Spring Attack and Lightning Stance to reach opponents, and uses his rapier of puncturing to make sneak attacks.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1447,7 +1542,7 @@
                     "base_attack": "+14", 
                     "name": "Death Whisperer", 
                     "skills": "Acrobatics +28, Bluff +21, Climb +24, Disable Device +39, Escape Artist +28, Perception +23, Sense Motive +23, Stealth +28, Swim +24", 
-                    "super_race": "153,600human rogue 19", 
+                    "super_race": "human rogue 19", 
                     "cmd": "35", 
                     "cmb": "+16", 
                     "will": "+12", 
@@ -1462,7 +1557,7 @@
                     "intelligence": "16", 
                     "melee": "+2 brilliant energy longsword +19/+14/+9 (1d8+5/19\u201320), +1 frost short sword +20/+15/+10 (1d6+4/19\u201320 plus 1d6 cold) or +2 brilliant energy longsword +21/+16/+11 (1d8+5/19\u201320) or +1 keen rapier +22/+17/+12 (1d6+4/15\u201320) or +1 frost short sword +22/+17/+12 (1d6+4/19\u201320 plus 1d6 cold)", 
                     "cr": "19", 
-                    "xp": "", 
+                    "xp": "204,800", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -1473,13 +1568,18 @@
                     "charisma": "8", 
                     "immune": "sleep", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The rogue uses Whirlwind Attack if engaging multiple foes, otherwise focusing all attacks with her longsword against a target whose defenses the weapon easily ignores.')]>", 
                     "fortitude": "+10", 
                     "type": "creature", 
                     "subtype": "npc", 
                     "feats": "Combat Expertise, Dodge, Greater Disarm, Greater Two-Weapon Fighting, Improved Disarm, Improved Two-Weapon Fighting, Mobility, Spring Attack, Toughness, Two-Weapon Defense, Two-Weapon Fighting, Weapon Finesse, Weapon Focus (longsword), Whirlwind Attack", 
                     "senses": "low-light vision; Perception +25", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The rogue uses Whirlwind Attack if engaging multiple foes, otherwise focusing all attacks with her longsword against a target whose defenses the weapon easily ignores.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1524,7 +1624,7 @@
                     "base_attack": "+15", 
                     "name": "Blade Lord", 
                     "skills": "Acrobatics +29, Climb +26, Diplomacy +22, Disable Device +31, Disguise +22, Escape Artist +29, Intimidate +22, Knowledge (local) +26, Perception +25, Sense Motive +23, Stealth +29", 
-                    "super_race": "204,800elf rogue 20", 
+                    "super_race": "elf rogue 20", 
                     "cmd": "38", 
                     "cmb": "+18", 
                     "will": "+8; +2 vs. enchantments", 
