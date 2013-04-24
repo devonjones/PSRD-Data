@@ -98,13 +98,37 @@
             "environment": "any temperate or tropical", 
             "immune": "weapon damage", 
             "init": "+2", 
-            "text": "<StatBlockSection Special Features [(u'Wounding (Ex)', u'Any living creature damaged by a bat swarm continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 Heal check or the application of a cure spell or some other healing magic.')]>", 
             "fortitude": "+3", 
             "type": "creature", 
             "feats": "Lightning Reflexes, Skill Focus (Perception)", 
             "senses": "blindsense 20 ft., low-light vision; Perception +15", 
             "description": "Hundreds of high-pitched squeaks fill the air as a mass of small, carnivorous bats surges forth, all of them hungry for blood.", 
-            "sections": [], 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Wounding", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary", 
+                            "text": "Any living creature damaged by a bat swarm continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 Heal check or the application of a cure spell or some other healing magic.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Bat swarms dwell in large caves, ruins, or even city sewers&mdash;anywhere they can find darkness to hide in during the day and a supply of food to feast upon at night. They are only encountered outside in a group at dawn or dusk, or when they have been startled and forced to flee their lairs.</p>"
+                }
+            ], 
             "hp": "13 (3d8)", 
             "reach": "0 ft.", 
             "wisdom": "14", 
