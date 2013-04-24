@@ -15,7 +15,7 @@
                     "intelligence": "12", 
                     "melee": "spear +2 (1d8+3/\u00d73)", 
                     "cr": "1/2", 
-                    "xp": "", 
+                    "xp": "200", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -26,7 +26,6 @@
                     "languages": "Common, Druidic, Dwarven, Giant", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts endure elements each day.'), (u'During Combat', u'The druid casts faerie fire, then drops a smokestick at his feet, letting foes come to him, and possibly sets his spear against a charge. He then fights with his spear or casts burning hands.')]>", 
                     "fortitude": "+5", 
                     "spells": {
                         "druid spells prepared": "(CL 1st; concentration +3)<p class=\"stat-block-2\">1st-<i>burning hands</i><sup>D</sup> (DC 13), <i>endure elements</i>, <i>faerie fire</i></p><p class=\"stat-block-2\">0 (at will)-<i>detect poison</i>, <i>flare</i> (DC 12), <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Fire</p>", 
@@ -35,6 +34,12 @@
                     "type": "creature", 
                     "feats": "Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts endure elements each day.</p><p class='stat-block-1'><b>During Combat </b>The druid casts faerie fire, then drops a smokestick at his feet, letting foes come to him, and possibly sets his spear against a charge. He then fights with his spear or casts burning hands.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -51,7 +56,7 @@
                     "base_attack": "+0", 
                     "name": "Initiate of Flame", 
                     "skills": "Climb +4, Handle Animal +2, Knowledge (geography) +5, Knowledge (nature) +3, Perception +6 (+8 to notice unusual stonework), Survival +8", 
-                    "super_race": "200dwarf druid 1", 
+                    "super_race": "dwarf druid 1", 
                     "cmd": "12 (16 vs. bull rush or trip)", 
                     "cmb": "+2", 
                     "will": "+4; +2 vs. poison, spells, and spell-like abilities", 
@@ -65,7 +70,7 @@
                     "intelligence": "8", 
                     "melee": "mwk club +5 (1d6+3)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -79,12 +84,17 @@
                     "languages": "Common, Druidic", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection TACTICS [(u'During Combat', u'The druid casts obscuring mist at the start of combat  and shillelagh before moving into melee range.')]>", 
                     "fortitude": "+5", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Dodge, Shield Focus", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The druid casts obscuring mist at the start of combat  and shillelagh before moving into melee range.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -100,7 +110,7 @@
                     "base_attack": "+1", 
                     "name": "Sail Master", 
                     "skills": "Handle Animal +5, Heal +5, Knowledge (geography) +3, Knowledge (nature) +1, Perception +5, Profession (sailor) +5, Survival +7, Swim +5", 
-                    "super_race": "400human druid 2", 
+                    "super_race": "human druid 2", 
                     "cmd": "16", 
                     "cmb": "+4", 
                     "will": "+4", 
@@ -115,7 +125,7 @@
                     "intelligence": "10", 
                     "melee": "sickle +1 (1d4\u20132)", 
                     "cr": "2", 
-                    "xp": "", 
+                    "xp": "600", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "spells": {
@@ -130,12 +140,19 @@
                     "languages": "Common, Druidic, Gnome", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection TACTICS [(u'During Combat', u'The druid casts spider climb and hides, then casts obscuring mist.')]>", 
                     "fortitude": "+5", 
                     "size": "Small", 
                     "type": "creature", 
                     "feats": "Augment Summoning, Spell Focus (conjuration)", 
                     "senses": "low-light vision; Perception +8", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The druid casts spider climb and hides, then casts obscuring mist.</p>"
+                        }
+                    ], 
                     "hp": "24 (3d8+7)", 
                     "wisdom": "15", 
                     "defensive_abilities": "defensive training (+4 dodge bonus to AC vs. giants)", 
@@ -144,7 +161,7 @@
                     "base_attack": "+2", 
                     "name": "Sylvan Protector", 
                     "skills": "Handle Animal +7, Heal +6, Knowledge (nature) +6, Perception +8, Spellcraft +6, Stealth +8, Survival +10", 
-                    "super_race": "600gnome druid 3", 
+                    "super_race": "gnome druid 3", 
                     "cmd": "11", 
                     "cmb": "\u20131", 
                     "will": "+5; +2 vs. illusions", 
@@ -159,7 +176,7 @@
                     "intelligence": "8", 
                     "melee": "mwk club +9 (1d6+4)", 
                     "cr": "3", 
-                    "xp": "", 
+                    "xp": "800", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -170,7 +187,6 @@
                     "languages": "Common, Druidic, Orc", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts barkskin on himself.'), (u'During Combat', u'The druid casts entangle or summon swarm.'), (u'Base Statistic', u\"Without barkskin, the druid's statistics are\"), (u'AC', u'18, touch 11, flat-footed 17.')]>", 
                     "fortitude": "+6", 
                     "spells": {
                         "druid spells prepared": "(CL 4th; conc. +5)<p class=\"stat-block-2\">2nd-<i>barkskin</i><sup>D</sup>, <i>bull's strength</i>, <i>summon swarm</i></p><p class=\"stat-block-2\">1st-<i>entangle</i><sup>D</sup> (2, DC 12), <i>faerie fire</i>, <i>shillelagh </i>(2)</p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>know direction</i>, <i>light</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Plant</p>", 
@@ -178,6 +194,14 @@
                     }, 
                     "type": "creature", 
                     "feats": "Natural Spell, Weapon Focus (club)", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts barkskin on himself.</p><p class='stat-block-1'><b>During Combat </b>The druid casts entangle or summon swarm.</p><p class='stat-block-1'><b>Base Statistic </b>Without barkskin, the druid's statistics are</p><p class='stat-block-1'><b>AC </b>18, touch 11, flat-footed 17.</p>"
+                        }
+                    ], 
                     "senses": "darkvision 60 ft.; Perception +6", 
                     "ranged": "spear +4 (1d8+4/\u00d73)", 
                     "hp": "32 (4d8+11)", 
@@ -188,7 +212,7 @@
                     "base_attack": "+3", 
                     "name": "Savage Plant sage", 
                     "skills": "Heal +7, Intimidate +2, Knowledge (nature) +8, Perception +6, Survival +10", 
-                    "super_race": "800half-orc druid 4", 
+                    "super_race": "half-orc druid 4", 
                     "cmd": "18", 
                     "cmb": "+7", 
                     "will": "+5; +4 vs. fey and plant-targeted effects", 
@@ -203,7 +227,7 @@
                     "intelligence": "12", 
                     "melee": "quarterstaff +2 (1d6\u20131) or sickle +2 (1d6\u20131)", 
                     "cr": "4", 
-                    "xp": "", 
+                    "xp": "1,200", 
                     "speed": "20 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -217,12 +241,17 @@
                     "languages": "Common, Druidic, Elven, Undercommon", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts spike growth twice per day to protect her position, using stone shape if necessary to limit any viable approaches to her.'), (u'During Combat', u'The druid wild shapes into a small flying animal at the first opportunity to escape melee. On subsequent rounds, she casts soften earth and stone and spike growth to distort the terrain beneath her enemies. She intersperses these spells with speak with animals and summoning spells to call flying creatures to harass those enemies. Once her spells are exhausted, she uses acid dart.')]>", 
                     "fortitude": "+6", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Dodge, Lightning Reflexes, Natural Spell, Skill Focus (Survival)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts spike growth twice per day to protect her position, using stone shape if necessary to limit any viable approaches to her.</p><p class='stat-block-1'><b>During Combat </b>The druid wild shapes into a small flying animal at the first opportunity to escape melee. On subsequent rounds, she casts soften earth and stone and spike growth to distort the terrain beneath her enemies. She intersperses these spells with speak with animals and summoning spells to call flying creatures to harass those enemies. Once her spells are exhausted, she uses acid dart.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -268,7 +297,7 @@
                     "base_attack": "+3", 
                     "name": "Cavern Defender", 
                     "skills": "Climb +1, Fly +4, Handle Animal +6, Heal +10, Knowledge (dungeoneering) +6, Knowledge (nature) +11, Perception +11, Spellcraft +7, Survival +15", 
-                    "super_race": "1,200half-elf druid 5", 
+                    "super_race": "half-elf druid 5", 
                     "cmd": "15", 
                     "cmb": "+2", 
                     "will": "+9; +2 vs. enchantments, +4 vs. fey and plant-targeted effects", 
@@ -284,7 +313,7 @@
                     "resist": "electricity 10", 
                     "melee": "mwk sickle +6 (1d4)", 
                     "cr": "5", 
-                    "xp": "", 
+                    "xp": "1,600", 
                     "speed": "15 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -295,7 +324,6 @@
                     "languages": "Common, Druidic, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+4", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts endure elements at the start of each day. Before a fight he drinks his potion of invisibility.'), (u'During Combat', u\"Once invisible, the druid moves away from his enemies. He spends the next few rounds casting speak with animals and his extended summon nature's ally spells, followed by magic fang and barkskin, cast from his wands on the summoned creatures. If the summoned creatures take damage, he heals them with his wand of cure moderate wounds. If his invisibility is compromised, he wild shapes into an eagle to keep out of reach.\")]>", 
                     "fortitude": "+7", 
                     "spells": {
                         "druid spells prepared": "(CL 6th; concentration +8)<p class=\"stat-block-2\">3rd-<i>gaseous form</i><sup>D</sup>, extended<i> summon nature's ally II</i> (2)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i>, extended<i> summon nature's ally I</i>, <i>summon swarm</i>, <i>wind wal l</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>endure elements</i>, <i>faerie fire</i>, <i>magic fang</i>, <i>obscuring mis t</i><sup>D</sup>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>detect poison</i>, <i>know direction</i>, <i>light</i>, <i>purify food and drink</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Air</p>", 
@@ -304,6 +332,12 @@
                     "type": "creature", 
                     "feats": "Augment Summoning, Extend Spell, Spell Focus (conjuration)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts endure elements at the start of each day. Before a fight he drinks his potion of invisibility.</p><p class='stat-block-1'><b>During Combat </b>Once invisible, the druid moves away from his enemies. He spends the next few rounds casting speak with animals and his extended summon nature's ally spells, followed by magic fang and barkskin, cast from his wands on the summoned creatures. If the summoned creatures take damage, he heals them with his wand of cure moderate wounds. If his invisibility is compromised, he wild shapes into an eagle to keep out of reach.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -349,7 +383,7 @@
                     "base_attack": "+4", 
                     "name": "Evasive Slip", 
                     "skills": "Acrobatics +4 (+0 when jumping), Bluff +2, Heal +6, Knowledge (nature) +6, Perception +9, Sense Motive +4, Spellcraft +7, Stealth +12, Survival +13, Swim +3", 
-                    "super_race": "1,600halfling druid 6", 
+                    "super_race": "halfling druid 6", 
                     "cmd": "17", 
                     "cmb": "+3", 
                     "will": "+8; +2 vs. fear, +4 vs. fey and plant-targeted effects", 
@@ -365,7 +399,7 @@
                     "resist": "cold 10", 
                     "melee": "mwk shortspear +6 (1d6) or<p class=\"stat-block-2\">club +5 (1d6)</p>", 
                     "cr": "6", 
-                    "xp": "", 
+                    "xp": "2,400", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -377,7 +411,6 @@
                     "languages": "Common, Aquan, Draconic, Druidic, Elven, Sylvan", 
                     "immune": "sleep", 
                     "init": "+6", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid drinks her potion of shield of faith.'), (u'During Combat', u\"The druid prefers to be in or near a body of water to take advantage of her abilities. She opens with her ice storm or fog cloud spells in order to slow down her opponents. Afterward, she wild shapes into either a dire bear or a giant octopus (depending on the terrain), and alternates rounds of attacks with spells such as bear's endurance and barkskin.\"), (u'Base Statistics', u\"Without shield of faith, the druid's statistics are\"), (u'AC', u'22, touch 12, flat-footed 20'), (u'CMD', u'17.')]>", 
                     "fortitude": "+6", 
                     "spells": {
                         "druid spells prepared": "(CL 7th; concentration +10)<p class=\"stat-block-2\">4th-<i>control wate r</i><sup>D</sup>, <i>ice storm</i></p><p class=\"stat-block-2\">3rd-<i>cure moderate wounds</i>, <i>daylight</i>, <i>sleet storm, water breathing</i><sup>D</sup></p><p class=\"stat-block-2\">2nd-<i>animal messenger</i>, <i>barkskin</i>, <i>bear's endurance</i>, <i>fog clou d</i><sup>D</sup>, <i>resist energy</i></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i>, <i>endure elements</i>, <i>magic fang</i>, <i>obscuring mis t</i><sup>D</sup>, <i>shillelagh</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>light</i>, <i>mending</i>, <i>purify food and drink</i>, <i>read magic</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Water</p>", 
@@ -386,6 +419,12 @@
                     "type": "creature", 
                     "feats": "Combat Casting, Improved Initiative, Lightning Reflexes, Natural Spell", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid drinks her potion of shield of faith.</p><p class='stat-block-1'><b>During Combat </b>The druid prefers to be in or near a body of water to take advantage of her abilities. She opens with her ice storm or fog cloud spells in order to slow down her opponents. Afterward, she wild shapes into either a dire bear or a giant octopus (depending on the terrain), and alternates rounds of attacks with spells such as bear's endurance and barkskin.</p><p class='stat-block-1'><b>Base Statistics </b>Without shield of faith, the druid's statistics are</p><p class='stat-block-1'><b>AC </b>22, touch 12, flat-footed 20</p><p class='stat-block-1'><b>CMD </b>17.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -411,7 +450,7 @@
                     "base_attack": "+5", 
                     "name": "Island Defender", 
                     "skills": "Fly +4, Handle Animal +5, Heal +11, Knowledge (history) +4, Knowledge (nature) +14, Linguistics +3, Perception +15, Spellcraft +11 (+13 to identify magic item properties), Survival +14, Swim +5", 
-                    "super_race": "2,400elf druid 7", 
+                    "super_race": "elf druid 7", 
                     "cmd": "19", 
                     "cmb": "+5", 
                     "will": "+8; +2 vs. enchantments, +4 vs. fey and plant-targeted effects", 
@@ -426,7 +465,7 @@
                     "intelligence": "10", 
                     "melee": "mwk scimitar +11/+6 (1d4+3/18\u201320)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "15 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -440,12 +479,17 @@
                     "languages": "Common, Druidic, Goblin, Halfling", 
                     "source": "NPC Codex", 
                     "init": "+7", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u\"The druid casts barkskin and bull's strength.\"), (u'During Combat', u'The druid is well aware of his physical shortcomings, and wild shapes into a Medium air elemental the first chance he gets to escape melee combat. Once at a safe altitude, he casts wind wall and freedom of movement. If still threatened, he casts offensive spells such as flame strike or sleet storm, or uses his Weather domain spell-like abilities. If targeted by spellcasters, he casts fog cloud to obscure vision. If forced into melee, he casts greater magic fang before wild shaping into a Huge animal (preferably a triceratops or an orca).'), (u'Base Statistics', u\"Without barkskin and bull's strength, the druid's statistics are\"), (u'AC', u'23, touch 14, flat-footed 20'), (u'Melee', u'mwk scimitar +11/+6 (1d4+1/18\\u201320)'), (u'Ranged', u'mwk sling +11/+6 (1d3+1)'), (u'Str', u'12'), (u'CMB', u'+6'), (u'CMD', u'19'), (u'Skills', u'Climb +6, Swim +3.')]>", 
                     "fortitude": "+9", 
                     "size": "Small", 
                     "type": "creature", 
                     "feats": "Improved Initiative, Natural Spell, Toughness, Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts barkskin and bull's strength.</p><p class='stat-block-1'><b>During Combat </b>The druid is well aware of his physical shortcomings, and wild shapes into a Medium air elemental the first chance he gets to escape melee combat. Once at a safe altitude, he casts wind wall and freedom of movement. If still threatened, he casts offensive spells such as flame strike or sleet storm, or uses his Weather domain spell-like abilities. If targeted by spellcasters, he casts fog cloud to obscure vision. If forced into melee, he casts greater magic fang before wild shaping into a Huge animal (preferably a triceratops or an orca).</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin and bull's strength, the druid's statistics are</p><p class='stat-block-1'><b>AC </b>23, touch 14, flat-footed 20</p><p class='stat-block-1'><b>Melee </b>mwk scimitar +11/+6 (1d4+1/18\u201320)</p><p class='stat-block-1'><b>Ranged </b>mwk sling +11/+6 (1d3+1)</p><p class='stat-block-1'><b>Str </b>12</p><p class='stat-block-1'><b>CMB </b>+6</p><p class='stat-block-1'><b>CMD </b>19</p><p class='stat-block-1'><b>Skills </b>Climb +6, Swim +3.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -491,7 +535,7 @@
                     "base_attack": "+6", 
                     "name": "Sea Captain", 
                     "skills": "Acrobatics +1 (\u20133 when jumping), Climb +8, Fly +6, Handle Animal +5, Heal +11, Knowledge (nature) +10, Perception +15, Spellcraft +7, Survival +13, Swim +5", 
-                    "super_race": "3,200halfling druid 8", 
+                    "super_race": "halfling druid 8", 
                     "cmd": "21", 
                     "cmb": "+8", 
                     "will": "+12; +2 vs. fear, +4 vs. fey and plant-targeted effects", 
@@ -507,7 +551,7 @@
                     "resist": "acid 10", 
                     "melee": "mwk club +10/+5 (1d6+3)", 
                     "cr": "8", 
-                    "xp": "", 
+                    "xp": "4,800", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -519,7 +563,6 @@
                     "languages": "Common", 
                     "immune": "poison", 
                     "init": "+0", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u\"The druid casts barkskin and bull's strength.\"), (u'During Combat', u'The druid casts wall of stone between his opponents to separate them. On the following rounds, he spontaneously casts summoning spells, bolstering summoned creatures with greater magic fang. He eventually wild shapes into a stegosaurus to enter melee.'), (u'Base Statistics', u\"Without barkskin and bull's strength, the druid's statistics are\"), (u'AC', u'19, touch 10, flat-footed 19'), (u'Melee', u'mwk club +8/+3 (1d6+1)'), (u'Ranged', u'mwk shortspear +7/+2 (1d6+1)'), (u'Str', u'13'), (u'CMB', u'+7'), (u'CMD', u'17'), (u'Skills', u'Swim +4.')]>", 
                     "fortitude": "+8", 
                     "spells": {
                         "druid spells prepared": "(CL 9th; concentration +14)<p class=\"stat-block-2\">5th-<i>animal growth</i> (DC 20), <i>stoneskin</i>, <i>wall of stone</i><sup>D</sup></p><p class=\"stat-block-2\">4th-<i>dispel magic</i>, <i>freedom of movement</i>, <i>giant vermin</i>, <i>spike stones</i><sup>D</sup> (DC 19)</p><p class=\"stat-block-2\">3rd-<i>greater magic fang</i> (3), <i>spike growth</i> (DC 18), <i>stone shape</i><sup>D</sup></p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (2), <i>bull's strength</i> (2), <i>fog cloud</i>, <i>soften earth and stone</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i> (2), <i>faerie fire</i> (2), <i>magic stone</i><sup>D</sup>, <i>shillelagh</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>guidance</i>, <i>know direction</i>, <i>light</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Earth</p>", 
@@ -528,6 +571,12 @@
                     "type": "creature", 
                     "feats": "Augment Summoning, Lightning Reflexes, Lunge, Power Attack, Spell Focus (conjuration), Vital Strike", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts barkskin and bull's strength.</p><p class='stat-block-1'><b>During Combat </b>The druid casts wall of stone between his opponents to separate them. On the following rounds, he spontaneously casts summoning spells, bolstering summoned creatures with greater magic fang. He eventually wild shapes into a stegosaurus to enter melee.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin and bull's strength, the druid's statistics are</p><p class='stat-block-1'><b>AC </b>19, touch 10, flat-footed 19</p><p class='stat-block-1'><b>Melee </b>mwk club +8/+3 (1d6+1)</p><p class='stat-block-1'><b>Ranged </b>mwk shortspear +7/+2 (1d6+1)</p><p class='stat-block-1'><b>Str </b>13</p><p class='stat-block-1'><b>CMB </b>+7</p><p class='stat-block-1'><b>CMD </b>17</p><p class='stat-block-1'><b>Skills </b>Swim +4.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -573,7 +622,7 @@
                     "base_attack": "+6", 
                     "name": "Mud Shaman", 
                     "skills": "Craft (woodworking) +6, Fly +4, Handle Animal +6, Knowledge (geography) +5, Knowledge (nature) +9, Perception +13, Spellcraft +4, Survival +18, Swim +6", 
-                    "super_race": "4,800human druid 9", 
+                    "super_race": "human druid 9", 
                     "cmd": "19", 
                     "cmb": "+9", 
                     "will": "+11; +4 vs. fey and plant-targeted effects", 
@@ -589,7 +638,7 @@
                     "resist": "cold 10", 
                     "melee": "+1 scimitar +7/+2 (1d4\u20131/18\u201320)", 
                     "cr": "9", 
-                    "xp": "", 
+                    "xp": "6,400", 
                     "speed": "15 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -601,7 +650,6 @@
                     "languages": "Abyssal, Common, Draconic, Druidic, Elf, Gnome, Sylvan", 
                     "immune": "poison", 
                     "init": "+7", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u\"The druid casts barkskin and cat's grace. She casts endure elements every morning.\"), (u'During Combat', u'The druid keeps her distance from opponents. She casts freedom of movement, then wild shapes into an air elemental to fly away. Once she feels she has the tactical advantage, she relies on summon spells and ranged abilities to avoid melee.'), (u'Base Statistics', u\"Without barkskin and cat's grace, the druid's statistics are\"), (u'Init', u'+5'), (u'AC', u'23, touch 13, flat-footed 22'), (u'Ref', u'+7'), (u'Ranged', u'dart +9/+4 (1d3\\u20132)'), (u'Dex', u'12'), (u'CMD', u'16'), (u'Skills', u'Fly +5.')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "druid spells prepared": "(CL 10th; concentration +14)<p class=\"stat-block-2\">5th-<i>call lightning storm</i> (DC 19), <i>ice storm</i><sup>D</sup>, <i>wall of thorns</i></p><p class=\"stat-block-2\">4th-<i>control wate r</i><sup>D</sup>, <i>dispel magic</i>, <i>flame strike</i> (2, DC 18), <i>freedom of movement</i></p><p class=\"stat-block-2\">3rd-<i>call lightning</i> (DC 17), <i>cure moderate wounds</i>, <i>greater magic fang</i> (2), <i>water breathing</i><sup>D</sup></p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (2), <i>cat's grace</i>, <i>fog cloud</i><sup>D</sup>, <i>lesser restoration</i>, <i>resist energy</i></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i> (2), <i>endure elements</i>, <i>faerie fire</i>, <i>obscuring mist</i><sup>D</sup>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>detect poison</i>, <i>light</i>, <i>purify food and drink</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Water</p>", 
@@ -611,6 +659,12 @@
                     "type": "creature", 
                     "feats": "Improved Initiative, Lightning Reflexes, Natural Spell, Skill Focus (Bluff), Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts barkskin and cat's grace. She casts endure elements every morning.</p><p class='stat-block-1'><b>During Combat </b>The druid keeps her distance from opponents. She casts freedom of movement, then wild shapes into an air elemental to fly away. Once she feels she has the tactical advantage, she relies on summon spells and ranged abilities to avoid melee.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin and cat's grace, the druid's statistics are</p><p class='stat-block-1'><b>Init </b>+5</p><p class='stat-block-1'><b>AC </b>23, touch 13, flat-footed 22</p><p class='stat-block-1'><b>Ref </b>+7</p><p class='stat-block-1'><b>Ranged </b>dart +9/+4 (1d3\u20132)</p><p class='stat-block-1'><b>Dex </b>12</p><p class='stat-block-1'><b>CMD </b>16</p><p class='stat-block-1'><b>Skills </b>Fly +5.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -637,7 +691,7 @@
                     "base_attack": "+7", 
                     "name": "Water Merchant", 
                     "skills": "Bluff +10, Diplomacy +5, Fly +7, Handle Animal +10, Knowledge (geography) +9, Knowledge (nature) +11, Linguistics +4, Perception +13, Profession (merchant) +15, Sense Motive +10, Spellcraft +12, Survival +17", 
-                    "super_race": "6,400gnome druid 10", 
+                    "super_race": "gnome druid 10", 
                     "cmd": "18", 
                     "cmb": "+4", 
                     "will": "+12; +2 vs. illusions, +4 vs. fey and plant-targeted effects", 
@@ -653,7 +707,7 @@
                     "resist": "electricity 10", 
                     "melee": "+1 sickle +10/+5 (1d6+2)", 
                     "cr": "10", 
-                    "xp": "", 
+                    "xp": "9,600", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -665,7 +719,6 @@
                     "languages": "Aquan, Auran, Common, Druidic, Elven, Ignan", 
                     "immune": "poison", 
                     "init": "+5", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts ironwood on her breastplate every 11 days, liveoak on an oak three times per month, and endure elements every morning.'), (u'During Combat', u'The druid orders her treant guardian into combat, wild shapes into a Large earth elemental, and uses earth glide to flee underground where she casts beneficial spells on herself. Once prepared, she moves above ground and opens with chain lightning.')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "druid spells prepared": "(CL 11th; concentration +16)<p class=\"stat-block-2\">6th-<i>chain lightning</i><sup>D</sup> (DC 22), <i>greater dispel magic</i></p><p class=\"stat-block-2\">5th-<i>call lightning storm</i> (DC 21), <i>control winds</i><sup>D</sup> (DC 20), <i>cure critical wounds</i>, <i>wall of fire</i> (DC 21)</p><p class=\"stat-block-2\">4th-<i>air wal k</i><sup>D</sup>, <i>cure serious wounds</i>, <i>freedom of movement</i>, <i>ice storm</i> (DC 20), <i>scrying</i> (DC 19)</p><p class=\"stat-block-2\">3rd-<i>gaseous form</i><sup>D</sup>, <i>greater magic fang</i> (2), <i>protection from energy</i> (2), <i>sleet storm</i></p><p class=\"stat-block-2\">2nd-<i>animal messenger</i>, <i>barkskin</i> (3), <i>fog cloud</i>, <i>wind wal l</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i> (2), <i>endure elements</i>, <i>faerie fire</i> (2), <i>obscuring mis t</i><sup>D</sup>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>flare</i> (DC 16), <i>light</i>, <i>mending</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Air</p>", 
@@ -674,6 +727,12 @@
                     "type": "creature", 
                     "feats": "Dodge, Improved Initiative, Mobility, Natural Spell, Skill Focus (Survival), Spell Focus (evocation), Vital Strike", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts ironwood on her breastplate every 11 days, liveoak on an oak three times per month, and endure elements every morning.</p><p class='stat-block-1'><b>During Combat </b>The druid orders her treant guardian into combat, wild shapes into a Large earth elemental, and uses earth glide to flee underground where she casts beneficial spells on herself. Once prepared, she moves above ground and opens with chain lightning.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -719,7 +778,7 @@
                     "base_attack": "+8", 
                     "name": "Mistress of High Places", 
                     "skills": "Fly +6, Handle Animal +6, Heal +9, Knowledge (nature) +9, Knowledge (planes) +3, Linguistics +2, Perception +14, Perform (dance) +2, Spellcraft +5, Survival +18", 
-                    "super_race": "9,600half-elf druid 11", 
+                    "super_race": "half-elf druid 11", 
                     "cmd": "22", 
                     "cmb": "+9", 
                     "will": "+13; +2 vs. enchantments, +4 vs. fey and plant-targeted effects", 
@@ -734,7 +793,7 @@
                     "intelligence": "10", 
                     "melee": "+1 scimitar +12/+7 (1d6+3/18\u201320) or mwk club +12/+7 (1d6+2)", 
                     "cr": "11", 
-                    "xp": "", 
+                    "xp": "12,800", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -745,7 +804,6 @@
                     "charisma": "8", 
                     "immune": "poison", 
                     "init": "+3", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts liveoak every 12 days and endure elements every morning.'), (u'During Combat', u\"The druid commands his treant to protect him while he wild shapes into a Huge air elemental and casts freedom of movement, barkskin, and greater magic fang. He then spontaneously uses summon nature's ally VI to summon a dire tiger, upon which he casts animal growth, barkskin, greater magic fang, and cat's grace.\")]>", 
                     "fortitude": "+11", 
                     "spells": {
                         "druid spells prepared": "(CL 12th; concentration +16)<p class=\"stat-block-2\">6th-<i>control winds</i><sup>D</sup> (DC 20), <i>greater dispel magic</i>, <i>repel wood</i></p><p class=\"stat-block-2\">5th-<i>call lightning storm</i> (DC 19), <i>cure critical wounds</i>, <i>ice storm</i><sup>D</sup>,<i> tree stride</i></p><p class=\"stat-block-2\">4th-<i>cure serious wounds</i>, <i>dispel magic</i>, <i>flame strike</i> (DC 18), <i>freedom of movement</i>, <i>sleet storm</i><sup>D</sup></p><p class=\"stat-block-2\">3rd-<i>call lightning</i><sup>D</sup> (DC 17), <i>cure moderate wounds</i>, <i>greater magic fang</i> (3), <i>protection from energy </i>(DC 17)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (2), <i>bear's endurance</i>, <i>bull's strength</i>, <i>cat's grace</i>, <i>fog cloud</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>endure elements</i>, <i>entangle</i> (DC 15), <i>faerie fire</i>, <i>obscuring mist</i><sup>D</sup>, <i>shillelagh</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>detect magic</i>, <i>guidance</i>, <i>stabilize</i>, <i>virtue</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Weather</p>", 
@@ -754,6 +812,12 @@
                     "type": "creature", 
                     "feats": "Augment Summoning, Combat Casting, Combat Reflexes, Dodge, Power Attack, Spell Focus (conjuration)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts liveoak every 12 days and endure elements every morning.</p><p class='stat-block-1'><b>During Combat </b>The druid commands his treant to protect him while he wild shapes into a Huge air elemental and casts freedom of movement, barkskin, and greater magic fang. He then spontaneously uses summon nature's ally VI to summon a dire tiger, upon which he casts animal growth, barkskin, greater magic fang, and cat's grace.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -800,7 +864,7 @@
                     "base_attack": "+9", 
                     "name": "Castaway", 
                     "skills": "Climb +8, Fly +9, Handle Animal +5, Heal +11, Intimidate +1, Knowledge (nature) +13, Linguistics +3, Perception +17, Sense Motive +9, Survival +15, Swim +7", 
-                    "super_race": "12,800half-orc druid 12", 
+                    "super_race": "half-orc druid 12", 
                     "cmd": "26", 
                     "cmb": "+11", 
                     "will": "+14; +4 vs. fey and plant-targeted effects", 
@@ -816,7 +880,7 @@
                     "resist": "cold 20", 
                     "melee": "+1 sickle +13/+8 (1d4)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "15 ft.", 
                     "alignment": "CN", 
                     "size": "Small", 
@@ -828,7 +892,6 @@
                     "languages": "Aquan, Auran, Common, Druidic, Giant, Gnome, Ignan, Sylvan, Terran", 
                     "immune": "poison", 
                     "init": "+2", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts liveoak every 13 days, and endure elements each morning.'), (u'During Combat', u\"The druid casts stoneskin on her treant and orders it into combat. She wild shapes into a bat and casts cat's grace and barkskin on herself. She then casts cure spells or spontaneous summon nature's ally as necessary. If entering melee, she casts protection from energy and greater magic fang, then wild shapes into a treant herself.\")]>", 
                     "fortitude": "+12", 
                     "spells": {
                         "druid spells prepared": "(CL 13th; concentration +18)<p class=\"stat-block-2\">7th-<i>creeping doom</i> (DC 23), <i>elemental body I V</i><sup>D</sup> (water only)</p><p class=\"stat-block-2\">6th-<i>antilife shell</i>, <i>cone of col d</i><sup>D</sup> (2, DC 21)</p><p class=\"stat-block-2\">5th-<i>call lightning storm</i> (DC 20), <i>cure critical wounds</i> (2), <i>ice storm</i><sup>D</sup>, <i>stoneskin</i></p><p class=\"stat-block-2\">4th-<i>cure serious wounds</i>, <i>control weathe r</i><sup>D</sup>, <i>dispel magic</i>, <i>flame strike</i> (DC 19), <i>freedom of movement</i>, <i>spike stones</i> (DC 19)</p><p class=\"stat-block-2\">3rd-<i>greater magic fang</i>, <i>protection from energy</i>, <i>quench</i>, <i>sleet storm</i>, <i>speak with plants</i>, <i>water breathing</i><sup>D</sup></p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (2), <i>cat's grace</i> (2), <i>fog clou d</i><sup>D</sup>, <i>spider climb</i></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i>, <i>endure elements</i>, <i>faerie fire</i>, <i>longstrider</i>, <i>obscuring mis t</i><sup>D</sup>, <i>pass without trace</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>flare</i> (DC 15), <i>guidance</i>, <i>light</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Water</p>", 
@@ -837,6 +900,12 @@
                     "type": "creature", 
                     "feats": "Augment Summoning, Combat Casting, Combat Expertise, Dodge, Natural Spell, Spell Focus (conjuration), Weapon Finesse", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts liveoak every 13 days, and endure elements each morning.</p><p class='stat-block-1'><b>During Combat </b>The druid casts stoneskin on her treant and orders it into combat. She wild shapes into a bat and casts cat's grace and barkskin on herself. She then casts cure spells or spontaneous summon nature's ally as necessary. If entering melee, she casts protection from energy and greater magic fang, then wild shapes into a treant herself.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -863,7 +932,7 @@
                     "base_attack": "+9", 
                     "name": "Fey friend", 
                     "skills": "Craft (woodworking) +11, Handle Animal +6, Heal +12, Knowledge (geography) +7, Knowledge (nature) +14, Linguistics +6, Perception +20, Ride +7, Spellcraft +14, Survival +22, Swim +4", 
-                    "super_race": "19,200gnome druid 13", 
+                    "super_race": "gnome druid 13", 
                     "cmd": "21", 
                     "cmb": "+7", 
                     "will": "+15; +2 vs. illusions, +4 vs. fey and plant-targeted effects", 
@@ -879,7 +948,7 @@
                     "resist": "fire 20", 
                     "melee": "+1 club +16/+11 (1d6+6)", 
                     "cr": "13", 
-                    "xp": "", 
+                    "xp": "25,600", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -891,7 +960,6 @@
                     "languages": "Common", 
                     "immune": "poison", 
                     "init": "+1", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts barkskin. He also casts ironwood on his breastplate twice per month, and endure elements every morning.'), (u'During Combat', u\"The druid wild shapes into a Huge fire elemental when casting offensive spells, and wild shapes into a Huge earth elemental when entering melee. He opens with spells such as fire storm and empowered fireball. Before entering melee, he casts cat's grace, freedom of movement, and greater magic fang on himself.\"), (u'Base Statistics', u\"Without barkskin, the druid's statistics are\"), (u'AC', u'23, touch 13, flat-footed 22.')]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "druid spells prepared": "(CL 14th; concentration +18)<p class=\"stat-block-2\">7th-<i>elemental body I V</i><sup>D</sup> (fire only), <i>fire storm</i> (2, DC 23)</p><p class=\"stat-block-2\">6th-<i>fire seeds</i><sup>D</sup>, empowered<i> flame strike</i> (2, DC 20), <i>wall of stone</i></p><p class=\"stat-block-2\">5th-<i>fire shiel d</i><sup>D</sup>, empowered <i>fireball</i> (2, DC 19), <i>wall of fire</i></p><p class=\"stat-block-2\">4th-<i>air walk</i>, <i>cure serious wounds</i>, <i>dispel magic</i>, <i>freedom of movement</i>, <i>ice storm</i> (DC 20), <i>wall of fire</i><sup>D</sup></p><p class=\"stat-block-2\">3rd-<i>dominate animal</i> (DC 17), <i>fireball</i><sup>D</sup>(2, DC 19), <i>greater magic fang</i> (2), <i>spike growth</i> (DC 17)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (3), <i>bull's strength</i>, <i>cat's grace</i>, <i>produce flame</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>burning hands</i><sup>D</sup>(2, DC 17), <i>cure light wounds</i>, <i>faerie fire</i>, <i>shillelagh</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>flare</i> (DC 16), <i>light</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Fire</p>", 
@@ -900,6 +968,12 @@
                     "type": "creature", 
                     "feats": "Combat Casting, Empower Spell, Greater Spell Focus (evocation), Natural Spell, Power Attack, Spell Focus (evocation), Toughness, Vital Strike", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts barkskin. He also casts ironwood on his breastplate twice per month, and endure elements every morning.</p><p class='stat-block-1'><b>During Combat </b>The druid wild shapes into a Huge fire elemental when casting offensive spells, and wild shapes into a Huge earth elemental when entering melee. He opens with spells such as fire storm and empowered fireball. Before entering melee, he casts cat's grace, freedom of movement, and greater magic fang on himself.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, the druid's statistics are</p><p class='stat-block-1'><b>AC </b>23, touch 13, flat-footed 22.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -945,7 +1019,7 @@
                     "base_attack": "+10", 
                     "name": "Fury of Flame", 
                     "skills": "Climb +8, Fly +5, Handle Animal +6, Heal +12, Knowledge (geography) +7, Knowledge (nature) +11, Perception +15, Perform (oratory) +5, Ride +7, Spellcraft +11, Survival +23, Swim +9", 
-                    "super_race": "25,600human druid 14", 
+                    "super_race": "human druid 14", 
                     "cmd": "28", 
                     "cmb": "+15", 
                     "will": "+15; +4 vs. fey and plant-targeted effects", 
@@ -960,7 +1034,7 @@
                     "intelligence": "12", 
                     "melee": "+1 cold iron scythe +13/+8/+3 (2d4+2/\u00d74)", 
                     "cr": "14", 
-                    "xp": "", 
+                    "xp": "38,400", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -972,7 +1046,6 @@
                     "languages": "Abyssal, Common, Druidic, Elven", 
                     "immune": "poison, sleep", 
                     "init": "+7", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts stoneskin, barkskin, and longstrider and drinks her potion of haste.'), (u'During Combat', u'The druid locks down opponents with entangle, wall of stone, and transmute rock to mud, while casting creeping doom and animate plants from a distance.'), (u'Base Statistics', u\"Without stoneskin, barkskin, and longstrider, the druid's statistics are\"), (u'AC', u'27, touch 16, flat-footed 23'), (u'DR', u'none'), (u'Speed', u'20 ft.')]>", 
                     "fortitude": "+12", 
                     "spells": {
                         "druid spells prepared": "(CL 15th; concentration +20)<p class=\"stat-block-2\">8th-<i>control plants</i><sup>D</sup> (DC 23), <i>word of recall</i></p><p class=\"stat-block-2\">7th-<i>animate plants</i><sup>D</sup>, <i>creeping doom</i> (DC 22), <i>true seeing</i></p><p class=\"stat-block-2\">6th-<i>antilife shell</i>, <i>mass cure light wounds</i>, <i>repel woo d</i><sup>D</sup>, <i>wall of stone</i></p><p class=\"stat-block-2\">5th-<i>baleful polymorph</i> (DC 20), <i>insect plague</i>, <i>stoneskin</i>, <i>transmute rock to mud</i>, <i>tree stride</i>, <i>wall of thorns</i><sup>D</sup></p><p class=\"stat-block-2\">4th-<i>air walk</i>, <i>command plants</i><sup>D</sup> (DC 19), <i>cure serious wounds</i>, <i>freedom of movement</i>, <i>rusting grasp</i>, <i>scrying</i> (DC 19)</p><p class=\"stat-block-2\">3rd-<i>daylight</i>, <i>greater magic fang</i> (2), <i>plant growth</i><sup>D</sup><i>, protection from energy</i> (2, DC 18)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i><sup>D</sup> (3), <i>bear's endurance</i>, <i>lesser restoration, longstrider</i></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i> (2), <i>entangle</i><sup>D</sup> (DC 16), <i>faerie fire</i> (2), <i>obscuring mist</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>detect magic</i>, <i>light</i>, <i>mending</i>, <i>read magic</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Plant</p>", 
@@ -982,6 +1055,12 @@
                     "feats": "Blind-Fight, Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Natural Spell, Power Attack, Spell Penetration", 
                     "senses": "low-light vision; Perception +18", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts stoneskin, barkskin, and longstrider and drinks her potion of haste.</p><p class='stat-block-1'><b>During Combat </b>The druid locks down opponents with entangle, wall of stone, and transmute rock to mud, while casting creeping doom and animate plants from a distance.</p><p class='stat-block-1'><b>Base Statistics </b>Without stoneskin, barkskin, and longstrider, the druid's statistics are</p><p class='stat-block-1'><b>AC </b>27, touch 16, flat-footed 23</p><p class='stat-block-1'><b>DR </b>none</p><p class='stat-block-1'><b>Speed </b>20 ft.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1007,7 +1086,7 @@
                     "base_attack": "+11", 
                     "name": "Creeping Death", 
                     "skills": "Climb +5, Fly +7, Handle Animal +9, Heal +13, Knowledge (geography) +10, Knowledge (nature) +14, Knowledge (planes) +9, Perception +18, Ride +6, Spellcraft +14 (+16 to identify magic item properties), Survival +19, Swim +5", 
-                    "super_race": "38,400elf druid 15", 
+                    "super_race": "elf druid 15", 
                     "cmd": "28", 
                     "cmb": "+12", 
                     "will": "+16; +2 vs. enchantments, +4 vs. fey and plant-targeted effects", 
@@ -1023,7 +1102,7 @@
                     "resist": "cold 20", 
                     "melee": "+1 scimitar +15/+10/+5 (1d6+3/18\u201320)", 
                     "cr": "15", 
-                    "xp": "", 
+                    "xp": "51,200", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -1035,7 +1114,6 @@
                     "languages": "Common", 
                     "immune": "poison", 
                     "init": "+2", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'Twice per month, the druid casts ironwood on her armor and also casts liveoak.'), (u'During Combat', u'The druid casts empowered cone of cold, then begins spontaneously summoning creatures and casting animal growth, stoneskin, and greater magic fang on them. While they are fighting, she casts spells to heal them and enhance her abilities. When entering melee, she casts true seeing, death ward, freedom of movement, and barkskin on herself, and drinks her potions of haste and displacement before wild shaping into a Huge water elemental.')]>", 
                     "fortitude": "+14", 
                     "spells": {
                         "druid spells prepared": "(CL 16th; concentration +22)<p class=\"stat-block-2\">8th-empowered<i> cone of cold</i> (2, DC 22), <i>horrid wilting</i><sup>D</sup> (DC 24)</p><p class=\"stat-block-2\">7th-<i>elemental body IV</i><span class=\"char-style-override-16\"> D (water only), <i>fire storm</i> (DC 23), <i>heal</i>, <i>true seeing</i></span></p><p class=\"stat-block-2\">6th-<i>antilife shell</i>, <i>cone of col d</i><sup>D</sup> (DC 22), empowered<i> flame strike</i> (DC 20), <i>greater dispel magic</i>, <i>wall of stone</i></p><p class=\"stat-block-2\">5th-<i>animal growth</i> (2, DC 21), <i>cure critical wounds</i>, <i>death ward</i>, <i>ice storm</i><sup>D</sup>, <i>stoneskin</i></p><p class=\"stat-block-2\">4th-<i>air walk</i>, <i>control weathe r</i><sup>D</sup>, <i>dispel magic</i>, <i>flame strike</i> (DC 20), <i>freedom of movement</i>, <i>spike stones</i> (DC 20)</p><p class=\"stat-block-2\">3rd-<i>daylight</i>, <i>greater magic fang</i> (3), <i>protection from energy</i>, <i>water breathing</i><sup>D</sup></p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (3), <i>bear's endurance</i>, <i>bull's strength</i>, <i>cat's grace</i>, <i>fog clou d</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i> (3), <i>faerie fire</i>, <i>longstrider</i>, <i>obscuring mist</i><sup>D</sup>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>detect magic</i>, <i>light</i>, <i>mending</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Water</p>", 
@@ -1044,6 +1122,12 @@
                     "type": "creature", 
                     "feats": ", Augment Summoning, Combat Casting, Empower Spell, Heavy Armor Proficiency, Improved Vital Strike, Natural Spell, Power Attack, Spell Focus (conjuration), Vital Strike", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Twice per month, the druid casts ironwood on her armor and also casts liveoak.</p><p class='stat-block-1'><b>During Combat </b>The druid casts empowered cone of cold, then begins spontaneously summoning creatures and casting animal growth, stoneskin, and greater magic fang on them. While they are fighting, she casts spells to heal them and enhance her abilities. When entering melee, she casts true seeing, death ward, freedom of movement, and barkskin on herself, and drinks her potions of haste and displacement before wild shaping into a Huge water elemental.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1059,7 +1143,7 @@
                     "base_attack": "+12", 
                     "name": "Taiga Stalker", 
                     "skills": "Craft (woodworking) +11, Fly +8, Handle Animal +9, Heal +14, Knowledge (geography) +9, Knowledge (nature) +15, Perception +21, Ride +3, Spellcraft +17, Survival +22", 
-                    "super_race": "51,200human druid 16", 
+                    "super_race": "human druid 16", 
                     "cmd": "28", 
                     "cmb": "+14", 
                     "will": "+18; +4 vs. fey and plant-targeted effects", 
@@ -1074,7 +1158,7 @@
                     "intelligence": "8", 
                     "melee": "+1 club +15/+10/+5 (1d6+3)", 
                     "cr": "16", 
-                    "xp": "", 
+                    "xp": "76,800", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -1086,7 +1170,6 @@
                     "languages": "Aquan, Auran, Common, Druidic, Elven, Ignan, Terran", 
                     "immune": "poison", 
                     "init": "+1", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts shambler once per week, and liveoak and ironwood every 17 days.'), (u'During Combat', u'The druid sends her shambling mounds and treant to fight while she casts storm of vengeance. If physically threatened, the druid casts antilife shell, followed by empowered fire storm.')]>", 
                     "fortitude": "+16", 
                     "spells": {
                         "druid spells prepared": "(CL 17th; concentration +24)<p class=\"stat-block-2\">9th-empowered<i> fire storm</i> (DC 24), <i>storm of vengeance</i><sup>D</sup> (DC 26)</p><p class=\"stat-block-2\">8th-<i>earthquake</i>, <i>whirlwin d</i><sup>D</sup> (DC 25), <i>word of recall</i></p><p class=\"stat-block-2\">7th-<i>control weathe r</i><sup>D</sup>, <i>creeping doom</i> (DC 24), <i>fire storm</i> (DC 24), <i>heal</i>, <i>true seeing</i></p><p class=\"stat-block-2\">6th-<i>antilife shell</i>, <i>control winds</i><sup>D</sup> (DC 23), empowered<i> flame strike</i> (2, DC 21), <i>greater dispel magic</i>, <i>wall of stone</i></p><p class=\"stat-block-2\">5th-<i>baleful polymorph</i> (DC 22), <i>call lightning storm</i> (DC 22), <i>cure critical wounds</i> (2), <i>ice storm</i><sup>D</sup>, <i>insect plague</i></p><p class=\"stat-block-2\">4th-<i>control water</i>, <i>dispel magic</i>, <i>flame strike</i> (2, DC 21), <i>freedom of movement</i>, <i>sleet storm</i><sup>D</sup></p><p class=\"stat-block-2\">3rd-<i>call lightning</i><sup>D</sup> (DC 20), <i>dominate animal</i> (DC 20), <i>greater magic fang</i> (3), <i>protection from energy</i> (2)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (3), <i>bull's strength</i> (2), <i>cat's grace</i>, <i>fog clou d</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>entangle</i> (2, DC 18), <i>faerie fire</i> (2), <i>obscuring mis t</i><sup>D</sup>, <i>shillelagh</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>flare</i> (DC 17), <i>light</i>, <i>purify food and drink</i>, <i>resistance</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Weather</p>", 
@@ -1095,6 +1178,12 @@
                     "type": "creature", 
                     "feats": "Combat Casting, Empower Spell, Heavy Armor Proficiency, Improved Sunder, Improved Vital Strike, Natural Spell, Power Attack, Skill Focus (Survival), Toughness, Vital Strike", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts shambler once per week, and liveoak and ironwood every 17 days.</p><p class='stat-block-1'><b>During Combat </b>The druid sends her shambling mounds and treant to fight while she casts storm of vengeance. If physically threatened, the druid casts antilife shell, followed by empowered fire storm.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1120,7 +1209,7 @@
                     "base_attack": "+12", 
                     "name": "Hateful Scourge", 
                     "skills": "Fly +3, Handle Animal +6, Knowledge (geography) +8, Knowledge (nature) +12, Linguistics +3, Perception +25, Perform (sing) +4, Ride +2, Spellcraft +8, Survival +21, Swim +3", 
-                    "super_race": "76,800half-elf druid 17", 
+                    "super_race": "half-elf druid 17", 
                     "cmd": "28 (30 vs. sunder)", 
                     "cmb": "+14 (+16 sunder)", 
                     "will": "+20; +2 vs. enchantments, +4 vs. fey and plant-targeted effects", 
@@ -1135,7 +1224,7 @@
                     "intelligence": "12", 
                     "melee": "+1 quarterstaff +15/+10/+5 (1d4)", 
                     "cr": "17", 
-                    "xp": "", 
+                    "xp": "102,400", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Small", 
@@ -1147,7 +1236,6 @@
                     "languages": "Aquan, Auran, Common, Druidic, Halfling, Ignan, Sylvan, Terran", 
                     "immune": "poison", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The druid casts liveoak and shambler on a regular basis, and always has a retinue of 1d4+2 advanced shambling mounds and a treant with her.'), (u'During Combat', u\"The druid detests trespassers. She begins combat by sending her shambling mounds and treant into melee and summoning a storm giant. She then summons a tyrannosaurus and casts animal growth on it, and spends the next few rounds buffing her summoned creatures with barkskin, mass cat's grace, and greater magic fang. She then casts offensive spells and drinks her potion of haste before wild shaping into a Huge elemental and moving into melee.\")]>", 
                     "fortitude": "+18", 
                     "spells": {
                         "druid spells prepared": "(CL 18th; concentration +23)<p class=\"stat-block-2\">9th-<i>mass cure critical wounds</i>, <i>shamble r</i><sup>D</sup></p><p class=\"stat-block-2\">8th-<i>control plants</i> (DC 23)<sup>D</sup>, <i>whirlwind</i> (2, DC 23), <i>word of recall</i></p><p class=\"stat-block-2\">7th-<i>animate plants</i><sup>D</sup>, <i>fire storm</i> (DC 22), <i>heal</i>, <i>true seeing</i></p><p class=\"stat-block-2\">6th-empowered<i> flame strike</i> (2, DC 19), <i>greater dispel magic</i>, <i>mass cat's grace</i>, <i>repel wood</i><sup>D</sup></p><p class=\"stat-block-2\">5th-<i>animal growth</i> (DC 20), <i>baleful polymorph</i> (DC 20), <i>control winds</i> (DC 20), <i>stoneskin</i> (2), <i>wall of thorns</i><sup>D</sup></p><p class=\"stat-block-2\">4th-<i>command plants</i><sup>D</sup> (DC 19), <i>cure serious wounds, flame strike</i> (2, DC 19), <i>freedom of movement</i>, <i>spike stones</i> (DC 19)</p><p class=\"stat-block-2\">3rd-<i>dominate animal</i> (DC 18), <i>greater magic fang</i> (2), <i>plant growth</i><sup>D</sup>, <i>protection from energy</i> (2)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i><sup>D</sup> (3), <i>fog cloud</i>, <i>hold animal </i>(DC 17), <i>spider climb</i></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i>, <i>entangle</i><sup>D</sup> (DC 16), <i>faerie fire</i> (2), <i>obscuring mist</i>, <i>shillelagh</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>know direction</i>, <i>light</i>, <i>read magic</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Plant</p>", 
@@ -1156,6 +1244,12 @@
                     "type": "creature", 
                     "feats": "Augment Summoning, Combat Casting, Combat Reflexes, Dodge, Empower Spell, Natural Spell, Spell Focus (conjuration), Vital Strike, Weapon Focus (quarterstaff)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts liveoak and shambler on a regular basis, and always has a retinue of 1d4+2 advanced shambling mounds and a treant with her.</p><p class='stat-block-1'><b>During Combat </b>The druid detests trespassers. She begins combat by sending her shambling mounds and treant into melee and summoning a storm giant. She then summons a tyrannosaurus and casts animal growth on it, and spends the next few rounds buffing her summoned creatures with barkskin, mass cat's grace, and greater magic fang. She then casts offensive spells and drinks her potion of haste before wild shaping into a Huge elemental and moving into melee.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1171,7 +1265,7 @@
                     "base_attack": "+13", 
                     "name": "Dark Nature Priest", 
                     "skills": "Acrobatics +4 (+0 when jumping), Climb +8, Fly +12, Handle Animal +6, Heal +13, Knowledge (geography) +14, Knowledge (nature) +16, Linguistics +5, Perception +24, Ride +9, Spellcraft +19, Survival +19, Swim +7", 
-                    "super_race": "102,400halfling druid 18", 
+                    "super_race": "halfling druid 18", 
                     "cmd": "29", 
                     "cmb": "+11", 
                     "will": "+20; +2 vs. fear, +4 vs. fey and plant-targeted effects", 
@@ -1187,7 +1281,7 @@
                     "resist": "fire 20", 
                     "melee": "+1 club +17/+12/+7 (1d6+3)", 
                     "cr": "18", 
-                    "xp": "", 
+                    "xp": "153,600", 
                     "speed": "20 ft.", 
                     "alignment": "CN", 
                     "size": "Medium", 
@@ -1199,7 +1293,6 @@
                     "languages": "Auran, Common, Draconic, Druidic, Giant, Ignan, Orc, Terran", 
                     "immune": "poison", 
                     "init": "+6", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts shambler once per week and casts ironwood on his armor every 19 days.'), (u'During Combat', u\"The druid sends shambling mounds into combat, casts mass cat's grace, wild shapes into a Huge fire elemental, and moves in to flank.\")]>", 
                     "fortitude": "+16", 
                     "spells": {
                         "druid spells prepared": "(CL 19th; concentration +27)<p class=\"stat-block-2\">9th-<i>elemental swarm</i><sup>D</sup> (fire spell only), empowered<i> fire storm</i> (3, DC 27)</p><p class=\"stat-block-2\">8th-quickened<i> cure serious wounds</i>, <i>incendiary clou d</i><sup>D</sup> (DC 26), <i>reverse gravity</i>, <i>sunburst</i> (DC 28), <i>word of recall</i></p><p class=\"stat-block-2\">7th-quickened<i> cure moderate wounds</i>, <i>fire storm </i>(2, DC 27),<i>elemental body I V</i><sup>D</sup> (fire only), <i>heal</i>, <i>true seeing</i></p><p class=\"stat-block-2\">6th-<i>fire seed s</i><sup>D</sup>, empowered<i> flame strike</i> (3, DC 24), <i>greater dispel magic</i>, <i>mass cat's grace</i></p><p class=\"stat-block-2\">5th-<i>cure critical wounds</i> (2), <i>fire shiel d</i><sup>D</sup>, <i>stoneskin</i>, <i>wall of fire</i> (2)</p><p class=\"stat-block-2\">4th-<i>dispel magic</i> (2), <i>flame strike</i> (2, DC 24), <i>freedom of movement</i>, <i>ice storm</i> (DC 24), <i>wall of fire</i><sup>D</sup></p><p class=\"stat-block-2\">3rd-<i>firebal l</i><sup>D</sup><i> </i>(5, DC 23), <i>greater magic fang</i>, <i>protection from energy</i> (DC 21)</p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (2), <i>bull's strength</i> (2), <i>hold animal</i> (DC 20), <i>produce flame</i><sup>D</sup>, <i>lesser restoration</i></p><p class=\"stat-block-2\">1st-<i>burning hands</i><sup>D</sup> (2, DC 21), <i>cure light wounds</i>, <i>endure elements</i>, <i>faerie fire</i> (2), <i>shillelagh</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>flare</i> (DC 20), <i>guidance</i>, <i>resistance</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Fire</p>", 
@@ -1208,6 +1301,12 @@
                     "type": "creature", 
                     "feats": "Blind-Fight, Combat Casting, Empower Spell, Greater Spell Focus (evocation), Improved Initiative, Natural Spell, Power Attack, Quicken Spell, Spell Focus (evocation), Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts shambler once per week and casts ironwood on his armor every 19 days.</p><p class='stat-block-1'><b>During Combat </b>The druid sends shambling mounds into combat, casts mass cat's grace, wild shapes into a Huge fire elemental, and moves in to flank.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1224,7 +1323,7 @@
                     "base_attack": "+14", 
                     "name": "Rage Flame", 
                     "skills": "Climb +6, Fly +6, Handle Animal +5, Intimidate +1, Knowledge (geography) +7, Knowledge (nature) +13, Knowledge (planes) +4, Linguistics +5, Perception +23, Ride +6, Sense Motive +16, Spellcraft +15, Survival +21, Swim +6", 
-                    "super_race": "153,600half-orc druid 19", 
+                    "super_race": "half-orc druid 19", 
                     "cmd": "32", 
                     "cmb": "+16", 
                     "will": "+22; +4 vs. fey and plant-targeted effects", 
@@ -1239,7 +1338,7 @@
                     "intelligence": "10", 
                     "melee": "+1 ghost touch quarterstaff +19/+14/+9 (1d6+5)", 
                     "cr": "19", 
-                    "xp": "", 
+                    "xp": "204,800", 
                     "speed": "20 ft.", 
                     "alignment": "NE", 
                     "size": "Medium", 
@@ -1250,7 +1349,6 @@
                     "languages": "Aquan, Auran, Common, Druidic, Dwarven, Ignan, Terran", 
                     "immune": "acid, poison", 
                     "init": "+1", 
-                    "text": "<StatBlockSection TACTICS [(u'Before Combat', u'The druid casts shambler to create 1d4+2 advanced shambling mounds.'), (u'During Combat', u'The druid deploys shambling mounds, wild shapes into a Huge earth elemental, and casts spells on himself. If interrupted, he earth glides and casts storm of vengeance.')]>", 
                     "fortitude": "+17", 
                     "spells": {
                         "druid spells prepared": "(CL 20th; concentration +27)<p class=\"stat-block-2\">9th-quickened<i> cure critical wounds</i> (2), <i>elemental swarm</i><sup>D</sup> (earth spell only), empowered<i> fire storm</i> (DC 24), <i>storm of vengeance</i> (DC 27)</p><p class=\"stat-block-2\">8th-<i>earthquake</i><sup>D</sup>, <i>finger of death</i> (DC 25), <i>repel metal or stone</i>, <i>reverse gravity</i>, <i>word of recall</i></p><p class=\"stat-block-2\">7th-<i>changestaff</i>, <i>creeping doom</i> (DC 25), <i>elemental body I V</i><sup>D</sup> (earth only), <i>heal</i>, <i>mass cure moderate wounds</i>, <i>true seeing</i></p><p class=\"stat-block-2\">6th-<i>antilife shell</i>, empowered<i> flame strike</i> (DC 21), <i>greater dispel magic</i> (2), <i>stoneskin</i><sup>D</sup></p><p class=\"stat-block-2\">5th-<i>animal growth</i> (2, DC 22), <i>death ward</i>, quickened<i> obscuring mist</i>, <i>wall of stone</i><sup>D</sup>, <i>wall of thorns</i></p><p class=\"stat-block-2\">4th-<i>air walk</i>, <i>dispel magic</i>, <i>flame strike</i> (DC 21), <i>freedom of movement</i> (2), <i>spike stones</i><sup>D</sup> (DC 21)</p><p class=\"stat-block-2\">3rd-<i>cure moderate wounds</i>, <i>dominate animal</i> (DC 20), <i>greater magic fang</i> (3), <i>stone shape</i><sup>D</sup>, <i>wind wall</i></p><p class=\"stat-block-2\">2nd-<i>barkskin</i> (3), <i>bear's endurance</i>, <i>bull's strength</i>, <i>cat's grace</i>, <i>soften earth and stone</i><sup>D</sup></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i> (2), <i>faerie fire</i> (2), <i>magic stone</i><sup>D</sup>, <i>obscuring mist</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">0 (at will)-<i>create water</i>, <i>guidance, mending</i>, <i>stabilize</i></p><p class=\"stat-block-2\"><b>D</b> Domain spell; <b>Domain</b> Earth</p>", 
@@ -1259,6 +1357,12 @@
                     "type": "creature", 
                     "feats": "Augment Summoning, Combat Casting, Dodge, Empower Spell, Heavy Armor Proficiency, Natural Spell, Power Attack, Quicken Spell, Spell Focus (conjuration), Vital Strike", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "TACTICS", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The druid casts shambler to create 1d4+2 advanced shambling mounds.</p><p class='stat-block-1'><b>During Combat </b>The druid deploys shambling mounds, wild shapes into a Huge earth elemental, and casts spells on himself. If interrupted, he earth glides and casts storm of vengeance.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1276,7 +1380,7 @@
                     "base_attack": "+15", 
                     "name": "Earthfather", 
                     "skills": "Fly +3, Handle Animal +3, Knowledge (engineering) +4, Knowledge (nature) +15, Knowledge (planes) +8, Linguistics +4, Perception +22 (+24 to notice unusual stonework), Perform (percussion) +4, Ride +3, Spellcraft +21, Survival +19, Swim +5", 
-                    "super_race": "204,800dwarf druid 20", 
+                    "super_race": "dwarf druid 20", 
                     "cmd": "34 (38 vs. bull rush or trip)", 
                     "cmb": "+18", 
                     "will": "+22; +2 vs. poison, spells, and spell-like abilities; +4 vs. fey and plant-targeted effects", 

@@ -1,7 +1,7 @@
 {
     "source": "NPC Codex", 
     "type": "section", 
-    "name": "Exren", 
+    "name": "Ezren", 
     "sections": [
         {
             "source": "NPC Codex", 
@@ -16,7 +16,7 @@
                     "intelligence": "18", 
                     "melee": "mwk cane +1 (1d6) or dagger +0 (1d4/19\u201320)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -28,11 +28,18 @@
                     "languages": "Common, Draconic, Goblin, Infernal, Osiriani, Terran", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'Ezren uses his bonded object to cast mage armor before the start of the encounter.'), (u'During Combat', u'Ezren uses his attack spells in conjunction with his hand of the apprentice special attack to eliminate threats against him and his companions.'), (u'Base Statistics', u\"Without mage armor, Ezren's statistics are\"), (u'AC', u'12, touch 12, flat-footed 10.')]>", 
                     "fortitude": "+3", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Combat Casting, Great Fortitude, Scribe Scroll", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Ezren uses his bonded object to cast mage armor before the start of the encounter.</p><p class='stat-block-1'><b>During Combat </b>Ezren uses his attack spells in conjunction with his hand of the apprentice special attack to eliminate threats against him and his companions.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, Ezren's statistics are</p><p class='stat-block-1'><b>AC </b>12, touch 12, flat-footed 10.</p>"
+                        }
+                    ], 
                     "senses": "Perception +1", 
                     "gear": "dagger, light crossbow with 10 bolts, masterwork cane (treat as club), backpack, scroll case, spell component pouch, spellbook (contains all prepared spells plus all 0-level spells; 1st-color spray, expeditious retreat, grease, mage armor, protection from evil, shield, and sleep), 9 gp", 
                     "ranged": "light crossbow +2 (1d8/19\u201320)", 
@@ -43,10 +50,11 @@
                     "base_attack": "+0", 
                     "name": "Ezren", 
                     "skills": "Appraise +8, Knowledge (arcana, history, nature, planes) +8, Linguistics +8, Spellcraft +8", 
-                    "super_race": "400human wizard 1", 
+                    "super_race": "human wizard 1", 
                     "cmd": "12", 
                     "cmb": "+0", 
                     "will": "+3", 
+                    "abbrev": "Level 1", 
                     "reflex": "+2", 
                     "creature_subtype": "human"
                 }, 
@@ -57,7 +65,7 @@
                     "intelligence": "20", 
                     "melee": "+1 cane +4 (1d6+1) or dagger +3 (1d4/19\u201320)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -70,11 +78,18 @@
                     "languages": "Abyssal, Celestial, Common, Draconic, Elven, Giant, Goblin, Ignan, Infernal, Kelish, Osiriani, Terran, Undercommon", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'Ezren casts mage armor and shield before the start of the encounter.'), (u'During Combat', u'Ezren uses his attack spells in conjunction with his hand of the apprentice special attack to eliminate threats against him and his companions.'), (u'Base Statistics', u\"Without mage armor and shield, Ezren's statistics are\"), (u'AC', u'15, touch 14, flat-footed 13.')]>", 
                     "fortitude": "+8", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Combat Casting, Craft Magic Arms and Armor, Great Fortitude, Scribe Scroll, Spell Focus (evocation), Spell Penetration, Toughness", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Ezren casts mage armor and shield before the start of the encounter.</p><p class='stat-block-1'><b>During Combat </b>Ezren uses his attack spells in conjunction with his hand of the apprentice special attack to eliminate threats against him and his companions.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor and shield, Ezren's statistics are</p><p class='stat-block-1'><b>AC </b>15, touch 14, flat-footed 13.</p>"
+                        }
+                    ], 
                     "senses": "Perception +1", 
                     "ranged": "mwk light crossbow +6 (1d8/19\u201320)", 
                     "hp": "55 (7d6+28)", 
@@ -84,10 +99,11 @@
                     "base_attack": "+3", 
                     "name": "Ezren", 
                     "skills": "Appraise +15, Fly +12, Knowledge (arcana, history, nature, planes) +15, Linguistics +15, Spellcraft +15", 
-                    "super_race": "3,200human wizard 7", 
+                    "super_race": "human wizard 7", 
                     "cmd": "17", 
                     "cmb": "+3", 
                     "will": "+8", 
+                    "abbrev": "Level 7", 
                     "reflex": "+6", 
                     "combat_gear": "potion of cat's grace, potion of cure moderate wounds, potion of fly, potion of tongues, scroll of blur, scroll of charm person, scroll of magic weapon, wand of magic missile (50 charges)", 
                     "creature_subtype": "human"
@@ -99,7 +115,7 @@
                     "intelligence": "24", 
                     "melee": "+2 cane (rod of thunder and lightning) +8/+3 (1d6+2) or dagger +6/+1 (1d4/19\u201320)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -112,11 +128,18 @@
                     "languages": "Abyssal, Aklo, Aquan, Auran, Azlanti, Celestial, Common, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, Ignan, Infernal, Kelish, Orc, Osiriani, Terran, Undercommon", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'Ezren casts mage armor and shield before the start of the encounter. Given the time, he also casts fly and greater invisibility.'), (u'During Combat', u'Ezren uses his attack spells in conjunction with his hand of the apprentice special attack to eliminate threats against him and his companions.'), (u'Base Statistics', u\"Without mage armor and shield, Ezren's statistics are\"), (u'AC', u'16, touch 14, flat-footed 14.')]>", 
                     "fortitude": "+11", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Combat Casting, Craft Magic Arms and Armor, Craft Rod, Empower Spell, Great Fortitude, Greater Spell Focus (evocation), Scribe Scroll, Spell Focus (evocation), Spell Penetration, Toughness", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>Ezren casts mage armor and shield before the start of the encounter. Given the time, he also casts fly and greater invisibility.</p><p class='stat-block-1'><b>During Combat </b>Ezren uses his attack spells in conjunction with his hand of the apprentice special attack to eliminate threats against him and his companions.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor and shield, Ezren's statistics are</p><p class='stat-block-1'><b>AC </b>16, touch 14, flat-footed 14.</p>"
+                        }
+                    ], 
                     "senses": "Perception +1", 
                     "ranged": "mwk light crossbow +9 (1d8/19\u201320)", 
                     "hp": "92 (12d6+48)", 
@@ -126,10 +149,11 @@
                     "base_attack": "+6", 
                     "name": "Ezren", 
                     "skills": "Appraise +22, Craft (alchemy) +22, Fly +17, Knowledge (arcana, engineering, history, nature, planes) +22, Linguistics +22, Spellcraft +22", 
-                    "super_race": "19,200human wizard 12", 
+                    "super_race": "human wizard 12", 
                     "cmd": "20", 
                     "cmb": "+6", 
                     "will": "+12", 
+                    "abbrev": "Level 12", 
                     "reflex": "+9", 
                     "combat_gear": "potion of cat's grace, potions of cure serious wounds (3), scroll of antimagic field, scroll of passwall, scrolls of protection from energy (2), scroll of remove curse, scroll of secure shelter, staff of fire, wand of mnemonic enhancer (7 charges)", 
                     "creature_subtype": "human"

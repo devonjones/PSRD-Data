@@ -15,7 +15,7 @@
                     "intelligence": "8", 
                     "melee": "longsword +5 (1d8+3/19\u201320)", 
                     "cr": "1/2", 
-                    "xp": "", 
+                    "xp": "200", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "spells": {
@@ -28,12 +28,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin begins with Dazzling Display, then uses smite evil on the strongest evil opponent. If he is confident he will win the battle, he continues to demoralize opponents.')]>", 
                     "fortitude": "+3", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Dazzling Display, Weapon Focus (longsword)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin begins with Dazzling Display, then uses smite evil on the strongest evil opponent. If he is confident he will win the battle, he continues to demoralize opponents.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -59,7 +64,7 @@
                     "base_attack": "+1", 
                     "name": "Callous Rake", 
                     "skills": "Intimidate +3, Sense Motive +4", 
-                    "super_race": "200human paladin 1", 
+                    "super_race": "human paladin 1", 
                     "cmd": "15", 
                     "cmb": "+4", 
                     "will": "+2", 
@@ -74,7 +79,7 @@
                     "intelligence": "10", 
                     "melee": "mwk greataxe +5 (1d12+3/\u00d73)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -85,7 +90,6 @@
                     "languages": "Common, Orc", 
                     "source": "NPC Codex", 
                     "init": "\u20131", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin prefers to attack with her bow before entering melee with her greataxe. She uses Power Attack unless she fights heavily armored enemies.')]>", 
                     "fortitude": "+7", 
                     "spells": {
                         "paladin spell-like abilities": "(CL 2nd; concentration +3)<p class=\"stat-block-2\">At will-<i>detect evil</i></p>"
@@ -93,6 +97,12 @@
                     "type": "creature", 
                     "feats": "Power Attack", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin prefers to attack with her bow before entering melee with her greataxe. She uses Power Attack unless she fights heavily armored enemies.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -109,7 +119,7 @@
                     "base_attack": "+2", 
                     "name": "Honorable Outcast", 
                     "skills": "Heal +5, Intimidate +3, Perception +2, Sense Motive +6", 
-                    "super_race": "400half-orc paladin 2", 
+                    "super_race": "half-orc paladin 2", 
                     "cmd": "13", 
                     "cmb": "+4", 
                     "will": "+5", 
@@ -124,7 +134,7 @@
                     "intelligence": "8", 
                     "melee": "mwk rapier +4 (1d6+2/18\u201320), dagger +3 (1d4+1/19\u201320) or mwk rapier +6 (1d6+2/18\u201320)", 
                     "cr": "2", 
-                    "xp": "", 
+                    "xp": "600", 
                     "speed": "30 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -136,7 +146,6 @@
                     "languages": "Common, Elven", 
                     "immune": "disease, fear, sleep", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin uses her quick speed and athletic skill to outmaneuver opponents, wearing them down with smite evil.')]>", 
                     "fortitude": "+5", 
                     "spells": {
                         "paladin spell-like abilities": "(CL 3rd; concentration +5)<p class=\"stat-block-2\">At will-<i>detect evil</i></p>"
@@ -144,6 +153,12 @@
                     "type": "creature", 
                     "feats": "Skill Focus (Acrobatics), Two-Weapon Defense, Two-Weapon Fighting", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin uses her quick speed and athletic skill to outmaneuver opponents, wearing them down with smite evil.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -189,7 +204,7 @@
                     "base_attack": "+3", 
                     "name": "Haughty Avenger", 
                     "skills": "Acrobatics +7, Diplomacy +7, Perception +4", 
-                    "super_race": "600half-elf paladin 3", 
+                    "super_race": "half-elf paladin 3", 
                     "cmd": "17", 
                     "cmb": "+5", 
                     "will": "+6; +2 vs. enchantments", 
@@ -205,7 +220,7 @@
                     "intelligence": "10", 
                     "melee": "mwk longsword +7 (1d6+1/19\u201320)", 
                     "cr": "3", 
-                    "xp": "", 
+                    "xp": "800", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Small", 
@@ -217,7 +232,6 @@
                     "languages": "Common, Gnome, Sylvan", 
                     "immune": "disease, fear", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin attempts to stay out of melee, preferring to use cover and attack with her bow.')]>", 
                     "fortitude": "+11", 
                     "spells": {
                         "paladin spells prepared": "(CL 1st; concentration +5)<p class=\"stat-block-2\">1st-<i>lesser restoration</i></p>", 
@@ -227,6 +241,12 @@
                     "type": "creature", 
                     "feats": "Point-Blank Shot, Weapon Focus (longbow)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin attempts to stay out of melee, preferring to use cover and attack with her bow.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -243,7 +263,7 @@
                     "base_attack": "+4", 
                     "name": "Skirmishing Crusader", 
                     "skills": "Diplomacy +8, Handle Animal +8, Perception +5, Stealth +6", 
-                    "super_race": "800gnome paladin 4", 
+                    "super_race": "gnome paladin 4", 
                     "cmd": "15", 
                     "cmb": "+4", 
                     "will": "+8; +2 vs. illusions", 
@@ -259,7 +279,7 @@
                     "intelligence": "10", 
                     "melee": "+1 warhammer +9 (1d8+3/\u00d73)", 
                     "cr": "4", 
-                    "xp": "", 
+                    "xp": "1,200", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -271,7 +291,6 @@
                     "languages": "Common, Dwarven", 
                     "immune": "disease, fear", 
                     "init": "\u20131", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin prefers melee. He uses Power Attack if easily able to hit opponents, and his divine bond to give his weapon the flaming property.')]>", 
                     "fortitude": "+8", 
                     "spells": {
                         "paladin spells prepared": "(CL 2nd; concentration +2)<p class=\"stat-block-2\">1st-<i>divine favor</i></p>", 
@@ -280,6 +299,12 @@
                     "type": "creature", 
                     "feats": "Power Attack, Toughness, Weapon Focus (warhammer)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin prefers melee. He uses Power Attack if easily able to hit opponents, and his divine bond to give his weapon the flaming property.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -296,7 +321,7 @@
                     "base_attack": "+5", 
                     "name": "Hammer of Justice", 
                     "skills": "Craft (weapons) +4, Knowledge (religion) +5, Perception +7 (+9 to notice unusual stonework), Sleight of Hand +1", 
-                    "super_race": "1,200dwarf paladin 5", 
+                    "super_race": "dwarf paladin 5", 
                     "cmd": "16 (20 vs. bull rush or trip)", 
                     "cmb": "+7", 
                     "will": "+6; +2 vs. poison, spells, and spell-like abilities", 
@@ -312,7 +337,7 @@
                     "intelligence": "10", 
                     "melee": "longsword +6/+1 (1d8/19\u201320)", 
                     "cr": "5", 
-                    "xp": "", 
+                    "xp": "1,600", 
                     "speed": "30 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -324,7 +349,6 @@
                     "languages": "Common, Elven, Orc", 
                     "immune": "disease, fear, sleep", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin uses her bow to smite evil before it can reach her. She uses cover and her mobility to maintain an advantage over her opponents.')]>", 
                     "fortitude": "+7", 
                     "spells": {
                         "paladin spells prepared": "(CL 3rd; concentration +5)<p class=\"stat-block-2\">1st-<i>bless weapon</i>, <i>cure light wounds</i></p>", 
@@ -333,6 +357,12 @@
                     "type": "creature", 
                     "feats": "Point-Blank Shot, Precise Shot, Rapid Shot", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin uses her bow to smite evil before it can reach her. She uses cover and her mobility to maintain an advantage over her opponents.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -348,7 +378,7 @@
                     "base_attack": "+6", 
                     "name": "Holy Archer", 
                     "skills": "Climb +2, Perception +9, Sense Motive +5, Stealth +5", 
-                    "super_race": "1,600elf paladin 6", 
+                    "super_race": "elf paladin 6", 
                     "cmd": "20", 
                     "cmb": "+6", 
                     "will": "+8; +2 vs. enchantments", 
@@ -364,7 +394,7 @@
                     "intelligence": "10", 
                     "melee": "+1 lance +14/+9 (1d6+5/\u00d73) or<p class=\"stat-block-2\">mwk longsword +13/+8 (1d6+4/19\u201320)</p>", 
                     "cr": "6", 
-                    "xp": "", 
+                    "xp": "2,400", 
                     "speed": "15 ft.", 
                     "alignment": "LG", 
                     "size": "Small", 
@@ -376,7 +406,6 @@
                     "languages": "Common, Halfling", 
                     "immune": "disease, fear", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The paladin casts bull's strength.\"), (u'During Combat', u'The paladin uses Ride-By Attack to charge his foes, and uses smite evil.'), (u'Base Statistics', u\"Without bull's strength, the paladin's statistics are\"), (u'Melee', u'+1 lance +12/+7 (1d6+3/\\xd73) or mwk longsword +11/+6 (1d6+2/19\\u201320)'), (u'Str', u'14'), (u'CMB', u'+8'), (u'CMD', u'20'), (u'Skills', u'Climb +0.')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "paladin spells prepared": "(CL 4th; concentration +7)<p class=\"stat-block-2\">2nd-<i>bull's strength</i></p><p class=\"stat-block-2\">1st-<i>bless weapon</i>, <i>divine favor</i></p>", 
@@ -386,6 +415,14 @@
                     "feats": "Mounted Combat, Ride-By Attack, Toughness, Weapon Focus (lance)", 
                     "aura": "courage (10 ft.)", 
                     "senses": "Perception +5", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts bull's strength.</p><p class='stat-block-1'><b>During Combat </b>The paladin uses Ride-By Attack to charge his foes, and uses smite evil.</p><p class='stat-block-1'><b>Base Statistics </b>Without bull's strength, the paladin's statistics are</p><p class='stat-block-1'><b>Melee </b>+1 lance +12/+7 (1d6+3/\u00d73) or mwk longsword +11/+6 (1d6+2/19\u201320)</p><p class='stat-block-1'><b>Str </b>14</p><p class='stat-block-1'><b>CMB </b>+8</p><p class='stat-block-1'><b>CMD </b>20</p><p class='stat-block-1'><b>Skills </b>Climb +0.</p>"
+                        }
+                    ], 
                     "hp": "60 (7d10+17)", 
                     "reach": "5 ft. (10 ft. with lance)", 
                     "wisdom": "8", 
@@ -394,7 +431,7 @@
                     "base_attack": "+7", 
                     "name": "Dog rider Knight", 
                     "skills": "Acrobatics +0 (\u20134 when jumping), Climb +2, Heal +7, Perception +5, Ride +8 (+10 to stay in the saddle), Survival +1", 
-                    "super_race": "2,400halfling paladin 7", 
+                    "super_race": "halfling paladin 7", 
                     "cmd": "22", 
                     "cmb": "+10", 
                     "will": "+8; +2 vs. fear", 
@@ -410,7 +447,7 @@
                     "intelligence": "10", 
                     "melee": "+1 falchion +14/+9 (2d4+7/18\u201320)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -422,7 +459,6 @@
                     "languages": "Common", 
                     "immune": "charm, disease, fear", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin draws attention away from weaker allies, and heals allies who are competent fighters.'), ('descriptor', '')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "paladin spells prepared": "(CL 5th; concentration +7)<p class=\"stat-block-2\">2nd-<i>delay poison</i>, <i>resist energy</i></p><p class=\"stat-block-2\">1st-<i>bless</i>, <i>lesser restoration</i></p>", 
@@ -431,6 +467,12 @@
                     "type": "creature", 
                     "feats": "Cleave, Improved Initiative, Power Attack, Toughness, Weapon Focus (falchion)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin draws attention away from weaker allies, and heals allies who are competent fighters.</p><p class='stat-block-1'><b>descriptor </b></p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -456,7 +498,7 @@
                     "base_attack": "+8", 
                     "name": "Desert Protector", 
                     "skills": "Diplomacy +10, Heal +8, Knowledge (religion) +11, Perception +8, Sense Motive +13, Survival +4", 
-                    "super_race": "3,200human paladin 8", 
+                    "super_race": "human paladin 8", 
                     "cmd": "22", 
                     "cmb": "+12", 
                     "will": "+11", 
@@ -474,7 +516,7 @@
                     "resist": "fire 10", 
                     "melee": "+1 lance +14/+9 (1d8+5/\u00d73) or +1 heavy mace +14/+9 (1d8+5)", 
                     "cr": "8", 
-                    "xp": "", 
+                    "xp": "4,800", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -486,7 +528,6 @@
                     "languages": "Common, Orc", 
                     "immune": "charm, disease, fear", 
                     "init": "\u20131", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts resist energy (fire) unless he expects damage from a different energy type. He applies silversheen to his weapon if he expects to fight devils or lycanthropes.'), (u'During Combat', u'The paladin uses Ride-By Attack and Spirited Charge, preferring to attack the opposing leader. When on foot, he uses his mace. If facing a powerful foe, he drinks his potions.'), (u'Base Statistics', u\"Without resist energy, the paladin's statistics are\"), (u'Resist', u'none.')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "paladin spells prepared": "(CL 6th; concentration +8)<p class=\"stat-block-2\">2nd-<i>resist energy</i>, <i>zone of truth</i></p><p class=\"stat-block-2\">1st-<i>divine favor</i>, <i>lesser restoration</i>, <i>protection from evil</i></p>", 
@@ -495,6 +536,12 @@
                     "type": "creature", 
                     "feats": "Iron Will, Mounted Combat, Ride-By Attack, Skill Focus (Perception), Spirited Charge", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts resist energy (fire) unless he expects damage from a different energy type. He applies silversheen to his weapon if he expects to fight devils or lycanthropes.</p><p class='stat-block-1'><b>During Combat </b>The paladin uses Ride-By Attack and Spirited Charge, preferring to attack the opposing leader. When on foot, he uses his mace. If facing a powerful foe, he drinks his potions.</p><p class='stat-block-1'><b>Base Statistics </b>Without resist energy, the paladin's statistics are</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -542,7 +589,7 @@
                     "base_attack": "+9", 
                     "name": "Saintly Knight", 
                     "skills": "Handle Animal +6, Intimidate +4, Knowledge (history) +1, Knowledge (religion) +5, Perception +9, Ride +5 (+7 to stay in the saddle)", 
-                    "super_race": "4,800half-orc paladin 9", 
+                    "super_race": "half-orc paladin 9", 
                     "space": "5 ft.", 
                     "cmb": "+13", 
                     "will": "+12", 
@@ -558,7 +605,7 @@
                     "intelligence": "14", 
                     "melee": "+1 ranseur +17/+12 (2d4+8/\u00d73) or mwk longsword +16/+11 (1d8+7/19\u201320)", 
                     "cr": "9", 
-                    "xp": "", 
+                    "xp": "6,400", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -570,7 +617,6 @@
                     "languages": "Common, Dwarven, Elven", 
                     "immune": "charm, disease, fear, poison", 
                     "init": "\u20131", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The paladin casts bull's strength and delay poison.\"), (u'During Combat', u'The paladin disarms foes to capture and question them. The exceptions are mindless creatures, evil outsiders, and undead, all of which he destroys on the spot.'), (u'Base Statistics', u\"Without bull's strength, the paladin's statistics are\"), (u'Immune', u'charm, disease, fear'), (u'Melee', u'+1 ranseur +15/+10 (2d4+5/\\xd73) or mwk longsword +14/+9 (1d8+4/19\\u201320)'), (u'Str', u'16'), (u'CMB', u'+13 (+17 disarm)'), (u'CMD', u'23 (25 vs. disarm).')]>", 
                     "fortitude": "+11", 
                     "spells": {
                         "paladin spells prepared": "(CL 7th; concentration +9)<p class=\"stat-block-2\">2nd-<i>bull's strength, delay poison</i></p><p class=\"stat-block-2\">1st-<i>bless</i>, <i>lesser restoration</i>, <i>protection from evil</i></p>", 
@@ -581,6 +627,12 @@
                     "aura": "courage (10 ft.), resolve (10 ft.)", 
                     "senses": "Perception +10", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts bull's strength and delay poison.</p><p class='stat-block-1'><b>During Combat </b>The paladin disarms foes to capture and question them. The exceptions are mindless creatures, evil outsiders, and undead, all of which he destroys on the spot.</p><p class='stat-block-1'><b>Base Statistics </b>Without bull's strength, the paladin's statistics are</p><p class='stat-block-1'><b>Immune </b>charm, disease, fear</p><p class='stat-block-1'><b>Melee </b>+1 ranseur +15/+10 (2d4+5/\u00d73) or mwk longsword +14/+9 (1d8+4/19\u201320)</p><p class='stat-block-1'><b>Str </b>16</p><p class='stat-block-1'><b>CMB </b>+13 (+17 disarm)</p><p class='stat-block-1'><b>CMD </b>23 (25 vs. disarm).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -625,7 +677,7 @@
                     "base_attack": "+10", 
                     "name": "Pious Guard", 
                     "skills": "Diplomacy +10, Intimidate +7, Knowledge (history, local) +7, Knowledge (nobility, religion) +10, Perception +10, Sense Motive +13, Spellcraft +10", 
-                    "super_race": "6,400human paladin 10", 
+                    "super_race": "human paladin 10", 
                     "cmd": "25 (27 vs. disarm)", 
                     "cmb": "+15 (+19 disarm)", 
                     "will": "+9", 
@@ -641,7 +693,7 @@
                     "resist": "fire 20", 
                     "melee": "+1 elven curve blade +15/+10/+5 (1d10+5/15\u201320)", 
                     "cr": "10", 
-                    "xp": "", 
+                    "xp": "9,600", 
                     "speed": "30 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -652,7 +704,6 @@
                     "languages": "Common, Elven, Sylvan", 
                     "immune": "charm, disease, fear, poison, sleep", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts delay poison and resist energy (fire).'), (u'During Combat', u'The paladin uses Mobility, Spring Attack, and Whirlwind Attack to engage and destroy multiple opponents at once. He normally uses his divine bond to give his weapon the flaming and holy special abilities, but if his foes are spread out, he gives it speed instead.'), (u'Base Statistics', u\"Without resist energy, the paladin's statistics are\"), (u'Immune', u'charm, disease, fear, sleep'), (u'Resist', u'none.')]>", 
                     "fortitude": "+10", 
                     "spells": {
                         "paladin spells prepared": "(CL 8th; concentration +10)<p class=\"stat-block-2\">3rd-<i>prayer</i></p><p class=\"stat-block-2\">2nd-<i>delay poison</i>, <i>resist energy</i></p><p class=\"stat-block-2\">1st-<i>bless</i>, <i>divine favor</i>, <i>lesser restoration</i></p>", 
@@ -661,6 +712,12 @@
                     "type": "creature", 
                     "feats": "Combat Expertise, Dodge, Improved Critical (elven curve blade), Mobility, Spring Attack, Whirlwind Attack", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts delay poison and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The paladin uses Mobility, Spring Attack, and Whirlwind Attack to engage and destroy multiple opponents at once. He normally uses his divine bond to give his weapon the flaming and holy special abilities, but if his foes are spread out, he gives it speed instead.</p><p class='stat-block-1'><b>Base Statistics </b>Without resist energy, the paladin's statistics are</p><p class='stat-block-1'><b>Immune </b>charm, disease, fear, sleep</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -707,7 +764,7 @@
                     "base_attack": "+11", 
                     "name": "Elven Honorblade", 
                     "skills": "Diplomacy +10, Heal +3, Knowledge (nature) +3, Perception +11, Stealth +12, Survival +4", 
-                    "super_race": "9,600elf paladin 11", 
+                    "super_race": "elf paladin 11", 
                     "cmd": "29", 
                     "cmb": "+14", 
                     "will": "+9; +2 vs. enchantments", 
@@ -722,7 +779,7 @@
                     "intelligence": "8", 
                     "melee": "+1/+1 dwarven urgrosh +18/+13/+8 (1d8+7/1d6+7/\u00d73)", 
                     "cr": "11", 
-                    "xp": "", 
+                    "xp": "12,800", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -734,7 +791,6 @@
                     "languages": "Common, Dwarven", 
                     "immune": "charm, disease, fear", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin charges into battle, using Power Attack and Improved Vital Strike. He prefers fighting on horseback, but if dismounted, he finishes the battle on foot.'), (u'Base Statistics', u\"Without resist energy, the paladin's statistics are\"), (u'Resist', u'none.')]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "paladin spell-like abilities": "(CL 12th; concentration +12)<p class=\"stat-block-2\">At will-<i>detect evil</i></p>"
@@ -742,6 +798,12 @@
                     "type": "creature", 
                     "feats": "Improved Vital Strike, Mounted Combat, Power Attack, Toughness, Vital Strike, Weapon Focus (dwarven urgrosh)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin charges into battle, using Power Attack and Improved Vital Strike. He prefers fighting on horseback, but if dismounted, he finishes the battle on foot.</p><p class='stat-block-1'><b>Base Statistics </b>Without resist energy, the paladin's statistics are</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -788,7 +850,7 @@
                     "base_attack": "+12", 
                     "name": "Forge Rider", 
                     "skills": "Intimidate +2, Perception +7 (+9 to notice unusual stonework), Ride +3", 
-                    "super_race": "12,800dwarf paladin 12", 
+                    "super_race": "dwarf paladin 12", 
                     "cmd": "27 (31 vs. bull rush or trip)", 
                     "cmb": "+16", 
                     "will": "+11; +2 vs. poison, spells, and spell-like abilities", 
@@ -804,7 +866,7 @@
                     "intelligence": "10", 
                     "melee": "+1 dragon-bane greatsword +21/+16/+11 (2d6+10/19\u201320)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -816,7 +878,6 @@
                     "languages": "Common, Draconic", 
                     "immune": "charm, disease, fear", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts resist energy against the breath weapon energy type of dragons he expects to fight.'), (u'During Combat', u\"The paladin casts eagle's splendor to improve his smite and divine grace. He uses Improved Vital Strike and Lunge to land solid hits on creatures with reach.\")]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "paladin spells prepared": "(CL 10th; concentration +11)<p class=\"stat-block-2\">3rd-<i>prayer</i></p><p class=\"stat-block-2\">2nd-<i>eagle's splendor</i>, <i>resist energy</i></p><p class=\"stat-block-2\">1st-<i>bless</i> (2), <i>divine favor</i> (2)</p>", 
@@ -825,6 +886,12 @@
                     "type": "creature", 
                     "feats": "Cleave, Great Cleave, Improved Vital Strike, Lightning Reflexes, Lunge, Power Attack, Vital Strike, Weapon Focus (greatsword)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts resist energy against the breath weapon energy type of dragons he expects to fight.</p><p class='stat-block-1'><b>During Combat </b>The paladin casts eagle's splendor to improve his smite and divine grace. He uses Improved Vital Strike and Lunge to land solid hits on creatures with reach.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -870,7 +937,7 @@
                     "base_attack": "+13", 
                     "name": "Dragon Smiter", 
                     "skills": "Diplomacy +9, Heal +7, Knowledge (arcana, religion) +8, Linguistics +1, Perception +9, Sense Motive +7", 
-                    "super_race": "19,200human paladin 13", 
+                    "super_race": "human paladin 13", 
                     "cmd": "30", 
                     "cmb": "+19", 
                     "will": "+10", 
@@ -886,7 +953,7 @@
                     "intelligence": "10", 
                     "melee": "+1 longsword +17/+12/+7 (1d8+3/19\u201320)", 
                     "cr": "13", 
-                    "xp": "", 
+                    "xp": "25,600", 
                     "speed": "30 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -898,7 +965,6 @@
                     "languages": "Common, Elven, Goblin", 
                     "immune": "charm, disease, fear, sleep", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin tries to remain out of melee range and attack enemies with her bow.')]>", 
                     "fortitude": "+13", 
                     "spells": {
                         "paladin spells prepared": "(CL 11th; concentration +12)<p class=\"stat-block-2\">3rd-<i>heal mount</i></p><p class=\"stat-block-2\">2nd-<i>eagle's splendor</i>, <i>resist energy</i></p><p class=\"stat-block-2\">1st-<i>create water</i>, <i>divine favor</i> (2), <i>endure elements</i></p>", 
@@ -907,6 +973,12 @@
                     "type": "creature", 
                     "feats": "Improved Precise Shot, Manyshot, Mounted Archery, Mounted Combat, Point-Blank Shot, Precise Shot, Rapid Shot, Skill Focus (Perception)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin tries to remain out of melee range and attack enemies with her bow.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -952,7 +1024,7 @@
                     "base_attack": "+14", 
                     "name": "Rider of the Steppe", 
                     "skills": "Heal +5, Intimidate +6, Knowledge (geography, local) +5, Perception +9, Ride +10, Stealth +13, Survival +4", 
-                    "super_race": "25,600half-elf paladin 14", 
+                    "super_race": "half-elf paladin 14", 
                     "cmd": "33", 
                     "cmb": "+16", 
                     "will": "+11; +2 vs. enchantments", 
@@ -968,7 +1040,7 @@
                     "intelligence": "8", 
                     "melee": "+1 shock gnome hooked hammer +22/+17/+12 (1d6+7/\u00d73 plus 1d6 electricity) or mwk gnome hooked hammer +22/+17/+12 (1d4+6/\u00d74)", 
                     "cr": "14", 
-                    "xp": "", 
+                    "xp": "38,400", 
                     "speed": "15 ft.", 
                     "alignment": "LG", 
                     "size": "Small", 
@@ -980,7 +1052,6 @@
                     "languages": "Common, Gnome, Sylvan", 
                     "immune": "charm, disease, fear", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The paladin uses divine bond to give her weapon a mix of the defending, flaming, and holy special abilities.')]>", 
                     "fortitude": "+16", 
                     "spells": {
                         "paladin spells prepared": "(CL 12th; concentration +15)<p class=\"stat-block-2\">4th-<i>holy sword</i></p><p class=\"stat-block-2\">3rd-<i>daylight</i>, <i>prayer</i> (2)</p><p class=\"stat-block-2\">2nd-<i>resist energy</i> (2), <i>shield other</i></p><p class=\"stat-block-2\">1st-<i>bless</i>, <i>divine favor</i> (2), <i>endure elements</i></p>", 
@@ -990,6 +1061,12 @@
                     "type": "creature", 
                     "feats": "Bleeding Critical, Critical Focus, Extra Lay on Hands, Improved Initiative, Power Attack, Toughness, Vital Strike, Weapon Focus (gnome hooked hammer)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The paladin uses divine bond to give her weapon a mix of the defending, flaming, and holy special abilities.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1036,7 +1113,7 @@
                     "base_attack": "+15", 
                     "name": "Giant Hunter", 
                     "skills": "Knowledge (dungeoneering, local) +4, Perception +13, Stealth +8", 
-                    "super_race": "38,400gnome paladin 15", 
+                    "super_race": "gnome paladin 15", 
                     "cmd": "30", 
                     "cmb": "+18", 
                     "will": "+15; +2 vs. illusions", 
@@ -1054,7 +1131,7 @@
                     "resist": "fire 30", 
                     "melee": "+1 holy lance +24/+19/+14/+9 (1d8+7/19\u201320/\u00d73) or<p class=\"stat-block-2\"><i>+1 heavy mace</i> +23/+18/+13/+8 (1d8+7)</p>", 
                     "cr": "15", 
-                    "xp": "", 
+                    "xp": "51,200", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -1066,7 +1143,6 @@
                     "languages": "Common", 
                     "immune": "charm, disease, fear, poison", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts delay poison and resist energy (fire).'), (u'During Combat', u'The paladin fights from horseback with his lance, positioning himself where he can attack the enemy leader using Spirited Charge. He uses Improved Overrun and Trample to pass and crush creatures in his way. If he is unhorsed and mounting again is dangerous or impractical, he casts holy sword on his mace and fights on foot.'), (u'Base Statistics', u\"Without delay poison and resist energy, the paladin's statistics are\"), (u'Immune', u'charm, disease, fear'), (u'Resist', u'none.')]>", 
                     "fortitude": "+17", 
                     "spells": {
                         "paladin spells prepared": "(CL 13th; concentration +15)<p class=\"stat-block-2\">4th-<i>holy sword</i></p><p class=\"stat-block-2\">3rd-<i>heal mount</i>, <i>prayer</i></p><p class=\"stat-block-2\">2nd-<i>delay poison</i>, <i>eagle's splendor, remove paralysis, resist energy</i></p><p class=\"stat-block-2\">1st-<i>bless</i> (2), <i>divine favor</i> (2)</p>", 
@@ -1076,6 +1152,12 @@
                     "feats": "Improved Critical (lance), Improved Overrun, Mounted Combat, Power Attack, Ride-By Attack, Spirited Charge, Trample, Vital Strike, Weapon Focus (lance)", 
                     "senses": "Perception +15", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts delay poison and resist energy (fire).</p><p class='stat-block-1'><b>During Combat </b>The paladin fights from horseback with his lance, positioning himself where he can attack the enemy leader using Spirited Charge. He uses Improved Overrun and Trample to pass and crush creatures in his way. If he is unhorsed and mounting again is dangerous or impractical, he casts holy sword on his mace and fights on foot.</p><p class='stat-block-1'><b>Base Statistics </b>Without delay poison and resist energy, the paladin's statistics are</p><p class='stat-block-1'><b>Immune </b>charm, disease, fear</p><p class='stat-block-1'><b>Resist </b>none.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1120,7 +1202,7 @@
                     "base_attack": "+16", 
                     "name": "Mounted Paragon", 
                     "skills": "Handle Animal +9, Heal +6, Intimidate +10, Perception +15, Ride +15 (+17 to stay in the saddle), Sense Motive +10", 
-                    "super_race": "51,200human paladin 16", 
+                    "super_race": "human paladin 16", 
                     "space": "5 ft.", 
                     "cmb": "+22 (+24 overrun)", 
                     "will": "+13", 
@@ -1135,7 +1217,7 @@
                     "intelligence": "10", 
                     "melee": "+3 shock dwarven waraxe +27/+22/+17/+12 (1d10+9/19\u201320/\u00d73 plus 1d6 electricity)", 
                     "cr": "16", 
-                    "xp": "", 
+                    "xp": "76,800", 
                     "speed": "20 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -1147,7 +1229,6 @@
                     "languages": "Common, Dwarven", 
                     "immune": "charm, compulsion, disease, fear, poison", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts delay poison on himself and greater magic weapon on his waraxe.'), (u'During Combat', u'The paladin uses Improved Vital Strike and Cleave if he has a few targets close together.'), (u'Base Statistics', u\"Without delay poison and greater magic weapon, the paladin's statistics are\"), (u'Immune', u'charm, compulsion, disease, fear'), (u'Melee', u'+1 shock dwarven waraxe +25/+20/+15/+10 (1d10+7/19\\u201320/\\xd73 plus 1d6 electricity).')]>", 
                     "fortitude": "+16", 
                     "spells": {
                         "paladin spells prepared": "(CL 14th; concentration +16)<p class=\"stat-block-2\">4th-<i>holy sword</i></p><p class=\"stat-block-2\">3rd-<i>greater magic weapon</i>, <i>prayer</i></p><p class=\"stat-block-2\">2nd-<i>delay poison</i>, <i>eagle's splendor</i> (2), <i>shield other</i></p><p class=\"stat-block-2\">1st-<i>bless</i>, <i>divine favor</i> (2), <i>lesser restoration</i>, <i>protection from evil</i></p>", 
@@ -1156,6 +1237,12 @@
                     "type": "creature", 
                     "feats": "Cleave, Extra Lay on Hands, Improved Critical (dwarven waraxe), Improved Initiative, Improved Vital Strike, Power Attack, Toughness, Vital Strike, Weapon Focus (dwarven waraxe)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts delay poison on himself and greater magic weapon on his waraxe.</p><p class='stat-block-1'><b>During Combat </b>The paladin uses Improved Vital Strike and Cleave if he has a few targets close together.</p><p class='stat-block-1'><b>Base Statistics </b>Without delay poison and greater magic weapon, the paladin's statistics are</p><p class='stat-block-1'><b>Immune </b>charm, compulsion, disease, fear</p><p class='stat-block-1'><b>Melee </b>+1 shock dwarven waraxe +25/+20/+15/+10 (1d10+7/19\u201320/\u00d73 plus 1d6 electricity).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1183,7 +1270,7 @@
                     "base_attack": "+17", 
                     "name": "Axe Lord", 
                     "skills": "Climb +4, Diplomacy +7, Heal +7, Intimidate +10, Knowledge (local) +2, Knowledge (religion) +5, Perception +12 (+14 to notice unusual stonework), Swim +4", 
-                    "super_race": "76,800dwarf paladin 17", 
+                    "super_race": "dwarf paladin 17", 
                     "cmd": "34 (38 vs. bull rush or trip)", 
                     "cmb": "+23", 
                     "will": "+15; +2 vs. poison, spells, and spell-like abilities", 
@@ -1199,7 +1286,7 @@
                     "intelligence": "8", 
                     "melee": "+3 flaming longspear +27/+22/+17/+12 (1d6+9/\u00d73 plus 1d6 fire)", 
                     "cr": "17", 
-                    "xp": "", 
+                    "xp": "102,400", 
                     "speed": "30 ft.", 
                     "alignment": "LG", 
                     "size": "Small", 
@@ -1211,7 +1298,6 @@
                     "languages": "Common, Halfling", 
                     "immune": "charm, compulsion, disease, fear", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts greater magic weapon on his longspear.'), (u'During Combat', u'The paladin reserves most of his spells and magic items for helping allies against a common foe. He uses Cleave as often as possible against grouped opponents, and Lunge and Stand Still to control the movement of multiple enemies. He uses his divine bond to give his longspear the defending, holy, keen, or speed special ability.'), (u'Base Statistics', u\"Without greater magic weapon, the paladin's statistics are\"), (u'Melee', u'+1 flaming longspear +25/+20/+15/+10 (1d6+7/\\xd73 plus 1d6 fire).')]>", 
                     "fortitude": "+18", 
                     "spells": {
                         "paladin spells prepared": "(CL 15th; concentration +18)<p class=\"stat-block-2\">4th-<i>death ward</i>, <i>dispel evil</i></p><p class=\"stat-block-2\">3rd-<i>greater magic weapon</i>, <i>magic circle against evil</i>, <i>prayer</i></p><p class=\"stat-block-2\">2nd-<i>delay poison</i> (2), <i>resist energy</i> (2)</p><p class=\"stat-block-2\">1st-<i>bless</i> (2), <i>bless weapon</i> (2), <i>divine favor</i></p>", 
@@ -1220,6 +1306,12 @@
                     "type": "creature", 
                     "feats": "Cleave, Combat Reflexes, Greater Vital Strike, Improved Vital Strike, Lunge, Power Attack, Stand Still, Vital Strike, Weapon Focus (longspear)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts greater magic weapon on his longspear.</p><p class='stat-block-1'><b>During Combat </b>The paladin reserves most of his spells and magic items for helping allies against a common foe. He uses Cleave as often as possible against grouped opponents, and Lunge and Stand Still to control the movement of multiple enemies. He uses his divine bond to give his longspear the defending, holy, keen, or speed special ability.</p><p class='stat-block-1'><b>Base Statistics </b>Without greater magic weapon, the paladin's statistics are</p><p class='stat-block-1'><b>Melee </b>+1 flaming longspear +25/+20/+15/+10 (1d6+7/\u00d73 plus 1d6 fire).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1267,7 +1359,7 @@
                     "base_attack": "+18", 
                     "name": "Furious Crusader", 
                     "skills": "Acrobatics \u20132 (\u20131 when jumping), Climb +4, Diplomacy +11, Heal +9, Knowledge (local) +4, Knowledge (religion) +7, Perception +13, Swim +2", 
-                    "super_race": "102,400halfling paladin 18", 
+                    "super_race": "halfling paladin 18", 
                     "space": "5 ft.", 
                     "cmb": "+21", 
                     "will": "+17; +2 vs. fear", 
@@ -1284,7 +1376,7 @@
                     "resist": "fire 30", 
                     "melee": "+4 axiomatic longsword +29/+24/+19/+14 (1d8+9/17\u201320) or<p class=\"stat-block-2\"><i>+1 lance</i> +26/+21/+16/+11 (1d8+6/19\u201320/\u00d73)</p>", 
                     "cr": "18", 
-                    "xp": "", 
+                    "xp": "153,600", 
                     "speed": "30 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -1296,7 +1388,6 @@
                     "languages": "Common, Elven", 
                     "immune": "charm, compulsion, disease, fear, poison, sleep", 
                     "init": "+6", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts delay poison and resist energy (fire) on himself and greater magic weapon on his longsword.'), (u'During Combat', u\"The paladin fights on horseback or on foot as the situation warrants. He casts eagle's splendor to enhance his smite evil attacks, but otherwise relies on standard melee tactics and healing himself with lay on hands.\"), (u'Base Statistics', u\"Without delay poison, greater magic weapon, and resist energy the paladin's statistics are\"), (u'Immune', u'charm, compulsion, disease, fear, sleep'), (u'Resist', u'none'), (u'Melee', u'+1 axiomatic longsword +26/+21/+16/+11 (1d8+6/17\\u201320).')]>", 
                     "fortitude": "+20", 
                     "spells": {
                         "paladin spells prepared": "(CL 16th; concentration +19)<p class=\"stat-block-2\">4th-<i>death ward</i>, <i>neutralize poison</i></p><p class=\"stat-block-2\">3rd-<i>daylight</i>, <i>greater magic weapon</i>, <i>prayer</i>, <i>remove blindness</i></p><p class=\"stat-block-2\">2nd-<i>delay poison</i>, <i>eagle's splendor</i> (2), <i>resist energy</i></p><p class=\"stat-block-2\">1st-<i>bless, create water</i>, <i>divine favor</i> (2), <i>lesser restoration</i></p>", 
@@ -1306,6 +1397,12 @@
                     "feats": "Extra Lay on Hands, Great Fortitude, Improved Critical (lance, longsword), Improved Initiative, Mounted Combat, Power Attack, Skill Focus (Perception), Toughness, Weapon Focus (longsword, lance)", 
                     "senses": "low-light vision; Perception +17", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts delay poison and resist energy (fire) on himself and greater magic weapon on his longsword.</p><p class='stat-block-1'><b>During Combat </b>The paladin fights on horseback or on foot as the situation warrants. He casts eagle's splendor to enhance his smite evil attacks, but otherwise relies on standard melee tactics and healing himself with lay on hands.</p><p class='stat-block-1'><b>Base Statistics </b>Without delay poison, greater magic weapon, and resist energy the paladin's statistics are</p><p class='stat-block-1'><b>Immune </b>charm, compulsion, disease, fear, sleep</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Melee </b>+1 axiomatic longsword +26/+21/+16/+11 (1d8+6/17\u201320).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1330,7 +1427,7 @@
                     "base_attack": "+19", 
                     "name": "Mithral Master", 
                     "skills": "Diplomacy +11, Intimidate +6, Knowledge (local) +5, Knowledge (nobility) +8, Perception +17, Ride +10 (+12 to stay in the saddle)", 
-                    "super_race": "153,600half-elf paladin 19", 
+                    "super_race": "half-elf paladin 19", 
                     "cmd": "40", 
                     "cmb": "+24", 
                     "will": "+15; +2 vs. enchantments", 
@@ -1347,7 +1444,7 @@
                     "resist": "electricity 30, fire 30", 
                     "melee": "+4 cold iron evil outsider-bane greatsword +32/+27/+22/+17 (2d6+14/17\u201320)", 
                     "cr": "19", 
-                    "xp": "", 
+                    "xp": "204,800", 
                     "speed": "30 ft.", 
                     "alignment": "LG", 
                     "size": "Medium", 
@@ -1359,7 +1456,6 @@
                     "languages": "Abyssal, Celestial, Common, Infernal", 
                     "immune": "charm, compulsion, disease, fear, poison", 
                     "init": "+4", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The paladin casts delay poison and protection from energy (electricity and fire) on herself, and greater magic weapon on her greatsword.'), (u'During Combat', u'The paladin targets the most powerful creature present or an obviously demonic target. She uses her divine bond to add the brilliant energy, holy, keen, and speed special abilities to her greatsword as appropriate, and uses mercies to counteract any negative conditions or afflictions she gains.'), (u'Base Statistics', u\"Without delay poison, greater magic weapon, and protection from energy, the paladin's statistics are\"), (u'Immune', u'charm, compulsion, disease, fear'), (u'Resist', u'none'), (u'Melee', u'+1 cold iron evil outsider-bane greatsword +29/+24/+19/+14 (2d6+11/17\\u201320).')]>", 
                     "fortitude": "+23", 
                     "spells": {
                         "paladin spells prepared": "(CL 17th; concentration +20)<p class=\"stat-block-2\">4th-<i>break enchantment</i>, <i>death ward</i>, <i>dispel evil</i></p><p class=\"stat-block-2\">3rd-<i>daylight</i> (2), <i>greater magic weapon</i>, <i>prayer</i></p><p class=\"stat-block-2\">2nd-<i>delay poison</i>, <i>eagle's splendor</i> (2), <i>protection from energy</i> (2)</p><p class=\"stat-block-2\">1st-<i>divine favor</i> (3), <i>lesser restoration</i> (2)</p>", 
@@ -1368,6 +1464,12 @@
                     "type": "creature", 
                     "feats": "Critical Focus, Extra Lay on Hands, Great Fortitude, Improved Critical (greatsword), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Stunning Critical, Toughness, Weapon Focus (greatsword)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The paladin casts delay poison and protection from energy (electricity and fire) on herself, and greater magic weapon on her greatsword.</p><p class='stat-block-1'><b>During Combat </b>The paladin targets the most powerful creature present or an obviously demonic target. She uses her divine bond to add the brilliant energy, holy, keen, and speed special abilities to her greatsword as appropriate, and uses mercies to counteract any negative conditions or afflictions she gains.</p><p class='stat-block-1'><b>Base Statistics </b>Without delay poison, greater magic weapon, and protection from energy, the paladin's statistics are</p><p class='stat-block-1'><b>Immune </b>charm, compulsion, disease, fear</p><p class='stat-block-1'><b>Resist </b>none</p><p class='stat-block-1'><b>Melee </b>+1 cold iron evil outsider-bane greatsword +29/+24/+19/+14 (2d6+11/17\u201320).</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -1384,7 +1486,7 @@
                     "base_attack": "+20", 
                     "name": "Demon Hunter", 
                     "skills": "Climb +7, Diplomacy +11, Heal +7, Intimidate +13, Knowledge (arcana) +6, Knowledge (planes) +21, Linguistics +3, Perception +19, Survival +2, Swim +7", 
-                    "super_race": "204,800human paladin 20", 
+                    "super_race": "human paladin 20", 
                     "cmd": "41", 
                     "cmb": "+27", 
                     "will": "+19", 

@@ -14,7 +14,7 @@
                     "intelligence": "9", 
                     "melee": "morningstar +0 (1d8) or<p class=\"stat-block-2\">silver dagger +0 (1d4/19\u201320)</p>", 
                     "cr": "1/3", 
-                    "xp": "", 
+                    "xp": "135", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -27,12 +27,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The adept reads her scroll of sleep and commands her dog to attack. She then casts bless and attacks with her morningstar.')]>", 
                     "fortitude": "\u20131", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Skill Focus (Handle Animal), Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The adept reads her scroll of sleep and commands her dog to attack. She then casts bless and attacks with her morningstar.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -52,7 +57,7 @@
                     "base_attack": "+0", 
                     "name": "Acolyte", 
                     "skills": "Handle Animal +7, Heal +7, Spellcraft +3", 
-                    "super_race": "135human adept 1", 
+                    "super_race": "human adept 1", 
                     "cmd": "11", 
                     "cmb": "+0", 
                     "will": "+3", 
@@ -66,7 +71,7 @@
                     "intelligence": "10", 
                     "melee": "dagger +0 (1d4\u20131/19\u201320)", 
                     "cr": "1/2", 
-                    "xp": "", 
+                    "xp": "200", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -79,12 +84,17 @@
                     "languages": "Common, Orc", 
                     "source": "NPC Codex", 
                     "init": "\u20131", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u\"If fighting foes that lack darkvision, the adept reads his scroll of darkness. He looks for groups to target with burning hands or sleep, resorting to darts or alchemist's fire otherwise.\")]>", 
                     "fortitude": "+1", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Combat Casting", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>If fighting foes that lack darkvision, the adept reads his scroll of darkness. He looks for groups to target with burning hands or sleep, resorting to darts or alchemist's fire otherwise.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -106,7 +116,7 @@
                     "base_attack": "+1", 
                     "name": "Shaman", 
                     "skills": "Heal +9, Intimidate +2, Knowledge (religion) +5", 
-                    "super_race": "200half-orc adept 2", 
+                    "super_race": "half-orc adept 2", 
                     "cmd": "9", 
                     "cmb": "+0", 
                     "will": "+5", 
@@ -120,7 +130,7 @@
                     "intelligence": "8", 
                     "melee": "spear +1 (1d8/\u00d73) or mwk cold iron dagger +2 (1d4/19\u201320)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "30 ft.", 
                     "alignment": "CE", 
                     "spells": {
@@ -133,12 +143,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The adept casts protection from good.'), (u'During Combat', u'The adept casts burning hands whenever she can catch two or more foes in the area. When she runs out of spells, scrolls, and acid, she fights with her spear.'), (u'Base Statistics', u\"Without protection from good, the adept's statistics are\"), (u'AC', u'no bonus vs. good'), (u'Saves', u'no bonus vs. good.')]>", 
                     "fortitude": "+4", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Combat Casting, Great Fortitude, Scribe Scroll", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The adept casts protection from good.</p><p class='stat-block-1'><b>During Combat </b>The adept casts burning hands whenever she can catch two or more foes in the area. When she runs out of spells, scrolls, and acid, she fights with her spear.</p><p class='stat-block-1'><b>Base Statistics </b>Without protection from good, the adept's statistics are</p><p class='stat-block-1'><b>AC </b>no bonus vs. good</p><p class='stat-block-1'><b>Saves </b>no bonus vs. good.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -154,7 +169,7 @@
                     "base_attack": "+1", 
                     "name": "Initiate", 
                     "skills": "Knowledge (arcana, local, planes) +3, Knowledge (religion) +5, Spellcraft +5", 
-                    "super_race": "400human adept 3", 
+                    "super_race": "human adept 3", 
                     "cmd": "11", 
                     "cmb": "+1", 
                     "will": "+4; +2 vs. good", 
@@ -168,7 +183,7 @@
                     "intelligence": "9", 
                     "melee": "mwk heavy mace +7 (1d8+4)", 
                     "cr": "2", 
-                    "xp": "", 
+                    "xp": "600", 
                     "speed": "30 ft.", 
                     "alignment": "CE", 
                     "spells": {
@@ -181,12 +196,17 @@
                     "languages": "Common, Orc", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The adept reads his scrolls of bear's endurance and bull's strength.\"), (u'During Combat', u'The adept casts darkness on his mace, then casts scorching ray or burning hands.'), (u'Base Statistics', u\"Without bear's endurance and bull's strength, the adept's statistics are\"), (u'hp', u'22'), (u'Fort', u'+1'), (u'Melee', u'mwk heavy mace +5 (1d8+2)'), (u'Ranged', u'mwk sling +3 (1d4+2)'), (u'Str', u'14'), (u'Con', u'11'), (u'CMB', u'+4'), (u'CMD', u'14.')]>", 
                     "fortitude": "+3", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Skill Focus (Intimidate), Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The adept reads his scrolls of bear's endurance and bull's strength.</p><p class='stat-block-1'><b>During Combat </b>The adept casts darkness on his mace, then casts scorching ray or burning hands.</p><p class='stat-block-1'><b>Base Statistics </b>Without bear's endurance and bull's strength, the adept's statistics are</p><p class='stat-block-1'><b>hp </b>22</p><p class='stat-block-1'><b>Fort </b>+1</p><p class='stat-block-1'><b>Melee </b>mwk heavy mace +5 (1d8+2)</p><p class='stat-block-1'><b>Ranged </b>mwk sling +3 (1d4+2)</p><p class='stat-block-1'><b>Str </b>14</p><p class='stat-block-1'><b>Con </b>11</p><p class='stat-block-1'><b>CMB </b>+4</p><p class='stat-block-1'><b>CMD </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -203,7 +223,7 @@
                     "base_attack": "+2", 
                     "name": "Doom Prophet", 
                     "skills": "Fly +3, Intimidate +7, Knowledge (religion) +3", 
-                    "super_race": "600half-orc adept 4", 
+                    "super_race": "half-orc adept 4", 
                     "cmd": "16", 
                     "cmb": "+6", 
                     "will": "+6", 
@@ -217,7 +237,7 @@
                     "intelligence": "9", 
                     "melee": "mwk club +7 (1d6+6)", 
                     "cr": "3", 
-                    "xp": "", 
+                    "xp": "800", 
                     "speed": "30 ft.", 
                     "alignment": "NE", 
                     "spells": {
@@ -230,12 +250,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The adept casts bull's strength.\"), (u'During Combat', u'The adept casts mirror image, then attacks with his club. If he has trouble landing blows, he switches to his wand of burning hands.'), (u'Base Statistics', u\"Without bull's strength, the adept's statistics are\"), (u'Melee', u'mwk club +5 (1d6+3)'), (u'Ranged', u'dagger +3 (1d4+2/19\\u201320)'), (u'Str', u'14'), (u'CMB', u'+4'), (u'CMD', u'15.')]>", 
                     "fortitude": "+2", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Cleave, Light Armor Proficiency, Power Attack, Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The adept casts bull's strength.</p><p class='stat-block-1'><b>During Combat </b>The adept casts mirror image, then attacks with his club. If he has trouble landing blows, he switches to his wand of burning hands.</p><p class='stat-block-1'><b>Base Statistics </b>Without bull's strength, the adept's statistics are</p><p class='stat-block-1'><b>Melee </b>mwk club +5 (1d6+3)</p><p class='stat-block-1'><b>Ranged </b>dagger +3 (1d4+2/19\u201320)</p><p class='stat-block-1'><b>Str </b>14</p><p class='stat-block-1'><b>CMB </b>+4</p><p class='stat-block-1'><b>CMD </b>15.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -251,7 +276,7 @@
                     "base_attack": "+2", 
                     "name": "Enforcer", 
                     "skills": "Intimidate +4, Knowledge (local) +4, Knowledge (religion) +3, Perception +4", 
-                    "super_race": "800human adept 5", 
+                    "super_race": "human adept 5", 
                     "cmd": "17", 
                     "cmb": "+6", 
                     "will": "+7", 
@@ -266,7 +291,7 @@
                     "intelligence": "9", 
                     "melee": "quarterstaff +2 (1d6\u20131)", 
                     "cr": "4", 
-                    "xp": "", 
+                    "xp": "1,200", 
                     "speed": "20 ft.", 
                     "alignment": "LN", 
                     "spells": {
@@ -279,13 +304,18 @@
                     "languages": "Common, Dwarven", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'The adept attacks for nonlethal damage only (the attack penalty for this is not included in her melee entry). She tries to escape combat entirely with her spells and items.')]>", 
                     "fortitude": "+7", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Eschew Materials, Great Fortitude, Skill Focus (Knowledge [religion])", 
                     "senses": "darkvision 60 ft.; Perception +3", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>The adept attacks for nonlethal damage only (the attack penalty for this is not included in her melee entry). She tries to escape combat entirely with her spells and items.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -300,7 +330,7 @@
                     "base_attack": "+3", 
                     "name": "Guru", 
                     "skills": "Diplomacy +6, Knowledge (religion) +11", 
-                    "super_race": "1,200dwarf adept 6", 
+                    "super_race": "dwarf adept 6", 
                     "cmd": "12 (16 vs. bull rush or trip)", 
                     "cmb": "+2", 
                     "will": "+8; +2 vs. poison, spells, and spell-like abilities", 
@@ -314,7 +344,7 @@
                     "intelligence": "11", 
                     "melee": "quarterstaff +2 (1d6\u20131)", 
                     "cr": "5", 
-                    "xp": "", 
+                    "xp": "1,600", 
                     "speed": "30 ft.", 
                     "alignment": "N", 
                     "spells": {
@@ -327,12 +357,17 @@
                     "languages": "Common", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The adept casts endure elements at the start of each day. He drinks his potion of barkskin if expecting a fight.'), (u'During Combat', u'The adept casts web, then hurls shock bullets with his sling at any exposed foes, all the while uttering vile epithets.'), (u'Base Statistics', u\"Without barkskin, the adept's statistics are\"), (u'AC', u'11, touch 11, flat-footed 11.')]>", 
                     "fortitude": "+6", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Endurance, Great Fortitude, Skill Focus (Knowledge [arcana], Survival), Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The adept casts endure elements at the start of each day. He drinks his potion of barkskin if expecting a fight.</p><p class='stat-block-1'><b>During Combat </b>The adept casts web, then hurls shock bullets with his sling at any exposed foes, all the while uttering vile epithets.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, the adept's statistics are</p><p class='stat-block-1'><b>AC </b>11, touch 11, flat-footed 11.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -348,7 +383,7 @@
                     "base_attack": "+3", 
                     "name": "Hermit", 
                     "skills": "Heal +7, Knowledge (arcana) +13, Knowledge (nature) +9, Stealth +10, Survival +16", 
-                    "super_race": "1,600human adept 7", 
+                    "super_race": "human adept 7", 
                     "cmd": "13", 
                     "cmb": "+2", 
                     "will": "+9", 
@@ -362,7 +397,7 @@
                     "intelligence": "10", 
                     "melee": "mwk spear +7 (1d8+3/\u00d73)", 
                     "cr": "6", 
-                    "xp": "", 
+                    "xp": "2,400", 
                     "speed": "30 ft.", 
                     "alignment": "CN", 
                     "spells": {
@@ -374,12 +409,17 @@
                     "charisma": "8", 
                     "source": "NPC Codex", 
                     "init": "+0", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The adept casts bull's strength and drinks his potion of shield of faith.\"), (u'During Combat', u'The adept blasts his enemies with divine fire and lightning.'), (u'Base Statistics', u\"Without bull's strength and shield of faith, the adept's statistics are\"), (u'AC', u'10, touch 10, flat-footed 10'), (u'Melee', u'mwk spear +5 (1d8/\\xd73)'), (u'Ranged', u'mwk spear +5 (1d8/\\xd73)'), (u'Str', u'11'), (u'CMB', u'+4'), (u'CMD', u'14.')]>", 
                     "fortitude": "+4", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Combat Casting, Iron Will, Skill Focus (Knowledge [religion], Perform [oratory]), Spell Focus (evocation)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The adept casts bull's strength and drinks his potion of shield of faith.</p><p class='stat-block-1'><b>During Combat </b>The adept blasts his enemies with divine fire and lightning.</p><p class='stat-block-1'><b>Base Statistics </b>Without bull's strength and shield of faith, the adept's statistics are</p><p class='stat-block-1'><b>AC </b>10, touch 10, flat-footed 10</p><p class='stat-block-1'><b>Melee </b>mwk spear +5 (1d8/\u00d73)</p><p class='stat-block-1'><b>Ranged </b>mwk spear +5 (1d8/\u00d73)</p><p class='stat-block-1'><b>Str </b>11</p><p class='stat-block-1'><b>CMB </b>+4</p><p class='stat-block-1'><b>CMD </b>14.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -395,7 +435,7 @@
                     "base_attack": "+4", 
                     "name": "Heretic", 
                     "skills": "Acrobatics +3, Diplomacy +7, Knowledge (religion) +14, Perform (oratory) +10", 
-                    "super_race": "2,400half-elf adept 8", 
+                    "super_race": "half-elf adept 8", 
                     "cmd": "19", 
                     "cmb": "+6", 
                     "will": "+12; +2 vs. enchantments", 
@@ -409,7 +449,7 @@
                     "intelligence": "12", 
                     "melee": "quarterstaff +3 (1d4\u20132)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "20 ft.", 
                     "alignment": "NG", 
                     "spells": {
@@ -422,12 +462,17 @@
                     "languages": "Common, Elven, Gnome, Halfling, Sylvan", 
                     "source": "NPC Codex", 
                     "init": "+1", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u'The adept drinks her potion of mage armor.'), (u'During Combat', u'The adept catches as many foes as possible in her web, then heals her allies or seeks to escape. If she must fight, she prefers her sling.'), (u'Base Statistics', u\"Without mage armor, the adept's statistics are\"), (u'AC', u'12, touch 12, flat-footed 11.')]>", 
                     "fortitude": "+6", 
                     "size": "Small", 
                     "type": "creature", 
                     "feats": "Brew Potion, Great Fortitude, Iron Will, Scribe Scroll, Skill Focus (Heal)", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The adept drinks her potion of mage armor.</p><p class='stat-block-1'><b>During Combat </b>The adept catches as many foes as possible in her web, then heals her allies or seeks to escape. If she must fight, she prefers her sling.</p><p class='stat-block-1'><b>Base Statistics </b>Without mage armor, the adept's statistics are</p><p class='stat-block-1'><b>AC </b>12, touch 12, flat-footed 11.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -458,7 +503,7 @@
                     "base_attack": "+4", 
                     "name": "Healer", 
                     "skills": "Acrobatics +3 (\u20131 when jumping), Appraise +4, Climb +0, Heal +19, Knowledge (local) +8, Knowledge (nature) +13, Linguistics +3, Perception +4, Profession (herbalist) +14, Survival +8", 
-                    "super_race": "3,200halfling adept 9", 
+                    "super_race": "halfling adept 9", 
                     "cmd": "12", 
                     "cmb": "+1", 
                     "will": "+11; +2 vs. fear", 
@@ -472,7 +517,7 @@
                     "intelligence": "9", 
                     "melee": "mwk silver dagger +5 (1d4\u20131/19\u201320)", 
                     "cr": "8", 
-                    "xp": "", 
+                    "xp": "4,800", 
                     "speed": "30 ft., fly 60 ft. (good)", 
                     "alignment": "CE", 
                     "spells": {
@@ -485,12 +530,17 @@
                     "languages": "Common, Aklo", 
                     "source": "NPC Codex", 
                     "init": "+7", 
-                    "text": "<StatBlockSection Tactics [(u'Before Combat', u\"The adept drinks her potions of barkskin, cat's grace, fly, and mage armor, then rises up out of reach of enemy melee weapons.\"), (u'During Combat', u'The adept hurls fireballs and lightning bolts from the air, then returns to the ground to dispense her touch spells and use her wand of burning hands.'), (u'Base Statistics', u\"Without barkskin, cat's grace, fly, and mage armor, the adept's statistics are\"), (u'Init', u'+5'), (u'AC', u'11, touch 11, flat-footed 10'), (u'Ref', u'+4'), (u'Speed', u'30 ft.'), (u'Ranged', u'mwk silver dagger +7 (1d4\\u20131/19\\u201320)'), (u'Dex', u'12'), (u'CMD', u'15'), (u'Skills', u'Fly +1.')]>", 
                     "fortitude": "+5", 
                     "size": "Medium", 
                     "type": "creature", 
                     "feats": "Combat Casting, Great Fortitude, Improved Initiative, Iron Will, Skill Focus (Bluff), Toughness", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>Before Combat </b>The adept drinks her potions of barkskin, cat's grace, fly, and mage armor, then rises up out of reach of enemy melee weapons.</p><p class='stat-block-1'><b>During Combat </b>The adept hurls fireballs and lightning bolts from the air, then returns to the ground to dispense her touch spells and use her wand of burning hands.</p><p class='stat-block-1'><b>Base Statistics </b>Without barkskin, cat's grace, fly, and mage armor, the adept's statistics are</p><p class='stat-block-1'><b>Init </b>+5</p><p class='stat-block-1'><b>AC </b>11, touch 11, flat-footed 10</p><p class='stat-block-1'><b>Ref </b>+4</p><p class='stat-block-1'><b>Speed </b>30 ft.</p><p class='stat-block-1'><b>Ranged </b>mwk silver dagger +7 (1d4\u20131/19\u201320)</p><p class='stat-block-1'><b>Dex </b>12</p><p class='stat-block-1'><b>CMD </b>15</p><p class='stat-block-1'><b>Skills </b>Fly +1.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -521,7 +571,7 @@
                     "base_attack": "+5", 
                     "name": "Cultist", 
                     "skills": "Appraise +2, Bluff +17, Fly +7, Knowledge (arcana) +6, Knowledge (planes) +9, Knowledge (religion) +5, Linguistics +0, Spellcraft +7", 
-                    "super_race": "4,800human adept 10", 
+                    "super_race": "human adept 10", 
                     "cmd": "17", 
                     "cmb": "+4", 
                     "will": "+12", 

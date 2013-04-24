@@ -16,7 +16,7 @@
                     "intelligence": "10", 
                     "melee": "flurry of blows +2/+2 (1d6+3) or unarmed strike +3 (1d6+3) or temple sword +3 (1d8+3)", 
                     "cr": "1", 
-                    "xp": "", 
+                    "xp": "400", 
                     "speed": "30 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -26,10 +26,17 @@
                     "languages": "Common, Vudrani", 
                     "source": "NPC Codex", 
                     "init": "+2", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u'Sajan relies on Mobility to get into a strategic location in combat, and uses a combination of Combat Reflexes and flurry of blows to deal as much damage as possible to his targets. Against a particularly powerful single enemy, he utilizes Stunning Fist to take the combatant out of commission.')]>", 
                     "fortitude": "+4", 
                     "type": "creature", 
                     "feats": "Combat Reflexes, Dodge, Improved Unarmed Strike, Mobility, Stunning Fist", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>Sajan relies on Mobility to get into a strategic location in combat, and uses a combination of Combat Reflexes and flurry of blows to deal as much damage as possible to his targets. Against a particularly powerful single enemy, he utilizes Stunning Fist to take the combatant out of commission.</p>"
+                        }
+                    ], 
                     "senses": "Perception +5", 
                     "gear": "shuriken (5), temple sword, belt pouch, wooden holy symbol, 2 gp", 
                     "ranged": "shuriken +2 (1d2+3)", 
@@ -39,10 +46,11 @@
                     "base_attack": "+0", 
                     "name": "Sajan", 
                     "skills": "Acrobatics +6, Climb +7, Perception +5, Sense Motive +5, Stealth +6", 
-                    "super_race": "400human monk 1", 
+                    "super_race": "human monk 1", 
                     "cmd": "17", 
                     "cmb": "+3", 
                     "will": "+3", 
+                    "abbrev": "Level 1", 
                     "reflex": "+4", 
                     "creature_subtype": "human"
                 }, 
@@ -53,7 +61,7 @@
                     "intelligence": "10", 
                     "melee": "flurry of blows +8/+8/+3 (1d8+3) or unarmed strike +8 (1d8+3) or +2 temple sword +10 (1d8+5)", 
                     "cr": "7", 
-                    "xp": "", 
+                    "xp": "3,200", 
                     "speed": "50 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -65,10 +73,17 @@
                     "languages": "Common, Vudrani", 
                     "immune": "disease", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u\"Sajan uses fast movement and Acrobatics to get into a strategic location in combat, and uses a combination of Combat Reflexes and flurry of blows to deal as much damage as possible to his targets. He employs combat maneuvers when it's strategically advantageous&mdash;grappling spellcasters and tripping foes with his temple sword when his allies flank them. Against a particularly powerful single enemy, he utilizes Stunning Fist to take the combatant out of commission.\")]>", 
                     "fortitude": "+9", 
                     "type": "creature", 
                     "feats": "Combat Reflexes, Deflect Arrows, Dodge, Improved Grapple, Improved Trip, Improved Unarmed Strike, Mobility, Scorpion Style, Spring Attack, Stunning Fist", 
+                    "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>Sajan uses fast movement and Acrobatics to get into a strategic location in combat, and uses a combination of Combat Reflexes and flurry of blows to deal as much damage as possible to his targets. He employs combat maneuvers when it's strategically advantageous&mdash;grappling spellcasters and tripping foes with his temple sword when his allies flank them. Against a particularly powerful single enemy, he utilizes Stunning Fist to take the combatant out of commission.</p>"
+                        }
+                    ], 
                     "senses": "Perception +11", 
                     "ranged": "shuriken +8 (1d2+3)", 
                     "hp": "56 (7d8+21)", 
@@ -79,10 +94,11 @@
                     "base_attack": "+5", 
                     "name": "Sajan", 
                     "skills": "Acrobatics +13 (+28 when jumping), Climb +13, Perception +11, Sense Motive +11, Stealth +13", 
-                    "super_race": "3,200human monk 7", 
+                    "super_race": "human monk 7", 
                     "cmd": "25 (27 vs. grapple or trip)", 
                     "cmb": "+10 (+12 grapple or trip)", 
                     "will": "+8; +2 vs. enchantments", 
+                    "abbrev": "Level 7", 
                     "reflex": "+10", 
                     "combat_gear": "potions of cure light wounds (2)", 
                     "creature_subtype": "human"
@@ -94,7 +110,7 @@
                     "intelligence": "10", 
                     "melee": "flurry of blows +15/+15/+10/+10/+5 (2d8+5 plus 1d6 electricity) or unarmed strike +14/+9 (2d8+5 plus 1d6 electricity) or +3 temple sword +16/+11 (1d8+7/19\u201320)", 
                     "cr": "12", 
-                    "xp": "", 
+                    "xp": "19,200", 
                     "speed": "70 ft.", 
                     "alignment": "LN", 
                     "size": "Medium", 
@@ -106,11 +122,16 @@
                     "languages": "Common, Vudrani", 
                     "immune": "disease, poison", 
                     "init": "+3", 
-                    "text": "<StatBlockSection Tactics [(u'During Combat', u\"Sajan uses his fast movement and Acrobatics to get into a strategic location in combat, and uses a combination of Combat Reflexes and flurry of blows to deal as much damage as possible to his targets. He employs combat maneuvers when doing so is strategically advantageous&mdash;grappling spellcasters and tripping foes with his temple sword when his allies flank them. Against a particularly powerful single enemy, he utilizes Stunning Fist to take the combatant out of commission. When overmatched, he's quick to withdraw and use his +1 shuriken to harass a foe at range or from more defensible ground, or by using his speed to keep just out of reach.\")]>", 
                     "fortitude": "+13", 
                     "type": "creature", 
                     "feats": "Combat Reflexes, Deflect Arrows, Dodge, Gorgon's Fist, Greater Trip, Improved Grapple, Improved Trip, Improved Unarmed Strike, Mobility, Scorpion Style, Spring Attack, Stunning Fist, Wind Stance", 
                     "sections": [
+                        {
+                            "source": "NPC Codex", 
+                            "type": "section", 
+                            "name": "Tactics", 
+                            "text": "<p class='stat-block-1'><b>During Combat </b>Sajan uses his fast movement and Acrobatics to get into a strategic location in combat, and uses a combination of Combat Reflexes and flurry of blows to deal as much damage as possible to his targets. He employs combat maneuvers when doing so is strategically advantageous&mdash;grappling spellcasters and tripping foes with his temple sword when his allies flank them. Against a particularly powerful single enemy, he utilizes Stunning Fist to take the combatant out of commission. When overmatched, he's quick to withdraw and use his +1 shuriken to harass a foe at range or from more defensible ground, or by using his speed to keep just out of reach.</p>"
+                        }, 
                         {
                             "source": "NPC Codex", 
                             "type": "section", 
@@ -137,10 +158,11 @@
                     "base_attack": "+9", 
                     "name": "Sajan", 
                     "skills": "Acrobatics +18 (+46 when jumping), Climb +19, Perception +18, Sense Motive +18, Stealth +18", 
-                    "super_race": "19,200human monk 12", 
+                    "super_race": "human monk 12", 
                     "cmd": "36 (38 vs. grapple, 40 vs. trip)", 
                     "cmb": "+16 (+18 grapple, +20 trip)", 
                     "will": "+14; +2 vs. enchantments", 
+                    "abbrev": "Level 12", 
                     "reflex": "+14", 
                     "combat_gear": "elixir of fire breath, potion of bear's endurance, potions of cure serious wounds (2), potion of fly", 
                     "creature_subtype": "human"
