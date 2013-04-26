@@ -247,7 +247,6 @@
                     "sections": [
                         {
                             "slot": "chest", 
-                            "requirements": "Craft Wondrous Item, grease, squeeze (see below)", 
                             "name": "Corset of the Vishkanya", 
                             "weight": "1 lb.", 
                             "cl": "3rd", 
@@ -260,8 +259,19 @@
                                 }
                             ], 
                             "price": "3,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, grease, squeeze (see below)"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "1,500 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "1,500 gp", 
                             "aura": "faint transmutation", 
                             "subtype": "chest", 
                             "type": "item"

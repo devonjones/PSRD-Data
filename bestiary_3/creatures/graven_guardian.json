@@ -411,14 +411,28 @@
             "name": "Construction", 
             "sections": [
                 {
-                    "requirements": "Craft Construct, greater magic weapon, haste, imbue with spell ability, make whole, stone shape, creator must be caster level 7th", 
                     "name": "Graven Guardian", 
                     "cl": "7th", 
                     "sections": [], 
                     "price": "18,500 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, greater magic weapon, haste, imbue with spell ability, make whole, stone shape, creator must be caster level 7th"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft (sculpture) or Craft (pottery) DC 15"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "9,500 gp"
+                        }
+                    ], 
                     "source": "Bestiary 3", 
-                    "cost": "9,500 gp", 
-                    "skill": "Craft (sculpture) or Craft (pottery) DC 15", 
                     "type": "item"
                 }
             ]

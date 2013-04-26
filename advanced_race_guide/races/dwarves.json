@@ -920,7 +920,6 @@
                     "sections": [
                         {
                             "slot": "none", 
-                            "requirements": "Craft Wondrous Item, darkvision, deeper darkness", 
                             "name": "Elixir of Darksight", 
                             "weight": "&mdash", 
                             "cl": "6th", 
@@ -933,14 +932,24 @@
                                 }
                             ], 
                             "price": "1,200 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, darkvision, deeper darkness"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "600 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "600 gp", 
                             "aura": "moderate transmutation", 
                             "type": "item"
                         }, 
                         {
                             "slot": "none", 
-                            "requirements": "Craft Magic Arms and Armor, Craft Rod, bull's strength, telekinesis, creator must be a dwarf", 
                             "name": "Rod of Dwarven Might", 
                             "weight": "10 lbs.", 
                             "cl": "19th", 
@@ -953,8 +962,19 @@
                                 }
                             ], 
                             "price": "80,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Magic Arms and Armor, Craft Rod, bull's strength, telekinesis, creator must be a dwarf"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "40,000 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "40,000 gp", 
                             "aura": "strong transmutation", 
                             "type": "item"
                         }

@@ -102,14 +102,28 @@
             "name": "Construction", 
             "sections": [
                 {
-                    "requirements": "Craft Construct, animate objects, cat's grace,  geas/quest, keen edge, creator must be caster level 9th", 
                     "name": "Terra-cotta Soldier", 
                     "cl": "9th", 
                     "sections": [], 
                     "price": "19,000 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, animate objects, cat's grace,  geas/quest, keen edge, creator must be caster level 9th"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft (pottery) or Craft (sculptures) DC 14"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "10,000 gp"
+                        }
+                    ], 
                     "source": "Bestiary 3", 
-                    "cost": "10,000 gp", 
-                    "skill": "Craft (pottery) or Craft (sculptures) DC 14", 
                     "type": "item"
                 }
             ]

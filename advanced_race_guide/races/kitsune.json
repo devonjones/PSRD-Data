@@ -253,7 +253,6 @@
                     "sections": [
                         {
                             "slot": "none", 
-                            "requirements": "Craft Wondrous Item, creator must be a kitsune", 
                             "name": "Kitsune Star Gem", 
                             "weight": "&mdash", 
                             "cl": "1st (1st), 3rd (2nd), or 5th (3rd)", 
@@ -266,8 +265,19 @@
                                 }
                             ], 
                             "price": "750 gp (1st), 3,000 gp (2nd), 6,750 gp (3rd)", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, creator must be a kitsune"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "365 gp (1st), 1,500 gp (2nd), or 3,375 gp (3rd)"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "365 gp (1st), 1,500 gp (2nd), or 3,375 gp (3rd)", 
                             "aura": "faint transmutation", 
                             "type": "item"
                         }

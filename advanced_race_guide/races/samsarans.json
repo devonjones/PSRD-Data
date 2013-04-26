@@ -220,7 +220,6 @@
                     "sections": [
                         {
                             "slot": "none", 
-                            "requirements": "Craft Wondrous Item, legend lore", 
                             "name": "Incense of Many Fates", 
                             "weight": "1 lb.", 
                             "cl": "11th", 
@@ -233,8 +232,19 @@
                                 }
                             ], 
                             "price": "3,300 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, legend lore"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "1,650 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "1,650 gp", 
                             "aura": "moderate divination", 
                             "type": "item"
                         }

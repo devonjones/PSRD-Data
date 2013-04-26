@@ -536,7 +536,6 @@
                         }, 
                         {
                             "slot": "hands", 
-                            "requirements": "Craft Wondrous Item, bestow curse", 
                             "name": "Bonebreaker Gauntlets", 
                             "weight": "2 lbs.", 
                             "cl": "5th", 
@@ -549,8 +548,19 @@
                                 }
                             ], 
                             "price": "6,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, bestow curse"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "3,000 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "3,000 gp", 
                             "aura": "faint necromancy", 
                             "subtype": "hands", 
                             "type": "item"

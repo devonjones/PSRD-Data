@@ -223,7 +223,6 @@
                     "sections": [
                         {
                             "slot": "shoulders", 
-                            "requirements": "Craft Wondrous Item, fins to feet", 
                             "name": "Seafoam Shawl", 
                             "weight": "1 lb.", 
                             "cl": "5th", 
@@ -236,8 +235,19 @@
                                 }
                             ], 
                             "price": "6,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, fins to feet"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "3,000 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "3,000 gp", 
                             "aura": "faint transmutation", 
                             "subtype": "shoulders", 
                             "type": "item"

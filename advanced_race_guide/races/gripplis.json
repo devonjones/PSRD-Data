@@ -247,7 +247,6 @@
                     "sections": [
                         {
                             "slot": "none", 
-                            "requirements": "Craft Wondrous Item, shrink item, unseen servant", 
                             "name": "Bubble Vault", 
                             "weight": "&mdash", 
                             "cl": "5th", 
@@ -260,8 +259,19 @@
                                 }
                             ], 
                             "price": "1,500 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, shrink item, unseen servant"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "750 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "750 gp", 
                             "aura": "faint transmutation", 
                             "type": "item"
                         }
