@@ -648,7 +648,6 @@
                     "sections": [
                         {
                             "slot": "none", 
-                            "requirements": "Craft Wondrous Item, Master Craftsman", 
                             "name": "Amazing Tools of Manufacture", 
                             "weight": "1 lb.", 
                             "cl": "3rd", 
@@ -661,14 +660,24 @@
                                 }
                             ], 
                             "price": "12,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, Master Craftsman"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "6,000 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "6,000 gp", 
                             "aura": "faint transmutation", 
                             "type": "item"
                         }, 
                         {
                             "slot": "feet", 
-                            "requirements": "Craft Wondrous Item, creator must be a gnome or a wizard specialized in the school of conjuration", 
                             "name": "Boots of escape", 
                             "weight": "1 lb.", 
                             "cl": "5th", 
@@ -681,15 +690,25 @@
                                 }
                             ], 
                             "price": "8,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, creator must be a gnome or a wizard specialized in the school of conjuration"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "4,000 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "4,000 gp", 
                             "aura": "faint conjuration", 
                             "subtype": "feet", 
                             "type": "item"
                         }, 
                         {
                             "slot": "none", 
-                            "requirements": "Craft Wondrous Item, creator must be a gnome or a wizard specialized in the school of illusion", 
                             "name": "Phantasmal Gem", 
                             "weight": "1 lb.", 
                             "cl": "3rd", 
@@ -702,14 +721,24 @@
                                 }
                             ], 
                             "price": "4,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, creator must be a gnome or a wizard specialized in the school of illusion"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "2,000 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "2,000 gp", 
                             "aura": "faint illusion", 
                             "type": "item"
                         }, 
                         {
                             "slot": "ring", 
-                            "requirements": "Forge Ring, creator must have the obsession racial trait", 
                             "name": "Ring of Craft Magic", 
                             "weight": "1 lb.", 
                             "cl": "3rd", 
@@ -722,8 +751,19 @@
                                 }
                             ], 
                             "price": "12,000 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Forge Ring, creator must have the obsession racial trait"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "6,000 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "6,000 gp", 
                             "aura": "faint transmutation", 
                             "subtype": "ring", 
                             "type": "item"

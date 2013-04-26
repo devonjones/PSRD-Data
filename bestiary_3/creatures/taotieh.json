@@ -73,14 +73,28 @@
             "name": "Construction", 
             "sections": [
                 {
-                    "requirements": "Craft Construct, geas/quest, limited wish, plane shift, creator must be caster level 14th", 
                     "name": "Taotieh", 
                     "cl": "14th", 
                     "sections": [], 
                     "price": "105,000 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, geas/quest, limited wish, plane shift, creator must be caster level 14th"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft (sculpture) or Craft (stonemasonry) DC 25"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "55,000 gp"
+                        }
+                    ], 
                     "source": "Bestiary 3", 
-                    "cost": "55,000 gp", 
-                    "skill": "Craft (sculpture) or Craft (stonemasonry) DC 25", 
                     "type": "item"
                 }
             ]

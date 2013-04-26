@@ -466,7 +466,6 @@
                         }, 
                         {
                             "slot": "none", 
-                            "requirements": "Craft Wondrous Item, gust of wind", 
                             "name": "Elixir of Forceful Exhalation", 
                             "weight": "1 lb.", 
                             "cl": "3rd", 
@@ -479,8 +478,19 @@
                                 }
                             ], 
                             "price": "900 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, gust of wind"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "450 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "450 gp", 
                             "aura": "faint evocation", 
                             "type": "item"
                         }

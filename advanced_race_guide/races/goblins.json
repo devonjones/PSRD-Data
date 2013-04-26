@@ -580,7 +580,6 @@
                     "sections": [
                         {
                             "slot": "shoulders", 
-                            "requirements": "Craft Wondrous Item, alter self, resistance", 
                             "name": "Cloak of Fangs", 
                             "weight": "1 lb.", 
                             "cl": "9th", 
@@ -593,8 +592,19 @@
                                 }
                             ], 
                             "price": "2,800 gp", 
+                            "misc": [
+                                {
+                                    "field": "Requirements", 
+                                    "subsection": "Construction", 
+                                    "value": "Craft Wondrous Item, alter self, resistance"
+                                }, 
+                                {
+                                    "field": "Cost", 
+                                    "subsection": "Construction", 
+                                    "value": "1,250 gp"
+                                }
+                            ], 
                             "source": "Advanced Race Guide", 
-                            "cost": "1,250 gp", 
                             "aura": "moderate transmutation", 
                             "subtype": "shoulders", 
                             "type": "item"

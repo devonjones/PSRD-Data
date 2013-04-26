@@ -88,14 +88,28 @@
             "name": "Construction", 
             "sections": [
                 {
-                    "requirements": "Craft Construct, cat's grace, daze monster, geas/quest, ghoul touch, creator must be caster level 7th", 
                     "name": "Necrophidius", 
                     "cl": "10th", 
                     "sections": [], 
                     "price": "7,500 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, cat's grace, daze monster, geas/quest, ghoul touch, creator must be caster level 7th"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft (sculpture) or Heal DC 15"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "4,250 gp"
+                        }
+                    ], 
                     "source": "Bestiary 2", 
-                    "cost": "4,250 gp", 
-                    "skill": "Craft (sculpture) or Heal DC 15", 
                     "type": "item"
                 }
             ]

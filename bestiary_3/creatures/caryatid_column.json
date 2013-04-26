@@ -92,14 +92,28 @@
             "name": "Construction", 
             "sections": [
                 {
-                    "requirements": "Craft Construct, lesser geas, polymorph, shatter, caster must be at least 9th level", 
                     "name": "Caryatid Column", 
                     "cl": "9th", 
                     "sections": [], 
                     "price": "12,000 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, lesser geas, polymorph, shatter, caster must be at least 9th level"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft ( sculpting) or Craft (stonemasonry) DC 15"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "7,000 gp"
+                        }
+                    ], 
                     "source": "Bestiary 3", 
-                    "cost": "7,000 gp", 
-                    "skill": "Craft ( sculpting) or Craft (stonemasonry) DC 15", 
                     "type": "item"
                 }
             ]
