@@ -539,7 +539,61 @@
                 {
                     "name": "Saddle", 
                     "weight": "varies", 
-                    "text": "<p class=\"stat-block\">Saddles are used to support a rider or supplies on a mount. </p><Heading 5:Military Saddle><p class=\"stat-block\">This saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.</p><Heading 5:Pack Saddle><p class=\"stat-block\">A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.</p><Heading 5:Riding Saddle><p class=\"stat-block\">These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.</p><Heading 5:Exotic Saddle><p class=\"stat-block\">These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits.</p>", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Military Saddle", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\">This saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.</p>"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Pack Saddle", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\">A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.</p>"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Riding Saddle", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\">These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.</p>"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Exotic Saddle", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\">These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits.</p>"
+                                }
+                            ]
+                        }
+                    ], 
+                    "text": "<p class=\"stat-block\">Saddles are used to support a rider or supplies on a mount. </p>", 
                     "price": "varies", 
                     "source": "Ultimate Equipment", 
                     "type": "item"
@@ -725,7 +779,48 @@
                 }, 
                 {
                     "name": "Chariot", 
-                    "text": "<p class=\"stat-block\">This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.</p><Heading 5:Light Chariots><p class=\"stat-block\">These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.</p><Heading 5:Medium Chariots><p class=\"stat-block\">These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.</p><Heading 5:Heavy Chariots><p class=\"stat-block\">This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield.</p>", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Light Chariots", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\">These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.</p>"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Medium Chariots", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\">These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.</p>"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Heavy Chariots", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\">This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield.</p>"
+                                }
+                            ]
+                        }
+                    ], 
+                    "text": "<p class=\"stat-block\">This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.</p>", 
                     "price": "varies", 
                     "misc": [
                         {
@@ -879,7 +974,48 @@
                 }, 
                 {
                     "name": "Wagon", 
-                    "text": "<p class=\"stat-block\">This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.</p><Heading 5:Light Wagon:><p class=\"stat-block\"> Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.</p><Heading 5:Medium Wagon:><p class=\"stat-block\"> Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it. </p><Heading 5:Heavy Wagon:><p class=\"stat-block\"> Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures. </p>", 
+                    "sections": [
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Light Wagon", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\"> Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.</p>"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Medium Wagon", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\"> Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it. </p>"
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Ultimate Equipment", 
+                            "type": "section", 
+                            "name": "Heavy Wagon", 
+                            "sections": [
+                                {
+                                    "source": "Ultimate Equipment", 
+                                    "sections": [], 
+                                    "type": "section", 
+                                    "text": "<p class=\"stat-block\"> Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures. </p>"
+                                }
+                            ]
+                        }
+                    ], 
+                    "text": "<p class=\"stat-block\">This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.</p>", 
                     "price": "varies", 
                     "misc": [
                         {
