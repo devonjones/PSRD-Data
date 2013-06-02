@@ -109,8 +109,28 @@
                                 "Supernatural"
                             ], 
                             "source": "Bestiary 2", 
-                            "text": "Ghoul Fever: Bite&mdash;injury; save Fort DC 16; onset 1 day; frequency 1/day; effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight (see ghouls).", 
-                            "sections": []
+                            "text": "Ghoul Fever: Bite", 
+                            "sections": [
+                                {
+                                    "source": "Bestiary", 
+                                    "name": "Skaveling Ghoul Fever", 
+                                    "type": "affliction",
+                                    "subtype": "disease", 
+                                    "contracted": "injury", 
+                                    "save": "Fortitude DC 16", 
+                                    "onset": "1 day", 
+                                    "frequency": "1/day", 
+                                    "effect": "1d3 Constitution and 1d3 Dexterity damage", 
+                                    "cure": "2 consecutive saves", 
+                                    "sections": [
+                                        {
+                                            "text": "A humanoid who dies of ghoul fever rises as a ghoul at the next midnight (see ghouls).", 
+                                            "source": "Bestiary", 
+                                            "type": "section"
+                                        }
+                                    ]
+                                }
+                            ]
                         }, 
                         {
                             "name": "Screech", 
