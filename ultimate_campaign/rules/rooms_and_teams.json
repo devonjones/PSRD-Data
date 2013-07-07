@@ -1093,7 +1093,7 @@
                         }, 
                         {
                             "name": "Fortification", 
-                            "subtype": "room", 
+                            "subtype": "room_augmentation", 
                             "text": "<p>This upgrade can be applied to any room, reinforcing walls, improving doors, and treating or replacing flammable materials. Upon buying this upgrade, the room's walls have their hardness increased by +2, the doors are improved to strong wooden doors (hardness 5, hit points 20), and walls and floors gain fire resistance 5. This upgrade doesn't affect items within the room (for example, upgrading a Book Repository affects the structure, not the books within it).</p>", 
                             "create": "8 Goods, 7 Labor (300 gp)", 
                             "abbrev": "Augmentation", 
@@ -1105,7 +1105,7 @@
                         }, 
                         {
                             "name": "Furnishings", 
-                            "subtype": "room", 
+                            "subtype": "room_augmentation", 
                             "text": "<p>This upgrade adds fancy furnishings to one room, such as wooden paneling, marble floors, fine ceramic teacups, lifelike paintings, and canopies for beds. The decoration is appropriate to the nature of the room and building. For example, if applied to a Bar frequented by soldiers, it includes patriotic heraldry and placards memorializing war heroes.</p>", 
                             "create": "9 Goods, 6 Labor (300 gp)", 
                             "source": "Ultimate Campaign", 
@@ -1117,7 +1117,7 @@
                         }, 
                         {
                             "name": "Trap", 
-                            "subtype": "room", 
+                            "subtype": "room_augmentation", 
                             "text": "<p>Adding a Trap augmentation to a room costs the same as adding a dedicated Trap room; see the Trap room on page 103.</p>", 
                             "create": "See Trap Room", 
                             "source": "Ultimate Campaign", 
@@ -1137,7 +1137,7 @@
                         {
                             "upgrade_to": "Priest, Sage", 
                             "name": "Acolyte", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "text": "<p>An Acolyte is a newly trained divine spellcaster, sufficient for tending to the sick or advising on religious matters. An Acolyte is typically a 1st-level adept, cleric, druid, or oracle, with light armor (or no armor if an adept) and a weapon appropriate to her faith.</p>", 
                             "create": "2 Goods, 2 Influence, 2 Labor, 3 Magic (440 gp)", 
                             "source": "Ultimate Campaign", 
@@ -1149,7 +1149,7 @@
                         {
                             "upgrade_to": "Mage, Sage", 
                             "name": "Apprentice", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "text": "<p>An Apprentice is a newly-trained arcane spellcaster, sufficient for helping with magical rituals, generating flashy effects, or advising on magical matters. An Apprentice is typically a 1st-level bard, sorcerer, summoner, witch, or wizard.</p>", 
                             "create": "2 Goods, 2 Influence, 1 Labor, 4 Magic (520 gp)", 
                             "source": "Ultimate Campaign", 
@@ -1160,7 +1160,7 @@
                         }, 
                         {
                             "upgrade_to": "Elite Archers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Archers", 
                             "upgrade_from": "Soldiers", 
                             "text": "<p>Archers are soldiers trained to use projectile weapons. They are typically 1st-level warriors, each with scale mail, a longbow, a buckler, and a longsword.</p>", 
@@ -1172,7 +1172,7 @@
                             "size": "5 people"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Bureaucrats", 
                             "upgrade_from": "Scofflaws, Soldiers", 
                             "text": "<p>Bureaucrats interface with local government and deal with annoying paperwork related to running a business or organization. This type of team could include accountants, diplomats, lawyers, and scribes. A typical bureaucrat is a 1st-, 2nd-, or 3rd-level expert with ranks in Bluff, Diplomacy, Intimidate, Knowledge (local), Linguistics, and Profession (barrister, clerk, or scribe).</p>", 
@@ -1185,7 +1185,7 @@
                         }, 
                         {
                             "upgrade_to": "Cavalry Archers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Cavalry", 
                             "upgrade_from": "Elite Soldiers, Soldiers", 
                             "text": "<p>Cavalry are soldiers trained to ride mounts in combat. They are typically 3rd-level warriors, each equipped with breastplate armor, a longsword, a lance, and a heavy steel shield and riding a combat-trained light horse.</p>", 
@@ -1197,7 +1197,7 @@
                             "size": "5 people"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Cavalry Archers", 
                             "upgrade_from": "Cavalry, Elite Archers", 
                             "text": "<p>Cavalry Archers are soldiers trained to ride mounts and use ranged weapons in combat before closing to melee. They are typically 3rd-level warriors, each equipped with breastplate armor, a short bow, a longsword, a lance, and a heavy steel shield and riding a combat-trained light horse.</p>", 
@@ -1210,7 +1210,7 @@
                         }, 
                         {
                             "name": "Craftspeople", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "text": "<p>Craftspeople are trained in a particular Craft or Profession skill and make a living using that skill. Examples of this team are alchemists, carpenters, leatherworkers, masons, and smiths. A typical carpenter is a 4th-level expert (<i>Pathfinder RPG NPC Codex</i> 261) with 4 ranks each in Climb, Craft (carpentry), Diplomacy, and Knowledge (engineering and local). Craftspeople in other fields have a similar skill arrangement.</p>", 
                             "create": "3 Goods, 2 Influence, 4 Labor (200 gp)", 
                             "source": "Ultimate Campaign", 
@@ -1222,7 +1222,7 @@
                         {
                             "upgrade_to": "Robbers", 
                             "name": "Cutpurses", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "text": "<p>Cutpurses are minor thieves (often youths) who earn money from petty crimes such as pickpocketing or stealing items from market stalls. They are typically 1st-level commoners (<i>NPC Codex</i> 256), experts (<i>NPC Codex</i> 260), or rogues (<i>NPC Codex</i> 144) with 1 rank in Perception, Sleight of Hand, and Stealth.</p>", 
                             "create": "3 Influence, 1 Labor (110 gp)", 
                             "source": "Ultimate Campaign", 
@@ -1233,7 +1233,7 @@
                         }, 
                         {
                             "upgrade_to": "Lackeys", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Driver", 
                             "upgrade_from": "Laborers", 
                             "text": "<p>Drivers are trained to handle and move common animals&mdash;managing ox-drawn carts, herding cattle, or training riding horses. A Driver is typically 1st-level expert with ranks in Handle Animal, Knowledge (geography), Profession (driver), Ride, and Survival.</p>", 
@@ -1246,7 +1246,7 @@
                         }, 
                         {
                             "upgrade_to": "Cavalry Archers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Elite Archers", 
                             "upgrade_from": "Archers, Elite Soldiers", 
                             "text": "<p>An Elite Archers team consists of 3rd-level warriors, each with scale mail, a longbow, a buckler, and a longsword.</p>", 
@@ -1259,7 +1259,7 @@
                         }, 
                         {
                             "upgrade_to": "Elite Soldiers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Elite Guards", 
                             "upgrade_from": "Guards", 
                             "text": "<p>Like Guards, this team defends a location but doesn't take on an active role. An Elite Guards team consists of 3rd-level warriors (<i>NPC </i><i>Codex</i> 267), each wearing a chain shirt or banded mail and using a heavy steel shield and shortspear, a guisarme, or a halberd.</p>", 
@@ -1272,7 +1272,7 @@
                         }, 
                         {
                             "upgrade_to": "Cavalry, Elite Archers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Elite Soldiers", 
                             "upgrade_from": "Elite Guards, Soldiers", 
                             "text": "<p>Like Soldiers, this team will take aggressive action and seek out your enemies to kill them. An Elite Soldiers team consists of 3rd-level warriors (<i>NPC Codex</i> 267), each wearing a chain shirt or banded mail and using a guisarme, a halberd, or a heavy steel shield and a shortspear.</p>", 
@@ -1285,7 +1285,7 @@
                         }, 
                         {
                             "upgrade_to": "Elite Guards, Soldiers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Guards", 
                             "upgrade_from": "Laborers", 
                             "text": "<p>Guards train to watch over a person or location and defend that person or location if necessary. Unlike soldiers, guards are not expected to seek out trouble or take an aggressive role. Their purpose is to intimidate casual threats into leaving and defend against active threats. Each guard is typically a 1st-level warrior wearing scale mail and using either a glaive or a heavy wooden shield and shortspear.</p>", 
@@ -1299,7 +1299,7 @@
                         {
                             "upgrade_to": "Drivers, Guards, Lackeys, Sailors, Scofflaws", 
                             "name": "Laborers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "text": "<p>Laborers are unskilled workers who carry out basic orders. In most cases, their work is physical labor, though you may recruit laborers for specialized tasks such as begging for your thieves' guild, being professional mourners for your cult, or filling out the cast of a theater performance. They are typically 1st-level commoners (<i>NPC Codex</i> 256) with no ranks in Craft or Profession.</p>", 
                             "create": "1 Influence, 2 Labor (70 gp)", 
                             "source": "Ultimate Campaign", 
@@ -1309,7 +1309,7 @@
                             "size": "5 people"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Lackeys", 
                             "upgrade_from": "Drivers, Laborers", 
                             "text": "<p>Lackeys wait on you hand and foot and take care of common domestic and traveling issues; their ranks include butlers, valets, maids, heralds, footmen, ladies-in-waiting, and similar service personnel. Skilled Lackeys anticipate your needs and coordinate with your other employees as well as those of your guests or host. A typical Lackey is a 1st-level commoner or expert with ranks in a subset of Diplomacy, Disguise, Intimidate, Knowledge (local), Knowledge (nobility), Linguistics, Perception, and Sense Motive.</p>", 
@@ -1321,7 +1321,7 @@
                             "size": "5 people"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Mage", 
                             "upgrade_from": "Apprentice", 
                             "text": "<p>A Mage is a skilled but not especially remarkable arcane spellcaster, often a 3rd-level bard, sorcerer, summoner, witch, or wizard.</p>", 
@@ -1333,7 +1333,7 @@
                             "size": "1 person"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Priest", 
                             "upgrade_from": "Acolyte", 
                             "text": "<p>A Priest is a skilled but unremarkable divine spellcaster, typically a 3rd-level adept, cleric, druid, or oracle, with light armor (or no armor, if an adept) and a weapon appropriate to her faith.</p>", 
@@ -1345,7 +1345,7 @@
                             "size": "1 person"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Robbers", 
                             "upgrade_from": "Cutpurses", 
                             "text": "<p>Robbers are expert thieves who commit burglary, robbery, and other violent crimes for profit. A typical robber is a 3rd-level expert or rogue with 3 ranks each in Climb, Disable Device, Intimidate, Perception, and Stealth.</p>", 
@@ -1357,7 +1357,7 @@
                             "size": "5 people"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Sage", 
                             "upgrade_from": "Acolyte, Apprentice", 
                             "text": "<p>A sage is a person with extensive knowledge in one or more related areas who can advise you about his areas of expertise. A typical sage is a 3rd-level expert with 3 ranks each in skills such as Appraise, Knowledge, Linguistics, Profession, and Spellcraft.</p>", 
@@ -1369,7 +1369,7 @@
                             "size": "1 person"
                         }, 
                         {
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Sailors", 
                             "upgrade_from": "Laborers", 
                             "text": "<p>Sailors know how to sail a ship, navigate while at sea, and defend the vessel against pirates and other hostile boarders. A typical sailor is a 2nd-level expert (<i>NPC Codex</i> 260) with 2 ranks each in Acrobatics, Climb, Perception, Profession (sailor), Survival, and Swim.</p>", 
@@ -1382,7 +1382,7 @@
                         }, 
                         {
                             "upgrade_to": "Bureaucrats", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Scofflaws", 
                             "upgrade_from": "Laborers", 
                             "text": "<p>Scofflaws provide illegal but consensual services such as gambling, moonshining, or underground fighting. Note that other kinds of teams might perform these services (you could recruit a Laborers team to work as prostitutes or a Guards team to run an arena, for example), but this kind of team is skilled at these tasks.</p>", 
@@ -1395,7 +1395,7 @@
                         }, 
                         {
                             "upgrade_to": "Archers, Bureaucrats, Cavalry, Elite Soldiers", 
-                            "subtype": "room", 
+                            "subtype": "team", 
                             "name": "Soldiers", 
                             "upgrade_from": "Guards", 
                             "text": "<p>Soldiers are trained in combat and have the means and will to kill your enemies. Unlike Guards, Soldiers actively engage in fighting on behest of a leader (although you can make Soldiers act as Guards). Depending on the nature of your organization, they might be enforcers rather than military-style soldiers. They are typically 1st-level warriors, each with scale mail, a longsword, a heavy wooden shield, and javelins.</p>", 
