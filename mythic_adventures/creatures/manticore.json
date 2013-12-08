@@ -1,0 +1,95 @@
+{
+    "dexterity": "15", 
+    "ac": "19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)", 
+    "special_attacks": "mythic power (2/day, surge +1d6), poison, pounce, skewer", 
+    "intelligence": "7", 
+    "racial_modifiers": "+4 Perception, +4 Survival when tracking", 
+    "melee": "bite +11 (1d8+6), 2 claws +11 (2d4+6)", 
+    "cr": "6", 
+    "xp": "2,400", 
+    "speed": "30 ft., fly 50 ft. (clumsy)", 
+    "alignment": "LE", 
+    "size": "Large", 
+    "environment": "warm hills and marshes", 
+    "strength": "22", 
+    "constitution": "18", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "charisma": "9", 
+    "languages": "Common", 
+    "source": "Mythic Adventures", 
+    "init": "+2", 
+    "fortitude": "+9", 
+    "type": "creature", 
+    "feats": "Flyby Attack, Hover, Weapon Focus (spikes)M", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "Spike&mdash;injury; save Fort DC 17; frequency 1/round for 6 rounds; effect 1d4 Str; cure 2 consecutive saves.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Skewer", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "If a mythic manticore confirms a critical hit with a spike, the spike pins the target to the ground or a nearby surface. If the target is using winged flight, the spike snares its wings. The target is considered grappled by the manticore (though the manticore is not considered to be grappling) and must escape the grapple to move from its square. A flying creature must escape on its turn or plummet to the ground. As a swift action, a mythic manticore can expend one use of mythic power to skewer all targets hit by its spikes that turn, even if the attacks weren't critical hits.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Spikes", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "With a snap of its tail, a mythic manticore can loose a volley of four spikes as a standard action (make an attack roll for each spike). This attack has a range of 180 feet with no range increment. All targets must be within 30 feet of each other. The creature can launch only 24 spikes in any 24-hour period.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures"
+        }, 
+        {
+            "source": "Mythic Adventures", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A mythic manticore is a nightmarish creature, perhaps the result of crossbreeding with poisonous drakes, decadent sphinxes, or aberrant chimeras. A voracious eater, a mythic manticore may devour an entire corpse, as well as its weapons and armor, leaving nothing but a bloody stain on the ground and a few organs it finds unpalatable. Any metal bits it eats are digested and used to grow its deadly spikes. Some are known to dine on giant venomous snakes and spiders with the intent of making their poison even more powerful.</p>"
+        }, 
+        {
+            "source": "Mythic Adventures", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A mythic manticore uses its thrown spikes to hold prey in place from a distance so it can leap upon it and tear it apart. It is especially fond of skewering the wings of a flying creature, forcing it to plummet to the ground where it becomes easy pickings. Its weakness-inducing poison makes it especially dangerous to winged mounts, as the poisoned creature may find itself unable to carry a rider.</p>"
+        }
+    ], 
+    "senses": "darkvision 60 ft., low-light vision, scent; Perception +9", 
+    "description": "This fearsome creature has the body of a lion, the wings of a dragon, the face of a snarling man, and a tail of dripping spikes.", 
+    "ranged": "4 spikes +9 (1d6+6 plus poison)", 
+    "hp": "77 (6d10+44)", 
+    "reach": "5 ft.", 
+    "wisdom": "12", 
+    "creature_type": "Magical Beast", 
+    "dr": "5/epic", 
+    "base_attack": "+6", 
+    "name": "Manticore", 
+    "skills": "Fly -3, Perception +9, Survival +4 (+8 when tracking)", 
+    "reflex": "+7", 
+    "cmd": "25 (29 vs. trip)", 
+    "cmb": "+13", 
+    "will": "+3", 
+    "mr": "2", 
+    "organization": "solitary, pair, or pride (3-6)", 
+    "creature_subtype": "mythic"
+}

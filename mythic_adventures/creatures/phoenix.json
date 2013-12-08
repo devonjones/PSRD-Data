@@ -1,0 +1,107 @@
+{
+    "dexterity": "27", 
+    "ac": "37, touch 16, flat-footed 27 (+8 Dex, +2 dodge, +21 natural, -4 size)", 
+    "cmd": "53", 
+    "special_attacks": "burn (2d6, DC 25), incinerate, mythic power (7/day, surge +1d10)", 
+    "intelligence": "25", 
+    "racial_modifiers": "+8 Perception", 
+    "melee": "bite +25 (3d6+9 plus burn), 2 talons +25 (2d8+9/19-20 plus burn plus grab)", 
+    "cr": "18", 
+    "xp": "153,600", 
+    "speed": "30 ft., fly 90 ft. (good)", 
+    "alignment": "NG", 
+    "size": "Gargantuan", 
+    "environment": "warm desert and hills", 
+    "sr": "29", 
+    "constitution": "20", 
+    "source": "Mythic Adventures", 
+    "treasure": "standard", 
+    "charisma": "22", 
+    "languages": "Auran, Celestial, Common, Ignan", 
+    "immune": "fire", 
+    "init": "+12", 
+    "fortitude": "+17", 
+    "spells": {
+        "spell-like abilities": "(CL 18th; concentration +24)<p class=\"stat-block-2\">Constant-<i>detect magic</i>, <i>detect poison</i>, <i>see invisibility</i>, <i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>continual flame</i>, <i>cure critical wounds</i>, <i>greater dispel magic</i>, <i>remove curse</i>, <i>wall of fire</i></p><p class=\"stat-block-2\">3/day-<i>fire storm</i> (DC 24), <i>greater restoration</i>, <i>heal</i>, <i>mass cure critical wounds</i>, <i>quickened wall of fire</i></p>"
+    }, 
+    "type": "creature", 
+    "strength": "29", 
+    "feats": "Blinding Critical, Combat ReflexesM, Critical Focus, DodgeM, Flyby Attack, Improved Critical (talons), Improved Initiative, Iron WillM, MobilityM, Quicken Spell-Like Ability (wall of fire)", 
+    "senses": "darkvision 60 ft., detect magic, detect poison, low-light vision, see invisibility, true seeing; Perception +37", 
+    "description": "This flaming bird burns as brightly as the sun.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Death Throes", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "When killed, a mythic phoenix explodes in a blinding flash that deals 75 points of damage (half of this is fire damage, the other half is holy damage) to anything within 50 feet (Reflex DC 25 for half). The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Incinerate", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "Any creature killed by fire damage from a mythic phoenix is entirely destroyed, leaving behind only a trace of fine ash. The creature's magical equipment is unaffected.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Self-Resurrection", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "Unless its body is completely destroyed by an effect such as disintegrate, a slain mythic phoenix remains dead for only 1d4 rounds, emerging fully healed from its remains as if brought back to life via resurrection. A phoenix can self-resurrect only once per year. If a phoenix dies a second time before that year passes, its death is permanent. A mythic phoenix that dies within the area of a mythic desecrate spell cannot self-resurrect until the spell ends, at which point the phoenix immediately resurrects. A phoenix brought back to life by other means never gains negative levels as a result.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Shroud of Flame", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "A mythic phoenix can cause its feathers to burst into fire as a free action. As long as its feathers are burning, any creature within reach must succeed at a DC 25 Reflex save each round to avoid taking 4d6 points of fire damage at the start of its turn. A creature that attacks the phoenix with natural or non-reach melee weapons takes 1d6 points of fire damage (no save) with each successful hit. The save DC is Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures"
+        }, 
+        {
+            "source": "Mythic Adventures", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A mythic phoenix is appointed by the gods to watch over the birth, death, and renewal of significant things&mdash;such as heroes, religions, or even entire worlds. It uses its powers to destroy evils that would interfere with the great cycle.</p>"
+        }
+    ], 
+    "hp": "280 (20d10+170); regeneration 10 (cold or evil)", 
+    "weaknesses": "vulnerable to cold", 
+    "reach": "20 ft.", 
+    "wisdom": "22", 
+    "defensive_abilities": "self-resurrection", 
+    "creature_type": "Magical Beast", 
+    "special_qualities": "death throes, mirror dodge (see page 18), parry spell (see page 30)", 
+    "dr": "15/epic and evil", 
+    "base_attack": "+20", 
+    "name": "Phoenix", 
+    "skills": "Acrobatics +31, Diplomacy +26, Fly +29, Intimidate +26, Knowledge (nature) +27, Knowledge (any two others) +27, Perception +37, Sense Motive +26", 
+    "reflex": "+20", 
+    "space": "20 ft.", 
+    "cmb": "+33 (+37 grapple)", 
+    "will": "+14", 
+    "aura": "shroud of flame (20 ft., 4d6 fire, DC 26)", 
+    "mr": "7", 
+    "organization": "solitary", 
+    "creature_subtype": "fire, mythic"
+}
