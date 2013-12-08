@@ -1,0 +1,109 @@
+{
+    "dexterity": "17", 
+    "ac": "23, touch 13, flat-footed 20 (+3 Dex, +10 natural)", 
+    "special_attacks": "mythic power (3/day, surge +1d6), petrifying gaze, poison, poison weapons, summon snake, unpetrify", 
+    "intelligence": "12", 
+    "racial_modifiers": "+4 Perception", 
+    "melee": "mwk bastard sword +10/+5 (1d10/19-20 plus poison), 2 snake bites +12 (1d6+3 plus poison)", 
+    "cr": "9", 
+    "xp": "6,400", 
+    "speed": "30 ft., fly 60 ft. (good)", 
+    "alignment": "LE", 
+    "size": "Medium", 
+    "environment": "temperate marshes and underground", 
+    "strength": "10", 
+    "constitution": "18", 
+    "space": "5 ft.", 
+    "treasure": "double (mwk bastard sword, mwk longbow with 20 arrows, other treasure)", 
+    "charisma": "19", 
+    "languages": "Common", 
+    "source": "Mythic Adventures", 
+    "init": "+10M", 
+    "fortitude": "+7", 
+    "type": "creature", 
+    "feats": "Improved InitiativeM, Lightning Reflexes, Point-Blank Shot, Precise Shot, Weapon FinesseM", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Petrifying Gaze", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "Turn to stone permanently, 30 feet, Fortitude DC 18 negates. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "Snake bite; save Fort DC 18; frequency 1/round for 6 rounds; effect 1d4 Con; cure 2 consecutive saves. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison Weapons", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "A mythic medusa can spend a standard action to apply her snake poison to her sword or to two arrows, and normally poisons her weapons in advance.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Summon Snake", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "As a full-round action, a mythic medusa can summon an emperor cobra or 1d3 amphisbaenas as if using a summon monster spell. The summoned snakes are immune to the medusa's gaze attack and remain for 8 rounds before disappearing.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Unpetrify", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Mythic Adventures", 
+                    "text": "A mythic medusa can expend one use of mythic power to return a petrified creature to life (as if using stone to flesh) for 1 minute. The creature is under the medusa's control (as if using dominate monster) and reverts to a statue at the end of this time. If the medusa expends three uses of mythic power, the creature remains unpetrified for 24 hours instead of 1 minute. A typical petrified victim in a mythic medusa's lair is a half-elf fighter 6 or human warrior 6.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures"
+        }, 
+        {
+            "source": "Mythic Adventures", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A mythic medusa is one of the near-immortal progenitors of the medusa race, who mate with humanoids in order to produce weaker (but still deadly) offspring. With deadly poison, power over snakes, and the ability to animate and command those she has turned to stone, a mythic medusa is a dangerous foe who can't be easily overcome by mirrored shields and blindfolds; she waits, strikes, and retreats, allowing her minions and venom to weaken her foes before she is ready to take their lives.</p>"
+        }
+    ], 
+    "senses": "all-around vision, darkvision 60 ft.; Perception +18", 
+    "description": "This unnatural woman has scaled skin, white bird wings, and long snake-hair that hangs past her feet.", 
+    "ranged": "mwk longbow +13/+8 (1d8/&times;3 plus poison)", 
+    "hp": "115 (9d10+66)", 
+    "reach": "5 ft. (10 ft. with snake bite)", 
+    "wisdom": "15", 
+    "creature_type": "Monstrous Humanoid", 
+    "dr": "5/epic", 
+    "base_attack": "+9", 
+    "name": "Medusa", 
+    "skills": "Bluff +13, Disguise +13, Fly +7, Intimidate +16, Perception +18, Stealth +15", 
+    "reflex": "+11", 
+    "cmd": "22", 
+    "cmb": "+9", 
+    "will": "+8", 
+    "mr": "3", 
+    "organization": "solitary", 
+    "creature_subtype": "mythic"
+}
