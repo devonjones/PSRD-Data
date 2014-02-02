@@ -110,7 +110,7 @@
                 }, 
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"ninja-trick\" class=\"stat-block-2\">A rogue with this talent can choose a trick from the ninja trick list. The rogue can choose but cannot use talents that require <i>ki</i> points, unless she has a <i>ki</i> pool. A rogue can pick this talent more than once. </p>", 
+                    "text": "<p id=\"ninja-trick\" class=\"stat-block-2\">A rogue with this talent can choose a trick from the ninja trick list. The rogue can choose but cannot use talents that require <i>ki</i> points, unless she has a <i>ki</i> pool. A rogue can pick this talent more than once. The ninja cannot choose a ninja trick with the same name as a rogue talent.</p>", 
                     "type": "ability", 
                     "name": "Ninja Trick", 
                     "ability_types": [
@@ -172,7 +172,7 @@
             "sections": [
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"confounding-blades\" class=\"stat-block-2\">* When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, her target cannot make attacks of opportunity until the beginning of her next turn. </p>", 
+                    "text": "<p id=\"confounding-blades\" class=\"stat-block-2\">* When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, her target cannot make attacks of opportunity for 1d4+1 rounds. The rogue must have the slow reaction rogue talent before she can choose this talent.</p>", 
                     "type": "ability", 
                     "name": "Confounding Blades", 
                     "ability_types": [
@@ -201,7 +201,7 @@
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"hard-to-fool\" class=\"stat-block-2\">A rogue with this talent is hard to fool with mind-affecting effects. At the start of her turn, if she is still subject to any mind-affecting spells or effects, she can make a Will saving throw with a standard DC for the effect's level, and if she succeeds at the check, she is no longer subject to the mind-affecting effect. She can make this saving throw even against mind-affecting effects that normally don't allow a saving throw. In those cases, generate the saving throw as if the spell or effect did allow a saving throw. </p>", 
                     "type": "ability", 
-                    "name": "Hard to Fool", 
+                    "name": "Hard Minded", 
                     "ability_types": [
                         "Extraordinary"
                     ]
@@ -266,7 +266,7 @@
                 }, 
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"fearsome-strike\">At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent frightened for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat. This ability replaces uncanny dodge. </p>", 
+                    "text": "<p id=\"fearsome-strike\">At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent frightened for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat. This ability replaces improved uncanny dodge. </p>", 
                     "type": "ability", 
                     "name": "Fearsome Strike", 
                     "ability_types": [
@@ -467,7 +467,7 @@
                 }, 
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"swinging-reposition\">At 2nd level, a pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures into her combat style. Provided she is wearing light armor, when fighting in an environment where such structures exist, the rogue incorporates them into her Acrobatics checks by grabbing hold of the structure and swinging toward her opponent, making either a charge or a bull rush maneuver. Once she completes her attack or maneuver, she can reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a free action, even if the charge ends her turn. This movement does not provoke attacks of opportunity. This ability replaces the 2nd-level rogue talent.</p>", 
+                    "text": "<p id=\"swinging-reposition\">At 2nd level, a pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures into her combat style. Provided she is wearing light armor or no armor, when fighting in an environment where such structures exist, the rogue incorporates them into her movement, and does not have to move in a straight line when making either a charge attack or a bull rush combat maneuver. Once she completes her attack or maneuver, she can reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a free action, even if the charge ends her turn. This movement does not provoke attacks of opportunity. This ability replaces the 2nd-level rogue talent.</p>", 
                     "type": "ability", 
                     "name": "Swinging Reposition", 
                     "ability_types": [
@@ -476,7 +476,7 @@
                 }, 
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"unflinching\">Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense. This ability replaces trapfinding. </p>", 
+                    "text": "<p id=\"unflinching\">Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.</p>", 
                     "type": "ability", 
                     "name": "Unflinching", 
                     "ability_types": [
@@ -506,7 +506,7 @@
             "sections": [
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"roof-running\">At 1st level, a roof runner becomes entirely adept at moving across the tops of buildings, spires, and similar locations. Provided she is wearing light armor, the roof runner can move at full speed while traveling across the tops of buildings or similar structures, and takes no penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof. This ability replaces trapfinding.</p>", 
+                    "text": "<p id=\"roof-running\">At 1st level, a roof runner becomes entirely adept at moving across the tops of buildings, spires, and similar locations. Provided she is wearing light armor or no armor, the roof runner can move at full speed while traveling across the tops of buildings or similar structures, and takes no penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof. This ability replaces trapfinding.</p>", 
                     "type": "ability", 
                     "name": "Roof Running", 
                     "ability_types": [
@@ -593,7 +593,7 @@
                 }, 
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"endure-elements\">At 3rd level, a survivalist rogue gains <i>endure elements</i> as a spell-like ability, as the spell of the same name. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense. </p>", 
+                    "text": "<p id=\"endure-elements\">At 3rd level, a survivalist rogue can use <i>endure elements</i> once per day as a spell-like ability. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense. </p>", 
                     "type": "ability", 
                     "name": "Endure Elements", 
                     "ability_types": [
