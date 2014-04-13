@@ -56,15 +56,18 @@
     "sections": [
         {
             "source": "Mythic Adventures", 
-            "type": "section", 
-            "name": "Mythic", 
-            "text": "<p>If you expend one use of mythic power when you cast the spell, you become an anchor for the souls of you and your cohorts. The range increases to 30 feet, and instead of affecting one creature, it affects all allies within a 30-foot-radius emanation centered on you.</p>"
-        }, 
-        {
-            "source": "Mythic Adventures", 
-            "type": "section", 
-            "name": "Augmented (8th)", 
-            "text": "<p>If you expend three uses of mythic power, the range increases to 1 mile, and the area to a 1-mile-radius emanation centered on you.</p>"
-        }
+            "type": "mythic_spell", 
+            "name": "Deathless", 
+            "spell_source": "deathless",
+            "text": "<p>If you expend one use of mythic power when you cast the spell, you become an anchor for the souls of you and your cohorts. The range increases to 30 feet, and instead of affecting one creature, it affects all allies within a 30-foot-radius emanation centered on you.</p>",
+            "sections": [
+                {
+                    "source": "Mythic Adventures", 
+                    "type": "section", 
+                    "name": "Augmented (8th)", 
+                    "text": "<p>If you expend three uses of mythic power, the range increases to 1 mile, and the area to a 1-mile-radius emanation centered on you.</p>"
+                }
+            ]
+        } 
     ]
 }
