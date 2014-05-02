@@ -32,6 +32,7 @@
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
     "source": "Ultimate Combat", 
+    "component_text": "V, S, M/DF (a single piece of ammunition)", 
     "effects": [
         {
             "text": "one container touched", 
@@ -47,10 +48,17 @@
         }, 
         {
             "text": "a single piece of ammunition", 
-            "type": "M/DF"
+            "type": "M"
+        }, 
+        {
+            "text": "a single piece of ammunition", 
+            "type": "DF"
         }
     ], 
     "duration": "1 minute/level", 
-    "subschool": "summoning", 
+    "subschool_text": "summoning", 
+    "subschool": [
+        "summoning"
+    ], 
     "type": "spell"
 }

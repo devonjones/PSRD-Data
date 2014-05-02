@@ -33,6 +33,7 @@
     "casting_time": "1 hour", 
     "source": "Core Rulebook", 
     "range": "see text", 
+    "component_text": "V, S, M/DF (a pool of water), F (a silver mirror worth 1,000 gp)", 
     "effects": [
         {
             "text": "magical sensor", 
@@ -48,7 +49,11 @@
         }, 
         {
             "text": "a pool of water", 
-            "type": "M/DF"
+            "type": "M"
+        }, 
+        {
+            "text": "a pool of water", 
+            "type": "DF"
         }, 
         {
             "text": "a silver mirror worth 1,000 gp", 
@@ -57,7 +62,10 @@
     ], 
     "text": "<p>You can observe a creature at any distance. If the subject succeeds on a Will save, the spell fails. The difficulty of the save depends on how well your knowledge of the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.</p>", 
     "duration": "1 min./level", 
-    "subschool": "scrying", 
+    "subschool_text": "scrying", 
+    "subschool": [
+        "scrying"
+    ], 
     "sections": [
         {
             "text": "<table>\n<thead><tr><th>Knowledge</th><th>Will Save Modifier</th></tr></thead>\n<tr class=\"odd\"><td>None*</td><td>+10</td></tr>\n<tr class=\"even\"><td>Secondhand (you have heard of the subject)</td><td>+5</td></tr>\n<tr class=\"odd\"><td>Firsthand (you have met the subject)</td><td>+0</td></tr>\n<tr class=\"even\"><td>Familiar (you know the subject well)</td><td>&ndash;5</td></tr>\n<thead><tr><th>Connection</th><th>Will Save Modifier</th></tr></thead>\n<tr class=\"odd\"><td>Likeness or picture</td><td>&ndash;2</td></tr>\n<tr class=\"even\"><td>Possession or garment</td><td>&ndash;4</td></tr>\n<tr class=\"odd\"><td>Body part, lock of hair, bit of nail, etc.</td><td>&ndash;10</td></tr><tfoot><tr><td colspan=\"2\">*You must have some sort of connection (see below) to a creature of which you have no knowledge.</td></tr></tfoot></table>", 

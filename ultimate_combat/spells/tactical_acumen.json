@@ -36,6 +36,8 @@
     "casting_time": "1 standard action", 
     "source": "Ultimate Combat", 
     "range": "30 ft.", 
+    "component_text": "V, S, M/DF (a small piece of a map)", 
+    "descriptor_text": "mind-affecting", 
     "effects": [
         {
             "text": "The caster and all allies within a 30-ft.-radius burst, centered on the caster", 
@@ -51,10 +53,17 @@
         }, 
         {
             "text": "a small piece of a map", 
-            "type": "M/DF"
+            "type": "M"
+        }, 
+        {
+            "text": "a small piece of a map", 
+            "type": "DF"
         }
     ], 
     "duration": "1 round/level (D)", 
-    "subschool": "compulsion", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
     "type": "spell"
 }

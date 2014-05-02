@@ -25,6 +25,8 @@
     "casting_time": "1 standard action", 
     "source": "Advanced Player's Guide", 
     "range": "long (400 ft. + 40 ft./level)", 
+    "component_text": "V, S, M/DF (a piece of lava rock)", 
+    "descriptor_text": "fire, water", 
     "effects": [
         {
             "text": "spout of boiling water filling a 5 ft. square and spraying upward 10 ft./2 levels", 
@@ -40,10 +42,17 @@
         }, 
         {
             "text": "a piece of lava rock", 
-            "type": "M/DF"
+            "type": "M"
+        }, 
+        {
+            "text": "a piece of lava rock", 
+            "type": "DF"
         }
     ], 
     "duration": "concentration + 1 round/level", 
-    "subschool": "creation", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
     "type": "spell"
 }

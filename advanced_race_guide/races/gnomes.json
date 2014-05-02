@@ -416,7 +416,7 @@
                     "sections": [
                         {
                             "source": "Advanced Race Guide", 
-                            "text": "<p id=\"bardic-performance\">A prankster's bardic performance functions like a bard's, but some of its performances are exchanged for those listed below.</p><blockquote>\n<p id=\"mock\"><i>Mock (Su)</i>At 1st level, the prankster can use his performance to cause one or more creatures to become furious with him. Each creature to be mocked must be within 90 feet, able to see, hear, and understand the prankster, and capable of paying attention to him. The prankster must also be able to see the creatures affected. For every three levels the prankster has attained beyond 1st, he can target one additional creature with this ability.</p>\n<p>Each creature within range receives a Will save (DC 10 + 1/2 the prankster's level + the prankster's Charisma modifier) to negate the effect. If a creature's saving throw succeeds, the prankster cannot successfully mock that creature for 24 hours. If its saving throw fails, the creature is angered by the performance and seeks to harm the prankster. While the prankster maintains the mocking, the target takes a &ndash;2 penalty on all attack rolls and skill checks until it has successfully attacked the prankster with a melee or ranged attack, or has harmed the creature with a spell that deals damage.</p>\n<p>Mock is an enchantment (compulsion) mind-affecting ability. Mock relies on audible and visual components in order to function. This ability replaces fascinate.</p>\n<p id=\"punchline\"><i>Punchline (Sp)</i>: At 6th level, the prankster can use his performance to tell a punchline to amuse a creature he has already mocked (see above), goading it into <i>hideous laughter</i> (as the spell). Using this ability does not disrupt the mock effect, but it does require a standard action to activate (in addition to the free action to continue the mock effect). A prankster can use this ability more than once against an individual creature during an individual performance.</p>\n<p>Telling a punchline does not count against a prankster's daily use of bardic performance. A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) negates the effect. This ability affects only a single creature. Punchline is an enchantment (compulsion), mind affecting, language-dependent ability and relies on audible components. This ability replaces the suggestion ability.</p>\n<p id=\"mass-punchline\"><i>Mass Punchline (Sp)</i>: This ability functions just like punchline, but allows a prankster of 18th level or higher to use <i>hideous laughter</i> simultaneously against any number of creatures that he has mocked. This ability replaces the mass suggestion ability.</p>\n</blockquote>", 
+                            "text": "<p id=\"bardic-performance\">A prankster's bardic performance functions like a bard's, but some of its performances are exchanged for those listed below.</p><blockquote>\n<p id=\"mock\"><i>Mock (Su)</i>At 1st level, the prankster can use his performance to cause one or more creatures to become furious with him. Each creature to be mocked must be within 90 feet, able to see, hear, and understand the prankster, and capable of paying attention to him. The prankster must also be able to see the creatures affected. For every three levels the prankster has attained beyond 1st, he can target one additional creature with this ability.</p>\n<p>Each creature within range receives a Will save (DC 10 + 1/2 the prankster's level + the prankster's Charisma modifier) to negate the effect. If a creature's saving throw succeeds, the prankster cannot successfully mock that creature for 24 hours. If its saving throw fails, the creature is angered by the performance and seeks to harm the prankster. While the prankster maintains the mocking, the target takes a &ndash;2 penalty on all attack rolls and skill checks until it has successfully attacked the prankster with a melee or ranged attack, or has harmed the creature with a spell that deals damage.</p>\n<p>Mock is an enchantment (compulsion) mind-affecting ability. Mock relies on audible and visual components in order to function. This ability replaces fascinate.</p>\n<p id=\"punchline\"><i>Punchline (Sp)</i>: At 6th level, the prankster can use his performance to tell a punchline to amuse a creature he has already mocked (see above), goading it into <i>hideous laughter</i> (as the spell). Using this ability does not disrupt the mock effect, but it does require a standard action to activate (in addition to the free action to continue the mock effect). A prankster can use this ability more than once against an individual creature during an individual performance.</p>\n<p>Telling a punchline does not count against a prankster's daily use of bardic performance. A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) negates the effect. This ability affects only a single creature. Punchline is an enchantment (compulsion), mind-affecting, language-dependent ability and relies on audible components. This ability replaces the suggestion ability.</p>\n<p id=\"mass-punchline\"><i>Mass Punchline (Sp)</i>: This ability functions just like punchline, but allows a prankster of 18th level or higher to use <i>hideous laughter</i> simultaneously against any number of creatures that he has mocked. This ability replaces the mass suggestion ability.</p>\n</blockquote>", 
                             "type": "section", 
                             "name": "Bardic Performance"
                         }, 
@@ -811,6 +811,7 @@
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
                             "range": "touch", 
+                            "component_text": "V, S", 
                             "effects": [
                                 {
                                     "text": "creature touched", 
@@ -854,6 +855,8 @@
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
                             "range": "short (25 ft. +5 ft. 2/levels)", 
+                            "component_text": "V, S", 
+                            "descriptor_text": "mind-affecting", 
                             "effects": [
                                 {
                                     "text": "one creature", 
@@ -869,7 +872,10 @@
                                 }
                             ], 
                             "duration": "1 round/level", 
-                            "subschool": "figment", 
+                            "subschool_text": "figment", 
+                            "subschool": [
+                                "figment"
+                            ], 
                             "type": "spell"
                         }, 
                         {
@@ -894,6 +900,7 @@
                             "casting_time": "10 minutes", 
                             "source": "Advanced Race Guide", 
                             "range": "close (25 ft. + 5 ft./2 levels)", 
+                            "descriptor_text": "mind-affecting", 
                             "effects": [
                                 {
                                     "text": "phantasmal, unattended, nonmagical object, up to 1 cu. ft./level", 
@@ -901,7 +908,10 @@
                                 }
                             ], 
                             "duration": "10 minutes/level (D)", 
-                            "subschool": "figment", 
+                            "subschool_text": "figment", 
+                            "subschool": [
+                                "figment"
+                            ], 
                             "type": "spell"
                         }, 
                         {
@@ -938,6 +948,8 @@
                             "casting_time": "1 minute", 
                             "source": "Advanced Race Guide", 
                             "range": "unlimited", 
+                            "component_text": "V, S", 
+                            "descriptor_text": "mind-affecting", 
                             "effects": [
                                 {
                                     "text": "you or one gnome touched", 
@@ -953,7 +965,10 @@
                                 }
                             ], 
                             "duration": "see text", 
-                            "subschool": "figment", 
+                            "subschool_text": "figment", 
+                            "subschool": [
+                                "figment"
+                            ], 
                             "type": "spell"
                         }, 
                         {
@@ -978,6 +993,8 @@
                             "casting_time": "1 minute", 
                             "source": "Advanced Race Guide", 
                             "range": "0 ft.", 
+                            "component_text": "V, S", 
+                            "descriptor_text": "mind-affecting", 
                             "effects": [
                                 {
                                     "text": "phantasmal, unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level", 
@@ -993,7 +1010,10 @@
                                 }
                             ], 
                             "duration": "10 minutes/level (D)", 
-                            "subschool": "figment", 
+                            "subschool_text": "figment", 
+                            "subschool": [
+                                "figment"
+                            ], 
                             "type": "spell"
                         }, 
                         {
@@ -1045,6 +1065,7 @@
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
                             "range": "personal", 
+                            "component_text": "V, S", 
                             "effects": [
                                 {
                                     "text": "you", 
