@@ -32,6 +32,8 @@
     "casting_time": "1 standard action", 
     "source": "Ultimate Combat", 
     "range": "50 ft.", 
+    "component_text": "V, S, M/DF (rabbit fur)", 
+    "descriptor_text": "mind-affecting", 
     "effects": [
         {
             "text": "The caster and allies within a 50-ft. burst centered on the caster", 
@@ -47,10 +49,17 @@
         }, 
         {
             "text": "rabbit fur", 
-            "type": "M/DF"
+            "type": "M"
+        }, 
+        {
+            "text": "rabbit fur", 
+            "type": "DF"
         }
     ], 
     "duration": "1 minute/level or until discharged", 
-    "subschool": "compulsion", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
     "type": "spell"
 }

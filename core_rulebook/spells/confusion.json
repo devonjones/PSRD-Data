@@ -24,6 +24,8 @@
     "casting_time": "1 standard action", 
     "source": "Core Rulebook", 
     "range": "medium (100 ft. + 10 ft./level)", 
+    "component_text": "V, S, M/DF (three nutshells)", 
+    "descriptor_text": "mind-affecting", 
     "effects": [
         {
             "text": "all creatures in a 15-ft.-radius burst", 
@@ -39,12 +41,19 @@
         }, 
         {
             "text": "three nutshells", 
-            "type": "M/DF"
+            "type": "M"
+        }, 
+        {
+            "text": "three nutshells", 
+            "type": "DF"
         }
     ], 
     "text": "<p>This spell causes confusion in the targets<i>, </i>making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round.</p>", 
     "duration": "1 round/level", 
-    "subschool": "compulsion", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
     "sections": [
         {
             "text": "<table>\n<thead><tr><th>d%</th><th>Behavior</th></tr></thead>\n<tr class=\"odd\"><td>01&ndash;25</td><td>Act normally</td></tr>\n<tr class=\"even\"><td>26&ndash;50</td><td>Do nothing but babble incoherently</td></tr>\n<tr class=\"odd\"><td>51&ndash;75</td><td>Deal 1d8 points of damage + Str modifier to self with item in hand</td></tr>\n<tr class=\"even\"><td>76&ndash;100</td><td>Attack nearest creature (for this purpose, a familiar counts as part of the subject's self)</td></tr></table>", 
