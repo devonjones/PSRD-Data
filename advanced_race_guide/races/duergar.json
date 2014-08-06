@@ -196,8 +196,28 @@
                         {
                             "source": "Advanced Race Guide", 
                             "text": "<p id=\"spellscorch\">Refined from rare underground crystals, this poison causes a burning headache that impedes spellcasting. If the target fails its Fortitude save, for the next minute the target must make a Concentration check with a DC equal to 10 + spell level to cast a spell, and all other concentration checks to cast spells take a &ndash;5 penalty.</p>", 
-                            "type": "section", 
-                            "name": "Spellscorch"
+                            "type": "item", 
+                            "name": "Spellscorch",
+                            "sections": [
+                                {
+                                    "cure": "1 save", 
+                                    "name": "Spellscorch", 
+                                    "subtype": "poison", 
+                                    "contracted": "contact", 
+                                    "effect": "see text",
+                                    "onset": "&mdash;", 
+                                    "source": "Advanced Race Guide",
+                                    "frequency": "1/round for 4 rounds", 
+                                    "save": "Fortitude DC 14", 
+                                    "type": "affliction"
+                                } 
+                            ]
+                        },
+                        {
+                            "text": "<table><caption>Duergar Poison</caption>\n<thead><tr><th>Name</th><th>Cost</th></tr></thead>\n<tr class=\"odd\"><td>Spellscorch</td><td>200 gp</td></tr></table>", 
+                            "type": "table", 
+                            "name": "Duergar Equipment", 
+                            "source": "Advanced Race Guide"
                         }
                     ]
                 }, 
@@ -243,15 +263,7 @@
                                     "source": "Advanced Race Guide", 
                                     "text": "<p class=\"stat-block-1\">When your <i>invisibility</i> ends, you gain concealment for 1 round per minute of duration the invisibility effect had remaining (minimum 1 round). This only occurs if the invisibility is from your racial spell-like ability or a spell you cast. Effects that negate invisibility negate this concealment.</p>", 
                                     "type": "section", 
-                                    "name": "Benefit", 
-                                    "sections": [
-                                        {
-                                            "text": "<table><caption>Duergar Poison</caption>\n<thead><tr><th>Name</th><th>Type</th><th>Fort DC</th><th>Onset</th><th>Frequency</th><th>Effect</th><th>Cure</th><th>Cost</th></tr></thead>\n<tr class=\"odd\"><td>Spellscorch</td><td>injury</td><td>14</td><td>&mdash;</td><td>1/rd. for 4 rds.</td><td>see text</td><td>1 save</td><td>200 gp</td></tr></table>", 
-                                            "type": "table", 
-                                            "name": "Duergar Poison", 
-                                            "source": "Advanced Race Guide"
-                                        }
-                                    ]
+                                    "name": "Benefit" 
                                 }
                             ]
                         }

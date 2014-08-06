@@ -330,35 +330,47 @@
                     "sections": [
                         {
                             "source": "Advanced Race Guide", 
-                            "text": "<p id=\"alchemical-coal\">A kobold who chews and swallows this alchemically treated piece of coal (a full-round action) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is sickened for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.</p><blockquote>\n<p id=\"blinding-cinders\"><i>Blinding Cinders</i>: This jagged bit of dusty red coal allows a kobold to breathe a 30-foot line of coarse cinders. The breath weapon deals 1d6 points of fire damage and blinds creatures in the area for 1 round. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not blinded.</p>\n<p id=\"choking-smoke\"><i>Choking Smoke</i>: This crumbling chunk of chalky white coal allows a kobold to breathe a 15-foot cone of foul vapor that deals 1d6 points of acid damage and sickens a creature for 1d4 rounds. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not sickened. </p>\n</blockquote>", 
-                            "type": "section", 
+                            "text": "<p id=\"alchemical-coal\">A kobold who chews and swallows this alchemically treated piece of coal (a full-round action) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is sickened for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.</p>",
+                            "sections": [
+                                {
+                                    "source": "Advanced Race Guide", 
+                                    "text": "This jagged bit of dusty red coal allows a kobold to breathe a 30-foot line of coarse cinders. The breath weapon deals 1d6 points of fire damage and blinds creatures in the area for 1 round. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not blinded.", 
+                                    "type": "section", 
+                                    "name": "Blinding Cinders"
+                                },
+                                {
+                                    "source": "Advanced Race Guide", 
+                                    "text": "This crumbling chunk of chalky white coal allows a kobold to breathe a 15-foot cone of foul vapor that deals 1d6 points of acid damage and sickens a creature for 1d4 rounds. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not sickened.", 
+                                    "type": "section", 
+                                    "name": "Choking Smoke"
+                                }
+                            ],
+                            "type": "item", 
                             "name": "Alchemical Coal"
                         }, 
                         {
                             "source": "Advanced Race Guide", 
                             "text": "<p id=\"cave-whistle\">Fashioned from the spongy stem of a rare mushroom, this whistle produces a sound that only kobolds and dragons can hear. Kobolds often create complicated codes made up of notes that they use to coordinate ambushes and raids. </p>", 
-                            "type": "section", 
+                            "type": "item", 
                             "name": "Cave Whistle"
                         }, 
                         {
                             "source": "Advanced Race Guide", 
                             "text": "<p id=\"kobold-tail-attachments\">A kobold with the Tail Terror feat (see below) can slip this device over the tip of his tail to augment his natural attack. Each tail attachment provides just enough weight, balance, and striking power to increase the damage of his tail slap. It takes a full-round action to slip on a kobold tail attachment, and the kobold gains a +4 bonus against disarm attempts made to remove his tail attachment. </p><p>While a kobold is wearing a kobold tail attachment, the attack deals the tail attachment damage, and some attachments gain a special feature. Tail attachments are light weapons and can be improved by feats that can improve weapon attacks (such as Weapon Focus and Weapon Specialization). All kobold tail attachments make up a kobold tail attachment weapon group that can be improved by the fighter's weapon training class ability. Tail attachments can be constructed of special material and made into masterwork or magic items. There are five types of common tail attachments. </p><blockquote>\n<p id=\"long-lash\"><i>Long Lash</i>: This slender cord has tiny bits of glass and stone embedded in its length.</p>\n<p id=\"pounder\"><i>Pounder</i>: This squat ball is made from some sort of dull metal. </p>\n<p id=\"razored\"><i>Razored</i>: This metal wedge has a prickly edge on one of its sides. </p>\n<p id=\"spiked\"><i>Spiked</i>: This narrow spike tapers to a sharp point. </p>\n<p id=\"sweeper\"><i>Sweeper</i>: When properly used, this sharply curved piece of metal can knock opponents off their feet. Unlike most trip weapons, you cannot drop it if you are tripped during your own trip attempt.</p>\n</blockquote>", 
-                            "type": "section", 
-                            "name": "Kobold Tail Attachments", 
-                            "sections": [
-                                {
-                                    "text": "<table><caption>Kobold Equipment</caption>\n<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>\n<tr class=\"odd\"><td>Alchemical coal (blinding cinders)</td><td>100 gp</td><td>&mdash;</td><td>25</td></tr>\n<tr class=\"even\"><td>Alchemical coal (choking smoke)</td><td>50 gp</td><td>&mdash;</td><td>20</td></tr>\n<tr class=\"odd\"><td>Cave whistle</td><td>20 gp</td><td>&mdash;</td><td>&mdash;</td></tr></table>", 
-                                    "type": "table", 
-                                    "name": "Kobold Equipment", 
-                                    "source": "Advanced Race Guide"
-                                }, 
-                                {
-                                    "text": "<table id=\"kobold-tail-attachments\"><caption>Kobold Tail Attachments</caption>\n<thead><tr><th>Weapon</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Crit</th><th>Range</th><th>Weight</th><th>Type</th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"9\"><i>Light Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>Long lash</td><td>15 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&mdash;</td><td>1 lb.</td><td>S</td><td>reach</td></tr>\n<tr class=\"odd\"><td>Pounder</td><td>1 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>&mdash;</td><td>4 lbs.</td><td>B</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Razored</td><td>3 gp</td><td>1d6</td><td>1d8</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>2 lbs.</td><td>S</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Spiked</td><td>3 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>&mdash;</td><td>2 lbs.</td><td>P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Sweeper</td><td>7 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&mdash;</td><td>3 lbs.</td><td>B</td><td>trip</td></tr></table>", 
-                                    "type": "table", 
-                                    "name": "Kobold Tail Attachments", 
-                                    "source": "Advanced Race Guide"
-                                }
-                            ]
+                            "type": "item", 
+                            "name": "Kobold Tail Attachments" 
+                        },
+                        {
+                            "text": "<table><caption>Kobold Equipment</caption>\n<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>\n<tr class=\"odd\"><td>Alchemical coal (blinding cinders)</td><td>100 gp</td><td>&mdash;</td><td>25</td></tr>\n<tr class=\"even\"><td>Alchemical coal (choking smoke)</td><td>50 gp</td><td>&mdash;</td><td>20</td></tr>\n<tr class=\"odd\"><td>Cave whistle</td><td>20 gp</td><td>&mdash;</td><td>&mdash;</td></tr></table>", 
+                            "type": "table", 
+                            "name": "Kobold Equipment", 
+                            "source": "Advanced Race Guide"
+                        }, 
+                        {
+                            "text": "<table id=\"kobold-tail-attachments\"><caption>Kobold Tail Attachments</caption>\n<thead><tr><th>Exotic Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Crit</th><th>Range</th><th>Weight</th><th>Type</th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"9\"><i>Light Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>Long lash</td><td>15 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&mdash;</td><td>1 lb.</td><td>S</td><td>reach</td></tr>\n<tr class=\"odd\"><td>Pounder</td><td>1 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>&mdash;</td><td>4 lbs.</td><td>B</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Razored</td><td>3 gp</td><td>1d6</td><td>1d8</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>2 lbs.</td><td>S</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>Spiked</td><td>3 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>&mdash;</td><td>2 lbs.</td><td>P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>Sweeper</td><td>7 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&mdash;</td><td>3 lbs.</td><td>B</td><td>trip</td></tr></table>", 
+                            "type": "table", 
+                            "name": "Table Kobold Tail Attachments", 
+                            "source": "Advanced Race Guide"
                         }
                     ]
                 }, 
