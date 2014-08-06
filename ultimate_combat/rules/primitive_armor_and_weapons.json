@@ -22,7 +22,8 @@
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p>Bone can be used in place of wood and steel in weapons and armor. Other animal-based materials like horn, shell, and ivory also use the rules for bone weapon and armor. The cost of a bone weapon or bone armor is half the price of a normal weapon or armor of its type.</p>", 
-                    "type": "section", 
+                    "type": "item", 
+                    "subtype": "material", 
                     "name": "Bone", 
                     "sections": [
                         {
@@ -42,7 +43,8 @@
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p>Before the advent of iron and steel, bronze ruled the world. This easily worked metal can be used in place of steel for both weapons and armor. For simplicity's sake, similar or component metals such as brass, copper, or even tin can use the following rules, even though in reality bronze is both harder and more reliable than those metals. </p>", 
-                    "type": "section", 
+                    "type": "item", 
+                    "subtype": "material", 
                     "name": "Bronze", 
                     "sections": [
                         {
@@ -62,7 +64,8 @@
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p>Typically only used for ceremonial weapons and armor, metal equipment made from gold is fragile, heavy, and expensive. Often golden armor is gold-plated rather than constructed entirely from gold. The rules below are for the rare item constructed entirely of gold rather than being gold-plated. </p><p>Gold-plated items triple the base cost of weapons and armor and have the same properties as the item the gold is plating. Items constructed purely of gold cost 10 times the normal cost for items of their type. Gold items weigh 50% more than typical weapons or armor of their type. </p>", 
-                    "type": "section", 
+                    "type": "item", 
+                    "subtype": "material", 
                     "name": "Gold", 
                     "sections": [
                         {
@@ -82,7 +85,8 @@
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p>This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that do piercing and slashing damage. Bits of obsidian inserted into a length of tempered wood create effective swords called terbutjes. </p><p>Obsidian weapons cost half of what base items of their type do, and weigh 75% of what base items of their type do.</p>", 
-                    "type": "section", 
+                    "type": "item", 
+                    "subtype": "material", 
                     "name": "Obsidian", 
                     "sections": [
                         {
@@ -102,7 +106,8 @@
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p>Stone Age weapons almost always utilize stone in some way. From rocks lashed to wooden hafts to create early maces and axes, to flint knives and stone arrowheads, these primitive weapons are still deadly. </p><p>Stone weapons cost a quarter of what base items of their type do, and weigh 75% of what base items of their type do. </p>", 
-                    "type": "section", 
+                    "type": "item", 
+                    "subtype": "material", 
                     "name": "Stone", 
                     "sections": [
                         {
@@ -135,53 +140,57 @@
                 }, 
                 {
                     "source": "Ultimate Combat", 
-                    "text": "<p id=\"atlatl\">An atlatl is a thin piece of wood or antler used as a lever to hurl a specially fitted dart. An atlatl gives much greater range to a dart, but must be loaded like a projectile weapon. Your Strength modifier applies to damage rolls when you use an atlatl, just as it does for thrown weapons. You can fire&mdash;but not load&mdash;an atlatl with one hand. Loading an atlatl is a move action that requires two hands and provokes attacks of opportunity. The Rapid Reload feat can be taken for atlatls, allowing you to load a dart as a free action. Atlatl darts are the size of javelins but have fletching, and can be used as javelins without an atlatl.</p>", 
-                    "type": "section", 
+                    "text": "<p id=\"atlatl\">An atlatl is a thin piece of wood or antler used as a lever to hurl a specially fitted dart. An atlatl gives much greater range to a dart, but must be loaded like a projectile weapon. Your Strength modifier applies to damage rolls when you use an atlatl, just as it does for thrown weapons. You can fire&mdash;but not load&mdash;an atlatl with one hand. Loading an atlatl is a move action that requires two hands and provokes attacks of opportunity. The Rapid Reload feat can be taken for atlatls, allowing you to load a dart as a free action.</p>", 
+                    "type": "item", 
                     "name": "Atlatl"
                 }, 
                 {
                     "source": "Ultimate Combat", 
+                    "text": "<p id=\"atlatl-dart\">An atlatl dart is the equivalent of a javelin except it has fletching. If thrown without an atlatl, treat it as a javelin.</p>", 
+                    "type": "item", 
+                    "name": "Atlatl Dart"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
                     "text": "<p id=\"mere-club\">Traditionally made of sturdy carved stone, a mere (MEH-reh) is a short, flat-sided, sharp-pointed club.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Mere Club"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"taiaha\">A taiaha is a long, heavy stick, club-shaped at one end and tipped with a wooden or metal spear point at the other. You wield it with a combination of solid strikes with the club and fending motions with the spear. A taiaha can be wielded as a martial weapon that deals 1d8/<span class=\"char-style-override-9\">&times;</span>2 bludgeoning damage.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Taiaha"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"tepoztopilli\">The head of this wooden polearm is edged with jagged bits obsidian, glass, teeth, or similar materials. The wide head serves well for both piercing and slashing attacks.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Tepoztopilli"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"terbutje\">This length of tempered wood, also called a macuahuitl, has bits of shark teeth, obsidian, glass, or similar materials studded all along its length.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Terbutje"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"terbutje,-great\">This 4-foot-long version of the terbutje is too large to use in one hand without special training; thus it is an exotic weapon. A character can use a great terbutje two-handed as a martial weapon.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Terbutje, great"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"wahaika\">This short and broad club is made of hardened wood or bone. It has a notch on one side that is used for catching weapons. If you are proficient, you use the notch in the wahaika to disarm your foes. Otherwise, treat this weapon as a club. Feats and abilities that affect clubs apply to the wahaika.</p>", 
-                    "type": "section", 
-                    "name": "Wahaika", 
-                    "sections": [
-                        {
-                            "text": "<table id=\"table-stone-age-weapons\"><caption>Table: Stone Age Weapons</caption>\n<thead><tr><th>Simple Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"even\"><td colspan=\"9\"><i>One-Handed Melee Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Mere club</td><td>2 gp</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>&mdash;</td><td>2 lbs.</td><td>B or P</td><td>fragile</td></tr>\n<thead><tr><th>Martial Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"9\"><i>One-Handed Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Terbutje</td><td>5 gp</td><td>1d6</td><td>1d8</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>2 lbs.</td><td>S</td><td>fragile</td></tr>\n<tr class=\"odd\"><td colspan=\"9\"><i>Two-Handed Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Tepoztopilli</td><td>8 gp</td><td>1d8</td><td>1d10</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>8 lbs.</td><td>P or S</td><td>fragile, reach</td></tr>\n<tr class=\"odd\"><td colspan=\"9\"><i>Ranged Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Atlatl</td><td>2 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>50 ft.</td><td>2 lbs.</td><td>P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Atlatl dart</td><td>1 gp</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>2 lbs.</td><td>&mdash;</td><td>&mdash;</td></tr>\n<thead><tr><th>Exotic Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"9\"><i>One-Handed Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Taiaha</td><td>10 gp</td><td>1d8/1d4</td><td>1d10/1d6</td><td>&times;2/&times;3</td><td>&mdash;</td><td>8 lbs.</td><td>B or P</td><td>double</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Terbutje, great</td><td>12 gp</td><td>1d8</td><td>1d10</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>4 lbs.</td><td>S</td><td>fragile</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Wahaika</td><td>3 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>10 ft.</td><td>3 lbs.</td><td>B</td><td>disarm</td></tr>\n<tfoot><tr><td colspan=\"9\"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.\n<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies &ldquo;or.&rdquo;</td></tr></tfoot></table>", 
-                            "type": "table", 
-                            "name": "Table: Stone Age Weapons", 
-                            "source": "Ultimate Combat"
-                        }
-                    ]
+                    "type": "item", 
+                    "name": "Wahaika"
+                },
+                {
+                    "text": "<table id=\"table-stone-age-weapons\"><caption>Table: Stone Age Weapons</caption>\n<thead><tr><th>Simple Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"even\"><td colspan=\"9\"><i>One-Handed Melee Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Mere club</td><td>2 gp</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>&mdash;</td><td>2 lbs.</td><td>B or P</td><td>fragile</td></tr>\n<thead><tr><th>Martial Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"9\"><i>One-Handed Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Terbutje</td><td>5 gp</td><td>1d6</td><td>1d8</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>2 lbs.</td><td>S</td><td>fragile</td></tr>\n<tr class=\"odd\"><td colspan=\"9\"><i>Two-Handed Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Tepoztopilli</td><td>8 gp</td><td>1d8</td><td>1d10</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>8 lbs.</td><td>P or S</td><td>fragile, reach</td></tr>\n<tr class=\"odd\"><td colspan=\"9\"><i>Ranged Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Atlatl</td><td>2 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>50 ft.</td><td>2 lbs.</td><td>P</td><td>&mdash;</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Atlatl dart</td><td>1 gp</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>2 lbs.</td><td>&mdash;</td><td>&mdash;</td></tr>\n<thead><tr><th>Exotic Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"odd\"><td colspan=\"9\"><i>One-Handed Melee Weapons</i></td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Taiaha</td><td>10 gp</td><td>1d8/1d4</td><td>1d10/1d6</td><td>&times;2/&times;3</td><td>&mdash;</td><td>8 lbs.</td><td>B or P</td><td>double</td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Terbutje, great</td><td>12 gp</td><td>1d8</td><td>1d10</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>4 lbs.</td><td>S</td><td>fragile</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Wahaika</td><td>3 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>10 ft.</td><td>3 lbs.</td><td>B</td><td>disarm</td></tr>\n<tfoot><tr><td colspan=\"9\"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.\n<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies &ldquo;or.&rdquo;</td></tr></tfoot></table>", 
+                    "type": "table", 
+                    "name": "Table: Stone Age Weapons", 
+                    "source": "Ultimate Combat"
                 }
             ]
         }, 
@@ -200,34 +209,39 @@
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"harpoon\">A harpoon is a barbed spear with an attached rope 50 feet or less in length. If you are proficient in the harpoon, it is a grappling weapon (see the weapon special qualities for Eastern weapons).</p><p>A harpoon's weight includes the weight of 50 feet of hemp rope. It can be reduced by using shorter or lighter rope.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Harpoon"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"kestros\">The kestros is an oddly shaped sling used for launching darts. Your Strength modifier applies on damage rolls when you use a kestros, just as it does for thrown weapons. You can fire&mdash;but not load&mdash;a kestros with one hand. Loading a kestros is a move action that requires two hands and provokes attacks of opportunity. Halflings treat the kestros as a martial weapon.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Kestros"
                 }, 
                 {
                     "source": "Ultimate Combat", 
+                    "text": "<p id=\"kesteros-dart\">This dart, meant to be thrown using a kestros, consists of a heavy metal point about 9 inches long attached to a shaft of wood about 12 inches long, fletched with feathers for stability. If used as a melee weapon, it is a light improvised weapon (&ndash;4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier &times;2). Kestros darts come in a quiver that holds 10 darts.</p>", 
+                    "type": "item",
+                    "name": "Kestros Dart"
+                }, 
+                {
+                    "source": "Ultimate Combat", 
                     "text": "<p id=\"mattock\">Derived from the digging tool of the same name, a mattock resembles a two-handed pick, but with a chisel-like blade instead of a point.</p>", 
-                    "type": "section", 
+                    "type": "item", 
                     "name": "Mattock"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "text": "<p id=\"rhomphaia\">This weapon is an early polearm consisting of a long, single-edged blade attached to a sturdy staff, sometimes slightly curved. It serves as both a cutting and a thrusting weapon.</p>", 
-                    "type": "section", 
-                    "name": "Rhomphaia", 
-                    "sections": [
-                        {
-                            "text": "<table id=\"bronze-age-weapons\"><caption>Table: Bronze Age Weapons</caption>\n<thead><tr><th>Martial Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"even\"><td colspan=\"9\"><i>Two-Handed Melee Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Mattock</td><td>12 gp</td><td>1d6</td><td>2d4</td><td>&times;4</td><td>&mdash;</td><td>12 lbs.</td><td>P</td><td>fragile</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Rhomphaia</td><td>15 gp</td><td>1d6</td><td>2d4</td><td>&times;3</td><td>&mdash;</td><td>10 lbs.</td><td>P or S</td><td>brace, fragile,reach</td></tr>\n<thead><tr><th>Exotic Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"even\"><td colspan=\"9\"><i>Two-Handed Melee Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Harpoon</td><td>5 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>10 ft.</td><td>16 lbs.</td><td>P</td><td>fragile, grappling (see description)</td></tr>\n<tr class=\"even\"><td colspan=\"9\"><i>Ranged Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Kestros</td><td>1 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>50 ft.</td><td>1 lb.</td><td>P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Kestros dart (10)</td><td>5 gp</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>5 lbs.</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tfoot><tr><td colspan=\"9\"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.\n<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies &ldquo;or.&rdquo;</td></tr></tfoot></table>", 
-                            "type": "table", 
-                            "name": "Table: Bronze Age Weapons", 
-                            "source": "Ultimate Combat"
-                        }
-                    ]
+                    "type": "item", 
+                    "name": "Rhomphaia" 
+                },
+                {
+                    "text": "<table id=\"bronze-age-weapons\"><caption>Table: Bronze Age Weapons</caption>\n<thead><tr><th>Martial Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"even\"><td colspan=\"9\"><i>Two-Handed Melee Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Mattock</td><td>12 gp</td><td>1d6</td><td>2d4</td><td>&times;4</td><td>&mdash;</td><td>12 lbs.</td><td>P</td><td>fragile</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Rhomphaia</td><td>15 gp</td><td>1d6</td><td>2d4</td><td>&times;3</td><td>&mdash;</td><td>10 lbs.</td><td>P or S</td><td>brace, fragile,reach</td></tr>\n<thead><tr><th>Exotic Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th><th>Special</th></tr></thead>\n<tr class=\"even\"><td colspan=\"9\"><i>Two-Handed Melee Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Harpoon</td><td>5 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>10 ft.</td><td>16 lbs.</td><td>P</td><td>fragile, grappling (see description)</td></tr>\n<tr class=\"even\"><td colspan=\"9\"><i>Ranged Weapons</i></td></tr>\n<tr class=\"odd\"><td>&nbsp;&nbsp;Kestros</td><td>1 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>50 ft.</td><td>1 lb.</td><td>P</td><td>&mdash;</td></tr>\n<tr class=\"even\"><td>&nbsp;&nbsp;Kestros dart (10)</td><td>5 gp</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>5 lbs.</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tfoot><tr><td colspan=\"9\"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.\n<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies &ldquo;or.&rdquo;</td></tr></tfoot></table>", 
+                    "type": "table", 
+                    "name": "Table: Bronze Age Weapons", 
+                    "source": "Ultimate Combat"
+                
                 }, 
                 {
                     "source": "Ultimate Combat", 
