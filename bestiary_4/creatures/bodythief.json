@@ -1,0 +1,229 @@
+{
+    "dexterity": "1", 
+    "ac": "26, touch 1, flat-footed 25 (\u20135 Dex, +25 natural, \u20134 size)", 
+    "special_attacks": "breath weapon (80-ft. line, 12d6 acid damage, Reflex DC 27 half, usable every 1d4 rounds), swallow whole (4d6 acid damage plus absorb essence; AC 22, 23 hp), transfer", 
+    "intelligence": "21", 
+    "racial_modifiers": "+5 Disguise", 
+    "resist": "cold 20", 
+    "melee": "bite +23 (2d8+12 plus grab), 4 tentacles +21 (1d8+6 plus grab)", 
+    "cr": "14", 
+    "xp": "38,400", 
+    "speed": "5 ft.", 
+    "alignment": "LE", 
+    "size": "Gargantuan", 
+    "environment": "temperate or warm forests", 
+    "strength": "34", 
+    "constitution": "25", 
+    "space": "20 ft.", 
+    "treasure": "double standard", 
+    "charisma": "14", 
+    "languages": "Common, Dwarven, Elven, Orc, Sylvan (can't speak any language); telepathy 1,000 ft. (with spawn only)", 
+    "immune": "plant traits, sonic", 
+    "init": "\u20131", 
+    "fortitude": "+19", 
+    "reflex": "+1", 
+    "feats": "Alertness, Combat Expertise, Greater Disarm, Improved Disarm, Improved Initiative, Improved Iron Will, Improved Trip, Iron Will, Multiattack, Skill Focus (Knowledge [nature])", 
+    "senses": "low-light vision; Perception +30", 
+    "description": "This immense plant has jaws inside its central flower and vines that thresh the air. Its ovular seedpods throb like beating hearts.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Absorb Essence", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Creatures in a bodythief's stomach gain 4 negative levels (Fortitude DC 27 half) each round at the start of the bodythief's turn. A check to remove a negative level gained in this way is also DC 27. If the creature dies from the negative levels, its body disintegrates and the bodythief absorbs its life essence. This is a death effect.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Spawn Pod Creature", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Once a bodythief has absorbed the life essence of a Large or smaller creature, it can begin growing a duplicate of that creature as a free action. Growing a Tiny or smaller duplicate takes 1 round, a Small duplicate 3 rounds, a Medium duplicate 5 rounds, and a Large duplicate 10 rounds. Duplicates are identical to the creature whose life essence has been devoured, but they gain the pod creature template. They closely resemble the original creature and retain all its memories. The newly created spawn has none of the original creature's equipment, though the bodythief can vomit forth any surviving swallowed gear as a move action. As the duplicate hatches, the bodythief makes a Disguise check to determine the resemblance to the original. The duplicate must be grown within 24 hours of the original's digestion, or its essence and memories dissipate. Only a single duplicate can made of any given creature.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Transfer", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A bodythief can transfer a creature grappled with a tentacle to its mouth with a move action and a successful grapple combat maneuver check.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Vexing Vines", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Each of the bodythief's tentacle vines plus its bite attack can deliver its own attack of opportunity, giving the bodythief five attacks of opportunity per round. It cannot deliver attacks of opportunity with a portion of its body being used to grapple. The bodythief can give up an attack of opportunity with a tentacle to deflect a missile as though it had the Deflect Arrows feat.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Plants of frightfully advanced intellect, bodythieves cannot abide the irrationalities of other intelligent life, particularly emotions. They seek to create a world of perfect order by replacing other life forms with nearly perfect duplicates spawned by the bodythief itself. Indeed, these duplicates improve on the originals, as they can communicate telepathically with the bodythief, and they lack wasteful emotions. Individual bodythieves vary as to their specific plans for building a perfect society of duplicates. A common, though recognized, flaw in their plans is the infertility of their duplicates. To maintain a stable society, the bodythieves must capture creatures to replace the inevitable loss of healthy duplicates.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Bodythieves are nearly immobile, though they can drag themselves along with their vines in extremis. When they must move large distances, they enlist the aid of their spawn.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "text": "<p>A creature with the pod-spawned template is a duplicate created by the bodythief. It resembles the original and has all its memories, but can't exhibit sincere emotion.</p><p>Pod-spawned creatures can't reproduce and remain the same apparent age as their original at the time of replacement.</p>", 
+            "type": "section", 
+            "name": "Pod-Spawned Creature (CR 0, \u20131, or \u20132)", 
+            "sections": [
+                {
+                    "dexterity": "13", 
+                    "ac": "20, touch 11, flat-footed 19 (+7 armor, +1 Dex, +2 shield)", 
+                    "special_attacks": "weapon training (heavy blades +2, crossbows +1)", 
+                    "intelligence": "10", 
+                    "melee": "+2 longsword +19/+14 (1d8+10/17\u201320)", 
+                    "cr": "8", 
+                    "xp": "4,800", 
+                    "speed": "30 ft.", 
+                    "alignment": "LE", 
+                    "size": "Medium", 
+                    "environment": "any", 
+                    "strength": "19", 
+                    "constitution": "14", 
+                    "source": "Bestiary 4", 
+                    "treasure": "NPC gear (+1 breastplate, heavy steel shield, +2 longsword, mwk light crossbow with 20 bolts, other treasure)", 
+                    "charisma": "4", 
+                    "languages": "Common", 
+                    "immune": "plant traits", 
+                    "init": "+5", 
+                    "fortitude": "+8", 
+                    "type": "creature", 
+                    "feats": "Alertness, Cleave, Great Cleave, Greater Weapon Focus (longsword), Improved Critical (longsword), Improved Initiative, Power Attack, Toughness, Vital Strike, Weapon Focus (longsword), Weapon Specialization (longsword)", 
+                    "sections": [], 
+                    "senses": "low-light vision; Perception +3", 
+                    "ranged": "mwk light crossbow +12 (1d8+1/19\u201320/\u00d72)", 
+                    "hp": "90 (9d10+36)", 
+                    "wisdom": "12", 
+                    "defensive_abilities": "bravery +2", 
+                    "creature_type": "Plant", 
+                    "special_qualities": "armor training 2, mimic", 
+                    "base_attack": "+9", 
+                    "name": "Pod-Spawned Guard Captain", 
+                    "skills": "Climb +13, Perception +3, Ride +10, Sense Motive +3, Swim +13", 
+                    "super_race": "human fighter 9", 
+                    "cmd": "24", 
+                    "cmb": "+13", 
+                    "will": "+4 (+2 vs. fear)", 
+                    "reflex": "+4", 
+                    "organization": "any", 
+                    "creature_subtype": "augmented humanoid"
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "text": "<p>\"Pod-spawned\" is an acquired template that can be added to any living creature (referred to hereafter as the base creature).</p>", 
+            "type": "section", 
+            "name": "Creating a Pod-Spawned Creature", 
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>For creatures with no class levels or only NPC class levels, this is the same as that of the base creature. For creatures with PC class levels, this is the same as that of the base creature \u20131. Creatures with a significant number of spells, spell-like abilities, or supernatural abilities have their CR further reduced by 1.</p>", 
+                    "type": "section", 
+                    "name": "CR", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Type changes to plant. Do not recalculate BAB, hit points, saves, or skill ranks.</p>", 
+                    "type": "section", 
+                    "name": "Type", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Alignment changes to lawful evil.</p>", 
+                    "type": "section", 
+                    "name": "Alignment", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>A pod-spawned creature gains low-light vision.</p>", 
+                    "type": "section", 
+                    "name": "Senses", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>A pod-spawned creature gains plant traits.</p>", 
+                    "type": "section", 
+                    "name": "Defensive Abilities", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Special Abilities", 
+                    "sections": [], 
+                    "text": "<p>The pod-spawned creature gains the mimic ability.</p><p><i>Mimic </i> A pod-spawned creature retains all the knowledge of its original. It can impersonate the original perfectly except for its lack of emotion. This emotionlessness can be detected with a successful DC 20 Sense Motive check. A creature familiar with the original gains a +5 circumstance bonus on this check. If the pod-spawned creature feigns sincere emotion, the Sense Motive check is opposed by its Bluff check instead. Pod-spawned creatures resemble the original down to hair and blood. Noticing small physical imperfections requires a successful Perception check with a DC determined by the spawning bodythief's Disguise check, made when the pod hatches.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Cha \u20134.</p>", 
+                    "type": "section", 
+                    "name": "Ability Scores", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>All feats are retained, even if the pod-spawned creature no longer qualifies for their prerequisites.</p>", 
+                    "type": "section", 
+                    "name": "Feats", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>The creature loses any spellcasting ability and all spell-like and supernatural abilities.</p>", 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "sections": []
+                }
+            ]
+        }
+    ], 
+    "hp": "230 (20d8+140)", 
+    "reach": "20 ft. (40 ft. with tentacles)", 
+    "wisdom": "16", 
+    "defensive_abilities": "vexing vines", 
+    "creature_type": "Plant", 
+    "special_qualities": "spawn pod creature", 
+    "base_attack": "+15", 
+    "name": "Bodythief", 
+    "skills": "Disguise +27, Knowledge (geography, history, local, nobility) +20, Knowledge (nature) +31, Perception +30, Sense Motive +27", 
+    "type": "creature", 
+    "cmd": "38 (40 vs. disarm, can't be tripped)", 
+    "cmb": "+31 (+35 disarm, +35 grapple, +33 trip)", 
+    "will": "+11", 
+    "source": "Bestiary 4", 
+    "organization": "solitary"
+}

@@ -1,0 +1,102 @@
+{
+    "dexterity": "14", 
+    "ac": "16, touch 16, flat-footed 14 (+2 Dex, +4 size)", 
+    "special_attacks": "death throes, paralysis (1d3 rounds, DC 11), pliers, tricky thief", 
+    "intelligence": "8", 
+    "racial_modifiers": "\u20134 Acrobatics when jumping", 
+    "melee": "+1 pliers +8 (1d4\u20132/19\u201320/\u00d72), bite +7 (1d4\u20133 plus paralysis)", 
+    "cr": "1/4", 
+    "xp": "100", 
+    "speed": "15 ft., fly 60 ft. (perfect)", 
+    "alignment": "CE", 
+    "size": "Diminutive", 
+    "environment": "any urban or plains", 
+    "strength": "5", 
+    "constitution": "9", 
+    "space": "1 ft.", 
+    "treasure": "standard", 
+    "charisma": "14", 
+    "languages": "Sylvan", 
+    "source": "Bestiary 4", 
+    "init": "+2", 
+    "fortitude": "\u20131", 
+    "spells": {
+        "spell-like abilities": "(CL 5th; concentration +7)<p class=\"stat-block-2\">At will-<i>mage hand</i>, <i>open/close</i></p><p class=\"stat-block-2\">1/day-<i>invisibility</i> (self only), <i>sleep</i> (DC 13)</p>"
+    }, 
+    "type": "creature", 
+    "feats": "Weapon Finesse, Improved StealB, APG, Greater StealB, APG", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +7", 
+    "description": "This gaunt fairy has tattered ears, black eyes, and a huge mouth filled with mismatched teeth. It carries an oversized pair of pliers.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Death Throes", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "When killed, a tooth fairy explodes into a cloud of sparkling white fairy dust that clings to creatures within 5 feet. This glittery substance has a stench so foul that it sickens any creature coated by it for 1d4 rounds (Fortitude DC 10 negates). This is a poison effect. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Pliers", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Each tooth fairy owns a pair of pliers it uses to torment its victims. In the hands of a tooth fairy, the pliers deal damage as a +1 dagger wielded by a Medium creature. The pliers have hardness 10 and 3 hit points. If its pliers are destroyed, a tooth fairy is stunned for 1 round. If the tooth fairy is killed, the pliers rust away into worthless splinters 1d4 rounds later. A tooth fairy can create a new pair of pliers by spending one hour crafting (no materials required), which destroys the previous pair. The pliers grant the tooth fairy the Greater Dirty Trick feat and a +4 bonus on dirty trick and steal combat maneuvers.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Tricky Thief", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A tooth fairy can use a dirty trick combat maneuver with its pliers to pinch an opponent's fingers, or a steal combat maneuver to steal an opponent's tooth. A finger pinch deals 1 point of Dexterity damage. Stealing a tooth deals 1 point of Charisma damage and 1 point of bleed damage. If the stolen tooth is reattached within 10 minutes and the character receives any amount of magical healing, the tooth reattaches, the bleed damage ends, and the Charisma damage is cured.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Tooth fairies are fey created when a willful child's tooth (or, rarely, a whole child) is buried in a place with strong connections to the mysterious realm of the fey. Wicked and capricious, tooth fairies delight in spreading fear and pain, and have a perverse need to steal the teeth of humanoid creatures.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Each night, gangs of tooth fairies stalk humanoid settlements, using their magic to confuse and distract their victims, and reveling in the looks of horror on their victims' faces as the fey suddenly appear out of the darkness with their dirty, bloody pliers. The fairies then lull their targets to sleep and get to work at claiming their prizes. Some cautious fairies bite their targets to paralyze them and ensure the victims can't wriggle away from the fairy's grasping pliers; others enjoy the sounds of creatures awakening to their own screams as the fairy torments them with harsh pinches and painful tugs on fingers, teeth, or eyelids. </p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Tooth fairies use stolen teeth either to replace their own lost teeth (if the stolen teeth are small) or to decorate their dwellings, which usually lie inside abandoned buildings or knotholes in trees. Used as stools, carved into minuscule sculptures, or worn as crowns, the prized teeth serves as trophies of their successful raids.</p>"
+        }
+    ], 
+    "hp": "5 (2d6\u20132)", 
+    "reach": "0 ft. (5 ft. with pliers)", 
+    "wisdom": "15", 
+    "creature_type": "Fey", 
+    "dr": "2/cold iron", 
+    "base_attack": "+1", 
+    "name": "Tooth Fairy", 
+    "skills": "Acrobatics +7 (+3 when jumping), Escape Artist +7, Fly +16, Perception +7, Sense Motive +7, Stealth +19", 
+    "reflex": "+5", 
+    "cmd": "6 (8 vs. steal)", 
+    "cmb": "\u20131 (+3 dirty trick, +7 steal)", 
+    "will": "+5", 
+    "organization": "solitary, pair, or gang (3\u201312)", 
+    "creature_subtype": "extraplanar"
+}

@@ -1,0 +1,114 @@
+{
+    "dexterity": "13", 
+    "ac": "20, touch 11, flat-footed 19 (+1 Dex, +9 natural)", 
+    "special_attacks": "breath weapon (30-ft. cone, 4d6 cold and blinded for 1d6 rounds, Reflex DC 18 partial, usable every 1d4 round)", 
+    "intelligence": "16", 
+    "racial_modifiers": "+4 Stealth in snow", 
+    "melee": "+2 frost quarterstaff +15/+10 (1d6+6 plus 1d6 cold) or<p class=\"stat-block-2\">2 claws +13 (1d4+3)</p>", 
+    "cr": "7", 
+    "xp": "3,200", 
+    "speed": "30 ft.", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "environment": "cold forests or plains", 
+    "strength": "17", 
+    "constitution": "16", 
+    "source": "Bestiary 4", 
+    "treasure": "standard", 
+    "charisma": "18", 
+    "languages": "Aklo, Common, Giant", 
+    "immune": "cold", 
+    "init": "+1", 
+    "fortitude": "+8", 
+    "spells": {
+        "spell-like abilities": "(CL 10th; concentration +14)<p class=\"stat-block-2\">Constant-<i>pass without trace</i>, <i>see invisibility</i></p><p class=\"stat-block-2\">At will-<i>chill metal</i> (DC 16), <i>detect magic</i>, <i>fog cloud</i>, <i>frostbite</i>, <i>whispering wind</i></p><p class=\"stat-block-2\">3/day-<i>alter self</i>, <i>charm monster</i> (DC 18), <i>invisibility</i> (self only), <i>major image</i> (DC 17)</p><p class=\"stat-block-2\">1/day-<i>cone of cold</i> (DC 19; see ice staff), <i>control weather</i> (windy or cold weather only), <i>wall of ice</i> (DC 18), <i>waves of fatigue</i></p>"
+    }, 
+    "type": "creature", 
+    "feats": "Alertness, Blind-Fight, Combat Casting, Deceitful, Great Fortitude", 
+    "senses": "darkvision 60 ft., see invisibility, snow vision; Perception +18", 
+    "description": "This woman has black, frostbitten skin, white hair, and a black ice staff decorated with bones and gems.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Breath Weapon", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A creature that successfully saves against the hag's breath weapon takes half damage and is not blinded.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Ice Staff", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Once per week, a winter hag can perform an hour-long ritual to create a staff made of black ice that is as hard as steel and functions as a +2 frost quarterstaff. A winter hag holding her ice staff can use cone of cold once per day as a spell-like ability. The staff melts after 1 week.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Icewalking", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "This ability works like the spider climb spell, but the surfaces the hag climbs must be icy. The hag can move across icy surfaces without penalty and doesn't need to make Acrobatics checks to run or charge on ice.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Snow Vision", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A winter hag can see perfectly well in snowy conditions and doesn't take any penalties on Perception checks while in snow.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Winter hags are sadistic crones who haunt winter-blasted plains and rime-covered forests. They're exceptionally arrogant, and often use their magic to subjugate entire tribes of evil humanoids so they can rule over them as queens. These arrangements rarely last more than a few seasons, because no creature is truly safe from a winter hag's irrepressible appetite for warm, raw flesh. An ambitious winter hag might extort a village by causing constant snowfall until they give her children to eat or adults to become her slaves.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A typical winter hag stands between 5 and 6 feet tall and weighs 100 pounds.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>When a winter hag joins a coven, the coven adds <i>sculpt simulacrum</i> and <i>simulacrum</i> to its spell-like abilities, and any member within 1 mile of the winter hag gains icewalking and snow vision.</p>"
+        }
+    ], 
+    "hp": "85 (10d10+30)", 
+    "weaknesses": "vulnerable to fire", 
+    "wisdom": "13", 
+    "creature_type": "Monstrous Humanoid", 
+    "special_qualities": "ice staff, icewalking", 
+    "dr": "10/magic", 
+    "base_attack": "+10", 
+    "name": "Winter Hag", 
+    "skills": "Bluff +18, Craft (alchemy) +11, Diplomacy +9, Disguise +11, Intimidate +17, Knowledge (arcana) +8, Perception +18, Ride +9, Sense Motive +8, Spellcraft +8, Stealth +9 (+13 in snow)", 
+    "reflex": "+8", 
+    "cmd": "24", 
+    "cmb": "+13", 
+    "will": "+8", 
+    "sr": "18", 
+    "organization": "solitary, patrol (1 plus 1 winter wolf), or coven (3 hags of any type)", 
+    "creature_subtype": "cold"
+}

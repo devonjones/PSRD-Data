@@ -1,0 +1,169 @@
+{
+    "source": "Bestiary 4", 
+    "sections": [
+        {
+            "dexterity": "15", 
+            "ac": "17, touch 12, flat-footed 15 (+2 Dex, +5 natural)", 
+            "special_attacks": "voracious", 
+            "intelligence": "-", 
+            "racial_modifiers": "+18 Acrobatics while jumping", 
+            "resist": "acid 5", 
+            "melee": "bite +6 (1d8+4)", 
+            "cr": "3", 
+            "xp": "800", 
+            "speed": "20 ft., climb 20 ft., fly 60 ft. (average)", 
+            "alignment": "N", 
+            "size": "Medium", 
+            "strength": "16", 
+            "constitution": "13", 
+            "source": "Bestiary 4", 
+            "treasure": "none", 
+            "charisma": "7", 
+            "environment": "temperate or warm deserts or plains", 
+            "immune": "mind-affecting effects", 
+            "init": "+2", 
+            "fortitude": "+5", 
+            "reflex": "+3", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Leap", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "A giant locust can take 10 on Acrobatics checks to jump even if distracted or in danger.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Spit", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "A giant locust can spit a brown jet of acid and partially digested food up to 30 feet with no range increment.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Voracious", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "A giant locust's bite attack deals double damage to creatures with the plant subtype and to objects made of paper, wood, or other plant materials.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 4"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Giant locusts have a hunger akin to their smaller cousins, but only rarely do they gather in the endless numbers of their tiny kin.</p>"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>A mature giant locust measures just over 4 feet long and weighs 50 pounds.</p>"
+                }
+            ], 
+            "senses": "darkvision 60 ft.; Perception +0", 
+            "description": "The mandibles of this enormous grasshopper churn and grind as it quests for food.", 
+            "ranged": "spit +5 touch (1d3 acid)", 
+            "hp": "22 (4d8+4)", 
+            "wisdom": "10", 
+            "creature_type": "Vermin", 
+            "special_qualities": "leap", 
+            "base_attack": "+3", 
+            "name": "Locust, Giant", 
+            "skills": "Acrobatics +2 (+20 jumping), Climb +11", 
+            "type": "creature", 
+            "cmd": "18 (26 vs. trip)", 
+            "cmb": "+6", 
+            "will": "+1", 
+            "organization": "solitary, pair, gang (3\u20138), or colony (5\u201320)"
+        }, 
+        {
+            "dexterity": "15", 
+            "ac": "20, touch 20, flat-footed 18 (+2 Dex, +8 size)", 
+            "special_attacks": "devour, distraction (DC 12), voracious (see giant locust)", 
+            "intelligence": "-", 
+            "melee": "swarm (1d6)", 
+            "cr": "2", 
+            "xp": "600", 
+            "speed": "10 ft., climb 10 ft., fly 30 ft. (average)", 
+            "alignment": "N", 
+            "size": "Fine", 
+            "strength": "1", 
+            "constitution": "10", 
+            "space": "10 ft.", 
+            "treasure": "none", 
+            "charisma": "2", 
+            "environment": "temperate or warm deserts or plains", 
+            "immune": "mind-affecting effects", 
+            "init": "+2", 
+            "fortitude": "+4", 
+            "type": "creature", 
+            "senses": "darkvision 60 ft.; Perception +0", 
+            "description": "Thousands upon thousands of locusts dance and drone in a dark and ravenous cloud.", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Devour", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "A locust swarm causes damage to unattended objects in its space each round as though they were creatures. It even damages inedible objects.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 4"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Under crowded conditions, these normally inoffensive relatives of the grasshopper change color, breed uncontrollably, ravenously consume any available vegetation, and wreak vast destruction to farms and settlements.</p>"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>The largest swarms, known as plagues, can include billions of locusts and cover hundreds of square miles. Locusts in these swarms are larger and more aggressive than common ones, making the swarm a true danger to everything edible in their path and even to inedible objects as well.</p>"
+                }
+            ], 
+            "hp": "18 (4d8)", 
+            "reach": "0 ft.", 
+            "wisdom": "11", 
+            "defensive_abilities": "swarm traits", 
+            "creature_type": "Vermin", 
+            "base_attack": "+3", 
+            "name": "Locust Swarm", 
+            "skills": "Climb +3, Fly +10", 
+            "reflex": "+3", 
+            "cmd": "&mdash", 
+            "cmb": "-", 
+            "will": "+1", 
+            "source": "Bestiary 4", 
+            "organization": "solitary, pair, cloud (3\u201320), or plague (21\u2013100 or more)", 
+            "creature_subtype": "swarm"
+        }
+    ], 
+    "name": "Locust", 
+    "type": "section"
+}

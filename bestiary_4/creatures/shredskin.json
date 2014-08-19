@@ -1,0 +1,84 @@
+{
+    "dexterity": "15", 
+    "ac": "14, touch 13, flat-footed 12 (+2 Dex, +1 natural, +1 size)", 
+    "special_attacks": "constrict (1d4), control body, enshroud, grab (Medium)", 
+    "intelligence": "6", 
+    "melee": "bite +6 (1d4), 2 claws +6 (1d4 plus grab)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "fly 40 ft. (average)", 
+    "alignment": "NE", 
+    "spells": {
+        "spell-like abilities": "(CL 3rd; concentration +4)<p class=\"stat-block-2\">Constant-<i>detect undead</i></p><p class=\"stat-block-2\">1/day-<i>command undead</i> (DC 13)</p>"
+    }, 
+    "environment": "any land", 
+    "strength": "10", 
+    "constitution": "-", 
+    "source": "Bestiary 4", 
+    "treasure": "incidental", 
+    "charisma": "13", 
+    "languages": "Common (can't speak)", 
+    "immune": "undead traits", 
+    "init": "+2", 
+    "fortitude": "+2", 
+    "size": "Small", 
+    "reflex": "+3", 
+    "feats": "Agile Maneuvers, Weapon Finesse", 
+    "senses": "darkvision 60 ft., detect undead; Perception +7", 
+    "description": "This floating creature looks like an orc's animate, hollow skin. Its upper half is intact, but its lower half is in tatters.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Control Body", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A shredskin can wrap itself around a corpse (or a corporeal undead it controls using command undead). When wrapping a host body in this way, the shredskin gains Strength 14 or the host body's Strength, whichever is higher, but cannot use its grab or enshroud abilities which doing so. Attacks targeted at the shredskin deal half damage to it and half damage to the host body; area attacks deal normal damage to both the shredskin and its host. If the host is destroyed, the shredskin unwraps itself as a free action on its next turn. A typical Medium corpse has 15 hit points for this purpose, while a Small corpse has 10 hit points. A shredskin can only use this ability on a generally humanoid-shaped creature (two arms, one head, humanoid torso) of Medium or Small size.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Enshroud", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A shredskin that successfully pins a creature can wrap itself around that target like a shirt. The target gains the pinned condition, but the shredskin has neither the grappled or pinned condition, and can move itself and the target as if it controlled the target's body. The shredskin deals constrict damage to the target on its turn each round (no combat maneuver check needed). Attacking the shredskin while it's using this ability damages both it and the target as described in the control body ability. The shredskin can release the target as a free action.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A shredskin is a wretched undead creature created either when a humanoid is skinned alive to be preserved as a trophy or otherwise killed in a terrifying way that leaves much of its upper half unharmed, such as being dissolved feet-first in acid. A fragment of the creature's soul animates the skin and seeks vengeance on those who created it, all the while trying to find a comfortable body for it to use as it did when it was alive. A shredskin may attack on its own and try to squeeze the life out of a living humanoid to use it as a body, or it might control another undead such as a skeleton, zombie, or ghoul, covering it like a morbid costume. In either case, it abandons its borrowed body if it finds a better one or the old one is destroyed. A shredskin is usually recognizable by creatures who knew it in life.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Because it lacks a lower half, a shredskin is 3\u20134 feet tall and weighs only 10\u201315 pounds.</p>"
+        }
+    ], 
+    "hp": "22 (4d8+4)", 
+    "wisdom": "10", 
+    "defensive_abilities": "amorphous", 
+    "creature_type": "Undead", 
+    "special_qualities": "compression", 
+    "base_attack": "+3", 
+    "name": "Shredskin", 
+    "skills": "Fly +4, Perception +7, Stealth +13", 
+    "type": "creature", 
+    "cmd": "14 (can't be tripped)", 
+    "cmb": "+4 (+8 grapple)", 
+    "will": "+4", 
+    "organization": "solitary or pack (2\u20135)"
+}

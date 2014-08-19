@@ -1,0 +1,119 @@
+{
+    "dexterity": "17", 
+    "ac": "14, touch 13, flat-footed 11 (+3 Dex, +1 natural)", 
+    "special_attacks": "poison", 
+    "intelligence": "-", 
+    "melee": "3 tentacles +5 (1d4 plus poison)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "10 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "10", 
+    "constitution": "12", 
+    "space": "5 ft.", 
+    "treasure": "incidental", 
+    "charisma": "5", 
+    "environment": "temperate or warm forests", 
+    "immune": "plant traits", 
+    "init": "+7", 
+    "fortitude": "+4", 
+    "reflex": "+4", 
+    "feats": "Improved InitiativeB, Weapon FinesseB", 
+    "aura": "stench (DC 12, 1 minute)", 
+    "senses": "blindsight 30 ft., low-light vision; Perception +1", 
+    "description": "This strange, vibrant plant slowly but dangerously whips about its trio of tendrils with spiked heads.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Camouflage", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Since a weedwhip looks like a normal plant when at rest, a successful DC 15 Perception check is required to notice it before it attacks for the first time. Anyone with ranks in Survival or Knowledge (nature) can use either of those skills instead of Perception to notice the plant.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Dig In", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A weedwhip can bury its central bulb in earth or sand as a move action, granting it partial cover against all attacks, but preventing it from moving. It can extract itself from the ground as a move action.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Languid Whips", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A weedwhip's tentacles don't threaten any squares, and doesn't make attacks of opportunity.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Tentacle&mdash;contact; save Fort DC 12; frequency 1/round for 6 rounds; effect nauseated 1 round; cure 2 consecutive saves. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poisonous", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Any creature that attacks a weedwhip with a natural piercing or slashing weapon is exposed to its poison.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A weedwhip is an animate plant that rarely attacks unless provoked. Its unpleasant smell (reminiscent of decomposing fish) and tendency to sprout in any passable soil makes it a nuisance to farmers and settlers. Those who don't know of the weedwhip's dangers quickly fall prey to this plant once they target it for culling. Farmers have to deal with it in croplands and orchards, groundskeepers find it climbing walls like ivy, druids spot it encroaching on sacred groves, and even cave dwellers find it growing in dung heaps. Animals don't eat it because of its stench and poison, and fire is a risky way to destroy it because the weed mixes with other plants or wraps around trees or buildings.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A mature plant consists of a torso-sized bulb with small, ambulatory roots and three large, lashing vines, each as long as a whip, with blade-like thorns that secrete an irritating toxin. When the weedwhip is blooming, the bulb is crowned with a large flower and its scent is especially strong, often attracting pollinating flies.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>In rocky areas lacking suitable soil, a weedwhip can root itself in a corpse, leading some adventurers to think it prefers feeding on dead bodies or plants seeds in its kills, but it does so only in extreme circumstances.</p>"
+        }
+    ], 
+    "hp": "16 (3d8+3)", 
+    "weaknesses": "languid whips", 
+    "reach": "15 ft.", 
+    "wisdom": "13", 
+    "defensive_abilities": "dig in, poisonous", 
+    "creature_type": "Plant", 
+    "special_qualities": "camouflage", 
+    "base_attack": "+2", 
+    "name": "Weedwhip", 
+    "type": "creature", 
+    "cmd": "15 (27 vs. trip)", 
+    "cmb": "+2", 
+    "will": "+2", 
+    "source": "Bestiary 4", 
+    "organization": "solitary, pair, or patch (3\u20136)"
+}

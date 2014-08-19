@@ -1,0 +1,103 @@
+{
+    "dexterity": "21", 
+    "ac": "20, touch 20, flat-footed 15 (+5 deflection, +5 Dex)", 
+    "special_attacks": "weep", 
+    "intelligence": "14", 
+    "melee": "mwk dagger +9 (1d4/19\u201320)", 
+    "cr": "5", 
+    "xp": "1,600", 
+    "speed": "30 ft.", 
+    "alignment": "CN", 
+    "spells": {
+        "spell-like abilities": "(CL 7th; concentration +12)<p class=\"stat-block-2\">At will-<i>meld into stone</i>, <i>stone tell</i></p>", 
+        "druid spells prepared": "(CL 5th; concentration +8)<p class=\"stat-block-2\">3rd-<i>stone shape</i></p><p class=\"stat-block-2\">2nd-<i>spider climb</i>, <i>stone call</i></p><p class=\"stat-block-2\">1st-<i>cure light wounds</i>, <i>faerie fire</i>, <i>magic stone</i></p><p class=\"stat-block-2\">0-<i>detect magic</i>, <i>detect poison</i>, <i>light</i>, <i>mending</i></p>"
+    }, 
+    "environment": "any underground", 
+    "strength": "10", 
+    "constitution": "18", 
+    "treasure": "standard (masterwork dagger, masterwork sling, other treasure)", 
+    "charisma": "21", 
+    "languages": "Aklo, Common, Undercommon", 
+    "source": "Bestiary 4", 
+    "init": "+5", 
+    "fortitude": "+6", 
+    "size": "Medium", 
+    "reflex": "+10", 
+    "feats": "Alertness, Combat Casting, Point-Blank Shot, Weapon Finesse", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Guarded", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A lampad adds her Charisma modifier as a deflection bonus to her Armor Class.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Insane Beauty", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "This ability affects all humanoids within 30 feet who are viewing a lampad in conditions brighter than dim light. Those who look directly upon the lampad must succeed at a DC 18 Will save or gain the confused condition for 1d6 rounds. A creature that succeeds at the save is immune to the same lampad's insane beauty for 24 hours. A lampad can suppress or resume this ability as a free action. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "name": "Spells", 
+                    "text": "A lampad casts spells as a 5th-level druid, but can't swap out prepared spells to cast summon spells."
+                }, 
+                {
+                    "name": "Weep", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "As a standard action, a lampad can unsettle those near her when she cries. Any creature within 30 feet who can hear a lampad weeping becomes shaken unless it succeeds at a DC 18 Will saving throw. This ability can't cause a creature to become frightened or panicked. This is a mind-affecting fear effect that relies on audible components. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Dark and moody cousins to nymphs, lampads sulk along natural caverns and dank tunnels, their weeping cries echoing through the darkness. These creatures are often found carrying light in caverns and dungeons, drawing creatures to them like moths to flame. Though they prefer the darkness, they know that exposing their forms under bright conditions gives them an edge over creatures viewing them.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Just as nymphs guard nature's purest places and dryads protect their sacred trees, lampads watch over the dark places of the world. They speak to the stone that forms their murky world, and their forlorn cries ring out through the belly of the earth.</p>"
+        }
+    ], 
+    "senses": "darkvision 90 ft., low-light vision; Perception +15", 
+    "description": "Tears stream from this beautiful but sullen creature's eyes, forming a puddle beneath her delicate feet.", 
+    "ranged": "mwk sling +9 (1d4)", 
+    "hp": "52 (7d6+28)", 
+    "wisdom": "17", 
+    "creature_type": "Fey", 
+    "special_qualities": "guarded", 
+    "dr": "5/cold iron", 
+    "base_attack": "+3", 
+    "name": "Lampad", 
+    "skills": "Diplomacy +13, Knowledge (dungeoneering) +9, Knowledge (nature) +12, Linguistics +3, Perception +15, Perform (sing) +9, Sense Motive +15, Spellcraft +9, Stealth +15, Use Magic Device +15", 
+    "type": "creature", 
+    "cmd": "23", 
+    "cmb": "+3", 
+    "will": "+8", 
+    "aura": "insane beauty (30 ft.)", 
+    "organization": "solitary"
+}

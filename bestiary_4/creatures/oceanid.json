@@ -1,0 +1,114 @@
+{
+    "dexterity": "19", 
+    "ac": "21, touch 15, flat-footed 16 (+4 Dex, +1 dodge, +6 natural)", 
+    "special_attacks": "water telekinesis", 
+    "intelligence": "14", 
+    "resist": "cold 30", 
+    "melee": "slam +6 (1d4+3)", 
+    "cr": "7", 
+    "xp": "3,200", 
+    "speed": "20 ft., swim 80 ft.", 
+    "alignment": "CN", 
+    "size": "Medium", 
+    "environment": "any oceans", 
+    "strength": "14", 
+    "constitution": "20", 
+    "source": "Bestiary 4", 
+    "treasure": "standard", 
+    "charisma": "21", 
+    "languages": "Aquan, Common, Sylvan; speak with animals (sea creatures only)", 
+    "immune": "acid", 
+    "init": "+8", 
+    "fortitude": "+8", 
+    "spells": {
+        "spell-like abilities": "(CL 9th; concentration +14)<p class=\"stat-block-2\">Constant-<i>speak with animals</i> (sea creatures only)</p><p class=\"stat-block-2\">At will-<i>control water</i>, <i>create water</i>, <i>purify food and drink</i> (water only), <i>water breathing</i> (up to 9 creatures at a time)</p><p class=\"stat-block-2\">3/day-<i>control winds</i>, <i>summon nature's ally V</i> (sea creatures or water elementals only)</p><p class=\"stat-block-2\">1/day-<i>control weather</i></p>"
+    }, 
+    "type": "creature", 
+    "feats": "Combat Casting, Defensive Combat Training, Dodge, Improved Initiative, Mobility", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Water Dependency", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "An oceanid can survive out of the water for 1 hour per point of Constitution. After this limit, she takes 1 point of Constitution damage each hour until immersed in salt water.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Water Magic", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "An oceanid can use her spell-like abilities only when she is in the ocean or within 1 mile of the ocean.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Water Telekinesis", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "When immersed in water, an oceanid can manipulate water to affect creatures and objects within 500 feet that are in contact with the same body of water. This functions as the combat maneuver form of the telekinesis spell (caster level 9th, combat maneuver bonus +14), including the need to maintain concentration. This ability also allows her to create a small waterspout as a standard action once per round, striking an opponent within 100 feet with a blast of water as a ranged attack that deals 7d6 points of bludgeoning damage.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Waveglide", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "An oceanid can create waves and currents to double or halve the speed of creatures or objects traveling on the surface of the water, affecting up to 100 contiguous 5-foot squares in a shapeable area (typically enough for one warship or two small sailing ships). This ability has a range of 1,000 feet, requires line of effect to some part of the area, and lasts as long as the oceanid concentrates. An unwilling target can ignore the effect for 1 round by succeeding at a DC 19 Will saving throw. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Aquatic kin of nymphs and dryads, oceanids are fey bound to the sea. They can live in lakes, rivers, or oceans, but truly thrive only in salt water. The mood of an oceanid can change with little warning&mdash;they are quick to love and even quicker to anger.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>An oceanid can be quite helpful toward mortals and their vessels&mdash;particularly if the mortals indulge her extreme vanity. Though silver-tongued people skilled at flattery might earn her help, they might also be lured away to join the oceanid under the sea until she grows bored with them.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>When an oceanid is in the water, the lower half of her body transforms into a pillar of water, allowing her to swim at incredible speed. When she leaves the water, this water pillar transforms into humanoid legs. However, most oceanids consider walking a chore, and avoid it when possible.</p>"
+        }
+    ], 
+    "senses": "darkvision 120 ft., low-light vision, tremorsense 30 ft. (in water only); Perception +16", 
+    "description": "This beautiful woman is clad only in sea foam and her long, white hair, which cascades over her body.", 
+    "ranged": "waterspout +8 (7d6)", 
+    "hp": "76 (9d6+45); fast healing 10 (in salt water only)", 
+    "weaknesses": "vulnerable to fire, water dependency, water magic", 
+    "wisdom": "19", 
+    "creature_type": "Fey", 
+    "special_qualities": "waveglide", 
+    "dr": "10/cold iron", 
+    "base_attack": "+4", 
+    "name": "Oceanid", 
+    "skills": "Diplomacy +17, Handle Animal +14, Intimidate +14, Knowledge (nature) +14, Perception +16, Sense Motive +16, Stealth +16, Swim +22", 
+    "reflex": "+10", 
+    "cmd": "26", 
+    "cmb": "+6", 
+    "will": "+10", 
+    "organization": "solitary", 
+    "creature_subtype": "water"
+}

@@ -1,0 +1,147 @@
+{
+    "dexterity": "16", 
+    "ac": "14, touch 14, flat-footed 11 (+3 Dex, +1 size)", 
+    "intelligence": "17", 
+    "racial_modifiers": "+2 Perception, +2 Stealth", 
+    "sex": "male", 
+    "melee": "dagger +0 (1d3\u20131/19\u201320)", 
+    "cr": "1/2", 
+    "xp": "200", 
+    "speed": "20 ft.", 
+    "alignment": "CN", 
+    "spells": {
+        "arcane school spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">6/day-blinding ray</p>", 
+        "wayang spell-like abilities": "(CL 1st; concentration +2)<p class=\"stat-block-2\">1/day-<i>ghost sound</i> (DC 11), <i>pass without trace</i>, <i>ventriloquism</i> (DC 12)</p>", 
+        "illusionist spells prepared": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1st-<i>hypnotism</i> (DC 14), <i>silent image</i> (DC 14), <i>vanish</i></p><p class=\"stat-block-2\">0 (at will)-<i>detect magic</i>, <i>ghost sound</i> (DC 13), <i>read magic</i></p><p class=\"stat-block-2\"><b>Opposition Schools</b> necromancy, transmutation</p>"
+    }, 
+    "environment": "temperate forests", 
+    "strength": "8", 
+    "constitution": "12", 
+    "treasure": "NPC gear (blowgun with 20 darts, dagger, other treasure)", 
+    "charisma": "13", 
+    "languages": "Abyssal, Common, Draconic, Goblin, Wayang", 
+    "source": "Bestiary 4", 
+    "init": "+3", 
+    "fortitude": "+1", 
+    "size": "Small", 
+    "type": "creature", 
+    "feats": "Combat Casting, Scribe Scroll", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Light and Dark", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Once per day as an immediate action, a wayang can choose to be affected by positive and negative energy effects as if it were an undead creature, taking damage from positive energy and healing damage from negative energy. This ability lasts for 1 minute.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Originating from the Shadow Plane, wayangs are pixie-like in stature with extremely gangly limbs and skin the color of deep shadow. They follow a philosophy known as \"The Dissolution,\" which teaches that in passing they again merge into shadow.</p>"
+        }, 
+        {
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs are nimble and cagey, but their worldview is strange.</p>", 
+                    "type": "section", 
+                    "name": "+2 Dexterity, +2 Intelligence, \u20132 Wisdom", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs are Small creatures and gain a +1 size bonus to AC, a +1 size bonus on attack rolls, a \u20131 penalty on combat maneuver checks and to CMD, and a +4 size bonus on Stealth checks.</p>", 
+                    "type": "section", 
+                    "name": "Small", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs have a base speed of 20 feet.</p>", 
+                    "type": "section", 
+                    "name": "Slow Speed", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs can see in the dark up to 60 feet.</p>", 
+                    "type": "section", 
+                    "name": "Darkvision", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Light and Dark", 
+                    "sections": [], 
+                    "text": "<p>See stat block above.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs gain a +2 racial bonus on Perception and Stealth checks.</p>", 
+                    "type": "section", 
+                    "name": "Lurker", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs add +1 to the save DC of shadow subschool spells they cast. Wayangs with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day&mdash;<i>ghost sound</i>, <i>pass without trace</i>, <i>ventriloquism</i> (caster level equals the wayang's level, saves are Charisma-based).</p>", 
+                    "type": "section", 
+                    "name": "Shadow Magic", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs get a +2 racial bonus on saves against spells of the shadow subschool.</p>", 
+                    "type": "section", 
+                    "name": "Shadow Resistance", 
+                    "sections": []
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "text": "<p>Wayangs begin play speaking Common and Wayang. Those with high Intelligence scores can choose from the following: any human language, Abyssal, Aklo, Draconic, Goblin, and Infernal.</p>", 
+                    "type": "section", 
+                    "name": "Languages", 
+                    "sections": []
+                }
+            ], 
+            "name": "Wayang", 
+            "subtype": "monster_race", 
+            "text": "<p>Wayangs are defined by class levels&mdash;they don't have racial Hit Dice. Wayangs have the following racial traits.</p>", 
+            "source": "Bestiary 4", 
+            "type": "race"
+        }
+    ], 
+    "senses": "darkvision 60 ft.; Perception +2", 
+    "description": "Spiralling patterns cover this shadowy humanoid's skin, and its black hair trails away in wisps.", 
+    "ranged": "blowgun +4 (1)", 
+    "hp": "8 (1d6+2)", 
+    "wisdom": "8", 
+    "creature_type": "Humanoid", 
+    "special_qualities": "arcane bond (amulet), extended illusions +1 round, light and dark, shadow magic", 
+    "base_attack": "+0", 
+    "name": "Wayang", 
+    "level": "illusionist 1", 
+    "skills": "Craft (alchemy) +7, Knowledge (arcana) +7, Perception +2, Spellcraft +7, Stealth +10", 
+    "reflex": "+3", 
+    "cmd": "11", 
+    "cmb": "\u20132", 
+    "will": "+1; +2 vs. shadow spells", 
+    "organization": "solitary, pair, tribe (3\u201324)", 
+    "creature_subtype": "wayang"
+}

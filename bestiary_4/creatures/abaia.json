@@ -1,0 +1,91 @@
+{
+    "dexterity": "16", 
+    "ac": "25, touch 11, flat-footed 22 (+3 Dex, +14 natural, \u20132 size)", 
+    "special_attacks": "constrict (2d6+12), endless coils", 
+    "intelligence": "17", 
+    "racial_modifiers": "+12 Stealth in water", 
+    "melee": "bite +21 (3d6+8/19\u201320 plus grab), tail slap +15 (2d6+4 plus grab)", 
+    "cr": "10", 
+    "xp": "9,600", 
+    "speed": "20 ft., swim 80 ft.", 
+    "alignment": "N", 
+    "size": "Huge", 
+    "environment": "warm lakes", 
+    "strength": "26", 
+    "constitution": "21", 
+    "space": "15 ft.", 
+    "treasure": "standard (particularly staves and wands)", 
+    "charisma": "17", 
+    "languages": "Aquan, Sylvan; speak with animals", 
+    "source": "Bestiary 4", 
+    "init": "+3", 
+    "fortitude": "+14", 
+    "spells": {
+        "spell-like abilities": "(CL 14th; concentration +17)<p class=\"stat-block-2\">Constant-<i>arcane sight</i>, <i>speak with animals</i></p><p class=\"stat-block-2\">At will-<i>control water</i>, <i>hydraulic torrent</i>, <i>rainbow pattern</i> (DC 17)</p><p class=\"stat-block-2\">1/day-<i>control weather</i></p>"
+    }, 
+    "type": "creature", 
+    "feats": "Critical Focus, Improved Critical (bite), Iron Will, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (bite)", 
+    "senses": "arcane sight, darkvision 60 ft., low-light vision; Perception +19", 
+    "description": "This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Eldritch Gizzard", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "An abaia can activate arcane spell trigger items as if it were a 14th-level sorcerer. It can store items in a special compartment within its stomach and activate them as if it were holding them. It can swallow or regurgitate an item as a standard action.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Endless Coils", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "As a full-round action, an abaia can attempt a single combat maneuver check to grapple up to two Large or four Medium or smaller creatures within its reach. Any targets successfully grabbed take constrict damage. The abaia only needs to succeed at one grapple check to maintain a grapple against multiple opponents.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Wave Rider", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "An abaia moving onto land brings a sheath of water with it, allowing it to swim on land. Its swim speed drops by 10 feet at the start of its turn if it is out of the water, and the sheath dissipates entirely when the abaia's swim speed reaches 20 feet. An abaia wave riding on land retains its spell resistance but loses its bonus to Stealth.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Originally from the primal world of the fey, an abaia protects lakes and their surroundings from exploitation, in particular by magic and overfishing. It favors waters with a mystical nature or supernatural properties. An abaia ignores creatures that take only what they need from the lake and otherwise show proper respect to the waters. Those that abuse an abaia's lake risk capsized boats, floods, torrential rains, and even direct attacks. After sinking a vessel, an abaia searches the wreckage for magical treasure.</p>"
+        }
+    ], 
+    "hp": "147 (14d10+70)", 
+    "reach": "15 ft.", 
+    "wisdom": "14", 
+    "creature_type": "Magical Beast", 
+    "special_qualities": "eldritch gizzard, wave rider", 
+    "base_attack": "+14", 
+    "name": "Abaia", 
+    "skills": "Knowledge (arcana) +17, Knowledge (nature) +17, Perception +19, Spellcraft +17, Stealth +12 (+24 in water), Swim +16", 
+    "reflex": "+12", 
+    "cmd": "37 (can't be tripped)", 
+    "cmb": "+24 (+28 grapple)", 
+    "will": "+8", 
+    "sr": "21 (in water only)", 
+    "organization": "solitary", 
+    "creature_subtype": "aquatic"
+}
