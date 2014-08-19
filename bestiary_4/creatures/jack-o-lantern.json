@@ -1,0 +1,103 @@
+{
+    "dexterity": "7", 
+    "ac": "11, touch 8, flat-footed 11 (\u20132 Dex, +3 natural)", 
+    "special_attacks": "breath weapon (20-ft. cone, 1d10 fire, Reflex DC 12 half, usable every 1d4 rounds), explode, strangling ensnare (DC 14)", 
+    "intelligence": "2", 
+    "resist": "fire 15", 
+    "melee": "bite +3 (1d6+2), slam +3 (1d4+2 plus strangling entangle)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "15 ft.", 
+    "alignment": "NE", 
+    "size": "Medium", 
+    "strength": "15", 
+    "constitution": "12", 
+    "space": "5 ft.", 
+    "treasure": "none", 
+    "charisma": "7", 
+    "environment": "temperate forests, hills, or plains (pumpkin patches)", 
+    "immune": "plant traits", 
+    "init": "\u20132", 
+    "fortitude": "+4", 
+    "reflex": "\u20132", 
+    "feats": "Ability Focus (strangling ensnare)", 
+    "aura": "fear (20 ft., DC 13)", 
+    "senses": "low-light vision, tremorsense 30 ft.; Perception +7", 
+    "description": "A carved pumpkin sits atop a writhing mass of thick ropey vines. Sinister flames dance within its leering, crudely carved face.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Explode", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "One round after a jack-o'-lantern is reduced to 0 or fewer hit points, it explodes in a burst of flaming spores. Creatures within 10 feet of an exploding jack-o'-lantern must succeed at a DC 12 Reflex save or take 2d6 points of fire damage and be stunned for 1 round. A successful save halves the damage and negates the stun. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Fear Aura", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Any creature within 30 feet of a jack-o'-lantern must succeed at a DC 13 Will save or be shaken for 2d6 minutes. If the Will save is successful, the creature is immune to that jack-o'-lantern's fear aura for 24 hours. This is a vision-based mind-affecting fear effect. The save DC is Charisma-based and includes a +4 racial bonus.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Pumpkin Form", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A jack-o'-lantern can shrink in size and douse its sinister fiery radiance, allowing it to blend in almost perfectly with normal pumpkins and take 20 on its Stealth checks to hide in plain sight as a normal pumpkin. While using this ability, a jack-o'-lantern loses its fear aura. A jack-o'-lantern can use this ability as a full-round action and end it as a free action.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Strangling Ensnare", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A jack-o'-lantern's slam attack entangles the target in its vines for 2d4 rounds unless the target succeeds at a DC 14 Reflex save. The target can attempt to burst these entangling vines before the duration expires with a successful DC 12 Strength check as a full-round action. While the target is entangled, its vines also grasp at the target's mouth. The target cannot speak or cast spells with verbal components while it is entangled by the jack-o'-lantern. When a creature is entangled by this ability, the jack-o'-lantern loses its slam attack, but it can end this ability as a free action. The save and the burst DCs are Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Jack-o'-lanterns are semi-intelligent plant creatures spawned by fell magic and driven to burn and consume living flesh. Though they are mobile, jack-o'-lanterns prefer to remain in one spot until their food supplies run out. They typically lair within pumpkin patches, where they lie in wait and use their pumpkin form ability to ambush unsuspecting prey.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Jack-o'-lanterns have been known to grow where the corpse of a powerful evil witch or wicked fey was buried, though this form of reproduction sometimes takes decades. Jack-o'-lanterns can also reproduce on their own. Immediately after killing and devouring an intelligent being, a jack-o'-lantern excretes its victim's remains as a smoldering, paste-like slurry that quickly sinks into the ground. One day later, 1d3 fully mature&mdash;and ravenous&mdash;jack-o'-lanterns emerge from the tainted soil.</p>"
+        }
+    ], 
+    "hp": "11 (2d8+2)", 
+    "reach": "5 ft. (10 ft. with slam)", 
+    "wisdom": "14", 
+    "creature_type": "Plant", 
+    "special_qualities": "pumpkin form", 
+    "base_attack": "+1", 
+    "name": "Jack-o'-Lantern", 
+    "skills": "Perception +7", 
+    "type": "creature", 
+    "cmd": "11 (can't be tripped)", 
+    "cmb": "+3", 
+    "will": "+2", 
+    "source": "Bestiary 4", 
+    "organization": "solitary or patch (2\u201312)"
+}

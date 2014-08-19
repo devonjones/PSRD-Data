@@ -1,0 +1,138 @@
+{
+    "dexterity": "1", 
+    "ac": "7, touch 7, flat-footed 7 (\u20135 Dex, +2 size)", 
+    "special_attacks": "death throes, disease", 
+    "intelligence": "-", 
+    "resist": "acid 10", 
+    "melee": "slam +4 (1d2+1 plus disease)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "10 ft., climb 10 ft., swim 10 ft.", 
+    "alignment": "N", 
+    "size": "Tiny", 
+    "strength": "12", 
+    "constitution": "17", 
+    "space": "2 ft.", 
+    "treasure": "none", 
+    "charisma": "1", 
+    "environment": "any", 
+    "immune": "ooze traits", 
+    "init": "\u20135", 
+    "fortitude": "+3", 
+    "reflex": "\u20135", 
+    "senses": "blindsight 30 ft.; Perception \u20134", 
+    "description": "Like some taut pustule ready to burst, this mobile wound scuttles on a bristle of slick hairs.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Death Throes", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "When killed, a boilborn pops in a 10-foot-radius burst that deals 2d6 points of acid damage (DC 14 Reflex half). Creatures taking damage must succeed at a DC 12 Fortitude save or contract leprosy.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Disease", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Leprosy: Injury; save Fort DC 12; onset 2d4 weeks; frequency 1/week; effect 1d2 Cha damage; cure 2 consecutive saves. This save is Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Purulent wounds that crawl out from piles of diseased dead and areas of massive contagion, these oozes slop about thoughtlessly, quivering and ready to burst and infect anything that moves. The creatures manifest in areas wracked by plagues, where rot and ruin run rampant. Crawling from the afflicted areas, boilborn spread out in all directions to disperse their infection.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Though carefully studied by healers and naturalists focusing on oozes, living boilborn are dangerous to experiment upon. This is because their death throes can sometimes be triggered accidentally, even when the creatures are handled gently and no harm has been done to them. Some posit that boilborn have only a limited lifespan, and self-destruct when that period ends. Others have labored for years under the hope that the infectious fluids contained within boilborn might somehow be used to find both cures and immunities to any number of diseases that plague the world. Though this experimentation has resulted in certain indicators that boilborn might indeed be put to such positive use, a reliable concoction has yet to be developed.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>The boilborn detailed here is by far the most common, but as with diseases, other mutations exist. Use the following to represent some of the other virulent strains of these disgusting creatures.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "name": "Abyssal Boilborn", 
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p> <b>(CR 3)</b>Colored in hues of bruised blue and bloody red and smelling like bile and pus, this dangerous boilborn has squeezed through a rift from the Abyss. It has the fiendish creature simple template and the advanced creature simple template, and infects its victims with demon fever.</p>"
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "name": "Blindborn (CR 1)", 
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Pale greenish gray in color and slightly luminescent, this boilborn transmits blinding sickness (Fortitude DC 14) to creatures affected by its slam attack or death throes ability.</p>"
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "name": "Infernal Boilborn (CR 3)", 
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Accompanied by the smell of brimstone, this black-skinned boilborn has the advanced creature simple template and the fiendish creature simple template, and infects victims it slams or splatters upon with devil chills.</p>"
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "name": "Plagueborn (CR 2)", 
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Sickly yellow and wracked with perpetual palpitations that emit a fine mist, this boilborn has the giant simple template. Any creatures within 5 feet of a plagueborn must succeed at a DC 16 Fortitude save or contract cackle fever.</p>"
+                }
+            ]
+        }
+    ], 
+    "hp": "15 (2d8+6)", 
+    "reach": "0 ft.", 
+    "wisdom": "2", 
+    "creature_type": "Ooze", 
+    "base_attack": "+1", 
+    "name": "Boilborn", 
+    "skills": "Climb +9, Swim +9", 
+    "type": "creature", 
+    "cmd": "5 (can't be tripped)", 
+    "cmb": "\u20136", 
+    "will": "\u20134", 
+    "source": "Bestiary 4", 
+    "organization": "solitary or infestation (2\u201320)"
+}

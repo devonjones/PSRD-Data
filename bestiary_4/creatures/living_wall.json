@@ -1,0 +1,115 @@
+{
+    "dexterity": "3", 
+    "ac": "12, touch 5, flat-footed 12 (\u20134 Dex, +7 natural, \u20131 size)", 
+    "special_attacks": "crushing push, push (slam, 5 ft.)", 
+    "intelligence": "-", 
+    "resist": "acid 5, cold 5, fire 5", 
+    "melee": "2 slams +6 (1d8+4 plus grab)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "10 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "18", 
+    "constitution": "-", 
+    "space": "10 ft.", 
+    "treasure": "incidental", 
+    "charisma": "1", 
+    "environment": "any ruins or underground", 
+    "immune": "construct traits", 
+    "init": "\u20134", 
+    "fortitude": "+1", 
+    "reflex": "\u20133", 
+    "feats": "Improved Bull RushB", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+    "description": "This gruesome wall is made stacked corpses mortared together into an unyielding mass of grasping limbs, topped with a dragon skull.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Crushing Push", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A living wall adjacent to a creature that is also adjacent to a barrier (such as a dungeon wall, gate, or another living wall) can spend a standard action to crush that creature against the barrier, dealing 1d8+6 points of damage. If the living wall is grappling the target, as part of this attack it can attempt a free combat maneuver check to pin the target.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Fleshy Link", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A living wall that is adjacent to another living wall automatically links with it, forming an impassible solid barrier. Linked living walls coordinate their attacks and move as one creature. Any linked wall can unlink itself as a free action. Any damage to one linked living wall is divided evenly among all linked living walls (for example, if three walls are linked and one takes 15 points of damage, each wall instead takes 5 points of damage). Two or three linked living walls count as a Huge creature for the purpose of effects affected or limited by size (such as bull rush), four or five count as Gargantuan, and six or more count as Colossal.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A living wall is a construct built out of the bodies of many creatures and mortared together with liquefied flesh. Like a gelatinous cube, it fills an entire 10-foot square, allowing it to completely block a hallway. Several living walls placed next to one another can obstruct an entire room. Its normal method of attack is to creep into range to make slam attacks, then push opponents against other walls and crush them to death. Living walls follow basic orders and are normally used to block access to certain parts of their creator's lair&mdash;to get through a living wall, it must be killed and hacked apart to create a space other creatures can pass through. Living walls can be ordered to stack themselves on top of each other to reach higher ceilings, but this requires a ramp to allow one to climb onto the other.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A living wall rises 8 to 10 feet high and weighs 4,000 pounds. The appearance of each one varies wildly depending on the creatures used to make up its constituent parts.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "text": "<p>The pieces of a living wall must come from normal humanoid corpses that have not decayed significantly. The wall must also include at least one skull of a Large or larger creature (not necessarily a humanoid). Assembly requires at least 20 different full bodies. Special flesh-dissolving acids worth 500 gp are also required to cement the pieces together. Note that creating a living wall requires casting a spell with the evil descriptor.</p>", 
+            "type": "section", 
+            "name": "Construction", 
+            "sections": [
+                {
+                    "name": "Living Wall", 
+                    "cl": "12th", 
+                    "sections": [], 
+                    "price": "18,500 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft (leather) or Heal DC 13"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "9,500 gp"
+                        }
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "item"
+                }
+            ]
+        }
+    ], 
+    "hp": "46 (3d10+30); fast healing 1", 
+    "reach": "5 ft.", 
+    "wisdom": "11", 
+    "creature_type": "Construct", 
+    "special_qualities": "fleshy link", 
+    "dr": "5/slashing", 
+    "base_attack": "+3", 
+    "name": "Living Wall", 
+    "type": "creature", 
+    "cmd": "14 (16 vs. bull rush)", 
+    "cmb": "+8 (+10 bull rush, +12 grapple)", 
+    "will": "+1", 
+    "source": "Bestiary 4", 
+    "organization": "solitary or pack (2\u20138)"
+}

@@ -1,0 +1,78 @@
+{
+    "dexterity": "19", 
+    "ac": "31, touch 15, flat-footed 26 (+4 Dex, +1 dodge, +16 natural)", 
+    "cmd": "40", 
+    "intelligence": "11", 
+    "melee": "<p class=\"stat-block-2\"><b>Special Attack</b> chains of the dead</p>", 
+    "type": "creature", 
+    "cr": "16", 
+    "xp": "76,800", 
+    "speed": "30 ft.", 
+    "alignment": "spiked", 
+    "size": "chain", 
+    "environment": "any", 
+    "strength": "24", 
+    "constitution": "-", 
+    "source": "Bestiary 4", 
+    "treasure": "standard", 
+    "charisma": "21", 
+    "languages": "Common", 
+    "immune": "cold, undead traits", 
+    "init": "+8", 
+    "fortitude": "+13", 
+    "reflex": "+12", 
+    "feats": "Bleeding Critical, Combat Reflexes, Critical Focus, Dodge, Improved Critical (spiked chain), Improved Initiative, Improved Vital Strike, Lunge, Power Attack, Step Up, Vital Strike, Weapon Focus (spiked chain)", 
+    "senses": "darkvision 60 ft.; Perception +3", 
+    "description": "This skeletal horror staggers under the weight of the massive hook and chain impaling the bones of its midsection.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Aura of Whispers", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A gallowdead constantly whispers vile secrets and blasphemous chants. Any creature within 30 feet of a gallowdead must succeed at a DC 27 Will save or be shaken for 1d4 rounds. Already shaken creatures that fail this saving throw become nauseated by the secrets revealed. Each round, an affected creature can make a new Will save to recover from the effect&mdash;once a creature recovers from a gallowdead's whispers, it is immune to this ability for 24 hours. Each overlapping whisper aura from additional gallowdead increases the save DC by 2. This is a language-based sonic effect. The save DC is Charisma-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Chains of the Dead", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "When a gallowdead uses its spiked chain, the first attack that hits a foe during the gallowdead's turn deals an extra 12d6 points of negative energy damage (Will DC 27 half). This has no effect on undead creatures. In addition, the gallowdead can make a free combat maneuver check against its target with a +4 racial bonus. If the check succeeds, the target becomes grappled, but the gallowdead doesn't gain the grappled condition. The gallowdead can make a free combat maneuver check each round to maintain its grip on the victim, but can't take any special grapple actions against the victim except the move special action. When grappling a victim in this way, the gallowdead can't attack with its spiked chain. The save DC is Charisma-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Some tyrants execute criminals, traitors, or those who dare insurrection on the end of hooked and spiked chains. Leaving the criminal to painfully hang and rot sends a message to those who would dare commit the same crimes. Sometimes such savage deaths have a strange and terrible consequence: the victim rises, grabs the instrument of its execution, and becomes a servant of those who condemned it.</p>"
+        }
+    ], 
+    "hp": "228 (24d8+120)", 
+    "reach": "5 ft. (10 ft. with spiked chain)", 
+    "wisdom": "16", 
+    "defensive_abilities": "channel resistance +6", 
+    "creature_type": "+26/+21/+16/+11", 
+    "dr": "10/bludgeoning", 
+    "base_attack": "+18", 
+    "name": "Gallowdead", 
+    "skills": "Climb +34, Escape Artist +28, Intimidate +32, Swim +31", 
+    "creature_subtype": "2d4+10/19\u201320 plus chains of the dead or2 claws +25 2d8+7", 
+    "space": "5 ft.", 
+    "cmb": "+25", 
+    "will": "+17", 
+    "aura": "whispers (30 ft., DC 27)", 
+    "organization": "solitary, pair, or plague (3\u201318)"
+}

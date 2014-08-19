@@ -1,0 +1,130 @@
+{
+    "dexterity": "16", 
+    "ac": "20, touch 5, flat-footed 17 (+3 Dex, +15 natural, \u20138 size)", 
+    "cmd": "48", 
+    "special_attacks": "burn (1d6 fire, DC 17), wicker cage", 
+    "intelligence": "-", 
+    "melee": "2 slams +19 (2d8+13 plus burn and grab)", 
+    "cr": "13", 
+    "xp": "25,600", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "size": "Colossal", 
+    "strength": "37", 
+    "constitution": "-", 
+    "source": "Bestiary 4", 
+    "treasure": "none", 
+    "charisma": "7", 
+    "environment": "any land", 
+    "immune": "construct traits, fire", 
+    "init": "+3", 
+    "fortitude": "+4", 
+    "type": "creature", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Burning Brand", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Once per round, a wickerman can draw forth pieces of its own body and throw them as a ranged attack with a range increment of 60 feet.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Constant Blaze", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A wickerman constantly burns but is never consumed. Its flames are magical. Immersion in water only suppresses the flames, and only for as long as the wickerman is immersed. While its flames are suppressed, the wickerman loses its burn ability, and its wicker cage ability doesn't deal fire damage or cause creatures to catch on fire.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Fire Healing", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A magical attack that deals fire damage heals the wickerman 1 point of damage for every 3 points of damage the attack would otherwise deal.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Wicker Cage", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "If a wickerman successfully grapples a creature, as a move action it can shove the grabbed creature into the cage built into its chest. This works like swallow whole (4d6 fire damage plus the target automatically catches on fire, AC 17, 15 hp). The DC to put out this fire is 17. If a creature cuts its way free, the wickerman can't use this ability again until it is fully healed. The save DC is Constitution-based.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A wickerman is a towering wicker statue with a cage in its chest. Inanimate ones are used for sacrifices to gods or nature faiths, and the constructs to terrify a faith's enemies.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "text": "<p>A wickerman is created from 12,000 pounds of wicker and rare wood costing 10,000 gp. Activating the wickerman requires sacrificing a living humanoid inside its chest cage. Sacrificing a creature is an evil act.</p>", 
+            "type": "section", 
+            "name": "Construction", 
+            "sections": [
+                {
+                    "name": "Wickerman", 
+                    "cl": "14th", 
+                    "sections": [], 
+                    "price": "110,000 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, fire seeds, wall of fire, warp wood, creator must be caster level 12th"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft (carpentry) or Craft (sculptures) DC 15"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "60,000 gp"
+                        }
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "item"
+                }
+            ]
+        }
+    ], 
+    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+    "description": "This humanoid-shaped colossus is a towering fury of burning wicker and wood.", 
+    "ranged": "burning brand +9 (4d6+13 plus burn)", 
+    "hp": "157 (14d10+80); fast healing 1", 
+    "weaknesses": "vulnerable to cold", 
+    "reach": "30 ft.", 
+    "wisdom": "10", 
+    "defensive_abilities": "fire healing, hardness 5", 
+    "creature_type": "Construct", 
+    "special_qualities": "constant blaze", 
+    "base_attack": "+14", 
+    "name": "Wickerman", 
+    "reflex": "+7", 
+    "space": "30 ft.", 
+    "cmb": "+35 (+39 grapple)", 
+    "will": "+4", 
+    "organization": "solitary", 
+    "creature_subtype": "fire"
+}

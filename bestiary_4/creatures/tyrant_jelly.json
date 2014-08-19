@@ -1,0 +1,107 @@
+{
+    "dexterity": "1", 
+    "ac": "23, touch 4, flat-footed 23 (\u20135 Dex, +29 natural, \u20131 size)", 
+    "special_attacks": "constrict (6d6+4 plus 1d6 acid plus grab and poison), mythic power (3/day, surge +1d6), poison", 
+    "intelligence": "5", 
+    "melee": "slam +12 (6d6+6 plus 1d6 acid plus grab and poison)", 
+    "cr": "9", 
+    "xp": "6,400", 
+    "speed": "20 ft., climb 10 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "18", 
+    "constitution": "22", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "charisma": "13", 
+    "environment": "any underground", 
+    "immune": "electricity, ooze traits, piercing damage, slashing damage", 
+    "init": "+2M", 
+    "fortitude": "+11", 
+    "spells": {
+        "spell-like abilities": "(CL 10th; concentration +11)<p class=\"stat-block-2\">3/day-<i>charm monster</i> (vermin only), <i>giant vermin</i>, <i>hold monster</i> (vermin only), <i>dominate monster</i> (vermin only)</p>"
+    }, 
+    "type": "creature", 
+    "feats": "Great Fortitude, Improved InitiativeM, Iron Will, Step Up, Weapon FocusM (slam)", 
+    "senses": "blindsight 60 ft.; Perception +11", 
+    "description": "This amber-colored ooze contains the preserved larva of a giant insect, almost like a monstrous brain.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Control Vermin", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A tyrant jelly's spell-like abilities work on mindless vermin that have exoskeletons (bees, centipedes, crabs, flies, wasps, and so on), but not soft-bodied creatures such as leeches, slugs, or worms.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Create Spawn", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Slashing weapons, piercing weapons, and electricity attacks deal no damage to a tyrant jelly. Instead, part of the creature splits off into an ochre jelly. This new jelly has 30 hit points and fast healing 5; the tyrant jelly loses 30 hit points when it splits off. The new jelly is under the control of the tyrant jelly. A tyrant jelly with 30 hit points or fewer can't split again, and dies if reduced to 0 hit points. A tyrant jelly can reabsorb an adjacent spawn as a full-round action, destroying the spawn and adding the spawn's current hit points to its own.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Poison", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Slam&mdash;injury; save Fort DC 21; frequency 1/round for 4 rounds; effect 1d4 Con; cure 2 consecutive saves.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Vermin Empathy", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A tyrant jelly can improve the attitude of vermin as a druid can with animals. Vermin have a starting attitude of unfriendly.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>When an ochre jelly infiltrates a colony of giant bees or wasps and consumes a queen egg, a strange reaction sometimes occurs between the jelly's fluids and the egg, resulting in a tyrant jelly&mdash;an intelligent ooze using an immature insect as a primitive brain. The tyrant jelly has unusual powers over vermin, and quickly takes control of the colony, sending its drones to gather food to sate its unnatural hunger. Other vermin are attracted to the scent of these creatures, and then fall under the tyrant's sway&mdash;a colony often has giant bees, centipedes, spiders, and wasps working together.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>A tyrant jelly's primary interests are food and survival. Magic or telepathy might allow a creature to bargain with it, exchanging food for its cooperation. Some insect cults hunt tyrant jellies, believing their strange substance has properties similar to a giant bee's royal jelly (<i>Pathfinder RPG</i> <i>Bestiary 2</i> 43) or can increase the intelligence of other vermin.</p>"
+        }
+    ], 
+    "hp": "129 (10d8+84); fast healing 5", 
+    "reach": "5 ft.", 
+    "wisdom": "12", 
+    "creature_type": "Ooze", 
+    "special_qualities": "compression, control vermin, create spawn, vermin empathy", 
+    "dr": "5/epic", 
+    "base_attack": "+7", 
+    "name": "Tyrant Jelly", 
+    "skills": "Climb +12, Perception +11", 
+    "reflex": "\u20132", 
+    "cmd": "17 (can't be tripped)", 
+    "cmb": "+12 (+16 grapple)", 
+    "will": "+6", 
+    "source": "Bestiary 4", 
+    "mr": "3", 
+    "organization": "solitary or nest (1 plus 7\u201319 giant wasps)", 
+    "creature_subtype": "mythic"
+}

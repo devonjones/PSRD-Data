@@ -1,0 +1,240 @@
+{
+    "source": "Bestiary 4", 
+    "text": "<p class=\"flavor-text\">Lurking rays are a whole family of creatures that infest the dark corners of the world, feeding on the weak and unwary. The infant form, known as the executioner's hood, is an unnerving but relatively mild threat for experienced adventurers, while its parents, the male lurker above and female trapper, are far more dangerous. All three types of lurking rays are ambush hunters with similar tactics, wrapping themselves thoroughly around their victims and choking the life from their prey before feeding.</p><p class=\"flavor-text\">Though somewhat similar in appearance to stingrays or manta rays, lurking rays in fact represent their own unique branch of subterranean evolution&mdash;or arcane experimentation. Executioner's hoods are roughly a foot long and weigh 5 pounds, whereas adult lurkers above and trappers can grow to be 15 feet wide, with males weighing 500 pounds and females up to four times that.</p>", 
+    "type": "section", 
+    "name": "Lurking Ray", 
+    "sections": [
+        {
+            "dexterity": "12", 
+            "ac": "16, touch 13, flat-footed 15 (+1 Dex, +3 natural, +2 size)", 
+            "special_attacks": "constrict (1d4), engulfing drop, strangle", 
+            "intelligence": "3", 
+            "melee": "slam +3 (1d4 plus grab)", 
+            "cr": "2", 
+            "xp": "600", 
+            "speed": "10 ft., climb 5 ft.", 
+            "alignment": "N", 
+            "size": "Tiny", 
+            "strength": "10", 
+            "constitution": "12", 
+            "space": "2-1/2 ft.", 
+            "treasure": "standard", 
+            "charisma": "9", 
+            "environment": "any underground", 
+            "immune": "sleep effects", 
+            "init": "+1", 
+            "fortitude": "+1", 
+            "reflex": "+1", 
+            "feats": "Skill Focus (Perception)", 
+            "senses": "blindsense 10 ft., darkvision 60 ft., scent; Perception +8", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Engulfing Drop", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "Though it is a Tiny monster, the hood can drop onto the head of a Medium or smaller creature and make a slam attack as a standard action. If the hood's attack succeeds, it can immediately attempt a grapple check against the target, and if successful, the executioner's hood can constrict.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Strangle", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "A grappling executioner's hood entirely covers its opponent's head with an airtight grip. A creature that is grappled by the hood cannot speak or cast spells with verbal components and must hold its breath (see Suffocation, Pathfinder RPG Core Rulebook 445), unless it doesn't speak or breathe through its head. Any attacks against the hood deal half damage to the hood and the other half to the creature that it's strangling.", 
+                            "sections": []
+                        }, 
+                        {
+                            "name": "Susceptible to Alcohol", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "Strong alcohol harms the hood. Every quart poured on it deals 1 point of damage. Four quarts of alcohol incapacitates it and forces it to release a grappled target.", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 4"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>These young rays are shaped roughly like hoods (hence their name), and drag themselves awkwardly about with their thin tentacles. Once an executioner's hood finds a suitable hunting ground, usually a cavern or dungeon room, it hauls itself up to a high perch and hangs there, disguising itself as an irregular stone formation or a strange bit of masonry on a dungeon wall. When suitable prey walks beneath it, the young lurking ray drops, attempting to engulf the creature's head and suffocate it, after which the ray can slowly dissolve the meat at its leisure.</p>"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Executioner's hoods are hatched from eggs laid by trappers. They stay with the mother for a month, then leave to hunt for themselves.</p>"
+                }
+            ], 
+            "hp": "11 (2d8+2)", 
+            "weaknesses": "light sensitivity, susceptible to alcohol", 
+            "reach": "0 ft.", 
+            "wisdom": "13", 
+            "defensive_abilities": "amorphous", 
+            "creature_type": "Aberration", 
+            "base_attack": "+1", 
+            "name": "Executioner's Hood", 
+            "skills": "Climb +8, Perception +8, Stealth +13", 
+            "type": "creature", 
+            "cmd": "10 (can't be tripped)", 
+            "cmb": "+0 (+4 grapple)", 
+            "will": "+4", 
+            "source": "Bestiary 4", 
+            "organization": "solitary"
+        }, 
+        {
+            "dexterity": "12", 
+            "ac": "19, touch 9, flat-footed 18 (+1 Dex, +10 natural, \u20132 size)", 
+            "special_attacks": "constrict (3d6+15), smother", 
+            "intelligence": "2", 
+            "racial_modifiers": "+4 Stealth (+12 in rocky areas)", 
+            "resist": "cold 10, fire 10", 
+            "melee": "slam +15 (3d6+15 plus grab)", 
+            "cr": "7", 
+            "xp": "3,200", 
+            "speed": "10 ft., climb 5 ft., fly 40 ft. (poor)", 
+            "alignment": "N", 
+            "size": "Huge", 
+            "strength": "30", 
+            "constitution": "19", 
+            "space": "15 ft.", 
+            "treasure": "standard", 
+            "charisma": "9", 
+            "environment": "any underground", 
+            "source": "Bestiary 4", 
+            "init": "+5", 
+            "fortitude": "+7", 
+            "reflex": "+4", 
+            "feats": "Blind-Fight, Combat Reflexes, Improved Initiative, Skill Focus (Perception), Skill Focus (Stealth)", 
+            "senses": "blindsense 10 ft., darkvision 60 ft., scent; Perception +5", 
+            "sections": [
+                {
+                    "subtype": "special_abilities", 
+                    "sections": [
+                        {
+                            "name": "Smother", 
+                            "type": "ability", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Bestiary 4", 
+                            "text": "When a lurker above grapples a target, it forms an airtight seal around its prey. A grappled target cannot speak or cast spells with verbal components, and must hold its breath (see Suffocation).", 
+                            "sections": []
+                        }
+                    ], 
+                    "type": "section", 
+                    "name": "Special Abilities", 
+                    "source": "Bestiary 4"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Lurkers above are the nearly mindless males of the species, and follow much the same tactics as executioner's hoods, save that they gain the ability to stretch themselves wide, glide with both speed and silence, and can even fly by awkwardly flapping their flesh. They typically hide on cavern ceilings, shifting their coloration and texture to match the surrounding terrain.</p>"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Like all lurking rays, lurkers above are carnivorous, preferring the tang of living flesh&mdash;though they can subsist for a time on the minerals they absorb from rocky surfaces through their tentacles. Males are less able to subsist on minerals, however, and hence hunt more actively. While lurkers above are poor fliers, they're excellent gliders, able drop off a ceiling and silently float more than 100 feet horizontally over the course of a 5- or 6-foot drop.</p>"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Lurkers above can grow to be 15 feet from tip to tip, and weigh nearly 500 pounds when fully fed.</p>"
+                }
+            ], 
+            "hp": "85 (10d8+40)", 
+            "weaknesses": "light sensitivity", 
+            "reach": "10 ft.", 
+            "wisdom": "15", 
+            "defensive_abilities": "amorphous", 
+            "creature_type": "Aberration", 
+            "dr": "10/piercing or slashing", 
+            "base_attack": "+7", 
+            "name": "Lurker Above", 
+            "skills": "Climb +18, Fly +1, Perception +5, Stealth +8 (+16 in rocky areas)", 
+            "type": "creature", 
+            "cmd": "30 (can't be tripped)", 
+            "cmb": "+19 (+23 grapple)", 
+            "will": "+9", 
+            "organization": "solitary"
+        }, 
+        {
+            "dexterity": "12", 
+            "ac": "21, touch 9, flat-footed 20 (+1 Dex, +12 natural, \u20132 size)", 
+            "special_attacks": "constrict (3d6+15), smother (see lurker above)", 
+            "intelligence": "14", 
+            "racial_modifiers": "+4 Stealth (+12 in rocky areas)", 
+            "resist": "cold 10, fire 10", 
+            "melee": "slam +17 (3d6+15 plus grab)", 
+            "cr": "8", 
+            "xp": "4,800", 
+            "speed": "10 ft., climb 5 ft.", 
+            "alignment": "N", 
+            "size": "Huge", 
+            "environment": "any underground", 
+            "strength": "30", 
+            "constitution": "19", 
+            "space": "15 ft.", 
+            "treasure": "standard", 
+            "charisma": "13", 
+            "languages": "Aklo, Common, Undercommon", 
+            "source": "Bestiary 4", 
+            "init": "+5", 
+            "fortitude": "+10", 
+            "reflex": "+5", 
+            "feats": "Blind-Fight, Combat Reflexes, Great Fortitude, Improved Initiative, Skill Focus (Perception), Skill Focus (Stealth), Toughness", 
+            "senses": "blindsense 10 ft., darkvision 60 ft., scent; Perception +25", 
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Female lurking rays, known as trappers, are the masterminds of their race. Too large to fly (and often gravid with wriggling young), the intelligent trappers scrape themselves out depressions in the floor of regularly traveled chambers and then lie in them, changing their coloration and texture perfectly to blend with the rest of the floor, and sometimes even creating protrusions in the shape of items they know to be valuable to their prey creatures. When a lulled individual steps onto the trapper's surface, the ray twists itself up around it, smothering and beating its victim senseless before drawing it into its maw for slow digestion.</p>"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Though quite intelligent even by human standards, trappers devote almost all of their mental faculties to perfectly remembering every sensory detail about their surroundings in order to make their chameleon-like disguises all the more cunning and difficult for their prey to resist.</p>"
+                }, 
+                {
+                    "source": "Bestiary 4", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>Trappers can grow to be 15 feet from tip to tip, and weigh nearly 2,000 pounds when fully fed.</p>"
+                }
+            ], 
+            "hp": "123 (13d8+65)", 
+            "weaknesses": "light sensitivity", 
+            "reach": "10 ft.", 
+            "wisdom": "17", 
+            "defensive_abilities": "amorphous", 
+            "creature_type": "Aberration", 
+            "dr": "10/piercing or slashing", 
+            "base_attack": "+9", 
+            "name": "Trapper", 
+            "skills": "Climb +18, Knowledge (dungeoneering) +15, Perception +25, Sense Motive +16, Sleight of Hand +14, Stealth +19 (+27 in rocky areas), Survival +15", 
+            "type": "creature", 
+            "cmd": "32 (can't be tripped)", 
+            "cmb": "+21 (+25 grapple)", 
+            "will": "+11", 
+            "organization": "solitary or batch (1 plus 20\u201330 executioner's hoods)"
+        }
+    ]
+}

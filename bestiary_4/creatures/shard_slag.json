@@ -1,0 +1,107 @@
+{
+    "dexterity": "6", 
+    "ac": "20, touch 6, flat-footed 20 (\u20132 Dex, +14 natural, \u20132 size)", 
+    "cmd": "25 (can't be tripped)", 
+    "special_attacks": "excruciating burn (DC 16), molten form, slag blades", 
+    "intelligence": "-", 
+    "melee": "1d4+2 slag blades +13 (1d8+6/19\u201320 plus 2d6 fire)", 
+    "cr": "8", 
+    "xp": "4,800", 
+    "speed": "30 ft., burrow 20 ft.", 
+    "alignment": "N", 
+    "size": "Huge", 
+    "strength": "22", 
+    "constitution": "23", 
+    "source": "Bestiary 4", 
+    "treasure": "none", 
+    "charisma": "1", 
+    "environment": "any volcanoes or underground", 
+    "immune": "acid, electricity, fire, ooze traits", 
+    "init": "\u20132", 
+    "fortitude": "+10", 
+    "type": "creature", 
+    "senses": "blindsight 60 ft., tremorsense 60 ft.; Perception \u20135", 
+    "description": "This smoldering mass of metal-encrusted goo sports half a dozen pseudopods, each tipped with a burning-hot sword blade.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Burrow", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A shard slag can burrow through solid stone at half its normal burrow speed.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Excruciating Burn", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A living creature that takes fire damage from a shard slag must succeed at a DC 16 Fortitude save or be staggered for 1 round. This is a fire effect. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Molten Form", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A shard slag's molten metal body is hot enough to melt stone. Creatures that begin their turn within 5 feet of a shard slag take 1d6 points of fire damage. Anyone striking a shard slag with a natural weapon or unarmed strike takes 2d6 points of fire damage. A creature that grapples a shard slag or is grappled by one takes 3d6 points of fire damage each round the grapple persists. A creature that strikes a shard slag with a weapon can attempt a DC 22 Reflex save; if it fails, it's unable to pull the weapon away from the shard slag's molten body quickly enough, and the weapon takes 2d6 points of fire damage. Unattended objects in contact with a shard slag take 2d6 points of fire damage per round. Damage caused to weapons and unattended objects is not halved, and ignores the first 5 points of hardness. The save DC is Constitution-based.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Slag Blades", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "Each round, a shard slag manipulates its molten metal form to create 1d4+2 blade-like protrusions it can extend to attack prey. The slag blades each strike as Medium longswords that deal an additional 2d6 points of fire damage. Additionally, the slag blades are natural weapons, so a shard slag can use them to attack creatures it grapples. Due to a shard slag's constantly roiling molten body, the slag blades melt away at the end of the shard slag's turn each round to be immediately replaced by 1d4+2 new slag blades.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Vulnerable to Water", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "If a significant amount of water&mdash;such as the contents of a large bucket, the liquid created by a create water spell, or a blow from a water elemental&mdash;strikes a shard slag, the creature must succeed at a DC 20 Fortitude save or be staggered for 1d6 rounds. A shard slag that is immersed in water is automatically staggered and must succeed at a DC 20 Fortitude save each round (this DC increases by 1 each subsequent round) or be petrified, reverting to its molten metal form once the water is gone.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Shard slags are living mounds of magic-infused iron. They dwell within the iron-rich molten cores of worlds, the hearts of active volcanoes, or any location where the borders of the Material Plane and the Plane of Fire are thin. Though they're not sentient, shard slags are skilled hunters and have developed a bizarre method of hunting and defending themselves. When a creature is near, a shard slag spontaneously alters its molten body to produce a number of razor-sharp blades. The shard slag then mindlessly attacks until the other creature is stabbed, burned, and then consumed.</p>"
+        }
+    ], 
+    "hp": "126 (12d8+72)", 
+    "weaknesses": "vulnerable to cold and water", 
+    "reach": "15 ft.", 
+    "wisdom": "1", 
+    "creature_type": "Ooze", 
+    "special_qualities": "no breath", 
+    "dr": "5/magic", 
+    "base_attack": "+9", 
+    "name": "Shard Slag", 
+    "reflex": "+2", 
+    "space": "15 ft.", 
+    "cmb": "+17", 
+    "will": "\u20131", 
+    "aura": "molten form (5 ft., 1d6 fire damage)", 
+    "organization": "solitary", 
+    "creature_subtype": "fire"
+}

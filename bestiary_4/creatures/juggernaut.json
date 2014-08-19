@@ -1,0 +1,470 @@
+{
+    "dexterity": "11", 
+    "ac": "26, touch 6, flat-footed 26 (+20 natural, \u20134 size)", 
+    "special_attacks": "soul-powered, vicious trample (8d6+38 plus wounding, DC 30)", 
+    "intelligence": "-", 
+    "melee": "slam +24 (4d6+19 plus wounding)", 
+    "type": "creature", 
+    "cr": "11", 
+    "xp": "12,800", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "size": "Gargantuan", 
+    "strength": "36", 
+    "constitution": "-", 
+    "space": "20 ft.", 
+    "treasure": "none", 
+    "charisma": "1", 
+    "environment": "any", 
+    "immune": "construct traits", 
+    "init": "+0", 
+    "fortitude": "+5", 
+    "spells": {
+        "spell-like abilities": "(CL 15th; concentration +10)<p class=\"stat-block-2\">3/day-<i>enervation</i></p>"
+    }, 
+    "reflex": "+5", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +4", 
+    "description": "This oppressive construct rumbles forth on deadly rollers, crushing everything in its path.", 
+    "sections": [
+        {
+            "subtype": "special_abilities", 
+            "sections": [
+                {
+                    "name": "Faith-Bound", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A juggernaut cannot attack any creature that openly wears or displays the holy symbol or unholy symbol of the deity to which the juggernaut is dedicated unless that creature first attacks the juggernaut.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Shrine", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A juggernaut counts as a movable shrine for the deity or religion it is dedicated to.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Soul-Powered", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "When a juggernaut kills a creature with at least 5 Hit Dice and an alignment two or more steps away from the juggernaut's alignment, it gains a kill point. Add its current total kill points as a bonus on its attack rolls, combat maneuver checks, caster level checks, and skill checks. Add half its current total kill points as a bonus to its natural armor and spell resistance. The juggernaut loses 1 kill point every 24 hours.", 
+                    "sections": []
+                }, 
+                {
+                    "name": "Vicious Trample", 
+                    "type": "ability", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "text": "A juggernaut's massive rollers deal 8d6+38 points of damage on a successful trample attack.", 
+                    "sections": []
+                }
+            ], 
+            "type": "section", 
+            "name": "Special Abilities", 
+            "source": "Bestiary 4"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "sections": [], 
+            "type": "section", 
+            "text": "<p>Juggernauts protect locations dedicated to a particular faith, their massive forms infused with divine energy that animates them and infuses them with their deity's power. Some faiths use a juggernaut as a mobile shrine, anointing it with sacred materials and offering prayers to the divine.</p>"
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "text": "<p>A juggernaut gain special abilities from two domains granted by the deity to which the juggernaut is dedicated. If an ability requires a saving throw, the save DC is Wisdom-based (DC 19 for most juggernauts). The caster level is equal to the juggernaut's Hit Dice (CL 15th for most juggernauts).</p><p>The sample juggernaut is keyed to the domains of Death and War&mdash;a juggernaut dedicated to some other deity has abilities based on that deity's domains.</p>", 
+            "type": "section", 
+            "name": "Keyed Domains", 
+            "sections": [
+                {
+                    "name": "Air", 
+                    "sections": [], 
+                    "text": "<p><i>Whirlwind </i>&mdash;The juggernaut can cast <i>whirlwind</i> once per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Animal", 
+                    "sections": [], 
+                    "text": "<p><i>Friendly Pack </i>&mdash;The juggernaut can cast <i>summon nature's ally IV</i> (animals only) three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Artifice", 
+                    "sections": [], 
+                    "text": "<p><i>Repair </i>&mdash;The juggernaut's fast healing increases to 10.</p>", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Chaos", 
+                    "sections": [], 
+                    "text": "<p><i>Chaotic Attacks </i>&mdash;The juggernaut's slam and vicious trample attacks are treated as chaotic-aligned. Its vicious trample deals an additional 2d6 points of damage to lawful targets.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Charm", 
+                    "sections": [], 
+                    "text": "<p><i>Friendship </i>&mdash;The juggernaut can cast <i>charm monster</i> three times per day. A charmed creature follows the juggernaut and attacks what it attacks.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Community", 
+                    "sections": [], 
+                    "text": "<p><i>Powerful Allies </i>&mdash;All creatures within 60 feet of the juggernaut that share the juggernaut's alignment gain a +1 sacred bonus on attack rolls and to AC, and a +2 sacred bonus on saving throws (these are profane bonuses if the juggernaut is evil).</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Darkness", 
+                    "sections": [], 
+                    "text": "<p><i>Deeper Darkness </i>&mdash;The juggernaut can cast <i>deeper darkness</i> three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Death", 
+                    "sections": [], 
+                    "text": "<p><i>Lifesapper </i>&mdash;The juggernaut can cast <i>enervation</i> three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Destruction", 
+                    "sections": [], 
+                    "text": "<p><i>Destructive Aura </i>&mdash;The juggernaut can emit a 30-foot aura of destruction for 10 rounds per day. All attacks made against targets in the aura (including the juggernaut) gain a +2 morale bonus on damage rolls and all critical threats are automatically confirmed.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Earth", 
+                    "sections": [], 
+                    "text": "<p><i>Tremorsense </i>&mdash;The juggernaut gains tremorsense 60 feet.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Evil", 
+                    "sections": [], 
+                    "text": "<p><i>Evil Attacks </i>&mdash;The juggernaut's slam and vicious trample attacks are treated as evil-aligned. Its vicious trample deals an additional 2d6 points of damage to good targets.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Fire", 
+                    "sections": [], 
+                    "text": "<p><i>Flaming Burst </i>&mdash;The juggernaut's slam attack gains the <i>flaming burst</i> weapon special ability. Its vicious trample attack deals an additional 1d6 points of fire damage.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Glory", 
+                    "sections": [], 
+                    "text": "<p><i>Grandeur </i>&mdash;The juggernaut inspires all allies within 30 feet, granting them a +2 morale bonus on attack rolls, saving throws, and skill checks.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Good", 
+                    "sections": [], 
+                    "text": "<p><i>Good Attacks </i>&mdash;The juggernaut's slam and vicious trample attacks are treated as good-aligned. Its vicious trample deals an additional 2d6 points of damage to evil targets.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Healing", 
+                    "sections": [], 
+                    "text": "<p><i>Resurgence </i>&mdash;Five times per day, the juggernaut can remove the dazed, fatigued, shaken, sickened, or staggered condition from an ally within 30 feet.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Knowledge", 
+                    "sections": [], 
+                    "text": "<p><i>Absorb Thoughts </i>&mdash;When the juggernaut confirms a critical hit with its slam, the target must succeed at a Will save or take 1d8 points of Intelligence damage.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Law", 
+                    "sections": [], 
+                    "text": "<p><i>Lawful Attacks </i>&mdash;The juggernaut's slam and vicious trample are treated as lawful-aligned. Its vicious trample deals an additional 2d6 points of damage to chaotic targets.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Liberation", 
+                    "sections": [], 
+                    "text": "<p><i>Broken Bonds </i>&mdash;10 times per day a standard action, the juggernaut can affect one its allies within 20 feet with <i>freedom of movement</i> for 1 round.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Luck", 
+                    "sections": [], 
+                    "text": "<p><i>Lucky </i>&mdash;Twice per day, the juggernaut may reroll any d20 roll that it has just made before the results of the roll are revealed. The juggernaut must take the result of the reroll, even if it's worse than the original roll.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Madness", 
+                    "sections": [], 
+                    "text": "<p><i>Confusion&gt;</i>&mdash;The juggernaut can cast <i>confusion</i> three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Magic", 
+                    "sections": [], 
+                    "text": "<p><i>Resistant </i>&mdash;The juggernaut's SR increases by 5.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Nobility", 
+                    "sections": [], 
+                    "text": "<p><i>Inspirational </i>&mdash;The juggernaut can cast <i>good</i> <i>hope</i> three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Plant", 
+                    "sections": [], 
+                    "text": "<p><i>Hedge </i>&mdash;The juggernaut can cast <i>wall of thorns</i> three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Protection", 
+                    "sections": [], 
+                    "text": "<p><i>Guardian </i>&mdash;The juggernaut and all allies within 30 feet gain a +2 bonus on all saving throws and a +2 deflection bonus to AC.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Repose", 
+                    "sections": [], 
+                    "text": "<p><i>Rest Eternal </i>&mdash;Damage dealt by the juggernaut resists magical healing. Attempting to use such healing to cure this damage requires a successful caster level check against a DC = 11 + the juggernaut's caster level. This ability does not affect natural healing or healing provided by extraordinary abilities.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Rune", 
+                    "sections": [], 
+                    "text": "<p><i>Rune-Carved </i>&mdash;Runes cover the juggernaut. Whenever the juggernaut takes energy damage or energy damage fails to overcome its SR, for the next round, its attacks deal 2d6 points of damage of that energy type. If more than one type of energy attack occurs in a round, roll randomly to determine what kind of extra energy damage it deals.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Strength", 
+                    "sections": [], 
+                    "text": "<p><i>Vigorous </i>&mdash;The juggernaut can cast <i>mass bull's strength</i> once per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Sun", 
+                    "sections": [], 
+                    "text": "<p><i>Sunstrike </i>&mdash;The juggernaut can cast <i>daylight</i> and <i>searing</i> <i>light</i> three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Travel", 
+                    "sections": [], 
+                    "text": "<p><i>Unstoppable </i>&mdash;The juggernaut ignores penalties for difficult terrain. Its movement increases by 10 feet.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Trickery", 
+                    "sections": [], 
+                    "text": "<p><i>Doubles </i>&mdash;The juggernaut can cast <i>mirror image</i> three times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "War", 
+                    "sections": [], 
+                    "text": "<p><i>Bloody </i>&mdash;The juggernaut's slam and vicious trample attacks have the <i>wounding</i> weapon special ability.</p>", 
+                    "ability_types": [
+                        "Supernatural"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Water", 
+                    "sections": [], 
+                    "text": "<p><i>Surge </i>&mdash;The juggernaut can cast <i>hydraulic torrent</i> (<i>Pathfinder RPG Advanced Player's Guide</i> 229) five times per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Weather", 
+                    "sections": [], 
+                    "text": "<p><i>Weathermaker </i>&mdash;The juggernaut can cast <i>control weather</i> once per day.</p>", 
+                    "ability_types": [
+                        "Spell-Like"
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }
+            ]
+        }, 
+        {
+            "source": "Bestiary 4", 
+            "text": "<p>A juggernaut's body must be created from 20,000 gp worth of clay, crystal, metal, stone, wood, or bone.</p>", 
+            "type": "section", 
+            "name": "Construction", 
+            "sections": [
+                {
+                    "name": "Juggernaut", 
+                    "cl": "13th", 
+                    "sections": [], 
+                    "price": "140,000 gp", 
+                    "misc": [
+                        {
+                            "field": "Requirements", 
+                            "subsection": "Construction", 
+                            "value": "Craft Construct, greater magic weapon, imbue with spell ability, make whole, stone shape, creator must be caster level 10th"
+                        }, 
+                        {
+                            "field": "Skill", 
+                            "subsection": "Construction", 
+                            "value": "Craft (carpentry, sculptures, or stonemasonry)"
+                        }, 
+                        {
+                            "field": "Cost", 
+                            "subsection": "Construction", 
+                            "value": "80,000 gp"
+                        }
+                    ], 
+                    "source": "Bestiary 4", 
+                    "type": "item"
+                }
+            ]
+        }
+    ], 
+    "hp": "142 (15d10+60); fast healing 5", 
+    "weaknesses": "faith-bound", 
+    "reach": "5 ft.", 
+    "wisdom": "18", 
+    "creature_type": "Construct", 
+    "special_qualities": "keyed domains (Death, War), shrine", 
+    "dr": "10/adamantine", 
+    "base_attack": "+15", 
+    "name": "Juggernaut", 
+    "sr": "22", 
+    "cmd": "42 (can't be tripped)", 
+    "cmb": "+32", 
+    "will": "+9", 
+    "source": "Bestiary 4", 
+    "organization": "solitary"
+}
