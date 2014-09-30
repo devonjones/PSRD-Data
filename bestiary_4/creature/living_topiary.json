@@ -1,0 +1,135 @@
+{
+    "dexterity": "14", 
+    "ac": "16, touch 12, flat-footed 14 (+2 Dex, +4 natural)", 
+    "intelligence": "6", 
+    "racial_modifiers": "+8 Escape Artist, +2 Stealth (+8 in undergrowth)", 
+    "melee": "2 slams +6 (1d6+4)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "languages": "Common, Sylvan (can't speak any language)", 
+    "strength": "17", 
+    "constitution": "19", 
+    "immune": "plant traits", 
+    "treasure": "none", 
+    "init": "+6", 
+    "environment": "any land", 
+    "source": "Bestiary 4", 
+    "charisma": "9", 
+    "fortitude": "+10", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 5th; concentration +4)Constant-pass without trace3/day-hedge stride"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Great Fortitude, Improved Initiative, Power Attack", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +6", 
+    "description": "This lumbering topiary has the rough shape of an elephant, complete with brambly limbs and tusks.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 4", 
+            "url": "pfsrd://Bestiary 4/Monsters/Living Topiary/Special Abilities", 
+            "sections": [
+                {
+                    "body": "As a full-round action, a living topiary can consume undergrowth or bushy plant matter it's currently touching and incorporate that material into its form. It can do this at a rate of 5 cubic feet per round, healing 1d8 points of damage each time. If the topiary is at maximum hit points, this ability has no effect.", 
+                    "name": "Assimilate", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Living Topiary/Special Abilities/Assimilate", 
+                    "ability_types": {
+                        "ability_type_id": 427, 
+                        "section_id": 1287, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1287, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "This ability functions as tree stride, but rather than allowing for teleportation from tree to tree, it permits the living topiary to teleport from one area of brush or hedges to another area of similar vegetation within 1,500 feet.", 
+                    "name": "Hedge Stride", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Living Topiary/Special Abilities/Hedge Stride", 
+                    "ability_types": {
+                        "ability_type_id": 428, 
+                        "section_id": 1288, 
+                        "ability_type": "Spell-Like"
+                    }, 
+                    "section_id": 1288, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A living topiary may move through any mass of brambles or other dense plant growth without penalty. It must begin and end its turn outside of the mass.", 
+                    "name": "Move through Hedges", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Living Topiary/Special Abilities/Move through Hedges", 
+                    "ability_types": {
+                        "ability_type_id": 429, 
+                        "section_id": 1289, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1289, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "As a standard action, a living topiary can alter itself to take on the basic form of any creature. The change is purely cosmetic, and does not change its size, grant it any special powers, or alter its abilities.", 
+                    "name": "Sculpt Shape", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Living Topiary/Special Abilities/Sculpt Shape", 
+                    "ability_types": {
+                        "ability_type_id": 430, 
+                        "section_id": 1290, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1290, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1286, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Part plant and part beast, living topiaries are moving flora that look like decorative lawn ornaments used to adorn gardens and groves, though their bestial nature and aloof demeanor prove they are far from mere decorations.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1291
+        }, 
+        {
+            "body": "<p>Some theorize that the living topiaries originally came from the primal land of fey, where odd phenomena such as animal-shaped flora are not unheard of. Living topiaries wander the lands to fulfill their single purpose: searching for more plants to consume, which enables them to grow ever larger.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1292
+        }, 
+        {
+            "body": "<p>Though somewhat delicate, living topiaries can thrive for decades by constantly refreshing their bodies with new plant matter. Though living topiaries will not willingly go to such places on their own, sometimes one accidentally finds itself in an area void of adequate additional shrubbery or water, like a vast plain or desert. In such situations, an individual deprived of nutrients quickly dries out and shrivels over the course of several days.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1293
+        }, 
+        {
+            "body": "<p>Living topiaries range in height from shrubs only a couple feet off the ground to towering hedges. The average specimen is about 4 feet tall and weighs 200 pounds.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1294
+        }
+    ], 
+    "hp": "42 (5d8+20)", 
+    "weaknesses": "vulnerable to fire", 
+    "section_id": 1285, 
+    "wisdom": "10", 
+    "creature_type": "Plant", 
+    "special_qualities": "assimilate, move through hedges, sculpt shape", 
+    "dr": "5/slashing", 
+    "name": "Living Topiary", 
+    "base_attack": "+3", 
+    "skills": "Escape Artist +10, Perception +6, Stealth +9 (+15 in undergrowth)", 
+    "reflex": "+3", 
+    "cmd": "18 (22 vs. trip)", 
+    "cmb": "+6", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary 4/Monsters/Living Topiary", 
+    "organization": "solitary, garden (2\u20134), or boscage (5\u20137)"
+}

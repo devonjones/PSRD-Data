@@ -1,0 +1,100 @@
+{
+    "dexterity": "14", 
+    "ac": "23, touch 20, flat-footed 21 (+2 Dex, +3 natural, +8 size)", 
+    "special_attacks": "blood drain (1d4 Con), cling, distraction (DC 21)", 
+    "intelligence": "-", 
+    "racial_modifiers": "uses Dex on Climb checks", 
+    "melee": "swarm (4d6 plus disease, distraction, and blood drain)", 
+    "cr": "9", 
+    "xp": "6,400", 
+    "speed": "30 ft., climb 30 ft.", 
+    "alignment": "N", 
+    "size": "Fine", 
+    "strength": "1", 
+    "constitution": "16", 
+    "immune": "mind-affecting effects, weapon damage", 
+    "treasure": "none", 
+    "init": "+2", 
+    "environment": "temperate forests", 
+    "source": "Bestiary 2", 
+    "charisma": "1", 
+    "fortitude": "+13", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., scent; Perception +0", 
+    "description": "The rasping legs of this hideous, shining carpet of fist-sized ticks rattle ominously as the swarm skitters forward. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities", 
+            "sections": [
+                {
+                    "body": "If a creature leaves a tick swarm's square, the swarm takes 1d6 points of damage to reflect the loss of its numbers as several ticks cling to the victim. A creature with ticks clinging to it takes swarm damage at the end of its turn each round. As a full round action, the creature can remove the ticks with a DC 20 Reflex save. At least 10 points of damage from any area effect destroys all clinging ticks. The save DC is Dexterity-based.", 
+                    "name": "Cling", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities/Cling", 
+                    "ability_types": {
+                        "ability_type_id": 498, 
+                        "section_id": 2009, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2009, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 499, 
+                        "section_id": 2010, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2010, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Bubonic Plague", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities/Disease/Bubonic Plague", 
+                            "contracted": "injury", 
+                            "section_id": 2011, 
+                            "effect": "1d3 Constitution damage, 1d3 Charisma damage, fatigue", 
+                            "onset": "1 days", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 21", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2008, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Tick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks. </p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 2012
+        }
+    ], 
+    "hp": "120 (16d8+48)", 
+    "section_id": 2007, 
+    "wisdom": "11", 
+    "defensive_abilities": "swarm traits", 
+    "creature_type": "Vermin", 
+    "name": "Swarm, Tick", 
+    "base_attack": "+12", 
+    "skills": "Climb +10", 
+    "reflex": "+7", 
+    "cmd": "&mdash", 
+    "cmb": "&shy;-", 
+    "will": "+5", 
+    "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick", 
+    "organization": "solitary, pair, or colony (3-6)", 
+    "creature_subtype": "swarm"
+}

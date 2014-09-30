@@ -1,0 +1,126 @@
+{
+    "dexterity": "12", 
+    "ac": "24, touch 10, flat-footed 23 (+1 Dex, +14 natural, \u20131 size)", 
+    "special_attacks": "breath weapon (50-ft. line, 6d6 fire damage, Reflex DC 20 half, usable every 1d4 rounds), poison, quill barrage", 
+    "intelligence": "6", 
+    "melee": "bite +18 (2d6+8), 2 claws +18 (1d6+8), tail slap +13 (3d6+4 plus poison)", 
+    "cr": "10", 
+    "xp": "9,600", 
+    "speed": "30 ft., swim 30 ft.", 
+    "alignment": "NE", 
+    "size": "Large", 
+    "languages": "Draconic", 
+    "strength": "27", 
+    "constitution": "21", 
+    "space": "10 ft.", 
+    "treasure": "double", 
+    "init": "+5", 
+    "environment": "temperate marshes or plains", 
+    "source": "Bestiary 4", 
+    "charisma": "12", 
+    "immune": "fire, paralysis, sleep", 
+    "fortitude": "+14", 
+    "type": "creature", 
+    "feats": "Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Initiative, Iron Will, Power Attack", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +16", 
+    "description": "This long-necked dragon has steamy breath, a lashing tail, and a back covered in hundreds of quills.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 4", 
+            "url": "pfsrd://Bestiary 4/Monsters/Peluda/Special Abilities", 
+            "sections": [
+                {
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Poison", 
+                    "section_id": 1540
+                }, 
+                {
+                    "body": "Quill&mdash;injury; save Fort DC 20; frequency 1/round for 6 rounds; effect 1d4 Con damage; cure 2 consecutive saves. The save DC is Constitution-based.", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Peluda/Special Abilities/", 
+                    "section_id": 1541, 
+                    "ability_types": {
+                        "ability_type_id": 498, 
+                        "section_id": 1541, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Three times per day, a peluda can fire dozens of spearlike barbs in all directions. All creatures within 15 feet take 6d6 points of piercing damage (Reflex DC 20 half) and are subject to its poison quills. The save DC is Constitution-based.", 
+                    "name": "Quill Barrage", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Peluda/Special Abilities/Quill Barrage", 
+                    "ability_types": {
+                        "ability_type_id": 499, 
+                        "section_id": 1542, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1542, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A peluda's back and tail are covered in sharp black quills. A creature that strikes a peluda with a melee weapon, an unarmed attack, or a natural weapon takes 1d6 points of piercing damage from the peluda's quills and risks being poisoned. Weapons with reach do not endanger an attacker in this way. Any creature that grapples a peluda takes 3d6 points of piercing damage and risks being poisoned on its turn each round.", 
+                    "name": "Quills", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Peluda/Special Abilities/Quills", 
+                    "ability_types": {
+                        "ability_type_id": 500, 
+                        "section_id": 1543, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1543, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A peluda is vulnerable to attacks against its tail. Any attack that is not an attempt to sever the peluda's tail (including area attacks or attacks that cause piercing or bludgeoning damage) affects its body. To sever the tail, an opponent must target the tail and attempt a sunder combat maneuver with a slashing weapon. The tail is considered a separate weapon with hardness 5 and hit points equal to the peluda's HD. The opponent must deal enough damage on a single blow to reduce the tail's hit points to 0 or fewer. If the tail is severed, the peluda can no longer attack with it and takes 2d6 points of bleed damage each round.", 
+                    "name": "Vulnerable Tail", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Peluda/Special Abilities/Vulnerable Tail", 
+                    "ability_types": {
+                        "ability_type_id": 501, 
+                        "section_id": 1544, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1544, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1539, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Peludas loathe all weak, fragile creatures smaller than themselves, especially humanoids. Some hunt in nearby farmlands before returning to their own lairs. Some are worshipped as gods by lizardfolk or other swamp creatures, though a peluda's short temper means it may eat its devotees if affronted.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1545
+        }, 
+        {
+            "body": "<p>A typical peluda is 15 feet long and weighs 300 pounds.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1546
+        }
+    ], 
+    "hp": "126 (11d12+55)", 
+    "weaknesses": "vulnerable tail", 
+    "reach": "10 ft.", 
+    "section_id": 1538, 
+    "wisdom": "15", 
+    "defensive_abilities": "ferocity, quills", 
+    "creature_type": "Dragon", 
+    "dr": "5/magic", 
+    "name": "Peluda", 
+    "base_attack": "+11", 
+    "skills": "Climb +12, Intimidate +15, Perception +16, Stealth +10, Swim +30", 
+    "reflex": "+8", 
+    "cmd": "31 (33 vs. bull rush, 35 vs. trip)", 
+    "cmb": "+20 (+22 bull rush)", 
+    "will": "+11", 
+    "url": "pfsrd://Bestiary 4/Monsters/Peluda", 
+    "sr": "21", 
+    "organization": "solitary or pair"
+}

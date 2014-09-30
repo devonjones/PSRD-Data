@@ -1,0 +1,106 @@
+{
+    "dexterity": "9", 
+    "ac": "29, touch 8, flat-footed 29 (+8 armor, -1 Dex, +13 natural, -1 size)", 
+    "special_attacks": "fire vortex, lava weapons, precision, mythic power (5/day, surge +1d8), rock throwing (120 ft.)", 
+    "intelligence": "10", 
+    "melee": "greatsword +22/+17/+12 (3d6+16/19-20 plus 4d6 fire) or 2 slams +21 (1d6+11 plus 4d6 fire)", 
+    "url": "pfsrd://Mythic Adventures/Monsters/Giant/Fire/Mythic", 
+    "cr": "12", 
+    "xp": "19,200", 
+    "speed": "30 ft. (40 ft. base)", 
+    "alignment": "LE", 
+    "size": "Large", 
+    "languages": "Common, Giant", 
+    "strength": "33", 
+    "constitution": "23", 
+    "space": "10 ft.", 
+    "treasure": "standard (half-plate, greatsword, other treasure)", 
+    "init": "-1", 
+    "environment": "warm mountains", 
+    "source": "Mythic Adventures", 
+    "charisma": "10", 
+    "immune": "fire", 
+    "fortitude": "+15", 
+    "type": "creature", 
+    "feats": "CleaveM, Great Cleave, Improved Overrun, Improved Sunder, Iron WillM, Martial Weapon Proficiency (greatsword), Power AttackM, Weapon Focus (greatsword)", 
+    "senses": "low-light vision; Perception +14", 
+    "description": "This giant's hair, beard, and skin are made of lava, and its armor and weapon glow with a dull heat. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures", 
+            "url": "pfsrd://Mythic Adventures/Monsters/Giant/Fire/Mythic/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Any creature that starts its turn in the giant's aura is nauseated for 1 round (Fortitude DC 23 negates). The ash provides the giant with 50% concealment against ranged attacks. Strong wind or fire-quenching magic disperse it for 1d4 rounds. The save DC is Constitution-based.", 
+                    "name": "Choking Ash", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Giant/Fire/Mythic/Special Abilities/Choking Ash", 
+                    "ability_types": {
+                        "ability_type_id": 76, 
+                        "section_id": 1071, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1071, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A mythic fire giant can expend one use of mythic power to create a vortex of fire within 30 feet. The vortex is 5 feet wide at its base, 15 feet wide at the top, and 30 feet tall. Any creature starting its turn adjacent to the vortex takes 6d6 points of fire damage, and any creature passing through it takes 15d6 fire damage. A successful DC 23 Reflex saving throw halves this damage. The fire giant can move the vortex up to 20 feet as a move action. If the vortex moves through a creature, that creature must succeed at a saving throw against the vortex to avoid taking damage. The vortex lasts for 5 rounds. The save DC is Constitution-based.", 
+                    "name": "Fire Vortex", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Giant/Fire/Mythic/Special Abilities/Fire Vortex", 
+                    "ability_types": {
+                        "ability_type_id": 77, 
+                        "section_id": 1072, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1072, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "All melee and ranged attacks made by the fire giant deal an additional 4d6 points of fire damage. This ability replaces the heated rock ability of non-mythic fire giants.", 
+                    "name": "Lava Weapons", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Giant/Fire/Mythic/Special Abilities/Lava Weapons", 
+                    "ability_types": {
+                        "ability_type_id": 78, 
+                        "section_id": 1073, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1073, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1070, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>A mythic fire giant burns like the heart of a volcano. Wielding weapons of flame and ash, it brands enemies with its fury and strength.</p>", 
+            "source": "Mythic Adventures", 
+            "type": "section", 
+            "section_id": 1074
+        }
+    ], 
+    "hp": "197 (15d8+130)", 
+    "weaknesses": "vulnerable to cold", 
+    "reach": "10 ft.", 
+    "section_id": 1069, 
+    "wisdom": "14", 
+    "defensive_abilities": "backlash, rock catching", 
+    "creature_type": "Humanoid", 
+    "dr": "10/epic", 
+    "ranged": "rock +10 (1d8+16 plus 4d6 fire)", 
+    "name": "Giant, Fire, Mythic", 
+    "base_attack": "+11", 
+    "skills": "Climb +15, Craft (any one) +8, Intimidate +11, Perception +14", 
+    "reflex": "+4", 
+    "cmd": "34 (36 vs. overrun or sunder)", 
+    "cmb": "+23 (+25 overrun or sunder)", 
+    "will": "+9", 
+    "subtype": "mythic", 
+    "aura": "choking ash (10 ft., DC 23)", 
+    "mr": "5", 
+    "organization": "solitary, gang (2-5), band (6-12 plus 35% noncombatants and 1 adept or cleric of 1st-2nd level), raiding party (6-12 plus 1 adept or sorcerer of 3rd-5th level, 2-5 hell hounds, and 2-3 trolls or ettins), or tribe (20-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1 fighter or ranger of 8th-9th level as king; and 17-38 hell hounds, 12-22 trolls, 7-12 ettins, and 1-2 young red dragons)", 
+    "creature_subtype": "fire, giant, mythic"
+}

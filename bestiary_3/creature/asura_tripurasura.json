@@ -1,0 +1,132 @@
+{
+    "dexterity": "14", 
+    "ac": "16, touch 16, flat-footed 13 (+2 Dex, +1 dodge, +1 insight, +2 size)", 
+    "intelligence": "13", 
+    "racial_modifiers": "-4 Acrobatics when jumping, +6 Escape Artist, +4 Perception", 
+    "resist": "acid 10, electricity 10", 
+    "melee": "sting +8 (1d4-1 plus poison)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "20 ft.", 
+    "alignment": "LE", 
+    "size": "Tiny", 
+    "languages": "Common, Infernal", 
+    "strength": "8", 
+    "constitution": "12", 
+    "immune": "curse effects, disease, poison", 
+    "treasure": "standard", 
+    "init": "+2", 
+    "environment": "any (Hell)", 
+    "source": "Bestiary 3", 
+    "charisma": "13", 
+    "fortitude": "+4", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 6th; concentration +7)<p class=\"stat-block-2\">Constant-<i>detect magic</i></p><p class=\"stat-block-2\">At will-<i>feather fall</i></p><p class=\"stat-block-2\">3/day-<i>levitate, locate object, spider climb</i></p><p class=\"stat-block-2\">1/week-<i>commune</i> (6 questions, CL 12th)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Dodge, Weapon Finesse", 
+    "senses": "darkvision 60 ft., detect magic; Perception +10", 
+    "description": "This tiny monstrosity has the body of a well-muscled man, a crown of frilled horns, and eyes that glow like rubies.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Asura/Tripurasura/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The tripurasura has only one alternative form&mdash;when it uses change shape, it always appears as the same Small humanoid. Most take the form of gnomes or human children.", 
+                    "name": "Change Shape", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Tripurasura/Special Abilities/Change Shape", 
+                    "ability_types": {
+                        "ability_type_id": 48, 
+                        "section_id": 163, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 163, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The tripurasura and items it carries are considered to be under the effects of a nondetection spell. A caster must succeed at a DC 14 caster level check to overcome this effect.", 
+                    "name": "Elusive", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Tripurasura/Special Abilities/Elusive", 
+                    "ability_types": {
+                        "ability_type_id": 49, 
+                        "section_id": 164, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 164, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Tongue:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Tripurasura/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 50, 
+                        "section_id": 165, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 165, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Tripurasura Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Asura/Tripurasura/Special Abilities/Poison/Tripurasura Venom", 
+                            "contracted": "injury", 
+                            "section_id": 166, 
+                            "effect": "1d2 Wisdom damage", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 12", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 162, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Tripurasuras, or sly ones, are among the weakest asuras, manifestations not of divine mistakes but instead creations of the most powerful of asuras exhibiting their loathing of the gods by creating blasphemous mockeries of their creations. A newly created tripurasura most commonly exists for one of two reasons: to give an asurendra sage the raw materials it needs to create more powerful asuras, or to seek out mortals&mdash;especially mortal spellcasters&mdash;to recruit into the asura cause.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 167
+        }, 
+        {
+            "body": "<p>Using its power to assume a pleasing or innocuous form, a tripurasura wanders the world, seeking pious mortals to corrupt. When it encounters a promising spellcaster (typically one who has some sort of link to a church or religion, but not necessarily a divine spellcaster), the tripurasura presents itself as an apprentice, pilgrim, or other type of curious student eager to learn from the spellcaster. The tripurasura keeps its true nature and its powers hidden, and seeks opportunities to steer its &ldquo;master&rdquo; away from decisions it might have made in good conscience to acts that promote the collapse of religious belief, faith, and society. When, as it inevitably does, the wayward spellcaster runs afoul of justice or is confronted by those seeking revenge, the tripurasura fades away to watch the final stage of the spellcaster's fall from grace, then seeks a new victim in another city or region.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 168
+        }, 
+        {
+            "body": "<p>Some spellcasters, on the other hand, actually seek out these tiny fiends to employ as familiars. A tripurasura greatly values these opportunities, since it need not abandon its master once its work is done and can continue to spread its agenda for as long as its master survives. A spellcaster must be lawful evil, at least 7th level, and have the Improved Familiar feat to gain a tripurasura as a familiar.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 169
+        }
+    ], 
+    "hp": "19 (3d10+3); fast healing 2", 
+    "section_id": 161, 
+    "wisdom": "15", 
+    "creature_type": "Outsider", 
+    "special_qualities": "change shape (any Small humanoid; alter self), elusive", 
+    "dr": "5/cold iron or good", 
+    "name": "Asura, Tripurasura", 
+    "base_attack": "+3", 
+    "skills": "Acrobatics +8 (+4 when jumping), Appraise +4, Bluff +7, Escape Artist +8, Knowledge (arcana) +4, Knowledge (planes) +7, Perception +10, Perform (dance) +5, Spellcraft +4, Stealth +14", 
+    "reflex": "+3", 
+    "cmd": "13", 
+    "cmb": "+3", 
+    "will": "+5, +2 vs. enchantments", 
+    "url": "pfsrd://Bestiary 3/Monsters/Asura/Tripurasura", 
+    "organization": "solitary, pair, or gang (3-10)", 
+    "creature_subtype": "asura, evil, extraplanar, lawful"
+}

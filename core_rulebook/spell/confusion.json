@@ -1,0 +1,81 @@
+{
+    "level_text": "Bard: 3; Sorcerer: 4; Witch: 4; Wizard: 4", 
+    "duration": "1 round/level", 
+    "source": "Core Rulebook", 
+    "component_text": "V, S, M/DF (three nutshells)", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "body": "<p>This spell causes confusion in the targets<i></i>, making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round.</p>", 
+    "description": "Subjects behave oddly for 1 round/level.", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "section_id": 96, 
+    "levels": [
+        {
+            "class": "Bard", 
+            "level": 3
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 4
+        }, 
+        {
+            "class": "Witch", 
+            "level": 4
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 4
+        }
+    ], 
+    "descriptor_text": "mind-affecting", 
+    "effects": [
+        {
+            "text": "all creatures in a 15-ft.-radius burst", 
+            "name": "Targets"
+        }
+    ], 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
+    "name": "Confusion", 
+    "url": "pfsrd://Core Rulebook/Spells/Confusion", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>d%</th><th>Behavior</th></tr></thead><tr class=\"odd\"><td>01&ndash;25</td><td>Act normally</td></tr><tr class=\"even\"><td>26&ndash;50</td><td>Do nothing but babble incoherently</td></tr><tr class=\"odd\"><td>51&ndash;75</td><td>Deal 1d8 points of damage + Str modifier to self with item in hand</td></tr><tr class=\"even\"><td>76&ndash;100</td><td>Attack nearest creature (for this purpose, a familiar counts as part of the subject's self)</td></tr></table>", 
+            "name": "d%", 
+            "url": "pfsrd://Core Rulebook/Spells/Confusion/d%", 
+            "section_id": 97, 
+            "source": "Core Rulebook", 
+            "type": "table"
+        }, 
+        {
+            "body": "<p>A confused character who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes. Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "section_id": 98
+        }
+    ], 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "three nutshells", 
+            "type": "M"
+        }, 
+        {
+            "text": "three nutshells", 
+            "type": "DF"
+        }
+    ]
+}

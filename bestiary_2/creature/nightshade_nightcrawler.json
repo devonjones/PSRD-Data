@@ -1,0 +1,123 @@
+{
+    "dexterity": "10", 
+    "ac": "33, touch 6, flat-footed 33 (+27 natural, -4 size)", 
+    "special_attacks": "channel negative energy (9d6, DC 31, 9/day), energy drain (1 level, DC 28), swallow whole (4d10+22 bludgeoning plus energy drain, AC 23, 31 hp)", 
+    "intelligence": "20", 
+    "racial_modifiers": "+8 Stealth in dim light and darkness", 
+    "melee": "bite +32 (4d10+18/19-20 plus 4d6 cold and grab), sting +32 (4d6+18/19-20 plus 4d6 cold and poison)", 
+    "cr": "18", 
+    "xp": "153,600", 
+    "speed": "30 ft., burrow 60 ft.", 
+    "alignment": "CE", 
+    "size": "Gargantuan", 
+    "languages": "Abyssal, Common, Infernal; telepathy 100 ft.", 
+    "strength": "41", 
+    "constitution": "-", 
+    "space": "20 ft.", 
+    "treasure": "standard", 
+    "init": "+4", 
+    "environment": "any (Negative Energy Plane)", 
+    "source": "Bestiary 2", 
+    "charisma": "23", 
+    "immune": "cold, undead traits", 
+    "fortitude": "+16", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 18th; concentration +24)<p class=\"stat-block-2\">Constant-<i>air walk</i>, <i>detect magic</i>, <i>magic fang</i></p><p class=\"stat-block-2\">At will-<i>contagion</i> (DC 20), <i>deeper darkness</i>, <i>greater dispel magic</i>, <i>invisibility</i>, <i>unholy blight</i> (DC 20)</p><p class=\"stat-block-2\">3/day-quickened <i>cone of cold</i> (DC 21), <i>confusion</i> (DC 20), <i>haste</i>, <i>hold monster</i> (DC 21)</p><p class=\"stat-block-2\">1/day-<i>finger of death</i> (DC 23), <i>mass hold monster</i> (DC 25), <i>plane shift</i> (DC 23), summon (level 8, 6 greater shadows)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Combat Expertise, Command Undead, Critical Focus, Greater Vital Strike, Improved Critical (bite), Improved Critical (sting), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Quicken Spell-Like Ability (cone of cold), Staggering Critical, Vital Strike", 
+    "senses": "darksense, darkvision 120 ft., detect magic, low-light vision, tremorsense 120 ft.; Perception +33", 
+    "description": "This immense worm is covered with plates of dead-black, chitinous armor. Its toothy maw yawns like a cave.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A creature that has been swallowed whole by a nightcrawler gains 1 negative level each round.", 
+                    "name": "Energy Drain", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities/Energy Drain", 
+                    "ability_types": {
+                        "ability_type_id": 357, 
+                        "section_id": 1465, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1465, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Charisma-based. Sting:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 358, 
+                        "section_id": 1466, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1466, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Nightshade Venom", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities/Poison/Nightshade Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1467, 
+                            "effect": "1d4 Constitution drain and 1 negative level", 
+                            "subtype": "poison", 
+                            "cure": "3 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 28", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1464, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Although the nightcrawler might appear to be little more than an immense and frightening vermin, with its centipede-like body and numerous glowing eyes, it is actually incredibly intelligent. When not cleansing the deep caverns of life, the nightcrawler spends its time plotting how best to carry out its own private stages of the overall nightshade plan to expunge life from all worlds, conferring with its undead minions and, when necessary, observing living creatures from afar while invisible to learn about hidden enclaves that its depredations might otherwise have missed.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1468
+        }, 
+        {
+            "body": "<p>It would be one thing if the nightcrawlers remained in the deep caverns, for these regions are rife with foul life the world is better off without. Yet unfortunately for those who dwell upon the surface, nightcrawlers often crawl up through the tunnels to bring their devastation to the night above. Although they always retreat underground before the first tentative rays of dawn color the eastern skies, they can spread an incredible amount of ruin in the span of a few short hours each night.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1469
+        }, 
+        {
+            "body": "<p>A nightcrawler is 60 feet long and weighs 10,000 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1470
+        }
+    ], 
+    "hp": "312 (25d8+200)", 
+    "weaknesses": "light aversion", 
+    "reach": "20 ft.", 
+    "section_id": 1463, 
+    "wisdom": "21", 
+    "creature_type": "Undead", 
+    "dr": "15/good and silver", 
+    "name": "Nightshade, Nightcrawler", 
+    "base_attack": "+18", 
+    "skills": "Intimidate +34, Knowledge (arcana) +33, Knowledge (planes) +30, Knowledge (religion) +33, Perception +33, Sense Motive +33, Spellcraft +33, Stealth +16 (+24 in darkness), Swim +40", 
+    "reflex": "+10", 
+    "cmd": "47 (can't be tripped)", 
+    "cmb": "+37 (+41 grapple)", 
+    "will": "+23", 
+    "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler", 
+    "aura": "desecrating aura (30 ft.)", 
+    "sr": "29", 
+    "organization": "solitary or pair", 
+    "creature_subtype": "extraplanar, nightshade"
+}

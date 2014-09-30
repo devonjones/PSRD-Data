@@ -1,0 +1,143 @@
+{
+    "dexterity": "17", 
+    "ac": "23, touch 11, flat-footed 20 (+6 armor, +3 Dex, +6 natural, -2 size)", 
+    "special_attacks": "dual wielder, infused weapons, swallow whole (2d6+12 acid damage, AC 13, 16 hp)", 
+    "intelligence": "11", 
+    "racial_modifiers": "+6 Escape Artist, +4 Perception", 
+    "resist": "acid 10, electricity 10", 
+    "melee": "2 mwk scimitars +26 (2d6+12/15-20 plus poison), bite +19 (2d8+6 plus grab and poison)", 
+    "cr": "11", 
+    "xp": "12,800", 
+    "speed": "35 ft., swim 20 ft.", 
+    "alignment": "LE", 
+    "size": "Huge", 
+    "languages": "Common, Infernal; telepathy 100 ft.", 
+    "strength": "34", 
+    "constitution": "23", 
+    "space": "15 ft.", 
+    "treasure": "standard (masterwork breastplate, 2 masterwork scimitars, other treasure)", 
+    "init": "+3", 
+    "environment": "any (Hell)", 
+    "source": "Bestiary 3", 
+    "charisma": "18", 
+    "immune": "curse effects, disease, poison", 
+    "fortitude": "+15", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 11th; concentration +15)<p class=\"stat-block-2\">At will-<i>greater teleport</i> (self plus 50 lbs. of objects only)</p><p class=\"stat-block-2\">3/day-<i>deeper darkness</i></p><p class=\"stat-block-2\">1/day-<i>cloudkill</i> (DC 19), summon (level 4, 1d4+1 adhukaits, 45%, or 1 aghasura, 20%)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Cleave, Critical Focus, Great Cleave, Improved Critical (scimitar), Lightning Reflexes, Power Attack, Weapon Focus (scimitar)", 
+    "senses": "darkvision 60 ft., scent; Perception +19", 
+    "description": "This immense creature looks like a horned rattlesnake, save for its two muscular arms, each of which wields a scimitar.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Asura/Aghasura/Special Abilities", 
+            "sections": [
+                {
+                    "body": "An aghasura exudes a 50-foot aura whenever it remains motionless for at least 1 round. All nonevil creatures that enter this area must make a DC 21 Will save to avoid being compelled to move toward the aghasura's location. If the aghasura moves, the effect ends for all currently affected creatures. This is a mind-affecting compulsion. The save DC is Charisma-based.", 
+                    "name": "Attraction Aura", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Aghasura/Special Abilities/Attraction Aura", 
+                    "ability_types": {
+                        "ability_type_id": 40, 
+                        "section_id": 139, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 139, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "An aghasura does not take a penalty on attack or damage rolls when attacking with two weapons.", 
+                    "name": "Dual Wielder", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Aghasura/Special Abilities/Dual Wielder", 
+                    "ability_types": {
+                        "ability_type_id": 41, 
+                        "section_id": 140, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 140, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Weapons an aghasura wields are considered to be magic for the purposes of overcoming damage reduction. In addition, such weapons gain the ability to deliver the aghasura's poison on a successful attack.", 
+                    "name": "Infused Weapons", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Aghasura/Special Abilities/Infused Weapons", 
+                    "ability_types": {
+                        "ability_type_id": 42, 
+                        "section_id": 141, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 141, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Bite or weapon:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Aghasura/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 43, 
+                        "section_id": 142, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 142, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Aghasura Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Asura/Aghasura/Special Abilities/Poison/Aghasura Venom", 
+                            "contracted": "injury", 
+                            "section_id": 143, 
+                            "effect": "1d4 Constitution damage", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 23", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 138, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Aghasuras, or the poison ones, are massive fiends who have perfected the art of ambush and hold to duties of guardianship and butchery. It is said that these frightful ophidian monsters came into being when a deity granted free will to her favorite serpent pets, but when these pets were left to their own devices, they slipped into the deity's favored temple and slew all of her greatest priests. The serpents who survived the deity's wrath became the first aghasuras.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 144
+        }, 
+        {
+            "body": "<p>An aghasura is 30 feet long and weighs nearly 7 tons.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 145
+        }
+    ], 
+    "hp": "161 (14d10+84); regeneration 5 (good weapons, good spells)", 
+    "reach": "15 ft.", 
+    "section_id": 137, 
+    "wisdom": "14", 
+    "creature_type": "Outsider", 
+    "dr": "10/good", 
+    "name": "Asura, Aghasura", 
+    "base_attack": "+14", 
+    "skills": "Acrobatics +17, Bluff +19, Escape Artist +6, Intimidate +17, Knowledge (planes) +13, Perception +19, Sense Motive +19, Stealth +9, Swim +17", 
+    "reflex": "+9", 
+    "cmd": "41 (can't be tripped)", 
+    "cmb": "+28 (+32 grapple)", 
+    "will": "+11; +2 vs. enchantment spells", 
+    "url": "pfsrd://Bestiary 3/Monsters/Asura/Aghasura", 
+    "aura": "attraction (50 ft.), elusive (75 ft.)", 
+    "sr": "22", 
+    "organization": "solitary or troop (2-9)", 
+    "creature_subtype": "asura, evil, extraplanar, lawful"
+}

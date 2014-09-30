@@ -1,0 +1,116 @@
+{
+    "dexterity": "12", 
+    "ac": "17, touch 11, flat-footed 16 (+1 Dex, +6 natural)", 
+    "special_attacks": "plague carrier", 
+    "intelligence": "-", 
+    "melee": "2 slams +7 (1d8+3 plus disease)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "17", 
+    "constitution": "-", 
+    "immune": "construct traits, magic", 
+    "treasure": "none", 
+    "init": "+1", 
+    "environment": "any land", 
+    "source": "Bestiary 2", 
+    "charisma": "1", 
+    "fortitude": "+1", 
+    "type": "creature", 
+    "senses": "blindsense 10 ft., darkvision 60 ft., low-light vision; Perception +0", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Golem/Carrion/Golem/Carrion/Special Abilities", 
+            "sections": [
+                {
+                    "body": "This functions as the stench ability, but causes affected creatures to be nauseated rather than sickened.", 
+                    "name": "Foul Stench", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Golem/Carrion/Golem/Carrion/Special Abilities/Foul Stench", 
+                    "ability_types": {
+                        "ability_type_id": 251, 
+                        "section_id": 977, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 977, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A carrion golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.<ul><li><i>Gentle repose</i> causes a carrion golem to become stiff and helpless for 1d4 rounds if it fails a Will save against the spell.</li><li><i>Animate dead</i> causes the various parts of the golem's body to shudder and tear, dealing 1d6 points of damage per caster level to the golem (no save).</li><li>Any magical attack that deals cold or fire damage slows a carrion golem (as the <i>slow</i> spell) for 2d6 rounds (no save).</li><li>Any magical attack that deals electricity damage hastes a carrion golem (as the <i>haste</i> spell) for 2d6 rounds.</li></ul>", 
+                    "name": "Immune to Magic", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Golem/Carrion/Golem/Carrion/Special Abilities/Immune to Magic", 
+                    "ability_types": {
+                        "ability_type_id": 252, 
+                        "section_id": 978, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 978, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When a carrion golem is created, its creator infects it with a specific disease. The carrion golem can then infect those it strikes with its slams with this disease&mdash;most carrion golems inflict filth fever. The save DC is Constitution-based and includes a +2 racial bonus.", 
+                    "name": "Plague Carrier", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Golem/Carrion/Golem/Carrion/Special Abilities/Plague Carrier", 
+                    "ability_types": {
+                        "ability_type_id": 253, 
+                        "section_id": 979, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 979, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 976, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "Slam:", 
+            "type": "section", 
+            "sections": [
+                {
+                    "name": "Filth Fever, Carrion Golems", 
+                    "source": "Bestiary 2", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Golem/Carrion/Golem/Carrion/Filth Fever/Carrion Golems", 
+                    "contracted": "injury", 
+                    "section_id": 981, 
+                    "effect": "1d3 Dexterity damage and 1d3 Constitution damage", 
+                    "onset": "1d3 days", 
+                    "subtype": "disease", 
+                    "cure": "2 consecutive saves", 
+                    "frequency": "1/day", 
+                    "save": "Fortitude DC 14", 
+                    "type": "affliction"
+                }
+            ], 
+            "section_id": 980, 
+            "source": "Bestiary 2"
+        }, 
+        {
+            "body": "<p>Carrion golems are made from the partially decayed parts of numerous dead creatures&mdash;no two carrion golems are exactly alike in appearance. Most are created from the corpses of humanoid creatures that are then augmented here and there with parts taken from animals, resulting in a monster that stands 6 feet tall and weighs 120 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 982
+        }
+    ], 
+    "hp": "42 (4d10+20)", 
+    "section_id": 975, 
+    "wisdom": "11", 
+    "creature_type": "Construct", 
+    "dr": "5/bludgeoning or slashing", 
+    "name": "Golem, Carrion", 
+    "base_attack": "+4", 
+    "url": "pfsrd://Bestiary 2/Monsters/Golem/Carrion/Golem/Carrion", 
+    "reflex": "+2", 
+    "cmd": "18", 
+    "cmb": "+7", 
+    "will": "+1", 
+    "aura": "foul stench (DC 12, 1 round)", 
+    "organization": "solitary or gang (2-4)"
+}

@@ -1,0 +1,162 @@
+{
+    "dexterity": "17", 
+    "ac": "15, touch 13, flat-footed 12 (+3 Dex, +2 natural)", 
+    "special_attacks": "traps, web (+6 ranged, DC 15, hp 4)", 
+    "intelligence": "6", 
+    "racial_modifiers": "+8 on Craft (trapmaking)", 
+    "melee": "bite +5 (1d6+2 plus poison) and 2 claws +5 (1d4+2)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "30 ft., climb 30 ft.", 
+    "alignment": "NE", 
+    "size": "Medium", 
+    "languages": "Common", 
+    "strength": "14", 
+    "constitution": "17", 
+    "treasure": "standard", 
+    "init": "+7", 
+    "environment": "temperate forests", 
+    "source": "Bestiary", 
+    "charisma": "8", 
+    "fortitude": "+6", 
+    "type": "creature", 
+    "feats": "Great Fortitude, Improved Initiative", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +9", 
+    "description": "This hideous purple creature walks upright like a man, but its face is that of a spider, and its hands are sickle-shaped claws.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 327, 
+                        "section_id": 1420, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1420, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Ettercap Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Poison/Ettercap Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1421, 
+                            "effect": "1d2 Dexterity", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 10 rounds", 
+                            "save": "Fortitude DC 15, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "This ability functions as the druid's wild empathy, save that an ettercap can only use this ability on spiders. An ettercap gains a +4 racial bonus on this check. Spiders are mindless, but this empathic communication imparts on them a modicum of implanted intelligence, allowing ettercaps to train giant spiders and use them as guardians.", 
+                    "name": "Spider Empathy", 
+                    "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Spider Empathy", 
+                    "ability_types": {
+                        "ability_type_id": 328, 
+                        "section_id": 1422, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1422, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The ettercap is particularly skilled at crafting cunning traps with its webs. Deadfalls, nooses, and spear traps are the most common traps ettercaps build with their webs. An ettercap doesn't require gold to build its traps, merely time.", 
+                    "name": "Traps", 
+                    "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Traps", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 329, 
+                        "section_id": 1423, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1423, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "reset": "repair", 
+                            "perception": "DC 20", 
+                            "name": "Ettercap Deadfall", 
+                            "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Traps/Ettercap Deadfall", 
+                            "trigger": "location", 
+                            "section_id": 1424, 
+                            "effect": "Atk +10 melee (4d6), multiple targets (all targets in a 10-ft. square).", 
+                            "source": "Bestiary", 
+                            "disable_device": "DC 20", 
+                            "trap_type": "mechanical", 
+                            "cr": "3", 
+                            "type": "trap"
+                        }, 
+                        {
+                            "reset": "repair", 
+                            "perception": "DC 20", 
+                            "name": "Ettercap Noose", 
+                            "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Traps/Ettercap Noose", 
+                            "trigger": "location", 
+                            "section_id": 1425, 
+                            "effect": "Atk +15 CMB check (grapple).", 
+                            "source": "Bestiary", 
+                            "disable_device": "DC 20", 
+                            "trap_type": "mechanical", 
+                            "cr": "1", 
+                            "type": "trap"
+                        }, 
+                        {
+                            "reset": "repair", 
+                            "perception": "DC 20", 
+                            "name": "Ettercap Spear Trap", 
+                            "url": "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Traps/Ettercap Spear Trap", 
+                            "trigger": "location", 
+                            "section_id": 1426, 
+                            "effect": "Atk +15 ranged (1d8+1/&times;3)", 
+                            "source": "Bestiary", 
+                            "disable_device": "DC 20", 
+                            "trap_type": "mechanical", 
+                            "cr": "2", 
+                            "type": "trap"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1419, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Ettercaps are typically 6 feet tall and weigh about 200 pounds. They are solitary creatures and rarely group with others of their kind, even to mate. When they do group, they tend to attract a variety of different spiders, forming a strange collective of ettercaps and arachnids. Ettercaps are known for building cunning traps out of webs and other natural materials, using them to trap prey. They build shelters out of webbing, often high up in the trees away from other ground-based predators, and use monstrous spiders as lookouts and guardians.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1427
+        }, 
+        {
+            "body": "<p>Ettercaps are not brave creatures, but their traps often ensure that the enemy never draws a weapon. When an ettercap does engage its enemies, it attacks with its claws and venomous bite. It usually refuses to come within melee reach of any foe that is still able to move, and flees if an opponent gets free. </p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1428
+        }
+    ], 
+    "hp": "30 (4d8+12)", 
+    "section_id": 1418, 
+    "wisdom": "15", 
+    "creature_type": "Aberration", 
+    "special_qualities": "spider empathy +7", 
+    "name": "Ettercap", 
+    "base_attack": "+3", 
+    "skills": "Climb +14, Craft (trapmaking) +8, Perception +9, Stealth +7", 
+    "reflex": "+4", 
+    "cmd": "18", 
+    "cmb": "+5", 
+    "will": "+6", 
+    "url": "pfsrd://Bestiary/Monsters/Ettercap", 
+    "organization": "solitary, pair, or nest (3-6 plus 2-8 giant spiders)"
+}

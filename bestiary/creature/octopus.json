@@ -1,0 +1,138 @@
+{
+    "dexterity": "17", 
+    "ac": "15, touch 14, flat-footed 12 (+3 Dex, +1 natural, +1 size)", 
+    "intelligence": "2", 
+    "racial_modifiers": "+8 Stealth, +10 Escape Artist", 
+    "melee": "bite +5 (1d3+1 plus poison), tentacles +3 (grab)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "20 ft., swim 30 ft., jet 200 ft.", 
+    "alignment": "N", 
+    "size": "Small", 
+    "strength": "12", 
+    "constitution": "14", 
+    "treasure": "none", 
+    "init": "+3", 
+    "environment": "temperate or cold ocean", 
+    "source": "Bestiary", 
+    "charisma": "3", 
+    "fortitude": "+5", 
+    "type": "creature", 
+    "feats": "MultiattackB, Weapon Finesse", 
+    "senses": "low-light vision; Perception +1", 
+    "description": "Eight tentacles, each adorned with rows of countless suckers, unfurl from the barrel-shaped body of this large-eyed creature.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus/Special Abilities", 
+            "sections": [
+                {
+                    "body": "An octopus can emit a 10-foot-radius sphere of ink once per minute as a free action. The ink provides total concealment in water, and persists for 1 minute.", 
+                    "name": "Ink Cloud", 
+                    "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus/Special Abilities/Ink Cloud", 
+                    "ability_types": {
+                        "ability_type_id": 492, 
+                        "section_id": 2280, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2280, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "An octopus can jet backward once per round as a full-round action, at a speed of 200 feet. It must move in a straight line while jetting, and does not provoke attacks of opportunity when it does so.", 
+                    "name": "Jet", 
+                    "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus/Special Abilities/Jet", 
+                    "ability_types": {
+                        "ability_type_id": 493, 
+                        "section_id": 2281, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2281, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 494, 
+                        "section_id": 2282, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2282, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Octopus Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus/Special Abilities/Poison/Octopus Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2283, 
+                            "effect": "1 Strength", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 13", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2279, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The octopus is a cunning animal capable of using complex tactics to get food.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2284
+        }, 
+        {
+            "ac": "+1 natural armor", 
+            "name": "Octopus", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus/Octopus", 
+            "sections": [
+                {
+                    "name": "4th-Level Advancement", 
+                    "level": "4th", 
+                    "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus/Octopus/4th-Level Advancement", 
+                    "section_id": 2286, 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d3 plus poison)", 
+                    "source": "Bestiary", 
+                    "ability_scores": "Str +2, Con +2", 
+                    "type": "animal_companion"
+                }
+            ], 
+            "section_id": 2285, 
+            "subtype": "base", 
+            "attack": "bite (1d3), tentacles (grab)", 
+            "type": "animal_companion", 
+            "special_qualities": "low-light vision, ink cloud", 
+            "speed": "20 ft., swim 30 ft., jet 200 ft.", 
+            "ability_scores": "Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3", 
+            "size": "Small"
+        }
+    ], 
+    "hp": "13 (2d8+4)", 
+    "section_id": 2278, 
+    "wisdom": "13", 
+    "defensive_abilities": "ink cloud", 
+    "creature_type": "Animal", 
+    "name": "Octopus", 
+    "base_attack": "+1", 
+    "skills": "Escape Artist +13, Stealth +20, Swim +9", 
+    "reflex": "+6", 
+    "cmd": "14 (can't be tripped)", 
+    "cmb": "+1 (+5 grapple)", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary/Monsters/Octopus/Octopus", 
+    "organization": "solitary", 
+    "creature_subtype": "aquatic"
+}

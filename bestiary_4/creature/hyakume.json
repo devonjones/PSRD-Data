@@ -1,0 +1,115 @@
+{
+    "dexterity": "27", 
+    "ac": "32, touch 18, flat-footed 23 (+8 Dex, +1 dodge, +14 natural, \u20131 size)", 
+    "special_attacks": "drain memory, quivering palm (1/day, DC 25), stunning fist (4/day, DC 25)", 
+    "intelligence": "19", 
+    "resist": "electricity 10, fire 10", 
+    "melee": "2 slams +18 (3d6+4)", 
+    "cr": "15", 
+    "xp": "51,200", 
+    "speed": "30 ft.", 
+    "alignment": "NE", 
+    "size": "Large", 
+    "languages": "Common, Undercommon; telepathy 60 ft.", 
+    "strength": "18", 
+    "constitution": "24", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "init": "+12", 
+    "environment": "any underground", 
+    "source": "Bestiary 4", 
+    "charisma": "29", 
+    "immune": "cold", 
+    "fortitude": "+13", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 15th; concentration +24)<p class=\"stat-block-2\">At will-<i>clairvoyance/clairaudience</i>, <i>share memory</i></p><p class=\"stat-block-2\">5/day-<i>divination</i></p><p class=\"stat-block-2\">3/day-<i>cold ice strike</i>, <i>discordant blast</i>, <i>sonic thrust</i></p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Improved Unarmed Strike, Mobility, Skill Focus (Sense Motive), Stunning Fist, Weapon Focus (slam), Wind Stance", 
+    "senses": "all-around vision, darkvision 90 ft., low-light vision; Perception +19", 
+    "description": "This bloated creature's eyes protrude from between the fleshy fat rolls of its neckless, hulking form.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 4", 
+            "url": "pfsrd://Bestiary 4/Monsters/Hyakume/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Once per day as a standard action, a hyakume can make a touch attack with either its hands or one of its eye probes to drain a target of its memories. The target loses the majority of memories relating to life and identity, and the hyakume can control the creature as if it were subject to a charm monster spell until those memories are regained (Will DC 28 negates). The hyakume absorbs the memories and can store and use them. It can store the memories of a number of creatures equal to its Intelligence bonus (typically 4) at one time. This is a mind-affecting effect. The save DC is Charisma-based.", 
+                    "name": "Drain Memory", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Hyakume/Special Abilities/Drain Memory", 
+                    "ability_types": {
+                        "ability_type_id": 317, 
+                        "section_id": 1055, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1055, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Once per day as a full-round action, a hyakume can detach up to six of its eyes and send them on missions. An eyeball has AC 22, hp 5, and a fly speed of 60 ft. with perfect maneuverability. A hyakume can see through all of its eye probes, and can make drain memory attacks with them. If a hyakume's eyeball is destroyed, the hyakume takes 5 points of damage. An eye probe can't stray farther than 1 mile from a hyakume or the eye is destroyed (dealing 5 points of damage).", 
+                    "name": "Eye Probe", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Hyakume/Special Abilities/Eye Probe", 
+                    "ability_types": {
+                        "ability_type_id": 318, 
+                        "section_id": 1056, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1056, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The hyakume's Stunning Fist feat and slam attacks function as though it were a 15th-level monk. It can also use the quivering palm class feature once per day (Fortitude DC 25). The save DC is Wisdom-based.", 
+                    "name": "Monk Abilities", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Hyakume/Special Abilities/Monk Abilities", 
+                    "section_id": 1057, 
+                    "source": "Bestiary 4", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "Once per day as a standard action, a hyakume can touch a willing creature with either its hand or one of its eye probes to transfer memories it has stored to the creature touched. This is a mind-affecting effect.", 
+                    "name": "Transfer Memories", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Hyakume/Special Abilities/Transfer Memories", 
+                    "ability_types": {
+                        "ability_type_id": 319, 
+                        "section_id": 1058, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1058, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1054, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Hideous and corpulent, with numerous eyes dotting their bodies, hyakumes are mystics of malevolence. They steal and collect the memories of other intelligent beings to increase their own knowledge.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1059
+        }
+    ], 
+    "hp": "218 (19d8+133)", 
+    "weaknesses": "light sensitivity", 
+    "reach": "10 ft.", 
+    "section_id": 1053, 
+    "wisdom": "22", 
+    "creature_type": "Aberration", 
+    "special_qualities": "eye probe, monk abilities, transfer memories", 
+    "name": "Hyakume", 
+    "base_attack": "+14", 
+    "skills": "Acrobatics +23, Bluff +21, Craft (any) +10, Diplomacy +17, Intimidate +24, Knowledge (arcana, planes, religion) +12, Knowledge (geography, history) +10, Perception +19, Sense Motive +17, Spellcraft +22, Stealth +15, Survival +17, Swim +8, Use Magic Device +17", 
+    "reflex": "+14", 
+    "cmd": "38", 
+    "cmb": "+19", 
+    "will": "+17", 
+    "url": "pfsrd://Bestiary 4/Monsters/Hyakume", 
+    "sr": "26", 
+    "organization": "solitary or enclave (2\u20136)"
+}

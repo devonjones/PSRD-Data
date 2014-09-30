@@ -1,0 +1,88 @@
+{
+    "dexterity": "15", 
+    "ac": "18, touch 11, flat-footed 16 (+2 Dex, +7 natural, -1 size)", 
+    "special_attacks": "constrict (tentacle, 1d4+2)", 
+    "intelligence": "2", 
+    "racial_modifiers": "+10 Escape Artist, +8 Stealth", 
+    "melee": "bite +13 (1d8+5 plus poison), 8 tentacles +11 (1d4+2 plus grab)", 
+    "cr": "8", 
+    "xp": "4,800", 
+    "speed": "20 ft., swim 30 ft., jet 200 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "20", 
+    "constitution": "17", 
+    "space": "10 ft.", 
+    "treasure": "incidental", 
+    "init": "+6", 
+    "environment": "any ocean", 
+    "source": "Bestiary", 
+    "charisma": "3", 
+    "fortitude": "+11", 
+    "type": "creature", 
+    "feats": "Combat Reflexes, Improved Initiative, Iron Will, Lightning Reflexes, MultiattackB, Skill Focus (Stealth), Stealthy", 
+    "senses": "low-light vision; Perception +8", 
+    "description": "A storm of tentacles, each twenty feet in length, flails with deadly precision from the leathery body of this gigantic octopus.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Octopus/Giant/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Octopus/Giant/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 495, 
+                        "section_id": 2289, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2289, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Giant Octopus Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Octopus/Giant/Special Abilities/Poison/Giant Octopus Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2290, 
+                            "effect": "1d3 Strength", 
+                            "subtype": "poison", 
+                            "cure": "2 saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 19", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2288, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The giant octopus is a true monster capable of catching and eating sharks, humans, or anything else it can grab with its tentacles.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2291
+        }
+    ], 
+    "hp": "90 (12d8+36)", 
+    "reach": "10 ft. (20 ft. with tentacle)", 
+    "section_id": 2287, 
+    "wisdom": "12", 
+    "defensive_abilities": "ink cloud (30-foot-radius sphere)", 
+    "creature_type": "Animal", 
+    "name": "Octopus, Giant", 
+    "base_attack": "+9", 
+    "skills": "Escape Artist +18, Perception +8, Stealth +18, Swim +13", 
+    "reflex": "+12", 
+    "cmd": "27 (can't be tripped)", 
+    "cmb": "+15 (+19 grapple)", 
+    "will": "+7", 
+    "url": "pfsrd://Bestiary/Monsters/Octopus/Giant", 
+    "organization": "solitary", 
+    "creature_subtype": "aquatic"
+}

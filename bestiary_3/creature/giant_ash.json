@@ -1,0 +1,130 @@
+{
+    "dexterity": "14", 
+    "ac": "25, touch 11, flat-footed 23 (+4 armor, +2 Dex, +10 natural, -1 size)", 
+    "special_attacks": "disease, rock throwing (120 ft.)", 
+    "intelligence": "9", 
+    "melee": "Huge club +20/+15 (2d6+11 plus disease), slam +15 (1d8+5 plus disease) or 2 slams +20 (1d8+11 plus disease)", 
+    "cr": "11", 
+    "xp": "12,800", 
+    "speed": "40 ft. (30 ft. in armor)", 
+    "alignment": "CN", 
+    "size": "Large", 
+    "languages": "Common, Giant", 
+    "strength": "33", 
+    "constitution": "23", 
+    "space": "10 ft.", 
+    "treasure": "standard (hide armor, Huge club, other treasure)", 
+    "init": "+2", 
+    "environment": "any wastelands", 
+    "source": "Bestiary 3", 
+    "charisma": "10", 
+    "immune": "disease, poison", 
+    "fortitude": "+15", 
+    "type": "creature", 
+    "feats": "Catch Off-Guard, Cleave, Great Cleave, Point-Blank Shot, Power Attack, Precise Shot, Self-Sufficient", 
+    "senses": "low-light vision; Perception +8", 
+    "description": "Towering above a typical human, this misshapen giant's pale flesh is covered in purulent sores and bulbous tumors.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Giant/Ash/Special Abilities", 
+            "sections": [
+                {
+                    "body": "While ash giants are immune to disease, they carry a contagious form of leprosy. Any creature struck by an ash giant's attacks is exposed to this virulent sickness. The save DC is Constitution-based.", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Giant/Ash/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 271, 
+                        "section_id": 947, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 947, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Ash Leprosy", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Giant/Ash/Special Abilities/Disease/Ash Leprosy", 
+                            "contracted": "injury", 
+                            "section_id": 948, 
+                            "effect": "1d2 Constitution damage, 1d2 Charisma drain", 
+                            "onset": "1 minute", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 23", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "An ash giant can wield Huge weapons without penalty.", 
+                    "name": "Oversized Weapon", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Giant/Ash/Special Abilities/Oversized Weapon", 
+                    "ability_types": {
+                        "ability_type_id": 272, 
+                        "section_id": 949, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 949, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "This ability functions as a druid's wild empathy ability, save that it works only on vermin. An ash giant gains a racial bonus on this check equal to its Hit Dice (+14 for most ash giants). Vermin are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing the ash giant to train vermin and use them as guardians (although it does not grant them skills or feats).", 
+                    "name": "Vermin Empathy", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Giant/Ash/Special Abilities/Vermin Empathy", 
+                    "ability_types": {
+                        "ability_type_id": 273, 
+                        "section_id": 950, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 950, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 946, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Whether because of disruptive magic, unearthed deep elements, or alien technology that fell calamitously from the sky, ash giants are victims of their barren terrains. Yet they somehow survive and even thrive in these desperate lands. Ash giants have an uncanny ability to bond with the enormous and often mutated vermin they share the landscape with, and sometimes use the largest of these creatures as mounts.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 951
+        }, 
+        {
+            "body": "<p>Ash giants are brash and violent, and their humor is incredibly dark. Killing someone through a prank is just as funny as tripping a friend while on a hunt. While not inherently evil, lifetimes of being antagonized by other tribes have practically bred violence into their minds.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 952
+        }, 
+        {
+            "body": "<p>Ash giants are 10 feet tall and weigh 1,200 pounds.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 953
+        }
+    ], 
+    "hp": "147 (14d8+84)", 
+    "reach": "10 ft.", 
+    "section_id": 945, 
+    "wisdom": "12", 
+    "defensive_abilities": "rock catching", 
+    "creature_type": "Humanoid", 
+    "special_qualities": "oversized weapon, vermin empathy +14", 
+    "ranged": "rock +13 (1d8+16 plus disease)", 
+    "name": "Giant, Ash", 
+    "base_attack": "+10", 
+    "skills": "Climb +14, Heal +7, Intimidate +6, Perception +8, Survival +9", 
+    "reflex": "+6", 
+    "cmd": "34", 
+    "cmb": "+22", 
+    "will": "+5", 
+    "url": "pfsrd://Bestiary 3/Monsters/Giant/Ash", 
+    "organization": "solitary, gang (2-5), band (6-9), raid (9-12 plus 1d4 giant vermin), or tribe (13-30 plus 35% noncombatants, plus 1 barbarian or fighter chief of 6th-8th level and 6-8 giant vermin)", 
+    "creature_subtype": "giant"
+}

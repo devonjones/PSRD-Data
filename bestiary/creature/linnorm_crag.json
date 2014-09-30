@@ -1,0 +1,142 @@
+{
+    "dexterity": "18", 
+    "ac": "29, touch 10, flat-footed 25 (+4 Dex, +19 natural, -4 size)", 
+    "special_attacks": "breath weapon, constrict (tail, 2d6+18), death curse", 
+    "intelligence": "5", 
+    "melee": "bite +23 (2d8+12/19-20 plus poison), 2 claws +23 (1d8+12), tail +18 (2d6+6 plus grab)", 
+    "cr": "14", 
+    "xp": "38,400", 
+    "speed": "40 ft., fly 100 ft. (average), swim 60 ft.", 
+    "alignment": "CE", 
+    "size": "Gargantuan", 
+    "languages": "Aklo, Draconic, Sylvan", 
+    "strength": "34", 
+    "constitution": "25", 
+    "space": "20 ft.", 
+    "treasure": "triple", 
+    "init": "+8", 
+    "environment": "cold hills", 
+    "source": "Bestiary", 
+    "charisma": "21", 
+    "immune": "curse effects, fire, mind-affecting effects, paralysis, poison, sleep", 
+    "fortitude": "+16", 
+    "type": "creature", 
+    "feats": "Blind-Fight, Cleave, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack", 
+    "senses": "darkvision 120 ft., low-light vision, scent, true seeing; Perception +22", 
+    "description": "This immense, wingless dragon rears up on a serpentine body. Its triple tail and powerful talons swipe at the air.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Once every 1d4 rounds as a standard action, a crag linnorm can expel a 120-foot line of magma, dealing 15d8 points of fire damage to all creatures struck (Reflex DC 24 halves). This line of magma remains red-hot for 1 round after the linnorm creates it. Creatures that took damage on the first round take 6d6 fire damage the second round (Reflex DC 24 negates), as does any creature that walks across the line of magma. If the magma was expelled while the linnorm was airborne, it instead rains downward during the second round as a sheet of fire no more than 60 feet high that does 6d6 damage (Reflex DC 24 negates) to any creature that passes through it. On the third round, the line of magma cools to a thin layer of brittle stone that quickly degrades to powder and sand over the course of several hours; magma that's turned to a sheet of fire is consumed entirely during the second round, leaving behind only a stain of smoke in the air that swiftly disperses. The save DC is Constitution-based.", 
+                    "name": "Breath Weapon", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag/Special Abilities/Breath Weapon", 
+                    "ability_types": {
+                        "ability_type_id": 428, 
+                        "section_id": 1984, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1984, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When a creature slays a crag linnorm, the slayer is affected by the curse of fire.Curse of Fire: save Will DC 22; effect creature gains vulnerability to fire. The save DC is Charisma-based.", 
+                    "name": "Death Curse", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag/Special Abilities/Death Curse", 
+                    "ability_types": {
+                        "ability_type_id": 429, 
+                        "section_id": 1985, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1985, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A crag linnorm is under the constant effect of freedom of movement, as per the spell of the same name. This effect cannot be dispelled.", 
+                    "name": "Freedom of Movement", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag/Special Abilities/Freedom of Movement", 
+                    "ability_types": {
+                        "ability_type_id": 430, 
+                        "section_id": 1986, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1986, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 431, 
+                        "section_id": 1987, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1987, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Crag Linnorm Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag/Special Abilities/Poison/Crag Linnorm Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1988, 
+                            "effect": "2d6 fire damage and 1d4 Constitution drain", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 10 rounds", 
+                            "save": "Fortitude DC 24, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "A crag linnorm has constant true seeing, as per the spell of the same name.", 
+                    "name": "True Seeing", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag/Special Abilities/True Seeing", 
+                    "ability_types": {
+                        "ability_type_id": 432, 
+                        "section_id": 1989, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1989, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1983, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Like all linnorms, the deadly crag linnorm is a powerful, primeval dragon, a denizen of the wild regions far north of where most civilizations dare to tread. The crag linnorm is among the weakest of its kind, yet still a devastating predator in its own right. Favored, if not by the gods, then by some primal intelligence of the mysterious world of the fey, the linnorm bestows a powerful curse on any who manage to slay it. A crag linnorm is 60 feet long and weighs 12,000 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1990
+        }
+    ], 
+    "hp": "202 (15d12+105); regeneration 10 (cold iron)", 
+    "reach": "20 ft.", 
+    "section_id": 1982, 
+    "wisdom": "18", 
+    "defensive_abilities": "freedom of movement", 
+    "creature_type": "Dragon", 
+    "dr": "15/cold iron", 
+    "name": "Linnorm, Crag", 
+    "base_attack": "+15", 
+    "skills": "Fly +16, Perception +22, Swim +38", 
+    "reflex": "+15", 
+    "cmd": "45 (can't be tripped)", 
+    "cmb": "+31 (+35 grapple)", 
+    "will": "+13", 
+    "url": "pfsrd://Bestiary/Monsters/Linnorm/Crag", 
+    "sr": "25", 
+    "organization": "solitary"
+}

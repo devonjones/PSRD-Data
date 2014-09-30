@@ -1,0 +1,63 @@
+{
+    "body": "<p>Any nonchaotic creature within the area of a <i>word of chaos</i> spell suffers the following ill effects, depending on their HD.</p>", 
+    "school": "evocation", 
+    "saving_throw": "none or Will negates; see text", 
+    "description": "Kills, confuses, stuns, or deafens nonchaotic subjects.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Word Of Chaos", 
+    "type": "spell", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "level_text": "Cleric: 7; Inquisitor: 6; Oracle: 7", 
+    "section_id": 691, 
+    "descriptor": [
+        "chaotic", 
+        "sonic"
+    ], 
+    "range": "40 ft.", 
+    "levels": [
+        {
+            "class": "Cleric", 
+            "level": 7
+        }, 
+        {
+            "class": "Inquisitor", 
+            "level": 6
+        }, 
+        {
+            "class": "Oracle", 
+            "level": 7
+        }
+    ], 
+    "descriptor_text": "chaotic, sonic", 
+    "effects": [
+        {
+            "text": "nonchaotic creatures in a 40-ft.-radius spread centered on you", 
+            "name": "Area"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }
+    ], 
+    "duration": "instantaneous", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>HD</th><th>Effect</th></tr></thead><tr class=\"odd\"><td>Equal to caster level</td><td>Deafened</td></tr><tr class=\"even\"><td>Up to caster level &ndash;1</td><td>Stunned, deafened</td></tr><tr class=\"odd\"><td>Up to caster level &ndash;5</td><td>Confused, stunned, deafened</td></tr><tr class=\"even\"><td>Up to caster level &ndash;10</td><td>Killed, confused, stunned, deafened</td></tr></table>", 
+            "name": "HD", 
+            "url": "pfsrd://Core Rulebook/Spells/Word Of Chaos/HD", 
+            "section_id": 692, 
+            "source": "Core Rulebook", 
+            "type": "table"
+        }, 
+        {
+            "body": "<p>The effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.</p><p><i>Deafened</i>: The creature is deafened for 1d4 rounds. Save negates.</p><p><i>Stunned</i>: The creature is stunned for 1 round. Save negates.</p><p><i>Confused</i>: The creature is confused for 1d10 minutes. This is a mind-affecting enchantment effect. Save reduces the confused effect to 1 round.</p><p><i>Killed</i>: Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).</p><p>Furthermore, if you are on your home plane when you cast this spell, nonchaotic extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the <i>word of chaos</i> or not. The banishment effect allows a Will save (at a &ndash;4 penalty) to negate.</p><p>Creatures whose HD exceed your caster level are unaffected by <i>word of chaos</i>.</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "section_id": 693
+        }
+    ], 
+    "component_text": "V", 
+    "name": "Word Of Chaos"
+}

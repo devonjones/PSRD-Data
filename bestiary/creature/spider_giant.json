@@ -1,0 +1,98 @@
+{
+    "dexterity": "17", 
+    "ac": "14, touch 13, flat-footed 11 (+3 Dex, +1 natural)", 
+    "special_attacks": "web (+5 ranged, DC 12, hp 2)", 
+    "intelligence": "-", 
+    "racial_modifiers": "+4 Perception, +4 Stealth (+8 in webs), +16 Climb", 
+    "melee": "bite +2 (1d6 plus poison)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "30 ft., climb 30 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "11", 
+    "constitution": "12", 
+    "immune": "mind-affecting effects", 
+    "treasure": "incidental", 
+    "init": "+3", 
+    "environment": "any", 
+    "source": "Bestiary", 
+    "charisma": "2", 
+    "fortitude": "+4", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., tremorsense 60 ft.; Perception +4", 
+    "description": "A spider the size of a man crawls silently from the depths of its funnel-shaped web.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Spider/Giant/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Spider/Giant/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 545, 
+                        "section_id": 2621, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2621, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Giant Spider Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Spider/Giant/Special Abilities/Poison/Giant Spider Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2622, 
+                            "effect": "1d2 Strength damage", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 4 rounds", 
+                            "save": "Fortitude DC 14", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2620, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The statistics above are for a web-spinning spider. Hunting spiders lose the web ability but gain a +8 racial modifier on Acrobatics checks. All giant spiders have a +2 racial bonus on poison save DCs.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2623
+        }, 
+        {
+            "body": "<p>Other species of giant spiders exist, as detailed below.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2624
+        }, 
+        {
+            "body": "<table><thead><tr><th>Species</th><th>CR</th><th>Size</th><th>HD</th></tr></thead><tbody><tr class=\"odd\"><td>Scarlet spider</td><td>1/4</td><td>Tiny</td><td>1d8</td></tr><tr class=\"even\"><td>Giant crab spider</td><td>1/2</td><td>Small</td><td>2d8</td></tr><tr class=\"odd\"><td>Giant black widow</td><td>3</td><td>Large</td><td>5d8</td></tr><tr class=\"even\"><td>Ogre spider</td><td>5</td><td>Huge</td><td>7d8</td></tr><tr class=\"odd\"><td>Giant tarantula</td><td>8</td><td>Gargantuan</td><td>10d8</td></tr><tr class=\"even\"><td>Goliath spider</td><td>11</td><td>Colossal</td><td>14d8</td></tr></tbody></table>", 
+            "name": "Species", 
+            "url": "pfsrd://Bestiary/Monsters/Spider/Giant/Species", 
+            "section_id": 2625, 
+            "source": "Bestiary", 
+            "type": "table"
+        }
+    ], 
+    "hp": "16 (3d8+3)", 
+    "section_id": 2619, 
+    "wisdom": "10", 
+    "creature_type": "Vermin", 
+    "name": "Spider, Giant", 
+    "base_attack": "+2", 
+    "skills": "Climb +16, Perception +4 (+8 in webs), Stealth +7 (+11 in webs)", 
+    "reflex": "+4", 
+    "cmd": "15 (27 vs. trip)", 
+    "cmb": "+2", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary/Monsters/Spider/Giant", 
+    "organization": "solitary, pair, or colony (3-8)"
+}

@@ -1,0 +1,114 @@
+{
+    "dexterity": "25", 
+    "ac": "28, touch 18, flat-footed 20 (+7 Dex, +1 dodge, +10 natural)", 
+    "special_attacks": "smothering", 
+    "intelligence": "15", 
+    "racial_modifiers": "+16 Escape Artist, +8 Perception, +10 Stealth when submerged", 
+    "resist": "cold 10, fire 10", 
+    "melee": "2 slams +21 (1d6+8 plus 3d6 acid and grab)", 
+    "cr": "12", 
+    "xp": "19,200", 
+    "speed": "40 ft., climb 20 ft., swim 80 ft.", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "languages": "Abyssal, Celestial, Draconic; telepathy 100 ft.", 
+    "strength": "26", 
+    "constitution": "24", 
+    "immune": "acid, critical hits, disease, electricity, paralysis, poison, polymorph, sleep effects, stunning", 
+    "treasure": "standard", 
+    "init": "+11", 
+    "environment": "any (the Abyss)", 
+    "source": "Bestiary 2", 
+    "charisma": "18", 
+    "fortitude": "+15", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 12th; concentration +16)<p class=\"stat-block-2\">At will-<i>create water</i>, <i>greater teleport</i> (self plus 50 lbs. of objects only), <i>liquid leap</i> (see below), <i>telekinesis</i> (DC 19)</p><p class=\"stat-block-2\">3/day-<i>gaseous form</i>, <i>control water</i>, <i>poison</i> (DC 18), <i>stinking cloud</i> (DC 17)</p><p class=\"stat-block-2\">1/day-<i>acid fog</i>, summon (level 4, 1 omox 30% or 1d4 babaus 60%)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility, Spring Attack, Vital Strike", 
+    "senses": "darkvision 120 ft.; Perception +28", 
+    "description": "This rancid-smelling mound of animated ooze has about its shifting countenance the hideous shape of a half-melted man.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Demon/Omox/Special Abilities", 
+            "sections": [
+                {
+                    "body": "As long as an omox is in contact with liquid, it can use dimension door as a swift action (CL 12th); its starting and ending points must be connected by a contiguous mass of liquid.", 
+                    "name": "Liquid Leap", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Demon/Omox/Special Abilities/Liquid Leap", 
+                    "ability_types": {
+                        "ability_type_id": 131, 
+                        "section_id": 523, 
+                        "ability_type": "Spell-Like"
+                    }, 
+                    "section_id": 523, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "An omox's nauseating body is composed of sticky, acidic slime. As an attack action, it can hurl a glob of slime (range increment 20 feet). Any creature that is struck by the glob must make a DC 23 Reflex save or become entangled for 1d6 rounds. The save DC is Constitution-based.", 
+                    "name": "Slime", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Demon/Omox/Special Abilities/Slime", 
+                    "ability_types": {
+                        "ability_type_id": 132, 
+                        "section_id": 524, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 524, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "An omox can use its grab ability against a creature of any size. When it grabs a foe, it attempts to flow over and into the victim's mouth and nose to smother it. Each round the omox maintains its grapple, its victim cannot breathe or speak. See page 445 of the Pathfinder RPG Core Rulebook for rules on how long a victim can hold its breath and the consequences of suffocation.", 
+                    "name": "Smothering", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Demon/Omox/Special Abilities/Smothering", 
+                    "ability_types": {
+                        "ability_type_id": 133, 
+                        "section_id": 525, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 525, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 522, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Amorphous beings of living slime, these repulsive demons lurk in fetid pools and lakes of filth, eager to drown unwary passersby. When summoned to the Material Plane, omoxes typically guard places of sacred filth or waters watched over by cults of Jubilex, the demon lord with which these foul demons are most commonly associated.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 526
+        }, 
+        {
+            "body": "<p>A typical omox stands 7 feet tall and weighs 1,200 pounds. They form from the souls of those who destroyed beautiful things in life, or who befouled and desecrated objects of purity.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 527
+        }
+    ], 
+    "hp": "162 (13d10+91)", 
+    "section_id": 521, 
+    "wisdom": "19", 
+    "creature_type": "Outsider", 
+    "special_qualities": "amorphous, amphibious, compression", 
+    "dr": "10/good", 
+    "ranged": "slime +20 (1d6 plus 3d6 acid and entangle)", 
+    "name": "Demon, Omox", 
+    "base_attack": "+13", 
+    "skills": "Acrobatics +23 (+27 jump), Climb +32, Escape Artist +23, Knowledge (dungeoneering) +18, Knowledge (planes) +18, Perception +28, Sense Motive +20, Stealth +23 (+33 when submerged), Swim +32", 
+    "reflex": "+13", 
+    "cmd": "39 (can't be tripped)", 
+    "cmb": "+21", 
+    "will": "+12", 
+    "url": "pfsrd://Bestiary 2/Monsters/Demon/Omox", 
+    "sr": "23", 
+    "organization": "solitary or clot (2-6)", 
+    "creature_subtype": "aquatic, chaotic, demon, evil, extraplanar"
+}

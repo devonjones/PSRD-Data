@@ -1,0 +1,190 @@
+{
+    "body": "<p>A pharmaceutical takes a standard action to consume, or a move action if administered by a medlance. A single dose of any pharmaceutical weighs only a tenth of a pound&mdash;no entry for weight is given for the following item descriptions. Individual doses of pharmaceuticals can take various forms, from an injected serum to an ingested pill. Each pharmaceutical is assumed to contain a means of delivery included in its weight and cost. Any pharmaceutical can be used with a medlance to speed up its administration time, regardless of its form.</p><p>Each pharmaceutical has a full description, including a set of abbreviated statistics, organized as follows.</p>", 
+    "name": "Pharmaceuticals", 
+    "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals", 
+    "sections": [
+        {
+            "body": "<p>This is the cost in gold pieces to purchase the pharmaceutical if it's available for sale. As with magic potions, a pharmaceutical can be sold by PCs for half this value.</p>", 
+            "name": "Price", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Price", 
+            "section_id": 242, 
+            "source": "Technology Guide", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Certain requirements must be met for a character to craft a pharmaceutical. These requirements generally include a feat and access to a medical laboratory. Crafting components are consumed during construction and are not counted as part of the item's cost; if the crafting attempt fails, new crafting components must be provided for the next attempt.</p>", 
+            "name": "Construction Requirements", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Construction Requirements", 
+            "section_id": 243, 
+            "source": "Technology Guide", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>This is the Craft DC required to create the pharmaceutical. It is also the Knowledge (engineering) or Heal DC to correctly identify the pharmaceutical.</p>", 
+            "source": "Technology Guide", 
+            "type": "section", 
+            "name": "Craft", 
+            "section_id": 244
+        }, 
+        {
+            "body": "<p>This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.</p>", 
+            "name": "Cost", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Cost", 
+            "sections": [
+                {
+                    "body": "<table><caption>Pharmaceuticals</caption><thead><tr><th>Pharmaceutical</th><th>Price</th></tr></thead><tbody><tr class=\"odd\"><td>Baseline</td><td>2,250 gp</td></tr><tr class=\"even\"><td>Cardioamp</td><td>4,550 gp</td></tr><tr class=\"odd\"><td>Cureall</td><td>1,400 gp</td></tr><tr class=\"even\"><td>Hemochem (Grade I)</td><td>250 gp</td></tr><tr class=\"odd\"><td>Hemochem (Grade II)</td><td>500 gp</td></tr><tr class=\"even\"><td>Hemochem (Grade III)</td><td>750 gp</td></tr><tr class=\"odd\"><td>Hemochem (Grade IV)</td><td>1,000 gp</td></tr><tr class=\"even\"><td>Hemochem (Grade V)</td><td>1,250 gp</td></tr><tr class=\"odd\"><td>Hype</td><td>250 gp</td></tr><tr class=\"even\"><td>Torpinal</td><td>300 gp</td></tr><tr class=\"odd\"><td>Vive</td><td>200 gp</td></tr><tr class=\"even\"><td>Zortaphen</td><td>2,250 gp</td></tr></tbody></table>", 
+                    "name": "Pharmaceuticals", 
+                    "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Cost/Pharmaceuticals", 
+                    "section_id": 246, 
+                    "source": "Technology Guide", 
+                    "type": "table"
+                }
+            ], 
+            "section_id": 245, 
+            "source": "Technology Guide", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">An injection of baseline floods the brain with neuroinhibitors that purge the mind of excess emotion. Baseline has an onset time of 10 minutes. When it takes effect, baseline renders the recipient immune to insanity, mind-affecting effects, and morale bonuses for 1 hour, as well as suppressing (but not removing) any such active, ongoing effects. It can be resisted with a successful DC 14 Fortitude saving throw. Once a creature has been affected by baseline, it cannot be affected by additional doses for 24 hours.</p>", 
+            "name": "Baseline", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Baseline", 
+            "price": "2,250 gp", 
+            "misc": {
+                "Construction": {
+                    "Craft": "DC 26", 
+                    "Requirements": "Craft Pharmaceutical, medical lab", 
+                    "Cost": "1,125 gp"
+                }
+            }, 
+            "section_id": 247, 
+            "source": "Technology Guide", 
+            "type": "item"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">This potent drug can revive a recently deceased victim. If administered to a corpse within 1 minute of death, the victim can immediately attempt a Fortitude saving throw (DC = 15 + 1 per round since death occurred) to be restored to life, automatically stabilizing at -1 hit point. Multiple doses injected within this 1-minute period can grant the deceased additional attempts at revival; each additional dose grants a cumulative +2 bonus to the Fortitude saving throw. As with most other effects that revive the dead, a creature restored to life in this manner gains 1 negative level. Cardioamp only works on bodies that are relatively intact. Bodies that have been dismembered, horribly burned, or otherwise mutilated (at the GM's discretion) cannot be revived by cardioamp, but bodies slain by death effects can be.</p><p class=\"stat-block\">Cardioamp can be deadly if injected into a living creature. A living creature injected with cardioamp must succeed at a DC 16 Fortitude saving throw to resist taking 3d6 points of Constitution damage from a sudden heart attack. If the save is successful, the Constitution damage is negated but the victim becomes sickened for 1d6 rounds. The effect when injected in a living creature is a poison effect.</p>", 
+            "name": "Cardioamp", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Cardioamp", 
+            "price": "4,550 gp", 
+            "misc": {
+                "Construction": {
+                    "Craft": "DC 30", 
+                    "Requirements": "Craft Pharmaceutical, medical lab", 
+                    "Cost": "2,275 gp"
+                }
+            }, 
+            "section_id": 248, 
+            "source": "Technology Guide", 
+            "type": "item"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">A dose of cureall allows the target to attempt an additional saving throw against a single disease or poison effect currently afflicting him. This additional saving throw counts for the total number of successful saves needed to recover from the disease or poison. If the target is suffering from multiple afflictions, a single dose of cureall works against only the effect with the highest save DC currently afflicting him.</p><p class=\"stat-block\">Cureall also restores 1d4 points of ability damage or 1 point of ability drain that has been inflicted by a disease or poison, even if the user doesn't succeed at the save. A dose cures any ability drain before curing ability damage. If the target is suffering from drain or damage to multiple ability scores, the cureall cures the score with the most damage or drain (or randomly selects one if multiple scores have equal drain or damage).</p>", 
+            "name": "Cureall", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Cureall", 
+            "price": "1,400 gp", 
+            "misc": {
+                "Construction": {
+                    "Facilities": "medical lab", 
+                    "Craft": "DC 25", 
+                    "Feats": "Craft Pharmaceutical", 
+                    "Cost": "700 gp"
+                }
+            }, 
+            "section_id": 249, 
+            "source": "Technology Guide", 
+            "type": "item"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">Hemochem stops bleeding and promotes healing. A single dose of hemochem grants fast healing for 1 minute. Multiple doses injected do not stack, but they do reset the duration of the fast healing back to 1 minute. Five grades of hemochem exist; the fast healing granted by a dose depends on the pharmaceutical's grade, as detailed below.</p>", 
+            "name": "Hemochem", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Hemochem", 
+            "type": "item", 
+            "price": "250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grade V)", 
+            "misc": {
+                "Construction": {
+                    "Facilities": "medical lab", 
+                    "Craft": "DC 23 (Grade I), DC 24 (Grade II), DC 25 (Grade III), DC 26 (Grade IV), DC 27 (Grade V)", 
+                    "Feats": "Craft Pharmaceutical", 
+                    "Cost": "125 gp (Grade I), 250 gp (Grade II), 375 gp (Grade III), 500 gp (Grade IV), 625 (Grade V)"
+                }
+            }, 
+            "section_id": 250, 
+            "source": "Technology Guide", 
+            "sections": [
+                {
+                    "body": "<table><thead><tr><th>Grade</th><th>Fast Healing</th></tr></thead><tbody><tr class=\"odd\"><td>Grade I</td><td>1</td></tr><tr class=\"even\"><td>Grade II</td><td>2</td></tr><tr class=\"odd\"><td>Grade III</td><td>3</td></tr><tr class=\"even\"><td>Grade IV</td><td>4</td></tr><tr class=\"odd\"><td>Grade V</td><td>5</td></tr></tbody></table>", 
+                    "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Hemochem/", 
+                    "type": "table", 
+                    "section_id": 251, 
+                    "source": "Technology Guide"
+                }
+            ]
+        }, 
+        {
+            "body": "<p class=\"stat-block\">A synthetic adrenaline derivative once used by soldiers, hype boosts perception and reaction time but comes with some nasty side effects. This pharmaceutical has an onset time of 1 round and its effects last for 1 hour. It provides a +5 competence bonus on Perception checks and increases the user's base land speed by 10 feet, but the user takes a -4 penalty on concentration checks and on all Intelligence-, Wisdom-, and Charisma-based skill checks (with the exception of Perception).</p>", 
+            "name": "Hype", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Hype", 
+            "price": "250 gp", 
+            "misc": {
+                "Construction": {
+                    "Craft": "DC 24", 
+                    "Requirements": "Craft Pharmaceutical, medical lab", 
+                    "Cost": "125 gp"
+                }
+            }, 
+            "section_id": 252, 
+            "source": "Technology Guide", 
+            "type": "item"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">Torpinal is a serum that makes the injected subject more cooperative during interrogation. It has a 1-minute onset time. The effects of a single dose of torpinal can be resisted with a successful DC 12 Will saving throw. Additional dose can be used, and often are when the subject succeeds at a save against torpinal. Each dose administered within a 1-minute period forces a new saving throw to resist the effects, with the DC increasing by 2 per additional dose (to a maximum of DC 22).</p><p class=\"stat-block\">A victim that succumbs to torpinal becomes highly suggestible to revealing truthful information for 10 minutes. Whenever the victim is posed a question during this time, the victim must succeed at a Will saving throw (DC = the DC of the dose of torpinal the victim failed his saving throw against) to resist replying to the question in as truthful a manner as he can. The victim isn't compelled to follow any suggestions other than the one to answer questions truthfully. A victim under the effects of torpinal takes a -10 penalty on Bluff checks, making it difficult to lie even if successfully saving against the torpinal's ongoing effects. Torpinal is a poison and mind-affecting effect.</p>", 
+            "name": "Torpinal", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Torpinal", 
+            "price": "300 gp", 
+            "misc": {
+                "Construction": {
+                    "Craft": "DC 25", 
+                    "Requirements": "Craft Pharmaceutical, medical lab", 
+                    "Cost": "150 gp"
+                }
+            }, 
+            "section_id": 253, 
+            "source": "Technology Guide", 
+            "type": "item"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">Vive revitalizes the body at the cost of mental acuity. This pharmaceutical has an onset time of 1 minute. It eliminates fatigue and exhaustion and heals 1d4 points of ability damage to a physical ability score (Strength, Dexterity, or Constitution) of the target's choice. The first dose taken in a 24-hour period deals 1d2 points of ability damage to Intelligence and Wisdom; additional doses in that period deal 1d4 points of ability damage instead. Vive can be resisted with a successful DC 12 Fortitude saving throw. </p>", 
+            "name": "Vive", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Vive", 
+            "price": "200 gp", 
+            "misc": {
+                "Construction": {
+                    "Craft": "DC 22", 
+                    "Requirements": "Craft Pharmaceutical, medical lab", 
+                    "Cost": "100 gp"
+                }
+            }, 
+            "section_id": 254, 
+            "source": "Technology Guide", 
+            "type": "item"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">Zortaphen is a powerful anesthetic. A creature that takes a dose of zortaphen must succeed at a DC 15 Fortitude saving throw or become unconscious for 1 hour; the unconsciousness takes effect 1d6 rounds after the failed save. A creature under the effects of zortaphen is numbed as well, making it immune to pain effects while sleeping. Damage inflicted on someone put to sleep with zortaphen does not cause the sleeper to awaken. Awakening someone early requires a successful DC 20 Heal check and a full-round action. Zortaphen is a poison and sleep effect.</p><p class=\"stat-block\">Zortaphen can be dangerous if too much is taken at once. A skilled character can use a successful DC 15 Heal check to keep someone under the effects of zortaphen unconscious indefinitely by injecting a new dose every hour. On a failed Heal check or if a second dose is administered without attempting a Heal check, a victim already under the effects of zortaphen must succeed at a DC 15 Fortitude save or take 1d6 points of Constitution damage.</p>", 
+            "name": "Zortaphen", 
+            "url": "pfsrd://Technology Guide/Rules/Equipment/Pharmaceuticals/Zortaphen", 
+            "price": "2,250 gp", 
+            "misc": {
+                "Construction": {
+                    "Craft": "DC 22", 
+                    "Requirements": "Craft Pharmaceutical, medical lab", 
+                    "Cost": "1,125 gp"
+                }
+            }, 
+            "section_id": 255, 
+            "source": "Technology Guide", 
+            "type": "item"
+        }
+    ], 
+    "section_id": 241, 
+    "source": "Technology Guide", 
+    "type": "section"
+}

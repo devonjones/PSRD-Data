@@ -1,0 +1,108 @@
+{
+    "dexterity": "9", 
+    "ac": "24, touch 8, flat-footed 24 (-1 Dex, +16 natural, -1 size)", 
+    "special_attacks": "berserk, haste", 
+    "intelligence": "-", 
+    "melee": "2 slams +19 (2d10+7 plus cursed wound)", 
+    "cr": "10", 
+    "xp": "9,600", 
+    "speed": "20 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "24", 
+    "constitution": "-", 
+    "space": "10 ft.", 
+    "treasure": "none", 
+    "init": "-1", 
+    "environment": "any", 
+    "source": "Bestiary", 
+    "charisma": "1", 
+    "immune": "construct traits, magic", 
+    "fortitude": "+4", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Golem/Clay/Golem/Clay/Special Abilities", 
+            "sections": [
+                {
+                    "body": "When a clay golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. This chance resets to 0% after one minute of inactivity. A berserk golem attacks the nearest living creature or smashes some object smaller than itself if no creature is within reach. Once it goes berserk, no known method can reestablish control.", 
+                    "name": "Berserk", 
+                    "url": "pfsrd://Bestiary/Monsters/Golem/Clay/Golem/Clay/Special Abilities/Berserk", 
+                    "ability_types": {
+                        "ability_type_id": 376, 
+                        "section_id": 1672, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1672, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The damage a clay golem deals doesn't heal naturally and resists magical healing. A character attempting to use magical healing on a creature damaged by a clay golem must succeed on a DC 26 caster level check, or the healing has no effect on the injured creature.", 
+                    "name": "Cursed Wound", 
+                    "url": "pfsrd://Bestiary/Monsters/Golem/Clay/Golem/Clay/Special Abilities/Cursed Wound", 
+                    "ability_types": {
+                        "ability_type_id": 377, 
+                        "section_id": 1673, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1673, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "After it has engaged in at least 1 round of combat, a clay golem can haste itself once per day as a free action. The effect lasts 3 rounds and is otherwise the same as the spell.", 
+                    "name": "Haste", 
+                    "url": "pfsrd://Bestiary/Monsters/Golem/Clay/Golem/Clay/Special Abilities/Haste", 
+                    "ability_types": {
+                        "ability_type_id": 378, 
+                        "section_id": 1674, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1674, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A clay golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.<ul><li> A <i>move earth</i> spell drives the golem back 120 feet and deals 3d12 points of damage to it (no save).</li><li>A <i>disintegrate</i> spell slows the golem (as the <i>slow</i> spell) for 1d6 rounds and deals 1d12 points of damage (no save).</li><li>An <i>earthquake</i> spell cast directly at a clay golem stops it from moving on its next turn and deals 5d10 points of damage (no save).</li><li>Any magical attack against a clay golem that deals acid damage heals 1 point of damage for every 3 points of damage it would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A clay golem gets no saving throw against magical attacks that deal acid damage.</li></ul>", 
+                    "name": "Immunity to Magic", 
+                    "url": "pfsrd://Bestiary/Monsters/Golem/Clay/Golem/Clay/Special Abilities/Immunity to Magic", 
+                    "ability_types": {
+                        "ability_type_id": 379, 
+                        "section_id": 1675, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1675, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1671, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>A clay golem wears no clothing except for a metal or stiff leather garment around its hips. It stands over 8 feet tall and weighs 600 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1676
+        }
+    ], 
+    "hp": "101 (13d10+30)", 
+    "reach": "10 ft.", 
+    "section_id": 1670, 
+    "wisdom": "11", 
+    "creature_type": "Construct", 
+    "dr": "10/adamantine and bludgeoning", 
+    "name": "Golem, Clay", 
+    "base_attack": "+13", 
+    "url": "pfsrd://Bestiary/Monsters/Golem/Clay/Golem/Clay", 
+    "reflex": "+3", 
+    "cmd": "30", 
+    "cmb": "+21", 
+    "will": "+4", 
+    "organization": "solitary or gang (2-4)"
+}

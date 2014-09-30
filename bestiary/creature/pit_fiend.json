@@ -1,0 +1,150 @@
+{
+    "dexterity": "29", 
+    "ac": "38, touch 18, flat-footed 29 (+9 Dex, +20 natural, -1 size)", 
+    "special_attacks": "constrict 2d8+19, devil shaping", 
+    "intelligence": "26", 
+    "resist": "acid 10, cold 10", 
+    "melee": "2 claws +32 (2d8+13), 2 wings +30 (2d6+6), bite +32 (4d6+13 plus poison and disease), tail slap +30 (2d8+6 plus grab)", 
+    "cr": "20", 
+    "xp": "307,200", 
+    "speed": "40 ft., fly 60 ft. (average)", 
+    "alignment": "LE", 
+    "size": "Large", 
+    "languages": "Celestial, Common, Draconic, Infernal; telepathy 100 ft.", 
+    "strength": "37", 
+    "constitution": "35", 
+    "space": "10 ft.", 
+    "treasure": "double", 
+    "init": "+13", 
+    "environment": "any (Hell)", 
+    "source": "Bestiary", 
+    "charisma": "26", 
+    "immune": "fire, poison", 
+    "fortitude": "+24", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 18th)<p class=\"stat-block-2\">At will-<i>blasphemy</i> (DC 25), <i>create undead, fireball</i> (DC 21), <i>greater dispel magic, greater teleport</i> (self plus 50 lbs. of objects only), <i>greater scrying</i> (DC 25), <i>invisibility, magic circle against good, mass hold monster</i> (DC 27), <i>persistent image</i> (DC 23), <i>power word stun, scorching ray</i>, <i>trap the soul</i> (DC 26), <i>unholy aura</i> (DC 26), <i>wall of fire</i></p><p class=\"stat-block-2\">3/day-quickened<i> fireball</i> (DC 21)</p><p class=\"stat-block-2\">1/day-<i>meteor swarm</i>, summon (level 9, any 1 <span class=\"stat-block-cr\">CR 19</span> or lower devil, 100%)</p><p class=\"stat-block-2\">1/year-<i>wish</i></p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Cleave, Great Cleave, Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Multiattack, Power Attack, Quicken Spell-Like Ability (fireball), Vital Strike", 
+    "senses": "darkvision 60 ft., see in darkness; Perception +33", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Devil/Pit Fiend/Pit Fiend/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Three times per day, a pit fiend can spend a minute to transform nearby lemures into other lesser devils. A pit fiend can transform one lemure for every Hit Die the pit fiend possesses. It can then reshape these lemures into a number of Hit Dice's worth of lesser devils equal to the number of lemures affected. For example, a typical 20 Hit Dice pit fiend could transform 20 lemures into two bone devils (10 HD each), or three bearded devils (6 HD each, leaving two lemures unchanged), or any other combination of lesser devils. Lemures to be reshaped must be within 50 feet of the pit fiend, becoming stationary and unable to move once the shaping begins. After a minute passes, the lemures reform into the shape of a new lesser devil ready to follow the orders of the pit fiend. Although pit fiends can, technically, elevate a mass of 20 lemures into a new pit fiend, most are hesitant to do so since they have no special control over a devil created in this manner.", 
+                    "name": "Devil Shaping", 
+                    "url": "pfsrd://Bestiary/Monsters/Devil/Pit Fiend/Pit Fiend/Special Abilities/Devil Shaping", 
+                    "ability_types": {
+                        "ability_type_id": 214, 
+                        "section_id": 993, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 993, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary/Monsters/Devil/Pit Fiend/Pit Fiend/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 215, 
+                        "section_id": 994, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 994, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Devil Chills, Pit Fiend", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Devil/Pit Fiend/Pit Fiend/Special Abilities/Disease/Devil Chills/Pit Fiend", 
+                            "contracted": "injury", 
+                            "section_id": 995, 
+                            "effect": "1d4 Strength damage", 
+                            "onset": "immediate", 
+                            "subtype": "disease", 
+                            "cure": "3 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 32", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Devil/Pit Fiend/Pit Fiend/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 216, 
+                        "section_id": 996, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 996, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Pit Fiend Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Devil/Pit Fiend/Pit Fiend/Special Abilities/Poison/Pit Fiend Venom", 
+                            "contracted": "injury", 
+                            "section_id": 997, 
+                            "effect": "1d6 Constitution damage", 
+                            "subtype": "poison", 
+                            "cure": "3 consecutive saves", 
+                            "frequency": "1/round for 10 rounds", 
+                            "save": "Fortitude DC 32, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 992, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Rulers of infernal realms, generals of Hell's armies, and advisors to the archfiends, pit fiends embody the awesome and terrible pinnacle of devilkind. Massive, physically indomitable, and possessed of ingenious evil intellects, these diabolical tyrants hold great autonomy whether in their service to the archfiends, in their rule of vast infernal fiefdoms, or in subjugation of mortal worlds. Thick muscles cling to their gigantic frames, armored over by dense, bladed scales capable of deflecting all but the most potent assaults. Fangs as thick as daggers fill their maws, bestial visages disguising some of the most insidious minds in Hell. Born within the depths of Nessus, the ninth and deepest layer of Hell, pit fiends are raised from the ranks of cornugons and gelugons by the archdevils and their dukes alone. While many travel to higher layers and far from Hell to command infernal legions, most remain in Nessus serving in the courts of Hell's elite or in dark councils with unknowable purposes. Pit fiends always stand over 14 feet tall, with wingspans in excess of 20 feet and weights over 1,000 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 998
+        }, 
+        {
+            "body": "<p>Pit fiends are masters of fire and prefer lands bathed in flame. In Hell, this predisposes them to Avernus, Dis, Malebolge, Nessus, and Phlegethon the layers most likely to harbor their burning temple-citadels. Fanatics obsessed with diabolical superiority and ironclad obedience, pit fiends left to their own devices raise massive armies, scouring the pits of Hell for the most depraved lemures to transform into true fiends. When convinced they've formed the perfect legions, they turn their attentions to vulnerable demiplanes and mortal worlds, eyeing them for infernal domination and the glory of conquest. While obedient to the hierarchies of their kind, they are also strict in their enforcement, and should a pit fiend find itself subservient to a master unfit to rule, it holds itself duty bound to cast down such an incompetent lord. Thus, whether as masters or servants, pit fiends embody the will of Hell's merciless law and assure that only the strongest of devilkind flourish (or dare to). </p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 999
+        }, 
+        {
+            "body": "<p>Only the most powerful of mortal spellcasters can or dare summon a pit fiend. These devils' reactions to summoning are deliberate and swift, usually typified by overwhelming rage that such insignificant beings would waste their immortal time. Those that cannot weather the devils' burning rage are slain&mdash;their souls typically racing the pit fiends back to Hell. Those who manage to keep control of the greater devils, though, intrigue them. A pit fiend might dutifully serve a mortal master for centuries, but its goal is always the same: to further corrupt the mortal soul, assure its absolute damnation, and when the mortal inevitably dies, claim its soul and begin the process of creating a perfectly corrupt lemure servant. Pit fiends know they are immortal and are intelligent enough to indulge in impossibly disciplined patience. As such, the eldest pit fiends see in their legions the faces of countless fools who once presumed themselves the devils' masters.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1000
+        }
+    ], 
+    "hp": "350 (20d10+240); regeneration 5 (good weapons, good spells)", 
+    "reach": "10 ft.", 
+    "section_id": 991, 
+    "wisdom": "30", 
+    "creature_type": "Outsider", 
+    "dr": "15/good and silver", 
+    "name": "Pit Fiend", 
+    "base_attack": "+20", 
+    "skills": "Appraise +17, Bluff +31, Diplomacy +31, Disguise +27, Fly +30, Intimidate +31, Knowledge (arcana) +28, Knowledge (planes) +31, Knowledge (religion) +31, Perception +33, Sense Motive +33, Spellcraft +31, Stealth +28, Survival +22, Use Magic Device +28", 
+    "reflex": "+21", 
+    "cmd": "53", 
+    "cmb": "+34 (+38 grapple)", 
+    "will": "+18", 
+    "url": "pfsrd://Bestiary/Monsters/Devil/Pit Fiend/Pit Fiend", 
+    "aura": "fear (20 ft., DC 23)", 
+    "sr": "31", 
+    "organization": "solitary, pair, or council (3-9)", 
+    "creature_subtype": "devil, evil, extraplanar, lawful"
+}

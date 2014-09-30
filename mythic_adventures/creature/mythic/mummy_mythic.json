@@ -1,0 +1,116 @@
+{
+    "dexterity": "10", 
+    "ac": "23, touch 10, flat-footed 23 (+13 natural)", 
+    "special_attacks": "create spawn, mythic power (3/day, surge +1d6)", 
+    "intelligence": "6", 
+    "melee": "slam +15 (1d8+12 plus mummy rot)", 
+    "url": "pfsrd://Mythic Adventures/Monsters/Mummy/Mythic", 
+    "cr": "7", 
+    "xp": "3,200", 
+    "speed": "20 ft.", 
+    "alignment": "LE", 
+    "size": "Medium", 
+    "languages": "Common", 
+    "strength": "26", 
+    "constitution": "-", 
+    "immune": "undead traits", 
+    "treasure": "standard", 
+    "init": "+0", 
+    "environment": "any", 
+    "source": "Mythic Adventures", 
+    "charisma": "15", 
+    "fortitude": "+4", 
+    "type": "creature", 
+    "feats": "Power AttackM, Skill Focus (Perception), ToughnessM, Weapon Focus (slam)", 
+    "senses": "darkvision 60 ft.; Perception +16", 
+    "description": "This regal mummy reeks of preservative spices and wears the clothing and jewelry of a wealthy pharaoh.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures", 
+            "url": "pfsrd://Mythic Adventures/Monsters/Mummy/Mythic/Special Abilities", 
+            "sections": [
+                {
+                    "body": "As a swift action, a mythic mummy can expend one use of mythic power to transform a slain opponent into a non-mythic mummy with the advanced simple template. The new mummy is under the command of the mummy that created it, and remains enslaved until the mythic mummy's death, at which time it becomes a free-willed creature. The spawn retains none of the abilities it had in life", 
+                    "name": "Create Spawn", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Mummy/Mythic/Special Abilities/Create Spawn", 
+                    "ability_types": {
+                        "ability_type_id": 116, 
+                        "section_id": 1160, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1160, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A mythic mummy can command earth and sand within 100 feet to create a variety of spell-like effects. As a standard action, a mummy can reduce rock to sand (as transmute rock to mud) or create lifelike shapes made from sand (as major image, though these shapes collapse if disbelieved or attacked). The mummy can expend one use of mythic power to summon a giant advanced sandman. The mummy's caster level equals its Hit Dice for these effects.", 
+                    "name": "Desert Mastery", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Mummy/Mythic/Special Abilities/Desert Mastery", 
+                    "ability_types": {
+                        "ability_type_id": 117, 
+                        "section_id": 1161, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1161, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "All creatures within a 30-foot radius that see a mummy must succeed at a DC 18 Will save or be paralyzed by fear for 1d4 rounds. A creature only has to attempt this save against a particular mummy's despair ability once every 24 hours. This is a paralysis and mind-affecting fear effect. The save DC is Charisma-based and includes a +2 racial bonus.", 
+                    "name": "Despair", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Mummy/Mythic/Special Abilities/Despair", 
+                    "ability_types": {
+                        "ability_type_id": 118, 
+                        "section_id": 1162, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1162, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Curse and disease&mdash;slam; save Fort DC 18; onset 1 minute; frequency 1/day; effect 1d6 Con and 1d6 Cha; cure &mdash;. This otherwise functions like standard mummy rot. The DC is Charisma-based and includes a +2 racial bonus.", 
+                    "name": "Mummy Rot", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Mummy/Mythic/Special Abilities/Mummy Rot", 
+                    "ability_types": {
+                        "ability_type_id": 119, 
+                        "section_id": 1163, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1163, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1159, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>A mythic mummy is the preserved and animated remains or royalty&mdash;the honored dead a common mummy is compelled to protect. Wielding powers over sand and able to create new minions to replace the fallen, a mythic mummy is a formidable opponent. Its used to absolute obedience from living and undead subjects. If awakened from its eternal rest, a mythic mummy uses its magic to appear as it did in life, though if angered or surprised it may reveal its undead form.</p>", 
+            "source": "Mythic Adventures", 
+            "type": "section", 
+            "section_id": 1164
+        }
+    ], 
+    "hp": "92 (8d8+56); fast healing 5", 
+    "weaknesses": "vulnerable to fire", 
+    "section_id": 1158, 
+    "wisdom": "15", 
+    "creature_type": "Undead", 
+    "special_qualities": "change shape (any humanoid; alter self), desert mastery", 
+    "dr": "5/-", 
+    "name": "Mummy, Mythic", 
+    "base_attack": "+6", 
+    "skills": "Perception +16, Stealth +11", 
+    "reflex": "+2", 
+    "cmd": "24", 
+    "cmb": "+14", 
+    "will": "+8", 
+    "subtype": "mythic", 
+    "aura": "despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)", 
+    "mr": "3", 
+    "organization": "solitary, warden squad (2-6), or guardian detail (7-12)", 
+    "creature_subtype": "mythic"
+}

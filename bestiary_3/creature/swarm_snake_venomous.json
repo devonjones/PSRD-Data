@@ -1,0 +1,82 @@
+{
+    "dexterity": "16", 
+    "ac": "17, touch 15, flat-footed 14 (+3 Dex, +2 natural, +2 size)", 
+    "special_attacks": "distraction (DC 15)", 
+    "intelligence": "1", 
+    "racial_modifiers": "+4 Perception, +4 Stealth; uses Dex to modify Climb and Swim", 
+    "melee": "swarm (1d6 plus distraction and poison)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "20 ft., climb 20 ft., swim 10 ft.", 
+    "alignment": "N", 
+    "size": "Tiny", 
+    "strength": "9", 
+    "constitution": "17", 
+    "space": "10 ft.", 
+    "treasure": "none", 
+    "init": "+7", 
+    "environment": "any", 
+    "source": "Bestiary 3", 
+    "charisma": "2", 
+    "fortitude": "+7", 
+    "type": "creature", 
+    "feats": "Improved Initiative, Lightning Reflexes, Skill Focus (Perception)", 
+    "senses": "low-light vision, scent; Perception +13", 
+    "description": "Venomous snakes slither and crawl over each other in a furious mass, their poison-dripping fangs glinting in the light.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Snake Swarm/Swarm/Snake/Venomous/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based. Swarm:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Snake Swarm/Swarm/Snake/Venomous/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 562, 
+                        "section_id": 1969, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1969, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Snake Swarm Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Snake Swarm/Swarm/Snake/Venomous/Special Abilities/Poison/Snake Swarm Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1970, 
+                            "effect": "1d2 Constitution damage", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 15", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1968, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }
+    ], 
+    "hp": "37 (5d8+15)", 
+    "reach": "0 ft.", 
+    "section_id": 1967, 
+    "wisdom": "12", 
+    "defensive_abilities": "swarm traits", 
+    "creature_type": "Animal", 
+    "name": "Swarm, Snake, Venomous", 
+    "base_attack": "+3", 
+    "skills": "Acrobatics +7 (+3 when jumping), Climb +15, Perception +13, Stealth +19, Swim +11", 
+    "reflex": "+9", 
+    "cmd": "13 (can't be tripped)", 
+    "cmb": "+4", 
+    "will": "+2", 
+    "url": "pfsrd://Bestiary 3/Monsters/Snake Swarm/Swarm/Snake/Venomous", 
+    "organization": "solitary, nest (2-4 swarms), or knot (5-7 swarms)", 
+    "creature_subtype": "swarm"
+}

@@ -1,0 +1,143 @@
+{
+    "dexterity": "20", 
+    "ac": "19, touch 14, flat-footed 14 (+4 armor, +5 Dex, +1 natural, -1 size)", 
+    "special_attacks": "confusion command", 
+    "intelligence": "14", 
+    "melee": "mwk short sword +11/+6 (1d8+3/19-20), bite +5 (1d8+1 plus poison)", 
+    "cr": "6", 
+    "xp": "2,400", 
+    "speed": "30 ft.", 
+    "alignment": "CE", 
+    "size": "Large", 
+    "languages": "Aklo, Undercommon; telepathy 100 ft.", 
+    "strength": "16", 
+    "constitution": "17", 
+    "space": "10 ft.", 
+    "treasure": "double (masterwork short sword, wand of magic missile [CL 5th, 1d20+30 charges])", 
+    "init": "+9", 
+    "environment": "any underground", 
+    "source": "Bestiary 2", 
+    "charisma": "19", 
+    "immune": "mind-affecting effects, poison", 
+    "fortitude": "+6", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 6th; concentration +10)<p class=\"stat-block-2\">Constant-<i>mage armor</i></p><p class=\"stat-block-2\">At will-<i>detect thoughts</i> (DC 16), <i>levitate</i></p><p class=\"stat-block-2\">3/day-<i>confusion</i> (DC 18), <i>dispel magic</i>, <i>suggestion</i> (DC 17)</p><p class=\"stat-block-2\">1/day-<i>mind fog</i> (DC 19), <i>phantasmal killer</i> (DC 18)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Ability Focus (aura of madness), Combat Casting, Combat Reflexes, Improved Initiative, Weapon Finesse", 
+    "senses": "darkvision 120 ft., detect thoughts, tremorsense 30 ft.; Perception +15", 
+    "description": "This worm-like monster has a hideous face of eyes and hooked jaws. It wields a wand and a sword in its twin tentacle tails.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Seugathi/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Any sane being within 30 feet of a conscious seugathi must make a DC 20 Will save each round or become confused for 1 round. A creature that fails 5 saves in a row becomes permanently insane, as per the insanity spell. A seugathi can suppress or activate this aura as a free action. This is a mind-affecting effect. The save DC is Charisma-based.", 
+                    "name": "Aura of Madness", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Seugathi/Special Abilities/Aura of Madness", 
+                    "ability_types": {
+                        "ability_type_id": 445, 
+                        "section_id": 1820, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1820, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "As an immediate action, a seugathi can issue a telepathic command to a confused creature within 30 feet. This allows the seugathi to pick a result from the confusion behavior table, rather than the confused creature rolling randomly for its actions that round.", 
+                    "name": "Confusion Command", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Seugathi/Special Abilities/Confusion Command", 
+                    "ability_types": {
+                        "ability_type_id": 446, 
+                        "section_id": 1821, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1821, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A seugathi can utilize spell trigger devices as if it were a spellcaster of the appropriate class. As a free action by touch, it can identify all spell trigger properties an item has. Use Magic Device is a class skill for seugathis.", 
+                    "name": "Item Use", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Seugathi/Special Abilities/Item Use", 
+                    "ability_types": {
+                        "ability_type_id": 447, 
+                        "section_id": 1822, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1822, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Seugathi/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 448, 
+                        "section_id": 1823, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1823, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Seugathi Venom", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Seugathi/Special Abilities/Poison/Seugathi Venom", 
+                            "type": "affliction", 
+                            "contracted": "injury", 
+                            "section_id": 1824, 
+                            "effect": "1d2 Wisdom and deafness", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 17", 
+                            "sections": [
+                                {
+                                    "body": "Deafness persists as long as the ability damage caused by the poison lasts.", 
+                                    "source": "Bestiary 2", 
+                                    "type": "section", 
+                                    "section_id": 1825
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1819, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Seugathi are spawned by the hundreds by a single neothelid that has performed rituals to impregnate itself. As part of the strange process of being spawned in such rituals, the seugathi assimilates an extensive list of missions from its parent&mdash;once the seugathi completes these missions, it perishes. No single seugathi knows the purpose of these commands, but they trust that their neothelid masters have a reason for sending them on these diverse and usually cruel missions. A seugathi is 14 feet long and weighs 650 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1826
+        }
+    ], 
+    "hp": "67 (9d8+27); fast healing 5", 
+    "reach": "10 ft.", 
+    "section_id": 1818, 
+    "wisdom": "17", 
+    "creature_type": "Aberration", 
+    "special_qualities": "item use", 
+    "dr": "10/slashing or piercing", 
+    "name": "Seugathi", 
+    "base_attack": "+6", 
+    "skills": "Escape Artist +17, Knowledge (religion) +14, Perception +15, Sense Motive +12, Stealth +13, Use Magic Device +16", 
+    "reflex": "+8", 
+    "cmd": "25 (can't be tripped)", 
+    "cmb": "+10", 
+    "will": "+9", 
+    "url": "pfsrd://Bestiary 2/Monsters/Seugathi", 
+    "aura": "madness (30 ft.)", 
+    "sr": "17", 
+    "organization": "single, pair, or expedition (3-8)"
+}

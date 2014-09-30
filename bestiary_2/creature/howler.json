@@ -1,0 +1,124 @@
+{
+    "dexterity": "15", 
+    "ac": "15, touch 11, flat-footed 13 (+2 Dex, +4 natural, -1 size)", 
+    "special_attacks": "howl", 
+    "intelligence": "6", 
+    "melee": "bite +8 (1d8+4), quills +3 (1d4+2 plus pain)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "60 ft.", 
+    "alignment": "CE", 
+    "size": "Large", 
+    "languages": "Abyssal (cannot speak)", 
+    "strength": "18", 
+    "constitution": "15", 
+    "space": "10 ft.", 
+    "treasure": "incidental", 
+    "init": "+6", 
+    "environment": "any land (Abyss)", 
+    "source": "Bestiary 2", 
+    "charisma": "11", 
+    "fortitude": "+6", 
+    "type": "creature", 
+    "feats": "Combat Reflexes, Improved Initiative, Skill Focus (Perception)", 
+    "senses": "darkvision 60 ft.; Perception +13", 
+    "description": "This vile predator has a hide as thick and tough as leather. Wicked ebony quills run from its head, tail, and back.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Howler/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A howler's constant howling is a grating, exhausting baying that can drive listeners insane. All beings other than outsiders within 120 feet of a howling howler must succeed on a DC 12 Will save or become cursed by the creature's howl. Once a creature becomes cursed in this way, she takes no additional penalty for being exposed to additional howlers' howls until the current howler curse is lifted. This is a sonic mind-affecting effect. The save DC is Charisma-based.", 
+                    "name": "Howl", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Howler/Special Abilities/Howl", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 285, 
+                        "section_id": 1155, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1155, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Howler Howl", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Howler/Special Abilities/Howl/Howler Howl", 
+                            "contracted": "howl", 
+                            "section_id": 1156, 
+                            "effect": "1 Wisdom damage", 
+                            "subtype": "curse", 
+                            "cure": "1 save", 
+                            "frequency": "1/hour", 
+                            "save": "Fortitude DC 12 negates", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Whenever a creature takes damage from a howler's quill attack or its quill defense, that creature must make a DC 14 Reflex save or a quill breaks off in its flesh, causing the target to become sickened until the quill is removed. Removing one quill requires a DC 15 Heal check made as a full-round action. For every 5 by which the check is exceeded, one additional quill can be removed. On a failed check, a quill is still removed, but the process deals 1d4+1 points of damage to the victim. The save DC is Dexterity-based.</p>", 
+                    "name": "Pain", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Howler/Special Abilities/Pain", 
+                    "ability_types": {
+                        "ability_type_id": 286, 
+                        "section_id": 1157, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1157, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Any creature that strikes a howler with a non-reach melee weapon, unarmed strike, or natural weapon takes 1d4+1 points of piercing damage from the howler's quills and suffers from the howler's pain attack.</p>", 
+                    "source": "Bestiary 2", 
+                    "type": "ability", 
+                    "section_id": 1158, 
+                    "ability_types": {
+                        "ability_type_id": 287, 
+                        "section_id": 1158, 
+                        "ability_type": "Extraordinary"
+                    }
+                }
+            ], 
+            "section_id": 1154, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The howler is a native to the Abyss, an Outer Plane where madness is the norm and cruelty is expected and often rewarded. The howler prowls these Abyssal realms, serving the role of a hungry predator like a lion or tiger, save for the fact that the typical howler is much more intelligent than a big cat. Worse, howlers have little interest in eating their prey&mdash;they need not feed to live, but rather enjoy the process of stalking, mauling, and killing living creatures. In a way, the act of inflicting intense pain and madness upon mortal life is what fills a howler's life instead of the desire to feed.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1159
+        }, 
+        {
+            "body": "<p>The howler's mane of razor-sharp quills makes it a poor choice of mount for most creatures, but it serves quite well as a guardian or sentinel&mdash;especially for outsiders, who may not enjoy the creature's constant howling, but aren't adversely affected by the supernatural sounds. When a howler sees prey, the tenor of its howls changes&mdash;howlers cannot speak, but they can use their howls to communicate quite a bit of information if required. They understand the Abyssal tongue, and when serving demons as guardians, their howls can not only alert their masters to the presence of intruders, but also to their number, appearance, and weaknesses.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1160
+        }, 
+        {
+            "body": "<p>A howler is about the size of a tiger&mdash;12 feet from snout to tail and weighing 6,000 pounds. They are normally pale in color, with darker quills and milky eyes.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1161
+        }
+    ], 
+    "hp": "37 (5d10+10)", 
+    "reach": "5 ft.", 
+    "section_id": 1153, 
+    "wisdom": "14", 
+    "defensive_abilities": "quill defense", 
+    "creature_type": "Outsider", 
+    "name": "Howler", 
+    "base_attack": "+5", 
+    "skills": "Acrobatics +10 (+22 jump), Climb +12, Perception +13, Stealth +6", 
+    "reflex": "+6", 
+    "cmd": "22", 
+    "cmb": "+10", 
+    "will": "+3", 
+    "url": "pfsrd://Bestiary 2/Monsters/Howler", 
+    "organization": "solitary or pack (2-4)", 
+    "creature_subtype": "chaotic, evil, extraplanar"
+}

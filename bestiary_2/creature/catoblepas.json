@@ -1,0 +1,106 @@
+{
+    "dexterity": "8", 
+    "ac": "27, touch 8, flat-footed 27 (-1 Dex, +19 natural, -1 size)", 
+    "special_attacks": "breath weapon (60-ft. cone, poison, Fortitude DC 23, usable every 1d4 rounds), trample (4d6+7, DC 22)", 
+    "intelligence": "5", 
+    "melee": "bite +18 (3d6+5), gore +18 (2d8+5/19-20), 2 hooves +16 (1d8+2)", 
+    "cr": "12", 
+    "xp": "19,200", 
+    "speed": "40 ft., swim 20 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "languages": "Aklo", 
+    "strength": "20", 
+    "constitution": "22", 
+    "space": "15 ft.", 
+    "treasure": "incidental", 
+    "init": "-1", 
+    "environment": "any swamps", 
+    "source": "Bestiary 2", 
+    "charisma": "10", 
+    "fortitude": "+15", 
+    "type": "creature", 
+    "feats": "Diehard, Endurance, Improved Critical (gore), Improved Iron Will, Iron Will, Multiattack, Skill Focus (Perception)", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +25", 
+    "description": "This ugly creature has a boar-like head with short antlers, a thick bullish body covered in spines, and cloven hooves on its stumpy legs.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Catoblepas/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A catoblepas's horrid, stinking breath is 60-foot cone of poison gas. The save DC is Constitution-based. Breath:", 
+                    "name": "Poison Breath", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Catoblepas/Special Abilities/Poison Breath", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 79, 
+                        "section_id": 322, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 322, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Catoblepas Venom", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Catoblepas/Special Abilities/Poison Breath/Catoblepas Venom", 
+                            "contracted": "contact", 
+                            "section_id": 323, 
+                            "effect": "1d6 Constitution", 
+                            "subtype": "poison", 
+                            "cure": "3 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 23", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 321, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The catoblepas is an aggressive beast at the best of times, willing to knock down trees, fences, even small houses to eat whatever it finds interesting, be that meal plant or animal or human being. Though it prefers swamps, the catoblepas has been known to forage in plains and forests for short periods before returning to the buoyant support of water and mud. Few creatures linger near a catoblepas's feeding ground because of the monster's bad temper and poisonous breath, and only rot-loving predators such as oozes or exceptionally large otyughs have any interest in hunting them.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 324
+        }, 
+        {
+            "body": "<p>A catoblepas' primary motivation is hunting and exerting its dominance over lesser creatures in its territory. Easily detected by its foul odor, the creature tolerates the presence of wild animals, humanoid tribes, and even predators that it can bully as long as these things flee or act submissive when the poisonous brute lumbers into view. The catoblepas is known to engage in physical battles with other Large swamp creatures such as crocodiles or even froghemoths. Some humanoid tribes claim to know techniques to domesticate a catoblepas for use as a guard animal, but the monster's intractable nature and not insignificant intelligence almost certainly means magic is involved, as the creature has little need for alliances and can wipe out entire villages with its breath. Some have been known to use their breath underwater, creating a churning cloud of bubbles that kills fish in the area and starves out other creatures.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 325
+        }, 
+        {
+            "body": "<p>A catoblepas's sense of smell is blunted by its own ungodly stench, and it can't easily recognize rival odors such as skunk musk (though this provides the beast no immunity to odor-based effects from other creatures).</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 326
+        }, 
+        {
+            "body": "<p>A catoblepas is 15 feet long and weighs 2,200 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 327
+        }
+    ], 
+    "hp": "161 (14d10+84)", 
+    "reach": "15 ft.", 
+    "section_id": 320, 
+    "wisdom": "15", 
+    "creature_type": "Magical Beast", 
+    "name": "Catoblepas", 
+    "base_attack": "+14", 
+    "skills": "Perception +25, Swim +13", 
+    "reflex": "+8", 
+    "cmd": "29 (33 vs. trip)", 
+    "cmb": "+20", 
+    "will": "+8", 
+    "url": "pfsrd://Bestiary 2/Monsters/Catoblepas", 
+    "aura": "stench (30 ft., DC 23, 10 rounds)", 
+    "sr": "23", 
+    "organization": "solitary, pair, or herd (3-6)"
+}

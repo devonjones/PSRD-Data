@@ -1,0 +1,129 @@
+{
+    "dexterity": "22", 
+    "ac": "25, touch 15, flat-footed 19 (+6 Dex, +10 natural, -1 size)", 
+    "intelligence": "21", 
+    "resist": "cold 10, electricity 10, fire 10", 
+    "melee": "bite +20 (2d8+6/19-20 plus disease), 2 claws +19 (2d6+6 plus hunger)", 
+    "cr": "11", 
+    "xp": "12,800", 
+    "speed": "30 ft., fly 60 ft. (average)", 
+    "alignment": "NE", 
+    "size": "Large", 
+    "languages": "Abyssal, Draconic, Infernal; telepathy 100 ft.", 
+    "strength": "22", 
+    "constitution": "21", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "init": "+6", 
+    "environment": "any (Abaddon)", 
+    "source": "Bestiary 2", 
+    "charisma": "18", 
+    "immune": "acid, critical hits, death effects, disease, poison, sneak attack", 
+    "fortitude": "+11", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 11th; concentration +15)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i>, <i>see invisibility</i></p><p class=\"stat-block-2\">At will-<i>cause fear</i> (DC 15), <i>deeper darkness</i>, <i>greater teleport</i> (self plus 50 lbs. of objects only)</p><p class=\"stat-block-2\">3/day-<i>blight </i>(DC 19), <i>diminish plants</i>, quickened <i>magic missile</i></p><p class=\"stat-block-2\">1/day-<i>horrid wilting</i> (DC 22), <i>waves of fatigue</i></p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Blind-Fight, Combat Reflexes, Great Fortitude, Improved Critical (bite), Iron Will, Quicken Spell-Like Ability (magic missile), Weapon Focus (bite)", 
+    "senses": "darkvision 60 ft., detect good, detect magic; Perception +20", 
+    "description": "This foul creature looks like an emaciated humanoid with the head of a jackal.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A meladaemon radiates an aura of hunger to a radius of 20 feet. Every round a creature begins its turn within this aura, it must succeed at a DC 22 Fortitude save or take 1d6 nonlethal damage and become fatigued from extreme hunger. Creatures that do not need to eat are immune to this effect. The save DC is Constitution-based.", 
+                    "name": "Consumptive Aura", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Consumptive Aura", 
+                    "ability_types": {
+                        "ability_type_id": 109, 
+                        "section_id": 447, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 447, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 110, 
+                        "section_id": 448, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 448, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Daemonic wasting", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Disease/Daemonic wasting", 
+                            "contracted": "injury", 
+                            "section_id": 449, 
+                            "effect": "1d4 Constitution damage and 1d4 Charisma damage", 
+                            "onset": "1 day", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 22", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "A meladaemon's claw attack deals an additional 1d6 points of nonlethal damage as it causes sudden pangs of horrific hunger in its foe. Creatures that do not need to eat are immune to this effect.", 
+                    "name": "Hunger", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Hunger", 
+                    "ability_types": {
+                        "ability_type_id": 111, 
+                        "section_id": 450, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 450, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 446, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>As personifications of death from starvation and thirst, these withered fiends spend their time destroying resources and spreading hunger. Deacons of the Horseman of Famine, these creatures visit worlds throughout the planes, destroying acres of crops and slaughtering livestock in order to harvest souls for their honored master. Meladaemons delight in the slow death of starvation, going so far as to experiment with various bodily deficiencies and mortal weaknesses. Arrogant and utterly bound to their patron, meladaemons rarely work with others of their kind and never serve any of the other three Horsemen except in the rarest of circumstances.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 451
+        }, 
+        {
+            "body": "<p>Meladaemons stand approximately 12 feet tall and weigh 350 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 452
+        }
+    ], 
+    "hp": "147 (14d10+70)", 
+    "reach": "10 ft.", 
+    "section_id": 445, 
+    "wisdom": "17", 
+    "creature_type": "Outsider", 
+    "dr": "10/good", 
+    "name": "Daemon, Meladaemon", 
+    "base_attack": "+14", 
+    "skills": "Bluff +21, Fly +17, Heal +11, Intimidate +21, Knowledge (planes) +22, Knowledge (religion) +22, Perception +20, Sense Motive +20, Spellcraft +22, Stealth +19, Survival +20, Use Magic Device +14", 
+    "reflex": "+15", 
+    "cmd": "37", 
+    "cmb": "+21", 
+    "will": "+14", 
+    "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon", 
+    "aura": "consumptive aura (20 ft.)", 
+    "sr": "22", 
+    "organization": "solitary, pack (2-5), or cabal (6-12)", 
+    "creature_subtype": "daemon, evil, extraplanar"
+}

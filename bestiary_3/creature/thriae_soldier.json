@@ -1,0 +1,117 @@
+{
+    "dexterity": "17", 
+    "ac": "17, touch 13, flat-footed 14 (+4 armor, +3 Dex)", 
+    "special_attacks": "merope consumption", 
+    "intelligence": "12", 
+    "melee": "sting +10 (1d8+7 plus poison)", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "30 ft., fly 60 ft. (good)", 
+    "alignment": "LN", 
+    "size": "Medium", 
+    "languages": "Common, Sylvan", 
+    "strength": "20", 
+    "constitution": "16", 
+    "immune": "poison, sonic", 
+    "treasure": "standard (chain shirt, composite longbow [+5 Str] with 20 arrows, 1 dose of merope, other treasure)", 
+    "init": "+3", 
+    "environment": "any", 
+    "source": "Bestiary 3", 
+    "charisma": "15", 
+    "fortitude": "+4", 
+    "type": "creature", 
+    "feats": "Point-Blank Shot, Precise Shot, Rapid Shot", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +9", 
+    "description": "This creature has the upper body of a woman and the lower body of a bee. She wields a longbow with uncanny skill.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Thriae/Thriae Soldier/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Once per day as a standard action, a thriae soldier can consume a dose of merope in order to enhance her combat abilities for 1d6+3 rounds. Starting on the round after the merope is consumed, the thriae soldier gains a +2 insight bonus on attack rolls and saving throws, and gains fast healing 3.", 
+                    "name": "Merope Consumption", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Thriae/Thriae Soldier/Special Abilities/Merope Consumption", 
+                    "ability_types": {
+                        "ability_type_id": 585, 
+                        "section_id": 2105, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2105, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "As a free action, a thriae soldier can apply her venom to an arrow as she fires the shot. The save DC is Constitution-based. Sting or arrow:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Thriae/Thriae Soldier/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 586, 
+                        "section_id": 2106, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2106, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Thriae Soldier Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Thriae/Thriae Soldier/Special Abilities/Poison/Thriae Soldier Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2107, 
+                            "effect": "1d3 Strength", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 15", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2104, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The guardians of the thriae colony and its treasures, thriae soldiers make up the backbone of a hive's defenses. Whether patrolling the perimeter of the hive or protecting its queen and seers from attackers, soldiers are a crucial asset ensuring a colony's survival, and so it makes sense that they compose the majority of thriae populations. While not as spiritually powerful as their seer and queen kin, soldiers possess remarkable agility and skill with the bow. Guards remain stationed in pairs outside doors to important areas, such as the meditation chambers of seers and the enormous private quarters of the queen, and when their duties take them outside the walls of the hive, they travel in large convoys. </p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2108
+        }, 
+        {
+            "body": "<p>A thriae soldier's stinger carries within it especially potent venom similar to that of giant bees, and the soldier can easily apply this poison to her weapons. While most soldiers carry bows, they are also trained at an early age with a multitude of both melee and ranged weapons, and some prefer the feel of a sword or hammer. Regardless of the type, all thriae weapons and armors are expertly crafted, made of steel and gilded with intricate decorations of gold and amber-hued gems. Thriae soldiers are often talented artisans as well as warriors, and most create their own weapons to bear in combat.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2109
+        }, 
+        {
+            "body": "<p>Since there are exponentially more soldiers than seers in any given colony, thriae queens ration merope sparingly to soldiers, whose use of it doesn't provoke the divine insight cherished by thriae culture, but rather inspires courage and brute strength on the battlefield. When a thriae soldier consumes merope, her reflexes quicken, her wits sharpen, and she gains a second wind, so most individuals save their rationed doses for times of dire need. When circumstances are especially grim, commanders of thriae militias will order all of their troops to consume their merope at once, giving the company the final burst of strength it needs to turn the tide of battle.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2110
+        }, 
+        {
+            "body": "<p>Thriae soldiers are heavier-set than most of their slender thriae sisters, and average individuals weigh about 200 pounds and measure 6 feet from head to toe.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2111
+        }
+    ], 
+    "hp": "42 (5d10+15)", 
+    "section_id": 2103, 
+    "wisdom": "13", 
+    "creature_type": "Monstrous Humanoid", 
+    "ranged": "composite longbow +8 (1d8+5/&times;3 plus poison) or Rapid Shot +6/+6 (1d8+5/&times;3 plus poison)", 
+    "name": "Thriae Soldier", 
+    "base_attack": "+5", 
+    "skills": "Fly +13, Intimidate +10, Perception +9, Stealth +9, Survival +9", 
+    "reflex": "+7", 
+    "cmd": "23", 
+    "cmb": "+10", 
+    "will": "+5", 
+    "url": "pfsrd://Bestiary 3/Monsters/Thriae/Thriae Soldier", 
+    "organization": "pair, troop (3-8), or company (9-20 soldiers, 2-4 rangers of 3-5th level, 1-2 rogues of 4-6th level, and 1 fighter commander of 5-8th level)"
+}

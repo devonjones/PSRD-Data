@@ -1,0 +1,60 @@
+{
+    "body": "<p>You transfer some of your currently prepared spells, and the ability to cast them, to another creature. Only a creature with an Intelligence score of at least 5 and a Wisdom score of at least 9 can receive this boon. Only cleric spells from the schools of abjuration, divination, and conjuration (healing) can be transferred. The number and level of spells that the subject can be granted depends on its Hit Dice; even multiple castings of <i>imbue with spell ability</i> can't exceed this limit.</p>", 
+    "school": "evocation", 
+    "saving_throw": "Will negates (harmless)", 
+    "description": "Transfer spells to subject.", 
+    "url": "pfsrd://Core Rulebook/Spells/Imbue With Spell Ability", 
+    "type": "spell", 
+    "spell_resistance": "yes (harmless)", 
+    "casting_time": "10 minutes", 
+    "level_text": "Cleric: 4; Oracle: 4", 
+    "section_id": 317, 
+    "source": "Core Rulebook", 
+    "range": "touch", 
+    "levels": [
+        {
+            "class": "Cleric", 
+            "level": 4
+        }, 
+        {
+            "class": "Oracle", 
+            "level": 4
+        }
+    ], 
+    "effects": [
+        {
+            "text": "creature touched; see text", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "type": "DF"
+        }
+    ], 
+    "duration": "permanent until discharged (D)", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>HD of Recipient</th><th>Spells Imbued</th></tr></thead><tr class=\"odd\"><td>2 or lower</td><td>One 1st-level spell</td></tr><tr class=\"even\"><td>3&ndash;4</td><td>One or two 1st-level spells</td></tr><tr class=\"odd\"><td>5 or higher</td><td>One or two 1st-level spells and  one 2nd-level spell</td></tr></table>", 
+            "name": "HD of Recipient", 
+            "url": "pfsrd://Core Rulebook/Spells/Imbue With Spell Ability/HD of Recipient", 
+            "section_id": 318, 
+            "source": "Core Rulebook", 
+            "type": "table"
+        }, 
+        {
+            "body": "<p>The transferred spell's variable characteristics (range, duration, area, and the like) function according to your level, not the level of the recipient.</p><p>Once you cast <i>imbue with spell ability</i>, you cannot prepare a new 4th-level spell to replace it until the recipient uses the imbued spells or is slain, or until you dismiss the <i>imbue with spell ability</i> spell. In the meantime, you remain responsible to your deity or your principles for the use to which the spell is put. If the number of 4th-level spells you can cast decreases, and that number drops below your current number of active <i>imbue with spell ability</i> spells, the more recently cast imbued spells are dispelled.</p><p>To cast a spell with a verbal component, the subject must be able to speak. To cast a spell with a somatic component, it must be able to move freely. To cast a spell with a material component or focus, it must have the materials or focus.</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "section_id": 319
+        }
+    ], 
+    "component_text": "V, S, DF", 
+    "name": "Imbue With Spell Ability"
+}

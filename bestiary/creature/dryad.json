@@ -1,0 +1,123 @@
+{
+    "dexterity": "19", 
+    "ac": "17, touch 14, flat-footed 13 (+4 Dex, +3 natural)", 
+    "intelligence": "14", 
+    "racial_modifiers": "+6 Craft (wood)", 
+    "melee": "dagger +7 (1d4)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "30 ft.", 
+    "alignment": "CG", 
+    "size": "Medium", 
+    "languages": "Common, Elven, Sylvan; speak with plants", 
+    "strength": "10", 
+    "constitution": "13", 
+    "treasure": "standard (dagger, masterwork longbow with 20 arrows, other treasure)", 
+    "init": "+4", 
+    "environment": "temperate forests", 
+    "source": "Bestiary", 
+    "charisma": "18", 
+    "fortitude": "+5", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 6th)<p class=\"stat-block-2\">Constant-<i>speak with plants</i></p><p class=\"stat-block-2\">At will-<i>entangle</i> (DC 15), <i>tree shape</i>, <i>wood shape</i> (1 lb. only)</p><p class=\"stat-block-2\">3/day-<i>charm person</i> (DC 15), <i>deep slumber</i> (DC 17), <i>tree stride</i></p><p class=\"stat-block-2\">1/day-<i>suggestion</i> (DC 17)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Great Fortitude, Stealthy, Weapon Finesse", 
+    "senses": "low-light vision; Perception +11", 
+    "description": "This strange, beautiful woman has flesh that seems made of wood and vibrant hair that resembles leaves and blossoms.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Dryad/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A dryad can meld with any tree, similar to how the spell meld into stone functions. She can remain melded with a tree as long as she wishes.", 
+                    "name": "Tree Meld", 
+                    "url": "pfsrd://Bestiary/Monsters/Dryad/Special Abilities/Tree Meld", 
+                    "ability_types": {
+                        "ability_type_id": 315, 
+                        "section_id": 1312, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1312, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A dryad is mystically bonded to a single, enormous tree and must never stray more than 300 yards from it. Most dryad trees are oak trees, but other trees function as well (often having subtle influences on a specific dryad's personality and appearance). A dryad who moves 300 yards beyond her bonded tree immediately becomes sickened. Every hour thereafter, she must make a DC 15 Fortitude save to resist becoming nauseated for an hour. A dryad that is out of range of her bonded tree for 24 hours takes 1d6 points of Constitution damage, and another 1d6 points of Constitution damage every day that follows&mdash;eventually, this separation kills the dryad. A dryad can forge a new bond with a new tree by performing a 24-hour ritual and making a successful DC 20 Will save.", 
+                    "name": "Tree Dependent", 
+                    "url": "pfsrd://Bestiary/Monsters/Dryad/Special Abilities/Tree Dependent", 
+                    "ability_types": {
+                        "ability_type_id": 316, 
+                        "section_id": 1313, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1313, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "This works like the druid's wild empathy class feature, except the dryad has a +6 racial bonus on the check. Dryads with druid levels add this racial modifier to their wild empathy checks.", 
+                    "name": "Wild Empathy", 
+                    "url": "pfsrd://Bestiary/Monsters/Dryad/Special Abilities/Wild Empathy", 
+                    "ability_types": {
+                        "ability_type_id": 317, 
+                        "section_id": 1314, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1314, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A dryad has a +6 racial bonus to Craft checks involving wood, and is always treated as if she had masterwork artisan's woodworking tools when making such checks.", 
+                    "name": "Woodcraft", 
+                    "url": "pfsrd://Bestiary/Monsters/Dryad/Special Abilities/Woodcraft", 
+                    "ability_types": {
+                        "ability_type_id": 318, 
+                        "section_id": 1315, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1315, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1311, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Dryads are tree-fey who prefer secluded woodlands far from humanoids in need of lumber. Dryads' main interests are their own survival and that of their beloved forests, and they have been known to magically coerce passersby into aiding them in tasks they cannot complete. They are more likely to be friendly to non-evil druids and rangers, as they recognize a mutual respect for or empathy with nature.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1316
+        }, 
+        {
+            "body": "<p>Dryads are benign guardians of trees, and though they can do little in the way of direct violence, they can trap and disable threats to their homes or turn enemies into allies. Some keep one or more charmed humanoids in their territory to fend off or lead away attackers. Incapacitated foes are typically dragged to the edge of the forest by the dryad's allies and left there, but evil or overtly hostile ones are killed once combat is over.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1317
+        }
+    ], 
+    "hp": "27 (6d6+6)", 
+    "weaknesses": "tree dependent", 
+    "section_id": 1310, 
+    "wisdom": "15", 
+    "creature_type": "Fey", 
+    "special_qualities": "tree meld, wild empathy, woodcraft", 
+    "dr": "5/cold iron", 
+    "ranged": "masterwork longbow +8 (1d8)", 
+    "name": "Dryad", 
+    "base_attack": "+3", 
+    "skills": "Climb +9, Craft (sculpture) +11, Escape Artist +15, Handle Animal +10, Knowledge (nature) +11, Perception +11, Stealth +15, Survival +8", 
+    "reflex": "+9", 
+    "cmd": "17", 
+    "cmb": "+3", 
+    "will": "+7", 
+    "url": "pfsrd://Bestiary/Monsters/Dryad", 
+    "organization": "solitary, pair, or grove (3-8)"
+}

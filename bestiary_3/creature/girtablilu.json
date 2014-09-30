@@ -1,0 +1,125 @@
+{
+    "dexterity": "15", 
+    "ac": "22, touch 12, flat-footed 19 (+2 armor, +2 Dex, +1 dodge, +8 natural, -1 size)", 
+    "special_attacks": "constrict (1d6+5)", 
+    "intelligence": "10", 
+    "racial_modifiers": "+4 Climb, +4 Perception, +4 Stealth", 
+    "melee": "mwk spear +15/+10 (1d8+7/&times;3), 2 claws +9 (1d6+2 plus grab), sting +9 (1d6+2 plus poison)", 
+    "cr": "8", 
+    "xp": "4,800", 
+    "speed": "50 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "languages": "Common, Girtablilu", 
+    "strength": "20", 
+    "constitution": "21", 
+    "space": "10 ft.", 
+    "treasure": "standard (leather armor, masterwork spear)", 
+    "init": "+6", 
+    "environment": "warm deserts", 
+    "source": "Bestiary 3", 
+    "charisma": "11", 
+    "fortitude": "+8", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 10th; concentration +10)<p class=\"stat-block-2\">1/day-<i>summon nature's ally V</i> (1d3 giant scorpions)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Dodge, Improved Initiative, Lightning Reflexes, Mobility, Vital Strike", 
+    "senses": "darkvision 60 ft., tremorsense 30 ft.; Perception +14", 
+    "description": "The body of a spear-wielding woman rises from the front of this monstrously huge scorpion.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Sting", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 280, 
+                        "section_id": 977, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 977, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Girtablilu Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities/Poison/Girtablilu Venom", 
+                            "contracted": "injury", 
+                            "section_id": 978, 
+                            "effect": "1d4 Dexterity", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 20", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "This ability functions as a druid's wild empathy ability, save that it works only on scorpions. A girtablilu gains a racial bonus on this check equal to its Hit Dice (normally +10). Scorpions are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing girtablilus to train scorpions and use them as guardians (though it does not grant them skills or feats).", 
+                    "name": "Scorpion Empathy", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities/Scorpion Empathy", 
+                    "ability_types": {
+                        "ability_type_id": 281, 
+                        "section_id": 979, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 979, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 976, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Girtablilus fiercely guard ancient places and treasures lost to history. Far from civilized eyes, they thrive and piously protect their charges with the aid of monstrously large scorpions that girtablilus keep as pets.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 980
+        }, 
+        {
+            "body": "<p>All girtablilus share a zeal for religion, although the objects of veneration vary from tribe to tribe. Some girtablilu tribes still serve long-forgotten deities, preserving the divinities' names and holy rituals. Others embrace religions derived from prehistoric worship, devoted to the idea of gods that once were or might never have been.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 981
+        }, 
+        {
+            "body": "<p>Girtablilu leaders are clerics or oracles, and are responsible for the tribe's religious observances and laws. Tradition and service to the group are important. Those who violate tribal beliefs are killed or exiled into the harsh wasteland. Girtablilus believe that no sacrifice in life (including death in the service of the gods) goes unrewarded in the hereafter; this belief makes them fierce and fearless fighters.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 982
+        }, 
+        {
+            "body": "<p>A girtablilu is 13 feet long and weighs 800 pounds.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 983
+        }
+    ], 
+    "hp": "105 (10d10+50)", 
+    "reach": "10 ft.", 
+    "section_id": 975, 
+    "wisdom": "14", 
+    "creature_type": "Monstrous Humanoid", 
+    "special_qualities": "scorpion empathy +10, undersized weapons", 
+    "ranged": "mwk spear +12 (1d8+5/&times;3)", 
+    "name": "Girtablilu", 
+    "base_attack": "+10", 
+    "skills": "Climb +17, Craft (any one) +8, Knowledge (history) +5, Perception +14, Sense Motive +7, Stealth +10, Survival +15", 
+    "reflex": "+11", 
+    "cmd": "29 (41 vs. trip)", 
+    "cmb": "+16 (+20 grapple)", 
+    "will": "+9", 
+    "url": "pfsrd://Bestiary 3/Monsters/Girtablilu", 
+    "organization": "solitary, pair, patrol (3-5 plus 2-4 giant scorpions), or cult (6-14 plus 3-6 temple guardians of 3rd level, 1 cleric or oracle leader of 6th level, and 4-9 giant scorpions)"
+}

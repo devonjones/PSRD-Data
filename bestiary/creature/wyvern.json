@@ -1,0 +1,106 @@
+{
+    "dexterity": "12", 
+    "ac": "19, touch 10, flat-footed 18 (+1 Dex, +9 natural, -1 size)", 
+    "special_attacks": "rake (2 talons +10, 1d6+4)", 
+    "intelligence": "7", 
+    "racial_modifiers": "+4 Perception", 
+    "melee": "sting +10 melee (1d6+4 plus poison), bite +10 melee (2d6+4 plus grab), 2 wings +5 (1d6+2)", 
+    "cr": "6", 
+    "xp": "2,400", 
+    "speed": "20 ft., fly 60 ft. (poor)", 
+    "alignment": "N", 
+    "size": "Large", 
+    "languages": "Draconic", 
+    "strength": "19", 
+    "constitution": "18", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "init": "+5", 
+    "environment": "temperate or warm hills", 
+    "source": "Bestiary", 
+    "charisma": "9", 
+    "immune": "sleep, paralysis", 
+    "fortitude": "+9", 
+    "type": "creature", 
+    "feats": "Flyby Attack, Improved Initiative, Iron Will, Skill Focus (Perception)", 
+    "senses": "darkvision 60 ft., low-light vision, scent; Perception +18", 
+    "description": "A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two taloned feet and roars a challenge.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Wyvern/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based. Sting:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Wyvern/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 586, 
+                        "section_id": 2849, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2849, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Wyvern Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Wyvern/Special Abilities/Poison/Wyvern Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2850, 
+                            "effect": "1d4 Constitution damage", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 17", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2848, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Wyverns are nasty, brutish, and violent reptilian beasts akin to more powerful dragons. They are always aggressive and impatient, and are quick to resort to force in order to accomplish their goals. For this reason, dragons generally look down upon wyverns, considering their distant cousins nothing more than primitive savages with a distinct lack of style or wit. In most cases, this generalization is spot-on. Although far from animalistic in intellect, and capable of speech, most wyverns simply can't be bothered with the subtlety of diplomacy, and prefer to fight first and parley later, and even then only if faced with a foe they can neither defeat nor flee from.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2851
+        }, 
+        {
+            "body": "<p>Wyverns are territorial creatures. Though they occasionally hunt in small groups for large prey, they are generally solitary creatures, hunting in areas ranging in size from 100 to 200 square miles. Wyverns have been known to fight to the death among themselves for the right to hunt a territory rich with prey.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2852
+        }, 
+        {
+            "body": "<p>Although constantly hungry and prone to mayhem, a wyvern that can be befriended (usually through a delicate combination of flattery, intimidation, food, and treasure) becomes a powerful ally. They often serve giants and monstrous humanoids as guardians, and some lizardfolk and boggard tribes even use them as mounts, although such arrangements are quite costly in terms of food and gold, for few are the wyverns who would willingly serve as steeds for lesser creatures for long.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2853
+        }, 
+        {
+            "body": "<p>A wyvern is about 16 feet in length, half of which is tail. The average wyvern weighs 2,000 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2854
+        }
+    ], 
+    "hp": "73 (7d12+28)", 
+    "reach": "5 ft.", 
+    "section_id": 2847, 
+    "wisdom": "12", 
+    "creature_type": "Dragon", 
+    "name": "Wyvern", 
+    "base_attack": "+7", 
+    "skills": "Fly +5, Perception +18, Sense Motive +11, Stealth +7", 
+    "reflex": "+6", 
+    "cmd": "23", 
+    "cmb": "+12 (+16 grapple)", 
+    "will": "+8", 
+    "url": "pfsrd://Bestiary/Monsters/Wyvern", 
+    "organization": "solitary, pair, or flight (3-6)"
+}

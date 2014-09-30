@@ -1,0 +1,61 @@
+{
+    "body": "<p>You grab a creature with telekinesis and use it to batter nearby opponents or objects. You must target a specific creature when casting this spell and once you select that creature you cannot switch to another. Each round, as a standard action, you can attempt to hurl the target at any creature or object within 30 feet of it. You must make an attack roll whenever you use the target as a weapon. The attack bonus for this attack is equal to your caster level plus either your Intelligence or Charisma modifier (whichever is higher). If you successfully hit the new target with the creature both it and the creature take damage based on the creature's size.</p>", 
+    "school": "transmutation", 
+    "saving_throw": "Fortitude partial", 
+    "description": "Allows you to telekinetically use a creature as a weapon.", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Enemy Hammer", 
+    "type": "spell", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "level_text": "Sorcerer: 6; Wizard: 6", 
+    "section_id": 100, 
+    "source": "Advanced Player's Guide", 
+    "range": "long (400 ft. + 40 ft./level)", 
+    "levels": [
+        {
+            "class": "Sorcerer", 
+            "level": 6
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 6
+        }
+    ], 
+    "effects": [
+        {
+            "text": "one creature", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "puppet strings", 
+            "type": "M"
+        }
+    ], 
+    "duration": "1 round/level (D)", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>Creature Size</th><th>Damage Dealt</th></tr></thead><tbody><tr class=\"odd\"><td>Fine</td><td>1d4</td></tr><tr class=\"even\"><td>Diminutive</td><td>1d6</td></tr><tr class=\"odd\"><td>Tiny</td><td>1d8</td></tr><tr class=\"even\"><td>Small</td><td>1d10</td></tr><tr class=\"odd\"><td>Medium</td><td>2d6</td></tr><tr class=\"even\"><td>Large</td><td>2d8</td></tr><tr class=\"odd\"><td>Huge</td><td>2d10</td></tr><tr class=\"even\"><td>Gargantuan</td><td>3d6</td></tr><tr class=\"odd\"><td>Colossal</td><td>3d8</td></tr></tbody></table>", 
+            "name": "Table: Enemy Hammer: Creature Size/Damage Dealt", 
+            "url": "pfsrd://Advanced Players Guide/Spells/Enemy Hammer/Table Enemy Hammer Creature Size/Damage Dealt", 
+            "section_id": 101, 
+            "source": "Advanced Player's Guide", 
+            "type": "table"
+        }, 
+        {
+            "body": "<p>The target creature can make a Fortitude saving throw each time you attempt to use it as a weapon. If it makes its saving throw it can act normally, but if it fails its save it loses all actions for the round and ends its turn prone in a square adjacent to the target of your attack. However, if the creature chooses to resist your efforts to move it, taking no other actions for the round, it gets a +4 circumstance bonus on its saving throw. The spell ends immediately if the target creature dies or is destroyed. </p>", 
+            "source": "Advanced Player's Guide", 
+            "type": "section", 
+            "section_id": 102
+        }
+    ], 
+    "component_text": "V, S, M (puppet strings)", 
+    "name": "Enemy Hammer"
+}

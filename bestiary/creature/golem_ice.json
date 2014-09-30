@@ -1,0 +1,101 @@
+{
+    "dexterity": "9", 
+    "ac": "17, touch 9, flat-footed 17 (-1 Dex, +8 natural)", 
+    "special_attacks": "breath weapon (20-ft. cone, 3d6 cold damage, Reflex DC 13 half, usable once every 1d4 rounds), cold (1d6), icy destruction", 
+    "intelligence": "-", 
+    "melee": "2 slams +9 (1d6+3 plus 1d6 cold)", 
+    "cr": "5", 
+    "xp": "1,600", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "16", 
+    "constitution": "-", 
+    "immune": "construct traits, cold, magic", 
+    "treasure": "none", 
+    "init": "-1", 
+    "environment": "any cold", 
+    "source": "Bestiary", 
+    "charisma": "1", 
+    "fortitude": "+2", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Golem/Ice/Golem/Ice/Special Abilities", 
+            "sections": [
+                {
+                    "body": "An ice golem's body generates intense cold, dealing 1d6 points of damage with its touch. Creatures attacking an ice golem with unarmed strikes or natural weapons take this same cold damage each time one of their attacks hits.", 
+                    "name": "Cold", 
+                    "url": "pfsrd://Bestiary/Monsters/Golem/Ice/Golem/Ice/Special Abilities/Cold", 
+                    "ability_types": {
+                        "ability_type_id": 382, 
+                        "section_id": 1692, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1692, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When reduced to 0 hit points, an ice golem shatters in an explosion of jagged shards of ice. All creatures within a 10-foot burst take 3d6 points of slashing damage and 2d6 points of cold damage; a DC 13 Reflex save halves the damage. The save DC is Constitution-based.", 
+                    "name": "Icy Destruction", 
+                    "url": "pfsrd://Bestiary/Monsters/Golem/Ice/Golem/Ice/Special Abilities/Icy Destruction", 
+                    "ability_types": {
+                        "ability_type_id": 383, 
+                        "section_id": 1693, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1693, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "An ice golem is immune to any spell or spell-like ability that allows spell resistance, with the exception of spells and spell-like abilities that have the Fire descriptor, which affect it normally. In addition, certain spells and effects function differently against the creature, as noted below.<ul><li>A magical attack that deals electricity damage slows an ice golem (as the <i>slow</i> spell) for 2d6 rounds, with no saving throw.</li><li>A magical attack that deals cold damage breaks any <i>slow</i> effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. An ice golem gets no saving throw against cold effects.</li></ul>", 
+                    "name": "Immunity to Magic", 
+                    "url": "pfsrd://Bestiary/Monsters/Golem/Ice/Golem/Ice/Special Abilities/Immunity to Magic", 
+                    "ability_types": {
+                        "ability_type_id": 384, 
+                        "section_id": 1694, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1694, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1691, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Ice golems are humanoid automatons formed of carved ice. Their appearance can range from roughly chiseled figures of ice and snow to elaborately detailed ice sculptures and beautiful crystalline statues.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1695
+        }, 
+        {
+            "body": "<p>Ice golems cannot speak, and move with the sound of cracking and popping ice. An ice golem stands 7 feet tall and weighs 500 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1696
+        }
+    ], 
+    "hp": "53 (6d10+20)", 
+    "weaknesses": "vulnerability to fire", 
+    "section_id": 1690, 
+    "wisdom": "11", 
+    "creature_type": "Construct", 
+    "dr": "5/adamantine", 
+    "name": "Golem, Ice", 
+    "base_attack": "+6", 
+    "url": "pfsrd://Bestiary/Monsters/Golem/Ice/Golem/Ice", 
+    "reflex": "+1", 
+    "cmd": "18", 
+    "cmb": "+9", 
+    "will": "+2", 
+    "organization": "solitary or gang (2-4)", 
+    "creature_subtype": "cold"
+}

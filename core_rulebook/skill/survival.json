@@ -1,0 +1,117 @@
+{
+    "type": "skill", 
+    "name": "Survival", 
+    "url": "pfsrd://Core Rulebook/Skills/Survival", 
+    "attribute": "Wis", 
+    "section_id": 1027, 
+    "source": "Core Rulebook", 
+    "trained_only": true, 
+    "armor_check_penalty": true, 
+    "sections": [
+        {
+            "body": "<p>You can keep yourself and others safe and fed in the wild. The table below gives the DCs for various tasks that require Survival checks.</p>", 
+            "name": "Check", 
+            "sections": [
+                {
+                    "body": "<table><thead><tr><th>Survival DC</th><th>Task</th></tr></thead><tr class=\"odd\"><td>10</td><td style=\"white-space:normal;\">Get along in the wild. Move up to half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10.</td></tr><tr class=\"even\"><td>15</td><td style=\"white-space:normal;\">Gain a +2 bonus on all Fortitude saves against severe weather while moving up to half your overland speed, or gain a +4 bonus if you remain stationary. You may grant the same bonus to one other character for every 1 point by which your Survival check result exceeds 15.</td></tr><tr class=\"odd\"><td>15</td><td style=\"white-space:normal;\">Keep from getting lost or avoid natural hazards, such as quicksand.</td></tr><tr class=\"even\"><td>15</td><td style=\"white-space:normal;\">Predict the weather up to 24 hours in advance. For every 5 points by which your Survival check result exceeds 15, you can predict the weather for one additional day in advance.</td></tr></table>", 
+                    "name": "Survival DC", 
+                    "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Survival DC", 
+                    "section_id": 1029, 
+                    "source": "Core Rulebook", 
+                    "type": "table"
+                }, 
+                {
+                    "body": "<p id=\"follow-tracks\">To find tracks or to follow them for 1 mile requires a successful Survival check. You must make another Survival check every time the tracks become difficult to follow. If you are not trained in this skill, you can make untrained checks to find tracks, but you can follow them only if the DC for the task is 10 or lower. Alternatively, you can use the Perception skill to find a footprint or similar sign of a creature's passage using the same DCs, but you can't use Perception to follow tracks, even if someone else has already found them.</p><p>You move at half your normal speed while following tracks (or at your normal speed with a &ndash;5 penalty on the check, or at up to twice your normal speed with a &ndash;20 penalty on the check). The DC depends on the surface and the prevailing conditions, as given on the table.</p>", 
+                    "name": "Follow Tracks", 
+                    "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Follow Tracks", 
+                    "sections": [
+                        {
+                            "body": "<table><thead><tr><th>Surface</th><th>Survival DC</th></tr></thead><tbody><tr class=\"odd\"><td>Very soft ground</td><td>5</td></tr><tr class=\"even\"><td>Soft ground</td><td>10</td></tr><tr class=\"odd\"><td>Firm ground</td><td>15</td></tr><tr class=\"even\"><td>Hard ground</td><td>20</td></tr></tbody></table>", 
+                            "name": "Surface", 
+                            "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Follow Tracks/Surface", 
+                            "section_id": 1031, 
+                            "source": "Core Rulebook", 
+                            "type": "table"
+                        }
+                    ], 
+                    "section_id": 1030, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.</p>", 
+                    "name": "Very Soft Ground", 
+                    "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Very Soft Ground", 
+                    "section_id": 1032, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which a creature leaves frequent but shallow footprints.</p>", 
+                    "name": "Soft Ground", 
+                    "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Soft Ground", 
+                    "section_id": 1033, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs and very dirty or dusty floors). The creature might leave some traces (broken branches or tufts of hair), but it leaves only occasional or partial footprints.</p>", 
+                    "name": "Firm Ground", 
+                    "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Firm Ground", 
+                    "section_id": 1034, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles). </p>", 
+                    "name": "Hard Ground", 
+                    "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Hard Ground", 
+                    "sections": [
+                        {
+                            "body": "<table><thead><tr><th>Condition</th><th>Survival DC Modifier</th></tr></thead><tr class=\"odd\"><td>Every three creatures in the group being tracked</td><td>&ndash;1</td></tr><tr class=\"even\"><td colspan=\"2\">Size of creature or creatures being tracked:<sup>1</sup> </td></tr><tr class=\"odd\"><td class=\"indent\">Fine</td><td>+8</td></tr><tr class=\"even\"><td class=\"indent\">Diminutive</td><td>+4</td></tr><tr class=\"odd\"><td class=\"indent\">Tiny</td><td>+2</td></tr><tr class=\"even\"><td class=\"indent\">Small</td><td>+1</td></tr><tr class=\"odd\"><td class=\"indent\">Medium</td><td>+0</td></tr><tr class=\"even\"><td class=\"indent\">Large</td><td>&ndash;1</td></tr><tr class=\"odd\"><td class=\"indent\">Huge</td><td>&ndash;2</td></tr><tr class=\"even\"><td class=\"indent\">Gargantuan</td><td>&ndash;4</td></tr><tr class=\"odd\"><td class=\"indent\">Colossal</td><td>&ndash;8</td></tr><tr class=\"even\"><td>Every 24 hours since the trail was made</td><td>+1</td></tr><tr class=\"odd\"><td>Every hour of rain since the trail was made</td><td>+1</td></tr><tr class=\"even\"><td>Fresh snow since the trail was made</td><td>+10</td></tr><tr class=\"odd\"><td colspan=\"2\">Poor visibility:<sup>2</sup> </td></tr><tr class=\"even\"><td class=\"indent\">Overcast or moonless night</td><td>+6</td></tr><tr class=\"odd\"><td class=\"indent\">Moonlight</td><td>+3</td></tr><tr class=\"even\"><td class=\"indent\">Fog or precipitation</td><td>+3</td></tr><tr class=\"odd\"><td>Tracked party hides trail (and moves at half speed)</td><td>+5</td></tr><tfoot><tr><td colspan=\"2\">1 For a group of mixed sizes, apply only the modifier for the largest size category.</td></tr><tr><td colspan=\"2\">2 Apply only the largest modifier from this category.</td></tr></tfoot></table>", 
+                            "name": "Condition", 
+                            "url": "pfsrd://Core Rulebook/Skills/Survival/Check/Hard Ground/Condition", 
+                            "section_id": 1036, 
+                            "source": "Core Rulebook", 
+                            "type": "table"
+                        }, 
+                        {
+                            "body": "<p>Several modifiers may apply to the Survival check, as given on the table above.</p>", 
+                            "source": "Core Rulebook", 
+                            "type": "section", 
+                            "section_id": 1037
+                        }
+                    ], 
+                    "section_id": 1035, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }
+            ], 
+            "section_id": 1028, 
+            "source": "Core Rulebook", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Varies. A single Survival check may represent activity over the course of hours or a full day. A Survival check made to find tracks is at least a full-round action, and it may take even longer.</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "name": "Action", 
+            "section_id": 1038
+        }, 
+        {
+            "body": "<p>Varies. For getting along in the wild or for gaining the Fortitude save bonus noted in the first table above, you make a Survival check once every 24 hours. The result of that check applies until the next check is made. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one. Retries to avoid getting lost in a specific situation or to avoid a specific natural hazard are not allowed. For finding tracks, you can retry a failed check after 1 hour (outdoors) or 10 minutes (indoors) of searching.</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "name": "Try Again", 
+            "section_id": 1039
+        }, 
+        {
+            "body": "<p>If you are trained in Survival, you can automatically determine where true north lies in relation to yourself.</p><p>A ranger gains a bonus on Survival checks when using this skill to find or follow the tracks of a favored enemy.</p><p>If you have the Self-Sufficient feat, you get a bonus on Survival checks (see Feats).</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "name": "Special", 
+            "section_id": 1040
+        }
+    ], 
+    "description": "You are skilled at surviving in the wild and at navigating in the wilderness. You also excel at following trails and tracks left by others."
+}

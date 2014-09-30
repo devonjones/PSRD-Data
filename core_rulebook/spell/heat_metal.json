@@ -1,0 +1,60 @@
+{
+    "body": "<p><i>Heat metal</i> causes metal objects to become red-hot. Unattended, nonmagical metal gets no saving throw. Magical metal is allowed a saving throw against the spell. An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.</p><p>A creature takes fire damage if its equipment is heated. It takes full damage if its armor, shield, or weapon is affected. The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing or wielding such an item.</p><p>On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell's duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, and causes more damage, as shown on the table below.</p>", 
+    "school": "transmutation", 
+    "saving_throw": "Will negates (object)", 
+    "description": "Makes metal so hot it damages those who touch it.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Heat Metal", 
+    "type": "spell", 
+    "spell_resistance": "yes (object)", 
+    "casting_time": "1 standard action", 
+    "level_text": "Druid: 2", 
+    "section_id": 286, 
+    "descriptor": [
+        "fire"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "levels": [
+        {
+            "class": "Druid", 
+            "level": 2
+        }
+    ], 
+    "descriptor_text": "fire", 
+    "effects": [
+        {
+            "text": "metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lbs. of metal/level, all of which must be within a 30-ft. circle", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "type": "DF"
+        }
+    ], 
+    "duration": "7 rounds", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>Round</th><th>Metal Temperature</th><th>Damage</th></tr></thead><tbody><tr class=\"odd\"><td>1</td><td>Warm</td><td>None</td></tr><tr class=\"even\"><td>2</td><td>Hot</td><td>1d4 points</td></tr><tr class=\"odd\"><td>3&ndash;5</td><td>Searing</td><td>2d4 points</td></tr><tr class=\"even\"><td>6</td><td>Hot</td><td>1d4 points</td></tr><tr class=\"odd\"><td>7</td><td>Warm</td><td>None</td></tr></tbody></table>", 
+            "name": "Round", 
+            "url": "pfsrd://Core Rulebook/Spells/Heat Metal/Round", 
+            "section_id": 287, 
+            "source": "Core Rulebook", 
+            "type": "table"
+        }, 
+        {
+            "body": "<p>Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, <i>heat metal</i> deals half damage and boils the surrounding water.</p><p><i>Heat metal</i> counters and dispels <i>chill metal</i>.</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "section_id": 288
+        }
+    ], 
+    "component_text": "V, S, DF", 
+    "name": "Heat Metal"
+}

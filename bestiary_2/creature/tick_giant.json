@@ -1,0 +1,98 @@
+{
+    "dexterity": "10", 
+    "ac": "16, touch 11, flat-footed 16 (+5 natural, +1 size)", 
+    "special_attacks": "blood drain (1 Constitution)", 
+    "intelligence": "-", 
+    "racial_modifiers": "+4 Stealth", 
+    "melee": "bite +2 (1d4 plus grab, attach, and disease)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "20 ft., climb 20 ft.", 
+    "alignment": "N", 
+    "size": "Small", 
+    "strength": "11", 
+    "constitution": "15", 
+    "immune": "mind-affecting effects", 
+    "treasure": "none", 
+    "init": "+0", 
+    "environment": "temperate forests", 
+    "source": "Bestiary 2", 
+    "charisma": "2", 
+    "fortitude": "+5", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., scent; Perception +0", 
+    "description": "This dog-sized tick has a grotesquely bulbous body and a thin head equipped with hooked mandibles. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A giant tick can grab targets of any size, and has a +8 racial bonus on grapple checks rather than the normal +4 bonus most creatures with grab possess.", 
+                    "name": "Grab", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities/Grab", 
+                    "ability_types": {
+                        "ability_type_id": 496, 
+                        "section_id": 2003, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2003, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 497, 
+                        "section_id": 2004, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2004, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Red ache", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities/Disease/Red ache", 
+                            "contracted": "injury", 
+                            "section_id": 2005, 
+                            "effect": "1d6 Strength damage", 
+                            "onset": "1d3 days", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 13", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2002, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>In areas where large creatures like megafauna or dinosaurs dwell, the giant tick behaves much like its smaller kin&mdash;it lies in wait in the undergrowth, and when a suitable host passes by, it drops onto the body to feed. In other areas, these vermin are much more aggressive, and actively hunt smaller prey like dogs, livestock, or even humanoids. A giant tick drains blood quickly, but once it has caused 6 points of Constitution damage, it drops off, sated, to crawl away to digest. A giant tick is 3 feet long and weighs 50 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 2006
+        }
+    ], 
+    "hp": "13 (2d8+4)", 
+    "section_id": 2001, 
+    "wisdom": "11", 
+    "creature_type": "Vermin", 
+    "name": "Tick, Giant", 
+    "base_attack": "+1", 
+    "skills": "Climb +8, Stealth +8", 
+    "reflex": "+0", 
+    "cmd": "10 (22 vs. trip)", 
+    "cmb": "+0 (+8 grapple)", 
+    "will": "+0", 
+    "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant", 
+    "organization": "solitary, pair, cluster (3-6), or nest (7-12)"
+}

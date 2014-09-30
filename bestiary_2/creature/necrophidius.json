@@ -1,0 +1,131 @@
+{
+    "dexterity": "17", 
+    "ac": "15, touch 13, flat-footed 12 (+3 Dex, +2 natural)", 
+    "special_attacks": "dance of death", 
+    "intelligence": "-", 
+    "melee": "bite +6 (1d8+4 plus paralysis)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "16", 
+    "constitution": "-", 
+    "immune": "construct traits", 
+    "treasure": "none", 
+    "init": "+3", 
+    "environment": "any", 
+    "source": "Bestiary 2", 
+    "charisma": "1", 
+    "fortitude": "+1", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +0", 
+    "description": "The soft scrape of bone reveals the long, sinuous skeleton of a large snake, its head a humanoid skull with a snake's jaws.", 
+    "sections": [
+        {
+            "body": "<p>+12 Stealth</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1432
+        }, 
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Necrophidius/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A necrophidius can entrance opponents by swaying back and forth as a full-round action. All creatures within 30 feet who can see the necrophidius when it uses its dance of death must succeed on a DC 15 Will save or be dazed for 2d4 rounds. This is a mind-affecting effect. The save DC is Constitution-based and includes a +4 racial bonus.", 
+                    "name": "Dance of Death", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Necrophidius/Special Abilities/Dance of Death", 
+                    "ability_types": {
+                        "ability_type_id": 346, 
+                        "section_id": 1434, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1434, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Any living creature that is bitten by a necrophidius must succeed on a DC 13 Fortitude save or be paralyzed for 1d4 rounds. The save DC is Constitution-based and includes a +2 racial bonus.", 
+                    "name": "Paralysis", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Necrophidius/Special Abilities/Paralysis", 
+                    "ability_types": {
+                        "ability_type_id": 347, 
+                        "section_id": 1435, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1435, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1433, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Despite its sinister appearance, the snake-like necrophidius is not an undead creature. Rather, it is a magical construct built from the skeleton of a giant snake and then mounted with the skull of a humanoid creature. Fangs are cemented into the jaws of the skull, after which the entire creation can be brought to life by a series of obscure and expensive rituals&mdash;these rituals are traditionally well guarded by those who discover them.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1436
+        }, 
+        {
+            "body": "<p>As a mindless construct that requires neither food nor sleep, a necrophidius makes an excellent guardian, and its innate stealth allows it to slip up on the unwary undetected. In certain areas, the necrophidius is commonly employed as an assassin, able to disable its quarries with its dance of death or paralyzing bite before disposing of them in a gruesome manner&mdash;as long as the assassination doesn't require any particular intelligence to carry out. Particularly macabre creators might even construct the creature from the skull of a friend or loved one of the intended victim in order to magnify the horror of the assassination, leaving much of the flesh on the skull so the victim can recognize its source. This flesh rots eventually&mdash;only freshly crafted necrophidiuses have this grisly feature (although regular applications of <i>gentle repose</i> spells can keep such a morbid decoration fresh for a much longer period of time).</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1437
+        }, 
+        {
+            "body": "<p>Although a necrophidius is mindless, it can follow the simple commands of its creator. These can include commands to lie dormant until some specific condition is met or to follow and kill an indicated target to the exclusion of all other activities.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1438
+        }, 
+        {
+            "body": "<p>A typical necrophidius is 10 feet long and weighs 200 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1439
+        }, 
+        {
+            "body": "<p>A necrophidius's body consists of a human skull and the skeletal remains of a constrictor snake, all treated with rare oils and powders worth 1,000 gp.</p>", 
+            "name": "Construction", 
+            "sections": [
+                {
+                    "name": "Necrophidius", 
+                    "cl": "10th", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Necrophidius/Construction/Necrophidius", 
+                    "price": "7,500 gp", 
+                    "misc": {
+                        "Construction": {
+                            "Skill": "Craft (sculpture) or Heal DC 15", 
+                            "Cost": "4,250 gp", 
+                            "Requirements": "Craft Construct, cat's grace, daze monster, geas/quest, ghoul touch, creator must be caster level 7th"
+                        }
+                    }, 
+                    "section_id": 1441, 
+                    "source": "Bestiary 2", 
+                    "type": "item"
+                }
+            ], 
+            "section_id": 1440, 
+            "source": "Bestiary 2", 
+            "type": "section"
+        }
+    ], 
+    "hp": "36 (3d10+20)", 
+    "section_id": 1431, 
+    "wisdom": "11", 
+    "creature_type": "Construct", 
+    "dr": "5/bludgeoning", 
+    "name": "Necrophidius", 
+    "base_attack": "+3", 
+    "skills": "Stealth +15", 
+    "reflex": "+4", 
+    "cmd": "19 (can't be tripped)", 
+    "cmb": "+6", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary 2/Monsters/Necrophidius", 
+    "organization": "solitary or coil (2-6)"
+}

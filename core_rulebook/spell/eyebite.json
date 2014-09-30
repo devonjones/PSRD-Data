@@ -1,0 +1,74 @@
+{
+    "body": "<p>Each round, you can target a single living creature, striking it with waves of power. Depending on the target's HD, this attack has as many as three effects.</p>", 
+    "school": "necromancy", 
+    "saving_throw": "Fortitude negates", 
+    "description": "Target becomes panicked, sickened, and comatose.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Eyebite", 
+    "type": "spell", 
+    "spell_resistance": "yes", 
+    "casting_time": "1 standard action", 
+    "level_text": "Alchemist: 6; Bard: 6; Sorcerer: 6; Witch: 6; Wizard: 6", 
+    "section_id": 217, 
+    "descriptor": [
+        "emotion", 
+        "pain"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "levels": [
+        {
+            "class": "Alchemist", 
+            "level": 6
+        }, 
+        {
+            "class": "Bard", 
+            "level": 6
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 6
+        }, 
+        {
+            "class": "Witch", 
+            "level": 6
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 6
+        }
+    ], 
+    "descriptor_text": "emotion, pain", 
+    "effects": [
+        {
+            "text": "one living creature", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "1 round/level", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>HD</th><th>Effect</th></tr></thead><tbody><tr class=\"odd\"><td>10 or more</td><td>Sickened</td></tr><tr class=\"even\"><td>5&ndash;9</td><td>Panicked, sickened</td></tr><tr class=\"odd\"><td>4 or less</td><td>Comatose, panicked, sickened</td></tr></tbody></table>", 
+            "name": "HD", 
+            "url": "pfsrd://Core Rulebook/Spells/Eyebite/HD", 
+            "section_id": 218, 
+            "source": "Core Rulebook", 
+            "type": "table"
+        }, 
+        {
+            "body": "<p>The effects are cumulative and concurrent.</p><p><i>Sickened</i>: Sudden pain and fever sweeps over the subject's body. A creature affected by this spell remains sickened for 10 minutes per caster level. The effects cannot be negated by a <i>remove disease</i> or <i>heal</i> spell, but a <i>remove curse</i> is effective.</p><p><i>Panicked</i>: The subject becomes panicked for 1d4 rounds. Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time. This is a fear effect.</p><p><i>Comatose</i>: The subject falls into a catatonic coma for 10 minutes per caster level. During this time, it cannot be awakened by any means short of dispelling the effect. This is not a <i>sleep</i> effect, and thus elves are not immune to it.</p><p>You must spend a swift action each round after the first to target a foe.</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "section_id": 219
+        }
+    ], 
+    "component_text": "V, S", 
+    "name": "Eyebite"
+}

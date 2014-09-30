@@ -1,0 +1,109 @@
+{
+    "dexterity": "22", 
+    "ac": "21, touch 21, flat-footed 14 (+6 Dex, +1 dodge, +4 size)", 
+    "special_attacks": "distraction (DC 18), inhabit", 
+    "intelligence": "6", 
+    "resist": "fire 10", 
+    "melee": "swarm (3d6 plus distraction and poison)", 
+    "cr": "8", 
+    "xp": "4,800 each", 
+    "speed": "5 ft., fly 40 ft. (good)", 
+    "alignment": "LE", 
+    "size": "Diminutive", 
+    "languages": "Infernal", 
+    "strength": "1", 
+    "constitution": "14", 
+    "space": "10 ft.", 
+    "treasure": "incidental", 
+    "init": "+10", 
+    "environment": "any (Hell)", 
+    "source": "Bestiary 3", 
+    "charisma": "9", 
+    "immune": "swarm traits, weapon damage", 
+    "fortitude": "+10", 
+    "type": "creature", 
+    "feats": "Ability Focus (poison), Dodge, Improved Initiative, Iron Will, Skill Focus (Perception), Toughness", 
+    "senses": "darkvision 60 ft.; Perception +4", 
+    "description": "This hideous, buzzing cloud of insects is comprised of black and yellow wasps with hungry red eyes. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Swarm/Hellwasp/Special Abilities", 
+            "sections": [
+                {
+                    "body": "<p>A hellwasp swarm can enter the body of a helpless or dead creature by crawling into its mouth and other orifices. Inhabiting a body requires 1 minute, and the victim must be Small, Medium, or Large. The swarm can abandon the body at any time as a full-round action. Any attack against the host deals half damage to the hellwasp swarm as well, although the swarm's DR, resistances, and immunities may negate some or all of this damage.When a hellwasp swarm inhabits a dead body, it effectively transforms the corpse into a zombie of the appropriate size under the swarm's control. If a hellwasp swarm inhabits a living victim, it can neutralize the effects of its own poison and control the victim's movement and actions as if using dominate monster. Hellwasps quickly consume a living victim, dealing 2d4 points of Constitution damage per hour.</p><p>A hellwasp-inhabited creature is easy to spot, since its skin crawls with the forms of the insects inside. A swarm can attempt a Disguise check to conceal its inhabitation of a host, with a &ndash;4 penalty if currently inhabiting a Small host.</p><p>A remove disease or heal spell cast on an inhabited victim forces the hellwasp swarm to abandon its host.</p>", 
+                    "name": "Inhabit", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Swarm/Hellwasp/Special Abilities/Inhabit", 
+                    "ability_types": {
+                        "ability_type_id": 351, 
+                        "section_id": 1138, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1138, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Swarm:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Swarm/Hellwasp/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 352, 
+                        "section_id": 1139, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1139, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Hellwasp Swarm Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Swarm/Hellwasp/Special Abilities/Poison/Hellwasp Swarm Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1140, 
+                            "effect": "1d6 Dexterity", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 20", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1137, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Even Hell's fiendish inhabitants know to stay clear of the maddening buzz of hellwasp swarms. While individual hellwasps are mindless, when swarmed together they gain a hive mind that torments the living and the dead alike. Sages and diabolists argue as to why this happens, but a favored explanation is that all hellwasps contain the dispersed soul of some greater devil, scattered and imprisoned by his rivals for infractions lost to mortal knowledge. </p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1141
+        }, 
+        {
+            "body": "<p>Though intelligent, these swarms are often difficult to understand and reason with. A hellwasp swarm can speak in a fashion with its myriad droning wings. The chatter is often little more than repetitive mantras of insults and the voicing of the twisted and base desires of the swarm. A hellwasp swarm has little use for reason, diplomacy, or discourse in other circumstances, for its desires are as savage as its home plane.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1142
+        }
+    ], 
+    "hp": "90 (12d8+36)", 
+    "reach": "0 ft.", 
+    "section_id": 1136, 
+    "wisdom": "13", 
+    "creature_type": "Vermin", 
+    "dr": "10/good", 
+    "name": "Swarm, Hellwasp", 
+    "base_attack": "+9", 
+    "skills": "Fly +25, Perception +4, Stealth +24", 
+    "reflex": "+10", 
+    "cmd": "16 (can't be tripped)", 
+    "cmb": "+11", 
+    "will": "+7", 
+    "url": "pfsrd://Bestiary 3/Monsters/Swarm/Hellwasp", 
+    "organization": "solitary, pair, or infestation (3-6)", 
+    "creature_subtype": "extraplanar, swarm"
+}

@@ -1,0 +1,90 @@
+{
+    "dexterity": "17", 
+    "ac": "19, touch 14, flat-footed 15 (+3 armor, +3 Dex, +1 dodge, +2 natural)", 
+    "special_attacks": "sneak attack +1d6", 
+    "intelligence": "10", 
+    "melee": "short sword +4 (1d6+2/19-20), bite -1 (1d4+1 plus disease and curse of lycanthropy; DC 15)", 
+    "speed": "30 ft.", 
+    "alignment": "LE", 
+    "size": "Medium", 
+    "strength": "15", 
+    "constitution": "16", 
+    "ranged": "light crossbow +4 (1d8/19-20)", 
+    "init": "+3", 
+    "languages": "Common", 
+    "source": "Bestiary", 
+    "charisma": "6", 
+    "fortitude": "+3", 
+    "type": "creature", 
+    "feats": "Dodge, Weapon Finesse", 
+    "senses": "low-light vision, scent; Perception +8", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 448, 
+                        "section_id": 2055, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2055, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Filth Fever, Wererat", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)/Special Abilities/Disease/Filth Fever/Wererat", 
+                            "contracted": "injury", 
+                            "section_id": 2056, 
+                            "effect": "1d3 Dexterity damage and 1d3 Constitution damage", 
+                            "onset": "1d3 days", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 14, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2054, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Natural wererats tend to be short and wiry, with constantly darting eyes and frequent nervous twitches. Males often have thin, ragged moustaches.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2057
+        }, 
+        {
+            "body": "<p>Wererats prefer cities where they can blend in with the humanoid and rat population. Their abilities make them especially good at thieving and spying, and in many cities the thieves' guild employs numerous wererat members.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2058
+        }
+    ], 
+    "hp": "20 (2d8+8)", 
+    "section_id": 2053, 
+    "wisdom": "16", 
+    "defensive_abilities": "evasion", 
+    "creature_type": "Humanoid", 
+    "special_qualities": "change shape (human, hybrid, and dire rat; polymorph), rogue talents (fast stealth), lycanthropic empathy (rats and dire rats), trapfinding", 
+    "dr": "10/silver", 
+    "name": "Wererat (Hybrid Form)", 
+    "base_attack": "+1", 
+    "skills": "Acrobatics +8, Bluff +3, Climb +7, Intimidate +3, Knowledge (local) +5, Perception +8, Sense Motive +8, Stealth +8, Swim +7", 
+    "reflex": "+6", 
+    "cmd": "17", 
+    "cmb": "+3", 
+    "will": "+3", 
+    "url": "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)", 
+    "creature_subtype": "human, shapechanger"
+}

@@ -1,0 +1,112 @@
+{
+    "dexterity": "22", 
+    "ac": "21, touch 17, flat-footed 14 (+6 Dex, +1 dodge, +4 natural)", 
+    "special_attacks": "find target, soul drain", 
+    "intelligence": "12", 
+    "melee": "2 claws +18 (1d6+1/19-20 plus 1d6 Wisdom damage)", 
+    "cr": "7", 
+    "xp": "3,200", 
+    "speed": "30 ft., fly 100 ft. (perfect)", 
+    "alignment": "NE", 
+    "size": "Medium", 
+    "languages": "Abyssal, Infernal", 
+    "strength": "13", 
+    "constitution": "14", 
+    "immune": "critical hits, paralysis, poison, sleep, stunning", 
+    "treasure": "none", 
+    "init": "+10", 
+    "environment": "any Outer Plane (Abaddon)", 
+    "source": "Bestiary 2", 
+    "charisma": "11", 
+    "fortitude": "+5", 
+    "type": "creature", 
+    "feats": "Dodge, Flyby Attack, Improved Critical (claw), Improved Initiative, Weapon Finesse, Weapon Focus (claw)", 
+    "senses": "darkvision 60 ft., all-around vision; Perception +14", 
+    "description": "Two elongated and deathly pallid arms protrude from this creature's smoky body as it slithers silently through the air.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Soul Eater/Special Abilities", 
+            "sections": [
+                {
+                    "body": "When a soul eater is summoned, it creates a mental link between itself and its conjurer. If the soul eater's assigned target (see find target ability) dies before the soul eater can drain its soul, or if the soul eater is defeated by its target (but not slain), it returns to its conjurer at full speed and attacks her. While the soul eater and the conjurer are on the same plane (regardless of plane-traveling interruptions), it can use its find target ability to locate its conjurer.", 
+                    "name": "Caster Link", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Soul Eater/Special Abilities/Caster Link", 
+                    "ability_types": {
+                        "ability_type_id": 470, 
+                        "section_id": 1910, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1910, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When a soul eater's conjurer orders it to find a creature, it can do so unerringly, as though guided by a locate creature spell that has no maximum range and is not blocked by running water. The conjurer must have seen the desired target and must speak the target's name.", 
+                    "name": "Find Target", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Soul Eater/Special Abilities/Find Target", 
+                    "ability_types": {
+                        "ability_type_id": 471, 
+                        "section_id": 1911, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1911, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "If the Wisdom damage from a soul eater's claw attacks equals or exceeds an opponent's actual Wisdom score, rendering the victim helpless, the soul eater can devour that creature's soul as a standard action that provokes an attack of opportunity. This attack kills the victim. The dead victim can resist having her soul eaten by making a (DC 17) Fortitude save; success means she is still dead, but can be restored to life normally. If she fails this save, her soul is consumed by the soul eater. A victim slain in this manner cannot be returned to life with clone, raise dead, or reincarnation. She can be restored to life via resurrection, true resurrection, miracle, or wish, but only if the caster can succeed on a DC 30 caster level check. If the soul eater is killed within 120 feet of its victim's corpse, and the victim has been dead for no longer than 1 minute, the victim's soul returns to her body and restores her to life, leaving her unconscious and at &shy;&ndash;1 hit point. This is a death effect. The save DC is Constitution-based.", 
+                    "name": "Soul Drain", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Soul Eater/Special Abilities/Soul Drain", 
+                    "ability_types": {
+                        "ability_type_id": 472, 
+                        "section_id": 1912, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1912, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A creature hit by a soul eater's claw must succeed on a DC 17 Fortitude save or take 1d6 points of Wisdom damage. The save DC is Constitution-based.", 
+                    "name": "Wisdom Damage", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Soul Eater/Special Abilities/Wisdom Damage", 
+                    "ability_types": {
+                        "ability_type_id": 473, 
+                        "section_id": 1913, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1913, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1909, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Summoned forth from the inky swamps of Abaddon, a soul eater is an extraplanar entity devoid of emotion or reason and possessing a hunger that may only be sated by devouring the souls of the living. The very nature of a soul eater makes it an ideal and terrifyingly efficient tool of death, and it is for this reason they are often conjured by vile spellcasters pursuing morbid agendas. Even when not seeing to the heinous commands of a sinister magic user, the soul eater prowls and hunts, constantly seeking living souls upon which to gorge itself.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1914
+        }
+    ], 
+    "hp": "82 (11d10+22)", 
+    "section_id": 1908, 
+    "wisdom": "11", 
+    "creature_type": "Outsider", 
+    "special_qualities": "caster link", 
+    "dr": "10/magic", 
+    "name": "Soul Eater", 
+    "base_attack": "+11", 
+    "skills": "Acrobatics +20 (+8 jump), Escape Artist +20, Fly +28, Intimidate +14, Knowledge (planes) +15, Perception +14, Stealth +20 (+28 darkness or smoke)", 
+    "reflex": "+13", 
+    "cmd": "29 (can't be tripped)", 
+    "cmb": "+12", 
+    "will": "+7", 
+    "url": "pfsrd://Bestiary 2/Monsters/Soul Eater", 
+    "organization": "solitary", 
+    "creature_subtype": "evil, extraplanar"
+}

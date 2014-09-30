@@ -1,0 +1,123 @@
+{
+    "dexterity": "20", 
+    "ac": "26, touch 16, flat-footed 20 (+5", 
+    "special_attacks": "absorb blood, blood drain (1d4 Con), fear cone (60 ft., DC 23), paralysis (1d4 rounds, DC 23), staggering gaze", 
+    "intelligence": "11", 
+    "resist": "cold 30", 
+    "melee": "bite +18 (2d6+1 plus bleed and paralysis), 2 claws +18 (2d6+1 plus bleed and paralysis)", 
+    "cr": "12", 
+    "xp": "19,200", 
+    "speed": "30 ft.", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "languages": "Abyssal, Common, Infernal", 
+    "strength": "13", 
+    "constitution": "-", 
+    "immune": "undead traits", 
+    "treasure": "standard", 
+    "init": "+5", 
+    "environment": "any land or underground", 
+    "source": "Bestiary 4", 
+    "charisma": "21", 
+    "fortitude": "+10", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 12th; concentration +17)<p class=\"stat-block-2\">3/day-<i>command undead</i> (DC 17), <i>dominate person</i> (DC 20), <i>fog cloud</i>, <i>gaseous form</i>, <i>invisibility</i></p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Dodge, Iron Will, Lightning Reflexes, Mobility, Spring Attack, Vital Strike, Weapon Finesse, Weapon Focus (bite), Weapon Focus (claw)", 
+    "senses": "darkvision 60 ft., lifesense; Perception +21", 
+    "description": "This revolting withered corpse of a woman is dressed in revealing clothes, its bare skin wet with fresh blood.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 4", 
+            "url": "pfsrd://Bestiary 4/Monsters/Sayona/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A sayona adjacent to a bleeding creature automatically accelerates the bleeding, dealing 1 point of Con damage to that creature once per round on its turn and absorbing the blood through its skin.", 
+                    "name": "Absorb Blood", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Sayona/Special Abilities/Absorb Blood", 
+                    "ability_types": {
+                        "ability_type_id": 536, 
+                        "section_id": 1687, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1687, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When a sayona kills a humanoid or fey of Medium or Small size with its absorb blood or blood drain ability, the victim rises 24 hours later as a ghoul with the advanced creature simple template and the blood drain ability. The spawn is the sayona's slave until its master is destroyed.", 
+                    "name": "Create Spawn", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Sayona/Special Abilities/Create Spawn", 
+                    "ability_types": {
+                        "ability_type_id": 537, 
+                        "section_id": 1688, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1688, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "As a standard action, a sayona can transform into a young, beautiful person for 24 hours. It can only use this ability if it has absorbed or drained blood in the past hour. In this form, the sayona has the aura of a living creature instead of an undead (for the purpose of detect undead and similar effects), its fast healing increases to 10, positive energy attacks (such as channel energy) deal half damage to it, and it cannot use its fear cone or gaze attack. Exposure to holy water or positive energy attacks in this form reduces the duration of this transformation by 1d4 hours.", 
+                    "name": "Living Form", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Sayona/Special Abilities/Living Form", 
+                    "ability_types": {
+                        "ability_type_id": 538, 
+                        "section_id": 1689, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1689, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Staggered for 1d4 rounds, 30 feet, Fortitude DC 23 negates. This is a mind-affecting effect. The save DC is Charisma-based.", 
+                    "name": "Staggering Gaze", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Sayona/Special Abilities/Staggering Gaze", 
+                    "ability_types": {
+                        "ability_type_id": 539, 
+                        "section_id": 1690, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1690, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1686, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Occasionally called \"weeping vampires\" for their ability to cry tears of blood, sayonas are powerful and intelligent undead creatures that hunt mortals to steal from them what they envy most: the ability to exist within living flesh. While they aren't true vampires, similarity between these two creatures creates substantial confusion to those unfamiliar with sayonas. While sayonas and vampires sustain themselves off mortal blood, sayonas don't consume the blood, but rather absorb it through their skin (even when using blood drain), using it to transform their twisted forms back into some semblance of the beauty they had&mdash;or believe they had&mdash;in life.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1691
+        }, 
+        {
+            "body": "<p>Above all else, sayonas covet youth. Stories of their origins claim that the first sayona was a vain woman who grew old and whose lover left her for a younger paramour; the woman avenged herself by bathing in the blood of her lover's children, then killed herself. Doomed to undeath, she wanders the world crying tears of blood and preying on beautiful young women&mdash;slaying them, stealing their beauty, and transforming them into ghastly undead fiends to forever share her fate.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1692
+        }
+    ], 
+    "hp": "161 (17d8+85); fast healing 5 (see living form)", 
+    "section_id": 1685, 
+    "wisdom": "12", 
+    "defensive_abilities": "; channel resistance +4", 
+    "creature_type": "Undead", 
+    "special_qualities": "create spawn, living form", 
+    "name": "Sayona", 
+    "base_attack": "+12", 
+    "skills": "Bluff +14, Diplomacy +14, Disguise +17, Knowledge (nobility) +8, Perception +21, Sense Motive +12, Stealth +16", 
+    "reflex": "+12", 
+    "cmd": "29", 
+    "cmb": "+13", 
+    "will": "+13", 
+    "url": "pfsrd://Bestiary 4/Monsters/Sayona", 
+    "organization": "solitary or retinue (1d3 plus 2d6 spawn)"
+}

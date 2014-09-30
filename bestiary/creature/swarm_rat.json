@@ -1,0 +1,95 @@
+{
+    "dexterity": "15", 
+    "ac": "14, touch 14, flat-footed 12 (+2 Dex, +2 size)", 
+    "special_attacks": "disease, distraction (DC 12)", 
+    "intelligence": "2", 
+    "racial_modifiers": "uses Dex to modify Climb and Swim", 
+    "melee": "swarm (1d6 plus disease)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "15 ft., climb 15 ft., swim 15 ft.", 
+    "alignment": "N", 
+    "size": "Tiny", 
+    "strength": "2", 
+    "constitution": "13", 
+    "space": "10 ft.", 
+    "treasure": "none", 
+    "init": "+6", 
+    "environment": "any", 
+    "source": "Bestiary", 
+    "charisma": "2", 
+    "fortitude": "+4", 
+    "type": "creature", 
+    "feats": "Improved Initiative, Skill Focus (Perception)", 
+    "senses": "low-light vision, scent; Perception +8", 
+    "description": "A squirming, roiling mass of squeaking rats draws closer, teeth flashing and claws scratching everything in its path.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Swarm/Rat/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based. Swarm:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary/Monsters/Swarm/Rat/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 508, 
+                        "section_id": 2389, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2389, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Filth Fever, Rat Swarm", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Swarm/Rat/Special Abilities/Disease/Filth Fever/Rat Swarm", 
+                            "contracted": "injury", 
+                            "section_id": 2390, 
+                            "effect": "1d3 Dexterity damage and 1d3 Constitution damage", 
+                            "onset": "1d3 days", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 12", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2388, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>A rat swarm typically consists of a biting, roiling mass of hundreds of disease-ridden rats driven to uncharacteristic heights of aggression by fantastic and overwhelming hunger. In such numbers, they become voracious hunters, capable of killing a full-grown human with hundreds of bites. Rat swarms are often found in the sewers of large human settlements.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2391
+        }, 
+        {
+            "body": "<p>Rat swarms surround and attack any warm-blooded prey in their path.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2392
+        }
+    ], 
+    "hp": "16 (3d8+3)", 
+    "reach": "0 ft.", 
+    "section_id": 2387, 
+    "wisdom": "13", 
+    "defensive_abilities": "swarm traits", 
+    "creature_type": "Animal", 
+    "name": "Swarm, Rat", 
+    "base_attack": "+2", 
+    "skills": "Acrobatics +6, Climb +10, Perception +8, Stealth +14, Swim +10", 
+    "reflex": "+5", 
+    "cmd": "&mdash", 
+    "cmb": "-", 
+    "will": "+2", 
+    "url": "pfsrd://Bestiary/Monsters/Swarm/Rat", 
+    "organization": "solitary, pack (2-5 swarms), or infestation (6-12 swarms)", 
+    "creature_subtype": "swarm"
+}

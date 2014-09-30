@@ -1,0 +1,116 @@
+{
+    "dexterity": "15", 
+    "ac": "14, touch 12, flat-footed 12 (+2 Dex, +2 natural)", 
+    "special_attacks": "paralysis (1d4+1 rounds, DC 13, elves are immune to this effect)", 
+    "intelligence": "13", 
+    "melee": "bite +3 (1d6+1 plus disease and paralysis) and 2 claws +3 (1d6+1 plus paralysis)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "30 ft.", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "languages": "Common", 
+    "strength": "13", 
+    "constitution": "-", 
+    "treasure": "standard", 
+    "init": "+2", 
+    "environment": "any land", 
+    "source": "Bestiary", 
+    "charisma": "14", 
+    "fortitude": "+2", 
+    "type": "creature", 
+    "feats": "Weapon Finesse", 
+    "senses": "darkvision 60 ft.; Perception +7", 
+    "description": "This humanoid creature has long, sharp teeth, and its pallid flesh is stretched tightly over its starved frame.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Ghoul/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Charisma-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary/Monsters/Ghoul/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 356, 
+                        "section_id": 1568, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1568, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Ghoul Fever", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Ghoul/Special Abilities/Disease/Ghoul Fever", 
+                            "type": "affliction", 
+                            "contracted": "injury", 
+                            "section_id": 1569, 
+                            "effect": "1d3 Constitution and 1d3 Dexterity damage", 
+                            "onset": "1 day", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 13", 
+                            "sections": [
+                                {
+                                    "body": "A humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast.", 
+                                    "source": "Bestiary", 
+                                    "type": "section", 
+                                    "section_id": 1570
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1567, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Ghouls are undead that haunt graveyards and eat corpses. Legends hold that the first ghouls were either cannibalistic humans whose unnatural hunger dragged them back from death or humans who in life fed on the rotting remains of their kin and died (and were reborn) from the foul disease&mdash;the true source of these undead scavengers is unclear.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1571
+        }, 
+        {
+            "body": "<p>Ghouls lurk on the edges of civilization (in or near cemeteries or in city sewers) where they can find ample supplies of their favorite food. Though they prefer rotting bodies and often bury their victims for a while to improve their taste, they eat fresh kills if they are hungry enough. Though most surface ghouls live primitively, rumors speak of ghoul cities deep underground led by priests who worship ancient cruel gods or strange demon lords of hunger. These &ldquo;civilized&rdquo; ghouls are no less horrific in their eating habits, and in fact the concept of a well-laid ghoul banquet table is perhaps even more horrifying than the concept of taking a meal fresh from the coffin.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1572
+        }, 
+        {
+            "body": "<p>Ghasts are ghouls with the advanced monster template. A ghast's paralysis even affects elves. Ghasts roam in packs of their own kind or lead groups of common ghouls. The stink of death and corruption surrounding these creatures is overwhelming, granting them the stench extraordinary ability (10-foot radius, Fort DC 15 negates, sickened for 1d6+4 minutes).</p>", 
+            "name": "Ghast", 
+            "url": "pfsrd://Bestiary/Monsters/Ghoul/Ghast", 
+            "section_id": 1573, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>These aquatic cousins of the ghoul lurk near hidden reefs or other places where ships are likely to meet their ends. Lacedons have a base land speed of 30 feet and a swim speed of 30 feet.</p>", 
+            "name": "Lacedon", 
+            "url": "pfsrd://Bestiary/Monsters/Ghoul/Lacedon", 
+            "section_id": 1574, 
+            "source": "Bestiary", 
+            "type": "section"
+        }
+    ], 
+    "hp": "13 (2d8+4)", 
+    "section_id": 1566, 
+    "wisdom": "14", 
+    "defensive_abilities": "channel resistance +2", 
+    "creature_type": "Undead", 
+    "name": "Ghoul", 
+    "base_attack": "+1", 
+    "skills": "Acrobatics +4, Climb +6, Perception +7, Stealth +7, Swim +3", 
+    "reflex": "+2", 
+    "cmd": "14", 
+    "cmb": "+2", 
+    "will": "+5", 
+    "url": "pfsrd://Bestiary/Monsters/Ghoul", 
+    "organization": "solitary, gang (2-4), or pack (7-12)"
+}

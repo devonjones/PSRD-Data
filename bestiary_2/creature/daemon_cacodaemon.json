@@ -1,0 +1,124 @@
+{
+    "dexterity": "11", 
+    "ac": "16, touch 12, flat-footed 16 (+4 natural, +2 size)", 
+    "special_attacks": "soul lock", 
+    "intelligence": "8", 
+    "resist": "cold 10, electricity 10, fire 10", 
+    "melee": "bite +6 (1d4+1 plus disease)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "5 ft., fly 50 ft. (perfect)", 
+    "alignment": "NE", 
+    "size": "Tiny", 
+    "languages": "Abyssal, Common, Infernal; telepathy 100 ft.", 
+    "strength": "12", 
+    "constitution": "13", 
+    "space": "2-1/2 ft.", 
+    "treasure": "standard", 
+    "init": "+4", 
+    "environment": "any (Abaddon)", 
+    "source": "Bestiary 2", 
+    "charisma": "12", 
+    "immune": "acid, death effects, disease, poison", 
+    "fortitude": "+2", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 6th; concentration +7)<p class=\"stat-block-2\">Constant-<i>detect good, detect magic</i></p><p class=\"stat-block-2\">At will-<i>invisibility </i>(self only)</p><p class=\"stat-block-2\">3/day-<i>lesser confusion </i>(DC 12)</p><p class=\"stat-block-2\">1/week-<i>commune</i> (CL 12th, six questions)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Improved Initiative, Lightning Reflexes", 
+    "senses": "darkvision 60 ft., detect good, detect magic; Perception +7", 
+    "description": "An ever-gnashing maw, filled with row after row of mismatched teeth, dominates this frightful creature's orb-like body.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Daemon/Cacodaemon/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Daemon/Cacodaemon/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 99, 
+                        "section_id": 411, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 411, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Cacodaemonia", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Daemon/Cacodaemon/Special Abilities/Disease/Cacodaemonia", 
+                            "type": "affliction", 
+                            "contracted": "injury", 
+                            "section_id": 412, 
+                            "effect": "1d2 Wisdom damage", 
+                            "onset": "1 day", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 12", 
+                            "sections": [
+                                {
+                                    "body": "In addition to the normal effects of the disease, as long as a victim is infected, the cacodaemon can telepathically communicate with the creature over any distance (as long as they remain on the same plane).", 
+                                    "source": "Bestiary 2", 
+                                    "type": "section", 
+                                    "section_id": 413
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "body": "Once per day as a full-round action, a cacodaemon can ingest the spirit of any sentient creature that has died within the last minute. This causes a soul gem to grow inside of the cacodaemon's gut, which it can regurgitate as a standard action. A soul gem is a fine-sized object with 1 hit point and hardness 2. Destroying a soul gem frees the soul within, though it does not return the deceased creature to life. This is a death effect.&nbsp;Any attempt to resurrect a body whose soul is trapped in a soul gem requires a DC 12 caster level check. Failure results in the spell having no effect, while success shatters the victim's soul gem and returns the creature to life as normal. If the soul gem rests in an unholy location, such as that created by the spell&nbsp;unhallow, the DC of this caster level check increases by +2. The caster level check DC is Charisma-based.", 
+                    "name": "Soul Lock", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Daemon/Cacodaemon/Special Abilities/Soul Lock", 
+                    "ability_types": {
+                        "ability_type_id": 100, 
+                        "section_id": 414, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 414, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 410, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Any evil outsider can, as a standard action, ingest a soul gem. Doing so frees the soul within, but condemns it to one of the lower planes (though the soul can be returned to life as normal). The outsider gains fast healing 2 for a number of rounds equal to its Hit Dice.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 415
+        }, 
+        {
+            "body": "<p>The least of daemonkind, cacodaemons spawn from eddies of angry, violent, and demented souls amid the mists of Abaddon. Dim-witted but utterly evil, they endlessly seek to cause pain and indulge their hunger for mortal souls. Many more powerful fiends keep cacodaemons as pets, if only to be able to harvest the tiny creatures' soul gems. A 7th-level spellcaster can gain a cacodaemon as a familiar if she has the Improved Familiar feat.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 416
+        }
+    ], 
+    "hp": "19 (3d10+3); fast healing 2", 
+    "reach": "0 ft.", 
+    "section_id": 409, 
+    "wisdom": "13", 
+    "creature_type": "Outsider", 
+    "special_qualities": "change shape (2 of the following forms: lizard, octopus, Small scorpion, venomous snake, polymorph)", 
+    "dr": "5/good or silver", 
+    "name": "Daemon, Cacodaemon", 
+    "base_attack": "+3", 
+    "skills": "Bluff +7, Fly +18, Knowledge (planes) +5, Perception +7, Stealth +14", 
+    "reflex": "+5", 
+    "cmd": "12", 
+    "cmb": "+1", 
+    "will": "+4", 
+    "url": "pfsrd://Bestiary 2/Monsters/Daemon/Cacodaemon", 
+    "organization": "solitary or swarm (2-10)", 
+    "creature_subtype": "daemon, evil, extraplanar"
+}

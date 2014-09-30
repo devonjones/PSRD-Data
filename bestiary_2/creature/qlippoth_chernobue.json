@@ -1,0 +1,145 @@
+{
+    "dexterity": "18", 
+    "ac": "27, touch 13, flat-footed 23 (+4 Dex, +14 natural, -1 size)", 
+    "special_attacks": "horrific appearance (DC 20)", 
+    "intelligence": "13", 
+    "resist": "acid 10, electricity 10, fire 10", 
+    "melee": "2 slams +19 (1d6+8/19-20 plus 1 Con damage), bite +19 (2d6+8 plus poison), 2 tentacles +14 (1d6+4)", 
+    "cr": "12", 
+    "xp": "19,200", 
+    "speed": "40 ft.", 
+    "alignment": "CE", 
+    "size": "Large", 
+    "languages": "Abyssal; telepathy 100 ft.", 
+    "strength": "26", 
+    "constitution": "24", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "init": "+4", 
+    "environment": "any (the Abyss)", 
+    "source": "Bestiary 2", 
+    "charisma": "19", 
+    "immune": "cold, poison, mind-affecting effects", 
+    "fortitude": "+15", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 12th; concentration +16)<p class=\"stat-block-2\">Constant-<i>air walk, arcane sight</i></p><p class=\"stat-block-2\">At will-<i>chaos hammer</i> (DC 18), <i>darkness</i></p><p class=\"stat-block-2\">3/day-<i>confusion</i> (DC 18), quickened <i>darkness</i>, <i>dispel magic</i>, <i>protection from law</i></p><p class=\"stat-block-2\">1/day-<i>plane shift</i> (DC 21)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Blind-Fight, Improved Critical (slam), Lightning Reflexes, Power Attack, Quicken Spell-Like Ability (darkness), Vital Strike", 
+    "senses": "darkvision 60 ft., scent; Perception +18", 
+    "description": "This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged maw for a belly.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Qlippoth/Chernobue/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A chernobue radiates an aura of evil malaise to a radius of 30 feet. All lawful or good creatures in this area take a &ndash;1 penalty on attack rolls and weapon damage rolls. Lawful good creatures take a &ndash;3 penalty and upon first entering the aura must make a DC 20 Fortitude save or be sickened for as long as they remain in the area. This ability is Charisma-based.", 
+                    "name": "Aura of Misfortune", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Qlippoth/Chernobue/Special Abilities/Aura of Misfortune", 
+                    "ability_types": {
+                        "ability_type_id": 387, 
+                        "section_id": 1633, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1633, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Creatures that succumb to a chernobue's horrific appearance become paralyzed with disgust for 2d6 rounds; a paralyzed creature gets a new save each round to recover from the effect, provided he is no longer aware of the chernobue or within 30 feet of it.", 
+                    "name": "Horrific Appearance", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Qlippoth/Chernobue/Special Abilities/Horrific Appearance", 
+                    "ability_types": {
+                        "ability_type_id": 388, 
+                        "section_id": 1634, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1634, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A chernobue within an area of bright light takes 1 point of Constitution damage per minute it remains in the area.", 
+                    "name": "Light Vulnerability", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Qlippoth/Chernobue/Special Abilities/Light Vulnerability", 
+                    "ability_types": {
+                        "ability_type_id": 389, 
+                        "section_id": 1635, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1635, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Qlippoth/Chernobue/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 390, 
+                        "section_id": 1636, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1636, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Chernobue Venom", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Qlippoth/Chernobue/Special Abilities/Poison/Chernobue Venom", 
+                            "type": "affliction", 
+                            "contracted": "injury", 
+                            "section_id": 1637, 
+                            "effect": "1d2 Constitution drain", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 23", 
+                            "sections": [
+                                {
+                                    "body": "The thick, orange poison injected by a chernobue is semi-alive. As soon as the poisoned victim is cured of the poison (by making a save, being targeted with an effect like neutralize poison, or enduring the full duration of the poison), the orange fluid bursts from the victim's body, causing 1d6 Charisma damage and rendering the victim unconscious for 2d6 rounds unless he makes a final DC 23 Fortitude save.", 
+                                    "source": "Bestiary 2", 
+                                    "type": "section", 
+                                    "section_id": 1638
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1632, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The chernobue is a living manifestation of the vile fecundity of the Abyss&mdash;a monstrous, alien pregnancy made flesh. By infecting creatures with the Abyssal taint they carry, they spread pain and misfortune wherever they flop and writhe&mdash;and with their <i>plane shift</i> ability, they are ready to spread their filth throughout the multiverse. A chernobue is 13 feet long and weighs 500 pounds.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1639
+        }
+    ], 
+    "hp": "150 (12d10+84)", 
+    "weaknesses": "light vulnerability", 
+    "reach": "5 ft. (10 ft. with slams and tentacles)", 
+    "section_id": 1631, 
+    "wisdom": "17", 
+    "creature_type": "Outsider", 
+    "dr": "10/lawful", 
+    "name": "Qlippoth, Chernobue", 
+    "base_attack": "+12", 
+    "skills": "Acrobatics +19 (+23 jump), Escape Artist +19, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +15", 
+    "reflex": "+10", 
+    "cmd": "35 (39 vs. trip)", 
+    "cmb": "+21", 
+    "will": "+11", 
+    "url": "pfsrd://Bestiary 2/Monsters/Qlippoth/Chernobue", 
+    "aura": "misfortune (30 ft.)", 
+    "sr": "23", 
+    "organization": "solitary, pair, or gang (3-6)", 
+    "creature_subtype": "chaotic, evil, extraplanar, qlippoth"
+}

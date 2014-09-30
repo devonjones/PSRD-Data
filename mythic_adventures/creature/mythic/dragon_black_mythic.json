@@ -1,0 +1,114 @@
+{
+    "dexterity": "12", 
+    "ac": "37, touch 10, flat-footed 36 (+1 Dex, +27 natural, -1 size)", 
+    "special_attacks": "bleed (1d4), breath weapon (80-ft. line, 14d6 acid damage, Reflex DC 24 half, usable every 1d4 rounds), corrupt water, dragon fury (1d6 acid). mythic power (6/day, surge +1d8), lingering breath (2d6 acid, 6 rounds), swallow whole (1d6+9 bludgeoning and 1d6 acid damage, AC 23, 26 hp)", 
+    "intelligence": "14", 
+    "melee": "bite +26 (2d6+13 plus grab), 2 claws +24 (1d8+9 plus bleed), tail slap +19 (1d8+13 plus bleed), 2 wings +19 (1d6+4 plus bleed)", 
+    "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic", 
+    "cr": "15", 
+    "xp": "51,200", 
+    "speed": "60 ft., fly 200 ft. (poor), swim 60 ft.", 
+    "alignment": "CE", 
+    "size": "Large", 
+    "languages": "Common, Draconic, Giant", 
+    "strength": "29", 
+    "constitution": "23", 
+    "space": "10 ft.", 
+    "treasure": "triple", 
+    "init": "+11M", 
+    "environment": "warm marshes", 
+    "source": "Mythic Adventures", 
+    "charisma": "16", 
+    "immune": "acid, dragon traits, paralysis, sleep", 
+    "fortitude": "+16", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 16th; concentration +19)<p class=\"stat-block-2\">Constant-<i>speak with animals</i> (reptiles only)</p><p class=\"stat-block-2\">At will-<i>darkness</i> (70-ft. radius)</p>"
+        }, 
+        {
+            "spells known": "(CL 5th; concentration +8)<p class=\"stat-block-2\">2nd (5)-<i>blur</i>, <i>invisibility</i></p><p class=\"stat-block-2\">1st (7)-<i>alarm</i>, <i>mage armor</i>, <i>magic missile</i>, <i>obscuring mist</i></p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Alertness, Flyby Attack, Improved InitiativeM, Improved Vital Strike, Power AttackM, Skill Focus (Stealth), Vital Strike, Weapon Focus (bite)M", 
+    "senses": "blindsense 60 ft., darkvision 120 ft., low-light vision, mistsight; Perception +26", 
+    "description": "This sinuous and stinking dragon is covered in black scales, with massive horns curling up from its head. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures", 
+            "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Once per day, a black dragon can stagnate 10 cubic feet of still water within 210 feet, making it foul and unable to support water-breathing life. The ability spoils liquids containing water. Liquid-based magic items (such as potions) and items in a creature's possession must succeed at a Will save (DC 21) or become ruined. This ability is the equivalent of a 1st-level spell.", 
+                    "name": "Corrupt Water", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities/Corrupt Water", 
+                    "ability_types": {
+                        "ability_type_id": 35, 
+                        "section_id": 982, 
+                        "ability_type": "Spell-Like"
+                    }, 
+                    "section_id": 982, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A black dragon can move through bogs and quicksand without penalty at its normal speed.", 
+                    "name": "Swamp Stride", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities/Swamp Stride", 
+                    "ability_types": {
+                        "ability_type_id": 36, 
+                        "section_id": 983, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 983, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A black dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged.", 
+                    "name": "Water Breathing", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities/Water Breathing", 
+                    "ability_types": {
+                        "ability_type_id": 37, 
+                        "section_id": 984, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 984, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 981, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>A mythic black dragon eyes can pierce fog to find prey. Its very flesh and blood is infused with deadly acid, and like a snake it can gulp down an entire meal without chewing. A mythic black dragon enjoys regurgitating a swallowed opponent to let it rot for a few days before eating it as an actual meal, or repeats this cycle on a living creature as cruel torture.</p>", 
+            "source": "Mythic Adventures", 
+            "type": "section", 
+            "section_id": 985
+        }
+    ], 
+    "hp": "260 (16d12+156)", 
+    "reach": "5 ft. (10 ft. with bite)", 
+    "section_id": 980, 
+    "wisdom": "17", 
+    "defensive_abilities": "dragon blood (1d6 acid)", 
+    "creature_type": "Dragon", 
+    "special_qualities": "dragon cantrips, swamp stride, water breathing", 
+    "dr": "10/epic and magic", 
+    "name": "Dragon, Black, Mythic", 
+    "base_attack": "+16", 
+    "skills": "Fly +14, Handle Animal +19, Intimidate +22, Knowledge (arcana) +21, Perception +26, Sense Motive +5, Spellcraft +21, Stealth +22, Swim +36", 
+    "reflex": "+11", 
+    "cmd": "37 (41 vs. trip)", 
+    "cmb": "+26 (+30 grapple)", 
+    "will": "+13", 
+    "subtype": "mythic", 
+    "sr": "26", 
+    "aura": "frightful presence (210 ft., DC 21), stench (DC 24, 10 rounds)", 
+    "mr": "6", 
+    "organization": "solitary", 
+    "creature_subtype": "mythic, water"
+}

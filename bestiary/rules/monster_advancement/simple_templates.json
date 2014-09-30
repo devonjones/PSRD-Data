@@ -1,0 +1,256 @@
+{
+    "body": "<p>Simple templates can be applied during the game with minimal effort. This makes it easy, for example, to deal with celestial and fiendish creatures conjured in the heat of battle by <i>summon monster</i> spells.</p><p>All simple templates have two categories of changes. The &ldquo;quick rules&rdquo; present a fast way to modify die rolls made in play to simulate the template's effects without actually rebuilding the stat block&mdash;this method works well for summoned creatures. The &ldquo;rebuild rules&rdquo; list the exact changes you make to the base stat block if you have the time to completely rebuild it&mdash;this method works best when you have time during game preparation to build full stat blocks. The two methods result in creatures of similar, if not identical, abilities. In some cases, a complete rebuild does unusual things to a creature. For example, the advanced creature template gives and animal too much Intelligence, and a young incorporeal creature is tougher than a normal one.</p>", 
+    "name": "Simple Templates", 
+    "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates", 
+    "sections": [
+        {
+            "body": "<p>Creatures with the advanced template are fiercer and more powerful than their ordinary cousins. </p>", 
+            "name": "Advanced Creature", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Advanced Creature", 
+            "type": "section", 
+            "section_id": 127, 
+            "subtype": "template", 
+            "abbrev": "CR +1", 
+            "sections": [
+                {
+                    "body": "<p>As base creature +1</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Challenge Rating", 
+                    "section_id": 128
+                }, 
+                {
+                    "body": "<p>+2 on all rolls (including damage rolls) and special ability DCs; +4 to AC and CMD; +2 hp/HD.</p>", 
+                    "name": "Quick Rules", 
+                    "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Advanced Creature/Quick Rules", 
+                    "section_id": 129, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p><b>AC</b> increase natural armor by +2; <b>Ability Scores</b> +4 to all ability scores (except Int scores of 2 or less).</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Rebuild Rules", 
+                    "section_id": 130
+                }
+            ]
+        }, 
+        {
+            "body": "<p>Celestial creatures dwell in the higher planes, but can be summoned using spells such as <i>summon monster</i> and <i>planar ally</i>. A celestial creature's quick and rebuild rules are the same.</p>", 
+            "name": "Celestial Creature", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Celestial Creature", 
+            "type": "section", 
+            "section_id": 131, 
+            "subtype": "template", 
+            "abbrev": "CR +0 or +1", 
+            "sections": [
+                {
+                    "body": "<p>A celestial creature's CR increases by +1 only if the base creature has 5 or more HD.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Challenge Rating", 
+                    "section_id": 132
+                }, 
+                {
+                    "body": "<p><b>Senses</b> gains darkvision 60 ft.; <b>Defensive Abilities</b> gains DR and energy resistance as noted on the table; <b>SR</b> gains SR equal to new CR +5; <b>Special Attacks</b> smite evil 1/day as a swift action (adds Cha bonus on attack rolls and damage bonus equal to HD against evil foes; smite persists until the target is dead or the celestial creature rests).</p>", 
+                    "name": "Rebuild Rules", 
+                    "sections": [
+                        {
+                            "body": "<table><caption>Celestial Creature Defenses</caption><thead><tr><th>Hit Dice</th><th>Resist Cold, Acid, and Electricity</th><th>DR</th></tr></thead><tbody><tr class=\"odd\"><td>1&ndash;4</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>5&ndash;10</td><td>10</td><td>5/evil</td></tr><tr class=\"odd\"><td>11+</td><td>15</td><td>10/evil</td></tr></tbody></table>", 
+                            "name": "Celestial Creature Defenses", 
+                            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Celestial Creature/Rebuild Rules/Celestial Creature Defenses", 
+                            "section_id": 134, 
+                            "source": "Bestiary", 
+                            "type": "table"
+                        }
+                    ], 
+                    "section_id": 133, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }
+            ]
+        }, 
+        {
+            "body": "<p>Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as <i>summon monster</i> and <i>planar ally</i>. An entropic creature's quick and rebuild rules are the same.</p>", 
+            "name": "Entropic Creature", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Entropic Creature", 
+            "type": "section", 
+            "section_id": 135, 
+            "subtype": "template", 
+            "abbrev": "CR +0 or +1", 
+            "sections": [
+                {
+                    "body": "<p>An entropic creature's CR increases by +1 only if the base creature has 5 or more HD.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Challenge Rating", 
+                    "section_id": 136
+                }, 
+                {
+                    "body": "<p><b>Senses</b> gains darkvision 60 ft.; <b>Defensive Abilities</b> gains DR and energy resistance as noted on the table; <b>SR</b> gains SR equal to new CR +5; <b>Special Attacks</b> smite law 1/day as a swift action (adds Cha bonus on attack rolls and damage bonus equal to HD against lawful foes; smite persists until the target is dead or the entropic creature rests).</p>", 
+                    "name": "Rebuild Rules", 
+                    "sections": [
+                        {
+                            "body": "<table><caption>Entropic Creature Defenses</caption><thead><tr><th>Hit Dice</th><th>Resist Acid and Fire</th><th>DR</th></tr></thead><tbody><tr class=\"odd\"><td>1&ndash;4</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>5&ndash;10</td><td>10</td><td>5/lawful</td></tr><tr class=\"odd\"><td>11+</td><td>15</td><td>10/lawful</td></tr></tbody></table>", 
+                            "name": "Entropic Creature Defenses", 
+                            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Entropic Creature/Rebuild Rules/Entropic Creature Defenses", 
+                            "section_id": 138, 
+                            "source": "Bestiary 2", 
+                            "type": "table"
+                        }
+                    ], 
+                    "section_id": 137, 
+                    "source": "Bestiary 2", 
+                    "type": "section"
+                }
+            ]
+        }, 
+        {
+            "body": "<p>Creatures with the fiendish template live in the Lower Planes, such as the Abyss and Hell, but can be summoned using spells such as <i>summon monster</i> and <i>planar ally</i>. A fiendish creature's quick and rebuild rules are the same.</p>", 
+            "name": "Fiendish Creature", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Fiendish Creature", 
+            "type": "section", 
+            "section_id": 139, 
+            "subtype": "template", 
+            "abbrev": "CR +0 or +1", 
+            "sections": [
+                {
+                    "body": "<p>A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Challenge Rating", 
+                    "section_id": 140
+                }, 
+                {
+                    "body": "<p><b>Senses</b> gains darkvision 60 ft.; <b>Defensive Abilities</b> gains DR and energy resistance as noted on the table; <b>SR</b> gains SR equal to new CR +5; <b>Special Attacks</b> smite good 1/day as a swift action (adds Cha bonus on attack rolls and damage bonus equal to HD against good foes; smite persists until target is dead or the fiendish creature rests).</p>", 
+                    "name": "Rebuild Rules", 
+                    "sections": [
+                        {
+                            "body": "<table><caption>Fiendish Creature Defenses</caption><thead><tr><th>Hit Dice</th><th>Resist Cold and Fire</th><th>DR</th></tr></thead><tbody><tr class=\"odd\"><td>1&ndash;4</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>5&ndash;10</td><td>10</td><td>5/good</td></tr><tr class=\"odd\"><td>11+</td><td>15</td><td>10/good</td></tr></tbody></table>", 
+                            "name": "Fiendish Creature Defenses", 
+                            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Fiendish Creature/Rebuild Rules/Fiendish Creature Defenses", 
+                            "section_id": 142, 
+                            "source": "Bestiary", 
+                            "type": "table"
+                        }
+                    ], 
+                    "section_id": 141, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }
+            ]
+        }, 
+        {
+            "body": "<p>Creatures with the giant template are larger and stronger than their normal-sized kin. This template cannot be applied to creatures that are Colossal.</p>", 
+            "name": "Giant Creature", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Giant Creature", 
+            "type": "section", 
+            "section_id": 143, 
+            "subtype": "template", 
+            "abbrev": "CR +1", 
+            "sections": [
+                {
+                    "body": "<p>As base creature +1</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Challenge Rating", 
+                    "section_id": 144
+                }, 
+                {
+                    "body": "<p>+2 on all rolls based on Str or Con, +2 hp/HD, &ndash;1 penalty on all rolls based on Dex.</p>", 
+                    "name": "Quick Rules", 
+                    "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Giant Creature/Quick Rules", 
+                    "section_id": 145, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p><b>Size</b> increase by one category; <b>AC</b> increase natural armor by +3; <b>Attacks</b> increase dice rolled by 1 step; <b>Ability Scores</b> +4 size bonus to Str and Con, &ndash;2 Dex.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Rebuild Rules", 
+                    "section_id": 146
+                }
+            ]
+        }, 
+        {
+            "body": "<p>Creatures with the resolute template live in planes where law is paramount. They can be summoned using spells such as <i>summon monster</i> and <i>planar ally</i>. A resolute creature's quick and rebuild rules are the same.</p>", 
+            "name": "Resolute Creature", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Resolute Creature", 
+            "type": "section", 
+            "section_id": 147, 
+            "subtype": "template", 
+            "abbrev": "CR +0 or +1", 
+            "sections": [
+                {
+                    "body": "<p>A resolute creature's CR increases by +1 only if the base creature has 5 or more HD.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Challenge Rating", 
+                    "section_id": 148
+                }, 
+                {
+                    "body": "<p><b>Senses</b> gains darkvision 60 ft.; <b>Defensive Abilities</b> gains DR and energy resistance as noted on the table; <b>SR</b> gains SR equal to new CR +5; <b>Special Attacks</b> smite chaos 1/day as a swift action (adds Cha bonus on attack rolls and damage bonus equal to HD against chaotic foes; smite persists until target is dead or the resolute creature rests).</p>", 
+                    "name": "Rebuild Rules", 
+                    "sections": [
+                        {
+                            "body": "<table><caption>Resolute Creature Defenses</caption><thead><tr><th>Hit Dice</th><th>Resist Acid, Cold and Fire</th><th>DR</th></tr></thead><tbody><tr class=\"odd\"><td>1&ndash;4</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>5&ndash;10</td><td>10</td><td>5/chaotic</td></tr><tr class=\"odd\"><td>11+</td><td>15</td><td>10/chaotic</td></tr></tbody></table>", 
+                            "name": "Resolute Creature Defenses", 
+                            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Resolute Creature/Rebuild Rules/Resolute Creature Defenses", 
+                            "section_id": 150, 
+                            "source": "Bestiary 2", 
+                            "type": "table"
+                        }
+                    ], 
+                    "section_id": 149, 
+                    "source": "Bestiary 2", 
+                    "type": "section"
+                }
+            ]
+        }, 
+        {
+            "body": "<p>Creatures with the young template are immature specimens of the base creature. You can also use this simple template to easily create a smaller variant of a monster. This template cannot be applied to creatures that increase in power through aging or feeding (such as dragons or barghests) or creatures that are Fine-sized.</p>", 
+            "name": "Young Creature", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Young Creature", 
+            "type": "section", 
+            "section_id": 151, 
+            "subtype": "template", 
+            "abbrev": "CR -1", 
+            "sections": [
+                {
+                    "body": "<p>As base creature -1</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Challenge Rating", 
+                    "section_id": 152
+                }, 
+                {
+                    "body": "<p>+2 on all Dex-based rolls, &ndash;2 on all other rolls, &ndash;2 hp/HD.</p>", 
+                    "name": "Quick Rules", 
+                    "url": "pfsrd://Bestiary/Rules/Monster Advancement/Simple Templates/Young Creature/Quick Rules", 
+                    "section_id": 153, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p><b>Size</b> decrease by one category; <b>AC</b> reduce natural armor by &ndash;2 (minimum +0); <b>Attacks</b> decrease damage dice by 1 step; <b>Ability Scores</b> &ndash;4 Strength, &ndash;4 Con, +4 size bonus to Dex.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Rebuild Rules", 
+                    "section_id": 154
+                }
+            ]
+        }
+    ], 
+    "section_id": 126, 
+    "source": "Bestiary", 
+    "type": "section"
+}

@@ -1,0 +1,164 @@
+{
+    "dexterity": "26", 
+    "ac": "36, touch 10, flat-footed 28 (+8 Dex, +26 natural, -8 size)", 
+    "special_attacks": "breath weapon, constrict (tail, 3d6+24), death curse", 
+    "intelligence": "7", 
+    "racial_modifiers": "+8 Perception", 
+    "melee": "2 bites +30 (3d8+16/19-20 plus poison), 2 claws +30 (2d6+16), tail +25 (3d6+8 plus grab)", 
+    "cr": "20", 
+    "xp": "307,200", 
+    "speed": "40 ft., fly 100 ft. (average), swim 80 ft.", 
+    "alignment": "CE", 
+    "size": "Colossal", 
+    "languages": "Aklo, Draconic, Sylvan", 
+    "strength": "42", 
+    "constitution": "32", 
+    "space": "30 ft.", 
+    "treasure": "triple", 
+    "init": "+12", 
+    "environment": "cold lakes and swamps", 
+    "source": "Bestiary", 
+    "charisma": "27", 
+    "immune": "acid, curse effects, flanking mind-affecting effects, paralysis, poison, sleep", 
+    "fortitude": "+24", 
+    "type": "creature", 
+    "feats": "Awesome Blow, Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Overrun, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike", 
+    "senses": "all-around vision, darkvision 120 ft., low-light vision, scent, true seeing; Perception +40", 
+    "description": "This nightmarishly huge, snake-like dragon possesses two equally fearsome heads. Its twin jaws seethe with acid and poison.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A tarn linnorm's two heads grant it a +8 racial bonus on Perception checks. It cannot be flanked.", 
+                    "name": "All-Around Vision", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities/All-Around Vision", 
+                    "ability_types": {
+                        "ability_type_id": 438, 
+                        "section_id": 2003, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2003, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Once every 1d4 rounds as a standard action, a tarn linnorm can expel a 120-foot line or a 60-foot cone of acid, dealing 22d8 points of acid damage to all creatures struck (Reflex DC 32 halves). This acid creates toxic fumes when it consumes organic material&mdash;on the round after a creature takes acid damage from this attack, it must make a DC 32 Fortitude save or take 2d6 points of Strength damage from the poisonous fumes (this secondary effect is a poison effect). As a full-round action, the linnorm may breathe acid with one head and bite with the other (but not use its other weapons). Alternatively, as a full-round action, it can breathe acid from both heads to create two adjacent 60-foot-long cones or two separate 120-foot-long lines. In this case it cannot use its breath weapon again for 2d4 rounds. The save DC is Constitution-based.", 
+                    "name": "Breath Weapon", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities/Breath Weapon", 
+                    "ability_types": {
+                        "ability_type_id": 439, 
+                        "section_id": 2004, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2004, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When a creature slays a tarn linnorm, the slayer is affected by the curse of death.Curse of Death: save Will DC 29; effect creature can no longer be affected by healing spells and does not heal damage naturally from rest. The save DC is Charisma-based.", 
+                    "name": "Death Curse", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities/Death Curse", 
+                    "ability_types": {
+                        "ability_type_id": 440, 
+                        "section_id": 2005, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2005, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A tarn linnorm is under the constant effect of freedom of movement, as the spell of the same name. This effect cannot be dispelled.", 
+                    "name": "Freedom of Movement", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities/Freedom of Movement", 
+                    "ability_types": {
+                        "ability_type_id": 441, 
+                        "section_id": 2006, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2006, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 442, 
+                        "section_id": 2007, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2007, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Tarn Linnorm Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities/Poison/Tarn Linnorm Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2008, 
+                            "effect": "6d6 acid damage and 1d8 Constitution drain", 
+                            "subtype": "poison", 
+                            "cure": "3 consecutive saves", 
+                            "frequency": "1/round for 10 rounds", 
+                            "save": "Fortitude DC 32, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "A tarn linnorm has true seeing, as the spell of the same name. This effect cannot be dispelled.", 
+                    "name": "True Seeing", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn/Special Abilities/True Seeing", 
+                    "ability_types": {
+                        "ability_type_id": 443, 
+                        "section_id": 2009, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2009, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 2002, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Although legends speak of even more powerful linnorms, it's hard to believe after witnessing the devastation a two-headed tarn linnorm can wreak. Content to slumber away the centuries at the bottom of dark mountain lakes, the tarn linnorms are true horrors that even the mightiest of heroes fear.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2010
+        }, 
+        {
+            "body": "<p>A tarn linnorm is 120 feet long and weighs 24,000 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2011
+        }
+    ], 
+    "hp": "385 (22d12+242); regeneration 15 (cold iron)", 
+    "reach": "30 ft.", 
+    "section_id": 2001, 
+    "wisdom": "25", 
+    "defensive_abilities": "freedom of movement", 
+    "creature_type": "Dragon", 
+    "special_qualities": "amphibious", 
+    "dr": "20/cold iron", 
+    "name": "Linnorm, Tarn", 
+    "base_attack": "+22", 
+    "skills": "Fly +25, Perception +40, Stealth +17, Swim +49", 
+    "reflex": "+23", 
+    "cmd": "64 (can't be tripped)", 
+    "cmb": "+46 (+50 grapple)", 
+    "will": "+20", 
+    "url": "pfsrd://Bestiary/Monsters/Linnorm/Tarn", 
+    "sr": "31", 
+    "organization": "solitary", 
+    "creature_subtype": "aquatic"
+}

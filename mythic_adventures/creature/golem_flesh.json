@@ -1,0 +1,134 @@
+{
+    "dexterity": "9", 
+    "ac": "23, touch 8, flat-footed 23 (-1 Dex, +15 natural, -1 size)", 
+    "special_attacks": "berserk, greater rage (10 rounds/day), mythic brawler, mythic power (3/day, surge +1d6)", 
+    "intelligence": "6", 
+    "melee": "2 slams +16 (2d8+6 plus 1d10 electricity plus sparking slams)", 
+    "cr": "9", 
+    "speed": "30 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "languages": "none", 
+    "strength": "22", 
+    "constitution": "-", 
+    "space": "10 ft.", 
+    "treasure": "none", 
+    "init": "-1", 
+    "environment": "any", 
+    "source": "Mythic Adventures", 
+    "charisma": "1", 
+    "immune": "construct traits, magic", 
+    "fortitude": "+3", 
+    "type": "creature", 
+    "feats": "Blind-Fight, Cleave, Power AttackM, ToughnessM, Weapon Focus (slam)", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +10", 
+    "description": "Electricity constantly arcs between the bolts and rivets that hold this amalgamated creature's flesh together. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures", 
+            "url": "pfsrd://Mythic Adventures/Monsters/Golem/Flesh/Special Abilities", 
+            "sections": [
+                {
+                    "body": "When a mythic flesh golem enters combat, there is a cumulative 1% chance each round that the golem goes berserk. A berserk golem attacks the nearest living creature or smashes some object smaller than itself if no creature is within reach, then moves on to spread more destruction. If the golem's creator is within 60 feet and succeeds at a DC 20 Charisma check, she regains control of the golem by speaking firmly and persuasively to it. If the golem is inactive for 1 minute, its berserk chance resets to 0%.", 
+                    "name": "Berserk", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Golem/Flesh/Special Abilities/Berserk", 
+                    "ability_types": {
+                        "ability_type_id": 82, 
+                        "section_id": 1083, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1083, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A mythic flesh golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.", 
+                    "name": "Immunity to Magic", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Golem/Flesh/Special Abilities/Immunity to Magic", 
+                    "ability_types": {
+                        "ability_type_id": 83, 
+                        "section_id": 1084, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1084, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1082, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<ul><li>A mythic magical attack that deals cold or fire damage slows a mythic flesh golem (as the <i>slow</i> spell) for 2d6 rounds (no save).</li><li>A magical attack that deals electricity damage (other than the golem's own sparking slam) ends any slow effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal; (the golem gets no save against these attacks). If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points.</li></ul>", 
+            "source": "Mythic Adventures", 
+            "type": "section", 
+            "section_id": 1085
+        }, 
+        {
+            "name": "Mythic Brawler", 
+            "url": "pfsrd://Mythic Adventures/Monsters/Golem/Flesh/Mythic Brawler", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\"> The mythic flesh golem can spend a use of its mythic power to attempt a combat maneuver as a swift action with no attack of opportunity for the attempt.</p>", 
+                    "source": "Mythic Adventures", 
+                    "type": "section", 
+                    "section_id": 1087
+                }
+            ], 
+            "ability_types": {
+                "ability_type_id": 84, 
+                "section_id": 1086, 
+                "ability_type": "Extraordinary"
+            }, 
+            "section_id": 1086, 
+            "source": "Mythic Adventures", 
+            "type": "ability"
+        }, 
+        {
+            "name": "Sparking Slams", 
+            "url": "pfsrd://Mythic Adventures/Monsters/Golem/Flesh/Sparking Slams", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\"> If a mythic flesh golem strikes an opponent twice in 1 round with its slams, that creature takes an additional 2d10 points of electricity damage. A flesh golem cannot use its electricity attacks to deal electricity damage to itself.</p>", 
+                    "source": "Mythic Adventures", 
+                    "type": "section", 
+                    "section_id": 1089
+                }, 
+                {
+                    "body": "<p>A mythic flesh golem retains an unnatural level of electrical energy from the process that created it. This grants it limited intelligence, extra strength, and the ability to shock its opponents.</p>", 
+                    "source": "Mythic Adventures", 
+                    "type": "section", 
+                    "section_id": 1090
+                }
+            ], 
+            "ability_types": {
+                "ability_type_id": 85, 
+                "section_id": 1088, 
+                "ability_type": "Supernatural"
+            }, 
+            "section_id": 1088, 
+            "source": "Mythic Adventures", 
+            "type": "ability"
+        }
+    ], 
+    "hp": "145 (10d10+90); fast healing 5", 
+    "reach": "10 ft.", 
+    "section_id": 1081, 
+    "wisdom": "11", 
+    "creature_type": "Construct", 
+    "dr": "5/adamantine and epic", 
+    "name": "Golem, Flesh", 
+    "super_race": "xp 6,400", 
+    "base_attack": "+10", 
+    "skills": "Perception +10", 
+    "reflex": "+2", 
+    "cmd": "26", 
+    "cmb": "+17", 
+    "will": "+3", 
+    "url": "pfsrd://Mythic Adventures/Monsters/Golem/Flesh", 
+    "mr": "3", 
+    "organization": "solitary or gang (2-4)", 
+    "creature_subtype": "mythic"
+}

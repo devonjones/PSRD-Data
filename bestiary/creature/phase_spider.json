@@ -1,0 +1,131 @@
+{
+    "dexterity": "17", 
+    "ac": "17, touch 12, flat-footed 14 (+3 Dex, +5 natural, -1 size)", 
+    "special_attacks": "ethereal ambush", 
+    "intelligence": "7", 
+    "melee": "bite +10 (2d6+7 plus poison and grab)", 
+    "cr": "5", 
+    "xp": "1,600", 
+    "speed": "40 ft., climb 20 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "languages": "Aklo", 
+    "strength": "20", 
+    "constitution": "16", 
+    "space": "10 ft.", 
+    "treasure": "none", 
+    "init": "+7", 
+    "environment": "warm hills", 
+    "source": "Bestiary", 
+    "charisma": "10", 
+    "fortitude": "+8", 
+    "type": "creature", 
+    "feats": "Ability Focus (poison), Improved Initiative, Skill Focus (Stealth)", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +6", 
+    "description": "This large spider-like monster has an eerie, humanoid face surrounded by a shaggy mane of fur.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Phase Spider/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A phase spider that attacks foes on the Material Plane in a surprise round can take a full round of actions if it begins the combat by phasing into the Material Plane from the Ethereal Plane.", 
+                    "name": "Ethereal Ambush", 
+                    "url": "pfsrd://Bestiary/Monsters/Phase Spider/Special Abilities/Ethereal Ambush", 
+                    "ability_types": {
+                        "ability_type_id": 497, 
+                        "section_id": 2338, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2338, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A phase spider can shift from the Ethereal Plane to the Material Plane as a free action, and shift back again as a move action (or as part of a move action). The ability is otherwise identical to ethereal jaunt (CL 15th).", 
+                    "name": "Ethereal Jaunt", 
+                    "url": "pfsrd://Bestiary/Monsters/Phase Spider/Special Abilities/Ethereal Jaunt", 
+                    "ability_types": {
+                        "ability_type_id": 498, 
+                        "section_id": 2339, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2339, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Phase Spider/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 499, 
+                        "section_id": 2340, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2340, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Phase Spider Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Phase Spider/Special Abilities/Poison/Phase Spider Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2341, 
+                            "effect": "1d2 Constitution damage", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 8 rounds", 
+                            "save": "Fortitude DC 18", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2337, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Phase spiders are voracious predators from the Ethereal Plane who hunt on the Material Plane. When prey is located, the spider shifts to the Ethereal Plane to prepare an ambush. Against a lone victim, the spider shifts to the Material Plane, bites the victim, then retreats back to the Ethereal Plane to wait for the poison to take effect. Against multiple foes, a phase spider follows these same tactics, and on each round a foe remains in reach at the start of its turn, it repeats this gambit. If no foes are in reach, it moves while ethereal to prepare an attack on an available target, but unless it feels safe in spending an entire round on the Material, it won't phase back to attack unless it can do so while saving a move action for an escape.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2342
+        }, 
+        {
+            "body": "<p>Phase spiders are the natural enemy of another denizen of the Ethereal Plane&mdash;the xill. The two races have long fought a bloody war with no real prospect of a resolution anytime soon. Were phase spiders less horrifying and alien in appearance, they might find the allies they need to defeat the sinister xill among other races, but their monstrous forms and often overwhelming hunger make diplomacy difficult.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2343
+        }, 
+        {
+            "body": "<p>On the Ethereal Plane, phase spiders can manipulate the raw smoky ether in a manner similar to how a spider manipulates webs. Vast, complex nests of semisolid ether float idly through the eddies of the Ethereal Plane, each supporting numerous phase spiders. The creatures enjoy each other's company, but have no real concept of family&mdash;a newborn phase spider is fully capable of fending for itself and is treated no differently by its parents or siblings than any other.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2344
+        }, 
+        {
+            "body": "<p>The typical phase spider is 8 feet long and weighs about 700 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2345
+        }
+    ], 
+    "hp": "51 (6d10+18)", 
+    "reach": "5 ft.", 
+    "section_id": 2336, 
+    "wisdom": "13", 
+    "defensive_abilities": "ethereal jaunt", 
+    "creature_type": "Magical Beast", 
+    "name": "Phase Spider", 
+    "base_attack": "+6", 
+    "skills": "Climb +18, Perception +6, Stealth +7", 
+    "reflex": "+8", 
+    "cmd": "25 (37 vs. trip)", 
+    "cmb": "+12 (+16 grapple)", 
+    "will": "+3", 
+    "url": "pfsrd://Bestiary/Monsters/Phase Spider", 
+    "organization": "solitary, pair, or cluster (3-6)"
+}

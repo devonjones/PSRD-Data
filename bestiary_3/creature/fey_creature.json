@@ -1,0 +1,230 @@
+{
+    "dexterity": "17", 
+    "ac": "15, touch 12, flat-footed 12 (+3 Dex, +3 natural, -1 size)", 
+    "special_attacks": "swallow whole (1d4 bludgeoning damage, AC 11, 2 hp)", 
+    "intelligence": "3", 
+    "racial_modifiers": "+4 Acrobatics (+8 when jumping), +4 Stealth", 
+    "resist": "cold 10, electricity 10", 
+    "melee": "bite +4 (1d6+4 plus grab)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "30 ft., fly 45 ft. (good), swim 15 ft.", 
+    "alignment": "CN", 
+    "size": "Large", 
+    "languages": "Sylvan", 
+    "strength": "17", 
+    "constitution": "16", 
+    "space": "10 ft.", 
+    "treasure": "none", 
+    "init": "+3", 
+    "environment": "temperate forests, plains, or swamps", 
+    "source": "Bestiary 3", 
+    "charisma": "8", 
+    "fortitude": "+6", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 3rd; concentration +2)<p class=\"stat-block-2\">3/day-<i>dancing lights</i></p><p class=\"stat-block-2\">1/day-<i>entangle</i> (DC 10), <i>faerie fire</i>, <i>glitterdust</i> (DC 11)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Lightning Reflexes, Skill Focus (Perception)", 
+    "senses": "low-light vision, scent; Perception +7", 
+    "description": "Little about this enormous toad is ordinary, from its graceful wings to its colorful purple and pink skin to its bright, shining eyes.   ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A creature that strikes a fey giant toad with an unarmed strike or natural weapon exposes itself to the toad's poisonous skin. Skin:", 
+                    "name": "Poison Skin", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Special Abilities/Poison Skin", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 249, 
+                        "section_id": 850, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 850, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Fey Giant Toad Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Special Abilities/Poison Skin/Fey Giant Toad Venom", 
+                            "contracted": "contact", 
+                            "section_id": 851, 
+                            "effect": "1d2 Wisdom damage", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 4 rounds", 
+                            "save": "Fortitude DC 14", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 849, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Fey creatures resemble the mundane creatures they derive from, but with brighter colors, delicate features, and elegant wings such as those of a pixie or sprite. Despite their fragile-seeming appearance, fey creatures are every bit as hardy as their non-fey relations, though they sacrifice raw might for grace and the ability to fly. They live long lives, barring death by misadventure, and rarely show outward signs of age.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 852
+        }, 
+        {
+            "body": "<p>Some fey creatures owe their nature to fey ancestors interbreeding with mortal beings, while others are races in their own right. Still others began life as ordinary creatures and were infused with fey essence through the magic of learned spellcasters or the influence of ancient powers of nature. As a rule, fey creatures rarely dwell in civilized lands, both by preference and because the conditions that give rise to the fey rarely occur in urban surroundings. If not already born into realms of primeval wild or areas touched by great fey powers, fey creatures soon seek them out.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 853
+        }, 
+        {
+            "body": "<p>Though more prone to mischief than mayhem, fey creatures run the gamut from inimical to sprightly in behavior. Those inclined toward play and jest take a dim view of interlopers lacking in good humor. Such foul-tempered intruders risk humiliation at best if they insult the fey, and much worse if they raise arms against them. More aggressive fey still possess a well-developed though sadistic sense of humor. Such wicked fey use their inborn powers to lure outsiders to their doom, rather than into mere inconvenience.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 854
+        }, 
+        {
+            "body": "<p>Fey creatures generally have cordial relationships with animals, allies of nature such as druids, and other fey. Exceptions exist where rival communities of fey dwell in proximity to one another. In these cases, any fey creatures in the vicinity ally with one side or the other according to their own inclinations, only rarely standing outside such conflicts. Fey creatures derived from horses and the like often serve as mounts, though only to other fey or to allies of nature who acknowledge them as at least near-equals, if not full partners. </p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 855
+        }, 
+        {
+            "name": "Creating a Fey Creature", 
+            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature", 
+            "sections": [
+                {
+                    "body": "<p>&ldquo;Fey Creature&rdquo; is an inherited or acquired template that can be added to any living, corporeal creature. A fey creature retains the base creature's statistics and special abilities except as noted here.</p>", 
+                    "name": "Fey Creature", 
+                    "source": "Bestiary 3", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature/Fey Creature", 
+                    "type": "section", 
+                    "section_id": 857, 
+                    "subtype": "template", 
+                    "abbrev": "CR +1 or +2", 
+                    "sections": [
+                        {
+                            "body": "<p>9 HD or less, as base creature +1; 10 HD or more, as base creature +2.</p>", 
+                            "source": "Bestiary 3", 
+                            "type": "section", 
+                            "name": "Challenge Rating", 
+                            "section_id": 858
+                        }, 
+                        {
+                            "body": "<p>Any non-lawful.</p>", 
+                            "source": "Bestiary 3", 
+                            "type": "section", 
+                            "name": "Alignment", 
+                            "section_id": 859
+                        }, 
+                        {
+                            "body": "<p>The creature's type changes to fey. Do not recalculate HD, BAB, or saves.</p>", 
+                            "source": "Bestiary 3", 
+                            "type": "section", 
+                            "name": "Type", 
+                            "section_id": 860
+                        }, 
+                        {
+                            "body": "<p>A fey creature gains low-light vision.</p>", 
+                            "source": "Bestiary 3", 
+                            "type": "section", 
+                            "name": "Senses", 
+                            "section_id": 861
+                        }, 
+                        {
+                            "body": "<p>Reduce the creature's natural armor, if any, by 1 (minimum of 0).</p>", 
+                            "name": "Armor Class", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature/Fey Creature/Armor Class", 
+                            "section_id": 862, 
+                            "source": "Bestiary 3", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>A fey creature gains a +4 bonus on saves against mind-affecting effects, resist cold and electricity 10, and DR 5/cold iron (if 11 HD or less) or DR 10/cold iron (if 12 HD or more). </p>", 
+                            "source": "Bestiary 3", 
+                            "type": "section", 
+                            "name": "Defensive Abilities", 
+                            "section_id": 863
+                        }, 
+                        {
+                            "body": "<p>Unless the base creature flies better, the fey creature flies at 1-1/2 times the base creature's land speed (good maneuverability), rounded down to the nearest multiple of 5 feet. If the creature already has flight with a maneuverability of good, it increases to perfect.</p>", 
+                            "name": "Speed", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature/Fey Creature/Speed", 
+                            "section_id": 864, 
+                            "source": "Bestiary 3", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>A fey creature gains one of the following abilities for every 4 HD or fraction thereof.</p><p class=\"stat-block-2\"><i>Camouflage</i>  A fey creature can use Stealth to hide in any sort of natural terrain, even if the terrain does not grant cover or concealment. It gains a +4 racial bonus on Stealth checks. This bonus does not stack with any racial Stealth bonus possessed by the base creature.</p><p class=\"stat-block-2\"><i>Change Shape (Su)</i> A fey creature can change shape into a single form. Possible forms include a normal specimen of its base creature, a humanoid creature within one size category, or an animal within one size category. In all cases, the fey creature appears as the same individual of its alternate form each time it changes shape. The type of <i>polymorph</i> spell used should be chosen as appropriate based on the alternate form, such as <i>alter self</i> for taking humanoid form. This ability can be selected more than once, granting an additional form each time.</p><p class=\"stat-block-2\"><i>Energy Resistance (Ex)</i> A fey creature gains resistance 10 to one energy type, or increases an existing resistance by 10. Resistance increased beyond 30 becomes immunity instead. This ability can be selected more than once. </p><p class=\"stat-block-2\"><i>Evasion (Ex)</i> A fey creature gains evasion, as the rogue ability of the same name.</p><p class=\"stat-block-2\"><i>Long Step (Su)</i> A fey creature can teleport up to 10 feet per Hit Die as a move action. It may use this ability once every 1d4 rounds.</p><p class=\"stat-block-2\"><i>Spell Resistance (Ex)</i> A fey creature gains SR equal to 11 + its CR. This does not stack with any existing SR possessed by the base creature.</p><p class=\"stat-block-2\"><i>Trackless Step (Ex)</i> A fey creature does not leave a trail in natural surroundings and cannot be tracked. It can choose to leave a trail, if it so desires.</p><p class=\"stat-block-2\"><i>Vanish (Su)</i> As a swift action, a fey creature can vanish for 1 round as if affected by <i>invisibility</i>. It can use this ability for 1 round per day per Hit Die.</p><p class=\"stat-block-2\"><i>Woodland Stride (Ex)</i> A fey creature can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at its normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion still affect it. Optionally, this ability may function in a different type of terrain, to allow the fey creature to move through, swamps, rocky areas, ice, and so forth. Whatever the choice, this ability only functions in one type of terrain. This ability can be selected more than once, for a different terrain each time.</p>", 
+                            "name": "Special Abilities", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature/Fey Creature/Special Abilities", 
+                            "ability_types": {
+                                "ability_type_id": 250, 
+                                "section_id": 865, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 865, 
+                            "source": "Bestiary 3", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p>A fey creature with an Intelligence or Wisdom score of 8 or more has a cumulative number of spell-like abilities depending on its Hit Dice. Unless otherwise noted, an ability is usable once per day. Caster level equals the creature's HD (or the caster level of the base creature's spell-like abilities, whichever is higher).</p><center><table><tr><td>1&ndash;2</td><td><i>Dancing lights</i> 3/day, <i>faerie fire</i></td></tr><tr><td>3&ndash;4</td><td><i>Entangle</i>, <i>glitterdust</i></td></tr><tr><td>5&ndash;6</td><td><i>Deep slumber</i></td></tr><tr><td>7&ndash;8</td><td><i>Major image</i></td></tr><tr><td>9&ndash;10</td><td><i>Confusion</i></td></tr><tr><td>11&ndash;12</td><td><i>Feeblemind</i></td></tr><tr><td>13&ndash;14</td><td><i>Mislead</i></td></tr><tr><td>15&ndash;16</td><td><i>Project image</i></td></tr><tr><td>17&ndash;18</td><td><i>Irresistible dance</i></td></tr><tr><td>19&ndash;20</td><td><i>Scintillating pattern</i></td></tr></table></center>", 
+                            "name": "Spell-Like Abilities", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature/Fey Creature/Spell-Like Abilities", 
+                            "section_id": 866, 
+                            "source": "Bestiary 3", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>A fey creature gains a +4 bonus to Dexterity and a +2 bonus to Intelligence and Charisma. A fey creature receives a &ndash;2 penalty to Strength. Fey creatures derived from creatures without an Intelligence score gain an Intelligence of 3.</p>", 
+                            "name": "Abilities", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature/Fey Creature/Abilities", 
+                            "section_id": 867, 
+                            "source": "Bestiary 3", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>A fey creature with racial Hit Dice has skill points per racial Hit Die equal to 6 + its Intelligence modifier. It gains Acrobatics, Bluff, Fly, and Stealth as class skills.</p>", 
+                            "name": "Skills", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Fey Creature/Creating a Fey Creature/Fey Creature/Skills", 
+                            "section_id": 868, 
+                            "source": "Bestiary 3", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>Fey creatures speak Sylvan as well as any languages spoken by the base creature.</p>", 
+                            "source": "Bestiary 3", 
+                            "type": "section", 
+                            "name": "Languages", 
+                            "section_id": 869
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 856, 
+            "source": "Bestiary 3", 
+            "type": "section"
+        }
+    ], 
+    "hp": "22 (3d8+9)", 
+    "reach": "10 ft.", 
+    "section_id": 848, 
+    "wisdom": "8", 
+    "defensive_abilities": "poison skin", 
+    "creature_type": "Fey", 
+    "special_qualities": "vanish (3 rounds/day)", 
+    "dr": "5/cold iron", 
+    "name": "Fey Creature", 
+    "base_attack": "+2", 
+    "skills": "Acrobatics +11 (+15 when jumping), Fly +9, Perception +7, Stealth +8, Swim +11", 
+    "reflex": "+8", 
+    "cmd": "19 (23 vs. trip)", 
+    "cmb": "+6 (+10 grapple)", 
+    "will": "+0; +4 vs. mind-affecting effects", 
+    "url": "pfsrd://Bestiary 3/Monsters/Fey Creature", 
+    "organization": "solitary, pair, or knot (3-12)"
+}

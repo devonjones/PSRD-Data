@@ -1,0 +1,100 @@
+{
+    "dexterity": "10", 
+    "ac": "13, touch 9, flat-footed 13 (+4 natural, -1 size)", 
+    "special_attacks": "stampede, trample (2d6+9, DC 17)", 
+    "intelligence": "2", 
+    "melee": "gore +7 (1d8+9)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "40 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "23", 
+    "constitution": "17", 
+    "space": "10 ft.", 
+    "treasure": "none", 
+    "init": "+0", 
+    "environment": "temperate plains", 
+    "source": "Bestiary", 
+    "charisma": "4", 
+    "fortitude": "+6", 
+    "type": "creature", 
+    "feats": "Endurance, Skill Focus (Perception)", 
+    "senses": "low-light vision, scent; Perception +9", 
+    "description": "This large, horned bull has a dirty black hide and an aggressive temper. Its horns are wide and sharp.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Herd Animal/Aurochs/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A stampede occurs if three or more creatures with stampede make a trample attack while remaining adjacent to each other. While stampeding, the creatures can trample foes of their size or smaller, and the trample's save DC increases by +2.", 
+                    "name": "Stampede", 
+                    "url": "pfsrd://Bestiary/Monsters/Herd Animal/Aurochs/Special Abilities/Stampede", 
+                    "ability_types": {
+                        "ability_type_id": 399, 
+                        "section_id": 1817, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1817, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1816, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Aurochs (both singular and plural) are large herd animals similar to domesticated cattle.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1818
+        }, 
+        {
+            "ac": "+1 natural armor", 
+            "name": "Aurochs", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Herd Animal/Aurochs/Aurochs", 
+            "sections": [
+                {
+                    "ac": "+3 natural armor", 
+                    "name": "7th-Level Advancement", 
+                    "level": "7th", 
+                    "url": "pfsrd://Bestiary/Monsters/Herd Animal/Aurochs/Aurochs/7th-Level Advancement", 
+                    "section_id": 1820, 
+                    "subtype": "advancement", 
+                    "attack": "gore (1d8)", 
+                    "source": "Bestiary", 
+                    "special_qualities": "stampede, trample", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
+                    "size": "Large"
+                }
+            ], 
+            "section_id": 1819, 
+            "subtype": "base", 
+            "attack": "gore (1d6)", 
+            "type": "animal_companion", 
+            "special_qualities": "low-light vision, scent", 
+            "speed": "40 ft.", 
+            "ability_scores": "Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4", 
+            "size": "Medium"
+        }
+    ], 
+    "hp": "22 (3d8+9)", 
+    "reach": "5 ft.", 
+    "section_id": 1815, 
+    "wisdom": "11", 
+    "creature_type": "Animal", 
+    "name": "Herd Animal, Aurochs", 
+    "base_attack": "+2", 
+    "skills": "Perception +9", 
+    "reflex": "+3", 
+    "cmd": "19 (23 vs. trip)", 
+    "cmb": "+9", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary/Monsters/Herd Animal/Aurochs", 
+    "organization": "solitary, pair, or herd (3-30)"
+}

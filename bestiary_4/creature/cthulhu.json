@@ -1,0 +1,167 @@
+{
+    "dexterity": "21", 
+    "ac": "49, touch 29, flat-footed 44 (+12 deflection, +5 Dex, +10 insight, +20 natural, \u20138 size)", 
+    "special_attacks": "cleaving claws, constrict (3d6+23), dreams of madness, mythic power (10/day, surge +1d12), powerful blows (tentacle), tentacles, trample (2d8+30, DC 51)", 
+    "intelligence": "31", 
+    "resist": "acid 30, electricity 30, fire 30, sonic 30", 
+    "melee": "2 claws +42 (4d6+23/19\u201320 plus grab), 4 tentacles +42 (2d10+34/19\u201320 plus grab)", 
+    "cr": "30", 
+    "xp": "9,830,400", 
+    "speed": "60 ft., fly 200 ft. (average), swim 60 ft.", 
+    "alignment": "CE", 
+    "size": "Colossal", 
+    "languages": "Aklo; telepathy 300 ft.", 
+    "strength": "56", 
+    "constitution": "45", 
+    "space": "40 ft.", 
+    "treasure": "triple", 
+    "init": "+15", 
+    "environment": "any (R'lyeh)", 
+    "source": "Bestiary 4", 
+    "charisma": "34", 
+    "immune": "ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, and petrification", 
+    "fortitude": "+29", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 30th; concentration +42)<p class=\"stat-block-2\">Constant-<i>freedom of movement</i>, <i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>astral projection</i>, <i>control weather</i><sup>M</sup>, <i>dream</i><sup>M</sup>, <i>greater dispel magic</i>, <i>greater teleport</i>, <i>insanity</i> (DC 29), <i>nightmare</i><sup>M</sup> (DC 29), <i>sending</i><sup>M</sup></p><p class=\"stat-block-2\">3/day-<i>antipathy</i> (DC 30), <i>demand</i> (DC 30), quickened <i>feeblemind</i>, <i>gate</i>, <i>weird</i> (DC 31)</p><p class=\"stat-block-2\">1/day-<i>implosion</i> (DC 31), summon (level 9, 2d4 star-spawn of Cthulhu 100%), <i>symbol of insanity</i> (DC 30), <i>wish</i><sup>M</sup></p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Ability Focus (nightmare), Awesome Blow, Combat Reflexes, Craft Wondrous Item, Critical Focus, Flyby Attack, Greater Sunder, Greater Vital Strike, Hover, Improved Bull Rush, Improved Critical (claw), Improved Critical (tentacle), Improved Sunder, Improved Vital Strike, Power Attack, Quicken Spell-Like Ability (feeblemind), Staggering Critical, Vital Strike", 
+    "senses": "darkvision 60 ft., true seeing; Perception +52", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 4", 
+            "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A single attack from one of Cthulhu's claws can target all creatures in a 10-foot square. Make one attack roll; any creature in the area whose AC is equal to or lower than the result takes damage from the claw.", 
+                    "name": "Cleaving Claws", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities/Cleaving Claws", 
+                    "ability_types": {
+                        "ability_type_id": 278, 
+                        "section_id": 953, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 953, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When Cthulhu uses his nightmare spell-like ability on a creature with one or more ranks in a Craft or Perform skill, he also afflicts the creature with maddening dreams. In addition to the effect of nightmare, the target must succeed at a DC 40 Will save or contract a random insanity (Pathfinder RPG GameMastery Guide 250). This is a mind-affecting effect. A creature that already has an insanity is immune to this ability. The save DC is Charisma-based.", 
+                    "name": "Dreams of Madness", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities/Dreams of Madness", 
+                    "ability_types": {
+                        "ability_type_id": 279, 
+                        "section_id": 954, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 954, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Cthulhu can survive in the void of outer space, and flies through outer space at incredible speeds. Although the exact travel time will vary from one trip to the next, a trip within a solar system normally takes Cthulhu 2d6 hours, and a trip beyond normally takes 2d6 days (or more, at the GM's discretion).", 
+                    "name": "Greater Starflight", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities/Greater Starflight", 
+                    "ability_types": {
+                        "ability_type_id": 280, 
+                        "section_id": 955, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 955, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "If Cthulhu is killed, his body immediately fades away into a noxious cloud of otherworldly vapor that fills an area out to his reach. This cloud blocks vision as obscuring mist, but can't be dispersed by any amount of wind. Any creature in this area must succeed at a DC 45 Fortitude save or be nauseated for as long as it remains in the cloud and for an additional 1d10 rounds after it leaves the area. Cthulhu returns to life after 2d6 rounds, manifesting from the cloud and restored to life via true resurrection, but is staggered for 2d6 rounds (nothing can remove this staggered effect). If slain again while he is staggered from this effect, Cthulhu reverts to vapor form again and his essence fades away after 2d6 rounds, returning to his tomb in R'lyeh until he is released again. The save DC is Constitution-based.", 
+                    "name": "Immortality", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities/Immortality", 
+                    "ability_types": {
+                        "ability_type_id": 281, 
+                        "section_id": 956, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 956, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Cthulhu does not exist wholly in the physical world, and space and time strain against his presence. This grants Cthulhu a deflection bonus to AC and a racial bonus on Reflex saves equal to his Charisma modifier (+12). His apparent and actual position are never quite the same, granting him a 50% miss chance against all attacks. True seeing can defeat this miss chance, but any creature that looks upon Cthulhu while under the effects of true seeing must succeed at a DC 40 Will save or be afflicted by a random insanity (this is a mind-affecting effect). The save DC is Charisma-based.", 
+                    "name": "Non-Euclidean", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities/Non-Euclidean", 
+                    "ability_types": {
+                        "ability_type_id": 282, 
+                        "section_id": 957, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 957, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Cthulhu's tentacles are a primary attack.", 
+                    "name": "Tentacles", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities/Tentacles", 
+                    "ability_types": {
+                        "ability_type_id": 283, 
+                        "section_id": 958, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 958, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Failing a DC 40 Will save against Cthulhu's unspeakable presence causes the victim to immediately die of fright. This is a death and fear effect. A creature immune to fear that fails its save against Cthulhu's unspeakable presence is staggered for 1d6 rounds instead of killed. The save DC is Charisma-based.", 
+                    "name": "Unspeakable Presence", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu/Special Abilities/Unspeakable Presence", 
+                    "ability_types": {
+                        "ability_type_id": 284, 
+                        "section_id": 959, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 959, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 952, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Known to some as the Dreamer in the Deep, Great Cthulhu is the mightiest of the Great Old Ones. Cthulhu is represented often in artwork&mdash;particularly in sculpture, painting, and poetry, for his influence is particularly strong among such sensitive and creative minds. In these eldritch works of art, he is depicted or described as having a vaguely humanoid frame, but with immense draconic wings and an octopus-shaped head. His actual form is somewhat fluid&mdash;the Great Old One can shift and reshape his exact countenance as he wills, allowing him to occupy a smaller space than one might expect for a creature that stands over 100 feet tall.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 960
+        }, 
+        {
+            "body": "<p>It is fortunate indeed that Cthulhu is currently imprisoned on a distant planet within the sunken city of R'lyeh. There, the Great Old One slumbers away the eons in a state neither quite dead nor living, held in stasis by ancient magic and the potency of the <i>Elder Sign</i>, yet at times the city rises from the sea and the doors to his tomb open, granting Cthulhu limited mobility before he must return to his tomb.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 961
+        }
+    ], 
+    "hp": "774 (36d8+612); fast healing 30", 
+    "reach": "40 ft.", 
+    "section_id": 951, 
+    "wisdom": "36", 
+    "defensive_abilities": "freedom of movement, immortality, insanity (DC 40), non-euclidean", 
+    "creature_type": "Aberration", 
+    "special_qualities": "compression, greater starflight, otherworldly insight", 
+    "dr": "20/epic and lawful", 
+    "name": "Cthulhu", 
+    "base_attack": "+27", 
+    "skills": "Fly +36, Knowledge (arcana) +49, Knowledge (dungeoneering, engineering, geography, history, nature, planes, religion) +46, Perception +52, Sense Motive +49, Spellcraft +49, Swim +70, Use Magic Device +48", 
+    "reflex": "+29", 
+    "cmd": "97 (99 vs. bull rush or sunder)", 
+    "cmb": "+58 (+60 bull rush, +62 grapple or sunder)", 
+    "will": "+33", 
+    "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Cthulhu/Cthulhu", 
+    "aura": "unspeakable presence (300 ft., DC 40)", 
+    "sr": "41", 
+    "organization": "solitary (unique)", 
+    "creature_subtype": "chaotic, evil, Great Old One"
+}

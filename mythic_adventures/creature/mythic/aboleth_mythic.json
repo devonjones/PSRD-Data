@@ -1,0 +1,121 @@
+{
+    "dexterity": "12", 
+    "ac": "23, touch 9, flat-footed 22 (+1 Dex, +14 natural, -2 size)", 
+    "special_attacks": "mucus mist, mythic power (3/day, surge +1d6)", 
+    "intelligence": "15", 
+    "melee": "4 tentacles +11 (1d8+5 plus slime)", 
+    "url": "pfsrd://Mythic Adventures/Monsters/Aboleth/Mythic", 
+    "cr": "9", 
+    "xp": "6,400", 
+    "speed": "10 ft., swim 60 ft.", 
+    "alignment": "LE", 
+    "size": "Huge", 
+    "languages": "Aboleth, Aklo, Aquan, Undercommon", 
+    "strength": "20", 
+    "constitution": "22", 
+    "space": "15 ft.", 
+    "treasure": "double", 
+    "init": "+8M", 
+    "environment": "any aquatic", 
+    "source": "Mythic Adventures", 
+    "charisma": "19", 
+    "fortitude": "+9", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 16th; concentration +20)<p class=\"stat-block-2\">At will-<i>hypnotic pattern</i> (DC 16), <i>illusory wall</i> (DC 18), <i>mirage arcana</i> (DC 19), <i>persistent image</i> (DC 19), <i>programmed image</i> (DC 20), <i>project image</i> (DC 21), <i>veil</i> (DC 20)</p><p class=\"stat-block-2\">3/day-<i>dominate monster</i> (DC 23)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Combat Casting, Improved InitiativeM, Iron WillM, Lightning Reflexes, Weapon Focus (tentacle)", 
+    "senses": "darkvision 60 ft.; Perception +15", 
+    "description": "A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Mythic Adventures", 
+            "url": "pfsrd://Mythic Adventures/Monsters/Aboleth/Mythic/Special Abilities", 
+            "sections": [
+                {
+                    "body": "While underwater, an aboleth exudes a cloud of transparent slime. All creatures adjacent to an aboleth must succeed at a DC 20 Fortitude save each round or lose the ability to breathe air (but gain the ability to breathe water) for 3 hours. Renewed contact with an aboleth's mucus cloud and failing another save extends the effect for another 3 hours. The save DC is Constitution-based.", 
+                    "name": "Mucus Cloud", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Aboleth/Mythic/Special Abilities/Mucus Cloud", 
+                    "ability_types": {
+                        "ability_type_id": 5, 
+                        "section_id": 921, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 921, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When exposed to the air, a mythic aboleth can release its mucus as a fine mist. This obscures vision like obscuring mist and has the same properties as its mucus cloud. Creatures that breathe water are able to breathe normally while within the cloud. The mist moves with the aboleth.", 
+                    "name": "Mucus Mist", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Aboleth/Mythic/Special Abilities/Mucus Mist", 
+                    "ability_types": {
+                        "ability_type_id": 6, 
+                        "section_id": 922, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 922, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A creature hit by an aboleth's tentacle must succeed at a DC 20 Fortitude save or its skin and flesh transform into a clear, slimy membrane over the course of 1d4 rounds. The creature's new \"flesh\" is soft and tender, reducing its Constitution score by 4 as long as the transformation persists. If the creature's flesh isn't kept moist, it dries quickly and the victim takes 1d12 points of damage every 10 minutes. Remove disease and similar effects can restore an afflicted creature to normal, but immunity to disease offers no protection from this attack. The save DC is Constitution-based.", 
+                    "name": "Slime", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Aboleth/Mythic/Special Abilities/Slime", 
+                    "ability_types": {
+                        "ability_type_id": 7, 
+                        "section_id": 923, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 923, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A mythic aboleth can spend 1 minute to create an armorlike carapace from hardened slime. This gives it a +4 armor bonus, reduces its swim speed to 30 feet, and increases its land speed to 30 feet. The aboleth can dissolve the armor as a full-round action.", 
+                    "name": "Slime Armor", 
+                    "url": "pfsrd://Mythic Adventures/Monsters/Aboleth/Mythic/Special Abilities/Slime Armor", 
+                    "ability_types": {
+                        "ability_type_id": 8, 
+                        "section_id": 924, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 924, 
+                    "source": "Mythic Adventures", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 920, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>A mythic aboleth has exceptional magic, usually gained by staying alive long enough to see some of its dark experiments through to fruition. Brooding and brilliant, it seeks to conquer the dry lands.</p>", 
+            "source": "Mythic Adventures", 
+            "type": "section", 
+            "section_id": 925
+        }
+    ], 
+    "hp": "118 (9d8+78)", 
+    "reach": "15 ft.", 
+    "section_id": 919, 
+    "wisdom": "17", 
+    "creature_type": "Aberration", 
+    "special_qualities": "slime armor", 
+    "dr": "5/epic", 
+    "name": "Aboleth, Mythic", 
+    "base_attack": "+6", 
+    "skills": "Bluff +13, Intimidate +16, Knowledge (any one) +14, Perception +15, Spellcraft +14, Swim +25", 
+    "reflex": "+6", 
+    "cmd": "24", 
+    "cmb": "+13", 
+    "will": "+11", 
+    "subtype": "mythic", 
+    "aura": "mucus cloud (5 feet)", 
+    "mr": "3", 
+    "organization": "solitary, pair, brood (3-6), or shoal (7-19)", 
+    "creature_subtype": "aquatic, mythic"
+}

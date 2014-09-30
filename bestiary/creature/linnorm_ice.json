@@ -1,0 +1,148 @@
+{
+    "dexterity": "22", 
+    "ac": "32, touch 8, flat-footed 26 (+6 Dex, +24 natural, -8 size)", 
+    "special_attacks": "breath weapon, constrict (tail, 3d6+21), death curse", 
+    "intelligence": "5", 
+    "melee": "bite +24 (3d8+14/19-20 plus poison), 2 claws +24 (2d6+14), tail +19 (3d6+7 plus grab)", 
+    "cr": "17", 
+    "xp": "102,400", 
+    "speed": "40 ft., climb 40 ft., fly 100 ft. (average), swim 40 ft.", 
+    "alignment": "CE", 
+    "size": "Colossal", 
+    "languages": "Aklo, Draconic, Sylvan", 
+    "strength": "38", 
+    "constitution": "29", 
+    "space": "30 ft.", 
+    "treasure": "triple", 
+    "init": "+10", 
+    "environment": "cold hills and mountains", 
+    "source": "Bestiary", 
+    "charisma": "23", 
+    "immune": "cold, curse effects, mind-affecting effects, paralysis, poison, sleep", 
+    "fortitude": "+20", 
+    "type": "creature", 
+    "feats": "Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike", 
+    "senses": "darkvision 120 ft., low-light vision, scent, true seeing; Perception +26", 
+    "description": "A snake-like, dragon-headed monster of tremendous size rises up, drifts of snow and ice tumbling from its coiling flanks.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Once every 1d4 rounds as a standard action, an ice linnorm can expel a 60-foot cone of freezing, viscous ooze, dealing 18d8 points of cold damage to all creatures struck (Reflex DC 28 halves). The freezing ooze clings to those struck, and 1 round later the ooze hardens into thick sheets of ice. Creatures that were damaged are frozen motionless unless they can break free with a DC 25 Strength, Escape Artist, or combat maneuver check. Each round a creature remains frozen it takes 1d6 points of cold damage. Another creature can free a frozen target by tearing away the ice (this takes 1d4 rounds) or dealing at least 20 points of fire damage to the frozen target. Left unattended, the ice crumbles away in 2d4 rounds on its own. Creatures with the fire subtype cannot be frozen in place by this breath weapon. Flying creatures that don't have supernatural flight fall if frozen, and swimming creatures that are frozen rise toward the surface of the water at a speed of 60 feetper round. The save DC is Constitution-based.", 
+                    "name": "Breath Weapon", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice/Special Abilities/Breath Weapon", 
+                    "ability_types": {
+                        "ability_type_id": 433, 
+                        "section_id": 1993, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1993, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "When a creature slays an ice linnorm, the slayer is affected by the curse of frost.Curse of Frost: save Will DC 25; effect creature gains vulnerability to cold. The save DC is Charisma-based.", 
+                    "name": "Death Curse", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice/Special Abilities/Death Curse", 
+                    "ability_types": {
+                        "ability_type_id": 434, 
+                        "section_id": 1994, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1994, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "An ice linnorm is under the constant effect of freedom of movement, as per the spell of the same name. This effect cannot be dispelled.", 
+                    "name": "Freedom of Movement", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice/Special Abilities/Freedom of Movement", 
+                    "ability_types": {
+                        "ability_type_id": 435, 
+                        "section_id": 1995, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1995, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 436, 
+                        "section_id": 1996, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1996, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Ice Linnorm Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice/Special Abilities/Poison/Ice Linnorm Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1997, 
+                            "effect": "4d6 cold damage and 1d6 Constitution drain", 
+                            "subtype": "poison", 
+                            "cure": "3 consecutive saves", 
+                            "frequency": "1/round for 10 rounds", 
+                            "save": "Fortitude DC 28", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "An ice linnorm has true seeing, as the spell of the same name. This effect cannot be dispelled.", 
+                    "name": "True Seeing", 
+                    "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice/Special Abilities/True Seeing", 
+                    "ability_types": {
+                        "ability_type_id": 437, 
+                        "section_id": 1998, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1998, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1992, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The ice linnorm dwells amid glacial crevasses and atop wind-blasted mountain peaks&mdash;tales speak of climbers unwittingly clambering over the flanks of a particularly immense ice linnorm coiled around a mountain, only to find death at its furious fangs and claws at the summit of their goal. During the fiercest winters, ice linnorms are said to slither down to the lowlands to eat entire villages.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1999
+        }, 
+        {
+            "body": "<p>An ice linnorm is 90 feet long and weighs 18,000 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2000
+        }
+    ], 
+    "hp": "279 (18d12+162); regeneration 10 (cold iron)", 
+    "reach": "30 ft.", 
+    "section_id": 1991, 
+    "wisdom": "20", 
+    "defensive_abilities": "freedom of movement", 
+    "creature_type": "Dragon", 
+    "dr": "15/cold iron", 
+    "name": "Linnorm, Ice", 
+    "base_attack": "+18", 
+    "skills": "Climb +43, Fly +19, Perception +26, Swim +22", 
+    "reflex": "+19", 
+    "cmd": "56 (can't be tripped)", 
+    "cmb": "+40 (+44 grapple)", 
+    "will": "+16", 
+    "url": "pfsrd://Bestiary/Monsters/Linnorm/Ice", 
+    "sr": "28", 
+    "organization": "solitary"
+}

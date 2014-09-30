@@ -1,0 +1,136 @@
+{
+    "dexterity": "21", 
+    "ac": "31, touch 12, flat-footed 25 (+5 Dex, +1 dodge, +19 natural, -4 size)", 
+    "special_attacks": "constrict (2d6+9), redirect spell", 
+    "intelligence": "26", 
+    "resist": "acid 10, cold 10, fire 10", 
+    "melee": "bite +25 (3d8+9 plus poison), 3 tail slaps +20 (2d8+4 plus grab)", 
+    "cr": "15", 
+    "xp": "51,200", 
+    "speed": "40 ft., climb 20 ft.", 
+    "alignment": "CE", 
+    "size": "Gargantuan", 
+    "languages": "Abyssal, Common, Draconic; telepathy 100 ft.", 
+    "strength": "29", 
+    "constitution": "21", 
+    "space": "20 ft.", 
+    "treasure": "standard", 
+    "init": "+9", 
+    "environment": "any land (Abyss)", 
+    "source": "Bestiary 2", 
+    "charisma": "24", 
+    "immune": "electricity, poison", 
+    "fortitude": "+17", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 18th; concentration +25)<p class=\"stat-block-2\">Constant-<i>arcane sight</i>, <i>detect good</i>, <i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>detect thoughts</i> (DC 19), <i>greater teleport</i> (self plus 50 lbs. of objects only), <i>invisibility</i>, <i>suggestion</i> (DC 20)</p><p class=\"stat-block-2\">3/day-<i>charm monster</i> (DC 21), <i>mass suggestion</i> (DC 23), <i>scrying</i> (DC 21), <i>symbol of pain</i> (DC 22), <i>touch of idiocy</i>, <i>vision</i></p><p class=\"stat-block-2\">1/day-summon (level 5, 1 hezrou or 1d4 succubi, 50%)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Combat Reflexes, Dodge, Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Lightning Reflexes, Mobility, Spring Attack, Vital Strike", 
+    "senses": "arcane sight, darkvision 120 ft., detect good, low-light vision, scent, true seeing; Perception +29", 
+    "description": "This towering, three-tailed, six-eyed beast seems like three rune-backed serpents partially melded together into one body. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Xacarba/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The xacarba can choose between three poisions.  The save DC of each is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Xacarba/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 538, 
+                        "section_id": 2182, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2182, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Fiendish Bile", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Xacarba/Special Abilities/Poison/Fiendish Bile", 
+                            "contracted": "injury", 
+                            "section_id": 2183, 
+                            "effect": "1d4 Strength damage (good-aligned creatures also take 2d8 points of damage).", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 25", 
+                            "type": "affliction"
+                        }, 
+                        {
+                            "name": "Mysterious Blood", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Xacarba/Special Abilities/Poison/Mysterious Blood", 
+                            "contracted": "injury", 
+                            "section_id": 2184, 
+                            "effect": "1d4 Dex and 1d4 Wis damage plus confusion for 1 round.", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 25", 
+                            "type": "affliction"
+                        }, 
+                        {
+                            "name": "Vile Disjunction", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Xacarba/Special Abilities/Poison/Vile Disjunction", 
+                            "contracted": "injury", 
+                            "section_id": 2185, 
+                            "effect": "Targeted <i>greater dispel magic</i> (CL 18th) on the creature.", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 25", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "Any creature that attempts to cast a spell within 30 feet of a xacarba must cast the spell defensively. If the caster fails the concentration check to do so (or if the caster opts to not cast defensively), the xacarba can choose the target of the spell as a immediate action. The new target must be a legal target&mdash;if there's no legal alternative target to choose from, this ability cannot be used.", 
+                    "name": "Redirect Spell", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Xacarba/Special Abilities/Redirect Spell", 
+                    "ability_types": {
+                        "ability_type_id": 539, 
+                        "section_id": 2186, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2186, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 2181, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Fiends hailing from the darkest reaches of the Abyss, xacarbas are manipulation and destruction intertwined. With their infamous ability to redirect spells, these serpentine goliaths wreak havoc on the mind as well as the body, turning allies against one another and reveling in the destruction doing so produces.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 2187
+        }
+    ], 
+    "hp": "210 (20d10+100)", 
+    "reach": "15 ft.", 
+    "section_id": 2180, 
+    "wisdom": "22", 
+    "creature_type": "Outsider", 
+    "special_qualities": "change shape (any humanoid as a swift action, but always retains one serpentine trait that negates the bonus to Disguise checks; alter self)", 
+    "dr": "10/good", 
+    "name": "Xacarba", 
+    "base_attack": "+20", 
+    "skills": "Acrobatics +25 (+29 jump), Bluff +30, Climb +17, Diplomacy +27, Disguise +27, Intimidate +27, Knowledge (arcana) +31, Knowledge (any two) +31, Linguistics +28, Perception +29, Sense Motive +29, Spellcraft +31, Stealth +16, Use Magic Device +27", 
+    "reflex": "+13", 
+    "cmd": "49 (can't be tripped)", 
+    "cmb": "+33 (+37 grapple)", 
+    "will": "+20", 
+    "url": "pfsrd://Bestiary 2/Monsters/Xacarba", 
+    "sr": "26", 
+    "organization": "solitary", 
+    "creature_subtype": "chaotic, evil, extraplanar"
+}

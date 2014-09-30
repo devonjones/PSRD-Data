@@ -1,0 +1,89 @@
+{
+    "dexterity": "13", 
+    "ac": "14, touch 11, flat-footed 13 (+1 Dex, +3 natural)", 
+    "intelligence": "1", 
+    "racial_modifiers": "+4 Perception, +4 Stealth, +8 Acrobatics; modifies Climb and Swim with Dexterity", 
+    "melee": "bite +2 (1d4-1 plus poison)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "20 ft., climb 20 ft., swim 20 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "8", 
+    "constitution": "14", 
+    "treasure": "none", 
+    "init": "+5", 
+    "environment": "any temperate or warm", 
+    "source": "Bestiary", 
+    "charisma": "2", 
+    "fortitude": "+5", 
+    "type": "creature", 
+    "feats": "Improved Initiative, Weapon FinesseB", 
+    "senses": "low-light vision, scent; Perception +9", 
+    "description": "This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its fangs.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Snake/Venomous/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Snake/Venomous/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 540, 
+                        "section_id": 2602, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2602, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Snake Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Snake/Venomous/Special Abilities/Poison/Snake Venom", 
+                            "contracted": "injury", 
+                            "section_id": 2603, 
+                            "effect": "1d2 Constitution", 
+                            "subtype": "poison", 
+                            "cure": "cure 1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 13", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2601, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Countless species of poisonous snakes dwell in the wild, their bites capable of bringing down creatures much larger than themselves. Snakes of the size presented here are thankfully rarer than their smaller kin, but many species of rattlesnake, cobra, and similar reptiles can grow to this size.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2604
+        }, 
+        {
+            "body": "<p>Venomous snakes are generally far more aggressive than constrictor snakes, and even larger variants do exist: you can create stats for a king cobra, for example, by applying the advanced and giant simple templates to the stats given above.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2605
+        }
+    ], 
+    "hp": "13 (2d8+4)", 
+    "section_id": 2600, 
+    "wisdom": "13", 
+    "creature_type": "Animal", 
+    "name": "Snake, Venomous", 
+    "base_attack": "+1", 
+    "skills": "Acrobatics +9, Climb +9, Perception +9, Stealth +9, Swim +9", 
+    "reflex": "+4", 
+    "cmd": "11 (can't be tripped)", 
+    "cmb": "+0", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary/Monsters/Snake/Venomous", 
+    "organization": "solitary, pair, or nest (3-8)"
+}

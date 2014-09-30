@@ -1,0 +1,84 @@
+{
+    "dexterity": "10", 
+    "ac": "12, touch 10, flat-footed 12 (+2 natural)", 
+    "special_attacks": "rend (2 claws, 2d4)", 
+    "intelligence": "-", 
+    "racial_modifiers": "+4 Perception, +12 Stealth in caves", 
+    "melee": "2 claws +2 (1d4), sting +2 (1d4 plus poison)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "60 ft., climb 40 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "11", 
+    "constitution": "13", 
+    "immune": "mind-affecting effects", 
+    "treasure": "none", 
+    "init": "+0", 
+    "environment": "any underground", 
+    "source": "Bestiary 2", 
+    "charisma": "2", 
+    "fortitude": "+4", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., tremorsense 60 ft.; Perception +4", 
+    "description": "This man-sized, bulky scorpion has thick, unyielding armor that makes it almost seem to be made of stone. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Cave/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Sting:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Cave/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 443, 
+                        "section_id": 1800, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1800, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Cave Scorpion Venom", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Cave/Special Abilities/Poison/Cave Scorpion Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1801, 
+                            "effect": "1d2 Strength", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 4 rounds", 
+                            "save": "Fortitude DC 12", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1799, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The squat cave scorpion is quite well suited for life in caves. With its bulky armor, a cave scorpion at rest looks like a pile of stones. The cave scorpion's favorite food is dwarven meat, and when a cave scorpion finds a working dwarven mine, it can quickly become a major inconvenience. Dwarven societies often post hefty bounties on cave scorpion stingers.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1802
+        }
+    ], 
+    "hp": "16 (3d8+3)", 
+    "section_id": 1798, 
+    "wisdom": "10", 
+    "creature_type": "Vermin", 
+    "name": "Scorpion, Cave", 
+    "base_attack": "+2", 
+    "skills": "Climb +8, Perception +4, Stealth +0 (+12 in caves)", 
+    "reflex": "+1", 
+    "cmd": "12 (24 vs. trip)", 
+    "cmb": "+2", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Cave", 
+    "organization": "solitary, pair, or swarm (3-12)"
+}

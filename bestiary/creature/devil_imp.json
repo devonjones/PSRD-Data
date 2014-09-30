@@ -1,0 +1,113 @@
+{
+    "dexterity": "17", 
+    "ac": "17, touch 16, flat-footed 13 (+3 Dex, +1 dodge, +1 natural, +2 size)", 
+    "intelligence": "13", 
+    "resist": "acid 10, cold 10", 
+    "melee": "sting +8 (1d4 plus poison)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "20 ft., fly 50 ft. (perfect)", 
+    "alignment": "LE", 
+    "size": "Tiny", 
+    "languages": "Common, Infernal", 
+    "strength": "10", 
+    "constitution": "10", 
+    "space": "2-1/2 ft.", 
+    "treasure": "standard", 
+    "init": "+3", 
+    "environment": "any (Hell)", 
+    "source": "Bestiary", 
+    "charisma": "14", 
+    "immune": "fire, poison", 
+    "fortitude": "+1", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 6th)<p class=\"stat-block-2\">Constant-<i>detect good, detect magic</i></p><p class=\"stat-block-2\">At will-<i>invisibility</i> (self only)</p><p class=\"stat-block-2\">1/day-<i>augury</i>, <i>suggestion</i> (DC 15)</p><p class=\"stat-block-2\">1/week-<i>commune</i> (6 questions, CL 12th)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Dodge, Weapon Finesse", 
+    "senses": "darkvision 60 ft., detect good, detect magic, see in darkness; Perception +7", 
+    "description": "Fiendish wings and a whipping scorpion-like tail lash behind this diminutive, red-skinned nuisance.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Devil/Imp/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based, and includes a +2 racial bonus. Sting:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Devil/Imp/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 213, 
+                        "section_id": 981, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 981, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Imp Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Devil/Imp/Special Abilities/Poison/Imp Venom", 
+                            "contracted": "injury", 
+                            "section_id": 982, 
+                            "effect": "1d2 Dexterity", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 13, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 980, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Born directly from the pits of Hell, imps are among the least of the true devils; these vicious, manipulative fiends, however, hold an important role in the corruption of mortal souls. Unfettered from the ranks and duties of diabolical armies, imps delight in any opportunity to travel to the Material Plane and subtly tempt mortals toward acts of ever-greater depravity. Willingly serving spellcasters as familiars, imps play the role of dutiful servants, often granting their masters cunning advice and infernal insights. In truth, though, an imp works to deliver souls to Hell, assuring that its master's soul&mdash;and as many collateral souls as possible&mdash;faces damnation upon death.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 983
+        }, 
+        {
+            "body": "<p>Imps vary widely in appearance, ranging through a spectrum of bestial traits and grotesque body shapes, though most take the forms of red-skinned, winged humanoids with bulbous features. Such a typical imp stands a mere 2 feet tall, has a 3-foot wingspan, and weighs 10 pounds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 984
+        }, 
+        {
+            "body": "<p>One in every thousand imps possesses the ability to communicate telepathically with creatures within 50 feet and the power to change its form into that of any Small or Tiny animal, as per the spell <i>beast shape II</i>. These imp consulars are highly prized by powerful devils, who send them to serve their favored minions or to corrupt mortals with great destinies. An imp consular can be summoned via the Improved Familiar feat, but only by a spellcaster of 8th level or higher. Diabolists tell of other breeds of imps with similarly specialized abilities, but if such creatures truly exist they are an especially rare lot.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 985
+        }, 
+        {
+            "body": "<p>Unlike most devils, imps often find themselves free and alone on the Material Plane, particularly after they've been summoned to serve as familiars and their masters have perished (often indirectly due to the machinations of the imp itself). With no way to return home, these imps, freed of their bonds to arcane masters, can become dangerous pests or even leaders of small tribes of savage humanoids like goblins or kobolds.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 986
+        }
+    ], 
+    "hp": "16 (3d10); fast healing 2", 
+    "reach": "0 ft.", 
+    "section_id": 979, 
+    "wisdom": "12", 
+    "creature_type": "Outsider", 
+    "special_qualities": "change shape (boar, giant spider, rat, or raven, beast shape I)", 
+    "dr": "5/good or silver", 
+    "name": "Devil, Imp", 
+    "base_attack": "+3", 
+    "skills": "Acrobatics +9, Bluff +8, Fly +21, Knowledge (arcana) +7, Knowledge (planes) +7, Perception +7, Spellcraft +7", 
+    "reflex": "+6", 
+    "cmd": "15", 
+    "cmb": "+1", 
+    "will": "+4", 
+    "url": "pfsrd://Bestiary/Monsters/Devil/Imp", 
+    "organization": "solitary, pair, or flock (3-10)", 
+    "creature_subtype": "devil, evil, extraplanar, lawful"
+}

@@ -1,0 +1,108 @@
+{
+    "dexterity": "13", 
+    "ac": "15, touch 11, flat-footed 14 (+1 Dex, +4 natural)", 
+    "intelligence": "2", 
+    "racial_modifiers": "+4 Survival while scent tracking", 
+    "melee": "bite +8 (1d10+6 plus disease and trip)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "40 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "18", 
+    "constitution": "15", 
+    "treasure": "incidental", 
+    "init": "+5", 
+    "environment": "cold mountains", 
+    "source": "Bestiary 3", 
+    "charisma": "6", 
+    "fortitude": "+6", 
+    "type": "creature", 
+    "feats": "Improved Initiative, Skill Focus (Perception)", 
+    "senses": "darkvision 60 ft., low-light vision, scent; Perception +8", 
+    "description": "Foul-smelling fluids ooze from weeping sores across the scaly skin of this squat, powerful, and vaguely canine beast.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Trollhound/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A trollhound's saliva is an infectious brew of contagion. Creatures bitten by a trollhound are often afflicted with bloodfire fever, a disease characterized by deep internal pain, as if the victim's blood were on fire. Additional symptoms include loss of muscular coordination, pus-filled blisters, and overall lethargy and fatigue. Trolls and trollhounds alike are immune to bloodfire fever, even though trollhounds often exhibit the pus-filled blisters that come with the disease. The save DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Trollhound/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 599, 
+                        "section_id": 2161, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2161, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Bloodfire fever", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Trollhound/Special Abilities/Disease/Bloodfire fever", 
+                            "contracted": "injury", 
+                            "section_id": 2162, 
+                            "effect": "1d3 Strength damage, 1d3 Dexterity damage, and target is fatigued", 
+                            "onset": "1 day", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 14", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2160, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Slavering and voracious, trollhounds seem to be trolls in smaller canine form, and indeed, are often found as pets among gangs and tribes of trolls. Requiring vast amounts of food to fuel their regenerative metabolisms, packs of wild trollhounds range far and wide through the mountains of the north, their ravenous hunger driving them to hunt and consume any prey they can track down and kill.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2163
+        }, 
+        {
+            "body": "<p>A typical trollhound stands 4 feet tall at the shoulder, has short but powerful legs, and weighs around 350 pounds. A trollhound's skin is somewhat scaly, with patches of rough, greenish-black fur. It has oversized jaws with a pronounced underbite, and its eyes are normally a dull, hateful orange.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2164
+        }, 
+        {
+            "body": "<p>Trollhounds are believed to be the outcome of infusing particularly ferocious worgs with alchemically prepared troll blood. The resulting beast loses the worg's wicked intelligence but gains the ability to regenerate even the most grievous wounds, except those inflicted by fire or acid. Whatever their origin, trollhounds breed true and are often raised by trolls.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2165
+        }, 
+        {
+            "body": "<p>Trollhounds are fearless on the hunt and in combat, relying on their ability to regenerate to carry them through. Not even the threat of fire is enough to repel them, as the beasts are too dull to recognize the danger it poses. Nevertheless, fire is one of the most effective tools in combating trollhounds, and canny hunters know to burn every last remnant of a slain trollhound, for as is true of trolls, even the smallest piece of trollhound flesh can eventually regrow back into a full-sized beast.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2166
+        }, 
+        {
+            "body": "<p>Trollhounds are most often found in the company of trolls, who breed the beasts as hunters, guards, pets, and food. Trollhounds seem to have an affinity for their savage masters, and tamed trollhounds always regard trolls as alpha members of the pack. A trollhound will never attack a troll without cause&mdash;although trolls often enjoy violent roughhousing with these creatures nonetheless.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 2167
+        }
+    ], 
+    "hp": "30 (4d10+8); regeneration 3 (acid or fire)", 
+    "section_id": 2159, 
+    "wisdom": "11", 
+    "creature_type": "Magical Beast", 
+    "name": "Trollhound", 
+    "base_attack": "+4", 
+    "skills": "Perception +8, Stealth +5, Survival +1 (+5 scent tracking)", 
+    "reflex": "+5", 
+    "cmd": "19 (23 vs. trip)", 
+    "cmb": "+8", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary 3/Monsters/Trollhound", 
+    "organization": "solitary, pair, or pack (3-8)"
+}

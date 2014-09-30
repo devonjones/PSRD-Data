@@ -1,0 +1,137 @@
+{
+    "dexterity": "15", 
+    "ac": "26, touch 11, flat-footed 24 (+2 Dex, +15 natural, -1 size)", 
+    "special_attacks": "boiling sea", 
+    "intelligence": "12", 
+    "resist": "acid 10, electricity 10", 
+    "melee": "bite +22 (1d8+7/19-20), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) or spear +20/+15/+10 (2d6+7/&times;3 plus poison)", 
+    "cr": "10", 
+    "xp": "9,600", 
+    "speed": "30 ft., swim 80 ft.", 
+    "alignment": "NE", 
+    "size": "Large", 
+    "languages": "Abyssal, Aquan, Celestial, Infernal; telepathy 100 ft.", 
+    "strength": "24", 
+    "constitution": "23", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "init": "+6", 
+    "environment": "any (Abaddon)", 
+    "source": "Bestiary 3", 
+    "charisma": "14", 
+    "immune": "fire, poison", 
+    "fortitude": "+10", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 12th; concentration +14)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i></p><p class=\"stat-block-2\">At will-<i>control water</i>, <i>curse water</i>, <i>deeper darkness</i>, <i>dimension door</i></p><p class=\"stat-block-2\">3/day-<i>hallucinatory terrain</i> (DC 16), <i>stinking cloud</i> (DC 15), summon (level 6, 1 pairaka 60%), <i>quench</i> (DC 15)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Combat Reflexes, Greater Weapon Focus (bite), Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus (bite)", 
+    "senses": "darkvision 60 ft., detect good, detect magic, see in darkness; Perception +19", 
+    "description": "Bristling with spiny ridges, coral horns, and needle-sharp teeth, this menacing biped seems to have emerged from some poisoned sea.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities", 
+            "sections": [
+                {
+                    "body": "As a standard action, a ghawwas can cause the waters around it to boil. Any creature within 50 feet of the ghawwas, within the same body of water, and at least half submerged takes 6d6 points of heat damage (DC 22 Fortitude save for half). The save DC is Constitution-based.", 
+                    "name": "Boiling Sea", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Boiling Sea", 
+                    "ability_types": {
+                        "ability_type_id": 185, 
+                        "section_id": 640, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 640, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Sting:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 186, 
+                        "section_id": 641, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 641, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Ghawwas Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Poison/Ghawwas Venom", 
+                            "contracted": "injury", 
+                            "section_id": 642, 
+                            "effect": "1d6 Strength damage", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 23", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "Ghawwas have rough hides studded with jagged barbs and spiny protrusions. Any creature striking a ghawwas with a natural weapon or an unarmed strike takes 1d6 points of slashing and piercing damage.", 
+                    "name": "Rough Hide", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Rough Hide", 
+                    "ability_types": {
+                        "ability_type_id": 187, 
+                        "section_id": 643, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 643, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 639, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Full of poison and treachery, ghawwas foul the seas and seek to bring ruin to those who dwell there. Ghawwas resemble a mixture of hulking humanoid, prehistoric fish, and poisonous bottom-feeder. While most ghawwas live in salt water, they sometimes teleport to oases to defile them or suck them dry. Although they see all mortals as enemies, ghawwas bear a particular grudge against peaceable, water-breathing creatures such as merfolk and locathah.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 644
+        }, 
+        {
+            "body": "<p>All ghawwas find the tolling of bells insufferable, the sound filling them with rage and driving them to seek out the source and destroy either the bell or those ringing it. </p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 645
+        }, 
+        {
+            "body": "<p>The typical ghawwas stands 12 feet tall and weighs close to 1,200 pounds. </p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 646
+        }
+    ], 
+    "hp": "161 (14d10+84)", 
+    "reach": "10 ft.", 
+    "section_id": 638, 
+    "wisdom": "15", 
+    "defensive_abilities": "rough hide", 
+    "creature_type": "Outsider", 
+    "special_qualities": "amphibious", 
+    "dr": "10/cold iron and good", 
+    "ranged": "spear +15 (2d6+7/&times;3 plus poison)", 
+    "name": "Div, Ghawwas", 
+    "base_attack": "+14", 
+    "skills": "Bluff +19, Knowledge (geography and planes) +18, Perception +19, Stealth +15, Survival +19, Swim +32", 
+    "reflex": "+13", 
+    "cmd": "34", 
+    "cmb": "+22", 
+    "will": "+11", 
+    "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas", 
+    "sr": "21", 
+    "organization": "solitary", 
+    "creature_subtype": "aquatic, div, evil, extraplanar"
+}

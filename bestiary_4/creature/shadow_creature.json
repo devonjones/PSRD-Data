@@ -1,0 +1,287 @@
+{
+    "dexterity": "13", 
+    "ac": "27, touch 10, flat-footed 26 (+1 Dex, +17 natural, \u20131 size)", 
+    "special_attacks": "pull (strands, 5 ft.), strands", 
+    "intelligence": "13", 
+    "racial_modifiers": "+26 Stealth in icy or stony areas", 
+    "resist": "cold 15", 
+    "melee": "bite +20 (4d8+18/19\u201320)", 
+    "cr": "13", 
+    "xp": "25,600", 
+    "speed": "10 ft.", 
+    "alignment": "CE", 
+    "size": "Large", 
+    "languages": "Aklo, Common", 
+    "strength": "34", 
+    "constitution": "29", 
+    "space": "10 ft.", 
+    "treasure": "standard", 
+    "init": "+5", 
+    "environment": "any underground", 
+    "source": "Bestiary 4", 
+    "charisma": "12", 
+    "immune": "electricity", 
+    "fortitude": "+13", 
+    "type": "creature", 
+    "feats": "Improved Critical (bite), Improved Initiative, Iron Will, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (strand)", 
+    "senses": "darkvision 60 ft., low-light vision; Perception +24", 
+    "description": "A tentacled horror that seems to shift in and out of the shadows, this bizarre beast is an amalgamation of darkness and menace.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 4", 
+            "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A shadow roper can extend up to six thin, sticky strands from its body at a time, launching them to a maximum range of 50 feet. A shadow roper's attacks with its strands resolve as ranged touch attacks. These strands are quite strong, but can be severed by any amount of slashing damage; each strand has an AC of 20. A creature struck by a strand is numbed and weakened by the strange material, and must succeed at a DC 25 Fortitude save or take 1d6 points of Strength damage. The save DC is Constitution-based.", 
+                    "name": "Strands", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Special Abilities/Strands", 
+                    "ability_types": {
+                        "ability_type_id": 554, 
+                        "section_id": 1740, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1740, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1739, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>When a Material Plane creature is trapped on or chooses to remain on the Shadow Plane, it often finds that its offspring take on some of the eerie qualities of its new home dimension. Those who are born in that place become weird mockeries of their kin on the Material Plane.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1741
+        }, 
+        {
+            "body": "<p>Their colorings become jet-black (or at best a hazy gray), their features become more menacing, and their eyes glow white, a dulled crimson, a dark green, or a strange violet. The variety of shadow creatures is as vast as that on the Material Plane, creating dangers that are similar but have additional defenses and abilities characteristic of creatures truly native to the Shadow Plane's perpetual gloom.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1742
+        }, 
+        {
+            "body": "<p>Shadow creatures on the Material Plane will produce offspring, giving rise to shadow creature enclaves in dark corners of the world. Stranger still, a burgeoning ecology of shadow creatures that forms a colony on the Material Plane seems to create a small blighted realm of shadow where they dwell. As such, areas grow more and more overcast. Shadows become unnaturally deeper, darker, and more cloying until the land itself seems to assume the landscape and terrain of the Shadow Plane. As part of this transformation process, one of the more intelligent shadow creatures in the area becomes a shadow lord&mdash;a dread agent of shadow that controls powerful shadow abilities and works to expand its alien domain.</p>", 
+            "source": "Bestiary 4", 
+            "type": "section", 
+            "section_id": 1743
+        }, 
+        {
+            "body": "<p>\"Shadow creature\" is an inherited template that can be added to any living creature, referred to hereafter as the base creature. A shadow creature retains all the base creature's statistics and abilities except as noted here.</p>", 
+            "name": "Creating a Shadow Creature", 
+            "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Creature", 
+            "sections": [
+                {
+                    "body": "<p>Same as the base creature +1.</p>", 
+                    "name": "Challenge Rating", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Creature/Challenge Rating", 
+                    "section_id": 1745, 
+                    "source": "Bestiary 4", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>Any (usually nongood).</p>", 
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Alignment", 
+                    "section_id": 1746
+                }, 
+                {
+                    "body": "<p>The base creature's type changes to outsider, and it gains the augmented subtype. Do not recalculate BAB, saves, or skill ranks.</p>", 
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Type", 
+                    "section_id": 1747
+                }, 
+                {
+                    "body": "<p>As the base creature plus darkvision 60 feet and low-light vision.</p>", 
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Senses", 
+                    "section_id": 1748
+                }, 
+                {
+                    "body": "<p>A shadow creature gains DR and resistance to cold and electricity based on its Hit Dice, as noted on the following table.</p>", 
+                    "name": "Defensive Abilities", 
+                    "sections": [
+                        {
+                            "body": "<table><thead><tr><th>Hit Dice</th><th>Resist Cold and Electricity</th><th>DR</th></tr></thead><tbody><tr class=\"odd\"><td>1\u20134</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>5\u201310</td><td>10</td><td>5/magic</td></tr><tr class=\"odd\"><td>11+</td><td>15</td><td>10/magic</td></tr></tbody></table>", 
+                            "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Creature/Defensive Abilities/", 
+                            "type": "table", 
+                            "section_id": 1750, 
+                            "source": "Bestiary 4"
+                        }, 
+                        {
+                            "body": "<p id=\"shadow-blend\"><i>Shadow Blend </i>In any illumination other than bright light, a shadow creature blends into the shadows, giving it concealment (20% miss chance). A shadow creature can suspend or resume this ability as a free action.</p><p id=\"spell-resistance\"><i>Spell Resistance (Ex)</i>A shadow creature gains spell resistance equal to the base creature's CR + 6.</p>", 
+                            "source": "Bestiary 4", 
+                            "type": "ability", 
+                            "section_id": 1751, 
+                            "ability_types": {
+                                "ability_type_id": 555, 
+                                "section_id": 1751, 
+                                "ability_type": "Supernatural"
+                            }
+                        }
+                    ], 
+                    "section_id": 1749, 
+                    "source": "Bestiary 4", 
+                    "type": "section"
+                }
+            ], 
+            "section_id": 1744, 
+            "source": "Bestiary 4", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>\"Shadow lord\" is an acquired template that can be added to any shadow creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords were originally humanoids. A shadow lord retains all the base creature's statistics and abilities (including those granted by the shadow creature template) except as noted here.</p>", 
+            "name": "Creating a Shadow Lord", 
+            "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord", 
+            "sections": [
+                {
+                    "body": "<p>Same as the base creature +2.</p>", 
+                    "name": "Challenge Rating", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Challenge Rating", 
+                    "section_id": 1753, 
+                    "source": "Bestiary 4", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>Any evil.</p>", 
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Alignment", 
+                    "section_id": 1754
+                }, 
+                {
+                    "body": "<p>A shadow lord gains the see in darkness ability.</p>", 
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Senses", 
+                    "section_id": 1755
+                }, 
+                {
+                    "body": "<p>Same as the base creature (see also the incorporeal step ability).</p>", 
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Armor Class", 
+                    "section_id": 1756
+                }, 
+                {
+                    "body": "<p>A shadow lord gains the following defensive abilities.</p><p><i>Energy Resistance and Damage Reduction </i>A shadow lord gains damage reduction and resistance to cold and electricity based on its Hit Dice, as noted on the table below. This replaces the energy resistance and damage reduction granted by the shadow creature template.</p>", 
+                    "name": "Defensive Abilities", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Defensive Abilities", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 556, 
+                        "section_id": 1757, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1757, 
+                    "source": "Bestiary 4", 
+                    "sections": [
+                        {
+                            "body": "<table><thead><tr><th>Hit Dice</th><th>Resist Cold and Electricity</th><th>DR</th></tr></thead><tbody><tr><td>5\u201310</td><td>15</td><td>10/magic</td></tr><tr><td>11\u201315</td><td>20</td><td>15/magic</td></tr><tr><td>16+</td><td>30</td><td>20/magic</td></tr></tbody></table>", 
+                            "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Defensive Abilities/", 
+                            "type": "table", 
+                            "section_id": 1758, 
+                            "source": "Bestiary 4"
+                        }, 
+                        {
+                            "body": "<p id=\"incorporeal-step\"><i>Incorporeal Step </i>:<i> </i>When a shadow lord moves, it gains the incorporeal subtype and quality, including a deflection bonus to AC equal to its Charisma bonus. It loses the incorporeal subtype and special ability when it stops moving.</p>", 
+                            "source": "Bestiary 4", 
+                            "type": "ability", 
+                            "section_id": 1759, 
+                            "ability_types": {
+                                "ability_type_id": 557, 
+                                "section_id": 1759, 
+                                "ability_type": "Supernatural"
+                            }
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>A shadow lord gains a melee touch attack that deals 1d6 points of damage (Fortitude negates). The save DC is equal to 10 + 1/2 the shadow lord's Hit Dice + the shadow lord's Charisma modifier. On a critical hit, the shadow lord's touch attack also deals 1 point of Constitution damage (also negated by the saving throw).</p>", 
+                    "name": "Attacks", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Attacks", 
+                    "section_id": 1760, 
+                    "source": "Bestiary 4", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>A shadow lord gains the following special attacks. Their saving throw DCs for these attacks are equal to 10 + 1/2 the shadow lord's Hit Dice + the shadow lord's Charisma modifier, unless otherwise noted.</p><p id=\"cloying-gloom-blast\"><i>Cloying Gloom Blast </i>Three times per day, the shadow lord can unleash a 30-foot cone of cloying gloom. On a failed Fortitude saving throw, creatures in the cone are affected by a <i>slow</i> spell (caster level equal to the shadow lord's Hit Dice) and are blinded for the duration of the <i>slow</i> effect.</p>", 
+                    "name": "Special Attacks", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Special Attacks", 
+                    "ability_types": {
+                        "ability_type_id": 558, 
+                        "section_id": 1761, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1761, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "<p>A shadow lord gains the following spell-like abilities, with a caster level equal to its Hit Dice: at will&mdash;<i>ray of sickening</i>; 3/day&mdash;<i>shadow conjuration</i>, <i>shadow step</i>; 1/day&mdash;<i>greater shadow </i><i>conjuration</i> (if the shadow lord has 11 or more Hit Dice), <i>shadow walk</i>.</p><p>A creature created with <i>shadow conjuration</i> or <i>greater shadow conjuration</i> that would normally have a celestial or fiendish template (such as a bear) instead gains the shadow creature template.</p>", 
+                    "name": "Spell-Like Abilities", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Spell-Like Abilities", 
+                    "section_id": 1762, 
+                    "source": "Bestiary 4", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>A shadow lord gains the following special quality.</p><p id=\"planar-thinning\"><i>Planar Thinning </i>Once per day as a full-round action, a shadow lord can thin the barriers between the Material Plane and Shadow Plane, making it considerably easier for creatures to cross between the two. This functions like the planar travel aspect of the <i>gate</i> spell (caster level equal to the shadow lord's Hit Dice). This planar thinning is immediately dispelled if in an area of normal or bright light.</p>", 
+                    "name": "Special Qualities", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Special Qualities", 
+                    "ability_types": {
+                        "ability_type_id": 559, 
+                        "section_id": 1763, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1763, 
+                    "source": "Bestiary 4", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "<p>Dex +4, Cha +4.</p>", 
+                    "name": "Ability Scores", 
+                    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature/Creating a Shadow Lord/Ability Scores", 
+                    "section_id": 1764, 
+                    "source": "Bestiary 4", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>A shadow lord gains a +8 racial bonus on all Stealth checks.</p>", 
+                    "source": "Bestiary 4", 
+                    "type": "section", 
+                    "name": "Skills", 
+                    "section_id": 1765
+                }
+            ], 
+            "section_id": 1752, 
+            "source": "Bestiary 4", 
+            "type": "section"
+        }
+    ], 
+    "hp": "162 (12d8+108)", 
+    "weaknesses": "vulnerable to fire", 
+    "reach": "10 ft.", 
+    "section_id": 1738, 
+    "wisdom": "16", 
+    "defensive_abilities": "shadow blend", 
+    "creature_type": "Outsider", 
+    "dr": "10/magic", 
+    "ranged": "6 strands +10 touch (1d6 Str)", 
+    "name": "Shadow Creature", 
+    "base_attack": "+9", 
+    "skills": "Climb +27, Knowledge (dungeoneering) +13, Knowledge (religion) +13, Perception +24, Stealth +18 (+44 in icy or stony areas)", 
+    "reflex": "+5", 
+    "cmd": "33 (can't be tripped)", 
+    "cmb": "+22", 
+    "will": "+13", 
+    "url": "pfsrd://Bestiary 4/Monsters/Shadow Creature", 
+    "sr": "27", 
+    "organization": "solitary, pair, or cluster (3\u20136)", 
+    "creature_subtype": "augmented aberration"
+}

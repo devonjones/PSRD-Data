@@ -1,0 +1,91 @@
+{
+    "dexterity": "25", 
+    "ac": "19, touch 17, flat-footed 12 (+7 Dex, +2 natural)", 
+    "special_attacks": "bleed (2d4), blood drain (1d2 Constitution)", 
+    "intelligence": "-", 
+    "racial_modifiers": "Perception+8", 
+    "melee": "bite +10 (1d8+6 plus bleed, disease, and grab)", 
+    "cr": "6", 
+    "xp": "2,400", 
+    "speed": "20 ft., fly 60 ft. (good)", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "18", 
+    "constitution": "17", 
+    "immune": "mind-affecting effects", 
+    "treasure": "none", 
+    "init": "+7", 
+    "environment": "temperate or tropical swamps", 
+    "source": "Bestiary 2", 
+    "charisma": "6", 
+    "fortitude": "+9", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft., scent; Perception +9", 
+    "description": "A bloated, red belly dangles beneath the furiously beating wings of this massive mosquito.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Mosquito/Giant/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Mosquito/Giant/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 341, 
+                        "section_id": 1414, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1414, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Malaria", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Mosquito/Giant/Special Abilities/Disease/Malaria", 
+                            "contracted": "injury", 
+                            "section_id": 1415, 
+                            "effect": "1d3 Constitution damage and 1d3 Wisdom damage", 
+                            "onset": "1d3 days", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1 day", 
+                            "save": "Fortitude DC 17, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1413, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Horrifically enlarged versions of the common mosquito, giant mosquitoes bring death on swift wings. A single specimen can drain the blood from a human adult with shocking speed, while swarms of fist-sized mosquitoes can lay waste to herds of livestock or entire villages. In the wild, giant mosquitoes prey upon megafauna like dinosaurs and other huge creatures.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1416
+        }, 
+        {
+            "body": "<p>Giant mosquitoes grow to 6 feet in length, and weigh up to 150 pounds. Variant species of giant mosquitoes exist, although not in the great diversity seen in many other giant vermin. The most common variant is the smaller goblin mosquito (a giant mosquito with the young creature template), but stories of Large jungle mosquitoes (giant mosquitoes with the advanced and giant simple templates) are not unheard of.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1417
+        }
+    ], 
+    "hp": "60 (8d8+24)", 
+    "section_id": 1412, 
+    "wisdom": "13", 
+    "creature_type": "Vermin", 
+    "name": "Mosquito, Giant", 
+    "base_attack": "+6", 
+    "skills": "Fly +11, Perception +9", 
+    "reflex": "+9", 
+    "cmd": "27 (35 vs. trip)", 
+    "cmb": "+10 (+14 grapple)", 
+    "will": "+3", 
+    "url": "pfsrd://Bestiary 2/Monsters/Mosquito/Giant", 
+    "organization": "solitary, pair, or swarm (3-12)"
+}

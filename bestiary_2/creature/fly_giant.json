@@ -1,0 +1,84 @@
+{
+    "dexterity": "17", 
+    "ac": "13, touch 13, flat-footed 10 (+3 Dex)", 
+    "intelligence": "-", 
+    "racial_modifiers": "+4 Perception", 
+    "melee": "bite +2 (1d6+1 plus disease)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "20 ft., climb 20 ft., fly 60 ft. (good)", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "12", 
+    "constitution": "16", 
+    "immune": "disease, mind-affecting effects", 
+    "treasure": "none", 
+    "init": "+3", 
+    "environment": "any temperate or tropical", 
+    "source": "Bestiary 2", 
+    "charisma": "2", 
+    "fortitude": "+6", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft.; Perception +2", 
+    "description": "Bristling with coarse hairs, this enormous fly's legs twitch just before it launches into the air on buzzing wings. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Fly/Giant/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Some flies might carry other diseases, at the GM's discretion. The save DC is Constitution-based. Bite:", 
+                    "name": "Disease", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Fly/Giant/Special Abilities/Disease", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 229, 
+                        "section_id": 885, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 885, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Filth Fever, Giant Fly", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Fly/Giant/Special Abilities/Disease/Filth Fever/Giant Fly", 
+                            "contracted": "injury", 
+                            "section_id": 886, 
+                            "effect": "1d3 Dexterity damage and 1d3 Constitution damage", 
+                            "onset": "1d3 days", 
+                            "subtype": "disease", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/day", 
+                            "save": "Fortitude DC 14, ", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 884, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Much like their tiny cousins, giant flies feed upon carrion. Wholly monstrous, these disgusting creatures have been known to sometimes attack still-living foes, particularly when they are hungry or living creatures disturb their meals. Some species of giant fly bear their larva live, ejecting piles of undulating giant maggots from their engorged abdomens rather than laying eggs in decaying corpses.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 887
+        }
+    ], 
+    "hp": "15 (2d8+6)", 
+    "section_id": 883, 
+    "wisdom": "7", 
+    "creature_type": "Vermin", 
+    "name": "Fly, Giant", 
+    "base_attack": "+1", 
+    "skills": "Climb +9, Fly +7, Perception +2", 
+    "reflex": "+3", 
+    "cmd": "15 (21 vs. trip)", 
+    "cmb": "+2", 
+    "will": "-2", 
+    "url": "pfsrd://Bestiary 2/Monsters/Fly/Giant", 
+    "organization": "solitary, pair, or swarm (3-12)"
+}

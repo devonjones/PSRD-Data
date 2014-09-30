@@ -1,0 +1,140 @@
+{
+    "dexterity": "16", 
+    "ac": "17, touch 15, flat-footed 14 (+3 Dex, +2 natural, +2 size)", 
+    "special_attacks": "detect thoughts (DC 13)", 
+    "intelligence": "12", 
+    "racial_modifiers": "+4 Bluff, +8 Disguise", 
+    "melee": "bite +8 (1d4-2 plus poison)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "20 ft., climb 20 ft., swim 20 ft.", 
+    "alignment": "LE", 
+    "size": "Tiny", 
+    "languages": "Common, Infernal, Undercommon; comprehend languages", 
+    "strength": "7", 
+    "constitution": "15", 
+    "treasure": "standard", 
+    "init": "+3", 
+    "environment": "any", 
+    "source": "Bestiary 3", 
+    "charisma": "14", 
+    "fortitude": "+3", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 6th; concentration +8)<p class=\"stat-block-2\">Constant-<i>comprehend languages</i></p><p class=\"stat-block-2\">1/day-<i>charm person</i> (DC 13), <i>suggestion</i> (DC 15)</p><p class=\"stat-block-2\">1/week-<i>commune</i> (CL 12th, 6 questions)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Alertness, Weapon Finesse", 
+    "senses": "darkvision 60 ft., detect magic; Perception +9", 
+    "description": "What at first appears to be a bejeweled blade shimmers and writhes, transforming into a hideous, red-eyed serpent.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities", 
+            "sections": [
+                {
+                    "body": "As a full-round action, a raktavarna can take the shape of a handheld object, most often an ornamental light, a one-handed weapon, or a piece of treasure. If the rakshasa remains stationary in such a form, it can attempt Stealth checks even while being observed. It can remain motionless in object form indefinitely, but reverts to its true form as soon as it takes any action.", 
+                    "name": "Change Shape", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Change Shape", 
+                    "ability_types": {
+                        "ability_type_id": 519, 
+                        "section_id": 1786, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1786, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A raktavarna can designate a single creature as its master as a standard action. If the raktavarna is a spellcaster's familiar, its master is automatically that spellcaster, and the raktavarna cannot change this. As a full-round action, a raktavarna's master can observe the world as if looking through the raktavarna's eyes. The master must concentrate to maintain this link each round. The master's visual senses are suppressed for this time, and he uses the raktavarna's darkvision, detect magic, and regular eyesight to observe the world. This ability has no limit on range, and functions even across planar boundaries. If the raktavarna is slain while its master is using this ability, the master is stunned for 1d4 rounds (no save).", 
+                    "name": "Master's Eyes", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Masters Eyes", 
+                    "ability_types": {
+                        "ability_type_id": 520, 
+                        "section_id": 1787, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1787, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 521, 
+                        "section_id": 1788, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1788, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Raktavarna Rakshasa Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Poison/Raktavarna Rakshasa Venom", 
+                            "type": "affliction", 
+                            "contracted": "injury", 
+                            "section_id": 1789, 
+                            "effect": "1d2 Wisdom plus modify memory", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 13", 
+                            "sections": [
+                                {
+                                    "body": "Each time a victim takes Wisdom damage from this poison, a modify memory effect causes the victim to forget the previous minute's interactions with the raktavarna, as long as the raktavarna is no longer visible or is in object form.", 
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "section_id": 1790
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1785, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Made up of smoke, blood, and gold, raktavarnas are the least of the rakshasas&mdash;they are born not from humanoids, but from the souls of rakshasas who failed utterly in their previous incarnation and who are thus reborn from a serpent's egg.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1791
+        }, 
+        {
+            "body": "<p>These terrors drift through society, passing from hand to hand as weapons or strange tokens from foreign lands, curiosities brought home by traders and emissaries and given to leaders as tribute. In this manner the raktavarnas gain entry into corridors of power throughout the world, and what they see, their foul masters know. A raktavarna's servitude to a master ends only when its master decrees, or (more commonly) upon the master's death. Little disconcerts raktavarnas more than having no master, and when they are cast adrift in this manner, they seek a replacement as soon as they can.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1792
+        }, 
+        {
+            "body": "<p>A 7th-level lawful evil spellcaster with the Improved Familiar feat can gain a raktavarna rakshasa as a familiar. </p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1793
+        }
+    ], 
+    "hp": "22 (3d10+6)", 
+    "section_id": 1784, 
+    "wisdom": "13", 
+    "creature_type": "Outsider", 
+    "special_qualities": "change shape (Tiny living object), master's eyes", 
+    "dr": "5/good or piercing", 
+    "name": "Rakshasa, Raktavarna", 
+    "base_attack": "+3", 
+    "skills": "Bluff +12, Climb +9, Disguise +16, Escape Artist +6, Perception +9, Sense Motive +9, Stealth +17, Swim +6", 
+    "reflex": "+6", 
+    "cmd": "12 (can't be tripped)", 
+    "cmb": "+4", 
+    "will": "+4", 
+    "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna", 
+    "sr": "17", 
+    "organization": "solitary, pair, or rack (3-10)", 
+    "creature_subtype": "native, rakshasa, shapechanger"
+}

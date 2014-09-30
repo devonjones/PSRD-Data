@@ -1,0 +1,104 @@
+{
+    "dexterity": "10", 
+    "ac": "17, touch 11, flat-footed 17 (+6 natural, +1 size)", 
+    "intelligence": "-", 
+    "cr": "4", 
+    "xp": "1,200", 
+    "speed": "10 ft.", 
+    "alignment": "N", 
+    "size": "Small", 
+    "strength": "5", 
+    "constitution": "15", 
+    "immune": "acid, plant traits", 
+    "treasure": "incidental", 
+    "init": "+0", 
+    "environment": "any underground", 
+    "source": "Bestiary 2", 
+    "charisma": "1", 
+    "fortitude": "+7", 
+    "type": "creature", 
+    "senses": "tremorsense 30 ft.; Perception +0", 
+    "description": "This tangle of purple-capped mushrooms growing out of a nasty green sludge shudders and writhes, wafting tendrils of smoke. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Phycomid/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A phycomid attacks by firing a glob of acid from one of its several mushroom-like stalks. This attack has a range increment of 10 feet. A phycomid can fire up to six acid pellets per minute&mdash;during rounds in which the fungus has no acid pellets, it has no method of attacking at all and must wait until its acid stores replenish in 4 rounds before continuing a battle.", 
+                    "name": "Acid Pellet", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Phycomid/Special Abilities/Acid Pellet", 
+                    "ability_types": {
+                        "ability_type_id": 370, 
+                        "section_id": 1565, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1565, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Any creature that takes damage from a phycomid's acid pellet (or consumes even a small portion of the fungus) becomes exposed to the fungus's spores. These spores grow quickly in living creatures. This affliction is a disease effect, although its course runs much faster than most diseases and is more poison-like in its speed, and like a poison, the spores &ldquo;burn out&rdquo; after a short period. A creature that is slain by a phycomid spore infestation bursts open in 1d4 rounds as a fully grown new phycomid emerges. The save DC is Constitution-based.", 
+                    "name": "Spores", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Phycomid/Special Abilities/Spores", 
+                    "ability_types": {
+                        "ability_type_id": 371, 
+                        "section_id": 1566, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1566, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "name": "Phycomid Spores", 
+                    "source": "Bestiary 2", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Phycomid/Special Abilities/Phycomid Spores", 
+                    "contracted": "injury or ingested", 
+                    "section_id": 1567, 
+                    "effect": "1d2 Constitution damage", 
+                    "subtype": "disease", 
+                    "cure": "1 save", 
+                    "frequency": "1/round for 6 rounds", 
+                    "save": "Fortitude DC 15, ", 
+                    "type": "affliction"
+                }
+            ], 
+            "section_id": 1564, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Typically found in damp dungeons, refuse heaps, and forgotten, filthy chambers, phycomids are dangerous fungoid creatures that grow in small, steaming patches among decomposing organic matter. The phycomid's main body is a mass of green-brown mold that can slither and move when necessary to seek out new carrion to feed upon. Numerous mushrooms sprout from the main body&mdash;vile green stalks topped with purple or red caps that seem to steam with rank-smelling smoke. This smoke is in fact vapor escaping from the numerous globs of acid the plant produces as a method of both self-defense and reproduction.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1568
+        }, 
+        {
+            "body": "<p>This acidic substance is expelled from the phycomid whenever it senses movement nearby, and seasoned adventurers can often trick a phycomid into giving away its true nature by simulating movement within range of the fungus. Less fortunate encounters are typically marked by large infestations of phycomids growing among a scattered collection of dead bodies. </p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1569
+        }, 
+        {
+            "body": "<p>Because of the filthy environment in which this fungus thrives, goblins are one of the few races that have learned to coexist with phycomids. Not content to simply give the fungi a wide berth, these foolish goblins actually harvest the phycomids, prodding them into positions in their warrens where they can serve as guards and sentinels, utilizing long poles they call &ldquo;slime sticks&rdquo; or placing delicious-smelling carrion to attract the fungus to a desired position. Although phycomids are deadly to eat, many goblin tribes view those who eat a phycomid mushroom and survive as great heroes. Needless to say, most goblin lairs that attempt to utilize phycomids as guardians eventually become nothing more than phycomid lairs&mdash;a goblin tribe's luck can only hold up for so long, after all.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1570
+        }
+    ], 
+    "hp": "39 (6d8+12)", 
+    "section_id": 1563, 
+    "wisdom": "11", 
+    "creature_type": "Plant", 
+    "ranged": "acid pellet +5 touch (2d6 acid plus spores)", 
+    "name": "Phycomid", 
+    "base_attack": "+4", 
+    "url": "pfsrd://Bestiary 2/Monsters/Phycomid", 
+    "reflex": "+2", 
+    "cmd": "10 (can't be tripped)", 
+    "cmb": "+0", 
+    "will": "+2", 
+    "organization": "solitary or infestation (2-8)"
+}

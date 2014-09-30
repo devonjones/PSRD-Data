@@ -1,0 +1,526 @@
+{
+    "dexterity": "15", 
+    "ac": "17, touch 14, flat-footed 14 (+2 Dex, +1 dodge, +3 natural, +1 size)", 
+    "special_attacks": "breath weapon (15-foot cone, effect based on type, Reflex DC 13 for half)", 
+    "intelligence": "6", 
+    "melee": "2 claws +5 (1d3+1)", 
+    "cr": "3", 
+    "xp": "800", 
+    "speed": "30 ft., fly 40 ft. (average)", 
+    "alignment": "N", 
+    "size": "Small", 
+    "languages": "Common, one appropriate elemental language (Aquan, Auran, Ignan, or Terran)", 
+    "strength": "13", 
+    "constitution": "12", 
+    "treasure": "standard", 
+    "init": "+6", 
+    "environment": "any (elemental planes)", 
+    "source": "Bestiary", 
+    "charisma": "14", 
+    "fortitude": "+2", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 6th)<p class=\"stat-block-2\">1/day-summon (level 2, 1 mephit of the same type 25%), additional abilities based on mephit type</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Dodge, Improved Initiative", 
+    "senses": "darkvision 60 ft.; Perception +6", 
+    "description": "This small humanoid creature has thin, leathery wings, small horns, and a mischievous smile. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Each type of mephit can unleash a particular breath weapon every 4 rounds as a standard action. The DC is Constitution-based and includes a +1 racial bonus.", 
+                    "name": "Breath Weapon", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Special Abilities/Breath Weapon", 
+                    "ability_types": {
+                        "ability_type_id": 456, 
+                        "section_id": 2092, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2092, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 2091, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Mephits are the servants of powerful elemental creatures. Key sites and locations on the elemental planes are full of mephits scurrying about on important errands or duties. Each mephit is associated with one element that defines its spells and abilities. The mephit types are listed below.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2093
+        }, 
+        {
+            "body": "<p>Air mephits are commonly found on the Plane of Air. These mephits are whimsical and prone to distraction.</p>", 
+            "name": "Air Mephit (Air)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Air Mephit (Air)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only in gusty and windy areas.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2095
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Fly 60 ft. (perfect)</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Speed", 
+                    "section_id": 2096
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of sand and grit that deals 1d8 slashing damage.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2097
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>blur</i> 1/hour, <i>gust of wind</i> 1/day.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2098
+                }
+            ], 
+            "section_id": 2094, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Dust mephits are commonly found on the Plane of Air. These mephits are irritating and persistent.</p>", 
+            "name": "Dust Mephit (Air)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Dust Mephit (Air)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only in dusty environments.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2100
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Fly 50 ft. (perfect)</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Speed", 
+                    "section_id": 2101
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of dust that deals 1d4 slashing damage. The dust also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2102
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>blur</i> 1/hour, <i>wind wall</i> 1/day</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2103
+                }
+            ], 
+            "section_id": 2099, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Earth mephits are commonly found on the Plane of Earth. These mephits are plodding and humorless.</p>", 
+            "name": "Earth Mephit (Earth)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Earth Mephit (Earth)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only while underground.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2105
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of rocks that deals 1d8 bludgeoning damage.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2106
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Once per day, an earth mephit can enlarge one size category, as <i>enlarge person</i>, except that it only works on the earth mephit. This power acts as a 2nd-level spell.</p>", 
+                    "name": "Change Size", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Earth Mephit (Earth)/Change Size", 
+                    "section_id": 2107, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>soften earth and stone</i> 1/day</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2108
+                }
+            ], 
+            "section_id": 2104, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Fire mephits are commonly found on the Plane of Fire. Fire mephits are vengeful and quick to anger.</p>", 
+            "name": "Fire Mephit (Fire)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Fire Mephit (Fire)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only while in contact with fire.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2110
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Fire</p>", 
+                    "name": "Immune", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Fire Mephit (Fire)/Immune", 
+                    "section_id": 2111, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Vulnerability to cold</p>", 
+                    "name": "Weaknesses", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Fire Mephit (Fire)/Weaknesses", 
+                    "section_id": 2112, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of flames that deals 1d8 fire damage.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2113
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>scorching ray</i> 1/hour, <i>heat metal</i> 1/day (DC 14)</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2114
+                }
+            ], 
+            "section_id": 2109, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Ice mephits are commonly found on the Plane of Air. These mephits are cruel and aloof.</p>", 
+            "name": "Ice Mephit (Cold)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Ice Mephit (Cold)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only in areas below freezing.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2116
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Cold</p>", 
+                    "name": "Immune", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Ice Mephit (Cold)/Immune", 
+                    "section_id": 2117, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Vulnerability to fire</p>", 
+                    "name": "Weaknesses", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Ice Mephit (Cold)/Weaknesses", 
+                    "section_id": 2118, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of ice that deals 1d4 cold damage. The cold also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2119
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>magic missile</i> 1/hour, <i>chill metal</i> 1/day (DC 14)</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2120
+                }
+            ], 
+            "section_id": 2115, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Magma mephits are commonly found on the Plane of Fire. These mephits are dim-witted brutes.</p>", 
+            "name": "Magma Mephit (Fire)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Magma Mephit (Fire)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only in contact with magma or lava.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2122
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Fire</p>", 
+                    "name": "Immune", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Magma Mephit (Fire)/Immune", 
+                    "section_id": 2123, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Vulnerability to cold</p>", 
+                    "name": "Weaknesses", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Magma Mephit (Fire)/Weaknesses", 
+                    "section_id": 2124, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of fire that deals 1d8 fire damage.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2125
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Once per hour, a magma mephit can assume the form of a pool of lava, 3 feet in diameter and 6 inches deep. While in this form, its DR increases to 20/magic and it cannot attack. It can move at a speed of 10 feet per round and can pass through small openings and cracks. Anything touching this pool takes 1d6 fire damage. A magma mephit may remain in this form for up to 10 minutes.</p>", 
+                    "name": "Magma Form", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Magma Mephit (Fire)/Magma Form", 
+                    "ability_types": {
+                        "ability_type_id": 457, 
+                        "section_id": 2126, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2126, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>pyrotechnics</i> 1/day</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2127
+                }
+            ], 
+            "section_id": 2121, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Ooze mephits are commonly found on the Plane of Water. These mephits are disgusting and slow to act.</p>", 
+            "name": "Ooze Mephit (Water)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Ooze Mephit (Water)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only in wet or muddy environments.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2129
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Swim 30 ft.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Speed", 
+                    "section_id": 2130
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of slime that deals 1d4 acid damage. The slime also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2131
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>acid arrow</i> 1/hour, <i>stinking cloud</i> 1/day (DC 15)</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2132
+                }
+            ], 
+            "section_id": 2128, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Salt mephits are commonly found on the Plane of Earth. These mephits are cruel and aloof.</p>", 
+            "name": "Salt Mephit (Earth)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Salt Mephit (Earth)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only in arid environments.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2134
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of salt crystals that deals 1d4 slashing damage. The salt also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2135
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Once per day a salt mephit can draw the moisture from an area in a 20-foot radius centered on itself. Living creatures within range take 2d8 points of damage (Fortitude DC 14 half; caster level 6th). This effect is especially devastating to plant and aquatic creatures, which take a &ndash;2 penalty on their saving throws. This ability is the equivalent of a 2nd-level spell.</p>", 
+                    "name": "Dehydrate", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Salt Mephit (Earth)/Dehydrate", 
+                    "ability_types": {
+                        "ability_type_id": 458, 
+                        "section_id": 2136, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2136, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>glitterdust</i> 1/hour.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2137
+                }
+            ], 
+            "section_id": 2133, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Steam mephits are commonly found on the Plane of Fire. These mephits are overconfident and brash.</p>", 
+            "name": "Steam Mephit (Fire)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Steam Mephit (Fire)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only in boiling water or steam.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2139
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Fire</p>", 
+                    "name": "Immune", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Steam Mephit (Fire)/Immune", 
+                    "section_id": 2140, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Vulnerability to cold</p>", 
+                    "name": "Weaknesses", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Steam Mephit (Fire)/Weaknesses", 
+                    "section_id": 2141, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of steam that deals 1d4 fire damage. The scalding water also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>", 
+                    "name": "Breath weapon", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Steam Mephit (Fire)/Breath weapon", 
+                    "section_id": 2142, 
+                    "source": "Bestiary", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Once per day a steam mephit can create a rainstorm of boiling water in a 20-foot-square area. Living creatures within the area take 2d6 points of fire damage (Fortitude DC 14 half; caster level 6th). This ability is the equivalent of a 2nd-level spell.</p>", 
+                    "name": "Boiling Rain", 
+                    "url": "pfsrd://Bestiary/Monsters/Mephit/Steam Mephit (Fire)/Boiling Rain", 
+                    "ability_types": {
+                        "ability_type_id": 459, 
+                        "section_id": 2143, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 2143, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>blur</i> 1/hour</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2144
+                }
+            ], 
+            "section_id": 2138, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Water mephits are commonly found on the Plane of Water. These mephits are constant jokesters.</p>", 
+            "name": "Water Mephit (Water)", 
+            "url": "pfsrd://Bestiary/Monsters/Mephit/Water Mephit (Water)", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-1\">Works only while the mephit is underwater.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "section_id": 2146
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">Swim 30 ft.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Speed", 
+                    "section_id": 2147
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\">A cone of acid that deals 1d8 acid damage.</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "section_id": 2148
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"><i>acid arrow</i> 1/hour, <i>stinking cloud</i> 1/day (DC 15)</p>", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spell-Like Abilities", 
+                    "section_id": 2149
+                }
+            ], 
+            "section_id": 2145, 
+            "source": "Bestiary", 
+            "type": "section"
+        }
+    ], 
+    "hp": "19 (3d10+3); fast healing 2", 
+    "section_id": 2090, 
+    "wisdom": "11", 
+    "creature_type": "Outsider", 
+    "dr": "5/magic", 
+    "name": "Mephit", 
+    "base_attack": "+3", 
+    "skills": "Bluff +8, Fly +10, Perception +6, Stealth +12", 
+    "reflex": "+5", 
+    "cmd": "15", 
+    "cmb": "+3", 
+    "will": "+3", 
+    "url": "pfsrd://Bestiary/Monsters/Mephit", 
+    "organization": "solitary, pair, gang (3-6), mob (7-12)", 
+    "creature_subtype": "varies"
+}

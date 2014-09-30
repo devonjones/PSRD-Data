@@ -1,0 +1,125 @@
+{
+    "dexterity": "15", 
+    "ac": "20, touch 12, flat-footed 17; (+2 Dex, +1 dodge, +8 natural, -1 size)", 
+    "special_attacks": "web (+7 ranged, DC 18, hp 9)", 
+    "intelligence": "15", 
+    "racial_modifiers": "+4 Stealth", 
+    "melee": "mwk heavy mace +9/+4 (1d8+3), bite +3 (1d4+1 plus poison)", 
+    "cr": "7", 
+    "xp": "3,200", 
+    "speed": "30 ft., climb 20 ft.", 
+    "alignment": "CE", 
+    "size": "Large", 
+    "languages": "Common, Elven, Undercommon", 
+    "strength": "15", 
+    "constitution": "18", 
+    "space": "10 ft.", 
+    "treasure": "double (masterwork heavy mace, masterwork composite longbow [+2 Str] with 20 arrows, additional treasure)", 
+    "init": "+2", 
+    "environment": "any underground", 
+    "source": "Bestiary", 
+    "charisma": "16", 
+    "immune": "sleep", 
+    "fortitude": "+7", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 9th)<p class=\"stat-block-2\">Constant-<i>detect good, detect law, detect magic</i></p><p class=\"stat-block-2\">At will-<i>dancing lights, darkness, faerie fire</i></p><p class=\"stat-block-2\">1/day-<i>clairaudience/clairvoyance, deeper darkness, dispel magic, levitate, suggestion</i> (DC 16)</p>"
+        }, 
+        {
+            "spells known": "(CL 6th)<p class=\"stat-block-2\">3rd (4/day)-<i>lightning bolt</i> (DC 16)</p><p class=\"stat-block-2\">2nd (6/day)-<i>invisibility, web</i> (DC 15)</p><p class=\"stat-block-2\">1st (7/day)-<i>mage armor, magic missile, ray of enfeeblement</i> (DC 14)<i>, silent image</i> (DC 14)</p><p class=\"stat-block-2\">0 (at will)-<i>bleed</i> (DC 13), <i>daze</i> (DC 13)<i>, ghost sound, mage hand, ray of frost, read magic, resistance</i></p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Blind-Fight, Dodge, Combat Casting, Weapon Focus (bite, mace)", 
+    "senses": "darkvision 120 ft., detect good, detect law, detect magic; Perception +15", 
+    "description": "The dry rasping of spidery legs brings this hideous monstrosity into view&mdash;a nightmarish, centaurian fusion of drow and spider.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities", 
+            "sections": [
+                {
+                    "body": "The save DC is Constitution-based. Bite:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 312, 
+                        "section_id": 1272, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1272, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Drider Venom", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities/Poison/Drider Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1273, 
+                            "effect": "1d2 Strength", 
+                            "subtype": "poison", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 18", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "A drider casts spells as a 6th-level cleric, sorcerer, or wizard, but does not gain any other class abilities.", 
+                    "source": "Bestiary", 
+                    "type": "section", 
+                    "name": "Spells", 
+                    "section_id": 1274
+                }, 
+                {
+                    "body": "Although a drider is Large, its upper torso is the same size as that of a Medium humanoid's upper torso. As a result, it wields weapons as if it were one size category smaller than its actual size (Medium for most driders).", 
+                    "name": "Undersized Weapons", 
+                    "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities/Undersized Weapons", 
+                    "ability_types": {
+                        "ability_type_id": 313, 
+                        "section_id": 1275, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1275, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1271, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Created from the body of a drow, warped and mutated through special poisons and elixirs to take on the characteristics of a giant spider, the drider is a dangerous creature.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1276
+        }, 
+        {
+            "body": "<p>Driders are sexually dimorphic. A female drider's lower spider body is sleek and graceful, often similar to a black widow's body, while its upper drow torso retains its alluring curves and beautiful face (with the exception of sharp, poisonous fangs). A male drider's lower body is bulky like a tarantula, while its upper body is wiry and bears a hideous face more spider than drow, complete with fanged mandibles.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 1277
+        }
+    ], 
+    "hp": "76 (9d8+36)", 
+    "reach": "5 ft.", 
+    "section_id": 1270, 
+    "wisdom": "16", 
+    "creature_type": "Aberration", 
+    "special_qualities": "undersized weapons", 
+    "ranged": "mwk composite longbow +8/+3 (1d8+2/&times;3)", 
+    "name": "Drider", 
+    "base_attack": "+6", 
+    "skills": "Climb +22, Intimidate +15, Knowledge (arcana) +14, Perception +15, Spellcraft +14, Stealth +14", 
+    "reflex": "+5", 
+    "cmd": "21 (33 vs. trip)", 
+    "cmb": "+9", 
+    "will": "+9", 
+    "url": "pfsrd://Bestiary/Monsters/Drider", 
+    "sr": "18", 
+    "organization": "solitary, pair, or group (3-8)"
+}

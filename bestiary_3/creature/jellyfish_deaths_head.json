@@ -1,0 +1,96 @@
+{
+    "dexterity": "17", 
+    "ac": "14, touch 14, flat-footed 11 (+3 Dex, +1 size)", 
+    "intelligence": "-", 
+    "melee": "2 tentacles +3 (1d3+1 plus poison)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "swim 20 ft.", 
+    "alignment": "N", 
+    "size": "Small", 
+    "strength": "12", 
+    "constitution": "16", 
+    "space": "5 ft.", 
+    "treasure": "none", 
+    "init": "+3", 
+    "environment": "any oceans", 
+    "source": "Bestiary 3", 
+    "charisma": "1", 
+    "immune": "mind-affecting effects", 
+    "fortitude": "+6", 
+    "type": "creature", 
+    "senses": "darkvision 60 ft.; Perception +0", 
+    "description": "This long-tentacled jellyfish has a wide bell with a vaguely skull-shaped pattern on it.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head/Special Abilities", 
+            "sections": [
+                {
+                    "body": "Tentacle:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 375, 
+                        "section_id": 1210, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1210, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Death's Head Jellyfish Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head/Special Abilities/Poison/Deaths Head Jellyfish Venom", 
+                            "type": "affliction", 
+                            "contracted": "injury", 
+                            "section_id": 1211, 
+                            "effect": "1 Constitution and 1 Charisma", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 14", 
+                            "sections": [
+                                {
+                                    "body": "If a creature fails two consecutive saving throws, its jaw locks, its tongue swells, and its lips pull back, making speech impossible. This condition ends when the Charisma damage is healed.", 
+                                    "source": "Bestiary 3", 
+                                    "type": "section", 
+                                    "section_id": 1212
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 1209, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Most common in warm or temperate waters, the death's head jellyfish is an aggressive predator. The creature derives its name from the pattern on its 4-foot-wide bell and from the poison it delivers with its tentacles. Those unfortunate enough to be subjected to this toxin develop rigor of the facial muscles that results in a wide-eyed grimace if left untreated.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1213
+        }
+    ], 
+    "hp": "15 (2d8+6)", 
+    "reach": "10 ft.", 
+    "section_id": 1208, 
+    "wisdom": "10", 
+    "defensive_abilities": "amorphous", 
+    "creature_type": "Vermin", 
+    "special_qualities": "compression", 
+    "dr": "5/piercing or slashing", 
+    "name": "Jellyfish, Death's Head", 
+    "base_attack": "+1", 
+    "skills": "Swim +9", 
+    "reflex": "+3", 
+    "cmd": "14 (can't be tripped)", 
+    "cmb": "+1", 
+    "will": "+0", 
+    "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head", 
+    "organization": "solitary, pack (2-5), or bloom (6-13)", 
+    "creature_subtype": "aquatic"
+}

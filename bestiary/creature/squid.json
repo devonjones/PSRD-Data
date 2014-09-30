@@ -1,0 +1,108 @@
+{
+    "dexterity": "15", 
+    "ac": "13, touch 12, flat-footed 11 (+2 Dex, +1 natural)", 
+    "intelligence": "2", 
+    "melee": "bite +4 (1d3+2), tentacles +2 (1d4+1 plus grab)", 
+    "cr": "1", 
+    "xp": "400", 
+    "speed": "swim 60 ft., jet 240 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "15", 
+    "constitution": "11", 
+    "treasure": "none", 
+    "init": "+6", 
+    "environment": "any ocean", 
+    "source": "Bestiary", 
+    "charisma": "2", 
+    "fortitude": "+3", 
+    "type": "creature", 
+    "feats": "Improved Initiative, Lightning Reflexes, MultiattackB", 
+    "senses": "low-light vision; Perception +7", 
+    "description": "This slender red squid darts through the water with alacrity. Two large eyes stare from above the creature's tentacles.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A squid can emit a 5-foot-radius cloud of ink once per minute as a free action while underwater. This cloud provides total concealment. The ink persists for 1 minute.", 
+                    "name": "Ink Cloud", 
+                    "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Special Abilities/Ink Cloud", 
+                    "ability_types": {
+                        "ability_type_id": 547, 
+                        "section_id": 2634, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2634, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A squid can jet in a straight line as a full-round action. It does not provoke attacks of opportunity while jetting.", 
+                    "name": "Jet", 
+                    "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Special Abilities/Jet", 
+                    "ability_types": {
+                        "ability_type_id": 548, 
+                        "section_id": 2635, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 2635, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 2633, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Squids are aggressive predators that fear little and are more than willing to attack prey larger than themselves.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2636
+        }, 
+        {
+            "ac": "+1 natural armor", 
+            "name": "Squid", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Squid", 
+            "sections": [
+                {
+                    "name": "4th-Level Advancement", 
+                    "level": "4th", 
+                    "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Squid/4th-Level Advancement", 
+                    "section_id": 2638, 
+                    "subtype": "advancement", 
+                    "source": "Bestiary", 
+                    "ability_scores": "Str +2, Con +2", 
+                    "type": "animal_companion"
+                }
+            ], 
+            "section_id": 2637, 
+            "subtype": "base", 
+            "attack": "tentacles (1d4 plus grab), bite (1d3)", 
+            "type": "animal_companion", 
+            "special_qualities": "low-light vision, ink cloud", 
+            "speed": "swim 60 ft., jet 240 ft.", 
+            "ability_scores": "Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2", 
+            "size": "Medium"
+        }
+    ], 
+    "hp": "13 (3d8)", 
+    "section_id": 2632, 
+    "wisdom": "12", 
+    "defensive_abilities": "ink cloud (5-ft. radius)", 
+    "creature_type": "Animal", 
+    "name": "Squid", 
+    "base_attack": "+2", 
+    "skills": "Perception +7, Swim +10", 
+    "reflex": "+7", 
+    "cmd": "16", 
+    "cmb": "+4 (+8 grapple)", 
+    "will": "+2", 
+    "url": "pfsrd://Bestiary/Monsters/Squid/Squid", 
+    "organization": "solitary, pair, or school (3-12)", 
+    "creature_subtype": "aquatic"
+}

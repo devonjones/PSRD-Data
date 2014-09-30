@@ -1,0 +1,109 @@
+{
+    "dexterity": "13", 
+    "ac": "32, touch 9, flat-footed 31 (+1 Dex, +23 natural, -2 size)", 
+    "special_attacks": "breath weapon (80-foot cone, 20d8 fire damage, Reflex DC 29 half, usable once every 1d4 rounds), entangling chains, powerful charge (gore, 4d8+24)", 
+    "intelligence": "5", 
+    "resist": "electricity 30", 
+    "melee": "2 bites +26 (2d6+10), 4 claws +26 (1d8+10), gore +26 (2d6+10)", 
+    "cr": "17", 
+    "xp": "102,400", 
+    "speed": "50 ft., climb 50 ft.", 
+    "alignment": "CE", 
+    "size": "Huge", 
+    "languages": "Aklo, Sylvan", 
+    "strength": "30", 
+    "constitution": "31", 
+    "space": "15 ft.", 
+    "treasure": "double", 
+    "init": "+5", 
+    "environment": "any", 
+    "source": "Bestiary 2", 
+    "charisma": "20", 
+    "immune": "fire, sonic", 
+    "fortitude": "+21", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 18th; concentration +23)<p class=\"stat-block-2\">Constant-<i>air walk</i>, <i>see invisibility</i></p><p class=\"stat-block-2\">1/day-<i>greater teleport</i> (self plus 50 lbs. of objects only, and only to a master's side)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Critical Focus, Greater Vital Strike, Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike", 
+    "senses": "darkvision 120 ft., low-light vision, see invisibility; Perception +28", 
+    "description": "Neither quite bear nor bull nor serpent, this immense, six-legged creature is bound in chains and covered with scintillating red scales.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Thrasfyr/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A thrasfyr can control the six chains that hang from its body as if they were its own limbs. As a standard action, it can cause these chains to snake outward to a radius of 30 feet. All creatures in this area take 10d6 points of slashing damage and become entangled&mdash;a DC 20 Reflex save halves the damage and negates the entangled condition. An entangled creature can escape with a DC 20 Reflex save or a DC 30 Escape Artist check made as a full-round action. The chains can also be sundered (hardness 10, hp 20, Break DC 28). The thrasfyr creates these chains from its own body&mdash;destroyed chains regrow in 24 hours. The save DC is Dexterity-based.", 
+                    "name": "Entangling Chains", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Thrasfyr/Special Abilities/Entangling Chains", 
+                    "ability_types": {
+                        "ability_type_id": 490, 
+                        "section_id": 1989, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1989, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A thrasfyr can form a bond with a willing creature by touching that creature. This allows the thrasfyr to communicate telepathically with the bonded creature with no range restriction (provided the thrasfyr and its master are on the same plane). Both thrasfyr and master can sense the other's condition as if both were under the effect of a status spell. A thrasfyr can maintain a bond with only one master at a time.", 
+                    "name": "Master's Bond", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Thrasfyr/Special Abilities/Masters Bond", 
+                    "ability_types": {
+                        "ability_type_id": 491, 
+                        "section_id": 1990, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1990, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A thrasfyr is always considered to be on its home plane, regardless of what plane it finds itself upon. It never gains the extraplanar subtype.", 
+                    "name": "Planar Acclimation", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Thrasfyr/Special Abilities/Planar Acclimation", 
+                    "ability_types": {
+                        "ability_type_id": 492, 
+                        "section_id": 1991, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1991, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1988, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The legendary thrasfyr is one of the Tane&mdash;a group of powerful monsters created by godlike beings from the primal world of the fey. A thrasfyr without a master prefers to dwell in rugged hilly regions, where it spends most of its time slumbering and dreaming&mdash;it is said that all thrasfyrs dream of themselves as graceful and beautiful fey, for legends say that the first thrasfyrs were created from such creatures as a form of punishment.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1992
+        }
+    ], 
+    "hp": "279 (18d10+180); regeneration 15 (acid or cold)", 
+    "weaknesses": "vulnerable to cold", 
+    "reach": "15 ft.", 
+    "section_id": 1987, 
+    "wisdom": "24", 
+    "creature_type": "Magical Beast", 
+    "special_qualities": "master's bond, planar acclimation", 
+    "dr": "15/cold iron and slashing", 
+    "name": "Thrasfyr", 
+    "base_attack": "+18", 
+    "skills": "Climb +18, Perception +28", 
+    "reflex": "+14", 
+    "cmd": "41 (49 vs. trip)", 
+    "cmb": "+30", 
+    "will": "+15", 
+    "url": "pfsrd://Bestiary 2/Monsters/Thrasfyr", 
+    "sr": "28", 
+    "organization": "solitary", 
+    "creature_subtype": "fire"
+}

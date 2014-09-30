@@ -1,0 +1,852 @@
+{
+    "body": "<p>Monks are martial mystics. Through mediation and discipline, and sometimes by way of secrets passed down for generations within a monastery, a monk progresses toward his perfect self&mdash;along the way turning his body into an astonishing fighting machine. But though some masters would lead their students to think otherwise, the path toward the perfect self isn't set. Different monks confront the road to enlightenment in different ways, and sometimes even with different goals, from harmony with the universe to physical perfection and immortality.</p><p>The themes and alternate class features presented below introduce not only variations in fighting techniques, but alternate philosophies for monks seeking perfection. </p><p>Bonus feats marked with asterisks (*) are found in the feat section of this book.</p>", 
+    "name": "Monk", 
+    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk", 
+    "sections": [
+        {
+            "name": "Monk Archetypes", 
+            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes", 
+            "sections": [
+                {
+                    "body": "<p>Most monks lead lives of moderation and quiet contemplation. But the drunken master finds perfection through excess. Powered by strong wine, he uses his intoxication to reach a state where his <i>ki</i> is more potent, if somewhat fleeting. A drunken master has the following class features.</p>", 
+                    "name": "Drunken Master", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Drunken Master", 
+                    "type": "class_archetype", 
+                    "section_id": 2631, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"drunken-ki\">At 3rd level, a drunken master can drink a tankard of ale or strong alcohol and gain one temporary <i>ki</i> point. The act of drinking is a standard action that does not provoke attacks of opportunity. The monk can have a maximum number of drunken <i>ki</i> points equal to 1 plus one additional point for every two levels thereafter (5th, 7th, and so on). The monk can gain this temporary <i>ki</i> even before he gains a <i>ki</i> pool at 4th level. These drunken <i>ki</i> points last for 1 hour or until spent, whichever is shorter. As long as he has at least 1 drunken <i>ki</i> point, the monk can spend 1 <i>ki</i> point as a swift action to move 5 feet without provoking attacks of opportunity. This ability replaces still mind.</p>", 
+                            "name": "Drunken Ki", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Drunken Master/Drunken Ki", 
+                            "ability_types": {
+                                "ability_type_id": 711, 
+                                "section_id": 2632, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2632, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"drunken-strength\">At 5th level, a drunken master can spend 1 point of <i>ki</i> as a swift action to inflict 1d6 extra points of damage on a single successful melee attack. The monk can choose to apply the damage after the attack roll is made. At 10th level, the monk may spend 2 drunken <i>ki</i> points to increase the extra damage to 2d6. At 15th level, the monk may spend 3 drunken <i>ki</i> points to increase the extra damage to 3d6. At 20th level, the monk may spend 4 drunken <i>ki</i> points to increase the extra damage to 4d6. The monk must have at least 1 drunken <i>ki</i> point to use this ability. This ability replaces purity of body.</p>", 
+                            "name": "Drunken Strength", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Drunken Master/Drunken Strength", 
+                            "ability_types": {
+                                "ability_type_id": 712, 
+                                "section_id": 2633, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2633, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"drunken-courage\">At 11th level, a drunken master is immune to fear as long as he has at least 1 point of drunken <i>ki</i>. This ability replaces diamond body.</p>", 
+                            "name": "Drunken Courage", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Drunken Master/Drunken Courage", 
+                            "ability_types": {
+                                "ability_type_id": 713, 
+                                "section_id": 2634, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2634, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"drunken-resilience\">At 13th level, a drunken master gains DR 1/&mdash; as long as he has at least 1 point of drunken <i>ki</i>. At 16th level, the DR increases to 2/&mdash;. At 19th level, it increases to 3/&mdash;. This ability replaces diamond soul.</p>", 
+                            "name": "Drunken Resilience", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Drunken Master/Drunken Resilience", 
+                            "ability_types": {
+                                "ability_type_id": 714, 
+                                "section_id": 2635, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2635, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"firewater-breath\">At 19th level, a drunken master can take a drink and expel a gout of alcohol-fueled fire in a 30-foot cone. Creatures within the cone take 20d6 points of fire damage. A successful Reflex saving throw (DC 10 + 1/2 the monk's level + the monk's Wis modifier) halves the damage. Using this ability is a standard action that consumes 4 <i>ki</i> points from the monk's <i>ki</i> pool. The monk must have at least 1 drunken <i>ki</i> point to use this ability. This ability replaces empty body.</p>", 
+                            "name": "Firewater Breath", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Drunken Master/Firewater Breath", 
+                            "ability_types": {
+                                "ability_type_id": 715, 
+                                "section_id": 2636, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2636, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>The hungry ghost monk looks to spirits that prey upon the living as models of perfection. He sees the life energy of the universe as a resource to be manipulated, even stealing it from other creatures. It is through this constant influx of energy that the hungry ghost monk reaches his ultimate goal: power&mdash;personal, pure, and simple. A hungry ghost monk has the following class features.</p>", 
+                    "name": "Hungry Ghost Monk", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Hungry Ghost Monk", 
+                    "type": "class_archetype", 
+                    "section_id": 2637, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"punishing-kick\">At 1st level, a hungry ghost monk gains Punishing Kick as a bonus feat, even if he does not meet the prerequisites. At 10th level, and every five levels thereafter, the monk can push the target of his Punishing Kick an additional 5 feet (10 feet at 10th level, 15 feet at 15th level, and 20 feet at 20th level). At 15th level, he can instead choose to push the target 5 feet and knock the target prone with the same attack. The target still gets a saving throw to avoid being knocked prone. This ability replaces Stunning Fist.</p>", 
+                            "name": "Punishing Kick", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Hungry Ghost Monk/Punishing Kick", 
+                            "ability_types": {
+                                "ability_type_id": 716, 
+                                "section_id": 2638, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2638, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"steal-ki\">At 5th level, a hungry ghost monk can steal <i>ki</i> from other creatures, though this ability is controversial in some circles of monks, who see it as nothing less than a form of vampirism. If the monk scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he can steal some of that creature's<i> ki</i>. This ability replenishes 1 spent <i>ki</i> point to the monk's <i>ki</i> pool, as long as the monk has at least 1 <i>ki</i> point in his pool. He cannot exceed his <i>ki</i> pool's maximum. At 11th level, each time the monk successfully steals <i>ki</i>, he can make an immediate saving throw against one disease he is suffering from. There is no penalty for failing this saving throw. The monk gains a bonus equal to his Wisdom modifier on the saving throw. This ability replaces purity of body.</p>", 
+                            "name": "Steal Ki", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Hungry Ghost Monk/Steal Ki", 
+                            "ability_types": {
+                                "ability_type_id": 717, 
+                                "section_id": 2639, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2639, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"life-funnel\">At 7th level, a hungry ghost monk can steal a creature's life force to replenish his own. If the monk has at least 1 <i>ki</i> point in his <i>ki</i> pool and scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he heals a number of hit points equal to his monk level. As with steal <i>ki</i>, some monks believe that life funnel is an unsavory act, no better than what the undead do to the living. A monk with this ability cannot steal both <i>ki</i> and hit points at the same time. This ability replaces wholeness of body.</p>", 
+                            "name": "Life Funnel", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Hungry Ghost Monk/Life Funnel", 
+                            "ability_types": {
+                                "ability_type_id": 718, 
+                                "section_id": 2640, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2640, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"life-from-a-stone\">At 11th level, a hungry ghost monk can steal <i>ki</i> or life force from any creature, not just living creatures. If the monk has at least 1 ki point in his pool, he gains the benefit of life funnel and steal <i>ki</i> when he confirms a critical hit against any creature or reduces any creature to 0 or fewer hit points. This ability replaces diamond body.</p>", 
+                            "name": "Life from a Stone", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Hungry Ghost Monk/Life from a Stone", 
+                            "ability_types": {
+                                "ability_type_id": 719, 
+                                "section_id": 2641, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2641, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"sipping-demon\">A 13th level, a hungry ghost monk gains 1 temporary hit point each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later. The monk can only use this ability when he has at least 1 <i>ki</i> point in his <i>ki</i> pool. This ability is a proscribed manipulation of <i>ki</i> considered by many good monks to be a corruption. The ability replaces diamond soul.</p>", 
+                            "name": "Sipping Demon", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Hungry Ghost Monk/Sipping Demon", 
+                            "ability_types": {
+                                "ability_type_id": 720, 
+                                "section_id": 2642, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2642, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>The <i>ki</i> mystic believes that violence is sometimes necessary, but knowing and understanding is the true root of perfection. Through meditation and spiritual visions, a <i>ki</i> mystic can see beyond the veil of reality to the underlying truth of all existence. A <i>ki</i> mystic has the following class features.</p>", 
+                    "name": "Ki Mystic", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Ki Mystic", 
+                    "type": "class_archetype", 
+                    "section_id": 2643, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"ki-mystic\">At 3rd level, a <i>ki</i> mystic gains a pool of <i>ki</i> points equal to his Wisdom modifier. The pool increases to 1/2 his monk level + his Wisdom modifier + 2 at level 4. If the monk has at least 1 point of <i>ki</i> in his <i>ki</i> pool, he gains a +2 bonus on all Knowledge skill checks. As a swift action, the monk can spend 1 <i>ki</i> point immediately before making an ability, or skill check to gain a +4 insight bonus on the check. This ability replaces still mind.</p>", 
+                            "name": "Ki Mystic", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Ki Mystic/Ki Mystic", 
+                            "ability_types": {
+                                "ability_type_id": 721, 
+                                "section_id": 2644, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2644, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"mystic-insight\">At 5th level, a <i>ki</i> mystic becomes apt at giving just the right word of advice in just the nick of time. As an immediate action, the monk can spend 2 <i>ki</i> points to grant an ally within 30 feet the ability to reroll a single attack roll or saving throw. The ally must be able to hear the monk to gain the reroll benefit. This ability replaces purity of body.</p>", 
+                            "name": "Mystic Insight", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Ki Mystic/Mystic Insight", 
+                            "ability_types": {
+                                "ability_type_id": 722, 
+                                "section_id": 2645, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2645, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"mystic-visions\">At 11th level, a <i>ki</i> mystic may receive mystic visions when he rests. These visions can come as a dream, an epiphany, or even as the voice of an old friend whispering in the monk's mind. The effect is similar to a <i>divination</i> spell with a caster level equal to the monk's level. The <i>divination</i> has no casting time; it is just part of the normal dreams or visions that occur every night. Using this ability costs 2 <i>ki</i> points that are removed from the next day's total. This ability replaces diamond body.</p>", 
+                            "name": "Mystic Visions", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Ki Mystic/Mystic Visions", 
+                            "ability_types": {
+                                "ability_type_id": 723, 
+                                "section_id": 2646, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2646, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"mystic-prescience\">At 13th level, a <i>ki</i> mystic gains a +2 insight bonus to AC and CMD. At 20th level, the bonus increases to +4. This ability replaces diamond soul.</p>", 
+                            "name": "Mystic Prescience", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Ki Mystic/Mystic Prescience", 
+                            "ability_types": {
+                                "ability_type_id": 724, 
+                                "section_id": 2647, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2647, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"mystic-persistence\">At 19th level, a <i>ki</i> mystic can create an aura once per day as a swift action at the cost of at least 2 points of <i>ki</i>. The aura emanates out to a 20-foot radius. The monk and all allies within the aura can roll two dice when making an attack roll or a saving throw and take the better result. The aura lasts for 1 round, plus an additional round for every 2 <i>ki</i> points spent when the monk created the aura. The monk can dismiss the aura at any time as a free action, but the <i>ki</i> points for the full duration of the aura are lost. This ability replaces empty body.</p>", 
+                            "name": "Mystic Persistence", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Ki Mystic/Mystic Persistence", 
+                            "ability_types": {
+                                "ability_type_id": 725, 
+                                "section_id": 2648, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2648, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>The monk of the empty hand eschews normal weapons in favor of whatever is lying around&mdash;rocks, chair legs, flagons of ale, even a simple quill pen all become deadly weapons in the hands of such a monk. A monk of the empty hand draws on his own <i>ki</i> to infuse his improvised weapons with power, and can transform a broken bottle into a magical weapon.</p>", 
+                    "name": "Monk of the Empty Hand", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Empty Hand", 
+                    "type": "class_archetype", 
+                    "section_id": 2649, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"weapon-and-armor-proficiency\">Monks of the empty hand are proficient with the shuriken only. A monk of the empty hand treats normal weapons as improvised weapons with the following equivalencies (substituting all of their statistics for the listed weapon): a light weapon functions as a light hammer, a one-handed weapon functions as a club, and a two-handed weapon functions as a quarterstaff. This replaces the normal monk weapon proficiencies.</p>", 
+                            "source": "Advanced Player's Guide", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency", 
+                            "section_id": 2650
+                        }, 
+                        {
+                            "body": "<p id=\"flurry-of-blows\">Starting at 1st level, a monk of the empty hand can make a flurry of blows using any combination of unarmed strikes or attacks with an improvised weapon. He may not make a flurry of blows with any other weapons, including special monk weapons. A monk of the empty hand's flurry of blows otherwise functions as normal for a monk of his level.</p>", 
+                            "name": "Flurry of Blows", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Empty Hand/Flurry of Blows", 
+                            "ability_types": {
+                                "ability_type_id": 726, 
+                                "section_id": 2651, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2651, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"bonus-feat\">A monk of the empty hand adds the following feats to his list of bonus feats at 6th level: Improved Dirty Trick*, Improved Steal*, and Improvised Weapon Mastery.</p>", 
+                            "source": "Advanced Player's Guide", 
+                            "type": "section", 
+                            "name": "Bonus Feat", 
+                            "section_id": 2652
+                        }, 
+                        {
+                            "body": "<p id=\"versatile-improvisation\">At 3rd level, as a swift action, a monk of the empty hand may use an improvised weapon to deal damage as if it were another type (bludgeoning, piercing, or slashing) for 1 round, regardless of the weapon's normal damage type. This ability replaces still mind.</p>", 
+                            "name": "Versatile Improvisation", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Empty Hand/Versatile Improvisation", 
+                            "ability_types": {
+                                "ability_type_id": 727, 
+                                "section_id": 2653, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2653, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"ki-pool\">At 4th level, in addition to the normal abilities of his <i>ki</i> pool, a monk of the empty hand may spend 1 point from his <i>ki</i> pool to increase the range increment for an improvised thrown weapon or shuriken by 20 feet for 1 round.</p>", 
+                            "name": "Ki Pool", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Empty Hand/Ki Pool", 
+                            "ability_types": {
+                                "ability_type_id": 728, 
+                                "section_id": 2654, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2654, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"ki-weapons\">At 5th level, a monk of the empty hand may spend 1 point from his <i>ki</i> pool as a swift action to deal damage equal to his unarmed strike damage with an improvised weapon for 1 round. At 11th level, the monk may spend <i>ki</i> to grant an enhancement bonus or magical weapon abilities to an improvised weapon for 1 round, at the rate of 1 point of <i>ki</i> per +1 bonus or its equivalent. The monk may not spend more than 3 points of <i>ki</i> at one time for this purpose. For example, a monk can spend 2 points of <i>ki</i> to give his improvised weapon a +1 enhancement bonus and the <i>ki focus</i> quality, or just the <i>flaming burst</i> quality. At 15th level, the limit increases to 5 <i>ki</i> per round. The monk may use this ability to add magical weapon qualities to improvised weapons that could not normally have such a quality, such as adding the <i>disruption</i> quality to a slashing weapon, or the <i>vorpal</i> quality to a bludgeoning weapon. This ability replaces purity of body and diamond body.</p>", 
+                            "name": "Ki Weapons", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Empty Hand/Ki Weapons", 
+                            "ability_types": {
+                                "ability_type_id": 729, 
+                                "section_id": 2655, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2655, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>The monk of the four winds is connected to the natural world in a way few other creatures&mdash;even other monks&mdash;can hope to match. He can call upon the elements and the spirits of the world in times of need, and as he nears his goal of perfection, he gains the ability to slow down time and even defeat death itself. A monk of the four winds has the following class features.</p>", 
+                    "name": "Monk of the Four Winds", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds", 
+                    "type": "class_archetype", 
+                    "section_id": 2656, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"elemental-fist\">At 1st level, a monk of the four winds gains Elemental Fist as a bonus feat, even if he does not meet the prerequisites. At 5th level, and every five levels thereafter, the monk increases the damage of his Elemental Fist by 1d6 (2d6 at 5th level, 3d6 at 10th level, and so on). This ability replaces Stunning Fist.</p>", 
+                            "name": "Elemental Fist", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Elemental Fist", 
+                            "ability_types": {
+                                "ability_type_id": 730, 
+                                "section_id": 2657, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2657, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"slow-time\">At 12th level, a monk of the four winds can use his <i>ki</i> to slow time or quicken his movements, depending on the observer. As a swift action, the monk can expend 6 <i>ki</i> points to gain three standard actions during his turn instead of just one. The monk can use these actions to do the following: take a melee attack action, use a skill, use an extraordinary ability, or take a move action. The monk cannot use these actions to cast spells or use spell-like abilities, and cannot combine them to take full-attack actions. Any move actions the monk makes this turn do not provoke attacks of opportunity. This ability replaces abundant step.</p>", 
+                            "name": "Slow Time", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Slow Time", 
+                            "ability_types": {
+                                "ability_type_id": 731, 
+                                "section_id": 2658, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2658, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"aspect-master\">At 17th level, a monk of the four winds must choose an aspect of one of the great spirits of the world. Once made, this choice cannot be changed. This spirit grants the monk a new appearance and new abilities, as well as changing or augmenting the monk's personality in some way. Once this choice is made, it cannot be changed. The monk must abide by the alignment restrictions of the aspect. If the monk ever changes his alignment to something outside the aspect's alignment restrictions, he loses this ability and cannot regain it unless his alignment later changes again to match that of the aspect. This ability replaces timeless body.</p>", 
+                            "name": "Aspect Master", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Aspect Master", 
+                            "type": "ability", 
+                            "ability_types": {
+                                "ability_type_id": 732, 
+                                "section_id": 2659, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2659, 
+                            "source": "Advanced Player's Guide", 
+                            "sections": [
+                                {
+                                    "body": "<p id=\"aspect-of-the-carp\">The monk's skin becomes a coat of golden, iridescent fish scales, his neck grows gills, and his fingers become webbed. He can breathe water and gains a swim speed equal to his land speed. The carp is heroic and adventurous&mdash;a monk must be nonevil to take on the aspect of the carp.</p>", 
+                                    "name": "Aspect of the Carp", 
+                                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Aspect Master/Aspect of the Carp", 
+                                    "section_id": 2660, 
+                                    "source": "Advanced Player's Guide", 
+                                    "type": "section"
+                                }, 
+                                {
+                                    "body": "<p id=\"aspect-of-the-ki-rin\">The monk's skin takes on a golden luminescence, and a silvery mane that cannot be bound grows atop his head. He gains a fly speed equal to his land speed, but he must end each turn on the ground. If the monk does not land by the end of his turn, he falls from whatever height he has attained. The ki-rin is honorable, honest, and self-sacrificing&mdash;a monk must be lawful good to take on the aspect of the ki-rin. </p>", 
+                                    "name": "Aspect of the Ki-Rin", 
+                                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Aspect Master/Aspect of the Ki-Rin", 
+                                    "section_id": 2661, 
+                                    "source": "Advanced Player's Guide", 
+                                    "type": "section"
+                                }, 
+                                {
+                                    "body": "<p id=\"aspect-of-the-monkey\">The monk's face becomes that of a monkey, and he grows a prehensile tail. The monk can pick up objects and make unarmed attacks with his tail (though the tail does not grant additional unarmed attacks or natural attacks). In addition, the monk gains a climb speed equal to his land speed. The monkey is a creature of whimsy and a lover of pranks&mdash;a monk of any alignment can take on the aspect of the monkey.</p>", 
+                                    "name": "Aspect of the Monkey", 
+                                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Aspect Master/Aspect of the Monkey", 
+                                    "section_id": 2662, 
+                                    "source": "Advanced Player's Guide", 
+                                    "type": "section"
+                                }, 
+                                {
+                                    "body": "<p id=\"aspect-of-the-oni\">The monk's skin becomes pitch black, and his hair turns white, black, red, or violet. He can assume <i>gaseous form</i> (as the spell) as a standard action for 1 minute per day per monk level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. The oni is treacherous and deceitful, and it hungers for the pain and death of living creatures&mdash;a monk must be evil to take on the aspect of the oni.</p>", 
+                                    "name": "Aspect of the Oni", 
+                                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Aspect Master/Aspect of the Oni", 
+                                    "section_id": 2663, 
+                                    "source": "Advanced Player's Guide", 
+                                    "type": "section"
+                                }, 
+                                {
+                                    "body": "<p id=\"aspect-of-the-owl\">The monk grows feathers, and his head becomes avian, with wide, unblinking eyes. He gains a fly speed of 30 feet. The owl is a sage creature, deeply serious, and driven toward a single goal&mdash;a monk of any alignment can take on the aspect of the owl.</p>", 
+                                    "name": "Aspect of the Owl", 
+                                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Aspect Master/Aspect of the Owl", 
+                                    "section_id": 2664, 
+                                    "source": "Advanced Player's Guide", 
+                                    "type": "section"
+                                }, 
+                                {
+                                    "body": "<p id=\"aspect-of-the-tiger\">Dark stripes appear on the monk's skin, and his face becomes more feline. His eyes become catlike, with vertical pupils, and his canines enlarge. Once per hour, the monk can move at 10 times his normal land speed when he makes a charge and is treated as if he had the pounce ability. The tiger is swift, fierce, and deadly&mdash;a monk of any alignment can take on the aspect of the tiger.</p>", 
+                                    "name": "Aspect of the Tiger", 
+                                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Aspect Master/Aspect of the Tiger", 
+                                    "section_id": 2665, 
+                                    "source": "Advanced Player's Guide", 
+                                    "type": "section"
+                                }
+                            ]
+                        }, 
+                        {
+                            "body": "<p id=\"immortality\">At 20th level, a monk of the four winds no longer ages. He remains in his current age category forever. Even if the monk comes to a violent end, he spontaneously <i>reincarnates</i> (as the spell) 24 hours later in a place of his choosing within 20 miles of the place he died. The monk must have visited the place in which he returns back to life at least once. This ability replaces perfect self.</p>", 
+                            "name": "Immortality", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Four Winds/Immortality", 
+                            "ability_types": {
+                                "ability_type_id": 733, 
+                                "section_id": 2666, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2666, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>Monks of the healing hand seek perfection through helping others. By focusing their meditations on the flow of life within themselves and all creation they gain an understanding of how to share their <i>ki</i> with others, healing wounds and even bringing the dead back to life. For such a monk, sacrificing himself to save another is the surest way to achieve transcendence. A monk of the healing hand has the following class features.</p>", 
+                    "name": "Monk of the Healing Hand", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Healing Hand", 
+                    "type": "class_archetype", 
+                    "section_id": 2667, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"ancient-healing-hand\">At 7th level, a monk of the healing hand can heal another creature's wounds with a touch. As a full-round action, the monk can spend 2 <i>ki</i> points to heal a number of hit points equal to the monk's level. He needs at least one hand free to use this ability, and cannot heal himself. If the action is interrupted, the subject heals no hit points, and the <i>ki</i> points are lost. This ability replaces wholeness of body.</p>", 
+                            "name": "Ancient Healing Hand", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Healing Hand/Ancient Healing Hand", 
+                            "ability_types": {
+                                "ability_type_id": 734, 
+                                "section_id": 2668, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2668, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"ki-sacrifice\">At 11th level, a monk of the healing hand can use his entire <i>ki</i> pool to bring a person back to life. It takes 1 hour to perform this ritual. At the end of the ritual, the monk sacrifices all of his<i> ki</i> in order to cast <i>raise dead</i> (as the spell) with a caster level equal to his monk level. The ritual uses all of the <i>ki</i> in the monk's <i>ki</i> pool; the monk must have at least 6 points of <i>ki</i> in his <i>ki</i> pool to use this ability. At 15th level, the monk may sacrifice his <i>ki</i> to cast <i>resurrection</i>. The monk must have at least 8 points of <i>ki</i> in his <i>ki</i> pool to use this ability. These rituals do not require material components. When this ability is used, the monk's <i>ki</i> pool is not replenished until 24 hours have passed. This ability replaces both diamond body and quivering palm.</p>", 
+                            "name": "Ki Sacrifice", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Healing Hand/Ki Sacrifice", 
+                            "ability_types": {
+                                "ability_type_id": 735, 
+                                "section_id": 2669, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2669, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"true-sacrifice\">At 20th level, in a final selfless act, a monk of the healing hand can draw in his entire <i>ki</i>, which then explodes outward in a 50-foot-radius emanation. All dead allies within the emanation are brought back to life, as if they were the subject of a <i>true resurrection</i> spell with a caster level equal to the monk's level. When the monk does this, he is truly and utterly destroyed. A monk destroyed in this way can never come back to life, not even by way of a <i>wish</i> or <i>miracle</i> spell or by the power of a deity. Furthermore, the monk's name can never be spoken or written down again. All written mentions of his name become nothing more than a blank space. This ability replaces perfect self.</p>", 
+                            "name": "True Sacrifice", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Healing Hand/True Sacrifice", 
+                            "ability_types": {
+                                "ability_type_id": 736, 
+                                "section_id": 2670, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2670, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>Monks are warriors who hone their bodies into deadly weapons, but some monks eschew violence in favor of a more peaceful philosophy. While a monk of the lotus realizes that combat cannot always be avoided&mdash;and is more than capable in a fight&mdash;he understands that all creatures are connected, and to harm another is to harm the self. Instead, he strives to find peaceful resolutions to conflicts, and in doing so, hopes to achieve inner peace. A monk of the lotus has the following class features.</p>", 
+                    "name": "Monk of the Lotus", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Lotus", 
+                    "type": "class_archetype", 
+                    "section_id": 2671, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"touch-of-serenity\">At 1st level, a monk of the lotus gains Touch of Serenity as a bonus feat, even if he does not meet the prerequisites. At 6th level, and every six levels thereafter, the duration of Touch of Serenity increases by 1 round. Each round on its turn, the target may attempt a new Will save to end the effect. This duration does not stack; only the longest remaining duration applies. This ability replaces Stunning Fist.</p>", 
+                            "name": "Touch of Serenity", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Lotus/Touch of Serenity", 
+                            "ability_types": {
+                                "ability_type_id": 737, 
+                                "section_id": 2672, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2672, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"touch-of-surrender\">At 12th level, a monk of the lotus makes a foe into a friend with a single show of mercy. As an immediate action, when one of his melee attacks would reduce a creature to 0 or fewer hit points, the monk can spend 6 <i>ki</i> points to make the target of that attack surrender. When the target surrenders, it is reduced to 0 hit points, becomes disabled, and is charmed, as if the monk had cast <i>charm monster</i> with a caster level equal to the monk's level. The target does not get a saving throw against this effect. This charm lasts until its duration expires, until the monk dismisses it or uses it on another creature, or until the target is again reduced to 0 or fewer hit points, whichever happens first. The monk can only have one creature charmed with touch of surrender at a time. This is a mind-affecting charm effect. This ability replaces abundant step.</p>", 
+                            "name": "Touch of Surrender", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Lotus/Touch of Surrender", 
+                            "ability_types": {
+                                "ability_type_id": 738, 
+                                "section_id": 2673, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2673, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"touch-of-peace\">At 15th level, a monk of the lotus can set up vibrations within the body of another creature to win over the creature's mind. The monk can use touch of peace once per day, and must announce his intent before making his attack roll. On a successful hit, the attack deals no damage, but the target is charmed as if the monk had cast <i>charm monster</i> with a caster level equal to the monk's level. The target does not get a saving throw against this effect. The creature is charmed for 1 day per level. If the monk or his allies attack the charmed creature, or if the monk asks or commands the charmed creature to take hostile actions, the effect ends. This is a mind-affecting charm effect. This ability replaces quivering palm.</p>", 
+                            "name": "Touch of Peace", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Lotus/Touch of Peace", 
+                            "ability_types": {
+                                "ability_type_id": 739, 
+                                "section_id": 2674, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2674, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"learned-master\">At 17th level, a monk of the lotus gains all Knowledge skills and the Linguistics skill as class skills. The monk uses Wisdom instead of Intelligence as the key ability for these skills. This ability replaces tongue of the sun and the moon.</p>", 
+                            "name": "Learned Master", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Lotus/Learned Master", 
+                            "ability_types": {
+                                "ability_type_id": 740, 
+                                "section_id": 2675, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2675, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>The monk of the sacred mountain finds strength and power in the earth beneath his feet. Rather than spinning though the battlefield with the fluid motion of the river, he roots himself to the ground, as immovable and unshakable as the stones of the mountain. A monk of the sacred mountain has the following class features.</p>", 
+                    "name": "Monk of the Sacred Mountain", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Sacred Mountain", 
+                    "type": "class_archetype", 
+                    "section_id": 2676, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"iron-monk\">At 2nd level, a monk of the sacred mountain gains Toughness as a bonus feat. In addition, the monk gains a +1 natural armor bonus. This ability replaces evasion.</p>", 
+                            "name": "Iron Monk", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Sacred Mountain/Iron Monk", 
+                            "ability_types": {
+                                "ability_type_id": 741, 
+                                "section_id": 2677, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2677, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"bastion-stance\">At 4th level, a monk of the sacred mountain becomes like stone, nearly impossible to move when he stands his ground. If the monk starts and ends his turn in the same space, he cannot be knocked prone or forcibly moved until the start of his next turn, except by mind-affecting or teleportation effects. At 16th level, he is immune to any attempts to force him to move, even mind-affecting and teleportation effects. This ability replaces slow fall.</p>", 
+                            "name": "Bastion Stance", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Sacred Mountain/Bastion Stance", 
+                            "ability_types": {
+                                "ability_type_id": 742, 
+                                "section_id": 2678, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2678, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"iron-limb-defense\">At 5th level, a monk of the sacred mountain can deflect blows with an active defense that complements his bastion stance. If the monk starts and ends his turn in the same space, he gains a +2 shield bonus to AC and CMD until the start of his next turn. As a swift action, he can spend 1 <i>ki</i> point to increase this bonus to +4. This ability replaces high jump.</p>", 
+                            "name": "Iron Limb Defense", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Sacred Mountain/Iron Limb Defense", 
+                            "ability_types": {
+                                "ability_type_id": 743, 
+                                "section_id": 2679, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2679, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"adamantine-monk\">At 9th level, a monk of the sacred mountain has muscles so strong and skin so resilient that he gains DR 1/&mdash;. This DR increases by 1 for every three levels thereafter. As a swift action, the monk can spend 1 <i>ki</i> point to double his DR until the beginning of his next turn. This ability replaces improved evasion.</p>", 
+                            "name": "Adamantine Monk", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Sacred Mountain/Adamantine Monk", 
+                            "ability_types": {
+                                "ability_type_id": 744, 
+                                "section_id": 2680, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2680, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"vow-of-silence\">At 17th level, a monk of the sacred mountain becomes as impassive as stone, making a vow of silence in exchange for greater abilities. The monk gains a +2 insight bonus to AC and CMD and a +4 bonus on Sense Motive, Stealth, and Perception checks. The monk does not lose the capacity for speech, but if he ever speaks, he loses this feature for 24 hours. This ability replaces tongue of the sun and the moon.</p>", 
+                            "name": "Vow of Silence", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Monk of the Sacred Mountain/Vow of Silence", 
+                            "ability_types": {
+                                "ability_type_id": 745, 
+                                "section_id": 2681, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2681, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>While all monks train in both unarmed combat and with weapons, the weapon adept seeks to become one with his weapons, transforming them into perfect extensions of his own body. Through such training, a weapon adept seeks to attain perfection by becoming a living weapon himself. A weapon adept has the following class features.</p>", 
+                    "name": "Weapon Adept", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Weapon Adept", 
+                    "type": "class_archetype", 
+                    "section_id": 2682, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"perfect-strike\">At 1st level, a weapon adept gains Perfect Strike as a bonus feat, even if he does not meet the prerequisites. At 10th level, the monk can roll his attack roll three times and take the higher result. If one of these rolls is a critical threat, he can choose which one of his other two rolls to use as his confirmation roll. This ability replaces Stunning Fist.</p>", 
+                            "name": "Perfect Strike", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Weapon Adept/Perfect Strike", 
+                            "ability_types": {
+                                "ability_type_id": 746, 
+                                "section_id": 2683, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2683, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"way-of-the-weapon-master\">At 2nd level, a weapon adept gains Weapon Focus as a bonus feat with one of his monk weapons. At 6th level, the monk gains Weapon Specialization with the same weapon as a bonus feat, even if he does not meet the prerequisites. This ability replaces evasion.</p>", 
+                            "name": "Way of the Weapon Master", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Weapon Adept/Way of the Weapon Master", 
+                            "ability_types": {
+                                "ability_type_id": 747, 
+                                "section_id": 2684, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2684, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"evasion\">At 9th level, the monk gains evasion. This ability replaces improved evasion.</p>", 
+                            "name": "Evasion", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Weapon Adept/Evasion", 
+                            "ability_types": {
+                                "ability_type_id": 748, 
+                                "section_id": 2685, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2685, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"uncanny-initiative\">At 17th level, a weapon adept does not need to roll for initiative. He always treats his initiative roll as if it resulted in any number of his choosing (from 1 to 20). This ability replaces timeless body.</p>", 
+                            "name": "Uncanny Initiative", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Weapon Adept/Uncanny Initiative", 
+                            "ability_types": {
+                                "ability_type_id": 749, 
+                                "section_id": 2686, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2686, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"pure-power\">At 20th level, a weapon adept forsakes the ideals of the perfect self to become a bastion of the physical and mental virtues monks hold dear. The monk gains a +2 bonus to Strength, Dexterity, and Wisdom. This ability replaces perfect self.</p>", 
+                            "name": "Pure Power", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Weapon Adept/Pure Power", 
+                            "section_id": 2687, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "section"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p>Some monks seek to become one with another weapon entirely&mdash;the bow. The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's limbs, and the flight of an arrow fired true. </p>", 
+                    "name": "Zen Archer", 
+                    "source": "Advanced Player's Guide", 
+                    "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer", 
+                    "type": "class_archetype", 
+                    "section_id": 2688, 
+                    "subtype": "monk", 
+                    "sections": [
+                        {
+                            "body": "<p id=\"weapon-and-armor-proficiency\">Zen archers are proficient with longbows, shortbows, composite longbows, and composite shortbows in addition to their normal weapon proficiencies.</p>", 
+                            "source": "Advanced Player's Guide", 
+                            "type": "section", 
+                            "name": "Weapon and Armor Proficiency", 
+                            "section_id": 2689
+                        }, 
+                        {
+                            "body": "<p id=\"flurry-of-blows\">Starting at 1st level, a zen archer can make a flurry of blows as a full-attack action, but only when using a bow (even though it is a ranged weapon). He may not make a flurry of blows with his unarmed attacks or any other weapons. A zen archer does not apply his Strength bonus on damage rolls made with flurry of blows unless he is using a composite bow with a Strength rating. A zen archer's flurry of blows otherwise functions as normal for a monk of his level.</p><p>A zen archer cannot use Rapid Shot or Manyshot when making a flurry of blows with his bow.</p>", 
+                            "name": "Flurry of Blows", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Flurry of Blows", 
+                            "ability_types": {
+                                "ability_type_id": 750, 
+                                "section_id": 2690, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2690, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"bonus-feats\">A zen archer's bonus feats must be taken from the following list: Combat Reflexes, Deflect Arrows, Dodge, Far Shot, Point-Blank Shot, Precise Shot, and Rapid Shot. At 6th level, the following feats are added to the list: Focused Shot*, Improved Precise Shot, Manyshot, Mobility, and Parting Shot*. At 10th level, the following feats are added to the list: Improved Critical, Pinpoint Targeting, Shot on the Run, and Snatch Arrows. A monk need not have any of the prerequisites normally required for these feats to select them. These feats replace the monk's normal bonus feats.</p>", 
+                            "source": "Advanced Player's Guide", 
+                            "type": "section", 
+                            "name": "Bonus Feats", 
+                            "section_id": 2691
+                        }, 
+                        {
+                            "body": "<p id=\"perfect-strike\">At 1st level, a zen archer gains Perfect Strike as a bonus feat, even if he does not meet the prerequisites. A zen archer can use Perfect Strike with any bow. At 10th level, the monk can roll his attack roll three times and take the highest result. If one of these rolls is a critical threat, the monk must choose one of his other two rolls to use as his confirmation roll. This ability replaces Stunning Fist.</p>", 
+                            "name": "Perfect Strike", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Perfect Strike", 
+                            "ability_types": {
+                                "ability_type_id": 751, 
+                                "section_id": 2692, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2692, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"way-of-the-bow\">At 2nd level, a zen archer gains Weapon Focus as a bonus feat with one type of bow. At 6th level, the monk gains Weapon Specialization with the same weapon as a bonus feat, even if he does not meet the prerequisites. This ability replaces evasion.</p>", 
+                            "name": "Way of the Bow", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Way of the Bow", 
+                            "ability_types": {
+                                "ability_type_id": 752, 
+                                "section_id": 2693, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2693, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"zen-archery\">At 3rd level, a zen archer may use his Wisdom modifier instead of his Dexterity modifier on ranged attack rolls when using a bow. This ability replaces maneuver training.</p>", 
+                            "name": "Zen Archery", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Zen Archery", 
+                            "ability_types": {
+                                "ability_type_id": 753, 
+                                "section_id": 2694, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2694, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"point-blank-master\">At 3rd level, a zen archer gains Point Blank Master* as a bonus feat, even if he does not meet the prerequisites. This ability replaces still mind.</p>", 
+                            "name": "Point Blank Master", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Point Blank Master", 
+                            "ability_types": {
+                                "ability_type_id": 754, 
+                                "section_id": 2695, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2695, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"ki-pool\">At 4th level, in addition to the normal abilities of his <i>ki</i> pool, a zen archer may spend 1 point from his <i>ki</i> pool to increase the range increment for his bow by 50 feet for 1 round.</p>", 
+                            "name": "Ki Pool", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Ki Pool", 
+                            "ability_types": {
+                                "ability_type_id": 755, 
+                                "section_id": 2696, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2696, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"ki-arrows\">At 5th level, a zen archer may spend 1 point from his <i>ki</i> pool as a swift action to change the damage dice of arrows he shoots to that of his unarmed strikes. This lasts until the start of his next turn. For example, a Medium zen archer's short bow normally deals 1d6 damage; using this ability, his arrows deal 1d8 damage until the start of his next turn. This ability replaces purity of body.</p>", 
+                            "name": "Ki Arrows", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Ki Arrows", 
+                            "ability_types": {
+                                "ability_type_id": 756, 
+                                "section_id": 2697, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2697, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"reflexive-shot\">At 9th level, a zen archer can make attacks of opportunity with arrows from his bow. The monk still threatens squares he could reach with unarmed strikes, and can still only make one attack of opportunity per round (unless he has Combat Reflexes). This ability replaces improved evasion.</p>", 
+                            "name": "Reflexive Shot", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Reflexive Shot", 
+                            "ability_types": {
+                                "ability_type_id": 757, 
+                                "section_id": 2698, 
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "section_id": 2698, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"trick-shot\">At 11th level, a zen archer may hit targets that he might otherwise miss. By spending 1 point from his <i>ki</i> pool as a swift action, the zen archer can ignore concealment. By spending 2 points, he can ignore total concealment or cover. By spending 3 points, he can ignore total cover, even firing arrows around corners. The arrow must still be able to reach the target; a target inside a closed building with no open doors or windows cannot be attacked. These effects last for 1 round. This ability replaces diamond body.</p>", 
+                            "name": "Trick Shot", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Trick Shot", 
+                            "ability_types": {
+                                "ability_type_id": 758, 
+                                "section_id": 2699, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2699, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p id=\"ki-focus-bow\">At 17th level, as long as he has at least 1 point of <i>ki</i> in his <i>ki</i> pool, a zen archer may treat arrows fired from his bow as if they were <i>ki focus</i> weapons, allowing him to use his special <i>ki</i> attacks as if his arrows were unarmed attacks. This ability replaces tongue of the sun and moon.</p>", 
+                            "name": "Ki Focus Bow", 
+                            "url": "pfsrd://Advanced Players Guide/Rules/Core Classes/Monk/Monk Archetypes/Zen Archer/Ki Focus Bow", 
+                            "ability_types": {
+                                "ability_type_id": 759, 
+                                "section_id": 2700, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2700, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2630, 
+            "source": "Advanced Player's Guide", 
+            "type": "section"
+        }
+    ], 
+    "section_id": 2629, 
+    "source": "Advanced Player's Guide", 
+    "type": "section"
+}

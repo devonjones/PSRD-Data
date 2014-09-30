@@ -1,0 +1,115 @@
+{
+    "dexterity": "8", 
+    "ac": "19, touch 7, flat-footed 19 (-1 Dex, +12 natural, -2 size)", 
+    "special_attacks": "pull (root, 10 ft.)", 
+    "intelligence": "12", 
+    "racial_modifiers": "+4 Stealth in forests", 
+    "melee": "bite +14 (2d6+9), 3 roots +12 (1d6+4 plus pull)", 
+    "cr": "8", 
+    "xp": "4,800", 
+    "speed": "10 ft.", 
+    "alignment": "N", 
+    "size": "Huge", 
+    "languages": "Common, Sylvan", 
+    "strength": "29", 
+    "constitution": "21", 
+    "space": "5 ft.", 
+    "treasure": "standard", 
+    "init": "+3", 
+    "environment": "temperate forests", 
+    "source": "Bestiary 2", 
+    "charisma": "12", 
+    "immune": "electricity, fire, plant traits", 
+    "fortitude": "+12", 
+    "type": "creature", 
+    "feats": "Improved Initiative, Lunge, Multiattack, Power Attack, Skill Focus (Perception)", 
+    "senses": "darkvision 120 ft., low-light vision, oaksight; Perception +21", 
+    "description": "Were it not for the image of a sinister face peeking out from its dark gray bark, this would look like any other ragged oak tree. ", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Quickwood/Special Abilities", 
+            "sections": [
+                {
+                    "body": "A quickwood with stored magical energy can activate its fear aura as a standard action. The aura has a radius of 10 feet per spell level of the effect and lasts for 1 round (Will DC 20 negates). Creatures that fail their saving throws become panicked for 1 minute. The DC is Charisma-based and includes a +4 racial bonus.", 
+                    "name": "Fear Aura", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Quickwood/Special Abilities/Fear Aura", 
+                    "ability_types": {
+                        "ability_type_id": 409, 
+                        "section_id": 1691, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1691, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A quickwood may observe the area surrounding any oak tree within 360 feet as if using clairaudience/clairvoyance. It can use this ability on any number of oak trees in the area. Although the quickwood does not need line of sight to establish this link, if it does have line of sight to even a single oak tree, it cannot be flanked.", 
+                    "name": "Oaksight", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Quickwood/Special Abilities/Oaksight", 
+                    "ability_types": {
+                        "ability_type_id": 410, 
+                        "section_id": 1692, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1692, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "A quickwood has dozens of long roots, but can only attack with up to three of them in any given round. If the quickwood uses its pull ability to pull a target within reach of its bite attack, it can immediately make a free bite attack with a +4 bonus on its attack roll against that target.", 
+                    "name": "Roots", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Quickwood/Special Abilities/Roots", 
+                    "ability_types": {
+                        "ability_type_id": 411, 
+                        "section_id": 1693, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1693, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "If a quickwood's spell resistance protects it from a magical effect, the creature absorbs that magical energy into its body. It can release this energy to activate its fear aura ability. While the plant is storing a spell, its SR decreases by 5. It can only store one spell at a time.", 
+                    "name": "Spell Absorption", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Quickwood/Special Abilities/Spell Absorption", 
+                    "ability_types": {
+                        "ability_type_id": 412, 
+                        "section_id": 1694, 
+                        "ability_type": "Supernatural"
+                    }, 
+                    "section_id": 1694, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1690, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>These carnivorous plants prize human and elven flesh, but eat anything they manage to catch. Quickwoods typically explore an area, taking note of any oak trees, and then root themselves and wait for prey to wander by. They use their oaksight ability to maintain constant surveillance of their hunting grounds and send their roots out to drag likely prey back to them. </p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 1695
+        }
+    ], 
+    "hp": "95 (10d8+50)", 
+    "reach": "15 ft. (60 ft. with root)", 
+    "section_id": 1689, 
+    "wisdom": "15", 
+    "defensive_abilities": "spell absorption", 
+    "creature_type": "Plant", 
+    "name": "Quickwood", 
+    "base_attack": "+7", 
+    "skills": "Knowledge (nature) +11, Perception +21, Stealth +4 (+8 in forests)", 
+    "reflex": "+2", 
+    "cmd": "27 (can't be tripped)", 
+    "cmb": "+18", 
+    "will": "+5", 
+    "url": "pfsrd://Bestiary 2/Monsters/Quickwood", 
+    "aura": "fear aura (variable distance, DC 20)", 
+    "sr": "19 (see spell absorption)", 
+    "organization": "solitary"
+}

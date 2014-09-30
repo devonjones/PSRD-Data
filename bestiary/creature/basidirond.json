@@ -1,0 +1,117 @@
+{
+    "dexterity": "13", 
+    "ac": "18, touch 11, flat-footed 17 (+1 Dex, +7 natural)", 
+    "special_attacks": "hallucination cloud, spores", 
+    "intelligence": "-", 
+    "melee": "slam +10 (1d8+7 plus spores)", 
+    "cr": "5", 
+    "xp": "1,600", 
+    "speed": "20 ft.", 
+    "alignment": "N", 
+    "size": "Medium", 
+    "strength": "20", 
+    "constitution": "16", 
+    "immune": "cold, plant traits", 
+    "treasure": "incidental", 
+    "init": "+1", 
+    "environment": "any non-cold underground", 
+    "source": "Bestiary", 
+    "charisma": "1", 
+    "fortitude": "+8", 
+    "type": "creature", 
+    "senses": "low-light vision, tremorsense; Perception +0", 
+    "description": "This strange plant consists of four spidery stalks, long green tendrils, and an inverted bell-shaped cap filled with spores.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary", 
+            "url": "pfsrd://Bestiary/Monsters/Basidirond/Special Abilities", 
+            "sections": [
+                {
+                    "body": "As a standard action once per minute, a basidirond can release a cloud of invisible spores in a 20-foot radius. All creatures within the area must succeed on a DC 16 Fortitude save or be affected by powerful hallucinations as long as they remain in the cloud plus 1d4 rounds after leaving the area. A new save must be made each round a creature remains within the affected area. A hallucination cloud persists for 5 rounds before dispersing&mdash;a strong wind causes it to disperse immediately. The save DC is Constitution-based. To determine what hallucination is suffered each round, roll 1d6 and consult the following table.", 
+                    "name": "Hallucination Cloud", 
+                    "url": "pfsrd://Bestiary/Monsters/Basidirond/Special Abilities/Hallucination Cloud", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 128, 
+                        "section_id": 611, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 611, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "body": "<table><thead><tr><th>d6<.th></th><th>Hallucination</th></tr><tr class=\"odd\"><td>1</td><td>You\\'re sinking in quicksand! Fall prone and spend 1 round flailing your arms and legs as if trying to swim.</td></tr><td class=\"even\"><td>2</td></td>Attacked by a swarm of spiders! Spend a full round action to attack the floor near you with your weapon.<tr class=\"odd\"><td>3</td><td>An item you hold has turned into a viper! Drop it and flee from the item at top speed for 1 round.</td></tr><td class=\"even\"><td>4</td><td>You\\'re suffocating! Stand in place, hold your breath, and clutch at your throat for 1 round.</td></td><tr class=\"odd\"><td>5</td><td>You\\'ve shrunk to 1/10th your normal size! Take no actions for 1 round and monsters won\\'t see you.</td></tr><td class=\"even\"><td>6</td><td>You\\'re melting! Grasp hold of yourself in an attempt to hold yourself together, and take no actions for 1 round.</td></td></thead></table>", 
+                            "source": "Bestiary", 
+                            "type": "table", 
+                            "section_id": 612
+                        }
+                    ]
+                }, 
+                {
+                    "body": "Any creature struck by a basidirond's slam attack is coated with spores. The creature struck must make a DC 16 Fortitude save or these spores take root in his flesh, and particularly in his lungs. The save DC is Constitution based.", 
+                    "name": "Spores", 
+                    "url": "pfsrd://Bestiary/Monsters/Basidirond/Special Abilities/Spores", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 129, 
+                        "section_id": 613, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 613, 
+                    "source": "Bestiary", 
+                    "sections": [
+                        {
+                            "name": "Basidirond Spores", 
+                            "source": "Bestiary", 
+                            "url": "pfsrd://Bestiary/Monsters/Basidirond/Special Abilities/Spores/Basidirond Spores", 
+                            "contracted": "inhaled", 
+                            "section_id": 614, 
+                            "effect": "1d2 Constitution damage", 
+                            "subtype": "disease", 
+                            "cure": "1 save", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 16", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "<p class=\"stat-block-1\"> Although a basidirond is immune to cold damage, any cold effect it is exposed to slows it for 1d4 rounds. During this time, the basidirond cannot use its hallucination cloud or spores.</p>", 
+                    "name": "Cold Lethargy", 
+                    "url": "pfsrd://Bestiary/Monsters/Basidirond/Special Abilities/Cold Lethargy", 
+                    "ability_types": {
+                        "ability_type_id": 130, 
+                        "section_id": 615, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 615, 
+                    "source": "Bestiary", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 610, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>The strange fungal basidirond is a deadly plant monster that feeds on mineral-rich moisture, be it runoff from cave walls or fresh blood. By ensuring a constant flow of nutritious moisture, canny cave dwellers can use basidironds as guardians for their lairs, although they must take care to avoid the plant's hunting routes lest they become its latest victims.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 616
+        }
+    ], 
+    "hp": "52 (7d8+21)", 
+    "weaknesses": "cold lethargy", 
+    "section_id": 609, 
+    "wisdom": "11", 
+    "creature_type": "Plant", 
+    "name": "Basidirond", 
+    "base_attack": "+5", 
+    "url": "pfsrd://Bestiary/Monsters/Basidirond", 
+    "reflex": "+3", 
+    "cmd": "21 (25 vs. trip)", 
+    "cmb": "+10", 
+    "will": "+2", 
+    "organization": "solitary, pair, or grove (3-8)"
+}

@@ -1,0 +1,103 @@
+{
+    "dexterity": "18", 
+    "ac": "20, touch 20, flat-footed 15 (+5 deflection, +4 Dex, +1 dodge)", 
+    "intelligence": "10", 
+    "melee": "incorporeal touch +16 (6d8 negative energy plus nightmare curse)", 
+    "cr": "8", 
+    "xp": "4,800", 
+    "speed": "fly 40 ft. (perfect)", 
+    "alignment": "NE", 
+    "size": "Medium", 
+    "languages": "telepathy 100 ft.", 
+    "strength": "-", 
+    "constitution": "15", 
+    "treasure": "none", 
+    "init": "+4", 
+    "environment": "any (Ethereal Plane)", 
+    "source": "Bestiary 2", 
+    "charisma": "21", 
+    "fortitude": "+10", 
+    "spells": [
+        {
+            "spell-like abilities": "(CL 12th; concentration +17)<p class=\"stat-block-2\">3/day-<i>deep slumber</i> (DC 18), <i>dimension door</i>, <i>nightmare</i> (DC 20)</p><p class=\"stat-block-2\">1/day-<i>confusion</i> (DC 19), <i>fear</i> (DC 19), <i>phantasmal killer</i> (DC 19)</p>"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "Blind-Fight, Combat Casting, Dodge, Flyby Attack, Iron Will, Mobility", 
+    "senses": "darkvision 60 ft.; Perception +17", 
+    "description": "This indistinct figure suddenly takes on a nightmarish shape, not quite human or animal or fiend.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Animate Dream/Special Abilities", 
+            "sections": [
+                {
+                    "body": "An animate dream's touch puts horrifying visions in the target's mind.", 
+                    "name": "Nightmare Curse", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Animate Dream/Special Abilities/Nightmare Curse", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 38, 
+                        "section_id": 146, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 146, 
+                    "source": "Bestiary 2", 
+                    "sections": [
+                        {
+                            "name": "Animate Dream's Touch", 
+                            "source": "Bestiary 2", 
+                            "url": "pfsrd://Bestiary 2/Monsters/Animate Dream/Special Abilities/Nightmare Curse/Animate Dreams Touch", 
+                            "contracted": "incorporeal touch", 
+                            "section_id": 147, 
+                            "effect": "1d4 Wisdom drain and target is fatigued", 
+                            "subtype": "curse", 
+                            "cure": "3 consecutive saves or dispel evil, dream, or remove curse.", 
+                            "frequency": "1/day", 
+                            "save": "Will DC 21", 
+                            "type": "affliction"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 145, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>From time to time, when a powerfully imaginative sleeper wakes from a particularly vivid or unusual dream, a fragment of that dream lingers on the Ethereal Plane. To survive, this animate dream needs the power of living will, imagination, and emotion to sustain it. An animate dream seeks out mortal minds, appearing as a shadowy and often frightful dream figure. Its true appearance is vague and nebulous, but it reacts to the fears and emotions of those around it, taking on a nightmarish appearance that differs for each viewer.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 148
+        }, 
+        {
+            "body": "<p>An animate dream can find satisfaction and sustenance by passing one of its ghostly limbs through a mortal's body&mdash;the act infusing the mortal with negative energy that sates the animate dream's unnatural hunger. But by forcing a creature into a state of sleep, terror, or both, the animate dream can gain a much more satisfying meal, feeding on the emotions released in such states. It uses its spell-like abilities to this end, for each creature it harms with its nightmares, drives temporarily insane with <i>confusion</i> or <i>fear</i>, or outright slays with <i>phantasmal killer</i> provides the monster with more nourishment. An animate dream forced to go for a long period of time without feeding does not starve to death, but does grow increasingly feral and violent in nature.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 149
+        }, 
+        {
+            "body": "<p>Animate dreams sometimes associate with other creatures from the Ethereal Plane or that have associations with dreams and nightmares, such as night hags, phase spiders, and xills. Sometimes these alliances are mutually beneficial, but in many cases the animate dreams are treated as slaves. Night hags in particular like enslaving animate dreams, and sometimes use their essence as a component in creating heartstones.</p>", 
+            "source": "Bestiary 2", 
+            "type": "section", 
+            "section_id": 150
+        }
+    ], 
+    "hp": "90 (12d10+24)", 
+    "section_id": 144, 
+    "wisdom": "15", 
+    "defensive_abilities": "incorporeal", 
+    "creature_type": "Outsider", 
+    "name": "Animate Dream", 
+    "base_attack": "+12", 
+    "skills": "Bluff +20, Fly +12, Intimidate +20, Knowledge (planes) +15, Perception +17, Sense Motive +17, Stealth +19", 
+    "reflex": "+8", 
+    "cmd": "32", 
+    "cmb": "+16", 
+    "will": "+12", 
+    "url": "pfsrd://Bestiary 2/Monsters/Animate Dream", 
+    "sr": "19", 
+    "organization": "solitary", 
+    "creature_subtype": "extraplanar, incorporeal"
+}

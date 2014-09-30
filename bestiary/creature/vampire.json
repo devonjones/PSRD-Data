@@ -1,0 +1,220 @@
+{
+    "dexterity": "18", 
+    "ac": "23, touch 17, flat-footed 18 (+2 deflection, +4 Dex, +1 dodge, +6 natural)", 
+    "special_attacks": "blood drain, children of the night, create spawn, dominate (DC 22), energy drain (2 levels, DC 22)", 
+    "intelligence": "14", 
+    "racial_modifiers": "+8 Bluff,+8 Perception, +8 Sense Motive, +8 Stealth", 
+    "sex": "female", 
+    "resist": "cold 10, electricity 10", 
+    "melee": "slam +8 (1d4+4 plus energy drain)", 
+    "cr": "9", 
+    "xp": "6,400", 
+    "speed": "30 ft.", 
+    "alignment": "CE", 
+    "size": "Medium", 
+    "languages": "Abyssal, Common, Draconic", 
+    "strength": "16", 
+    "constitution": "-", 
+    "immune": "undead traits", 
+    "treasure": "NPC gear (cloak of resistance +3, headband of alluring charisma +4, ring of protection +2)", 
+    "init": "+8", 
+    "environment": "any", 
+    "source": "Bestiary", 
+    "charisma": "26", 
+    "fortitude": "+13", 
+    "spells": [
+        {
+            "sorcerer spells known": "(CL 8th, +8 ranged touch)<p class=\"stat-block-2\">4th (5/day)-<i>greater invisibility</i></p><p class=\"stat-block-2\">3rd (5/day)-<i>dispel magic</i>, <i>fireball</i> (DC 21), <i>vampiric touch</i></p><p class=\"stat-block-2\">2nd (8/day)-<i>false life</i>, <i>invisibility</i>, <i>scorching ray</i>, <i>web</i> (DC 20)</p><p class=\"stat-block-2\">1st (8/day)-<i>burning hands</i> (DC 19), <i>chill touch</i> (DC 19), <i>disguise self</i>, <i>expeditious retreat</i>, <i>mage armor</i>, <i>magic missile</i></p><p class=\"stat-block-2\">0-<i>acid splash</i>, <i>detect magic</i>, <i>light</i>, <i>mage hand</i>, <i>mending</i>, <i>message</i>, <i>open/close</i>, <i>read magic</i></p>"
+        }, 
+        {
+            "bloodline spell-like ability": "(CL 8th, +7 touch); 11/day-grave touch"
+        }, 
+        {
+            "bloodline": "undead"
+        }
+    ], 
+    "type": "creature", 
+    "feats": "AlertnessB, Blind-Fight, Combat Casting, Combat ReflexesB, DodgeB, Eschew Materials, Extend Spell, Improved InitiativeB, Lightning ReflexesB, Silent Spell, Still Spell, ToughnessB, Weapon Finesse", 
+    "senses": "darkvision 60 ft.; Perception +13", 
+    "description": "This alluring, raven-haired beauty casually wipes a trickle of blood from a pale cheek, then smiles to reveal needle-sharp fangs.", 
+    "sections": [
+        {
+            "body": "<p>Vampires are undead humanoid creatures that feed on the blood of the living. They look much as they did in life, often becoming more attractive, though some have a hardened, feral look instead.</p>", 
+            "source": "Bestiary", 
+            "type": "section", 
+            "section_id": 2738
+        }, 
+        {
+            "name": "Creating a Vampire", 
+            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire", 
+            "sections": [
+                {
+                    "body": "<p>&ldquo;Vampire&rdquo; is an acquired template that can be added to any living creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most vampires were once humanoids, fey, or monstrous humanoids. A vampire uses the base creature's stats and abilities except as noted here.</p>", 
+                    "name": "Vampire", 
+                    "source": "Bestiary", 
+                    "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire", 
+                    "type": "section", 
+                    "section_id": 2740, 
+                    "subtype": "template", 
+                    "abbrev": "CR +2", 
+                    "sections": [
+                        {
+                            "body": "<p>Same as the base creature + 2.</p>", 
+                            "source": "Bestiary", 
+                            "type": "section", 
+                            "name": "Challenge Rating", 
+                            "section_id": 2741
+                        }, 
+                        {
+                            "body": "<p>Any evil.</p>", 
+                            "name": "AL", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/AL", 
+                            "section_id": 2742, 
+                            "source": "Bestiary", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>The creature's type changes to undead (augmented). Do not recalculate class Hit Dice, BAB, or saves.</p>", 
+                            "source": "Bestiary", 
+                            "type": "section", 
+                            "name": "Type", 
+                            "section_id": 2743
+                        }, 
+                        {
+                            "body": "<p>A vampire gains darkvision 60 ft.</p>", 
+                            "name": "Senses", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/Senses", 
+                            "section_id": 2744, 
+                            "source": "Bestiary", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>Natural armor improves by +6.</p>", 
+                            "source": "Bestiary", 
+                            "type": "section", 
+                            "name": "Armor Class", 
+                            "section_id": 2745
+                        }, 
+                        {
+                            "body": "<p>Change all racial Hit Dice to d8s. Class Hit Dice are unaffected. As undead, vampires use their Charisma modifier to determine bonus hit points (instead of Constitution).</p>", 
+                            "source": "Bestiary", 
+                            "type": "section", 
+                            "name": "Hit Dice", 
+                            "section_id": 2746
+                        }, 
+                        {
+                            "body": "<p>A vampire gains channel resistance +4, DR 10/magic and silver, and resistance to cold 10 and electricity 10, in addition to all of the defensive abilities granted by the undead type. A vampire also gains fast healing 5. If reduced to 0 hit points in combat, a vampire assumes gaseous form (see below) and attempts to escape. It must reach its coffin home within 2 hours or be utterly destroyed. (It can normally travel up to 9 miles in 2 hours.) Additional damage dealt to a vampire forced into gaseous form has no effect. Once at rest, the vampire is helpless. It regains 1 hit point after 1 hour, then is no longer helpless and resumes healing at the rate of 5 hit points per round.</p>", 
+                            "source": "Bestiary", 
+                            "type": "section", 
+                            "name": "Defensive Abilities", 
+                            "section_id": 2747
+                        }, 
+                        {
+                            "body": "<p>Vampires cannot tolerate the strong odor of garlic and will not enter an area laced with it. Similarly, they recoil from mirrors or strongly presented holy symbols. These things don't harm the vampire&mdash;they merely keep it at bay. A recoiling vampire must stay at least 5 feet away from the mirror or holy symbol and cannot touch or make melee attacks against that creature. Holding a vampire at bay takes a standard action. After 1 round, a vampire can overcome its revulsion of the object and function normally each round it makes a DC 25 Will save.</p><p>Vampires cannot enter a private home or dwelling unless invited in by someone with the authority to do so.</p><p>Reducing a vampire's hit points to 0 or lower incapacitates it but doesn't always destroy it (see fast healing). However, certain attacks can slay vampires. Exposing any vampire to direct sunlight staggers it on the first round of exposure and destroys it utterly on the second consecutive round of exposure if it does not escape. Each round of immersion in running water inflicts damage on a vampire equal to one-third of its maximum hit points&mdash;a vampire reduced to 0 hit points in this manner is destroyed. Driving a wooden stake through a helpless vampire's heart instantly slays it (this is a full-round action). However, it returns to life if the stake is removed, unless the head is also severed and anointed with holy water.</p>", 
+                            "name": "Weaknesses", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/Weaknesses", 
+                            "section_id": 2748, 
+                            "source": "Bestiary", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>Same as the base creature. If the base creature has a swim speed, the vampire is not unduly harmed by running water.</p>", 
+                            "source": "Bestiary", 
+                            "type": "section", 
+                            "name": "Speed", 
+                            "section_id": 2749
+                        }, 
+                        {
+                            "body": "<p>A vampire gains a slam attack if the base creature didn't have one. Damage for the slam depends on the vampire's size  (see Natural Attacks). Its slam also causes energy drain (see below). Its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>", 
+                            "name": "Melee", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/Melee", 
+                            "section_id": 2750, 
+                            "source": "Bestiary", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>A vampire gains several special attacks. Save DCs are equal to 10 + 1/2 vampire's HD + vampire's Cha modifier unless otherwise noted.</p><p class=\"stat-block-2\"><i>Blood Drain</i> A vampire can suck blood from a grappled opponent; if the vampire establishes or maintains a pin, it drains blood, dealing 1d4 points of Constitution damage. The vampire heals 5 hit points or gains 5 temporary hit points for 1 hour (up to a maximum number of temporary hit points equal to its full normal hit points) each round it drains blood.</p><p class=\"stat-block-2\"><i>Children of the Night (Su)</i>Once per day, a vampire can call forth 1d6+1 rat swarms, 1d4+1 bat swarms, or 2d6 wolves as a standard action. (If the base creature is not terrestrial, this power might summon other creatures of similar power.) These creatures arrive in 2d6 rounds and serve the vampire for up to 1 hour.</p><p class=\"stat-block-2\"><i>Create Spawn (Su)</i>A vampire can create spawn out of those it slays with blood drain or energy drain, provided that the slain creature is of the same creature type as the vampire's base creature type. The victim rises from death as a vampire in 1d4 days. This vampire is under the command of the vampire that created it, and remains enslaved until its master's destruction. A vampire may have enslaved spawn totaling no more than twice its own Hit Dice; any spawn it creates that would exceed this limit become free-willed undead. A vampire may free an enslaved spawn in order to enslave a new spawn, but once freed, a vampire or vampire spawn cannot be enslaved again.</p><p class=\"stat-block-2\"><i>Dominate (Su)</i>A vampire can crush a humanoid opponent's will as a standard action. Anyone the vampire targets must succeed on a Will save or fall instantly under the vampire's influence, as though by a <i>dominate person</i> spell (caster level 12th). The ability has a range of 30 feet. At the GM's discretion, some vampires might be able to affect different creature types with this power.</p><p class=\"stat-block-2\"><i>Energy Drain (Su)</i>A creature hit by a vampire's slam (or other natural weapon) gains two negative levels. This ability only triggers once per round, regardless of the number of attacks a vampire makes.</p>", 
+                            "name": "Special Attacks", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/Special Attacks", 
+                            "ability_types": {
+                                "ability_type_id": 566, 
+                                "section_id": 2751, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2751, 
+                            "source": "Bestiary", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p>A vampire gains the following.</p><p class=\"stat-block-2\"><i>Change Shape</i> A vampire can use change shape to assume the form of a dire bat or wolf, as <i>beast shape II</i>. </p><p class=\"stat-block-2\"><i>Gaseous Form (Su)</i>As a standard action, a vampire can assume <i>gaseous form</i> at will (caster level 5th), but it can remain gaseous indefinitely and has a fly speed of 20 feet with perfect maneuverability.</p><p class=\"stat-block-2\"><i>Shadowless (Ex)</i>A vampire casts no shadows and shows no reflection in a mirror.</p><p class=\"stat-block-2\"><i>Spider Climb (Ex)</i>A vampire can climb sheer surfaces as though under the effects of a <i>spider climb</i> spell.</p>", 
+                            "name": "Special Qualities", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/Special Qualities", 
+                            "ability_types": {
+                                "ability_type_id": 567, 
+                                "section_id": 2752, 
+                                "ability_type": "Supernatural"
+                            }, 
+                            "section_id": 2752, 
+                            "source": "Bestiary", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "body": "<p>Str +6, Dex +4, Int +2, Wis +2, Cha +4. As an undead creature, a vampire has no Constitution score.</p>", 
+                            "name": "Ability Scores", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/Ability Scores", 
+                            "section_id": 2753, 
+                            "source": "Bestiary", 
+                            "type": "section"
+                        }, 
+                        {
+                            "body": "<p>Vampires gain a +8 racial bonus on Bluff, Perception, Sense Motive, and Stealth checks.</p>", 
+                            "source": "Bestiary", 
+                            "type": "section", 
+                            "name": "Skills", 
+                            "section_id": 2754
+                        }, 
+                        {
+                            "body": "<p> Vampires gain Alertness, Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, and Toughness as bonus feats.</p>", 
+                            "name": "Feats", 
+                            "url": "pfsrd://Bestiary/Monsters/Vampire/Creating a Vampire/Vampire/Feats", 
+                            "section_id": 2755, 
+                            "source": "Bestiary", 
+                            "type": "section"
+                        }
+                    ]
+                }
+            ], 
+            "section_id": 2739, 
+            "source": "Bestiary", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>A vampire can elect to create a vampire spawn instead of a full-fledged vampire when she uses her create spawn ability on a humanoid creature only. This decision must be made as a free action whenever a vampire slays an appropriate creature by using blood drain or energy drain. A vampire spawn's statistics are identical to those of a wight, save for the following changes.</p><ul><li> It gains the blood drain and dominate vampire special attacks.</li><li> It gains channel resistance +2, DR 5/silver, resist cold and electricity 10, fast healing 2, and the vampire qualities listed above (gaseous form, shadowless, and spider climb).</li><li> It does not gain the Create Spawn ability.</li><li> A vampire spawn gains all of the standard vampire weaknesses.</li><li> A vampire spawn is CR 4.</li></ul>", 
+            "name": "Vampire Spawn", 
+            "url": "pfsrd://Bestiary/Monsters/Vampire/Vampire Spawn", 
+            "section_id": 2756, 
+            "source": "Bestiary", 
+            "type": "section"
+        }
+    ], 
+    "hp": "102 (8d6+72); fast healing 5", 
+    "weaknesses": "vampire weaknesses", 
+    "section_id": 2737, 
+    "wisdom": "16", 
+    "defensive_abilities": "channel resistance +4", 
+    "creature_type": "Undead", 
+    "special_qualities": "change shape (dire bat or wolf, beast shape II), gaseous form, shadowless, spider climb", 
+    "dr": "10/magic and silver", 
+    "name": "Vampire", 
+    "base_attack": "+4", 
+    "level": "sorcerer 8", 
+    "skills": "Bluff +27, Knowledge (arcana) +13, Knowledge (religion) +10, Perception +21, Sense Motive +13, Spellcraft +13, Stealth +12, Use Magic Device +19", 
+    "reflex": "+11", 
+    "cmd": "24", 
+    "cmb": "+7", 
+    "will": "+12", 
+    "url": "pfsrd://Bestiary/Monsters/Vampire", 
+    "super_race": "human", 
+    "organization": "solitary or family (vampire plus 2-8 spawn)", 
+    "creature_subtype": "augmented humanoid"
+}

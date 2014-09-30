@@ -1,0 +1,141 @@
+{
+    "dexterity": "15", 
+    "ac": "14, touch 11, flat-footed 12 (+2 Dex, +3 natural, -1 size)", 
+    "special_attacks": "swallow whole (1d6+1 bludgeoning damage, AC 11, 5 hp)", 
+    "intelligence": "-", 
+    "racial_modifiers": "+8 Stealth", 
+    "melee": "tentacles +3 (2d6+1 plus grab and poison)", 
+    "cr": "2", 
+    "xp": "600", 
+    "speed": "5 ft.", 
+    "alignment": "N", 
+    "size": "Large", 
+    "strength": "12", 
+    "constitution": "18", 
+    "space": "10 ft.", 
+    "treasure": "incidental", 
+    "init": "+2", 
+    "environment": "any oceans or coastlines", 
+    "source": "Bestiary 3", 
+    "charisma": "2", 
+    "immune": "gaze attacks, mind-affecting effects, poison, vision-based effects", 
+    "fortitude": "+8", 
+    "type": "creature", 
+    "senses": "blindsight 30 ft.; Perception +0", 
+    "description": "This giant, tubular creature ends in a mass of thick and brilliantly colored tendrils arrayed around an enormous, toothless maw.", 
+    "sections": [
+        {
+            "name": "Special Abilities", 
+            "source": "Bestiary 3", 
+            "url": "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant/Special Abilities", 
+            "sections": [
+                {
+                    "body": "As a full-round action, a giant sea anemone can affix itself to a solid surface. While anchored, it cannot move, and it gains a +4 bonus to its CMD on all checks to resist being bull-rushed, dragged, overrun, or repositioned. This bonus increases by +4 for each size category larger the sea anemone is compared to the opponent attempting the maneuver. The creature can unanchor itself as a full-round action.", 
+                    "name": "Anchored", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant/Special Abilities/Anchored", 
+                    "ability_types": {
+                        "ability_type_id": 539, 
+                        "section_id": 1869, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1869, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }, 
+                {
+                    "body": "Tentacle:", 
+                    "name": "Poison", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant/Special Abilities/Poison", 
+                    "type": "ability", 
+                    "ability_types": {
+                        "ability_type_id": 540, 
+                        "section_id": 1870, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1870, 
+                    "source": "Bestiary 3", 
+                    "sections": [
+                        {
+                            "name": "Giant Sea Anemone Venom", 
+                            "source": "Bestiary 3", 
+                            "url": "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant/Special Abilities/Poison/Giant Sea Anemone Venom", 
+                            "contracted": "injury", 
+                            "section_id": 1871, 
+                            "effect": "1d2 Dexterity damage", 
+                            "subtype": "poison", 
+                            "cure": "2 consecutive saves", 
+                            "frequency": "1/round for 6 rounds", 
+                            "save": "Fortitude DC 16", 
+                            "type": "affliction"
+                        }
+                    ]
+                }, 
+                {
+                    "body": "A sea anemone is blind and is not affected by any effect that relies on sight, such as gaze attacks or blindness.", 
+                    "name": "Sightless", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant/Special Abilities/Sightless", 
+                    "ability_types": {
+                        "ability_type_id": 541, 
+                        "section_id": 1872, 
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "section_id": 1872, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }
+            ], 
+            "section_id": 1868, 
+            "subtype": "special_abilities", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Giant sea anemones are beautiful but deadly ocean-dwelling vermin that rely on camouflage and paralytic toxins to draw in their prey. A sea anemone has a long, cylindrical body that ends in a flat circular disc with a slitlike orifice for both ingesting food and dispelling waste. This disc is surrounded by a thicket of tendrils that vary in thickness from fine, hairlike cilia to thick, swollen appendages. The creature uses all of these tentacles at once when it attacks prey. Like their smaller kin, giant sea anemones come in a broad spectrum of colors&mdash;many are known for their brilliant hues.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1873
+        }, 
+        {
+            "body": "<p>Giant sea anemones can move at a slow pace by walking along the projections at their bases. More often, however, these predators affix themselves to rock, coral, or sunken objects like ships, then wait for prey to come to them.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1874
+        }, 
+        {
+            "body": "<p>As mindless creatures, giant sea anemones have no use for treasure, but the remains of prey digested and then expelled often litter the area around these creatures. Massive sea anemones big enough to eat dolphins, whales, or even sea serpents reportedly exist in the deepest parts of the ocean. Called deep tigers for their alternating fronds of black and brilliant orange, these giant sea anemones are said to lair in undersea ruins and sunken ships, where the promise of sought-after treasure conveniently lures in a constant food supply.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1875
+        }, 
+        {
+            "body": "<p>Other species of sea anemones exist as well, some smaller but most quite a bit larger and favoring different oceanic regions and depths. You can adjust the stats for the giant sea anemone by changing the Hit Dice and size (adjusting Strength, Dexterity, and Constitution as appropriate) to represent a wide range of species. Often, different species have additional abilities, such as the darkforest anemone's constriction attack, or the deep tiger's ability to squirt acid. The following table lists the most common variants.</p>", 
+            "source": "Bestiary 3", 
+            "type": "section", 
+            "section_id": 1876
+        }, 
+        {
+            "body": "<table id=\"sea-anemone-species\"><caption>Table: Sea Anemone Species</caption><thead><tr><th>Species</th><th>CR</th><th>Size</th><th>HD</th></tr></thead><tr class=\"odd\"><td>Common anemone</td><td>1/4</td><td>Tiny</td><td>1d8</td></tr><tr class=\"even\"><td>Bluehair anemone</td><td>1/2</td><td>Small</td><td>2d8</td></tr><tr class=\"odd\"><td>Coffin anemone</td><td>1</td><td>Medium</td><td>3d8</td></tr><tr class=\"even\"><td>Darkforest anemone</td><td>6</td><td>Huge</td><td>9d8</td></tr><tr class=\"odd\"><td>Siren's bed anemone</td><td>9</td><td>Gargantuan</td><td>14d8</td></tr><tr class=\"even\"><td>Deep tiger anemone</td><td>13</td><td>Colossal</td><td>19d8 </td></tr></table>", 
+            "name": "Table: Sea Anemone Species", 
+            "url": "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant/Table Sea Anemone Species", 
+            "section_id": 1877, 
+            "source": "Bestiary 3", 
+            "type": "table"
+        }
+    ], 
+    "hp": "34 (4d8+16)", 
+    "reach": "10 ft.", 
+    "section_id": 1867, 
+    "wisdom": "10", 
+    "defensive_abilities": "amorphous", 
+    "creature_type": "Vermin", 
+    "special_qualities": "anchored, sightless", 
+    "name": "Sea Anemone, Giant", 
+    "base_attack": "+3", 
+    "skills": "Stealth +6", 
+    "reflex": "+3", 
+    "cmd": "17 (can't be tripped)", 
+    "cmb": "+5", 
+    "will": "+1", 
+    "url": "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant", 
+    "organization": "solitary, pair, or cluster (2-10)", 
+    "creature_subtype": "aquatic"
+}

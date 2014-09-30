@@ -1,0 +1,60 @@
+{
+    "type": "skill", 
+    "name": "Stealth", 
+    "url": "pfsrd://Core Rulebook/Skills/Stealth", 
+    "attribute": "Dex", 
+    "section_id": 1020, 
+    "source": "Core Rulebook", 
+    "trained_only": true, 
+    "armor_check_penalty": true, 
+    "sections": [
+        {
+            "body": "<p>Your Stealth check is opposed by the Perception check of anyone who might notice you. Creatures that fail to beat your Stealth check are not aware of you and treat you as if you had total concealment. You can move up to half your normal speed and use Stealth at no penalty. When moving at a speed greater than half but less than your normal speed, you take a -5 penalty. It's impossible to use Stealth while attacking, running, or charging.</p><p>Creatures gain a bonus or penalty on Stealth checks based on their size: Fine +16, Diminutive +12, Tiny +8, Small +4, Medium +0, Large -4, Huge -8, Gargantuan -12, Colossal -16.</p><p>If people are observing you using any of their senses (but typically sight), you can't use Stealth. Against most creatures, finding cover or concealment allows you to use Stealth. If your observers are momentarily distracted (such as by a Bluff check), you can attempt to use Stealth. While the others turn their attention from you, you can attempt a Stealth check if you can get to an unobserved place of some kind. This check, however, is made at a &ndash;10 penalty because you have to move fast.</p>", 
+            "name": "Check", 
+            "sections": [
+                {
+                    "body": "<p>When you start your turn using Stealth, you can leave cover or concealment and remain unobserved as long as you succeed at a Stealth check and end your turn in cover or concealment. Your Stealth immediately ends after you make and attack roll, whether or not the attack is successful (except when sniping as noted below).</p>", 
+                    "name": "Breaking Stealth", 
+                    "url": "pfsrd://Core Rulebook/Skills/Stealth/Check/Breaking Stealth", 
+                    "section_id": 1022, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>If you've already successfully used Stealth at least 10 feet from your target, you can make one ranged attack and then immediately use Stealth again. You take a &ndash;20 penalty on your Stealth check to maintain your obscured location.</p>", 
+                    "name": "Sniping", 
+                    "url": "pfsrd://Core Rulebook/Skills/Stealth/Check/Sniping", 
+                    "section_id": 1023, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }, 
+                {
+                    "body": "<p>You can use Bluff to allow you to use Stealth. A successful Bluff check can give you the momentary diversion you need to attempt a Stealth check while people are aware of you.</p>", 
+                    "name": "Creating a Diversion to Hide", 
+                    "url": "pfsrd://Core Rulebook/Skills/Stealth/Check/Creating a Diversion to Hide", 
+                    "section_id": 1024, 
+                    "source": "Core Rulebook", 
+                    "type": "section"
+                }
+            ], 
+            "section_id": 1021, 
+            "source": "Core Rulebook", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Usually none. Normally, you make a Stealth check as part of movement, so it doesn't take a separate action. However, using Stealth immediately after a ranged attack (see Sniping, above) is a move action.</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "name": "Action", 
+            "section_id": 1025
+        }, 
+        {
+            "body": "<p>If you are invisible, you gain a +40 bonus on Stealth checks if you are immobile, or a +20 bonus on Stealth checks if you're moving.</p><p>If you have the Stealthy feat, you get a bonus on Stealth checks (see Feats).</p>", 
+            "source": "Core Rulebook", 
+            "type": "section", 
+            "name": "Special", 
+            "section_id": 1026
+        }
+    ], 
+    "description": "You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen position. This skill covers hiding and moving silently."
+}
