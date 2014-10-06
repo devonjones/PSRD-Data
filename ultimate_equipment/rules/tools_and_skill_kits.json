@@ -88,19 +88,21 @@
             "text": "<p class=\"stat-block\">Although intended for trapping large animals, bear traps work as well for trapping humanoids or monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a DC 20 Strength check.</p>", 
             "price": "2 gp", 
             "source": "Ultimate Equipment", 
-            "type": "item"
-        }, 
-        {
-            "reset": "manual", 
-            "perception": "DC 15", 
-            "name": "Bear Trap", 
-            "trigger": "location", 
-            "trap_type": "mechanical", 
-            "effect": "Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check.", 
-            "source": "Ultimate Equipment", 
-            "disable_device": "DC 20", 
-            "cr": "1", 
-            "type": "trap"
+            "type": "item",
+            "sections": [
+                {
+                    "reset": "manual", 
+                    "perception": "DC 15", 
+                    "name": "Bear Trap", 
+                    "trigger": "location", 
+                    "trap_type": "mechanical", 
+                    "effect": "Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check.", 
+                    "source": "Ultimate Equipment", 
+                    "disable_device": "DC 20", 
+                    "cr": "1", 
+                    "type": "trap"
+                }
+            ]
         }, 
         {
             "name": "Bellows", 
