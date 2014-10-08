@@ -1,0 +1,1662 @@
+{
+    "name": "Shaman", 
+    "sections": [
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>Shamans make for potent divine spellcasters, capable of using divine spells and the power of their spirits to aid their allies and destroy their foes. While they aren't the healers that clerics are, they can still fill that role when needed.</p>", 
+            "type": "section", 
+            "name": "Role"
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>Oracle and witch.</p>", 
+            "type": "section", 
+            "name": "Parent Classes"
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>3d6 &times; 10 gp (average 105 gp).</p>", 
+            "type": "section", 
+            "name": "Starting Wealth", 
+            "sections": [
+                {
+                    "text": "<table id=\"shaman-progression-table\">\n<caption>Shaman</caption>\n<thead>\n<tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"10\" style=\"text-align: center;\">Spells per Day</th></tr>\n<tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr>\n</thead>\n<tbody>\n<tr><td>1st</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Orisons, spirit, spirit animal, spirit magic</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>2nd</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td>Hex</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>3rd</td><td>+2</td><td>+1</td><td>+1</td><td>+3</td><td></td><td>4</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>4th</td><td>+3</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Hex, wandering spirit</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>5th</td><td>+3</td><td>+1</td><td>+1</td><td>+4</td><td></td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>6th</td><td>+4</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Wandering hex</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>7th</td><td>+5</td><td>+2</td><td>+2</td><td>+5</td><td></td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>8th</td><td>+6/+1</td><td>+2</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\">Hex, spirit (greater)</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>9th</td><td>+6/+1</td><td>+3</td><td>+3</td><td>+6</td><td></td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>10th</td><td>+7/+2</td><td>+3</td><td>+3</td><td>+7</td><td>Hex</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>11th</td><td>+8/+3</td><td>+3</td><td>+3</td><td>+7</td><td></td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>12th</td><td>+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Hex, wandering spirit (greater)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>13th</td><td>+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>14th</td><td>+10/+5</td><td>+4</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\">Wandering hex (2 hexes)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>15th</td><td>+11/+6/+1</td><td>+5</td><td>+5</td><td>+9</td><td></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr>\n<tr><td>16th</td><td>+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Hex, spirit (true)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr>\n<tr><td>17th</td><td>+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td></tr>\n<tr><td>18th</td><td>+13/+8/+3</td><td>+6</td><td>+6</td><td>+11</td><td>Hex</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td></tr>\n<tr><td>19th</td><td>+14/+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td></tr>\n<tr><td>20th</td><td>+15/+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">Hex, manifestation, wandering spirit (true)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td></tr>\n</tbody>\n</table>", 
+                    "type": "table", 
+                    "name": "Shaman", 
+                    "source": "Advanced Class Guide"
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>The shaman's class skills are Craft (Int), Diplomacy (Cha), Fly (Dex), Handle Animal (Cha), Heal (Wis), Knowledge (nature) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Spellcraft (Int), and Survival (Wis).</p>", 
+            "type": "section", 
+            "name": "Class Skills", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>4 + Int modifier.</p>", 
+                    "type": "section", 
+                    "name": "Skill Ranks per Level"
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>The following are the class features of the shaman.</p>", 
+            "type": "section", 
+            "name": "Class Features", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman is proficient with all simple weapons, and with light and medium armor.</p>", 
+                    "type": "section", 
+                    "name": "Weapon and Armor Proficiencies"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman casts divine spells drawn from the shaman spell list (see page 48). A shaman must choose and prepare her spells in advance.</p><p>To prepare or cast a spell, a shaman must have a Wisdom score equal to at least 10 + the spell's level. The saving throw DC against a shaman's spell is 10 + the spell's level + the shaman's Wisdom modifier.</p><p>Like other spellcasters, a shaman can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on the table above. In addition, she receives bonus spells per day if she has a high Wisdom score.</p><p>Shamans commune with their spirit animals to prepare their spells. Each shaman must choose a time when she must spend 1 hour each day in quiet contemplation with her spirit animal to regain her daily allotment of spells. A shaman can prepare and cast any spell on the shaman spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her daily communion.</p>", 
+                    "type": "section", 
+                    "name": "Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>Shamans can prepare a number of orisons, or 0-level spells, each day. These spells are cast like any other spell, but they are not expended when cast and may be used again.</p>", 
+                    "type": "section", 
+                    "name": "Orisons"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman forms a mystical bond with the spirits of the world. She forms a lasting bond with a single spirit, which grants a number of abilities and defines many of her other class features.</p><p>At 1st level, a shaman gains the spirit ability granted by her chosen spirit. She adds the spells granted by that spirit to the list of spells that she can cast using spirit magic. She also adds the hexes possessed by that spirit to the list of hexes that she can use with the hex and wandering hex class features.</p><p>At 8th level, the shaman gains the abilities listed in the greater version of her selected spirit. At 16th level, the shaman gains the abilities listed for the true version of her selected spirit.</p><p>If the shaman takes levels in another class that grants a mystery (such as the oracle), the spirit and mystery must match, even if that means one of them must change. Subject to GM discretion, the shaman can change her former mystery or spirit to make them conform.</p>", 
+                    "type": "ability", 
+                    "name": "Spirit", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 1st level, a shaman forms a close bond with a spirit animal tied to her chosen spirit. This animal is her conduit to the spirit world, guiding her along the path to enlightenment. The animal also aids a shaman by granting her a special ability. See the Spirit Animal section on page 47.</p><p>A shaman must commune with her spirit animal each day to prepare her spells. While the spirit animal does not store the spells like a witch's familiar does, the spirit animal serves as her conduit to divine power. If a shaman's spirit animal is slain, she cannot prepare new spells or use her spirit magic class feature until the spirit animal is replaced.</p>", 
+                    "type": "ability", 
+                    "name": "Spirit Animal", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman can spontaneously cast a limited number of spells per day beyond those she prepared ahead of time. She has one spell slot per day of each shaman spell level she can cast, not including orisons. She can choose these spells from the list of spells granted by her spirits (see the spirit class feature and the wandering spirit class feature) at the time she casts them. She can enhance these spells using any metamagic feat that she knows, using up a higher-level spell slot as required by the feat and increasing the time to cast the spell (see Spontaneous Casting and Metamagic Feats).</p>", 
+                    "type": "section", 
+                    "name": "Spirit Magic"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes. At 2nd level, a shaman learns one hex. At 4th, 8th, 10th, 12th, 16th, 18th, and 20th level, the shaman learns new hexes. A shaman can select from any of the following hexes or from any of the hexes listed in the description of her chosen spirit. A shaman cannot select a hex more than once unless noted otherwise.</p><p>Using a hex is a standard action that doesn't provoke an attack of opportunity unless otherwise noted. The saving throw DC to resist a hex is equal to 10 + 1/2 the shaman's level + the shaman's Wisdom modifier.</p>", 
+                    "type": "section", 
+                    "name": "Hex", 
+                    "sections": [
+                        {
+                            "name": "Chant", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>A shaman can chant as a move action. Any creature that is within 30 feet that is under the effects of the shaman's charm, evil eye, fortune, fury, or misfortune hex has that effect's duration extended by 1 round. A shaman cannot select both this hex and the witch's cackle hex.</p>", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Charm", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>A shaman charms an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the shaman had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the shaman's Wisdom modifier (minimum 1). A successful Will saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours. At 8th level, this effect improves the attitude of the creature by 2 steps. This is a mind-affecting charm effect.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Evil Eye", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman causes doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a &ndash;2 penalty on one of the following (shaman's choice): ability checks, AC, attack rolls, saving throws, or skill checks. This hex lasts a number of rounds equal to 3 + the shaman's Wisdom modifier. A successful Will saving throw reduces this to just 1 round. At 8th level, the penalty increases to &ndash;4.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Fetish", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman receives Craft Wondrous Item as a bonus feat and gains a +4 insight bonus on Spellcraft checks to identify magic items permanently.</p>", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Fortune", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman grants a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing it to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. The target creature must to decide to use this ability before the first roll is made. At 8th and 16th levels, the duration of this hex increases by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Fury", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>A shaman incites a creature within 30 feet into a primal fury. The target receives a +2 morale bonus on attack rolls and a +2 resistance bonus on saving throws against fear for a number of rounds equal to the shaman's Wisdom modifier. At 8th and 16th levels, these bonuses increase by 1. Once a creature has benefited from the fury hex, it cannot benefit from it again for 24 hours.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Healing", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>A shaman soothes the wounds of those she touches. This acts as <i>cure light wounds</i>, using the shaman's caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this acts as <i>cure moderate wounds</i>.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Misfortune", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman causes a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A successful Will saving throw negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Secret", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman receives one metamagic feat as a bonus feat. The shaman must meet the prerequisites for the feat.</p>", 
+                            "ability_types": [
+                                "Extraordinary"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Shapeshift", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman transforms herself into another form for a number of minutes per day equal to her level, as <i>alter self</i>. This duration does not need to be consecutive, but must be spent in 1-minute increments. Changing form (including changing back) is a standard action that doesn't provoke an attack of opportunity. At 8th level, this ability works as <i>beast shape I</i>. At 12th level, this ability works as <i>beast shape II</i>. At 16th level, this ability works as <i>beast shape III</i>. At 20th level, this ability works as <i>beast shape IV</i>.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Tongues", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman understands any spoken language for a number of minutes per day equal to her level, as <i>comprehend languages</i>. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a shaman can use this ability to speak any language, as <i>tongues</i>.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "name": "Ward", 
+                            "subtype": "witch_hex", 
+                            "text": "<p>The shaman places a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This effect lasts until the warded creature is hit or fails a saving throw. A shaman knows when a warded creature is no longer protected. A shaman can have only one ward active at a time. If the shaman uses this hex while a previous ward is still active, that previous ward immediately ends. A shaman cannot use this ability on herself. At 8th and 16th levels, the bonuses provided by this ward increase by 1.</p>", 
+                            "ability_types": [
+                                "Supernatural"
+                            ], 
+                            "source": "Advanced Class Guide", 
+                            "type": "ability"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman selects any one hex normally available through the witch's hex class feature. She treats her shaman level as her witch level when determining the powers and abilities of the hex. She uses her Wisdom modifier in place of her Intelligence modifier for the hex. She cannot select major hexes or grand hexes using this ability. The shaman cannot select a witch hex that has the same name as a shaman hex.</p>", 
+                            "type": "section", 
+                            "name": "Witch Hex", 
+                            "subtype": "witch_hex"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p id=\"wandering-spirit\">At 4th level, a shaman can form a temporary bond with a spirit other than the one selected using her spirit class feature. She must make this selection each day when preparing her spells. While this feature is active, she gains the spirit ability granted by the spirit. She also adds the spells granted by that spirit to her list of spells that she can cast using spirit magic. She does not add the hexes from her wandering spirit to her list of hexes that she can choose from with the hex class feature. At 12th level, she gains the abilities listed in the greater version of her wandering spirit. At 20th level, she gains the ability listed in the true version of her wandering spirit.</p>", 
+                    "type": "ability", 
+                    "name": "Wandering Spirit", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 6th level, a shaman can temporarily gain the use of one of the hexes possessed by either one of her spirits. She must make this selection each day when she prepares her spells. For the purposes of this ability, she can select any hex possessed by her spirit or wandering spirit. If she selects it from her wandering spirit, she loses the hex immediately if she bonds with another spirit, although she can then select a different hex to gain using this ability, from either her spirit or her new wandering spirit. At 14th level, a shaman can select two wandering hexes each day instead of one. This ability otherwise functions as the hex class feature.</p>", 
+                    "type": "section", 
+                    "name": "Wandering Hex"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>Upon reaching 20th level, a shaman undergoes a transformation as she manifests as a pinnacle of her main spirit. The nature of this manifestation depends on the shaman's spirit, and is described in its entry.</p>", 
+                    "type": "ability", 
+                    "name": "Manifestation", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>Each shaman must select from the following spirits. Unless otherwise noted, the DC to save against the special abilities granted by a spirit is equal to 10 + 1/2 the shaman's level + the shaman's Wisdom modifier.</p>", 
+            "type": "section", 
+            "name": "Spirits", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the battle spirit gains scars from every wound she takes, and the grit of battle always seems to cling on her body. When she calls upon one of this spirit's abilities, she grows in stature&mdash;becoming taller and more muscular, with a grimace of rage stretching across her face.</p>", 
+                    "type": "section", 
+                    "name": "Battle", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Enlarge person </i>(1st), <i>fog cloud</i> (2nd), <i>magic vestment</i> (3rd), <i>wall of fire</i> (4th), <i>righteous might </i>(5th), <i>mass bull's strength</i> (6th), <i>control weather</i> (7th), <i>earthquake</i> (8th), <i>storm of vengeance</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the battle spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman makes an extra attack of opportunity each round. This ability stacks with the attacks of opportunity granted by the Combat Reflexes feat. At 8th level, the shaman gains the Weapon Specialization feat in a weapon of her choice as a bonus feat. At 16th level, the shaman gains the Greater Weapon Focus feat as a bonus feat, for the same weapon chosen for Weapon Specialization. The shaman doesn't need to meet the prerequisites of these feats.</p>", 
+                                    "type": "ability", 
+                                    "name": "Battle Master", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman touches a willing creature (including herself) and grants a battle ward. The next time a foe makes an attack roll against the target, the ward activates and grants a +3 deflection bonus to the warded creature's AC. Each subsequent time she's attacked, the defection bonus reduces by 1 (to +2 for the second time she's attacked and +1 for the third). The ward fades when the bonus is reduced to +0 or after 24 hours, whichever comes first. At 8th level, the ward's starting bonus increases to +4. At 16th level, it increases to +5. A creature affected by this hex cannot be affected by it again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Battle Ward", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes a creature within 30 feet to take more damage from bleed effects and causes its wounds to heal at a slower rate. When the cursed creature takes bleed damage, it takes 1 additional point of bleed damage (even if the bleed is ability damage). Furthermore, when the target is subject to an effect that would restore its hit points, that effect restores only half the normal amount of hit points. This curse lasts for a number of rounds equal to the shaman's level. After the duration ends, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Curse of Suffering", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman's senses become magically heightened in the heat of battle. As a swift action, she can grant herself a +10 insight bonus for 1 round on Perception checks made to notice and pinpoint invisible creatures within 30 feet. She can instead use this ability as a swift action to ignore the affects of cover or partial cover (but not total cover) on her next attack, as long as that attack is made before the end of her next turn. The shaman can use this ability a number of times per day equal to her shaman level.</p>", 
+                                    "type": "ability", 
+                                    "name": "Eyes of Battle", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes a creature within 30 feet to take a &ndash;2 penalty to AC and CMD for a number of rounds equal to the shaman's level. A successful Will saving throw reduces this to just 1 round. At 8th level, the penalty becomes &ndash;4. Whether or not the save is successful, a creature affected by a hampering hex cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Hampering Hex", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal looks like a fiercer version of its species, with rippling muscles and a stockier frame. It gains a +2 natural armor bonus to AC. If it already has a natural armor bonus, the bonus increases by 2 instead.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the battle spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>A shaman surrounds herself with the spirit of battle. Allies within 30 feet of the shaman (including the shaman) receive a +1 morale bonus on attack rolls and weapon damage rolls. At 8th level and 16th level, these bonuses increase by 1. The shaman can use this ability for a number of rounds per day equal to 3 + her Charisma modifier. These rounds do not need to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Battle Spirit", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the battle spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a swift action, the shaman imbues a single weapon she's wielding with the <i>bane</i> weapon special ability, choosing the type of creature affected each time she does. The effect lasts for 1 minute. If the weapon already has the <i>bane</i> weapon special ability of the type chosen, the additional damage dealt by <i>bane</i> increases to 4d6. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Enemies' Bane", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the battle spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman assumes a form that combines the effects of <i>enlarge person</i> and <i>deadly juggernaut</i> for 1 minute or until dismissed. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Paragon of Battle", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a spirit of battle. As a full-round action, she can make a full attack and move up to her speed (either before or after the attacks). Whenever she scores a critical hit, the attack ignores damage reduction. She gains a +4 insight bonus to AC for the purposes of confirming critical hits against her. If she is reduced to below 0 hit points, she does not die until her negative hit point total exceeds double her Constitution score.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the bones spirit is cadaverously thin, with sunken eye sockets and dead eyes that stare off into the distance. Her body has a faint smell of the grave. When she calls upon one of this spirit's abilities, a ghostly wind whips her hair and clothes about, and the unpleasant stench becomes more prominent.</p>", 
+                    "type": "section", 
+                    "name": "Bones", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Cause fear </i>(1st), <i>false life</i> (2nd), <i>animate dead</i> (3rd), <i>fear</i> (4th), <i>slay living </i>(5th), <i>circle of death</i> (6th), <i>control undead</i> (7th), <i>horrid wilting</i> (8th), <i>wail of the banshee</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the bones spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>With a quick incantation, the shaman causes a creature within 30 feet to suffer stiffness in the joints and bones, causing the target to be staggered 1 round. A successful Fortitude saving throw negates this effect. At 8th level, the duration is increased to a number of rounds equal to her shaman level, though the target can attempt a save each round to end the effect if its initial saving throw fails. At 16th level, the target can no longer attempt a saving throw each round to end the effect, although it still attempts the initial Fortitude saving throw to negate the effect entirely.</p>", 
+                                    "type": "ability", 
+                                    "name": "Bone Lock", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>A shaman touches a willing creature (including herself) and grants a bone ward. The warded creature becomes encircled by a group of flying bones that grant it a +2 deflection bonus to AC for a number of rounds equal to the shaman's level. At 8th level, the ward increases to +3 and lasts for 1 minute. At 16th level, the bonus increases to +4 and lasts for 1 hour. Once the bone ward ends, the creature cannot be the target of the hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Bone Ward", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>If the shaman is a living creature, she reacts to positive and negative energy as if she were undead&mdash;positive energy harms her, while negative energy heals her. If she's an undead creature or a creature with the negative energy affinity ability, she gains a +1 bonus to her channel resistance. At 8th level, if she's a living creature she gains a +4 bonus on saves against death effects and effects that drain energy, or if she's an undead creature her bonus to channel resistance increases to +2.</p><p>At 16th level, if the shaman a living creature, she takes no penalties from energy drain effects, though she can still be killed if she accrues more negative levels than she has Hit Dice. Furthermore, after 24 hours any negative levels the shaman has are removed without requiring her to succeed at an additional saving throw. If the shaman is an undead creature, her bonus to channel resistance increases to +4.</p>", 
+                                    "type": "ability", 
+                                    "name": "Deathly Being", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>With a single shout, the shaman causes one target creature within 30 feet to become shaken for 1 round. A successful Will saving throw negates this effect. At 8th level, she makes the target frightened instead. At 16th level, she makes it panicked instead. This is a mind-affecting fear effect. A creature affected by this hex cannot be affected by it again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fearful Gaze", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman sees the states of life, death, undeath, and general health of those around her. When using this ability, she can tell whether or not creatures within 30 feet that she can see are living, wounded, dying, or dead, as well as determine if any are undead. Lastly, she can tell if those creatures are poisoned or diseased. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Grave Sight", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal gives off a ghostly glow and seems nearly transparent. The animal is under the constant effects of <i>blur</i>, with a caster level equal to the shaman's level.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the bones spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman can make a melee touch attack infused with negative energy that deals 1d4 points of damage + 1 point of damage for every 2 shaman levels she possesses. She can instead touch an undead creature to heal it of the same amount of damage. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon t that he shaman wields is treated as an <i>unholy</i> weapon.</p>", 
+                                    "type": "ability", 
+                                    "name": "Touch of the Grave", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the bones spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman gains DR 3/magic. This DR increases by 1 for every 4 shaman levels she possesses beyond 8th. In addition, as a standard action she can cause jagged pieces of bone to explode from her body in a 10-foot-radius burst. This deals 1d6 points of piercing damage for every 2 shaman levels she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>", 
+                                    "type": "ability", 
+                                    "name": "Shard Soul", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the bones spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman sheds her body and becomes incorporeal. While in this form, all of her weapon attacks are considered to have the <i>ghost touch</i> weapon special ability. The shaman can use this ability for a number of rounds equal to her shaman level, though those rounds do not need to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Shedding Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a spirit of death. Once per round, she can cast <i>bleed</i> or <i>stabilize</i> as a free action. If she is reduced to below 0 hit points, she automatically stabilizes. She can cast <i>animate dead </i>at will without paying a material component cost, although she is still subject to the usual Hit Dice control limit. Once per day, she can cast <i>power word kill</i>, but the spell can target a creature with 150 hit points or fewer.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the flame spirit has a radiant light behind her eyes and the faint smell of smoke about her. When she calls upon one of this spirit's abilities, a hungry spectral flame dances around her body.</p>", 
+                    "type": "section", 
+                    "name": "Flame", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Burning hands </i>(1st), <i>resist energy</i> (2nd), <i>fireball</i> (3rd), <i>wall of fire</i> (4th), <i>summon monster V </i>(fire elementals only, 5th), <i>fire seeds</i> (6th), <i>fire storm</i> (7th), <i>incendiary cloud</i> (8th), <i>fiery body</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the flame spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman's base speed increases by 10 feet. At 5th level, the shaman receives Nimble Moves as a bonus feat. At 10th level, the shaman receives Acrobatic Steps as a bonus feat. The shaman doesn't need to meet the prerequisites of these feats.</p>", 
+                                    "type": "ability", 
+                                    "name": "Cinder Dance", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes a creature within 30 feet to gain a nimbus of fire. Though this doesn't harm the creature, it does cause the creature to emit light like a torch, preventing it from gaining any benefit from concealment or invisibility. The target also takes a &ndash;2 penalty on saving throws against spells or effects that deal fire damage. The fire nimbus lasts for a number of rounds equal to the shaman's level. A successful Will saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fire Nimbus", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes a creature within 30 feet to become vulnerable to fire until the end of the shaman's next turn. If the creature is already vulnerable to fire, this hex has no effect. Fire immunity and resistances apply as normal, and any saving throw allowed by the effect that caused the damage reduces it as normal. At 8th and 16th levels, the duration of this hex is extended by 1 round. After the vulnerability ends, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Flame Curse", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman sees through fire, fog, and smoke without penalty as long as there is enough light to otherwise allow her to see normally. At 7th level, the shaman can gaze through any source of flame within 10 feet per shaman level, as <i>clairvoyance</i>. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Gaze of Flames", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman touches a willing creature (including herself) and grants a ward of flames. The next time the warded creature is struck with a melee attack, the creature making the attack takes 1d6 points of fire damage + 1 point of fire damage for every 2 shaman levels she possesses. This ward lasts for 1 minute, after which it fades away if not already expended. At 8th and 16th levels, the ward lasts for one additional attack. Once this ward ends, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Ward of Flames", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal is surrounded by a nimbus of flame that gives off light like a candle. This nimbus is warm to the touch, but doesn't cause any damage. The animal is immune to fire damage, but is vulnerable to cold damage.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the flame spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman can make a melee touch attack that deals 1d6 points of fire damage + 1 point for every 2 shaman levels she possesses. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a <i>flaming</i> weapon.</p>", 
+                                    "type": "ability", 
+                                    "name": "Touch of Flame", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the flame spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman gains fire resistance 10. In addition, as a standard action she can unleash a 15-foot cone of flame from her mouth, dealing 1d4 points of fire damage per shaman level she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fiery Soul", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the flame spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman assumes the form of a Huge (or smaller) fire elemental, as if using <i>elemental body IV</i> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a spirit of flame. The shaman gains fire resistance 30. She can also apply any one of the following feats to any fire spell she casts without increasing the spell's level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. She doesn't need to possess these feats to use this ability.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the heavens spirit has eyes that sparkle like starlight, exuding an aura of otherworldliness to those she is around. When she calls upon one of this spirit's abilities, her eyes turn pitch black and the colors around her drain for a brief moment.</p>", 
+                    "type": "section", 
+                    "name": "Heavens", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Color spray</i> (1st), <i>hypnotic pattern</i> (2nd), <i>daylight</i> (3rd), <i>rainbow pattern</i> (4th), <i>overland flight</i> (5th), <i>chain lightning</i> (6th), <i>prismatic spray</i> (7th), <i>sunburst</i> (8th), <i>meteor swarm</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the heavens spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman curses one creature with the dark void. As a standard action, the shaman can cause one enemy within 30 feet to treat the light level as two steps lower: bright light becomes dim light, normal light becomes darkness, and areas of dim light and darkness become supernaturally dark (like darkness, but even creatures with darkvision cannot see). This effect lasts for a number of rounds equal to the shaman's level. A successful Will saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Enveloping Void", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>Whenever the shaman can see the open sky at night, she can determine her precise location and can add her Wisdom modifier to her Charisma modifier on all Charisma-based skill checks. In addition, once per night while outdoors, she can cast one spell as if it were modified by the Empower Spell, Extend Spell, Silent Spell, or Still Spell feat without increasing the spell's casting time or level. The shaman doesn't need to possess the feat to use this ability.</p>", 
+                                    "type": "ability", 
+                                    "name": "Guiding Star", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman is adept at creating tiny tears in the fabric of space, and temporarily stitching them together to reach other locations through a limited, one-way wormhole. As a standard action, the shaman can designate herself or a single ally that she can see who is within 30 feet of her. She can move that creature as if it were subject to <i>jester's jaunt</i>. Once targeted by this hex, the ally cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Heaven's Leap", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman's connection to the skies above is so strong that her feet barely touch the ground. At 1st level, she no longer leaves tracks. At 5th level, she can hover up to 6 inches above the ground or liquid surfaces. At 10th level, the shaman gains the ability to <i>fly</i> (as the spell) for a number of minutes per day equal to her shaman level&mdash;the duration does not need to be consecutive, but it must be used in 1-minute increments.</p>", 
+                                    "type": "ability", 
+                                    "name": "Lure of the Heavens", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman causes one creature within 30 feet to burn like a star. The creature takes 1d6 points of fire damage for every 2 levels the shaman possesses and emits bright light for 1 round. A successful Fortitude saving throw halves the damage and negates the emission of bright light. The shaman can use this hex a number of times per day equal to her Charisma modifier (minimum 1), but must wait 1d4 rounds between uses.</p>", 
+                                    "type": "ability", 
+                                    "name": "Starburn", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The flesh of the shaman's spirit animal accurately reflects the stars that would be visible in the night sky, no matter where the animal is or the time of day. Due to this, it can be used as a star map. In addition, it gains a fly speed of 5 feet; if the animal already has a fly speed, instead its fly speed increases by 10 feet. While the animal is flying, a small nimbus of light surrounds it.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the heavens spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman causes stardust to materialize around one creature within 30 feet. This stardust causes the target to shed light as a candle, and it cannot benefit from concealment or any invisibility effects. The creature takes a &ndash;1 penalty on attack rolls and sight-based Perception checks. This penalty to attack rolls and Perception checks increases by 1 at 4th level and every 4 levels thereafter, to a maximum of &ndash;6 at 20th level. This effect lasts for a number of rounds equal to half the shaman's level (minimum 1). Sightless creatures cannot be affected by this ability. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Stardust", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the heavens spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p> The shaman gains darkvision 60 feet. If she already possesses darkvision, the range instead increases by 30 feet. In addition, the shaman can see in supernatural darkness, is constantly under the effects of <i>endure elements</i>, and doesn't need to breathe.</p>", 
+                                    "type": "ability", 
+                                    "name": "Void Adaptation", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the heavens spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can cast <i>prismatic wall</i> and <i>prismatic spray, </i>each once per day with a caster level equal to her shaman level.</p>", 
+                                    "type": "ability", 
+                                    "name": "Phantasmagoric Display", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes the spirit of heaven. She receives a bonus on all saving throws equal to her Wisdom modifier. She automatically stabilizes if she is reduced to below 0 hit points. She's immune to fear effects, and she automatically confirms all critical hits she threatens. If she dies, she's reborn 3 days later in the form of a star child, maturing over the course of 7 days (as <i>reincarnate</i>).</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the life spirit appears more vibrant than most mortals. Her skin seems to glow, and her teeth are a pearly white. When she calls upon one of this spirit's abilities, her eyes and hair shimmer in the light.</p>", 
+                    "type": "section", 
+                    "name": "Life", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Detect undead </i>(1st), <i>lesser restoration</i> (2nd), <i>naturalize poison</i> (3rd), <i>restoration</i> (4th), <i>breath of life </i>(5th), <i>heal</i> (6th), <i>greater restoration</i> (7th), <i>mass heal</i> (8th), <i>true resurrection</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the life spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes a creature within 30 feet to take more damage from bleed effects and causes its wounds to heal at a slower rate. When the cursed creature takes bleed damage, it takes 1 additional point of bleed damage (even if the bleed is ability damage). Furthermore, when the target is subject to an effect that would restore its hit points, that effect restores only half the normal amount of hit points. This curse lasts for a number of rounds equal to the shaman's level. After the duration ends, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Curse of Suffering", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can place this hex on a single creature within 30 feet. The target does not heal damage from cure spells and does not benefit from any spells or effects that remove conditions. This effect lasts for a number of rounds equal to 1/2 the shaman's level. A successful Will saving throw negates this effect. Whether or not the saving throw is successful, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Deny Succor", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>When the shaman casts a cure spell, the maximum number of hit points healed is based on her shaman level, not the limit imposed by the spell. For example an 11th-level shaman with this hex can cast <i>cure light wounds</i> to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.</p>", 
+                                    "type": "ability", 
+                                    "name": "Enhanced Cures", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman creates a bond between herself and another creature within 30 feet. Each round at the start of the shaman's turn, if the bonded creature's hit points are reduced to &ndash;5 or fewer, it heals 5 hit points and the shaman takes 5 points of damage. The shaman can have one bond active per shaman level. The bond continues until the bonded creature dies, the shaman dies, the distance between her and the bonded creature exceeds 100 feet, or the shaman ends it as an immediate action. If the shaman has multiple bonds active, she can end as many as she wants with the same immediate action.</p>", 
+                                    "type": "ability", 
+                                    "name": "Life Link", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can see the states of life, death, and general health of those around her. When she uses this ability, she can tell whether or not creatures within 30 feet of her that she can see are living, wounded, dying, or dead. She can also tell if those creatures are confused, disabled, diseased, nauseated, poisoned sickened or staggered. At 12th level, when using life sight she is able to sense all nearby living creatures; this functions similar to blindsight, but only for living creatures within 30 feet of her. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Life Sight", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal appears to be a beautiful and very healthy version of its species, and seems especially vibrant and full of life. Her animal companion gains fast healing 1; if the spirit animal already has fast healing, instead its fast healing increases by 1.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the life spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can channel positive energy like a cleric, using her shaman level as her effective cleric level when determining the amount of damage healed (or dealt to undead) and the DC. The shaman can use this ability a number of times per day equal to 1 + her Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Channel", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the life spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman gains a +4 bonus on Heal checks. As a standard action, the shaman can move up to half her speed and touch up to six dying creatures. Each creature is automatically stabilized without the need of a Heal check.</p>", 
+                                    "type": "ability", 
+                                    "name": "Healer's Touch", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the life spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman calls upon her spirit to enhance the speed of her healing abilities. This ability allows her to channel positive energy or cast a cure spell as a swift action. The shaman can use this ability a number of times per day equal to her Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Quick Healing", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a perfect channel for life energy. She gains immunity to bleed, death attacks, and negative energy, as well as to the exhausted, fatigued, nauseated, and sickened conditions. Ability damage and drain cannot reduce her to below 1 in any ability score. She automatically succeeds at saving throws against massive damage. When she is reduced to below 0 hit points, she doesn't die until her negative hit point total exceeds double her Constitution score.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the lore spirit appears far wiser and knowing that her age would suggest. Though she can seem unassuming, her eyes give the impression she is peering deep into all she looks at, seeing the secrets of the essential merely by concentrating.</p>", 
+                    "type": "section", 
+                    "name": "Lore", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Identify </i>(1st), <i>tongues</i> (2nd), <i>locate object</i> (3rd), <i>legend lore</i> (4th), <i>contact other plane </i>(5th), <i>mass owl's wisdom</i> (6th), <i>vision</i> (7th), <i>moment of prescience</i> (8th), <i>time stop</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the lore spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman's native intelligence grants her the ability to tap into arcane lore. The shaman can add a number of spells from the sorcerer/wizard spell list equal to her Charisma modifier (minimum 1) to the list of shaman spells she can prepare. To cast these spells she must have an Intelligence score equal to at least 10 + the spell's level, but the saving throw DCs of these spells are based on her Wisdom rather than Intelligence. When she casts these spells, they are treated as divine rather than arcane. Each time the shaman gains a level after taking this hex, she can choose to replace one of these spells for a new spell on the wizard/sorcerer spell list.</p>", 
+                                    "type": "ability", 
+                                    "name": "Arcane Enlightenment", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman relies on wisdom rather than intellect to gain and retain knowledge. She can use her Wisdom modifier instead of her Intelligence modifier on all Intelligence-based skill checks.</p>", 
+                                    "type": "ability", 
+                                    "name": "Benefit of Wisdom", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman violently probes the mind of a single intelligent enemy within 30 feet. The target can attempt a Will saving throw to negate the effect. If it succeeds, it immediately knows the source of the mental prying; otherwise, it's wracked with pain and takes 1d4 points of damage for every 2 levels the shaman possesses. On the round following her successful use of this ability, the shaman can take a full-round action to sort through the jumble of stolen thoughts and memories to attempt a single Knowledge check using the victim's bonus with that skill. The random stolen thoughts remain in the shaman's mind for a number of rounds equal to her Charisma modifier (minimum 1), and she can treat the knowledge gained as if she used <i>detect thoughts</i>. This is a mind-affecting effect. Once she successfully affects a creature, she cannot use this hex on that creature again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Brain Drain", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman's command of lore can cause weaker minds to become mired in confusion. The shaman chooses a single intelligent target within 30 feet. That creature must succeed at a Will saving throw or become confused for a number of rounds equal to the shaman's Charisma modifier (minimum 1). Once affected by this hex, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Confusion Curse", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman targets a single willing ally within 30 feet and shares her knowledge and experience with that target for a number of minutes equal to her Charisma modifier. During that time, the subject knows the languages that the shaman does and uses the shaman's skill modifier on all Knowledge checks instead of its own. Once this duration ends, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Share Knowledge", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal appears to be quiet and unassuming. It gains a +2 bonus on Initiative checks and a +4 bonus on Stealth checks.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the lore spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can identify creatures and gain insight into their strengths and weaknesses. As a standard action, the shaman can attempt a Knowledge skill check to identify a creature and its abilities (using the appropriate skill for the monster's type) with an insight bonus equal to her shaman level. Whether or not the check is successful, she also gains a +2 insight bonus for 1 minute on attack rolls made against that creature and a +2 insight bonus to her AC against attacks made by that creature. These bonuses last for 1 minute. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Monstrous Insight", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the lore spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>Once per day, the shaman can spend 10 minutes in uninterrupted meditation to tap into greater understanding. During this period, her hands produce mysterious writings pertaining to the future. This writing takes the form of <i>divination</i> with 90% effectiveness. The shaman can use this ability an additional time per day at 12th, 16th, and 20th levels.</p>", 
+                                    "type": "ability", 
+                                    "name": "Automatic Writing", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the lore spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman gains the benefit of the <i>tongues</i> spell permanently. She also gains a +10 competence bonus on all Knowledge, Linguistics, and Spellcraft checks.</p>", 
+                                    "type": "ability", 
+                                    "name": "Perfect Knowledge", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes an unending font of knowledge and lore. She can take 20 on all Knowledge skill checks, including those she isn't trained in. Her understanding of the fundamental underpinnings of reality has also become so advanced that she can cast <i>wish</i> once per day. This doesn't require a material component, but the <i>wish</i> cannot be used to grant ability score bonuses or replicate spells with expensive material components.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the nature spirit takes on an appearance that reflects the aspect of the natural world she has the closest connection to. A nature shaman from the forest has a green tinge to her skin and hair, with eyes of sparkling emerald and the scent of green leaves and flowers about her. A nature shaman from the tundra is typically alabaster pale, with platinum hair and crystal blue eyes, and her skin always seems strangely cold.</p>", 
+                    "type": "section", 
+                    "name": "Nature", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Charm animal </i>(1st), <i>barkskin</i> (2nd), <i>speak with plants</i> (3rd), <i>grove of respite</i> (4th), <i>awaken </i>(5th), <i>stone tell</i> (6th), <i>creeping doom</i> (7th), <i>animal shapes</i> (8th), <i>world wave</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the nature spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman entangles a creature within 30 feet for a number of rounds equal to the shaman's Charisma modifier (minimum 1). A successful Reflex saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Entangling Curse", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman summons the powers of nature to erode a construct or object within 30 feet. This erosion deals 1d6 points of damage per 2 shaman levels, ignoring hardness and damage reduction. If used against a construct or an object in another creature's possession, the construct or the creature possessing the object can attempt a Reflex saving throw to halve the damage. Once an object or a construct is damaged by this erosion, it cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Erosion Curse", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can spontaneously cast <i>summon nature's ally </i>spells as a druid. In addition, all animals within 30 feet of the shaman receive a sacred bonus on all saving throws equal to the shaman's Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Friend to Animals", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>Choose a specific kind of animal: eagle, fox, dog, and so on. The shaman gains the ability to converse with that type of animal as if she were under the effects of <i>speak with animal</i>. The shaman gains the ability to communicate with an additional kind of animal for every 3 shaman levels she possesses (two animals at 3rd level, three at 6th, up to a maximum of seven at 18th level).</p>", 
+                                    "type": "ability", 
+                                    "name": "Speak with Animals", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can move through nonmagical fog, rain, mist, snow, and other environmental effects without penalty (see Weather, <i>Core Rulebook</i> 437). She is never slowed by such effects, and she doesn't need to attempt Acrobatics skill checks to move across such surfaces. She can also move through magical environmental effects that she created. At 10th level, the shaman can see twice as far as normal through environmental effects, whether or not they are magical in nature.</p>", 
+                                    "type": "ability", 
+                                    "name": "Stormwalker", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal looks feral, and appears to be in peak physical form. The animal can move through any sort of undergrowth or natural difficult terrain at its normal speed without taking damage or suffering any other impairment. If the animal has a fly speed, it can ignore the penalty on Fly skill checks for winds up to windstorm strength (see page 439 of the <i>Core Rulebook</i>).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the nature spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman causes a small storm of swirling wind and rain to form around one creature within 30 feet. This storm causes the target to treat all foes as if they had concealment, suffering a 20% miss chance for 1 round plus 1 round for every 4 shaman levels she possesses. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a <i>thundering</i> weapon.</p>", 
+                                    "type": "ability", 
+                                    "name": "Storm Burst", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the nature spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>Whenever the shaman is reduced to below 0 hit points, she automatically stabilizes and gains fast healing 1 for 1d4 rounds. At 15th level, this increases to fast healing 3.</p>", 
+                                    "type": "ability", 
+                                    "name": "Spirit of Nature", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the nature spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman's spirit animal takes the form of an animal companion (<i>Core Rulebook</i> 51) of her choice, using her shaman level as her effective druid level. The animal retains all the special abilities and the Intelligence score of the spirit animal, but also has the statistics and abilities of an animal companion. If the animal is dismissed, is lost, or dies, it can be replaced in the same way as a normal spirit animal.</p>", 
+                                    "type": "ability", 
+                                    "name": "Companion Animal", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a spirit of nature. Once per day, she can surround herself with an organic cocoon of silk as a full-round action. While enclosed in the cocoon, she's considered helpless. Eight hours later, she emerges, having changed her type to plant, animal, or humanoid, and having gained superficial physical characteristics of the chosen type as appropriate. She must choose a type that is different from her current type. This effect change doesn't alter her Hit Dice, hit points, saving throws, skill ranks, class skills, or proficiencies. The effect is permanent, until the shaman chooses to transform again. Each time the transformation is made, the shaman is cleansed of all poisons or diseases, restored to full hit points, and healed of all ability damage.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>The skin of a shaman who selects the stone spirit takes on a rough, stony appearance. When the shaman calls upon one of this spirit's abilities, tiny gemstones underneath her flesh pulse with a bright glow, like phosphorescent geodes glittering in a dark cave.</p>", 
+                    "type": "section", 
+                    "name": "Stone", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Magic stone </i>(1st), <i>stone call</i> (2nd), <i>meld into stone</i> (3rd), <i>wall of stone</i> (4th), <i>stoneskin </i>(5th), <i>stone tell</i> (6th), <i>statue</i> (7th), <i>repel metal and stone</i> (8th), <i>clashing rocks</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the stone spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman sees through stone, earth, or sand as easily as if it were transparent crystal. Her gaze can penetrate a number of feet equal to her shaman level (or 1/12th this thickness of metal). The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Crystal Sight", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes one creature within 30 feet to become heavy and lethargic. The creature is treated as if it were carrying a medium load. If the creature is already carrying a medium load, it is instead treated as if it were carrying a heavy load. If the creature is carrying a heavy load, its maximum Dexterity bonus to AC is reduced to +0, it takes a &ndash;9 armor check penalty, and its movement is reduced to 5 feet. The effect lasts for a number of rounds equal to the shaman's level. A successful Will saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Lodestone", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes a creature within 30 feet to become slightly magnetic until the end of the shaman's next turn. Whenever the creature is attacked with a melee or ranged weapon constructed primarily of metal, it takes a &ndash;2 penalty to AC. At 8th and 16th levels, the penalty increases by &ndash;2 and the duration extends by 1 round. Once affected, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Metal Curse", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman receives a +4 bonus to her CMD when resisting bull rush or trip attempts as long as she is standing on the ground. At 5th level, the shaman receives Improved Trip as a bonus feat. At 10th level, the shaman receives Greater Trip as a bonus feat. The shaman does not need to meet the prerequisites of these feats.</p>", 
+                                    "type": "ability", 
+                                    "name": "Stone Stability", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman touches a willing creature (including herself) and grants a ward of stone. The next time the warded creature is struck with a melee attack, it is treated as if it has DR 5/adamantine. This ward lasts for 1 minute, after which it fades away if not already expended. At 8th and 16th levels, the ward lasts for one additional attack. Once this ward ends, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Ward of Stone", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal looks as though it's made out of earth and stone, with tiny gemstones embedded in its flesh. The animal gains DR 5/adamantine.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the stone spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman can make a melee touch attack that deals 1d6 points of acid damage + 1 point for every 2 shaman levels she possesses. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a <i>corrosive</i> weapon.</p>", 
+                                    "type": "ability", 
+                                    "name": "Touch of Acid", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the stone spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman gains DR 2/adamantine. This DR increases by 1 for every 4 levels beyond 8th the shaman possesses. In addition, as a standard action, she can cause jagged pieces of stone to explode from her body in a 10-foot-radius burst. This deals 1d6 points of piercing damage per 2 shaman levels she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>", 
+                                    "type": "ability", 
+                                    "name": "Body of Earth", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the stone spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman assumes the form of a Huge (or smaller) earth elemental, as <i>elemental body IV</i> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a being of acid and earth. The shaman gains acid resistance 30. She can also apply any one of the following feats to any acid or earth spell she casts without increasing the spell's level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. She doesn't need to possess these feats to use this ability.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the waves spirit has a fluid grace that exhibits itself whenever she moves. When she calls upon one of this spirit's abilities, floating orbs dance about her, sublimating between icy crystals, misty vapors, and globules of water.</p>", 
+                    "type": "section", 
+                    "name": "Waves", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Hydraulic push</i>(1st), <i>slipstream</i>(2nd), <i>water breathing </i>(3rd), <i>wall of ice </i>(4th), <i>geyser</i>(5th), <i>fluid form</i>(6th), <i>vortex</i> (7th), <i>seamantle</i> (8th), <i>tsunami</i>(9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the waves spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes one creature within 30 feet to become more susceptible to the sapping powers of cold for 1 minute. When a creature takes cold damage while under this effect, it is entangled for 1 round. If the creature takes cold damage while already entangled by beckoning chill, the duration of the entangled condition increases by 1 round. Once affected, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Beckoning Chill", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The force of a waves shaman's water spells can bring even the mightiest of foes to the ground. When the shaman casts a spell with the water descriptor, she does so at 1 caster level higher. If that spell deals damage, the target must succeed at a Fortitude saving throw or be knocked prone. At 8th level, the shaman casts water spells at 2 caster levels higher. At 16th level, her ability to knock creatures prone extends to any spell that deals damage.</p>", 
+                                    "type": "ability", 
+                                    "name": "Crashing Waves", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman's magic is not constrained by the reservoirs of magic that hold others back. She is able to prepare her spirit magic spells in her regular spell slots. If the shaman changes her wandering spirit, any prepared spirit magic spell belonging to that spirit becomes an open spell slot.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fluid Magic", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman touches a willing creature (including herself) and enshrouds that creature in mist. This grants the creature concealment as the <i>blur</i> spell. The mist dissipates after it causes an attack to miss because of concealment or after 1 minute, whichever comes first. At 8th and 16th levels, the mist lasts for one additional attack. Once this mist around it dissipates, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Mist's Shroud", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman sees through fog and mist without penalty as long as there is enough light to otherwise allow her to see normally. At 7th level, she can use can use <i>scrying</i>, using any calm pool of water that's at least 1 foot in diameter as the sole focus. At 15th level, this functions as <i>greater scrying</i>. She can use these abilities for a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Water Sight", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The skin of the shaman's spirit animal constantly distorts, much as a pond's surface ripples when drops of water fall gently into it. The animal gains Mobility as a bonus feat. The animal doesn't need to meet the prerequisites for this feat. In addition, the animal can breathe underwater.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the waves spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman can perform a melee touch attack that drenches a creature and pushes it away. The opponent takes 1d6 points of nonlethal damage + 1 point for every 2 shaman levels they possess and is pushed 5 feet directly away from the shaman. This movement does not provoke attacks of opportunity. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any melee weapon she wields is treated as if it had the <i>quenching</i> weapon special ability.</p>", 
+                                    "type": "ability", 
+                                    "name": "Wave Strike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the waves spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman gains a swim speed equal to her base land speed, as well as the ability to breathe underwater. In addition, she can unleash a torrent of ice and water from her hands in a 15-foot cone as a standard action. This torrent deals 1d4 points of cold damage per 2 shaman level she possesses, and pushes affected creatures back 5 feet directly away from the shaman. A successful Reflex saving throw halves the damage and negates the push. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fluid Mastery", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the waves spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman assumes the form of a Huge (or smaller) water elemental, as <i>elemental body IV</i> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a master of cold and water. The shaman gains cold resistance 30. She can also apply any one of the following feats to any cold or water spell she casts without increasing the spell's level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. She doesn't need to possess these feats to use this ability.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A shaman who selects the wind spirit appears windswept, and her movements seem lithe and carefree.</p>", 
+                    "type": "section", 
+                    "name": "Wind", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Alter winds</i> (1st), <i>gust of wind</i> (2nd), <i>cloak of winds</i> (3rd), <i>river of wind</i> (4th), <i>control winds </i>(5th), <i>sirocco</i> (6th), <i>control weather</i> (7th), <i>whirlwind</i> (8th), <i>winds of vengeance</i> (9th).</p>", 
+                            "type": "section", 
+                            "name": "Spirit Magic Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the wind spirit can select from the following hexes.</p>", 
+                            "type": "section", 
+                            "name": "Hexes", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman creates an invisible shell of air that grants her a +4 armor bonus to AC. At 7th level and every 4 levels thereafter, this bonus increases by 2. At 13th level, this barrier causes incoming arrows, rays, and other ranged attacks requiring an attack roll against her to suffer a 50% miss chance. The shaman can use this barrier for 1 hour per shaman level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>", 
+                                    "type": "ability", 
+                                    "name": "Air Barrier", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman causes a creature within 30 feet to spark and shimmer with electrical energy. Though this does not harm the creature, it does cause the creature to emit light like a torch, preventing it from gaining any benefit from concealment or invisibility. Furthermore, while the aura lasts, whenever the target is hit with a metal melee weapon, it also takes an amount of electricity damage equal to the shaman's Charisma modifier. The sparking aura lasts a 1 round for ever 2 shaman levels the shaman possesses. Once the aura ends, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Sparking Aura", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>Whenever the shaman confirms a critical hit against an opponent with a spell, the target is staggered for 1 round. At 11th level, the duration increases to 1d4 rounds.</p>", 
+                                    "type": "ability", 
+                                    "name": "Vortex Spells", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman ignores the penalties on Perception checks caused by wind and the first 100 feet of distance. At 7th level she can, as a standard action, hear or see into any area&mdash;as <i>clairaudience</i> or <i>clairvoyance</i>, using that spell's range&mdash;provided that there's an unobstructed path for air to travel between the shaman and the target area. This doesn't require line of effect, meaning the path can turn corners and go through spaces as narrow as 1 inch in diameter. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Wind Sight", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman can touch a willing creature (including herself) and grants a ward of wind. This ward lasts for a number of rounds equal to the shaman's level. When a warded creature is attacked with an arrow, ray, or other ranged attack that requires an attack roll, that attack suffers a 20% miss chance. At 8th level, the ward lasts for 1 minute for every level the shaman possesses. At 16th level, the miss chance increases to 50%. Once affected, the creature cannot be the target of this hex again for 24 hours.</p>", 
+                                    "type": "ability", 
+                                    "name": "Wind Ward", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The shaman's spirit animal crackles with electrical energy when it moves, giving off light like a candle. This electricity deals no damage to the animal or any creature that touches the animal. The animal gains electricity resistance 10.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Animal"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the wind spirit as her spirit or wandering spirit gains the following ability.</p>", 
+                            "type": "section", 
+                            "name": "Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman can make a melee touch attack that deals 1d6 points of electricity damage + 1 point for every 2 shaman levels she possesses. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a <i>shocking</i> weapon.</p>", 
+                                    "type": "ability", 
+                                    "name": "Shocking Touch", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the wind spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "Greater Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>The shaman gains electricity resistance 10. In addition, as a standard action she can unleash a 20-foot line of sparks from her fingertips, dealing 1d4 points of electricity damage per shaman level she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>", 
+                                    "type": "ability", 
+                                    "name": "Spark&lt; Soul", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>A shaman who chooses the wind spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>", 
+                            "type": "section", 
+                            "name": "True Spirit Ability", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>As a standard action, the shaman assumes the form of a Huge (or smaller) lightning elemental, as if using <i>elemental body IV</i> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Upon reaching 20th level, the shaman becomes a being of air and electricity. The shaman gains electricity resistance 30. She can also apply any one of the following feats to any air or electricity spell she casts without increasing the spell's level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. She doesn't need to possess these feats to use this ability.</p>", 
+                            "type": "section", 
+                            "name": "Manifestation"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>By communing with the incredible powers of her spirit, the shaman forges a cherished bond with one specific servant of that spirit&mdash;known as a spirit animal. A spirit animal is a creature chosen by a shaman to serve as a conduit, allowing her to more fully access the magic of her spirit on a daily basis. The shaman's spirit animal also grants her special powers. This ability uses the same rules as the wizard's arcane bond class feature and is treated as a familiar (see pages 78 and 82 of the <i>Core Rulebook</i>), except as noted below.</p><p>A shaman uses her level as her effective wizard level when determining the abilities of her spirit animal. A shaman can select any familiar available to wizards to serve as her spirit animal, although her spirit animal is augmented by the power of her chosen spirit. Once selected, the spirit animal cannot be changed. Although a shaman's spirit animal uses the statistics of a specific animal, it is treated as an outsider with the native subtype for the purposes of spells and abilities that affect it.</p><p>Levels of different classes that are entitled to familiars stack with shaman levels for the purpose of determining any spirit animal abilities that depend on the shaman's level. If a shaman possesses such levels in other classes, her spirit animal always uses the shaman rules for spirit animals, not those used by familiars of other classes (such as witches, wizards, or sorcerers with the arcane bloodline). If the shaman has witch levels, her spirit animal also serves as the conduit to her patron and stores her witch spells. The shaman's spirit animal is treated as a familiar for the purposes of all spells, effects, and abilities that affect familiars.</p><p>If a spirit animal is lost or dies, it can be replaced after 24 hours through a special ritual that consumes material components worth 500 gp per shaman level. The ritual takes 8 hours to complete. The new spirit animal must be of the same sort of creature as the previous one.</p>", 
+            "type": "section", 
+            "name": "Spirit Animal", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 1st level, a shaman's spirit animal gains specific abilities, depending upon the type of spirit selected by the shaman using her spirit class feature. These abilities affect the animal's appearance and grant it special abilities that can aid it in serving the shaman and the spirit it represents and is connected to. These abilities are described in the spirit animal section of each individual spirit description.</p>", 
+                    "type": "ability", 
+                    "name": "Spirit Animal", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>If a shaman is 3rd level or higher, her spirit animal can deliver touch spells or hexes for her. If the shaman and the spirit animal are in contact at the time the shaman casts a touch spell, she can designate her animal as the \"toucher.\" The spirit animal can then deliver the touch spell just as the shaman would. If the shaman casts another spell before the touch is delivered, the touch spell dissipates. If the shaman activates a hex, her spirit animal can be used to make the touch; she doesn't have to be in contact with the animal to use this ability with hexes.</p>", 
+                    "type": "ability", 
+                    "name": "Deliver Touch Spells", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>Shamans gain access to the following spells.</p>", 
+            "type": "section", 
+            "name": "Shaman Spells", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Arcane mark</i>, <i>bleed</i>, <i>create water</i>, <i>dancing lights</i>, <i>daze</i>, <i>detect magic</i>, <i>detect poison</i>, <i>guidance</i>, <i>know direction</i>, <i>light</i>, <i>mending</i>, <i>purify food and drink</i>, <i>read magic</i>, <i>resistance</i>, <i>stabilize</i>, <i>touch of fatigue</i>, <i>virtue</i>.</p>", 
+                    "type": "section", 
+                    "name": "0-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Bane</i>, <i>blend</i>, <i>bless</i>, <i>burning hands</i>, <i>calm animals</i>, <i>cause fear</i>, <i>charm animal</i>, <i>charm person</i>, <i>chill touch</i>, <i>comprehend languages</i>, <i>cure light wounds</i>, <i>dancing lantern</i>, <i>detect animals or plants</i>, <i>detect chaos/evil/good/law</i>, <i>detect undead</i>, <i>discern next of kin</i>, <i>doom</i>, <i>endure elements</i>, <i>entangle</i>, <i>frostbite</i>, <i>gentle breeze</i>, <i>goodberry</i>, <i>heightened awareness</i>, <i>hex vulnerability</i>, <i>hex ward</i>, <i>hide from animals</i>, <i>hydraulic push</i>, <i>inflict light wounds</i>, <i>magic stone</i>, <i>magic weapon</i>, <i>monkey fish</i>, <i>obscuring mist</i>, <i>pass without trace</i>, <i>produce flame</i>, <i>protection from chaos/evil/good/law</i>, <i>remove fear</i>, <i>sense spirit magic</i>, <i>sleep</i>, <i>stone shield</i>, <i>thorn javelin</i>, <i>wave shield</i>.</p>", 
+                    "type": "section", 
+                    "name": "1st-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Aid</i>, <i>alter self</i>, <i>animal messenger</i>, <i>animal purpose training</i>, <i>animate dead (lesser)</i>, <i>augury</i>, <i>barkskin</i>, <i>bear's endurance</i>, <i>beastspeak</i>, <i>bull's strength</i>, <i>buoyancy</i>, <i>burning gaze</i>, <i>calm emotions</i>, <i>commune with birds</i>, <i>cure moderate wounds</i>, <i>darkness</i>, <i>delay poison</i>, <i>eagle eye</i>, <i>eagle's splendor</i>, <i>enthrall</i>, <i>false life</i>, <i>flame blade</i>, <i>focused scrutiny</i>, <i>fog cloud</i>, <i>gentle repose</i>, <i>ghostbane dirge</i>, <i>glide</i>, <i>guiding star</i>, <i>hold person</i>, <i>imbue with elemental might</i>, <i>inflict moderate wounds</i>, <i>levitate</i>, <i>life pact</i>, <i>owl's wisdom</i>, <i>remove paralysis</i>, <i>resist energy</i>, <i>restoration (lesser)</i>, <i>scare</i>,  &lt;i&gt;shield companion&lt;/i&gt;, <i>sickening entanglement</i>, <i>spiritual weapon</i>, <i>summon swarm</i>, <i>tree shape</i>, <i>warp wood</i>, <i>web shelter</i>, <i>wood shape</i>.</p>", 
+                    "type": "section", 
+                    "name": "2nd-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Anchored step</i>, <i>animate dead</i>, <i>aura sight</i>, <i>bestow curse</i>, <i>blindness/deafness</i>, <i>call lightning</i>, <i>clairvoyance/clairaudience</i>, <i>create food and water</i>, <i>cure serious wounds</i>, <i>daylight</i>, <i>deep slumber</i>, <i>deeper darkness</i>, <i>dispel magic</i>, <i>dominate animal</i>, <i>fins to feet</i>, <i>fly</i>, <i>font of spirit magic</i>, <i>hex glyph</i>, <i>inflict serious wounds</i>, <i>magic circle against chaos/evil/good/law</i>, <i>magic vestment</i>, <i>mantle of calm</i>, <i>mindlocked messenger</i>, <i>nauseating trail</i>, <i>pierce disguise</i>, <i>polymorph familiar</i>, <i>protection from energy</i>, <i>remove blindness/deafness</i>, <i>remove curse</i>, <i>sleet storm</i>, <i>speak with dead</i>, <i>speak with haunt</i>, <i>stench of prey</i>, <i>stinking cloud</i>, <i>stone shape</i>, <i>stricken heart</i>, <i>thorny entanglement</i>, <i>ward of the season</i>, <i>water breathing</i>, <i>water walk</i>, <i>wind wall</i>.</p>", 
+                    "type": "section", 
+                    "name": "3rd-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Adjustable polymorph</i>, <i>air geyser</i>, <i>anti-incorporeal shell</i>, <i>ball lightning</i>, <i>command plants</i>, <i>control water</i>, <i>cure critical wounds</i>, <i>curse of burning sleep</i>, <i>detect scrying</i>, <i>dismissal</i>, <i>divination</i>, <i>divine power</i>, <i>earth glide</i>, <i>false life (greater)</i>, <i>familiar melding</i>, <i>fear</i>, <i>giant vermin</i>, <i>ice storm</i>, <i>imbue with spell ability</i>, <i>inflict critical wounds</i>, <i>magic weapon (greater)</i>, <i>neutralize poison</i>, <i>persistent vigor</i>, <i>planar ally (lesser)</i>, <i>poison</i>, <i>rain of frogs</i>, <i>reincarnate</i>, <i>repel vermin</i>, <i>restoration</i>, <i>ride the waves</i>, <i>sands of time</i>, <i>scrying</i>, <i>sending</i>, <i>slowing mud</i>, <i>solid fog</i>, <i>spike stones</i>, <i>spit venom</i>, <i>thorn body</i>, <i>tongues</i>, <i>wandering star motes</i>.</p>", 
+                    "type": "section", 
+                    "name": "4th-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Animal growth</i>, <i>baleful polymorph</i>, <i>blight</i>, <i>break enchantment</i>, <i>breath of life</i>, <i>call lightning storm</i>, <i>commune</i>, <i>commune with nature</i>, <i>control winds</i>, <i>cure light wounds (mass)</i>, <i>curse (major)</i>, <i>dispel chaos/evil/good/law</i>, <i>dominate person</i>, <i>feast on fear</i>, <i>flame strike</i>, <i>ghostbane dirge (mass)</i>, <i>grove of respite</i>, <i>hex glyph (greater)</i>, <i>inflict light wounds (mass)</i>, <i>insect plague</i>, <i>overland flight</i>, <i>rest eternal</i>, <i>stoneskin</i>, <i>true seeing</i>, <i>wall of fire</i>, <i>wall of thorns</i>.</p>", 
+                    "type": "section", 
+                    "name": "5th-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Antilife shell</i>, <i>awaken</i>, <i>banishment</i>, <i>bear's endurance (mass)</i>, <i>bull's strength (mass)</i>, <i>cone of cold</i>, <i>create undead</i>, <i>cure moderate wounds (mass)</i>, <i>dispel magic (greater)</i>, <i>eagle's splendor (mass)</i>, <i>find the path</i>, <i>fire seeds</i>, <i>flesh to stone</i>, <i>inflict moderate wounds (mass)</i>, <i>owl's wisdom (mass)</i>, <i>planar ally</i>, <i>raise dead</i>, <i>slay living</i>, <i>snake staff</i>, <i>stone to flesh</i>, <i>wall of stone</i>.</p>", 
+                    "type": "section", 
+                    "name": "6th-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Animate plants</i>, <i>cloak of dreams</i>, <i>control weather</i>, <i>creeping doom</i>, <i>cure serious wounds (mass)</i>, <i>fairy ring retreat</i>, <i>harm</i>, <i>heal</i>, <i>ice body</i>, <i>inflict serious wounds (mass)</i>, <i>liveoak</i>, <i>plane shift</i>, <i>regenerate</i>, <i>restoration (greater)</i>, <i>scrying (greater)</i>, <i>stone tell</i>, <i>sunbeam</i>, <i>transport via plants</i>, <i>vision</i>, <i>vortex</i>, <i>wind walk</i>.</p>", 
+                    "type": "section", 
+                    "name": "7th-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Animal shapes</i>, <i>blood mist</i>, <i>circle of clarity</i>, <i>create greater undead</i>, <i>cure critical wounds (mass)</i>, <i>destruction</i>, <i>discern location</i>, <i>earthquake</i>, <i>fire storm</i>, <i>horrid wilting</i>, <i>inflict critical wounds (mass)</i>, <i>irresistible dance</i>, <i>planar ally (greater)</i>, <i>resurrection</i>, <i>stormbolts</i>, <i>sunburst</i>, <i>whirlwind</i>.</p>", 
+                    "type": "section", 
+                    "name": "8th-Level Shaman Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Elemental swarm</i>, <i>energy drain</i>, <i>etherealness</i>, <i>foresight</i>, <i>heal (mass)</i>, <i>polar midnight</i>, <i>shambler</i>, <i>shapechange</i>, <i>soul bind</i>, <i>storm of vengeance</i>, <i>tsunami</i>, <i>wail of the banshee</i>, <i>winds of vengeance</i>.</p>", 
+                    "type": "section", 
+                    "name": "9th-Level Shaman Spells"
+                }
+            ]
+        }
+    ], 
+    "text": "<p>While some heroes speak to gods or consort with otherworldly muses, shamans commune with the spirits of the world and the energies that exist in every living thing. These divine adventurers draw upon their power to shape the world and expand the influence of their spiritual patrons. Shamans have strong ties to natural spirits. They form powerful bonds with particular spirits, and as their power grows they learn to call upon other spirits in times of need.</p>", 
+    "hit_dice": "d8", 
+    "source": "Advanced Class Guide", 
+    "subtype": "hybrid", 
+    "type": "class", 
+    "alignment": "Any."
+}

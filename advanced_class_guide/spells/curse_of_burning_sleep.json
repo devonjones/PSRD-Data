@@ -1,0 +1,54 @@
+{
+    "school": "transmutation", 
+    "saving_throw": "Will negates (see text)", 
+    "name": "Curse Of Burning Sleep", 
+    "descriptor": [
+        "curse", 
+        "fire"
+    ], 
+    "text": "<p>You place a curse upon the target that triggers 1 hour after the next time it falls asleep. When the curse is triggered, the creature bursts into flame, taking 1d6 points of fire damage per 2 caster levels (maximum 8d6). Furthermore, it catches on fire, taking 2d6 points of fire damage per round at the end of its turn each round until the creature dies. If the target is still asleep, the fire damage from this spell wakes it.</p><p>Only one of these spells can be in place on a creature at any time. This has no effect on creatures that don't sleep.</p>", 
+    "spell_resistance": "yes", 
+    "level": [
+        {
+            "class": "Shaman", 
+            "level": 4
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 4
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 4
+        }, 
+        {
+            "class": "Witch", 
+            "level": 4
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Class Guide", 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "component_text": "V, S, M (a feather and a drop of oil)", 
+    "descriptor_text": "curse, fire", 
+    "effects": [
+        {
+            "text": "one creature", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }, 
+        {
+            "text": "a feather and a drop of oil", 
+            "type": "M"
+        }
+    ], 
+    "duration": "permanent until triggered (see text)", 
+    "type": "spell"
+}
