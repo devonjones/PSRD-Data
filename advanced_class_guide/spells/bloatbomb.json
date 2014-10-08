@@ -1,0 +1,54 @@
+{
+    "school": "necromancy", 
+    "saving_throw": "Fortitude negates or Reflex half (see text)", 
+    "name": "Bloatbomb", 
+    "descriptor": [
+        "acid", 
+        "death"
+    ], 
+    "text": "<p>The target creature dies if it fails a Fortitude saving throw and its Hit Dice are no more than half your caster level. If it dies, its corpse rapidly putrefies. The next creature to touch the corpse within 1 minute per level of the target's death causes the corpse to explode in a 10-foot-radius burst, dealing 3d6 points of acid damage (Reflex half).</p>", 
+    "spell_resistance": "yes", 
+    "level": [
+        {
+            "class": "Antipaladin", 
+            "level": 4
+        }, 
+        {
+            "class": "Cleric", 
+            "level": 4
+        }, 
+        {
+            "class": "Oracle", 
+            "level": 4
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 4
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 4
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Class Guide", 
+    "range": "touch", 
+    "component_text": "V, S", 
+    "descriptor_text": "acid, death", 
+    "effects": [
+        {
+            "text": "living creature touched", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "instantaneous and 1 minute/level (see text)", 
+    "type": "spell"
+}

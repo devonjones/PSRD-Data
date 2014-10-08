@@ -1,0 +1,38 @@
+{
+    "school": "necromancy", 
+    "saving_throw": "Will half (harmless)", 
+    "name": "Repair Undead, Mass", 
+    "parent": "Repair Undead", 
+    "level": [
+        {
+            "class": "Sorcerer", 
+            "level": 5
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 5
+        }
+    ], 
+    "text": "<p>This spell functions as <i>repair undead</i>, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature.</p>", 
+    "spell_resistance": "yes (harmless)", 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Class Guide", 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "component_text": "V, S", 
+    "effects": [
+        {
+            "text": "one undead creature/level, no two of which can be more than 30 ft. apart", 
+            "name": "Targets"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "instantaneous", 
+    "type": "spell"
+}

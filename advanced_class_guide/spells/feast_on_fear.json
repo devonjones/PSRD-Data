@@ -1,0 +1,55 @@
+{
+    "school": "necromancy", 
+    "saving_throw": "Fortitude negates", 
+    "name": "Feast On Fear", 
+    "descriptor": [
+        "emotion", 
+        "fear", 
+        "mind-affecting"
+    ], 
+    "text": "<p>Each round, you can target a single living creature of up to 9 HD and strike it with terrifying waves of power. If the target fails its saving throw, it becomes panicked for 1d4 rounds, and you gain 5 temporary hit points (which disappear after 1 hour). After the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time.</p><p>These temporary hit points stack if they are from different creatures.</p>", 
+    "spell_resistance": "yes", 
+    "level": [
+        {
+            "class": "Bard", 
+            "level": 4
+        }, 
+        {
+            "class": "Shaman", 
+            "level": 5
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 5
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 5
+        }, 
+        {
+            "class": "Witch", 
+            "level": 5
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Class Guide", 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
+    "component_text": "V, S", 
+    "descriptor_text": "emotion, fear, mind-affecting", 
+    "effects": [
+        {
+            "text": "one or more living creatures (see text)", 
+            "name": "Targets"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "1 round/level", 
+    "type": "spell"
+}

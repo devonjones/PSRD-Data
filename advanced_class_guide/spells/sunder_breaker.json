@@ -1,0 +1,45 @@
+{
+    "school": "abjuration", 
+    "saving_throw": "Will negates (harmless) and see text", 
+    "name": "Sunder Breaker", 
+    "descriptor": [
+        "force"
+    ], 
+    "text": "<p>You place an invisible ward upon the target. The next time a creature succeeds at a sunder combat maneuver against the target, the attacker's weapon takes 1d6 points of damage per caster level (maximum 10d6). If the attacker used a natural weapon for the sunder, the attacker takes half this damage. Spell resistance applies to this damage. The attacker can attempt a Fortitude save to halve this damage.</p><p>The ward on the target counts as a magical trap and can be detected and disabled as such.</p>", 
+    "spell_resistance": "yes (harmless) and see text", 
+    "level": [
+        {
+            "class": "Magus", 
+            "level": 1
+        }, 
+        {
+            "class": "Sorcerer", 
+            "level": 1
+        }, 
+        {
+            "class": "Wizard", 
+            "level": 1
+        }
+    ], 
+    "casting_time": "1 standard action", 
+    "source": "Advanced Class Guide", 
+    "range": "touch", 
+    "component_text": "V, S", 
+    "descriptor_text": "force", 
+    "effects": [
+        {
+            "text": "creature touched", 
+            "name": "Target"
+        }
+    ], 
+    "components": [
+        {
+            "type": "V"
+        }, 
+        {
+            "type": "S"
+        }
+    ], 
+    "duration": "1 minute/level (D) or until discharged", 
+    "type": "spell"
+}

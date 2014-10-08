@@ -1,0 +1,1060 @@
+{
+    "name": "Bloodrager", 
+    "sections": [
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>Masters of the battlefield, bloodragers unleash fearful carnage on their enemies using their bloodlines and combat prowess. The bloodrager's place is on the front lines, right in his enemies' faces, supplying tremendous martial force bolstered by a trace of arcane magic. </p>", 
+            "type": "section", 
+            "name": "Role"
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>Barbarian and sorcerer.</p>", 
+            "type": "section", 
+            "name": "Parent Classes"
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>3d6 &times; 10 gp (average 105 gp).</p>", 
+            "type": "section", 
+            "name": "Starting Wealth", 
+            "sections": [
+                {
+                    "text": "<table id=\"bloodrager-progression-table\">\n<caption>Bloodrager</caption>\n<thead>\n<tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"4\" style=\"text-align: center;\">Spells per Day</th></tr>\n<tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr>\n</thead>\n<tbody>\n<tr><td>1st</td><td>+1</td><td>+2</td><td>+0</td><td>+0</td><td>Bloodline, bloodline power, bloodrage, fast movement</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>2nd</td><td>+2</td><td>+3</td><td>+0</td><td>+0</td><td>Uncanny dodge</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>3rd</td><td>+3</td><td>+3</td><td>+1</td><td>+1</td><td>Blood sanctuary</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>4th</td><td>+4</td><td>+4</td><td>+1</td><td>+1</td><td>Blood casting, bloodline power, eschew materials</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>5th</td><td>+5</td><td>+4</td><td>+1</td><td>+1</td><td>Improved uncanny dodge</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>6th</td><td>+6/+1</td><td>+5</td><td>+2</td><td>+2</td><td>Bloodline feat</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>7th</td><td>+7/+2</td><td>+5</td><td>+2</td><td>+2</td><td>Bloodline spell, damage reduction 1/&mdash;</td><td>1</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>8th</td><td>+8/+3</td><td>+6</td><td>+2</td><td>+2</td><td>Bloodline power</td><td>1</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>9th</td><td>+9/+4</td><td>+6</td><td>+3</td><td>+3</td><td>Bloodline feat</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>10th</td><td>+10/+5</td><td>+7</td><td>+3</td><td>+3</td><td>Bloodline spell, damage reduction 2/&mdash;</td><td>2</td><td>1</td><td>1</td><td>&mdash;</td></tr>\n<tr><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+3</td><td>+3</td><td>Greater bloodrage</td><td>2</td><td>1</td><td>1</td><td>&mdash;</td></tr>\n<tr><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+4</td><td>+4</td><td>Bloodline feat, bloodline power</td><td>2</td><td>2</td><td>1</td><td>&mdash;</td></tr>\n<tr><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+4</td><td>+4</td><td>Bloodline spell, damage reduction 3/&mdash;</td><td>3</td><td>2</td><td>1</td><td>1</td></tr>\n<tr><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+4</td><td>+4</td><td>Indomitable will </td><td>3</td><td>2</td><td>1</td><td>1</td></tr>\n<tr><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+5</td><td>+5</td><td>Bloodline feat </td><td>3</td><td>2</td><td>2</td><td>1</td></tr>\n<tr><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+5</td><td>Bloodline spell, bloodline power, damage reduction 4/&mdash;</td><td>3</td><td>3</td><td>2</td><td>1</td></tr>\n<tr><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+5</td><td>Tireless bloodrage</td><td>4</td><td>3</td><td>2</td><td>1</td></tr>\n<tr><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+6</td><td>Bloodline feat</td><td>4</td><td>3</td><td>2</td><td>2</td></tr>\n<tr><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+6</td><td>Damage reduction 5/&mdash;</td><td>4</td><td>3</td><td>3</td><td>2</td></tr>\n<tr><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+6</td><td>Bloodline power, mighty bloodrage</td><td>4</td><td>4</td><td>3</td><td>2</td></tr>\n</tbody>\n</table>", 
+                    "type": "table", 
+                    "name": "Bloodrager", 
+                    "source": "Advanced Class Guide"
+                }, 
+                {
+                    "text": "<table id=\"bloodrager-spells-known\">\n<caption>Bloodrager Spells Known</caption>\n<thead>\n<tr><th>Level</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr>\n</thead>\n<tbody>\n<tr><td>1st</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>2nd</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>3rd</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>4th</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>5th</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>6th</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>7th</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>8th</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>9th</td><td>5</td><td>4</td><td>&mdash;</td><td>&mdash;</td></tr>\n<tr><td>10th</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td></tr>\n<tr><td>11th</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr>\n<tr><td>12th</td><td>6</td><td>5</td><td>4</td><td>&mdash;</td></tr>\n<tr><td>13th</td><td>6</td><td>5</td><td>4</td><td>2</td></tr>\n<tr><td>14th</td><td>6</td><td>5</td><td>4</td><td>3</td></tr>\n<tr><td>15th</td><td>6</td><td>6</td><td>5</td><td>4</td></tr>\n<tr><td>16th</td><td>6</td><td>6</td><td>5</td><td>4</td></tr>\n<tr><td>17th</td><td>6</td><td>6</td><td>5</td><td>4</td></tr>\n<tr><td>18th</td><td>6</td><td>6</td><td>6</td><td>5</td></tr>\n<tr><td>19th</td><td>6</td><td>6</td><td>6</td><td>5</td></tr>\n<tr><td>20th</td><td>6</td><td>6</td><td>6</td><td>5</td></tr>\n</tbody>\n</table>", 
+                    "type": "table", 
+                    "name": "Bloodrager Spells Known", 
+                    "source": "Advanced Class Guide"
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>The bloodrager's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Knowledge (arcana) (Int), Perception (Wis), Ride (Dex), Spellcraft (Int), Survival (Wis), and Swim (Str). </p>", 
+            "type": "section", 
+            "name": "Class Skills", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>4 + Int modifier.</p>", 
+                    "type": "section", 
+                    "name": "Skill Ranks per Level"
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>The following are the class features of the bloodrager. </p>", 
+            "type": "section", 
+            "name": "Class Features", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>Bloodragers are proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields). A bloodrager can cast bloodrager spells while wearing light armor or medium armor without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a bloodrager wearing heavy armor or wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic components. </p>", 
+                    "type": "section", 
+                    "name": "Weapon and Armor Proficiency"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus feats, and bonus spells. Sometimes this source reflects a distant blood relationship to a powerful being, or is due to an extreme event involving such a creature somewhere in his family's past. Regardless of the source, this influence manifests in a number of ways. A bloodrager must pick one bloodline upon taking his first level of bloodrager. Once made, this choice cannot be changed.</p><p>When choosing a bloodline, the bloodrager's alignment doesn't restrict his choices. A good bloodrager could come from an abyssal bloodline, a celestial bloodline could beget an evil bloodrager generations later, a bloodrager from an infernal bloodline could be chaotic, and so on. Though his bloodline empowers him, it doesn't dictate or limit his thoughts and behavior.</p><p>The bloodrager gains bloodline powers at 1st level, 4th level, and every 4 levels thereafter. The bloodline powers a bloodrager gains are described in his chosen bloodline. For all spell-like bloodline powers, treat the character's bloodrager level as the caster level.</p><p>At 6th level and every 3 levels thereafter, a bloodrager receives one bonus feat chosen from a list specific to each bloodline. The bloodrager must meet the prerequisites for these bonus feats. </p><p>At 7th, 10th, 13th, and 16th levels, a bloodrager learns an additional spell derived from his bloodline. These spells are in addition to the number of spells given on the table above. These spells cannot be exchanged for different spells at higher levels.</p><p>If the bloodrager takes levels in another class that grants a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of the classes must change. Subject to GM discretion, the bloodrager can change his former bloodline to make them conform.</p>", 
+                    "type": "section", 
+                    "name": "Bloodline"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>The bloodrager's source of internal power grants him the ability to bloodrage. At 1st level, a bloodrager can bloodrage for a number of rounds per day equal to 4 + his Constitution modifier. At each level after 1st, he can bloodrage for 2 additional rounds per day. Temporary increases to Constitution (such as those gained from bloodraging or spells like <i>bear's endurance</i>) don't increase the total number of rounds that a bloodrager can bloodrage per day. The total number of rounds of bloodrage per day is renewed after resting for 8 hours, although these hours need not be consecutive.</p><p>A bloodrager can enter a bloodrage as a free action. While in a bloodrage, a bloodrager gains a +4 morale bonus to his Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, he takes a &ndash;2 penalty to Armor Class. The increase to Constitution grants the bloodrager 2 hit points per Hit Die, but these disappear when the bloodrage ends and are not lost first like temporary hit points. While bloodraging, a bloodrager cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</p><p>A bloodrager can end his bloodrage as a free action. When the bloodrage ends, he's fatigued for a number of rounds equal to twice the number of rounds spent in the bloodrage. A bloodrager cannot enter a new bloodrage while fatigued or exhausted, but can otherwise enter bloodrage multiple times during a single encounter or combat. If a bloodrager falls unconscious, his bloodrage immediately ends, placing him in peril of death.</p><p>Bloodrage counts as the barbarian's rage class feature for the purpose of feat prerequisites, feat abilities, magic item abilities, and spell effects.</p>", 
+                    "type": "ability", 
+                    "name": "Bloodrage", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>A bloodrager's land speed is faster than is normal for his race by 10 feet. This benefit applies only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the bloodrager's speed due to any armor worn or load carried. This bonus stacks with any other bonuses to the bloodrager's land speed.</p>", 
+                    "type": "ability", 
+                    "name": "Fast Movement", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 2nd level, a bloodrager can react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. He still loses his Dexterity bonus to AC if immobilized. A bloodrager with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the feint action against him.</p><p>If a bloodrager already possesses uncanny dodge from a different class, he automatically gains improved uncanny dodge (see below) instead.</p>", 
+                    "type": "ability", 
+                    "name": "Uncanny Dodge", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 3rd level, due to the power of his blood, a bloodrager can stand confidently amid the effects of spells cast by himself or his allies. He gains a +2 bonus on saving throws against spells that he or an ally casts. </p>", 
+                    "type": "ability", 
+                    "name": "Blood Sanctuary", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 4th level, the bloodrager gains the ability to cast spells even while bloodraging. He can also cast these spells defensively and can make concentration checks for these spells while bloodraging. While bloodraging, he can cast and concentrate on only his bloodrager spells (see below); spells from other classes cannot be cast during this state.</p>", 
+                    "type": "ability", 
+                    "name": "Blood Casting", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 4th level, the bloodrager gains Eschew Materials as a bonus feat.</p>", 
+                    "type": "section", 
+                    "name": "Eschew Materials"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>Beginning at 4th level, a bloodrager gains the ability to cast a small number of arcane spells drawn from the bloodrager spell list. To learn or cast a spell, a bloodrager must have a Charisma score equal to at least 10 + the spell level. He can cast spells he knows without preparing them ahead of time. The saving throw DC against a bloodrager's spell is 10 + the spell level + the bloodrager's Charisma modifier.</p><p>Like other spellcasters, a bloodrager can cast only a certain number of spells of each level per day. His base daily spell allotment is given on the table above. In addition, he receives bonus spells per day if he has a high Charisma score. The bloodrager does not need to prepare these spells in advance; he can cast any spell he knows at any time, assuming he hasn't yet used up his allotment of spells per day for the spell's level.</p><p>The bloodrager's selection of spells is limited. At 4th level, a bloodrager knows two 1st-level spells of his choice. A bloodrager gains more spells as he increases in level, as indicated on the table above. Unlike spells per day, the number of spells a bloodrager knows is not affected by his Charisma score, but it is affected by any bonus spells he gains from his bloodline.</p>", 
+                    "type": "section", 
+                    "name": "Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 5th level, a bloodrager can no longer be flanked. This defense denies rogues (or other classes with the sneak attack ability) the ability to sneak attack the bloodrager by flanking him, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than the target has bloodrager levels.</p><p>If a character already has uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack when determining the minimum rogue level required to flank the character.</p>", 
+                    "type": "ability", 
+                    "name": "Improved Uncanny Dodge", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 7th level, a bloodrager gains damage reduction. Subtract 1 from the damage the bloodrager takes each time he is dealt damage from a weapon or a natural attack. At 10th level, and every 3 levels thereafter, this damage reduction increases by 1 point. Damage reduction can reduce damage to 0, but not below 0.</p>", 
+                    "type": "ability", 
+                    "name": "Damage Reduction", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 11th level, when a bloodrager enters a bloodrage, the morale bonus to his Strength and Constitution increases to +6 and the morale bonus on his Will saves increases to +3. In addition, upon entering a bloodrage, the bloodrager can apply the effects a bloodrager spell he knows of 2nd level or lower to himself. The spell must have a range of touch or personal. If the spell's duration is greater than 1 round, it instead lasts for the duration of the bloodrage. This use consumes a bloodrager spell slot, as if he had cast the spell; he must have the spell slot available to take advantage of this effect.</p><p>Greater bloodrage counts as the barbarian's greater rage ability for the purposes of feat prerequisites, feat abilities, magic item abilities, and spell effects.</p>", 
+                    "type": "ability", 
+                    "name": "Greater Bloodrage", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 14th level, a bloodrager gains a +4 bonus on Will saves to resist enchantment spells while bloodraging. This bonus stacks with all other modifiers, including the morale bonus on Will saves he also receives during his bloodrage. </p>", 
+                    "type": "ability", 
+                    "name": "Indomitable Will", 
+                    "ability_types": [
+                        "Extraordinary"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 17th level, a bloodrager no longer becomes fatigued at the end of his bloodrage.</p>", 
+                    "type": "ability", 
+                    "name": "Tireless Bloodrage", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At 20th level, when a bloodrager enters a bloodrage, the morale bonus to his Strength and Constitution increases to +8, and the morale bonus on his Will saves increases to +4. Furthermore, the spell he can apply to himself at the beginning of a bloodrage due to the greater bloodrage class feature is not limited to only spells of 2nd level or lower.</p>", 
+                    "type": "ability", 
+                    "name": "Mighty Bloodrage", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>When a bloodrager enters a bloodrage, he often takes on a physical transformation influenced by his bloodline and powered by the magic that roils within him. Unless otherwise specified, he gains the effects of his bloodline powers only while in a bloodrage; once the bloodrage ends, all powers from his bloodline immediately cease, and any physical changes the bloodrager underwent revert, restoring him to normal.</p>", 
+            "type": "section", 
+            "name": "Bloodrager Bloodlines", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>There is a taint in your blood that is both alien and bizarre. When you bloodrage, this manifests in peculiar and terrifying ways.</p>", 
+                    "type": "section", 
+                    "name": "Aberrant", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Combat Reflexes, Great Fortitude, Improved Disarm, Improved Grapple, Improved Initiative, Improved Unarmed Strike, Iron Will.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Enlarge person</i> (7th), <i>see invisibility</i> (10th), <i>displacement</i> (13th), <i>black tentacles</i> (16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>While bloodraging, you gain the abilities and immunities of some aberrations, but show signs of your tainted heritage.</p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"staggering-strike\">At 1st level, when you confirm a critical hit the target must succeed at a Fortitude saving throw or be staggered for 1 round. The DC of this save is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. These effects stack with the Staggering Critical feat; the target must save against each effect individually. </p>", 
+                                    "type": "ability", 
+                                    "name": "Staggering Strike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"abnormal-reach\">At 4th level, your limbs elongate; your reach increases by 5 feet.</p>", 
+                                    "type": "ability", 
+                                    "name": "Abnormal Reach", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"aberrant-fortitude\">At 8th level, you become immune to the sickened and nauseated conditions.</p>", 
+                                    "type": "ability", 
+                                    "name": "Aberrant Fortitude", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"unusual-anatomy\">At 12th level, your internal anatomy shifts and changes, giving you a 50% chance to negate any critical hit or sneak attack that hits you. The damage is instead rolled normally.</p>", 
+                                    "type": "ability", 
+                                    "name": "Unusual Anatomy", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 16th level, you are immune to disease, exhaustion, fatigue, and poison, and to the staggered condition.</p>", 
+                                    "type": "ability", 
+                                    "name": "Aberrant Resistance", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"aberrant-form\">At 20th level, your body becomes truly unnatural. You are immune to critical hits and sneak attacks. In addition, you gain blindsight with a range of 60 feet and your bloodrager damage reduction increases by 1. You have these benefits constantly, even while not bloodraging. </p>", 
+                                    "type": "ability", 
+                                    "name": "Aberrant Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't manifest in all of your kin, in those moments when you're bloodraging, you embody its terrifying presence.</p>", 
+                    "type": "section", 
+                    "name": "Abyssal", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Cleave, Great Fortitude, Improved Bull Rush, Improved Sunder, Intimidating Prowess, Power Attack, Toughness.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Ray of enfeeblement</i> (7th), <i>bull's strength</i> (10th), <i>rage</i> (13th), <i>stoneskin</i> (16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The power of the Abyss courses through your veins, causing horrific transformations during your bloodrage. </p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 1st level, you grow claws while bloodraging. These claws are treated as natural weapons, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks deal 1d6 points of damage each (1d4 if you are Small) plus your Strength modifier. At 4th level, these claws are considered magic weapons for the purpose of overcoming damage resistance. At 8th level, the damage increases to 1d8 points (1d6 if you are Small). At 12th level, these claws become <i>flaming</i> weapons, which deal an additional 1d6 points of fire damage on a hit.</p>", 
+                                    "type": "ability", 
+                                    "name": "Claws", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"demonic-bulk\">At 4th level, when entering a bloodrage, you can choose to grow one size category larger than your base size (as <i>enlarge person</i>) even if you aren't humanoid.</p>", 
+                                    "type": "ability", 
+                                    "name": "Demonic Bulk", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 8th level, you gain resistance 5 to acid, cold, and fire. At 16th level, these resistances increase to 10.</p>", 
+                                    "type": "ability", 
+                                    "name": "Demon Resistances", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"abyssal-bloodrage\">At 12th level, the morale bonus to Strength granted by your bloodrage increases by 2, but the penalty to AC becomes &ndash;4 instead of &ndash;2. At 16th level, this bonus increases by 4 instead. At 20th level, it increases by 6 instead.</p>", 
+                                    "type": "ability", 
+                                    "name": "Abyssal Bloodrage", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 16th level, when entering a bloodrage you can choose to exude an aura of fire. The aura is a 5-foot burst centered on you, and deals 2d6 + your Constitution modifier points of fire damage to creatures that end their turns within it.</p>", 
+                                    "type": "ability", 
+                                    "name": "Demonic Aura", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 20th level, you're immune to electricity and poison. You have this benefit constantly, even while not bloodraging. </p>", 
+                                    "type": "ability", 
+                                    "name": "Demonic Immunities", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood coursing through your veins transforms you into a spell-breaking terror. </p>", 
+                    "type": "section", 
+                    "name": "Arcane", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Combat Reflexes, Disruptive*, Improved Initiative, Iron Will, Power Attack, Quick Draw, Spellbreaker*. (Your bloodrager levels count as fighter levels for the purposes of qualifying for any feats marked with an asterisk [*].) This stacks with any levels in fighter you have.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Magic missile</i> (7th), <i>invisibility</i> (10th), <i>lightning bolt</i> (13th), <i>dimension door</i> (16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>When you bloodrage, arcane power transforms you into an arcane juggernaut who can cut down even the most careful caster.</p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"disruptive-bloodrage\">At 1st level, the DC to cast spells defensively increases by 2 for enemies within your threatened area. This increase stacks with that granted by the Disruptive feat.</p>", 
+                                    "type": "ability", 
+                                    "name": "Disruptive Bloodrage", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"arcane-bloodrage\">At 4th level, when entering a bloodrage you can choose one of the following spells and apply its effects to yourself: <i>blur</i>, <i>protection from arrows</i>, <i>resist energy </i>(choose one energy type), or <i>spider climb</i>. These effects last for as long as you continue bloodraging, regardless of the spell's normal duration.</p>", 
+                                    "type": "ability", 
+                                    "name": "Arcane Bloodrage", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"greater-arcane-bloodrage\">At 8th level, when entering a bloodrage, you can choose to apply the effects of either <i>displacement</i> or <i>haste</i> to yourself. This is in addition to arcane bloodrage, and otherwise works as that ability.</p>", 
+                                    "type": "ability", 
+                                    "name": "Greater Arcane Bloodrage", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"caster-scourge\">At 12th level, you gain a number of extra attacks of opportunity equal to your Dexterity modifier (minimum 1). You can use these attacks of opportunity only against spellcasters in your threatened area who cast or attempt to cast defensively. The Spellbreaker feat, the caster's bane bloodrage power (see below), or some similar effect is still required to make attacks of opportunity against spellcasters who are casting defensively. You have this ability constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "Caster's Scourge", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"true-arcane-bloodrage\">At 16th level, when entering a bloodrage you can choose one of the following spells and apply its effects to yourself: <i>beast shape IV </i>(choose a creature your size or larger only), <i>form of the dragon I</i>, or <i>transformation</i>. This is in addition to arcane bloodrage and greater arcane bloodrage, and otherwise works as those abilities.</p>", 
+                                    "type": "ability", 
+                                    "name": "True Arcane Bloodrage", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"caster-bane\">At 20th level, spellcasters with a caster level lower than your bloodrager level always provoke attacks of opportunity within your threatened area, even when casting defensively. You have this ability constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "Caster's Bane", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your bloodrage.</p>", 
+                    "type": "section", 
+                    "name": "Celestial", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Dodge, Improved Initiative, Iron Will, Mobility, Mounted Combat, Ride-By Attack, Weapon Focus.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Bless</i> (7th), <i>resist energy</i> (10th), <i>heroism</i> (13th), <i>holy smite </i>(16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Your bloodline grants a number of resistances and changes your form to something angelic and terrible to behold when you bloodrage.</p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"angelic-attacks\">At 1st level, your melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, when you deal damage with a melee attack to an evil outsider, you deal an additional 1d6 points of damage. This additional damage stacks with effects such as <i>align weapon</i> and those granted by a weapon with the <i>holy</i> weapon special ability.</p>", 
+                                    "type": "ability", 
+                                    "name": "Angelic Attacks", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 4th level, you gain resistance 5 to acid and cold. At 12th level, these resistances increase to 10.</p>", 
+                                    "type": "ability", 
+                                    "name": "Celestial Resistances", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 8th level, once per bloodrage you can reroll one ability check, skill check, or saving throw you just made. You must decide to use this ability after the die is rolled, but before the GM reveals the results. You must take the second result, even if it's worse.</p>", 
+                                    "type": "ability", 
+                                    "name": "Conviction", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"wings-of-heaven\">At 12th level, you can choose to sprout feathery wings and fly with a speed of 60 feet and good maneuverability. At 20th level, your fly speed increases to 80 feet.</p>", 
+                                    "type": "ability", 
+                                    "name": "Wings of Heaven", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"angelic-protection\">At 16th level, you gain a +4 deflection bonus to AC and a +4 resistance bonus on saving throws against attacks made or effects created by evil creatures. In addition, you are affected as if subject to a <i>protection from evil</i> spell. This effect cannot be dispelled.</p>", 
+                                    "type": "ability", 
+                                    "name": "Angelic Protection", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 20th level, you become infused with the power of the heavens. You gain immunity to acid, cold, and petrification. You also gain resistance 10 to electricity and fire, as well as a +4 racial bonus on saving throws against poison. You have these benefits constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "Ascension", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>Your bloodline is destined for great things. When you bloodrage, you exude a greatness that makes all but the most legendary creatures seem lesser.</p>", 
+                    "type": "section", 
+                    "name": "Destined", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Diehard, Endurance, Improved Initiative, Intimidating Prowess, Leadership, Lightning Reflexes, Weapon Focus.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Shield</i> (7th), <i>blur</i> (10th), <i>protection from energy</i> (13th), <i>freedom of movement</i> (16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Your future greatness grants you the might to strike your enemies with awe.</p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"destined-strike\">At 1st level, as a free action up to three times per day you can grant yourself an insight bonus equal to 1/2 your bloodrager level (minimum 1) on one melee attack. At 12th level, you can use this ability up to five times per day.</p>", 
+                                    "type": "ability", 
+                                    "name": "Destined Strike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"fated-bloodrager\">At 4th level, you gain a +1 luck bonus to AC and on saving throws. At 8th level and every 4 levels thereafter, this bonus increases by 1 (to a maximum of +5 at 20th level).</p>", 
+                                    "type": "ability", 
+                                    "name": "Fated Bloodrager", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"certain-strike\">At 8th level, you may reroll an attack roll once during a bloodrage. You must decide to use this ability after the die is rolled, but before the GM reveals the results. You must take the second result, even if it's worse.</p>", 
+                                    "type": "ability", 
+                                    "name": "Certain Strike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"defy-death\">At 12th level, once per day when an attack or spell that deals damage would result in your death, you can attempt a DC 20 Fortitude save. If you succeed, you are instead reduced to 1 hit point; if you succeed and already have less than 1 hit point, you instead take no damage.</p>", 
+                                    "type": "ability", 
+                                    "name": "Defy Death", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 16th level, any critical threats you score are automatically confirmed. Any critical threats made against you confirm only if the second roll results in a natural 20 (or is automatically confirmed).</p>", 
+                                    "type": "ability", 
+                                    "name": "Unstoppable", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"victory-or-death\">At 20th level, you are immune to paralysis and petrification, as well as to the stunned, dazed, and staggered conditions. You have these benefits constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "Victory or Death", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime monster's ancient power fuels your bloodrage. </p>", 
+                    "type": "section", 
+                    "name": "Draconic", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Blind-Fight, Cleave, Great Fortitude, Improved Initiative, Power Attack, Skill Focus (Fly), Toughness.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Shield</i> (7th), <i>resist energy</i> (10th), <i>fly</i> (13th), <i>fear</i> (16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The power of dragons flows through you and manifests in a number of ways. At 1st level, you must select one of the chromatic or metallic dragon types. Once chosen, this cannot be changed. A number of your bloodline powers deal damage and grant resistances based on your dragon type, as noted below.</p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "text": "<table>\n<thead>\n<tr><th>Dragon Type</th><th>Energy Type</th><th>Breath Shape</th></tr>\n</thead>\n<tbody>\n<tr><td>Black</td><td>Acid</td><td>60-foot line</td></tr>\n<tr><td>Blue</td><td>Electricity</td><td>60-foot line</td></tr>\n<tr><td>Green</td><td>Acid</td><td>30-foot cone</td></tr>\n<tr><td>Red</td><td>Fire</td><td>30-foot cone</td></tr>\n<tr><td>White</td><td>Cold</td><td>30-foot cone</td></tr>\n<tr><td>Brass</td><td>Fire</td><td>60-foot line</td></tr>\n<tr><td>Bronze</td><td>Electricity</td><td>60-foot line</td></tr>\n<tr><td>Copper</td><td>Acid</td><td>60-foot line</td></tr>\n<tr><td>Gold</td><td>Fire</td><td>30-foot cone</td></tr>\n<tr><td>Silver</td><td>Cold</td><td>30-foot cone</td></tr>\n</tbody>\n</table>", 
+                                    "type": "table", 
+                                    "name": "", 
+                                    "source": "Advanced Class Guide"
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 1st level, you grow claws. These claws are treated as natural weapons, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks deal 1d6 points of damage each (1d4 if you are Small) plus your Strength modifier. At 4th level, these claws are considered magic weapons for the purpose of overcoming damage reduction. At 8th level, the damage increases to 1d8 points (1d6 if you are Small). At 12th level, these claws deal an additional 1d6 points of damage of your energy type on a hit.</p>", 
+                                    "type": "ability", 
+                                    "name": "Claws", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 4th level, you gain resistance 5 against your energy type and a +1 natural armor bonus to AC. At 8th level, your energy resistance increases to 10 and your natural armor bonus increases to +2. At 16th level, your natural armor bonus increases to +4.</p>", 
+                                    "type": "ability", 
+                                    "name": "Draconic Resistance", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 8th level, you gain a breath weapon that you can use once per day. This breath weapon deals 1d6 points of damage of your energy type per bloodrager level. Those caught in the area of the breath can attempt a Reflex saving throw for half damage. The DC of this save is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. The shape of the breath weapon depends on your dragon type (as indicated on the above table). At 16th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day.</p>", 
+                                    "type": "ability", 
+                                    "name": "Breath Weapon", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 12th level, when entering a bloodrage, you can choose to have leathery wings grow from your back, giving you a fly speed of 60 feet with average maneuverability. At 16th level, your fly speed increases to 80 feet with good maneuverability. </p>", 
+                                    "type": "ability", 
+                                    "name": "Dragon Wings", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 16th level, when entering a bloodrage, you can choose to take the form of your chosen dragon type (as <i>form of the dragon II</i>, but with average or good maneuverability, as you would gain from the dragon wings bloodrage power above).</p>", 
+                                    "type": "ability", 
+                                    "name": "Dragon Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"power-of-wyrms\">At 20th level, you gain immunity to paralysis, sleep, and damage from your energy type. You also gain blindsense with a range of 60 feet. You have these benefits constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "Power of Wyrms", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>The power of the elements resides in you, and at times you can hardly control its fury. This influence comes either from an elemental outsider in your family history or from a moment when you or your ancestors were exposed to a powerful elemental force or cataclysm.</p>", 
+                    "type": "section", 
+                    "name": "Elemental", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Cleave, Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Burning hands</i>* (7th), <i>scorching ray</i>* (10th), <i>protection from energy</i> (13th), <i>elemental body I</i> (16th). (Spells marked with an asterisk [*] always deal a type of energy damage determined by your element, regardless of the spell's normal effects. In addition, the subtype of these spells changes to match the energy type of your element.) </p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>One of the four elements infuses your being, and you can draw upon its power while bloodraging. At first level, you must select an element: air, earth, fire, or water. Once chosen, this cannot be changed. A number of your abilities deal damage and grant resistances based on your element, as noted below.</p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "text": "<table>\n<thead>\n<tr><th>Element</th><th>Energy Type</th><th>Elemental Movement</th></tr>\n</thead>\n<tbody>\n<tr><td>Air</td><td>Electricity</td><td>Fly 60 feet (good)</td></tr>\n<tr><td>Earth</td><td>Acid</td><td>Burrow 30 feet</td></tr>\n<tr><td>Fire</td><td>Fire</td><td>+30 feet base land speed</td></tr>\n<tr><td>Water</td><td>Cold</td><td>Swim 60 feet</td></tr>\n</tbody>\n</table>", 
+                                    "type": "table", 
+                                    "name": "", 
+                                    "source": "Advanced Class Guide"
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 1st level, three times a day as a swift action you can imbue your melee attacks with elemental energy. For 1 round, your melee attacks deal 1d6 points of additional damage of your energy type. At 8th level, you can use this ability up to five times per day. At 20th level, all your melee attacks deal this damage, and this ability no longer requires a swift action to activate. </p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Strikes", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 4th level, you gain energy resistance 10 against your energy type.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Resistance", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 8th level, you gain a special movement type or bonus based on your chosen element, as indicated on the above table.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Movement", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"power-of-the-elements\">At 12th level, the energy damage done by your elemental strikes bloodline ability bypasses resistance to that energy type, and still deals half damage to creatures with immunity to energy of that type. </p>", 
+                                    "type": "ability", 
+                                    "name": "Power of the Elements", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p>At 16th level, once per day when entering a bloodrage you can take an elemental form as <i>elemental body IV</i>.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Form", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p> At 20th level, elemental power surges through your body. You gain immunity to sneak attacks, critical hits, and damage from your energy type. You have this benefit constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "Elemental Body", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>One of your ancestors was fey, or the fey realm somehow intermixed with your bloodline. It affects your bloodrage in tricky and surprising ways.</p>", 
+                    "type": "section", 
+                    "name": "Fey", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility, Step Up, Intimidating Prowess.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Entangle </i>(7th), <i>hideous laughter</i> (10th), <i>haste</i> (13th), <i>confusion </i>(16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>The power of the natural world saturates your being, and manifests itself when you bloodrage. </p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"confusing-critical\">At 1st level, fey power courses through your attacks. Each time you confirm a critical hit, the target must succeed at a Will saving throw or be confused for 1 round. The DC of this save is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. This is a mind-affecting compulsion effect.</p>", 
+                                    "type": "ability", 
+                                    "name": "Confusing Critical", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"leaping-charger\">At 4th level, you are able to leap over overgrowth and similar impediments with ease while charging. When you charge, you ignore difficult terrain (but not other creatures). You can move through it at normal speed, and it does not impede your charge.</p>", 
+                                    "type": "ability", 
+                                    "name": "Leaping Charger", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"blurring-movement\">At 8th level, you become a blur of motion when you move. As long as you move at least 10 feet, you gain the effects of <i>blur</i> for 1 round. </p>", 
+                                    "type": "ability", 
+                                    "name": "Blurring Movement", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"quickling-bloodrage\">At 12th level, while bloodraging you're treated as if you are under the effects of <i>haste</i>. </p>", 
+                                    "type": "ability", 
+                                    "name": "Quickling Bloodrage", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"one-with-nature\">At 16th level, creatures of the animal or plant types don't attack you unless compelled to do so by magic or you attack them first. Three times per day, you can transport yourself from one tree to another tree, as <i>tree stride</i> with half the transport range. Moving from one tree to another in this manner is a move action. You gain these abilities even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "One with Nature", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"fury-of-the-fey\">At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the <i>bane</i> weapon special ability. All of your melee attacks are considered to have <i>bane</i> against that type. This ability doesn't stack with other forms of <i>bane</i>.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fury of the Fey", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>The Pit lives in your blood. Maybe one of your ancestors was seduced by the powers of Hell or made a deal with a devil. Either way, its corruption seethes within your lineage. </p>", 
+                    "type": "section", 
+                    "name": "Infernal", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Blind-Fight, Combat Reflexes, Deceitful, Improved Disarm, Improved Sunder, Intimidating Prowess, Iron Will.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Protection from good</i> (7th), <i>scorching ray</i> (10th), <i>suggestion</i> (13th), <i>fire shield</i> (16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>When you bloodrage, hellfire infuses your blood with terrifying effects. </p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"hellfire-strike\">At 1st level, as a swift action up to three times a day you can infuse your attacks with hellfire. When you do, your melee attacks gain the <i>flaming </i>weapon special ability for 1 round. At 12th level, you can use this ability five times per day, and the effect is treated as <i>flaming burst</i>. </p>", 
+                                    "type": "ability", 
+                                    "name": "Hellfire Strike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"infernal-resistance\">At 4th level, you gain fire resistance 5, as well as a +2 bonus on saving throws against poison. At 8th level, your fire resistance increases to 10, and the bonus on saving throws against poison increases to +4.</p>", 
+                                    "type": "ability", 
+                                    "name": "Infernal Resistance", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"diabolical-arrogance\">At 8th level, you gain a +4 bonus on saving throws against enchantment and fear effects. </p>", 
+                                    "type": "ability", 
+                                    "name": "Diabolical Arrogance", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"dark-wings\">At 12th level, when entering a bloodrage you can choose to have batlike wings grow from your back, giving you a fly speed of 60 feet with average maneuverability. At 16th level, your fly speed increases to 80 feet with good maneuverability. At 20th level, your fly speed increases to 80 feet with good maneuverability.</p>", 
+                                    "type": "ability", 
+                                    "name": "Dark Wings", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"hellfire-charge\">At 16th level, when you charge the attack you make at the end of the charge gains the benefit of your hellfire strike without expending a use of it. If you already have hellfire strike active, the fire damage ignores fire resistance of 10 or lower.</p>", 
+                                    "type": "ability", 
+                                    "name": "Hellfire Charge", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"fiend-of-the-pit\">At 20th level, you gain immunity to fire and poison. You also gain resistance 10 to acid and cold, and gain the see in darkness ability. You have these benefits constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "Fiend of the Pit", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p>The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your bloodrage. </p>", 
+                    "type": "section", 
+                    "name": "Undead", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>Diehard, Dodge, Endurance, Intimidating Prowess, Iron Will, Mobility, Toughness.</p>", 
+                            "type": "section", 
+                            "name": "Bonus Feats"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p><i>Chill touch</i> (7th), <i>false life</i> (10th), <i>vampiric touch</i> (13th), <i>enervation</i> (16th).</p>", 
+                            "type": "section", 
+                            "name": "Bonus Spells"
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p>When you enter a bloodrage, the powers of undeath manifest, empowering your attacks with fear and your body with foul resistances.</p>", 
+                            "type": "section", 
+                            "name": "Bloodline Powers", 
+                            "sections": [
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"frightful-charger\">At 1st level, when you hit a creature with a charge attack, that creature becomes shaken for a number of rounds equal to 1/2 your bloodrager level (minimum 1). This effect does not cause an existing shaken or frightened condition (from this ability or another source) to turn into frightened or panicked. This is a mind-affecting fear effect.</p>", 
+                                    "type": "ability", 
+                                    "name": "Frightful Charger", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"ghost-strike\">At 4th level, your melee attacks are treated as if they have the <i>ghost touch</i> weapon special ability.</p>", 
+                                    "type": "ability", 
+                                    "name": "Ghost Strike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"death-gift\">At 8th level, you gain cold resistance 10, as well as DR 10/&mdash; against nonlethal damage. </p>", 
+                                    "type": "ability", 
+                                    "name": "Death's Gift", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"frightful-strikes\">At 12th level, as a swift action once per bloodrage you can empower your melee attacks with fear. For 1 round, creatures you hit with your melee attacks become shaken. Creatures who are already shaken become frightened. At 16th level, those who are already frightened become panicked. This is a mind-affecting fear effect. </p>", 
+                                    "type": "ability", 
+                                    "name": "Frightful Strikes", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"incorporeal-bloodrager\">At 16th level, once per day you can choose to become incorporeal. You take only half damage from magic corporeal sources, and you take no damage from non-magic weapons and objects. Your attacks deal damage as normal due to your ghost strike bloodrage power.</p>", 
+                                    "type": "ability", 
+                                    "name": "Incorporeal Bloodrager", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Advanced Class Guide", 
+                                    "text": "<p id=\"one-foot-in-the-grave\">At 20th level, you gain immunity to cold, nonlethal damage, paralysis, and sleep. The DR from your damage reduction ability increases to 8. Unintelligent undead don't notice you unless you attack them. You gain a +4 morale bonus on saving throws made against spells and spell-like abilities cast by undead. You have these benefits constantly, even while not bloodraging.</p>", 
+                                    "type": "ability", 
+                                    "name": "One Foot in the Grave", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "source": "Advanced Class Guide", 
+            "text": "<p>Bloodragers gain access to the following spells.</p>", 
+            "type": "section", 
+            "name": "Bloodrager Spells", 
+            "sections": [
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Blade lash</i>, <i>blurred movement</i>, <i>break</i>, <i>burning hands</i>, <i>cause fear</i>, <i>chill touch</i>, <i>color spray</i>, <i>corrosive touch</i>, <i>ear-piercing scream</i>, <i>endure elements</i>, <i>enlarge person</i>, <i>expeditious retreat</i>, <i>feather fall</i>, <i>flare burst</i>, <i>frostbite</i>, <i>hydraulic push</i>, <i>icicle dagger</i>, <i>jump</i>, <i>line in the sand</i>, <i>long arm</i>, <i>mage armor</i>, <i>magic missile</i>, <i>magic weapon</i>, <i>marid's mastery</i>, <i>mirror strike</i>, <i>mount</i>, <i>mudball</i>, <i>phantom blood</i>, <i>protection from chaos/evil/good/law</i>, <i>ray of enfeeblement</i>, <i>ray of sickening</i>, <i>reduce person</i>, <i>returning weapon</i>, <i>shadow weapon</i>, <i>shield</i>, <i>shock shield</i>, <i>shocking grasp</i>, <i>stone fist</i>, <i>stone shield</i>, <i>strong wings</i>, <i>sundering shards</i>, <i>thunderstomp</i>, <i>touch of combustion</i>, <i>touch of gracelessness</i>, <i>touch of the sea</i>, <i>true strike</i>, <i>unerring weapon</i>, <i>warding weapon</i>, <i>wave shield</i>, <i>web bolt</i>, <i>windy escape</i>, <i>winter feathers</i>.</p>", 
+                    "type": "section", 
+                    "name": "1st-Level Bloodrager Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Ablative barrier</i>, <i>acid arrow</i>, <i>adhesive blood</i>, <i>animal aspect</i>, <i>bear's endurance</i>, <i>blindness/deafness</i>, <i>blood armor</i>, <i>blood blaze</i>, <i>boiling blood</i>, <i>brow gasher</i>, <i>bullet shield</i>, <i>bull's strength</i>, <i>burning gaze</i>, <i>cat's grace</i>, <i>certain grip</i>, <i>daze monster</i>, <i>death from below</i>, <i>defensive shock</i>, <i>delay pain</i>, <i>disfiguring touch</i>, <i>dust of twilight</i>, <i>eagle's splendor</i>, <i>elemental touch</i>, <i>extreme flexibility</i>, <i>false life</i>, <i>fire breath</i>, <i>flaming sphere</i>, <i>frigid touch</i>, <i>ghoul touch</i>, <i>glitterdust</i>, <i>gust of wind</i>, <i>gusting sphere</i>, <i>imbue with elemental might</i>, <i>mirror image</i>, <i>molten orb</i>, <i>protection from arrows</i>, <i>pyrotechnics</i>, <i>resist energy</i>, <i>scorching ray</i>, <i>see invisibility</i>, <i>shatter</i>, <i>slipstream</i>, <i>sonic scream</i>, <i>spider climb</i>, <i>steal breath</i>, <i>stone call</i>, <i>stone discus</i>, <i>touch of idiocy</i>, <i>unshakable chill</i>.</p>", 
+                    "type": "section", 
+                    "name": "2nd-Level Bloodrager Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Air geyser</i>, <i>animal aspect (greater)</i>, <i>aqueous orb</i>, <i>beast shape I</i>, <i>blood biography</i>, <i>blood scent</i>, <i>burrow</i>, <i>burst of speed</i>, <i>chain of perdition</i>, <i>cloak of winds</i>, <i>countless eyes</i>, <i>draconic reservoir</i>, <i>elemental aura</i>, <i>eruptive pustules</i>, <i>excruciating deformation</i>, <i>fire trail</i>, <i>fireball</i>, <i>firestream</i>, <i>flame arrow</i>, <i>fly</i>, <i>force hook charge</i>, <i>force punch</i>, <i>gloomblind bolts</i>, <i>haste</i>, <i>heroism</i>, <i>hold person</i>, <i>hostile levitation</i>, <i>howling agony</i>, <i>hydraulic torrent</i>, <i>keen edge</i>, <i>lightning bolt</i>, <i>locate weakness</i>, <i>magic weapon (greater)</i>, <i>monstrous physique I</i>, <i>pain strike</i>, <i>paragon surge</i>, <i>phantom steed</i>, <i>protection from energy</i>, <i>rage</i>, <i>raging rubble</i>, <i>ray of exhaustion</i>, <i>resinous skin</i>, <i>silver darts</i>, <i>sleet storm</i>, <i>slow</i>, <i>stinking cloud</i>, <i>thunderstomp (greater)</i>, <i>twilight knife</i>, <i>undead anatomy I</i>, <i>vampiric touch</i>, <i>versatile weapon</i>, <i>vision of hell</i>, <i>water breathing</i>, <i>wind wall</i>.</p>", 
+                    "type": "section", 
+                    "name": "3rd-Level Bloodrager Spells"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p><i>Absorbing inhalation</i>, <i>ball lightning</i>, <i>beast shape II</i>, <i>bestow curse</i>, <i>black tentacles</i>, <i>calcific touch</i>, <i>confusion</i>, <i>contagion</i>, <i>crushing despair</i>, <i>detonate</i>, <i>dragon's breath</i>, <i>earth glide</i>, <i>elemental body I</i>, <i>enervation</i>, <i>enlarge person (mass)</i>, <i>false life (greater)</i>, <i>fear</i>, <i>fire shield</i>, <i>firefall</i>, <i>flaming sphere (greater)</i>, <i>ghost wolf</i>, <i>hellmouth lash</i>, <i>ice storm</i>, <i>monstrous physique II</i>, <i>moonstruck</i>, <i>pellet blast</i>, <i>phantasmal killer</i>, <i>reduce person (mass)</i>, <i>ride waves</i>, <i>river of wind</i>, <i>shocking image</i>, <i>shout</i>, <i>slow</i>, <i>stoneskin</i>, <i>telekinetic charge</i>, <i>touch of slime</i>, <i>vermin shape I</i>, <i>vitriolic mist</i>, <i>volcanic storm</i>, <i>wall of fire</i>, <i>wall of ice</i>, <i>wall of sound</i>, <i>wreath of blades</i>.</p>", 
+                    "type": "section", 
+                    "name": "4th-Level Bloodrager Spells"
+                }
+            ]
+        }
+    ], 
+    "text": "<p>While many ferocious combatants can tap into a deep reservoir of buried rage, bloodragers have an intrinsic power that seethes within. Like sorcerers, bloodragers' veins surge with arcane power. While sorcerers use this power for spellcasting, bloodragers enter an altered state in which their bloodline becomes manifest, where the echoes of their strange ancestry lash out with devastating power. In these states, bloodragers can cast some arcane spells instinctively. The bloodrager's magic is as fast, violent, and seemingly unstoppable as their physical prowess.</p>", 
+    "hit_dice": "d10", 
+    "source": "Advanced Class Guide", 
+    "subtype": "hybrid", 
+    "type": "class", 
+    "alignment": "Any."
+}
