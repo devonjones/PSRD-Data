@@ -13,6 +13,7 @@
                 {
                     "source": "Advanced Class Guide", 
                     "text": "<p>When a magus takes this arcana, he can pick any one deed from the swashbuckler class feature as long as that deed can be used by a swashbuckler of his magus level. The magus can use that deed by using points from his arcane pool as the panache points required for that deed. A magus can take this arcana multiple times, each time gaining a new deed. The magus must have the flamboyant arcana (see below) to select this arcana.</p>", 
+                    "subtype": "magus_arcana", 
                     "type": "ability", 
                     "name": "Arcane Deed", 
                     "ability_types": [
@@ -23,6 +24,7 @@
                     "source": "Advanced Class Guide", 
                     "text": "<p>A magus gains the derring-do and opportune parry and riposte deeds from the swashbuckler's list of deeds. The magus can spend points from his arcane pool as panache points to use these deeds and any other deeds he gains from the deed arcana, but he cannot use points from his arcane pool to use deeds from other classes or those gained by feats, nor can he regain points to his arcane pool as a swashbuckler would regain panache points. Effects that add to, reduce the cost of, or otherwise affect panache or grit don't affect the arcane pool of a magus with this arcana.</p>", 
                     "type": "ability", 
+                    "subtype": "magus_arcana", 
                     "name": "Flamboyant Arcana", 
                     "ability_types": [
                         "Extraordinary"
@@ -91,7 +93,8 @@
             "text": "<p>Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine martial and magical skills. Rather, eldritch scions find that their spells and abilities come to them instinctively.</p>", 
             "source": "Advanced Class Guide", 
             "abbrev": "Archetype", 
-            "type": "section"
+            "subtype": "magus", 
+            "type": "class_archetype"
         }
     ]
 }

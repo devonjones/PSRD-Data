@@ -13,33 +13,46 @@
         {
             "name": "Dust Knuckles", 
             "weight": "1/2 lb.", 
-            "sections": [
-                {
-                    "source": "Advanced Class Guide", 
-                    "abbrev": "25 gp", 
-                    "type": "section", 
-                    "name": "Diamond Dust Vials", 
-                    "sections": [
-                        {
-                            "source": "Advanced Class Guide", 
-                            "sections": [], 
-                            "type": "section", 
-                            "text": "<p class=\"stat-block\">These vials are filled with finely ground mineral crystals. When you shatter a vial with your punch, the target you hit must succeed at a DC 20 Reflex save to shield its eyes or be temporarily blinded for 1 round.</p>"
-                        }
-                    ]
-                }
-            ], 
             "text": "<p class=\"stat-block\">This fingerless leather glove includes four small pouches sewn along the knuckle line into which you can insert tiny vials of brittle glass sealed with wax. You can fill the vials with ground glass or poison. When you punch someone in the face, the vials shatter, releasing their contents into the target's face and eyes.</p>", 
             "price": "25 gp", 
             "source": "Advanced Class Guide", 
+            "misc": [
+                {
+                    "field": "Craft", 
+                    "value": "DC 20 Craft (Alchemy) Check"
+                }
+            ], 
+            "subtype": "alchemical",
             "type": "item"
         }, 
+        {
+            "source": "Advanced Class Guide", 
+            "weight": "-", 
+            "price": "25 gp", 
+            "type": "section", 
+            "subtype": "alchemical", 
+            "name": "Diamond Dust Vials", 
+            "text": "<p class=\"stat-block\">These vials are filled with finely ground mineral crystals. When you shatter a vial with your punch, the target you hit must succeed at a DC 20 Reflex save to shield its eyes or be temporarily blinded for 1 round.</p>",
+            "misc": [
+                {
+                    "field": "Craft", 
+                    "value": "DC 25 Craft (Alchemy) Check"
+                }
+            ]
+        },
         {
             "name": "Holy Weapon Balm", 
             "weight": "1/2 lb.", 
             "text": "<p class=\"stat-block\">This violet balm comes in a small ceramic pot. When applied to a weapon as a standard action, it forms a transparent coating. Weapons coated in this balm deal an additional 2d4 points of damage to undead or evil outsiders. A creature affected by the balm must succeed at a DC 10 Reflex save or take an additional 1d4 points of damage the following round. Any nonmagical weapon coated with the balm affects incorporeal undead or evil outsiders as if it were a magic weapon. Any magic weapon coated with the balm affects incorporeal undead or evil outsiders as if the weapon had the ghost touch special ability. The balm remains effective until you make a successful attack with the weapon or until 1 minute has passed, whichever is sooner. Each dose of balm can coat one weapon or 10 pieces of ammunition.</p>", 
             "price": "30 gp", 
             "source": "Advanced Class Guide", 
+            "misc": [
+                {
+                    "field": "Craft", 
+                    "value": "DC 30 Craft (Alchemy) Check"
+                }
+            ], 
+            "subtype": "alchemical",
             "type": "item"
         }
     ]

@@ -102,6 +102,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>The investigator can select one of the following alchemist discoveries as an investigator talent: combine extracts, concentrate poison, dilution, elixir of life, enhance potion, eternal potion, extend potion, infusion, mutagen, and poison conversion. When selecting an alchemist discovery, he must be high enough level to qualify for that discovery, using his investigator level as his alchemist level to determine if he qualifies. This talent can be selected multiple times; each time grants a new alchemist discovery.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Alchemist Discovery", 
                             "ability_types": [
                                 "Extraordinary"
@@ -111,6 +112,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When using inspiration, the investigator rolls a d8 instead of a d6. At 20th level, the investigator rolls 2d8 and adds both dice to the result. An investigator must be at least 7th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Amazing Inspiration", 
                             "ability_types": [
                                 "Extraordinary"
@@ -120,6 +122,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When the investigator deals damage with studied strike, the opponent must succeed at a Fortitude saving throw or be permanently blinded. A successful saving throw reduces this to dazzled for 1d4 rounds. The DC for this Fortitude save is equal to 10 + 1/2 the investigator's level + his Intelligence modifier. This talent has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by <i>heal, regeneration, remove blindness, </i>or similar abilities. An investigator must be at least 17th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Blinding Strike*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -129,6 +132,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When an investigator uses inspiration on an attack roll or saving throw, he expends one use of inspiration instead of two. An investigator must be at least 9th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Combat Inspiration", 
                             "ability_types": [
                                 "Extraordinary"
@@ -138,6 +142,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When the investigator deals damage with studied strike, the opponent must succeed at a Fortitude saving throw or become confused for 1d4+1 rounds. A successful saving throw reduces the duration to 1 round. The DC for this Fortitude save is equal to 10 + 1/2 the investigator's level + his Intelligence modifier. Constructs, mindless creatures, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits are not affected by this ability. An investigator must be at least 19th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Confusing Strike*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -147,6 +152,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When an investigator deals damage with studied strike, the opponent must succeed at a Fortitude saving throw or be permanently deafened. A successful Fortitude saving throw reduces the duration of this effect to 1 round. The DC for this save is equal to 10 + 1/2 the investigator's level + his Intelligence modifier. This talent has no effect on deaf creatures. Deafness can be cured by <i>heal</i>, <i>regeneration</i>, <i>remove blindness</i>, or similar effects. An investigator must be at least 15th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Deafening Strike*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -156,6 +162,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>The investigator can use the Use Magic Device skill even if not trained in that skill. If the investigator is trained in Use Magic Device, he can use the inspiration ability with that skill without expending uses of inspiration.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Device Talent", 
                             "ability_types": [
                                 "Extraordinary"
@@ -165,6 +172,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>The investigator can use an aid another action as a move action instead of as a standard action. An investigator can expend one use of inspiration to instead perform an aid another action as a swift action.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Effortless Aid", 
                             "ability_types": [
                                 "Extraordinary"
@@ -174,6 +182,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can always choose to take 10 on any of his Knowledge checks, even if he's in immediate danger or distracted. An investigator may expend one use of inspiration to take 20 on a Knowledge skill check even if he's in immediate danger or distracted. An investigator must be at least 11th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Eidetic Recollection", 
                             "ability_types": [
                                 "Supernatural"
@@ -183,12 +192,14 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When attempting a Sense Motive check, the investigator makes two d20 rolls and takes the higher result. If an investigator uses inspiration on a Sense Motive check, he rolls the inspiration dice twice and takes the higher result. Once per day, the investigator can expend one use of inspiration to target a single creature that he can see and hear within 30 feet. Upon doing so, the investigator detects the surface thoughts of the target's mind, as if he concentrated for 3 rounds while using the <i>detect thoughts</i> spell, unless the creature succeeds a Will saving throw. The DC of this save is 10 + 1/2 the investigator's level + his Intelligence modifier. If the target fails, the investigator can continue to detect the surface thoughts of the target creature for a number of rounds equal to 1/2 his investigator level. An investigator must be at least 5th level to select this talent.</p>", 
                             "type": "section", 
+                            "subtype": "investigator_talent", 
                             "name": "Empathy (Ex, Su)"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can use his inspiration ability when attempting Diplomacy, Heal, Perception, Profession, and Sense Motive checks without expending uses of inspiration, provided he's trained in the skill.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Expanded Inspiration", 
                             "ability_types": [
                                 "Extraordinary"
@@ -198,6 +209,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>Choose a single weapon type (such as sword cane or short sword). As long as the investigator has at least 1 inspiration point in his inspiration pool, he no longer has to expend a use of inspiration to use that ability with attacks made with this weapon. An investigator must have the combat inspiration investigator talent and be at least 19th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Greater Combat Inspiration", 
                             "ability_types": [
                                 "Extraordinary"
@@ -207,6 +219,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator learns to obscure his thoughts and endeavors from prying eyes and even intrusive magic. When an investigator uses inspiration while attempting a Bluff check to pass secret messages or attempting a Linguistics check to create forgeries, he can roll his inspiration dice twice and take the higher result. In addition, the investigator can use inspiration when attempting a saving throw against a divination spell or effect without expending a use of inspiration. An investigator must be at least 11th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Hidden Agendas", 
                             "ability_types": [
                                 "Extraordinary"
@@ -216,6 +229,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p> When an investigator succeeds at a Knowledge check to identify a monster's special powers or vulnerabilities, he can expend one use of inspiration as a swift action to grant allies within 30 feet that can hear him a +4 insight bonus on attack rolls against that monster or type of monster for 1 round. An investigator must be at least 7th level to take this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Inspirational Expertise", 
                             "ability_types": [
                                 "Extraordinary"
@@ -225,6 +239,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>Whenever the investigator becomes flat-footed, he can expend one use of inspiration to ignore that condition. He must be conscious to do so, and must decide to do so when he becomes flat-footed. Using this ability doesn't require an action.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Inspired Alertness", 
                             "ability_types": [
                                 "Extraordinary"
@@ -234,6 +249,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can add his inspiration die to all Knowledge, Linguistics, or Spellcraft checks without expending a use of inspiration, even those he's not trained in.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Inspired Intelligence", 
                             "ability_types": [
                                 "Extraordinary"
@@ -243,6 +259,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When the investigator succeeds at an Intimidate check to demoralize an opponent, he can expend one use of inspiration to automatically increase the result of the check by 5 for the purpose of determining the duration of the demoralize effect. He can choose to spend multiple uses to inspiration in this manner to further increase the duration of the demoralize effect. He must be trained in Intimidate to take this talent. The underworld inspiration investigator talent has no effect on this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Inspired Intimidator", 
                             "ability_types": [
                                 "Extraordinary"
@@ -252,6 +269,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can use Spellcraft to identify the properties and command words of magic items without the use of <i>detect magic</i> or similar spells. An investigator must be at least 7th level to take this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Item Lore", 
                             "ability_types": [
                                 "Extraordinary"
@@ -261,6 +279,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>The investigator can use Perception instead of Survival to both find and follow tracks, using the same DCs listed under the Survival skill (<i>Core Rulebook</i> 107). An investigator must be trained in Perception to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Perceptive Tracking", 
                             "ability_types": [
                                 "Extraordinary"
@@ -270,6 +289,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can use his studied combat ability as swift action instead of a standard action.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Quick Study", 
                             "ability_types": [
                                 "Extraordinary"
@@ -279,6 +299,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When the investigator deals damage with studied strike, he can perform a reposition combat maneuver as a free action against the creature damaged by studied strike. This reposition does not provoke attacks of opportunity. An investigator must be at least 13th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Repositioning Strike*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -288,6 +309,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can select one of the following rogue talents in place of an investigator talent: assault leader, black market connections, camouflage, canny observer, charmer, coax information, combat swipe, convincing liar, cunning trigger, deft palm, expert leaper, fast finger, fast getaway, fast picks, fast stealth, firearm training, guileful polyglot, grit, hard to fool, hold breath, honeyed words, iron guts, lasting poison, ledge walker, major magic, minor magic, nimble climber, peerless maneuver, quick disable, quick disguise, quick trapsmith, resilience, rogue crawl, rope master, stand up, strong stroke, terrain master, trap spotter, or wall scrambler. Any talent effects based on rogue level use the investigator's class level. If the rogue talent has a prerequisite (such as the major magic rogue talent requiring the minor magic talent), the investigator must fulfill the prerequisite before selecting that rogue talent. This talent can be selected multiple times; each time, it grants the investigator a new rogue talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Rogue Talent", 
                             "ability_types": [
                                 "Extraordinary"
@@ -297,6 +319,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When the investigator damages a studied target, that creature cannot make attacks of opportunity for 1 round. An investigator must be at least 5th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Sapping Offensive*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -306,6 +329,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When the investigator damages a studied target, that creature is also sickened for 1 round. An investigator must be at least 7th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Sickening Offensive*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -315,6 +339,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When the investigator deals damage with studied strike, he can perform a steal combat maneuver as a free action against the creature damaged by studied strike. This steal does not provoke attacks of opportunity. An investigator must be at least 13th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Stealing Strike*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -324,6 +349,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When an investigator with this talent uses his studied combat ability, he can chose to apply that ability's insight bonus to his AC against attacks made by the target of his studied combat instead of to attack rolls against the target of his studied combat. (The insight bonus on damage rolls remains.) He must choose which type of bonus he gains when using studied combat, and it cannot be changed until he uses studied combat again. An investigator must be at least 9th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Studied Defense", 
                             "ability_types": [
                                 "Extraordinary"
@@ -333,6 +359,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>When an investigator rolls his inspiration die, he can roll an additional inspiration die and take the higher result. The investigator must at least 13th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Tenacious Inspiration", 
                             "ability_types": [
                                 "Extraordinary"
@@ -342,6 +369,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p> When the investigator deals damage with studied strike, he can perform a trip combat maneuver as a free action against the creature damaged by studied strike. This trip does not provoke attacks of opportunity. An investigator must be at least 9th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Toppling Strike*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -351,6 +379,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can pick any one skill that he is trained in but that he can't use his inspiration with. He can use inspiration with that skill. An investigator must be at least 17th level to select this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Unconventional Inspiration", 
                             "ability_types": [
                                 "Extraordinary"
@@ -360,6 +389,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>An investigator can use his inspiration on Bluff, Disable Device, Disguise, Intimidate, or Sleight of Hand checks without expending uses of inspiration, provided he's trained in the skill.</p>", 
                             "type": "ability", 
+                            "subtype": "investigator_talent", 
                             "name": "Underworld Inspiration", 
                             "ability_types": [
                                 "Extraordinary"
@@ -426,6 +456,14 @@
                     ]
                 }
             ]
+        },
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>Investigators gain access to the following spells.</p>", 
+            "type": "embed", 
+            "subtype": "spell_list", 
+            "description": "investigator", 
+            "name": "Investigator Spells"
         }
     ], 
     "text": "<p>Whether on the trail of a fugitive, a long-lost treasure trove, or a criminal mastermind, investigators are motivated by an intense curiosity about the world and use knowledge of it as a weapon. Mixing gumption and learnedness into a personal alchemy of daring, investigators are full of surprises. Observing the world around them, they gain valuable knowledge about the situation they're in, process that information using inspiration and deduction, and cut to the quick of the matter in unexpected ways. Investigators are always evaluating situations they encounter, sizing up potential foes, and looking out for secret dangers, all while using their vast knowledge and powers of perception to find solutions to the most perplexing problems.</p>", 

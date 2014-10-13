@@ -87,6 +87,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"inspired-rage\">At 1st level, affected allies gain a +2 morale bonus to Strength and Constitution and a +1 morale bonus on Will saving throws, but also take a &ndash;1 penalty to AC. While under the effects of inspired rage, allies other than the skald cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. At 4th level and every 4 levels thereafter, the song's bonuses on Will saves increase by 1; the penalty to AC doesn't change. At 8th and 16th levels, the song's bonuses to Strength and Constitution increase by 2. (Unlike the barbarian's rage ability, those affected are not fatigued after the song ends.)</p><p>If an ally has her own rage class ability (such as barbarian's rage, bloodrager's bloodrage, or skald's inspired rage), she may use the Strength, Constitution, and Will saving throw bonuses, as well as AC penalties, based on her own ability and level instead of those from the skald (still suffering no fatigue afterward). However, inspired rage does not allow the ally to activate abilities dependent on other rage class abilities, such as rage powers, blood casting, or bloodrager bloodlines; the ally must activate her own rage class ability in order to use these features.</p>", 
                             "type": "ability", 
+                            "subtype": "skald_raging_song", 
                             "name": "Inspired Rage", 
                             "ability_types": [
                                 "Supernatural"
@@ -96,6 +97,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"song-of-marching\">At 3rd level, a skald can use raging song to inspire his allies to move faster without suffering from fatigue. By expending 1 round of raging song, the skald invigorates allies within 60 feet, who may hustle for the next hour; this movement counts as a walk (not a hustle) for the purpose of accruing nonlethal damage and fatigue. The skald must continue to perform the song for the remainder of the hour, otherwise its effects end, but only 1 round of raging song is expended for that hour.</p>", 
                             "type": "ability", 
+                            "subtype": "skald_raging_song", 
                             "name": "Song of Marching", 
                             "ability_types": [
                                 "Supernatural"
@@ -114,6 +116,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"dirge-of-doom\">At 10th level, a skald can create a sense of growing dread in his enemies, causing them to become shaken. This only affects enemies that are within 30 feet and able to hear the skald's performance. The effect persists for as long as the enemy is within 30 feet and the skald continues his performance. This cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect. This is a sonic mind-affecting fear effect, and relies on audible components.</p>", 
                             "type": "ability", 
+                            "subtype": "skald_raging_song", 
                             "name": "Dirge of Doom", 
                             "ability_types": [
                                 "Supernatural"
@@ -123,6 +126,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"song-of-the-fallen\">At 14th level, a skald can temporarily revive dead allies to continue fighting, with the same limitations as <i>raise dead</i>. The skald selects a dead ally within 60 feet and expends 1 round of raging song to bring that ally back to life. The revived ally is alive but staggered. Each round, the skald may expend another 1 round of raging song to keep that ally alive for another round. The ally automatically dies if the skald ends this performance or is interrupted. The skald may revive multiple allies with this ability (either at the same time or over successive rounds) but must expend 1 round of raging song per revived ally per round to maintain the effect.</p>", 
                             "type": "ability", 
+                            "subtype": "skald_raging_song", 
                             "name": "Song of the Fallen", 
                             "ability_types": [
                                 "Supernatural"
@@ -224,6 +228,14 @@
                     ]
                 }
             ]
+        },
+        {
+            "source": "Core Rulebook", 
+            "text": "<p>Skald gain access to the following spells.</p>", 
+            "type": "embed", 
+            "subtype": "spell_list", 
+            "description": "skald", 
+            "name": "Skald Spells"
         }
     ], 
     "text": "<p>Skalds are poets, historians, and keepers of lore who use their gifts for oration and song to inspire allies into a frenzied rage. They balance a violent spirit with the veneer of civilization, recording events such as heroic battles and the deeds of great leaders, enhancing these stories in the retelling to earn bloodier victories in combat. A skald's poetry is nuanced and often has multiple overlapping meanings, and he applies similar talents to emulate magic from other spellcasters.</p>", 

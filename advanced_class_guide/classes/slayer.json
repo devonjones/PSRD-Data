@@ -81,6 +81,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"deadly-range\">A slayer with this talent increases the range at which he can deal sneak attack damage by 10 feet. A slayer can select this talent more than once; its effects stack. A slayer must be at least 4th level before selecting this talent.</p>", 
                             "type": "ability", 
+                            "subtype": "slayer_talent", 
                             "name": "Deadly Range", 
                             "ability_types": [
                                 "Extraordinary"
@@ -90,12 +91,14 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"foil-scrutiny\">A slayer with this talent is able to obscure his thoughts and intentions. He gains a +2 bonus on all Bluff and Disguise checks, as well as on Will saving throws to resist mind-reading spells and effects (such as <i>detect thoughts</i> and <i>discern lies</i>).</p>", 
                             "type": "section", 
+                            "subtype": "slayer_talent", 
                             "name": "Foil Scrutiny"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"poison-use\">The slayer is trained in the use of poison, and cannot accidentally poison himself when applying poison to a weapon.</p>", 
                             "type": "ability", 
+                            "subtype": "slayer_talent", 
                             "name": "Poison Use", 
                             "ability_types": [
                                 "Extraordinary"
@@ -105,6 +108,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"ranger-combat-style\">The slayer selects a ranger combat style (such as archery or two-weapon combat) and gains a combat feat from the first feat list of that style. He can choose feats from his selected combat style, even if he does not have the normal prerequisites. At 6th level, he may select this talent again and add the 6th-level ranger combat feats from his chosen style to the list. At 10th level, he may select this talent again and add the 10th-level ranger combat feats from his chosen style to the list.</p>", 
                             "type": "ability", 
+                            "subtype": "slayer_talent", 
                             "name": "Ranger Combat Style", 
                             "ability_types": [
                                 "Extraordinary"
@@ -114,12 +118,14 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>A slayer can select one of the following rogue talents in place of a slayer talent: bleeding attack*, camouflage, combat trick, fast stealth, finesse rogue, firearm training, grit, hard to fool, lasting poison, powerful sneak, rogue crawl, slow reactions*, snap shot, sniper's eye, surprise attack, swift poison, terrain mastery, trap spotter, unwitting ally, or weapon training. Any talent effects based on rogue level use the slayer's class level. A slayer can select this talent multiple times. If the rogue talent has a prerequisite (such as the major magic rogue talent requiring the minor magic talent), the slayer must fulfill the prerequisite before taking that rogue talent. This talent can be selected multiple times; each time, it grants the slayer a new rogue talent.</p>", 
                             "type": "section", 
+                            "subtype": "slayer_talent", 
                             "name": "Rogue Talent"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
                             "text": "<p id=\"slowing-strike\">An opponent damaged by the slayer's sneak attack has its speed halved for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 of the slayer's level + the slayer's Intelligence modifier). Against creatures with multiple types of movement, the slayer must choose which movement type to affect. If the slayer affects a creature's flight movement, its maneuverability is reduced by one step; if it's airborne at the time, it falls unless it succeeds at a DC 10 Fly check. If the slayer targets a creature already affected by this ability, its speed and maneuverability are not further reduced; the slayer may either extend the duration of that effect by 1d4 rounds or choose another movement type to affect (keeping track of the duration of each affected movement separately).</p>", 
                             "type": "ability", 
+                            "subtype": "slayer_talent", 
                             "name": "Slowing Strike*", 
                             "ability_types": [
                                 "Extraordinary"
@@ -129,6 +135,7 @@
                             "source": "Advanced Class Guide", 
                             "text": "<p>The slayer gains Disable Device as a class skill. The slayer also gains the trapfinding and trap sense rogue abilities, using his slayer level as his effective rogue level.</p>", 
                             "type": "section", 
+                            "subtype": "slayer_talent", 
                             "name": "Trapfinding"
                         }
                     ]
@@ -162,6 +169,7 @@
                                 "Extraordinary"
                             ], 
                             "source": "Advanced Class Guide", 
+                            "subtype": "slayer_advanced_talent", 
                             "type": "ability"
                         }, 
                         {
@@ -169,6 +177,7 @@
                             "text": "<p>A slayer can select any of the following advanced ninja or rogue talents in place of an advanced slayer talent: deadly sneak, evasion, hunter's surprise, knock-out blow, master of disguise, opportunist, and stealthy sniper. A slayer can select this advanced talent multiple times</p>", 
                             "type": "section", 
                             "name": "Rogue and Ninja Advanced Talents", 
+                            "subtype": "slayer_advanced_talent", 
                             "subtype": "rogue_advanced_talent"
                         }, 
                         {
@@ -179,6 +188,7 @@
                                 "Extraordinary"
                             ], 
                             "source": "Advanced Class Guide", 
+                            "subtype": "slayer_advanced_talent", 
                             "type": "ability"
                         }, 
                         {
@@ -189,6 +199,7 @@
                                 "Extraordinary"
                             ], 
                             "source": "Advanced Class Guide", 
+                            "subtype": "slayer_advanced_talent", 
                             "type": "ability"
                         }
                     ]
