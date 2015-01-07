@@ -1,0 +1,390 @@
+{
+    "source": "Advanced Class Guide", 
+    "text": "<p>The following are new weapon special abilities. Weapons with a special ability must have at least a +1 enhancement bonus.</p>", 
+    "type": "section", 
+    "name": "Weapon Special Abilities", 
+    "sections": [
+        {
+            "text": "<table>\n<caption>Weapon Special Abilities</caption>\n<thead>\n<tr><th>+1 Weapon Special Ability</th><th>Base Price*</th></tr>\n</thead>\n<tbody>\n<tr><td><i>Phantom ammunition</i></td><td>+2,000 gp</td></tr>\n<tr><td><i>Prehensile</i></td><td>+2,500 gp</td></tr>\n<tr><td><i>Answering</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Blood-hunting</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Bloodsong</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Brawling</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Confounding</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Distracting</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Fate-stealing</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Flamboyant</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Fortuitous</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Inspired</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Sacred</i></td><td>+1 bonus</td></tr>\n<tr><td><i>Spirit-hunting</i></td><td>+1 bonus</td></tr>\n</tbody>\n<thead>\n<tr><th>+2 Weapon Special Ability</th><th>Base Price*</th></tr>\n</thead>\n<tbody>\n<tr><td><i>Exclusionary</i></td><td>+3,750 gp</td></tr>\n<tr><td><i>Sneaky</i></td><td>+5,000 gp</td></tr>\n<tr><td><i>Greater distracting</i></td><td>+2 bonus</td></tr>\n</tbody>\n<thead>\n<tr><th>+3 Weapon Special Ability</th><th>Base Price*</th></tr>\n</thead>\n<tbody>\n<tr><td><i>Exhausting</i></td><td>+3 bonus</td></tr>\n<tr><td><i>Greater flamboyant</i></td><td>+3 bonus</td></tr>\n</tbody>\n<thead>\n<tr><th>+5 Weapon Special Ability</th><th>Base Price*</th></tr>\n</thead>\n<tbody>\n<tr><td><i>Flying</i></td><td>+5 bonus</td></tr>\n</tbody>\n<tfoot>\n<tr><td colspan=\"2\">*Add to the enhancement bonus of the weapon to determine the total price.</td></tr>\n</tfoot>\n</table>", 
+            "type": "table", 
+            "name": "Weapon Special Abilities", 
+            "source": "Advanced Class Guide"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Answering", 
+            "weight": "-", 
+            "cl": "7th", 
+            "text": "<p class=\"stat-block\">If the wielder of an <i>answering</i> weapon is using the opportune parry and riposte deed, the weapon's enhancement bonus increases by 4 (to a maximum of +5).</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate enchantment", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "sections": [
+                {
+                    "text": "<table>\n<thead>\n<tr><th>d%</th><th>Designated Foe</th></tr>\n</thead>\n<tbody>\n<tr><td>01&ndash;05</td><td>Aberrant</td></tr>\n<tr><td>06&ndash;15</td><td>Abyssal</td></tr>\n<tr><td>16&ndash;30</td><td>Arcane</td></tr>\n<tr><td>31&ndash;35</td><td>Celestial</td></tr>\n<tr><td>36&ndash;40</td><td>Destined</td></tr>\n<tr><td>41&ndash;50</td><td>Draconic</td></tr>\n<tr><td>51&ndash;60</td><td>Elemental</td></tr>\n<tr><td>61&ndash;70</td><td>Fey</td></tr>\n<tr><td>71&ndash;80</td><td>Infernal</td></tr>\n<tr><td>81&ndash;90</td><td>Undead</td></tr>\n<tr><td>91&ndash;95</td><td>Other</td></tr>\n<tr><td>96&ndash;100</td><td>All</td></tr>\n</tbody>\n</table>", 
+                    "type": "table", 
+                    "name": "", 
+                    "source": "Advanced Class Guide"
+                }
+            ], 
+            "name": "Blood-Hunting", 
+            "weight": "-", 
+            "cl": "8th", 
+            "text": "<p class=\"stat-block\">A <i>blood-hunting</i> weapon excels against enemies with the bloodline class feature. Against a designated foe, the weapon's enhancement bonus is 2 better than its actual bonus. It also deals an additional 2d6 points of damage against such foes. When combined with abilities like <i>bane</i> or <i>spirit-hunting</i>, the enhancement bonus increases granted by these abilities don't stack, but an extra 1d6 points of damage are added to the additional damage for each special ability beyond the first. (For example, a <i>bane blood-hunting</i> weapon would deal 3d6 additional points of damage, and a <i>bane blood-hunting spirit-hunting</i> weapon would deal 4d6 additional points of damage.) To randomly determine a weapon's designated foe, roll on the following table. Other designated foes are possible, but most of these weapons are tuned against creatures with the following bloodlines.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate conjuration", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Bloodsong", 
+            "weight": "-", 
+            "cl": "6th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on slashing or piercing melee weapons. While the wielder benefits from a raging song performance (whether her own or from an ally), this weapon gains the <i>keen</i> weapon special ability. If the wearer confirms a critical hit while under the effects of a raging song, she gains 1d10 temporary hit points that last until they're reduced to 0 or the raging song ends, whichever comes first. If the weapon's critical multiplier is &times;3, add 2d10 temporary hit points instead; if the multiplier is &times;4, add 3d10 temporary hit points instead. While its powers are active, the weapon vibrates and makes a barely audible hum that rises to a shriek of triumph when it confirms a critical hit.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate transmutation", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Brawling", 
+            "weight": "-", 
+            "cl": "7th", 
+            "text": "<p class=\"stat-block\">This weapon special ability can be applied only to brass knuckles, a cestus, a sap, or a light bludgeoning weapon. The wielder of this weapon gains an enhancement bonus on combat maneuver checks equal to the enhancement bonus of the weapon.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate enchantment", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none<", 
+            "name": "Confounding", 
+            "weight": "-", 
+            "cl": "5th", 
+            "text": "<p class=\"stat-block\">When the wielder confirms a critical hit with a <i>confounding</i> weapon, she can spend 1 panache point to attempt a combat maneuver to disarm, reposition, sunder, or trip the target as an immediate action, gaining a bonus on the combat maneuver check equal to the enhancement bonus of the <i>confounding</i> weapon. This combat maneuver does not provoke an attack of opportunity. The wielder can't use panache gained by confirming the critical hit to activate this ability.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "faint transmutation", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Distracting", 
+            "weight": "-", 
+            "cl": "5th", 
+            "text": "<p class=\"stat-block\">Weapons with this special ability cause foes struck by them to have difficulty controlling their magic. Any time a creature that has been struck by a <i>distracting</i> weapon would have to succeed at a concentration check to complete a spell or use a special ability or item, the DC of that check increases by 5. This distraction lasts for 1 minute. Once a <i>distracting</i> weapon affects a creature in this way, that creature can't be affected by a <i>distracting</i> effect for 24 hours, though it can be affected by a <i>greater distracting</i> effect.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "faint enchantment", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Distracting, Greater", 
+            "weight": "-", 
+            "cl": "8th", 
+            "text": "<p class=\"stat-block\">Weapons with this special ability cause foes struck by them to have exceptional difficulty controlling their magic. Any time a creature that has been struck by a <i>greater distracting</i> weapon would have to succeed at a concentration check to complete a spell or use a special ability or item, the DC of that check increases by 10. This distraction lasts for 1 minute. Once a <i>greater distracting</i> weapon affects a creature in this way, that creature can't be affected by a <i>distracting</i> or <i>greater distracting</i> effect for 24 hours. If a <i>greater distracting</i> weapon is used on a creature already affected by a <i>distracting</i> weapon's effect, the two effects do not stack; the <i>distracting</i> effect ends, and the creature is affected by the <i>greater distracting</i> weapon's effect instead.</p>", 
+            "price": "+2 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+2 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate enchantment", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Exclusionary", 
+            "weight": "-", 
+            "cl": "1st", 
+            "text": "<p class=\"stat-block\">When the wielder of an <i>exclusionary</i> weapon damages a creature with it, she can choose to not affect that creature with any channel energy ability she uses within the next minute. The maximum number of targets the wielder can exclude at one time is equal to her Wisdom bonus plus the enhancement bonus of the <i>exclusionary</i> weapon. If the wielder of an <i>exclusionary</i> weapon strikes a creature that would cause her to go over this limit, she loses the ability to exclude the target she has been excluding for the longest amount of time.</p>", 
+            "price": "+3,750 gp", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1,875 gp"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "faint necromancy", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Exhausting", 
+            "weight": "-", 
+            "cl": "12th", 
+            "text": "<p class=\"stat-block\">This ability can be placed only on melee weapons. An <i>exhausting</i> weapon can bring a great weariness to opponents in battle. On a critical hit, the wielder can choose to forgo the additional damage dice to instead sap the struck creature's strength and stamina, causing it to become exhausted. Opponents that are already exhausted don't suffer any additional effects, and creatures immune to the effects of exhaustion or to critical hits are not affected.</p>", 
+            "price": "+3 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+3 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "strong necromancy", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Fate-Stealing", 
+            "weight": "-", 
+            "cl": "5th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on melee weapons. When a <i>fate-stealing</i> weapon strikes a creature that possesses either grit or panache, the wielder can steal 1 grit point or panache point as a swift action. When the wielder steals a grit or panache point, she can regain 1 grit point or 1 panache point (if the wielder has any). The wielder can use a foe's grit to restore her own panache, or use a foe's panache to restore her own grit.</p><p class=\"stat-block\">If the wielder attempts to use this ability against a foe that isn't a grit or panache user, or that currently has no points of grit or panache remaining, the wielder doesn't expend an action, and the attempt fails. </p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "faint necromancy", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Flamboyant", 
+            "weight": "-", 
+            "cl": "8th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on one-handed or light piercing melee weapons. A <i>flamboyant</i> weapon has its own magical reservoir of panache that its wielder can spend to use her deeds. Usually this panache is stored within a jewel or other adornment. This reservoir holds 1 panache point, which is refreshed at the start of each day. </p><p class=\"stat-block\">Whether or not the wielder of a <i>flamboyant</i> weapon has any deeds, she can always spend 1 panache point from the <i>flamboyant</i> weapon to reroll an attack made with it that missed due to rolling a natural 1. When the wielder does so, she must take the second result, even if it also misses. </p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate transmutation", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Flamboyant, Greater", 
+            "weight": "-", 
+            "cl": "5th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on one-handed or light piercing melee weapons. A <i>greater flamboyant</i> weapon is nearly identical to a <i>flamboyant</i> weapon, but its reservoir holds 3 panache points instead of 1. A weapon cannot have both this special ability and the <i>flamboyant</i> special ability.</p>", 
+            "price": "+3 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+3 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "faint abjuration and divination", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Flying", 
+            "weight": "-", 
+            "cl": "16th", 
+            "text": "<p class=\"stat-block\">This ability can be placed only on melee weapons. A <i>flying</i> weapon acts as a <i>dancing</i> weapon, but while dancing it can be directed to attack foes up to 30 feet away. Additionally, at any time (even if the weapon is not dancing), the last wielder to draw the weapon can will it to return to him as a swift action. It flies up to 500 feet per round to return to its wielder, making one sunder attempt per round to penetrate any barrier it can't fly around and a combat maneuver check (using its last wielder's CMB) against the CMD of any creature that attempts to hold or restrain it (bursting free on a successful check). When it returns to its wielder, the weapon flies into an empty hand or, if its wielder does not have a free hand, falls at his feet. If the weapon can't return after 4 rounds, it falls inert.</p>", 
+            "price": "+5 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+5 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "strong transmutation", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Fortuitous", 
+            "weight": "-", 
+            "cl": "8th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on melee weapons. A <i>fortuitous</i> weapon grants the wielder more attacks of opportunity. Once per round, when the wielder of a <i>fortuitous</i> weapon hits with an attack of opportunity, he can make a second attack of opportunity with this weapon against that foe at a &ndash;5 penalty.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate transmutation", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Inspired", 
+            "weight": "-", 
+            "cl": "7th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on simple weapons, hand crossbows, rapiers, shortbows, short swords, and sword canes. In the hands of an investigator, an <i>inspired</i> weapon reduces the cost of using inspiration on attack rolls made with the weapon. The weapon's wielder needs to expend only one use of inspiration to augment his attack rolls with this weapon, as with the combat inspiration investigator talent. If the wielder already has the combat inspiration talent, the wielder must still expend one use of inspiration, but in addition to adding the result of the inspiration roll to the attack roll, the investigator adds twice the result of the inspiration roll to the weapon's damage roll.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate enchantment", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Phantom Ammunition", 
+            "weight": "-", 
+            "cl": "7th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on ammunition. Ammunition with this weapon special ability dissolves 1 round after it is fired. Additionally, if the projectile strikes true, the wound closes after the ammunition disintegrates. The weapon deals normal damage, but leaves behind no visible trace of foul play.</p><p class=\"stat-block\">The listed price is for 50 pieces of phantom ammunition.</p>", 
+            "price": "+2,000 gp", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1,000 gp"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate transmutation", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Prehensile", 
+            "weight": "-", 
+            "cl": "7th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on a whip. A prehensile whip can, as a swift action, be attached to an object as if it were a grappling hook. The whip can then be used to climb surfaces or to swing across a room or any open area. By spending 1 panache point as a free action, a swashbuckler increases a <i>prehensile</i> whip's reach to 20 feet for a single attack, and can use the whip with his precise strike ability even though it's not a light or one-handed piercing weapon.</p>", 
+            "price": "+2,500 gp", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1,250 gp"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate enchantment", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "name": "Sacred", 
+            "weight": "-", 
+            "cl": "16th", 
+            "text": "<p class=\"stat-block\">A <i>sacred</i> weapon is filled with divine energy, and acts as a holy symbol. When wielded by a creature that can cast divine spells, the weapon automatically displays an image of that creature's holy symbol, often as a glowing rune on the weapon's blade or along its haft.</p><p class=\"stat-block\">Additionally, if the wielder has the blessings class feature, whenever he channels energy, he can choose one ally or ally's weapon within the area of the channeled energy and bestow upon that creature or weapon the benefits of one of his minor blessings at a cost of one use of that blessing. </p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "strong transmutation", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none<", 
+            "name": "Sneaky", 
+            "weight": "-", 
+            "cl": "7th", 
+            "text": "<p class=\"stat-block\">This special ability can be placed only on a melee weapon. Once per day as a free action, the wielder of a <i>sneaky</i> weapon can designate a single foe within his melee reach as his prey. If the wielder has the sneak attack class feature, he adds his sneak attack damage to the next attack he makes against his prey, even if the wielder is not flanking and the target is not denied its Dexterity bonus to AC, as long as that attack is made before the end of the wielder's next turn. If the wielder is a rogue or slayer with the hunter's surprise talent, he can use that talent one additional time per day.</p>", 
+            "price": "+5,000 gp", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+2,500 gp"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate necromancy", 
+            "type": "item"
+        }, 
+        {
+            "slot": "none", 
+            "sections": [
+                {
+                    "text": "<table>\n<thead>\n<tr><th>d%</th><th>Designated Foe</th></tr>\n</thead>\n<tbody>\n<tr><td>01&ndash;10</td><td>Battle</td></tr>\n<tr><td>11&ndash;20</td><td>Bones</td></tr>\n<tr><td>21&ndash;30</td><td>Flame</td></tr>\n<tr><td>31&ndash;40</td><td>Heavens</td></tr>\n<tr><td>41&ndash;50</td><td>Life</td></tr>\n<tr><td>51&ndash;60</td><td>Lore</td></tr>\n<tr><td>61&ndash;70</td><td>Nature</td></tr>\n<tr><td>71&ndash;80</td><td>Stone</td></tr>\n<tr><td>81&ndash;90</td><td>Waves</td></tr>\n<tr><td>91&ndash;00</td><td>Wind</td></tr>\n</tbody>\n</table>", 
+                    "type": "table", 
+                    "name": "", 
+                    "source": "Advanced Class Guide"
+                }
+            ], 
+            "name": "Spirit-Hunting", 
+            "weight": "-", 
+            "cl": "8th", 
+            "text": "<p class=\"stat-block\">A <i>spirit-hunting</i> weapon excels against enemies with either the mystery or spirit class feature (but has no effect against a shaman who has a temporary bond to the appropriate spirit by way of the wandering spirit class feature or similar effect). Against a designated foe, the weapon's enhancement bonus is 2 better than its actual bonus. It also deals 2d6 additional points of damage against such foes. When combined with abilities like <i>bane</i> or <i>blood-hunting</i>, the enhancement bonus increases granted by these abilities do not stack, but an additional 1d6 points of damage are added to the additional damage for each special ability beyond the first. (For example, a <i>bane spirit-hunting</i> weapon would deal 3d6 additional points of damage, and a <i>bane blood-hunting spirit-hunting</i> weapon would deal 4d6 additional points of damage.) To randomly determine a weapon's designated foe, roll on the following table. Other designated foes are possible, but most of these weapons are tuned against creatures with the following mysteries or spirits.</p>", 
+            "price": "+1 bonus", 
+            "misc": [
+                {
+                    "field": "Cost", 
+                    "subsection": "Construction Requirements", 
+                    "value": "+1 bonus"
+                }
+            ], 
+            "source": "Advanced Class Guide", 
+            "aura": "moderate conjuration", 
+            "type": "item"
+        }
+    ]
+}
