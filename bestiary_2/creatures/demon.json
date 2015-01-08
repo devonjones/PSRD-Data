@@ -13,9 +13,7 @@
             "xp": "9,600", 
             "speed": "30 ft.", 
             "alignment": "CE", 
-            "spells": {
-                "spell-like abilities": "(CL 12th; concentration +15)<p class=\"stat-block-2\">At will-<i>command</i> (DC 14), <i>greater teleport</i> (self plus 50 lbs. of objects only), <i>telekinesis</i> (DC 18)</p><p class=\"stat-block-2\">3/day-<i>air walk</i>, <i>dominate person</i> (DC 18), <i>haste</i></p><p class=\"stat-block-2\">1/day-<i>greater command</i> (DC 18), summon (level 4, 1 kalavakus 40%), <i>symbol of persuasion</i> (DC 19)</p>"
-            }, 
+            "size": "Medium", 
             "environment": "any (the Abyss)", 
             "strength": "22", 
             "constitution": "24", 
@@ -25,8 +23,10 @@
             "languages": "Abyssal, Celestial, Common, Draconic; telepathy 100 ft.", 
             "immune": "electricity, poison", 
             "init": "+1", 
-            "fortitude": "+10, Ref +8, Will +10", 
-            "size": "Medium", 
+            "fortitude": "+10", 
+            "spells": {
+                "spell-like abilities": "(CL 12th; concentration +15)<p class=\"stat-block-2\">At will-<i>command</i> (DC 14), <i>greater teleport</i> (self plus 50 lbs. of objects only), <i>telekinesis</i> (DC 18)</p><p class=\"stat-block-2\">3/day-<i>air walk</i>, <i>dominate person</i> (DC 18), <i>haste</i></p><p class=\"stat-block-2\">1/day-<i>greater command</i> (DC 18), summon (level 4, 1 kalavakus 40%), <i>symbol of persuasion</i> (DC 19)</p>"
+            }, 
             "type": "creature", 
             "feats": "Combat Expertise, Improved Bull Rush, Improved Disarm, Improved Trip, Power Attack", 
             "senses": "darkvision 60 ft.; Perception +24", 
@@ -80,9 +80,11 @@
             "base_attack": "+10", 
             "name": "Demon, Kalavakus", 
             "skills": "Acrobatics +14, Climb +19, Intimidate +16, Knowledge (planes) +15, Perception +24, Sense Motive +16, Stealth +14, Use Magic Device +16", 
-            "sr": "21", 
+            "reflex": "+8", 
             "cmd": "27", 
             "cmb": "+16 (+22 disarm)", 
+            "will": "+10", 
+            "sr": "21", 
             "organization": "solitary, pair, or slaver gang (3-6 kalavakuses plus 10-20 slaves)", 
             "creature_subtype": "chaotic, demon, evil, extraplanar"
         }, 
