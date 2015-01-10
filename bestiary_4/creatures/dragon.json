@@ -608,10 +608,7 @@
                     "xp": "6,400", 
                     "speed": "50 ft., fly 200 ft. (poor)", 
                     "alignment": "LN", 
-                    "spells": {
-                        "spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">At will-<i>detect magic</i></p>", 
-                        "sorcerer spells known": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1st (4/day)-<i>color spray</i> (DC 14), <i>mage armor</i></p><p class=\"stat-block-2\">0 (at will)-<i>bleed</i> (DC 13), <i>detect poison</i>, <i>flare</i> (DC 13), <i>read magic</i></p>"
-                    }, 
+                    "size": "Large", 
                     "strength": "22", 
                     "constitution": "16", 
                     "space": "10 ft.", 
@@ -619,8 +616,11 @@
                     "languages": "Celestial, Common, Draconic", 
                     "immune": "fire, paralysis, sleep", 
                     "init": "+6", 
-                    "fortitude": "+10, Ref +11, Will +10", 
-                    "size": "Large", 
+                    "fortitude": "+10", 
+                    "spells": {
+                        "spell-like abilities": "(CL 1st; concentration +4)<p class=\"stat-block-2\">At will-<i>detect magic</i></p>", 
+                        "sorcerer spells known": "(CL 1st; concentration +4)<p class=\"stat-block-2\">1st (4/day)-<i>color spray</i> (DC 14), <i>mage armor</i></p><p class=\"stat-block-2\">0 (at will)-<i>bleed</i> (DC 13), <i>detect poison</i>, <i>flare</i> (DC 13), <i>read magic</i></p>"
+                    }, 
                     "type": "creature", 
                     "feats": "Improved Initiative, Iron Will, Lightning Reflexes, Multiattack, Quick Channel, Toughness", 
                     "senses": "dragon senses, see in darkness; Perception +15", 
@@ -634,10 +634,12 @@
                     "base_attack": "+11", 
                     "name": "Young Solar Dragon", 
                     "skills": "Diplomacy +17, Fly +10, Knowledge (arcana, history, nature, planes) +16, Perception +15, Sense Motive +15", 
-                    "creature_subtype": "fire", 
+                    "reflex": "+11", 
                     "cmd": "30 (34 vs. trip)", 
                     "cmb": "+18", 
-                    "source": "Bestiary 4"
+                    "will": "+10", 
+                    "source": "Bestiary 4", 
+                    "creature_subtype": "fire"
                 }, 
                 {
                     "dexterity": "13", 

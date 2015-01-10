@@ -18,20 +18,11 @@
     "languages": "Terran", 
     "source": "Bestiary 4", 
     "init": "+1", 
-    "fortitude": "+6, Ref +1, Will +2", 
-    "type": "creature", 
+    "fortitude": "+6", 
+    "reflex": "+1", 
     "feats": "Improved GrappleB, Power Attack", 
     "senses": "darkvision 60 ft.; Perception +0", 
     "description": "This hulking juggernaut has two massively muscled arms and a group of four smaller ones that jut from under its rib cage.", 
-    "hp": "17 (1d12+5)", 
-    "reach": "10 ft.", 
-    "wisdom": "10", 
-    "creature_type": "Monstrous Humanoid", 
-    "special_qualities": "fast movement, grabbing appendages", 
-    "base_attack": "+1", 
-    "name": "Trox", 
-    "level": "barbarian 1", 
-    "skills": "Climb +11, Intimidate +2, Survival +4", 
     "sections": [
         {
             "source": "Bestiary 4", 
@@ -140,7 +131,18 @@
             "type": "race"
         }
     ], 
+    "hp": "17 (1d12+5)", 
+    "reach": "10 ft.", 
+    "wisdom": "10", 
+    "creature_type": "Monstrous Humanoid", 
+    "special_qualities": "fast movement, grabbing appendages", 
+    "base_attack": "+1", 
+    "name": "Trox", 
+    "level": "barbarian 1", 
+    "skills": "Climb +11, Intimidate +2, Survival +4", 
+    "type": "creature", 
     "cmd": "18 (20 vs. grapple)", 
     "cmb": "+9 (+11 grapple)", 
+    "will": "+2", 
     "organization": "solitary, band (2\u20138), or clan (9\u201320)"
 }
