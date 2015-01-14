@@ -17,9 +17,9 @@
     "languages": "Abyssal, Aklo, Common, Draconic, Giant, Infernal", 
     "immune": "acid, cold, electricity, magic, polymorph, undead traits", 
     "init": "+7", 
-    "fortitude": "+14", 
+    "fortitude": "+15", 
     "spells": {
-        "spell-like abilities": "(CL 20th; concentration +25)<p class=\"stat-block-2\">Constant-<i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>greater bestow curse</i> (DC 21), <i>telekinesis</i> (DC 19), <i>wail of the banshee</i> (20-ft.-radius spread centered on the demilich; DC 24)</p>"
+        "spell-like abilities": "(CL 20th; concentration +25)<p class=\"stat-block-2\">Constant-<i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>greater bestow curse</i> (DC 21), <i>telekinesis</i> (DC 20), <i>wail of the banshee</i> (20-ft.-radius spread centered on the demilich; DC 24)</p>"
     }, 
     "reflex": "+15", 
     "feats": "Ability Focus (devour soul), Alertness, Defensive Combat Training, Dodge, Flyby AttackB, Improved Initiative, Iron Will, Lightning Reflexes, Mobility", 
@@ -56,8 +56,15 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A demilich is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells function differently against the creature, as noted below.<ul><li>A <i>dispel evil</i> spell deals 2d6 points of damage, with no saving throw.</li><li><i>Holy smite</i> affects a demilich normally.</li><li>A <i>power word kill</i> spoken by an ethereal caster deals 50 points of damage to the demilich if it fails a Fortitude save (with a DC determined as though the spell allowed a saving throw).</li><li>A <i>shatter</i> spell deals 1d6 points of damage per two caster levels (maximum 10d6), with no saving throw.</li></ul>", 
-                    "sections": []
+                    "text": "A demilich is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells function differently against the creature, as noted below.", 
+                    "sections": [
+                        {
+                            "source": "Bestiary 3", 
+                            "sections": [], 
+                            "type": "section", 
+                            "text": "<ul class=\"stat-block-2\"><li>A <i>dispel evil</i> spell deals 2d6 points of damage, with no saving throw.</li>\n<li><i>Holy smite</i> affects a demilich normally.</li>\n<li>A <i>power word kill</i> spoken by an ethereal caster deals 50 points of damage to the demilich if it fails a Fortitude save (with a DC determined as though the spell allowed a saving throw).</li>\n<li>A <i>shatter</i> spell deals 1d6 points of damage per two caster levels (maximum 10d6), with no saving throw.</li></ul>"
+                        }, 
+                    ]
                 }, 
                 {
                     "name": "Rejuvenation", 
@@ -66,7 +73,7 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A destroyed demilich reforms in 2d6 days. To permanently destroy a demilich, holy water must be poured over its remains within the area of a hallow spell. To complete the destruction, holy word or dispel evil must be cast. If the caster succeeds at a caster level check with a DC equal to 10 + the demilich's Hit Dice, the demilich is permanently destroyed.", 
+                    "text": "A destroyed demilich reforms in 2d6 days. To permanently destroy a demilich, holy water must be poured over its remains within the area of a <i>hallow</i> spell. To complete the destruction, <i>holy word</i> or <i>dispel evil</i> must be cast. If the caster succeeds at a caster level check with a DC equal to 10 + the demilich's Hit Dice, the demilich is permanently destroyed.",
                     "sections": []
                 }, 
                 {
@@ -76,7 +83,7 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "As a special use of its telekinesis spell-like ability, a demilich can churn up its treasure, dust, bones, and other loose debris in the area into a whirling storm about its skull. The storm obscures vision as a fog cloud within a 20-foot spread centered on the demilich's skull. Creatures within the storm take 12d6 points of damage per round on the demilich's turn (Reflex DC 20 for half damage). The demilich can maintain the storm indefinitely by concentrating.", 
+                    "text": "As a special use of its <i>telekinesis</i> spell-like ability, a demilich can churn up its treasure, dust, bones, and other loose debris in the area into a whirling storm about its skull. The storm obscures vision as a <i>fog cloud</i> within a 20-foot spread centered on the demilich's skull. Creatures within the storm take 12d6 points of bludgeoning damage per round on the demilich's turn (Reflex DC 20 for half damage). The demilich can maintain the storm indefinitely by concentrating.",
                     "sections": []
                 }, 
                 {
@@ -86,7 +93,7 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A demilich takes no actions against intruders unless its remains or treasure are disturbed.", 
+                    "text": "A demilich takes no actions against intruders unless its remains or treasure are disturbed.",
                     "sections": []
                 }, 
                 {
@@ -96,7 +103,7 @@
                         "Supernatural"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "A demilich gains a bonus on saves and a profane bonus to AC equal to its Charisma modifier.", 
+                    "text": "A demilich gains a bonus on saves and a profane bonus to AC equal to its Charisma modifier.",
                     "sections": []
                 }, 
                 {
@@ -106,7 +113,7 @@
                         "Extraordinary"
                     ], 
                     "source": "Bestiary 3", 
-                    "text": "Vorpal weapons of any kind ignore a demilich's damage reduction.", 
+                    "text": "<i>Vorpal </i>weapons of any kind ignore a demilich's damage reduction.",
                     "sections": []
                 }
             ], 
@@ -141,7 +148,7 @@
         }, 
         {
             "source": "Bestiary 3", 
-            "text": "<p>Under exceptional conditions, a lich's full consciousness survives its transformation into a demilich, or a lich's wandering intellect manages to return to its jeweled skull. Such creatures are awakened demiliches, and combine the powers and near-invulnerability of a demilich with the mind and spellcasting prowess of a lich. An awakened demilich has the full spellcasting abilities of the lich it was before, and gains Eschew Materials and Still Spell as bonus feats. Awakened liches keep their original lich Hit Dice, and any mental attributes that are higher than the demilich's minimums. They otherwise have all the special abilities and defenses of a demilich, and no abilities of the original lich beyond spellcasting and mental attributes. An awakened demilich has a CR of 16, or the CR of the original lich + 3, whichever is higher.</p>", 
+            "text": "<p>Under exceptional conditions, a lich's full consciousness survives its transformation into a demilich, or a lich's wandering intellect manages to return to its jeweled skull. Such creatures are awakened demiliches, and combine the powers and near-invulnerability of a demilich with the mind and spellcasting prowess of a lich. An awakened demilich has the full spellcasting abilities of the lich it was before, and gains Eschew Materials and Still Spell as bonus feats. Awakened liches keep their original lich Hit Dice, and any mental attributes that are higher than the demilich's minimums. They otherwise have all the special abilities and defenses of a demilich except torpor, and no abilities of the original lich beyond spellcasting and mental attributes. An awakened demilich has a CR of 16, or the CR of the original lich + 3, whichever is higher.</p>", 
             "type": "section", 
             "name": "Awakened Demiliches", 
             "sections": []
@@ -156,7 +163,7 @@
     "dr": "20/-", 
     "base_attack": "+11", 
     "name": "Demilich", 
-    "skills": "Bluff +20, Fly +23 Knowledge (arcana) +23, Knowledge (dungeoneering) +20, Knowledge (history) +15, Knowledge (planes) +15, Knowledge (religion) +18, Perception +27, Sense Motive +27, Spellcraft +23, Stealth +24", 
+    "skills": "Bluff +20, Fly +23, Knowledge (arcana) +23, Knowledge (dungeoneering) +20, Knowledge (history) +15, Knowledge (planes) +15, Knowledge (religion) +18, Perception +27, Sense Motive +27, Spellcraft +23, Stealth +24", 
     "type": "creature", 
     "cmd": "30", 
     "cmb": "+12", 
