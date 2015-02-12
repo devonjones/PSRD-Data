@@ -62,18 +62,31 @@
                     "text": "<p>The ill-tempered &ldquo;river horse&rdquo; has a well-earned reputation for hostility, despite the fact that it is a herbivore.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> 40 ft.; <b>AC</b> +6 natural armor; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 11, Dex 12, Con 12, Int 2, Wis 13, Cha 5; <b>Special Qualities</b> low-light vision, scent, sweat.</p>", 
-                    "type": "section", 
+                    "ac": "+6 natural armor", 
                     "name": "Hippo", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d8)", 
+                    "ability_scores": "Str 11, Dex 12, Con 12, Int 2, Wis 13, Cha 5", 
                     "sections": [
                         {
+                            "ac": "+2 nat. arm.", 
+                            "name": "7th-Level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"7th-level-advancement\"><b>Size</b> Large; <b>AC</b> +2 nat. arm.; <b>Attack</b> bite (2d8); <b>Ability Scores</b> Str +8, <b>Dex</b> &ndash;2, <b>Con</b> +4; <b>Special Ability</b> trample.</p>", 
-                            "type": "section", 
-                            "name": "7th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (2d8)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "special_abilities": "trample.", 
+                            "sections": [], 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent, sweat.", 
+                    "speed": "40 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "59 (7d8+28)", 

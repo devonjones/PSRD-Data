@@ -71,18 +71,29 @@
             "text": "<p>A goblin dog is 5 feet long but weighs only 75 pounds.</p>"
         }, 
         {
-            "source": "Bestiary", 
-            "text": "<p><b>Size</b> Small; <b>Speed</b> 50 ft.; <b>Attack</b> bite (1d4); <b>Ability Scores</b> Str 11, Dex 16, Con 11, Int 2, Wis 12, Cha 8; <b>Special Qualities</b> allergic reaction, low-light vision, scent.</p>", 
-            "type": "section", 
             "name": "Goblin Dog", 
+            "source": "Bestiary", 
+            "type": "animal_companion", 
+            "subtype": "base", 
+            "attack": "bite (1d4)", 
+            "ability_scores": "Str 11, Dex 16, Con 11, Int 2, Wis 12, Cha 8", 
             "sections": [
                 {
+                    "ac": "+1 natural armor", 
+                    "name": "4th-Level Advancement", 
                     "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Medium; <b>AC</b> +1 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str +4, Dex &ndash;2, Con +4.</p>", 
-                    "type": "section", 
-                    "name": "4th-Level Advancement"
+                    "type": "animal_companion", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str +4, Dex -2, Con +4.", 
+                    "sections": [], 
+                    "size": "Medium"
                 }
-            ]
+            ], 
+            "special_qualities": "allergic reaction, low-light vision, scent.", 
+            "speed": "50 ft.", 
+            "size": "Small"
         }
     ], 
     "hp": "9 (1d8+5)", 

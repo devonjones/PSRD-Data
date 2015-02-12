@@ -44,18 +44,29 @@
                     "text": "<p>Many of the savage humanoid races, particularly gnolls, use hyenas as guard dogs. Such hyenas typically wear leather barding and are trained from birth to be vicious and savage&mdash;many such creatures are advanced hyenas.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Small; <b>Speed</b> 50 ft.; <b>AC</b> +2 natural armor; <b>Attack</b> bite (1d4 plus trip); <b>Ability Scores</b> Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 6; <b>Special Qualities</b> low-light vision, scent.</p>", 
-                    "type": "section", 
+                    "ac": "+2 natural armor", 
                     "name": "Hyena", 
+                    "source": "Bestiary", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4 plus trip)", 
+                    "ability_scores": "Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 6", 
                     "sections": [
                         {
+                            "name": "4th-Level Advancement", 
                             "source": "Bestiary", 
-                            "text": "<p><b>Size</b> Medium; <b>Attack</b> bite (1d6 plus trip); <b>Ability Scores</b> Str +4, Dex &ndash;2, Con +2.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (1d6 plus trip)", 
+                            "ability_scores": "Str +4, Dex -2, Con +2.", 
+                            "sections": [], 
+                            "size": "Medium"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "50 ft.", 
+                    "size": "Small"
                 }
             ], 
             "hp": "13 (2d8+4)", 

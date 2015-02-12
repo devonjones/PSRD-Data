@@ -52,18 +52,28 @@
                     "text": "<p>Giant frogs have razor-sharp teeth lining their mouths. They are 6 feet long and weigh 200 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Medium; <b>Speed</b> 30 ft., swim 30 ft.; <b>AC</b> +1 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6; <b>Special Qualities</b> low-light vision, scent, tongue, pull.</p>", 
-                    "type": "section", 
+                    "ac": "+1 natural armor", 
                     "name": "Frog", 
+                    "source": "Bestiary", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6", 
                     "sections": [
                         {
+                            "name": "4th-Level Advancement", 
                             "source": "Bestiary", 
-                            "text": "<p><b>Ability Scores</b> Str +2, Dex +2; <b>Special Qualities</b> swallow whole.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Adv."
+                            "type": "animal_companion", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "ability_scores": "Str +2, Dex +2", 
+                            "sections": [], 
+                            "special_qualities": "swallow whole."
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent, tongue, pull.", 
+                    "speed": "30 ft., swim 30 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "15 (2d8+6)", 

@@ -38,18 +38,26 @@
                     "text": "<p>A baboon is 3 feet tall and weighs 70 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-statistics\"><b>Size</b>: Small; <b>Speed</b>: 30 ft.; <b>Attack</b> bite (1d4); <b>Ability Scores</b>: Str 12, Dex 15, Con 12, Int 2, Wis 12, Cha 5; <b>Special Qualities</b>: low-light vision.</p>", 
-                    "type": "section", 
                     "name": "Baboon", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4)", 
+                    "ability_scores": "Str 12, Dex 15, Con 12, Int 2, Wis 12, Cha 5", 
                     "sections": [
                         {
+                            "name": "4th-Level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"4th-level-advancement\"><b>Ability Scores</b> Str +2, Con +2.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "ability_scores": "Str +2, Con +2.", 
+                            "sections": []
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision.", 
+                    "speed": "30 ft.", 
+                    "size": "Small"
                 }
             ], 
             "hp": "5 (1d8+1)", 

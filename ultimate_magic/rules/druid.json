@@ -536,276 +536,326 @@
                     "name": "Trip"
                 }, 
                 {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Ant, Giant"
+                }, 
+                {
                     "ac": "+2 natural armor", 
-                    "name": "Ant, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "trip +8.", 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus grab)", 
                     "ability_scores": "Str 10, Dex 12, Con 15, Int -, Wis 12, Cha 10", 
-                    "sections": [
-                        {
-                            "special_attacks": "poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC).", 
-                            "name": "Ant, Giant", 
-                            "level": "4th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "bite (1d6 plus grab), sting (1d4 plus poison)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +4, Dex -2, Con +2", 
-                            "type": "animal_companion", 
-                            "size": "Medium"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "low-light vision, scent", 
                     "speed": "30 ft., climb 20 ft.", 
                     "size": "Small"
                 }, 
                 {
+                    "special_attacks": "poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC).", 
+                    "name": "4th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d6 plus grab), sting (1d4 plus poison)", 
+                    "ability_scores": "Str +4, Dex -2, Con +2", 
+                    "sections": [], 
+                    "size": "Medium"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Beetle, Giant"
+                }, 
+                {
                     "ac": "+6 natural armor", 
-                    "name": "Beetle, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "trip +8.", 
                     "subtype": "base", 
                     "attack": "bite (1d8)", 
                     "ability_scores": "Str 13, Dex 12, Con 13, Int -, Wis 11, Cha 4", 
-                    "sections": [
-                        {
-                            "special_attacks": "trample (1d4).", 
-                            "name": "Beetle, Giant", 
-                            "level": "4th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "bite (1d6)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +4, Dex -2, Con +2", 
-                            "type": "animal_companion", 
-                            "size": "Medium"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "darkvision", 
                     "speed": "20 ft., fly 20 ft. (poor)", 
                     "size": "Small"
                 }, 
                 {
+                    "special_attacks": "trample (1d4).", 
+                    "name": "4th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str +4, Dex -2, Con +2", 
+                    "sections": [], 
+                    "size": "Medium"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Centipede, Giant"
+                }, 
+                {
                     "ac": "+2 natural armor", 
                     "special_attacks": "poison (frequency 1 round [6], effect 1 Dex damage, cure 1 save, Con-based DC)", 
-                    "name": "Centipede, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "can't be tripped.", 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus poison)", 
                     "ability_scores": "Str 8, Dex 17, Con 11, Int -, Wis 10, Cha 2", 
-                    "sections": [
-                        {
-                            "name": "Centipede, Giant", 
-                            "level": "4th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "bite (1d6 plus poison)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +4, Dex -2, Con +2.", 
-                            "type": "animal_companion", 
-                            "size": "Medium"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "darkvision 60 ft.", 
                     "speed": "20 ft., climb 20 ft.", 
                     "size": "Small"
                 }, 
                 {
+                    "name": "4th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d6 plus poison)", 
+                    "ability_scores": "Str +4, Dex -2, Con +2.", 
+                    "sections": [], 
+                    "size": "Medium"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Crab, Giant"
+                }, 
+                {
                     "ac": "+5 natural armor", 
                     "special_attacks": "constrict (1d3)", 
-                    "name": "Crab, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "trip +12.", 
                     "subtype": "base", 
                     "attack": "2 claws (1d3 plus grab)", 
                     "ability_scores": "Str 13, Dex 14, Con 13, Int -, Wis 11, Cha 4", 
-                    "sections": [
-                        {
-                            "special_attacks": "constrict (1d4).", 
-                            "name": "Crab, Giant", 
-                            "level": "4th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "2 claws (1d4 plus grab)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +2, Dex -2, Con +2", 
-                            "type": "animal_companion", 
-                            "size": "Medium"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "aquatic, darkvision, water dependency (survive out of water for 1 hour per point of Con, after which it begins to suffocate as if it were drowning)", 
                     "speed": "30 ft., swim 20 ft.", 
                     "size": "Small"
                 }, 
                 {
+                    "special_attacks": "constrict (1d4).", 
+                    "name": "4th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "attack": "2 claws (1d4 plus grab)", 
+                    "ability_scores": "Str +2, Dex -2, Con +2", 
+                    "sections": [], 
+                    "size": "Medium"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Leech, Giant"
+                }, 
+                {
                     "ac": "+0 natural armor", 
                     "special_attacks": "attach, blood drain (1 Str)", 
-                    "name": "Leech, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "can't be tripped.", 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus attach)", 
                     "ability_scores": "Str 9, Dex 14, Con 12, Int -, Wis 10, Cha 1", 
-                    "sections": [
-                        {
-                            "special_attacks": "blood drain (1 Str and 1 Con damage)", 
-                            "name": "Leech, Giant", 
-                            "level": "7th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "bite (1d6 plus attach)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +2, Dex -2, Con +2", 
-                            "type": "animal_companion", 
-                            "special_qualities": "blindsight 30 ft.", 
-                            "size": "Medium"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "amphibious, blindsense 30 ft., scent, susceptible to salt", 
                     "speed": "5 ft., swim 20 ft.", 
                     "size": "Small"
                 }, 
                 {
+                    "special_attacks": "blood drain (1 Str and 1 Con damage)", 
+                    "name": "7th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "7th", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d6 plus attach)", 
+                    "ability_scores": "Str +2, Dex -2, Con +2", 
+                    "sections": [], 
+                    "special_qualities": "blindsight 30 ft.", 
+                    "size": "Medium"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Mantis, Giant"
+                }, 
+                {
                     "ac": "+3 natural armor", 
                     "special_attacks": "lunge", 
-                    "name": "Mantis, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "trip +8.", 
                     "subtype": "base", 
                     "attack": "2 claws (1d4 plus grab)", 
                     "ability_scores": "Str 10, Dex 15, Con 10, Int -, Wis 12, Cha 7", 
-                    "sections": [
-                        {
-                            "ac": "+2 natural armor", 
-                            "special_attacks": "mandibles (1d6 secondary attack against a grabbed target), sudden strike (may take a full attack in the surprise round).", 
-                            "name": "Mantis, Giant", 
-                            "level": "7th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "2 claws (1d6)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +8, Dex -2, Con +4", 
-                            "type": "animal_companion", 
-                            "size": "Large"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "darkvision", 
                     "size": "Medium; Speed 30 ft., climb 30 ft., fly 40 ft. (average)"
                 }, 
                 {
+                    "ac": "+2 natural armor", 
+                    "special_attacks": "mandibles (1d6 secondary attack against a grabbed target), sudden strike (may take a full attack in the surprise round).", 
+                    "name": "7th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "7th", 
+                    "subtype": "advancement", 
+                    "attack": "2 claws (1d6)", 
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "sections": [], 
+                    "size": "Large"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Scorpion, Giant"
+                }, 
+                {
                     "ac": "+1 natural armor", 
                     "special_attacks": "poison (frequency 1 round (6), effect 1 Str damage, cure 1 save, Con-based DC)", 
-                    "name": "Scorpion, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "trip +12.", 
                     "subtype": "base", 
                     "attack": "2 claws (1d4 plus grab) and sting (1d4 plus poison)", 
                     "ability_scores": "Str 11, Dex 12, Con 12, Int -, Wis 10, Cha 2", 
-                    "sections": [
-                        {
-                            "ac": "+3 natural armor", 
-                            "special_attacks": "poison (frequency 1 round [6], effect 1d2 Str damage, cure 1 save, Con-based DC)", 
-                            "name": "Scorpion, Giant", 
-                            "level": "7th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "2 claws (1d6 plus grab) and sting (1d6 plus poison)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +8, Dex -2, Con +4", 
-                            "type": "animal_companion", 
-                            "special_qualities": "tremorsense 60 ft.", 
-                            "size": "Large"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "darkvision, tremorsense 30 ft", 
                     "speed": "40 ft.", 
                     "size": "Medium"
                 }, 
                 {
+                    "ac": "+3 natural armor", 
+                    "special_attacks": "poison (frequency 1 round [6], effect 1d2 Str damage, cure 1 save, Con-based DC)", 
+                    "name": "7th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "7th", 
+                    "subtype": "advancement", 
+                    "attack": "2 claws (1d6 plus grab) and sting (1d6 plus poison)", 
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "sections": [], 
+                    "special_qualities": "tremorsense 60 ft.", 
+                    "size": "Large"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Slug, Giant"
+                }, 
+                {
                     "ac": "+4 natural armor", 
                     "special_attacks": "spit acid (ranged touch attack, 30 foot range, 1d6 acid damage)", 
-                    "name": "Slug, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "can't be tripped.", 
                     "subtype": "base", 
                     "attack": "tongue (1d4 plus 1 acid)", 
                     "ability_scores": "Str 13, Dex 8, Con 13, Int -, Wis 10, Cha 1", 
-                    "sections": [
-                        {
-                            "ac": "+2 natural armor", 
-                            "special_attacks": "spit acid (ranged touch attack, 30-foot range, 1d8 acid damage)", 
-                            "name": "Slug, Giant", 
-                            "level": "7th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "tongue (1d6 plus 1d2 acid)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +2, Dex -2, Con +2", 
-                            "type": "animal_companion", 
-                            "special_qualities": "blindsight 30 ft.", 
-                            "size": "Large"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "blindsense 30 ft., DR 5/slashing or piercing, susceptible to salt (Bestiary 254)", 
                     "speed": "20 ft.", 
                     "size": "Medium"
                 }, 
                 {
+                    "ac": "+2 natural armor", 
+                    "special_attacks": "spit acid (ranged touch attack, 30-foot range, 1d8 acid damage)", 
+                    "name": "7th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "7th", 
+                    "subtype": "advancement", 
+                    "attack": "tongue (1d6 plus 1d2 acid)", 
+                    "ability_scores": "Str +2, Dex -2, Con +2", 
+                    "sections": [], 
+                    "special_qualities": "blindsight 30 ft.", 
+                    "size": "Large"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Spider, Giant"
+                }, 
+                {
                     "ac": "+0 natural armor", 
                     "special_attacks": "poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC)", 
-                    "name": "Spider, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "trip +12.", 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus poison)", 
                     "ability_scores": "Str 6, Dex 17, Con 10, Int -, Wis 10, Cha 2", 
-                    "sections": [
-                        {
-                            "ac": "+1 natural armor", 
-                            "name": "Spider, Giant", 
-                            "level": "4th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "bite (1d6 plus poison)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +4, Dex -2, Con +2.", 
-                            "type": "animal_companion", 
-                            "size": "Medium"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "darkvision, tremorsense 30 feet", 
                     "speed": "30 ft., climb 30 ft.", 
                     "size": "Small"
                 }, 
                 {
+                    "ac": "+1 natural armor", 
+                    "name": "4th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d6 plus poison)", 
+                    "ability_scores": "Str +4, Dex -2, Con +2.", 
+                    "sections": [], 
+                    "size": "Medium"
+                }, 
+                {
+                    "source": "Ultimate Magic", 
+                    "type": "section", 
+                    "name": "Wasp, Giant"
+                }, 
+                {
                     "ac": "+2 natural armor", 
                     "special_attacks": "poison (frequency 1 round [6], effect 1 Dex damage, cure 1 save, Con-based DC)", 
-                    "name": "Wasp, Giant", 
+                    "name": "Starting Statistics", 
                     "source": "Ultimate Magic", 
                     "type": "animal_companion", 
                     "cmd": "trip +8.", 
                     "subtype": "base", 
                     "attack": "sting (1d6 plus poison)", 
                     "ability_scores": "Str 10, Dex 14, Con 11, Int -, Wis 13, Cha 4", 
-                    "sections": [
-                        {
-                            "ac": "+2 natural armor", 
-                            "name": "Wasp, Giant", 
-                            "level": "7th", 
-                            "source": "Ultimate Magic", 
-                            "attack": "sting (1d8 plus poison)", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +8, Dex -2, Con +4.", 
-                            "type": "animal_companion", 
-                            "size": "Large"
-                        }
-                    ], 
+                    "sections": [], 
                     "special_qualities": "darkvision", 
                     "speed": "20 ft., fly 60 ft. (good)", 
                     "size": "Medium"
+                }, 
+                {
+                    "ac": "+2 natural armor", 
+                    "name": "7th-Level Advancement", 
+                    "source": "Ultimate Magic", 
+                    "type": "animal_companion", 
+                    "level": "7th", 
+                    "subtype": "advancement", 
+                    "attack": "sting (1d8 plus poison)", 
+                    "ability_scores": "Str +8, Dex -2, Con +4.", 
+                    "sections": [], 
+                    "size": "Large"
                 }
             ]
         }, 

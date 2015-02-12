@@ -26,18 +26,31 @@
             "description": "Gliding gracefully through the water on wing-like fins, this large ray scoops up tiny morsels in its wide mouth.", 
             "sections": [
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-statistics\">:<b> Size</b> Medium; <b>Speed</b> swim 60 ft.; <b>AC</b> +1 natural; <b>Attack</b> tail slap (1d4); <b>Ability Scores</b> Str 8, Dex 15, Con 11, Int 1, Wis 13, Cha 2; <b>Special Qualities</b> low-light vision.</p>", 
-                    "type": "section", 
+                    "ac": "+1 natural", 
                     "name": "Manta Ray Companion", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "tail slap (1d4)", 
+                    "ability_scores": "Str 8, Dex 15, Con 11, Int 1, Wis 13, Cha 2", 
                     "sections": [
                         {
+                            "ac": "+2 natural armor", 
+                            "name": "4th-Level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"4th-level-advancement:-size:\"> Large; <b>AC </b>+2 natural armor; <b>Attack</b> tail slap (1d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> blindsense 30 ft.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement: Size"
+                            "type": "animal_companion", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "attack": "tail slap (1d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "blindsense 30 ft.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision.", 
+                    "speed": "swim 60 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "19 (3d8+6)", 
@@ -109,18 +122,30 @@
                     "text": "<p>The stingray presented here is a relatively large member of the species; for smaller stingrays, apply the young creature template.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-statistics\">:<b> Size</b> Small; <b>Speed</b> swim 40 ft.; <b>Attack</b> sting (1d3 plus poison); <b>Ability Scores</b> Str 6, Dex 15, Con 13, Int 1, Wis 13, Cha 2; <b>Special Qualities</b> low-light vision.</p>", 
-                    "type": "section", 
                     "name": "Stingray Companion", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "sting (1d3 plus poison)", 
+                    "ability_scores": "Str 6, Dex 15, Con 13, Int 1, Wis 13, Cha 2", 
                     "sections": [
                         {
+                            "ac": "+1 natural armor", 
+                            "name": "4th-Level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"4th-level-advancement:-size\"> Medium; <b>AC </b>+1 natural armor; <b>Attack </b>sting (1d4 plus poison); <b>Ability Scores</b> Str +4, Dex &ndash;2, Con +2; <b>Special Qualities</b> blindsense 30 ft.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement: Size"
+                            "type": "animal_companion", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "attack": "sting (1d4 plus poison)", 
+                            "ability_scores": "Str +4, Dex -2, Con +2", 
+                            "sections": [], 
+                            "special_qualities": "blindsense 30 ft.", 
+                            "size": "Medium"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision.", 
+                    "speed": "swim 40 ft.", 
+                    "size": "Small"
                 }
             ], 
             "hp": "13 (2d8+4)", 

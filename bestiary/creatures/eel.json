@@ -51,18 +51,28 @@
                     "text": "<p>The electric eel is a curious fish that breathes air instead of water, yet certainly its most unusual characteristic is its ability to generate powerful jolts of electricity. An electric eel is 6 feet long and weighs 45 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Small; <b>Speed </b>5 ft., swim 30 ft.; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6; <b>Special Qualities</b> amphibious, low-light vision, electricity resistance 5.</p>", 
-                    "type": "section", 
                     "name": "Electric Eel", 
+                    "source": "Bestiary", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6", 
                     "sections": [
                         {
+                            "ac": "+2 natural armor", 
+                            "name": "4th-Level Advancement", 
                             "source": "Bestiary", 
-                            "text": "<p><b>AC</b> +2 natural armor; <b>Ability Scores</b> Dex +2, Con +2; <b>Special Qualities</b> electricity (1d6), electricity resistance 10.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "ability_scores": "Dex +2, Con +2", 
+                            "sections": [], 
+                            "special_qualities": "electricity (1d6), electricity resistance 10."
                         }
-                    ]
+                    ], 
+                    "special_qualities": "amphibious, low-light vision, electricity resistance 5.", 
+                    "speed": "5 ft., swim 30 ft.", 
+                    "size": "Small"
                 }
             ], 
             "hp": "17 (2d8+8)", 
@@ -128,18 +138,31 @@
                     "text": "<p>The moray eel is a ferocious predator, capable of holding prey in its primary jaws while a smaller set of jaws inside its throat chews away bite-sized portions.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "text": "<p><b>Size</b> Medium; <b>AC</b> +5 natural armor; <b>Speed </b>swim 30 ft.; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8; <b>Special Qualities</b> low-light vision, grab.</p>", 
-                    "type": "section", 
+                    "ac": "+5 natural armor", 
                     "name": "Moray Eel", 
+                    "source": "Bestiary", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d8)", 
+                    "ability_scores": "Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8", 
                     "sections": [
                         {
+                            "ac": "+3 natural armor", 
+                            "name": "7th-Level Advancement", 
                             "source": "Bestiary", 
-                            "text": "<p><b>Size</b> Large; <b>AC</b> +3 natural armor; <b>Attack</b> bite (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> gnaw.</p>", 
-                            "type": "section", 
-                            "name": "7th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (2d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "gnaw.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, grab.", 
+                    "speed": "swim 30 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "52 (7d8+21)", 
