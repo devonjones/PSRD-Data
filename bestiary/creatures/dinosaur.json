@@ -50,30 +50,31 @@
                     "text": "<p>The ankylosaurus is a powerful, squat dinosaur more than capable of defending itself against enemies. Its back is heavily armored with thick bony plates and spikes. A solid blow from an ankylosaurus's tail can leave most creatures stunned long enough for the armored dinosaur to make good an escape, although once confronted, most ankylosauruses are too ill-tempered and stubborn to flee. Instead, they stand their ground and use their tails to great effect in battle. An ankylosaurus is 30 feet long and weighs 6,000 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "30 ft.", 
                     "ac": "+9 natural armor", 
-                    "attack": "tail (1d6)", 
-                    "ability_scores": "Str 10, Dex 14, Con 9, Int 2, Wis 12, Cha 8", 
-                    "special_qualities": "low-light vision, scent.", 
+                    "name": "Ankylosaurus", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Ankylosaurus", 
+                    "attack": "tail (1d6)", 
+                    "ability_scores": "Str 10, Dex 14, Con 9, Int 2, Wis 12, Cha 8", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+2 natural armor", 
-                            "attack": "tail (2d6)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4.", 
-                            "special_qualities": "stun", 
                             "name": "7th-Level Advancement", 
-                            "level": "7th", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "tail (2d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "stun.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "30 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "75 (10d8+30)", 
@@ -121,30 +122,31 @@
                     "text": "<p>A brachiosaurus is 80 feet long and weighs 32 tons.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "30 ft.", 
                     "ac": "+3 natural armor", 
-                    "attack": "tail (2d4)", 
-                    "ability_scores": "Str 13, Dex 14, Con 11, Int 2, Wis 13, Cha 10", 
-                    "special_qualities": "low-light vision, scent", 
+                    "name": "Brachiosaurus", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Brachiosaurus", 
+                    "attack": "tail (2d4)", 
+                    "ability_scores": "Str 13, Dex 14, Con 11, Int 2, Wis 13, Cha 10", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+2 natural armor", 
-                            "attack": "tail (2d6)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "special_qualities": "trample (1d8)", 
-                            "level": "7th", 
                             "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "tail (2d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "trample (1d8).", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "30 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "171 (18d8+90)", 
@@ -241,29 +243,30 @@
                     "text": "<p>The sleek elasmosaurus is a long-necked, aquatic reptile. Although not technically a dinosaur, they and their kind are often found hunting in oceans and lakes in areas where dinosaurs are more common. You can create statistics for smaller, similar aquatic reptiles (such as the pleisosaurus) by applying the young simple template to the statistics presented above. An elasmosaurus is 45 feet long and weighs 4,000 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "20 ft., swim 50 ft.", 
                     "ac": "+2 natural armor", 
-                    "attack": "bite (1d8)", 
-                    "ability_scores": "Str 10, Dex 18, Con 12, Int 2, Wis 13, Cha 9", 
-                    "special_qualities": "low-light vision, scent", 
+                    "name": "Elasmosaurus", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Elasmosaurus", 
+                    "attack": "bite (1d8)", 
+                    "ability_scores": "Str 10, Dex 18, Con 12, Int 2, Wis 13, Cha 9", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+3 natural armor", 
-                            "attack": "bite (2d6)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "level": "4th", 
                             "name": "4th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (2d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4.", 
+                            "sections": [], 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "20 ft., swim 50 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "105 (10d8+60)", 
@@ -316,29 +319,30 @@
                     "text": "<p>A pteranodon has a wingspan of 30 feet but only weighs 40 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "10 ft., fly 50 ft. (clumsy)", 
                     "ac": "+0 natural armor", 
-                    "attack": "bite (1d8)", 
-                    "ability_scores": "Str 8, Dex 21, Con 10, Int 2, Wis 14, Cha 12", 
-                    "special_qualities": "low-light vision, scent", 
+                    "name": "Pteranodon", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Pteranodon", 
+                    "attack": "bite (1d8)", 
+                    "ability_scores": "Str 8, Dex 21, Con 10, Int 2, Wis 14, Cha 12", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+2 natural armor", 
-                            "attack": "bite (2d6)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "level": "7th", 
                             "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (2d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4.", 
+                            "sections": [], 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "10 ft., fly 50 ft. (clumsy)", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "32 (5d8+10)", 
@@ -385,29 +389,30 @@
                     "text": "<p> The stegosaurus is one of the most distinctive-looking dinosaurs&mdash;its twin rows of dorsal plates and spiked tail are enough to give most predators second thoughts before attacking. It is 30 feet long, 14 feet tall, and weighs 5,000 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "30 ft.", 
                     "ac": "+6 natural armor", 
-                    "attack": "tail (2d6)", 
-                    "ability_scores": "Str 10, Dex 18, Con 10, Int 2, Wis 12, Cha 10", 
-                    "special_qualities": "low-light vision, scent", 
+                    "name": "Stegosaurus", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Stegosaurus", 
+                    "attack": "tail (2d6)", 
+                    "ability_scores": "Str 10, Dex 18, Con 10, Int 2, Wis 12, Cha 10", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+3 natural armor", 
-                            "attack": "tail (2d8 plus trip)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "level": "7th", 
                             "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "tail (2d8 plus trip)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4.", 
+                            "sections": [], 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "30 ft.", 
+                    "size": "Med."
                 }
             ], 
             "hp": "90 (12d8+36)", 
@@ -422,6 +427,83 @@
             "cmb": "+19", 
             "will": "+5", 
             "organization": "solitary, pair, or herd (3-12)"
+        }, 
+        {
+            "dexterity": "9", 
+            "ac": "21, touch 7, flat-footed 21 (-1 Dex, +14 natural, -2 size)", 
+            "special_attacks": "powerful charge (gore, 4d10+16), trample (1d8+12, DC 25)", 
+            "intelligence": "2", 
+            "melee": "gore +17 (2d10+12)", 
+            "cr": "8", 
+            "xp": "4,800", 
+            "speed": "30 ft.", 
+            "alignment": "N", 
+            "size": "Huge", 
+            "strength": "26", 
+            "constitution": "19", 
+            "space": "15 ft.", 
+            "treasure": "none", 
+            "charisma": "7", 
+            "environment": "warm plains", 
+            "source": "Bestiary", 
+            "init": "-1", 
+            "fortitude": "+15", 
+            "reflex": "+8", 
+            "feats": "Great Fortitude, Improved Bull Rush, Improved Critical, Power Attack, Run, Skill Focus (Perception), Weapon Focus (gore)", 
+            "senses": "low-light vision, scent; Perception +21", 
+            "description": "This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.", 
+            "sections": [
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>The triceratops is a stubborn and short-tempered herbivore.</p>"
+                }, 
+                {
+                    "source": "Bestiary", 
+                    "sections": [], 
+                    "type": "section", 
+                    "text": "<p>A typical triceratops is 30 feet long and weighs 20,000 pounds.</p>"
+                }, 
+                {
+                    "ac": "+6 natural armor", 
+                    "name": "Triceratops", 
+                    "source": "Bestiary", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "gore (1d8)", 
+                    "ability_scores": "Str 10, Dex 13, Con 11, Int 2, Wis 12, Cha 7.", 
+                    "sections": [
+                        {
+                            "ac": "+3 natural armor", 
+                            "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
+                            "type": "animal_companion", 
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "gore (2d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "powerful charge.", 
+                            "size": "Large"
+                        }
+                    ], 
+                    "speed": "30 ft.", 
+                    "size": "Medium"
+                }
+            ], 
+            "hp": "119 (14d8+56)", 
+            "reach": "15 ft.", 
+            "wisdom": "12", 
+            "creature_type": "Animal", 
+            "base_attack": "+10", 
+            "name": "Dinosaur, Triceratops", 
+            "skills": "Perception +24", 
+            "type": "creature", 
+            "cmd": "29 (33 vs. trip)", 
+            "cmb": "+20", 
+            "will": "+5", 
+            "organization": "solitary, pair, or herd (5-8)"
         }, 
         {
             "dexterity": "13", 
@@ -474,30 +556,31 @@
                     "text": "<p>The tyrannosaurus is an apex predator that measures 40 feet long and weighs 14,000 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "30 ft.", 
                     "ac": "+4 natural armor", 
-                    "attack": "bite (1d8)", 
-                    "ability_scores": "Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10", 
-                    "special_qualities": "low-light vision, scent", 
+                    "name": "Tyrannosaurus", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Tyrannosaurus", 
+                    "attack": "bite (1d8)", 
+                    "ability_scores": "Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+3 natural armor", 
-                            "attack": "bite (2d6)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "special_qualities": "grab, powerful bite", 
-                            "level": "7th", 
                             "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (2d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "grab, powerful bite.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "30 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "153 (18d8+72)", 
@@ -513,82 +596,6 @@
             "cmb": "+28 (+32 grapple)", 
             "will": "+10", 
             "organization": "solitary, pair, or pack (3-6)"
-        }, 
-        {
-            "dexterity": "9", 
-            "ac": "21, touch 7, flat-footed 21 (-1 Dex, +14 natural, -2 size)", 
-            "special_attacks": "powerful charge (gore, 4d10+16), trample (1d8+12, DC 25)", 
-            "intelligence": "2", 
-            "melee": "gore +17 (2d10+12)", 
-            "cr": "8", 
-            "xp": "4,800", 
-            "speed": "30 ft.", 
-            "alignment": "N", 
-            "size": "Huge", 
-            "strength": "26", 
-            "constitution": "19", 
-            "space": "15 ft.", 
-            "treasure": "none", 
-            "charisma": "7", 
-            "environment": "warm plains", 
-            "source": "Bestiary", 
-            "init": "-1", 
-            "fortitude": "+15", 
-            "reflex": "+8", 
-            "feats": "Great Fortitude, Improved Bull Rush, Improved Critical, Power Attack, Run, Skill Focus (Perception), Weapon Focus (gore)", 
-            "senses": "low-light vision, scent; Perception +21", 
-            "description": "This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.", 
-            "sections": [
-                {
-                    "source": "Bestiary", 
-                    "sections": [], 
-                    "type": "section", 
-                    "text": "<p>The triceratops is a stubborn and short-tempered herbivore.</p>"
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "sections": [], 
-                    "type": "section", 
-                    "text": "<p>A typical triceratops is 30 feet long and weighs 20,000 pounds.</p>"
-                }, 
-                {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "30 ft.", 
-                    "ac": "+6 natural armor", 
-                    "attack": "gore (1d8)", 
-                    "ability_scores": "Str 10, Dex 13, Con 11, Int 2, Wis 12, Cha 7", 
-                    "type": "animal_companion", 
-                    "subtype": "base", 
-                    "name": "Triceratops", 
-                    "sections": [
-                        {
-                            "source": "Bestiary", 
-                            "size": "Large", 
-                            "ac": "+3 natural armor", 
-                            "attack": "gore (2d6)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "special_qualities": "powerful charge", 
-                            "level": "7th", 
-                            "name": "7th-Level Advancement", 
-                            "type": "animal_companion", 
-                            "subtype": "advancement"
-                        }
-                    ]
-                }
-            ], 
-            "hp": "119 (14d8+56)", 
-            "reach": "15 ft.", 
-            "wisdom": "12", 
-            "creature_type": "Animal", 
-            "base_attack": "+10", 
-            "name": "Dinosaur, Triceratops", 
-            "skills": "Perception +24", 
-            "type": "creature", 
-            "cmd": "29 (33 vs. trip)", 
-            "cmb": "+20", 
-            "will": "+5", 
-            "organization": "solitary, pair, or herd (5-8)"
         }
     ], 
     "name": "Dinosaur", 

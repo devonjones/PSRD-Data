@@ -31,18 +31,30 @@
                     "text": "<p>Gars are predatory fish that live in deep lakes and rivers. Sleek and swift, they regard anything their own size or smaller as food. A typical gar is 7 feet long and weighs 200 pounds. One species known as the alligator gar can grow to lengths of 10 feet. An alligator gar is a gar with the advanced creature template.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> swim 60 ft.; <b>AC</b> +1 natural; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2; <b>Special Ability</b> grab.</p>", 
-                    "type": "section", 
+                    "ac": "+1 natural", 
                     "name": "Gar", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2", 
+                    "special_abilities": "grab.", 
                     "sections": [
                         {
+                            "ac": "+3 natural", 
+                            "name": "7th-Level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"7th-level-advancement\"><b>Size</b> Large; <b>AC</b> +3 natural; <b>Attack</b> bite (1d8), <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4</p>", 
-                            "type": "section", 
-                            "name": "7th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (1d8)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "speed": "swim 60 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "13 (2d8+4)", 

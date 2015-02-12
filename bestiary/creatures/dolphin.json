@@ -50,27 +50,28 @@
                     "text": "<p>Dolphins are social predators that hunt shallow seas and rivers in large family groups called pods. Sailors are fond of dolphins and frequently tell tales of dolphins saving drowning fishermen or killing sharks with blows from their powerful snouts.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium",
-                    "speed": "swim 80 ft.", 
                     "ac": "+1 natural armor", 
-                    "attack": "slam (1d4)", 
-                    "ability_scores": "Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 6", 
-                    "special_qualities": "low-light vision, hold breath", 
+                    "name": "Dolphin", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Dolphin", 
+                    "attack": "slam (1d4)", 
+                    "ability_scores": "Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 6", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "ability_scores": "Str +2, Dex +2, Con +2", 
-                            "special_qualities": "blindsight 120 ft", 
-                            "level": "4th", 
                             "name": "4th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "ability_scores": "Str +2, Dex +2, Con +2", 
+                            "sections": [], 
+                            "special_qualities": "blindsight 120 ft."
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, hold breath.", 
+                    "speed": "swim 80 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "11 (2d8+2)", 
@@ -118,30 +119,31 @@
                     "text": "<p>The orca, or &ldquo;killer whale,&rdquo; is actually the largest species of dolphin. Adult orcas are typically 15&ndash;25 feet long and weigh 8,000&ndash;12,000 pounds</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "swim 80 ft.", 
                     "ac": "+1 natural armor", 
-                    "attack": "bite (1d6)", 
-                    "ability_scores": "Str 11, Dex 19, Con 10, Int 2, Wis 14, Cha 6", 
-                    "special_qualities": "low-light vision, hold breath", 
+                    "name": "Orca", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Orca", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str 11, Dex 19, Con 10, Int 2, Wis 14, Cha 6", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+2 natural armor", 
-                            "attack": "bite (1d8)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "special_qualities": "blindsight 120 ft", 
-                            "level": "7th", 
                             "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (1d8)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "blindsight 120 ft.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, hold breath.", 
+                    "speed": "swim 80 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "67 (9d8+27)", 

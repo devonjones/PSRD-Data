@@ -78,30 +78,31 @@
                     "text": "<p>The great mastodons are primeval cousins of elephants. Their large tusks dwarf those of regular elephants, jutting outward and then curving back toward one another at the tips. Shaggy woolly mammoths are a mastodon variant adapted to cold environments, but have the same statistics.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "40 ft.", 
                     "ac": "+4 natural armor", 
-                    "attack": "gore (1d8), slam (1d6)", 
-                    "ability_scores": "Str 14, Dex 14, Con 13, Int 2, Wis 13, Cha 7", 
-                    "special_qualities": "low-light vision, scent", 
+                    "name": "Elephant/Mastodon", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Elephant/Mastodon", 
+                    "attack": "gore (1d8), slam (1d6)", 
+                    "ability_scores": "Str 14, Dex 14, Con 13, Int 2, Wis 13, Cha 7", 
+                    "special_abilities": "low-light vision, scent.", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+3 natural armor", 
-                            "attack": "gore (2d6), slam (1d8)", 
-                            "ability_scores": "+8 Str, &ndash;2 Dex, +4 Con", 
-                            "special_qualities": "trample (2d6)", 
-                            "level": "7th", 
                             "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "gore (2d6), slam (1d8)", 
+                            "ability_scores": "+8 Str, -2 Dex, +4 Con", 
+                            "special_abilities": "trample (2d6).", 
+                            "sections": [], 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "speed": "40 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "133 (14d8+70)", 

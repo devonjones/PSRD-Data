@@ -100,18 +100,31 @@
                     "text": "<p>A typical ram stands about 3 feet tall, is 5 feet long, and weighs up to 300 pounds. You can create stats for smaller, similar animals (such as goats) by applying the young creature template to a ram.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-statistics\"><b>Size</b> Small; <b>Speed</b> 40 ft.; <b>AC</b> +1 natural; <b>Attack</b> gore (1d3); <b>Ability Scores</b> Str 10, Dex 17, Con 11, Int 2, Wis 14, Cha 7; <b>Special Qualities</b> low-light vision, scent.</p>", 
-                    "type": "section", 
+                    "ac": "+1 natural", 
                     "name": "Ram", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "gore (1d3)", 
+                    "ability_scores": "Str 10, Dex 17, Con 11, Int 2, Wis 14, Cha 7", 
                     "sections": [
                         {
+                            "special_attacks": "powerful charge (1d8)", 
+                            "name": "4th-Level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"4th-level-advancement\"><b>Size</b> Medium; <b>Attack</b> gore (1d4); <b>Ability Scores</b> Str +4, Dex &ndash;2, Con +2; <b>Special Attacks</b> powerful charge (1d8); <b>Bonus Feat</b> Improved Bull Rush.</p>", 
-                            "type": "section", 
-                            "name": "4th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "attack": "gore (1d4)", 
+                            "ability_scores": "Str +4, Dex -2, Con +2", 
+                            "sections": [], 
+                            "bonus_feat": "Improved Bull Rush.", 
+                            "size": "Medium"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "40 ft.", 
+                    "size": "Small"
                 }
             ], 
             "hp": "11 (2d8+2)", 

@@ -34,18 +34,31 @@
                     "text": "<p>A huge, swift hunter, the allosaurus measures 30 feet in length and weighs 10,000 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-statistics\">:<b> Size </b>Medium, <b>Speed</b> 40 ft.; <b>AC</b> +4 natural armor; <b>Attack</b> bite (1d6), 2 claws (1d4); <b>Ability Scores</b> Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10; <b>Special Qualities</b> low-light vision, scent.</p>", 
-                    "type": "section", 
+                    "ac": "+4 natural armor", 
                     "name": "Allosaurus", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d6), 2 claws (1d4)", 
+                    "ability_scores": "Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10", 
                     "sections": [
                         {
+                            "ac": "+2 natural armor", 
+                            "name": "7th-Level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"7th-level-advancement\"><b>Size </b>Large; <b>AC </b>+2 natural armor; <b>Attack</b> bite (1d8), 2 claws (1d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> grab, pounce.</p>", 
-                            "type": "section", 
-                            "name": "7th-Level Advancement"
+                            "type": "animal_companion", 
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "bite (1d8), 2 claws (1d6)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "grab, pounce.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "40 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "93 (11d8+44)", 
@@ -173,18 +186,30 @@
                     "text": "<p>This herbivore is 30 feet long and weighs 10,500 pounds. It is notable for the long, curved crest atop its skull.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-stats\">:<b> Size</b> Medium; <b>Speed </b>30 ft.; <b>AC </b>+2 natural armor; <b>Attack</b> tail (1d6); <b>Ability Scores</b> Str 11, Dex 18, Con 9, Int 2, Wis 13, Cha 10; <b>SQ</b> low-light vision, scent.</p>", 
-                    "type": "section", 
+                    "ac": "+2 natural armor", 
                     "name": "Parasaurolophus", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "tail (1d6)", 
+                    "ability_scores": "Str 11, Dex 18, Con 9, Int 2, Wis 13, Cha 10", 
                     "sections": [
                         {
+                            "ac": "+2 natural armor", 
+                            "name": "7th-level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"7th-level-advancement\">:<b> Size </b>Large; <b>AC </b>+2 natural armor; <b>Attack </b>tail (1d8); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>SQ </b>trample (1d8).</p>", 
-                            "type": "section", 
-                            "name": "7th-level Advancement"
+                            "type": "animal_companion", 
+                            "subtype": "base", 
+                            "attack": "tail (1d8)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "trample (1d8).", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "30 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "45 (6d8+18)", 
@@ -232,18 +257,30 @@
                     "text": "<p>This predatory marine lizard swims with four flippered limbs and a powerful, fluke-like tail. Its extended snout is filled with sharp teeth, and it feeds on both aquatic and surface prey. They are known to attack ships, mistaking them for basking whales or other creatures. A tylosaurus grows up to 50 feet in length and weighs 30,000 pounds.</p>"
                 }, 
                 {
-                    "source": "Bestiary 2", 
-                    "text": "<p id=\"starting-stats\">:<b> Size</b> Medium; <b>Speed </b>20 ft., swim 50 ft.; <b>AC </b>+3 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 10, Dex 17, Con 10, Int 2, Wis 13, Cha 9; <b>SQ</b> low-light vision, scent.</p>", 
-                    "type": "section", 
+                    "ac": "+3 natural armor", 
                     "name": "Tylosaurus", 
+                    "source": "Bestiary 2", 
+                    "type": "animal_companion", 
+                    "subtype": "base", 
+                    "attack": "bite (1d6)", 
+                    "ability_scores": "Str 10, Dex 17, Con 10, Int 2, Wis 13, Cha 9", 
                     "sections": [
                         {
+                            "ac": "+2 natural armor", 
+                            "name": "7th-level Advancement", 
                             "source": "Bestiary 2", 
-                            "text": "<p id=\"7th-level-adv.\">:<b> Size </b>Large; <b>AC </b>+2 natural armor; <b>Attack </b>bite (1d8); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>SQ </b>grab.</p>", 
-                            "type": "section", 
-                            "name": "7th-level Adv."
+                            "type": "animal_companion", 
+                            "subtype": "base", 
+                            "attack": "bite (1d8)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "grab.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "20 ft., swim 50 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "105 (10d8+60)", 

@@ -51,30 +51,31 @@
                     "text": "<p>Aurochs (both singular and plural) are large herd animals similar to domesticated cattle.</p>"
                 }, 
                 {
-                    "source": "Bestiary", 
-                    "size": "Medium", 
-                    "speed": "40 ft.", 
                     "ac": "+1 natural armor", 
-                    "attack": "gore (1d6)", 
-                    "ability_scores": "Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4", 
-                    "special_qualities": "low-light vision, scent", 
+                    "name": "Aurochs", 
+                    "source": "Bestiary", 
                     "type": "animal_companion", 
                     "subtype": "base", 
-                    "name": "Aurochs", 
+                    "attack": "gore (1d6)", 
+                    "ability_scores": "Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4", 
                     "sections": [
                         {
-                            "source": "Bestiary", 
-                            "size": "Large", 
                             "ac": "+3 natural armor", 
-                            "attack": "gore (1d8)", 
-                            "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
-                            "special_qualities": "stampede, trample", 
-                            "level": "7th", 
                             "name": "7th-Level Advancement", 
+                            "source": "Bestiary", 
                             "type": "animal_companion", 
-                            "subtype": "advancement"
+                            "level": "7th", 
+                            "subtype": "advancement", 
+                            "attack": "gore (1d8)", 
+                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "sections": [], 
+                            "special_qualities": "stampede, trample.", 
+                            "size": "Large"
                         }
-                    ]
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
+                    "speed": "40 ft.", 
+                    "size": "Medium"
                 }
             ], 
             "hp": "22 (3d8+9)", 
