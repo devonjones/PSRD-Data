@@ -328,7 +328,7 @@
                             "languages": "Gnoll", 
                             "source": "Monster Codex", 
                             "init": "+1", 
-                            "fortitude": "+11, Ref +1, Will +3", 
+                            "fortitude": "+11", 
                             "type": "creature", 
                             "feats": "Coordinated Reposition*, Snapping Jaws*, Step Up", 
                             "sections": [
@@ -352,6 +352,8 @@
                             "super_race": "gnoll barbarian (pack rager) 2", 
                             "cmd": "18", 
                             "cmb": "+9", 
+                            "will": "+3", 
+                            "reflex": "+1", 
                             "combat_gear": "potion of cure moderate wounds, alchemist's fire (3)", 
                             "creature_subtype": "gnoll"
                         }, 
@@ -832,15 +834,10 @@
                 }, 
                 {
                     "source": "Monster Codex", 
+                    "text": "<p>This powerfully built, hyena-like humanoid is larger than the average gnoll and has a cunning, cruel gaze.</p>", 
                     "type": "section", 
                     "name": "Flind", 
                     "sections": [
-                        {
-                            "source": "Monster Codex", 
-                            "text": "<p> </p>", 
-                            "type": "section", 
-                            "name": "This powerfully built, hyena-like humanoid is larger than the average gnoll and has a cunning, cruel gaze."
-                        }, 
                         {
                             "dexterity": "15", 
                             "ac": "17, touch 12, flat-footed 15 (+3 armor, +2 Dex, +2 natural)", 

@@ -307,7 +307,7 @@
                             "languages": "Common, Giant, Goblin", 
                             "source": "Monster Codex", 
                             "init": "+2", 
-                            "fortitude": "+6, Ref +3, Will +3 (+1 vs. fear)", 
+                            "fortitude": "+6", 
                             "type": "creature", 
                             "feats": "Cleave, Iron Will, Motivated March*, Power Attack", 
                             "sections": [
@@ -330,6 +330,8 @@
                             "super_race": "hobgoblin fighter 3", 
                             "cmd": "17", 
                             "cmb": "+5", 
+                            "will": "+3 (+1 vs. fear)", 
+                            "reflex": "+3", 
                             "combat_gear": "potion of bull's strength, alchemist's fire (2), caltrops, smokestick", 
                             "creature_subtype": "goblinoid"
                         }
@@ -733,15 +735,10 @@
                 }, 
                 {
                     "source": "Monster Codex", 
+                    "text": "<p>This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak.</p>", 
                     "type": "section", 
                     "name": "Yzobu", 
                     "sections": [
-                        {
-                            "source": "Monster Codex", 
-                            "text": "<p> </p>", 
-                            "type": "section", 
-                            "name": "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak."
-                        }, 
                         {
                             "dexterity": "13", 
                             "ac": "13, touch 10, flat-footed 12 (+1 Dex, +3 natural, -1 size)", 
