@@ -814,34 +814,36 @@
                             "source": "Monster Codex", 
                             "type": "section", 
                             "name": "Yzobu Companions", 
+                            "sections": [
+                                {
+                                    "ac": "+1 natural armor", 
+                                    "name": "Yzobu", 
+                                    "source": "Monster Codex", 
+                                    "type": "animal_companion", 
+                                    "subtype": "base", 
+                                    "attack": "gore (1d6)", 
+                                    "ability_scores": "Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4", 
+                                    "sections": [
+                                        {
+                                            "ac": "+3 natural armor", 
+                                            "name": "7th-Level Advancement", 
+                                            "source": "Monster Codex", 
+                                            "type": "animal_companion", 
+                                            "level": "7th", 
+                                            "subtype": "advancement", 
+                                            "attack": "gore (1d8)", 
+                                            "ability_scores": "Str +8, Dex -2, Con +4", 
+                                            "special_qualities": "stampede, stench, trample.", 
+                                            "size": "Large"
+                                        }
+                                    ], 
+                                    "special_qualities": "low-light vision, scent.", 
+                                    "speed": "40 ft.", 
+                                    "size": "Medium"
+                                } 
+                            ], 
                             "text": "<p>An yzobu can be taken as an animal companion or mount by cavaliers, druids, hunters, and rangers.</p>"
-                        }, 
-                        {
-                            "ac": "+1 natural armor", 
-                            "name": "Starting Statistics", 
-                            "source": "Monster Codex", 
-                            "type": "animal_companion", 
-                            "subtype": "base", 
-                            "attack": "gore (1d6)", 
-                            "ability_scores": "Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4", 
-                            "sections": [], 
-                            "special_qualities": "low-light vision, scent.", 
-                            "speed": "40 ft.", 
-                            "size": "Medium"
-                        }, 
-                        {
-                            "ac": "+3 natural armor", 
-                            "name": "7th-Level Advancement", 
-                            "source": "Monster Codex", 
-                            "type": "animal_companion", 
-                            "level": "7th", 
-                            "subtype": "advancement", 
-                            "attack": "gore (1d8)", 
-                            "ability_scores": "Str +8, Dex -2, Con +4", 
-                            "sections": [], 
-                            "special_qualities": "stampede, stench, trample.", 
-                            "size": "Large"
-                        }
+                        } 
                     ]
                 }
             ]

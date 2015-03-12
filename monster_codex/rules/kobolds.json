@@ -99,64 +99,52 @@
                     "name": "Kobold Companions", 
                     "sections": [
                         {
-                            "source": "Monster Codex", 
-                            "type": "section", 
-                            "name": "Cave Salamander"
-                        }, 
-                        {
                             "ac": "+2 natural armor", 
-                            "name": "Starting Statistics", 
+                            "name": "Cave Salamander"
                             "source": "Monster Codex", 
                             "type": "animal_companion", 
                             "subtype": "base", 
                             "attack": "bite (1d6)", 
                             "ability_scores": "Str 13, Dex 12, Con 13, Int 1, Wis 12, Cha 4", 
-                            "sections": [], 
+                            "sections": [
+                                {
+                                    "name": "4th-Level Advancement", 
+                                    "source": "Monster Codex", 
+                                    "type": "animal_companion", 
+                                    "level": "4th", 
+                                    "subtype": "advancement", 
+                                    "ability_scores": "Str +2, Con +2", 
+                                    "special_qualities": "combat training (see the Handle Animal skill)."
+                                } 
+                            ], 
                             "special_qualities": "darkvision 60 ft.", 
                             "speed": "40 ft.", 
                             "size": "Medium"
                         }, 
                         {
-                            "name": "4th-Level Advancement", 
-                            "source": "Monster Codex", 
-                            "type": "animal_companion", 
-                            "level": "4th", 
-                            "subtype": "advancement", 
-                            "text": "", 
-                            "ability_scores": "Str +2, Con +2", 
-                            "sections": [
-                                {
-                                    "source": "Monster Codex", 
-                                    "type": "section", 
-                                    "name": "Riding Python"
-                                }
-                            ], 
-                            "special_qualities": "combat training (see the Handle Animal skill)."
-                        }, 
-                        {
                             "ac": "+1 natural armor", 
-                            "name": "Starting Statistics", 
+                            "name": "Riding Python"
                             "source": "Monster Codex", 
                             "type": "animal_companion", 
                             "cmd": "(can't be tripped)", 
                             "subtype": "base", 
                             "attack": "bite (1d6)", 
                             "ability_scores": "Str 11, Dex 14, Con 13, Int 1, Wis 10, Cha 4", 
-                            "sections": [], 
+                            "sections": [
+                                {
+                                    "name": "4th-Level Advancement", 
+                                    "source": "Monster Codex", 
+                                    "type": "animal_companion", 
+                                    "level": "4th", 
+                                    "subtype": "advancement", 
+                                    "ability_scores": "Str +2, Con +2", 
+                                    "special_qualities": "combat training (see the Handle Animal skill)."
+                                }
+                            ], 
                             "special_qualities": "blindsight 60 ft.", 
                             "speed": "30 ft.", 
                             "size": "Medium"
-                        }, 
-                        {
-                            "name": "4th-Level Advancement", 
-                            "source": "Monster Codex", 
-                            "type": "animal_companion", 
-                            "level": "4th", 
-                            "subtype": "advancement", 
-                            "ability_scores": "Str +2, Con +2", 
-                            "sections": [], 
-                            "special_qualities": "combat training (see the Handle Animal skill)."
-                        }
+                        } 
                     ]
                 }, 
                 {
