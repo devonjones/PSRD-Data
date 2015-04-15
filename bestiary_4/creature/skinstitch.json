@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 4", 
             "url": "pfsrd://Bestiary 4/Monsters/Skinstitch/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A skinstitch's body is a haven for a swarm of snakes, spiders, and wasps. Any swarm that shares a space with a skinstitch gains fast healing equal to the swarm's Hit Dice.", 
                     "name": "Nest", 
                     "url": "pfsrd://Bestiary 4/Monsters/Skinstitch/Special Abilities/Nest", 
                     "ability_types": {
-                        "ability_type_id": 573, 
-                        "section_id": 1812, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1812, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -46,60 +45,49 @@
                     "name": "Repair", 
                     "url": "pfsrd://Bestiary 4/Monsters/Skinstitch/Special Abilities/Repair", 
                     "ability_types": {
-                        "ability_type_id": 574, 
-                        "section_id": 1813, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1813, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1811, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A skinstitch is a crude construct made of cloth, leather, hides, and skins sewn together into a roughly ogre-like shape and stuffed with hay. Skinstitches are usually created by a spellcaster lacking the power, talent, or gold to craft a flesh golem.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1814
+            "type": "section"
         }, 
         {
             "body": "<p>A skinstitch's stuffing juts out of gaps in the sewing and the mouths and eye-holes of its component faces, giving it a horrifying, ragged look. Swarms of vermin and other creatures often find refuge within the straw, and the magic of this construct grants swarms nesting within its body amazing regenerative powers. Despite its appearance, a skinstitch is strong, tough, and agile, though its components make it susceptible to fire.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1815
+            "type": "section"
         }, 
         {
             "body": "<p>A skinstitch created with material from specific creatures, such as dragons or fire giants, may gain additional abilities appropriate to that creature.</p>", 
             "name": "Variant Skinstitches", 
             "url": "pfsrd://Bestiary 4/Monsters/Skinstitch/Variant Skinstitches", 
+            "type": "section", 
+            "source": "Bestiary 4", 
             "sections": [
                 {
                     "body": "<p>An enhanced skinstitch has a natural armor bonus 5 greater than normal, a +5 bonus on Stealth checks, and fire resistance 10.</p>", 
-                    "name": "Enhanced Skinstitch (CR +1)", 
                     "url": "pfsrd://Bestiary 4/Monsters/Skinstitch/Variant Skinstitches/Enhanced Skinstitch (CR +1)", 
-                    "section_id": 1817, 
-                    "source": "Bestiary 4", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Enhanced Skinstitch (CR +1)", 
+                    "source": "Bestiary 4"
                 }, 
                 {
                     "body": "<p>A resilient skinstitch loses its fire vulnerability and gains fire resistance 10 and DR 5/magic.</p>", 
-                    "name": "Resilient Skinstitch (CR +1)", 
                     "url": "pfsrd://Bestiary 4/Monsters/Skinstitch/Variant Skinstitches/Resilient Skinstitch (CR +1)", 
-                    "section_id": 1818, 
-                    "source": "Bestiary 4", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Resilient Skinstitch (CR +1)", 
+                    "source": "Bestiary 4"
                 }
-            ], 
-            "section_id": 1816, 
-            "source": "Bestiary 4", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A skinstitch's body is made from leather and cloth costing at least 500 gp.</p>", 
-            "name": "Construction", 
+            "type": "section", 
             "sections": [
                 {
                     "name": "Skinstitch", 
@@ -111,20 +99,17 @@
                             "descriptor": ""
                         }
                     }, 
-                    "section_id": 1820, 
                     "source": "Bestiary 4", 
                     "type": "item"
                 }
             ], 
-            "section_id": 1819, 
-            "source": "Bestiary 4", 
-            "type": "section"
+            "name": "Construction", 
+            "source": "Bestiary 4"
         }
     ], 
     "hp": "52 (4d10+30)", 
     "weaknesses": "vulnerable to fire", 
     "reach": "10 ft.", 
-    "section_id": 1810, 
     "wisdom": "11", 
     "creature_type": "Construct", 
     "special_qualities": "nest, repair", 

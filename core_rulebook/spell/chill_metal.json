@@ -8,8 +8,7 @@
     "type": "spell", 
     "spell_resistance": "yes (object)", 
     "casting_time": "1 standard action", 
-    "level_text": "Druid: 2", 
-    "section_id": 77, 
+    "level_text": "Druid: 2; Hunter: 2", 
     "descriptor": [
         "cold"
     ], 
@@ -17,6 +16,10 @@
     "levels": [
         {
             "class": "Druid", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
             "level": 2
         }
     ], 
@@ -42,17 +45,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Round</th><th>Metal Temperature</th><th>Damage</th></tr></thead><tbody><tr class=\"odd\"><td>1</td><td>Cold</td><td>None</td></tr><tr class=\"even\"><td>2</td><td>Icy</td><td>1d4 points</td></tr><tr class=\"odd\"><td>3&ndash;5</td><td>Freezing</td><td>2d4 points</td></tr><tr class=\"even\"><td>6</td><td>Icy</td><td>1d4 points</td></tr><tr class=\"odd\"><td>7</td><td>Cold</td><td>None</td></tr></tbody></table>", 
-            "name": "Round", 
             "url": "pfsrd://Core Rulebook/Spells/Chill Metal/Round", 
-            "section_id": 78, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Round", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Any heat intense enough to damage the creature negates cold damage from the spell (and vice versa) on a point-for-point basis. Underwater, <i>chill metal</i> deals no damage, but ice immediately forms around the affected metal, making it float if unattended.</p><p><i>Chill metal</i> counters and dispels <i>heat metal</i>.</p>", 
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 79
+            "type": "section"
         }
     ], 
     "component_text": "V, S, DF", 

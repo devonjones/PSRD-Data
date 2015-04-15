@@ -36,33 +36,25 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Couatl/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A couatl casts spells as a 9th-level sorcerer, and can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a couatl, meaning that the creature does not need a divine focus to cast them.", 
                     "source": "Bestiary", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 782
+                    "name": "Spells"
                 }, 
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Couatl/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 162, 
-                        "section_id": 783, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 783, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Couatl Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Couatl/Special Abilities/Poison/Couatl Venom", 
                             "contracted": "injury", 
-                            "section_id": 784, 
                             "effect": "1d4 Strength", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -70,41 +62,38 @@
                             "save": "Fortitude DC 16", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 781, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Couatls are servants of lawful and good deities, though some operate independently of any greater being. Respected and admired for their wisdom and beauty, they try to steer mortals onto the right path and use their powers to fight evil, particularly those known to shift between the planes. Some couatls are viewed as benevolent gods by isolated societies, and while most couatls cringe at the thought of pretending to be a god, they allow such misconceptions to continue since they allow the couatls to guide and coax these societies onto paths of peace and cooperation with their neighbors. A couatl is about 12 feet long, with a wingspan of about 15 feet. It weighs 1,800 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 785
+            "type": "section"
         }, 
         {
             "body": "<p>As native outsiders, couatls must eat. They prefer the same foods as true snakes, such as mammals and birds, though they have been known to eat evil humanoids.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 786
+            "type": "section"
         }, 
         {
             "body": "<p>As they would rather spend their time promoting their agenda than hunting, couatls appreciate offers of food, particularly small boars and large game fowl.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 787
+            "type": "section"
         }, 
         {
             "body": "<p>A couatl sometimes shows its favor to an adventurer or party that has done it a service by gifting the group with 1d4 of its brightly colored feathers. Such a freely given feather, if used as an additional material component, allows a spellcaster to cast <i>planar ally</i> to conjure that specific couatl without expending the typical payment of gold or other valuables&mdash;provided the the couatl approves of the service asked for by the spellcaster.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 788
+            "type": "section"
         }
     ], 
     "hp": "126 (12d10+60)", 
     "reach": "5 ft.", 
-    "section_id": 780, 
     "wisdom": "19", 
     "creature_type": "Outsider", 
     "name": "Couatl", 

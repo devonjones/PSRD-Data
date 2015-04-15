@@ -6,8 +6,7 @@
     "url": "pfsrd://Advanced Players Guide/Spells/Instant Armor", 
     "type": "spell", 
     "casting_time": "1 standard action", 
-    "level_text": "Cleric: 2; Oracle: 2; Paladin: 2", 
-    "section_id": 153, 
+    "level_text": "Cleric: 2; Oracle: 2; Warpriest: 2; Paladin: 2", 
     "descriptor": [
         "force"
     ], 
@@ -23,6 +22,10 @@
         }, 
         {
             "class": "Paladin", 
+            "level": 2
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 2
         }
     ], 
@@ -52,17 +55,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Caster Level</th><th>Armor Created</th></tr></thead><tbody><tr class=\"odd\"><td>5th or lower</td><td>chainmail</td></tr><tr class=\"even\"><td>6th&ndash;8th</td><td>banded mail </td></tr><tr class=\"odd\"><td>9th&ndash;11th</td><td>half-plate </td></tr><tr class=\"even\"><td>12th or higher</td><td>full plate</td></tr></tbody></table>", 
-            "name": "Caster Level", 
             "url": "pfsrd://Advanced Players Guide/Spells/Instant Armor/Caster Level", 
-            "section_id": 154, 
-            "source": "Advanced Player's Guide", 
-            "type": "table"
+            "type": "table", 
+            "name": "Caster Level", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>If you choose to create lesser armor than your level allows you gain a +1 magical enhancement bonus to the armor you do create for every type of armor you pass over. For instance, if you have the capacity to create full plate <i>instant armor</i> you could instead choose to create <i>+1 half-plate</i>, <i>+2 banded mail</i>, or <i>+3 chainmail</i>. You cannot replace these bonuses with armor special properties. </p>", 
             "source": "Advanced Player's Guide", 
-            "type": "section", 
-            "section_id": 155
+            "type": "section"
         }
     ], 
     "component_text": "V, S, DF", 

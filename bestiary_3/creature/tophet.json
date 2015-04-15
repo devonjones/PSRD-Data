@@ -3,7 +3,7 @@
     "ac": "24, touch 8, flat-footed 24 (-1 Dex, +16 natural, -1 size)", 
     "special_attacks": "swallow whole (no damage [see below], AC 18, 40 hp), trample (2d6+12, DC 25)", 
     "intelligence": "-", 
-    "melee": "bite +21 (2d6+8 plus grab), 2 slams +16 (1d6+8)", 
+    "melee": "bite +21 (2d6+8 plus grab), 2 slams +21 (1d6+8)", 
     "cr": "10", 
     "xp": "9,600", 
     "speed": "20 ft.", 
@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Tophet/Tophet/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Anytime a tophet is affected by an effect that deals fire damage, determine how much damage the construct would have taken if it were not immune to fire. Creatures currently swallowed whole by the construct take fire damage equal to half of this amount.", 
                     "name": "Conductive", 
                     "url": "pfsrd://Bestiary 3/Monsters/Tophet/Tophet/Special Abilities/Conductive", 
                     "ability_types": {
-                        "ability_type_id": 592, 
-                        "section_id": 2134, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2134, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -46,41 +45,31 @@
                     "name": "Swallow Whole", 
                     "url": "pfsrd://Bestiary 3/Monsters/Tophet/Tophet/Special Abilities/Swallow Whole", 
                     "ability_types": {
-                        "ability_type_id": 593, 
-                        "section_id": 2135, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2135, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2133, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Known in some lands as furnace guards or iron gluttons, tophets have long served in the palaces and prisons of tyrants as vigilant sentinels and dreaded punishments. Appearing as rotund iron statues, often bearing the caricatured visages of past kings or dishonored nobles, these constructs all possess yawning maws, capable of easily gobbling up smaller creatures. Upon consuming a victim, the animate statue becomes a walking prison, holding its victim within with little chance for escape. The iron statue can then return its victim to the proper cell, the feet of its lord, or any other fate its creator determines. In the most feared case, tophets capture or are fed prisoners, then wander out into the desert heat or even rivers of molten rock, where their interiors attain hellish temperatures, torturing and often outright killing those trapped within.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2136
+            "type": "section"
         }, 
         {
             "body": "<p>Tophets are often assembled in groups of up to a dozen, where cruel rulers incarcerate traitors and other criminals. Mindless creatures capable only of obeying their masters' whims, these unthinking constructs make incorruptible guardians and are endlessly loyal.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2137
+            "type": "section"
         }, 
         {
             "body": "<p>Tophets stand 10 feet tall and weigh 3,000 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2138
+            "type": "section"
         }
     ], 
     "hp": "107 (14d10+30)", 
     "reach": "5 ft.", 
-    "section_id": 2132, 
     "wisdom": "12", 
     "creature_type": "Construct", 
     "special_qualities": "conductive", 

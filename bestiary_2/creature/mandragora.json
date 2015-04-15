@@ -31,26 +31,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Mandragora/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Slam:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Mandragora/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 330, 
-                        "section_id": 1352, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1352, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Mandragora Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Mandragora/Special Abilities/Poison/Mandragora Venom", 
                             "contracted": "injury", 
-                            "section_id": 1353, 
                             "effect": "confusion and fatigue", 
                             "subtype": "poison", 
                             "cure": "no saves but &ldquo;act normally&rdquo; result on the confusion behavior table ends the effect.", 
@@ -58,18 +51,20 @@
                             "save": "Fortitude DC 15", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Once per day as a standard action, a mandragora can give voice to an unsettling shriek. All creatures within a 30-foot spread of a shrieking mandragora must make a DC 15 Will save or become nauseated for 1d4 rounds. This is a sonic, mind-affecting ability. The save DC is Constitution-based.", 
                     "name": "Shriek", 
                     "url": "pfsrd://Bestiary 2/Monsters/Mandragora/Special Abilities/Shriek", 
                     "ability_types": {
-                        "ability_type_id": 331, 
-                        "section_id": 1354, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1354, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -78,48 +73,37 @@
                     "name": "Vulnerable to Supernatural Darkness", 
                     "url": "pfsrd://Bestiary 2/Monsters/Mandragora/Special Abilities/Vulnerable to Supernatural Darkness", 
                     "ability_types": {
-                        "ability_type_id": 332, 
-                        "section_id": 1355, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1355, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1351, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A mandragora rises spontaneously from a mandrake root that has drawn nutrition from the corpse or ichor of a demon. A typical mandragora stands at just over 3 feet tall and only weighs 30 pounds. However, its size hides the creature<i>'</i>s fantastic strength and brutality. When a mandragora attacks, its fingers grow into whipping, thorny vines nearly 10 feet long, with which it makes its slam attacks.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1356
+            "type": "section"
         }, 
         {
             "body": "<p>A mandragora rarely strays far from its lair amid tangled roots or vines, but when it encounters any other creature, it attacks regardless of the odds. However, a mandragora can usually recognize druids and does not attack them or their animal companions unless they attack it first. It has no qualms about attacking a druid<i>'</i>s allies.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1357
+            "type": "section"
         }, 
         {
             "body": "<p>When mandragora poison is mixed with its thick, gooey, sap-like blood and 1,000 gp worth of alchemical reagents, the resulting fluid can be used as a focus for the <i>scrying</i> spell. The fluid only lasts for the duration of the spell's casting time and resulting effects but the subject of the spell takes a &ndash;4 penalty on the save to resist it.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1358
+            "type": "section"
         }, 
         {
             "body": "<p>A mandrake root that is growing on or near a demon's corpse or ichor has a 2% chance of awakening as a mandragora within a day of first absorbing the tainted material. A creature that wants to create a mandragora can do so with alchemy; the process requires a day of work, a mandrake root, several pints of ichor or the body of a demon of <span class=\"stat-block-cr\">CR 6</span> or above, and a successful DC 25 Craft (alchemy) check. The newly created mandragora is hostile, even to its creator.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1359
+            "type": "section"
         }
     ], 
     "hp": "37 (5d8+15)", 
     "weaknesses": "vulnerable to supernatural darkness", 
     "reach": "5 ft. (10 ft. with slam)", 
-    "section_id": 1350, 
     "wisdom": "13", 
     "creature_type": "Plant", 
     "name": "Mandragora", 

@@ -5,7 +5,6 @@
     "url": "pfsrd://Core Rulebook/Classes/Paladin", 
     "type": "class", 
     "image": "Paladin.png", 
-    "section_id": 2256, 
     "subtype": "core", 
     "hit_die": "d10", 
     "alt": "Seelah", 
@@ -14,71 +13,61 @@
             "body": "<p>Paladins serve as beacons for their allies within the chaos of battle. While deadly opponents of evil, they can also empower goodly souls to aid in their crusades. Their magic and martial skills also make them well suited to defending others and blessing the fallen with the strength to continue fighting.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 2257
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for paladin characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Paladin</td><td>5d6 &times; 10 gp</td><td>175 gp</td></tr></table>", 
                     "source": "Core Rulebook", 
-                    "type": "table", 
-                    "section_id": 2259
+                    "type": "table"
                 }
             ], 
-            "section_id": 2258, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The paladin's class skills are Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Knowledge (nobility) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Spellcraft (Int).</p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>2 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-3-11-paladin\"><caption>Table: Paladin</caption><thead><tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"4\">Spells per Day</th></tr><tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+1</td><td>+2</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Aura of good<i></i>, detect evil, smite evil 1/day</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+2</td><td>+3</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\">Divine grace, lay on hands</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+3</td><td>+3</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\">Aura of courage, divine health, mercy</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+4</td><td>+4</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Channel positive energy, smite evil 2/day</td><td>0</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+5</td><td>+4</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Divine bond</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+6/+1</td><td>+5</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Mercy</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+7/+2</td><td>+5</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Smite evil 3/day</td><td>1</td><td>0</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+8/+3</td><td>+6</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\">Aura of resolve</td><td>1</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+9/+4</td><td>+6</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\">Mercy</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+10/+5</td><td>+7</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Smite evil 4/day</td><td>2</td><td>1</td><td>0</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Aura of justice</td><td>2</td><td>1</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Mercy</td><td>2</td><td>2</td><td>1</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Smite evil 5/day</td><td>3</td><td>2</td><td>1</td><td>0</td></tr><tr class=\"even\"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\">Aura of faith</td><td>3</td><td>2</td><td>1</td><td>1</td></tr><tr class=\"odd\"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\">Mercy</td><td>3</td><td>2</td><td>2</td><td>1</td></tr><tr class=\"even\"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Smite evil 6/day</td><td>3</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"odd\"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Aura of righteousness</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"even\"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Mercy</td><td>4</td><td>3</td><td>2</td><td>2</td></tr><tr class=\"odd\"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Smite evil 7/day</td><td>4</td><td>3</td><td>3</td><td>2</td></tr><tr class=\"even\"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">Holy champion</td><td>4</td><td>4</td><td>3</td><td>3</td></tr></table>", 
-                            "name": "Table: Paladin", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Skills/Skill Ranks per Level/Table Paladin", 
-                            "section_id": 2262, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Paladin", 
+                            "source": "Core Rulebook"
                         }
                     ], 
-                    "section_id": 2261, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 2260, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>All of the following are class features of the paladin.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 2264
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"aura-of-good\">The power of a paladin's aura of good (see the <i>detect good</i> spell) is equal to her paladin level.</p>", 
                     "name": "Aura of Good", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Aura of Good", 
                     "ability_types": {
-                        "ability_type_id": 209, 
-                        "section_id": 2265, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2265, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -87,11 +76,8 @@
                     "name": "Detect Evil", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Detect Evil", 
                     "ability_types": {
-                        "ability_type_id": 210, 
-                        "section_id": 2266, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 2266, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -100,11 +86,8 @@
                     "name": "Smite Evil", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Smite Evil", 
                     "ability_types": {
-                        "ability_type_id": 211, 
-                        "section_id": 2267, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2267, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -113,11 +96,8 @@
                     "name": "Divine Grace", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Divine Grace", 
                     "ability_types": {
-                        "ability_type_id": 212, 
-                        "section_id": 2268, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2268, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -126,11 +106,8 @@
                     "name": "Lay On Hands", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Lay On Hands", 
                     "ability_types": {
-                        "ability_type_id": 213, 
-                        "section_id": 2269, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2269, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -139,11 +116,8 @@
                     "name": "Aura of Courage", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Aura of Courage", 
                     "ability_types": {
-                        "ability_type_id": 214, 
-                        "section_id": 2270, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2270, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -152,11 +126,8 @@
                     "name": "Divine Health", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Divine Health", 
                     "ability_types": {
-                        "ability_type_id": 215, 
-                        "section_id": 2271, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2271, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -164,147 +135,126 @@
                     "body": "<p id=\"mercy\">At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.</p><p>At 3rd level, the paladin can select from the following initial mercies. </p>", 
                     "name": "Mercy", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 216, 
-                        "section_id": 2272, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 2272, 
-                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<p>The target is no longer fatigued.</p>", 
-                            "name": "Fatigued", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Fatigued", 
-                            "section_id": 2273, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Fatigued", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer shaken.</p>", 
-                            "name": "Shaken", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Shaken", 
-                            "section_id": 2274, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Shaken", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer sickened. </p><p>At 6th level, a paladin adds the following mercies to the list of those that can be selected. </p>", 
-                            "name": "Sickened", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Sickened", 
-                            "section_id": 2275, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Sickened", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer dazed.</p>", 
-                            "name": "Dazed", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Dazed", 
-                            "section_id": 2276, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Dazed", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The paladin's lay on hands ability also acts as <i>remove disease</i>, using the paladin's level as the caster level.</p>", 
-                            "name": "Diseased", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Diseased", 
-                            "section_id": 2277, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Diseased", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer staggered, unless the target is at exactly 0 hit points.</p><p>At 9th level, a paladin adds the following mercies to the list of those that can be selected.</p>", 
-                            "name": "Staggered", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Staggered", 
-                            "section_id": 2278, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Staggered", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The paladin's lay on hands ability also acts as <i>remove curse</i>, using the paladin's level as the caster level.</p>", 
-                            "name": "Cursed", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Cursed", 
-                            "section_id": 2279, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Cursed", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer exhausted. The paladin must have the fatigue mercy before selecting this mercy.</p>", 
-                            "name": "Exhausted", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Exhausted", 
-                            "section_id": 2280, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Exhausted", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer frightened. The paladin must have the shaken mercy before selecting this mercy.</p>", 
-                            "name": "Frightened", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Frightened", 
-                            "section_id": 2281, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Frightened", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer nauseated. The paladin must have the sickened mercy before selecting this mercy.</p>", 
-                            "name": "Nauseated", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Nauseated", 
-                            "section_id": 2282, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Nauseated", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The paladin's lay on hands ability also acts as <i>neutralize poison</i>, using the paladin's level as the caster level.</p><p>At 12th level, a paladin adds the following mercies to the list of those that can be selected.</p>", 
-                            "name": "Poisoned", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Poisoned", 
-                            "section_id": 2283, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Poisoned", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer blinded.</p>", 
-                            "name": "Blinded", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Blinded", 
-                            "section_id": 2284, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Blinded", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer deafened.</p>", 
-                            "name": "Deafened", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Deafened", 
-                            "section_id": 2285, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Deafened", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer paralyzed.</p>", 
-                            "name": "Paralyzed", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Paralyzed", 
-                            "section_id": 2286, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Paralyzed", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The target is no longer stunned. </p><p>These abilities are cumulative. For example, a 12th-level paladin's lay on hands ability heals 6d6 points of damage and might also cure fatigued and exhausted conditions as well as removing diseases and neutralizing poisons. Once a condition or spell effect is chosen, it can't be changed.</p>", 
-                            "name": "Stunned", 
                             "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Mercy/Stunned", 
-                            "section_id": 2287, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Stunned", 
+                            "source": "Core Rulebook"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Core Rulebook", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "<p id=\"channel-positive-energy-paladin\">When a paladin reaches 4th level, she gains the supernatural ability to channel positive energy like a cleric. Using this ability consumes two uses of her lay on hands ability. A paladin uses her level as her effective cleric level when channeling positive energy. This is a Charisma-based ability.</p>", 
                     "name": "Channel Positive Energy", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Channel Positive Energy", 
                     "ability_types": {
-                        "ability_type_id": 217, 
-                        "section_id": 2288, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2288, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -312,19 +262,15 @@
                     "body": "<p id=\"spells-paladin\">Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells which are drawn from the paladin spell list presented in Spell Lists. A paladin must choose and prepare her spells in advance.</p><p>To prepare or cast a spell, a paladin must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a paladin's spell is 10 + the spell level + the paladin's Charisma modifier.</p><p>Like other spellcasters, a paladin can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: Paladin. In addition, she receives bonus spells per day if she has a high Charisma score (see Table: Ability Modifiers and Bonus Spells). When Table: Paladin indicates that the paladin gets 0 spells per day of a given spell level, she gains only the bonus spells she would be entitled to based on her Charisma score for that spell level.</p><p>A paladin must spend 1 hour each day in quiet prayer and meditation to regain her daily allotment of spells. A paladin may prepare and cast any spell on the paladin spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her daily meditation.</p><p>Through 3rd level, a paladin has no caster level. At 4th level and higher, her caster level is equal to her paladin level &ndash; 3.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 2289
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"divine-bond\">Upon reaching 5th level, a paladin forms a divine bond with her god. This bond can take one of two forms. Once the form is chosen, it cannot be changed.</p><p>The first type of bond allows the paladin to enhance her weapon as a standard action by calling upon the aid of a celestial spirit for 1 minute per paladin level. When called, the spirit causes the weapon to shed light as a torch. At 5th level, this spirit grants the weapon a +1 enhancement bonus. For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: <i>axiomatic</i>, <i>brilliant energy, defending, disruption, flaming, flaming burst, holy, keen, merciful</i>, and <i>speed</i>. Adding these properties consumes an amount of bonus equal to the property's cost (see Table: Melee Weapon Special Abilities). These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the weapon is held by anyone other than the paladin but resumes giving bonuses if returned to the paladin. These bonuses apply to only one end of a double weapon. A paladin can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a total of four times per day at 17th level.</p><p>If a weapon bonded with a celestial spirit is destroyed, the paladin loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this 30-day period, the paladin takes a &ndash;1 penalty on attack and weapon damage rolls.</p><p>The second type of bond allows a paladin to gain the service of an unusually intelligent, strong, and loyal steed to serve her in her crusade against evil. This mount is usually a heavy horse (for a Medium paladin) or a pony (for a Small paladin), although more exotic mounts, such as a boar, camel, or dog are also suitable. This mount functions as a druid's animal companion, using the paladin's level as her effective druid level. Bonded mounts have an Intelligence of at least 6. </p><p>Once per day, as a full-round action, a paladin may magically call her mount to her side. This ability is the equivalent of a spell of a level equal to one-third the paladin's level. The mount immediately appears adjacent to the paladin. A paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels thereafter, for a total of four times per day at 17th level.</p><p>At 11th level, the mount gains the celestial template and becomes a magical beast for the purposes of determining which spells affect it. At 15th level, a paladin's mount gains spell resistance equal to the paladin's level + 11.</p><p>Should the paladin's mount die, the paladin may not summon another mount for 30 days or until she gains a paladin level, whichever comes first. During this 30-day period, the paladin takes a &ndash;1 penalty on attack and weapon damage rolls. </p>", 
                     "name": "Divine Bond", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Divine Bond", 
                     "ability_types": {
-                        "ability_type_id": 218, 
-                        "section_id": 2290, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 2290, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -333,11 +279,8 @@
                     "name": "Aura of Resolve", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Aura of Resolve", 
                     "ability_types": {
-                        "ability_type_id": 219, 
-                        "section_id": 2291, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2291, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -346,11 +289,8 @@
                     "name": "Aura of Justice", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Aura of Justice", 
                     "ability_types": {
-                        "ability_type_id": 220, 
-                        "section_id": 2292, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2292, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -359,11 +299,8 @@
                     "name": "Aura of Faith", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Aura of Faith", 
                     "ability_types": {
-                        "ability_type_id": 221, 
-                        "section_id": 2293, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2293, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -372,11 +309,8 @@
                     "name": "Aura of Righteousness", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Aura of Righteousness", 
                     "ability_types": {
-                        "ability_type_id": 222, 
-                        "section_id": 2294, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2294, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -385,79 +319,67 @@
                     "name": "Holy Champion", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Holy Champion", 
                     "ability_types": {
-                        "ability_type_id": 223, 
-                        "section_id": 2295, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2295, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
                 {
                     "body": "<p id=\"code-of-conduct\">A paladin must be of lawful good alignment and loses all class features except proficiencies if she ever willingly commits an evil act.</p><p>Additionally, a paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help for evil or chaotic ends), and punish those who harm or threaten innocents.</p>", 
-                    "name": "Code of Conduct", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Code of Conduct", 
-                    "section_id": 2296, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Code of Conduct", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>While she may adventure with good or neutral allies, a paladin avoids working with evil characters or with anyone who consistently offends her moral code. Under exceptional circumstances, a paladin can ally with evil associates, but only to defeat what she believes to be a greater evil. A paladin should seek an <i>atonement</i> spell periodically during such an unusual alliance, and should end the alliance immediately should she feel it is doing more harm than good. A paladin may accept only henchmen, followers, or cohorts who are lawful good.</p>", 
-                    "name": "Associates", 
                     "url": "pfsrd://Core Rulebook/Classes/Paladin/Class Features/Associates", 
-                    "section_id": 2297, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Associates", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 2263, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Paladins gain access to the following spells.</p>", 
             "name": "Paladin Spells", 
             "source": "Core Rulebook", 
             "url": "pfsrd://Core Rulebook/Classes/Paladin/Paladin Spells", 
-            "section_id": 2298, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "paladin"
         }, 
         {
-            "name": "Paladin Archetypes", 
             "url": "pfsrd://Core Rulebook/Classes/Paladin/Paladin Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Paladin Archetypes: Advanced Player's Guide", 
-                    "section_id": 2300
+                    "name": "Paladin Archetypes: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Paladin Archetypes: Ultimate Magic", 
-                    "section_id": 2301
+                    "name": "Paladin Archetypes: Ultimate Magic"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Paladin Archetypes: Ultimate Combat", 
-                    "section_id": 2302
+                    "name": "Paladin Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 2299, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Paladin Archetypes", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>A paladin who ceases to be lawful good, who willfully commits an evil act, or who violates the code of conduct loses all paladin spells and class features (including the service of the paladin's mount, but not weapon, armor, and shield proficiencies). She may not progress any further in levels as a paladin. She regains her abilities and advancement potential if she atones for her violations (see the <i>atonement</i> spell description in Spell Lists), as appropriate.</p>", 
-            "name": "Ex-Paladins", 
             "url": "pfsrd://Core Rulebook/Classes/Paladin/Ex-Paladins", 
-            "section_id": 2303, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Ex-Paladins", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Lawful good."

@@ -26,65 +26,57 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Dinosaur/Ankylosaurus/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The ankylosaurus's tail can deliver a powerful, stunning blow. A creature struck by this attack must make a DC 23 save or be dazed for 1 round. If the strike is a critical hit and the target fails its save, it is instead stunned for 1d4 rounds. The save DC is Strength-based.", 
                     "name": "Stun", 
                     "url": "pfsrd://Bestiary/Monsters/Dinosaur/Ankylosaurus/Special Abilities/Stun", 
                     "ability_types": {
-                        "ability_type_id": 222, 
-                        "section_id": 1013, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1013, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1012, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The ankylosaurus is a powerful, squat dinosaur more than capable of defending itself against enemies. Its back is heavily armored with thick bony plates and spikes. A solid blow from an ankylosaurus's tail can leave most creatures stunned long enough for the armored dinosaur to make good an escape, although once confronted, most ankylosauruses are too ill-tempered and stubborn to flee. Instead, they stand their ground and use their tails to great effect in battle. An ankylosaurus is 30 feet long and weighs 6,000 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1014
+            "type": "section"
         }, 
         {
             "ac": "+9 natural armor", 
             "name": "Ankylosaurus", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Dinosaur/Ankylosaurus/Ankylosaurus", 
+            "speed": "30 ft.", 
+            "subtype": "base", 
+            "attack": "tail (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 10, Dex 14, Con 9, Int 2, Wis 12, Cha 8", 
             "sections": [
                 {
                     "ac": "+2 natural armor", 
                     "name": "7th-Level Advancement", 
                     "level": "7th", 
                     "url": "pfsrd://Bestiary/Monsters/Dinosaur/Ankylosaurus/Ankylosaurus/7th-Level Advancement", 
-                    "section_id": 1016, 
                     "subtype": "advancement", 
                     "attack": "tail (2d6)", 
                     "source": "Bestiary", 
-                    "special_qualities": "stun", 
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
                     "type": "animal_companion", 
-                    "ability_scores": "Str +8, Dex &ndash;2, Con +4.", 
+                    "special_qualities": "stun.", 
                     "size": "Large"
                 }
             ], 
-            "section_id": 1015, 
-            "subtype": "base", 
-            "attack": "tail (1d6)", 
-            "type": "animal_companion", 
             "special_qualities": "low-light vision, scent.", 
-            "speed": "30 ft.", 
-            "ability_scores": "Str 10, Dex 14, Con 9, Int 2, Wis 12, Cha 8", 
             "size": "Medium"
         }
     ], 
     "hp": "75 (10d8+30)", 
     "reach": "15 ft.", 
-    "section_id": 1011, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Dinosaur, Ankylosaurus", 

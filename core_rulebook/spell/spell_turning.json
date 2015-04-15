@@ -5,11 +5,14 @@
     "url": "pfsrd://Core Rulebook/Spells/Spell Turning", 
     "type": "spell", 
     "casting_time": "1 standard action", 
-    "level_text": "Sorcerer: 7; Summoner: 5; Wizard: 7", 
-    "section_id": 565, 
+    "level_text": "Arcanist: 7; Sorcerer: 7; Summoner: 5; Wizard: 7", 
     "source": "Core Rulebook", 
     "range": "personal", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 7
+        }, 
         {
             "class": "Sorcerer", 
             "level": 7
@@ -49,11 +52,10 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>d%</th><th>Effect</th></tr></thead><tr class=\"odd\"><td>01&ndash;70</td><td>Spell drains away without effect.</td></tr><tr class=\"even\"><td>71&ndash;80</td><td>Spell affects both of you equally at full effect.</td></tr><tr class=\"odd\"><td>81&ndash;97</td><td>Both turning effects are rendered nonfunctional for 1d4 minutes.</td></tr><tr class=\"even\"><td>98&ndash;100</td><td>Both of you go through a rift into another plane.</td></tr></table>", 
-            "name": "d%", 
             "url": "pfsrd://Core Rulebook/Spells/Spell Turning/d%", 
-            "section_id": 566, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "d%", 
+            "source": "Core Rulebook"
         }
     ], 
     "component_text": "V, S, M/DF (a small silver mirror)", 

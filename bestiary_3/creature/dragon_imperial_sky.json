@@ -1,45 +1,33 @@
 {
+    "breath_weapon": "cone, 2d8 electricity", 
     "dexterity": "14", 
-    "intelligence": "14", 
-    "hit_dice": "6d12", 
-    "cr": "5", 
-    "speed": "40 ft.", 
-    "size": "Small", 
     "strength": "13", 
-    "constitution": "13", 
-    "treasure": "triple", 
-    "environment": "temperate or warm mountains", 
-    "source": "Bestiary 3", 
-    "charisma": "14", 
+    "name": "Dragon, Imperial, Sky", 
     "sections": [
         {
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Old or younger sky dragons fly with good maneuverability while all older sky dragons have perfect.", 
                     "name": "Borne Aloft", 
                     "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Special Abilities/Borne Aloft", 
                     "ability_types": {
-                        "ability_type_id": 212, 
-                        "section_id": 732, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 732, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
                 {
-                    "body": "Three times per day, a great wyrm sky dragon can imbue others with the celestial aspect of the oracle spell divine vessel, but it can only be cast on another willing creature of good alignment.", 
+                    "body": "Three times per day, a great wyrm sky dragon can imbue others with the celestial aspect of the oracle spell divine vessel*, but it can only be cast on another willing creature of good alignment.", 
                     "name": "Celestial Emissary", 
                     "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Special Abilities/Celestial Emissary", 
                     "ability_types": {
-                        "ability_type_id": 213, 
-                        "section_id": 733, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 733, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -48,11 +36,8 @@
                     "name": "Change Shape", 
                     "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Special Abilities/Change Shape", 
                     "ability_types": {
-                        "ability_type_id": 214, 
-                        "section_id": 734, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 734, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -61,11 +46,8 @@
                     "name": "Cloud Sight", 
                     "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Special Abilities/Cloud Sight", 
                     "ability_types": {
-                        "ability_type_id": 215, 
-                        "section_id": 735, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 735, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -74,11 +56,8 @@
                     "name": "Grounding Breath", 
                     "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Special Abilities/Grounding Breath", 
                     "ability_types": {
-                        "ability_type_id": 216, 
-                        "section_id": 736, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 736, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -87,35 +66,35 @@
                     "name": "Primal Lightning", 
                     "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Special Abilities/Primal Lightning", 
                     "ability_types": {
-                        "ability_type_id": 217, 
-                        "section_id": 737, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 737, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 731, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
-            "body": "<table><thead><tr><th>Age Category</th><th>Special Abilities</th><th>Caster Level</th></tr></thead><tbody><tr class=\"odd\"><td>Wyrmling</td><td>Borne aloft, immunity to electricity</td><td>&mdash;</td></tr><tr class=\"even\"><td>Very young</td><td>Cloud sight</td><td>&mdash;</td></tr><tr class=\"odd\"><td>Young</td><td>Change shape, <i>detect evil</i></td><td>1st</td></tr><tr class=\"even\"><td>Juvenile</td><td><i>Feather fall</i>, frightful presence</td><td>3rd</td></tr><tr class=\"odd\"><td>Young adult</td><td>DR 5/magic, spell resistance</td><td>5th</td></tr><tr class=\"even\"><td>Adult</td><td><i>Gust of wind</i></td><td>7th</td></tr><tr class=\"odd\"><td>Mature adult</td><td>DR 10/magic</td><td>9th</td></tr><tr class=\"even\"><td>Old</td><td><i>Call lightning storm</i>, primal lightning</td><td>11th</td></tr><tr class=\"odd\"><td>Very old</td><td>DR 15/magic</td><td>13th</td></tr><tr class=\"even\"><td>Ancient</td><td><i>Control winds</i>, grounding breath</td><td>15th</td></tr><tr class=\"odd\"><td>Wyrm</td><td>DR 20/magic</td><td>17th</td></tr><tr class=\"even\"><td>Great wyrm</td><td>Celestial emissary, <i>stormbolts</i></td><td>19th</td></tr></tbody></table>", 
-            "name": "Age Category", 
+            "body": "<table><thead><tr><th>Age Category</th><th>Special Abilities</th><th>Caster Level</th></tr></thead><tbody><tr class=\"odd\"><td>Wyrmling</td><td>Borne aloft, immunity to electricity</td><td>&mdash;</td></tr><tr class=\"even\"><td>Very young</td><td>Cloud sight</td><td>&mdash;</td></tr><tr class=\"odd\"><td>Young</td><td>Change shape, <i>detect evil</i></td><td>1st </td></tr><tr class=\"even\"><td>Juvenile</td><td><i>Feather fall</i>, frightful presence</td><td>3rd </td></tr><tr class=\"odd\"><td>Young adult</td><td>DR 5/magic, spell resistance</td><td>5th</td></tr><tr class=\"even\"><td>Adult</td><td><i>Gust of wind</i></td><td>7th</td></tr><tr class=\"odd\"><td>Mature adult</td><td>DR 10/magic</td><td>9th</td></tr><tr class=\"even\"><td>Old</td><td><i>Call lightning storm</i>, primal lightning</td><td>11th</td></tr><tr class=\"odd\"><td>Very old</td><td>DR 15/magic</td><td>13th</td></tr><tr class=\"even\"><td>Ancient</td><td><i>Control winds</i>, grounding breath</td><td>15th</td></tr><tr class=\"odd\"><td>Wyrm</td><td>DR 20/magic</td><td>17th</td></tr><tr class=\"even\"><td>Great wyrm</td><td>Celestial emissary, <i>stormbolts</i></td><td>19th</td></tr></tbody></table>", 
             "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky/Age Category", 
-            "section_id": 738, 
-            "source": "Bestiary 3", 
-            "type": "table"
+            "type": "table", 
+            "name": "Age Category", 
+            "source": "Bestiary 3"
         }
     ], 
-    "breath_weapon": "cone, 2d8 electricity", 
-    "section_id": 730, 
-    "natural_armor": "+6", 
-    "wisdom": "15", 
-    "name": "Dragon, Imperial, Sky", 
     "url": "pfsrd://Bestiary 3/Monsters/Dragon/Imperial/Sky/Dragon/Imperial/Sky", 
     "type": "creature", 
+    "constitution": "13", 
+    "treasure": "triple", 
+    "natural_armor": "+6", 
+    "wisdom": "15", 
+    "environment": "temperate or warm mountains", 
+    "source": "Bestiary 3", 
+    "charisma": "14", 
+    "organization": "solitary", 
     "super_race": "lg dragon (air)", 
-    "organization": "solitary"
+    "intelligence": "14", 
+    "cr": "5", 
+    "hit_dice": "6d12", 
+    "speed": "40 ft.", 
+    "size": "Small"
 }

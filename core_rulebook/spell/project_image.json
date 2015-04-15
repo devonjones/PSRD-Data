@@ -1,21 +1,28 @@
 {
-    "level_text": "Bard: 6; Sorcerer: 7; Wizard: 7", 
-    "duration": "1 round/level (D)", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M (a small replica of you worth 5 gp)", 
-    "subschool_text": "shadow", 
-    "subschool": [
-        "shadow"
-    ], 
-    "type": "spell", 
     "body": "<p>You tap energy from the Plane of Shadow to create a quasi-real, illusory version of yourself. The projected image looks, sounds, and smells like you but is intangible. The projected image mimics your actions (including speech) unless you direct it to act differently (which is a move action).</p><p>You can see through its eyes and hear through its ears as if you were standing where it is, and during your turn you can switch from using its senses to using your own, or back again, as a free action. While you are using its senses, your body is considered blinded and deafened.</p><p>If you desire, any spell you cast whose range is touch or greater can originate from the projected image instead of from you. The projected image can't cast any spells on itself except for illusion spells. The spells affect other targets normally, despite originating from the projected image.</p><p>Objects are affected by the projected image as if they had succeeded on their Will save. You must maintain line of effect to the projected image at all times. If your line of effect is obstructed, the spell ends. If you use <i>dimension door, teleport, plane shift</i>, or a similar spell that breaks your line of effect, even momentarily, the spell ends.</p>", 
+    "school": "illusion", 
+    "saving_throw": "Will disbelief (if interacted with)", 
     "description": "Illusory double can talk and cast spells.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Project Image", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 460, 
+    "level_text": "Bard: 6; Skald: 6; Sorcerer: 7; Wizard: 7; Arcanist: 7", 
+    "descriptor": [
+        "shadow"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 7
+        }, 
+        {
             "class": "Bard", 
+            "level": 6
+        }, 
+        {
+            "class": "Skald", 
             "level": 6
         }, 
         {
@@ -34,14 +41,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "Will disbelief (if interacted with)", 
-    "name": "Project Image", 
-    "url": "pfsrd://Core Rulebook/Spells/Project Image", 
-    "descriptor": [
-        "shadow"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -53,5 +52,13 @@
             "text": "a small replica of you worth 5 gp", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 round/level (D)", 
+    "subschool_text": "shadow", 
+    "subschool": [
+        "shadow"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a small replica of you worth 5 gp)", 
+    "name": "Project Image"
 }

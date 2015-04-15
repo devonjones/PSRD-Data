@@ -1,25 +1,32 @@
 {
-    "level_text": "Druid: 9; Elementalist Wizard: 9; Sorcerer: 9; Wizard: 9", 
-    "duration": "5 rounds", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>You create a massive wave of water that then moves in a straight line across water or land&mdash;you select the direction the wave travels (which must be perpendicular to its width), but once set in motion, the wave cannot change course. Over the surface of open water, the wave travels at a speed of 60 feet per round&mdash;on land or underwater, the wave travels at a speed of 30 feet per round.</p><p>Creatures struck by a tsunami take 8d6 points of bludgeoning damage (a Fortitude save halves this damage). In addition, the tsunami makes a special CMB check against any creature it strikes&mdash;the wave's CMB is equal to your caster level + your relevant spellcasting ability score modifier (whichever is highest) + 8 (for the wave's size). If this CMB check defeats a creature's CMD, the creature is knocked prone and carried along by the wave. A creature carried along by a tsunami can attempt to escape the wave on its turn as a standard action by making a CMB or Swim check opposed by the wave's CMB check&mdash;if a creature fails to escape, it takes another 6d6 points of bludgeoning damage (Fortitude save for half) and continues being carried along by the wave.</p><p>Objects struck by a tsunami are swept up if they are Huge or smaller and are carried along by the wave, deposited in a pile at the end of the wave's journey. Gargantuan or larger objects, as well as structures or objects firmly attached to the ground, take 8d6 points of bludgeoning damage when a tsunami passes through its space&mdash;if this is enough to destroy the object or structure, the remains are carried along by the wave. Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is. <i>Freedom of movement</i> prevents a creature from being carried along by a tsunami but does not prevent damage caused by it hitting a creature.</p><p>A solid barrier that is taller than the tsunami that is not destroyed by the wave stops that portion of the wave from continuing onward, leaving a gap in the wave as the rest of it continues forward.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "see text", 
     "description": "Huge wave damages and sweeps up all in its path.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Tsunami", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 259, 
+    "level_text": "Arcanist: 9; Druid: 9; Elementalist Wizard: 9; Shaman: 9; Sorcerer: 9; Wizard: 9", 
+    "descriptor": [
+        "water"
+    ], 
+    "range": "long (400 ft. + 40 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 9
+        }, 
         {
             "class": "Druid", 
             "level": 9
         }, 
         {
             "class": "Elementalist Wizard", 
+            "level": 9
+        }, 
+        {
+            "class": "Shaman", 
             "level": 9
         }, 
         {
@@ -38,14 +45,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "see text", 
-    "name": "Tsunami", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Tsunami", 
-    "descriptor": [
-        "water"
-    ], 
-    "range": "long (400 ft. + 40 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -53,5 +52,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "5 rounds", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Tsunami"
 }

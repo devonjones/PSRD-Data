@@ -2,6 +2,7 @@
     "dexterity": "17", 
     "ac": "17, touch 17, flat-footed 14 (+3 Dex, +4 size)", 
     "intelligence": "6", 
+    "racial_modifiers": "+8 Escape Artist", 
     "melee": "short sword +0 (1d2-4/19-20)", 
     "cr": "1/3", 
     "xp": "135", 
@@ -32,61 +33,52 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Sprite/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A sprite naturally sheds light equal to that provided by a torch. A sprite can control the color and intensity of the light as a swift action, reducing it to the dimness of a candle or even extinguishing its luminosity entirely if it wishes.", 
                     "name": "Luminous", 
                     "url": "pfsrd://Bestiary 3/Monsters/Sprite/Special Abilities/Luminous", 
                     "ability_types": {
-                        "ability_type_id": 570, 
-                        "section_id": 2016, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2016, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2015, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Sprites gather in groups deep in forested lands, aligned to the cause of defending nature. Whole tribes of sprites deem themselves protectors of a certain person, place, or creature of importance in their lands, even if the being doesn't actually want or need protecting.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2017
+            "type": "section"
         }, 
         {
             "body": "<p>A sprite's body is naturally luminous, although the sprite can vary the color and intensity of its body as it wishes. Shortly after death, a sprite's body simply melts away to a twinkling vapor. Sprites are among the smallest of fey, standing just over 9 inches in height and rarely weighing more than 1 or 2 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2018
+            "type": "section"
         }, 
         {
             "body": "<p>Sprites are more primitive in many ways than most fey. They enjoy each other's company, but tend to be distrustful of other fey and assume any humanoids and any other creatures that they haven't expressly chosen to protect mean to do them ill. Even animals are generally regarded as dangerous. Much of this is due to sprites' diminutive size, which makes them popular targets for predators. As a result, a sprite's initial reaction to danger is typically to flee&mdash;it uses its spell-like abilities to delay or distract pursuers, and relies on its speed in flight and its size to allow it to escape in the end.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2019
+            "type": "section"
         }, 
         {
             "body": "<p>While sprites themselves are relatively uncultured and savage in nature, they do have a healthy curiosity for all things magical in nature. They are particularly drawn to sites of great but latent magical power, such as the ruins of ancient temples. This curiosity makes them unusually receptive to roles as familiars as well. A 5th-level chaotic neutral spellcaster with the Improved Familiar feat can gain a sprite as a familiar.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2020
+            "type": "section"
         }
     ], 
     "hp": "3 (1d6)", 
     "reach": "0 ft.", 
-    "section_id": 2014, 
     "wisdom": "11", 
     "creature_type": "Fey", 
     "special_qualities": "luminous", 
     "dr": "2/cold iron", 
-    "ranged": "short bow +7 (1d2-4)", 
+    "ranged": "short bow +7 (1d2-4/x3)", 
     "name": "Sprite", 
     "base_attack": "+0", 
-    "skills": "Escape Artist +15, Fly +21, Perception +6, Sense Motive +2, Stealth +19", 
+    "skills": "Escape Artist +15, Fly +21, Perception +6, Sense Motive +6, Stealth +19", 
     "reflex": "+5", 
     "cmd": "5", 
     "cmb": "-1", 

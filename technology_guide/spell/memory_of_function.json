@@ -1,16 +1,19 @@
 {
-    "body": "<p>Even a broken object remembers what it means to be a functioning whole. You restore a broken object, drained piece of timeworn technology, or destroyed construct to a functional state, as if it were new and intact. Any pieces missing from the object or construct remain missing. Significant missing pieces may prevent proper functioning. If the object had charges, you restore it to its full capacity. Other consumables such as ammunition are not restored. Constructs brought back in this fashion regain their memories up to the moment of their destruction and have no particular inclination to serve the caster. Timeworn technology restored with this spell does not suffer any chance of glitching, and can be recharged as long as the spell persists. When the spell's duration expires, the object returns to its broken or drained state, and any unused charges bestowed by this spell are lost.</p><p>If you attempt to cast this spell on an object or a construct that has been destroyed for more than 10 years per caster level you possess, the spell fails.</p>", 
+    "body": "<p>Even a broken object remembers what it means to be a functioning whole. You restore a broken object or damaged construct to a functional state, as if it were new and intact. Any pieces missing from the object or construct remain missing. Significant missing pieces may prevent proper functioning. If the object uses charges, the object becomes fully charged. A timeworn object becomes fully charged, but doesn\ufffdt lose the timeworn condition (this spell is one of the few ways a timeworn item can be recharged). For 1 hour after this spell is cast on a timeworn object, that object does not suffer any chance of glitching. Other consumables such as ammunition are not restored.</p><p>When this spell is cast upon a damaged construct, all hit point damage dealt to that construct is healed. When this spell is cast upon a destroyed construct, it is restored to full functionality and full hit points, provided no significant portion of the destroyed construct (such as an entire limb) is missing. Constructs brought back in this fashion regain their memories up to the moment of their destruction and have no particular inclination to serve the caster.</p><p>If you attempt to cast this spell on an object or a construct that has been destroyed for more than 10 years per caster level you possess, the spell fails.</p>", 
     "school": "transmutation", 
     "saving_throw": "Will negates", 
     "name": "Memory of Function", 
     "url": "pfsrd://Technology Guide/Rules/Technology in the world/Spells/Memory of Function", 
     "spell_resistance": "yes", 
-    "section_id": 66, 
-    "level_text": "cleric: 7; oracle: 7; sorcerer: 7; wizard: 7", 
     "casting_time": "1 standard action", 
+    "level_text": "cleric: 7; oracle: 7; warpriest: 7; sorcerer: 7; wizard: 7; arcanist: 7", 
     "source": "Technology Guide", 
     "range": "touch", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 7
+        }, 
         {
             "class": "Cleric", 
             "level": 7
@@ -21,6 +24,10 @@
         }, 
         {
             "class": "Sorcerer", 
+            "level": 7
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 7
         }, 
         {

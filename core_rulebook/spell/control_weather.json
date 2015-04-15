@@ -7,11 +7,14 @@
     "type": "spell", 
     "spell_resistance": "no", 
     "casting_time": "10 minutes; see text", 
-    "level_text": "Cleric: 7; Druid: 7; Elementalist Wizard: 7; Oracle: 7; Sorcerer: 7; Witch: 7; Wizard: 7", 
-    "section_id": 109, 
+    "level_text": "Arcanist: 7; Cleric: 7; Druid: 7; Elementalist Wizard: 7; Oracle: 7; Shaman: 7; Sorcerer: 7; Warpriest: 7; Witch: 7; Wizard: 7", 
     "source": "Core Rulebook", 
     "range": "2 miles", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 7
+        }, 
         {
             "class": "Cleric", 
             "level": 7
@@ -29,7 +32,15 @@
             "level": 7
         }, 
         {
+            "class": "Shaman", 
+            "level": 7
+        }, 
+        {
             "class": "Sorcerer", 
+            "level": 7
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 7
         }, 
         {
@@ -59,17 +70,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Season</th><th>Possible Weather</th></tr></thead><tr class=\"odd\"><td>Spring</td><td>Tornado, thunderstorm, sleet storm,  or hot weather</td></tr><tr class=\"even\"><td>Summer</td><td>Torrential rain, heat wave, or hailstorm</td></tr><tr class=\"odd\"><td>Autumn</td><td>Hot or cold weather, fog, or sleet</td></tr><tr class=\"even\"><td>Winter</td><td>Frigid cold, blizzard, or thaw</td></tr><tr class=\"odd\"><td>Late winter</td><td>Hurricane-force winds or early spring</td></tr></table>", 
-            "name": "Season", 
             "url": "pfsrd://Core Rulebook/Spells/Control Weather/Season", 
-            "section_id": 110, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Season", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>You control the general tendencies of the weather, such as the direction and intensity of the wind. You cannot control specific applications of the weather&mdash;where lightning strikes, for example, or the exact path of a tornado. The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later). Contradictory conditions are not possible simultaneously.</p><p><i>Control weather</i> can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.</p><p>A druid casting this spell doubles the duration and affects a circle with a 3-mile radius.</p>", 
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 111
+            "type": "section"
         }
     ], 
     "component_text": "V, S", 

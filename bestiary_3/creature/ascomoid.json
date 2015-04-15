@@ -29,26 +29,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Ascomoid/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Spores:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Ascomoid/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 36, 
-                        "section_id": 119, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 119, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Ascomoid Spores", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Ascomoid/Special Abilities/Poison/Ascomoid Spores", 
                             "contracted": "inhaled", 
-                            "section_id": 120, 
                             "effect": "1d2 Strength damage", 
                             "subtype": "poison", 
                             "cure": "2 saves", 
@@ -56,54 +49,48 @@
                             "save": "Fortitude DC 16", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Once per round as a free action, an ascomoid can release a jet of deadly spores to a range of 30 feet. Upon impacting a solid surface, such as a wall or creature, the jet billows out into a cloud of spores that fills a 10-foot-radius spread. This cloud lasts for 1 round before dispersing. Any creature in the cloud must make a DC 16 Fortitude save or become nauseated as long as it remains in the cloud. Any creature that fails to save against this nausea is also exposed to the ascomoid's poison (see above). The save DC is Constitution-based.", 
                     "name": "Spores", 
                     "url": "pfsrd://Bestiary 3/Monsters/Ascomoid/Special Abilities/Spores", 
                     "ability_types": {
-                        "ability_type_id": 37, 
-                        "section_id": 121, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 121, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 118, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Oversized fungi, ascomoids are frequently mistaken for giant puffballs until they begin to move, rolling toward any living prey that they sense. Once they have crushed the life out of a creature, they quickly move on, leaving spores behind in their victim's body to grow new ascomoids. Ascomoids can grow to a width of 10 feet, but they rarely weigh more than 400 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 122
+            "type": "section"
         }, 
         {
             "body": "<p>While ascomoids require no light to grow, they do require a moist environment. They do not keep traditional lairs, but often wander the same areas over and over, littering these routes with the bones of past victims.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 123
+            "type": "section"
         }, 
         {
             "body": "<p>Although they are typically solitary creatures, ascomoids dwelling in areas of ample moisture with generous sources of food&mdash;or frequent unwitting passersby&mdash;sometimes form deadly clusters. Such colonies of these giant fungi often lurk in large caverns among other pallid vegetation. Given ascomoids' ability to detect vibrations, the slightest quake or potential footfall sets them rolling, turning their cavernous lairs into churning meat grinders. Bounding about violently, groups of ascomoids sometimes take hours to settle back down, unable to distinguish between the movements of prey and the tumbling of their own kind. In some cases, ascomoids have been known to lair at the top of steep rises, crushing climbers as they roll in terrible fungal avalanches.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 124
+            "type": "section"
         }, 
         {
             "body": "<p>Those crushed by an ascomoid or who fall victim to an ascomoid's spores face a revolting end, their bodies becoming hosts to quick-growing colonies of rampant fungi. Immature ascomoid mold sprouts quickly, typically appearing within 24 hours. After 48 hours, such victims become so overgrown with this furry, brown-green mold that they can no longer be restored to life by <i>raise dead</i>, as their bodies are too vitally pervaded and thoroughly consumed by the swiftly spreading mold. Within a month, a new ascomoid emerges from the foul mess.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 125
+            "type": "section"
         }
     ], 
     "hp": "52 (7d8+21)", 
     "reach": "5 ft.", 
-    "section_id": 117, 
     "wisdom": "11", 
     "creature_type": "Plant", 
     "dr": "10/piercing", 

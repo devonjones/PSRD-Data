@@ -1,21 +1,24 @@
 {
-    "level_text": "Bard: 0", 
-    "duration": "1 round", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S", 
-    "subschool_text": "charm", 
-    "subschool": [
-        "charm"
-    ], 
-    "type": "spell", 
     "body": "<p>You befuddle the target's mind. The target has difficulty telling friend from foe for a short period of time. The subject is considered your ally and not your enemies' ally while determining flanking. The subject takes no other hostile action against your enemies due to this spell's effect.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Subject is considered ally for 1 round.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Unwitting Ally", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 265, 
+    "level_text": "Bard: 0; Skald: 0", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Bard", 
+            "level": 0
+        }, 
+        {
+            "class": "Skald", 
             "level": 0
         }
     ], 
@@ -26,14 +29,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Unwitting Ally", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Unwitting Ally", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -41,5 +36,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "charm", 
+    "subschool": [
+        "charm"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Unwitting Ally"
 }

@@ -26,61 +26,53 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Dolphin/Dolphin/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A dolphin can hold its breath for a number of minutes equal to 6 times its Constitution score before it risks drowning.", 
                     "name": "Hold Breath", 
                     "url": "pfsrd://Bestiary/Monsters/Dolphin/Dolphin/Special Abilities/Hold Breath", 
                     "ability_types": {
-                        "ability_type_id": 224, 
-                        "section_id": 1060, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1060, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1059, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Dolphins are social predators that hunt shallow seas and rivers in large family groups called pods. Sailors are fond of dolphins and frequently tell tales of dolphins saving drowning fishermen or killing sharks with blows from their powerful snouts.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1061
+            "type": "section"
         }, 
         {
             "ac": "+1 natural armor", 
             "name": "Dolphin", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Dolphin/Dolphin/Dolphin", 
-            "sections": [
-                {
-                    "name": "4th-Level Advancement", 
-                    "level": "4th", 
-                    "url": "pfsrd://Bestiary/Monsters/Dolphin/Dolphin/Dolphin/4th-Level Advancement", 
-                    "section_id": 1063, 
-                    "subtype": "advancement", 
-                    "source": "Bestiary", 
-                    "special_qualities": "blindsight 120 ft", 
-                    "type": "animal_companion", 
-                    "ability_scores": "Str +2, Dex +2, Con +2"
-                }
-            ], 
-            "section_id": 1062, 
+            "speed": "swim 80 ft.", 
             "subtype": "base", 
             "attack": "slam (1d4)", 
             "type": "animal_companion", 
-            "special_qualities": "low-light vision, hold breath", 
-            "speed": "swim 80 ft.", 
             "ability_scores": "Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 6", 
+            "sections": [
+                {
+                    "name": "4th-Level Advancement", 
+                    "source": "Bestiary", 
+                    "url": "pfsrd://Bestiary/Monsters/Dolphin/Dolphin/Dolphin/4th-Level Advancement", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "ability_scores": "Str +2, Dex +2, Con +2", 
+                    "type": "animal_companion", 
+                    "special_qualities": "blindsight 120 ft."
+                }
+            ], 
+            "special_qualities": "low-light vision, hold breath.", 
             "size": "Medium"
         }
     ], 
     "hp": "11 (2d8+2)", 
-    "section_id": 1058, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "special_qualities": "hold breath", 

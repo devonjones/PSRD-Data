@@ -7,13 +7,16 @@
     "type": "spell", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "level_text": "Adept: 0; Bard: 0; Cleric: 0; Druid: 0; Inquisitor: 0; Magus: 0; Oracle: 0; Sorcerer: 0; Summoner: 0; Witch: 0; Wizard: 0", 
-    "section_id": 155, 
+    "level_text": "Adept: 0; Arcanist: 0; Bard: 0; Cleric: 0; Druid: 0; Hunter: 0; Hunter: 0; Inquisitor: 0; Magus: 0; Oracle: 0; Skald: 0; Sorcerer: 0; Summoner: 0; Warpriest: 0; Witch: 0; Wizard: 0", 
     "source": "Core Rulebook", 
     "range": "60 ft.", 
     "levels": [
         {
             "class": "Adept", 
+            "level": 0
+        }, 
+        {
+            "class": "Arcanist", 
             "level": 0
         }, 
         {
@@ -29,6 +32,14 @@
             "level": 0
         }, 
         {
+            "class": "Hunter", 
+            "level": 0
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 0
+        }, 
+        {
             "class": "Inquisitor", 
             "level": 0
         }, 
@@ -41,11 +52,19 @@
             "level": 0
         }, 
         {
+            "class": "Skald", 
+            "level": 0
+        }, 
+        {
             "class": "Sorcerer", 
             "level": 0
         }, 
         {
             "class": "Summoner", 
+            "level": 0
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 0
         }, 
         {
@@ -75,24 +94,21 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Original Strength</th><th>Duration of Lingering Aura</th></tr></thead><tbody><tr class=\"odd\"><td>Faint</td><td>1d6 rounds</td></tr><tr class=\"even\"><td>Moderate</td><td>1d6 minutes</td></tr><tr class=\"odd\"><td>Strong</td><td>1d6 &times; 10 minutes</td></tr><tr class=\"even\"><td>Overwhelming</td><td>1d6 days</td></tr></tbody></table>", 
-            "name": "Original Strength", 
             "url": "pfsrd://Core Rulebook/Spells/Detect Magic/Original Strength", 
-            "section_id": 156, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Original Strength", 
+            "source": "Core Rulebook"
         }, 
         {
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 157
+            "type": "section"
         }, 
         {
             "body": "<table><caption>Detect Magic</caption><thead><tr><th rowspan=\"2\">Spell or Object</th><th colspan=\"4\">Aura Power</th></tr><tr><th>Faint</th><th>Moderate</th><th>Strong</th><th>Overwhelming</th></tr></thead><tbody><tr class=\"odd\"><td>Functioning spell (spell level)</td><td>3rd or lower</td><td>4th&ndash;6th</td><td>7th&ndash;9th</td><td>10th+ (deity-level)</td></tr><tr class=\"even\"><td>Magic item (caster level)</td><td>5th or lower</td><td>6th&ndash;11th</td><td>12th&ndash;20th</td><td>21st+ (artifact)</td></tr></tbody></table>", 
-            "name": "Detect Magic", 
             "url": "pfsrd://Core Rulebook/Spells/Detect Magic/Detect Magic", 
-            "section_id": 158, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Detect Magic", 
+            "source": "Core Rulebook"
         }
     ], 
     "component_text": ": V, S", 

@@ -1,25 +1,37 @@
 {
-    "level_text": "Alchemist: 3; Bard: 2; Sorcerer: 3; Summoner: 3; Witch: 3; Wizard: 3", 
-    "duration": "concentration + 1 round/level (D)", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>Each affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a &ndash;2 penalty to AC. The effect is otherwise identical with a barbarian's rage except that the subjects aren't fatigued at the end of the rage.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "none", 
     "description": "Gives +2 to Str and Con, +1 on Will saves, -2 to AC.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Rage", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 473, 
+    "level_text": "Alchemist: 3; Arcanist: 3; Bard: 2; Bloodrager: 3; Skald: 2; Sorcerer: 3; Summoner: 3; Witch: 3; Wizard: 3", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
             "class": "Alchemist", 
             "level": 3
         }, 
         {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
             "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 3
+        }, 
+        {
+            "class": "Skald", 
             "level": 2
         }, 
         {
@@ -46,15 +58,6 @@
             "name": "Targets"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "none", 
-    "name": "Rage", 
-    "url": "pfsrd://Core Rulebook/Spells/Rage", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -62,5 +65,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "concentration + 1 round/level (D)", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Rage"
 }

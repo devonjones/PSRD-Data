@@ -28,26 +28,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Centipede/Titan/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Centipede/Titan/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 82, 
-                        "section_id": 337, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 337, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Titan Centipede Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Centipede/Titan/Special Abilities/Poison/Titan Centipede Venom", 
                             "contracted": "injury", 
-                            "section_id": 338, 
                             "effect": "1d6 Dexterity", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -55,23 +48,23 @@
                             "save": "Fortitude DC 24", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 336, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The largest of their kind, titan centipedes are thankfully also the rarest. They attack other living creatures fearlessly, and require constant sustenance to nourish their vast bulk. Humanoids are in most danger from titan centipedes when mounted rather than afoot&mdash;a good-sized horse makes a much more satisfying meal to the centipede than a few bites of human. Titan centipedes are solitary by nature and because of the demands of their appetite, though when food is plentiful, multiple centipedes sometimes lurk in the same area.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 339
+            "type": "section"
         }
     ], 
     "hp": "135 (10d8+90)", 
     "reach": "30 ft.", 
-    "section_id": 335, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
     "special_qualities": "compression", 

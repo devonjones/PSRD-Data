@@ -1,21 +1,29 @@
 {
-    "level_text": "Bard: 2; Sorcerer: 3; Witch: 3; Wizard: 3", 
-    "duration": "1 hour/level or until completed", 
-    "source": "Core Rulebook", 
-    "component_text": "V, M (a snake's tongue and a honeycomb)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You influence the actions of the target creature by suggesting a course of activity (limited to a sentence or two). The <i>suggestion</i> must be worded in such a manner as to make the activity sound reasonable. Asking the creature to do some obviously harmful act automatically negates the effect of the spell. </p><p>The suggested course of activity can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do. You can instead specify conditions that will trigger a special activity during the duration. If the condition is not met before the spell duration expires, the activity is not performed.</p><p>A very reasonable <i>suggestion</i> causes the save to be made with a penalty (such as &ndash;1 or &ndash;2).</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Compels a subject to follow stated course of action.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Suggestion", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 581, 
+    "level_text": "Arcanist: 3; Bard: 2; Skald: 2; Sorcerer: 3; Witch: 3; Wizard: 3", 
+    "descriptor": [
+        "language-dependent", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
             "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Skald", 
             "level": 2
         }, 
         {
@@ -38,15 +46,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Suggestion", 
-    "url": "pfsrd://Core Rulebook/Spells/Suggestion", 
-    "descriptor": [
-        "language-dependent", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -55,5 +54,13 @@
             "text": "a snake's tongue and a honeycomb", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 hour/level or until completed", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, M (a snake's tongue and a honeycomb)", 
+    "name": "Suggestion"
 }

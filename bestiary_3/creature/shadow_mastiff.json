@@ -3,7 +3,7 @@
     "ac": "18, touch 12, flat-footed 16 (+2 Dex, +6 natural)", 
     "special_attacks": "bay", 
     "intelligence": "4", 
-    "melee": "bite +10 (1d8+6 plus trip), tail slap +5 (1d6+3)", 
+    "melee": "bite +10 (1d8+4 plus trip), tail slap +5 (1d6+2)", 
     "cr": "5", 
     "xp": "1,600", 
     "speed": "50 ft.", 
@@ -20,24 +20,23 @@
     "fortitude": "+8", 
     "type": "creature", 
     "feats": "Improved Initiative, Iron Will, Power Attack", 
-    "senses": "darkvision 60 ft.; Perception +10", 
+    "senses": "darkvision 60 ft., scent; Perception +10", 
     "description": "This muscular canine has a maw full of sharp teeth and an inky black coat that almost seems to drink in the light around it. ", 
     "sections": [
         {
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Shadow Mastiff/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
-                    "body": "When a shadow mastiff howls or barks, all creatures within a 300-foot spread except evil outsiders must succeed at a DC 16 Will save or become panicked for 1d4 rounds. This is a sonic, mind-affecting fear effect. A creature that successfully saves cannot be affected by the same mastiff's bay for 24 hours. This is a mind-affecting fear effect. The save DC is Charisma-based.", 
+                    "body": "When a shadow mastiff howls or barks, all creatures within a 300-foot spread except evil outsiders must succeed at a DC 16 Will save or become panicked for 1d4 rounds. This is a sonic, mind-affecting fear effect. A creature that successfully saves cannot be affected by the same mastiff's bay for 24 hours. This is a mind-affecting fear effect. The save DC is Charisma-based and includes a +2 racial bonus.", 
                     "name": "Bay", 
                     "url": "pfsrd://Bestiary 3/Monsters/Shadow Mastiff/Special Abilities/Bay", 
                     "ability_types": {
-                        "ability_type_id": 546, 
-                        "section_id": 1894, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1894, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -46,46 +45,35 @@
                     "name": "Shadow Blend", 
                     "url": "pfsrd://Bestiary 3/Monsters/Shadow Mastiff/Special Abilities/Shadow Blend", 
                     "ability_types": {
-                        "ability_type_id": 547, 
-                        "section_id": 1895, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1895, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1893, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Tireless hunters, stealthy trackers, and deadly predators, shadow mastiffs stalk the dark corners of the Outer Planes, preying upon all beings that stray from the light. These beasts have little in common with actual canines aside from their general forms (although with the notable addition of a long, spiked tail), their bodies being the evolution of countless centuries hunting the most merciless wildernesses of the Outer Planes and the Shadow Plane. On the Material Plane, they prefer to travel in shadow, moving soundlessly and unseen to find prey, hunting in vicious sport just as often as in hunger. Shadow mastiffs stand over 4 feet tall, with most weighing nearly 300 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1896
+            "type": "section"
         }, 
         {
             "body": "<p>In combat, these stealthy beasts prefer to fight in shadows; they shy from areas of bright light unless faced with no other choice and use their bay to force their enemies to flee from well-lit areas. Shadow mastiffs prefer to hunt in groups, using pack tactics to lure prey into traps and to draw it away from sources of light. They do not make lairs, and are usually not found with any sort of treasure, unless it is on the body of a recently slain victim.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1897
+            "type": "section"
         }, 
         {
             "body": "<p>Shadow mastiffs are popular guardians among spellcasters capable of conjuring them via <i>lesser planar ally</i> or <i>lesser planar binding</i>. Undead spellcasters and evil outsiders are immune to shadow mastiffs' fearful bay; others who are not immune might intentionally expose themselves to the creatures' bay at some point during the daylight hours when the resulting panic won't directly impact other tasks. As a general rule, it's safe to assume that any site using shadow mastiffs as guardians has already been affected by the bay, and that its inhabitants are thus immune to the ability's effects for the remaining 24 hours of that day.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1898
+            "type": "section"
         }, 
         {
             "body": "<p>Larger shadow mastiffs exist&mdash;creatures the size of horses or even bigger. These creatures have different shapes, looking less like dogs and more like larger creatures such as lions, dinosaurs, or even dragons. Such creatures have additional racial Hit Dice, and could even have extra abilities such as flight or breath weapons. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1899
+            "type": "section"
         }
     ], 
     "hp": "51 (6d10+18)", 
-    "section_id": 1892, 
     "wisdom": "12", 
     "defensive_abilities": "shadow blend", 
     "creature_type": "Outsider", 

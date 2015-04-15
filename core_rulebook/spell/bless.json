@@ -1,18 +1,17 @@
 {
-    "level_text": "Adept: 1; Cleric: 1; Inquisitor: 1; Oracle: 1; Paladin: 1", 
-    "duration": "1 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p><i>Bless</i> fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.</p><p><i>Bless</i> counters and dispels <i>bane</i>.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "none", 
     "description": "Allies gain +1 on attack rolls and saves against fear.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Bless", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "section_id": 51, 
+    "level_text": "Adept: 1; Cleric: 1; Inquisitor: 1; Oracle: 1; Paladin: 1; Shaman: 1; Warpriest: 1", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "50 ft.", 
     "levels": [
         {
             "class": "Adept", 
@@ -33,6 +32,14 @@
         {
             "class": "Paladin", 
             "level": 1
+        }, 
+        {
+            "class": "Shaman", 
+            "level": 1
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 1
         }
     ], 
     "descriptor_text": "mind-affecting", 
@@ -42,14 +49,6 @@
             "name": "Area"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "none", 
-    "name": "Bless", 
-    "url": "pfsrd://Core Rulebook/Spells/Bless", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "50 ft.", 
     "components": [
         {
             "type": "V"
@@ -60,5 +59,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Bless"
 }

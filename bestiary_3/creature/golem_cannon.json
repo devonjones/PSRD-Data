@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Golem/Cannon/Golem/Cannon/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A cannon golem's slam and cannon attacks count as adamantine, cold iron, and silver for the purpose of overcoming damage reduction.", 
                     "name": "Alloyed", 
                     "url": "pfsrd://Bestiary 3/Monsters/Golem/Cannon/Golem/Cannon/Special Abilities/Alloyed", 
                     "ability_types": {
-                        "ability_type_id": 293, 
-                        "section_id": 1022, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1022, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -46,11 +45,8 @@
                     "name": "Blasting Critical", 
                     "url": "pfsrd://Bestiary 3/Monsters/Golem/Cannon/Golem/Cannon/Special Abilities/Blasting Critical", 
                     "ability_types": {
-                        "ability_type_id": 294, 
-                        "section_id": 1023, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1023, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -59,11 +55,8 @@
                     "name": "Cannon", 
                     "url": "pfsrd://Bestiary 3/Monsters/Golem/Cannon/Golem/Cannon/Special Abilities/Cannon", 
                     "ability_types": {
-                        "ability_type_id": 295, 
-                        "section_id": 1024, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1024, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -72,42 +65,38 @@
                     "name": "Gun Training", 
                     "url": "pfsrd://Bestiary 3/Monsters/Golem/Cannon/Golem/Cannon/Special Abilities/Gun Training", 
                     "ability_types": {
-                        "ability_type_id": 296, 
-                        "section_id": 1025, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1025, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
                 {
-                    "body": "A cannon golem is immune to spells and spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.<ul><li>Any spell with the water descriptor that affects a cannon golem renders its cannon unusable for 1 round (no save).</li><li>A <i>heat metal</i> spell causes the golem's cannon to instantly backfire, dealing 6d6 points of damage to the golem and staggering it for 1 round (no save).</li></ul>", 
+                    "body": "A cannon golem is immune to spells and spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.", 
                     "name": "Immunity to Magic", 
                     "url": "pfsrd://Bestiary 3/Monsters/Golem/Cannon/Golem/Cannon/Special Abilities/Immunity to Magic", 
+                    "sections": [
+                        {
+                            "body": "<ul class=\"stat-block-2\"><li>Any spell with the water descriptor that affects a cannon golem renders its cannon unusable for 1 round (no save).</li><li>A <i>heat metal</i> spell causes the golem's cannon to instantly backfire, dealing 6d6 points of damage to the golem and staggering it for 1 round (no save).</li></ul>", 
+                            "source": "Bestiary 3", 
+                            "type": "section"
+                        }
+                    ], 
                     "ability_types": {
-                        "ability_type_id": 297, 
-                        "section_id": 1026, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1026, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1021, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A cannon golem's internal workings are a mechanical labyrinth; its extradimensional pockets constantly process new black powder. A cannon golem stands 12 feet tall.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1027
+            "type": "section"
         }
     ], 
     "hp": "140 (20d10+30)", 
     "reach": "10 ft.", 
-    "section_id": 1020, 
     "wisdom": "15", 
     "creature_type": "Construct", 
     "special_qualities": "alloyed, blasting critical, gun training", 

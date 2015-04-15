@@ -5,7 +5,6 @@
     "url": "pfsrd://Advanced Players Guide/Classes/Oracle", 
     "type": "class", 
     "image": "Oracle.png", 
-    "section_id": 1208, 
     "subtype": "base", 
     "hit_die": "d8", 
     "alt": "Alahazra", 
@@ -14,216 +13,191 @@
             "body": "<p id=\"role\">Oracles do not usually associate with any one church or temple, instead preferring to strike out on their own, or with a small group of like-minded individuals. Oracles typically use their spells and revelations to further their understanding of their mystery, be it through fighting mighty battles or tending to the poor and sick.</p>", 
             "source": "Advanced Player's Guide", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 1209
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for oracle characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Oracle</td><td>3d6 &times; 10 gp</td><td>105 gp</td></tr></table>", 
                     "source": "Advanced Player's Guide", 
-                    "type": "table", 
-                    "section_id": 1211
+                    "type": "table"
                 }
             ], 
-            "section_id": 1210, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The oracle's class skills are Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (history) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int). In addition, oracles receive additional class skills depending upon their oracle mystery.</p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">4 + Int modifier.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Skill Ranks per Level", 
-                    "section_id": 1213
+                    "name": "Skill Ranks per Level"
                 }
             ], 
-            "section_id": 1212, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Advanced Player's Guide"
         }, 
         {
-            "source": "Advanced Player's Guide", 
             "type": "section", 
             "sections": [
                 {
                     "body": "<table id=\"table-2-5:-oracle\"><caption>Table:  Oracle</caption><thead><tr id=\"level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th-7th-8th-9th\"><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"9\">Spells per Day</th></tr><tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Mystery, oracle's curse, orisons, revelation</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\">Mystery spell</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+1</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\">Revelation</td><td>5</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">&mdash;</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Revelation</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+2</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+3</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\">&mdash;</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Revelation</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">&mdash;</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+4</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+5</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\">Revelation</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">&mdash;</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Mystery spell</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Revelation</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">Final revelation</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td></tr></table>", 
-                    "name": "Table: Oracle", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Table Oracle", 
-                    "section_id": 1215, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Oracle", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<table id=\"table-2-6:-oracle-spells-known\"><caption>Table:  Oracle Spells Known</caption><thead><tr id=\"level-0-1st-2nd-3rd-4th-5th-6th-7th-8th-9th\"><th rowspan=\"2\">Level</th><th colspan=\"10\">Spells Known</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>5</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>6</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>6</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>7</td><td>4</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>7</td><td>5</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>8</td><td>5</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>8</td><td>5</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>9</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr><tr class=\"even\"><td>18th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"odd\"><td>19th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr><tr class=\"even\"><td>20th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td></tr></table>", 
-                    "name": "Table: Oracle Spells Known", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Table Oracle Spells Known", 
-                    "section_id": 1216, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Oracle Spells Known", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p>The following are the class features of the oracle.</p>", 
                     "source": "Advanced Player's Guide", 
-                    "type": "section", 
-                    "section_id": 1217
+                    "type": "section"
                 }, 
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Oracles are proficient with all simple weapons, light armor, medium armor, and shields (except tower shields). Some oracle revelations grant additional proficiencies.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1218
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"spells\">An oracle casts divine spells drawn from the cleric spell lists. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, an oracle must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against an oracle's spell is 10 + the spell's level + the oracle's Charisma modifier.</p><p>Like other spellcasters, an oracle can cast only a certain number of spells per day of each spell level. Her base daily spell allotment is given on Table 2&ndash;5. In addition, she receives bonus spells per day if she has a high Charisma score (see Table 1&ndash;3 of the <i>Pathfinder RPG Core Rulebook</i>).</p><p>Unlike other divine spellcasters, an oracle's selection of spells is extremely limited. An oracle begins play knowing four 0-level spells and two 1st-level spells of her choice. At each new oracle level, she gains one or more new spells, as indicated on Table 2&ndash;6. Unlike spells per day, the number of spells an oracle knows is not affected by her Charisma score; the numbers on Table 2&ndash;6 are fixed.</p><p>In addition to the spells gained by oracles as they gain levels, each oracle also adds all of either the cure spells or the inflict spells to her list of spells known (cure spells include all spells with &ldquo;cure&rdquo; in the name, inflict spells include all spells with &ldquo;inflict&rdquo; in the name). These spells are added as soon as the oracle is capable of casting them. This choice is made when the oracle gains her first level and cannot be changed.</p><p>Upon reaching 4th level, and at every even-numbered oracle level after that (6th, 8th, and so on), an oracle can choose to learn a new spell in place of one she already knows. In effect, the oracle loses the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. An oracle may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for the level. She cannot swap any cure or inflict spells, nor can she swap any spells gained from her mystery.</p><p>Unlike a cleric, an oracle need not prepare her spells in advance. She can cast any spell she knows at any time, assuming she has not yet used up her spells per day for that spell level. Oracles do not need to provide a divine focus to cast spells that list divine focus (DF) as part of the components.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1219
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"mystery\">Each oracle draws upon a divine mystery to grant her spells and powers. This mystery also grants additional class skills and other special abilities. This mystery can represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling to champion a cause. For example, an oracle with the waves mystery might have been born at sea and found a natural calling to worship the gods of the oceans, rivers, and lakes, be they benign or malevolent. Regardless of its source, the mystery manifests in a number of ways as the oracle gains levels. An oracle must pick one mystery upon taking her first level of oracle. Once made, this choice cannot be changed.</p><p>At 2nd level, and every two levels thereafter, an oracle learns an additional spell derived from her mystery. These spells are in addition to the number of spells given on Table 2&ndash;6. They cannot be exchanged for different spells at higher levels.</p>", 
-                    "name": "Mystery", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Mystery", 
-                    "section_id": 1220, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Mystery", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"oracle's-curse\">Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.</p>", 
                     "name": "Oracle's Curse", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Oracles Curse", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 136, 
-                        "section_id": 1221, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1221, 
-                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"clouded-vision\">Your eyes are obscured, making it difficult for you to see. You cannot see anything beyond 30 feet, but you can see as if you had darkvision. At 5th level, this distance increases to 60 feet. At 10th level, you gain blindsense out to a range of 30 feet. At 15th level, you gain blindsight out to a range of 15 feet.</p>", 
-                            "name": "Clouded Vision", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Oracles Curse/Clouded Vision", 
-                            "section_id": 1222, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Clouded Vision", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"deaf\">You cannot hear and suffer all of the usual penalties for being deafened. You cast all of your spells as if they were modified by the Silent Spell feat. This does not increase their level or casting time. At 5th level, you receive a +3 competence bonus on Perception checks that do not rely upon hearing, and the initiative penalty for being deaf is reduced to &ndash;2. At 10th level, you gain scent and you do not suffer any penalty on initiative checks due to being deaf. At 15th level, you gain tremorsense out to a range of 30 feet.</p>", 
-                            "name": "Deaf", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Oracles Curse/Deaf", 
-                            "section_id": 1223, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Deaf", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"haunted\">Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). Retrieving any stored item from your gear requires a standard action, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction. Add <i>mage hand</i> and <i>ghost sound</i> to your list of spells known. At 5th level, add <i>levitate</i> and <i>minor image</i> to your list of spells known. At 10th level, add <i>telekinesis</i> to your list of spells known. At 15th level, add <i>reverse gravity</i> to your list of spells known.</p>", 
-                            "name": "Haunted", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Oracles Curse/Haunted", 
-                            "section_id": 1224, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Haunted", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"lame\">One of your legs is permanently wounded, reducing your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet. Your speed is never reduced due to encumbrance. At 5th level, you are immune to the fatigued condition (but not exhaustion). At 10th level, your speed is never reduced by armor. At 15th level, you are immune to the exhausted condition.</p>", 
-                            "name": "Lame", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Oracles Curse/Lame", 
-                            "section_id": 1225, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Lame", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"tongues\">In times of stress or unease, you speak in tongues. Pick one of the following languages: Abyssal, Aklo, Aquan, Auran, Celestial, Ignan, Infernal, or Terran. Whenever you are in combat, you can only speak and understand the selected language. This does not interfere with spellcasting, but it does apply to spells that are language dependent. You gain the selected language as a bonus language. At 5th level, pick an additional language to speak in combat and add it to your list of known languages. At 10th level, you can understand any spoken language, as if under the effects of <i>tongues</i>, even during combat. At 15th level, you can speak and understand any language, but your speech is still restricted during combat.</p>", 
-                            "name": "Tongues", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Oracles Curse/Tongues", 
-                            "section_id": 1226, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Tongues", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"wasting\">Your body is slowly rotting away. You take a &ndash;4 penalty on Charisma-based skill checks, except for Intimidate. You gain a +4 competence bonus on saves made against disease. At 5th level, you are immune to the sickened condition (but not nauseated). At 10th level, you gain immunity to disease. At 15th level, you are immune to the nauseated condition.</p>", 
-                            "name": "Wasting", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Oracles Curse/Wasting", 
-                            "section_id": 1227, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Wasting", 
+                            "source": "Advanced Player's Guide"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "<p id=\"orisons\">Oracles learn a number of orisons, or 0-level spells, as noted on Table 2&ndash;6 under &ldquo;Spells Known.&rdquo; These spells are cast like any other spell, but they do not consume any slots and may be used again.</p>", 
-                    "name": "Orisons", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Orisons", 
-                    "section_id": 1228, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Orisons", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"revelation\">At 1st level, 3rd level, and every four levels thereafter (7th, 11th, and so on), an oracle uncovers a new secret about her mystery that grants her powers and abilities. The oracle must select a revelation from the list of revelations available to her mystery. If a revelation is chosen at a later level, the oracle gains all of the abilities and bonuses granted by that revelation based on her current level. Unless otherwise noted, activating the power of a revelation is a standard action. </p>", 
-                    "name": "Revelation", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Class Features/Revelation", 
-                    "section_id": 1229, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Revelation", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"final-revelation\">At 20th level, an oracle learns the final revelation about her mystery, granting her amazing powers and abilities. The nature of these bonuses depends upon the oracle's mystery.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Final Revelation", 
-                    "section_id": 1230
+                    "name": "Final Revelation"
                 }
             ], 
             "name": "Class Features", 
-            "section_id": 1214
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier. Spells marked with an asterisk (*) appear in Chapter 5 of this book.</p>", 
             "name": "Mysteries", 
             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "name": "Battle", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the battle mystery adds Intimidate, Knowledge (engineering), Perception, and Ride to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1233
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>enlarge person</i> (2nd), <i>fog cloud</i> (4th), <i>magic vestment</i> (6th), <i>wall of fire</i> (8th), <i>righteous might</i> (10th), <i>mass bull's strength</i> (12th), <i>control weather</i> (14th), <i>earthquake</i> (16th), <i>storm of vengeance</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1234
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the battle mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"battlecry\">As a standard action, you can unleash an inspiring battlecry. All allies within 100 feet who hear your cry gain a +1 morale bonus on attack rolls, skill checks, and saving throws for a number of rounds equal to your Charisma modifier. At 10th level, this bonus increases to +2. You can use this ability once per day, plus one additional time per day at 5th level and for every five levels thereafter.</p>", 
                                     "name": "Battlecry", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Battlecry", 
                                     "ability_types": {
-                                        "ability_type_id": 137, 
-                                        "section_id": 1236, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1236, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -232,11 +206,8 @@
                                     "name": "Battlefield Clarity", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Battlefield Clarity", 
                                     "ability_types": {
-                                        "ability_type_id": 138, 
-                                        "section_id": 1237, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1237, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -245,11 +216,8 @@
                                     "name": "Combat Healer", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Combat Healer", 
                                     "ability_types": {
-                                        "ability_type_id": 139, 
-                                        "section_id": 1238, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1238, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -258,11 +226,8 @@
                                     "name": "Iron Skin", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Iron Skin", 
                                     "ability_types": {
-                                        "ability_type_id": 140, 
-                                        "section_id": 1239, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1239, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -271,11 +236,8 @@
                                     "name": "Maneuver Mastery", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Maneuver Mastery", 
                                     "ability_types": {
-                                        "ability_type_id": 141, 
-                                        "section_id": 1240, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1240, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -284,11 +246,8 @@
                                     "name": "Resiliency", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Resiliency", 
                                     "ability_types": {
-                                        "ability_type_id": 142, 
-                                        "section_id": 1241, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1241, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -297,11 +256,8 @@
                                     "name": "Skill at Arms", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Skill at Arms", 
                                     "ability_types": {
-                                        "ability_type_id": 143, 
-                                        "section_id": 1242, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1242, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -310,11 +266,8 @@
                                     "name": "Surprising Charge", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Surprising Charge", 
                                     "ability_types": {
-                                        "ability_type_id": 144, 
-                                        "section_id": 1243, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1243, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -323,11 +276,8 @@
                                     "name": "War Sight", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/War Sight", 
                                     "ability_types": {
-                                        "ability_type_id": 145, 
-                                        "section_id": 1244, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1244, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -336,64 +286,53 @@
                                     "name": "Weapon Mastery", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Battle/Revelations/Weapon Mastery", 
                                     "ability_types": {
-                                        "ability_type_id": 146, 
-                                        "section_id": 1245, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1245, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1235, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become an avatar of battle. You can take a full-attack action and move up to your speed as a full-round action (you can move before or after the attacks). Whenever you score a critical hit, you can ignore any DR the target might possess. You gain a +4 insight bonus to your AC for the purpose of confirming critical hits against you. When you are below 0 hit points, you do not die until your negative total is in excess of twice your Constitution score. </p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1246
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1232, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Bones", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with a bones mystery adds Bluff, Disguise, Intimidate, and Stealth to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1248
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>cause fear</i> (2nd), <i>false life</i> (4th), <i>animate dead</i> (6th), <i>fear</i> (8th), <i>slay living</i> (10th), <i>circle of death</i> (12th), <i>control undead</i> (14th), <i>horrid wilting</i> (16th), <i>wail of the banshee</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1249
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the bones mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"armor-of-bones\">You can conjure armor made of bones that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/bludgeoning. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments. </p>", 
                                     "name": "Armor of Bones", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Armor of Bones", 
                                     "ability_types": {
-                                        "ability_type_id": 147, 
-                                        "section_id": 1251, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1251, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -402,11 +341,8 @@
                                     "name": "Bleeding Wounds", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Bleeding Wounds", 
                                     "ability_types": {
-                                        "ability_type_id": 148, 
-                                        "section_id": 1252, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1252, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -415,11 +351,8 @@
                                     "name": "Death's Touch", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Deaths Touch", 
                                     "ability_types": {
-                                        "ability_type_id": 149, 
-                                        "section_id": 1253, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1253, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -428,11 +361,8 @@
                                     "name": "Near Death", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Near Death", 
                                     "ability_types": {
-                                        "ability_type_id": 150, 
-                                        "section_id": 1254, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1254, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -441,11 +371,8 @@
                                     "name": "Raise the Dead", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Raise the Dead", 
                                     "ability_types": {
-                                        "ability_type_id": 151, 
-                                        "section_id": 1255, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1255, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -454,11 +381,8 @@
                                     "name": "Resist Life", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Resist Life", 
                                     "ability_types": {
-                                        "ability_type_id": 152, 
-                                        "section_id": 1256, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1256, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -467,11 +391,8 @@
                                     "name": "Soul Siphon", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Soul Siphon", 
                                     "ability_types": {
-                                        "ability_type_id": 153, 
-                                        "section_id": 1257, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1257, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -480,11 +401,8 @@
                                     "name": "Spirit Walk", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Spirit Walk", 
                                     "ability_types": {
-                                        "ability_type_id": 154, 
-                                        "section_id": 1258, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1258, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -493,11 +411,8 @@
                                     "name": "Undead Servitude", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Undead Servitude", 
                                     "ability_types": {
-                                        "ability_type_id": 155, 
-                                        "section_id": 1259, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1259, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -506,64 +421,53 @@
                                     "name": "Voice of the Grave", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Bones/Revelations/Voice of the Grave", 
                                     "ability_types": {
-                                        "ability_type_id": 156, 
-                                        "section_id": 1260, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1260, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1250, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a master of death. Once per round, you can cast <i>bleed</i> or <i>stabilize</i> as a free action. If you are brought to below 0 hit points, you automatically stabilize. You can cast <i>animate dead</i> at will without paying a material component cost (although you are still subject to the usual Hit Die control limit). Once per day, you can cast <i>power word kill</i>, but the spell can target a creature with 150 hit points or less.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1261
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1247, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Flame", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the flame mystery adds Acrobatics, Climb, Intimidate, and Perform to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1263
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>burning hands</i> (2nd), <i>resist energy</i> (4th), <i>fireball</i> (6th), <i>wall of fire</i> (8th), <i>summon monster V</i> (fire elementals only, 10th), <i>fire seeds</i> (12th), <i>fire storm</i> (14th), <i>incendiary cloud</i> (16th), <i>fiery body*</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1264
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with a flame mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"burning-magic\">Whenever a creature fails a saving throw and takes fire damage from one of your spells, it catches on fire. This fire deals 1 point of fire damage per spell level at the beginning of the burning creature's turn. The fire lasts for 1d4 rounds, but it can be extinguished as a move action if the creature succeeds at a Reflex save (using the spell's DC). Dousing the creature with water as a standard action grants a +2 bonus on this save, while immersing the creature in water automatically extinguishes the fire. Spells that do not grant a save do not cause a creature to catch on fire.</p>", 
                                     "name": "Burning Magic", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Burning Magic", 
                                     "ability_types": {
-                                        "ability_type_id": 157, 
-                                        "section_id": 1266, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1266, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -572,11 +476,8 @@
                                     "name": "Cinder Dance", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Cinder Dance", 
                                     "ability_types": {
-                                        "ability_type_id": 158, 
-                                        "section_id": 1267, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1267, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -585,11 +486,8 @@
                                     "name": "Fire Breath", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Fire Breath", 
                                     "ability_types": {
-                                        "ability_type_id": 159, 
-                                        "section_id": 1268, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1268, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -598,11 +496,8 @@
                                     "name": "Firestorm", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Firestorm", 
                                     "ability_types": {
-                                        "ability_type_id": 160, 
-                                        "section_id": 1269, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1269, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -611,11 +506,8 @@
                                     "name": "Form of Flame", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Form of Flame", 
                                     "ability_types": {
-                                        "ability_type_id": 161, 
-                                        "section_id": 1270, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1270, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -624,11 +516,8 @@
                                     "name": "Gaze of Flames", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Gaze of Flames", 
                                     "ability_types": {
-                                        "ability_type_id": 162, 
-                                        "section_id": 1271, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1271, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -637,11 +526,8 @@
                                     "name": "Heat Aura", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Heat Aura", 
                                     "ability_types": {
-                                        "ability_type_id": 163, 
-                                        "section_id": 1272, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1272, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -650,11 +536,8 @@
                                     "name": "Molten Skin", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Molten Skin", 
                                     "ability_types": {
-                                        "ability_type_id": 164, 
-                                        "section_id": 1273, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1273, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -663,11 +546,8 @@
                                     "name": "Touch of Flame", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Touch of Flame", 
                                     "ability_types": {
-                                        "ability_type_id": 165, 
-                                        "section_id": 1274, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1274, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -676,64 +556,53 @@
                                     "name": "Wings of Fire", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Flame/Revelations/Wings of Fire", 
                                     "ability_types": {
-                                        "ability_type_id": 166, 
-                                        "section_id": 1275, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1275, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1265, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a master of fire. You can apply any one of the following feats to any fire spell you cast without increasing the level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. You do not need to possess these feats to use this ability.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1276
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1262, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Heavens", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the heavens mystery adds Fly, Knowledge (arcana), Perception, and Survival to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1278
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>color spray</i> (2nd), <i>hypnotic pattern</i> (4th), <i>daylight</i> (6th), <i>rainbow pattern</i> (8th), <i>overland flight</i> (10th), <i>chain lightning</i> (12th), <i>prismatic spray</i> (14th), <i>sunburst</i> (16th), <i>meteor swarm</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1279
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the heavens mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"awesome-display\">Your phantasmagoric displays accurately model the mysteries of the night sky, dumbfounding all who behold them. Each creature affected by your illusion (pattern) spells is treated as if its total number of Hit Dice were equal to its number of Hit Dice minus your Charisma modifier (if positive).</p>", 
                                     "name": "Awesome Display", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Awesome Display", 
                                     "ability_types": {
-                                        "ability_type_id": 167, 
-                                        "section_id": 1281, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1281, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -742,11 +611,8 @@
                                     "name": "Coat of Many Stars", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Coat of Many Stars", 
                                     "ability_types": {
-                                        "ability_type_id": 168, 
-                                        "section_id": 1282, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1282, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -755,11 +621,8 @@
                                     "name": "Dweller in Darkness", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Dweller in Darkness", 
                                     "ability_types": {
-                                        "ability_type_id": 169, 
-                                        "section_id": 1283, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1283, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -768,11 +631,8 @@
                                     "name": "Guiding Star", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Guiding Star", 
                                     "ability_types": {
-                                        "ability_type_id": 170, 
-                                        "section_id": 1284, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1284, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -781,11 +641,8 @@
                                     "name": "Interstellar Void", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Interstellar Void", 
                                     "ability_types": {
-                                        "ability_type_id": 171, 
-                                        "section_id": 1285, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1285, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -794,11 +651,8 @@
                                     "name": "Lure of the Heavens", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Lure of the Heavens", 
                                     "ability_types": {
-                                        "ability_type_id": 172, 
-                                        "section_id": 1286, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1286, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -807,11 +661,8 @@
                                     "name": "Mantle of Moonlight", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Mantle of Moonlight", 
                                     "ability_types": {
-                                        "ability_type_id": 173, 
-                                        "section_id": 1287, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1287, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -820,11 +671,8 @@
                                     "name": "Moonlight Bridge", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Moonlight Bridge", 
                                     "ability_types": {
-                                        "ability_type_id": 174, 
-                                        "section_id": 1288, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1288, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -833,11 +681,8 @@
                                     "name": "Spray of Shooting Stars", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Spray of Shooting Stars", 
                                     "ability_types": {
-                                        "ability_type_id": 175, 
-                                        "section_id": 1289, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1289, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -846,64 +691,53 @@
                                     "name": "Star Chart", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Heavens/Revelations/Star Chart", 
                                     "ability_types": {
-                                        "ability_type_id": 176, 
-                                        "section_id": 1290, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1290, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1280, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon achieving 20th level, your rapport with the heavens grants you perfect harmony with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You automatically stabilize if you are below 0 hit points, are immune to fear effects, and automatically confirm all critical hits. Should you die, you are reborn 3 days later in the form of a star child, who matures over the course of 7 days (treat as the <i>reincarnate</i> spell). </p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1291
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1277, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Life", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the life mystery adds Handle Animal, Knowledge (nature), and Survival to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1293
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>detect undead</i> (2nd), <i>lesser restoration</i> (4th), <i>neutralize poison</i> (6th), <i>restoration</i> (8th), <i>breath of life</i> (10th), <i>heal</i> (12th), <i>greater restoration</i> (14th), <i>mass heal</i> (16th), <i>true resurrection</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1294
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the life mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"channel\">You can channel positive energy like a cleric, using your oracle level as your effective cleric level when determining the amount of damage healed (or caused to undead) and the DC. You can use this ability a number of times per day equal to 1 + your Charisma modifier.</p>", 
                                     "name": "Channel", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Channel", 
                                     "ability_types": {
-                                        "ability_type_id": 177, 
-                                        "section_id": 1296, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1296, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -912,11 +746,8 @@
                                     "name": "Combat Healer", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Combat Healer", 
                                     "ability_types": {
-                                        "ability_type_id": 178, 
-                                        "section_id": 1297, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1297, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -925,11 +756,8 @@
                                     "name": "Delay Affliction", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Delay Affliction", 
                                     "ability_types": {
-                                        "ability_type_id": 179, 
-                                        "section_id": 1298, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1298, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -938,11 +766,8 @@
                                     "name": "Energy Body", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Energy Body", 
                                     "ability_types": {
-                                        "ability_type_id": 180, 
-                                        "section_id": 1299, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1299, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -951,11 +776,8 @@
                                     "name": "Enhanced Cures", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Enhanced Cures", 
                                     "ability_types": {
-                                        "ability_type_id": 181, 
-                                        "section_id": 1300, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1300, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -964,11 +786,8 @@
                                     "name": "Healing Hands", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Healing Hands", 
                                     "ability_types": {
-                                        "ability_type_id": 182, 
-                                        "section_id": 1301, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1301, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -977,11 +796,8 @@
                                     "name": "Life Link", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Life Link", 
                                     "ability_types": {
-                                        "ability_type_id": 183, 
-                                        "section_id": 1302, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1302, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -990,11 +806,8 @@
                                     "name": "Lifesense", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Lifesense", 
                                     "ability_types": {
-                                        "ability_type_id": 184, 
-                                        "section_id": 1303, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1303, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1003,11 +816,8 @@
                                     "name": "Safe Curing", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Safe Curing", 
                                     "ability_types": {
-                                        "ability_type_id": 185, 
-                                        "section_id": 1304, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1304, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1016,64 +826,53 @@
                                     "name": "Spirit Boost", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Life/Revelations/Spirit Boost", 
                                     "ability_types": {
-                                        "ability_type_id": 186, 
-                                        "section_id": 1305, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1305, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1295, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a perfect channel for life energy. You become immune to bleed, death attacks, exhaustion, fatigue, nausea effects, negative levels, and sickened effects. Ability damage and drain cannot reduce you below 1 in any ability score. You automatically make saving throws against massive damage. When you are below 0 hit points, you do not die until your negative total is in excess of twice your Constitution score.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1306
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1292, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Lore", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the lore mystery adds Appraise and all Knowledge skills to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1308
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>identify</i> (2nd), <i>tongues</i> (4th), <i>locate object</i> (6th), <i>legend lore</i> (8th), <i>contact other plane</i> (10th), <i>mass owl's wisdom</i> (12th), <i>vision</i> (14th), <i>moment of prescience</i> (16th), <i>time stop</i> (18th). </p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1309
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the lore mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"arcane-archivist\">Your experience with lore-filled tomes has granted you the ability to cast arcane spells as if they were on your spell list. Once per day, you can cast a spell from the sorcerer/wizard spell list as if it were on your list of spells known. The spell consumes a spell slot one level higher than the level of the spell. You must have a spellbook containing the spell to cast it in this way, and the spell is erased when you complete the casting. You must be at least 11th level to select this revelation.</p>", 
                                     "name": "Arcane Archivist", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Arcane Archivist", 
                                     "ability_types": {
-                                        "ability_type_id": 187, 
-                                        "section_id": 1311, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1311, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1082,11 +881,8 @@
                                     "name": "Automatic Writing", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Automatic Writing", 
                                     "ability_types": {
-                                        "ability_type_id": 188, 
-                                        "section_id": 1312, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1312, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1095,11 +891,8 @@
                                     "name": "Brain Drain", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Brain Drain", 
                                     "ability_types": {
-                                        "ability_type_id": 189, 
-                                        "section_id": 1313, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1313, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1108,11 +901,8 @@
                                     "name": "Focused Trance", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Focused Trance", 
                                     "ability_types": {
-                                        "ability_type_id": 190, 
-                                        "section_id": 1314, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1314, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1121,11 +911,8 @@
                                     "name": "Lore Keeper", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Lore Keeper", 
                                     "ability_types": {
-                                        "ability_type_id": 191, 
-                                        "section_id": 1315, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1315, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1134,11 +921,8 @@
                                     "name": "Mental Acuity", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Mental Acuity", 
                                     "ability_types": {
-                                        "ability_type_id": 192, 
-                                        "section_id": 1316, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1316, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1147,32 +931,25 @@
                                     "name": "Sidestep Secret", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Sidestep Secret", 
                                     "ability_types": {
-                                        "ability_type_id": 193, 
-                                        "section_id": 1317, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1317, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
                                 {
                                     "body": "<p id=\"spontaneous-symbology\">Your knowledge of the secret history of the world has unveiled the mysterious symbols that govern reality. You can cast any &ldquo;symbol&rdquo; spell using a spell slot of the appropriate level, even if the spell is not on your list of spells known. A symbol spell is any spell with the word &ldquo;symbol&rdquo; in its name. You must be at least 11th level to select this revelation.</p>", 
-                                    "name": "Spontaneous Symbology", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Spontaneous Symbology", 
-                                    "section_id": 1318, 
-                                    "source": "Advanced Player's Guide", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Spontaneous Symbology", 
+                                    "source": "Advanced Player's Guide"
                                 }, 
                                 {
                                     "body": "<p id=\"think-on-it\">Once per day, the oracle of lore can re-attempt any previously failed Knowledge check. On this attempt, add a +10 competence bonus on the check.</p>", 
                                     "name": "Think On It", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Think On It", 
                                     "ability_types": {
-                                        "ability_type_id": 194, 
-                                        "section_id": 1319, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1319, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1181,64 +958,53 @@
                                     "name": "Whirlwind Lesson", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Lore/Revelations/Whirlwind Lesson", 
                                     "ability_types": {
-                                        "ability_type_id": 195, 
-                                        "section_id": 1320, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1320, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1310, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">You gain the ability to take 20 on all Knowledge skill checks. Your understanding of the fundamental underpinnings of reality has also become so advanced that once per day, you can cast <i>wish</i>. This ability does not require a material component, but the <i>wish</i> cannot be used to grant ability score bonuses, nor can it be used to replicate spells with expensive material components. </p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1321
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1307, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Nature", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the nature mystery adds Climb, Fly, Knowledge (nature), Ride, Survival, and Swim to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1323
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>charm animal</i> (2nd), <i>barkskin</i> (4th), <i>speak with plants</i> (6th), <i>grove of respite*</i> (8th), <i>awaken</i> (10th), <i>stone tell</i> (12th), <i>creeping doom</i> (14th), <i>animal shapes</i> (16th), <i>world wave*</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1324
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the nature mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"bonded-mount\">You gain the service of an unusually intelligent, strong, and loyal mount. The creature must be one that you are capable of riding and is suitable as a mount. A Medium oracle can select a camel or a horse. A Small oracle can select a pony or wolf, but can also select a boar or a dog if she is at least 4th level. This mount functions as a druid's animal companion, using your oracle level as your effective druid level. Bonded mounts have an Intelligence score of at least 6.</p>", 
                                     "name": "Bonded Mount", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Bonded Mount", 
                                     "ability_types": {
-                                        "ability_type_id": 196, 
-                                        "section_id": 1326, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1326, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1247,11 +1013,8 @@
                                     "name": "Erosion Touch", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Erosion Touch", 
                                     "ability_types": {
-                                        "ability_type_id": 197, 
-                                        "section_id": 1327, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1327, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1260,11 +1023,8 @@
                                     "name": "Friend to the Animals", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Friend to the Animals", 
                                     "ability_types": {
-                                        "ability_type_id": 198, 
-                                        "section_id": 1328, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1328, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1273,11 +1033,8 @@
                                     "name": "Life Leach", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Life Leach", 
                                     "ability_types": {
-                                        "ability_type_id": 199, 
-                                        "section_id": 1329, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1329, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1286,11 +1043,8 @@
                                     "name": "Natural Divination", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Natural Divination", 
                                     "ability_types": {
-                                        "ability_type_id": 200, 
-                                        "section_id": 1330, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1330, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1299,11 +1053,8 @@
                                     "name": "Nature's Whispers", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Natures Whispers", 
                                     "ability_types": {
-                                        "ability_type_id": 201, 
-                                        "section_id": 1331, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1331, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1312,11 +1063,8 @@
                                     "name": "Speak with Animals", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Speak with Animals", 
                                     "ability_types": {
-                                        "ability_type_id": 202, 
-                                        "section_id": 1332, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1332, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1325,11 +1073,8 @@
                                     "name": "Spirit of Nature", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Spirit of Nature", 
                                     "ability_types": {
-                                        "ability_type_id": 203, 
-                                        "section_id": 1333, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1333, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1338,11 +1083,8 @@
                                     "name": "Transcendental Bond", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Transcendental Bond", 
                                     "ability_types": {
-                                        "ability_type_id": 204, 
-                                        "section_id": 1334, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1334, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1351,64 +1093,53 @@
                                     "name": "Undo Artifice", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Nature/Revelations/Undo Artifice", 
                                     "ability_types": {
-                                        "ability_type_id": 205, 
-                                        "section_id": 1335, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1335, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1325, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">At 20th level, you have discovered the intrinsic secrets of life itself, granting you incredible control over your own body. Once per day, you can surround yourself with an organic cocoon as a full-round action. While enclosed in the cocoon, you are considered helpless. Eight hours later, you emerge having changed your type to plant, animal, or humanoid, gaining superficial physical characteristics as appropriate (see the <i>Pathfinder RPG Bestiary</i>). This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Each time the transformation is made, you are cleansed of all poisons or diseases, are restored to full hit points, and heal all ability damage. You must select a new type every time the transformation is made. </p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1336
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1322, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Stone", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the stone mystery adds Appraise, Climb, Intimidate, and Survival to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1338
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>magic stone</i> (2nd), <i>stone call*</i> (4th), <i>meld into stone</i> (6th), <i>wall of stone</i> (8th), <i>stoneskin</i> (10th), <i>stone tell</i> (12th), <i>statue</i> (14th), <i>repel metal or stone</i> (16th), <i>clashing rocks*</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1339
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the stone mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"acid-skin\">You gain resist acid 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to acid.</p>", 
                                     "name": "Acid Skin", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Acid Skin", 
                                     "ability_types": {
-                                        "ability_type_id": 206, 
-                                        "section_id": 1341, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1341, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1417,11 +1148,8 @@
                                     "name": "Clobbering Strike", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Clobbering Strike", 
                                     "ability_types": {
-                                        "ability_type_id": 207, 
-                                        "section_id": 1342, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1342, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1430,11 +1158,8 @@
                                     "name": "Crystal Sight", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Crystal Sight", 
                                     "ability_types": {
-                                        "ability_type_id": 208, 
-                                        "section_id": 1343, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1343, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1443,11 +1168,8 @@
                                     "name": "Earth Glide", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Earth Glide", 
                                     "ability_types": {
-                                        "ability_type_id": 209, 
-                                        "section_id": 1344, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1344, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1456,11 +1178,8 @@
                                     "name": "Mighty Pebble", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Mighty Pebble", 
                                     "ability_types": {
-                                        "ability_type_id": 210, 
-                                        "section_id": 1345, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1345, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1469,11 +1188,8 @@
                                     "name": "Rock Throwing", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Rock Throwing", 
                                     "ability_types": {
-                                        "ability_type_id": 211, 
-                                        "section_id": 1346, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1346, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1482,11 +1198,8 @@
                                     "name": "Shard Explosion", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Shard Explosion", 
                                     "ability_types": {
-                                        "ability_type_id": 212, 
-                                        "section_id": 1347, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1347, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1495,11 +1208,8 @@
                                     "name": "Steelbreaker Skin", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Steelbreaker Skin", 
                                     "ability_types": {
-                                        "ability_type_id": 213, 
-                                        "section_id": 1348, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1348, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1508,11 +1218,8 @@
                                     "name": "Stone Stability", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Stone Stability", 
                                     "ability_types": {
-                                        "ability_type_id": 214, 
-                                        "section_id": 1349, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1349, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1521,64 +1228,53 @@
                                     "name": "Touch of Acid", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Stone/Revelations/Touch of Acid", 
                                     "ability_types": {
-                                        "ability_type_id": 215, 
-                                        "section_id": 1350, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1350, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1340, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a master of acid and earth. You can apply any one of the following feats to any acid or earth spell without increasing the level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1351
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1337, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Waves", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the waves mystery adds Acrobatics, Escape Artist, Knowledge (nature), and Swim to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1353
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>touch of the sea*</i> (2nd), <i>slipstream*</i> (4th), <i>water breathing</i> (6th), <i>wall of ice</i> (8th), <i>geyser*</i> (10th), <i>fluid form*</i> (12th), <i>vortex*</i> (14th), <i>seamantle*</i> (16th), <i>tsunami*</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1354
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the waves mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"blizzard\">As a standard action, you can create a blizzard of snow and ice. You can create one 10-foot-cube of storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another and one must be adjacent to you. Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a Reflex save resulting in half damage. The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to Acrobatics DCs) as long as local conditions permit. The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has concealment. You can use this ability once per day. You must be 11th level to select this revelation.</p>", 
                                     "name": "Blizzard", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Blizzard", 
                                     "ability_types": {
-                                        "ability_type_id": 216, 
-                                        "section_id": 1356, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1356, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1587,11 +1283,8 @@
                                     "name": "Fluid Nature", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Fluid Nature", 
                                     "ability_types": {
-                                        "ability_type_id": 217, 
-                                        "section_id": 1357, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1357, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1600,11 +1293,8 @@
                                     "name": "Fluid Travel", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Fluid Travel", 
                                     "ability_types": {
-                                        "ability_type_id": 218, 
-                                        "section_id": 1358, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1358, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1613,11 +1303,8 @@
                                     "name": "Freezing Spells", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Freezing Spells", 
                                     "ability_types": {
-                                        "ability_type_id": 219, 
-                                        "section_id": 1359, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1359, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1626,11 +1313,8 @@
                                     "name": "Ice Armor", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Ice Armor", 
                                     "ability_types": {
-                                        "ability_type_id": 220, 
-                                        "section_id": 1360, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1360, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1639,11 +1323,8 @@
                                     "name": "Icy Skin", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Icy Skin", 
                                     "ability_types": {
-                                        "ability_type_id": 221, 
-                                        "section_id": 1361, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1361, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1652,11 +1333,8 @@
                                     "name": "Punitive Transformation", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Punitive Transformation", 
                                     "ability_types": {
-                                        "ability_type_id": 222, 
-                                        "section_id": 1362, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1362, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1665,11 +1343,8 @@
                                     "name": "Water Form", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Water Form", 
                                     "ability_types": {
-                                        "ability_type_id": 223, 
-                                        "section_id": 1363, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1363, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1678,11 +1353,8 @@
                                     "name": "Water Sight", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Water Sight", 
                                     "ability_types": {
-                                        "ability_type_id": 224, 
-                                        "section_id": 1364, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1364, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1691,64 +1363,53 @@
                                     "name": "Wintry Touch", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Waves/Revelations/Wintry Touch", 
                                     "ability_types": {
-                                        "ability_type_id": 225, 
-                                        "section_id": 1365, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1365, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1355, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a master of cold and water. You can apply any one of the following feats to any cold or water spell without increasing the level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1366
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1352, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Wind", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p>An oracle with the wind mystery adds Acrobatics, Escape Artist, Fly, and Stealth to her list of class skills.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1368
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p><i>alter winds*</i> (2nd), <i>gust of wind</i> (4th), <i>cloak of winds*</i> (6th), <i>river of wind*</i> (8th), <i>control winds</i> (10th), <i>sirocco*</i> (12th), <i>control weather</i> (14th), <i>whirlwind</i> (16th), <i>winds of vengeance*</i> (18th).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1369
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p>An oracle with the wind mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"air-barrier\">You can create an invisible shell of air that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this barrier causes incoming arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance. You can use this barrier for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>", 
                                     "name": "Air Barrier", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Air Barrier", 
                                     "ability_types": {
-                                        "ability_type_id": 226, 
-                                        "section_id": 1371, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1371, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1757,11 +1418,8 @@
                                     "name": "Gaseous Form", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Gaseous Form", 
                                     "ability_types": {
-                                        "ability_type_id": 227, 
-                                        "section_id": 1372, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1372, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1770,11 +1428,8 @@
                                     "name": "Invisibility", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Invisibility", 
                                     "ability_types": {
-                                        "ability_type_id": 228, 
-                                        "section_id": 1373, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1373, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1783,11 +1438,8 @@
                                     "name": "Lightning Breath", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Lightning Breath", 
                                     "ability_types": {
-                                        "ability_type_id": 229, 
-                                        "section_id": 1374, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1374, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1796,11 +1448,8 @@
                                     "name": "Spark Skin", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Spark Skin", 
                                     "ability_types": {
-                                        "ability_type_id": 230, 
-                                        "section_id": 1375, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1375, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1809,11 +1458,8 @@
                                     "name": "Thunderburst", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Thunderburst", 
                                     "ability_types": {
-                                        "ability_type_id": 231, 
-                                        "section_id": 1376, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1376, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1822,11 +1468,8 @@
                                     "name": "Touch of Electricity", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Touch of Electricity", 
                                     "ability_types": {
-                                        "ability_type_id": 232, 
-                                        "section_id": 1377, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1377, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1835,11 +1478,8 @@
                                     "name": "Vortex Spells", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Vortex Spells", 
                                     "ability_types": {
-                                        "ability_type_id": 233, 
-                                        "section_id": 1378, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1378, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1848,11 +1488,8 @@
                                     "name": "Wind Sight", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Wind Sight", 
                                     "ability_types": {
-                                        "ability_type_id": 234, 
-                                        "section_id": 1379, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1379, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -1861,42 +1498,30 @@
                                     "name": "Wings of Air", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Mysteries/Wind/Revelations/Wings of Air", 
                                     "ability_types": {
-                                        "ability_type_id": 235, 
-                                        "section_id": 1380, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1380, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1370, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a master of air and electricity. You can apply any one of the following feats to any air or electricity spell without increasing the level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1381
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1367, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }
-            ], 
-            "section_id": 1231, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Oracles gain access to the following spells.</p>", 
             "name": "Oracle Spells", 
             "source": "Advanced Player's Guide", 
             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Oracle Spells", 
-            "section_id": 1382, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "oracle"
@@ -1904,23 +1529,20 @@
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Mysteries: Ultimate Magic", 
-            "section_id": 1383
+            "name": "Mysteries: Ultimate Magic"
         }, 
         {
-            "name": "Oracle Archetypes", 
             "url": "pfsrd://Advanced Players Guide/Classes/Oracle/Oracle Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Oracle Archetypes: Ultimate Magic", 
-                    "section_id": 1385
+                    "name": "Oracle Archetypes: Ultimate Magic"
                 }
             ], 
-            "section_id": 1384, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Oracle Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

@@ -1,18 +1,17 @@
 {
-    "level_text": "Inquisitor: 3; Paladin: 2", 
-    "duration": "1 round/level", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>Infusing the target with a surge of furious divine energy, you enhance a creature's ability to hit an opponent based on the number of times it has already hit that opponent with a successful attack. Each time the subject successfully strikes an opponent with a successful melee attack, the subject gains a cumulative +1 morale bonus on attack rolls (maximum +4 bonus) and gains 1d8 temporary hit points (to a maximum of 20 temporary hit points). If an attack misses, the attack bonus resets to +0 but any accumulated temporary hit points remain. The temporary hit points disappear at the end of the spell's duration.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates (harmless)", 
     "description": "Boosts attack bonus with each hit.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Righteous Vigor", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "section_id": 204, 
+    "level_text": "Inquisitor: 3; Paladin: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "touch", 
     "levels": [
         {
             "class": "Inquisitor", 
@@ -30,14 +29,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates (harmless)", 
-    "name": "Righteous Vigor", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Righteous Vigor", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -48,5 +39,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Righteous Vigor"
 }

@@ -1,18 +1,17 @@
 {
-    "level_text": "Antipaladin: 1; Bard: 2; Druid: 2; Inquisitor: 1; Paladin: 1; Ranger: 1", 
-    "duration": "1 hour/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S, M (a swatch of black cloth)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You instill the target animal with the combat training general purpose (see the Handle Animal skill). This supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "none", 
     "description": "Animal gains combat training.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Wartrain Mount", 
     "spell_resistance": "yes", 
     "casting_time": "1 minute", 
-    "section_id": 224, 
+    "level_text": "Antipaladin: 1; Bard: 2; Skald: 2; Druid: 2; Hunter: 1; Inquisitor: 1; Hunter: 1; Paladin: 1; Hunter: 1; Ranger: 1; Hunter: 1", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Antipaladin", 
@@ -27,6 +26,22 @@
             "level": 2
         }, 
         {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
             "class": "Inquisitor", 
             "level": 1
         }, 
@@ -37,6 +52,10 @@
         {
             "class": "Ranger", 
             "level": 1
+        }, 
+        {
+            "class": "Skald", 
+            "level": 2
         }
     ], 
     "descriptor_text": "mind-affecting", 
@@ -46,14 +65,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "none", 
-    "name": "Wartrain Mount", 
-    "url": "pfsrd://Ultimate Magic/Spells/Wartrain Mount", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -65,5 +76,13 @@
             "text": "a swatch of black cloth", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 hour/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a swatch of black cloth)", 
+    "name": "Wartrain Mount"
 }

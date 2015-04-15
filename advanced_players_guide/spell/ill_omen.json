@@ -1,18 +1,18 @@
 {
-    "level_text": "Witch: 1", 
-    "duration": "1 round/level or until discharged", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, M (hair from a black cat)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You afflict the target with bad luck. On the next d20 roll the target makes, it must roll twice and take the less favorable result. For every five caster levels you have, the target must roll twice on an additional d20 roll (to a maximum of five rolls at 20th level).</p><p>A target who can speak and has at least one free hand and who is aware of the spell and its effects (such as from a Spellcraft check to identify the spell as it is cast) can negate one reroll by spending a move action to utter a brief prayer or good luck charm to appease the spirits of ill fortune.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "none", 
     "description": "Target rolls twice for checks and attacks and uses worst roll.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Ill Omen", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 151, 
+    "level_text": "Witch: 1", 
+    "descriptor": [
+        "curse", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Witch", 
@@ -26,15 +26,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "none", 
-    "name": "Ill Omen", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Ill Omen", 
-    "descriptor": [
-        "curse", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -46,5 +37,13 @@
             "text": "hair from a black cat", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 round/level or until discharged", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (hair from a black cat)", 
+    "name": "Ill Omen"
 }

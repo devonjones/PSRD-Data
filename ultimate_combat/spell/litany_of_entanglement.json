@@ -1,18 +1,17 @@
 {
-    "level_text": "Antipaladin: 2; Inquisitor: 3; Paladin: 2", 
-    "duration": "1 round", 
-    "source": "Ultimate Combat", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "calling", 
-    "subschool": [
-        "calling"
-    ], 
-    "type": "spell", 
     "body": "<p class=\"stat-description-2\">Your litany conjures chains of energy that lash upward from the ground and hamper the target's movement. The target is entangled. This spell has no effect on flying creatures, or creatures not standing upon solid ground. </p><p class=\"stat-description-indent-1\">While subject to this spell, the target cannot be the target of another spell that has the word &quot;litany&quot; in the title.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "Will negates", 
     "description": "Entangles a creature for 1 round.", 
+    "source": "Ultimate Combat", 
+    "url": "pfsrd://Ultimate Combat/Spells/Litany Of Entanglement", 
     "spell_resistance": "yes", 
     "casting_time": "1 swift action", 
-    "section_id": 67, 
+    "level_text": "Antipaladin: 2; Inquisitor: 3; Paladin: 2", 
+    "descriptor": [
+        "language-dependent"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Antipaladin", 
@@ -34,14 +33,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "Will negates", 
-    "name": "Litany Of Entanglement", 
-    "url": "pfsrd://Ultimate Combat/Spells/Litany Of Entanglement", 
-    "descriptor": [
-        "language-dependent"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -52,5 +43,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "calling", 
+    "subschool": [
+        "calling"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Litany Of Entanglement"
 }

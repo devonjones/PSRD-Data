@@ -1,21 +1,28 @@
 {
-    "level_text": "Bard: 3; Sorcerer: 3; Wizard: 3", 
-    "duration": "one day/level (D)", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M (lead-based ink worth 50 gp)", 
-    "subschool_text": "phantasm", 
-    "subschool": [
-        "phantasm"
-    ], 
-    "type": "spell", 
     "body": "<p>You write instructions or other information on parchment, paper, or any suitable writing material. The <i>illusory script</i> appears to be some form of foreign or magical writing. Only the person (or people) designated by you at the time of the casting can read the writing; it's unintelligible to any other character<i></i>.</p><p>Any unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a <i>suggestion</i> implanted in the script by you at the time the <i>illusory script</i> spell was cast. The <i>suggestion</i> lasts only 30 minutes. Typical <i>suggestions</i> include &ldquo;Close the book and leave,&rdquo; &ldquo;Forget the existence of this note,&rdquo; and so forth. If successfully dispelled by <i>dispel magic</i>, the <i>illusory script</i> and its secret message disappear. The hidden message can be read by a combination of the <i>true seeing</i> spell with the <i>read magic</i> or <i>comprehend languages</i> spell.</p>", 
+    "school": "illusion", 
+    "saving_throw": "Will negates; see text", 
     "description": "Only select creatures can read text.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Illusory Script", 
     "spell_resistance": "yes", 
     "casting_time": "1 minute per page", 
-    "section_id": 315, 
+    "level_text": "Bard: 3; Skald: 3; Sorcerer: 3; Wizard: 3; Arcanist: 3", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "touch", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
             "class": "Bard", 
+            "level": 3
+        }, 
+        {
+            "class": "Skald", 
             "level": 3
         }, 
         {
@@ -34,14 +41,6 @@
             "name": "Target"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "Will negates; see text", 
-    "name": "Illusory Script", 
-    "url": "pfsrd://Core Rulebook/Spells/Illusory Script", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -53,5 +52,13 @@
             "text": "lead-based ink worth 50 gp", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "one day/level (D)", 
+    "subschool_text": "phantasm", 
+    "subschool": [
+        "phantasm"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (lead-based ink worth 50 gp)", 
+    "name": "Illusory Script"
 }

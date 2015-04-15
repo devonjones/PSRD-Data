@@ -19,7 +19,7 @@
     "environment": "cold mountains", 
     "source": "Bestiary 3", 
     "charisma": "31", 
-    "immune": "cold", 
+    "immune": "cold, energy drain, negative energy", 
     "fortitude": "+18", 
     "spells": [
         {
@@ -35,17 +35,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Norn/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A norn adds her Charisma modifier as an insight bonus to AC and on initiative checks.", 
                     "name": "Fated", 
                     "url": "pfsrd://Bestiary 3/Monsters/Norn/Special Abilities/Fated", 
                     "ability_types": {
-                        "ability_type_id": 468, 
-                        "section_id": 1581, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1581, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -54,11 +53,8 @@
                     "name": "Shears", 
                     "url": "pfsrd://Bestiary 3/Monsters/Norn/Special Abilities/Shears", 
                     "ability_types": {
-                        "ability_type_id": 469, 
-                        "section_id": 1582, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1582, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -67,11 +63,8 @@
                     "name": "Shift Fate", 
                     "url": "pfsrd://Bestiary 3/Monsters/Norn/Special Abilities/Shift Fate", 
                     "ability_types": {
-                        "ability_type_id": 470, 
-                        "section_id": 1583, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1583, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -80,35 +73,26 @@
                     "name": "Snip Thread", 
                     "url": "pfsrd://Bestiary 3/Monsters/Norn/Special Abilities/Snip Thread", 
                     "ability_types": {
-                        "ability_type_id": 471, 
-                        "section_id": 1584, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1584, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1580, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Ancient beyond imagining, the norns are a race of powerful women who hold in their hands the physical manifestation of fate and destiny in the form of golden thread. They watch over all life, intervening with reluctance when called upon or with a vengeance when the strands of fate are twisted and abused by lesser beings. Worshiped as gods by some, the norns do little to discourage this veneration.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1585
+            "type": "section"
         }, 
         {
             "body": "<p>A norn stands 14 feet tall and weighs 800 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1586
+            "type": "section"
         }
     ], 
     "hp": "270 (20d6+200); regeneration 10 (cold iron)", 
     "reach": "10 ft.", 
-    "section_id": 1579, 
     "wisdom": "24", 
     "defensive_abilities": "death ward, fated, foresight, mind blank, never surprised or flat-footed", 
     "creature_type": "Fey", 
@@ -116,11 +100,11 @@
     "dr": "15/cold iron", 
     "name": "Norn", 
     "base_attack": "+10", 
-    "skills": "Bluff +23, Craft (cloth) +18, Heal +12, Intimidate +30, Knowledge (all) +25, Perception +30, Perform (oratory) +18, Sense Motive +30, Use Magic Device +23", 
+    "skills": "Bluff +23, Craft (cloth) +18, Heal +11, Intimidate +30, Knowledge (all) +18, Perception +30, Perform (oratory) +18, Sense Motive +30, Use Magic Device +23", 
     "reflex": "+18", 
-    "cmd": "30", 
+    "cmd": "40", 
     "cmb": "+18", 
-    "will": "+21", 
+    "will": "+21; +8 vs. mind-affecting spells and effects; +4 vs. death spells and effects", 
     "url": "pfsrd://Bestiary 3/Monsters/Norn", 
     "sr": "29", 
     "organization": "solitary, pair, or trio"

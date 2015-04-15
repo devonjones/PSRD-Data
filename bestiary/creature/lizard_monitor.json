@@ -26,26 +26,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Lizard/Monitor/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Lizard/Monitor/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 444, 
-                        "section_id": 2022, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2022, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Monitor Lizard Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Lizard/Monitor/Special Abilities/Poison/Monitor Lizard Venom", 
                             "contracted": "injury", 
-                            "section_id": 2023, 
                             "effect": "1d2 Dexterity damage", 
                             "onset": "1 minute", 
                             "subtype": "poison", 
@@ -54,51 +47,49 @@
                             "save": "Fortitude DC 14", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2021, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Monitor lizards are large enough to pose a threat to humans, and in some societies are often mistaken for dragons. Some can reach lengths of 10 feet or more and weights of 350 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2024
+            "type": "section"
         }, 
         {
             "ac": "+1 natural armor", 
             "name": "Monitor Lizard", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Lizard/Monitor/Monitor Lizard", 
+            "speed": "30 ft., swim 30 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6 plus grab)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 13, Dex 17, Con 12, Int 2, Wis 12, Cha 6", 
             "sections": [
                 {
                     "ac": "+2 natural armor", 
                     "name": "7th-Level Advancement", 
                     "level": "7th", 
                     "url": "pfsrd://Bestiary/Monsters/Lizard/Monitor/Monitor Lizard/7th-Level Advancement", 
-                    "section_id": 2026, 
                     "subtype": "advancement", 
                     "attack": "bite (1d8 plus grab and poison)", 
                     "source": "Bestiary", 
-                    "ability_scores": "Str +4, Dex &ndash;2, Con +4", 
+                    "ability_scores": "Str +4, Dex -2, Con +4.", 
                     "type": "animal_companion", 
                     "size": "Medium"
                 }
             ], 
-            "section_id": 2025, 
-            "subtype": "base", 
-            "attack": "bite (1d6 plus grab)", 
-            "type": "animal_companion", 
-            "special_qualities": "low-light vision, scent", 
-            "speed": "30 ft., swim 30 ft.", 
-            "ability_scores": "Str 13, Dex 17, Con 12, Int 2, Wis 12, Cha 6", 
+            "special_qualities": "low-light vision, scent.", 
             "size": "Small"
         }
     ], 
     "hp": "22 (3d8+9)", 
-    "section_id": 2020, 
     "wisdom": "12", 
     "creature_type": "Animal", 
     "name": "Lizard, Monitor", 

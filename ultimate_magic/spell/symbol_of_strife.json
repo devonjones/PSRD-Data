@@ -1,6 +1,6 @@
 {
-    "as_spell_id": 623, 
-    "level_text": "Cleric: 9; Oracle: 9; Sorcerer: 9; Wizard: 9; Witch: 9", 
+    "as_spell_id": 588, 
+    "level_text": "Cleric: 9; Oracle: 9; Warpriest: 9; Sorcerer: 9; Wizard: 9; Arcanist: 9; Witch: 9", 
     "duration": "see text", 
     "source": "Ultimate Magic", 
     "component_text": "V, S, M (mercury and phosphorous, plus powdered diamond opal worth a total of 15,000 gp)", 
@@ -13,8 +13,11 @@
     "description": "Triggered rune makes creatures attack.", 
     "spell_resistance": "yes", 
     "casting_time": "10 minutes", 
-    "section_id": 194, 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 9
+        }, 
         {
             "class": "Cleric", 
             "level": 9
@@ -25,6 +28,10 @@
         }, 
         {
             "class": "Sorcerer", 
+            "level": 9
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 9
         }, 
         {

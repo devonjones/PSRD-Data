@@ -4,7 +4,7 @@
     "special_attacks": "sneak attack +6d6, striking fear", 
     "intelligence": "15", 
     "racial_modifiers": "+4 Intimidate, +4 Stealth", 
-    "melee": "2 claws +13 (1d8+8/19-20)", 
+    "melee": "2 claws +13 (1d8+1/19-20)", 
     "cr": "10", 
     "xp": "9,600", 
     "speed": "30 ft.", 
@@ -21,7 +21,7 @@
     "fortitude": "+9", 
     "spells": [
         {
-            "spell-like abilities": "(CL 10th; concentration +17)<p class=\"stat-block-2\">Constant-<i>detect thoughts</i>, <i>tongues</i> </p><p class=\"stat-block-2\">At will-<i>darkness</i>, <i>gaseous form</i>, <i>ghost sound</i> (DC 17), <i>invisibility</i>, <i>suggestion</i> (DC 20)</p><p class=\"stat-block-2\">3/day-<i>crushing despair</i> (DC 21), <i>hold person</i> (DC 20), quickened<i> phantasmal killer</i> (DC 21)</p><p class=\"stat-block-2\">1/day-<i>nightmare</i> (DC 22)</p>"
+            "spell-like abilities": "(CL 16th; concentration +17)<p class=\"stat-block-2\">Constant-<i>detect thoughts</i>, <i>tongues</i> </p><p class=\"stat-block-2\">At will-<i>darkness</i>, <i>gaseous form</i>, <i>ghost sound</i> (DC 17), <i>invisibility</i>, <i>suggestion</i> (DC 20)</p><p class=\"stat-block-2\">3/day-<i>crushing despair</i> (DC 21), <i>hold person</i> (DC 20), quickened<i> phantasmal killer</i> (DC 21)</p><p class=\"stat-block-2\">1/day-<i>nightmare</i> (DC 22)</p>"
         }
     ], 
     "type": "creature", 
@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Bogeyman/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A bogeyman is cloaked in a 30-foot aura of fear. This aura manifests as a shifting haze of images that reflect the viewer's deepest fears. The first time it ends its turn within the aura, a creature must make a DC 25 Will save or become shaken for as long as it stays within the aura. If the creature succeeds at the saving throw, it cannot be affected again by the aura for another 24 hours. This is a fear effect. The DC is Charisma-based.", 
                     "name": "Deepest Fear", 
                     "url": "pfsrd://Bestiary 3/Monsters/Bogeyman/Special Abilities/Deepest Fear", 
                     "ability_types": {
-                        "ability_type_id": 86, 
-                        "section_id": 284, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 284, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -52,11 +51,8 @@
                     "name": "Striking Fear", 
                     "url": "pfsrd://Bestiary 3/Monsters/Bogeyman/Special Abilities/Striking Fear", 
                     "ability_types": {
-                        "ability_type_id": 87, 
-                        "section_id": 285, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 285, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -65,40 +61,30 @@
                     "name": "Terrible Rejuvenation", 
                     "url": "pfsrd://Bestiary 3/Monsters/Bogeyman/Special Abilities/Terrible Rejuvenation", 
                     "ability_types": {
-                        "ability_type_id": 88, 
-                        "section_id": 286, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 286, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 283, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Many believe that the most cruel and mischievous fey become bogeymen as a punishment or a reward for their actions. Others see bogeymen as supernatural manifestations of society's willingness to do itself harm.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 287
+            "type": "section"
         }, 
         {
             "body": "<p>Bogeymen use their powers to haunt houses or secluded natural places where they can hunt prey unobserved. They relish using their <i>ghost sound</i> ability to hint at their presence long before they fully reveal themselves. It is not uncommon for a bogeyman to hide under a bed, or in a closet left slightly ajar, for days or even weeks, all the while feeding on its victims' growing realization that they are not alone.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 288
+            "type": "section"
         }, 
         {
             "body": "<p>The most evil bogeymen are those who abandon the tactic of feeding on one person's fears at a time and take up roles of mass murderers or serial killers, or other pursuits designed to drive fear into the hearts of an entire city of victims. True to their name, all bogeymen are male. Sometimes, children whom they steal away to secret lairs emerge years later, transformed into new bogeymen, and return home to continue their supernatural father's work. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 289
+            "type": "section"
         }
     ], 
     "hp": "93 (17d6+34); terrible rejuvenation 5", 
-    "section_id": 282, 
     "wisdom": "16", 
     "creature_type": "Fey", 
     "dr": "15/cold iron", 

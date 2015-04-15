@@ -1,18 +1,17 @@
 {
-    "level_text": "Cleric: 2; Oracle: 2; Paladin: 2", 
-    "duration": "1 minute/level (see below)", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "healing", 
-    "subschool": [
-        "healing"
-    ], 
-    "type": "spell", 
     "body": "<p>With this prayer you provide long-lasting succor to a wounded creature. For as long as the effect lasts, the target receives a +2 morale bonus on saving throws against fear and death effects. At any time while the spell is in effect, the target can choose to end the spell as a swift action for a burst of healing energy. The target loses the saving throw bonus, but is healed of 1d8 points of damage +1 point per caster level (maximum +10).</p>", 
+    "school": "conjuration", 
+    "saving_throw": "Will negates (harmless)", 
     "description": "Grants a +2 bonus on saves vs. fear and death.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Blessing Of Courage And Life", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "section_id": 25, 
+    "level_text": "Cleric: 2; Oracle: 2; Warpriest: 2; Paladin: 2", 
+    "descriptor": [
+        "emotion"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Cleric", 
@@ -25,6 +24,10 @@
         {
             "class": "Paladin", 
             "level": 2
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 2
         }
     ], 
     "descriptor_text": "emotion", 
@@ -34,14 +37,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "Will negates (harmless)", 
-    "name": "Blessing Of Courage And Life", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Blessing Of Courage And Life", 
-    "descriptor": [
-        "emotion"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -52,5 +47,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 minute/level (see below)", 
+    "subschool_text": "healing", 
+    "subschool": [
+        "healing"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Blessing Of Courage And Life"
 }

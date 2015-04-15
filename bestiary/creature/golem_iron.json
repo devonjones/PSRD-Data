@@ -26,26 +26,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Golem/Iron/Golem/Iron/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "As a free action once every 1d4+1 rounds, an iron golem can exhale a 10-foot cube of poisonous gas. This gas cloud persists for 1 round; any creature within the area when the golem creates it (as well as any creature that passes through the cloud during the remainder of that round) is exposed to the cloud's poisonous effects. This poison is magically created each time the golem uses this power. The save DC is Constitution-based.", 
                     "name": "Breath Weapon", 
                     "url": "pfsrd://Bestiary/Monsters/Golem/Iron/Golem/Iron/Special Abilities/Breath Weapon", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 385, 
-                        "section_id": 1702, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 1702, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Breath weapon, Iron Golem", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Golem/Iron/Golem/Iron/Special Abilities/Breath Weapon/Breath weapon/Iron Golem", 
                             "contracted": "inhaled", 
-                            "section_id": 1703, 
                             "effect": "1d4 Constitution damage", 
                             "subtype": "poison", 
                             "cure": "2 saves", 
@@ -53,18 +46,20 @@
                             "save": "Fortitude DC 19. ", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "An iron golem is immune to spells or spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.<p class=\"stat-block-2\">A magical attack that deals electricity damage slows an iron golem (as the <i>slow</i> spell) for 3 rounds, with no saving throw.</p><p class=\"stat-block-2\"> A magical attack that deals fire damage breaks any <i>slow</i> effect on the golem and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. An iron golem gets no saving throw against fire effects.</p><p class=\"stat-block-2\"> An iron golem is affected normally by rust attacks, such as those of a rust monster or a <i>rusting grasp</i> spell.</p>", 
                     "name": "Immunity to Magic", 
                     "url": "pfsrd://Bestiary/Monsters/Golem/Iron/Golem/Iron/Special Abilities/Immunity to Magic", 
                     "ability_types": {
-                        "ability_type_id": 386, 
-                        "section_id": 1704, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1704, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -73,41 +68,31 @@
                     "name": "Powerful Blows", 
                     "url": "pfsrd://Bestiary/Monsters/Golem/Iron/Golem/Iron/Special Abilities/Powerful Blows", 
                     "ability_types": {
-                        "ability_type_id": 387, 
-                        "section_id": 1705, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1705, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1701, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>An iron golem has a humanoid body made from iron. It can be sculpted into any shape its creator desires, but it almost always displays armor of some sort, from simple and utilitarian to ceremonial and ornate. Its features are much smoother than those of a stone golem. Iron golems sometimes carry a weapon in one hand, though they rarely use these, relying instead on their slam attacks. </p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1706
+            "type": "section"
         }, 
         {
             "body": "<p>An iron golem is 12 feet tall and weighs about 5,000 pounds. An iron golem cannot speak or make any vocal noise, nor does it have any distinguishable odor.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1707
+            "type": "section"
         }, 
         {
             "body": "<p>Although the practice has fallen out of favor in modern times, the ancients of certain powerful civilizations once took great pride in crafting iron golems of tremendous size and strength. These golems, which are never smaller than Huge, still exist in remote parts of the world, mindlessly following the orders of a long-dead empire.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1708
+            "type": "section"
         }
     ], 
     "hp": "129 (18d10+30)", 
     "reach": "10 ft.", 
-    "section_id": 1700, 
     "wisdom": "11", 
     "creature_type": "Construct", 
     "dr": "15/adamantine", 

@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Spider/Giant Tarantula/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A tarantula can throw barbed hairs from its back at a creature as a ranged touch attack (range increment 20 feet). A creature struck by these hairs must make a DC 22 Fort save or be nauseated for 1d6 rounds. A creature that attacks a giant tarantula with a non-reach melee weapon must make a DC 22 Reflex save to avoid being struck by these hairs. The save DC is Con-based.", 
                     "name": "Barbed Hairs", 
                     "url": "pfsrd://Bestiary 2/Monsters/Spider/Giant Tarantula/Special Abilities/Barbed Hairs", 
                     "ability_types": {
-                        "ability_type_id": 479, 
-                        "section_id": 1933, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1933, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -45,21 +44,12 @@
                     "body": "Save DC is Con-based with a +2 racial bonus. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Spider/Giant Tarantula/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 480, 
-                        "section_id": 1934, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1934, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Giant Tarantula Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Spider/Giant Tarantula/Special Abilities/Poison/Giant Tarantula Venom", 
                             "contracted": "injury", 
-                            "section_id": 1935, 
                             "effect": "1d6 Strength", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -67,16 +57,17 @@
                             "save": "Fortitude DC 24", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1932, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }
     ], 
     "hp": "115 (10d8+70)", 
-    "section_id": 1931, 
     "wisdom": "10", 
     "defensive_abilities": "barbed hairs", 
     "creature_type": "Vermin", 

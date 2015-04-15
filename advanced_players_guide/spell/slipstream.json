@@ -1,25 +1,44 @@
 {
-    "level_text": "Druid: 2; Elementalist Wizard: 2; Ranger: 2; Sorcerer: 2; Wizard: 2", 
-    "duration": "10 minutes/level (D)", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, M/DF (a few drops of oil and water)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>You create a low-cresting wave of water that carries the target along the surface of water or the ground. When moving across level ground, the target's speed increases by 10 feet. If going downhill, speed increases by 20 feet instead, but <i>slipstream</i> provides no movement bonus when going uphill. While swimming, the <i>slipstream</i> increases the target's swim speed by 20 feet&mdash;if the target does not have a swim speed, this spell grants a swim speed of 20 ft. </p>", 
+    "school": "conjuration", 
+    "saving_throw": "Reflex negates (harmless)", 
     "description": "Wave boosts creature's speed.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Slipstream", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 223, 
+    "level_text": "Arcanist: 2; Bloodrager: 2; Druid: 2; Elementalist Wizard: 2; Hunter: 2; Hunter: 2; Hunter: 2; Ranger: 2; Sorcerer: 2; Wizard: 2", 
+    "descriptor": [
+        "water"
+    ], 
+    "range": "touch", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 2
+        }, 
         {
             "class": "Druid", 
             "level": 2
         }, 
         {
             "class": "Elementalist Wizard", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
             "level": 2
         }, 
         {
@@ -42,14 +61,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "Reflex negates (harmless)", 
-    "name": "Slipstream", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Slipstream", 
-    "descriptor": [
-        "water"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -65,5 +76,13 @@
             "text": "a few drops of oil and water", 
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "10 minutes/level (D)", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M/DF (a few drops of oil and water)", 
+    "name": "Slipstream"
 }

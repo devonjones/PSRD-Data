@@ -5,10 +5,14 @@
     "description": "As symbol of death, but fills a 5-foot square.", 
     "url": "pfsrd://Ultimate Combat/Spells/Symbol Of Striking", 
     "spell_resistance": "yes, see text", 
-    "section_id": 131, 
-    "level_text": "Cleric: 5; Oracle: 5; Magus: 5; Sorcerer: 5; Wizard: 5; Witch: 5", 
+    "component_text": "V, S, M (a masterwork melee weapon costing at least 300 gp)", 
+    "level_text": "Cleric: 5; Oracle: 5; Warpriest: 5; Magus: 5; Sorcerer: 5; Wizard: 5; Arcanist: 5; Witch: 5", 
     "source": "Ultimate Combat", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 5
+        }, 
         {
             "class": "Cleric", 
             "level": 5
@@ -23,6 +27,10 @@
         }, 
         {
             "class": "Sorcerer", 
+            "level": 5
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 5
         }, 
         {
@@ -51,6 +59,5 @@
         "shadow"
     ], 
     "type": "spell", 
-    "component_text": "V, S, M (a masterwork melee weapon costing at least 300 gp)", 
     "name": "Symbol Of Striking"
 }

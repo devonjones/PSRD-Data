@@ -28,26 +28,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Swarm/Rat/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Swarm:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary/Monsters/Swarm/Rat/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 508, 
-                        "section_id": 2389, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2389, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Filth Fever, Rat Swarm", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Swarm/Rat/Special Abilities/Disease/Filth Fever/Rat Swarm", 
                             "contracted": "injury", 
-                            "section_id": 2390, 
                             "effect": "1d3 Dexterity damage and 1d3 Constitution damage", 
                             "onset": "1d3 days", 
                             "subtype": "disease", 
@@ -56,29 +49,28 @@
                             "save": "Fortitude DC 12", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2388, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A rat swarm typically consists of a biting, roiling mass of hundreds of disease-ridden rats driven to uncharacteristic heights of aggression by fantastic and overwhelming hunger. In such numbers, they become voracious hunters, capable of killing a full-grown human with hundreds of bites. Rat swarms are often found in the sewers of large human settlements.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2391
+            "type": "section"
         }, 
         {
             "body": "<p>Rat swarms surround and attack any warm-blooded prey in their path.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2392
+            "type": "section"
         }
     ], 
     "hp": "16 (3d8+3)", 
     "reach": "0 ft.", 
-    "section_id": 2387, 
     "wisdom": "13", 
     "defensive_abilities": "swarm traits", 
     "creature_type": "Animal", 

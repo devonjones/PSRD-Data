@@ -5,12 +5,15 @@
     "url": "pfsrd://Technology Guide/Rules/Technology in the world/Spells/Discharge", 
     "type": "spell", 
     "spell_resistance": "no", 
-    "section_id": 56, 
-    "level_text": "bard: 3; cleric: 3; oracle: 3; magus: 3; sorcerer: 3; wizard: 3; witch: 3", 
     "casting_time": "1 standard action", 
+    "level_text": "bard: 3; skald: 3; cleric: 3; oracle: 3; warpriest: 3; magus: 3; sorcerer: 3; wizard: 3; arcanist: 3; witch: 3", 
     "source": "Technology Guide", 
     "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
         {
             "class": "Bard", 
             "level": 3
@@ -28,7 +31,15 @@
             "level": 3
         }, 
         {
+            "class": "Skald", 
+            "level": 3
+        }, 
+        {
             "class": "Sorcerer", 
+            "level": 3
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 3
         }, 
         {
@@ -60,8 +71,7 @@
             "body": "<p> dissipates the charges from one technical object, temporarily depowers one electrically powered technological object that does not use charges, or severely hinders a creature with the robot subtype. If the spell targets an object with charges, the object loses all of its remaining charges. If the object is powered by electrical means other than charges, its functions are suppressed for 1d4 rounds. If the spell targets a creature not of the robot subtype, it affects a random charged or electrically powered item in that creature's possession. If the target is a robot, the robot is staggered and cannot use any energy-based attacks for 1d4 rounds. A robot that's affected by this spell receives a new saving throw at the end of each round to shrug off the effect.</p>", 
             "source": "Technology Guide", 
             "type": "section", 
-            "name": "Discharge", 
-            "section_id": 57
+            "name": "Discharge"
         }
     ], 
     "component_text": "V, S"

@@ -29,17 +29,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Fjord/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Once every 1d4 rounds as a standard action, a fjord linnorm can expel a 120-foot line of icy fluid, dealing 16d8 points of cold damage to all creatures struck (Reflex DC 27 for half damage). The freezing liquid quickly hardens to sheets of ice, causing any creature that takes damage to move at only half its normal speed for 1d4 rounds. A DC 27 Strength check made as a full-round action allows a character to break free of the ice before this duration expires. The save DC and Strength check DC are Constitution-based.", 
                     "name": "Breath Weapon", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Fjord/Special Abilities/Breath Weapon", 
                     "ability_types": {
-                        "ability_type_id": 423, 
-                        "section_id": 1416, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1416, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -48,11 +47,8 @@
                     "name": "Death Curse", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Fjord/Special Abilities/Death Curse", 
                     "ability_types": {
-                        "ability_type_id": 424, 
-                        "section_id": 1417, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1417, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -60,21 +56,12 @@
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Fjord/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 425, 
-                        "section_id": 1418, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1418, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Fjord Linnorm Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Fjord/Special Abilities/Poison/Fjord Linnorm Venom", 
                             "contracted": "injury", 
-                            "section_id": 1419, 
                             "effect": "3d6 cold damage and 1d6 Constitution drain", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -82,35 +69,33 @@
                             "save": "Fortitude DC 27", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1415, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Fjord linnorms dwell among the deep waters that grace northern coastlines where fingers of land create complex rivulets, venturing out to sea to feed on sharks and whales when they cannot find settlements or traveling caravans to savage. As their favored haunts often overlap with coastal trade routes, regions known to be within the territory of a fjord linnorm are often avoided by ships. Fjord linnorms are not particularly adept at capsizing ships, as are some other large aquatic monsters, but one might argue that such tactics are unnecessary for a creature the size and power of a fjord linnorm in the first place.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1420
+            "type": "section"
         }, 
         {
             "body": "<p>Both the curse and poison of a fjord linnorm are extremely dangerous for those who frequent the waterways of the north. The fjord linnorm's curse is particularly devastating to aquatic creatures, and such beings are careful to avoid any possible conflict with such linnorms.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1421
+            "type": "section"
         }, 
         {
             "body": "<p>A fjord linnorm is 60 feet long and weighs just over 10,000 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1422
+            "type": "section"
         }
     ], 
     "hp": "248 (16d12+144); regeneration 10 (cold iron)", 
     "reach": "20 ft.", 
-    "section_id": 1414, 
     "wisdom": "21", 
     "defensive_abilities": "freedom of movement", 
     "creature_type": "Dragon", 

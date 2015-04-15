@@ -24,7 +24,7 @@
             "spell-like abilities": "(CL 18th; concentration +27)<p class=\"stat-block-2\">Constant-<i>comprehend languages</i>, <i>tongues</i></p><p class=\"stat-block-2\">At will-<i>clairaudience/clairvoyance</i></p><p class=\"stat-block-2\">1/day-<i>dominate monster</i> (DC 28)</p>"
         }, 
         {
-            "spells known": "(CL 18th; concentration +27)<p class=\"stat-block-2\">9th (4/day)-<i>weird</i> (DC 28)</p><p class=\"stat-block-2\">8th (6/day)-<i>greater shadow evocation, mind blank</i> </p><p class=\"stat-block-2\">7th (7/day)-<i>greater shadow conjuration, mass invisibility, spell turning</i></p><p class=\"stat-block-2\">6th (7/day)-<i>greater dispel magic, mass suggestion</i> (DC 25), <i>true seeing</i></p><p class=\"stat-block-2\">5th (8/day)-<i>baleful polymorph</i> (DC 24), <i>feeblemind</i> (DC 24), <i>mind fog</i> (DC 24)</p><p class=\"stat-block-2\">4th (8/day)-<i>charm monster</i> (DC 23), <i>dimension door, lesser globe of invulnerability, scrying</i></p><p class=\"stat-block-2\">3rd (8/day)-<i>dispel magic, nondetection, suggestion</i> (DC 22), <i>vampiric touch</i> (DC 22)</p><p class=\"stat-block-2\">2nd (8/day)-<i>darkness, knock, misdirection</i> (DC 21), <i>resist energy, see invisibility</i></p><p class=\"stat-block-2\">1st (9/day)-<i>charm person</i> (DC 20), <i>identify, mage armor, magic missile, ventriloquism</i> (DC 20)</p><p class=\"stat-block-2\">0 (at will)-<i>arcane mark, bleed</i> (DC 19), <i>daze</i> (DC 19), <i>detect magic, ghost sound, mage hand, message, prestidigitation, read magic</i></p>"
+            "spells known": "(CL 18th; concentration +27)<p class=\"stat-block-2\">9th (4/day)-<i>weird</i> (DC 28)</p><p class=\"stat-block-2\">8th (6/day)-<i>greater shadow evocation, mind blank</i> </p><p class=\"stat-block-2\">7th (7/day)-<i>greater shadow conjuration, mass invisibility, spell turning</i></p><p class=\"stat-block-2\">6th (7/day)-<i>greater dispel magic, mass suggestion</i> (DC 25), <i>true seeing</i></p><p class=\"stat-block-2\">5th (8/day)-<i>baleful polymorph</i> (DC 24), <i>feeblemind</i> (DC 24), <i>mind fog </i>(DC 24), <i>teleport</i></p><p class=\"stat-block-2\">4th (8/day)-<i>charm monster</i> (DC 23), <i>dimension door, lesser globe of invulnerability, scrying</i></p><p class=\"stat-block-2\">3rd (8/day)-<i>dispel magic, nondetection, suggestion</i> (DC 22), <i>vampiric touch</i> (DC 22)</p><p class=\"stat-block-2\">2nd (8/day)-<i>darkness, knock, misdirection </i>(DC 21), <i>resist energy, see invisibility</i></p><p class=\"stat-block-2\">1st (9/day)-<i>charm person</i> (DC 20), <i>identify, mage armor, magic missile, ventriloquism</i> (DC 20)</p><p class=\"stat-block-2\">0 (at will)-<i>arcane mark, bleed</i> (DC 19), <i>daze </i>(DC 19), <i>detect magic, ghost sound, mage hand, message, prestidigitation, read magic</i></p>"
         }
     ], 
     "type": "creature", 
@@ -36,17 +36,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Maharaja/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When an encounter starts, a maharaja rolls twice for initiative. The maharaja acts normally on the higher of the two initiative counts each round. On the lower initiative count, the maharaja can take a single standard action.", 
                     "name": "Extra Initiative", 
                     "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Maharaja/Special Abilities/Extra Initiative", 
                     "ability_types": {
-                        "ability_type_id": 515, 
-                        "section_id": 1768, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1768, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -54,47 +53,37 @@
                     "body": "A maharaja casts arcane spells as an 18th-level sorcerer.", 
                     "source": "Bestiary 3", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1769
+                    "name": "Spells"
                 }
-            ], 
-            "section_id": 1767, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>All rakshasas aspire to power, but there are those for whom this hunger is more than an obsession: It's a birthright. Legends among the rakshasas tell of the maharajas&mdash;those rakshasas whose depredations and acts of cruelty have elevated them above others of their kind and allowed them to reincarnate as embodiments of every myth, fable, and cautionary tale involving the beast-headed fiends. Accorded the respect and deference of their lessers, maharajas inspire one emotion within the rakshasa race that few can: fear.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1770
+            "type": "section"
         }, 
         {
             "body": "<p>A maharaja rakshasa emerges only after a rakshasa of great power and influence has spent several lives as a member of the samrata, the height of the rakshasa's social-spiritual caste system. When a rakshasa ascends to maharaja status, others of its kind take notice, with rakshasas coming from far and wide to serve even a young maharaja&mdash;eager to curry its favor at an early age. The birth of a maharaja denotes that great change is imminent: The maharaja will fulfill some terrible destiny, found a lasting nation of rakshasas, undergo some manner of divine ascension, or defeat some greater foe and commandeer its domain, often splitting the region into large enough chunks for its lieutenants and servants to claim and still have room to expand. It is rare in the extreme for more than a handful of maharajas to emerge in the same century.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1771
+            "type": "section"
         }, 
         {
             "body": "<p>So great is a maharaja's power and influence and so long is its life that one can spend most of its time enjoying the luxury of its years of toil. When not manipulating armies or the machinations of lesser rakshasas, it can often be found surrounded by the most beautiful of its servitors&mdash;often charmed or dominated humanoids, or, if the maharaja is powerful enough, good-aligned outsiders&mdash;lounging in opulence.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1772
+            "type": "section"
         }, 
         {
             "body": "<p>The lair of a maharaja is typically a glorious, decadent mansion. After decades or centuries of work, gold filigree decorates the columns, and great friezes embossed with rakshasa myths and folklore decorate the walls. Rather than couches or divans, luxurious pillows stuffed with exotic feathers and crafted from the hides of even rarer creatures serve for furniture, and all about hang the trophies of a centuries-long life of tyranny: the crowns of defeated rulers, the wealth of ruined countries, and the heads of failed lieutenants.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1773
+            "type": "section"
         }, 
         {
             "body": "<p>A maharaja's great experience and power, however, does not make it immune to or ignorant of threats. Disloyal servants, powerful kings, ambitious rivals, and meddling adventurers all might step forth to challenge a maharaja's rule. To that end, a maharaja employs devious methods to ensure its own safety, with assassination, false rumors, and illusory doubles serving as useful tools to ferret out threats. Wary of attack and often with wide territories to control, most rakshasa maharajas have several secluded palaces and lavish redoubts, and travel among them endlessly.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1774
+            "type": "section"
         }
     ], 
     "hp": "310 (20d10+200)", 
-    "section_id": 1766, 
     "wisdom": "22", 
     "creature_type": "Outsider", 
     "special_qualities": "change shape (any humanoid; alter self)", 
@@ -109,5 +98,5 @@
     "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Maharaja", 
     "sr": "35", 
     "organization": "solitary", 
-    "creature_subtype": "native, shapechanger"
+    "creature_subtype": "native, rakshasa, shapechanger"
 }

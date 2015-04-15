@@ -2,6 +2,8 @@
     "body": "<p>The following spells grant temporary hero points or prevent characters from using hero points.</p>", 
     "name": "Hero Point Spells", 
     "url": "pfsrd://Advanced Players Guide/Rules/New Rules/Hero Points/Hero Point Spells", 
+    "type": "section", 
+    "source": "Advanced Player's Guide", 
     "sections": [
         {
             "body": "<p>This spell grants 1 hero point to the target. This hero point must be spent before the duration expires, or it is lost. The bonus hero point is spent before any other hero points the target might possess.</p>", 
@@ -11,8 +13,7 @@
             "url": "pfsrd://Advanced Players Guide/Rules/New Rules/Hero Points/Hero Point Spells/Heroic Fortune", 
             "spell_resistance": "no", 
             "casting_time": "1 standard action", 
-            "level_text": "alchemist: 2; bard: 2; cleric: 2; oracle: 2; paladin: 3", 
-            "section_id": 3777, 
+            "level_text": "alchemist: 2; investigator: 2; bard: 2; skald: 2; cleric: 2; oracle: 2; warpriest: 2; paladin: 3", 
             "source": "Advanced Player's Guide", 
             "range": "touch", 
             "levels": [
@@ -29,12 +30,24 @@
                     "level": 2
                 }, 
                 {
+                    "class": "Investigator", 
+                    "level": 2
+                }, 
+                {
                     "class": "Oracle", 
                     "level": 2
                 }, 
                 {
                     "class": "Paladin", 
                     "level": 3
+                }, 
+                {
+                    "class": "Skald", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Warpriest", 
+                    "level": 2
                 }
             ], 
             "effects": [
@@ -68,21 +81,25 @@
             "school": "evocation", 
             "description": "Grants one hero point to all characters in range", 
             "url": "pfsrd://Advanced Players Guide/Rules/New Rules/Hero Points/Hero Point Spells/Heroic Fortune/Mass", 
-            "section_id": 3778, 
-            "level_text": "bard: 4; cleric: 5; oracle: 5", 
+            "component_text": "V, S, DF, M (diamond dust worth 1,000 gp)", 
+            "level_text": "skald: 4; cleric: 5; oracle: 5; warpriest: 5", 
             "source": "Advanced Player's Guide", 
             "range": "close (25 ft. + 5 ft./2 levels)", 
             "levels": [
-                {
-                    "class": "Bard", 
-                    "level": 4
-                }, 
                 {
                     "class": "Cleric", 
                     "level": 5
                 }, 
                 {
                     "class": "Oracle", 
+                    "level": 5
+                }, 
+                {
+                    "class": "Skald", 
+                    "level": 4
+                }, 
+                {
+                    "class": "Warpriest", 
                     "level": 5
                 }
             ], 
@@ -108,7 +125,6 @@
                 }
             ], 
             "type": "spell", 
-            "component_text": "V, S, DF, M (diamond dust worth 1,000 gp)", 
             "name": "Heroic Fortune, Mass"
         }, 
         {
@@ -120,14 +136,17 @@
             "url": "pfsrd://Advanced Players Guide/Rules/New Rules/Hero Points/Hero Point Spells/Malediction", 
             "spell_resistance": "yes", 
             "casting_time": "1 standard action", 
-            "level_text": "sorcerer: 3; wizard: 3; witch: 3", 
-            "section_id": 3779, 
+            "level_text": "sorcerer: 3; wizard: 3; arcanist: 3; witch: 3", 
             "descriptor": [
                 "death", 
                 "evil"
             ], 
             "range": "touch", 
             "levels": [
+                {
+                    "class": "Arcanist", 
+                    "level": 3
+                }, 
                 {
                     "class": "Sorcerer", 
                     "level": 3
@@ -173,8 +192,7 @@
             "url": "pfsrd://Advanced Players Guide/Rules/New Rules/Hero Points/Hero Point Spells/Severed Fate", 
             "spell_resistance": "yes", 
             "casting_time": "1 standard action", 
-            "level_text": "cleric: 3; oracle: 3; witch: 2", 
-            "section_id": 3780, 
+            "level_text": "cleric: 3; oracle: 3; warpriest: 3; witch: 2", 
             "source": "Advanced Player's Guide", 
             "range": "close (25 ft. + 5 ft./2 levels)", 
             "levels": [
@@ -184,6 +202,10 @@
                 }, 
                 {
                     "class": "Oracle", 
+                    "level": 3
+                }, 
+                {
+                    "class": "Warpriest", 
                     "level": 3
                 }, 
                 {
@@ -218,11 +240,14 @@
             "url": "pfsrd://Advanced Players Guide/Rules/New Rules/Hero Points/Hero Point Spells/Unravel Destiny", 
             "spell_resistance": "yes", 
             "casting_time": "1 standard action", 
-            "level_text": "cleric: 3; oracle: 3; sorcerer: 3; wizard: 3; witch: 3", 
-            "section_id": 3781, 
+            "level_text": "cleric: 3; oracle: 3; warpriest: 3; sorcerer: 3; wizard: 3; arcanist: 3; witch: 3", 
             "source": "Advanced Player's Guide", 
             "range": "short (25 ft. + 5 ft./2 levels)", 
             "levels": [
+                {
+                    "class": "Arcanist", 
+                    "level": 3
+                }, 
                 {
                     "class": "Cleric", 
                     "level": 3
@@ -233,6 +258,10 @@
                 }, 
                 {
                     "class": "Sorcerer", 
+                    "level": 3
+                }, 
+                {
+                    "class": "Warpriest", 
                     "level": 3
                 }, 
                 {
@@ -266,8 +295,5 @@
             "component_text": "V, S, DF", 
             "name": "Unravel Destiny"
         }
-    ], 
-    "section_id": 3776, 
-    "source": "Advanced Player's Guide", 
-    "type": "section"
+    ]
 }

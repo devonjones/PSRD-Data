@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Any creature sexually attracted to women runs the risk of being beguiled by a nereid if it looks upon her beauty from a distance of 30 feet or less. If the creature fails a DC 23 Will save, it is immediately fascinated. A nereid may use her suggestion spell-like ability at will against creatures that are fascinated by her beguiling aura. This is a mind-affecting compulsion effect. The save DC is Charisma-based.", 
                     "name": "Beguiling Aura", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities/Beguiling Aura", 
                     "ability_types": {
-                        "ability_type_id": 351, 
-                        "section_id": 1453, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1453, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -52,11 +51,8 @@
                     "name": "Drowning Kiss", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities/Drowning Kiss", 
                     "ability_types": {
-                        "ability_type_id": 352, 
-                        "section_id": 1454, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1454, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -64,21 +60,12 @@
                     "body": "Touch or spray (range 30-ft.):", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 353, 
-                        "section_id": 1455, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1455, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Nereid Poison", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities/Poison/Nereid Poison", 
                             "contracted": "contact", 
-                            "section_id": 1456, 
                             "effect": "1d2 Constitution plus blindness", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -86,18 +73,20 @@
                             "save": "Fortitude DC 23", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A nereid's shawl (hardness 2, hp 6) contains a portion of her life force. If the shawl is ever destroyed, the nereid takes 1d6 points of Constitution drain per hour until she dies. A nereid can craft a new shawl from water by making a DC 25 Will save, but each attempt takes 1d4 hours to complete. Attempts to destroy or steal a nereid's shawl require the sunder or disarm attempts.", 
                     "name": "Shawl", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities/Shawl", 
                     "ability_types": {
-                        "ability_type_id": 354, 
-                        "section_id": 1457, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1457, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -106,11 +95,8 @@
                     "name": "Transparency", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities/Transparency", 
                     "ability_types": {
-                        "ability_type_id": 355, 
-                        "section_id": 1458, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1458, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -119,29 +105,21 @@
                     "name": "Unearthly Grace", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nereid/Special Abilities/Unearthly Grace", 
                     "ability_types": {
-                        "ability_type_id": 356, 
-                        "section_id": 1459, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1459, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1452, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Nereids are capricious and often dangerous aquatic fey that appear as strikingly beautiful women, often seen bathing unclothed in the water. Many sailors have met their doom following a nereid, for though a nereid's beauty is otherworldly, her watery kiss is death. Others seek out nereids, for if one can secure control over the creature's shawl, the cloth can be used to force the nereid's compliance. A nereid forced to obey in this manner immediately attempts to slay her master as soon as she can secure her shawl's safety.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1460
+            "type": "section"
         }
     ], 
     "hp": "126 (12d6+84)", 
     "weaknesses": "shawl", 
-    "section_id": 1451, 
     "wisdom": "22", 
     "defensive_abilities": "transparency", 
     "creature_type": "Fey", 

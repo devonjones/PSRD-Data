@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "As a full-round action, a raktavarna can take the shape of a handheld object, most often an ornamental light, a one-handed weapon, or a piece of treasure. If the rakshasa remains stationary in such a form, it can attempt Stealth checks even while being observed. It can remain motionless in object form indefinitely, but reverts to its true form as soon as it takes any action.", 
                     "name": "Change Shape", 
                     "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Change Shape", 
                     "ability_types": {
-                        "ability_type_id": 519, 
-                        "section_id": 1786, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1786, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -52,11 +51,8 @@
                     "name": "Master's Eyes", 
                     "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Masters Eyes", 
                     "ability_types": {
-                        "ability_type_id": 520, 
-                        "section_id": 1787, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1787, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -64,14 +60,6 @@
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 521, 
-                        "section_id": 1788, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 1788, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Raktavarna Rakshasa Venom", 
@@ -79,7 +67,6 @@
                             "url": "pfsrd://Bestiary 3/Monsters/Rakshasa/Raktavarna/Special Abilities/Poison/Raktavarna Rakshasa Venom", 
                             "type": "affliction", 
                             "contracted": "injury", 
-                            "section_id": 1789, 
                             "effect": "1d2 Wisdom plus modify memory", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -89,46 +76,43 @@
                                 {
                                     "body": "Each time a victim takes Wisdom damage from this poison, a modify memory effect causes the victim to forget the previous minute's interactions with the raktavarna, as long as the raktavarna is no longer visible or is in object form.", 
                                     "source": "Bestiary 3", 
-                                    "type": "section", 
-                                    "section_id": 1790
+                                    "type": "section"
                                 }
                             ]
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1785, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Made up of smoke, blood, and gold, raktavarnas are the least of the rakshasas&mdash;they are born not from humanoids, but from the souls of rakshasas who failed utterly in their previous incarnation and who are thus reborn from a serpent's egg.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1791
+            "type": "section"
         }, 
         {
             "body": "<p>These terrors drift through society, passing from hand to hand as weapons or strange tokens from foreign lands, curiosities brought home by traders and emissaries and given to leaders as tribute. In this manner the raktavarnas gain entry into corridors of power throughout the world, and what they see, their foul masters know. A raktavarna's servitude to a master ends only when its master decrees, or (more commonly) upon the master's death. Little disconcerts raktavarnas more than having no master, and when they are cast adrift in this manner, they seek a replacement as soon as they can.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1792
+            "type": "section"
         }, 
         {
             "body": "<p>A 7th-level lawful evil spellcaster with the Improved Familiar feat can gain a raktavarna rakshasa as a familiar. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1793
+            "type": "section"
         }
     ], 
     "hp": "22 (3d10+6)", 
-    "section_id": 1784, 
     "wisdom": "13", 
     "creature_type": "Outsider", 
     "special_qualities": "change shape (Tiny living object), master's eyes", 
     "dr": "5/good or piercing", 
     "name": "Rakshasa, Raktavarna", 
     "base_attack": "+3", 
-    "skills": "Bluff +12, Climb +9, Disguise +16, Escape Artist +6, Perception +9, Sense Motive +9, Stealth +17, Swim +6", 
+    "skills": "Bluff +12, Climb +14, Disguise +16, Escape Artist +6, Perception +9, Sense Motive +9, Stealth +17, Swim +11", 
     "reflex": "+6", 
     "cmd": "12 (can't be tripped)", 
     "cmb": "+4", 

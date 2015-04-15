@@ -3,10 +3,10 @@
     "ac": "26, touch 9, flat-footed 25 (+4 armor, +1 Dex, +13 natural, -2 size)", 
     "special_attacks": "powerful charge (gore, 4d8+24), rock throwing (120 ft.)", 
     "intelligence": "7", 
-    "melee": "mwk greatclub +24/+19/+14 (3d8+19), gore +17 (1d8+6) or gore +23 (1d8+13), 2 slams +23 (2d6+13)", 
+    "melee": "mwk greatclub +24/+19/+14 (3d8+19), gore +18 (1d8+6) or gore +23 (1d8+13), 2 slams +23 (2d6+13)", 
     "cr": "12", 
     "xp": "19,200", 
-    "speed": "50 ft.", 
+    "speed": "50 ft. (35ft. in armor)", 
     "alignment": "CE", 
     "size": "Huge", 
     "languages": "Common, Cyclops, Giant", 
@@ -20,7 +20,7 @@
     "charisma": "8", 
     "fortitude": "+12", 
     "type": "creature", 
-    "feats": "Awesome Blow, Cleave, Critical Focus, Diehard, Endurance, Improved Bull Rush, Iron Will, Power Attack, Staggering Critical", 
+    "feats": "Awesome Blow, Cleave, Critical Focus, Diehard, Endurance, Improved Bull Rush, Iron Will, Power Attack, Sickening Critical", 
     "senses": "low-light vision; Perception +22", 
     "description": "This misshapen but incredibly muscular humanoid has a single huge bloodshot eye set under a short, jagged horn on its brow. ", 
     "sections": [
@@ -28,51 +28,43 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Cyclops/Great/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Once per day as a swift action, a great cyclops can gain a burst of savage of inspiration. When it does, it doubles the threat range of all weapons, natural attacks, and rock attacks it makes until the start of its next turn. Furthermore, once per day, when the great cyclops reaches 0 or fewer hit points and is conscious because of its Diehard feat, this ability recharges, allowing it to use the ability a second time that same day.", 
                     "name": "Flash of Brutality", 
                     "url": "pfsrd://Bestiary 3/Monsters/Cyclops/Great/Special Abilities/Flash of Brutality", 
                     "ability_types": {
-                        "ability_type_id": 139, 
-                        "section_id": 458, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 458, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 457, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Degenerate giants of cyclops-kind, the legendary great cyclopes embody the rage and dark doom of this race of uncanny seers. In their eyes blaze endless possibilities for bloodshed and terror, their myopic gazes seeming to witness the potential for infinite deaths and devastations hidden within each moment. Gigantic but dull-witted, these massive savages are usually loners, but occasionally either need or fate drives them to rampages from which few are safe. Such undeniable force brings with it a dread that, in many instances, grows to reverence, giving rise to strange cults that cloak these cyclopes with veils of menace and dark legends.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 459
+            "type": "section"
         }, 
         {
             "body": "<p>Denizens of remote and primeval parts of the world, great cyclopes typically dwell in lands where none might intrude upon them&mdash;deserted islands, high craggy mountains, and stoic hill countries often provide the great caves they favor as lairs. While most avoid well-traveled or populated lands, spending much of their time hunting megafauna and even monstrous prey in the wilds, some, driven by hunger or a desperation to wander, seek out the paths and settlements of humanoids, finding that their fragile buildings are easily shattered and that the mewling creatures make savory meals.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 460
+            "type": "section"
         }, 
         {
             "body": "<p>The average great cyclops stands approximately 30 feet tall and weighs upward of 4 tons, though individuals of significantly greater size are known.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 461
+            "type": "section"
         }
     ], 
     "hp": "195 (17d8+119)", 
     "reach": "15 ft.", 
-    "section_id": 456, 
     "wisdom": "14", 
     "creature_type": "Humanoid", 
     "special_qualities": "flash of brutality", 
-    "ranged": "rock +11 (2d6+19)", 
+    "ranged": "rock +12 (2d6+19)", 
     "name": "Cyclops, Great", 
     "base_attack": "+12", 
     "skills": "Perception +22", 

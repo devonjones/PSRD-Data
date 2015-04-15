@@ -1,18 +1,18 @@
 {
-    "level_text": "Inquisitor: 2", 
-    "duration": "1 round", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You ask the target creature a single question. On the subject's next action, it must answer truthfully in the same language as the question or take 1d6 points of damage per two caster levels (maximum 5d6) and be sickened for 2d4 rounds. A successful Will save negates the sickening effect and halves the damage. A creature that is unable to answer still takes damage.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will partial; see text", 
     "description": "Creature answers question truthfully or takes 1d6 damage/two levels (max 5d6).", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Confess", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 57, 
+    "level_text": "Inquisitor: 2", 
+    "descriptor": [
+        "language-dependent", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Inquisitor", 
@@ -26,15 +26,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will partial; see text", 
-    "name": "Confess", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Confess", 
-    "descriptor": [
-        "language-dependent", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -45,5 +36,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Confess"
 }

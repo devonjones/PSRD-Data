@@ -26,26 +26,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Snake/Venomous/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Snake/Venomous/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 540, 
-                        "section_id": 2602, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2602, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Snake Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Snake/Venomous/Special Abilities/Poison/Snake Venom", 
                             "contracted": "injury", 
-                            "section_id": 2603, 
                             "effect": "1d2 Constitution", 
                             "subtype": "poison", 
                             "cure": "cure 1 save", 
@@ -53,28 +46,27 @@
                             "save": "Fortitude DC 13", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2601, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Countless species of poisonous snakes dwell in the wild, their bites capable of bringing down creatures much larger than themselves. Snakes of the size presented here are thankfully rarer than their smaller kin, but many species of rattlesnake, cobra, and similar reptiles can grow to this size.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2604
+            "type": "section"
         }, 
         {
             "body": "<p>Venomous snakes are generally far more aggressive than constrictor snakes, and even larger variants do exist: you can create stats for a king cobra, for example, by applying the advanced and giant simple templates to the stats given above.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2605
+            "type": "section"
         }
     ], 
     "hp": "13 (2d8+4)", 
-    "section_id": 2600, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Snake, Venomous", 

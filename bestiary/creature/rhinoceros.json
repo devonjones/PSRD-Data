@@ -26,43 +26,39 @@
         {
             "body": "<p>The rhinoceros feeds on leafy plants, branches, and even thorny shrubs. Its thick hide is a mottled gray color, and it can run surprisingly fast for a beast of its size. The rhinoceros is notoriously short-tempered and prone to attacking anything it perceives as approaching too closely (generally within a distance of 80 feet&mdash;the distance of a single charge&mdash;for most rhinos).</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2410
+            "type": "section"
         }, 
         {
-            "ac": "+4 natural armor", 
+            "ac": "+4 natural", 
             "name": "Rhinoceros", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Rhinoceros/Rhinoceros/Rhinoceros", 
+            "speed": "40 ft.", 
+            "subtype": "base", 
+            "attack": "gore (1d8)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 14, Dex 14, Con 15, Int 2, Wis 13, Cha 5", 
             "sections": [
                 {
                     "ac": "+3 natural armor", 
                     "name": "7th-Level Advancement", 
                     "level": "7th", 
                     "url": "pfsrd://Bestiary/Monsters/Rhinoceros/Rhinoceros/Rhinoceros/7th-Level Advancement", 
-                    "section_id": 2412, 
                     "subtype": "advancement", 
                     "attack": "gore (2d6)", 
                     "source": "Bestiary", 
-                    "special_qualities": "powerful charge", 
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
                     "type": "animal_companion", 
-                    "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
+                    "special_qualities": "powerful charge.", 
                     "size": "Large"
                 }
             ], 
-            "section_id": 2411, 
-            "subtype": "base", 
-            "attack": "gore (1d8)", 
-            "type": "animal_companion", 
-            "special_qualities": "scent", 
-            "speed": "40 ft.", 
-            "ability_scores": "Str 14, Dex 14, Con 15, Int 2, Wis 13, Cha 5", 
+            "special_qualities": "scent.", 
             "size": "Medium"
         }
     ], 
     "hp": "42 (5d8+20)", 
     "reach": "5 ft.", 
-    "section_id": 2409, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Rhinoceros", 

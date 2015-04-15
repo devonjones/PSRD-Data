@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Dark Creeper/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When a dark creeper is slain, its body combusts in a flash of bright white light, leaving its gear in a heap on the ground. All creatures within a 10-foot burst must make a DC 13 Fortitude save or be blinded for 1d6 rounds. Other dark creepers within 10 feet are automatically blinded for at least 1 round, due to their light blindness. The save is Constitution-based.", 
                     "name": "Death Throes", 
                     "url": "pfsrd://Bestiary/Monsters/Dark Creeper/Special Abilities/Death Throes", 
                     "ability_types": {
-                        "ability_type_id": 168, 
-                        "section_id": 817, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 817, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -51,21 +50,12 @@
                     "body": "Dark creepers are skilled in the use of poison and never risk accidentally poisoning themselves. Dark creepers favor a foul-smelling black paste distilled from certain deep-underground fungi known as black smear.", 
                     "name": "Poison Use", 
                     "url": "pfsrd://Bestiary/Monsters/Dark Creeper/Special Abilities/Poison Use", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 169, 
-                        "section_id": 818, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 818, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Black Smear, Dark Creeper", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Dark Creeper/Special Abilities/Poison Use/Black Smear/Dark Creeper", 
                             "contracted": "injury", 
-                            "section_id": 819, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -73,18 +63,20 @@
                             "save": "Fortitude DC 15", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A dark creeper's multiple layers of filthy rags function as leather armor when worn by one of their kind.", 
                     "name": "Rag Armor", 
                     "url": "pfsrd://Bestiary/Monsters/Dark Creeper/Special Abilities/Rag Armor", 
                     "ability_types": {
-                        "ability_type_id": 170, 
-                        "section_id": 820, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 820, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -93,41 +85,31 @@
                     "name": "See in Darkness", 
                     "url": "pfsrd://Bestiary/Monsters/Dark Creeper/Special Abilities/See in Darkness", 
                     "ability_types": {
-                        "ability_type_id": 171, 
-                        "section_id": 821, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 821, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 816, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Dark creepers lurk in the black places deep below the surface of the world, venturing forth at night or into neighboring societies when the urge to steal and cause mayhem grows too great to resist. Endless layers of filthy, moldering black cloth shroud these small creatures, leading some to believe that the creature inside is smaller still. Usually encountered in groups, dark creepers flee from bright light, but are quite brave in the dark.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 822
+            "type": "section"
         }, 
         {
             "body": "<p>Dark creepers stand just under 4 feet tall and weigh 80 pounds. Their flesh is pale and moist, and their eyes are milky white. Dark creepers exude a foul stench of sweat and spoiled food, owing primarily to the fact that they never take off their clothing&mdash;instead piling on new layers when the outermost one grows too ragged.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 823
+            "type": "section"
         }, 
         {
             "body": "<p>For all the mayhem and trouble a pack of dark creepers can cause, this is nothing compared to the dangers a tribe led by the taller, even more sinister dark stalkers represents. Dark creepers treat their tall, lithe masters almost like gods, presenting them with offerings and obeying their every whim. Invariably, several dark stalkers serve as leaders to dark creeper tribes, with all of the tribe's heavy work and labor falling on the diminutive shoulders of the creepers, freeing the dark stalkers for their own decadent pleasures. Yet the dark creepers themselves see no inherent imbalance in this arrangement&mdash;to a dark creeper, a life in the servitude of a dark stalker is a life fulfilled.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 824
+            "type": "section"
         }
     ], 
     "hp": "19 (3d8+6)", 
     "weaknesses": "light blindness", 
-    "section_id": 815, 
     "wisdom": "10", 
     "creature_type": "Humanoid", 
     "special_qualities": "poison use, rag armor", 

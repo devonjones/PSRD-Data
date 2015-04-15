@@ -26,53 +26,57 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Turtle/Snapping/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "As a move action, a snapping turtle can pull its extremities and head into its shell. It cannot move or attack as long as it remains in this state, but its armor bonus from natural armor increases by +4 as long as it does.", 
                     "name": "Shell", 
                     "url": "pfsrd://Bestiary 2/Monsters/Turtle/Snapping/Special Abilities/Shell", 
                     "ability_types": {
-                        "ability_type_id": 507, 
-                        "section_id": 2064, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2064, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2063, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Snapping turtles are water-dwelling reptiles known for their propensity to bite anyone they deem threatening. Adult snapping turtles are usually about 1-1/2 feet in diameter. A spellcaster who can acquire a familiar can choose a snapping turtle as a familiar. A snapping turtle familiar grants its master a +2 bonus on all Fortitude saves.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 2065
+            "type": "section"
         }, 
         {
-            "body": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> 20 ft., swim 20 ft.; <b>AC</b> +10 natural; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 8, Dex 10, Con 9, Int 1, Wis 13, Cha 6; <b>Special Qualities</b> low-light vision, hold breath, scent.</p>", 
+            "ac": "+10 natural", 
             "name": "Giant Snapping Turtle", 
+            "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Turtle/Snapping/Giant Snapping Turtle", 
+            "speed": "20 ft., swim 20 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 8, Dex 10, Con 9, Int 1, Wis 13, Cha 6", 
             "sections": [
                 {
-                    "body": "<p id=\"7th-level-advancement\"><b>Size</b> Large; <b>AC</b> +2 natural; <b>Attack</b> bite (1d8), <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Attack</b> grab.</p>", 
+                    "ac": "+2 natural", 
+                    "special_attacks": "grab.", 
                     "name": "7th-Level Advancement", 
+                    "level": "7th", 
                     "url": "pfsrd://Bestiary 2/Monsters/Turtle/Snapping/Giant Snapping Turtle/7th-Level Advancement", 
-                    "section_id": 2067, 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d8)", 
                     "source": "Bestiary 2", 
-                    "type": "section"
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "type": "animal_companion", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 2066, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            "special_qualities": "low-light vision, hold breath, scent.", 
+            "size": "Medium"
         }
     ], 
     "hp": "5 (1d8+1)", 
     "reach": "0 ft.", 
-    "section_id": 2062, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "special_qualities": "hold breath, shell", 

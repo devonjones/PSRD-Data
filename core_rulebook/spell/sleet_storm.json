@@ -1,19 +1,26 @@
 {
-    "level_text": "Druid: 3; Elementalist Wizard: 3; Magus: 3; Sorcerer: 3; Witch: 3; Wizard: 3", 
-    "duration": "1 round/level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M/DF (dust and water)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the Acrobatics skill for details).</p><p>The sleet extinguishes torches and small fires.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "Hampers vision and movement.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Sleet Storm", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 550, 
+    "level_text": "Arcanist: 3; Bloodrager: 3; Druid: 3; Elementalist Wizard: 3; Hunter: 3; Hunter: 3; Magus: 3; Shaman: 3; Sorcerer: 3; Witch: 3; Wizard: 3", 
+    "descriptor": [
+        "cold"
+    ], 
+    "range": "long (400 ft. + 40 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 3
+        }, 
         {
             "class": "Druid", 
             "level": 3
@@ -23,7 +30,19 @@
             "level": 3
         }, 
         {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
             "class": "Magus", 
+            "level": 3
+        }, 
+        {
+            "class": "Shaman", 
             "level": 3
         }, 
         {
@@ -46,14 +65,6 @@
             "name": "Area"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Sleet Storm", 
-    "url": "pfsrd://Core Rulebook/Spells/Sleet Storm", 
-    "descriptor": [
-        "cold"
-    ], 
-    "range": "long (400 ft. + 40 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -69,5 +80,13 @@
             "text": "dust and water", 
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M/DF (dust and water)", 
+    "name": "Sleet Storm"
 }

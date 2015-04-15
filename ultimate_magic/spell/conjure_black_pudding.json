@@ -1,19 +1,22 @@
 {
-    "level_text": "Sorcerer: 6; Wizard: 6; Summoner: 5", 
-    "duration": "1 round/level (D)", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S, M (a flask of acid worth 10 gp)", 
-    "subschool_text": "summoning", 
-    "subschool": [
-        "summoning"
-    ], 
-    "type": "spell", 
     "body": "<p>You summon a black pudding that immediately attacks creatures near it. You have no control over the creature, and it may attack you if there are no more obvious opponents. The black pudding is treated as a summoned creature and has the extraplanar subtype. The black pudding's split ability works normally, but all puddings derived from the summoned one disappear when the spell ends.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "Summon a black pudding.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Conjure Black Pudding", 
     "spell_resistance": "no", 
     "casting_time": "1 round", 
-    "section_id": 41, 
+    "level_text": "Sorcerer: 6; Wizard: 6; Arcanist: 6; Summoner: 5", 
+    "descriptor": [
+        "acid"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 6
+        }, 
         {
             "class": "Sorcerer", 
             "level": 6
@@ -34,14 +37,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Conjure Black Pudding", 
-    "url": "pfsrd://Ultimate Magic/Spells/Conjure Black Pudding", 
-    "descriptor": [
-        "acid"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 level)", 
     "components": [
         {
             "type": "V"
@@ -53,5 +48,13 @@
             "text": "a flask of acid worth 10 gp", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 round/level (D)", 
+    "subschool_text": "summoning", 
+    "subschool": [
+        "summoning"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a flask of acid worth 10 gp)", 
+    "name": "Conjure Black Pudding"
 }

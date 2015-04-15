@@ -1,7 +1,27 @@
 {
     "name": "Holy Symbol", 
     "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Holy Symbol", 
-    "type": "item", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Wooden</td><td>1 gp</td><td>&mdash;</td></tr><tr class=\"even\"><td>Iron</td><td>5 gp</td><td>1 lb.</td></tr><tr class=\"odd\"><td>Silver</td><td>25 gp</td><td>1 lb.</td></tr><tr class=\"even\"><td>Gold</td><td>100 gp</td><td>1 lb.</td></tr><tr class=\"odd\"><td>Platinum</td><td>500 gp</td><td>1 lb.</td></tr></table>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Holy Symbol/Type", 
+            "type": "table", 
+            "name": "Type", 
+            "source": "Ultimate Equipment"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may place special significance on a particular material. </p>", 
+            "source": "Ultimate Equipment", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">An unholy symbol is like a holy symbol except that it focuses negative energy and is used by evil clerics (or by neutral clerics who want to cast evil spells or channel negative energy).</p>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Holy Symbol/Unholy Symbols", 
+            "type": "section", 
+            "name": "Unholy Symbols", 
+            "source": "Ultimate Equipment"
+        }
+    ], 
     "misc": {
         "Platinum": {
             "Price": "500 gp", 
@@ -27,30 +47,6 @@
             "Weight": "1 lb."
         }
     }, 
-    "section_id": 521, 
     "source": "Ultimate Equipment", 
-    "sections": [
-        {
-            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Wooden</td><td>1 gp</td><td>&mdash;</td></tr><tr class=\"even\"><td>Iron</td><td>5 gp</td><td>1 lb.</td></tr><tr class=\"odd\"><td>Silver</td><td>25 gp</td><td>1 lb.</td></tr><tr class=\"even\"><td>Gold</td><td>100 gp</td><td>1 lb.</td></tr><tr class=\"odd\"><td>Platinum</td><td>500 gp</td><td>1 lb.</td></tr></table>", 
-            "name": "Type", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Holy Symbol/Type", 
-            "section_id": 522, 
-            "source": "Ultimate Equipment", 
-            "type": "table"
-        }, 
-        {
-            "body": "<p class=\"stat-block\">A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may place special significance on a particular material. </p>", 
-            "source": "Ultimate Equipment", 
-            "type": "section", 
-            "section_id": 523
-        }, 
-        {
-            "body": "<p class=\"stat-block\">An unholy symbol is like a holy symbol except that it focuses negative energy and is used by evil clerics (or by neutral clerics who want to cast evil spells or channel negative energy).</p>", 
-            "name": "Unholy Symbols", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Holy Symbol/Unholy Symbols", 
-            "section_id": 524, 
-            "source": "Ultimate Equipment", 
-            "type": "section"
-        }
-    ]
+    "type": "item"
 }

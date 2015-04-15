@@ -33,26 +33,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Night Hag/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary/Monsters/Night Hag/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 481, 
-                        "section_id": 2247, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 2247, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Demon Fever, Night Hag", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Night Hag/Special Abilities/Disease/Demon Fever/Night Hag", 
                             "contracted": "injury", 
-                            "section_id": 2248, 
                             "effect": "1d6 Constitution damage (target must save a 2nd time or 1 point of the damage is drain instead)", 
                             "onset": "immediate", 
                             "subtype": "disease", 
@@ -61,18 +54,20 @@
                             "save": "Fortitude DC 20, The save DC is Constitution-based.", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A night hag can visit the dreams of chaotic or evil targets by using a special periapt known as a heartstone to become ethereal, then hovering over the creature. Once it does so, it rides on the victim's back until dawn. The sleeper suffers tormenting dreams and takes 1 point of Constitution drain upon awakening. Only another ethereal being can stop these nocturnal intrusions by confronting and defeating the night hag.", 
                     "name": "Dream Haunting", 
                     "url": "pfsrd://Bestiary/Monsters/Night Hag/Special Abilities/Dream Haunting", 
                     "ability_types": {
-                        "ability_type_id": 482, 
-                        "section_id": 2249, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2249, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -81,28 +76,20 @@
                     "name": "Heartstone", 
                     "url": "pfsrd://Bestiary/Monsters/Night Hag/Special Abilities/Heartstone", 
                     "ability_types": {
-                        "ability_type_id": 483, 
-                        "section_id": 2250, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2250, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2246, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Terrifying murderesses and greedy soul brokers, night hags prey upon mortals while they're most vulnerable. Preferring to kill their prey slowly, haunting their dreams night after night, these hags trap the tormented souls of their victims within dark gems so they might be sold in the infernal markets of the outer planes. Night hags vary widely in appearance, standing between 5-1/2 and 7 feet tall, and weighing from 150 to 300 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2251
+            "type": "section"
         }
     ], 
     "hp": "92 (8d10+48)", 
-    "section_id": 2245, 
     "wisdom": "16", 
     "creature_type": "Outsider", 
     "special_qualities": "change shape (any humanoid, alter self), heartstone", 

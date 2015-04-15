@@ -1,0 +1,60 @@
+{
+    "body": "<p>Each of these animal companions has a different starting speed, attacks, ability scores, and special qualities. As you gain levels, your companion grows in power as well. It gains the same bonuses that are gained by other animal companions . Each companion gains an additional bonus, usually at 4th or 7th level, as listed with each choice. A kobold cavalier can select either of these companions as a mount instead of a dog or pony.</p>", 
+    "name": "Kobold Companions", 
+    "url": "pfsrd://Monster Codex/Rules/Kobolds/New Rules/Kobold Companions", 
+    "type": "section", 
+    "source": "Monster Codex", 
+    "sections": [
+        {
+            "ac": "+2 natural armor", 
+            "name": "Cave Salamander", 
+            "source": "Monster Codex", 
+            "url": "pfsrd://Monster Codex/Rules/Kobolds/New Rules/Kobold Companions/Cave Salamander", 
+            "speed": "40 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 13, Dex 12, Con 13, Int 1, Wis 12, Cha 4", 
+            "sections": [
+                {
+                    "name": "4th-Level Advancement", 
+                    "source": "Monster Codex", 
+                    "url": "pfsrd://Monster Codex/Rules/Kobolds/New Rules/Kobold Companions/Cave Salamander/4th-Level Advancement", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "ability_scores": "Str +2, Con +2", 
+                    "type": "animal_companion", 
+                    "special_qualities": "combat training (see the Handle Animal skill)."
+                }
+            ], 
+            "special_qualities": "darkvision 60 ft.", 
+            "size": "Medium"
+        }, 
+        {
+            "ac": "+1 natural armor", 
+            "name": "Riding Python", 
+            "source": "Monster Codex", 
+            "url": "pfsrd://Monster Codex/Rules/Kobolds/New Rules/Kobold Companions/Riding Python", 
+            "sections": [
+                {
+                    "name": "4th-Level Advancement", 
+                    "source": "Monster Codex", 
+                    "url": "pfsrd://Monster Codex/Rules/Kobolds/New Rules/Kobold Companions/Riding Python/4th-Level Advancement", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "ability_scores": "Str +2, Con +2", 
+                    "type": "animal_companion", 
+                    "special_qualities": "combat training (see the Handle Animal skill)."
+                }
+            ], 
+            "cmd": "(can't be tripped)", 
+            "subtype": "base", 
+            "attack": "bite (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 11, Dex 14, Con 13, Int 1, Wis 10, Cha 4", 
+            "speed": "30 ft.", 
+            "special_qualities": "blindsight 60 ft.", 
+            "size": "Medium"
+        }
+    ]
+}

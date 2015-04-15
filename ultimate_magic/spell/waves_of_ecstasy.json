@@ -1,19 +1,23 @@
 {
-    "level_text": "Bard: 6; Cleric: 7; Oracle: 7; Sorcerer: 7; Wizard: 7; Witch: 7", 
-    "duration": "1 round/level; see text", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You emanate waves of intense pleasure that cause all targets within range to falter. Affected creatures are stunned for 1 round and are staggered for the remainder of the spell. A creature that makes its save is staggered for the first round and can act normally thereafter.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will partial (see text)", 
     "description": "Pleasure stuns and staggers creatures.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Waves Of Ecstasy", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 225, 
+    "level_text": "Bard: 6; Skald: 6; Cleric: 7; Oracle: 7; Warpriest: 7; Sorcerer: 7; Wizard: 7; Arcanist: 7; Witch: 7", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "30 ft.", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 7
+        }, 
         {
             "class": "Bard", 
             "level": 6
@@ -27,7 +31,15 @@
             "level": 7
         }, 
         {
+            "class": "Skald", 
+            "level": 6
+        }, 
+        {
             "class": "Sorcerer", 
+            "level": 7
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 7
         }, 
         {
@@ -46,15 +58,6 @@
             "name": "Area"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will partial (see text)", 
-    "name": "Waves Of Ecstasy", 
-    "url": "pfsrd://Ultimate Magic/Spells/Waves Of Ecstasy", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "30 ft.", 
     "components": [
         {
             "type": "V"
@@ -62,5 +65,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round/level; see text", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Waves Of Ecstasy"
 }

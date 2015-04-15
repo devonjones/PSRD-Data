@@ -1,0 +1,144 @@
+{
+    "body": "<p>The following spells are more common among goblin spellcasters than among other races.</p>", 
+    "name": "Goblin Spells", 
+    "url": "pfsrd://Monster Codex/Rules/Goblins/Goblin Archetype/Goblin Spells", 
+    "type": "section", 
+    "source": "Monster Codex", 
+    "sections": [
+        {
+            "body": "<p class=\"stat-block\">The target's flesh becomes flexible and rubbery. It gains a +2 circumstance bonus on grapple combat maneuver checks and Escape Artist checks, as well as to its CMD against combat maneuver checks to grapple. Anytime the target would take falling damage, it treats falls as 20 feet shorter (minimum 0) for the purpose of determining damage. In addition, if the target falls against a hard surface, it can attempt an Acrobatics check (DC = the distance fallen) to attempt to bounce upward; success means the creature bounces upward half the distance fallen.</p>", 
+            "school": "transmutation", 
+            "name": "Bouncy Body", 
+            "url": "pfsrd://Monster Codex/Rules/Goblins/Goblin Archetype/Goblin Spells/Bouncy Body", 
+            "casting_time": "1 standard action", 
+            "level_text": "alchemist: 1; investigator: 1; bloodrager: 1; sorcerer: 1; wizard: 1; arcanist: 1; witch: 1", 
+            "source": "Monster Codex", 
+            "range": "touch", 
+            "levels": [
+                {
+                    "class": "Alchemist", 
+                    "level": 1
+                }, 
+                {
+                    "class": "Arcanist", 
+                    "level": 1
+                }, 
+                {
+                    "class": "Bloodrager", 
+                    "level": 1
+                }, 
+                {
+                    "class": "Investigator", 
+                    "level": 1
+                }, 
+                {
+                    "class": "Sorcerer", 
+                    "level": 1
+                }, 
+                {
+                    "class": "Witch", 
+                    "level": 1
+                }, 
+                {
+                    "class": "Wizard", 
+                    "level": 1
+                }
+            ], 
+            "effects": [
+                {
+                    "text": "creature touched", 
+                    "name": "Target"
+                }
+            ], 
+            "components": [
+                {
+                    "type": "V"
+                }, 
+                {
+                    "type": "S"
+                }
+            ], 
+            "duration": "10 minutes/level", 
+            "type": "spell", 
+            "component_text": "V, S"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">You create a Small minion out of mud, and it obeys your commands. The mud buddy has AC 12, 10 hit points, Strength 5, and a speed of 30 feet. It can perform any tasks an <i>unseen servant</i> can, plus any similar tasks its Strength allows (it's able to lift up to 50 pounds), but instead of walking on water, it gains a swim speed of 30 feet.</p><p class=\"stat-block\">You can command a <i>mud buddy</i> to move up to 5 feet and trip an opponent (CMB = your caster level + your spellcasting ability score modifier). After the trip attempt is resolved, the spell ends.</p><p class=\"stat-block\">When the spell ends, the <i>mud buddy</i> reverts to a patch of wet earth.</p>", 
+            "school": "conjuration", 
+            "name": "Mud Buddy", 
+            "url": "pfsrd://Monster Codex/Rules/Goblins/Goblin Archetype/Goblin Spells/Mud Buddy", 
+            "type": "spell", 
+            "casting_time": "1 standard action", 
+            "level_text": "druid: 2; hunter: 2; sorcerer: 2; wizard: 2; arcanist: 2; hunter: 2; witch: 2; hunter: 2", 
+            "source": "Monster Codex", 
+            "range": "close (25 ft. + 5 ft./2 levels)", 
+            "levels": [
+                {
+                    "class": "Arcanist", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Druid", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Hunter", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Hunter", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Hunter", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Sorcerer", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Witch", 
+                    "level": 2
+                }, 
+                {
+                    "class": "Wizard", 
+                    "level": 2
+                }
+            ], 
+            "effects": [
+                {
+                    "text": "5 cubic feet of earth or mud", 
+                    "name": "Target"
+                }
+            ], 
+            "components": [
+                {
+                    "type": "V"
+                }, 
+                {
+                    "type": "S"
+                }, 
+                {
+                    "text": "1 pint of water", 
+                    "type": "M"
+                }
+            ], 
+            "duration": "1 hour/level (D) (see text)", 
+            "subschool_text": "creation", 
+            "subschool": [
+                "creation"
+            ], 
+            "sections": [
+                {
+                    "body": "<p>Goblins are illiterate, so goblin alchemists are unable to use conventional formula books. Instead, a goblin alchemist's formula book is filled with smears of various fluids, pictures representing materials needed, and other scent-, taste-, or pictograph-based representations of his formulae. Goblin alchemists can learn each other's formulae as easily as other alchemists learn language-based formulae.</p><p>A literate alchemist can learn formulae from a goblin alchemist's book, but he must spend 1 day studying a formula (instead of 1 hour), and the Spellcraft DC to successfully learn it is equal to 20 + the formula's level (instead of 15 + the formula's level). This otherwise works like copying a formula from another alchemist's formula book.</p><p>Goblins cannot learn formulae from scrolls or language-based books, but can be taught a new formula by an alchemist or wizard who spends 1 day verbally explaining it.</p>", 
+                    "url": "pfsrd://Monster Codex/Rules/Goblins/Goblin Archetype/Goblin Spells/Mud Buddy/Goblin Formula Books", 
+                    "type": "section", 
+                    "name": "Goblin Formula Books", 
+                    "source": "Monster Codex"
+                }
+            ], 
+            "component_text": "V, S, M (1 pint of water)"
+        }
+    ]
+}

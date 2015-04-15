@@ -1,21 +1,28 @@
 {
-    "level_text": "Bard: 4; Sorcerer: 4; Wizard: 4; Witch: 4", 
-    "duration": "instantaneous", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "shadow", 
-    "subschool": [
-        "shadow"
-    ], 
-    "type": "spell", 
     "body": "<p>To use this spell, you must be in an area of dim light or darkness. You enter a shadow or area of darkness, which transports you along a coiling path of shadowstuff to another dim or dark location within range.</p>", 
+    "school": "illusion", 
+    "saving_throw": "none", 
     "description": "Teleport from one shadow to another.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Shadow Step", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 166, 
+    "level_text": "Bard: 4; Skald: 4; Sorcerer: 4; Wizard: 4; Arcanist: 4; Witch: 4", 
+    "descriptor": [
+        "shadow"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 4
+        }, 
+        {
             "class": "Bard", 
+            "level": 4
+        }, 
+        {
+            "class": "Skald", 
             "level": 4
         }, 
         {
@@ -38,14 +45,6 @@
             "name": "Target"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "none", 
-    "name": "Shadow Step", 
-    "url": "pfsrd://Ultimate Magic/Spells/Shadow Step", 
-    "descriptor": [
-        "shadow"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -53,5 +52,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "instantaneous", 
+    "subschool_text": "shadow", 
+    "subschool": [
+        "shadow"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Shadow Step"
 }

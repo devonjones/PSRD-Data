@@ -25,17 +25,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Servant/Clockwork Servant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "As a standard action, a clockwork servant can launch a net from its shoulder. The launcher itself can contain up to five nets&mdash;loading a folded net into the launcher is a standard action. Some clockwork servants are outfitted with masterwork or even magic nets, although the clockwork servant presented here is armed with standard nets.", 
                     "name": "Net", 
                     "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Servant/Clockwork Servant/Special Abilities/Net", 
                     "ability_types": {
-                        "ability_type_id": 126, 
-                        "section_id": 407, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 407, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -44,50 +43,40 @@
                     "name": "Repair Clockwork", 
                     "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Servant/Clockwork Servant/Special Abilities/Repair Clockwork", 
                     "ability_types": {
-                        "ability_type_id": 127, 
-                        "section_id": 408, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 408, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 406, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Since clockwork engineers can't always be present to make sure their devices are working at full capacity, the clockwork servant was invented to serve that role. Clockwork servants excel at repairing themselves and other clockworks on the battlefield, proving useful for skirmishes and campaigns alike.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 409
+            "type": "section"
         }, 
         {
             "body": "<p>Rumors of clockwork servants with magically imparted intelligence persist among explorers of certain strange ruins&mdash;while no smarter than the average human, such &ldquo;awakened&rdquo; clockwork servants have skills and feats as appropriate for their Hit Dice (Disable Device +7, Perception +2, and Skill Focus [Disable Device] for most intelligent clockwork servants), and are said to serve in more complex roles than mere repair workers. An intelligent clockwork has an Intelligence score of 11 and can speak one language.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 410
+            "type": "section"
         }, 
         {
             "body": "<p>Clockwork servants are about 5 feet tall and weigh over 400 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 411
+            "type": "section"
         }
     ], 
     "hp": "31 (2d10+20); fast healing 2", 
     "weaknesses": "vulnerable to electricity", 
-    "section_id": 405, 
     "wisdom": "11", 
     "creature_type": "Construct", 
     "special_qualities": "repair clockwork, swift reactions, winding", 
-    "ranged": "net +4 (entangle, see page 147 of the Core Rulebook)", 
+    "ranged": "net +4", 
     "name": "Clockwork Servant", 
     "base_attack": "+2", 
     "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Servant/Clockwork Servant", 
     "reflex": "+4", 
-    "cmd": "20", 
+    "cmd": "20 (22 trip)", 
     "cmb": "+6", 
     "will": "+0", 
     "organization": "solitary, team (2-4), or squadron (5-10)", 

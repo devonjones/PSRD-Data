@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Lurker in Light/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "In areas of bright light, lurkers are invisible. As with greater invisibility, they may attack and still remain invisible. In shadowy illumination, a lurker loses this invisibility, though like all creatures in shadows, they have concealment unless the viewer has darkvision. If the lurker is flying, its fluttering wings partially negate this effect, giving it only partial concealment (20%) rather than total concealment.", 
                     "name": "Blend With Light", 
                     "url": "pfsrd://Bestiary 2/Monsters/Lurker in Light/Special Abilities/Blend With Light", 
                     "ability_types": {
-                        "ability_type_id": 323, 
-                        "section_id": 1309, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1309, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -52,11 +51,8 @@
                     "name": "Daylight Door", 
                     "url": "pfsrd://Bestiary 2/Monsters/Lurker in Light/Special Abilities/Daylight Door", 
                     "ability_types": {
-                        "ability_type_id": 324, 
-                        "section_id": 1310, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 1310, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -64,14 +60,6 @@
                     "body": "Lurkers typically coat their daggers with shadow essence poison.", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Lurker in Light/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 325, 
-                        "section_id": 1311, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1311, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Shadow essence poison", 
@@ -79,7 +67,6 @@
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Lurker in Light/Special Abilities/Poison/Shadow essence poison", 
                             "contracted": "injury", 
-                            "section_id": 1312, 
                             "subtype": "poison", 
                             "cure": "1 save", 
                             "frequency": "1/round for 6 rounds", 
@@ -87,53 +74,47 @@
                             "save": "Fortitude DC 17", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "By sacrificing one or more humanoid victims, a lurker or group of lurkers can create a gate to the Material Plane, one of the Elemental Planes, or the realm of the fey, either to return home or to conjure allies. Creating a gate for travel requires the sacrifice of five victims&mdash;the gate created remains open for 1 minute. Creating a gate to bring allies to the Material Plane requires one sacrifice for every HD of the creature intended to pass through the gate (so five sacrifices can bring a lurker or a Medium air elemental, eight can bring a Large earth elemental, and so on). The sacrifices do not need to be simultaneous; as long all sacrifices occur at some point during the hour-long ritual, the magic continues to build until it reaches the required total.", 
                     "name": "Ritual Gate", 
                     "url": "pfsrd://Bestiary 2/Monsters/Lurker in Light/Special Abilities/Ritual Gate", 
                     "ability_types": {
-                        "ability_type_id": 326, 
-                        "section_id": 1313, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1313, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1308, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Malicious and alien fey, lurkers in light venture to the Material Plane to perpetrate strangely targeted mischief, stealing and killing according to a logic or system of justice only they understand. Gnomes in particular seem to incur these unexplained attacks, leading some to believe that lurkers may be agents of ancient and vengeful forces. Creatures of the light, lurkers are visible only in dim illumination, with anything brighter than a flickering torch making them completely invisible, even as they savage their enemies&mdash;a prospect terrifying to those civilized races that equate light with safety.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1314
+            "type": "section"
         }, 
         {
             "body": "<p>A lurker in light turns conventional wisdom on its head, for they detest darkness and the creatures that dwell in it, yet they themselves are sadistic and evil. They particularly hate darkmantles, dwarves, and creatures from the Plane of Shadow, and given the time, they enjoy torturing such creatures to death if they can capture them alive.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1315
+            "type": "section"
         }, 
         {
             "body": "<p>If killed, a lurker in light disintegrates over the course of several minutes into 2d6 pounds of dust that radiates faint evocation magic and glows for 1d6 days with a cold light equal to that provided by a candle. This dust damages shadows as if it were holy water, with a pound of dust equal to one flask of holy water.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1316
+            "type": "section"
         }, 
         {
             "body": "<p>A lurker in light is 3 feet tall, but weighs only 20 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1317
+            "type": "section"
         }
     ], 
     "hp": "44 (8d6+16)", 
-    "section_id": 1307, 
     "wisdom": "16", 
     "defensive_abilities": "blend with light", 
     "creature_type": "Fey", 

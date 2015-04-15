@@ -27,26 +27,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Cave/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Cave/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 443, 
-                        "section_id": 1800, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1800, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Cave Scorpion Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Cave/Special Abilities/Poison/Cave Scorpion Venom", 
                             "contracted": "injury", 
-                            "section_id": 1801, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -54,22 +47,22 @@
                             "save": "Fortitude DC 12", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1799, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The squat cave scorpion is quite well suited for life in caves. With its bulky armor, a cave scorpion at rest looks like a pile of stones. The cave scorpion's favorite food is dwarven meat, and when a cave scorpion finds a working dwarven mine, it can quickly become a major inconvenience. Dwarven societies often post hefty bounties on cave scorpion stingers.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1802
+            "type": "section"
         }
     ], 
     "hp": "16 (3d8+3)", 
-    "section_id": 1798, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
     "name": "Scorpion, Cave", 

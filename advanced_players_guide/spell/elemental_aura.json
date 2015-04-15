@@ -8,8 +8,7 @@
     "type": "spell", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "level_text": "Alchemist: 3; Elementalist Wizard: 3; Magus: 3; Sorcerer: 3; Wizard: 3", 
-    "section_id": 88, 
+    "level_text": "Alchemist: 3; Arcanist: 3; Bloodrager: 3; Elementalist Wizard: 3; Investigator: 3; Magus: 3; Sorcerer: 3; Wizard: 3", 
     "descriptor": [
         "acid", 
         "cold", 
@@ -23,7 +22,19 @@
             "level": 3
         }, 
         {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 3
+        }, 
+        {
             "class": "Elementalist Wizard", 
+            "level": 3
+        }, 
+        {
+            "class": "Investigator", 
             "level": 3
         }, 
         {
@@ -58,35 +69,31 @@
     "sections": [
         {
             "body": "<p id=\"acid\">Creatures affected by your aura take 1 point of ongoing acid damage per round for 1 round per three caster levels, and are sickened for the duration of the ongoing acid damage.</p>", 
-            "name": "Acid", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Aura/Acid", 
-            "section_id": 89, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Acid", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p id=\"cold\">Creatures affected by your aura are fatigued. A creature that is already fatigued suffers no additional effect.</p>", 
-            "name": "Cold", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Aura/Cold", 
-            "section_id": 90, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Cold", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p id=\"electricity\">Creatures affected by your aura are staggered for 1 round.</p>", 
-            "name": "Electricity", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Aura/Electricity", 
-            "section_id": 91, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Electricity", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p id=\"fire\">Creatures affected by your aura catch on fire (<i>Core Rulebook</i> 444).</p><p>Creatures adjacent to you are allowed a Reflex save to halve the damage and negate the additional effect. The aura's additional effects do not stack if a creature takes damage from your aura multiple times. You may only have one <i>elemental aura</i> in effect at one time. When you cast this spell to deal acid, cold, electricity, or fire damage, it is a spell of that type.</p>", 
-            "name": "Fire", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Aura/Fire", 
-            "section_id": 92, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Fire", 
+            "source": "Advanced Player's Guide"
         }
     ], 
     "component_text": "V, S", 

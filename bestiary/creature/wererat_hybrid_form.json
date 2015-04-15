@@ -23,26 +23,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 448, 
-                        "section_id": 2055, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2055, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Filth Fever, Wererat", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)/Special Abilities/Disease/Filth Fever/Wererat", 
                             "contracted": "injury", 
-                            "section_id": 2056, 
                             "effect": "1d3 Dexterity damage and 1d3 Constitution damage", 
                             "onset": "1d3 days", 
                             "subtype": "disease", 
@@ -51,28 +44,27 @@
                             "save": "Fortitude DC 14, ", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2054, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Natural wererats tend to be short and wiry, with constantly darting eyes and frequent nervous twitches. Males often have thin, ragged moustaches.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2057
+            "type": "section"
         }, 
         {
             "body": "<p>Wererats prefer cities where they can blend in with the humanoid and rat population. Their abilities make them especially good at thieving and spying, and in many cities the thieves' guild employs numerous wererat members.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2058
+            "type": "section"
         }
     ], 
     "hp": "20 (2d8+8)", 
-    "section_id": 2053, 
     "wisdom": "16", 
     "defensive_abilities": "evasion", 
     "creature_type": "Humanoid", 

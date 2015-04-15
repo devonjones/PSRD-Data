@@ -1,21 +1,32 @@
 {
-    "level_text": "Bard: 4; Sorcerer: 4; Wizard: 4", 
-    "duration": "1 minute/level", 
-    "source": "Ultimate Combat", 
-    "component_text": "V, S", 
-    "subschool_text": "figment", 
-    "subschool": [
-        "figment"
-    ], 
-    "type": "spell", 
     "body": "<p class=\"stat-description-2\">This spell works like <i>mirror image</i>, except the illusory doubles it creates discharge an electric shock when destroyed. An opponent that uses a melee attack to destroy one of your images takes 2d6 points of electricity damage. You must overcome a target's spell resistance the first time you deal this electricity damage to it. Failure renders the target immune to damage from this spell. </p>", 
+    "school": "illusion", 
+    "saving_throw": "none", 
     "description": "As mirror image, but the duplicates emit electrical damage when destroyed.", 
+    "source": "Ultimate Combat", 
+    "url": "pfsrd://Ultimate Combat/Spells/Shocking Image", 
     "spell_resistance": "see text", 
     "casting_time": "1 standard action", 
-    "section_id": 120, 
+    "level_text": "Arcanist: 4; Bard: 4; Bloodrager: 4; Skald: 4; Sorcerer: 4; Wizard: 4", 
+    "descriptor": [
+        "electricity"
+    ], 
+    "range": "personal", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 4
+        }, 
+        {
             "class": "Bard", 
+            "level": 4
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 4
+        }, 
+        {
+            "class": "Skald", 
             "level": 4
         }, 
         {
@@ -34,14 +45,6 @@
             "name": "Target"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "none", 
-    "name": "Shocking Image", 
-    "url": "pfsrd://Ultimate Combat/Spells/Shocking Image", 
-    "descriptor": [
-        "electricity"
-    ], 
-    "range": "personal", 
     "components": [
         {
             "type": "V"
@@ -49,5 +52,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 minute/level", 
+    "subschool_text": "figment", 
+    "subschool": [
+        "figment"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Shocking Image"
 }

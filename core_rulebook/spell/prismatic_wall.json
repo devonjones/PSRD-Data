@@ -7,11 +7,14 @@
     "type": "spell", 
     "spell_resistance": "see text", 
     "casting_time": "1 standard action", 
-    "level_text": "Sorcerer: 8; Wizard: 8", 
-    "section_id": 456, 
+    "level_text": "Sorcerer: 8; Wizard: 8; Arcanist: 8", 
     "source": "Core Rulebook", 
     "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 8
+        }, 
         {
             "class": "Sorcerer", 
             "level": 8
@@ -39,11 +42,10 @@
     "sections": [
         {
             "body": "<table style=\"white-space:normal;\"><caption>Prismatic Wall</caption><thead><tr><th>Order</th><th>Color</th><th>Effect of Color</th><th>Negated by</th></tr></thead><tr class=\"odd\"><td>1st</td><td>Red</td><td>Stops nonmagical ranged weapons. Deals 20 points of fire damage (Reflex half).</td><td><i>Cone of cold</i></td></tr><tr class=\"even\"><td>2nd</td><td>Orange</td><td>Stops magical ranged weapons.Deals 40 points of acid damage (Reflex half).</td><td><i>Gust of wind</i></td></tr><tr class=\"odd\"><td>3rd</td><td>Yellow</td><td>Stops poisons, gases, and petrification.Deals 80 points of electricity damage (Reflex half).</td><td><i>Disintegrate</i></td></tr><tr class=\"even\"><td>4th</td><td>Green</td><td>Stops breath weapons.Poison (frequency: 1/rd. for 6 rd.; init. effect: death, sec. effect: 1 Con/rd.; cure 2 consecutive Fort saves).</td><td><i>Passwall</i></td></tr><tr class=\"odd\"><td>5th</td><td>Blue</td><td>Stops divination and mental attacks.Turned to stone (Fortitude negates).</td><td><i>Magic missile</i></td></tr><tr class=\"even\"><td>6th</td><td>Indigo</td><td>Stops all spells.Will save or become insane (as <i>insanity</i> spell).</td><td><i>Daylight</i></td></tr><tr class=\"odd\"><td>7th</td><td>Violet</td><td>Energy field destroys all objects and effects.*Creatures sent to another plane (Will negates).</td><td><i>Dispel magic</i> or <i>greater dispel magic</i></td></tr><tfoot><tr><td colspan=\"4\">* The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above).</td></tr></tfoot></table>", 
-            "name": "Prismatic Wall", 
             "url": "pfsrd://Core Rulebook/Spells/Prismatic Wall/Prismatic Wall", 
-            "section_id": 457, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Prismatic Wall", 
+            "source": "Core Rulebook"
         }
     ], 
     "component_text": "V, S", 

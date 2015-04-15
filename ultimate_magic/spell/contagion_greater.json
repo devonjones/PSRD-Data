@@ -3,19 +3,22 @@
     "school": "necromancy", 
     "saving_throw": "Fortitude negates", 
     "description": "Infect a subject with a magical disease.", 
-    "as_spell_id": 103, 
+    "as_spell_id": 99, 
     "source": "Ultimate Magic", 
     "url": "pfsrd://Ultimate Magic/Spells/Contagion/Greater", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "level_text": "Cleric: 5; Oracle: 5; Druid: 5; Sorcerer: 6; Wizard: 6; Witch: 5", 
-    "section_id": 42, 
+    "level_text": "Cleric: 5; Oracle: 5; Warpriest: 5; Druid: 5; Hunter: 5; Sorcerer: 6; Wizard: 6; Arcanist: 6; Hunter: 5; Witch: 5; Hunter: 5", 
     "descriptor": [
         "disease", 
         "evil"
     ], 
     "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 6
+        }, 
         {
             "class": "Cleric", 
             "level": 5
@@ -25,12 +28,28 @@
             "level": 5
         }, 
         {
+            "class": "Hunter", 
+            "level": 5
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 5
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 5
+        }, 
+        {
             "class": "Oracle", 
             "level": 5
         }, 
         {
             "class": "Sorcerer", 
             "level": 6
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 5
         }, 
         {
             "class": "Witch", 

@@ -8,8 +8,7 @@
     "type": "spell", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "level_text": "Alchemist: 2; Elementalist Wizard: 2; Magus: 2; Sorcerer: 2; Wizard: 2", 
-    "section_id": 94, 
+    "level_text": "Alchemist: 2; Arcanist: 2; Bloodrager: 2; Elementalist Wizard: 2; Investigator: 2; Magus: 2; Sorcerer: 2; Wizard: 2", 
     "descriptor": [
         "acid", 
         "cold", 
@@ -23,7 +22,19 @@
             "level": 2
         }, 
         {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 2
+        }, 
+        {
             "class": "Elementalist Wizard", 
+            "level": 2
+        }, 
+        {
+            "class": "Investigator", 
             "level": 2
         }, 
         {
@@ -62,35 +73,31 @@
     "sections": [
         {
             "body": "<p id=\"acid\">Your touch attack causes 1 point of ongoing acid damage per round for 1 round per three caster levels. The target must make a Fortitude save or be sickened for the duration of the ongoing acid damage.</p>", 
-            "name": "Acid", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Touch/Acid", 
-            "section_id": 95, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Acid", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p id=\"cold\">The target must make a Fortitude save or be fatigued. A creature that is already fatigued suffers no additional effect.</p>", 
-            "name": "Cold", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Touch/Cold", 
-            "section_id": 96, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Cold", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p id=\"electricity\">The target must make a Fortitude save or be staggered for 1 round.</p>", 
-            "name": "Electricity", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Touch/Electricity", 
-            "section_id": 97, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Electricity", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p id=\"fire\">Your hands ignite and shed light as a torch. Your touch may cause targets to catch on fire (<i>Core Rulebook</i> 444).</p><p>Subsequent attacks inflict the normal damage, but the additional effects do not stack. This spell grants no special protection to anything held in or worn on your hands. When you cast this spell to deal acid, cold, electricity, or fire damage, it is a spell of that type.</p>", 
-            "name": "Fire", 
             "url": "pfsrd://Advanced Players Guide/Spells/Elemental Touch/Fire", 
-            "section_id": 98, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Fire", 
+            "source": "Advanced Player's Guide"
         }
     ], 
     "component_text": "V, S, M (a bit of the chosen element: earth, water, air, or fire)", 

@@ -26,7 +26,7 @@
             "spell-like abilities": "(CL 16th; concentration +19)<p class=\"stat-block-2\">Constant-<i>speak with animals</i> (reptiles only)</p><p class=\"stat-block-2\">At will-<i>darkness</i> (70-ft. radius)</p>"
         }, 
         {
-            "spells known": "(CL 5th; concentration +8)<p class=\"stat-block-2\">2nd (5)-<i>blur</i>, <i>invisibility</i></p><p class=\"stat-block-2\">1st (7)-<i>alarm</i>, <i>mage armor</i>, <i>magic missile</i>, <i>obscuring mist</i></p>"
+            "spells known": "(CL 5th; concentration +8)<p class=\"stat-block-2\">2nd (5/day)-<i>blur</i>, <i>invisibility</i></p><p class=\"stat-block-2\">1st (7/day)-<i>alarm</i>, <i>mage armor</i>, <i>magic missile</i>, <i>obscuring mist</i></p>"
         }
     ], 
     "type": "creature", 
@@ -38,17 +38,16 @@
             "name": "Special Abilities", 
             "source": "Mythic Adventures", 
             "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Once per day, a black dragon can stagnate 10 cubic feet of still water within 210 feet, making it foul and unable to support water-breathing life. The ability spoils liquids containing water. Liquid-based magic items (such as potions) and items in a creature's possession must succeed at a Will save (DC 21) or become ruined. This ability is the equivalent of a 1st-level spell.", 
                     "name": "Corrupt Water", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities/Corrupt Water", 
                     "ability_types": {
-                        "ability_type_id": 35, 
-                        "section_id": 982, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 982, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }, 
@@ -57,11 +56,8 @@
                     "name": "Swamp Stride", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities/Swamp Stride", 
                     "ability_types": {
-                        "ability_type_id": 36, 
-                        "section_id": 983, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 983, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }, 
@@ -70,29 +66,21 @@
                     "name": "Water Breathing", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Black/Mythic/Special Abilities/Water Breathing", 
                     "ability_types": {
-                        "ability_type_id": 37, 
-                        "section_id": 984, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 984, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 981, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A mythic black dragon eyes can pierce fog to find prey. Its very flesh and blood is infused with deadly acid, and like a snake it can gulp down an entire meal without chewing. A mythic black dragon enjoys regurgitating a swallowed opponent to let it rot for a few days before eating it as an actual meal, or repeats this cycle on a living creature as cruel torture.</p>", 
             "source": "Mythic Adventures", 
-            "type": "section", 
-            "section_id": 985
+            "type": "section"
         }
     ], 
     "hp": "260 (16d12+156)", 
     "reach": "5 ft. (10 ft. with bite)", 
-    "section_id": 980, 
     "wisdom": "17", 
     "defensive_abilities": "dragon blood (1d6 acid)", 
     "creature_type": "Dragon", 

@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 4", 
             "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "If Bokrug confirms a critical hit with his sting, he injects his foe with 3 doses of poison (this increases the save DC by 4). A foe that is normally immune to poison can be affected by Bokrug's poison in this way, but treats the poisoning as if it had been injected with only 1 dose.", 
                     "name": "Critical Poisoning", 
                     "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities/Critical Poisoning", 
                     "ability_types": {
-                        "ability_type_id": 271, 
-                        "section_id": 939, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 939, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -52,31 +51,24 @@
                     "body": "If Bokrug is killed, his body immediately begins to thrash and writhe spasmodically, continuing to do so for 1d4 rounds. During this time, he makes a single sting attack against one random target in reach. At the end of this time, his body grows still, then melts into water and evaporates away. Bokrug reforms in dormancy back in his realm in the Dimension of Dreams soon thereafter, remaining in a comatose state for hundreds of years unless he is awoken earlier via complex rituals.Any effect that destroys Bokrug's body (such as disintegrate) merely reduces his remains to water that then evaporates away as described above, but such measures do prevent his body from thrashing and stinging prior to this supernatural evaporation.", 
                     "source": "Bestiary 4", 
                     "type": "section", 
-                    "name": "descriptor", 
-                    "section_id": 940
+                    "name": "descriptor"
                 }, 
                 {
-                    "name": "Immortality", 
                     "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities/Immortality", 
-                    "ability_types": {
-                        "ability_type_id": 272, 
-                        "section_id": 941, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 941, 
                     "source": "Bestiary 4", 
-                    "type": "ability"
+                    "type": "ability", 
+                    "name": "Immortality", 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }
                 }, 
                 {
                     "body": "Sting&mdash;injury; save Fort DC 41; frequency 1/round for 6 rounds; effect 2d4 Wisdom damage; cure 3 consecutive saves. A creature whose Wisdom damage equals its Wisdom score automatically becomes afflicted by a random insanity (Pathfinder RPG GameMastery Guide 250). The save DC is Constitution-based.", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities/Poison", 
                     "ability_types": {
-                        "ability_type_id": 273, 
-                        "section_id": 942, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 942, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -85,11 +77,8 @@
                     "name": "Spines", 
                     "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities/Spines", 
                     "ability_types": {
-                        "ability_type_id": 274, 
-                        "section_id": 943, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 943, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -98,61 +87,46 @@
                     "name": "Toxic Breath", 
                     "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities/Toxic Breath", 
                     "ability_types": {
-                        "ability_type_id": 275, 
-                        "section_id": 944, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 944, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
                 {
-                    "body": "Failing a DC 33 Will save against Bokrug's unspeakable presence causes the victim to become overwhelmed with hopelessness and doom&mdash;it takes a \u20134 penalty on all attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls as long as it remains within the area of affect. The save DC is Charisma-based.", 
+                    "body": "Failing a DC 33 Will save against Bokrug's unspeakable presence causes the victim to become overwhelmed with hopelessness and doom&mdash;it takes a -4 penalty on all attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls as long as it remains within the area of affect. The save DC is Charisma-based.", 
                     "name": "Unspeakable Presence", 
                     "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities/Unspeakable Presence", 
                     "ability_types": {
-                        "ability_type_id": 276, 
-                        "section_id": 945, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 945, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
                 {
-                    "body": "Any creature that has ever damaged Bokrug or has slain one of his clerics can be targeted by the Great Old One's vengeful dreams regardless of the distance between the creature and Bokrug, even across planar boundaries. In order to use vengeful dreams against a target, Bokrug must successfully affect the target with his nightmare spell-like ability; the target is always treated as familiar to Bokrug, and as if Bokrug possessed a body part of the victim, resulting in a \u201315 penalty on the saving throw against the nightmare. If the victim fails its save against the nightmare, the horrific dream unfolds as a vision of Bokrug consuming the victim alive. The victim then remains alive, conscious, and aware as the Great Old One digests it, and as Bokrug destroys all that remains of the victim's lifelong friends, home, belongings, and family. When the victim awakens from the nightmare, it must succeed at a DC 33 Will save or take 3d6 points of Wisdom drain from the vengeful dreams. If this drains the target's Wisdom to 0, it automatically gains a random insanity (GameMastery Guide 250). Once Bokrug uses this ability against a creature, he can't do so again until that creature again damages him or slays one of his clerics. This is a mind-affecting effect. The save DC is Charisma-based.", 
+                    "body": "Any creature that has ever damaged Bokrug or has slain one of his clerics can be targeted by the Great Old One's vengeful dreams regardless of the distance between the creature and Bokrug, even across planar boundaries. In order to use vengeful dreams against a target, Bokrug must successfully affect the target with his nightmare spell-like ability; the target is always treated as familiar to Bokrug, and as if Bokrug possessed a body part of the victim, resulting in a -15 penalty on the saving throw against the nightmare. If the victim fails its save against the nightmare, the horrific dream unfolds as a vision of Bokrug consuming the victim alive. The victim then remains alive, conscious, and aware as the Great Old One digests it, and as Bokrug destroys all that remains of the victim's lifelong friends, home, belongings, and family. When the victim awakens from the nightmare, it must succeed at a DC 33 Will save or take 3d6 points of Wisdom drain from the vengeful dreams. If this drains the target's Wisdom to 0, it automatically gains a random insanity (GameMastery Guide 250). Once Bokrug uses this ability against a creature, he can't do so again until that creature again damages him or slays one of his clerics. This is a mind-affecting effect. The save DC is Charisma-based.", 
                     "name": "Vengeful Dreams", 
                     "url": "pfsrd://Bestiary 4/Monsters/Great Old One/Bokrug/Bokrug/Special Abilities/Vengeful Dreams", 
                     "ability_types": {
-                        "ability_type_id": 277, 
-                        "section_id": 946, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 946, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 938, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Bokrug, the Water Lizard, dwells in a distant and forsaken corner of the Dimension of Dreams, in a land that was once heavily populated but is now a desolate and barren realm surrounding a nameless lake&mdash;a realm once ruled by mighty human empires, but now ruled only by the hideous amphibian minions of the Water Lizard. Bokrug himself is a vast creature, a vaguely iguana-shaped monster with a beard of writhing tendrils and a long tail tipped with a stinger. The scales that cover his body hide long spines that Bokrug can extend or retract with near lightning speed.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 947
+            "type": "section"
         }, 
         {
             "body": "<p>Bokrug spends the majority of his time slumbering far down in the depths of his submerged lair. No rivers feed the lake, nor does it drain into the sea. Yet the still, ominous waters are neither stale nor brackish, implying that they connect somewhere deep underground, and. By way of these dark, secret waterways, Bokgrug has access to the lakes and rivers of the Dimension of Dreams, and his ability to <i>plane shift</i> allows him access to other realms as he wills.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 948
+            "type": "section"
         }
     ], 
     "hp": "645 (30d10+480); fast healing 20", 
     "reach": "10 ft.", 
-    "section_id": 937, 
     "wisdom": "30", 
     "defensive_abilities": "immortality, insanity (DC 41), spines", 
     "creature_type": "Magical Beast", 

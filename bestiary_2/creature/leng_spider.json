@@ -34,19 +34,13 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Leng Spider/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Leng Spider/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 318, 
-                        "section_id": 1283, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 1283, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Leng Spider Venom", 
@@ -54,7 +48,6 @@
                             "url": "pfsrd://Bestiary 2/Monsters/Leng Spider/Special Abilities/Poison/Leng Spider Venom", 
                             "type": "affliction", 
                             "contracted": "injury", 
-                            "section_id": 1284, 
                             "effect": "1d4 Constitution plus confusion for 1 round", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -64,47 +57,42 @@
                                 {
                                     "body": "A Leng spider's venom causes flesh to blister and rot away and the mind to experience vivid and horrific hallucinations&mdash;these visions cause the poisoned creature to react in an unpredictable manner, as if confused. The hallucination element of this poison is mind-affecting.", 
                                     "source": "Bestiary 2", 
-                                    "type": "section", 
-                                    "section_id": 1285
+                                    "type": "section"
                                 }
                             ]
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A Leng spider is talented at using its webs to construct masterwork weapons. This technique of weapon creation allows the spider to effectively create a flail or bolas by attaching a heavy object such as a rock or chunk of metal to a cord of webbing. The spider attaches one end of this webbing to a leg and can then wield the weighted cord as a masterwork flail or a masterwork bolas. It can only wield one such weapon at a time&mdash;it must use its other legs to walk. If a Leng spider drops or loses a web weapon, it can create a new one as a full-round action, provided it has access to heavy-weight objects of the correct size (such as loose rocks or skulls).", 
                     "name": "Web Weaponry", 
                     "url": "pfsrd://Bestiary 2/Monsters/Leng Spider/Special Abilities/Web Weaponry", 
                     "ability_types": {
-                        "ability_type_id": 319, 
-                        "section_id": 1286, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1286, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1282, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The spiders of Leng have long warred with that realm's more humanoid denizens, yet this does not make the spiders allies of sane life. These spiders see themselves as deserving of true positions of power, and the only creatures they suffer to live apart from their kin are their magically controlled slaves. Fortunately, the spiders have no intrinsic way to travel to the Material Plane, and must use portals or other methods to visit this world. Artistic trap builders, Leng spiders construct lairs of dangerous and haunting beauty made of webs and other materials found nearby.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1287
+            "type": "section"
         }, 
         {
             "body": "<p>A Leng spider's body is 18 feet long and weighs 6,000 pounds. Most leng spiders possess only 7 legs, but some possess 9, 11, or only 5&mdash;they never possess an even number.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1288
+            "type": "section"
         }
     ], 
     "hp": "202 (15d10+120); fast healing 10", 
     "reach": "15 ft.", 
-    "section_id": 1281, 
     "wisdom": "17", 
     "creature_type": "Magical Beast", 
     "ranged": "mwk bolas +23 (1d8+8)", 

@@ -2,12 +2,13 @@
     "body": "<p>This is the race's creature type. A race's creature type is similar to the corresponding creature type, with a few important differences. The first difference is that each race type assumes members of the race are roughly humanoid in shape and have two arms, two legs, a torso, and a head. This is important so that a race can take advantage of all the various magic item slots available to characters and can utilize the standard weapon and armor options. The second difference is that all of these race types are 0-Hit Dice creatures, which means that their Hit Dice, base attack bonus, saving throw progression, skill points, class skills, and weapon and armor proficiencies are based on the class levels each member of a race takes.</p><p>Like other racial qualities, each type has a point cost. The baseline creature type&mdash;humanoid&mdash;costs 0 RP, and offers the most flexibility when choosing other racial traits and racial abilities, while a more expensive type typically grants less flexibility. The cost of the race's type also determines which of these types you can choose from based on the power level of the race you are creating. You cannot pick a type with an RP cost equal to or higher than the maximum RP cost of the power level of the race you are building. This means you must build an advanced race if you want to make a race with the undead type, or a monstrous race if you are building a race with the construct type. If you want to make a construct- or undead-themed creature at lower power levels, see the Special Subtypes sidebar on page 218 for some lower-cost options.</p><p>Sometimes a race type may grant racial traits as features. For instance, the construct type grants members of that race darkvision 60 feet. If this is the case, the cost of that racial trait is already paid for when you buy the type quality, and this trait does not count toward the maximum when you buy racial traits from the corresponding racial trait category. For instance, when buying other vision traits for a construct race, the darkvision 60 feet feature that race already has does not count toward the limit of five traits from the senses racial trait category for the race. Traits granted by the race type still count for meeting any other trait prerequisites.</p><p>The humanoid type requires that you pick at least one subtype for your race, and the outsider (native) type allows you to make a decision about what other plane your race may have ties to. Keep track of your race's creature type, any subtypes it has, and any planes it has ties to. Sometimes a race's type, subtypes, or planar ties serve as prerequisites for some racial traits. For instance, you must have the ratfolk subtype to take the rodent empathy racial trait, and you must have ties to Abaddon, the Abyss, or Hell in order to take the fiendish sorcery racial trait.</p>", 
     "name": "Type Quality", 
     "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality", 
+    "type": "section", 
+    "source": "Advanced Race Guide", 
     "sections": [
         {
             "body": "<p>Aberrations have bizarre anatomies, strange abilities, alien mindsets, or any combination of the three. An aberration has the following features.</p><ul><li>Aberrations have the darkvision 60 feet racial trait. </li><li>Aberrations breathe, eat, and sleep.</li></ul>", 
             "name": "Aberration", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Aberration", 
-            "section_id": 3123, 
             "source": "Advanced Race Guide", 
             "abbrev": "3 RP", 
             "type": "section"
@@ -17,23 +18,20 @@
             "name": "Construct", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Construct", 
             "type": "section", 
-            "section_id": 3124, 
             "source": "Advanced Race Guide", 
             "abbrev": "20 RP", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Construct Size</th><th>Bonus Hit Points</th></tr></thead><tr class=\"odd\"><td>Tiny</td><td>&mdash;</td></tr><tr class=\"even\"><td>Small</td><td>10</td></tr><tr class=\"odd\"><td>Medium</td><td>20</td></tr><tr class=\"even\"><td>Large</td><td>30</td></tr></table>", 
-                    "name": "Construct Size", 
                     "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Construct/Construct Size", 
-                    "section_id": 3125, 
-                    "source": "Advanced Race Guide", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Construct Size", 
+                    "source": "Advanced Race Guide"
                 }, 
                 {
                     "body": "<ul><li>Constructs do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that a construct can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health.</li></ul>", 
                     "source": "Advanced Race Guide", 
-                    "type": "section", 
-                    "section_id": 3126
+                    "type": "section"
                 }
             ]
         }, 
@@ -41,7 +39,6 @@
             "body": "<p>A dragon is a reptilian creature with magical or unusual abilities. A dragon race has the following features. </p><ul><li>Dragons have the darkvision 60 feet racial trait. </li><li>Dragons have the low-light vision racial trait.</li><li>Dragons are immune to magical sleep effects and paralysis effects.</li><li>Dragons breathe, eat, and sleep.</li></ul>", 
             "name": "Dragon", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Dragon", 
-            "section_id": 3127, 
             "source": "Advanced Race Guide", 
             "abbrev": "10 RP", 
             "type": "section"
@@ -50,7 +47,6 @@
             "body": "<p>A fey is a creature with supernatural abilities and connections to nature or to some other force or place. A fey race has the following features. </p><ul><li>Fey have the low-light vision racial trait.</li><li>Fey breathe, eat, and sleep.</li></ul>", 
             "name": "Fey", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Fey", 
-            "section_id": 3128, 
             "source": "Advanced Race Guide", 
             "abbrev": "2 RP", 
             "type": "section"
@@ -59,7 +55,6 @@
             "body": "<p>Humanoid races have few or no supernatural or spell-like abilities, but most can speak and have well-developed societies. Humanoids are usually Small or Medium, unless they have the giant subtype, in which case they are Large. Every humanoid creature also has a subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu. If you are making a new humanoid race, you should either find an existing subtype to match or make a new one by using the name of the race as the subtype. If you are making a half-breed race, it should have the racial type of both parent races. For example, a half-elf has both the human and the elf subtypes. Subtypes are often important to qualify for other racial abilities and feats. If a humanoid has a racial subtype, it is considered a member of that race in the case of race prerequisites. A humanoid race has the following features. </p><ul><li>Humanoids breathe, eat, and sleep.</li></ul>", 
             "name": "Humanoid", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Humanoid", 
-            "section_id": 3129, 
             "source": "Advanced Race Guide", 
             "abbrev": "0 RP", 
             "type": "section"
@@ -68,7 +63,6 @@
             "body": "<p>Monstrous humanoids are similar to humanoids, but have monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid race has the following features. </p><ul><li>Monstrous humanoids have the darkvision 60 feet racial trait. </li><li>Monstrous humanoids breathe, eat, and sleep.</li></ul>", 
             "name": "Monstrous Humanoid", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Monstrous Humanoid", 
-            "section_id": 3130, 
             "source": "Advanced Race Guide", 
             "abbrev": "3 RP", 
             "type": "section"
@@ -77,7 +71,6 @@
             "body": "<p>A native outsider is at least partially composed of the essence (but not necessarily the matter) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. When making a native outsider race, it is sometimes important to pick a single Outer Plane that race is tied to. For example, tieflings are tied to Abaddon, the Abyss, or Hell. Such ties can be important for qualifying for other racial abilities, but it's not required that a native outsider be tied to another plane. A native outsider race has the followings features.</p><ul><li>Native outsiders have the darkvision 60 feet racial trait.</li><li>Native outsiders breathe, eat, and sleep.</li></ul>", 
             "name": "Outsider (3 RP)", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Outsider (3 RP)", 
-            "section_id": 3131, 
             "source": "Advanced Race Guide", 
             "abbrev": "native", 
             "type": "section"
@@ -86,7 +79,6 @@
             "body": "<p>This type encompasses humanoid-shaped vegetable creatures. Note that regular plants, such as those found in ordinary gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant race has the following features. </p><ul><li>Plants have the low-light vision racial trait. </li><li>Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms). </li><li>Plants are immune to paralysis, poison, polymorph, sleep effects, and stunning. </li><li>Plants breathe and eat, but do not sleep, unless they want to gain some beneficial effect from this activity. This means that a plant creature can sleep in order to regain spells, but sleep is not required to survive or stay in good health.</li></ul>", 
             "name": "Plant", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Plant", 
-            "section_id": 3132, 
             "source": "Advanced Race Guide", 
             "abbrev": "10 RP", 
             "type": "section"
@@ -95,13 +87,9 @@
             "body": "<p>Undead races are once-living creatures animated by spiritual or supernatural forces. An undead race has the following features. </p><ul><li>Undead have no Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a breath weapon's DC). </li><li>Undead have the darkvision 60 feet racial trait.</li><li>Undead are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms). </li><li>Undead are immune to bleed damage, death effects, disease, paralysis, poison, sleep effects, and stunning. </li><li>Undead are not subject to nonlethal damage, ability drain, or energy drain, and are immune to damage to physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.</li><li>Undead are harmed by positive energy and healed by negative energy. An undead creature with the fast healing special quality still benefits from that quality. </li><li>Undead are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless). </li><li>Undead do not risk death from massive damage, but are immediately destroyed when reduced to 0 hit points or fewer.</li><li>Undead are not affected by <i>raise dead</i> and <i>reincarnate</i> spells or abilities. <i>Resurrection</i> and <i>true resurrection</i> can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.</li><li>Undead do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that an undead creature can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health.</li></ul>", 
             "name": "Undead", 
             "url": "pfsrd://Advanced Race Guide/Rules/Race Builder/Racial Qualities/Type Quality/Undead", 
-            "section_id": 3133, 
             "source": "Advanced Race Guide", 
             "abbrev": "16 RP", 
             "type": "section"
         }
-    ], 
-    "section_id": 3122, 
-    "source": "Advanced Race Guide", 
-    "type": "section"
+    ]
 }

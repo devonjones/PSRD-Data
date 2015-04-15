@@ -25,26 +25,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Bee/Giant Queen/Giant Queen Bee/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Bee/Giant Queen/Giant Queen Bee/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 67, 
-                        "section_id": 263, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 263, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Giant Queen Bee Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Bee/Giant Queen/Giant Queen Bee/Special Abilities/Poison/Giant Queen Bee Venom", 
                             "contracted": "injury", 
-                            "section_id": 264, 
                             "effect": "1d2 Constitution", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -52,24 +45,24 @@
                             "save": "Fortitude DC 17", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 262, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Bulbous and robust in comparison to others of the same species, giant queen bees are immense, fertile females, easily identified by their larger size and lighter stripes. They grow to 12 feet in length and weigh 140 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 265
+            "type": "section"
         }
     ], 
     "hp": "59 (7d8+28)", 
     "weaknesses": "vulnerable to smoke", 
     "reach": "5 ft.", 
-    "section_id": 261, 
     "wisdom": "12", 
     "creature_type": "Vermin", 
     "name": "Giant Queen Bee", 

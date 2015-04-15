@@ -7,11 +7,14 @@
     "type": "spell", 
     "spell_resistance": "yes", 
     "casting_time": "1 hour", 
-    "level_text": "Bard: 3; Cleric: 5; Druid: 4; Oracle: 5; Sorcerer: 4; Witch: 4; Wizard: 4", 
-    "section_id": 513, 
+    "level_text": "Arcanist: 4; Bard: 3; Cleric: 5; Druid: 4; Hunter: 4; Hunter: 4; Oracle: 5; Shaman: 4; Skald: 3; Sorcerer: 4; Warpriest: 5; Witch: 4; Wizard: 4", 
     "source": "Core Rulebook", 
     "range": "see text", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 4
+        }, 
         {
             "class": "Bard", 
             "level": 3
@@ -25,12 +28,32 @@
             "level": 4
         }, 
         {
+            "class": "Hunter", 
+            "level": 4
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 4
+        }, 
+        {
             "class": "Oracle", 
             "level": 5
         }, 
         {
+            "class": "Shaman", 
+            "level": 4
+        }, 
+        {
+            "class": "Skald", 
+            "level": 3
+        }, 
+        {
             "class": "Sorcerer", 
             "level": 4
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 5
         }, 
         {
             "class": "Witch", 
@@ -75,17 +98,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Knowledge</th><th>Will Save Modifier</th></tr></thead><tr class=\"odd\"><td>None*</td><td>+10</td></tr><tr class=\"even\"><td>Secondhand (you have heard of the subject)</td><td>+5</td></tr><tr class=\"odd\"><td>Firsthand (you have met the subject)</td><td>+0</td></tr><tr class=\"even\"><td>Familiar (you know the subject well)</td><td>&ndash;5</td></tr><thead><tr><th>Connection</th><th>Will Save Modifier</th></tr></thead><tr class=\"odd\"><td>Likeness or picture</td><td>&ndash;2</td></tr><tr class=\"even\"><td>Possession or garment</td><td>&ndash;4</td></tr><tr class=\"odd\"><td>Body part, lock of hair, bit of nail, etc.</td><td>&ndash;10</td></tr><tfoot><tr><td colspan=\"2\">*You must have some sort of connection (see below) to a creature of which you have no knowledge.</td></tr></tfoot></table>", 
-            "name": "Knowledge", 
             "url": "pfsrd://Core Rulebook/Spells/Scrying/Knowledge", 
-            "section_id": 514, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Knowledge", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>If the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.</p><p>As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: <i>detect chaos</i>, <i>detect evil</i>, <i>detect good</i>, <i>detect law</i>, <i>detect magic</i>, and <i>message</i>.</p><p>If the save succeeds, you can't attempt to scry on that subject again for at least 24 hours.</p>", 
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 515
+            "type": "section"
         }
     ], 
     "component_text": "V, S, M/DF (a pool of water), F (a silver mirror worth 1,000 gp)", 

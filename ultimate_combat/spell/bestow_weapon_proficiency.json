@@ -1,18 +1,17 @@
 {
-    "level_text": "Alchemist: 2; Antipaladin: 2; Cleric: 2; Oracle: 2; Magus: 2; Inquisitor: 2; Paladin: 2; Sorcerer: 2; Wizard: 2; Witch: 2", 
-    "duration": "1 minute/level", 
-    "source": "Ultimate Combat", 
-    "component_text": "V, S, M (pieces of shaved metal)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p class=\"stat-description-2\">You bestow the subject with the ability to use a single type of weapon he is not proficient in as if he were proficient with that weapon. The weapon can be of any type, including an exotic weapon, but the subject of the spell must be holding the weapon.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates (harmless)", 
     "description": "Grants a creature proficiency in a single weapon for short period of time.", 
+    "source": "Ultimate Combat", 
+    "url": "pfsrd://Ultimate Combat/Spells/Bestow Weapon Proficiency", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "section_id": 14, 
+    "level_text": "Alchemist: 2; Investigator: 2; Antipaladin: 2; Cleric: 2; Oracle: 2; Warpriest: 2; Magus: 2; Inquisitor: 2; Paladin: 2; Sorcerer: 2; Wizard: 2; Arcanist: 2; Witch: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Alchemist", 
@@ -23,11 +22,19 @@
             "level": 2
         }, 
         {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
             "class": "Cleric", 
             "level": 2
         }, 
         {
             "class": "Inquisitor", 
+            "level": 2
+        }, 
+        {
+            "class": "Investigator", 
             "level": 2
         }, 
         {
@@ -47,6 +54,10 @@
             "level": 2
         }, 
         {
+            "class": "Warpriest", 
+            "level": 2
+        }, 
+        {
             "class": "Witch", 
             "level": 2
         }, 
@@ -62,14 +73,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates (harmless)", 
-    "name": "Bestow Weapon Proficiency", 
-    "url": "pfsrd://Ultimate Combat/Spells/Bestow Weapon Proficiency", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -81,5 +84,13 @@
             "text": "pieces of shaved metal", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 minute/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (pieces of shaved metal)", 
+    "name": "Bestow Weapon Proficiency"
 }

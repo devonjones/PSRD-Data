@@ -25,7 +25,7 @@
         }
     ], 
     "type": "creature", 
-    "feats": "Defensive Training, Dodge, Iron Will, Mobility, Weapon Finesse", 
+    "feats": "Defensive Combat Training, Dodge, Iron Will, Mobility, Weapon Finesse", 
     "senses": "blindsight 60 ft.; Perception +11", 
     "description": "Two slimy tentacles protrude from the sides of this brain-shaped mass of quivering ooze.", 
     "sections": [
@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Brain Ooze/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Creatures hit by a brain ooze's tentacle must succeed at a DC 18 Fortitude save or take 1d6 points of Intelligence damage and be staggered for 1d4 rounds. Each time a brain ooze causes Intelligence damage, it gains 5 temporary hit points. The save DC is Constitution-based.", 
                     "name": "Neural Pulse", 
                     "url": "pfsrd://Bestiary 3/Monsters/Brain Ooze/Special Abilities/Neural Pulse", 
                     "ability_types": {
-                        "ability_type_id": 89, 
-                        "section_id": 292, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 292, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -52,11 +51,8 @@
                     "name": "Prescience", 
                     "url": "pfsrd://Bestiary 3/Monsters/Brain Ooze/Special Abilities/Prescience", 
                     "ability_types": {
-                        "ability_type_id": 90, 
-                        "section_id": 293, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 293, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -65,53 +61,42 @@
                     "name": "Psychic Noise", 
                     "url": "pfsrd://Bestiary 3/Monsters/Brain Ooze/Special Abilities/Psychic Noise", 
                     "ability_types": {
-                        "ability_type_id": 91, 
-                        "section_id": 294, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 294, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 291, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A brain ooze (sometimes known as a &ldquo;killer brain&rdquo;) resembles almost precisely the raw brain of a human, save for the eldritch energy surrounding it and the twin tentacles extending from its sides. The creature's thought patterns are unusually powerful, and cause painful mental feedback in the minds of other conscious beings.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 295
+            "type": "section"
         }, 
         {
             "body": "<p> Other intelligent beings are nothing more than cattle and playthings to brain oozes&mdash;victims to be tormented, thought patterns to be consumed. Brain oozes prefer to manipulate their prey from the shadows. Rather than assaulting openly, they provoke fights and conflict within groups, or lure one or two victims away for the kill. Brain oozes derive particular satisfaction from forcing an individual to commit terrible acts, then wiping away all knowledge of the crimes from the victim's memory. They torment such hapless puppets again and again, forcing them to commit ever greater atrocities. Once weary of their sport they return the modified memories with <i>dispel magic</i>, and feast upon the delicious misery of the victim's final despair.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 296
+            "type": "section"
         }, 
         {
             "body": "<p>Brain oozes feed through their tentacles by extracting the thoughts of living creatures. Animals and less intelligent creatures provide little nourishment, but they prize fey, outsiders, and spellcasters as delicacies. After several feedings, a brain ooze divides into two nearly identical brains, each retaining only a portion of the knowledge and experiences of the parent.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 297
+            "type": "section"
         }, 
         {
             "body": "<p>The similarities between intellect devourers and brain oozes have not gone unnoticed, but the two species appear to have little in common beyond appearance. Some theorize that brain oozes are actually the result of an ancient race's failed attempt to achieve immortality by preserving their minds via alien technology or magic.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 298
+            "type": "section"
         }
     ], 
     "hp": "75 (10d8+30)", 
     "reach": "0 ft.", 
-    "section_id": 290, 
     "wisdom": "12", 
     "defensive_abilities": "evasion, prescience", 
     "creature_type": "Ooze", 
     "name": "Brain Ooze", 
     "base_attack": "+7", 
-    "skills": "Bluff +10, Diplomacy +5, Fly +23, Perception +11, Sense Motive +11, Stealth +15", 
+    "skills": "Bluff +10, Diplomacy +5, Fly +25, Perception +11, Sense Motive +11, Stealth +15", 
     "reflex": "+9", 
     "cmd": "22 (can't be tripped)", 
     "cmb": "+9", 

@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Hydra/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A hydra's fast healing ability is equal to its current number of heads (minimum fast healing 5). This fast healing applies only to damage inflicted on the hydra's body.", 
                     "name": "Fast Healing", 
                     "url": "pfsrd://Bestiary/Monsters/Hydra/Special Abilities/Fast Healing", 
                     "ability_types": {
-                        "ability_type_id": 403, 
-                        "section_id": 1862, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1862, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -47,11 +46,8 @@
                     "name": "Hydra Traits", 
                     "url": "pfsrd://Bestiary/Monsters/Hydra/Special Abilities/Hydra Traits", 
                     "ability_types": {
-                        "ability_type_id": 404, 
-                        "section_id": 1863, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1863, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -60,44 +56,34 @@
                     "name": "Regenerate Head", 
                     "url": "pfsrd://Bestiary/Monsters/Hydra/Special Abilities/Regenerate Head", 
                     "ability_types": {
-                        "ability_type_id": 405, 
-                        "section_id": 1864, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1864, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1861, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>You can make more powerful hydras by increasing their Hit Dice&mdash;each added HD increases the hydra's statistics as appropriate, but also gives it one additional head and a +1 increase to its natural armor. A hydra's CR increases by +1 for each Hit Die it gains.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1865
+            "type": "section"
         }, 
         {
-            "name": "Cryohydra/Pyrohydra (+2 CR)", 
-            "url": "pfsrd://Bestiary/Monsters/Hydra/Cryohydra/Pyrohydra (+2 CR)", 
+            "url": "pfsrd://Bestiary/Monsters/Hydra/Cryohydra_Pyrohydra (+2 CR)", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>Variants of the standard hydra, the cryohydra lives in cold marshes or on glaciers, while the pyrohydra prefers deserts or volcanic mountains. A cryohydra gains the Cold subtype, while a pyrohydra gains the Fire subtype. Each of its heads has a breath weapon (15-ft. cone, 3d6 cold damage [cryohydra] or 3d6 fire damage [pyrohydra], Reflex half) useable every 1d4 rounds. The save DC is 10 + 1/2 the hydra's HD + the hydra's Con modifier. Although fire attacks cannot prevent a pyrohydra's neck stump from growing new heads (since it is immune to fire), 5 points of cold damage does. Acid works normally on both hydra variants.</p>", 
                     "source": "Bestiary", 
-                    "type": "section", 
-                    "section_id": 1867
+                    "type": "section"
                 }
             ], 
-            "section_id": 1866, 
-            "source": "Bestiary", 
-            "type": "section"
+            "name": "Cryohydra/Pyrohydra (+2 CR)", 
+            "source": "Bestiary"
         }
     ], 
     "hp": "47 (5d10+20); fast healing 5", 
     "reach": "10 ft.", 
-    "section_id": 1860, 
     "wisdom": "11", 
     "creature_type": "Magical Beast", 
     "special_qualities": "hydra traits, regenerate head", 

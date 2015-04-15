@@ -1,18 +1,20 @@
 {
-    "level_text": "Inquisitor: 2", 
-    "duration": "1 round/level or 1 round; see text", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You compel the target to beg for forgiveness. On a failed save, the target cowers with fear. On a successful save, it is shaken for 1 round. Each round on its turn, a cowering subject may attempt a new save to end the effect. A creature who worships the same god as you takes a &ndash;2 penalty on its saving throw. </p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will partial", 
     "description": "Causes target to be shaken and cower.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Castigate", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 48, 
+    "level_text": "Inquisitor: 2", 
+    "descriptor": [
+        "emotion", 
+        "fear", 
+        "language-dependent", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Inquisitor", 
@@ -26,17 +28,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will partial", 
-    "name": "Castigate", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Castigate", 
-    "descriptor": [
-        "emotion", 
-        "fear", 
-        "language-dependent", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -47,5 +38,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round/level or 1 round; see text", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Castigate"
 }

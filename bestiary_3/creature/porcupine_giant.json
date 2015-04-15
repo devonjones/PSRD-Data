@@ -2,7 +2,7 @@
     "dexterity": "12", 
     "ac": "13, touch 11, flat-footed 12 (+1 Dex, +2 natural)", 
     "intelligence": "2", 
-    "melee": "tail slap +5 (2d6+3)", 
+    "melee": "tail slap +6 (2d6+4)", 
     "cr": "2", 
     "xp": "600", 
     "speed": "40 ft.", 
@@ -17,7 +17,7 @@
     "charisma": "5", 
     "fortitude": "+6", 
     "type": "creature", 
-    "feats": "Agile Maneuvers, Lightning Reflexes", 
+    "feats": "Lightning Reflexes, Weapon Focus (tail slap)", 
     "senses": "low-light vision; Perception +6", 
     "description": "This gray, human-sized porcupine's round body is covered in sharp, striped quills.", 
     "sections": [
@@ -25,34 +25,28 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Porcupine/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Any creature attacking a giant porcupine with light or one-handed melee weapons, natural weapons, or an unarmed strike takes 1d3 points of piercing damage. A creature that grapples a giant porcupine takes 2d4 points of piercing damage each round it does so.", 
                     "name": "Quills", 
                     "url": "pfsrd://Bestiary 3/Monsters/Porcupine/Giant/Special Abilities/Quills", 
                     "ability_types": {
-                        "ability_type_id": 511, 
-                        "section_id": 1744, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1744, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1743, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>More so than its smaller kin, the human-sized giant porcupine is a foul-tempered creature that is just as content chewing on carrion as on living creatures. Worse, giant porcupines are notorious in their almost foolhardy bravery, and have been known to attack creatures much larger than their own size. This unexpected aggression, when combined with their tangle of spearlike quills, makes the giant porcupine a dangerous foe.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1745
+            "type": "section"
         }
     ], 
     "hp": "22 (3d8+9)", 
-    "section_id": 1742, 
     "wisdom": "13", 
     "defensive_abilities": "quills", 
     "creature_type": "Animal", 
@@ -61,7 +55,7 @@
     "skills": "Climb +7, Perception +6", 
     "reflex": "+6", 
     "cmd": "16 (20 vs. trip)", 
-    "cmb": "+3", 
+    "cmb": "+5", 
     "will": "+2", 
     "url": "pfsrd://Bestiary 3/Monsters/Porcupine/Giant", 
     "organization": "solitary, pair, or prickle (3-6)"

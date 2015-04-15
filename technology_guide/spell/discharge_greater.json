@@ -4,10 +4,13 @@
     "name": "Discharge, Greater", 
     "url": "pfsrd://Technology Guide/Rules/Technology in the world/Spells/Discharge/Greater", 
     "type": "spell", 
-    "section_id": 58, 
-    "level_text": "bard: 6; cleric: 6; oracle: 6; magus: 6; sorcerer: 6; wizard: 6; witch: 6", 
+    "level_text": "bard: 6; skald: 6; cleric: 6; oracle: 6; warpriest: 6; magus: 6; sorcerer: 6; wizard: 6; arcanist: 6; witch: 6", 
     "source": "Technology Guide", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 6
+        }, 
         {
             "class": "Bard", 
             "level": 6
@@ -25,7 +28,15 @@
             "level": 6
         }, 
         {
+            "class": "Skald", 
+            "level": 6
+        }, 
+        {
             "class": "Sorcerer", 
+            "level": 6
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 6
         }, 
         {
@@ -46,19 +57,17 @@
     "sections": [
         {
             "body": "<p>When <i>greater discharge</i> is used in this way, the spell affects everything within a 20-foot-radius burst. Each creature in the area is affected as though by <i>discharge</i> (affecting only one object in the creature's possession), and each unattended object is similarly affected.</p>", 
-            "name": "Area Discharge", 
             "url": "pfsrd://Technology Guide/Rules/Technology in the world/Spells/Discharge/Greater/Area Discharge", 
-            "section_id": 59, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Area Discharge", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>This spell functions as <i>discharge</i>, but if the target is a creature, it can discharge one randomly determined object from the target's charged or electrically powered possessions for every 4 caster levels you possess.</p>", 
-            "name": "Targeted Discharge", 
             "url": "pfsrd://Technology Guide/Rules/Technology in the world/Spells/Discharge/Greater/Targeted Discharge", 
-            "section_id": 60, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Targeted Discharge", 
+            "source": "Technology Guide"
         }
     ]
 }

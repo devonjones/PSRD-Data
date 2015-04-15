@@ -28,26 +28,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Black/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Black/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 441, 
-                        "section_id": 1794, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1794, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Black Scorpion Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Black/Special Abilities/Poison/Black Scorpion Venom", 
                             "contracted": "injury", 
-                            "section_id": 1795, 
                             "effect": "1d4 Strength, 1d4 Dexterity, and 1d4 Constitution", 
                             "subtype": "poison", 
                             "cure": "3 saves", 
@@ -55,36 +48,33 @@
                             "save": "Fortitude DC 27", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A black scorpion's stinger strikes with astounding speed; it can make one additional attack in a round with its sting as a swift action.", 
                     "name": "Rapid Stinging", 
                     "url": "pfsrd://Bestiary 2/Monsters/Scorpion/Black/Special Abilities/Rapid Stinging", 
                     "ability_types": {
-                        "ability_type_id": 442, 
-                        "section_id": 1796, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1796, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1793, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The immense black scorpion is one of the largest desert predators. Capable of stinging with blinding speed, this creature is constantly on the hunt. </p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1797
+            "type": "section"
         }
     ], 
     "hp": "228 (24d8+120)", 
     "reach": "30 ft.", 
-    "section_id": 1792, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
     "name": "Scorpion, Black", 

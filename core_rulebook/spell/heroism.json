@@ -1,21 +1,24 @@
 {
-    "level_text": "Alchemist: 3; Bard: 2; Inquisitor: 3; Sorcerer: 3; Summoner: 3; Witch: 3; Wizard: 3", 
-    "duration": "10 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates (harmless)", 
     "description": "Gives +2 bonus on attack rolls, saves, skill checks.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Heroism", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "section_id": 293, 
+    "level_text": "Alchemist: 3; Arcanist: 3; Bard: 2; Bloodrager: 3; Inquisitor: 3; Skald: 2; Sorcerer: 3; Summoner: 3; Witch: 3; Wizard: 3", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "touch", 
     "levels": [
         {
             "class": "Alchemist", 
+            "level": 3
+        }, 
+        {
+            "class": "Arcanist", 
             "level": 3
         }, 
         {
@@ -23,8 +26,16 @@
             "level": 2
         }, 
         {
+            "class": "Bloodrager", 
+            "level": 3
+        }, 
+        {
             "class": "Inquisitor", 
             "level": 3
+        }, 
+        {
+            "class": "Skald", 
+            "level": 2
         }, 
         {
             "class": "Sorcerer", 
@@ -50,14 +61,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates (harmless)", 
-    "name": "Heroism", 
-    "url": "pfsrd://Core Rulebook/Spells/Heroism", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -65,5 +68,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "10 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Heroism"
 }

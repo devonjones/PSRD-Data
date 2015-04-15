@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Daemon/Piscodaemon/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A piscodaemon's claws threaten a critical hit on an 18&ndash;20 and inflict &times;3 damage on a successful critical hit.", 
                     "name": "Augmented Critical", 
                     "url": "pfsrd://Bestiary 2/Monsters/Daemon/Piscodaemon/Special Abilities/Augmented Critical", 
                     "ability_types": {
-                        "ability_type_id": 115, 
-                        "section_id": 465, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 465, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -52,21 +51,12 @@
                     "body": "Tentacles:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Daemon/Piscodaemon/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 116, 
-                        "section_id": 466, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 466, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Piscodaemon Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Daemon/Piscodaemon/Special Abilities/Poison/Piscodaemon Venom", 
                             "contracted": "injury", 
-                            "section_id": 467, 
                             "effect": "1d2 Constitution plus staggered for 1 round", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -74,34 +64,32 @@
                             "save": "Fortitude DC 22", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 464, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>These aquatic daemons roam the lower planes sowing misery and blight. They delight in drawn-out deaths, poisoning creatures or dismembering victims to watch them slowly bleed out. On their home plane of Abaddon, piscodaemons gravitate toward the same aquatic regions inhabited by hydrodaemons, and often the stronger among their ranks end up leading armies of hydrodaemons against their enemies. These creatures serve as sergeants in the hierarchy of Abaddon, and run their units with an excess of cruelty and violence. </p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 468
+            "type": "section"
         }, 
         {
             "body": "<p>Instead of preying on the weak, piscodaemons enjoy targeting strong, well-armored warriors, knowing the pain of their weakening poison rests poorly on shoulders accustomed to bearing heavy weights and delivering devastating blows.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 469
+            "type": "section"
         }, 
         {
             "body": "<p>Piscodaemons are 7 feet tall and weigh 400 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 470
+            "type": "section"
         }
     ], 
     "hp": "137 (11d10+77)", 
-    "section_id": 463, 
     "wisdom": "15", 
     "creature_type": "Outsider", 
     "special_qualities": "amphibious, augmented critical", 

@@ -35,17 +35,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A creature that has been swallowed whole by a nightcrawler gains 1 negative level each round.", 
                     "name": "Energy Drain", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities/Energy Drain", 
                     "ability_types": {
-                        "ability_type_id": 357, 
-                        "section_id": 1465, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1465, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -53,21 +52,12 @@
                     "body": "The save DC is Charisma-based. Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 358, 
-                        "section_id": 1466, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 1466, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Nightshade Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities/Poison/Nightshade Venom", 
                             "contracted": "injury", 
-                            "section_id": 1467, 
                             "effect": "1d4 Constitution drain and 1 negative level", 
                             "subtype": "poison", 
                             "cure": "3 consecutive saves", 
@@ -75,36 +65,34 @@
                             "save": "Fortitude DC 28", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1464, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Although the nightcrawler might appear to be little more than an immense and frightening vermin, with its centipede-like body and numerous glowing eyes, it is actually incredibly intelligent. When not cleansing the deep caverns of life, the nightcrawler spends its time plotting how best to carry out its own private stages of the overall nightshade plan to expunge life from all worlds, conferring with its undead minions and, when necessary, observing living creatures from afar while invisible to learn about hidden enclaves that its depredations might otherwise have missed.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1468
+            "type": "section"
         }, 
         {
             "body": "<p>It would be one thing if the nightcrawlers remained in the deep caverns, for these regions are rife with foul life the world is better off without. Yet unfortunately for those who dwell upon the surface, nightcrawlers often crawl up through the tunnels to bring their devastation to the night above. Although they always retreat underground before the first tentative rays of dawn color the eastern skies, they can spread an incredible amount of ruin in the span of a few short hours each night.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1469
+            "type": "section"
         }, 
         {
             "body": "<p>A nightcrawler is 60 feet long and weighs 10,000 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1470
+            "type": "section"
         }
     ], 
     "hp": "312 (25d8+200)", 
     "weaknesses": "light aversion", 
     "reach": "20 ft.", 
-    "section_id": 1463, 
     "wisdom": "21", 
     "creature_type": "Undead", 
     "dr": "15/good and silver", 

@@ -1,19 +1,23 @@
 {
-    "level_text": "Druid: 8; Elementalist Wizard: 8; Sorcerer: 8; Wizard: 8", 
-    "duration": "1 round/level (D)", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, M/DF (a chunk of dried lava)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>This spell creates a vertical <i>wall of lava</i> that is 1 inch thick for every 4 caster levels and composed of up to one 5-foot square per level. A <i>wall of lava's</i> maximum height cannot exceed half of its width (with a minimum height of 5 feet). The wall cannot be conjured so that it occupies the same space as a creature or object. A section of a <i>wall of lava</i> can be destroyed by damage (hardness 4, hp 90), but if a section is destroyed, the remaining lava in the wall immediately fills in any such hole created, reducing the wall's overall size by one 5-foot square but remaining a contiguous barrier. Each time a weapon strikes a <i>wall of lava</i>, it takes 2d6 points of fire damage (or the creature who strikes the wall takes 2d6 fire damage if the attack was via an unarmed strike or natural attack). </p><p>A creature can move through a <i>wall of lava</i> as a full-round action by making a DC 25 Strength check&mdash;failure indicates that the creature is pushed back out of the wall to the point he just attempted to leave. A creature with a burrow speed can move through the wall using its burrow speed. An attempt to move through a <i>wall of lava</i> inflicts 20d6 fire damage. A <i>wall of lava</i> also radiates heat as if it were a <i>wall of fire</i>, although the heat from a <i>wall of lava</i> radiates from both sides.</p><p>Once per round as a move action, you can direct the <i>wall of lava</i> to erupt. This causes a plume of lava to fire at any target within 60 feet of either side of the wall, but reduces the wall's overall size by 1d4 5-foot square sections. You must make a ranged touch attack to hit the target, which takes 10d6 points of fire damage on a hit. Holes created in a <i>wall of lava</i> from this effect instantly reseal, reducing the overall size of the wall.</p><p>All damage inflicted by physical contact with a <i>wall of lava</i> continues for 1d3 rounds after exposure ceases, but this additional damage is only half that dealt during actual contact (that is, 1d6 or 5d6 or 10d6 points per round).</p>", 
+    "school": "conjuration", 
+    "saving_throw": "see text", 
     "description": "Wall damages foes that try to enter, periodically launches lava at nearby targets.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Wall Of Lava", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 273, 
+    "level_text": "Arcanist: 8; Druid: 8; Elementalist Wizard: 8; Sorcerer: 8; Wizard: 8", 
+    "descriptor": [
+        "earth", 
+        "fire"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 8
+        }, 
         {
             "class": "Druid", 
             "level": 8
@@ -38,15 +42,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "see text", 
-    "name": "Wall Of Lava", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Wall Of Lava", 
-    "descriptor": [
-        "earth", 
-        "fire"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -62,5 +57,13 @@
             "text": "a chunk of dried lava", 
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round/level (D)", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M/DF (a chunk of dried lava)", 
+    "name": "Wall Of Lava"
 }

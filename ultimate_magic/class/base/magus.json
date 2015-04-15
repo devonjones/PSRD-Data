@@ -5,125 +5,109 @@
     "url": "pfsrd://Ultimate Magic/Classes/Magus", 
     "type": "class", 
     "image": "Magus.png", 
-    "section_id": 591, 
     "subtype": "base", 
     "hit_die": "d8", 
     "alt": "Seltyiel", 
     "sections": [
         {
             "body": "<p id=\"role\">Magi spend much of their time traveling the world, learning whatever martial or arcane secrets they can find. They might spend months learning a new sword-fighting style from a master warrior, while simultaneously moonlighting in the local library, poring through tomes of ancient lore. Most who take this path dabble in all sorts of lore, picking up anything that might aid them in their search for perfection.</p>", 
-            "name": "Role", 
             "url": "pfsrd://Ultimate Magic/Classes/Magus/Role", 
-            "section_id": 592, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            "type": "section", 
+            "name": "Role", 
+            "source": "Ultimate Magic"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for magus characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
             "name": "Starting Wealth", 
             "url": "pfsrd://Ultimate Magic/Classes/Magus/Starting Wealth", 
+            "type": "section", 
+            "source": "Ultimate Magic", 
             "sections": [
                 {
                     "body": "<table><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr><tr class=\"even\"><td>Magus</td><td>4d6 &times;10 gp<td>140 gp</td></tr></table>", 
                     "source": "Ultimate Magic", 
-                    "type": "table", 
-                    "section_id": 594
+                    "type": "table"
                 }
-            ], 
-            "section_id": 593, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The magus's class skills are Climb (Str), Craft (Int), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (dungeoneering) (Int), Knowledge (planes) (Int), Profession (Wis), Ride (Dex), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">2 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Skills/Skill Ranks per Level", 
-                    "section_id": 596, 
-                    "source": "Ultimate Magic", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Skill Ranks per Level", 
+                    "source": "Ultimate Magic"
                 }
             ], 
-            "section_id": 595, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Ultimate Magic"
         }, 
         {
             "body": "<p>The following are the class features of the magus.</p>", 
             "name": "Class Features", 
             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features", 
+            "type": "section", 
+            "source": "Ultimate Magic", 
             "sections": [
                 {
                     "body": "<table><caption>Table:  Magus</caption><thead><tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"7\">Spells per Day</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+2</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Arcane Pool, Cantrips, Spell Combat</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+3</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\">Spellstrike</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+3</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\">Magus Arcana</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Spell Recall</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Bonus Feat</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+5</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Magus Arcana</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+5</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Knowledge Pool, Medium Armor</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+6</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\">Improved Spell Combat</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+6</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\">Magus Arcana</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+7</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Fighter Training</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+7</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Bonus Feat, Improved Spell Recall</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Magus Arcana</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Heavy Armor</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+9</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\">Greater Spell Combat</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+9</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\">Magus Arcana</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Counterstrike</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Bonus Feat</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Magus Arcana</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Greater Spell Access</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">True Magus</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr></table>", 
-                    "name": "Table: Magus", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Table Magus", 
-                    "section_id": 598, 
-                    "source": "Ultimate Magic", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Magus", 
+                    "source": "Ultimate Magic"
                 }, 
                 {
                     "body": "<p></p>", 
                     "source": "Ultimate Magic", 
-                    "type": "section", 
-                    "section_id": 599
+                    "type": "section"
                 }, 
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">A magus is proficient with all simple and martial weapons. A magus is also proficient with light armor. He can cast magus spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a magus wearing medium armor, heavy armor, or a shield incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from other classes.</p>", 
-                    "name": "Weapon and Armor Proficiency", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Weapon and Armor Proficiency", 
-                    "section_id": 600, 
-                    "source": "Ultimate Magic", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Weapon and Armor Proficiency", 
+                    "source": "Ultimate Magic"
                 }, 
                 {
                     "body": "<p id=\"spells\">A magus casts arcane spells drawn from the magus spell list. A magus must choose and prepare his spells ahead of time.</p><p>To learn, prepare, or cast a spell, the magus must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a magus's spell is 10 + the spell level + the magus's Intelligence modifier.</p><p>A magus can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on the table above. In addition, he receives bonus spells per day if he has a high Intelligence score (see the Ability Modifiers and Bonus Spells Table).</p><p>A magus may know any number of spells. He must choose and prepare his spells ahead of time by getting 8 hours of sleep and spending 1 hour studying his spellbook. While studying, the magus decides which spells to prepare.</p>", 
                     "source": "Ultimate Magic", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 601
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"spellbooks\">A magus must study his spellbook each day to prepare his spells. He cannot prepare any spell not recorded in his spellbook except for <i>read magic</i>, which all magi can prepare from memory. A magus begins play with a spellbook containing all 0-level magus spells plus three 1st-level magus spells of his choice. The magus also selects a number of additional 1st-level magus spells equal to his Intelligence modifier to add to his spellbook. At each new magus level, he gains two new magus spells of any spell level or levels that he can cast (based on his new magus level) for his spellbook. At any time, a magus can also add spells found in other spellbooks to his own (see Arcane Spells).</p><p>A magus can learn spells from a wizard's spellbook, just as a wizard can from a magus's spellbook. The spells learned must be on the magus spell list, as normal. An alchemist (see the Alchemist description) can learn formulae from a magus's spellbook, if the spells are also on the alchemist spell list. A magus cannot learn spells from an alchemist.</p>", 
-                    "name": "Spellbooks", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Spellbooks", 
-                    "section_id": 602, 
-                    "source": "Ultimate Magic", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Spellbooks", 
+                    "source": "Ultimate Magic"
                 }, 
                 {
                     "body": "<p id=\"arcane-pool\">At 1st level, the magus gains a reservoir of mystical arcane energy that he can draw upon to fuel his powers and enhance his weapon. This arcane pool has a number of points equal to 1/2 his magus level (minimum 1) + his Intelligence modifier. The pool refreshes once per day when the magus prepares his spells.</p><p>At 1st level, a magus can expend 1 point from his arcane pool as a swift action to grant any weapon he is holding a +1 enhancement bonus for 1 minute. For every four levels beyond 1st, the weapon gains another +1 enhancement bonus, to a maximum of +5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of +5. Multiple uses of this ability do not stack with themselves.</p><p>At 5th level, these bonuses can be used to add any of the following weapon properties: <i>dancing</i>, <i>flaming</i>, <i>flaming burst</i>, <i>frost</i>, <i>icy burst</i>, <i>keen</i>, <i>shock</i>, <i>shocking burst</i>, <i>speed</i>, or<i> vorpal</i>. Adding these properties consumes an amount of bonus equal to the property's base price modifier (see the Magic Weapon Special Ability Descriptions). These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.</p><p>A magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.</p>", 
                     "name": "Arcane Pool", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Arcane Pool", 
                     "ability_types": {
-                        "ability_type_id": 1, 
-                        "section_id": 603, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 603, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
                 {
                     "body": "<p id=\"cantrips\">A magus can prepare a number of cantrips, or 0-level spells, each day, as noted in the table above under &ldquo;Spells per Day.&rdquo; These spells are cast like any other spell, but they are not expended when cast and may be used again.</p>", 
-                    "name": "Cantrips", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Cantrips", 
-                    "section_id": 604, 
-                    "source": "Ultimate Magic", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cantrips", 
+                    "source": "Ultimate Magic"
                 }, 
                 {
                     "body": "<p id=\"spell-combat\">At 1st level, a magus learns to cast spells and wield his weapons at the same time. This functions much like two-weapon fighting, but the off-hand weapon is a spell that is being cast. To use this ability, the magus must have one hand free (even if the spell being cast does not have somatic components), while wielding a light or one-handed melee weapon in the other hand. As a full-round action, he can make all of his attacks with his melee weapon at a &ndash;2 penalty and can also cast any spell from the magus spell list with a casting time of 1 standard action (any attack roll made as part of this spell also takes this penalty). If he casts this spell defensively, he can decide to take an additional penalty on his attack rolls, up to his Intelligence bonus, and add the same amount as a circumstance bonus on his concentration check. If the check fails, the spell is wasted, but the attacks still take the penalty. A magus can choose to cast the spell first or make the weapon attacks first, but if he has more than one attack, he cannot cast the spell between weapon attacks. </p>", 
                     "name": "Spell Combat", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Spell Combat", 
                     "ability_types": {
-                        "ability_type_id": 2, 
-                        "section_id": 605, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 605, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -132,11 +116,8 @@
                     "name": "Spellstrike", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Spellstrike", 
                     "ability_types": {
-                        "ability_type_id": 3, 
-                        "section_id": 606, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 606, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -144,6 +125,8 @@
                     "body": "<p id=\"magus-arcana\">As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the magus spell list unless otherwise noted.</p>", 
                     "name": "Magus Arcana", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana", 
+                    "type": "section", 
+                    "source": "Ultimate Magic", 
                     "sections": [
                         {
                             "body": "<p id=\"arcane-accuracy\">The magus can expend 1 point from his arcane pool as a swift action to grant himself an insight bonus equal to his Intelligence bonus on all attack rolls until the end of his turn.</p>", 
@@ -151,11 +134,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Arcane Accuracy", 
                             "ability_types": {
-                                "ability_type_id": 4, 
-                                "section_id": 608, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 608, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -165,11 +145,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Broad Study", 
                             "ability_types": {
-                                "ability_type_id": 5, 
-                                "section_id": 609, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 609, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -179,11 +156,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Close Range", 
                             "ability_types": {
-                                "ability_type_id": 6, 
-                                "section_id": 610, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 610, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -193,11 +167,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Concentrate", 
                             "ability_types": {
-                                "ability_type_id": 7, 
-                                "section_id": 611, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 611, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -207,11 +178,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Critical Strike", 
                             "ability_types": {
-                                "ability_type_id": 8, 
-                                "section_id": 612, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 612, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -221,11 +189,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Dispelling Strike", 
                             "ability_types": {
-                                "ability_type_id": 9, 
-                                "section_id": 613, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 613, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -235,11 +200,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Empowered Magic", 
                             "ability_types": {
-                                "ability_type_id": 10, 
-                                "section_id": 614, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 614, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -249,11 +211,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Familiar", 
                             "ability_types": {
-                                "ability_type_id": 11, 
-                                "section_id": 615, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 615, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -263,11 +222,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Hasted Assault", 
                             "ability_types": {
-                                "ability_type_id": 12, 
-                                "section_id": 616, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 616, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -277,11 +233,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Maneuver Mastery", 
                             "ability_types": {
-                                "ability_type_id": 13, 
-                                "section_id": 617, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 617, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -291,11 +244,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Maximized Magic", 
                             "ability_types": {
-                                "ability_type_id": 14, 
-                                "section_id": 618, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 618, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -305,11 +255,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Pool Strike", 
                             "ability_types": {
-                                "ability_type_id": 15, 
-                                "section_id": 619, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 619, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -319,11 +266,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Quickened Magic", 
                             "ability_types": {
-                                "ability_type_id": 16, 
-                                "section_id": 620, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 620, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -333,11 +277,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Reflection", 
                             "ability_types": {
-                                "ability_type_id": 17, 
-                                "section_id": 621, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 621, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -347,11 +288,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Silent Magic", 
                             "ability_types": {
-                                "ability_type_id": 18, 
-                                "section_id": 622, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 622, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -361,11 +299,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Spell Blending", 
                             "ability_types": {
-                                "ability_type_id": 19, 
-                                "section_id": 623, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 623, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -375,11 +310,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Spell Shield", 
                             "ability_types": {
-                                "ability_type_id": 20, 
-                                "section_id": 624, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 624, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -389,11 +321,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Still Magic", 
                             "ability_types": {
-                                "ability_type_id": 21, 
-                                "section_id": 625, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 625, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -403,11 +332,8 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Wand Mastery", 
                             "ability_types": {
-                                "ability_type_id": 22, 
-                                "section_id": 626, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 626, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }, 
@@ -417,35 +343,25 @@
                             "source": "Ultimate Magic", 
                             "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Magus Arcana/Wand Wielder", 
                             "ability_types": {
-                                "ability_type_id": 23, 
-                                "section_id": 627, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 627, 
                             "subtype": "magus_arcana", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 607, 
-                    "source": "Ultimate Magic", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Magus Arcana: Ultimate Combat", 
-                    "section_id": 628
+                    "name": "Magus Arcana: Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"spell-recall\">At 4th level, the magus learns to use his arcane pool to recall spells he has already cast. With a swift action he can recall any single magus spell that he has already prepared and cast that day by expending a number of points from his arcane pool equal to the spell's level (minimum 1). The spell is prepared again, just as if it had not been cast. </p>", 
                     "name": "Spell Recall", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Spell Recall", 
                     "ability_types": {
-                        "ability_type_id": 24, 
-                        "section_id": 629, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 629, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -453,19 +369,15 @@
                     "body": "<p id=\"bonus-feats\">At 5th level, and every six levels thereafter, a magus gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as combat, item creation, or metamagic feats. He must meet the prerequisites for these feats as normal.</p>", 
                     "source": "Ultimate Magic", 
                     "type": "section", 
-                    "name": "Bonus Feats", 
-                    "section_id": 630
+                    "name": "Bonus Feats"
                 }, 
                 {
                     "body": "<p id=\"knowledge-pool\">At 7th level, when a magus prepares his magus spells, he can decide to expend 1 or more points from his arcane pool, up to his Intelligence bonus. For each point he expends, he can treat any one spell from the magus spell list as if it were in his spellbook and can prepare that spell as normal that day. If he does not cast spells prepared in this way before the next time he prepares spells, he loses those spells. He can also cast spells added in this way using his spell recall ability, but only until he prepares spells again.</p>", 
                     "name": "Knowledge Pool", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Knowledge Pool", 
                     "ability_types": {
-                        "ability_type_id": 25, 
-                        "section_id": 631, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 631, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -474,11 +386,8 @@
                     "name": "Medium Armor", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Medium Armor", 
                     "ability_types": {
-                        "ability_type_id": 26, 
-                        "section_id": 632, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 632, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -487,11 +396,8 @@
                     "name": "Improved Spell Combat", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Improved Spell Combat", 
                     "ability_types": {
-                        "ability_type_id": 27, 
-                        "section_id": 633, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 633, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -500,11 +406,8 @@
                     "name": "Fighter Training", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Fighter Training", 
                     "ability_types": {
-                        "ability_type_id": 28, 
-                        "section_id": 634, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 634, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -513,11 +416,8 @@
                     "name": "Improved Spell Recall", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Improved Spell Recall", 
                     "ability_types": {
-                        "ability_type_id": 29, 
-                        "section_id": 635, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 635, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -526,11 +426,8 @@
                     "name": "Heavy Armor", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Heavy Armor", 
                     "ability_types": {
-                        "ability_type_id": 30, 
-                        "section_id": 636, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 636, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -539,11 +436,8 @@
                     "name": "Greater Spell Combat", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Greater Spell Combat", 
                     "ability_types": {
-                        "ability_type_id": 31, 
-                        "section_id": 637, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 637, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -552,11 +446,8 @@
                     "name": "Counterstrike", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Counterstrike", 
                     "ability_types": {
-                        "ability_type_id": 32, 
-                        "section_id": 638, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 638, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -565,11 +456,8 @@
                     "name": "Greater Spell Access", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/Greater Spell Access", 
                     "ability_types": {
-                        "ability_type_id": 33, 
-                        "section_id": 639, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 639, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }, 
@@ -578,49 +466,39 @@
                     "name": "True Magus", 
                     "url": "pfsrd://Ultimate Magic/Classes/Magus/Class Features/True Magus", 
                     "ability_types": {
-                        "ability_type_id": 34, 
-                        "section_id": 640, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 640, 
                     "source": "Ultimate Magic", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 597, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Magi gain access to the following spells.</p>", 
             "name": "Magus Spell List", 
             "source": "Ultimate Magic", 
             "url": "pfsrd://Ultimate Magic/Classes/Magus/Magus Spell List", 
-            "section_id": 641, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "magus"
         }, 
         {
-            "name": "Magus Archetypes", 
             "url": "pfsrd://Ultimate Magic/Classes/Magus/Magus Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Magus Archetypes: Ultimate Magic", 
-                    "section_id": 643
+                    "name": "Magus Archetypes: Ultimate Magic"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Magus Archetypes: Ultimate Combat", 
-                    "section_id": 644
+                    "name": "Magus Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 642, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Magus Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

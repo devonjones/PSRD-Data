@@ -1,19 +1,22 @@
 {
-    "level_text": "Bard: 0; Inquisitor: 0; Magus: 0; Sorcerer: 0; Summoner: 0; Witch: 0; Wizard: 0", 
-    "duration": "1 round", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M (a pinch of wool or similar substance)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>This spell clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it. After a creature has been dazed by this spell, it is immune to the effects of this spell for 1 minute.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "A single humanoid creature with 4 HD or less loses its next action.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Daze", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 135, 
+    "level_text": "Arcanist: 0; Bard: 0; Inquisitor: 0; Magus: 0; Skald: 0; Sorcerer: 0; Summoner: 0; Witch: 0; Wizard: 0", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 0
+        }, 
         {
             "class": "Bard", 
             "level": 0
@@ -24,6 +27,10 @@
         }, 
         {
             "class": "Magus", 
+            "level": 0
+        }, 
+        {
+            "class": "Skald", 
             "level": 0
         }, 
         {
@@ -50,14 +57,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Daze", 
-    "url": "pfsrd://Core Rulebook/Spells/Daze", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -69,5 +68,13 @@
             "text": "a pinch of wool or similar substance", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a pinch of wool or similar substance)", 
+    "name": "Daze"
 }

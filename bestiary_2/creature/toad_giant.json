@@ -28,19 +28,13 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Toad/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A creature that strikes a giant toad with an unarmed strike or natural weapon exposes itself to the toad's poisonous skin.", 
                     "name": "Poison Skin", 
                     "url": "pfsrd://Bestiary 2/Monsters/Toad/Giant/Special Abilities/Poison Skin", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 501, 
-                        "section_id": 2027, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2027, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "body": "Skin:", 
@@ -51,7 +45,6 @@
                                     "source": "Bestiary 2", 
                                     "url": "pfsrd://Bestiary 2/Monsters/Toad/Giant/Special Abilities/Poison Skin/Toad Venom", 
                                     "contracted": "contact", 
-                                    "section_id": 2029, 
                                     "effect": "1d2 Wisdom damage", 
                                     "subtype": "poison", 
                                     "cure": "1 save", 
@@ -60,32 +53,30 @@
                                     "type": "affliction"
                                 }
                             ], 
-                            "section_id": 2028, 
                             "source": "Bestiary 2"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2026, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Most giant toads live in dryer areas after maturing, returning to the water only to mate and give birth.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 2030
+            "type": "section"
         }, 
         {
             "body": "<p>Giant toad companions are identical to giant frog companions (<i>Pathfinder RPG Bestiary</i> 135), save that they lack the frog's tongue and pull abilities. Instead, they gain the poison skin ability at 4th level. </p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 2031
+            "type": "section"
         }
     ], 
     "hp": "22 (3d8+9)", 
     "reach": "10 ft.", 
-    "section_id": 2025, 
     "wisdom": "8", 
     "defensive_abilities": "poison skin", 
     "creature_type": "Animal", 

@@ -1,19 +1,23 @@
 {
-    "level_text": "Bard: 4; Cleric: 5; Oracle: 5; Sorcerer: 6; Wizard: 6", 
-    "duration": "1 round/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You fill the targets' minds with feelings of tranquility. Those attempting to commit violence become stricken with wracking pain and take 3d6 points of nonlethal damage each round they attempt to harm another creature. If attacked, affected individuals can defend themselves and may participate in combat by using Combat Expertise, fighting defensively, or taking the total defense action without triggering the spell's nonlethal damage.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Peaceful feelings harm those attempting violence.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Serenity", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 165, 
+    "level_text": "Bard: 4; Skald: 4; Cleric: 5; Oracle: 5; Warpriest: 5; Sorcerer: 6; Wizard: 6; Arcanist: 6", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 6
+        }, 
         {
             "class": "Bard", 
             "level": 4
@@ -27,8 +31,16 @@
             "level": 5
         }, 
         {
+            "class": "Skald", 
+            "level": 4
+        }, 
+        {
             "class": "Sorcerer", 
             "level": 6
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 5
         }, 
         {
             "class": "Wizard", 
@@ -42,15 +54,6 @@
             "name": "Targets"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Serenity", 
-    "url": "pfsrd://Ultimate Magic/Spells/Serenity", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -58,5 +61,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Serenity"
 }

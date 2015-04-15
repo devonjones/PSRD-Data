@@ -25,7 +25,7 @@
             "spell-like abilities": "(CL 11th; concentration +13)<p class=\"stat-block-2\">At will-<i>detect magic</i></p>"
         }, 
         {
-            "sorcerer spells known": "(CL 1st; concentration +3)<p class=\"stat-block-2\">1st (3)-<i>shield</i>, <i>true strike</i></p><p class=\"stat-block-2\">0 (at will)-<i>mage hand</i>, <i>message</i>, <i>prestidigitation</i>, <i>read magic</i></p>"
+            "sorcerer spells known": "(CL 1st; concentration +3)<p class=\"stat-block-2\">1st (3/day)-<i>shield</i>, <i>true strike</i></p><p class=\"stat-block-2\">0 (at will)-<i>mage hand</i>, <i>message</i>, <i>prestidigitation</i>, <i>read magic</i></p>"
         }
     ], 
     "type": "creature", 
@@ -36,36 +36,30 @@
             "name": "Special Abilities", 
             "source": "Mythic Adventures", 
             "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Red/Red Dragon/Young/Mythic/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A very young red dragon can see perfectly in smoky conditions (such as those created by pyrotechnics).", 
                     "name": "Smoke Vision", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Dragon/Red/Red Dragon/Young/Mythic/Special Abilities/Smoke Vision", 
                     "ability_types": {
-                        "ability_type_id": 46, 
-                        "section_id": 1003, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1003, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1002, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A young mythic red dragon is the offspring of an older mythic dragon, inheriting its power and rage. It tends to gorge itself on livestock, then sleep for nearly a year, only to repeat this cycle when it awakens again.</p>", 
             "source": "Mythic Adventures", 
-            "type": "section", 
-            "section_id": 1004
+            "type": "section"
         }
     ], 
     "hp": "165 (11d12+94); fast healing 5", 
     "weaknesses": "vulnerable to cold", 
     "reach": "5 ft. (10 ft. with bite)", 
-    "section_id": 1001, 
     "wisdom": "13, Cha 14", 
     "defensive_abilities": "dragon blood (1d6 fire), fortification (50%)", 
     "creature_type": "Dragon", 

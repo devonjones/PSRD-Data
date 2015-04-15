@@ -26,7 +26,7 @@
             "spell-like abilities": "(CL 9th; concentration +11)<p class=\"stat-block-2\">At will-<i>disguise self</i>, <i>ventriloquism</i></p><p class=\"stat-block-2\">3/day-<i>charm monster</i> (DC 16), <i>major image</i> (DC 15), <i>mirror image</i>, <i>suggestion</i> (DC 15)</p><p class=\"stat-block-2\">1/day-<i>deep slumber</i> (DC 15)</p>"
         }, 
         {
-            "sorcerer spells known": "(CL 6th; concentration +8)<p class=\"stat-block-2\">3rd (3)-<i>haste</i></p><p class=\"stat-block-2\">2nd (6)-<i>death knell</i> (DC 14), <i>invisibility</i></p><p class=\"stat-block-2\">1st (7)-<i>cure light wounds</i>, <i>divine favor</i>, <i>mage armor</i>, <i>magic missile</i></p><p class=\"stat-block-2\">0 (at will)-<i>dancing lights</i>, <i>daze</i> (DC 12), <i>detect magic</i>, <i>ghost sound</i> (DC 12), <i>mage hand</i>, <i>mending</i>, <i>prestidigitation</i></p>"
+            "sorcerer spells known": "(CL 6th; concentration +8)<p class=\"stat-block-2\">3rd (3/day)-<i>haste</i></p><p class=\"stat-block-2\">2nd (6/day)-<i>death knell</i> (DC 14), <i>invisibility</i></p><p class=\"stat-block-2\">1st (7/day)-<i>cure light wounds</i>, <i>divine favor</i>, <i>mage armor</i>, <i>magic missile</i></p><p class=\"stat-block-2\">0 (at will)-<i>dancing lights</i>, <i>daze</i> (DC 12), <i>detect magic</i>, <i>ghost sound</i> (DC 12), <i>mage hand</i>, <i>mending</i>, <i>prestidigitation</i></p>"
         }
     ], 
     "type": "creature", 
@@ -38,64 +38,53 @@
             "name": "Special Abilities", 
             "source": "Mythic Adventures", 
             "url": "pfsrd://Mythic Adventures/Monsters/Lamia/Mythic/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Any creature within 30 feet of a mythic lamia must succeed at a DC 16 Will save or become fascinated. A creature that succeeds at this save is immune to the lamia's aura for 24 hours. This is a mind-affecting effect. The save DC is Charisma-based.", 
                     "name": "Aura of Seduction", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Lamia/Mythic/Special Abilities/Aura of Seduction", 
                     "ability_types": {
-                        "ability_type_id": 91, 
-                        "section_id": 1112, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1112, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }, 
                 {
                     "body": "A mythic lamia casts spells as a 6th-level sorcerer, and can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a mythic lamia.", 
-                    "name": "Spells", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Lamia/Mythic/Special Abilities/Spells", 
-                    "section_id": 1113, 
-                    "source": "Mythic Adventures", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Spells", 
+                    "source": "Mythic Adventures"
                 }, 
                 {
                     "body": "A lamia drains 1d4 points of Wisdom each time she hits with her melee touch attack. (Unlike with other kinds of ability drain attacks, a lamia does not heal any damage when she uses her Wisdom drain.) Lamias try to use this power early in an encounter to make foes more susceptible to charm monster and suggestion.", 
                     "name": "Wisdom Drain", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Lamia/Mythic/Special Abilities/Wisdom Drain", 
                     "ability_types": {
-                        "ability_type_id": 92, 
-                        "section_id": 1114, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1114, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1111, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A mythic lamia dabbled in dark pacts or strange magic in an attempt to break the ancient curse that gives her a monstrous form, but instead gained the ability to change her shape as well as other magical abilities. Impressed by her progress but angered by her lack of complete success, she continues her research and plotting.</p>", 
             "source": "Mythic Adventures", 
-            "type": "section", 
-            "section_id": 1115
+            "type": "section"
         }, 
         {
             "body": "<p>In most cases, a mythic lamia will permanently transform into a lamia matriarch, losing her mythic power as she stabilizes in that form. A lamia matriarch that gains mythic power gains the mythic lamia's aura of seduction, a tail slap attack, grab, and constrict. She increases her sorcerer caster level to 8th and usually learns spells that aid her minions, such as <i>freedom of movement</i> and <i>rage</i>. She may use her touch attack to drain Wisdom or drain one use of mythic power from the target and regain one of her own uses of mythic power (save negates).</p>", 
-            "name": "Lamia Matriarch", 
             "url": "pfsrd://Mythic Adventures/Monsters/Lamia/Mythic/Lamia Matriarch", 
-            "section_id": 1116, 
-            "source": "Mythic Adventures", 
-            "type": "section"
+            "type": "section", 
+            "name": "Lamia Matriarch", 
+            "source": "Mythic Adventures"
         }
     ], 
     "hp": "97 (9d10+48)", 
     "reach": "5 ft.", 
-    "section_id": 1110, 
     "wisdom": "17", 
     "creature_type": "Monstrous Humanoid", 
     "special_qualities": "change shape (giant constrictor snake, lamia matriarch, or lion; polymorph), undersized weapons", 

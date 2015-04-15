@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Sard/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When a sard dies, its remains explode with a blast of lightning into razor-sharp splinters of wood. All creatures within 30 feet of a sard when it explodes in this manner take 12d6 points of electricity damage and 12d6 points of piercing damage. A DC 31 Reflex save halves this damage. The save DC is Constitution-based.", 
                     "name": "Death Throes", 
                     "url": "pfsrd://Bestiary 2/Monsters/Sard/Special Abilities/Death Throes", 
                     "ability_types": {
-                        "ability_type_id": 431, 
-                        "section_id": 1766, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1766, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -53,11 +52,8 @@
                     "name": "Electrical Jolt", 
                     "url": "pfsrd://Bestiary 2/Monsters/Sard/Special Abilities/Electrical Jolt", 
                     "ability_types": {
-                        "ability_type_id": 432, 
-                        "section_id": 1767, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1767, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -66,11 +62,8 @@
                     "name": "Planar Acclimation", 
                     "url": "pfsrd://Bestiary 2/Monsters/Sard/Special Abilities/Planar Acclimation", 
                     "ability_types": {
-                        "ability_type_id": 433, 
-                        "section_id": 1768, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1768, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -78,21 +71,12 @@
                     "body": "Thorn:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Sard/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 434, 
-                        "section_id": 1769, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1769, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Sard Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Sard/Special Abilities/Poison/Sard Venom", 
                             "contracted": "injury", 
-                            "section_id": 1770, 
                             "effect": "1d2 Dexterity and 4d6 electricity", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -100,49 +84,44 @@
                             "save": "Fortitude DC 31", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A sard's thorns have a range of 180 feet with no range increment.", 
                     "name": "Thorns", 
                     "url": "pfsrd://Bestiary 2/Monsters/Sard/Special Abilities/Thorns", 
                     "ability_types": {
-                        "ability_type_id": 435, 
-                        "section_id": 1771, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1771, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1765, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The sard is an ancient elm, oak, or pine tree that has been infused with lightning and raw life by one of the strange gods of the fey realm. One of the legendary beasts known as the Tane, a sard has &ldquo;sap&rdquo; that consists of red lightning&mdash;all of the sard's electrical attacks manifest with this same eerie-colored energy.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1772
+            "type": "section"
         }, 
         {
             "body": "<p>A sard can pass for an old dead tree&mdash;especially when the creature uses its <i>tree shape</i> spell-like ability. Yet despite its enormous size and ungainly shape, the sard is in fact a swift and agile monster. It can move with unsettling grace and speed, crawling across the ground on long spidery roots like an immense insect. It attacks either with a single slam of its immense trunk or by launching volleys of foot-long thorns that inject the creature's poisonous, electrified sap.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1773
+            "type": "section"
         }, 
         {
             "body": "<p>Sards are nearly as intelligent as most humans, but few actually use this intelligence for productive purposes&mdash;the first sards were created as a form of living siege engine, and they quite enjoy this destructive role, often seeking out fortresses or even towns to systematically destroy.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1774
+            "type": "section"
         }
     ], 
     "hp": "333 (23d8+230); fast healing 10", 
     "weaknesses": "vulnerable to sonic", 
     "reach": "30 ft.", 
-    "section_id": 1764, 
     "wisdom": "22", 
     "defensive_abilities": "death throes, electrical jolt", 
     "creature_type": "Plant", 

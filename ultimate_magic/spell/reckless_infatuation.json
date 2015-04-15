@@ -1,21 +1,29 @@
 {
-    "level_text": "Bard: 2; Sorcerer: 3; Wizard: 3; Witch: 3", 
-    "duration": "1 day/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You fill your target with feelings of intense infatuation for a specific individual known to the target. At the time of the casting, you designate a single creature as the focus of the target's desire. Thereafter, the target does all it can to remain within 30 feet of the object of its desire. If the target moves outside this range, it gains the staggered condition until it is again near the focus of its desire. If remaining within 30 feet of the focus of its affection would place the target in obvious physical danger, the target can attempt a second save to break the spell's effect.</p><p><i>Reckless infatuation</i> counters <i>unadulterated loathing</i>.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Target is compelled to stay near another.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Reckless Infatuation", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 152, 
+    "level_text": "Bard: 2; Skald: 2; Sorcerer: 3; Wizard: 3; Arcanist: 3; Witch: 3", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
             "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Skald", 
             "level": 2
         }, 
         {
@@ -38,15 +46,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Reckless Infatuation", 
-    "url": "pfsrd://Ultimate Magic/Spells/Reckless Infatuation", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -54,5 +53,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 day/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Reckless Infatuation"
 }

@@ -34,26 +34,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Sting", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 280, 
-                        "section_id": 977, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 977, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Girtablilu Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities/Poison/Girtablilu Venom", 
                             "contracted": "injury", 
-                            "section_id": 978, 
                             "effect": "1d4 Dexterity", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -61,54 +54,48 @@
                             "save": "Fortitude DC 20", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
-                    "body": "This ability functions as a druid's wild empathy ability, save that it works only on scorpions. A girtablilu gains a racial bonus on this check equal to its Hit Dice (normally +10). Scorpions are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing girtablilus to train scorpions and use them as guardians (though it does not grant them skills or feats).", 
+                    "body": "This ability functions as a druid's wild empathy ability, save that it works only on scorpions. A girtablilu uses its Hit Dice (normally 10) as its effective druid level. Scorpions are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing girtablilus to train scorpions and use them as guardians (though it does not grant them skills or feats).", 
                     "name": "Scorpion Empathy", 
                     "url": "pfsrd://Bestiary 3/Monsters/Girtablilu/Special Abilities/Scorpion Empathy", 
                     "ability_types": {
-                        "ability_type_id": 281, 
-                        "section_id": 979, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 979, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 976, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Girtablilus fiercely guard ancient places and treasures lost to history. Far from civilized eyes, they thrive and piously protect their charges with the aid of monstrously large scorpions that girtablilus keep as pets.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 980
+            "type": "section"
         }, 
         {
             "body": "<p>All girtablilus share a zeal for religion, although the objects of veneration vary from tribe to tribe. Some girtablilu tribes still serve long-forgotten deities, preserving the divinities' names and holy rituals. Others embrace religions derived from prehistoric worship, devoted to the idea of gods that once were or might never have been.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 981
+            "type": "section"
         }, 
         {
             "body": "<p>Girtablilu leaders are clerics or oracles, and are responsible for the tribe's religious observances and laws. Tradition and service to the group are important. Those who violate tribal beliefs are killed or exiled into the harsh wasteland. Girtablilus believe that no sacrifice in life (including death in the service of the gods) goes unrewarded in the hereafter; this belief makes them fierce and fearless fighters.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 982
+            "type": "section"
         }, 
         {
             "body": "<p>A girtablilu is 13 feet long and weighs 800 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 983
+            "type": "section"
         }
     ], 
     "hp": "105 (10d10+50)", 
     "reach": "10 ft.", 
-    "section_id": 975, 
     "wisdom": "14", 
     "creature_type": "Monstrous Humanoid", 
     "special_qualities": "scorpion empathy +10, undersized weapons", 

@@ -1,21 +1,24 @@
 {
-    "level_text": "Bard: 5", 
-    "duration": "1 round", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>Cast this spell when an enemy is about to make an attack against an ally. The creature makes the attack against a valid target of your choice instead or the attack is negated. In addition, the target is considered an ally for determining flanking for 1 round.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Redirect an enemy creature's attack.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Foe To Friend", 
     "spell_resistance": "yes", 
     "casting_time": "1 immediate action", 
-    "section_id": 125, 
+    "level_text": "Bard: 5; Skald: 5", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
             "class": "Bard", 
+            "level": 5
+        }, 
+        {
+            "class": "Skald", 
             "level": 5
         }
     ], 
@@ -26,14 +29,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Foe To Friend", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Foe To Friend", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -41,5 +36,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Foe To Friend"
 }

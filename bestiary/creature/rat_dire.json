@@ -27,26 +27,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Rat/Dire/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary/Monsters/Rat/Dire/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 507, 
-                        "section_id": 2382, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2382, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Filth Fever, Dire Rat", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Rat/Dire/Special Abilities/Disease/Filth Fever/Dire Rat", 
                             "contracted": "injury", 
-                            "section_id": 2383, 
                             "effect": "1d3 Dexterity damage and 1d3 Constitution damage", 
                             "onset": "1d3 days", 
                             "subtype": "disease", 
@@ -55,48 +48,46 @@
                             "save": "Fortitude DC 11", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2381, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Dire rats grow up to 2 feet long and weigh up to 25 pounds. They are common menaces in dungeons and city sewers alike.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2384
+            "type": "section"
         }, 
         {
             "name": "Dire Rat", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Rat/Dire/Dire Rat", 
-            "sections": [
-                {
-                    "name": "4th-Level Advancement", 
-                    "level": "4th", 
-                    "url": "pfsrd://Bestiary/Monsters/Rat/Dire/Dire Rat/4th-Level Advancement", 
-                    "section_id": 2386, 
-                    "subtype": "advancement", 
-                    "attack": "bite (1d4 plus disease)", 
-                    "source": "Bestiary", 
-                    "ability_scores": "Str +2, Con +2", 
-                    "type": "animal_companion"
-                }
-            ], 
-            "section_id": 2385, 
+            "speed": "40 ft., climb 20 ft., swim 20 ft.", 
             "subtype": "base", 
             "attack": "bite (1d4)", 
             "type": "animal_companion", 
-            "special_qualities": "low-light vision, scent.", 
-            "speed": "40 ft., climb 20 ft., swim 20 ft.", 
             "ability_scores": "Str 10, Dex 17, Con 12, Int 2, Wis 12, Cha 4", 
+            "sections": [
+                {
+                    "name": "4th-Level Advancement", 
+                    "source": "Bestiary", 
+                    "url": "pfsrd://Bestiary/Monsters/Rat/Dire/Dire Rat/4th-Level Advancement", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d4 plus disease)", 
+                    "ability_scores": "Str +2, Con +2.", 
+                    "type": "animal_companion"
+                }
+            ], 
+            "special_qualities": "low-light vision, scent.", 
             "size": "Small"
         }
     ], 
     "hp": "5 (1d8+1)", 
-    "section_id": 2380, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Rat, Dire", 

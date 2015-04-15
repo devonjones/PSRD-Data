@@ -1,7 +1,7 @@
 {
     "dexterity": "8", 
     "ac": "37, touch 1, flat-footed 37 (-1 Dex, +36 natural, -8 size)", 
-    "special_attacks": "capsize (DC 25),  fast swallow, push (water jet, 20 ft.), rend (claws, 3d6+18), ruinous, swallow whole (4d6+27 bludgeoning, AC 28, 39 hp)", 
+    "special_attacks": "capsize (DC 25),  fast swallow, push (water jet, 20 ft.), rend (2 claws, 3d6+18), ruinous, swallow whole (4d6+27 bludgeoning, AC 28, 39 hp)", 
     "intelligence": "3", 
     "racial_modifiers": "+10 Perception", 
     "melee": "bite +39 (6d6+18/19-20 plus grab), 2 claws +39 (3d6+18), tail slap +34 (4d6+9 plus trip)", 
@@ -35,48 +35,40 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Behemoth/Thalassic/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
-                    "body": "A thalassic behemoth can blast water from its blowhole with surprising force and accuracy. This water jet has a range of 240 feet with no range penalties. A target hit by the water jet is subject to the behemoth's push ability and must succeed at a DC 32 Fortitude save or be stunned for 1d4+1 rounds. The save DC is Constitution-based.", 
+                    "body": "A thalassic behemoth can blast water from its blowhole with surprising force and accuracy. This water jet has a range of 240 feet with no range increments. A target hit by the water jet is subject to the behemoth's push ability and must succeed at a DC 34 Fortitude save or be stunned for 1d4+1 rounds. The save DC is Constitution-based.", 
                     "name": "Water Jet", 
                     "url": "pfsrd://Bestiary 3/Monsters/Behemoth/Thalassic/Special Abilities/Water Jet", 
                     "ability_types": {
-                        "ability_type_id": 79, 
-                        "section_id": 258, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 258, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 257, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Sent by the gods to punish those who dwell near the sea, thalassic behemoths scourge ships and other vessels from the waters before turning their attention toward structures and survivors on land. Despite their massive bulk, thalassic behemoths swim incredibly fast and can easily outpace all but the fleetest of ships. On land, they can be more readily escaped, at least by those willing and able to leave homes and belongings behind. Though capable of surviving indefinitely on land and employing a clumsy, seal-like locomotion, thalassic behemoths soon weary of gravity's never-ending drag. They rarely venture more than a mile or two from shore before returning to the comforting buoyancy of the seas.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 259
+            "type": "section"
         }, 
         {
             "body": "<p>Thalassic behemoths resemble immense sperm whales in the water, but they can quickly haul themselves ashore using their mighty forelimbs. Tail and limb alike shatter wood and stone with but a single blow, while their jaws gape wide enough to swallow smaller boats whole. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 260
+            "type": "section"
         }, 
         {
             "body": "<p>The coming of a thalassic behemoth is typically foreshadowed by a dramatic increase in missing ships, strange tides, and the uncanny sight of sea life purposefully beaching upon shores. Thalassic behemoths  generally spend much of their time lurking a few hundred feet below the surface&mdash;but legends hold that even greater behemoths, the dread leviathans, dwell in the deepest oceanic reaches.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 261
+            "type": "section"
         }
     ], 
-    "hp": "391 (29d10+232); regeneration 20 (fire)", 
+    "hp": "391 (29d10+232); regeneration 20", 
     "weaknesses": "vulnerable to miracles and wishes", 
     "reach": "20 ft.", 
-    "section_id": 256, 
     "wisdom": "16", 
     "defensive_abilities": "unstoppable", 
     "creature_type": "Magical Beast", 
@@ -87,8 +79,8 @@
     "base_attack": "+29", 
     "skills": "Perception +34, Stealth -13, Survival +18, Swim +30", 
     "reflex": "+17", 
-    "cmd": "64", 
-    "cmb": "+55 (+59 grapple)", 
+    "cmd": "64 (66 vs. sunder)", 
+    "cmb": "+55 (+59 grapple or sunder)", 
     "will": "+14", 
     "url": "pfsrd://Bestiary 3/Monsters/Behemoth/Thalassic", 
     "sr": "31", 

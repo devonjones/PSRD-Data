@@ -26,26 +26,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Ray/Stingray/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Ray/Stingray/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 416, 
-                        "section_id": 1726, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1726, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Sting Ray Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Ray/Stingray/Special Abilities/Poison/Sting Ray Venom", 
                             "contracted": "injury", 
-                            "section_id": 1727, 
                             "effect": "1d2 Dexterity and 1 Constitution", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -53,58 +46,54 @@
                             "save": "Fortitude DC 13", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1725, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Often found buried in mud, sand, or sea grass, this normally passive creature raises its tail above its body like a scorpion when cornered or injured. Its stinger is a barbed spine with two grooves allowing the toxin to enter the wound. While often found in bays and estuaries, some breeds of stingray can make their home in rivers far upstream from salt water. Stingrays, like their larger manta ray cousins, use a form of electrolocation to find prey in the silt-laden waters.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1728
+            "type": "section"
         }, 
         {
             "body": "<p>The stingray presented here is a relatively large member of the species; for smaller stingrays, apply the young creature template.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1729
+            "type": "section"
         }, 
         {
-            "ac": "+1 natural armor", 
-            "name": "Stingray", 
+            "name": "Stingray Companion", 
             "source": "Bestiary 2", 
-            "url": "pfsrd://Bestiary 2/Monsters/Ray/Stingray/Stingray", 
+            "url": "pfsrd://Bestiary 2/Monsters/Ray/Stingray/Stingray Companion", 
+            "speed": "swim 40 ft.", 
+            "subtype": "base", 
+            "attack": "sting (1d3 plus poison)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 6, Dex 15, Con 13, Int 1, Wis 13, Cha 2", 
             "sections": [
                 {
                     "ac": "+1 natural armor", 
                     "name": "4th-Level Advancement", 
                     "level": "4th", 
-                    "url": "pfsrd://Bestiary 2/Monsters/Ray/Stingray/Stingray/4th-Level Advancement", 
-                    "section_id": 1731, 
+                    "url": "pfsrd://Bestiary 2/Monsters/Ray/Stingray/Stingray Companion/4th-Level Advancement", 
                     "subtype": "advancement", 
-                    "attack": "(1d4 plus poison)", 
+                    "attack": "sting (1d4 plus poison)", 
                     "source": "Bestiary 2", 
-                    "special_qualities": "blindsense 30 ft.", 
+                    "ability_scores": "Str +4, Dex -2, Con +2", 
                     "type": "animal_companion", 
-                    "ability_scores": "Str +4, Dex &ndash;2, Con +2", 
+                    "special_qualities": "blindsense 30 ft.", 
                     "size": "Medium"
                 }
             ], 
-            "section_id": 1730, 
-            "subtype": "base", 
-            "attack": "sting (1d3 plus poison)", 
-            "type": "animal_companion", 
             "special_qualities": "low-light vision.", 
-            "speed": "swim 40 ft.", 
-            "ability_scores": "Str 6, Dex 15, Con 13, Int 1, Wis 13, Cha 2", 
             "size": "Small"
         }
     ], 
     "hp": "13 (2d8+4)", 
-    "section_id": 1724, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Ray, Stingray", 

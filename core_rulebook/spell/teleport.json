@@ -7,11 +7,14 @@
     "type": "spell", 
     "spell_resistance": "no and yes (object)", 
     "casting_time": "1 standard action", 
-    "level_text": "Magus: 5; Sorcerer: 5; Summoner: 4; Witch: 5; Wizard: 5", 
-    "section_id": 636, 
+    "level_text": "Arcanist: 5; Magus: 5; Sorcerer: 5; Summoner: 4; Witch: 5; Wizard: 5", 
     "source": "Core Rulebook", 
     "range": "personal and touch", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 5
+        }, 
         {
             "class": "Magus", 
             "level": 5
@@ -52,11 +55,10 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Familiarity</th><th>On Target</th><th>Off Target</th><th>Similar Area</th><th>Mishap</th></tr></thead><tbody><tr class=\"odd\"><td>Very familiar</td><td>01&ndash;97</td><td>98&ndash;99</td><td>100</td><td>&mdash;</td></tr><tr class=\"even\"><td>Studied carefully</td><td>01&ndash;94</td><td>95&ndash;97</td><td>98&ndash;99</td><td>100</td></tr><tr class=\"odd\"><td>Seen casually</td><td>01&ndash;88</td><td>89&ndash;94</td><td>95&ndash;98</td><td>99&ndash;100</td></tr><tr class=\"even\"><td>Viewed once</td><td>01&ndash;76</td><td>77&ndash;88</td><td>89&ndash;96</td><td>97&ndash;100</td></tr><tr class=\"odd\"><td>False destination</td><td>&mdash;</td><td>&mdash;</td><td>81&ndash;92</td><td>93&ndash;100</td></tr></tbody></table>", 
-            "name": "Familiarity", 
             "url": "pfsrd://Core Rulebook/Spells/Teleport/Familiarity", 
-            "section_id": 637, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Familiarity", 
+            "source": "Core Rulebook"
         }
     ], 
     "component_text": "V", 

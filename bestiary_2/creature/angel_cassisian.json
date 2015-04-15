@@ -1,6 +1,6 @@
 {
     "dexterity": "11", 
-    "ac": "14, touch 11, flat-footed 14 (+3 natural, +1 size) (+2 deflection vs. evil)", 
+    "ac": "14, touch 11, flat-footed 14 (+3 natural, +1 size; +2 deflection vs. evil)", 
     "special_attacks": "breath weapon (15-ft. line, 1d6 cold or 1d6 fire, Reflex DC 12 half, usable every 1d4 rounds)", 
     "intelligence": "6", 
     "resist": "electricity 10, fire 10", 
@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Angel/Cassisian/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Though they are not particularly intelligent, cassisians have perfect memories and remember everything they see or hear. They can faultlessly recite conversations they heard hundreds of years before. They also have the power to erase portions of their own memories, which they do (usually under orders from superior angels) to protect sensitive information.", 
                     "name": "Perfect Memory", 
                     "url": "pfsrd://Bestiary 2/Monsters/Angel/Cassisian/Special Abilities/Perfect Memory", 
                     "ability_types": {
-                        "ability_type_id": 33, 
-                        "section_id": 128, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 128, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -53,40 +52,30 @@
                     "name": "Lesser Protective Aura", 
                     "url": "pfsrd://Bestiary 2/Monsters/Angel/Cassisian/Special Abilities/Lesser Protective Aura", 
                     "ability_types": {
-                        "ability_type_id": 34, 
-                        "section_id": 129, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 129, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 127, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Cassisians are the weakest sort of angel, but are absolutely dedicated to the cause of good. They serve as messengers for more powerful angels, and on the Material Plane they are often bound to good mortals to serve as familiars, acting as spiritual guides, reciting platitudes and quoting scripture from various benign faiths and philosophies (some forgotten for centuries). A 7th-level lawful good with the Improved Familiar feat can select a cassisian as a familiar.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 130
+            "type": "section"
         }, 
         {
             "body": "<p>A cassisian's true form is a helmet possessing a pair of bird's wings. The exact style of helmet varies by the deity the angel serves&mdash;most appear to be steel with angular cheek-plates, though some resemble bascinets, skullcaps, great helms, or even samurai helmets, and a few older cassisians appear to be bronze or even leather. Though cassisians can assume other forms (that of a child-sized angelic humanoid wearing a proportional helmet matching the cassisians' true form, a dove, a dog, or a fish), they find it strange and rarely stay in that form for more than a few minutes.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 131
+            "type": "section"
         }, 
         {
             "body": "<p>Typically formed from the souls of trustworthy and pious soldiers, some cassisians arise spontaneously from the spiritual fragments of great angels destroyed while defending the celestial planes against fiendish incursions. In many cases, the lowly cassisian retains fragments of its previous life's memories, and friends of that old soul may visit with the cassisian to reminisce with what remains. Unfortunately, the reincarnated angel's memories are more like something memorized from a book, and lack the character and camaraderie the friends expect.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 132
+            "type": "section"
         }
     ], 
     "hp": "13 (2d10+2)", 
-    "section_id": 126, 
     "wisdom": "11", 
     "creature_type": "Outsider", 
     "special_qualities": "change shape (2 of the following forms: Small human-like angel, dove, dog, or Tiny fish, polymorph), perfect memory", 

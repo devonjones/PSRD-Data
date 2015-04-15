@@ -1,60 +1,57 @@
 {
-    "name": "Oracle", 
     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle", 
+    "type": "section", 
     "sections": [
         {
             "body": "<p>Not all vessels of the divine choose their path. Rather, some find themselves chosen, raised to a life of power and responsibility by forces they themselves may not understand. These are the oracles, agents gifted by providence and serving not a single deity, but rather many sources, venerating and drawing magic from all those patron deities who support their ideals. Whether a curse or a gift, the strange powers and unsettling mysteries of the oracles make them forces to be reckoned with, both in the halls of power and on the fields of battle.</p><p>This section introduces new oracle mysteries. Following these mysteries are six new oracle archetypes. Each archetype includes a list of recommended mysteries that are particularly suitable for that archetype, though the archetypes are not limited only to oracles of those mysteries. An archetype's bonus spells replace the normal bonus spells for the oracle's chosen mystery.</p>", 
             "source": "Ultimate Magic", 
             "type": "section", 
-            "name": "Oracle", 
-            "section_id": 1328
+            "name": "Oracle"
         }, 
         {
             "body": "<p>The following are new mysteries for oracles. An oracle must pick one mystery upon taking her first level of oracle. Once made, this choice cannot be changed. Unless otherwise noted, the DC to save against these revelations is equal to 10 + 1/2 the oracle's class level + the oracle's Charisma modifier. Effects that duplicate spells use the oracle's class level as her caster level.</p>", 
             "name": "Mysteries", 
             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries", 
+            "type": "section", 
+            "source": "Ultimate Magic", 
             "sections": [
                 {
                     "name": "Ancestor", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p id=\"deities\"></p>", 
-                            "name": "Deities", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Deities", 
-                            "section_id": 1331, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Deities", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"class-skills:\"> An oracle with the ancestor mystery adds Linguistics, and all Knowledge skills to her list of class skills.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1332
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>unseen servant</i> (2nd), <i>spiritual weapon</i> (4th), <i>heroism</i> (6th), <i>spiritual ally</i> (8th), <i>telekinesis</i> (10th), <i>greater heroism</i> (12th), <i>ethereal jaunt</i> (14th), <i>vision</i> (16th), <i>astral projection</i> (18th).</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1333
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">An oracle with the ancestor mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"ancestral-weapon\">You can summon a simple or martial weapon from your family's history that is appropriate for your current size. You are considered proficient with this weapon. At 3rd level, the weapon is considered masterwork. At 7th level, 15th level, and 19th level, the weapon gains a cumulative +1 enhancement bonus. At 11th level, the weapon gains the <i>ghost touch</i> weapon property. You can use this ability for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears after 1 round if it leaves your grasp.</p>", 
                                     "name": "Ancestral Weapon", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Ancestral Weapon", 
                                     "ability_types": {
-                                        "ability_type_id": 219, 
-                                        "section_id": 1335, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1335, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -63,11 +60,8 @@
                                     "name": "Blood of Heroes", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Blood of Heroes", 
                                     "ability_types": {
-                                        "ability_type_id": 220, 
-                                        "section_id": 1336, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1336, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -76,11 +70,8 @@
                                     "name": "Phantom Touch", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Phantom Touch", 
                                     "ability_types": {
-                                        "ability_type_id": 221, 
-                                        "section_id": 1337, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1337, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -89,11 +80,8 @@
                                     "name": "Sacred Council", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Sacred Council", 
                                     "ability_types": {
-                                        "ability_type_id": 222, 
-                                        "section_id": 1338, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1338, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -102,11 +90,8 @@
                                     "name": "Spirit of the Warrior", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Spirit of the Warrior", 
                                     "ability_types": {
-                                        "ability_type_id": 223, 
-                                        "section_id": 1339, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1339, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -115,11 +100,8 @@
                                     "name": "Spirit Shield", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Spirit Shield", 
                                     "ability_types": {
-                                        "ability_type_id": 224, 
-                                        "section_id": 1340, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1340, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -128,11 +110,8 @@
                                     "name": "Spirit Walk", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Spirit Walk", 
                                     "ability_types": {
-                                        "ability_type_id": 225, 
-                                        "section_id": 1341, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1341, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -141,11 +120,8 @@
                                     "name": "Storm of Souls", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Storm of Souls", 
                                     "ability_types": {
-                                        "ability_type_id": 226, 
-                                        "section_id": 1342, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1342, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -154,11 +130,8 @@
                                     "name": "Voice of the Grave", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Voice of the Grave", 
                                     "ability_types": {
-                                        "ability_type_id": 227, 
-                                        "section_id": 1343, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1343, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -167,72 +140,60 @@
                                     "name": "Wisdom of the Ancestors", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Wisdom of the Ancestors", 
                                     "ability_types": {
-                                        "ability_type_id": 228, 
-                                        "section_id": 1344, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1344, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1334, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become one with the spirits of your ancestors. You gain a bonus on Will saving throws equal to your Charisma modifier, blindsense out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells. You can cast <i>astral projection</i> as a spell-like ability once per day without requiring material components.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1345
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1330, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Dark Tapestry", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p id=\"deities\"></p>", 
-                            "name": "Deities", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Deities", 
-                            "section_id": 1347, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Deities", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"class-skills:\"> An oracle with the dark tapestry mystery adds Disguise, Intimidate, Knowledge (arcana), and Stealth to her list of class skills.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1348
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>entropic shield</i> (2nd), <i>dust of twilight</i> (4th), <i>tongues</i> (6th), <i>black tentacles</i> (8th), <i>feeblemind</i> (10th), <i>planar binding</i><span class=\"char-style-override-39\"> </span>(12th), <i>insanity</i> (14th), <i>reverse gravity</i> (16th), <i>interplanetary teleport</i> (18th).</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1349
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">An oracle with the dark tapestry mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"brain-drain\">You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess. After successfully attacking with this ability, you may use a full-round action to sort through the jumble of stolen thoughts and memories to make a single Knowledge check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used <i>detect thoughts</i>. This is a mind-affecting effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every five levels beyond 5th.</p>", 
                                     "name": "Brain Drain", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Brain Drain", 
                                     "ability_types": {
-                                        "ability_type_id": 229, 
-                                        "section_id": 1351, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1351, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -241,11 +202,8 @@
                                     "name": "Cloak of Darkness", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Cloak of Darkness", 
                                     "ability_types": {
-                                        "ability_type_id": 230, 
-                                        "section_id": 1352, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1352, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -254,11 +212,8 @@
                                     "name": "Dweller in Darkness", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Dweller in Darkness", 
                                     "ability_types": {
-                                        "ability_type_id": 231, 
-                                        "section_id": 1353, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1353, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -267,11 +222,8 @@
                                     "name": "Gift of Madness", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Gift of Madness", 
                                     "ability_types": {
-                                        "ability_type_id": 232, 
-                                        "section_id": 1354, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1354, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -280,11 +232,8 @@
                                     "name": "Interstellar Void", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Interstellar Void", 
                                     "ability_types": {
-                                        "ability_type_id": 233, 
-                                        "section_id": 1355, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1355, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -293,11 +242,8 @@
                                     "name": "Many Forms", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Many Forms", 
                                     "ability_types": {
-                                        "ability_type_id": 234, 
-                                        "section_id": 1356, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1356, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -306,11 +252,8 @@
                                     "name": "Pierce the Veil", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Pierce the Veil", 
                                     "ability_types": {
-                                        "ability_type_id": 235, 
-                                        "section_id": 1357, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1357, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -319,11 +262,8 @@
                                     "name": "Read the Tapestry", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Read the Tapestry", 
                                     "ability_types": {
-                                        "ability_type_id": 236, 
-                                        "section_id": 1358, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1358, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -332,11 +272,8 @@
                                     "name": "Touch of the Void", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Touch of the Void", 
                                     "ability_types": {
-                                        "ability_type_id": 237, 
-                                        "section_id": 1359, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1359, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -345,72 +282,60 @@
                                     "name": "Wings of Darkness", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Wings of Darkness", 
                                     "ability_types": {
-                                        "ability_type_id": 238, 
-                                        "section_id": 1360, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1360, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1350, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a truly alien and unnatural creature. You gain damage reduction 5/&mdash; and immunity to acid, critical hits, and sneak attacks. Once per day, you can cast <i>shapechange</i> as a spell-like ability without requiring a material component.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1361
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1346, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Metal", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p id=\"deities\"></p>", 
-                            "name": "Deities", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Deities", 
-                            "section_id": 1363, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Deities", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"class-skills:\"> An oracle with the metal mystery adds Appraise, Bluff, Disable Device, and Intimidate to her list of class skills.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1364
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>lead blades</i> (2nd), <i>heat metal</i> (4th), <i>keen edge</i> (6th), <i>versatile weapon</i> (8th), <i>major creation</i> (metal items only) (10th), <i>wall of iron</i> (12th), <i>statue</i> (metal statue instead of iron) (14th), <i>repel metal or stone</i> (16th), <i>iron body</i> (18th).</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1365
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">An oracle with the Metal mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"armor-mastery\">You become more maneuverable while wearing armor. You can move at your normal speed in medium armor that is made of metal. This does not grant proficiency in armor. At 5th level, whenever you are wearing metal armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1. At 10th level, and again at 15th level, these bonuses increase by 1.</p>", 
                                     "name": "Armor Mastery", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Armor Mastery", 
                                     "ability_types": {
-                                        "ability_type_id": 239, 
-                                        "section_id": 1367, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1367, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -419,11 +344,8 @@
                                     "name": "Dance of the Blades", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Dance of the Blades", 
                                     "ability_types": {
-                                        "ability_type_id": 240, 
-                                        "section_id": 1368, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1368, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -432,11 +354,8 @@
                                     "name": "Iron Constitution", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Iron Constitution", 
                                     "ability_types": {
-                                        "ability_type_id": 241, 
-                                        "section_id": 1369, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1369, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -445,11 +364,8 @@
                                     "name": "Iron Skin", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Iron Skin", 
                                     "ability_types": {
-                                        "ability_type_id": 242, 
-                                        "section_id": 1370, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1370, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -458,11 +374,8 @@
                                     "name": "Iron Weapon", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Iron Weapon", 
                                     "ability_types": {
-                                        "ability_type_id": 243, 
-                                        "section_id": 1371, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1371, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -471,11 +384,8 @@
                                     "name": "Riddle of Steel", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Riddle of Steel", 
                                     "ability_types": {
-                                        "ability_type_id": 244, 
-                                        "section_id": 1372, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1372, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -484,11 +394,8 @@
                                     "name": "Rusting Grasp", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Rusting Grasp", 
                                     "ability_types": {
-                                        "ability_type_id": 245, 
-                                        "section_id": 1373, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1373, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -497,11 +404,8 @@
                                     "name": "Skill at Arms", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Skill at Arms", 
                                     "ability_types": {
-                                        "ability_type_id": 246, 
-                                        "section_id": 1374, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1374, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -510,11 +414,8 @@
                                     "name": "Steel Scarf", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Steel Scarf", 
                                     "ability_types": {
-                                        "ability_type_id": 247, 
-                                        "section_id": 1375, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1375, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -523,72 +424,60 @@
                                     "name": "Vision in Iron", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Vision in Iron", 
                                     "ability_types": {
-                                        "ability_type_id": 248, 
-                                        "section_id": 1376, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1376, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1366, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a master of iron and steel. You gain the benefits of Weapon Focus, Greater Weapon Focus, and Improved Critical with any one metal weapon that you are proficient with. Your armor is like a second skin to you&mdash;while wearing metal armor you are proficient with, the armor's maximum Dexterity bonus increases by +5 and you take no armor check penalty. In addition, any metal you create with your magic (such as <i>wall of iron</i>) has its hardness increased by +10.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1377
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1362, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Time", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p id=\"deities\"></p>", 
-                            "name": "Deities", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Deities", 
-                            "section_id": 1379, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Deities", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"class-skills:\"> An oracle with the time mystery adds Fly, Knowledge (arcana), Perception, and Use Magic Device to her list of class skills.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1380
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>memory lapse</i> (2nd), <i>gentle repose</i> (4th), <i>sands of time</i> (6th), <i>threefold aspect</i> (8th), <i>permanency</i> (10th), <i>contingency</i> (12th), <i>disintegrate</i> (14th), <i>temporal stasis</i> (16th), <i>time stop</i> (18th).</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1381
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">An oracle with the time mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"aging-touch\">Your touch ages living creatures and objects. As a melee touch attack, you can deal 1 point of Strength damage for every two oracle levels you possess to living creatures. Against objects or constructs, you can deal 1d6 points of damage per oracle level. If used against an object in another creature's possession, treat this attack as a sunder combat maneuver. You can use this ability once per day, plus one additional time per day for every five oracle levels you possess.</p>", 
                                     "name": "Aging Touch", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Aging Touch", 
                                     "ability_types": {
-                                        "ability_type_id": 249, 
-                                        "section_id": 1383, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1383, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -597,11 +486,8 @@
                                     "name": "Erase from Time", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Erase from Time", 
                                     "ability_types": {
-                                        "ability_type_id": 250, 
-                                        "section_id": 1384, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1384, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -610,11 +496,8 @@
                                     "name": "Knowledge of the Ages", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Knowledge of the Ages", 
                                     "ability_types": {
-                                        "ability_type_id": 251, 
-                                        "section_id": 1385, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1385, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -623,11 +506,8 @@
                                     "name": "Momentary Glimpse", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Momentary Glimpse", 
                                     "ability_types": {
-                                        "ability_type_id": 252, 
-                                        "section_id": 1386, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1386, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -636,11 +516,8 @@
                                     "name": "Rewind Time", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Rewind Time", 
                                     "ability_types": {
-                                        "ability_type_id": 253, 
-                                        "section_id": 1387, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1387, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -649,11 +526,8 @@
                                     "name": "Speed or Slow Time", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Speed or Slow Time", 
                                     "ability_types": {
-                                        "ability_type_id": 254, 
-                                        "section_id": 1388, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1388, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -662,11 +536,8 @@
                                     "name": "Temporal Celerity", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Temporal Celerity", 
                                     "ability_types": {
-                                        "ability_type_id": 255, 
-                                        "section_id": 1389, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1389, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -675,11 +546,8 @@
                                     "name": "Time Flicker", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Time Flicker", 
                                     "ability_types": {
-                                        "ability_type_id": 256, 
-                                        "section_id": 1390, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1390, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -688,11 +556,8 @@
                                     "name": "Time Hop", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Time Hop", 
                                     "ability_types": {
-                                        "ability_type_id": 257, 
-                                        "section_id": 1391, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1391, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -701,72 +566,60 @@
                                     "name": "Time Sight", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Time Sight", 
                                     "ability_types": {
-                                        "ability_type_id": 258, 
-                                        "section_id": 1392, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1392, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1382, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a true master of time and stop aging. You cannot be magically aged and no longer take penalties to your ability scores for aging. Age bonuses still accrue, and any aging penalties that you have already accrued remain in place. You cannot die of old age, but you can be killed or die through accident, disease, poison, or other external effects. In addition, you can cast <i>time stop</i> once per day as a spell-like ability.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1393
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1378, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Wood", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood", 
+                    "type": "section", 
+                    "subtype": "oracle_mystery", 
                     "sections": [
                         {
                             "body": "<p id=\"deities\"></p>", 
-                            "name": "Deities", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Deities", 
-                            "section_id": 1395, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Deities", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"class-skills\">An oracle with the wood mystery adds Climb, Knowledge (nature), Stealth, and Survival to her list of class skills.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1396
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>shillelagh</i> (2nd), <i>barkskin</i> (4th), <i>minor creation</i> (wood items only) (6th), <i>thorn body</i> (8th), <i>tree stride</i> (10th), <i>ironwood</i> (12th), <i>transmute metal to wood</i> (14th), <i>changestaff</i> (16th), <i>wooden phalanx</i> (18th).</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1397
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">An oracle with the wood mystery can choose from any of the following revelations.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"bend-the-grain\">Once per day as a standard action, you can shape or warp wooden objects. This functions as either <i>wood shape</i> or <i>warp wood</i>. At 11th level, you can use this ability to push wood away from you, as <i>repel wood</i>. At 7th level, and again at 14th level, you can use this ability an additional time per day.</p>", 
                                     "name": "Bend the Grain", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Bend the Grain", 
                                     "ability_types": {
-                                        "ability_type_id": 259, 
-                                        "section_id": 1399, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1399, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -775,11 +628,8 @@
                                     "name": "Lignification", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Lignification", 
                                     "ability_types": {
-                                        "ability_type_id": 260, 
-                                        "section_id": 1400, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1400, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -788,11 +638,8 @@
                                     "name": "Speak with Wood", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Speak with Wood", 
                                     "ability_types": {
-                                        "ability_type_id": 261, 
-                                        "section_id": 1401, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1401, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -801,11 +648,8 @@
                                     "name": "Thorn Burst", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Thorn Burst", 
                                     "ability_types": {
-                                        "ability_type_id": 262, 
-                                        "section_id": 1402, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1402, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -814,11 +658,8 @@
                                     "name": "Tree Form", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Tree Form", 
                                     "ability_types": {
-                                        "ability_type_id": 263, 
-                                        "section_id": 1403, 
                                         "ability_type": "Spell-Like"
                                     }, 
-                                    "section_id": 1403, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -827,11 +668,8 @@
                                     "name": "Wood Armor", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wood Armor", 
                                     "ability_types": {
-                                        "ability_type_id": 264, 
-                                        "section_id": 1404, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1404, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -840,11 +678,8 @@
                                     "name": "Wood Bond", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wood Bond", 
                                     "ability_types": {
-                                        "ability_type_id": 265, 
-                                        "section_id": 1405, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1405, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -853,11 +688,8 @@
                                     "name": "Wood Sight", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wood Sight", 
                                     "ability_types": {
-                                        "ability_type_id": 266, 
-                                        "section_id": 1406, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1406, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -866,11 +698,8 @@
                                     "name": "Wooden Weapon", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wooden Weapon", 
                                     "ability_types": {
-                                        "ability_type_id": 267, 
-                                        "section_id": 1407, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1407, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -879,39 +708,28 @@
                                     "name": "Woodland Stride", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Woodland Stride", 
                                     "ability_types": {
-                                        "ability_type_id": 268, 
-                                        "section_id": 1408, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1408, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1398, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon reaching 20th level, you become a living creature of wood. You are forevermore treated as the plant type rather than your original type for the purpose of spells and magical effects. Your skin takes on the appearance of polished wood grain, and you gain a +4 natural armor bonus to your Armor Class and damage reduction 10/&mdash; against wooden weapons or any natural attacks made by a wooden or woodlike creature. You gain immunity to paralysis, poison, polymorph, sleep, and stunning. At will, you can meld with any tree or single block of wood (as <i>meld into stone</i>, except wood only, and with no limit to how long you can remain in the wood).</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1409
+                            "name": "Final Revelation"
                         }
-                    ], 
-                    "section_id": 1394, 
-                    "subtype": "oracle_mystery", 
-                    "type": "section"
+                    ]
                 }
-            ], 
-            "section_id": 1329, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            ]
         }, 
         {
-            "name": "Oracle Archetypes", 
             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>All oracles are cursed to some degree, but some oracles bear an even heavier burden. Though doubly afflicted with supernatural or physical hindrances, a dual-cursed oracle can manipulate fortune and gains greater insights into her mystery.</p>", 
@@ -919,52 +737,44 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Dual-Cursed Oracle", 
                     "type": "class_archetype", 
-                    "section_id": 1411, 
                     "subtype": "oracle", 
                     "sections": [
                         {
                             "body": "<p id=\"recommended-mysteries\">Any.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Recommended Mysteries", 
-                            "section_id": 1412
+                            "name": "Recommended Mysteries"
                         }, 
                         {
                             "body": "<p id=\"oracle's-curse\">A dual-cursed oracle must choose two curses at 1st level. One of these curses (oracle's choice) never changes its abilities as the oracle gains levels; for example, an oracle with clouded vision never gains darkvision 60 feet, blindsense, or blindsight. The other curse comes with its normal benefits.</p>", 
-                            "name": "Oracle's Curse", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Dual-Cursed Oracle/Oracles Curse", 
-                            "section_id": 1413, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Oracle's Curse", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"class-skills\">A dual-cursed oracle gains no additional class skills from her mystery.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1414
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>ill omen</i> (2nd), <i>oracle's burden</i> (4th), <i>bestow curse</i> (6th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1415
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">A dual-cursed oracle gains a new revelation at 5th level and 13th level. These are in addition to the normal revelations she receives at 3rd level, 7th level, and so on. In addition, the cursed oracle may select the following revelations in place of a mystery revelation.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"misfortune\">At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll. Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.</p>", 
                                     "name": "Misfortune", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Dual-Cursed Oracle/Revelations/Misfortune", 
                                     "ability_types": {
-                                        "ability_type_id": 269, 
-                                        "section_id": 1417, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1417, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -973,18 +783,14 @@
                                     "name": "Fortune", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Dual-Cursed Oracle/Revelations/Fortune", 
                                     "ability_types": {
-                                        "ability_type_id": 270, 
-                                        "section_id": 1418, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1418, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1416, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }
                     ]
                 }, 
@@ -994,66 +800,56 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Enlightened Philosopher", 
                     "type": "class_archetype", 
-                    "section_id": 1419, 
                     "subtype": "oracle", 
                     "sections": [
                         {
                             "body": "<p id=\"alignment\">Any lawful.</p>", 
-                            "name": "Alignment", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Enlightened Philosopher/Alignment", 
-                            "section_id": 1420, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Alignment", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"recommended-mysteries\">ancestor, fire, heavens, lore, metal, nature, stone, time, waves, wood.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Recommended Mysteries", 
-                            "section_id": 1421
+                            "name": "Recommended Mysteries"
                         }, 
                         {
                             "body": "<p id=\"class-skills\">An enlightened philosopher adds Linguistics and all Knowledge skills to her list of class skills. These replace the additional class skills from her mystery.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1422
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>owl's wisdom</i> (4th), <i>water walk</i> (6th), <i>discern lies</i> (8th), <i>true seeing</i> (10th), <i>wind walk</i> (12th), <i>ethereal jaunt</i> (14th), <i>moment of prescience</i> (16th), <i>astral projection</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1423
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">An enlightened philosopher must take the following revelation at 7th level.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"mental-acuity\">As the lore mystery revelation.</p>", 
                                     "name": "Mental Acuity", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Enlightened Philosopher/Revelations/Mental Acuity", 
                                     "ability_types": {
-                                        "ability_type_id": 271, 
-                                        "section_id": 1425, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1425, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1424, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the <i>reincarnate</i> spell). This replaces the final revelation of the oracle's mystery.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1426
+                            "name": "Final Revelation"
                         }
                     ]
                 }, 
@@ -1063,51 +859,43 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Planar Oracle", 
                     "type": "class_archetype", 
-                    "section_id": 1427, 
                     "subtype": "oracle", 
                     "sections": [
                         {
                             "body": "<p id=\"recommended-mysteries\">dark tapestry, flame, heavens, stone, waves, wind.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Recommended Mysteries", 
-                            "section_id": 1428
+                            "name": "Recommended Mysteries"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>endure elements</i> (2nd), <i>elemental speech</i> (4th), <i>tongues</i> (6th), <i>planar adaptation</i> (8th), <i>plane shift</i> (10th), <i>mass planar adaptation</i> (12th), <i>shadow walk</i> (14th), <i>etherealness</i> (16th), <i>gate</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1429
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">At 1st level, you must choose one Outer Plane with which you have an affinity. This choice cannot be changed. A planar oracle must take the following revelation at 3rd level.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"planar-resistance\">At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.</p>", 
                                     "name": "Planar Resistance", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Planar Oracle/Revelations/Planar Resistance", 
                                     "ability_types": {
-                                        "ability_type_id": 272, 
-                                        "section_id": 1431, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1431, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1430, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"final-revelation\">At 20th level, you become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to &ldquo;outsider (extraplanar),&rdquo; except on your associated plane, where your type is &ldquo;outsider (native).&rdquo; In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. This replaces the final revelation of the oracle's mystery.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Final Revelation", 
-                            "section_id": 1432
+                            "name": "Final Revelation"
                         }
                     ]
                 }, 
@@ -1117,52 +905,44 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Possessed Oracle", 
                     "type": "class_archetype", 
-                    "section_id": 1433, 
                     "subtype": "oracle", 
                     "sections": [
                         {
                             "body": "<p id=\"recommended-mysteries\">Any.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Recommended Mysteries", 
-                            "section_id": 1434
+                            "name": "Recommended Mysteries"
                         }, 
                         {
                             "body": "<p id=\"oracle's-curse\">A possessed oracle must choose the haunted or tongues curse at 1st level.</p>", 
-                            "name": "Oracle's Curse", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Possessed Oracle/Oracles Curse", 
-                            "section_id": 1435, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Oracle's Curse", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>ventriloquism</i> (1st), <i>spider climb</i> (4th), <i>screech</i> (6th), <i>sleepwalk</i> (8th), <i>telekinesis</i> (10th), <i>animate objects</i> (12th), <i>divine vessel</i> (16th). These bonus spells replace the oracle's normal mystery bonus spells at these levels.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1436
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">A possessed oracle must take the following revelation at 1st level.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"two-minds\">You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may reroll a failed Will save once per day as an immediate action. You must take the second result, even if it is worse.</p>", 
                                     "name": "Two Minds", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Possessed Oracle/Revelations/Two Minds", 
                                     "ability_types": {
-                                        "ability_type_id": 273, 
-                                        "section_id": 1438, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1438, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1437, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }
                     ]
                 }, 
@@ -1172,37 +952,31 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Seer", 
                     "type": "class_archetype", 
-                    "section_id": 1439, 
                     "subtype": "oracle", 
                     "sections": [
                         {
                             "body": "<p id=\"recommended-mysteries\">lore, nature, time.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Recommended Mysteries", 
-                            "section_id": 1440
+                            "name": "Recommended Mysteries"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>detect thoughts</i> (4th), <i>clairaudience/clairvoyance</i> (6th), <i>scrying</i> (8th), <i>true seeing</i> (10th), <i>legend lore</i> (12th), <i>greater scrying</i> (14th), <i>vision</i> (16th), <i>foresight</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1441
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">A seer must take the following revelations at the listed levels.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"natural-divination\">As the nature mystery revelation. You must take this revelation at 1st level.</p>", 
                                     "name": "Natural Divination", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Seer/Revelations/Natural Divination", 
                                     "ability_types": {
-                                        "ability_type_id": 274, 
-                                        "section_id": 1443, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1443, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -1211,18 +985,14 @@
                                     "name": "Gift of Prophecy", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Seer/Revelations/Gift of Prophecy", 
                                     "ability_types": {
-                                        "ability_type_id": 275, 
-                                        "section_id": 1444, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1444, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1442, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }
                     ]
                 }, 
@@ -1232,44 +1002,37 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Stargazer", 
                     "type": "class_archetype", 
-                    "section_id": 1445, 
                     "subtype": "oracle", 
                     "sections": [
                         {
                             "body": "<p id=\"recommended-mysteries\">dark tapestry, heavens, lore, nature, time.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Recommended Mysteries", 
-                            "section_id": 1446
+                            "name": "Recommended Mysteries"
                         }, 
                         {
                             "body": "<p id=\"class-skills\">A stargazer adds Knowledge (nature), Perception, and Survival to her list of class skills. These replace the additional class skills from her mystery.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Class Skills", 
-                            "section_id": 1447
+                            "name": "Class Skills"
                         }, 
                         {
                             "body": "<p id=\"bonus-spells\"><i>faerie fire</i> (2nd), <i>glitterdust</i> (4th), <i>guiding star</i> (6th), <i>wandering star motes</i> (8th), <i>meteor swarm</i> (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Bonus Spells", 
-                            "section_id": 1448
+                            "name": "Bonus Spells"
                         }, 
                         {
                             "body": "<p id=\"revelations\">A stargazer must take the following revelations at the listed levels.</p>", 
-                            "name": "Revelations", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"guiding-star\">As the heavens mystery revelation. You must take this revelation at 1st level.</p>", 
                                     "name": "Guiding Star", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Stargazer/Revelations/Guiding Star", 
                                     "ability_types": {
-                                        "ability_type_id": 276, 
-                                        "section_id": 1450, 
                                         "ability_type": "Supernatural"
                                     }, 
-                                    "section_id": 1450, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }, 
@@ -1278,28 +1041,22 @@
                                     "name": "Star Chart", 
                                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Stargazer/Revelations/Star Chart", 
                                     "ability_types": {
-                                        "ability_type_id": 277, 
-                                        "section_id": 1451, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 1451, 
                                     "source": "Ultimate Magic", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 1449, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "name": "Revelations", 
+                            "source": "Ultimate Magic"
                         }
                     ]
                 }
             ], 
-            "section_id": 1410, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            "name": "Oracle Archetypes", 
+            "source": "Ultimate Magic"
         }
     ], 
-    "section_id": 1327, 
-    "source": "Ultimate Magic", 
-    "type": "section"
+    "name": "Oracle", 
+    "source": "Ultimate Magic"
 }

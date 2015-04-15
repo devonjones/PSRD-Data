@@ -5,7 +5,7 @@
     "intelligence": "10", 
     "racial_modifiers": "+2 Diplomacy, +2 Sense Motive", 
     "resist": "acid 5, cold 5, electricity 5, fire 5", 
-    "melee": "scimitar +4 (1d6+2/18-20)", 
+    "melee": "scimitar +4 (1d6+3/18-20)", 
     "cr": "1/2", 
     "xp": "200", 
     "speed": "20 ft. (30 ft. without armor)", 
@@ -29,42 +29,35 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Suli/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Once per day as a swift action, a suli can call on the elemental power lurking in its veins to shroud its arms in acid, cold, electricity, or fire. Unarmed strikes with its elbows or hands (or attacks with weapons held in those hands) deal +1d6 points of damage of the appropriate energy type. This lasts for 1 round per level. The suli can end the effects of its elemental power early as a free action.", 
                     "name": "Elemental Assault", 
                     "url": "pfsrd://Bestiary 3/Monsters/Suli/Special Abilities/Elemental Assault", 
                     "ability_types": {
-                        "ability_type_id": 573, 
-                        "section_id": 2031, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2031, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2030, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Sulis (or suli-jann) are minor offshoots of the jann that live among humans. They are tall and look like ordinary men and women but for their abnormal beauty and the occasional flash of elemental light in their eyes. Though physically superior to and more attractive than normal humans, some suli-jann remain unaware of their genie heritage until later in life, when contact with a full-blooded genie draws forth a portion of their elemental power.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2032
+            "type": "section"
         }, 
         {
             "body": "<p>While all sulis can trace their lineage back to a janni ancestor, very few have an immediate janni parent. In most cases, this legacy lies fallow in the blood for generations, only to emerge decades or even centuries later. Those whose powers become apparent early on usually lead troubled lives as youths, as the question of a child's origins tears some families apart; few of these unfortunate sulis grow up knowing anything of the peace of a happy home.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2033
+            "type": "section"
         }, 
         {
             "body": "<p>Sulis age at the same rate as humans and are physically identical to humans in terms of height and weight. During their youth, sulis tend to be slightly smaller than their fully human peers, but grow quickly to their full adult height upon reaching their teenage years. Sulis are impulsive and passionate by nature, and even those sulis who know nothing of their genie blood possess a measure of personal pride.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2034
+            "type": "section"
         }, 
         {
             "body": "<p>Sulis are defined by class levels&mdash;they do not possess racial Hit Dice. Sulis have the following racial traits.</p>", 
@@ -72,73 +65,63 @@
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Suli/Suli", 
             "type": "race", 
-            "section_id": 2035, 
             "subtype": "monster_race", 
             "sections": [
                 {
                     "body": "<p>Sulis tend to be strong and charming, but slow-witted. </p>", 
                     "source": "Bestiary 3", 
                     "type": "section", 
-                    "name": "+2 Strength, +2 Charisma, -2 Intelligence", 
-                    "section_id": 2036
+                    "name": "+2 Strength, +2 Charisma, -2 Intelligence"
                 }, 
                 {
                     "body": "<p>Sulis can see twice as far as humans in dim light.</p>", 
-                    "name": "Low-Light Vision", 
                     "url": "pfsrd://Bestiary 3/Monsters/Suli/Suli/Low-Light Vision", 
-                    "section_id": 2037, 
-                    "source": "Bestiary 3", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Low-Light Vision", 
+                    "source": "Bestiary 3"
                 }, 
                 {
                     "body": "<p>Sulis are keen negotiators, and gain a +2 racial bonus on Diplomacy and Sense Motive checks.</p>", 
-                    "name": "Negotiator", 
                     "url": "pfsrd://Bestiary 3/Monsters/Suli/Suli/Negotiator", 
-                    "section_id": 2038, 
-                    "source": "Bestiary 3", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Negotiator", 
+                    "source": "Bestiary 3"
                 }, 
                 {
                     "body": "See Suli/Special Abilitis/Elemental Assault", 
                     "source": "Bestiary 3", 
                     "type": "link", 
-                    "name": "Elemental Assault", 
-                    "section_id": 2039
+                    "name": "Elemental Assault"
                 }, 
                 {
                     "body": "<p>Sulis have resistance to acid 5, cold 5, electricity 5, and fire 5.</p>", 
-                    "name": "Elemental Resistance", 
                     "url": "pfsrd://Bestiary 3/Monsters/Suli/Suli/Elemental Resistance", 
-                    "section_id": 2040, 
-                    "source": "Bestiary 3", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Elemental Resistance", 
+                    "source": "Bestiary 3"
                 }, 
                 {
                     "body": "<p>Sulis begin play speaking Common and any one elemental language of their choice (Aquan, Auran, Ignan, or Terran). Sulis with high Intelligence scores can choose from among the following bonus languages: Aquan, Auran, Draconic, Ignan, and Terran. </p>", 
                     "source": "Bestiary 3", 
                     "type": "section", 
-                    "name": "Languages", 
-                    "section_id": 2041
+                    "name": "Languages"
                 }, 
                 {
-                    "source": "Bestiary 3", 
                     "type": "section", 
                     "sections": [
                         {
                             "body": "Suli Monster Entry", 
                             "source": "Bestiary 3", 
-                            "type": "link", 
-                            "section_id": 2043
+                            "type": "link"
                         }
                     ], 
                     "name": "See Also", 
-                    "section_id": 2042
+                    "source": "Bestiary 3"
                 }
             ]
         }
     ], 
     "hp": "11 (1d10+1)", 
-    "section_id": 2029, 
     "wisdom": "9", 
     "creature_type": "Outsider", 
     "special_qualities": "track +1, wild empathy +1", 

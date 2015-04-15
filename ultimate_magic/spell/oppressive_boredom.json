@@ -1,21 +1,29 @@
 {
-    "level_text": "Bard: 2; Sorcerer: 2; Wizard: 2", 
-    "duration": "1 round/level or until broken (see text)", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You fill your target with boredom. The target loses all interest in its current task and must make a Will save against the spell's effect in order to perform its next action. If the target fails, it takes no action that round. The boredom lasts until the duration expires or the target breaks the spell's effect with a successful Will save.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates (see text)", 
     "description": "Target loses its next action.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Oppressive Boredom", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 131, 
+    "level_text": "Bard: 2; Skald: 2; Sorcerer: 2; Wizard: 2; Arcanist: 2", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
             "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Skald", 
             "level": 2
         }, 
         {
@@ -34,15 +42,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates (see text)", 
-    "name": "Oppressive Boredom", 
-    "url": "pfsrd://Ultimate Magic/Spells/Oppressive Boredom", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -50,5 +49,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round/level or until broken (see text)", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Oppressive Boredom"
 }

@@ -5,90 +5,80 @@
     "url": "pfsrd://Ultimate Combat/Classes/Samurai", 
     "type": "class", 
     "image": "Samurai.png", 
-    "section_id": 1053, 
     "subtype": "base", 
     "hit_die": "d10", 
     "alt": "Hayato", 
     "sections": [
         {
             "body": "<p id=\"role\">While typically sworn to the service of a lord, a samurai is usually given free reign as to how he performs that service. As such, samurai can sometimes be found with other adventurers, taking the fight to the enemies of their masters. Other samurai become ronin, striving to serve an ideal without paying fealty to a lord. In either case, samurai make powerful allies, capable of withstanding nearly any harm while dispatching their foes with deadly precision. The samurai is an alternate class for the cavalier base class.</p>", 
-            "name": "Role", 
             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Role", 
-            "section_id": 1054, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "type": "section", 
+            "name": "Role", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for samurai characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
             "name": "Starting Wealth", 
             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Starting Wealth", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Staring Wealth</th><th>Average</th></tr></thead><tr class=\"odd\"><td>Samurai</td><td>3d6 &times; 10 gp</td><td>105 gp</td></tr></table>", 
-                    "name": "Table: Starting Wealth", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Starting Wealth/Table Starting Wealth", 
-                    "section_id": 1056, 
-                    "source": "Ultimate Combat", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Starting Wealth", 
+                    "source": "Ultimate Combat"
                 }
-            ], 
-            "section_id": 1055, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
-            "name": "Class Skills", 
             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table:  Samurai</caption><thead><tr><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+1</td><td>+2</td><td>+0</td><td>+0</td><td style=\"white-space: normal;\">Challenge 1/day, mount, order, resolve</td></tr><tr class=\"even\"><td>2nd</td><td>+2</td><td>+3</td><td>+0</td><td>+0</td><td style=\"white-space: normal;\">Order ability</td></tr><tr class=\"odd\"><td>3rd</td><td>+3</td><td>+3</td><td>+1</td><td>+1</td><td style=\"white-space: normal;\">Weapon expertise</td></tr><tr class=\"even\"><td>4th</td><td>+4</td><td>+4</td><td>+1</td><td>+1</td><td style=\"white-space: normal;\">Challenge 2/day, mounted archer</td></tr><tr class=\"odd\"><td>5th</td><td>+5</td><td>+4</td><td>+1</td><td>+1</td><td style=\"white-space: normal;\">Banner</td></tr><tr class=\"even\"><td>6th</td><td>+6/+1</td><td>+5</td><td>+2</td><td>+2</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>7th</td><td>+7/+2</td><td>+5</td><td>+2</td><td>+2</td><td style=\"white-space: normal;\">Challenge 3/day</td></tr><tr class=\"even\"><td>8th</td><td>+8/+3</td><td>+6</td><td>+2</td><td>+2</td><td style=\"white-space: normal;\">Order ability</td></tr><tr class=\"odd\"><td>9th</td><td>+9/+4</td><td>+6</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Greater resolve</td></tr><tr class=\"even\"><td>10th</td><td>+10/+5</td><td>+7</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Challenge 4/day</td></tr><tr class=\"odd\"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Honorable stand</td></tr><tr class=\"even\"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\">Bonus feat, demanding challenge</td></tr><tr class=\"odd\"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\">Challenge 5/day</td></tr><tr class=\"even\"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\">Greater banner</td></tr><tr class=\"odd\"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">Order ability</td></tr><tr class=\"even\"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">Challenge 6/day</td></tr><tr class=\"odd\"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">True resolve</td></tr><tr class=\"even\"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Challenge 7/day</td></tr><tr class=\"even\"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Last stand</td></tr></table>", 
-                    "name": "Table: Samurai", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Skills/Table Samurai", 
-                    "section_id": 1058, 
-                    "source": "Ultimate Combat", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Samurai", 
+                    "source": "Ultimate Combat"
                 }, 
                 {
                     "body": "<p>The samurai's class skills are Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Intimidate (Cha), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Swim (Str).</p>", 
                     "source": "Ultimate Combat", 
-                    "type": "section", 
-                    "section_id": 1059
+                    "type": "section"
                 }, 
                 {
                     "body": "<p id=\"skill-ranks-per-level\">4 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Skills/Skill Ranks per Level", 
-                    "section_id": 1060, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Skill Ranks per Level", 
+                    "source": "Ultimate Combat"
                 }
             ], 
-            "section_id": 1057, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p>The following are the class features of the samurai.</p>", 
             "name": "Class Features", 
             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Samurai are proficient with all simple and martial weapons, plus the katana, naginata, and wakizashi. Samurai are proficient with all types of armor (heavy, light, and medium) and shields (except tower shields).</p>", 
                     "source": "Ultimate Combat", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1062
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"challenge\">Once per day, a samurai can challenge a foe to combat. As a swift action, the samurai chooses one target within sight to challenge. The samurai's melee attacks deal extra damage when made against the target of his challenge. This extra damage is equal to the samurai's level. The samurai can use this ability once per day at 1st level, plus one additional time per day for every three levels beyond 1st, to a maximum of seven times per day at 19th level.</p><p>Challenging a foe requires much of the samurai's concentration. The samurai takes a &ndash;2 penalty to his Armor Class, except against attacks made by the target of his challenge.</p><p>The challenge remains in effect until the target is dead or unconscious, or until the combat ends. Each samurai's challenge also includes another effect, which is listed in the section describing the samurai's order.</p>", 
                     "name": "Challenge", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Challenge", 
                     "ability_types": {
-                        "ability_type_id": 41, 
-                        "section_id": 1063, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1063, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -97,11 +87,8 @@
                     "name": "Mount", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Mount", 
                     "ability_types": {
-                        "ability_type_id": 42, 
-                        "section_id": 1064, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1064, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -110,11 +97,8 @@
                     "name": "Order", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Order", 
                     "ability_types": {
-                        "ability_type_id": 43, 
-                        "section_id": 1065, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1065, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -122,51 +106,42 @@
                     "body": "<p id=\"resolve\">Starting at 1st level, the samurai gains resolve that he can call upon to endure even the most devastating wounds and afflictions. He can use this ability once per day at 1st level, plus one additional time per day for every two samurai levels beyond 1st. Whenever the samurai defeats the target of his challenge, he regains one daily use of his resolve, up to his maximum number of uses per day. Defeating the target of his challenge usually involves reducing the target to 0 hit points or fewer, but the GM might rule that an enemy who surrenders or flees the battle is also defeated. He can use this resolve in a number of ways.</p>", 
                     "name": "Resolve", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Resolve", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 44, 
-                        "section_id": 1066, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1066, 
-                    "source": "Ultimate Combat", 
                     "sections": [
                         {
                             "body": "<p id=\"determined\" class=\"stat-block-2\">As a standard action, the samurai can spend one use of his resolve to remove the fatigued, shaken, or sickened condition. If the samurai is at least 8th level, he can alternatively remove the exhausted, frightened, nauseated, or staggered condition. If the condition has a duration longer than 1 hour or is permanent, this ability removes the condition for 1 hour, at which time the condition returns.</p>", 
-                            "name": "Determined", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Resolve/Determined", 
-                            "section_id": 1067, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Determined", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"resolute\" class=\"stat-block-2\">Whenever the samurai is required to make a Fortitude or Will save, he can spend one use of his resolve as an immediate action to roll twice and take the better result. He must decide to use this ability before he rolls the saving throw.</p>", 
-                            "name": "Resolute", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Resolve/Resolute", 
-                            "section_id": 1068, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Resolute", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"unstoppable\" class=\"stat-block-2\">When the samurai is reduced to fewer than 0 hit points but not slain, he can spend one use of his resolve as an immediate action to instantly stabilize and remain conscious. He is staggered, but he does not fall unconscious and begin dying if he takes a standard action. He does fall unconscious if he takes additional damage from any source.</p>", 
-                            "name": "Unstoppable", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Resolve/Unstoppable", 
-                            "section_id": 1069, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Unstoppable", 
+                            "source": "Ultimate Combat"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Ultimate Combat", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "<p id=\"weapon-expertise\">At 3rd level, a samurai gains an unparalleled expertise with his chosen weapons. At 3rd level, the samurai selects either the katana, longbow, naginata, or wakizashi. The samurai can draw the selected weapon as a free action as if he had the Quick Draw feat. In addition, whenever he threatens a critical hit with the selected weapon, he gains a +2 bonus on the confirmation roll. Finally, his samurai levels stack with any fighter levels he possesses for the purposes of meeting the prerequisites for feats that specifically select his chosen weapon, such as Weapon Specialization.</p>", 
                     "name": "Weapon Expertise", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Weapon Expertise", 
                     "ability_types": {
-                        "ability_type_id": 45, 
-                        "section_id": 1070, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1070, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -175,11 +150,8 @@
                     "name": "Mounted Archer", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Mounted Archer", 
                     "ability_types": {
-                        "ability_type_id": 46, 
-                        "section_id": 1071, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1071, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -188,11 +160,8 @@
                     "name": "Banner", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Banner", 
                     "ability_types": {
-                        "ability_type_id": 47, 
-                        "section_id": 1072, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1072, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -200,19 +169,15 @@
                     "body": "<p id=\"bonus-feat\">At 6th level, and every six levels thereafter, a samurai gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as combat feats. The samurai must meet the requirements of these bonus feats.</p>", 
                     "source": "Ultimate Combat", 
                     "type": "section", 
-                    "name": "Bonus Feat", 
-                    "section_id": 1073
+                    "name": "Bonus Feat"
                 }, 
                 {
                     "body": "<p id=\"greater-resolve\">At 9th level, a samurai can spend his resolve to negate some of his most grievous wounds. After a critical hit is confirmed against him, the samurai can spend one use of his resolve as an immediate action to treat that critical hit as a normal hit. Effects that only trigger on a critical hit do not trigger when the samurai uses this ability.</p>", 
                     "name": "Greater Resolve", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Greater Resolve", 
                     "ability_types": {
-                        "ability_type_id": 48, 
-                        "section_id": 1074, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1074, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -221,11 +186,8 @@
                     "name": "Honorable Stand", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Honorable Stand", 
                     "ability_types": {
-                        "ability_type_id": 49, 
-                        "section_id": 1075, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1075, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -234,11 +196,8 @@
                     "name": "Demanding Challenge", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Demanding Challenge", 
                     "ability_types": {
-                        "ability_type_id": 50, 
-                        "section_id": 1076, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1076, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -247,11 +206,8 @@
                     "name": "Greater Banner", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Greater Banner", 
                     "ability_types": {
-                        "ability_type_id": 51, 
-                        "section_id": 1077, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1077, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -260,11 +216,8 @@
                     "name": "True Resolve", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/True Resolve", 
                     "ability_types": {
-                        "ability_type_id": 52, 
-                        "section_id": 1078, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1078, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -273,23 +226,19 @@
                     "name": "Last Stand", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Class Features/Last Stand", 
                     "ability_types": {
-                        "ability_type_id": 53, 
-                        "section_id": 1079, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1079, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1061, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The following orders can be chosen by both samurai and cavaliers, although the former are far more likely to do so. Samurai can also select any of the cavalier orders presented in the <i>Pathfinder RPG Advanced Player's Guide</i>.</p>", 
             "name": "Samurai Orders", 
             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<p>Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and obedience. This code extends not only to the samurai's lord and master, but also to his comrades and family. Samurai who follow the order of the warrior are among the most trusted and feared warriors in the land. </p>", 
@@ -297,41 +246,34 @@
                     "source": "Ultimate Combat", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders/Order of the Warrior", 
                     "type": "section", 
-                    "section_id": 1081, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"edicts\" class=\"stat-block-2\">The samurai must protect the life and lands of his lord with his life. He must be truthful and courageous, respectful to his elders and his masters, and loyal to his friends and liege. He must conduct himself with honor and dignity.</p>", 
-                            "name": "Edicts", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders/Order of the Warrior/Edicts", 
-                            "section_id": 1082, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Edicts", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"challenge\" class=\"stat-block-2\">Whenever an order of the warrior samurai declares a challenge, he receives damage reduction 1/&mdash; against attacks made by the target of his challenge. This DR increases by +1 for every four levels the samurai possesses.</p>", 
                             "source": "Ultimate Combat", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 1083
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\" class=\"stat-block-2\">An order of the warrior samurai adds Knowledge (history) (Int) and Knowledge (nobility) (Int) to his list of class skills. An order of the warrior samurai can make Knowledge (nobility) checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1) as long as the check involves the nobles or politics of his land.</p>", 
                             "source": "Ultimate Combat", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 1084
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\" class=\"stat-block-2\">A samurai who belongs to the order of the warrior gains the following abilities as he increases in level.</p><blockquote><p id=\"honor-in-all-things\" class=\"stat-block-2\"><i>Honor in All Things</i> At 2nd level, the order of the warrior samurai draws strength from his sense of honor. Whenever the samurai makes a skill check or saving throw, he can call upon his honor as a free action to grant him a +4 morale bonus on the roll. He can use this ability once per day at 2nd level, plus one additional time per day for every four levels beyond 2nd (maximum of five times per day at 18th level).</p><p id=\"way-of-the-samurai\" class=\"stat-block-2\"><i>Way of the Samurai (Ex)</i>: At 8th level, the order of the warrior samurai's sense of honor and loyalty drives him to accomplish seemingly impossible tasks. The samurai can, as a standard action, focus his mind and will. Once during the next minute, he can choose to roll an attack roll, skill check, or saving throw three times and take the best result. He must decide to use this ability before the roll is made. Using this ability expends one daily use of his resolve.</p><p id=\"strike-true\" class=\"stat-block-2\"><i>Strike True (Ex)</i>: At 15th level, the order of the warrior samurai can use his years of training and focus to make the perfect strike. When he uses this ability, the samurai makes an attack as normal. If the attack hits, it is a critical threat. The samurai must roll to confirm the critical as normal. The attack deals the maximum amount of damage, although additional dice from weapon qualities, sneak attack, and additional dice from a critical hit are rolled normally. The damage from this attack ignores any damage reduction the target might have and also causes the target to become blinded, deafened, sickened, or staggered for 1d4 rounds (the samurai's choice). Making this attack is a standard action. The samurai can use this ability once per day.</p></blockquote>", 
                             "name": "Order Abilities", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders/Order of the Warrior/Order Abilities", 
                             "ability_types": {
-                                "ability_type_id": 54, 
-                                "section_id": 1085, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1085, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }
@@ -343,58 +285,47 @@
                     "source": "Ultimate Combat", 
                     "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders/Ronin", 
                     "type": "section", 
-                    "section_id": 1086, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"becoming-ronin\">Normally, when a samurai wishes to change his order, he must undergo a lengthy process that requires him to adhere to the edicts of his new order for a period of time before receiving any benefits. This is not the case with ronin. Once a samurai decides to become a ronin, he immediately loses all of the bonuses, skills, and abilities of his old order and gains those of the ronin order. If he wishes to once again dedicate himself to another order, he must do so using the normal rules.</p>", 
-                            "name": "Becoming Ronin", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders/Ronin/Becoming Ronin", 
-                            "section_id": 1087, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Becoming Ronin", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"edicts\" class=\"stat-block-2\">Ronin follow their own personal code of ethics and honor. As such, their edicts are extremely flexible and subject to change. Each ronin should determine his own edicts, which should include at least three provisions. These edicts are subject to GM approval.</p>", 
-                            "name": "Edicts", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders/Ronin/Edicts", 
-                            "section_id": 1088, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Edicts", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"challenge\" class=\"stat-block-2\">Whenever a ronin is the target of a challenge, a smite, a quarry, or similar effect, and he issues a challenge against that character in return, the ronin receives a +1 morale bonus on attack rolls made against the target of his challenge and a +1 dodge bonus to his AC against attacks made by the target of his challenge. These bonuses increase by +1 for every four class levels the samurai possesses (to a maximum of +6 at 20th level).</p>", 
                             "source": "Ultimate Combat", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 1089
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\" class=\"stat-block-2\">A ronin adds Knowledge (local) (Int) and Survival (Wis) to his list of class skills.</p>", 
                             "source": "Ultimate Combat", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 1090
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\" class=\"stat-block-2\">A ronin samurai gains the following abilities as he increases in level.</p><blockquote><p id=\"self-reliant\" class=\"stat-block-2\"><i>Self Reliant</i> At 2nd level, the ronin learns to rely solely on himself, even in the most difficult of times. Whenever the ronin fails a Will saving throw against an effect with a duration greater than 1 round, he can attempt another saving throw at the end of the second round of the effect. If he makes this saving throw, it has the same effect as if he had made the original save (negating part or all of the effect). In addition, whenever a ronin is brought below 0 hit points, on his next turn he can roll twice to stabilize, taking the better result.</p><p id=\"without-master\" class=\"stat-block-2\"><i>Without Master (Ex)</i>: At 8th level, the ronin's fierce independence allows him to overcome staggering odds. The ronin can summon up this willpower as an immediate action, and can use it in one of three ways. He can use his willpower whenever an attack would reduce him to fewer than 0 hit points but wouldn't kill him, to instead be at 1 hit point and conscious. He can use his willpower after making an attack roll to confirm a critical hit in order to reroll the confirmation roll. Finally, he can use his willpower to take 10 on a skill check during combat, even if the situation or the skill would not normally allow him to take 10. A ronin can use this ability once during a combat.</p><p id=\"chosen-destiny\" class=\"stat-block-2\"><i>Chosen Destiny (Ex)</i>: At 15th level, the ronin is the master of his own destiny. Whenever the ronin makes a saving throw against a charm or compulsion effect, he may roll twice and take the better result. In addition, once per day, the ronin can treat any one d20 roll as if the result were a natural 20. He must declare the use of this ability before the roll is made.</p></blockquote>", 
                             "name": "Order Abilities", 
                             "url": "pfsrd://Ultimate Combat/Classes/Samurai/Samurai Orders/Ronin/Order Abilities", 
                             "ability_types": {
-                                "ability_type_id": 55, 
-                                "section_id": 1091, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1091, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }
                     ]
                 }
-            ], 
-            "section_id": 1080, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }
     ], 
     "alignment": "Any."

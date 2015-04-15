@@ -1,10 +1,10 @@
 {
     "dexterity": "18", 
     "ac": "28, touch 14, flat-footed 22 (+4 Dex, +2 dodge, +14 natural, -2 size)", 
-    "special_attacks": "breath weapon (60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day), grind, swallow whole (2d8+16 slashing damage plus 2d6 fire damage, AC 17, 20 hp)", 
+    "special_attacks": "breath weapon (60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day), grind, swallow whole (2d8+16 slashing damage plus 2d6 fire damage, AC 17, 12 hp)", 
     "intelligence": "-", 
     "racial_modifiers": "+12 Stealth (+16 in water)", 
-    "melee": "bite +25 (2d6+11), 2 slam +25 (1d8+11 plus grab)", 
+    "melee": "bite +25 (2d6+11 plus grab), 2 slam +25 (1d8+11 plus grab)", 
     "cr": "12", 
     "xp": "19,200", 
     "speed": "30 ft., swim 60 ft.", 
@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Leviathan/Clockwork Leviathan/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A clockwork leviathan's breath weapon is a powerful jet of scorching steam&mdash;it functions equally well above and under water.", 
                     "name": "Breath Weapon", 
                     "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Leviathan/Clockwork Leviathan/Special Abilities/Breath Weapon", 
                     "ability_types": {
-                        "ability_type_id": 123, 
-                        "section_id": 395, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 395, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -47,11 +46,8 @@
                     "name": "Grind", 
                     "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Leviathan/Clockwork Leviathan/Special Abilities/Grind", 
                     "ability_types": {
-                        "ability_type_id": 124, 
-                        "section_id": 396, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 396, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -60,42 +56,32 @@
                     "name": "Swallow Whole", 
                     "url": "pfsrd://Bestiary 3/Monsters/Clockwork/Clockwork Leviathan/Clockwork Leviathan/Special Abilities/Swallow Whole", 
                     "ability_types": {
-                        "ability_type_id": 125, 
-                        "section_id": 397, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 397, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 394, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Clockwork leviathans are equally capable of functioning on land and in water. Sailors who are haunted by the memories of these treacherous machines need not exaggerate their yarns, for the reality of an aquatic construct such as this holds enough terror in its story for even the hardiest of seafarers.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 398
+            "type": "section"
         }, 
         {
             "body": "<p>A clockwork leviathan's numerous metal plates and links are made of such resilient material that they never rust, even after long exposure to the briny sea waters that leviathans often patrol. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 399
+            "type": "section"
         }, 
         {
             "body": "<p>Clockwork leviathans are 25 feet long and weigh just over 3 tons.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 400
+            "type": "section"
         }
     ], 
     "hp": "128 (16d10+40)", 
     "weaknesses": "vulnerable to electricity", 
     "reach": "15 ft.", 
-    "section_id": 393, 
     "wisdom": "11", 
     "creature_type": "Construct", 
     "special_qualities": "swift reactions, winding", 

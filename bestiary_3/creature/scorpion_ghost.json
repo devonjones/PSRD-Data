@@ -27,26 +27,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Scorpion/Ghost/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Scorpion/Ghost/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 538, 
-                        "section_id": 1864, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1864, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Ghost Scorpion Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Scorpion/Ghost/Special Abilities/Poison/Ghost Scorpion Venom", 
                             "contracted": "injury", 
-                            "section_id": 1865, 
                             "effect": "1 Strength damage", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -54,22 +47,22 @@
                             "save": "Fortitude DC 13", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1863, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>So named for their eerie, translucent carapaces, ghost scorpions are nocturnal desert hunters. A ghost scorpion's body is 3 feet long with a 3-foot long tail, and it weighs 45 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1866
+            "type": "section"
         }
     ], 
     "hp": "13 (2d8+4)", 
-    "section_id": 1862, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
     "name": "Scorpion, Ghost", 

@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Mummy/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "All creatures within a 30-foot radius that see a mummy must make a DC 16 Will save or be paralyzed by fear for 1d4 rounds. Whether or not the save is successful, that creature cannot be affected again by the same mummy's despair ability for 24 hours. This is a paralysis and a mind-affecting fear affect. The save DC is Charisma-based.", 
                     "name": "Despair", 
                     "url": "pfsrd://Bestiary/Monsters/Mummy/Special Abilities/Despair", 
                     "ability_types": {
-                        "ability_type_id": 469, 
-                        "section_id": 2202, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2202, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -45,14 +44,6 @@
                     "body": "The save DC is Charisma-based. Curse and disease&mdash;slam:", 
                     "name": "Mummy Rot", 
                     "url": "pfsrd://Bestiary/Monsters/Mummy/Special Abilities/Mummy Rot", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 470, 
-                        "section_id": 2203, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 2203, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Mummy Rot", 
@@ -60,7 +51,6 @@
                             "url": "pfsrd://Bestiary/Monsters/Mummy/Special Abilities/Mummy Rot/Mummy Rot", 
                             "type": "affliction", 
                             "contracted": "injury", 
-                            "section_id": 2204, 
                             "effect": "1d6 Constitution damage and 1d6 Charisma damage", 
                             "onset": "1 minute", 
                             "subtype": "disease", 
@@ -71,40 +61,37 @@
                                 {
                                     "body": "Mummy rot is both a curse and disease and can only be cured if the curse is first removed, at which point the disease can be magically removed. Even after the curse element of mummy rot is lifted, a creature suffering from it cannot recover naturally over time. Anyone casting a conjuration (healing) spell on the afflicted creature must succeed on a DC 20 caster level check, or the spell is wasted and the healing has no effect. Anyone who dies from mummy rot turns to dust and cannot be raised without a resurrection or greater magic.", 
                                     "source": "Bestiary", 
-                                    "type": "section", 
-                                    "section_id": 2205
+                                    "type": "section"
                                 }
                             ]
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2201, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Created to guard the tombs of the honored dead, mummies are ever vigilant for those who would desecrate their sacred ground.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2206
+            "type": "section"
         }, 
         {
             "body": "<p>Mummies are created through a rather lengthy and gruesome embalming process, during which all of the body's major organs are removed and replaced with dried herbs and flowers. After this process, the flesh is anointed with sacred oils and wrapped in purified linens. The creator then finishes the ritual with a <i>create undead</i> spell.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2207
+            "type": "section"
         }, 
         {
             "body": "<p>Although most mummies are created merely as guardians and remain loyal to their charge until their destruction, certain powerful mummies have much more free will. The majority are at least 10th-level clerics, and are often kings or pharaohs who have called upon dark gods or sinister necromancers to bind their souls to their bodies after death&mdash;usually as a means to extend their rule beyond the grave, but at times simply to escape what they fear will be an eternity of torment in their own afterlife.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2208
+            "type": "section"
         }
     ], 
     "hp": "60 (8d8+24)", 
     "weaknesses": "vulnerable to fire", 
-    "section_id": 2200, 
     "wisdom": "15", 
     "creature_type": "Undead", 
     "dr": "5/-", 

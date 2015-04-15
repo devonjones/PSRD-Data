@@ -26,26 +26,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Jellyfish/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution based. Tentacles:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Jellyfish/Giant/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 306, 
-                        "section_id": 1239, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1239, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Giant Jellyfish Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Jellyfish/Giant/Special Abilities/Poison/Giant Jellyfish Venom", 
                             "contracted": "injury", 
-                            "section_id": 1240, 
                             "effect": "1d4 Constitution", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -53,31 +46,30 @@
                             "save": "Fortitude DC 17. ", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1238, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Unlike its smaller cousins, the giant jellyfish is an active predator that seeks out prey. Capable of slithering through narrow cracks, a giant jellyfish is a horrifying beast to encounter lurking in the hold of a flooded or sunken ship. Other species of these vermin exist, as summarized on the following table&mdash;these variants often have different types of poison or other abilities like translucency or constriction.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1241
+            "type": "section"
         }, 
         {
             "body": "<table><caption>Table: Jellyfish Types</caption><thead><tr><th>Species</th><th>CR</th><th>Size</th><th>HD</th></tr></thead><tr class=\"odd\"><td>Death's head jellyfish</td><td>1</td><td>Small</td><td>2</td></tr><tr class=\"even\"><td>Crimson jellyfish</td><td>4</td><td>Medium</td><td>5</td></tr><tr class=\"odd\"><td>Sapphire jellyfish</td><td>11</td><td>Huge</td><td>12</td></tr><tr class=\"even\"><td>Vampire jellyfish</td><td>14</td><td>Gargantuan</td><td>16</td></tr><tr class=\"odd\"><td>Whaler jellyfish</td><td>17</td><td>Colossal</td><td>20</td></tr></table>", 
-            "name": "Table: Jellyfish Types", 
             "url": "pfsrd://Bestiary 2/Monsters/Jellyfish/Giant/Table Jellyfish Types", 
-            "section_id": 1242, 
-            "source": "Bestiary 2", 
-            "type": "table"
+            "type": "table", 
+            "name": "Table: Jellyfish Types", 
+            "source": "Bestiary 2"
         }
     ], 
     "hp": "94 (9d8+54)", 
     "reach": "15 ft.", 
-    "section_id": 1237, 
     "wisdom": "11", 
     "defensive_abilities": "amorphous", 
     "creature_type": "Vermin", 

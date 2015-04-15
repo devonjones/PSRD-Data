@@ -26,26 +26,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Spider/Giant Crab/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Spider/Giant Crab/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 566, 
-                        "section_id": 1997, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1997, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Giant Crab Spider Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Spider/Giant Crab/Special Abilities/Poison/Giant Crab Spider Venom", 
                             "contracted": "injury", 
-                            "section_id": 1998, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -53,28 +46,27 @@
                             "save": "Fortitude DC 14 (includes +2 racial bonus)", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1996, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Giant crab spiders are dangerous ambush predators that live in dense forest vegetation. Though crab spiders are not web spinners, they are truly gifted climbers and use this talent to clamber up into places where they can observe  wide areas from on high. Named for their curious scuttling walk and wide-legged stance, giant crab spiders are rarely larger than a typical  adult halfling.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1999
+            "type": "section"
         }
     ], 
     "hp": "11 (2d8+2)", 
-    "section_id": 1995, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
-    "special_qualities": "camouflage", 
     "name": "Spider, Giant Crab", 
     "base_attack": "+1", 
-    "skills": "Acrobatics +10, Climb +24, Perception +4, Stealth +10 (+25 when stationary)", 
+    "skills": "Acrobatics +10, Climb +24, Perception +4, Stealth +10 (+21 when stationary)", 
     "reflex": "+2", 
     "cmd": "12 (24 vs. trip)", 
     "cmb": "+0", 

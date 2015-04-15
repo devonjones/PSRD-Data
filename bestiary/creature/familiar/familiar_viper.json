@@ -27,26 +27,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Familiar/Viper/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Familiar/Viper/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 331, 
-                        "section_id": 1460, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1460, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Viper Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Familiar/Viper/Special Abilities/Poison/Viper Venom", 
                             "contracted": "injury", 
-                            "section_id": 1461, 
                             "effect": "1d2 Constituton", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -54,23 +47,23 @@
                             "save": "Fortitude DC 9", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1459, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Vipers are not particularly aggressive snakes, but their poisonous bite can be deadly.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1462
+            "type": "section"
         }
     ], 
     "hp": "3 (1d8-1)", 
     "reach": "0 ft.", 
-    "section_id": 1458, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Familiar, Viper", 

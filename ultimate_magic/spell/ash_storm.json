@@ -1,21 +1,36 @@
 {
-    "level_text": "Druid: 3; Sorcerer: 3; Wizard: 3; Witch: 3", 
-    "duration": "1 round/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S, M/DF (a pinch of ash)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>Driving ash blocks all sight (even darkvision) within the spell's area of effect, and falling cinders cause the ground in the area to become difficult terrain.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "Hamper vision and movement.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Ash Storm", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 15, 
+    "level_text": "Druid: 3; Hunter: 3; Sorcerer: 3; Wizard: 3; Arcanist: 3; Hunter: 3; Witch: 3; Hunter: 3", 
+    "descriptor": [
+        "fire"
+    ], 
+    "range": "long (400 ft. + 40 ft./level)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
             "class": "Druid", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
             "level": 3
         }, 
         {
@@ -38,14 +53,6 @@
             "name": "Area"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Ash Storm", 
-    "url": "pfsrd://Ultimate Magic/Spells/Ash Storm", 
-    "descriptor": [
-        "fire"
-    ], 
-    "range": "long (400 ft. + 40 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -61,5 +68,13 @@
             "text": "a pinch of ash", 
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M/DF (a pinch of ash)", 
+    "name": "Ash Storm"
 }

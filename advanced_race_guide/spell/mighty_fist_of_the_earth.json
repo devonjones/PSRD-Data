@@ -1,18 +1,17 @@
 {
-    "level_text": "cleric: 1; oracle: 1; druid: 1", 
-    "duration": "instantaneous", 
-    "source": "Advanced Race Guide", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>You create a fist-sized rock that flies toward one enemy. Make an unarmed strike attack roll against the target as if it were in your threatened area. If the attack is successful, the rock deals bludgeoning damage to the target as if you had hit the target with your unarmed strike. If you have a <i>ki</i> pool, as long as you have at least 1 point in your <i>ki</i> pool, the rock counts as a <i>ki</i> strike.</p><p>At 4th level, a qinggong monk  may select this spell as a <i>ki</i> power costing 1 <i>ki</i> point to activate (if the monk has 0 <i>ki</i> points after activating this <i>ki</i> power, the rock does not count as a <i>ki</i> strike).</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "You create a fist-sized rock that flies toward one enemy.", 
+    "source": "Advanced Race Guide", 
+    "url": "pfsrd://Advanced Race Guide/Races/Oreads/New Racial Rules/Oread Spells/Mighty Fist Of The Earth", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 2289, 
+    "level_text": "cleric: 1; oracle: 1; warpriest: 1; druid: 1; hunter: 1", 
+    "descriptor": [
+        "earth"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Cleric", 
@@ -23,7 +22,15 @@
             "level": 1
         }, 
         {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
             "class": "Oracle", 
+            "level": 1
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 1
         }
     ], 
@@ -34,14 +41,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Mighty Fist Of The Earth", 
-    "url": "pfsrd://Advanced Race Guide/Races/Oreads/New Racial Rules/Oread Spells/Mighty Fist Of The Earth", 
-    "descriptor": [
-        "earth"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -52,5 +51,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "instantaneous", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Mighty Fist Of The Earth"
 }

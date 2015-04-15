@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Naga/Lunar/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
-                    "body": "Once per day, by weaving and coiling its body and hissing as a standard action, a lunar naga can cause its scales to shimmer and glow with moonlike radiance. All creatures within 30 feet must make a DC 17 Will save to avoid becoming fascinated. The lunar naga can maintain this fascination effect as long as it concentrates; fascinated creatures follow the still-glowing naga if it moves as long as it maintains the effect by concentrating. The save DC is Charisma-based.", 
+                    "body": "Once per day, by weaving and coiling its body and hissing as a standard action, a lunar naga can cause its scales to shimmer and glow with moonlike radiance. All creatures within 30 feet who can see the naga must make a DC 17 Will save to avoid becoming fascinated. The lunar naga can maintain this fascination effect as long as it concentrates; fascinated creatures follow the still-glowing naga if it moves as long as it maintains the effect by concentrating. The save DC is Charisma-based.", 
                     "name": "Hypnosis", 
                     "url": "pfsrd://Bestiary 3/Monsters/Naga/Lunar/Special Abilities/Hypnosis", 
                     "ability_types": {
-                        "ability_type_id": 456, 
-                        "section_id": 1540, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1540, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -51,21 +50,12 @@
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Naga/Lunar/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 457, 
-                        "section_id": 1541, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1541, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Lunar Naga Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Naga/Lunar/Special Abilities/Poison/Lunar Naga Venom", 
                             "contracted": "injury", 
-                            "section_id": 1542, 
                             "effect": "1d3 Constitution and 1 Wisdom", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -73,42 +63,39 @@
                             "save": "Fortitude DC 18", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A lunar naga casts spells as a 5th-level sorcerer.", 
                     "source": "Bestiary 3", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1543
+                    "name": "Spells"
                 }
-            ], 
-            "section_id": 1539, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Lunar nagas are patient watchers of the night sky. They enjoy cosmology and believe strongly in astrology, maintaining a handful of complex zodiacs. A few lunar nagas even bear knowledge of the unspeakable things from the dark spaces between the stars. A lunar naga stretches over 10 feet from its pale face to the tip of its tail, and weighs close to 200 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1544
+            "type": "section"
         }, 
         {
-            "body": "<p>Nocturnal creatures, lunar nagas often live in ruined towers or atop mountains&shy;&mdash;any place open to the sky at night. There they peer through astrological devices, closely monitoring passing celestial markers, eager to decipher more of the universe. Those living underground make nightly trips to the open sky when they can. Cloudy nights make lunar nagas agitated, and a creature is more likely to run afoul of a lunar naga on these dark evenings. </p>", 
+            "body": "<p>Nocturnal creatures, lunar nagas often live in ruined towers or atop mountains&mdash;any place open to the sky at night. There they peer through astrological devices, closely monitoring passing celestial markers, eager to decipher more of the universe. Those living underground make nightly trips to the open sky when they can. Cloudy nights make lunar nagas agitated, and a creature is more likely to run afoul of a lunar naga on these dark evenings. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1545
+            "type": "section"
         }, 
         {
             "body": "<p>Lunar nagas sometimes lead small cults of sky-watchers. These followers aid the nagas in recording tome upon tome of calculations of the stars and planets moving through the inky black of the night sky. In small doses tempered with water, fruit juices, and alcohol, lunar naga venom is mildly hallucinogenic. The nagas' cultist allies often take the substance as a ritualistic drug.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1546
+            "type": "section"
         }
     ], 
     "hp": "68 (8d8+32)", 
     "reach": "5 ft.", 
-    "section_id": 1538, 
     "wisdom": "16", 
     "creature_type": "Aberration", 
     "name": "Naga, Lunar", 

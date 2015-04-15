@@ -24,7 +24,7 @@
             "spell-like abilities": "(CL 10th; concentration +14)<p class=\"stat-block-2\">3/day-<i>detect thoughts </i>(DC 16), <i>sending</i> (to the hive queen only)</p>"
         }, 
         {
-            "bard spells known": "(caster level 7th; concentration +11)<p class=\"stat-block-2\">3rd (2)-<i>confusion </i>(DC 18), <i>good hope</i></p><p class=\"stat-block-2\">2nd (4)-<i>heroism</i>, <i>invisibility</i>, <i>sound burst</i> (DC 16), <i>suggestion</i> (DC 17)</p><p class=\"stat-block-2\">1st (5)-<i>charm person</i> (DC 16), <i>comprehend languages</i>, <i>cure light wounds</i>, <i>hideous laughter</i> (DC 16), <i>silent image</i> (DC 15)</p><p class=\"stat-block-2\">0 (at will)-<i>dancing lights</i>, <i>daze</i> (DC 15), <i>detect magic</i>, <i>mending</i>, <i>message</i>, <i>prestidigitation</i></p>"
+            "bard spells known": "(CL 7th; concentration +11)<p class=\"stat-block-2\">3rd (2/day)-<i>confusion </i>(DC 18), <i>good hope</i></p><p class=\"stat-block-2\">2nd (4/day)-<i>heroism</i>, <i>invisibility</i>, <i>sound burst</i> (DC 16), <i>suggestion</i> (DC 17)</p><p class=\"stat-block-2\">1st (5/day)-<i>charm person</i> (DC 16), <i>comprehend languages</i>, <i>cure light wounds</i>, <i>hideous laughter</i> (DC 16), <i>silent image</i> (DC 15)</p><p class=\"stat-block-2\">0 (at will)-<i>dancing lights</i>, <i>daze</i> (DC 15), <i>detect magic</i>, <i>mending</i>, <i>message</i>, <i>prestidigitation</i></p>"
         }
     ], 
     "type": "creature", 
@@ -36,17 +36,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 4", 
             "url": "pfsrd://Bestiary 4/Monsters/Formian/Formian Taskmaster/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A formian taskmaster can inspire competence or inspire courage as a 7th-level bard (typically 20 rounds/day). The taskmaster's performance is purely mental and only affects formians from its own hive within telepathic range.", 
                     "name": "Mental Motivator", 
                     "url": "pfsrd://Bestiary 4/Monsters/Formian/Formian Taskmaster/Special Abilities/Mental Motivator", 
                     "ability_types": {
-                        "ability_type_id": 224, 
-                        "section_id": 764, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 764, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -55,11 +54,8 @@
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 4/Monsters/Formian/Formian Taskmaster/Special Abilities/Poison", 
                     "ability_types": {
-                        "ability_type_id": 225, 
-                        "section_id": 765, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 765, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -67,35 +63,27 @@
                     "body": "A formian taskmaster casts spells as a 7th-level bard. It favors enchantment and illusion spells.", 
                     "source": "Bestiary 4", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 766
+                    "name": "Spells"
                 }
-            ], 
-            "section_id": 763, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
-            "body": "<p>Formian taskmasters are merchants, traders, diplomats, and spies, and particularly talented taskmasters may even advise the queen. Taskmasters can often be found outside the hive engaging in commerce or routine diplomatic missions. While traveling, a taskmaster is usually accompanied by 3\u20135 workers and at least 5 warriors.</p>", 
+            "body": "<p>Formian taskmasters are merchants, traders, diplomats, and spies, and particularly talented taskmasters may even advise the queen. Taskmasters can often be found outside the hive engaging in commerce or routine diplomatic missions. While traveling, a taskmaster is usually accompanied by 3-5 workers and at least 5 warriors.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 767
+            "type": "section"
         }, 
         {
             "body": "<p>When dealing with other creatures, formians recognize that their telepathy can be off-putting and use normal speech, although their mandibles are not well suited for the task and their voices are often hoarse and difficult to understand.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 768
+            "type": "section"
         }, 
         {
             "body": "<p>Like myrmarchs, taskmasters are highly competitive and take great pride in their successes. Notable accomplishments are carved into their carapaces and highlighted with the use of bright inks, precious metals, or gems. Formian society is largely free of the crime that is common in other humanoid societies, but formians do have occasional duels within a caste. Two taskmasters might have a duel over promotions, a trade route, or an insult. These duels are rarely lethal for fear of weakening the hive, and taskmasters who are too aggressive attract the wrong kind of attention from the myrmarchs. Dueling victories are often recorded on taskmasters' carapaces alongside their other major accomplishments.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 769
+            "type": "section"
         }
     ], 
     "hp": "85 (10d10+30)", 
-    "section_id": 762, 
     "wisdom": "16", 
     "creature_type": "Monstrous Humanoid", 
     "special_qualities": "formian traits, mental motivator (20 rounds/day)", 

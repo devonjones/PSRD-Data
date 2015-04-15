@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A giant tick can grab targets of any size, and has a +8 racial bonus on grapple checks rather than the normal +4 bonus most creatures with grab possess.", 
                     "name": "Grab", 
                     "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities/Grab", 
                     "ability_types": {
-                        "ability_type_id": 496, 
-                        "section_id": 2003, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2003, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -45,21 +44,12 @@
                     "body": "The DC is Constitution-based. Bite:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 497, 
-                        "section_id": 2004, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2004, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Red ache", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Tick/Giant/Special Abilities/Disease/Red ache", 
                             "contracted": "injury", 
-                            "section_id": 2005, 
                             "effect": "1d6 Strength damage", 
                             "onset": "1d3 days", 
                             "subtype": "disease", 
@@ -68,22 +58,22 @@
                             "save": "Fortitude DC 13", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2002, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>In areas where large creatures like megafauna or dinosaurs dwell, the giant tick behaves much like its smaller kin&mdash;it lies in wait in the undergrowth, and when a suitable host passes by, it drops onto the body to feed. In other areas, these vermin are much more aggressive, and actively hunt smaller prey like dogs, livestock, or even humanoids. A giant tick drains blood quickly, but once it has caused 6 points of Constitution damage, it drops off, sated, to crawl away to digest. A giant tick is 3 feet long and weighs 50 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 2006
+            "type": "section"
         }
     ], 
     "hp": "13 (2d8+4)", 
-    "section_id": 2001, 
     "wisdom": "11", 
     "creature_type": "Vermin", 
     "name": "Tick, Giant", 

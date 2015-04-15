@@ -8,19 +8,30 @@
     "type": "spell", 
     "spell_resistance": "yes", 
     "casting_time": "1 minute", 
-    "level_text": "Druid: 1; Elementalist Wizard: 1; Sorcerer: 1; Wizard: 1", 
-    "section_id": 7, 
+    "level_text": "Arcanist: 1; Druid: 1; Elementalist Wizard: 1; Hunter: 1; Hunter: 1; Sorcerer: 1; Wizard: 1", 
     "descriptor": [
         "air"
     ], 
     "range": "touch", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 1
+        }, 
+        {
             "class": "Druid", 
             "level": 1
         }, 
         {
             "class": "Elementalist Wizard", 
+            "level": 1
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
+            "class": "Hunter", 
             "level": 1
         }, 
         {
@@ -51,11 +62,10 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Caster Level</th><th>Wind Force</th></tr></thead><tbody><tr class=\"odd\"><td>1st&ndash;3rd</td><td>Light</td></tr><tr class=\"even\"><td>4th&ndash;9th</td><td>Moderate</td></tr><tr class=\"odd\"><td>10th&ndash;15th</td><td>Strong</td></tr><tr class=\"even\"><td>16th or higher</td><td>Severe</td></tr></tbody></table>", 
-            "name": "Caster Level", 
             "url": "pfsrd://Advanced Players Guide/Spells/Alter Winds/Caster Level", 
-            "section_id": 8, 
-            "source": "Advanced Player's Guide", 
-            "type": "table"
+            "type": "table", 
+            "name": "Caster Level", 
+            "source": "Advanced Player's Guide"
         }
     ], 
     "component_text": "V, S", 

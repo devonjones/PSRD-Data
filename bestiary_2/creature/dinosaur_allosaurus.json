@@ -27,31 +27,39 @@
         {
             "body": "<p>A huge, swift hunter, the allosaurus measures 30 feet in length and weighs 10,000 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 611
+            "type": "section"
         }, 
         {
-            "body": "<p id=\"starting-statistics\">:<b> Size </b>Medium, <b>Speed</b> 40 ft.; <b>AC</b> +4 natural armor; <b>Attack</b> bite (1d6), 2 claws (1d4); <b>Ability Scores</b> Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10; <b>Special Qualities</b> low-light vision, scent.</p>", 
+            "ac": "+4 natural armor", 
             "name": "Allosaurus", 
+            "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Allosaurus/Allosaurus", 
+            "speed": "40 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6), 2 claws (1d4)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10", 
             "sections": [
                 {
-                    "body": "<p id=\"7th-level-advancement\"><b>Size </b>Large; <b>AC </b>+2 natural armor; <b>Attack</b> bite (1d8), 2 claws (1d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> grab, pounce.</p>", 
+                    "ac": "+2 natural armor", 
                     "name": "7th-Level Advancement", 
+                    "level": "7th", 
                     "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Allosaurus/Allosaurus/7th-Level Advancement", 
-                    "section_id": 613, 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d8), 2 claws (1d6)", 
                     "source": "Bestiary 2", 
-                    "type": "section"
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "type": "animal_companion", 
+                    "special_qualities": "grab, pounce.", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 612, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            "special_qualities": "low-light vision, scent.", 
+            "size": "Medium"
         }
     ], 
     "hp": "93 (11d8+44)", 
     "reach": "15 ft.", 
-    "section_id": 610, 
     "wisdom": "15", 
     "creature_type": "Animal", 
     "name": "Dinosaur, Allosaurus", 

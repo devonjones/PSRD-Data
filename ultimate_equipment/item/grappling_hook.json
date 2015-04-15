@@ -1,7 +1,20 @@
 {
     "name": "Grappling Hook", 
     "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Grappling Hook", 
-    "type": "item", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Common</td><td>1 gp</td><td>4 lbs.</td></tr><tr class=\"even\"><td>Mithral</td><td>1,0001 gp</td><td>2 lbs.</td></tr></table>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Grappling Hook/Type", 
+            "type": "table", 
+            "name": "Type", 
+            "source": "Ultimate Equipment"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook have an AC of 5.</p>", 
+            "source": "Ultimate Equipment", 
+            "type": "section"
+        }
+    ], 
     "misc": {
         "null": {
             "Gear Type": "Item"
@@ -15,22 +28,6 @@
             "Weight": "4 lbs."
         }
     }, 
-    "section_id": 508, 
     "source": "Ultimate Equipment", 
-    "sections": [
-        {
-            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Common</td><td>1 gp</td><td>4 lbs.</td></tr><tr class=\"even\"><td>Mithral</td><td>1,0001 gp</td><td>2 lbs.</td></tr></table>", 
-            "name": "Type", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Grappling Hook/Type", 
-            "section_id": 509, 
-            "source": "Ultimate Equipment", 
-            "type": "table"
-        }, 
-        {
-            "body": "<p class=\"stat-block\">Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook have an AC of 5.</p>", 
-            "source": "Ultimate Equipment", 
-            "type": "section", 
-            "section_id": 510
-        }
-    ]
+    "type": "item"
 }

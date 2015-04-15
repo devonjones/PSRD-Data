@@ -1,18 +1,17 @@
 {
-    "level_text": "Adept: 2; Alchemist: 2; Cleric: 2; Inquisitor: 2; Oracle: 2", 
-    "duration": "1 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p><i>Aid</i> grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at caster level 10th).</p>", 
+    "school": "enchantment", 
+    "saving_throw": "none", 
     "description": "+1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Aid", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "section_id": 6, 
+    "level_text": "Adept: 2; Alchemist: 2; Cleric: 2; Inquisitor: 2; Oracle: 2; Shaman: 2; Warpriest: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "touch", 
     "levels": [
         {
             "class": "Adept", 
@@ -33,6 +32,14 @@
         {
             "class": "Oracle", 
             "level": 2
+        }, 
+        {
+            "class": "Shaman", 
+            "level": 2
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 2
         }
     ], 
     "descriptor_text": "mind-affecting", 
@@ -42,14 +49,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "none", 
-    "name": "Aid", 
-    "url": "pfsrd://Core Rulebook/Spells/Aid", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -60,5 +59,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Aid"
 }

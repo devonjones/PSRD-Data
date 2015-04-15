@@ -1,18 +1,18 @@
 {
-    "level_text": "antipaladin: 2; cleric: 3; oracle: 3; inquisitor: 3; witch: 3", 
-    "duration": "1 round/level", 
-    "source": "Advanced Race Guide", 
-    "component_text": "V, S", 
-    "subschool_text": "phantasm", 
-    "subschool": [
-        "phantasm"
-    ], 
-    "type": "spell", 
     "body": "<p>With a word and a gesture, you instill such apprehension about attacking you in your target that doing so causes it mental distress and pain. Each time the target makes an attack against you, targets you with a harmful spell, or otherwise takes and action that would harm you, it takes 2d6 points of nonlethal damage. </p>", 
+    "school": "illusion", 
+    "saving_throw": "Will negates", 
     "description": "With a word and a gesture, you instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.", 
+    "source": "Advanced Race Guide", 
+    "url": "pfsrd://Advanced Race Guide/Races/Hobgoblins/New Racial Rules/Hobgoblin Spells/Agonizing Rebuke", 
     "spell_resistance": "yes.", 
     "casting_time": "1 standard action", 
-    "section_id": 1653, 
+    "level_text": "antipaladin: 2; cleric: 3; oracle: 3; warpriest: 3; inquisitor: 3; witch: 3", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 level)", 
     "levels": [
         {
             "class": "Antipaladin", 
@@ -31,6 +31,10 @@
             "level": 3
         }, 
         {
+            "class": "Warpriest", 
+            "level": 3
+        }, 
+        {
             "class": "Witch", 
             "level": 3
         }
@@ -42,15 +46,6 @@
             "name": "Target"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "Will negates", 
-    "name": "Agonizing Rebuke", 
-    "url": "pfsrd://Advanced Race Guide/Races/Hobgoblins/New Racial Rules/Hobgoblin Spells/Agonizing Rebuke", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 level)", 
     "components": [
         {
             "type": "V"
@@ -58,5 +53,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "phantasm", 
+    "subschool": [
+        "phantasm"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Agonizing Rebuke"
 }

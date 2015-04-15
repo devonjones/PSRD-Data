@@ -21,7 +21,7 @@
     "fortitude": "+1", 
     "spells": [
         {
-            "spell-like abilities": "(CL 1st; concentration \u20131)<p class=\"stat-block-2\">At will-<i>prestidigitation</i></p><p class=\"stat-block-2\">3/day-<i>grease</i> (DC 9), <i>mage hand</i>, <i>open/close</i></p>"
+            "spell-like abilities": "(CL 1st; concentration -1)<p class=\"stat-block-2\">At will-<i>prestidigitation</i></p><p class=\"stat-block-2\">3/day-<i>grease</i> (DC 9), <i>mage hand</i>, <i>open/close</i></p>"
         }
     ], 
     "type": "creature", 
@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 4", 
             "url": "pfsrd://Bestiary 4/Monsters/Gremlin/Grimple/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
-                    "body": "All grimples are infested with gremlin lice. Whenever a warm-blooded creature comes in physical contact with a grimple, there is a 25% chance it contracts gremlin lice. 1d4 rounds later, the creature begins to itch. The itch proves so distracting that for the duration of the infestation, the individual takes a \u20131 penalty on all concentration and initiative checks. Fortunately, these annoying parasites cannot live long on non-gremlins, and only survive for 24 hours. Submersion in water or exposure to freezing temperatures also kills a gremlin lice infestation.", 
+                    "body": "All grimples are infested with gremlin lice. Whenever a warm-blooded creature comes in physical contact with a grimple, there is a 25% chance it contracts gremlin lice. 1d4 rounds later, the creature begins to itch. The itch proves so distracting that for the duration of the infestation, the individual takes a -1 penalty on all concentration and initiative checks. Fortunately, these annoying parasites cannot live long on non-gremlins, and only survive for 24 hours. Submersion in water or exposure to freezing temperatures also kills a gremlin lice infestation.", 
                     "name": "Gremlin Lice", 
                     "url": "pfsrd://Bestiary 4/Monsters/Gremlin/Grimple/Special Abilities/Gremlin Lice", 
                     "ability_types": {
-                        "ability_type_id": 292, 
-                        "section_id": 978, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 978, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -52,41 +51,31 @@
                     "name": "Putrid Vomit", 
                     "url": "pfsrd://Bestiary 4/Monsters/Gremlin/Grimple/Special Abilities/Putrid Vomit", 
                     "ability_types": {
-                        "ability_type_id": 293, 
-                        "section_id": 979, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 979, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 977, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Grimples are filthy urban scavengers that lurk beneath the eaves of abandoned buildings, clock towers, belfries, and steeples. Sickly-looking and ragged, they shed constantly as a result of the small parasites they host. Quick climbers, grimples also have loose flaps of skin that stretch between their arms and allow them to glide short distances.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 980
+            "type": "section"
         }, 
         {
             "body": "<p>Grimples despise humans and show it by attacking drunks, unlocking stables, torturing guard dogs, and loosening hanging storefront signs so that they fall on people. This does not stop them from sometimes allying with humans and other humanoids, but such collaborations are always temporary, as a grimple is ever plotting betrayal. Although a grimple is often arrogant and overbearing, its ability to vomit at will (and propensity for doing so constantly) remains its most unappealing quality.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 981
+            "type": "section"
         }, 
         {
             "body": "<p>Voracious omnivores, grimples feast off garbage. They frequently target inns, restaurants, and other places where they can scavenge a steady supply of food.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 982
+            "type": "section"
         }
     ], 
     "hp": "4 (1d6+1)", 
     "reach": "0 ft.", 
-    "section_id": 976, 
     "wisdom": "11", 
     "creature_type": "Fey", 
     "special_qualities": "gremlin lice", 

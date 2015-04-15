@@ -28,26 +28,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Spider/Ogre/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Spider/Ogre/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 567, 
-                        "section_id": 2002, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2002, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Ogre Spider Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Spider/Ogre/Special Abilities/Poison/Ogre Spider Venom", 
                             "contracted": "injury", 
-                            "section_id": 2003, 
                             "effect": "1d4 Strength and 1d4 Dexterity", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -55,23 +48,23 @@
                             "save": "Fortitude DC 18 (includes +2 racial bonus)", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2001, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Ogre spiders are brutal, terrifying hunters that spin tangled webs capable of encasing entire trees. So-named because the arrangement of its eyes and mandibles gives it a face unnervingly similar to that of an ogre as much as for their size, ogre spiders can fit into nooks and tunnels far more narrow than one might expect.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2004
+            "type": "section"
         }
     ], 
     "hp": "52 (7d8+21)", 
     "reach": "15 ft.", 
-    "section_id": 2000, 
     "wisdom": "12", 
     "creature_type": "Vermin", 
     "special_qualities": "compression", 

@@ -12,7 +12,7 @@
     "size": "Medium", 
     "languages": "Common, Dwarven, Infernal", 
     "strength": "27", 
-    "constitution": "10", 
+    "constitution": "-", 
     "immune": "acid, cold, electricity, undead traits", 
     "treasure": "NPC gear (+1 full plate, +1 greatsword, composite longbow [+8 Str] with 20 arrows, belt of giant strength +2, other treasure)", 
     "init": "+5", 
@@ -28,12 +28,11 @@
         {
             "body": "<p>Undying tyrants and eternal champions of the undead, graveknights arise from the corpses of the most nefarious warlords and disgraced heroes&mdash;villains too merciless to submit to the shackles of death. They bear the same weapons and regalia they did in life, though warped or empowered by their profane resurrection. The legions they once held also flock to them in death, ready to serve their wicked ambitions once more. A graveknight's essence is fundamentally tied to its armor, the bloodstained trappings of its battle lust. This armor becomes an icon of its perverse natures, transforming into a monstrous second skin over the husk of desiccated flesh and scarred bone locked within.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1047
+            "type": "section"
         }, 
         {
-            "name": "Creating a Graveknight", 
             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>&ldquo;Graveknight&rdquo; is an acquired template that can be added to any living creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most graveknights were once humanoids. A graveknight uses the base creature's statistics and abilities except as noted here.</p>", 
@@ -41,7 +40,6 @@
                     "source": "Bestiary 3", 
                     "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight", 
                     "type": "section", 
-                    "section_id": 1049, 
                     "subtype": "template", 
                     "abbrev": "CR +2", 
                     "sections": [
@@ -49,90 +47,74 @@
                             "body": "<p>Same as base creature +2. </p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Challenge Rating", 
-                            "section_id": 1050
+                            "name": "Challenge Rating"
                         }, 
                         {
                             "body": "<p>Any evil. </p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Alignment", 
-                            "section_id": 1051
+                            "name": "Alignment"
                         }, 
                         {
                             "body": "<p>The graveknight's type changes to undead (augmented). Do not recalculate class Hit Dice, BAB, or saves.</p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Type", 
-                            "section_id": 1052
+                            "name": "Type"
                         }, 
                         {
                             "body": "<p>A graveknight gains darkvision 60 ft.</p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Senses", 
-                            "section_id": 1053
+                            "name": "Senses"
                         }, 
                         {
                             "body": "<p>A graveknight emanates the following aura.</p><p><i>Sacrilegious Aura</i> A graveknight constantly exudes an aura of intense evil and negative energy in a 30-foot radius. This aura functions as the spell <i>desecrate</i> and uses the graveknight's armor as an altar of sorts to double the effects granted. The graveknight constantly gains the benefits of this effect (including the bonus hit points, as this aura is part of the graveknight's creation). In addition, this miasma of fell energies hinders the channeling of positive energy. Any creature that attempts to summon positive energy in this area&mdash;such as through a cleric's channel energy ability, a paladin's lay on hands, or any spell with the healing subtype&mdash;must make a concentration check with a DC equal to 10 + 1/2 the graveknight's Hit Dice + the graveknight's Charisma modifier. If the character fails, the effect is expended but does not function.</p>", 
                             "name": "Aura", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Aura", 
                             "ability_types": {
-                                "ability_type_id": 302, 
-                                "section_id": 1054, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1054, 
                             "source": "Bestiary 3", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p>Natural armor improves by +4.</p>", 
-                            "name": "Armor Class", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Armor Class", 
-                            "section_id": 1055, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Armor Class", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p>Change all racial Hit Dice to d8s. Class Hit Dice are unaffected. As an undead, a graveknight uses its Charisma modifier to determine bonus hit points.</p>", 
-                            "name": "Hit Dice", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Hit Dice", 
-                            "section_id": 1056, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Hit Dice", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p>A graveknight gains channel resistance +4; DR 10/magic; and immunity to cold, electricity, and any additional energy type noted by its ruinous revivification special quality. A graveknight also gains spell resistance equal to its augmented CR + 11.</p><p>The graveknight also gains the following ability.</p><p class=\"stat-block-2\"><i>Rejuvenation</i> One day after a graveknight is destroyed, its armor begins to rebuild the undead horror's body. This process takes 1d10 days&mdash;if the body is destroyed before that time passes, the armor merely starts the process anew. After this time has elapsed, the graveknight wakens fully healed.</p>", 
                             "name": "Defensive Abilities", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Defensive Abilities", 
                             "ability_types": {
-                                "ability_type_id": 303, 
-                                "section_id": 1057, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1057, 
                             "source": "Bestiary 3", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p>A graveknight gains a slam attack if the base creature didn't have one. Damage for the slam depends on the graveknight's size (see <i>Bestiary</i> 302).</p>", 
-                            "name": "Attacks", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Attacks", 
-                            "section_id": 1058, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Attacks", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p>A graveknight gains the following special attacks. Save DCs are equal to 10 + 1/2 the graveknight's HD + the graveknight's Charisma modifier unless otherwise noted.</p><p class=\"stat-block-2\"><i>Channel Destruction</i> Any weapon a graveknight wields seethes with energy, and deals an additional 1d6 points of damage for every 4 Hit Dice the graveknight has. This additional damage is of the energy type determined by the ruinous revivification special quality.</p><p class=\"stat-block-2\"><i>Devastating Blast (Su)</i>Three times per day, the graveknight may unleash a 30-foot cone of energy as a standard action. This blast deals 2d6 points of damage for every 3 Hit Dice a graveknight has (Reflex for half). This damage is of the energy type determined by the graveknight's ruinous revivification special quality.</p><p class=\"stat-block-2\"><i>Undead Mastery (Su)</i>As a standard action, a graveknight can attempt to bend any undead creature within 50 feet to its will. The targeted undead must succeed at a Will save or fall under the graveknight's control. This control is permanent for unintelligent undead; an undead with an Intelligence score is allowed an additional save every day to break free from the graveknight's control. A creature that successfully saves cannot be affected again by the same graveknight's undead mastery for 24 hours.</p><p>A graveknight can control 5 Hit Dice of undead creatures for every Hit Die it has. If the graveknight exceeds this number, the excess from earlier uses of the ability becomes uncontrolled, as per <i>animate dead</i>.</p>", 
                             "name": "Special Attacks", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Special Attacks", 
                             "ability_types": {
-                                "ability_type_id": 304, 
-                                "section_id": 1059, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1059, 
                             "source": "Bestiary 3", 
                             "type": "ability"
                         }, 
@@ -141,56 +123,47 @@
                             "name": "Special Qualities", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Special Qualities", 
                             "ability_types": {
-                                "ability_type_id": 305, 
-                                "section_id": 1060, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1060, 
                             "source": "Bestiary 3", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p>Str +6, Int +2, Wis +4, Cha +4. As an undead creature, a graveknight has no Constitution score.</p>", 
-                            "name": "Ability Scores", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Ability Scores", 
-                            "section_id": 1061, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Ability Scores", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p>Graveknights gain a +8 racial bonus on Intimidate, Perception, and Ride checks.</p>", 
-                            "name": "Skills", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Skills", 
-                            "section_id": 1062, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Skills", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p>Graveknights gain Improved Initiative, Mounted Combat, Ride-By Attack, and Toughness as bonus feats.</p>", 
-                            "name": "Feats", 
                             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Creating a Graveknight/Graveknight/Feats", 
-                            "section_id": 1063, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Feats", 
+                            "source": "Bestiary 3"
                         }
                     ]
                 }
             ], 
-            "section_id": 1048, 
-            "source": "Bestiary 3", 
-            "type": "section"
+            "name": "Creating a Graveknight", 
+            "source": "Bestiary 3"
         }, 
         {
             "body": "<p>In death, the graveknight's life force lingers on in its armor, not its corpse, in much the same way that a lich's essence is bound within a phylactery. Unless every part of a graveknight's armor is ruined along with its body, a graveknight can rejuvenate after it is destroyed. A typical suit of full plate graveknight armor has hardness 10 and 45 hit points, though armor with enhancements or made of special materials proves more difficult to destroy. Merely breaking a graveknight's armor does not destroy it; it must be ruined, such as by being disintegrated, taken to the Positive Energy Plane, or thrown into the heart of a volcano.</p>", 
-            "name": "Graveknight Armor", 
             "url": "pfsrd://Bestiary 3/Monsters/Graveknight/Graveknight Armor", 
-            "section_id": 1064, 
-            "source": "Bestiary 3", 
-            "type": "section"
+            "type": "section", 
+            "name": "Graveknight Armor", 
+            "source": "Bestiary 3"
         }
     ], 
     "hp": "139 (10d10+80)", 
-    "section_id": 1046, 
     "wisdom": "12", 
     "defensive_abilities": "bravery +3, channel resistance +4, rejuvenation", 
     "creature_type": "Undead", 
@@ -203,7 +176,7 @@
     "skills": "Climb +13, Intimidate +25, Knowledge (nobility) +12, Perception +19, Ride +19, Swim +13", 
     "reflex": "+6", 
     "cmd": "29", 
-    "cmb": "+18", 
+    "cmb": "+20", 
     "will": "+6; +3 vs. fear", 
     "url": "pfsrd://Bestiary 3/Monsters/Graveknight", 
     "sr": "22", 

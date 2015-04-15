@@ -1,6 +1,7 @@
 {
     "dexterity": "20", 
     "ac": "23, touch 15, flat-footed 18 (+5 Dex, +8 natural)", 
+    "special_attacks": "lustful dreams", 
     "intelligence": "14", 
     "resist": "acid 10, electricity 10", 
     "melee": "2 claws +14 (1d6+3 plus disease)", 
@@ -21,7 +22,7 @@
     "fortitude": "+6", 
     "spells": [
         {
-            "spell-like abilities": "(CL 12th; concentration +19)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i></p><p class=\"stat-block-2\">At will-<i>charm monster</i> (DC 20), <i>dimension door</i> (self plus 50 lbs. of objects only), <i>misdirection</i> (DC 19)</p><p class=\"stat-block-2\">1/day-<i>insect plague</i>, summon (level 3, 1d4 dorus 50%)</p>"
+            "spell-like abilities": "(CL 12th; concentration +19)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i></p><p class=\"stat-block-2\">At will-<i>charm monster</i> (DC 21), <i>dimension door</i> (self plus 50 lbs. of objects only), <i>misdirection</i> (DC 19)</p><p class=\"stat-block-2\">1/day-<i>insect plague</i>, summon (level 3, 1d4 dorus 50%)</p>"
         }
     ], 
     "type": "creature", 
@@ -33,26 +34,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Div/Pairaka/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "<p>A pairaka carries two diseases. Its claws infect targets with bubonic plague, and any willing contact with its skin (such as through caressing, grappling, or more) exposes victims to the shakes. Claw:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary 3/Monsters/Div/Pairaka/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 188, 
-                        "section_id": 649, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 649, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Pairaka Bubonic Plague", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Div/Pairaka/Special Abilities/Disease/Pairaka Bubonic Plague", 
-                            "contracted": "injury", 
-                            "section_id": 650, 
+                            "contracted": "Claw&mdash;injury", 
                             "effect": "1d4 Strength damage, 1 Charisma damage, and target is fatigued", 
                             "onset": "1 day", 
                             "subtype": "disease", 
@@ -66,62 +60,55 @@
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Div/Pairaka/Special Abilities/Disease/Pairaka Shakes", 
                             "contracted": "contact", 
-                            "section_id": 651, 
                             "effect": "1d8 Dexterity damage", 
                             "onset": "1 day", 
                             "subtype": "disease", 
                             "cure": "2 consecutive saves", 
                             "frequency": "1/day", 
-                            "save": "Fortitude DC 13", 
+                            "save": "Fortitude DC 17", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Pairakas can torment sleeping creatures. While an intelligent creature sleeps, a pairaka can slip into the target's mind and twist its dreams to lusty nocturnal visions. The victim must be asleep for the pairaka to use this ability and the pairaka must be within 100 feet. If the victim fails a DC 21 Will save, it experiences vivid hallucinations of a lurid nature that leave it breathless and fatigued upon waking. The victim, even a depraved soul, rarely considers the sexual nature of these dreams enjoyable, as the images exploit any number of taboos the pairaka suspects its victim might harbor. The save DC is Charisma-based. Creatures that do not sleep or dream are immune to this effect.", 
                     "name": "Lustful Dreams", 
                     "url": "pfsrd://Bestiary 3/Monsters/Div/Pairaka/Special Abilities/Lustful Dreams", 
                     "ability_types": {
-                        "ability_type_id": 189, 
-                        "section_id": 652, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 652, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 648, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A sensual pairing of seduction and destruction, pairakas embody the corruptive nature of unbridled lust. Pairakas spend little time in their true form while on the Material Plane, choosing to cloak themselves instead in alluring forms to seduce potential victims, ruin relationships, and foment obsession. In its true form, a pairaka's body is a foul landscape of blazing rashes, oozing pustules, and taut blisters suggestive of the corruptions it harbors, bodily and spiritually.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 653
+            "type": "section"
         }, 
         {
             "body": "<p>Pairakas pride themselves on perversion. They love nothing more than turning lovers against one another or destroying the bonds of friendship. Pairakas feed off this slow torment and savor each broken heart or disappointment. They use lust and sexuality as their primary tools, wielding taboos and carnal appetites to sever once-friendly relationships. Pairakas also use their seduction to spread disease, charming victims into physical contact.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 654
+            "type": "section"
         }, 
         {
             "body": "<p>Just as all other divs suffer a weakness, pairakas cannot stand the color red. They never wear the color or enter a place that is painted red, and they always attack creatures that are garbed in clothes of a crimson hue first.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 655
+            "type": "section"
         }, 
         {
             "body": "<p>Pairakas stand 6 feet tall and weigh around 150 pounds. Their skin color varies widely between individuals.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 656
+            "type": "section"
         }
     ], 
     "hp": "76 (9d10+27)", 
-    "section_id": 647, 
     "wisdom": "18", 
     "creature_type": "Outsider", 
     "special_qualities": "change shape (any Small or Medium animal or humanoid; polymorph)", 

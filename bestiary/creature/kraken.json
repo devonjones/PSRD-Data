@@ -33,33 +33,25 @@
         {
             "body": "<p>1/day&mdash;<i>control weather, control winds, dominate monster</i> (DC 24, animal only), <i>resist energy</i></p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1926
+            "type": "section"
         }, 
         {
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Kraken/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A kraken can emit a cloud of black, venomous ink in an 80-foot spread once per minute as a free action while underwater. This cloud provides total concealment, which the kraken can use to escape a fight that is going badly. Creatures within the cloud are considered to be in darkness. In addition, the ink is toxic, functioning as contact poison against all creatures caught within it. The ink cloud persists for 1 minute before dispersing. The save DC against the poison effect is Constitution-based.", 
                     "name": "Ink Cloud", 
                     "url": "pfsrd://Bestiary/Monsters/Kraken/Special Abilities/Ink Cloud", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 413, 
-                        "section_id": 1928, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1928, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Kraken Ink Cloud", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Kraken/Special Abilities/Ink Cloud/Kraken Ink Cloud", 
                             "contracted": "contact", 
-                            "section_id": 1929, 
                             "effect": "1 Strength damage plus nausea", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -67,18 +59,20 @@
                             "save": "Fortitude DC 29. ", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A kraken can jet backward as a full-round action, at a speed of 280 feet. It must move in a straight line, but does not provoke attacks of opportunity while jetting.", 
                     "name": "Jet", 
                     "url": "pfsrd://Bestiary/Monsters/Kraken/Special Abilities/Jet", 
                     "ability_types": {
-                        "ability_type_id": 414, 
-                        "section_id": 1930, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1930, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -87,11 +81,8 @@
                     "name": "Rend Ship", 
                     "url": "pfsrd://Bestiary/Monsters/Kraken/Special Abilities/Rend Ship", 
                     "ability_types": {
-                        "ability_type_id": 415, 
-                        "section_id": 1931, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1931, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -100,35 +91,26 @@
                     "name": "Tenacious Grapple", 
                     "url": "pfsrd://Bestiary/Monsters/Kraken/Special Abilities/Tenacious Grapple", 
                     "ability_types": {
-                        "ability_type_id": 416, 
-                        "section_id": 1932, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1932, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1927, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The legendary kraken is one of the greatest of sailors' fears, for here is a creature the size of a whale, one that can strike from the unseen depths below, can command the winds and weather that a ship needs to move, and possesses the cruel intellect of the world's most creative and spiteful criminals. Some believe krakens to be a punishment of the gods, while others hold them to be the true lords of the deep, with the air-breathing races naught but their cattle.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1933
+            "type": "section"
         }, 
         {
             "body": "<p>A kraken measures nearly 100 feet in length and weighs 4,000 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1934
+            "type": "section"
         }
     ], 
     "hp": "290 (20d10+180)", 
     "reach": "20 ft. (60 ft. with arm, 40 ft. with tentacle)", 
-    "section_id": 1925, 
     "wisdom": "20", 
     "creature_type": "Magical Beast", 
     "special_qualities": "tenacious grapple", 

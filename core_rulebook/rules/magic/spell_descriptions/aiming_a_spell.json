@@ -2,120 +2,106 @@
     "body": "<p>You must make choices about whom a spell is to affect or where an effect is to originate, depending on a spell's type. The next entry in a spell description defines the spell's target (or targets), its effect, or its area, as appropriate.</p>", 
     "name": "Aiming a Spell", 
     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell", 
+    "type": "section", 
+    "source": "Core Rulebook", 
     "sections": [
         {
             "body": "<p>Some spells have a target or targets. You cast these spells on creatures or objects, as defined by the spell itself. You must be able to see or touch the target, and you must specifically choose that target. You do not have to select your target until you finish casting the spell.</p><p>If the target of a spell is yourself (the Target line of the spell description includes &ldquo;You&rdquo;), you do not receive a saving throw, and spell resistance does not apply. The saving throw and spell resistance lines are omitted from such spells.</p><p>Some spells restrict you to willing targets only. Declaring yourself as a willing target is something that can be done at any time (even if you're flat-footed or it isn't your turn). Unconscious creatures are automatically considered willing, but a character who is conscious but immobile or helpless (such as one who is bound, cowering, grappling, paralyzed, pinned, or stunned) is not automatically willing.</p><p>Some spells allow you to redirect the effect to new targets or areas after you cast the spell. Redirecting a spell is a move action that does not provoke attacks of opportunity.</p>", 
-            "name": "Target or Targets", 
             "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Target or Targets", 
-            "section_id": 3558, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Target or Targets", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Some spells create or summon things rather than affecting things that are already present.</p><p>You must designate the location where these things are to appear, either by seeing it or defining it. Range determines how far away an effect can appear, but if the effect is mobile, after it appears it can move regardless of the spell's range.</p>", 
             "name": "Effect", 
             "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Effect", 
+            "type": "section", 
+            "source": "Core Rulebook", 
             "sections": [
                 {
                     "body": "<p id=\"ray\">Some effects are rays. You aim a ray as if using a ranged weapon, though typically you make a ranged touch attack rather than a normal ranged attack. As with a ranged weapon, you can fire into the dark or at an invisible creature and hope you hit something. You don't have to see the creature you're trying to hit, as you do with a targeted spell. Intervening creatures and obstacles, however, can block your line of sight or provide cover for the creature at which you're aiming.</p><p>If a ray spell has a duration, it's the duration of the effect that the ray causes, not the length of time the ray itself persists.</p><p>If a ray spell deals damage, you can score a critical hit just as if it were a weapon. A ray spell threatens a critical hit on a natural roll of 20 and deals double damage on a successful critical hit.</p>", 
-                    "name": "Ray", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Effect/Ray", 
-                    "section_id": 3560, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Ray", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"spread\">Some effects, notably clouds and fogs, spread out from a point of origin, which must be a grid intersection. The effect can extend around corners and into areas that you can't see. Figure distance by actual distance traveled, taking into account turns the spell effect takes. When determining distance for spread effects, count around walls, not through them. As with movement, do not trace diagonals across corners. You must designate the point of origin for such an effect, but you need not have line of effect (see below) to all portions of the effect.</p>", 
                     "name": "Spread", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Effect/Spread", 
+                    "type": "section", 
+                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<table id=\"spell-areas\" class=\"diagram\"><caption>SpellAreas</caption><tr><td align=\"center\"><img src=\"/pathfinderRPG/prd/image/SpellAreas.jpg\" /></td></tr></table>", 
-                            "name": "SpellAreas", 
                             "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Effect/Spread/SpellAreas", 
-                            "section_id": 3562, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "SpellAreas", 
+                            "source": "Core Rulebook"
                         }
-                    ], 
-                    "section_id": 3561, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    ]
                 }
-            ], 
-            "section_id": 3559, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p id=\"area\">Some spells affect an area. Sometimes a spell description specifies a specially defined area, but usually an area falls into one of the categories defined below.</p><p>Regardless of the shape of the area, you select the point where the spell originates, but otherwise you don't control which creatures or objects the spell affects. The point of origin of a spell is always a grid intersection. When determining whether a given creature is within the area of a spell, count out the distance from the point of origin in squares just as you do when moving a character or when determining the range for a ranged attack. The only difference is that instead of counting from the center of one square to the center of the next, you count from intersection to intersection.</p><p>You can count diagonally across a square, but remember that every second diagonal counts as 2 squares of distance. If the far edge of a square is within the spell's area, anything within that square is within the spell's area. If the spell's area only touches the near edge of a square, however, anything within that square is unaffected by the spell.</p>", 
             "name": "Area", 
             "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Area", 
+            "type": "section", 
+            "source": "Core Rulebook", 
             "sections": [
                 {
                     "body": "<p id=\"burst-emanation-or-spread\">Most spells that affect an area function as a burst, an emanation, or a spread. In each case, you select the spell's point of origin and measure its effect from that point.</p><p>A burst spell affects whatever it catches in its area, including creatures that you can't see. It can't affect creatures with total cover from its point of origin (in other words, its effects don't extend around corners). The default shape for a burst effect is a sphere, but some burst spells are specifically described as cone-shaped. A burst's area defines how far from the point of origin the spell's effect extends.</p><p>An emanation spell functions like a burst spell, except that the effect continues to radiate from the point of origin for the duration of the spell. Most emanations are cones or spheres.</p><p>A spread spell extends out like a burst but can turn corners. You select the point of origin, and the spell spreads out a given distance in all directions. Figure the area the spell effect fills by taking into account any turns the spell effect takes.</p>", 
-                    "name": "Burst, Emanation, or Spread", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Area/Burst/Emanation/or Spread", 
-                    "section_id": 3564, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Burst, Emanation, or Spread", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"cone-cylinder-line-or-sphere\">Most spells that affect an area have a particular shape.</p><p>A cone-shaped spell shoots away from you in a quarter-circle in the direction you designate. It starts from any corner of your square and widens out as it goes. Most cones are either bursts or emanations (see above), and thus won't go around corners.</p><p>When casting a cylinder-shaped spell, you select the spell's point of origin. This point is the center of a horizontal circle, and the spell shoots down from the circle, filling a cylinder. A cylinder-shaped spell ignores any obstructions within its area.</p><p>A line-shaped spell shoots away from you in a line in the direction you designate. It starts from any corner of your square and extends to the limit of its range or until it strikes a barrier that blocks line of effect. A line-shaped spell affects all creatures in squares through which the line passes.</p><p>A sphere-shaped spell expands from its point of origin to fill a spherical area. Spheres may be bursts, emanations, or spreads.</p>", 
-                    "name": "Cone, Cylinder, Line, or Sphere", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Area/Cone/Cylinder/Line/or Sphere", 
-                    "section_id": 3565, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cone, Cylinder, Line, or Sphere", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"creatures\">A spell with this kind of area affects creatures directly (like a targeted spell), but it affects all creatures in an area of some kind rather than individual creatures you select. The area might be a spherical burst, a cone-shaped burst, or some other shape.</p><p>Many spells affect &ldquo;living creatures,&rdquo; which means all creatures other than constructs and undead. Creatures in the spell's area that are not of the appropriate type do not count against the creatures affected.</p>", 
-                    "name": "Creatures", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Area/Creatures", 
-                    "section_id": 3566, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Creatures", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>A spell with this kind of area affects objects within an area you select (as Creatures, but affecting objects instead).</p>", 
-                    "name": "Objects", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Area/Objects", 
-                    "section_id": 3567, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Objects", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>A spell can have a unique area, as defined in its description.</p>", 
-                    "name": "Other", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Area/Other", 
-                    "section_id": 3568, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Other", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"x-s-shapeable\">If an area or effect entry ends with &ldquo;(S),&rdquo; you can shape the spell. A shaped effect or area can have no dimension smaller than 10 feet. Many effects or areas are given as cubes to make it easy to model irregular shapes. Three-dimensional volumes are most often needed to define aerial or underwater effects and areas.</p>", 
                     "name": "Shapeable", 
                     "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Area/Shapeable", 
-                    "section_id": 3569, 
                     "source": "Core Rulebook", 
                     "abbrev": "S", 
                     "type": "section"
                 }
-            ], 
-            "section_id": 3563, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p id=\"line-of-effect\">A line of effect is a straight, unblocked path that indicates what a spell can affect. A line of effect is canceled by a solid barrier. It's like line of sight for ranged weapons, except that it's not blocked by fog, darkness, and other factors that limit normal sight.</p><p>You must have a clear line of effect to any target that you cast a spell on or to any space in which you wish to create an effect. You must have a clear line of effect to the point of origin of any spell you cast.</p><p>A burst, cone, cylinder, or emanation spell affects only an area, creature, or object to which it has line of effect from its origin (a spherical burst's center point, a cone-shaped burst's starting point, a cylinder's circle, or an emanation's point of origin).</p><p>An otherwise solid barrier with a hole of at least 1 square foot through it does not block a spell's line of effect. Such an opening means that the 5-foot length of wall containing the hole is no longer considered a barrier for purposes of a spell's line of effect.</p>", 
-            "name": "Line of Effect", 
             "url": "pfsrd://Core Rulebook/Rules/Magic/Spell Descriptions/Aiming a Spell/Line of Effect", 
-            "section_id": 3570, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Line of Effect", 
+            "source": "Core Rulebook"
         }
-    ], 
-    "section_id": 3557, 
-    "source": "Core Rulebook", 
-    "type": "section"
+    ]
 }

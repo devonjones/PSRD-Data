@@ -1,6 +1,6 @@
 {
     "dexterity": "15", 
-    "ac": "20, touch 12, flat-footed 17; (+2 Dex, +1 dodge, +8 natural, -1 size)", 
+    "ac": "20, touch 12, flat-footed 17 (+2 Dex, +1 dodge, +8 natural, -1 size)", 
     "special_attacks": "web (+7 ranged, DC 18, hp 9)", 
     "intelligence": "15", 
     "racial_modifiers": "+4 Stealth", 
@@ -38,26 +38,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 312, 
-                        "section_id": 1272, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1272, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Drider Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities/Poison/Drider Venom", 
                             "contracted": "injury", 
-                            "section_id": 1273, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -65,49 +58,44 @@
                             "save": "Fortitude DC 18", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A drider casts spells as a 6th-level cleric, sorcerer, or wizard, but does not gain any other class abilities.", 
                     "source": "Bestiary", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1274
+                    "name": "Spells"
                 }, 
                 {
                     "body": "Although a drider is Large, its upper torso is the same size as that of a Medium humanoid's upper torso. As a result, it wields weapons as if it were one size category smaller than its actual size (Medium for most driders).", 
                     "name": "Undersized Weapons", 
                     "url": "pfsrd://Bestiary/Monsters/Drider/Special Abilities/Undersized Weapons", 
                     "ability_types": {
-                        "ability_type_id": 313, 
-                        "section_id": 1275, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1275, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1271, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Created from the body of a drow, warped and mutated through special poisons and elixirs to take on the characteristics of a giant spider, the drider is a dangerous creature.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1276
+            "type": "section"
         }, 
         {
             "body": "<p>Driders are sexually dimorphic. A female drider's lower spider body is sleek and graceful, often similar to a black widow's body, while its upper drow torso retains its alluring curves and beautiful face (with the exception of sharp, poisonous fangs). A male drider's lower body is bulky like a tarantula, while its upper body is wiry and bears a hideous face more spider than drow, complete with fanged mandibles.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1277
+            "type": "section"
         }
     ], 
     "hp": "76 (9d8+36)", 
     "reach": "5 ft.", 
-    "section_id": 1270, 
     "wisdom": "16", 
     "creature_type": "Aberration", 
     "special_qualities": "undersized weapons", 

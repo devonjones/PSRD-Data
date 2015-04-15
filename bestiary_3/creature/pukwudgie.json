@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Pukwudgie/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Any creature slain by a pukwudgie's poisonous quills rises in 24 hours as a zombie. Undead created by this ability are not immediately under the control of a pukwudgie, but they receive a &ndash;4 penalty on saves against a pukwudgie's control undead spell-like ability.", 
                     "name": "Spawn Undead", 
                     "url": "pfsrd://Bestiary 3/Monsters/Pukwudgie/Special Abilities/Spawn Undead", 
                     "ability_types": {
-                        "ability_type_id": 512, 
-                        "section_id": 1748, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1748, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -51,21 +50,12 @@
                     "body": "The save DC is Constitution-based. Quill:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Pukwudgie/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 513, 
-                        "section_id": 1749, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 1749, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Pukwudgie Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Pukwudgie/Special Abilities/Poison/Pukwudgie Venom", 
-                            "contracted": "injury", 
-                            "section_id": 1750, 
+                            "contracted": "Claw or quill&mdash;injury", 
                             "effect": "1d3 Constitution damage", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -73,51 +63,46 @@
                             "save": "Fortitude DC 18", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A pukwudgie can fire two of its quills as a ranged attack as a standard action. These quills have a range increment of 40 feet. Any creature attacking a pukwudgie with light or one-handed melee weapons, natural weapons, or an unarmed strike takes 1d3 points of piercing damage. A creature that grapples a pukwudgie takes 2d4 points of piercing damage. Anyone who takes damage from these quills is also exposed to the pukwudgie's poison.", 
                     "name": "Quills", 
                     "url": "pfsrd://Bestiary 3/Monsters/Pukwudgie/Special Abilities/Quills", 
                     "ability_types": {
-                        "ability_type_id": 514, 
-                        "section_id": 1751, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1751, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1747, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The vile pukwudgie is a small, hunchbacked humanoid covered with long, sharp quills. These quills, like those of a porcupine, help protect the small creature but are also dangerous offensive weapons, for the quills hold a deadly poison that animates those it slays as zombies. This necromantic nature, along with their penchant for torment and sadistic ways, makes pukwudgies evil to the core. A pukwudgie stands 3-1/2 feet tall and weighs a little more than 30 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1752
+            "type": "section"
         }, 
         {
             "body": "<p>Pukwudgies are frequently found in the company of undead. This retinue usually consists of zombies and skeletons created via their poisonous quills ability or their ability to animate dead bodies. They have a strong preference for animating the bodies of dead animals over other creatures, and often use undead animals as mounts.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1753
+            "type": "section"
         }, 
         {
             "body": "<p>A pukwudgie usually stays away from well-traveled areas and humanoid settlements, but may sometimes slip into small villages in the night to steal children. The little horrors enjoy the tender flesh of newborn babies immensely, and are often willing to go through great personal risk to secure infantile repasts when they are available. Their delight in arson only further makes them a bane of small villages.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1754
+            "type": "section"
         }
     ], 
     "hp": "85 (9d10+36)", 
-    "section_id": 1746, 
     "wisdom": "14", 
     "creature_type": "Monstrous Humanoid", 
     "special_qualities": "change shape (porcupine, beast shape II)", 
-    "ranged": "2 quills +14 (1d4+2 plus poison)", 
+    "ranged": "2 quills +15 (1d4+2 plus poison)", 
     "name": "Pukwudgie", 
     "base_attack": "+9", 
     "skills": "Bluff +10, Heal +10, Knowledge (arcana) +11, Knowledge (religion) +11, Perception +13, Spellcraft +11, Stealth +16", 

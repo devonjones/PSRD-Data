@@ -28,65 +28,57 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Dinosaur/Tyrannosaurus/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A tyrannosaurus applies twice its Strength modifier to bite damage.", 
                     "name": "Powerful Bite", 
                     "url": "pfsrd://Bestiary/Monsters/Dinosaur/Tyrannosaurus/Special Abilities/Powerful Bite", 
                     "ability_types": {
-                        "ability_type_id": 223, 
-                        "section_id": 1039, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1039, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1038, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The tyrannosaurus is an apex predator that measures 40 feet long and weighs 14,000 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1040
+            "type": "section"
         }, 
         {
             "ac": "+4 natural armor", 
             "name": "Tyrannosaurus", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Dinosaur/Tyrannosaurus/Tyrannosaurus", 
+            "speed": "30 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d8)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10", 
             "sections": [
                 {
                     "ac": "+3 natural armor", 
                     "name": "7th-Level Advancement", 
                     "level": "7th", 
                     "url": "pfsrd://Bestiary/Monsters/Dinosaur/Tyrannosaurus/Tyrannosaurus/7th-Level Advancement", 
-                    "section_id": 1042, 
                     "subtype": "advancement", 
                     "attack": "bite (2d6)", 
                     "source": "Bestiary", 
-                    "special_qualities": "grab, powerful bite", 
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
                     "type": "animal_companion", 
-                    "ability_scores": "Str +8, Dex &ndash;2, Con +4", 
+                    "special_qualities": "grab, powerful bite.", 
                     "size": "Large"
                 }
             ], 
-            "section_id": 1041, 
-            "subtype": "base", 
-            "attack": "bite (1d8)", 
-            "type": "animal_companion", 
-            "special_qualities": "low-light vision, scent", 
-            "speed": "30 ft.", 
-            "ability_scores": "Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10", 
+            "special_qualities": "low-light vision, scent.", 
             "size": "Medium"
         }
     ], 
     "hp": "153 (18d8+72)", 
     "reach": "20 ft.", 
-    "section_id": 1037, 
     "wisdom": "15", 
     "creature_type": "Animal", 
     "special_qualities": "powerful bite", 

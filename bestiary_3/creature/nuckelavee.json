@@ -1,7 +1,7 @@
 {
     "dexterity": "24", 
     "ac": "23, touch 17, flat-footed 15 (+7 Dex, +1 dodge, +6 natural, -1 size)", 
-    "special_attacks": "breath weapon (30-ft. cone, 10d6 damage plus disease, Reflex DC 21 for half, usable every 1d4 rounds), trample (1d6+7, DC 21)", 
+    "special_attacks": "breath weapon (30-ft. cone, 10d6 damage plus disease, Reflex DC 21 for half, usable every 1d4 rounds), trample (1d6+9, DC 21)", 
     "intelligence": "13", 
     "melee": "mwk longsword +11 (1d8+9/19-20), bite +10 (1d8+6 plus disease), 2 hooves +5 (1d6+3 plus disease)", 
     "cr": "9", 
@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Nuckelavee/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A nuckelavee's breath weapon is a cone of withering foulness that causes painful welts, cramps, and bleeding, and only harms living creatures&mdash;this damage bypasses all energy resistance and damage reduction. Non-creature plants in the area are affected as if by a blight spell. Any creature that fails its Reflex save against the breath weapon must make a DC 21 Fortitude save or contract mortasheen (see below). The save DC is Constitution-based.", 
                     "name": "Breath Weapon", 
                     "url": "pfsrd://Bestiary 3/Monsters/Nuckelavee/Special Abilities/Breath Weapon", 
                     "ability_types": {
-                        "ability_type_id": 472, 
-                        "section_id": 1589, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1589, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -52,57 +51,47 @@
                     "body": "The save DC is Constitution-based.", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary 3/Monsters/Nuckelavee/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 473, 
-                        "section_id": 1590, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 1590, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Mortasheen", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Nuckelavee/Special Abilities/Disease/Mortasheen", 
                             "contracted": "contact", 
-                            "section_id": 1591, 
                             "effect": "1d4 Constitution and target is fatigued", 
+                            "onset": "immediate", 
                             "subtype": "disease", 
                             "cure": "2 consecutive saves. Animals take a &ndash;2 penalty on their saves against this disease.", 
                             "frequency": "1/day", 
                             "save": "Fortitude DC 21", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1588, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The dreaded nuckelavee is a manifestation of pollution and filth, be it the natural decay of a red tide or the intrusive pollution of sewage and other urban waste. A nuckelavee is a living irony&mdash;a carrier of disease and a spreader of corruption that unleashes its wrath against other sources that bring corruption into the world. The corruption spread by nuckelavees only serves to further their own sense of self-loathing and overall rage. While nuckelavees might, incidentally, carry out vengeance for the victims of such pollution, defending the denizens of their rivers, swamps, and bogs is not their primary drive, for they revel in inflicting the very corruption they hate and enjoy little more than watching their enemies sicken and die.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1592
+            "type": "section"
         }, 
         {
             "body": "<p>Folktales tell of talismans to carry&mdash;fetishes of seaweed garlands, horsehair soaked in brine, or vials of sanctified seawater&mdash;or of prayers to recite to ward away nuckelavees or convince them the bearer is innocent. In truth, however, these old solutions offer no protection from the vile plague-bearers.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1593
+            "type": "section"
         }, 
         {
             "body": "<p>A nuckelavee is the same size as a horse.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1594
+            "type": "section"
         }
     ], 
     "hp": "104 (11d6+66)", 
     "reach": "5 ft.", 
-    "section_id": 1587, 
     "wisdom": "17", 
     "creature_type": "Fey", 
     "special_qualities": "amphibious, undersized weapons", 

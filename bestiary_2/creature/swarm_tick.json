@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "If a creature leaves a tick swarm's square, the swarm takes 1d6 points of damage to reflect the loss of its numbers as several ticks cling to the victim. A creature with ticks clinging to it takes swarm damage at the end of its turn each round. As a full round action, the creature can remove the ticks with a DC 20 Reflex save. At least 10 points of damage from any area effect destroys all clinging ticks. The save DC is Dexterity-based.", 
                     "name": "Cling", 
                     "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities/Cling", 
                     "ability_types": {
-                        "ability_type_id": 498, 
-                        "section_id": 2009, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2009, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -45,21 +44,12 @@
                     "body": "The DC is Constitution-based. Bite:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 499, 
-                        "section_id": 2010, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2010, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Bubonic Plague", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick/Special Abilities/Disease/Bubonic Plague", 
                             "contracted": "injury", 
-                            "section_id": 2011, 
                             "effect": "1d3 Constitution damage, 1d3 Charisma damage, fatigue", 
                             "onset": "1 days", 
                             "subtype": "disease", 
@@ -68,22 +58,22 @@
                             "save": "Fortitude DC 21", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2008, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Tick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks. </p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 2012
+            "type": "section"
         }
     ], 
     "hp": "120 (16d8+48)", 
-    "section_id": 2007, 
     "wisdom": "11", 
     "defensive_abilities": "swarm traits", 
     "creature_type": "Vermin", 
@@ -92,7 +82,7 @@
     "skills": "Climb +10", 
     "reflex": "+7", 
     "cmd": "&mdash", 
-    "cmb": "&shy;-", 
+    "cmb": "-", 
     "will": "+5", 
     "url": "pfsrd://Bestiary 2/Monsters/Swarm/Tick", 
     "organization": "solitary, pair, or colony (3-6)", 

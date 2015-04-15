@@ -1,19 +1,23 @@
 {
-    "level_text": "Bard: 3; Cleric: 4; Oracle: 4; Inquisitor: 3; Sorcerer: 4; Wizard: 4", 
-    "duration": "1 round/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You fill a target with such profound remorse that it begins to harm itself. Each round, the target must save or deal 1d8 points of damage + its Strength modifier to itself using an item held in its hand or with unarmed attacks. If the creature saves, it is staggered for 1 round and takes a -2 penalty to Armor Class, after which the spell ends.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will partial (see text)", 
     "description": "Creature is compelled to harm itself.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Terrible Remorse", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 198, 
+    "level_text": "Bard: 3; Skald: 3; Cleric: 4; Oracle: 4; Warpriest: 4; Inquisitor: 3; Sorcerer: 4; Wizard: 4; Arcanist: 4", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 4
+        }, 
         {
             "class": "Bard", 
             "level": 3
@@ -31,7 +35,15 @@
             "level": 4
         }, 
         {
+            "class": "Skald", 
+            "level": 3
+        }, 
+        {
             "class": "Sorcerer", 
+            "level": 4
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 4
         }, 
         {
@@ -46,15 +58,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will partial (see text)", 
-    "name": "Terrible Remorse", 
-    "url": "pfsrd://Ultimate Magic/Spells/Terrible Remorse", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -62,5 +65,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Terrible Remorse"
 }

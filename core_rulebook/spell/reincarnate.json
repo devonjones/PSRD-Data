@@ -7,13 +7,20 @@
     "type": "spell", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "10 minutes", 
-    "level_text": "Druid: 4; Witch: 5", 
-    "section_id": 485, 
+    "level_text": "Druid: 4; Hunter: 4; Shaman: 4; Witch: 5", 
     "source": "Core Rulebook", 
     "range": "touch", 
     "levels": [
         {
             "class": "Druid", 
+            "level": 4
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 4
+        }, 
+        {
+            "class": "Shaman", 
             "level": 4
         }, 
         {
@@ -46,17 +53,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>d%</th><th>Incarnation</th><th>Str</th><th>Dex</th><th>Con</th></tr></thead><tbody><tr class=\"even\"><td>01</td><td>Bugbear</td><td>+4</td><td>+2</td><td>+2</td></tr><tr class=\"odd\"><td>02&ndash;13</td><td>Dwarf</td><td>+0</td><td>+0</td><td>+2</td></tr><tr class=\"even\"><td>14&ndash;25</td><td>Elf</td><td>+0</td><td>+2</td><td>&ndash;2</td></tr><tr class=\"odd\"><td>26</td><td>Gnoll</td><td>+4</td><td>+0</td><td>+2</td></tr><tr class=\"even\"><td>27&ndash;38</td><td>Gnome</td><td>&ndash;2</td><td>+0</td><td>+2</td></tr><tr class=\"odd\"><td>39&ndash;42</td><td>Goblin</td><td>&ndash;2</td><td>+2</td><td>+0</td></tr><tr class=\"even\"><td>43&ndash;52</td><td>Half-elf</td><td>+0</td><td>+2</td><td>+0</td></tr><tr class=\"odd\"><td>53&ndash;62</td><td>Half-orc</td><td>+2</td><td>+0</td><td>+0</td></tr><tr class=\"even\"><td>63&ndash;74</td><td>Halfling</td><td>&ndash;2</td><td>+2</td><td>+0</td></tr><tr class=\"odd\"><td>75&ndash;89</td><td>Human</td><td>+0</td><td>+0</td><td>+2</td></tr><tr class=\"even\"><td>90&ndash;93</td><td>Kobold</td><td>&ndash;4</td><td>+2</td><td>&ndash;2</td></tr><tr class=\"odd\"><td>94</td><td>Lizardfolk</td><td>+2</td><td>+0</td><td>+2</td></tr><tr class=\"even\"><td>95&ndash;98</td><td>Orc</td><td>+4</td><td>+0</td><td>+0</td></tr><tr class=\"odd\"><td>99</td><td>Troglodyte</td><td>+0</td><td>&ndash;2</td><td>+4</td></tr><tr class=\"even\"><td>100</td><td>Other (GM's choice)</td><td>?</td><td>?</td><td>?</td></tr></tbody></table>", 
-            "name": "d%", 
             "url": "pfsrd://Core Rulebook/Spells/Reincarnate/d%", 
-            "section_id": 486, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "d%", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The reincarnated creature gains all abilities associated with its new form, including forms of movement and speeds, natural armor, natural attacks, extraordinary abilities, and the like, but it doesn't automatically speak the language of the new form. </p><p>A <i>wish</i> or a <i>miracle</i> spell can restore a reincarnated character to his or her original form.</p>", 
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 487
+            "type": "section"
         }
     ], 
     "component_text": "V, S, M, DF (oils worth 1,000 gp)", 

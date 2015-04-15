@@ -26,31 +26,39 @@
         {
             "body": "<p>The megatherium is a massive sloth weighing 10,000 pounds. It can balance on its hind legs and tail, allowing it to reach up to 20 feet high.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1374
+            "type": "section"
         }, 
         {
-            "body": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> 40 ft., climb 10 ft.; <b>AC</b> +5 natural armor, <b>Attack</b> 2 claws (1d4); <b>Ability Scores</b> Str 9, Dex 14, Con 11, Int 2, Wis 13, Cha 6; <b>Special Qualities</b> low-light vision, scent.</p>", 
+            "ac": "+5 natural armor", 
             "name": "Megatherium", 
+            "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Megafauna/Megatherium/Megatherium", 
+            "speed": "40 ft., climb 10 ft.", 
+            "subtype": "base", 
+            "attack": "2 claws (1d4)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 9, Dex 14, Con 11, Int 2, Wis 13, Cha 6", 
             "sections": [
                 {
-                    "body": "<p id=\"7th-level-adv.\"><b>Size</b> Large; <b>AC</b> +2 natural armor; <b>Attack</b> 2 claws (1d6), <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> rend (2 claws, 1d8).</p>", 
-                    "name": "7th-Level Adv.", 
-                    "url": "pfsrd://Bestiary 2/Monsters/Megafauna/Megatherium/Megatherium/7th-Level Adv.", 
-                    "section_id": 1376, 
+                    "ac": "+2 natural armor", 
+                    "name": "7th-Level Advancement", 
+                    "level": "7th", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Megafauna/Megatherium/Megatherium/7th-Level Advancement", 
+                    "subtype": "advancement", 
+                    "attack": "2 claws (1d6)", 
                     "source": "Bestiary 2", 
-                    "type": "section"
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "type": "animal_companion", 
+                    "special_qualities": "rend (2 claws, 1d8).", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 1375, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            "special_qualities": "low-light vision, scent.", 
+            "size": "Medium"
         }
     ], 
     "hp": "59 (7d8+28)", 
     "reach": "10 ft.", 
-    "section_id": 1373, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Megafauna, Megatherium", 

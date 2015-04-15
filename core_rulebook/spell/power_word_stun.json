@@ -1,5 +1,5 @@
 {
-    "level_text": "Sorcerer: 8; Witch: 8; Wizard: 8", 
+    "level_text": "Arcanist: 8; Sorcerer: 8; Witch: 8; Wizard: 8", 
     "duration": "See text", 
     "source": "Core Rulebook", 
     "component_text": "V", 
@@ -12,8 +12,11 @@
     "description": "Stuns creature with 150 hp or less.", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 449, 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 8
+        }, 
         {
             "class": "Sorcerer", 
             "level": 8
@@ -41,11 +44,10 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Hit Points</th><th>Duration</th></tr></thead><tbody><tr class=\"odd\"><td>50 or less</td><td>4d4 rounds</td></tr><tr class=\"even\"><td>51&ndash;100</td><td>2d4 rounds</td></tr><tr class=\"odd\"><td>101&ndash;150</td><td>1d4 rounds</td></tr></tbody></table>", 
-            "name": "Hit Points", 
             "url": "pfsrd://Core Rulebook/Spells/Power Word Stun/Hit Points", 
-            "section_id": 450, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Hit Points", 
+            "source": "Core Rulebook"
         }
     ], 
     "descriptor": [

@@ -3,7 +3,6 @@
     "name": "Spellcraft", 
     "url": "pfsrd://Core Rulebook/Skills/Spellcraft", 
     "attribute": "Int", 
-    "section_id": 1014, 
     "source": "Core Rulebook", 
     "trained_only": true, 
     "armor_check_penalty": true, 
@@ -12,40 +11,35 @@
             "body": "<p>Spellcraft is used whenever your knowledge and skill of the technical art of casting a spell or crafting a magic item comes into question. This skill is also used to identify the properties of magic items in your possession through the use of spells such as <i>detect magic</i> and <i>identify</i>. The DC of this check varies depending upon the task at hand.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Check", 
-            "section_id": 1015
+            "name": "Check"
         }, 
         {
             "body": "<p>Identifying a spell as it is being cast requires no action, but you must be able to clearly see the spell as it is being cast, and this incurs the same penalties as a Perception skill check due to distance, poor conditions, and other factors. Learning a spell from a spellbook takes 1 hour per level of the spell (0-level spells take 30 minutes). Preparing a spell from a borrowed spellbook does not add any time to your spell preparation. Making a Spellcraft check to craft a magic item is made as part of the creation process. Attempting to ascertain the properties of a magic item takes 3 rounds per item to be identified and you must be able to thoroughly examine the object.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Action", 
-            "section_id": 1016
+            "name": "Action"
         }, 
         {
             "body": "<p>You cannot retry checks made to identify a spell. If you fail to learn a spell from a spellbook or scroll, you must wait at least 1 week before you can try again. If you fail to prepare a spell from a borrowed spellbook, you cannot try again until the next day. When using <i>detect magic</i> or <i>identify</i> to learn the properties of magic items, you can only attempt to ascertain the properties of an individual item once per day. Additional attempts reveal the same results.</p>", 
-            "name": "Retry", 
             "url": "pfsrd://Core Rulebook/Skills/Spellcraft/Retry", 
-            "section_id": 1017, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Retry", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>If you are a specialist wizard, you get a +2 bonus on Spellcraft checks made to identify, learn, and prepare spells from your chosen school. Similarly, you take a &ndash;5 penalty on similar checks made concerning spells from your opposition schools. </p><p>An elf gets a +2 racial bonus on Spellcraft checks to identify the properties of magic items.</p><p>If you have the Magical Aptitude feat, you gain a bonus on Spellcraft checks (see Feats).</p>", 
-            "name": "Special", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Spellcraft DCs</caption><thead><tr><th>Task</th><th>Spellcraft DC</th></tr></thead><tbody><tr class=\"odd\"><td>Identify a spell as it is being cast</td><td>15 + spell level</td></tr><tr class=\"even\"><td>Learn a spell from a spellbook or scroll</td><td>15 + spell level</td></tr><tr class=\"odd\"><td>Prepare a spell from a borrowed spellbook</td><td>15 + spell level</td></tr><tr class=\"even\"><td>Identify the properties of a magic item using <i>detect magic</i></td><td>15 + item's caster level</td></tr><tr class=\"odd\"><td>Decipher a scroll</td><td>20 + spell level</td></tr><tr class=\"even\"><td>Craft a magic item</td><td>Varies by item</td></tr></tbody></table>", 
-                    "name": "Table: Spellcraft DCs", 
                     "url": "pfsrd://Core Rulebook/Skills/Spellcraft/Special/Table Spellcraft DCs", 
-                    "section_id": 1019, 
-                    "source": "Core Rulebook", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Spellcraft DCs", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 1018, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Special", 
+            "source": "Core Rulebook"
         }
     ], 
     "description": "You are skilled at the art of casting spells, identifying magic items, crafting magic items, and identifying spells as they are being cast."

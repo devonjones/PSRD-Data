@@ -1,21 +1,29 @@
 {
-    "level_text": "Bard: 1; Sorcerer: 1; Wizard: 1; Witch: 1", 
-    "duration": "1 minute/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>The target takes a &ndash;4 penalty on initiative checks and Reflex saves.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Target takes -4 on initiative and Reflex saves.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Unprepared Combatant", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 211, 
+    "level_text": "Bard: 1; Skald: 1; Sorcerer: 1; Wizard: 1; Arcanist: 1; Witch: 1", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 1
+        }, 
+        {
             "class": "Bard", 
+            "level": 1
+        }, 
+        {
+            "class": "Skald", 
             "level": 1
         }, 
         {
@@ -38,15 +46,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Unprepared Combatant", 
-    "url": "pfsrd://Ultimate Magic/Spells/Unprepared Combatant", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -54,5 +53,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 minute/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Unprepared Combatant"
 }

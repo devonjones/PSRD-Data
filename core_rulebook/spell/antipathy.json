@@ -1,19 +1,23 @@
 {
-    "level_text": "Druid: 9; Sorcerer: 8; Summoner: 6; Witch: 8; Wizard: 8", 
-    "duration": "2 hours/level (D)", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M/DF (a lump of alum soaked in vinegar)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You cause an object or location to emanate magical vibrations that repel either a specific kind of intelligent creature or creatures of a particular alignment, as defined by you. The kind of creature to be affected must be named specifically. A creature subtype is not specific enough. Likewise, the specific alignment to be repelled must be named.</p><p>Creatures of the designated kind or alignment feel an urge to leave the area or to avoid the affected item.</p><p>A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect. A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so. This distracting discomfort reduces the creature's Dexterity score by 4 points.</p><p><i>Antipathy</i> counters and dispels <i>sympathy</i>.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will partial", 
     "description": "Object or location affected by spell repels certain creatures.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Antipathy", 
     "spell_resistance": "yes", 
     "casting_time": "1 hour", 
-    "section_id": 22, 
+    "level_text": "Arcanist: 8; Druid: 9; Sorcerer: 8; Summoner: 6; Witch: 8; Wizard: 8", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 8
+        }, 
         {
             "class": "Druid", 
             "level": 9
@@ -42,15 +46,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will partial", 
-    "name": "Antipathy", 
-    "url": "pfsrd://Core Rulebook/Spells/Antipathy", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -66,5 +61,13 @@
             "text": "a lump of alum soaked in vinegar", 
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "2 hours/level (D)", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M/DF (a lump of alum soaked in vinegar)", 
+    "name": "Antipathy"
 }

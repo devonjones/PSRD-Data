@@ -30,17 +30,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Taiga/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Once every 1d4 rounds as a standard action, a taiga linnorm can expel a 60-foot cone of electrified vapor, dealing 21d8 points of electricity damage to all creatures struck (Reflex DC 30 for half). The vapor itself persists for 1d4 rounds, filling its cone-shaped area with electrified mist that deals 4d6 points of electricity damage (no save) to any creature that ends its turn in the mist. The mist does not hinder vision. The save DC is Constitution-based.", 
                     "name": "Breath Weapon", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Taiga/Special Abilities/Breath Weapon", 
                     "ability_types": {
-                        "ability_type_id": 426, 
-                        "section_id": 1425, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1425, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -49,11 +48,8 @@
                     "name": "Death Curse", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Taiga/Special Abilities/Death Curse", 
                     "ability_types": {
-                        "ability_type_id": 427, 
-                        "section_id": 1426, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1426, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -61,21 +57,12 @@
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Taiga/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 428, 
-                        "section_id": 1427, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1427, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Tiaga Linnorm Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Taiga/Special Abilities/Poison/Tiaga Linnorm Venom", 
                             "contracted": "injury", 
-                            "section_id": 1428, 
                             "effect": "4d6 electricity damage and 1d8 Dexterity drain", 
                             "subtype": "poison", 
                             "cure": "3 consecutive saves", 
@@ -83,48 +70,43 @@
                             "save": "Fortitude DC 30", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Any creature that makes a melee attack against a taiga linnorm takes 1d6 points of piercing damage per attack from the linnorm's spines. A melee weapon with reach provides protection from these spines.", 
                     "name": "Spines", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Taiga/Special Abilities/Spines", 
                     "ability_types": {
-                        "ability_type_id": 429, 
-                        "section_id": 1429, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1429, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1424, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A beast covered with hundreds of spines, the taiga linnorm is a terror to all those who venture through the arctic forests of the north. Taiga linnorms take down foes and prey first with their electrifying breath and finish their victims off with their devastating bite.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1430
+            "type": "section"
         }, 
         {
             "body": "<p>In winter, when light is sparse and the nights are long, it is easy for a taiga linnorm to blend in with the coniferous forests it dwells in, hiding among the trees and ambushing imprudent travelers or unwary adventurers setting up camp. A taiga linnorm often lies in wait for days&mdash;sometimes weeks&mdash;just for the opportunity to maim and devour unsuspecting victims. When this subtler tactic does not work, a taiga linnorm simply rampages through the woods in order to find nearby settlements to pillage, taking twisted delight in shocking the inhabitants before shredding them with its massive jaws or destructive forelimbs. In any event, taiga linnorms rarely venture far from their woodland territories save for short flights to attack outlying villages.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1431
+            "type": "section"
         }, 
         {
             "body": "<p>A taiga linnorm is 50 feet long and weighs just over 13,000 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1432
+            "type": "section"
         }
     ], 
     "hp": "346 (21d12+210); regeneration 15 (cold iron)", 
     "reach": "30 ft.", 
-    "section_id": 1423, 
     "wisdom": "23", 
     "defensive_abilities": "freedom of movement, spines", 
     "creature_type": "Dragon", 

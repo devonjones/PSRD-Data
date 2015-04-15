@@ -1,6 +1,6 @@
 {
     "dexterity": "13", 
-    "ac": "15, touch 15, flat-footed 14; (+1 Dex, +4 size)", 
+    "ac": "15, touch 15, flat-footed 14 (+1 Dex, +4 size)", 
     "special_attacks": "distraction (DC 13), poison", 
     "intelligence": "-", 
     "racial_modifiers": "+8 Perception", 
@@ -28,26 +28,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Swarm/Wasp/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Swarm:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Swarm/Wasp/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 573, 
-                        "section_id": 2790, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2790, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Wasp Swarm Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Swarm/Wasp/Special Abilities/Poison/Wasp Swarm Venom", 
                             "contracted": "injury", 
-                            "section_id": 2791, 
                             "effect": "1 Dexterity damage", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -55,29 +48,28 @@
                             "save": "Fortitude DC 13", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2789, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A wasp swarm is a flying mass of thousands of carnivorous wasps. In such large numbers, they become voracious hunters, capable of taking down large creatures with their venom-filled stings. While a wasp swarm is capable of inflicting hundreds of stings, its true danger arises from its insatiable appetite for meat.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2792
+            "type": "section"
         }, 
         {
             "body": "<p>Wasp swarms surround and attack any living prey in their paths, and are swift to seek out new prey once their anger is aroused. An enraged wasp swarm often loses track of its hive or the original source of its anger, and presented with a constant series of new targets to swarm and sting, a swarm can continue its rampage nonstop until it is destroyed or dispersed.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2793
+            "type": "section"
         }
     ], 
     "hp": "31 (7d8)", 
     "reach": "0 ft.", 
-    "section_id": 2788, 
     "wisdom": "12", 
     "defensive_abilities": "swarm traits", 
     "creature_type": "Vermin", 

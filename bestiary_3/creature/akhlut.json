@@ -1,6 +1,6 @@
 {
     "dexterity": "15", 
-    "ac": "29, touch 11, flat-footed 26 (+2 Dex, +1 dodge, +19 natural, -2 size)", 
+    "ac": "30, touch 11, flat-footed 27 (+2 Dex, +1 dodge, +19 natural, -2 size)", 
     "special_attacks": "savage bite, shore storming, swallow whole (2d8+15 bludgeoning damage plus 4d6 cold, AC 19, 18 hp)", 
     "intelligence": "4", 
     "racial_modifiers": "+4 Perception, +12 Stealth in snow", 
@@ -35,17 +35,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Akhlut/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "An akhlut's bite threatens a critical hit on a roll of 18&ndash;20.", 
                     "name": "Savage Bite", 
                     "url": "pfsrd://Bestiary 3/Monsters/Akhlut/Special Abilities/Savage Bite", 
                     "ability_types": {
-                        "ability_type_id": 10, 
-                        "section_id": 34, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 34, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -54,11 +53,8 @@
                     "name": "Shore Storming", 
                     "url": "pfsrd://Bestiary 3/Monsters/Akhlut/Special Abilities/Shore Storming", 
                     "ability_types": {
-                        "ability_type_id": 11, 
-                        "section_id": 35, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 35, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -67,11 +63,8 @@
                     "name": "Snow Vision", 
                     "url": "pfsrd://Bestiary 3/Monsters/Akhlut/Special Abilities/Snow Vision", 
                     "ability_types": {
-                        "ability_type_id": 12, 
-                        "section_id": 36, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 36, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -80,55 +73,44 @@
                     "name": "Snow Walking", 
                     "url": "pfsrd://Bestiary 3/Monsters/Akhlut/Special Abilities/Snow Walking", 
                     "ability_types": {
-                        "ability_type_id": 13, 
-                        "section_id": 37, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 37, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 33, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Resembling nothing so much as a killer whale mixed with a wolf, the rarely seen akhlut stalks frigid seas and the frozen lands nearby, shrouded by perpetual blizzards. Legend holds that the first akhlut was born fully-formed in the eye of a polar hurricane, the merciless anger of the elements made flesh. Whether or not the tale is true, the akhlut's ferocity is certainly as memorable as that of any storm.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 38
+            "type": "section"
         }, 
         {
             "body": "<p>While the akhlut appears as a wolf-orca hybrid on land, when it enters the water, its legs and fur vanish and it transforms fully into the form of an orca. Akhluts are particularly skilled at charging into and out of water, their transformation between shapes occurring in the blink of an eye.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 39
+            "type": "section"
         }, 
         {
             "body": "<p>Each akhlut fiercely defends its hunting grounds from other predators, and especially against other akhluts. While this does reduce the number of dangerous predators in a region, it's unclear whether replacing lesser predators with something as dangerous as an akhlut is actually preferable. Typically, an akhlut considers its territory to be the boundaries of the storm created by its <i>control weather</i> spell-like ability, and rarely travels far from this storm's borders.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 40
+            "type": "section"
         }, 
         {
             "body": "<p>An akhlut is 22 feet long and weighs 8,000 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 41
+            "type": "section"
         }
     ], 
     "hp": "189 (18d10+90)", 
     "weaknesses": "vulnerability to fire", 
     "reach": "10 ft.", 
-    "section_id": 32, 
     "wisdom": "15", 
     "creature_type": "Magical Beast", 
     "special_qualities": "change shape (orca; beast shape III), hold breath, snow walking", 
     "dr": "15/magic", 
     "name": "Akhlut", 
     "base_attack": "+18", 
-    "skills": "Acrobatics +8 (+12 when jumping), Perception +14, Stealth +16 (+28 in snow), Swim +18", 
+    "skills": "Acrobatics +2 (+6 when jumping), Perception +14, Stealth +16 (+28 in snow), Swim +18", 
     "reflex": "+13", 
     "cmd": "43 (47 vs. trip)", 
     "cmb": "+30 (+34 grapple)", 

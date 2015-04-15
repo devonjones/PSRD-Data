@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Akata/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Akatas cannot hear. They are immune to spells and effects that rely on hearing to function, but they also cannot make Perception checks to listen.", 
                     "name": "Deaf", 
                     "url": "pfsrd://Bestiary 2/Monsters/Akata/Special Abilities/Deaf", 
                     "ability_types": {
-                        "ability_type_id": 25, 
-                        "section_id": 100, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 100, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -47,11 +46,8 @@
                     "name": "Hibernation", 
                     "url": "pfsrd://Bestiary 2/Monsters/Akata/Special Abilities/Hibernation", 
                     "ability_types": {
-                        "ability_type_id": 26, 
-                        "section_id": 101, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 101, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -60,11 +56,8 @@
                     "name": "Salt Water Vulnerability", 
                     "url": "pfsrd://Bestiary 2/Monsters/Akata/Special Abilities/Salt Water Vulnerability", 
                     "ability_types": {
-                        "ability_type_id": 27, 
-                        "section_id": 102, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 102, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -73,11 +66,8 @@
                     "name": "Void Bite", 
                     "url": "pfsrd://Bestiary 2/Monsters/Akata/Special Abilities/Void Bite", 
                     "ability_types": {
-                        "ability_type_id": 28, 
-                        "section_id": 103, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 103, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -85,14 +75,6 @@
                     "body": "Bite:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary 2/Monsters/Akata/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 29, 
-                        "section_id": 104, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 104, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Void Death", 
@@ -100,7 +82,6 @@
                             "url": "pfsrd://Bestiary 2/Monsters/Akata/Special Abilities/Disease/Void Death", 
                             "type": "affliction", 
                             "contracted": "injury", 
-                            "section_id": 105, 
                             "effect": "1d2 Dexterity damage and 1d2 Constitution damage", 
                             "onset": "1 hour", 
                             "subtype": "disease", 
@@ -111,51 +92,46 @@
                                 {
                                     "body": "an infected creature who dies rises as a void zombie 2d4 hours later", 
                                     "source": "Bestiary 2", 
-                                    "type": "section", 
-                                    "section_id": 106
+                                    "type": "section"
                                 }
                             ]
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 99, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Akatas hail from a strange, distant planet that long ago succumbed to a cataclysmic end. Countless akatas clung to fragments of the dead planet, entering hibernation and riding these asteroids until they eventually crashed upon a new planet&mdash;akatas' cocoons protected them from the impact, and they soon awoke to seek out suitable hosts to spawn their young. Left untended, an akata scourge can quickly grow into a significant threat. A typical akata stands 3-1/2 feet tall and weighs 400 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 107
+            "type": "section"
         }, 
         {
             "body": "<p>A humanoid killed by void death becomes a void zombie. A void zombie is a fast zombie (<i>Pathfinder RPG Bestiary</i> page 289) that gains a secondary &ldquo;tongue&rdquo; attack (actually the larval akata's feeding tendril), dealing 1d6 points of damage. A void zombie also gains the following special attack.</p>", 
             "name": "Void Zombie (CR +1)", 
             "url": "pfsrd://Bestiary 2/Monsters/Akata/Void Zombie (CR +1)", 
+            "type": "section", 
+            "source": "Bestiary 2", 
             "sections": [
                 {
                     "body": "<p id=\"blood-drain\"> If a void zombie hits a living creature with its tongue attack, it drains blood, dealing 2 points of Strength damage before the tongue detaches.</p>", 
                     "name": "Blood Drain", 
                     "url": "pfsrd://Bestiary 2/Monsters/Akata/Void Zombie (CR +1)/Blood Drain", 
                     "ability_types": {
-                        "ability_type_id": 30, 
-                        "section_id": 109, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 109, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 108, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            ]
         }
     ], 
     "hp": "15 (2d8+6)", 
     "weaknesses": "deaf, vulnerable to salt water", 
-    "section_id": 98, 
     "wisdom": "12", 
     "defensive_abilities": "no breath", 
     "creature_type": "Aberration", 

@@ -2,6 +2,8 @@
     "body": "<p>The greatest of all artifacts are unique items, coveted by the most powerful beings in existence and capable of altering the course of entire worlds. Only one of each major artifact exists, and even the least of them will certainly alter the balance of any campaign. Major artifacts are not easily destroyed&mdash;each has only a single, specific means of destruction, noted in its description. </p>", 
     "name": "Major Artifacts", 
     "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts", 
+    "type": "section", 
+    "source": "Mythic Adventures", 
     "sections": [
         {
             "body": "<p class=\"stat-block\">This small, innocuous, black wooden box appears randomly throughout the multiverse, drawn to great heroes, greedy rulers, and desperate (and often morally ambiguous) mortals. The <i>Apocalypse Box</i> appears subtly, sometimes as a dusty old box on a shelf or a forgotten heirloom in a grandparent's attic. A creature looking upon the <i>Apocalypse Box</i> is struck with a sensation of nearly overwhelming avarice, and must succeed at a DC 30 Will save or be compelled to touch the box. This is a mind-affecting compulsion effect. If a creature touches the <i>Apocalypse Box</i>, she must succeed at another DC 30 Will save or fall under the box's curse. Cursed creatures are compelled to use any available means&mdash;including fleeing from or murdering friends and loved ones&mdash;to keep the box out of the hands of others. This curse can't be broken until the cursed creature dies or the box is destroyed. Additionally, if the cursed creature moves more than 10 feet away from the box, she immediately takes 1d4 points of Wisdom damage plus 1d4 points of Wisdom damage each subsequent day until she and the <i>Apocalypse Box</i> are reunited.</p><p class=\"stat-block\">Only a creature bearing the <i>Apocalypse Box's </i>curse can open it. Once per day, the cursed creature can open the box and draw forth a single item her heart desires. The item must be nonmagical, weigh no more than 50 pounds, and be worth no more than 50,000 gp, but is otherwise limited only by the parameters of the <i>wish</i> spell. A mythic character can expend two uses of mythic power to draw forth a second such item each day.</p><p class=\"stat-block\">Each time the <i>Apocalypse Box</i> is opened, there is a 50% chance that instead of granting a <i>wish</i>, the box summons a number of horrific monsters that immediately attack anyone in sight and remain to wreak havoc on the Material Plane for 1 week before returning to their plane of origin. Roll on Table 5&ndash;1 below to determine the monsters that appear. <span class=\"hyperlink char-style-override-15\"></span></p><p class=\"stat-block\">The <i>Apocalypse Box</i> is quite tenacious in its desire for someone to open it. Each day, the cursed creature must succeed at a Will save or be compelled to open it. This is a mind-affecting compulsion effect. The save DC is initially 20, but increases by 2 each subsequent day the box isn't opened until the cursed creature fails the Will save, at which point she opens the box and the save DC resets to 20.</p>", 
@@ -11,26 +13,23 @@
             "cl": "25th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Apocalypse Box", 
             "type": "item", 
-            "section_id": 2077, 
             "source": "Mythic Adventures", 
             "aura": "overwhelming conjuration and necromancy", 
             "sections": [
                 {
                     "body": "<p class=\"stat-block\">The <i>Apocalypse Box</i> can be destroyed by being crushed under the claw of an ancient gold dragon after a creature cursed by the box defeats three groups of <i>Apocalypse Box</i> monsters in a single day. The act of crushing the box immediately slays the gold dragon, who can't be returned to life short of divine intervention.</p>", 
-                    "name": "Destruction", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"apocalypse-box-monsters\"><caption>Apocalypse Box Monsters</caption><thead><tr><th>1d6</th><th>Monsters Summoned</th></tr></thead><tr class=\"odd\"><td>1</td><td>Daemonic apocalypse: 1d4+1 olethrodaemons</td></tr><tr class=\"even\"><td>2</td><td>Demonic invasion: 1 balor and 2d6 glabrezus</td></tr><tr class=\"odd\"><td>3</td><td>Infernal assault: 1 pit fiend and 2d6 barbed devils</td></tr><tr class=\"even\"><td>4</td><td>Oni domination: 1 void yai and 2d6 fiendish cloud giants</td></tr><tr class=\"odd\"><td>5</td><td>Qlippoth infestation: 1 iathavos and 2d6 nyogoths</td></tr><tr class=\"even\"><td>6</td><td>Unspeakable visitation: 1d4+3 shoggoths</td></tr></table>", 
-                            "name": "Apocalypse Box Monsters", 
                             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Apocalypse Box/Destruction/Apocalypse Box Monsters", 
-                            "section_id": 2079, 
-                            "source": "Mythic Adventures", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Apocalypse Box Monsters", 
+                            "source": "Mythic Adventures"
                         }
                     ], 
-                    "section_id": 2078, 
-                    "source": "Mythic Adventures", 
-                    "type": "section"
+                    "name": "Destruction", 
+                    "source": "Mythic Adventures"
                 }
             ]
         }, 
@@ -42,7 +41,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Diadem of Nod", 
             "type": "item", 
-            "section_id": 2080, 
             "subtype": "headband", 
             "aura": "strong conjuration", 
             "sections": [
@@ -50,8 +48,7 @@
                     "body": "<p class=\"stat-block\">The <i>Diadem of Nod</i> can be destroyed if its wearer uses it to create a dream inside of another pocket dream dimension. It can't be destroyed from within a dream it created.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2081
+                    "name": "Destruction"
                 }
             ], 
             "source": "Mythic Adventures"
@@ -64,7 +61,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Emperors Mammoth", 
             "type": "item", 
-            "section_id": 2082, 
             "source": "Mythic Adventures", 
             "aura": "strong transmutation", 
             "sections": [
@@ -72,8 +68,7 @@
                     "body": "<p class=\"stat-block\">Placing the crown upon the head of an unworthy goblin dung-sweeper causes the <i>Emperor's Mammoth</i> to crumble into a thousand pieces. </p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2083
+                    "name": "Destruction"
                 }
             ]
         }, 
@@ -85,7 +80,6 @@
             "cl": "15th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Frozen Heart of Cocytus", 
             "type": "item", 
-            "section_id": 2084, 
             "source": "Mythic Adventures", 
             "aura": "strong divination", 
             "sections": [
@@ -93,8 +87,7 @@
                     "body": "<p class=\"stat-block\">The heart must be carried to the plane of Elysium and submerged for a day in the warm waters in the settlements of the azata. Once melted, a willing kiss from a brijidine upon the now beating heart causes it to burst and turn to dust.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2085
+                    "name": "Destruction"
                 }
             ]
         }, 
@@ -106,39 +99,34 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Legendsbane", 
             "type": "item", 
-            "section_id": 2086, 
             "source": "Mythic Adventures", 
             "aura": "strong necromancy", 
             "sections": [
                 {
-                    "source": "Mythic Adventures", 
                     "type": "section", 
                     "sections": [
                         {
                             "body": "<p class=\"stat-block\"> can be destroyed if it's anointed in the blood of a slain 10th-rank mythic creature and then struck three times by a <i>vorpal</i> weapon. This act also destroys the <i>vorpal</i> weapon.</p>", 
-                            "name": "Legendsbane", 
                             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Legendsbane/Destruction/Legendsbane", 
-                            "section_id": 2088, 
-                            "source": "Mythic Adventures", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Legendsbane", 
+                            "source": "Mythic Adventures"
                         }
                     ], 
                     "name": "Destruction", 
-                    "section_id": 2087
+                    "source": "Mythic Adventures"
                 }, 
                 {
-                    "source": "Mythic Adventures", 
                     "type": "section", 
                     "sections": [
                         {
                             "body": "<p class=\"stat-block\"> imparts upon its wielder the ability to track down mythic creatures she has hunted before. At will, the wielder can cast <i>locate creature</i> to find a specific mythic creature known to the wielder.</p>", 
                             "source": "Mythic Adventures", 
-                            "type": "section", 
-                            "section_id": 2090
+                            "type": "section"
                         }
                     ], 
                     "name": "Legendsbane", 
-                    "section_id": 2089
+                    "source": "Mythic Adventures"
                 }
             ]
         }, 
@@ -150,7 +138,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Netherworld Cauldron", 
             "type": "item", 
-            "section_id": 2091, 
             "source": "Mythic Adventures", 
             "aura": "strong conjuration", 
             "sections": [
@@ -158,8 +145,7 @@
                     "body": "<p class=\"stat-block\">Using the <i>Netherworld Cauldron </i>to boil a mythic hero to death destroys it.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2092
+                    "name": "Destruction"
                 }
             ]
         }, 
@@ -171,7 +157,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Nimbus of Radiant Truth", 
             "type": "item", 
-            "section_id": 2093, 
             "subtype": "headband", 
             "aura": "strong evocation", 
             "sections": [
@@ -179,8 +164,7 @@
                     "body": "<p class=\"stat-block\">The <i>Nimbus of Radiant Truth</i> can be destroyed by placing it on the head of a person who was once completely good and innocent, but is now corrupted into the vilest depths of evil and depravity.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2094
+                    "name": "Destruction"
                 }
             ], 
             "source": "Mythic Adventures"
@@ -193,7 +177,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Plaguebringer", 
             "type": "item", 
-            "section_id": 2095, 
             "source": "Mythic Adventures", 
             "aura": "strong necromancy", 
             "sections": [
@@ -201,62 +184,53 @@
                     "body": "<p class=\"stat-block\">To be destroyed, <i>Plaguebringer</i> must first be forced or tricked into the body of an angel. The angel must then willingly sacrifice itself by dying at the heart of a star.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2096
+                    "name": "Destruction"
                 }, 
                 {
-                    "source": "Mythic Adventures", 
                     "type": "section", 
                     "sections": [
                         {
                             "body": "<p class=\"stat-block\"> also grants the following abilities:</p>", 
                             "source": "Mythic Adventures", 
-                            "type": "section", 
-                            "section_id": 2098
+                            "type": "section"
                         }, 
                         {
                             "body": "<ul><li>The host receives a +2 profane bonus on attack rolls, caster level checks, and saving throws.</li><li>The host generates an aura of unlife in a 30-foot radius. All living creatures other than the host within this radius take 2d6 points of negative energy damage each round. Undead creatures gain fast healing 5 that stacks with any fast healing they already possess. This aura can be suppressed or resumed as a standard action.</li><li>As part of using an ability that requires him to expend mythic power, the host can target a mythic creature within 30 feet. If that creature fails a DC 23 Fortitude save, it contracts a random disease (as <i>contagion</i>) and one use of its mythic power is stolen and granted to the host. If the host fails to steal mythic power, he must expend double the usual amount of his own mythic power or the ability fails.</li><li>The host can use <i>contagion</i> heightened to 8th level (DC 23) at will.</li><li>The host can use empowered <i>vampiric touch </i>three times per day.</li><li>As a swift action, the host can expend one use of mythic power to gain the effects of <i>death ward</i>, <i>divine power</i>, and <i>spell resistance</i>. These effects last 1 round per tier he possesses and can't be dispelled.</li><li>Once per day, the host can expend two uses of mythic power to summon a nightwing to do his bidding for 1 hour. If the nightwing is slain, a new one can't be summoned for 1 week.</li></ul>", 
                             "source": "Mythic Adventures", 
-                            "type": "section", 
-                            "section_id": 2099
+                            "type": "section"
                         }
                     ], 
                     "name": "Plaguebringer", 
-                    "section_id": 2097
+                    "source": "Mythic Adventures"
                 }, 
                 {
-                    "source": "Mythic Adventures", 
                     "type": "section", 
                     "sections": [
                         {
                             "body": "<p class=\"stat-block\"> is intelligent, with an Intelligence score of 15, a Wisdom of 10, and a Charisma of 20. It has a neutral evil alignment, communicates by empathy, and has an Ego of 30. It exists only to spread disease and cause suffering. It protects and aids hosts that please it. If infecting a host who resists these goals, it withholds its abilities and attempts to control the host. <i>Plaguebringer</i> can take a single standard or swift action on its host's turn to activate any of its powers that don't require a touch attack. It has five uses of mythic power available to expend each day. It can use its host's own mythic power by becoming dominant (<i>Pathfinder RPG Core Rulebook</i> 535).</p>", 
                             "source": "Mythic Adventures", 
-                            "type": "section", 
-                            "section_id": 2101
+                            "type": "section"
                         }, 
                         {
                             "body": "<p class=\"stat-block\">When infecting a host, it has full access to its host's senses, along with darkvision and blindsense with a range of 120 feet. When not in a host, <i>Plaguebringer</i> has only limited awareness, with hearing and blindsense usable to a range of 30 feet and no vision. When not infecting a host, <i>Plaguebringer</i> is undetectable by normal vision due to its microscopic size, though <i>detect evil</i> reveals its presence. It can fly at a speed of 30 feet, and can infect a new host by entering its body. If the target fails a DC 30 Fortitude save, <i>Plaguebringer</i> infects it and the creature gains access to the artifact's powers<i>.</i> If the target succeeds, <i>Plaguebringer</i> can't attempt to infect it again for 1 month.</p>", 
                             "source": "Mythic Adventures", 
-                            "type": "section", 
-                            "section_id": 2102
+                            "type": "section"
                         }
                     ], 
                     "name": "Plaguebringer", 
-                    "section_id": 2100
+                    "source": "Mythic Adventures"
                 }, 
                 {
-                    "source": "Mythic Adventures", 
                     "type": "section", 
                     "sections": [
                         {
                             "body": "<p class=\"stat-block\"> can leave a host by becoming dominant and choosing to leave. Immediately after it leaves, the host is affected by multiple <i>contagion</i> effects (DC 30), one for each of the diseases listed in the spell.</p>", 
                             "source": "Mythic Adventures", 
-                            "type": "section", 
-                            "section_id": 2104
+                            "type": "section"
                         }
                     ], 
                     "name": "Plaguebringer", 
-                    "section_id": 2103
+                    "source": "Mythic Adventures"
                 }
             ]
         }, 
@@ -268,7 +242,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Scepter of the Shining Lord", 
             "type": "item", 
-            "section_id": 2105, 
             "source": "Mythic Adventures", 
             "aura": "strong abjuration and enchantment", 
             "sections": [
@@ -276,8 +249,7 @@
                     "body": "<p class=\"stat-block\">The <i>Scepter of the Shining Lord</i> explodes if its owner uses it to appoint a non-mythic queen, lord, or other ruler as an agent. This slays the scepter's owner and makes the ruler mythic.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2106
+                    "name": "Destruction"
                 }
             ]
         }, 
@@ -289,7 +261,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Shadowwraith Heart", 
             "type": "item", 
-            "section_id": 2107, 
             "source": "Mythic Adventures", 
             "aura": "strong necromancy", 
             "sections": [
@@ -297,8 +268,7 @@
                     "body": "<p class='stat-block-1'><b>descriptor </b>Implanting the Shadowwraith Heart into the chest of a dying mythic hero reanimates the heart, restoring the hero as the heal spell (CL 15th), though the hero loses all mythic tiers.</p><p class='stat-block-1'><b>descriptor </b></p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2108
+                    "name": "Destruction"
                 }
             ]
         }, 
@@ -310,7 +280,6 @@
             "cl": "30th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Silver Maiden", 
             "type": "item", 
-            "section_id": 2109, 
             "source": "Mythic Adventures", 
             "aura": "overwhelming abjuration and transmutation", 
             "sections": [
@@ -318,8 +287,7 @@
                     "body": "<p class='stat-block-1'><b>descriptor </b>The Silver Maiden can be destroyed if its captain sails it into a black hole.</p><p class='stat-block-1'><b>descriptor </b></p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2110
+                    "name": "Destruction"
                 }
             ]
         }, 
@@ -331,7 +299,6 @@
             "cl": "20th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Tarnhelm", 
             "type": "item", 
-            "section_id": 2111, 
             "subtype": "head", 
             "aura": "strong conjuration, illusion, and transmutation", 
             "sections": [
@@ -339,8 +306,7 @@
                     "body": "<p class=\"stat-block\">The <i>Tarnhelm</i> can be destroyed by being struck by a succession by hammer blows from a dwarven smith wielding an adamantine hammer, a human smith with a steel hammer, and an elven smith using a hammer of spun glass. Each must succeed at a DC 30 Craft (armor) check when landing the blow. Failure destroys the hammer, disrupts the attempt to destroy the <i>Tarnhelm</i>, and deals 12d6 points of damage to the smith.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2112
+                    "name": "Destruction"
                 }
             ], 
             "source": "Mythic Adventures"
@@ -353,7 +319,6 @@
             "cl": "25th", 
             "url": "pfsrd://Mythic Adventures/Rules/Mythic Items/Artifacts/Major Artifacts/Trueforge", 
             "type": "item", 
-            "section_id": 2113, 
             "source": "Mythic Adventures", 
             "aura": "overwhelming transmutation", 
             "sections": [
@@ -361,13 +326,9 @@
                     "body": "<p class=\"stat-block\">The <i>Trueforge</i> can be destroyed by first destroying every object forged by it, then shattering the forge with a single blow from a <i>hammer of thunderbolts</i>.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Destruction", 
-                    "section_id": 2114
+                    "name": "Destruction"
                 }
             ]
         }
-    ], 
-    "section_id": 2076, 
-    "source": "Mythic Adventures", 
-    "type": "section"
+    ]
 }

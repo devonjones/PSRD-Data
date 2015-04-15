@@ -1,11 +1,11 @@
 {
     "dexterity": "26", 
     "ac": "35, touch 25, flat-footed 26 (+5 deflection, +8 Dex, +1 dodge, +3 insight, +10 natural, -2 size)", 
-    "special_attacks": "curse of false wisdom, spirit blades (+27, 3d6+7/19-20), swallow whole (4d6+19 bludgeoning plus 4d8+12 acid damage, AC 15, 34 hp)", 
+    "special_attacks": "curse of false wisdom, spirit blades (+29, 3d6+7/19-20), swallow whole (4d6+19 bludgeoning plus 4d8+12 acid damage, AC 15, 38 hp)", 
     "intelligence": "25", 
-    "racial_modifiers": "Acrobatics (+8 when jumping), +6 Escape Artist, +4 Perception", 
+    "racial_modifiers": "+6 Escape Artist, +4 Perception", 
     "resist": "acid 10, electricity 10", 
-    "melee": "bite +28 (2d6+6 plus grab and poison), 6 claws +33 (2d6+13 plus curse)", 
+    "melee": "bite +33 (2d6+13 plus grab and poison), 6 claws +33 (2d6+13 plus curse)", 
     "cr": "20", 
     "xp": "307,200", 
     "speed": "50 ft., climb 50 ft., fly 50 ft. (perfect), swim 50 ft.", 
@@ -30,59 +30,48 @@
     "type": "creature", 
     "feats": "Awesome Blow, Cleave, Combat ReflexesB, Critical Focus, Deflect ArrowsB, DodgeB, Great Cleave, Improved Bull Rush, Improved Initiative, Lightning Reflexes, MobilityB, Power Attack, Quicken Spell-Like Ability (baleful polymorph, blade barrier, death knell), Snatch ArrowsB, Spring AttackB", 
     "senses": "all-around vision, darkvision 60 ft., low-light vision, scent, true seeing; Perception +34", 
-    "description": "This four-armed humanoid horror is garbed in golden armor and surrounded by a nimbus of floating, glowing weaponry.", 
+    "description": "This six-armed humanoid horror is garbed in golden armor and surrounded by a nimbus of floating, glowing weaponry.", 
     "sections": [
         {
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Claw:", 
                     "name": "Curse of False Wisdom", 
                     "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Special Abilities/Curse of False Wisdom", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 44, 
-                        "section_id": 148, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 148, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Curse of False Wisdom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Special Abilities/Curse of False Wisdom/Curse of False Wisdom", 
                             "contracted": "contact", 
-                            "section_id": 149, 
                             "effect": "1d6 Wisdom drain", 
                             "subtype": "curse", 
                             "frequency": "1/day", 
                             "save": "Will DC 31", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 45, 
-                        "section_id": 150, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 150, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Asurendra Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Special Abilities/Poison/Asurendra Venom", 
                             "contracted": "injury", 
-                            "section_id": 151, 
                             "effect": "1d6 Constitution damage", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -90,54 +79,81 @@
                             "save": "Fortitude DC 33", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "As a swift action, an asurendra can call forth up to six longsword-shaped force effects that float near the asurendra until directed. The asurendra can use a standard action to direct one blade to attack a target up to a distance of 50 feet away, or use a full-attack action to cause all six blades to attack up to six different targets up to a distance of 50 feet away, each to a different location if desired. Once an asurendra directs a spirit blade to attack a foe, the blade continues to make a single attack against that foe each round on the asurendra's turn until directed otherwise by the asurendra and as long as the foe remains within 50 feet of the asurendra. As a move action, the asurendra can direct all currently attacking blades to switch targets to new foes within 50 feet. These weapons attack using the asurendra's base attack bonus modified by its Wisdom modifier (+29 for most asurendras), and deal 3d6 points of damage plus an amount of force damage equal to the asurendra's Wisdom modifier (3d6+7 for most asurendras). Physical attacks do no affect these blades, but disintegrate, a sphere of annihilation, or a rod of cancellation (touch AC 25) causes them to vanish. If a spirit blade's target dies or moves beyond a 50-foot range and the asurendra does not retarget that blade by the end of its turn, the blade vanishes. Likewise, any blades that are not within 50 feet of the asurendra at the end of its turn also vanish.", 
                     "name": "Spirit Blades", 
                     "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Special Abilities/Spirit Blades", 
                     "ability_types": {
-                        "ability_type_id": 46, 
-                        "section_id": 152, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 152, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 147, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>With the notable exception of the unique asura ranas, asurendras are the mightiest of their kind. Although few asurendras possess anything resembling an extended realm, in Hell or elsewhere, these asuras are the &ldquo;wise ones&rdquo; of asura kind. Most dwell within shrinelike fortresses in which they can practice their ruinous mysticism and command lesser asuras who seek their teachings. To most asuras, an asurendra's order is something akin to a deific edict.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 153
+            "type": "section"
         }, 
         {
             "body": "<p>Each asurendra is a humanoid creature of immense proportions. Their exact appearance varies just as the appearances of humanoids vary, but all asurendras have six arms and multiple eyes and heads. An asurendra's body is an example of physical perfection, athletically and gracefully built, but its face has monstrous or inhuman features, such as tusks or bizarrely placed features. Most asurendras are 19 feet tall and weigh 8,000 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 154
+            "type": "section"
         }, 
         {
             "body": "<p>Few asurendras were born to their might&mdash;they achieve their power only over the course of countless lifetimes spent as lesser asuras. Throughout each incarnation, these tenacious asuras sought unity with some concept of destruction. Eventually, through dark meditation and vile action, the asuras ascended to a state of being united with some aspect of unmaking. They also gained power over their own being and slowly reshaped themselves into a vision of their perfect selves, instruments of annihilation ideally suited to fell gods and their divine works.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 155
+            "type": "section"
         }, 
         {
             "body": "<p>In battle, an asurendra does its best to destroy all enemies, taking a moment to ensure death when any foe falls. Asurendras enjoy eating the bodies of fallen foes, and some can even use the flesh and bone of those they consume to create new asuras to serve them.</p>", 
             "source": "Bestiary 3", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p>Each asurendra follows its own bliss toward a specific method of vengeance against the divine. Like philosophers dispensing wisdom, they teach their ways to others so that more asuras might ascend into perfection. Listed here are some ideas of the vile ways asurendras might use their &ldquo;enlightened&rdquo; hatred.</p>", 
+            "name": "Blasphemous Sages", 
+            "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Blasphemous Sages", 
             "type": "section", 
-            "section_id": 156
+            "source": "Bestiary 3", 
+            "sections": [
+                {
+                    "body": "<p class=\"stat-block-2\">All living things can die. Instead of war, an asurendra can focus on the aftermath of war. Such an asurendra replaces quickened <i>baleful polymorph</i> with quickened <i>slay living</i> and quickened <i>blade barrier</i> with quickened <i>circle of death</i>. Its spirit blades deal negative energy damage, not force damage, and can thus be used to heal allied undead creatures as easily as they can serve as weapons against the living.</p>", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Blasphemous Sages/Death", 
+                    "type": "section", 
+                    "name": "Death", 
+                    "source": "Bestiary 3"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-2\">Blasphemy is joy to any asura, but truly impious asurendras learn talents that mimic divine miracles. Cults to these asurendras, which almost always seem benevolent on first glance, turn people from the worship of real deities. These asurendras do not possess a spirit blade special attack, but can use <i>miracle</i> as a spell-like ability once per day as long as the miracle granted is in keeping with their blasphemous design.</p>", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Blasphemous Sages/Sacrilege", 
+                    "type": "section", 
+                    "name": "Sacrilege", 
+                    "source": "Bestiary 3"
+                }, 
+                {
+                    "body": "<p class=\"stat-block-2\">Some asurendras like to remake what the gods have created. Nothing escapes a shaper's vision, and its enemies find their bodies, minds, and souls are like clay in a shaper's hands.  An asurendra sage of shaping lacks a spirit blade special attack, but gains the following special ability.</p><p class=\"stat-block-2\"><i>Create Asura</i> As a full-round action, an asurendra can turn a creature that it has eaten within the last 24 hours into a tripurasura (see page 26) that it then excretes into existence. Such tripurasuras remain loyal to the asurendra that created them as long as they remain tripurasuras. If an asurendra has enough tripurasuras at hand, it can consume them as well and transform them into more powerful asuras using this ability. An asurendra can  transform any tripurasuras it has eaten within the last 24 hours into a number of Hit Dice worth of other asuras equal to the number of tripurasuras it has consumed. An asurendra can create as many tripurasuras as it wishes with this ability, but can only create more powerful asuras by combining multiple tripurasuras once per day. An asurendra cannot create another asurendra with this ability. A newly formed asura considers the asurendra to be its master. Not all of a creature's soul is consumed when it is used to create a tripurasura&mdash;beings swallowed and used to create asuras in this manner are dead, but can be restored to life as normal.</p>", 
+                    "name": "Shaping", 
+                    "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra/Blasphemous Sages/Shaping", 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
+                }
+            ]
         }
     ], 
     "hp": "385 (22d10+264); regeneration 10 (good weapons, good spells)", 
     "reach": "15 ft.", 
-    "section_id": 146, 
     "wisdom": "25", 
     "creature_type": "Outsider", 
     "dr": "15/chaotic and good", 
@@ -145,7 +161,7 @@
     "base_attack": "+22", 
     "skills": "Acrobatics +31 (+39 when jumping), Bluff +33, Climb +21, Diplomacy +30, Escape Artist +14, Fly +35, Intimidate +33, Knowledge (arcana) +27, Knowledge (history) +13, Knowledge (planes) +30, Knowledge (religion) +27, Perception +34, Perform (dance) +33, Sense Motive +30, Spellcraft +27, Stealth +23, Swim +21, Use Magic Device +30", 
     "reflex": "+17", 
-    "cmd": "61", 
+    "cmd": "64", 
     "cmb": "+37 (+41 grapple)", 
     "will": "+20; +2 vs. enchantment spells", 
     "url": "pfsrd://Bestiary 3/Monsters/Asura/Asurendra", 

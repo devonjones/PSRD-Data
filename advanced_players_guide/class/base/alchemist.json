@@ -5,7 +5,6 @@
     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist", 
     "type": "class", 
     "image": "Alchemist.png", 
-    "section_id": 829, 
     "subtype": "base", 
     "hit_die": "d8", 
     "alt": "Damiel", 
@@ -14,71 +13,61 @@
             "body": "<p id=\"role\">The alchemist's reputation is not softened by his exuberance (some would say dangerous recklessness) in perfecting his magical extracts and potion-like creations, infusing these substances with magic siphoned from his aura and using his own body as experimental stock. Nor is it mollified by the alchemist's almost gleeful passion for building explosive bombs and discovering strange new poisons and methods for their use. These traits, while making him a liability and risk for most civilized organizations and institutions of higher learning, seem to fit quite well with most adventuring groups.</p>", 
             "source": "Advanced Player's Guide", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 830
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for alchemist characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Alchemist</td><td>3d6 &times; 10 gp</td><td>105 gp</td></tr></table>", 
                     "source": "Advanced Player's Guide", 
-                    "type": "table", 
-                    "section_id": 832
+                    "type": "table"
                 }
             ], 
-            "section_id": 831, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The alchemist's class skills are Appraise (Int), Craft (any) (Int), Disable Device (Dex), Fly (Dex), Heal (Wis), Knowledge (arcana) (Int), Knowledge (nature) (Int), Perception (Wis), Profession (Wis), Sleight of Hand (Dex), Spellcraft (Int), Survival (Wis), Use Magic Device (Cha).</p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">4 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-2-1:-alchemist\"><caption>Table:  Alchemist</caption><thead><tr id=\"level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th\"><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"6\">Extracts per Day</th></tr><tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+2</td><td>+2</td><td>+0</td><td style=\"white-space: normal;\">Alchemy, bomb 1d6, Brew Potion, mutagen, Throw Anything</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+3</td><td>+3</td><td>+0</td><td style=\"white-space: normal;\">Discovery, poison resistance +2, poison use</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+3</td><td>+3</td><td>+1</td><td style=\"white-space: normal;\">Bomb 2d6, swift alchemy</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+4</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">Discovery</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+4</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">Bomb 3d6, poison resistance +4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+5</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Discovery, swift poisoning</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+5</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Bomb 4d6</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+6</td><td>+6</td><td>+2</td><td style=\"white-space: normal;\">Discovery, poison resistance +6</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+6</td><td>+6</td><td>+3</td><td style=\"white-space: normal;\">Bomb 5d6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+7</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Discovery, poison immunity</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+7</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Bomb 6d6</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+8</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">Discovery</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+8</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">Bomb 7d6</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+9</td><td>+9</td><td>+4</td><td style=\"white-space: normal;\">Discovery, persistent mutagen</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+9</td><td>+9</td><td>+5</td><td style=\"white-space: normal;\">Bomb 8d6</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+10</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">Discovery</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+10</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">Bomb 9d6</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+11</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">Discovery, instant alchemy</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+11</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">Bomb 10d6</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+12</td><td>+12</td><td>+6</td><td style=\"white-space: normal;\">Grand discovery</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr></table>", 
-                            "name": "Table: Alchemist", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Skills/Skill Ranks per Level/Table Alchemist", 
-                            "section_id": 835, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Alchemist", 
+                            "source": "Advanced Player's Guide"
                         }
                     ], 
-                    "section_id": 834, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Advanced Player's Guide"
                 }
             ], 
-            "section_id": 833, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The following are class features of the alchemist.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Alchemists are proficient with all simple weapons and bombs. They are also proficient with light armor, but not with shields.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 837
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
-                    "body": "<p id=\"alchemy\">Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also of fashioning magical potion-like extracts in which they can store spell effects. In effect, an alchemist prepares his spells by mixing ingredients into a number of extracts, and then &ldquo;casts&rdquo; his spells by drinking the extract. When an alchemist creates an extract or bomb, he infuses the concoction with a tiny fraction of his own magical power&mdash;this enables the creation of powerful effects, but also binds the effects to the creator.</p><p>When using Craft (alchemy) to create an alchemical item, an alchemist gains a competence bonus equal to his class level on the Craft (alchemy) check. In addition, an alchemist can use Craft (alchemy) to identify potions as if using <i>detect magic</i>. He must hold the potion for 1 round to make such a check.</p><p>An alchemist can create three special types of magical items&mdash;extracts, bombs, and mutagens. Bombs are explosive splash weapons, and mutagens are transformative elixirs that the alchemist drinks to enhance his physical abilities&mdash;both of these are detailed in their own sections below.</p><p>Extracts are the most varied of the three. In many ways, they behave like spells in potion form, and as such their effects can be dispelled by effects like <i>dispel magic</i> using the alchemist's level as the caster level. Unlike potions, though, extracts can have powerful effects and duplicate spells that a potion normally could not.</p><p> An alchemist can create only a certain number of extracts of each level per day. His base daily allotment of extracts is given on Table 2&ndash;1. In addition, he receives bonus extracts per day if he has a high Intelligence score, in the same way a wizard receives bonus spells per day.</p><p>When an alchemist mixes an extract, he infuses the chemicals and reagents in the extract with magic siphoned from his own magical aura. An extract immediately becomes inert if it leaves the alchemist's possession, reactivating as soon as it returns to his keeping&mdash;an alchemist cannot normally pass out his extracts for allies to use (but see the &ldquo;infusion&rdquo; discovery below). An extract, once created, remains potent for 1 day before losing its magic, so an alchemist must re-prepare his extracts every day. Mixing an extract takes 1 minute of work&mdash;most alchemists prepare many extracts at the start of the day or just before going on an adventure, but it's not uncommon for an alchemist to keep some (or even all) of his daily extract slots open so that he can prepare extracts in the field as needed.</p><p>Although the alchemist doesn't actually cast spells, he does have a formulae list that determines what extracts he can create. An alchemist can utilize spell-trigger items if the spell appears on his formuale list, but not spell-completion items (unless he uses Use Magic Device to do so). An extract is &ldquo;cast&rdquo; by drinking it, as if imbibing a potion&mdash;the effects of an extract exactly duplicate the spell upon which its formula is based, save that the spell always affects only the drinking alchemist. An alchemist can draw and drink an extract as a standard action. The alchemist uses his level as the caster level to determine any effect based on caster level.</p><p>Creating extracts consumes raw materials, but the cost of these materials is insignificant&mdash;comparable to the valueless material components of most spells. If a spell normally has a costly material component, that component is expended during the consumption of that particular extract. Extracts cannot be made from spells that have focus requirements (alchemist extracts that duplicate divine spells never have a divine focus requirement).</p><p>An alchemist can prepare an extract of any formula he knows. To learn or use an extract, an alchemist must have an Intelligence score equal to at least 10 + the extract's level. The Difficulty Class for a saving throw against an alchemist's extract is 10 + the extract level + the alchemist's Intelligence modifier.</p><p>An alchemist may know any number of formulae. He stores his formulae in a special tome called a formula book. He must refer to this book whenever he prepares an extract but not when he consumes it. An alchemist begins play with two 1st-level formulae of his choice, plus a number of additional forumlae equal to his Intelligence modifier. At each new alchemist level, he gains one new formula of any level that he can create. An alchemist can also add formulae to his book just like a wizard adds spells to his spellbook, using the same costs, pages, and time requirements. An alchemist can study a wizard's spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. An alchemist does not need to decipher arcane writings before copying them.</p>", 
+                    "body": "<p id=\"alchemy\">Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also of fashioning magical potion-like extracts in which they can store spell effects. In effect, an alchemist prepares his spells by mixing ingredients into a number of extracts, and then &ldquo;casts&rdquo; his spells by drinking the extract. When an alchemist creates an extract or bomb, he infuses the concoction with a tiny fraction of his own magical power&mdash;this enables the creation of powerful effects, but also binds the effects to the creator.</p><p>When using Craft (alchemy) to create an alchemical item, an alchemist gains a competence bonus equal to his class level on the Craft (alchemy) check. In addition, an alchemist can use Craft (alchemy) to identify potions as if using <i>detect magic</i>. He must hold the potion for 1 round to make such a check.</p><p>An alchemist can create three special types of magical items&mdash;extracts, bombs, and mutagens. Bombs are explosive splash weapons, and mutagens are transformative elixirs that the alchemist drinks to enhance his physical abilities&mdash;both of these are detailed in their own sections below.</p><p>Extracts are the most varied of the three. In many ways, they behave like spells in potion form, and as such their effects can be dispelled by effects like <i>dispel magic</i> using the alchemist's level as the caster level. Unlike potions, though, extracts can have powerful effects and duplicate spells that a potion normally could not.</p><p> An alchemist can create only a certain number of extracts of each level per day. His base daily allotment of extracts is given on Table 2&ndash;1. In addition, he receives bonus extracts per day if he has a high Intelligence score, in the same way a wizard receives bonus spells per day.</p><p>When an alchemist mixes an extract, he infuses the chemicals and reagents in the extract with magic siphoned from his own magical aura. An extract immediately becomes inert if it leaves the alchemist's possession, reactivating as soon as it returns to his keeping&mdash;an alchemist cannot normally pass out his extracts for allies to use (but see the &ldquo;infusion&rdquo; discovery below). An extract, once created, remains potent for 1 day before losing its magic, so an alchemist must re-prepare his extracts every day. Mixing an extract takes 1 minute of work&mdash;most alchemists prepare many extracts at the start of the day or just before going on an adventure, but it's not uncommon for an alchemist to keep some (or even all) of his daily extract slots open so that he can prepare extracts in the field as needed.</p><p>Although the alchemist doesn't actually cast spells, he does have a formulae list that determines what extracts he can create. An alchemist can utilize spell-trigger items if the spell appears on his formulae list, but not spell-completion items (unless he uses Use Magic Device to do so). An extract is &ldquo;cast&rdquo; by drinking it, as if imbibing a potion&mdash;the effects of an extract exactly duplicate the spell upon which its formula is based, save that the spell always affects only the drinking alchemist. An alchemist can draw and drink an extract as a standard action. The alchemist uses his level as the caster level to determine any effect based on caster level.</p><p>Creating extracts consumes raw materials, but the cost of these materials is insignificant&mdash;comparable to the valueless material components of most spells. If a spell normally has a costly material component, that component is expended during the consumption of that particular extract. Extracts cannot be made from spells that have focus requirements (alchemist extracts that duplicate divine spells never have a divine focus requirement).</p><p>An alchemist can prepare an extract of any formula he knows. To learn or use an extract, an alchemist must have an Intelligence score equal to at least 10 + the extract's level. The Difficulty Class for a saving throw against an alchemist's extract is 10 + the extract level + the alchemist's Intelligence modifier.</p><p>An alchemist may know any number of formulae. He stores his formulae in a special tome called a formula book. He must refer to this book whenever he prepares an extract but not when he consumes it. An alchemist begins play with two 1st-level formulae of his choice, plus a number of additional forumlae equal to his Intelligence modifier. At each new alchemist level, he gains one new formula of any level that he can create. An alchemist can also add formulae to his book just like a wizard adds spells to his spellbook, using the same costs, pages, and time requirements. An alchemist can study a wizard's spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. An alchemist does not need to decipher arcane writings before copying them.</p>", 
                     "name": "Alchemy", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Alchemy", 
                     "ability_types": {
-                        "ability_type_id": 5, 
-                        "section_id": 838, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 838, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -87,11 +76,8 @@
                     "name": "Bomb", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Bomb", 
                     "ability_types": {
-                        "ability_type_id": 6, 
-                        "section_id": 839, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 839, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -100,11 +86,8 @@
                     "name": "Brew Potion", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Brew Potion", 
                     "ability_types": {
-                        "ability_type_id": 7, 
-                        "section_id": 840, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 840, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -113,11 +96,8 @@
                     "name": "Mutagen", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Mutagen", 
                     "ability_types": {
-                        "ability_type_id": 8, 
-                        "section_id": 841, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 841, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -126,11 +106,8 @@
                     "name": "Throw Anything", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Throw Anything", 
                     "ability_types": {
-                        "ability_type_id": 9, 
-                        "section_id": 842, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 842, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -138,21 +115,12 @@
                     "body": "<p id=\"discovery\">At 2nd level, and then again every 2 levels thereafter (up to 18th level), an alchemist makes an incredible alchemical discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. Discoveries that modify bombs that are marked with an asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier. </p>", 
                     "name": "Discovery", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 10, 
-                        "section_id": 843, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 843, 
-                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"acid-bomb*\">When the alchemist creates a bomb, he can choose to have it inflict acid damage. Creatures that take a direct hit from an acid bomb take an additional 1d6 points of acid damage 1 round later.</p>", 
                             "name": "Acid bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Acid bomb*", 
-                            "section_id": 844, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -161,7 +129,6 @@
                             "name": "Combine extracts", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Combine extracts", 
-                            "section_id": 845, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -170,7 +137,6 @@
                             "name": "Concentrate poison", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Concentrate poison", 
-                            "section_id": 846, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -179,7 +145,6 @@
                             "name": "Concussive bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Concussive bomb*", 
-                            "section_id": 847, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -188,7 +153,6 @@
                             "name": "Delayed bomb", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Delayed bomb", 
-                            "section_id": 848, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -197,7 +161,6 @@
                             "name": "Dilution", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Dilution", 
-                            "section_id": 849, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -206,7 +169,6 @@
                             "name": "Dispelling Bomb", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Dispelling Bomb", 
-                            "section_id": 850, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -215,7 +177,6 @@
                             "name": "Elixir of life", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Elixir of life", 
-                            "section_id": 851, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -224,7 +185,6 @@
                             "name": "Enhance potion", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Enhance potion", 
-                            "section_id": 852, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -233,7 +193,6 @@
                             "name": "Eternal potion", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Eternal potion", 
-                            "section_id": 853, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -242,7 +201,6 @@
                             "name": "Explosive bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Explosive bomb*", 
-                            "section_id": 854, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -251,7 +209,6 @@
                             "name": "Extend potion", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Extend potion", 
-                            "section_id": 855, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -260,7 +217,6 @@
                             "name": "Fast bombs", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Fast bombs", 
-                            "section_id": 856, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -269,7 +225,6 @@
                             "name": "Feral mutagen", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Feral mutagen", 
-                            "section_id": 857, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -278,7 +233,6 @@
                             "name": "Force bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Force bomb*", 
-                            "section_id": 858, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -287,7 +241,6 @@
                             "name": "Frost bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Frost bomb*", 
-                            "section_id": 859, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -296,7 +249,6 @@
                             "name": "Grand mutagen", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Grand mutagen", 
-                            "section_id": 860, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -305,7 +257,6 @@
                             "name": "Greater mutagen", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Greater mutagen", 
-                            "section_id": 861, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -314,7 +265,6 @@
                             "name": "Infuse mutagen", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Infuse mutagen", 
-                            "section_id": 862, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -323,7 +273,6 @@
                             "name": "Inferno bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Inferno bomb*", 
-                            "section_id": 863, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -332,7 +281,6 @@
                             "name": "Infusion", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Infusion", 
-                            "section_id": 864, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -341,7 +289,6 @@
                             "name": "Madness bomb", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Madness bomb", 
-                            "section_id": 865, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -350,7 +297,6 @@
                             "name": "Poison bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Poison bomb*", 
-                            "section_id": 866, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -359,7 +305,6 @@
                             "name": "Precise bombs", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Precise bombs", 
-                            "section_id": 867, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -368,7 +313,6 @@
                             "name": "Shock bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Shock bomb*", 
-                            "section_id": 868, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -377,7 +321,6 @@
                             "name": "Smoke bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Smoke bomb*", 
-                            "section_id": 869, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -386,7 +329,6 @@
                             "name": "Sticky bomb", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Sticky bomb", 
-                            "section_id": 870, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -395,7 +337,6 @@
                             "name": "Sticky poison", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Sticky poison", 
-                            "section_id": 871, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }, 
@@ -404,34 +345,33 @@
                             "name": "Stink bomb*", 
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Discovery/Stink bomb*", 
-                            "section_id": 872, 
                             "subtype": "alchemist_discovery", 
                             "type": "section"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Discoveries: Ultimate Magic", 
-                    "section_id": 873
+                    "name": "Discoveries: Ultimate Magic"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Discoveries: Ultimate Combat", 
-                    "section_id": 874
+                    "name": "Discoveries: Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"poison-resistance\">At 2nd level, an alchemist gains a +2 bonus on all saving throws against poison. This bonus increases to +4 at 5th level, and then again to +6 at 8th level. At 10th level, an alchemist becomes completely immune to poison.</p>", 
                     "name": "Poison Resistance", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Poison Resistance", 
                     "ability_types": {
-                        "ability_type_id": 11, 
-                        "section_id": 875, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 875, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -440,11 +380,8 @@
                     "name": "Poison Use", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Poison Use", 
                     "ability_types": {
-                        "ability_type_id": 12, 
-                        "section_id": 876, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 876, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -453,11 +390,8 @@
                     "name": "Swift Alchemy", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Swift Alchemy", 
                     "ability_types": {
-                        "ability_type_id": 13, 
-                        "section_id": 877, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 877, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -466,11 +400,8 @@
                     "name": "Swift Poisoning", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Swift Poisoning", 
                     "ability_types": {
-                        "ability_type_id": 14, 
-                        "section_id": 878, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 878, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -479,11 +410,8 @@
                     "name": "Persistent Mutagen", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Persistent Mutagen", 
                     "ability_types": {
-                        "ability_type_id": 15, 
-                        "section_id": 879, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 879, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -492,11 +420,8 @@
                     "name": "Instant Alchemy", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Instant Alchemy", 
                     "ability_types": {
-                        "ability_type_id": 16, 
-                        "section_id": 880, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 880, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -504,100 +429,86 @@
                     "body": "<p id=\"grand-discovery\">At 20th level, the alchemist makes a grand discovery. He immediately learns two normal discoveries, but also learns a third discovery chosen from the list below, representing a truly astounding alchemical breakthrough of significant import. For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work. </p>", 
                     "name": "Grand Discovery", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Grand Discovery", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 17, 
-                        "section_id": 881, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 881, 
-                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"awakened-intellect\">The alchemist's constant exposure to strange chemicals has expanded his mind. His Intelligence score permanently increases by 2 points.</p>", 
-                            "name": "Awakened Intellect", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Grand Discovery/Awakened Intellect", 
-                            "section_id": 882, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Awakened Intellect", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"eternal-youth\">The alchemist has discovered a cure for aging, and from this point forward he takes no penalty to his physical ability scores from advanced age. If the alchemist is already taking such penalties, they are removed at this time.</p>", 
-                            "name": "Eternal Youth", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Grand Discovery/Eternal Youth", 
-                            "section_id": 883, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Eternal Youth", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"fast-healing\">The alchemist's flesh responds to damage with shocking speed&mdash;he gains fast healing 5.</p>", 
-                            "name": "Fast Healing", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Grand Discovery/Fast Healing", 
-                            "section_id": 884, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Fast Healing", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"philosopher's-stone\">The alchemist learns how to create a <i>philosopher's stone</i>, and can do so once per month at no cost. Creating a <i>philosopher's stone</i> takes 1 day of work.</p>", 
-                            "name": "Philosopher's Stone", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Grand Discovery/Philosophers Stone", 
-                            "section_id": 885, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Philosopher's Stone", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"poison-touch\">The alchemist gains a poisonous touch, as if under the effects of a <i>poison</i> spell. He can suppress or activate this ability as a free action. The physical appearance of how the alchemist generates and delivers his poisonous touch varies from alchemist to alchemist.</p>", 
-                            "name": "Poison Touch", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Grand Discovery/Poison Touch", 
-                            "section_id": 886, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Poison Touch", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"true-mutagen\">The alchemist's mutagen now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength, Dexterity, and Constitution. The alchemist takes a &ndash;2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists (see Mutagen). An alchemist must possess the grand mutagen discovery before selecting this discovery.</p>", 
-                            "name": "True Mutagen", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Class Features/Grand Discovery/True Mutagen", 
-                            "section_id": 887, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "True Mutagen", 
+                            "source": "Advanced Player's Guide"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Advanced Player's Guide", 
+                    "type": "ability"
                 }
             ], 
-            "section_id": 836, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>Alchemists gain access to a variety of formulae, allowing them to make extracts of the following spells. While most of these spells are found in the <i>Core Rulebook</i>, those marked with an asterisk (*) appear in Chapter 5 of this book.</p>", 
             "name": "Alchemist Formulae", 
             "source": "Advanced Player's Guide", 
             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Alchemist Formulae", 
-            "section_id": 888, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "alchemist"
         }, 
         {
-            "name": "Alchemist Archetypes", 
             "url": "pfsrd://Advanced Players Guide/Classes/Alchemist/Alchemist Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Alchemist Archetypes: Ultimate Magic", 
-                    "section_id": 890
+                    "name": "Alchemist Archetypes: Ultimate Magic"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Alchemist Archetypes: Ultimate Combat", 
-                    "section_id": 891
+                    "name": "Alchemist Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 889, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Alchemist Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Sapphire/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
-                    "body": "Once every 1d6 rounds as a standard action, a sapphire jellyfish can discharge a 20-foot-radius blast of electricity, dealing 8d6 points of electricity damage (DC 22 Reflex for half). Any creature that takes damage from this electricity must also make a DC 22 Fortitude save to avoid being staggered for 1d4 rounds.", 
+                    "body": "Once every 1d6 rounds as a standard action, a sapphire jellyfish can discharge a 20-foot-radius blast of electricity, dealing 8d6 points of electricity damage (DC 23 Reflex for half). Any creature that takes damage from this electricity must also make a DC 23 Fortitude save to avoid being staggered for 1d4 rounds. The save DC is Constitution-based.", 
                     "name": "Electricity Blast", 
                     "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Sapphire/Special Abilities/Electricity Blast", 
                     "ability_types": {
-                        "ability_type_id": 376, 
-                        "section_id": 1216, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1216, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -45,21 +44,12 @@
                     "body": "The save DC is Constitution-based. Tentacle:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Sapphire/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 377, 
-                        "section_id": 1217, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1217, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Sapphire Jellyfish Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Sapphire/Special Abilities/Poison/Sapphire Jellyfish Venom", 
                             "contracted": "injury", 
-                            "section_id": 1218, 
                             "effect": "1d4 Dexterity and 1d4 Constitution", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -67,23 +57,23 @@
                             "save": "Fortitude DC 23", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1215, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Like other giant jellyfish, a sapphire jellyfish is an active hunter. It stores powerful electrical charges in its domelike bell, which is 16 feet in diameter. Its sensory tentacles can trail for twice that length, but the dangerous toxic tentacles are positioned within about 20 feet of the creature's bell.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1219
+            "type": "section"
         }
     ], 
     "hp": "138 (12d8+84)", 
     "reach": "20 ft.", 
-    "section_id": 1214, 
     "wisdom": "12", 
     "defensive_abilities": "amorphous", 
     "creature_type": "Vermin", 

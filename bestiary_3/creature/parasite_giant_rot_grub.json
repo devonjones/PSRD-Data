@@ -26,17 +26,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Parasite/Giant Rot Grub/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A rot grub that is grappling a foe and chooses to damage the foe with an additional grapple check deals twice its normal bite damage (2d6+6 for most giant rot grubs), in addition to injecting an additional dose of poison with each successful check.", 
                     "name": "Gnaw", 
                     "url": "pfsrd://Bestiary 3/Monsters/Parasite/Giant Rot Grub/Special Abilities/Gnaw", 
                     "ability_types": {
-                        "ability_type_id": 496, 
-                        "section_id": 1676, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1676, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -44,21 +43,12 @@
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Parasite/Giant Rot Grub/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 497, 
-                        "section_id": 1677, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1677, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Giant Rot Grub Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Parasite/Giant Rot Grub/Special Abilities/Poison/Giant Rot Grub Venom", 
                             "contracted": "injury", 
-                            "section_id": 1678, 
                             "effect": "1d3 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -66,28 +56,27 @@
                             "save": "Fortitude DC 16", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1675, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Rot grubs are foul, nauseating parasites that feed on flesh and use corpses as nests in which to grow. While a rot grub can derive nourishment from dead flesh, its true hunger is for the flesh of the living. Thankfully, rot grub swarms occur only rarely, as they require the infested carcass of a Huge or larger creature and many weeks to build up the numbers necessary to constitute a swarm.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1679
+            "type": "section"
         }, 
         {
             "body": "<p>In some cases, a rot grub continues to feed and grow, eventually reaching enormous size as a giant rot grub.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1680
+            "type": "section"
         }
     ], 
     "hp": "34 (4d8+16)", 
-    "section_id": 1674, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
     "name": "Parasite, Giant Rot Grub", 

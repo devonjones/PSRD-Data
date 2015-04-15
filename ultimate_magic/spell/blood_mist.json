@@ -1,21 +1,24 @@
 {
-    "level_text": "Druid: 8", 
-    "duration": "1 minute/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S, M (a pinch of dried red algae)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>This spell summons forth a misty cloud of rust-red toxic algae. Any creature within the mist is coated by it, turning the creature the same reddish color. All targets within the mist gain concealment. Any creature within the mist must save or take 1d4 points of Wisdom damage and become enraged, attacking any creatures it detects nearby (as the &ldquo;attack nearest creature&rdquo; result of the confused condition). An enraged creature remains so as long as the spell is in effect. A creature only needs to save once each time it is within the mist (though leaving and returning requires another save).</p>", 
+    "school": "conjuration", 
+    "saving_throw": "Fortitude negates (see text)", 
     "description": "Mist causes Wisdom damage and rage.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Blood Mist", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 27, 
+    "level_text": "Druid: 8; Shaman: 8", 
+    "descriptor": [
+        "poison"
+    ], 
+    "range": "medium (100ft. +10ft./level)", 
     "levels": [
         {
             "class": "Druid", 
+            "level": 8
+        }, 
+        {
+            "class": "Shaman", 
             "level": 8
         }
     ], 
@@ -26,14 +29,6 @@
             "name": "Area"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "Fortitude negates (see text)", 
-    "name": "Blood Mist", 
-    "url": "pfsrd://Ultimate Magic/Spells/Blood Mist", 
-    "descriptor": [
-        "poison"
-    ], 
-    "range": "medium (100ft. +10ft./level)", 
     "components": [
         {
             "type": "V"
@@ -45,5 +40,13 @@
             "text": "a pinch of dried red algae", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 minute/level", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a pinch of dried red algae)", 
+    "name": "Blood Mist"
 }

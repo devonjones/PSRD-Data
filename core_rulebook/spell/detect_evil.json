@@ -7,8 +7,7 @@
     "type": "spell", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "level_text": "Adept: 1; Cleric: 1; Inquisitor: 1; Oracle: 1", 
-    "section_id": 149, 
+    "level_text": "Adept: 1; Cleric: 1; Inquisitor: 1; Oracle: 1; Shaman: 1; Warpriest: 1", 
     "source": "Core Rulebook", 
     "range": "60 ft.", 
     "levels": [
@@ -26,6 +25,14 @@
         }, 
         {
             "class": "Oracle", 
+            "level": 1
+        }, 
+        {
+            "class": "Shaman", 
+            "level": 1
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 1
         }
     ], 
@@ -50,24 +57,21 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Original Strength</th><th>Duration of Lingering Aura</th></tr></thead><tbody><tr class=\"odd\"><td>Faint</td><td>1d6 rounds</td></tr><tr class=\"even\"><td>Moderate</td><td>1d6 minutes</td></tr><tr class=\"odd\"><td>Strong</td><td>1d6 &times; 10 minutes</td></tr><tr class=\"even\"><td>Overwhelming</td><td>1d6 days</td></tr></tbody></table>", 
-            "name": "Original Strength", 
             "url": "pfsrd://Core Rulebook/Spells/Detect Evil/Original Strength", 
-            "section_id": 150, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Original Strength", 
+            "source": "Core Rulebook"
         }, 
         {
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 151
+            "type": "section"
         }, 
         {
             "body": "<table id=\"detect-alignment-table\"><caption>Detect Chaos/Evil/Good/Law</caption><thead><tr><th rowspan=\"2\">Creature/Object</th><th colspan=\"5\">Aura Power</th></tr><tr><th>None</th><th>Faint</th><th>Moderate</th><th>Strong</th><th>Overwhelming</th></tr></thead><tr class=\"odd\"><td>Aligned creature<sup>1</sup> (HD)</td><td>4 or lower</td><td>5&ndash;10</td><td>11&ndash;25</td><td>26&ndash;50</td><td>51 or higher</td></tr><tr class=\"even\"><td>Aligned Undead (HD)</td><td>&mdash;</td><td>2 or lower</td><td>3&ndash;8</td><td>9&ndash;20</td><td>21 or higher</td></tr><tr class=\"odd\"><td>Aligned outsider (HD)</td><td>&mdash;</td><td>1 or lower</td><td>2&ndash;4</td><td>5&ndash;10</td><td>11 or higher</td></tr><tr class=\"even\"><td>Cleric or paladin of an aligned deity<sup>2</sup> (class levels)</td><td>&mdash;</td><td>1</td><td>2&ndash;4</td><td>5&ndash;10</td><td>11 or higher</td></tr><tr class=\"odd\"><td>Aligned magic item or spell (caster level)</td><td>5th or lower</td><td>6th&ndash;10th</td><td>11th&ndash;15th</td><td>16th&ndash;20th</td><td>21st or higher</td></tr><tfoot><tr><td colspan=\"6\">1 Except for undead and outsiders, which have their own entries on the table.</td></tr><tr><td colspan=\"6\">2 Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies.</td></tr></tfoot></table>", 
+            "url": "pfsrd://Core Rulebook/Spells/Detect Evil/Detect Chaos_Evil_Good_Law", 
+            "type": "table", 
             "name": "Detect Chaos/Evil/Good/Law", 
-            "url": "pfsrd://Core Rulebook/Spells/Detect Evil/Detect Chaos/Evil/Good/Law", 
-            "section_id": 152, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "source": "Core Rulebook"
         }
     ], 
     "component_text": "V, S, DF", 

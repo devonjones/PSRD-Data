@@ -28,26 +28,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Octopus/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Octopus/Giant/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 495, 
-                        "section_id": 2289, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2289, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Giant Octopus Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Octopus/Giant/Special Abilities/Poison/Giant Octopus Venom", 
                             "contracted": "injury", 
-                            "section_id": 2290, 
                             "effect": "1d3 Strength", 
                             "subtype": "poison", 
                             "cure": "2 saves", 
@@ -55,23 +48,23 @@
                             "save": "Fortitude DC 19", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2288, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The giant octopus is a true monster capable of catching and eating sharks, humans, or anything else it can grab with its tentacles.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2291
+            "type": "section"
         }
     ], 
     "hp": "90 (12d8+36)", 
     "reach": "10 ft. (20 ft. with tentacle)", 
-    "section_id": 2287, 
     "wisdom": "12", 
     "defensive_abilities": "ink cloud (30-foot-radius sphere)", 
     "creature_type": "Animal", 

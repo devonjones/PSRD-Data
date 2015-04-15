@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Neh-Thalggu/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A neh-thalggu can store up to seven humanoid brains and use them to enhance its knowledge and power. Each stored brain grants a neh-thalggu a cumulative +1 insight bonus to AC, concentration checks, and Knowledge checks. A neh-thalggu can extract a brain from a helpless opponent with a coup de grace attack, or as a standard action from a body that has been dead for no more than 1 minute. A neh-thalggu that has fewer than seven brains gains one negative level for each missing brain. These negative levels can never become permanent, but they can only be removed by replacing one of its collected brains. The stats presented here assume a monster with a full collection.", 
                     "name": "Brain Collection", 
                     "url": "pfsrd://Bestiary 2/Monsters/Neh-Thalggu/Special Abilities/Brain Collection", 
                     "ability_types": {
-                        "ability_type_id": 348, 
-                        "section_id": 1444, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1444, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -52,21 +51,12 @@
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Neh-Thalggu/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 349, 
-                        "section_id": 1445, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1445, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Neh-thalggu Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Neh-Thalggu/Special Abilities/Poison/Neh-thalggu Venom", 
                             "contracted": "injury", 
-                            "section_id": 1446, 
                             "effect": "1d2 Strength damage and staggered", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -74,49 +64,44 @@
                             "save": "Fortitude DC 21", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A neh-thalggu casts spells as a 7th-level sorcerer. For each negative level it takes from missing brains, its caster level is reduced by 1. A neh-thalggu with no collected brains cannot cast any of its spells.", 
                     "source": "Bestiary 2", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1447
+                    "name": "Spells"
                 }, 
                 {
                     "body": "All Knowledge skills are class skills for neh-thalggus.", 
                     "name": "Strange Knowledge", 
                     "url": "pfsrd://Bestiary 2/Monsters/Neh-Thalggu/Special Abilities/Strange Knowledge", 
                     "ability_types": {
-                        "ability_type_id": 350, 
-                        "section_id": 1448, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1448, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1443, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Known also as brain collectors, the alien neh-thalggus hail from distant worlds, traveling the gulfs of space on immense living ships that swiftly decay when they land upon a new world, leaving behind a deadly cargo of hungry monsters. Neh-thalggus are carnivores, but they do not digest humanoid brains they eat&mdash;rather, these brains lodge in one of several bulbous blisters on the creature's back and help to increase its intellect.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1449
+            "type": "section"
         }, 
         {
             "body": "<p>Some speculate that neh-thalggus encountered in this reality may merely be juveniles of their kind, perhaps exiled from their home worlds by greater kin until they can prove their worth on other worlds. Their brain collections may be a morbid form of currency in their home realm, or the thoughts in these brains may merely be fuel for a dark apotheosis into an even more sinister mature form.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1450
+            "type": "section"
         }
     ], 
     "hp": "105 (10d8+60)", 
     "reach": "5 ft.", 
-    "section_id": 1442, 
     "wisdom": "18", 
     "creature_type": "Aberration", 
     "special_qualities": "brain collection, strange knowledge", 

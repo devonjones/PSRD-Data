@@ -1,18 +1,18 @@
 {
-    "level_text": "Bard: 4; Inquisitor: 4", 
-    "duration": "1 hour/level", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You speak out against a single creature within line of sight and turn possible allies against it by drawing upon the power of your voice and conviction. Creatures in the area who can see the denounced creature must make a Will saving throw or have their starting attitude toward the denounced creature worsened by two levels. For example, creatures previously indifferent to the subject turn unfriendly. Diplomacy checks made to reverse the effects of <i>denounce</i> are made at a &ndash;10 penalty. </p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Worsens creatures' attitudes.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Denounce", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 73, 
+    "level_text": "Bard: 4; Skald: 4; Inquisitor: 4", 
+    "descriptor": [
+        "language-dependent", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Bard", 
@@ -20,6 +20,10 @@
         }, 
         {
             "class": "Inquisitor", 
+            "level": 4
+        }, 
+        {
+            "class": "Skald", 
             "level": 4
         }
     ], 
@@ -30,18 +34,17 @@
             "name": "Area"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Denounce", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Denounce", 
-    "descriptor": [
-        "language-dependent", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
         }
-    ]
+    ], 
+    "duration": "1 hour/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V", 
+    "name": "Denounce"
 }

@@ -1,6 +1,6 @@
 {
     "dexterity": "12", 
-    "ac": "17, touch 11, flat-footed 16 (+1", 
+    "ac": "17, touch 11, flat-footed 16 (+1 Dex, +6 natural)", 
     "special_attacks": "breath weapon (30-ft. line, 2d6 acid damage plus recurring damage, Reflex DC 18 half, usable every 1d4 rounds), constrict (1d8+3), implant eggs", 
     "intelligence": "5", 
     "resist": "electricity 5, fire 5", 
@@ -30,17 +30,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 4", 
             "url": "pfsrd://Bestiary 4/Monsters/Lunarma/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A lunarma's carapace is covered in jagged barbs. Any creature that grapples a lunarma or attacks it with unarmed strikes or natural weapons takes 1d4 points of damage from the vicious barbs. Using a reach weapon does not endanger the attacker this way.", 
                     "name": "Barbed Carapace", 
                     "url": "pfsrd://Bestiary 4/Monsters/Lunarma/Special Abilities/Barbed Carapace", 
                     "ability_types": {
-                        "ability_type_id": 440, 
-                        "section_id": 1326, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1326, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -49,11 +48,8 @@
                     "name": "Breath Weapon", 
                     "url": "pfsrd://Bestiary 4/Monsters/Lunarma/Special Abilities/Breath Weapon", 
                     "ability_types": {
-                        "ability_type_id": 441, 
-                        "section_id": 1327, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1327, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -62,53 +58,41 @@
                     "name": "Implant Eggs", 
                     "url": "pfsrd://Bestiary 4/Monsters/Lunarma/Special Abilities/Implant Eggs", 
                     "ability_types": {
-                        "ability_type_id": 442, 
-                        "section_id": 1328, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1328, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1325, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Lunarmas are mysterious crablike creatures that come from space. They move by floating through the air and can eat flesh, wood, bone, and certain kinds of sand and dust. Highly aggressive, they attack by dropping on prey from above and grabbing it with their limbs, using their breath weapon to injure multiple creatures for easier capture, feeding, and implantation.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1329
+            "type": "section"
         }, 
         {
             "body": "<p>Efficient in its digestion and reproduction, a single lunarma can depopulate a village in a few days, spawning dozens of offspring that scatter in search of more prey. Fortunately, an adult lunarma lives no longer than a year. During this time, it seeks to eat and find living prey in which to lay its eggs.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1330
+            "type": "section"
         }, 
         {
             "body": "<p>A newly spawned lunarma forms a cocoon in which it metamorphoses into a preadult, emerging when it senses food. It can remain dormant in its cocoon for centuries, and clusters of eggs have been found in sealed caverns beneath icy surfaces, as well as on cold moons and drifting asteroids&mdash;as if placed there by an intelligent creature.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1331
+            "type": "section"
         }, 
         {
             "body": "<p>Though lunarmas are able to communicate among themselves telepathically, they're only barely intelligent, and their thoughts are primitive. They have no known culture, and their desires are limited to feeding and procreation. The only instinct they seem to have beyond that is a violent aversion to flumphs, which they attack on sight.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1332
+            "type": "section"
         }, 
         {
             "body": "<p>An adult lunarma is nearly 5 feet across and weighs 400 pounds.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1333
+            "type": "section"
         }
     ], 
     "hp": "76 (9d8+36)", 
     "reach": "5 ft. (10 ft. with claws)", 
-    "section_id": 1324, 
     "wisdom": "12", 
     "defensive_abilities": "barbed carapace", 
     "creature_type": "Aberration", 

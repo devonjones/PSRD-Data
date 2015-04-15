@@ -1,13 +1,13 @@
 {
     "dexterity": "21", 
     "ac": "26, touch 13, flat-footed 23 (+6 armor, +3 Dex, +7 natural)", 
-    "special_attacks": "adhesion, faith-stealing strike", 
+    "special_attacks": "adhesion, faith-stealing strike (DC 22)", 
     "intelligence": "12", 
     "resist": "cold 10, fire 10", 
-    "melee": "mwk short sword +26/+21/+16/+11 (1d6+9/19-20), mwk short sword +26/+21/+16 (1d6+4/19-20), bite +22 (1d8+4)", 
+    "melee": "mwk short sword +27/+22/+17/+12 (1d6+9/19\u201320), mwk short sword +27/+22/+17 (1d6+4/19\u201320), bite +22 (1d8+4)", 
     "cr": "13", 
     "xp": "25,600", 
-    "speed": "40 ft., fly 40 ft. (average)", 
+    "speed": "60 ft., fly 60 ft. (average); 20 ft., fly 40 ft. (average) in armor", 
     "alignment": "CE", 
     "size": "Medium", 
     "languages": "Abyssal, Celestial, Common", 
@@ -22,7 +22,7 @@
     "fortitude": "+15", 
     "spells": [
         {
-            "spell-like abilities": "(CL 13th; concentration +24)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i></p><p class=\"stat-block-2\">3/day-<i>dispel magic</i></p><p class=\"stat-block-2\">1/day-<i>chaos hammer</i> (DC 17), summon (level 4, 1d2 tarry demodands 40%)</p>"
+            "spell-like abilities": "(CL 13th; concentration +16)<p class=\"stat-block-2\">Constant-<i>detect good</i>, <i>detect magic</i></p><p class=\"stat-block-2\">3/day-<i>dispel magic</i></p><p class=\"stat-block-2\">1/day-<i>chaos hammer</i> (DC 17), summon (level 4, 1d2 tarry demodands 40%)</p>"
         }
     ], 
     "type": "creature", 
@@ -34,40 +34,33 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Demodand/Tarry/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A creature striking a tarry demodand with a manufactured weapon must make a DC 23 Reflex save; failure means the weapon sticks to the demodand and cannot be used to make attacks until freed. Freeing a stuck weapon requires a successful grapple check. This adhesion grants a +4 racial bonus to CMD against disarm attempts.", 
                     "name": "Adhesion", 
                     "url": "pfsrd://Bestiary 3/Monsters/Demodand/Tarry/Special Abilities/Adhesion", 
                     "ability_types": {
-                        "ability_type_id": 157, 
-                        "section_id": 521, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 521, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 520, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Tarry demodands are lithe and lean compared to other demodands. Despite this difference, all tarry demodands are strong and agile. Although their batlike wings appear tattered and useless, they can still fly. A tarry demodand stands 7 feet tall and weighs 400 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 522
+            "type": "section"
         }, 
         {
             "body": "<p>The tarry demodand is the grunt of the demodand army&mdash;bred for battle, these swift and deadly demodands make up the bulk of any demodand legion. That they themselves are more powerful than most outsiders is as much a testament to their race as anything else&mdash;a single tarry demodand is a formidable opponent, to say nothing of a group of the creatures. Although tarry demodands are quite strong, they prefer using light weapons&mdash;one in each hand. Tarry demodands only rarely use larger weaponry, and then only when directly ordered by a superior. They lack the terrific claws of the greater demodands, and a tarry demodand with no weapons tends to flee combat as soon as possible, only to return when it is properly armed.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 523
+            "type": "section"
         }
     ], 
     "hp": "171 (18d10+72)", 
-    "section_id": 519, 
     "wisdom": "13", 
     "creature_type": "Outsider", 
     "special_qualities": "heretical soul", 

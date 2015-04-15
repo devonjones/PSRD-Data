@@ -5,7 +5,6 @@
     "url": "pfsrd://Core Rulebook/Classes/Rogue", 
     "type": "class", 
     "image": "Rogue.png", 
-    "section_id": 2364, 
     "subtype": "core", 
     "hit_die": "d8", 
     "alt": "Merisiel", 
@@ -14,87 +13,75 @@
             "body": "<p>Rogues excel at moving about unseen and catching foes unaware, and tend to avoid head-to-head combat. Their varied skills and abilities allow them to be highly versatile, with great variations in expertise existing between different rogues. Most, however, excel in overcoming hindrances of all types, from unlocking doors and disarming traps to outwitting magical hazards and conning dull-witted opponents.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 2365
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for rogue characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Rogue</td><td>4d6 &times; 10 gp</td><td>140 gp</td></tr></table>", 
                     "source": "Core Rulebook", 
-                    "type": "table", 
-                    "section_id": 2367
+                    "type": "table"
                 }
             ], 
-            "section_id": 2366, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The rogue's class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (local) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Stealth (Dex), Swim (Str), and Use Magic Device (Cha). </p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>8 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-3-13-rogue\"><caption>Table: Rogue</caption><thead><tr><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+2</td><td>+0</td><td style=\"white-space: normal;\">Sneak attack +1d6, trapfinding</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+3</td><td>+0</td><td style=\"white-space: normal;\">Evasion, rogue talent</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+1</td><td>+3</td><td>+1</td><td style=\"white-space: normal;\">Sneak attack +2d6, trap sense +1</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+1</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">Rogue talent, uncanny dodge</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+1</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">Sneak attack +3d6</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+2</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Rogue talent, trap sense +2</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+2</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Sneak attack +4d6</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+2</td><td>+6</td><td>+2</td><td style=\"white-space: normal;\">Improved uncanny dodge, rogue talent</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+3</td><td>+6</td><td>+3</td><td style=\"white-space: normal;\">Sneak attack +5d6, trap sense +3</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+3</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Advanced talents, rogue talent</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+3</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Sneak attack +6d6</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+4</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">Rogue talent, trap sense +4</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+4</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">Sneak attack +7d6</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+4</td><td>+9</td><td>+4</td><td style=\"white-space: normal;\">Rogue talent</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+5</td><td>+9</td><td>+5</td><td style=\"white-space: normal;\">Sneak attack +8d6, trap sense +5</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+5</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">Rogue talent</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+5</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">Sneak attack +9d6</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+6</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">Rogue talent, trap sense +6</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+6</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">Sneak attack +10d6</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+6</td><td>+12</td><td>+6</td><td style=\"white-space: normal;\">Master strike, rogue talent</td></tr></table>", 
-                            "name": "Table: Rogue", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Skills/Skill Ranks per Level/Table Rogue", 
-                            "section_id": 2370, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Rogue", 
+                            "source": "Core Rulebook"
                         }
                     ], 
-                    "section_id": 2369, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 2368, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The following are class features of the rogue.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow, and short sword. They are proficient with light armor, but not with shields.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 2372
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"sneak-attack\">If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.</p><p>The rogue's attack deals extra damage anytime her target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target. This extra damage is 1d6 at 1st level, and increases by 1d6 every two rogue levels thereafter. Should the rogue score a critical hit with a sneak attack, this extra damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet.</p><p>With a weapon that deals nonlethal damage (like a sap, whip, or an unarmed strike), a rogue can make a sneak attack that deals nonlethal damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual &ndash;4 penalty.</p><p>The rogue must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A rogue cannot sneak attack while striking a creature with concealment.</p>", 
-                    "name": "Sneak Attack", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Sneak Attack", 
-                    "section_id": 2373, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Sneak Attack", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"trapfinding\">A rogue adds 1/2 her level to Perception skill checks made to locate traps and to Disable Device skill checks (minimum +1). A rogue can use Disable Device to disarm magic traps.</p>", 
-                    "name": "Trapfinding", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Trapfinding", 
-                    "section_id": 2374, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Trapfinding", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"evasion-rogue\">At 2nd level and higher, a rogue can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the rogue is wearing light armor or no armor. A helpless rogue does not gain the benefit of evasion.</p>", 
                     "name": "Evasion", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Evasion", 
                     "ability_types": {
-                        "ability_type_id": 252, 
-                        "section_id": 2375, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2375, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -102,6 +89,8 @@
                     "body": "<p id=\"rogue-talents\">As a rogue gains experience, she learns a number of talents that aid her and confound her foes. Starting at 2nd level, a rogue gains one rogue talent. She gains an additional rogue talent for every 2 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more than once.</p><p>Talents marked with an asterisk add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made. </p>", 
                     "name": "Rogue Talents", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents", 
+                    "type": "section", 
+                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<p id=\"rogue-talents-bleeding-attack\">A rogue with this ability can cause living opponents to bleed by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the rogue's sneak attack (e.g., 4d6 equals 4 points of bleed). Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleeding damage from this ability does not stack with itself. Bleeding damage bypasses any damage reduction the creature might possess.</p>", 
@@ -109,11 +98,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Bleeding Attack*", 
                             "ability_types": {
-                                "ability_type_id": 253, 
-                                "section_id": 2377, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2377, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -122,7 +108,6 @@
                             "name": "Combat Trick", 
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Combat Trick", 
-                            "section_id": 2378, 
                             "subtype": "rogue_talent", 
                             "type": "section"
                         }, 
@@ -132,11 +117,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Fast Stealth", 
                             "ability_types": {
-                                "ability_type_id": 254, 
-                                "section_id": 2379, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2379, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -145,7 +127,6 @@
                             "name": "Finesse Rogue", 
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Finesse Rogue", 
-                            "section_id": 2380, 
                             "subtype": "rogue_talent", 
                             "type": "section"
                         }, 
@@ -155,11 +136,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Ledge Walker", 
                             "ability_types": {
-                                "ability_type_id": 255, 
-                                "section_id": 2381, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2381, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -169,11 +147,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Major Magic", 
                             "ability_types": {
-                                "ability_type_id": 256, 
-                                "section_id": 2382, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2382, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -183,11 +158,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Minor Magic", 
                             "ability_types": {
-                                "ability_type_id": 257, 
-                                "section_id": 2383, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2383, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -197,11 +169,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Quick Disable", 
                             "ability_types": {
-                                "ability_type_id": 258, 
-                                "section_id": 2384, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2384, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -211,11 +180,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Resiliency", 
                             "ability_types": {
-                                "ability_type_id": 259, 
-                                "section_id": 2385, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2385, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -225,11 +191,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Rogue Crawl", 
                             "ability_types": {
-                                "ability_type_id": 260, 
-                                "section_id": 2386, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2386, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -239,11 +202,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Slow Reactions*", 
                             "ability_types": {
-                                "ability_type_id": 261, 
-                                "section_id": 2387, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2387, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -253,11 +213,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Stand Up", 
                             "ability_types": {
-                                "ability_type_id": 262, 
-                                "section_id": 2388, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2388, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -267,11 +224,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Surprise Attack", 
                             "ability_types": {
-                                "ability_type_id": 263, 
-                                "section_id": 2389, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2389, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -281,11 +235,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Trap Spotter", 
                             "ability_types": {
-                                "ability_type_id": 264, 
-                                "section_id": 2390, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2390, 
                             "subtype": "rogue_talent", 
                             "type": "ability"
                         }, 
@@ -294,37 +245,28 @@
                             "name": "Weapon Training", 
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Rogue Talents/Weapon Training", 
-                            "section_id": 2391, 
                             "subtype": "rogue_talent", 
                             "type": "section"
                         }
-                    ], 
-                    "section_id": 2376, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Rogue Talents: Advanced Player's Guide", 
-                    "section_id": 2392
+                    "name": "Rogue Talents: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Rogue Talents: Ultimate Combat", 
-                    "section_id": 2393
+                    "name": "Rogue Talents: Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"trap-sense-rogue\">At 3rd level, a rogue gains an intuitive sense that alerts her to danger from traps, giving her a +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses rise to +2 when the rogue reaches 6th level, to +3 when she reaches 9th level, to +4 when she reaches 12th level, to +5 at 15th, and to +6 at 18th level.</p><p>Trap sense bonuses gained from multiple classes stack.</p>", 
                     "name": "Trap Sense", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Trap Sense", 
                     "ability_types": {
-                        "ability_type_id": 265, 
-                        "section_id": 2394, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2394, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -333,11 +275,8 @@
                     "name": "Uncanny Dodge", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Uncanny Dodge", 
                     "ability_types": {
-                        "ability_type_id": 266, 
-                        "section_id": 2395, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2395, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -346,11 +285,8 @@
                     "name": "Improved Uncanny Dodge", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Improved Uncanny Dodge", 
                     "ability_types": {
-                        "ability_type_id": 267, 
-                        "section_id": 2396, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2396, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -358,6 +294,8 @@
                     "body": "<p id=\"advanced-talents\">At 10th level, and every two levels thereafter, a rogue can choose one of the following advanced talents in place of a rogue talent.</p>", 
                     "name": "Advanced Talents", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents", 
+                    "type": "section", 
+                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<p id=\"advanced-talents-crippling-strike\"> <i></i>A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of Strength damage.</p>", 
@@ -365,11 +303,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Crippling Strike*", 
                             "ability_types": {
-                                "ability_type_id": 268, 
-                                "section_id": 2398, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2398, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "ability"
                         }, 
@@ -379,11 +314,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Defensive Roll", 
                             "ability_types": {
-                                "ability_type_id": 269, 
-                                "section_id": 2399, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2399, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "ability"
                         }, 
@@ -393,11 +325,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Dispelling Attack*", 
                             "ability_types": {
-                                "ability_type_id": 270, 
-                                "section_id": 2400, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2400, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "ability"
                         }, 
@@ -407,11 +336,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Improved Evasion", 
                             "ability_types": {
-                                "ability_type_id": 271, 
-                                "section_id": 2401, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2401, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "ability"
                         }, 
@@ -421,11 +347,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Opportunist", 
                             "ability_types": {
-                                "ability_type_id": 272, 
-                                "section_id": 2402, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2402, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "ability"
                         }, 
@@ -434,7 +357,6 @@
                             "name": "Skill Mastery", 
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Skill Mastery", 
-                            "section_id": 2403, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "section"
                         }, 
@@ -444,11 +366,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Slippery Mind", 
                             "ability_types": {
-                                "ability_type_id": 273, 
-                                "section_id": 2404, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2404, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "ability"
                         }, 
@@ -457,65 +376,52 @@
                             "name": "Feat", 
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Advanced Talents/Feat", 
-                            "section_id": 2405, 
                             "subtype": "rogue_advanced_talent", 
                             "type": "section"
                         }
-                    ], 
-                    "section_id": 2397, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Advanced Rogue Talents: Advanced Player's Guide", 
-                    "section_id": 2406
+                    "name": "Advanced Rogue Talents: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Advanced Rogue Talents: Ultimate Combat", 
-                    "section_id": 2407
+                    "name": "Advanced Rogue Talents: Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"master-strike\"><i></i>Upon reaching 20th level, a rogue becomes incredibly deadly when dealing sneak attack damage. Each time the rogue deals sneak attack damage, she can choose one of the following three effects: the target can be put to sleep for 1d4 hours, paralyzed for 2d6 rounds, or slain. Regardless of the effect chosen, the target receives a Fortitude save to negate the additional effect. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier. Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue's master strike for 24 hours. Creatures that are immune to sneak attack damage are also immune to this ability.</p>", 
                     "name": "Master Strike", 
                     "url": "pfsrd://Core Rulebook/Classes/Rogue/Class Features/Master Strike", 
                     "ability_types": {
-                        "ability_type_id": 274, 
-                        "section_id": 2408, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2408, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 2371, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Core Rulebook"
         }, 
         {
-            "name": "Rogue Archetypes", 
             "url": "pfsrd://Core Rulebook/Classes/Rogue/Rogue Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Rogue Archetypes: Advanced Player's Guide", 
-                    "section_id": 2410
+                    "name": "Rogue Archetypes: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Rogue Archetypes: Ultimate Combat", 
-                    "section_id": 2411
+                    "name": "Rogue Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 2409, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Rogue Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

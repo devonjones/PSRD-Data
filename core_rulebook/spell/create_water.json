@@ -1,18 +1,17 @@
 {
-    "level_text": "Adept: 0; Cleric: 0; Druid: 0; Inquisitor: 0; Oracle: 0; Paladin: 1", 
-    "duration": "instantaneous", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large&mdash;possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.</p><p><i>Note</i>: Conjuration spells can't create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "Creates 2 gallons/level of pure water.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Create Water", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 119, 
+    "level_text": "Adept: 0; Cleric: 0; Druid: 0; Hunter: 0; Hunter: 0; Inquisitor: 0; Oracle: 0; Paladin: 1; Warpriest: 0", 
+    "descriptor": [
+        "water"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Adept", 
@@ -27,6 +26,14 @@
             "level": 0
         }, 
         {
+            "class": "Hunter", 
+            "level": 0
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 0
+        }, 
+        {
             "class": "Inquisitor", 
             "level": 0
         }, 
@@ -37,6 +44,10 @@
         {
             "class": "Paladin", 
             "level": 1
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 0
         }
     ], 
     "descriptor_text": "water", 
@@ -46,14 +57,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Create Water", 
-    "url": "pfsrd://Core Rulebook/Spells/Create Water", 
-    "descriptor": [
-        "water"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -61,5 +64,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "instantaneous", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Create Water"
 }

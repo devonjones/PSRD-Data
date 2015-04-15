@@ -26,31 +26,39 @@
         {
             "body": "<p>The arsinoitherium is a herbivore, but it displays a fierce and threatening behavior when it perceives danger: bellowing, stamping, and tossing its head. Threats that do not recede from such warnings are met with a fierce bellow and a charge.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1362
+            "type": "section"
         }, 
         {
-            "body": "<p id=\"starting-statistics\">:<b> Size </b>Medium; <b>Speed </b>30 ft.; <b>AC </b>+4 natural; <b>Attack</b> gore (1d8); <b>Ability Scores </b>Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 3; <b>Special Qualities </b>low-light vision, scent.</p>", 
+            "ac": "+4 natural", 
             "name": "Arsinoitherium", 
+            "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Megafauna/Arsinoitherium/Arsinoitherium", 
+            "speed": "30 ft.", 
+            "subtype": "base", 
+            "attack": "gore (1d8)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 3", 
             "sections": [
                 {
-                    "body": "<p id=\"7th-level-adv.\">:<b> Size </b>Large; <b>AC </b>+2 natural; <b>Attack </b>gore (2d8); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> powerful charge (2d8), trample.</p>", 
-                    "name": "7th-Level Adv.", 
-                    "url": "pfsrd://Bestiary 2/Monsters/Megafauna/Arsinoitherium/Arsinoitherium/7th-Level Adv.", 
-                    "section_id": 1364, 
+                    "ac": "+2 natural", 
+                    "name": "7th-Level Advancement", 
+                    "level": "7th", 
+                    "url": "pfsrd://Bestiary 2/Monsters/Megafauna/Arsinoitherium/Arsinoitherium/7th-Level Advancement", 
+                    "subtype": "advancement", 
+                    "attack": "gore (2d8)", 
                     "source": "Bestiary 2", 
-                    "type": "section"
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "type": "animal_companion", 
+                    "special_qualities": "powerful charge (2d8), trample.", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 1363, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            "special_qualities": "low-light vision, scent.", 
+            "size": "Medium"
         }
     ], 
     "hp": "85 (9d8+45)", 
     "reach": "5 ft.", 
-    "section_id": 1361, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Megafauna, Arsinoitherium", 

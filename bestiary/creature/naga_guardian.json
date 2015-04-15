@@ -32,26 +32,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Naga/Guardian/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Naga/Guardian/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 474, 
-                        "section_id": 2222, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2222, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Guardian Naga Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Naga/Guardian/Special Abilities/Poison/Guardian Naga Venom", 
                             "contracted": "injury or spit&mdash;contact", 
-                            "section_id": 2223, 
                             "effect": "1d4 Constitution damage", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -59,49 +52,44 @@
                             "save": "Fortitude DC 21", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A guardian naga casts spells as a 9th-level sorcerer, and can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a guardian naga.", 
                     "source": "Bestiary", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 2224
+                    "name": "Spells"
                 }, 
                 {
                     "body": "A guardian naga can spit its venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Opponents hit by this attack must make successful saves (see above) to avoid the effect.", 
                     "name": "Spit", 
                     "url": "pfsrd://Bestiary/Monsters/Naga/Guardian/Special Abilities/Spit", 
                     "ability_types": {
-                        "ability_type_id": 475, 
-                        "section_id": 2225, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2225, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2221, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Although ferocious in shape, with radiant scales, cobra-like hoods, and powerful serpentine bodies, guardian nagas serve as dutiful protectors of places of fundamental power and sanctity. Their scales often bear elaborate patterns similar to those of exotic jungle snakes. A typical guardian naga stretches 14 feet long and weighs approximately 350 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2226
+            "type": "section"
         }, 
         {
             "body": "<p>While many guardian nagas adhere to the exotic practices of ancient or forgotten faiths, others are merely drawn to sites of innate wonder&mdash;towering waterfalls, natural spires, mountaintop temples&mdash;minding them out of their own senses of duty and reverence. Often these nagas join a living faith, serving as protectors of sanctuaries or ancient treasures. A pair of nagas might take up residence near a site they deem worthy of protection, hatching a brood and raising their offspring there. When the young grow to adulthood, they have the choice of departing to seek their own homes or staying to protect their elder's charge. Sometimes, a guardian naga protecting a ruin or temple is but the current protector in a line of sentinels stretching back centuries. Such sentinels often take the same name as their forebears to appear as a single, exceptionally long-lived figure.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2227
+            "type": "section"
         }
     ], 
     "hp": "114 (12d8+60)", 
     "reach": "5 ft.", 
-    "section_id": 2220, 
     "wisdom": "19", 
     "creature_type": "Aberration", 
     "ranged": "spit +14 touch (poison)", 

@@ -1,8 +1,8 @@
 {
     "dexterity": "16", 
-    "ac": "21, touch 13, flat-footed 18 (+8 armor, +3 Dex)", 
+    "ac": "22, touch 13, flat-footed 19 (+9 armor, +3 Dex)", 
     "intelligence": "14", 
-    "melee": "+2 icy burst glaive +12/+7 (1d10+6/&times;3 plus 1d6 cold) or gore +9 (2d6+3 plus 1d6 cold)", 
+    "melee": "+2 icy burst glaive +12/+7 (1d10+6/&times;3 plus 1d6 cold) or gore +4 (2d6+1 plus 1d6 cold)", 
     "cr": "8", 
     "xp": "4,800", 
     "speed": "30 ft.; icewalking", 
@@ -32,30 +32,26 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Cold Rider/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A cold rider and any creature it rides can move across icy surfaces without penalty and do not need to make Acrobatics checks to run or charge on ice. They may climb icy surfaces as if under the effects of the spider climb spell.", 
                     "name": "Icewalking", 
                     "url": "pfsrd://Bestiary 3/Monsters/Cold Rider/Special Abilities/Icewalking", 
                     "ability_types": {
-                        "ability_type_id": 134, 
-                        "section_id": 439, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 439, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
                 {
-                    "body": "A cold rider wears full plate armor and wields a +2 icy burst glaive made of magical ice as hard as steel. Its armor has no armor check penalty. When a cold rider dies, its armor and glaive melt into water in 1d6 rounds.", 
+                    "body": "A cold rider wears full plate armor and wields a +2 icy burst glaive made of magical ice as hard as steel. Its armor does not restrict it in any way. When a cold rider dies, its armor and glaive melt into water in 1d6 rounds.", 
                     "name": "Implements of Ice", 
                     "url": "pfsrd://Bestiary 3/Monsters/Cold Rider/Special Abilities/Implements of Ice", 
                     "ability_types": {
-                        "ability_type_id": 135, 
-                        "section_id": 440, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 440, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -64,35 +60,26 @@
                     "name": "Susceptible to Shatter", 
                     "url": "pfsrd://Bestiary 3/Monsters/Cold Rider/Special Abilities/Susceptible to Shatter", 
                     "ability_types": {
-                        "ability_type_id": 136, 
-                        "section_id": 441, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 441, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 438, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Cold riders are terrifying armored majesties, clad in cloaks of frost with a pair of large crystal-blue antlers cresting their almost skeletal heads. Their icy armor and weapons are as much a part of them as their frozen flesh. Cold riders delight in perversion, slaughter, and the corruption of other fey. They prefer undead or cold-resistant steeds, but even when they have no access to such, their phantom steed spell-like ability ensures they never go long without a mount. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 442
+            "type": "section"
         }, 
         {
             "body": "<p>Cold riders are 7 feet tall, though their antlers easily add another 2 feet to their height. They weigh 300 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 443
+            "type": "section"
         }
     ], 
     "hp": "97 (13d6+52); fast healing 5", 
     "weaknesses": "vulnerable to fire and sonic, susceptible to shatter", 
-    "section_id": 437, 
     "wisdom": "15", 
     "defensive_abilities": "implements of ice", 
     "creature_type": "Fey", 

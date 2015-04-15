@@ -3,79 +3,69 @@
     "name": "Climb", 
     "url": "pfsrd://Core Rulebook/Skills/Climb", 
     "attribute": "Str", 
-    "section_id": 858, 
     "source": "Core Rulebook", 
     "trained_only": true, 
     "armor_check_penalty": true, 
     "sections": [
         {
             "body": "<p>With a successful Climb check, you can advance up, down, or across a slope, wall, or other steep incline (or even across a ceiling, provided it has handholds) at one-quarter your normal speed. A slope is considered to be any incline at an angle measuring less than 60 degrees; a wall is any incline at an angle measuring 60 degrees or more.</p><p>A Climb check that fails by 4 or less means that you make no progress, and one that fails by 5 or more means that you fall from whatever height you have already attained.</p><p>The DC of the check depends on the conditions of the climb. Compare the task with those on the following table to determine an appropriate DC.</p>", 
-            "name": "Check", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Climb DC</th><th>Example Surface or Activity</th></tr></thead><tr class=\"odd\"><td>0</td><td style=\"white-space:normal;\">A slope too steep to walk up, or a knotted rope with a wall to brace against.</td></tr><tr class=\"even\"><td>5</td><td style=\"white-space:normal;\">A rope with a wall to brace against, or a knotted rope, or a rope affected by the <i>rope trick</i> spell. </td></tr><tr class=\"odd\"><td>10</td><td style=\"white-space:normal;\">A surface with ledges to hold on to and stand on, such as a very rough wall or a ship's rigging. </td></tr><tr class=\"even\"><td>15</td><td style=\"white-space:normal;\">Any surface with adequate handholds and footholds (natural or artificial), such as a very rough natural rock surface or a tree, or an unknotted rope, or pulling yourself up when dangling by your hands. </td></tr><tr class=\"odd\"><td>20</td><td style=\"white-space:normal;\">An uneven surface with narrow handholds and footholds, such as a typical wall in a dungeon. </td></tr><tr class=\"even\"><td>25</td><td style=\"white-space:normal;\">A rough surface, such as a natural rock wall or a brick wall. </td></tr><tr class=\"odd\"><td>30</td><td style=\"white-space:normal;\">An overhang or ceiling with handholds only. </td></tr><tr class=\"even\"><td>&mdash;</td><td style=\"white-space:normal;\">A perfectly smooth, flat vertical (or inverted) surface cannot be climbed.</td></tr><tr><th>Climb DC Modifier*</th><th>Example Surface or Activity</th></tr><tr class=\"odd\"><td>&ndash;10</td><td style=\"white-space:normal;\">Climbing a chimney (artificial or natural) or other location where you can brace against two opposite walls.</td></tr><tr class=\"even\"><td>&ndash;5</td><td style=\"white-space:normal;\">Climbing a corner where you can brace against perpendicular walls.</td></tr><tr class=\"odd\"><td>+5</td><td style=\"white-space:normal;\">Surface is slippery.</td></tr><tfoot><tr><td colspan=\"2\">* These modifiers are cumulative; use all that apply.</td></tr></tfoot></table>", 
-                    "name": "Climb DC", 
                     "url": "pfsrd://Core Rulebook/Skills/Climb/Check/Climb DC", 
-                    "section_id": 860, 
-                    "source": "Core Rulebook", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Climb DC", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>You need both hands free to climb, but you may cling to a wall with one hand while you cast a spell or take some other action that requires only one hand. While climbing, you can't move to avoid a blow, so you lose your Dexterity bonus to AC (if any). You also can't use a shield while climbing. Anytime you take damage while climbing, make a Climb check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.</p>", 
                     "source": "Core Rulebook", 
-                    "type": "section", 
-                    "section_id": 861
+                    "type": "section"
                 }, 
                 {
                     "body": "<p>You try to climb more quickly than normal. By accepting a &ndash;5 penalty, you can move half your speed (instead of one-quarter your speed).</p>", 
-                    "name": "Accelerated Climbing", 
                     "url": "pfsrd://Core Rulebook/Skills/Climb/Check/Accelerated Climbing", 
-                    "section_id": 862, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Accelerated Climbing", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>You can make your own handholds and footholds by pounding pitons into a wall. Doing so takes 1 minute per piton, and one piton is needed per 5 feet of distance. As with any surface that offers handholds and footholds, a wall with pitons in it has a DC of 15. In the same way, a climber with a handaxe or similar implement can cut handholds in an ice wall.</p>", 
-                    "name": "Make Your Own Handholds and Footholds", 
                     "url": "pfsrd://Core Rulebook/Skills/Climb/Check/Make Your Own Handholds and Footholds", 
-                    "section_id": 863, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Make Your Own Handholds and Footholds", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>It's practically impossible to catch yourself on a wall while falling, yet if you wish to attempt such a difficult task, you can make a Climb check (DC = wall's DC + 20) to do so. It's much easier to catch yourself on a slope (DC = slope's DC + 10).</p>", 
-                    "name": "Catch Yourself When Falling", 
                     "url": "pfsrd://Core Rulebook/Skills/Climb/Check/Catch Yourself When Falling", 
-                    "section_id": 864, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Catch Yourself When Falling", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>If someone climbing above you or adjacent to you falls, you can attempt to catch the falling character if he or she is within your reach. Doing so requires a successful melee touch attack against the falling character (though he or she can voluntarily forego any Dexterity bonus to AC if desired). If you hit, you must immediately attempt a Climb check (DC = wall's DC + 10). Success indicates that you catch the falling character, but his total weight, including equipment, cannot exceed your heavy load limit or you automatically fall. If you fail your Climb check by 4 or less, you fail to stop the character's fall but don't lose your grip on the wall. If you fail by 5 or more, you fail to stop the character's fall and begin falling as well.</p>", 
-                    "name": "Catch a Falling Character While Climbing", 
                     "url": "pfsrd://Core Rulebook/Skills/Climb/Check/Catch a Falling Character While Climbing", 
-                    "section_id": 865, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Catch a Falling Character While Climbing", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 859, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Check", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Climbing is part of movement, so it's generally part of a move action (and may be combined with other types of movement in a move action). Each move action that includes any climbing requires a separate Climb check. Catching yourself or another falling character doesn't take an action.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Action", 
-            "section_id": 866
+            "name": "Action"
         }, 
         {
             "body": "<p>You can use a rope to haul a character upward (or lower a character) through sheer strength. You can lift double your maximum load in this manner.</p><p>A creature with a climb speed has a +8 racial bonus on all Climb checks. The creature must make a Climb check to climb any wall or slope with a DC higher than 0, but it can always choose to take 10, even if rushed or threatened while climbing. If a creature with a climb speed chooses an accelerated climb (see above), it moves at double its climb speed (or at its land speed, whichever is slower) and makes a single Climb check at a &ndash;5 penalty. Such a creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing.</p><p>If you have the Athletic feat, you get a bonus on Climb checks (see Feats).</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Special", 
-            "section_id": 867
+            "name": "Special"
         }
     ], 
     "description": "You are skilled at scaling vertical surfaces, from smooth city walls to rocky cliffs."

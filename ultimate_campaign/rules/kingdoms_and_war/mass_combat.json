@@ -2,553 +2,494 @@
     "body": "<p>Sooner or later, even the most peaceable kingdom will find itself faced with the prospect of war. While some kingdoms at odds with your own might be willing to compromise, others are not amenable to negotiation, or respond to overtures of appeasement with ever-increasing aggression. When diplomacy fails, the clash of steel is close behind.</p><p>This section contains rules for you as a kingdom leader to create armies, assign their commanders, and prepare them for battle on land, at sea, or in the skies. This includes rules for equipping and maintaining conventional armies, utilizing PCs as part of mass combat, converting groups of monsters into military forces, and going beyond the battlefield to deal with the aftermath of combat.</p><p>These rules provide an abstract, narrative mass combat system that will let you rapidly play out a complex battle scenario without getting bogged down in excessive detail, while still retaining fidelity to strategy, tactics, and the realities of the battlefield. These rules are not intended to accurately represent complex wars, provide a highly tactical simulation, or accurately model a tactical warfare miniatures game. Instead, they are intended to incorporate warfare into a campaign while still staying primarily focused on traditional, small-scale adventuring and roleplaying.</p>", 
     "name": "Mass Combat", 
     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat", 
+    "type": "section", 
+    "source": "Ultimate Campaign", 
     "sections": [
         {
             "body": "<p>The key parts of the mass combat rules that you'll reference often are:</p><ul><li>Explanations of the army stat block and terminology used throughout this section.</li><li>Step-by-step instructions on how to run the battle phases of a combat between armies.</li><li>Battlefield modifiers for terrain and similar factors.</li><li>Different tactics that armies can learn.</li><li>What happens at the end of a battle, once an army wins, loses, or flees.</li><li>How to use special commanders or kingdom leaders to modify army statistics.</li><li>Resources to upgrade and improve armies.</li><li>Special abilities for unusual armies, such as spellcasting or poison.</li><li>A list of sample armies.</li></ul>", 
-            "name": "Overview", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Overview", 
-            "section_id": 1852, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Overview", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>The description of each army is presented in a standard format.</p>", 
             "name": "Army Statistics", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>This is the name of the army. This could be a mercenary company's name, such as \"Thokk's Bloodragers,\" a formal regiment number such as \"7th Royal Cavalry,\" or an informal name such as \"militia from Redstone.\"</p>", 
-                    "name": "Name", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Name", 
-                    "section_id": 1854, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Name", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This is the XP awarded to the PCs if their army defeats this army, and is the same as an XP award for an encounter with a CR equal to the army's ACR (see below).</p>", 
-                    "name": "XP", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/XP", 
-                    "section_id": 1855, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "XP", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>An army's alignment has no effect on its statistics, and is just a convenient way to summarize its attitude with two letters. It is usually the same alignment as a typical unit in that army.</p>", 
-                    "name": "Alignment", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Alignment", 
-                    "section_id": 1856, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Alignment", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army's size determines not only how many individual units exist in the army, but also the army's ACR.</p>", 
                     "name": "Size", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Size", 
+                    "type": "section", 
+                    "source": "Ultimate Campaign", 
                     "sections": [
                         {
                             "body": "<table id=\"table-army-sizes\"><caption>Army Sizes</caption><thead><tr><th>Army Size</th><th>Number of Units</th><th>ACR</th></tr></thead><tr class=\"odd\"><td>Fine</td><td>1</td><td>CR of individual creature &mdash;8</td></tr><tr class=\"even\"><td>Diminutive</td><td>10</td><td>CR of individual creature &mdash;6</td></tr><tr class=\"odd\"><td>Tiny</td><td>25</td><td>CR of individual creature &mdash;4</td></tr><tr class=\"even\"><td>Small</td><td>50</td><td>CR of individual creature &mdash;2</td></tr><tr class=\"odd\"><td>Medium</td><td>100</td><td>CR of individual creature</td></tr><tr class=\"even\"><td>Large</td><td>200</td><td>CR of individual creature +2</td></tr><tr class=\"odd\"><td>Huge</td><td>500</td><td>CR of individual creature +4</td></tr><tr class=\"even\"><td>Gargantuan</td><td>1,000</td><td>CR of individual creature +6</td></tr><tr class=\"odd\"><td>Colossal</td><td>2,000</td><td>CR of individual creature +8</td></tr></table>", 
-                            "name": "Army Sizes", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Size/Army Sizes", 
-                            "section_id": 1858, 
-                            "source": "Ultimate Campaign", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Army Sizes", 
+                            "source": "Ultimate Campaign"
                         }
-                    ], 
-                    "section_id": 1857, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>This lists the nature of the army's individual units, such as \"orcs (warrior 1)\" or \"trolls.\" These rules assume all units in an army are essentially the same; if an army of 100 orc warriors 1 (meaning 1st-level warriors) actually has a few half-orc warriors or some orc barbarians, their presence has no effect on the army's statistics. If an army has a large number of units that are different than the typical unit in that army, and these differences are enough to change the army's stat block, it is generally best to treat the group as two separate armies with different stat blocks.</p>", 
-                    "name": "Type", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Type", 
-                    "section_id": 1859, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Type", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>An army's hit points equal its ACR \u00d7 the average hp value of 1 HD of the army's units (3.5 for d6 HD, 4.5 for d8 HD, 5.5 for d10 HD, and 6.5 for d12 HD). For example, warriors have d10 HD, so an ACR 1 army of warriors has 5.5 \u00d7 1 = 5.5 hp, rounded down to 5 hp. Note that only damage from other armies can reduce an army's hp; a non-army attacking an army is mostly ineffective, though you can treat the attacker as a Fine army if you want to determine the outcome of the attack. As with standard game effects that affect hit points, abilities that reduce hp damage or healing by half (or any other fraction) have a minimum of 1 rather than 0.</p>", 
-                    "name": "hp", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/hp", 
-                    "section_id": 1860, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "hp", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This is based on the CR of an individual unit from the army and the army's size, and scales like CRs for monsters. To determine ACR, see Table 4&mdash;15: Army Sizes and apply the modifier for the army's size to the CR of an individual unit in the army. If an army is cavalry, use the mount's CR or the rider's CR, whichever is higher. For example, an individual orc warrior 1 is CR 1/3, so an army of 100 orc warriors 1 is ACR 1/3; an army of 500 orc warriors 1 is ACR 3 (4 steps greater than the standard 100-unit army). If a group's ACR would be lower than 1/8, it doesn't count as an army&mdash;add more troops until you reach an ACR of 1/8 or higher.</p>", 
-                    "name": "Army Challenge Rating (ACR)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Army Challenge Rating (ACR)", 
-                    "section_id": 1861, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Army Challenge Rating (ACR)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This is a static number the army uses to resist attacks, much like an individual creature's AC. The army's DV is equal to ACR + 10 + any bonuses from fortifications or a settlement's Defense score.</p>", 
-                    "name": "Defense Value (DV)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Defense Value (DV)", 
-                    "section_id": 1862, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Defense Value (DV)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This is a modifier added to a d20 roll to determine the army's chance of success, much like an individual creature's attack bonus. The army's OM is equal to its ACR. If the army has the ability to make ranged attacks, that's mentioned here. Melee attacks and ranged attacks use the same OM unless an ability says otherwise.</p>", 
-                    "name": "Offense Modifier (OM)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Offense Modifier (OM)", 
-                    "section_id": 1863, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Offense Modifier (OM)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>These are any army tactics the army has at its disposal.</p>", 
-                    "name": "Tactics", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Tactics", 
-                    "section_id": 1864, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Tactics", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>These are any army resources the army has at its disposal.</p>", 
-                    "name": "Resources", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Resources", 
-                    "section_id": 1865, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Resources", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This section lists any special abilities the army has.</p>", 
                     "source": "Ultimate Campaign", 
                     "type": "section", 
-                    "name": "Special", 
-                    "section_id": 1866
+                    "name": "Special"
                 }, 
                 {
                     "body": "<p>This number indicates how many 12-mile hexes the army traverses in a day's march. Marching through difficult terrain halves the army's speed. Use the Movement and Distance table to determine the army's speed based on the speed of its individual units.</p>", 
-                    "name": "Speed", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Speed", 
-                    "section_id": 1867, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Speed", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This number represents how confident the army is. Morale is used to determine changing battle tactics, whether or not an army routs as a result of a devastating attack, and similar effects. Morale is a modifier from &mdash;4 (worst) to +4 (best). A new army's starting morale is +0. Morale can be further modified by the army's commander and other factors. If an army's Morale is ever reduced to &mdash;5 or lower, the army disbands or deserts and you no longer control it.</p>", 
-                    "name": "Morale", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Morale", 
-                    "section_id": 1868, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Morale", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This is how many Build Points (BP) an army consumes each week (unlike most kingdom expenses, this cost is per week, not per month), representing the cost to feed, hydrate, arm, train, care for, and pay the units. An army's base Consumption is equal to its ACR divided by 2 (minimum 1). If you fall behind on paying the army's Consumption, reduce its Morale by 2; this penalty ends when you catch up on the army's pay.</p>", 
-                    "name": "Consumption", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Consumption", 
-                    "section_id": 1869, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Consumption", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This entry lists the army's commander and the commander's Charisma modifier, ranks in Profession (soldier), and Leadership score. The commander must be able to communicate with the army (possibly using <i>message</i> spells and similar magical forms of communication) in order to give orders or provide a bonus on the army's rolls.</p>", 
-                    "name": "Commander", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Commander", 
-                    "section_id": 1870, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Commander", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1853, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Mass combat takes place over the course of three battle phases: the Tactics Phase, the Ranged Phase, and the Melee Phase. A phase doesn't denote a specific passage of time, leaving the GM latitude to determine how long a mass combat takes to resolve. For example, a battle in a muddy field after a rain could take place over hours and involve several short breaks to remove the dead from the battlefield, but still counts as one battle for the purposes of these rules. If there is an extended break (such as stopping at nightfall to resume combat in the morning) or the battle conditions change significantly (such as the assassination of a commander, the arrival of another army, and so on), the GM should treat each period of combat between armies as one battle. The battle phases are as follows.</p>", 
             "name": "Battle Phases", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battle Phases", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>The GM decides what battlefield modifiers apply to the battle. The commanders each select a tactic their respective armies will use during the battle.</p>", 
-                    "name": "1. Tactics Phase", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battle Phases/1. Tactics Phase", 
-                    "section_id": 1872, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "1. Tactics Phase", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Any army with the ability to make ranged attacks may make one attack against an enemy army. This phase typically lasts for 1 round (one attack) as the two armies use ranged attacks while they advance to melee range, and then use melee attacks thereafter. The battlefield's shape and other conditions can extend this duration. If both armies have ranged attacks, they may choose to stay at range and never approach each other for melee (at least until they run out of ammunition, though the Consumption cost of maintaining an army generally means the army is capable of many shots before this happens). Armies without ranged capability can't attack during this phase, but may still rush forward.</p>", 
-                    "name": "2. Ranged Phase", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battle Phases/2. Ranged Phase", 
-                    "section_id": 1873, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "2. Ranged Phase", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The armies finally clash with melee attacks. Each commander selects a strategy using the Strategy Track, then each army makes an attack against another army. Repeat the Melee phase until one army is defeated or routs, or some other event ends the battle.</p>", 
-                    "name": "3. Melee Phase", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battle Phases/3. Melee Phase", 
-                    "section_id": 1874, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "3. Melee Phase", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1871, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>In mass combat, the hundreds of individual attacks that take place in one battle phase overlap each other enough that who actually attacks first is irrelevant.</p><p>When armies attack, each army attempts an Offense check (1d20 + the attacking army's OM) and compares the result to the target army's DV.</p><p>If the Offense check is equal to or less than the target army's DV, the army deals no damage that phase.</p><p>If the Offense check is greater than defender's DV, the defending army takes damage equal to the result of the attacker's Offense check minus the defender's DV. For example, if the attacker's Offense check is 11 and the defender's DV is 7, the defending army takes 4 points of damage. Because these attacks are resolved simultaneously, it is possible that both armies may damage or even destroy each other in the same phase.</p><p>If the Offense check is a natural 20, but that check is lower than the enemy army's DV, the attacking army still deals 1 point of damage. If the Offense check is a natural 1, that army can't attempt an Offense Check in the next phase, due to some setback: a misheard order, getting stuck in mud, and so on.</p>", 
             "name": "Attacking and Taking Damage", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Attacking and Taking Damage", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>These rules can also serve in battles where more than two armies clash. In such battles, when your army attempts an Offense check, you choose which enemy army (or armies, if you have multiple armies in the field) it is attacking and apply damage appropriately. On each phase, you may change which army you are targeting. If your kingdom fields multiple armies in a battle, you may want to divide responsibility for these armies among the other players to speed up play.</p>", 
-                    "name": "More Than Two Armies", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Attacking and Taking Damage/More Than Two Armies", 
-                    "section_id": 1876, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "More Than Two Armies", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1875, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>In some mass combats, the specifics of a battlefield won't impact either army, but sometimes the battlefield will itself decide the outcome. The modifiers listed below apply only for the duration of the battle. Naturally, the GM should  exercise judgment regarding any conditions that don't seem to apply to one of the armies (such as darkness and an army with darkvision, or fog and an army with scent).</p><p>At the GM's discretion, large-area spells such as <i>move earth</i> might allow armies or commanders to manipulate the battlefield conditions before a conflict. For these spells to have any effect, they must last at least 1 hour and affect at least a 500-foot square. Likewise, magic items such as an <i>instant fortress</i> (+2 Defense) and spells such as <i>wall of stone</i> (+1 Defense) can create simple fortifications for an army to use in a battle.</p>", 
             "name": "Battlefield Conditions", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>Generally, if one army occupies a position of superiority (such as being atop a hill, wedged in a narrow canyon, or protected by a deep river along one flank), the defending army increases its DV by 2.</p>", 
-                    "name": "Advantageous Terrain", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Advantageous Terrain", 
-                    "section_id": 1878, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Advantageous Terrain", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>In order to attempt to ambush an army, the entire ambushing army must have concealment. The ambusher attempts an Offense check against the target army's DV. If successful, the battle begins but the target army doesn't get to act during the Tactics phase. Otherwise, the battle proceeds normally.</p>", 
-                    "name": "Ambush", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Ambush", 
-                    "section_id": 1879, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Ambush", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If an army is particularly familiar with a battlefield, it's OM and DV increase by 2.</p>", 
-                    "name": "Battlefield Advantage", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Battlefield Advantage", 
-                    "section_id": 1880, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Battlefield Advantage", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Darkness reduces all armies' OM by 2 and DV by 3.</p>", 
-                    "name": "Darkness", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Darkness", 
-                    "section_id": 1881, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Darkness", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Dim light reduces all armies' OM by 1.</p>", 
-                    "name": "Dim Light", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Dim Light", 
-                    "section_id": 1882, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Dim Light", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Fog reduces damage by half and gives the armies a +2 bonus on Morale checks to use the withdraw tactic.</p>", 
-                    "name": "Fog", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Fog", 
-                    "section_id": 1883, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Fog", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>An army located in a fortification adds the fortification's Defense to its DV. A settlement's Defense is determined by the types of buildings it contains, as detailed in the kingdom-building rules. If the game isn't using the kingdom-building rules, a typical fortification increases DV by 8.</p>", 
-                    "name": "Fortifications", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Fortifications", 
-                    "section_id": 1884, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Fortifications", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Rain affects modifiers to OM in the Ranged phase as if it were severe wind; see the Wind Effects table.</p>", 
-                    "name": "Rain", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Rain", 
-                    "section_id": 1885, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Rain", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>A sandstorm counts as fog and deals 1 hp of damage to all armies during each Ranged and Melee phase.</p>", 
-                    "name": "Sandstorm", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Sandstorm", 
-                    "section_id": 1886, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Sandstorm", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Snow affects ranged attacks like rain, and affects damage like fog.</p>", 
-                    "name": "Snow", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Snow", 
-                    "section_id": 1887, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Snow", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The wind modifiers to ranged attacks apply to OM in the Ranged phase; see the Wind Effects table.</p>", 
-                    "name": "Wind", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Battlefield Conditions/Wind", 
-                    "section_id": 1888, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Wind", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1877, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Tactics are options an army can use to influence aspects of a battle. A newly recruited army doesn't know any of these tactics unless specified by the GM. An army learns new tactics by being victorious in battle (see Victory, Rout, or Defeat). An army can know a number of tactics equal to half its ACR, minimum 0.</p><p>When a battle begins, the commander selects one tactic to use for that battle (if the army doesn't know any tactics, the army uses the standard tactic). At the start of each Ranged or Melee phase, the commander may try to change tactics by attempting a DC 15 Morale check. Success means the army uses the new tactic for that phase (and the modifiers from the old tactic cease); failure means the army continues to use its current tactic. The effects of tactics end when the battle does.</p><p>As with battlefield conditions, gaining benefits from a tactic is subject to GM discretion. (For example, you may not get the expert flankers benefit if you cannot actually flank your enemy).</p><p>Tactics marked with an asterisk (*) are default tactics all armies know; these do not count toward the number of tactics an army knows.</p>", 
             "name": "Army Tactics", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>Your army fights cautiously in order to maintain morale. Decrease its OM by 2, and add 2 to all its Morale checks.</p>", 
-                    "name": "Cautious Combat", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Cautious Combat", 
-                    "section_id": 1890, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cautious Combat", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army's OM increases by 2 against armies that aren't mounted. The army must have the mount resource to use this tactic.</p>", 
-                    "name": "Cavalry Experts", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Cavalry Experts", 
-                    "section_id": 1891, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cavalry Experts", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army fights defensively, taking actions to protect fellow units as needed. Decrease its OM by 2, and increase its DV by 2.</p>", 
-                    "name": "Defensive Wall", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Defensive Wall", 
-                    "section_id": 1892, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Defensive Wall", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army uses trickery and unfair tactics to gain an advantage at the start of a battle. For one Melee phase this battle, its OM increases by 6. (After that Melee phase, the opposing army knows to be ready for such tricks.)</p>", 
-                    "name": "Dirty Fighters", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Dirty Fighters", 
-                    "section_id": 1893, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Dirty Fighters", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army is skilled at surrounding the foe and distracting them, at the cost of spreading out too much and being more vulnerable. Increase its OM by 2, and decrease its DV by 2.</p>", 
-                    "name": "Expert Flankers", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Expert Flankers", 
-                    "section_id": 1894, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Expert Flankers", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, your army can make a false retreat, luring a target enemy army deeper into your territory. On the phase your army makes a false retreat, it doesn't attempt an Offense check. On the phase after it uses this tactic, increase its OM and DV by 6 against the target army.</p>", 
-                    "name": "False Retreat", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/False Retreat", 
-                    "section_id": 1895, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "False Retreat", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army focuses on total defense of the battlefield. Increase its DV by 4, and decrease its OM by 4.</p>", 
-                    "name": "Full Defense", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Full Defense", 
-                    "section_id": 1896, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Full Defense", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army throws caution to the wind and attacks with savage and gory vigor. Increase its OM by 4, and decrease its DV by 4.</p>", 
-                    "name": "Relentless Brutality", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Relentless Brutality", 
-                    "section_id": 1897, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Relentless Brutality", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army targets another army's siege engines in an attempt to destroy them. If your army damages the target army, your army attempts a second Offense check; if successful, destroy one of the target's siege engines. This tactic has no effect on enemy armies without siege engines.</p>", 
-                    "name": "Siegebreaker", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Siegebreaker", 
-                    "section_id": 1898, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Siegebreaker", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army holds some ranged units in reserve to attack a target enemy army during the Melee phase. If your army damages the target army in the Melee phase, it deals 2 additional points of damage from these ranged attacks. The army must have ranged attacks to use this tactic.</p>", 
-                    "name": "Sniper Support", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Sniper Support", 
-                    "section_id": 1899, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Sniper Support", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army has specialists who can disrupt enemy spellcasting. Increase its DV by 4 against armies with the spellcasting ability.</p>", 
-                    "name": "Spellbreaker", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Spellbreaker", 
-                    "section_id": 1900, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Spellbreaker", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p> Your army's attacks have no additional modifiers to its OM, DV, or damage.</p>", 
-                    "name": "Standard*", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Standard*", 
-                    "section_id": 1901, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Standard*", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army is skilled at taunting its opponents, provoking stupid mistakes and overconfidence in battle. The target army must attempt a Morale check (DC = 10 + your army's ACR) at the start of each Melee or Ranged phase; failure means it reduces its OM and DV against your army by 2 for that phase. If the target army succeeds at two of these Morale checks, it's immune to this tactic for the remainder of the battle.</p>", 
-                    "name": "Taunt", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Taunt", 
-                    "section_id": 1902, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Taunt", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p> Your army tries to escape from all armies attacking it. The army attempts an opposed Morale check against each army attacking it to maintain discipline (any army may voluntarily fail this check), but doesn't need to attempt the usual Morale check to change tactics when switching to withdraw. If all of these checks are successful, your army may withdraw from the battlefield or treat the phase as a Ranged phase. If only some are successful, you may withdraw or treat the phase as a Ranged phase, but enemy armies in the battle may attack you as if you were in Melee. Whether or not the checks are successful, reduce your army's OM and DV by 2 for the rest of this phase.</p>", 
-                    "name": "Withdraw*", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Tactics/Withdraw*", 
-                    "section_id": 1903, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Withdraw*", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1889, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>On the first Melee phase, the commander selects a strategy from one of five options on the strategy track. Strategies adjust the army's DV, OM, and damage modifier.</p><p>Once each Melee phase after the first, the commander can alter the army's strategy. Adjusting the strategy 1 step up or down does is automatically successful and doesn't require a check. If the commander wants to adjust strategy more than 1 step, the army attempts a DC 20 Morale check. Success means the strategy changes to the desired level. Otherwise, the army's current strategy doesn't change.</p>", 
             "name": "Strategy Track", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Strategy Track", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Strategy</th><td>DV</td><td>OM</td><td>Damage Dealt</td></tr></thead><tr class=\"odd\"><td>Defensive</td><td>+4</td><td>&mdash;4</td><td>&mdash;6</td></tr><tr class=\"even\"><td>Cautious</td><td>+2</td><td>&mdash;2</td><td>&mdash;3</td></tr><tr class=\"odd\"><td>Standard</td><td>+0</td><td>+0</td><td>+0</td></tr><tr class=\"even\"><td>Aggressive</td><td>&mdash;2</td><td>+2</td><td>+3</td></tr><tr class=\"odd\"><td>Reckless</td><td>&mdash;4</td><td>+4</td><td>+6</td></tr></table>", 
-                    "name": "Strategy", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Strategy Track/Strategy", 
-                    "section_id": 1905, 
-                    "source": "Ultimate Campaign", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Strategy", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1904, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A rout is a chaotic and disorderly retreat of a defeated army from a battlefield, usually from fear or when overwhelmed by a superior opponent. If an army's hit points are reduced to equal or less than its ACR, its commander must attempt a DC 15 Morale check. If the check fails, the army scatters and retreats from battle. If it cannot retreat, it surrenders and is captured. When an army routs, all armies in the battle can attempt one final Offense check at the fleeing army as a parting shot before it escapes. (Normally, only enemy armies do so, but an aggressive or evil army might strike at a fleeing allied army out of anger or frustration.)</p>", 
-            "name": "Rout", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Rout", 
-            "section_id": 1906, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Rout", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>An army is victorious if all of its enemy armies flee the battlefield or are defeated. The aftermath of the battle can be different for each army, and depends on whether it was defeated, routed, or victorious.</p>", 
             "name": "Victory, Rout, or Defeat", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Victory/Rout/or Defeat", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>If an army's hit points are reduced to 0, it is defeated. A defeated army may have a few survivors, but they are so demoralized and wounded (and probably captured by the enemy) that the army no longer exists as a cohesive unit and can't be used again in mass combat. If your army is defeated, reduce your kingdom's Economy, Loyalty, and Stability according to the size of the army.</p>", 
                     "name": "Defeated", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Victory/Rout/or Defeat/Defeated", 
+                    "type": "section", 
+                    "source": "Ultimate Campaign", 
                     "sections": [
                         {
                             "body": "<table><thead><tr><th>Army Size</th><td>Economy</td><td>Loyalty</td><td>Stability</td></tr></thead><tr class=\"odd\"><td>Fine</td><td>0</td><td>0</td><td>0</td></tr><tr class=\"even\"><td>Diminutive</td><td>0</td><td>&mdash;1</td><td>0</td></tr><tr class=\"odd\"><td>Tiny</td><td>&mdash;1</td><td>&mdash;1</td><td>0</td></tr><tr class=\"even\"><td>Small</td><td>&mdash;1</td><td>&mdash;1</td><td>&mdash;1</td></tr><tr class=\"odd\"><td>Medium</td><td>&mdash;2</td><td>&mdash;2</td><td>&mdash;2</td></tr><tr class=\"even\"><td>Large</td><td>&mdash;3</td><td>&mdash;2</td><td>&mdash;2</td></tr><tr class=\"odd\"><td>Huge</td><td>&mdash;4</td><td>&mdash;2</td><td>&mdash;2</td></tr><tr class=\"even\"><td>Gargantuan</td><td>&mdash;4</td><td>&mdash;2</td><td>&mdash;3</td></tr><tr class=\"odd\"><td>Colossal</td><td>&mdash;4</td><td>&mdash;3</td><td>&mdash;3</td></tr></table>", 
-                            "name": "Army Size", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Victory/Rout/or Defeat/Defeated/Army Size", 
-                            "section_id": 1909, 
-                            "source": "Ultimate Campaign", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Army Size", 
+                            "source": "Ultimate Campaign"
                         }
-                    ], 
-                    "section_id": 1908, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>If the army routs, reduce its Morale by 1. If the army's current hp are lower than the army's ACR, increase its hit points to its ACR. A routed army refuses to fight until you succeed at a Loyalty check during your kingdom's Upkeep phase (you may attempt this check once per turn). Note that a routed army can still be attacked by enemy armies, and can attempt Offense checks in battles&mdash;it just can't initiate a battle.</p>", 
-                    "name": "Routed", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Victory/Rout/or Defeat/Routed", 
-                    "section_id": 1910, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Routed", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If your army is the last one left on the battlefield (not counting other friendly armies), it is victorious. Each time an army wins a battle, you can attempt a Loyalty check against your kingdom's Control DC. If you succeed at this check, your army learns a new tactic and its Morale increases by 1 (maximum of Morale +4). If the army's current hit points are lower than the army's ACR, increase its hit points to its ACR. You may attempt a second Loyalty check; if you succeed, the army's commander learns a new boon.</p>", 
-                    "name": "Victorious", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Victory/Rout/or Defeat/Victorious", 
-                    "section_id": 1911, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Victorious", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1907, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Each day that an army spends at rest (no movement and no battle), it heals a number of hit points equal to its ACR. Once per day, you may attempt a Loyalty Check against your kingdom's Control DC. If you succeed, your army heals a number of additional hit points equal to its ACR. An inactive army heals back to its full hit points after a single month, no matter how many hit points it lost.</p><p>The mass combat rules assume that this healing is a combination of actual wound healing and gaining new units to replace those who were killed (meaning you don't have to track individual losses and resize armies). These units can be recruited from sympathetic locals, replacements from your own settlements, or forced conscripts from conquered lands. If circumstances make these replacement options unavailable or unlikely, the GM is free to limit how much an army can heal, generally to half the army's normal hit points. For other possibilities when dealing with wounded armies, see the optional Reforming an Army rule.</p>", 
-            "name": "Recovery", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Recovery", 
-            "section_id": 1912, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Recovery", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>An army's commander helps maximize its effectiveness and can provide special bonuses to an army. The commander can be a PC or NPC. Unless you decide to command an army personally or the GM allows you to recruit an exceptional commander through adventuring and roleplaying, a new army's commander is an unexceptional leader who provides no bonuses to the army.</p><p>The Mass Combat Army Sheet has a space to record information about the commander of each of your armies.  In addition, there's also a space to record information for a general&mdash;a general is a character (often you) assigned to administrate your armies, but is primarily a figurehead and grants no bonuses herself unless actively leading a particular army. The relevant information is as follows (assume a value of 0 unless otherwise specified).</p>", 
             "name": "Commanders", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>This lists the commander's name (and class and level, if notable).</p>", 
-                    "name": "Name", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Name", 
-                    "section_id": 1914, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Name", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This lists the commander's Charisma modifier. It is added to the army's Morale checks.</p>", 
-                    "name": "Charisma Modifier", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Charisma Modifier", 
-                    "section_id": 1915, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Charisma Modifier", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This is the commander's ranks in Profession (soldier). Divide the number of ranks by 5 (minimum 0) and add that number to the army's Morale checks.</p>", 
-                    "name": "Profession (soldier)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Profession (soldier)", 
-                    "section_id": 1916, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Profession (soldier)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The commander's character level + Charisma modifier. If the commander is a monster, use HD instead of character level. If the commander has the Leadership feat, increase this value by 3. This number is a prerequisite for some boons.</p>", 
-                    "name": "Leadership", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Leadership", 
-                    "section_id": 1917, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Leadership", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This lists the boons the commander knows (see below). A commander's maximum number of boons known is 1, plus 1 for every 5 ranks in Profession (soldier). A new or unexceptional commander might know no boons at first, but can gain them from victories in battle. If you're a kingdom leader acting as a commander, you automatically have one boon appropriate to your leadership role (see below).</p><p>The commander must be active with the army to grant a bonus on Morale checks or a boon to the army. Being active requires spending at least 3 days per week with the army. An army without a commander (whether because the commander is dead or because she isn't spending enough time with the army) loses 1 Morale per week. You may offset this loss by doubling the army's Consumption that week.</p><p>If you have an army without a commander and you have no commanders available to fill that role, you may promote a unit from the army to be an unexceptional commander. This commander has a +0 Charisma modifier, 0 ranks in Profession (soldier), and a Leadership score based on the level or HD of a typical unit in that army.</p>", 
                     "name": "Boons", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons", 
+                    "type": "section", 
+                    "source": "Ultimate Campaign", 
                     "sections": [
                         {
                             "body": "<p>Boons are special abilities a commander grants to an army. Most of these boons affect the rolls and statistics for battles, and the commander must be present at the battle to provide their benefit. A commander grants the army all the boons she knows (she doesn't have to select just one).</p>", 
@@ -556,1179 +497,1031 @@
                             "sections": [
                                 {
                                     "body": "<p>The commander inspires the army to be at its greatest in the most desperate times. When an army's hit points are at half its full normal hit points or fewer, it gains a +1 bonus on Offense checks. A commander must have Leadership 4 or higher to select this boon. At Leadership 10 or higher, this bonus increases to +2.</p>", 
-                                    "name": "Bloodied but Unbroken", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Bloodied but Unbroken", 
-                                    "section_id": 1920, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Bloodied but Unbroken", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>Choose one tactic. The commander always knows this tactic, and the commander's army can use this tactic even if it doesn't know that tactic on its own. You can select this boon multiple times; each time you select it, choose a new tactic.</p>", 
-                                    "name": "Bonus Tactic", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Bonus Tactic", 
-                                    "section_id": 1921, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Bonus Tactic", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p> The commander is especially good at defensive tactics. Increase the army's DV by 2. A commander must have Leadership 5 or higher to select this boon.</p>", 
-                                    "name": "Defensive Tactics", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Defensive Tactics", 
-                                    "section_id": 1922, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Defensive Tactics", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>The commander trains the army to be receptive to multiple orders during a battle. The army gains a +5 bonus on Morale checks to change tactics during a battle. A commander must have Leadership 6 or higher to select this boon. At Leadership 12 or higher, this bonus increases to +10.</p>", 
-                                    "name": "Flexible Tactics", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Flexible Tactics", 
-                                    "section_id": 1923, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Flexible Tactics", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>The commander drills the army in quick attacks followed by a fast retreat. After attacks are resolved in the Ranged phase or the first Melee phase, the army may use the withdraw tactic with a +2 bonus on its opposed Morale checks. A commander must have Leadership 5 or higher to select this boon. At Leadership 10 or higher, this bonus increases to +4.<b></b></p>", 
-                                    "name": "Hit and Run", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Hit and Run", 
-                                    "section_id": 1924, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Hit and Run", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>The commander is skilled at convincing the army to maintain morale against dangerous opponents. If the army fails a Morale check to avoid a rout, it may reroll that check. It must accept the results of the second check, even if it is worse.</p>", 
-                                    "name": "Hold the Line", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Hold the Line", 
-                                    "section_id": 1925, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Hold the Line", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>The commander makes the army trap game, hunt, and fish to augment its food supplies. Reduce the army's Consumption and speed by half for any week this boon is used. The GM may rule that Huge and larger armies deplete the available resources from a hex over 1d3 weeks, requiring the army to move if it wants to maintain the reduced Consumption level.</p>", 
-                                    "name": "Live off the Land", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Live off the Land", 
-                                    "section_id": 1926, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Live off the Land", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p> The commander inspires great loyalty in the army. The army gains a +2 bonus on all Morale checks. A commander must have Leadership 6 or higher to select this boon. At Leadership 12 or higher, this bonus increases to +4.</p>", 
-                                    "name": "Loyalty", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Loyalty", 
-                                    "section_id": 1927, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Loyalty", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>The commander encourages the army to be ruthless in its tactics and spare no wounded enemies. The army gains a +1 bonus on opposed Morale checks to prevent another army from withdrawing and on the last Offense check against a routed army or one using the withdraw tactic.</p>", 
-                                    "name": "Merciless", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Merciless", 
-                                    "section_id": 1928, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Merciless", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>The commander drills the army in precision ranged attacks. The army gains a +2 bonus on Offense checks against armies using fortifications. This boon has no effect if the army can't make ranged attacks.</p>", 
-                                    "name": "Sharpshooter", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Sharpshooter", 
-                                    "section_id": 1929, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Sharpshooter", 
+                                    "source": "Ultimate Campaign"
                                 }, 
                                 {
                                     "body": "<p>Whether using magic, alchemy, herbalism, or folk knowledge, the commander drills the army in using emergency methods to treat wounds. Once per battle, the army may take a &mdash;4 penalty on its Offense check during the Ranged or Melee phase and heal damage equal to half its ACR. If the army has the healing potions resource, it also gains the healing from this boon (without the Offense check penalty) when it uses healing potions.</p>", 
-                                    "name": "Triage", 
                                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Boons/Triage", 
-                                    "section_id": 1930, 
-                                    "source": "Ultimate Campaign", 
-                                    "type": "section"
+                                    "type": "section", 
+                                    "name": "Triage", 
+                                    "source": "Ultimate Campaign"
                                 }
                             ], 
-                            "section_id": 1919, 
                             "source": "Ultimate Campaign"
                         }
-                    ], 
-                    "section_id": 1918, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>If you have a kingdom leadership role (Ruler, High Priest, Grand Diplomat, and so on), you may take the role of an army commander. To determine your bonus on Morale checks and the maximum number of boons you can know, use either one-fifth your ranks in Profession (soldier) or one-sixth your character level, whichever is higher (minimum 1). As with other commanders, you must remain active with the army to grant your commander bonus on Morale checks, and must be at the battle to provide tactics and bonuses.</p><p>Your leadership role determines what boons you automatically know (even if you don't meet the Leadership requirements for those boons). If a role lists multiple boons, you must choose one when you become a commander. (Others may be gained in the normal manner).</p>", 
                     "name": "Kingdom Leader Commanders", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders", 
+                    "type": "section", 
+                    "source": "Ultimate Campaign", 
                     "sections": [
                         {
                             "body": "<p>Bloodied but Unbroken, Loyalty</p>", 
-                            "name": "Ruler", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Ruler", 
-                            "section_id": 1932, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Ruler", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Loyalty</p>", 
-                            "name": "Consort", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Consort", 
-                            "section_id": 1933, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Consort", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Loyalty</p>", 
-                            "name": "Councilor", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Councilor", 
-                            "section_id": 1934, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Councilor", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Bonus Tactic, Flexible Tactics, Merciless, Sharpshooter</p>", 
-                            "name": "General", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/General", 
-                            "section_id": 1935, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "General", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Defensive Tactics, Merciless</p>", 
-                            "name": "Grand Diplomat", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Grand Diplomat", 
-                            "section_id": 1936, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Grand Diplomat", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Loyalty</p>", 
-                            "name": "Heir", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Heir", 
-                            "section_id": 1937, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Heir", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Hold the Line, Live off the Land, Triage</p>", 
-                            "name": "High Priest", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/High Priest", 
-                            "section_id": 1938, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "High Priest", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Flexible Tactics, Loyalty</p>", 
-                            "name": "Magister", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Magister", 
-                            "section_id": 1939, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Magister", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Live off the Land, Hit and Run, Sharpshooter, Triage</p>", 
-                            "name": "Marshal", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Marshal", 
-                            "section_id": 1940, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Marshal", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Bonus Tactic, Merciless, Sharpshooter</p>", 
-                            "name": "Royal Enforcer", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Royal Enforcer", 
-                            "section_id": 1941, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Royal Enforcer", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Hit and Run, Merciless, Sharpshooter</p>", 
-                            "name": "Spymaster", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Spymaster", 
-                            "section_id": 1942, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Spymaster", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Loyalty</p>", 
-                            "name": "Treasurer", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Treasurer", 
-                            "section_id": 1943, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Treasurer", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Loyalty</p>", 
-                            "name": "Viceroy", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Kingdom Leader Commanders/Viceroy", 
-                            "section_id": 1944, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Viceroy", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>Defensive Tactics, Hold the Line, Loyalty</p>", 
                             "source": "Ultimate Campaign", 
                             "type": "section", 
-                            "name": "Warden", 
-                            "section_id": 1945
+                            "name": "Warden"
                         }
-                    ], 
-                    "section_id": 1931, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>If an army is destroyed and the commander is an NPC, the commander is killed (01&mdash;20), captured (21&mdash;70), or escapes (71&mdash;00). An army of mindless creatures kills all captured NPC commanders. You may ransom a captured commander by paying BP equal to the commander's army's Consumption (if captured by another kingdom, this goes to that kingdom's Treasury). A commander with a history of losing battles, being captured, and being ransomed gains an unlucky reputation among your troops and reduces the Morale of any army under her by 1.</p><p>If you are the commander and your army is destroyed, the GM should present you with an opportunity to escape with serious injuries (at 25% hp or lower), otherwise you are captured and held for ransom. The other PCs may pay BP, gold, or other treasures to ransom you, or the GM may allow the other PCs to have an adventure where they attempt to rescue you instead of simply buying your freedom.</p>", 
-                    "name": "Losing Commanders", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Commanders/Losing Commanders", 
-                    "section_id": 1946, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Losing Commanders", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1913, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Resources are physical assets the army can use to improve its abilities. You must spend the BP for a resource before you can apply it to the army. Some armies can't use certain resources&mdash;an army of wolves can't use healing potions or improved weapons, mindless creatures can't use siege engines, and so on.</p><p>The cost of a resource doesn't end when you purchase it. Units must be trained to use new equipment, elite units demand higher pay, expensive items are more costly to maintain and repair, and so on. Each resource added to an army increases the army's weekly Consumption by the listed amount.</p><p>The costs listed are for a Medium army. Resources for a smaller or larger army cost proportionately less or more than this amount.</p>", 
             "name": "Army Resources", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>Each unit is equipped with several healing potions. At any point during a battle (but no more than twice per battle), the commander can order her units to drink their potions. The army doesn't attempt an Offense check that phase, but heals a number of hit points equal to twice its ACR. Each time an army uses its healing potions, increase its Consumption that week by 3. To purchase this resource, a settlement in your kingdom must have an Alchemist, Caster's Tower, Cathedral, Herbalist, Magic Shop, Magical Academy, or Temple.</p>", 
-                    "name": "Healing Potions (10 BP)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Healing Potions (10 BP)", 
-                    "section_id": 1948, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Healing Potions (10 BP)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is armed with masterwork armor, increasing DV and Consumption by 1. For 15 BP, you can outfit the army with magic armor, increasing DV and Consumption by 2 instead. To purchase this, a settlement in your kingdom must have a Foreign Quarter, Military Academy, or Smithy.</p>", 
-                    "name": "Improved Armor (3 BP)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Improved Armor (3 BP)", 
-                    "section_id": 1949, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Improved Armor (3 BP)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is armed with masterwork weapons, increasing OM and Consumption by 1. For 50 BP, you can outfit the army with magic weapons, increasing OM and Consumption by 2 instead. To purchase this resource, a settlement in your kingdom must have a Foreign Quarter, Military Academy, or Smithy.</p>", 
-                    "name": "Improved Weapons (5 BP)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Improved Weapons (5 BP)", 
-                    "section_id": 1950, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Improved Weapons (5 BP)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is mounted on horses or other war-trained animals. Increase its OM and DV by 2, and increase its Consumption by 1. If your army uses mounts that are more powerful than the units themselves, your army's ACR and derived scores might increase. To purchase this resource, a settlement in your kingdom must have a Foreign Quarter, Stable, or Stockyard.</p>", 
-                    "name": "Mounts (BP = Mount's ACR)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Mounts (BP = Mounts ACR)", 
-                    "section_id": 1951, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Mounts (BP = Mount's ACR)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is equipped with ranged weapons (such as crossbows, slings, or bows), gaining ranged attack capability. Increase its Consumption by 1.</p>", 
-                    "name": "Ranged Weapons (2 BP)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Ranged Weapons (2 BP)", 
-                    "section_id": 1952, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Ranged Weapons (2 BP)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Your army includes catapults, rams, trebuchets, ballistae, and other siege engines designed to break down fortifications. Increase OM by 2 (regardless of the total number of siege engines in the army) and Consumption by 3 per siege engine. Each Melee phase, reduce the enemy's bonus to DV from fortifications by 1d4 per siege engine in your army. Unlike other resources, the cost of a siege engine doesn't scale with the army's size. To purchase this resource, a settlement in your kingdom must have an Academy, Foreign Quarter, Military Academy, or University.</p>", 
                     "name": "Siege Engines (15 BP per engine)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Siege Engines (15 BP per engine)", 
+                    "type": "section", 
+                    "source": "Ultimate Campaign", 
                     "sections": [
                         {
                             "body": "<table id=\"table-resource-scaling\"><caption>Resource Scaling</caption><thead><tr><th>Army Size</th><td>Multiplier</td></tr></thead><tr class=\"odd\"><td>Fine</td><td>\u00d71/8</td></tr><tr class=\"even\"><td>Diminutive</td><td>\u00d71/6</td></tr><tr class=\"odd\"><td>Tiny</td><td>\u00d71/4</td></tr><tr class=\"even\"><td>Small</td><td>\u00d71/2</td></tr><tr class=\"odd\"><td>Medium</td><td>\u00d71</td></tr><tr class=\"even\"><td>Large</td><td>\u00d72</td></tr><tr class=\"odd\"><td>Huge</td><td>\u00d74</td></tr><tr class=\"even\"><td>Gargantuan</td><td>\u00d710</td></tr><tr class=\"odd\"><td>Colossal</td><td>\u00d720</td></tr><tfoot><tr><td colspan=\"2\">The multiplier affects the resource's initial cost and the increase to Consumption. The multiplier can't reduce the cost of a resource below 1 BP.</td></tr></tfoot></table>", 
-                            "name": "Resource Scaling", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Siege Engines (15 BP per engine)/Resource Scaling", 
-                            "section_id": 1954, 
-                            "source": "Ultimate Campaign", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Resource Scaling", 
+                            "source": "Ultimate Campaign"
                         }
-                    ], 
-                    "section_id": 1953, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>You may take a purchased resource from one army and give it to an army of equal or smaller size so long as the creatures in the recipient armies can use the resource (for example, improved weapons for a hill giant army are of little use to an army of human zombies). Doing so doesn't cost BP, but reduces the Morale of the donating army by 1.</p><p>At the GM's discretion, you may divide a resource among several smaller armies, so long as the total number of units in the smaller armies doesn't exceed the number of units in the donating army.</p><p>If you disband an army with a resource, you can give that resource to another suitable army, store it for later (such as an army you recruit next year), or sell it for half its BP value.</p>", 
-                    "name": "Transferring Resources", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Resources/Transferring Resources", 
-                    "section_id": 1955, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Transferring Resources", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1947, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Part of the fun of playing out a war in a fantasy game is the fact that you aren't limited to real-world troops. Though most recruited units are warriors or fighters, you may be able to recruit an army of paladins, clerics, or other characters with abilities useful in mass combat.</p><p>You might even be able to recruit monsters, whether humanoids such as goblins, trolls, and orcs, or exotic creatures such as centaurs and worgs. These creatures could have monster special abilities useful in mass combat. A typical kingdom doesn't have access to monster armies unless it has formed alliances with such creatures, either through formal Diplomatic edicts or befriending them during adventures.</p><p>Modifiers for these abilities apply only if most of the units in an army have the listed ability. For a class ability, a parenthetical note after the ability name indicates the class and the level the units of the army must be to confer that ability. This listing doesn't include class abilities acquired after 5th level, as it's unlikely you'll be able to recruit enough units of that class level to form an army. If a class ability listed here presents two alternative options, you must choose one of these options when the army is formed, and it can't ever be changed.</p><p>You can use the following special abilities as inspiration to generate additional army abilities of your own. Unless otherwise stated, the effects of these special abilities (other than hp damage) end when a battle ends. Note that you count as your own ally for abilities that effect allied armies.</p>", 
             "name": "Special Abilities", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>This ability functions as bleed.</p>", 
+                    "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Ability Damage_Drain", 
+                    "type": "section", 
                     "name": "Ability Damage/Drain", 
-                    "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Ability Damage/Drain", 
-                    "section_id": 1957, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, the army can heal itself as if it had the healing potions resource. This doesn't cost BP.</p>", 
-                    "name": "Alchemy (Alchemist 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Alchemy (Alchemist 1)", 
-                    "section_id": 1958, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Alchemy (Alchemist 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army can move in or across bodies of water and ignore Defense from water barriers.</p>", 
-                    "name": "Amphibious", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Amphibious", 
-                    "section_id": 1959, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Amphibious", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army's animal companions increase the army's OM by 1.</p>", 
-                    "name": "Animal Companion (Druid 1, Ranger 4)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Animal Companion (Druid 1/Ranger 4)", 
-                    "section_id": 1960, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Animal Companion (Druid 1, Ranger 4)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its OM and DV by 1 against armies in the water or on ships. The army decreases its OM by 2 against armies on land (unless the army also has the amphibious special ability, in which case it doesn't have this OM penalty).</p>", 
-                    "name": "Aquatic", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Aquatic", 
-                    "section_id": 1961, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Aquatic", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is immune to fear effects and automatically succeeds at Morale checks to avoid a rout.</p>", 
-                    "name": "Aura of Courage (Paladin 3)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Aura of Courage (Paladin 3)", 
-                    "section_id": 1962, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Aura of Courage (Paladin 3)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This class feature adjusts the base speed of units in medium armor; adjust the army's speed accordingly.</p>", 
-                    "name": "Armor Training (Fighter 3)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Armor Training (Fighter 3)", 
-                    "section_id": 1963, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Armor Training (Fighter 3)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>When this army deals damage in melee, the target army takes an automatic 1d6 points of damage at the start of the next phase.</p>", 
-                    "name": "Bleed", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Bleed", 
-                    "section_id": 1964, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Bleed", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army reduces its OM and DV penalties by half from darkness, invisibility, and weather.</p>", 
-                    "name": "Blindsense", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Blindsense", 
-                    "section_id": 1965, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Blindsense", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army takes no penalties to its OM and DV from darkness, invisibility, or weather.</p>", 
-                    "name": "Blindsight", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Blindsight", 
-                    "section_id": 1966, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Blindsight", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as the breath weapon ability.</p>", 
-                    "name": "Bomb (Alchemist 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Bomb (Alchemist 1)", 
-                    "section_id": 1967, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Bomb (Alchemist 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Apply the unit's bravery bonus on Morale checks against fear and routs.</p>", 
-                    "name": "Bravery (Fighter 2)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Bravery (Fighter 2)", 
-                    "section_id": 1968, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Bravery (Fighter 2)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army can make ranged attacks. In the Ranged and Melee phases, it deals +1d4 points of damage.</p>", 
-                    "name": "Breath Weapon", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Breath Weapon", 
-                    "section_id": 1969, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Breath Weapon", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army can create healing potions for itself or another army without needing any of the building requirements described in the healing potion resource. You must pay the BP cost for these potions as normal.</p>", 
-                    "name": "Brew Potion (Alchemist 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Brew Potion (Alchemist 1)", 
-                    "section_id": 1970, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Brew Potion (Alchemist 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as bleed.</p>", 
-                    "name": "Burn", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Burn", 
-                    "section_id": 1971, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Burn", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army can dig under one fortification (or City Walls) by spending a Ranged or Melee phase moving. In later phases, it ignores that fortification's Defense. During the phase the army uses burrow, it can attack or be attacked only by armies using burrow or earth glide.</p>", 
-                    "name": "Burrow", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Burrow", 
-                    "section_id": 1972, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Burrow", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Reduce Consumption by 1 (minimum 0) for any week in which the army wins a battle and is allowed to feed on fallen corpses.</p>", 
-                    "name": "Cannibalize", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Cannibalize", 
-                    "section_id": 1973, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cannibalize", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, the army may increase its OM by 2 against a target army, but it also reduces its DV by 1 against attacks from any army that is not the target army. These effects last for the rest of the battle.</p>", 
-                    "name": "Challenge (Cavalier 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Challenge (Cavalier 1)", 
-                    "section_id": 1974, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Challenge (Cavalier 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>In the Melee phase, the army deals +1d4 points of damage against a living target army. If the army with this ability is undead, instead of dealing extra damage to an enemy army, it can use this ability to heal itself; if it takes an OM penalty equal to half its ACR for one Ranged or Melee phase, it heals a number of hit points equal to its ACR.</p>", 
-                    "name": "Channel Negative Energy (Cleric 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Channel Negative Energy (Cleric 1)", 
-                    "section_id": 1975, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Channel Negative Energy (Cleric 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>In the Melee phase, the army deals +1d4 points of damage against an undead target army. Instead of dealing extra damage to an enemy army, the army can use this ability to heal itself; if it takes an OM penalty equal to half its ACR for one Ranged or Melee phase, it heals a number of hit points equal to its ACR.</p>", 
-                    "name": "Channel Positive Energy (Cleric 1, Paladin 4)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Channel Positive Energy (Cleric 1/Paladin 4)", 
-                    "section_id": 1976, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Channel Positive Energy (Cleric 1, Paladin 4)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army treats the Defense of fortifications as 25% lower than normal. This benefit doesn't apply if the fortification can't reasonably be climbed (such as a moat or wall of force).</p>", 
-                    "name": "Climb", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Climb", 
-                    "section_id": 1977, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Climb", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, increase the army's OM for either ranged attacks or melee attacks by 1 for the rest of the battle.</p>", 
-                    "name": "Combat Style (Ranger 2)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Combat Style (Ranger 2)", 
-                    "section_id": 1978, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Combat Style (Ranger 2)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is immune to disease, fear, paralysis, and poison.</p>", 
-                    "name": "Construct", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Construct", 
-                    "section_id": 1979, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Construct", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, the army can affect the field of battle with the sandstorm battlefield condition. The sandstorm lasts for the rest of the battle.</p>", 
-                    "name": "Create Sandstorm", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Create Sandstorm", 
-                    "section_id": 1980, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Create Sandstorm", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If the army destroys a living army of equal or greater size, it may immediately recover a number of hit points equal to twice its ACR or create a new army of its type but two sizes smaller than itself.</p>", 
-                    "name": "Create Spawn", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Create Spawn", 
-                    "section_id": 1981, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Create Spawn", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>See the entry for significant defense.</p>", 
-                    "name": "Damage Reduction", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Damage Reduction", 
-                    "section_id": 1982, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Damage Reduction", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army takes no OM or DV penalties in dim light or darkness.</p>", 
-                    "name": "Darkvision", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Darkvision", 
-                    "section_id": 1983, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Darkvision", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as bleed.</p>", 
-                    "name": "Discovery (Alchemist 2)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Discovery (Alchemist 2)", 
-                    "section_id": 1984, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Discovery (Alchemist 2)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If the army damages an enemy, the enemy becomes diseased and takes a cumulative &mdash;1 penalty to its OM and DV each day after the battle. Curing the disease requires a successful Stability check modified by this penalty, and allows the army to reduce this penalty by 1 each day thereafter until the penalty is gone.</p>", 
-                    "name": "Disease", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Disease", 
-                    "section_id": 1985, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Disease", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is immune to disease.</p>", 
-                    "name": "Divine Health (Paladin 3)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Divine Health (Paladin 3)", 
-                    "section_id": 1986, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Divine Health (Paladin 3)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army ignores fortifications made of earth or stone and can burrow under other fortifications as if using the burrow special ability.</p>", 
-                    "name": "Earth Glide", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Earth Glide", 
-                    "section_id": 1987, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Earth Glide", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as the animal companion ability.</p>", 
-                    "name": "Eidolon (Summoner 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Eidolon (Summoner 1)", 
-                    "section_id": 1988, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Eidolon (Summoner 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If the army damages an enemy, it reduces the enemy's OM and DV by 1 for 24 hours.</p>", 
-                    "name": "Energy Drain", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Energy Drain", 
-                    "section_id": 1989, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Energy Drain", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>An army that attacks this army halves its OM bonus from the spellcasting ability and halves the extra damage from the breath weapon ability.</p>", 
-                    "name": "Evasion (Monk 2, Rogue 2)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Evasion (Monk 2/Rogue 2)", 
-                    "section_id": 1990, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Evasion (Monk 2, Rogue 2)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Each Ranged or Melee phase, this army regains a number of hit points equal to half its fast healing value. Outside of battle, each hour the army regains a number of hit points equal to its fast healing value.</p>", 
-                    "name": "Fast Healing", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Fast Healing", 
-                    "section_id": 1991, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Fast Healing", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its OM by 1 against an army of a type of creature chosen from the ranger favored enemy list.</p>", 
-                    "name": "Favored Enemy (Ranger 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Favored Enemy (Ranger 1)", 
-                    "section_id": 1992, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Favored Enemy (Ranger 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Reduce an enemy's bonuses from advantageous terrain and battlefield advantage by half.</p>", 
-                    "name": "Favored Terrain (Ranger 3)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Favored Terrain (Ranger 3)", 
-                    "section_id": 1993, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Favored Terrain (Ranger 3)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If the army damages an enemy army, that army must attempt a Morale check (DC = 10 + your army's ACR). Failure means the enemy army is afraid and can't attempt an Offense check to attack during the next phase. If an army fails a Morale check during a phase in which it is already afraid, it routs.</p>", 
-                    "name": "Fear", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Fear", 
-                    "section_id": 1994, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Fear", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army continues to fight even if demoralized or nearly dead. If the army is defeated or routed, it may continue to act for one more Melee phase, and its OM and DV are reduced by 4 for that phase.</p>", 
-                    "name": "Ferocity", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Ferocity", 
-                    "section_id": 1995, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Ferocity", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If the army doesn't attack in the Melee phase, it can't be attacked with melee attacks except by an army with flight. The army ignores Defense bonuses from City Walls, but not other fortifications.</p>", 
-                    "name": "Flight", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Flight", 
-                    "section_id": 1996, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Flight", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>In the first Melee phase, increase the army's OM by 1. In the second and subsequent Melee phases, increase it by 2 instead.</p>", 
-                    "name": "Flurry of Blows (Monk 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Flurry of Blows (Monk 1)", 
-                    "section_id": 1997, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Flurry of Blows (Monk 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army's units latch onto their opponents, making it difficult to escape. The target army takes a &mdash;2 penalty on Morale checks to resist a rout or use the withdraw tactic.</p>", 
-                    "name": "Grab", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Grab", 
-                    "section_id": 1998, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Grab", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>When you create an army with this ability, choose either healing or cauldron.</p>", 
                     "name": "Hex (Witch 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Hex (Witch 1)", 
+                    "type": "section", 
+                    "source": "Ultimate Campaign", 
                     "sections": [
                         {
                             "body": "<p>Once per battle, the army can heal a number of hit points equal to half its ACR.</p>", 
-                            "name": "Healing", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Hex (Witch 1)/Healing", 
-                            "section_id": 2000, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Healing", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>The army can create healing potions for itself or another army without needing any of the building requirements described in the healing potion resource. You must pay the BP cost for these potions as normal.</p>", 
-                            "name": "Cauldron", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Hex (Witch 1)/Cauldron", 
-                            "section_id": 2001, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Cauldron", 
+                            "source": "Ultimate Campaign"
                         }
-                    ], 
-                    "section_id": 1999, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>When you create an army with this ability, choose either companions or animal.</p>", 
                     "name": "Hunter's Bond (Ranger 4)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Hunters Bond (Ranger 4)", 
+                    "type": "section", 
+                    "source": "Ultimate Campaign", 
                     "sections": [
                         {
                             "body": "<p>Once per battle, the army may increase its OM or an allied army's OM by 1 for the rest of the battle.</p>", 
-                            "name": "Companions", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Hunters Bond (Ranger 4)/Companions", 
-                            "section_id": 2003, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Companions", 
+                            "source": "Ultimate Campaign"
                         }, 
                         {
                             "body": "<p>This ability functions as animal companion.</p>", 
-                            "name": "Animal", 
                             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Hunters Bond (Ranger 4)/Animal", 
-                            "section_id": 2004, 
-                            "source": "Ultimate Campaign", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Animal", 
+                            "source": "Ultimate Campaign"
                         }
-                    ], 
-                    "section_id": 2002, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>If an army is immune to a particular special ability (such as poison), an enemy army with that ability doesn't gain those benefits against this army. For an army with many immunities, also see significant defense.</p>", 
-                    "name": "Immunity", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Immunity", 
-                    "section_id": 2005, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Immunity", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army takes no damage from nonmagical attacks, and only half damage from magical attacks. It ignores enemy DV bonuses from armor resources. It automatically succeeds at checks to withdraw. It has a mobility advantage in all kinds of terrain.</p>", 
-                    "name": "Incorporeal", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Incorporeal", 
-                    "section_id": 2006, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Incorporeal", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its OM by 1 and gains a +2 bonus on Morale checks against fear and routs. Alternatively, the army may apply these bonuses to an allied army in the same battle.</p>", 
-                    "name": "Inspire Courage (Bard 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Inspire Courage (Bard 1)", 
-                    "section_id": 2007, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Inspire Courage (Bard 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Any army attacking this army takes a &mdash;2 penalty to its OM for that attack. Any army attacked by this army takes a &mdash;2 penalty to its DV against its attacks. Armies that can't see invisible creatures can't prevent this army from withdrawing.</p>", 
-                    "name": "Invisibility", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Invisibility", 
-                    "section_id": 2008, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Invisibility", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once each Ranged or Melee phase, the army may choose to increase its damage by 1, increase its DV by 1, heal a number of hit points equal to half its ACR, or treat its attacks as magic weapons. This ability is suspended for any phase in which the army is unable to attack because of fear, and ends immediately if the army routs.</p>", 
-                    "name": "Judgment (Inquisitor 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Judgment (Inquisitor 1)", 
-                    "section_id": 2009, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Judgment (Inquisitor 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army's attacks count as magic weapons.</p>", 
-                    "name": "Ki Pool (Monk 4)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Ki Pool (Monk 4)", 
-                    "section_id": 2010, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Ki Pool (Monk 4)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as channel positive energy.</p>", 
-                    "name": "Lay on Hands (Paladin 2)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Lay on Hands (Paladin 2)", 
-                    "section_id": 2011, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Lay on Hands (Paladin 2)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army decreases its OM and RV by 2 in bright light.</p>", 
-                    "name": "Light Blindness", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Light Blindness", 
-                    "section_id": 2012, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Light Blindness", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army decreases its OM and RV by 1 in bright light.</p>", 
-                    "name": "Light Sensitivity", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Light Sensitivity", 
-                    "section_id": 2013, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Light Sensitivity", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army takes no penalties for dim light.</p>", 
-                    "name": "Low-Light Vision", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Low-Light Vision", 
-                    "section_id": 2014, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Low-Light Vision", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>At the end of a battle, the army can cure a disease on one allied army.</p>", 
-                    "name": "Mercy (Paladin 3)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Mercy (Paladin 3)", 
-                    "section_id": 2015, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Mercy (Paladin 3)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army never fails Morale checks, but must always use standard tactics and strategy.</p>", 
-                    "name": "Mindless", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Mindless", 
-                    "section_id": 2016, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Mindless", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If the units have a form of mobility that gives them an advantage in the battlefield's terrain (such as boggards in a swamp), increase the army's OM by 1 for that battle against armies without such mobility.</p>", 
-                    "name": "Mobility", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Mobility", 
-                    "section_id": 2017, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Mobility", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army's mounts increase the army's OM and DV by 1.</p>", 
-                    "name": "Mount (Cavalier 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Mount (Cavalier 1)", 
-                    "section_id": 2018, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Mount (Cavalier 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>When using the challenge ability, increase the army's DV by 1 against the challenged army.</p>", 
-                    "name": "Order (Cavalier 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Order (Cavalier 1)", 
-                    "section_id": 2019, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Order (Cavalier 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Each time the army damages an enemy army, reduce the enemy army's DV by 1.</p>", 
-                    "name": "Paralysis", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Paralysis", 
-                    "section_id": 2020, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Paralysis", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as paralysis.</p>", 
-                    "name": "Petrification", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Petrification", 
-                    "section_id": 2021, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Petrification", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is immune to fear, paralysis, and poison.</p>", 
-                    "name": "Plant", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Plant", 
-                    "section_id": 2022, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Plant", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If the army takes poison damage, reduce the damage by half of the unit's poison resistance bonus.</p>", 
-                    "name": "Poison Resistance (Alchemist 2)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Poison Resistance (Alchemist 2)", 
-                    "section_id": 2023, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Poison Resistance (Alchemist 2)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as bleed.</p>", 
-                    "name": "Poison", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Poison", 
-                    "section_id": 2024, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Poison", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its OM by 1.</p>", 
-                    "name": "Pounce", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Pounce", 
-                    "section_id": 2025, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Pounce", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its OM by 1.</p>", 
-                    "name": "Powerful Charge", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Powerful Charge", 
-                    "section_id": 2026, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Powerful Charge", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, the commander may order the army to rage. Increase the army's OM by 2, decrease its DV by 1, and add a +1 bonus on its Morale checks against fear and routing. While this is in effect, the army can't use the tactics cautious combat, defensive wall, expert flankers, hold the line, sniper support, or withdraw; nor can it use the defensive or cautious strategies. If using such a tactic or strategy, you immediately switch to the standard tactic or strategy.</p>", 
-                    "name": "Rage (Barbarian 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Rage (Barbarian 1)", 
-                    "section_id": 2027, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Rage (Barbarian 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases the damage it deals by 1.</p>", 
-                    "name": "Rake", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Rake", 
-                    "section_id": 2028, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Rake", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army regains a number of hit points equal to half its regeneration value each Ranged or Melee phase. When an army with regeneration is reduced to 0 hp, it is defeated only if at least one enemy army survives at the end of that phase to finish off the regenerating creatures. Outside of battle, the army regains a number of hit points equal to half its regeneration value each hour.</p>", 
-                    "name": "Regeneration", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Regeneration", 
-                    "section_id": 2029, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Regeneration", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases the damage it deals by 1.</p>", 
-                    "name": "Rend", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Rend", 
-                    "section_id": 2030, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Rend", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>See the entry for significant defense.</p>", 
-                    "name": "Resistance", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Resistance", 
-                    "section_id": 2031, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Resistance", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its DV by 1 against ranged attacks. This increases by an additional 1 if the army is attacked with siege weapons or thrown rocks.</p>", 
-                    "name": "Rock Catching", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Rock Catching", 
-                    "section_id": 2032, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Rock Catching", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army can make ranged attacks. In the Ranged phase, it deals +4 points of damage.</p>", 
-                    "name": "Rock Throwing", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Rock Throwing", 
-                    "section_id": 2033, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Rock Throwing", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army gains the bleed ability.</p>", 
-                    "name": "Rogue Talent (Rogue 2)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Rogue Talent (Rogue 2)", 
-                    "section_id": 2034, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Rogue Talent (Rogue 2)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army reduces its OM and DV penalties from darkness, invisibility, and weather by half.</p>", 
-                    "name": "Scent", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Scent", 
-                    "section_id": 2035, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Scent", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Increase the army's DV by 1.</p>", 
-                    "name": "Shield Ally (Summoner 4)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Shield Ally (Summoner 4)", 
-                    "section_id": 2036, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Shield Ally (Summoner 4)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army has a significant defense such as powerful damage reduction or numerous immunities and/or resistances. Increase its DV by 10, but only against armies that can't overcome those defenses. In some cases, the GM might rule that an army is simply undefeatable by an enemy army because of its defenses (though the GM should never pit the PCs against such an army unless the PCs initiate a foolish battle).</p>", 
-                    "name": "Significant Defense", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Significant Defense", 
-                    "section_id": 2037, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Significant Defense", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>In one Melee phase per battle, the army may increase its OM by 2 against an evil army. If the target army is undead or evil outsiders, the OM increases by 4 instead.</p>", 
-                    "name": "Smite Evil (Paladin 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Smite Evil (Paladin 1)", 
-                    "section_id": 2038, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Smite Evil (Paladin 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its OM by 1 when making an ambush, when using the expert flankers tactic, or on the phase after using the false retreat tactic.</p>", 
-                    "name": "Sneak Attack (Rogue 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Sneak Attack (Rogue 1)", 
-                    "section_id": 2039, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Sneak Attack (Rogue 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its DV by 6 against armies with the spellcasting ability.</p>", 
-                    "name": "Spell Resistance", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Spell Resistance", 
-                    "section_id": 2040, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Spell Resistance", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>If an army's units can use magic (from either spell-like abilities or actual spellcasting), increase its OM and DV by the spell level of the highest-level spell the individual unit can cast. If any of the army's offensive spells has a range greater than touch, the army can make ranged attacks.</p>", 
-                    "name": "Spellcasting", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Spellcasting", 
-                    "section_id": 2041, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Spellcasting", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as paralysis.</p>", 
-                    "name": "Stunning Fist (Monk 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Stunning Fist (Monk 1)", 
-                    "section_id": 2042, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Stunning Fist (Monk 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army takes half damage from nonmagical attacks, but 1-1/2 times as much damage from magical attacks. It ignores DV bonuses from armor resources. It can't harm an army with the incorporeal or significant defense ability. It automatically succeeds at checks to withdraw.</p>", 
-                    "name": "Swarm", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Swarm", 
-                    "section_id": 2043, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Swarm", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army automatically learns one tactic (usually the cavalry experts tactic); this doesn't count toward an army's maximum number of known tactics.</p>", 
-                    "name": "Tactician (Cavalier 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Tactician (Cavalier 1)", 
-                    "section_id": 2044, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Tactician (Cavalier 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army ignores the Defense of fortifications. It automatically succeeds at checks to withdraw. Ethereal travel and similar effects also grant this ability. An army with teleportation can travel to any hex on the same day (its speed is irrelevant and not hampered by difficult terrain).</p>", 
-                    "name": "Teleportation", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Teleportation", 
-                    "section_id": 2045, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Teleportation", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army adds its ACR to Morale checks to prevent an army from using the withdraw tactic and to its DV to prevent ambushes. It reduces the damage it deals in fog by one quarter instead of one half.</p>", 
-                    "name": "Track (Inquisitor 2, Ranger 1)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Track (Inquisitor 2/Ranger 1)", 
-                    "section_id": 2046, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Track (Inquisitor 2, Ranger 1)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army increases its OM by 1.</p>", 
-                    "name": "Trample", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Trample", 
-                    "section_id": 2047, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Trample", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>When using the siegebreaker tactic, the army adds half its ACR to the Offense check to determine if a siege engine is destroyed.</p>", 
-                    "name": "Trap Sense (Rogue 3)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Trap Sense (Rogue 3)", 
-                    "section_id": 2048, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Trap Sense (Rogue 3)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army reduces its OM and DV penalties from darkness, invisibility, and weather by half.</p>", 
-                    "name": "Tremorsense", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Tremorsense", 
-                    "section_id": 2049, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Tremorsense", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Each Melee phase, the target enemy army reduces its DV by 1 until the end of the phase.</p>", 
-                    "name": "Trip", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Trip", 
-                    "section_id": 2050, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Trip", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The army is immune to disease, fear, paralysis, and poison. Its DV increases by 2.</p>", 
-                    "name": "Undead", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Undead", 
-                    "section_id": 2051, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Undead", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as fear, but applies only to animals (including animal mounts).</p>", 
-                    "name": "Unnatural Aura", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Unnatural Aura", 
-                    "section_id": 2052, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Unnatural Aura", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as paralysis, but only against targets on or in the water.</p>", 
-                    "name": "Vortex", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Vortex", 
-                    "section_id": 2053, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Vortex", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, increase the army's OM for either ranged or melee attacks by 2.</p>", 
-                    "name": "Weapon Specialization (Fighter 4)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Weapon Specialization (Fighter 4)", 
-                    "section_id": 2054, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Weapon Specialization (Fighter 4)", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>This ability functions as paralysis.</p>", 
-                    "name": "Whirlwind", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Whirlwind", 
-                    "section_id": 2055, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Whirlwind", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Once per battle, the army may gain the aquatic, amphibious, climb, darkvision, flight, low-light vision, or scent special abilities, but loses the spellcasting ability while this is in effect. The army can end this ability in any later phase.</p>", 
-                    "name": "Wild Shape (Druid 4)", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Special Abilities/Wild Shape (Druid 4)", 
-                    "section_id": 2056, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Wild Shape (Druid 4)", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1956, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>In addition to the option of your PCs being commanders in your armies, the GM may have you fight smaller groups of enemies before or even during a battle in which your armies clash with the enemy. For example, your PCs might attack an evil necromancer and fight your way through his tower to confront him directly and defeat him while your army battles the undead horde outside the tower. Alternatively, your PCs could use potent spells (such as <i>cloudkill</i>, <i>control water</i>, or <i>earthquake</i>) to alter battlefield conditions in your favor. These possibilities let you use your characters to directly affect the outcome of a battle without forcing you to sit out on an adventure opportunity by personally commanding an army.</p><p>If your PCs win the small-scale combat or dramatically affect the battlefield with magic, the GM could opt to increase your army's DV and OM by +4 for that battle, or penalize your armies by &mdash;4 if you lose. At the GM's discretion, your PCs' failure or victory might have other effects on your armies as well, such as temporarily granting an additional tactic, altering the hit points of one or more armies, or granting or negating a special ability.</p>", 
-            "name": "Player Characters in Battles", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Player Characters in Battles", 
-            "section_id": 2057, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Player Characters in Battles", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>The following sections describe ways armies can be altered or assigned that come up less frequently than the other rules in the mass combat system. They're optional, and the GM can bring them into the game only if necessary.</p>", 
             "name": "Optional Mass Combat Rules", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Optional Mass Combat Rules", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>If you have two armies of the same type and of equal size, at any time outside of combat you can combine them into a single army that is one size larger than the original armies.</p><p>Choose one of the two commanders to command this combined army. The other commander may be assigned to a different army; otherwise, her boons are lost.</p><p>Calculate the new army's statistics based on its new size. If both smaller armies had a boon, resource, or tactic, the new army has it as well; otherwise the boon, resource, or tactic is lost. The new army's Morale is equal to the average of the Morale of the two smaller armies. If one army has an affliction (such as a disease), the new army now has it.</p><p>Determine what percentage of its full normal hit points each smaller army had. The new army's hit points is the average of these percentages. For example, if one army is at 50% and the other is at 100%, the new army is at 75% of the full hit points for its size.</p>", 
-                    "name": "Combining Armies", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Optional Mass Combat Rules/Combining Armies", 
-                    "section_id": 2059, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Combining Armies", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Reformation converts a wounded army into a smaller, healthy army. The army hit point rules are abstract and represent wounded units, incapacitated units, and dead units. For an army with a very low hit point total, the number of active units in the army can even be equal to or fewer than those of an army of a smaller size. For example, a Large army normally has 200 units, but if that army is very wounded, it could have only 100 or fewer units able to fight&mdash;the same number as a Medium army. Because an army's Consumption is based on its ACR (which is based on its size), you might be able to reduce your Consumption costs if you reform an army into a smaller size.</p><p>At any time outside of combat, you can reform a wounded army (at half hit points or fewer) into an army one size smaller with full hit points. This act represents you choosing only the healthiest units to continue fighting. The wounded survivors disperse, typically heading home to recuperate.</p><p>Calculate the smaller army's statistics based on its new size. The smaller army retains all of the larger army's statistics and effects (including tactics, boons, resources, commander, and so on) except those based on its size (such as ACR and statistics based on ACR). The army reduces its Morale by 1 (as reforming is a blunt indication of misfortune).</p><p>There is no limit to how many times you can reform an army. Even a Colossal army can be whittled away and reformed several times until the CR of its individual units is too small to actually count as an army.</p>", 
-                    "name": "Reforming an Army", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Optional Mass Combat Rules/Reforming an Army", 
-                    "section_id": 2060, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Reforming an Army", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>The costs in this section assume an active, deployed army. You may instead convert an army into a reserve army, placing it in a settlement. This reduces the Consumption cost for the army to once per month (or kingdom turn) instead of once per week. A commander has to spend only 3 days per month with a reserve army to remain active with it. The Morale penalty for an absent commander happens every month instead of every week.</p><p>The size of an army you can put in reserve depends on the buildings you have available in the settlement. A Watchtower can hold a Small or smaller reserve army, a Barracks can hold Medium or smaller, a Castle can hold Large or smaller, and a Garrison Huge or smaller. A Gargantuan or Colossal army can't be put in reserve&mdash;it must remain deployed (though it can be indefinitely deployed in one of your own hexes). A Temple counts as a Watchtower for the purpose of holding special religious troops (clerics, druids, inquisitors, or paladins), and a Cathedral counts as a Barracks in those cases. You may split an army (see Splitting an Army) to allow you to divide its units among several buildings.</p><p>If you move the army outside the settlement, it immediately counts as an active army and the costs must be paid per week as normal.</p>", 
-                    "name": "Reserve Army", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Optional Mass Combat Rules/Reserve Army", 
-                    "section_id": 2061, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Reserve Army", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>You can divide an army into smaller armies. At any time outside of combat, you may split an army into two armies that are each one size category smaller. One of these armies retains the larger army's commander; you must assign a commander to the other army.</p><p>Calculate each smaller army's statistics based on its new size. The smaller armies retain all of the larger army's statistics and effects (including tactics, boons, resources, commander, and so on) except those based on size (such as ACR and statistics based on ACR). Each smaller army reduces its Morale by 1.</p><p>Determine what percentage of its full normal hit points the larger army had. Each smaller army has this proportion of hit points for its new size. For example, if the large army was at 70% (28 hp out of 40), each smaller army is at 70% of the full hit points for its size.</p><p>There is no limit to how many times you can split an army. Even a Colossal army can split several times until the CR of its individual units is too small to actually count as an army.</p>", 
-                    "name": "Splitting an Army", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Optional Mass Combat Rules/Splitting an Army", 
-                    "section_id": 2062, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Splitting an Army", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 2058, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>This section details sample armies of various humanoid and monster types. The GM can allow players to recruit some of these armies, or might reserve most of them as unusual foes for mass battles. None of these armies has a starting Morale listed, because starting Morale starts at 0, modified by the commander.</p><p>Most of these armies are Medium, showing a player or GM what tactics, resources, and special abilities a typical army of that type has, yet still keeping it easy to scale the army to a larger or smaller size. If an army has a resource, the listed Consumption is for an army of the listed size; if you change the size of the army, remember to subtract the Consumption cost for its original size, scale that cost to the new size, then add the scaled cost to the army's base Consumption cost. If the army lists an additional cost for recruiting the army, this recruitment cost scales in the same way.</p><p>The special abilities listed for monster armies are approximations to model the unit monster's special abilities. For example, an individual troglodyte's stench nauseates opponents, but there is no army special ability that does that, so the troglodyte army has paralysis instead, which has a comparable effect. Likewise, the astral deva army has the alchemy ability, which is a reasonable approximation of an individual astral deva's ability to use <i>heal</i> once per day; the one-unit army doesn't actually carry alchemist extracts.</p><p>If a special ability provides a constant bonus (such as the bonus from charge or pounce), that bonus is automatically included in the army's stat block. If the bonus is conditional (like the DV bonus from rock catching or the ranged damage bonus from rock throwing), you need to account for that bonus when the conditions are right.</p><p>Some armies have custom bonuses built into their DV or OM. This represents the unit's special defenses (such as damage reduction) and high damage output against single targets, which should affect an opposing army in a greater way than the standard monster-to-army conversion rules would indicate. Determining army stat block values for small numbers of powerful monsters is more of an art than a science.</p>", 
             "name": "Sample Armies", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "om": "+9", 
@@ -1738,7 +1531,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Army (Colossal)", 
                     "type": "army", 
                     "hp": "49", 
-                    "section_id": 2064, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "humans (fighter 2)", 
@@ -1756,7 +1548,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Army (Gargantuan)", 
                     "type": "army", 
                     "hp": "38", 
-                    "section_id": 2065, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "humans (fighter 2)", 
@@ -1774,7 +1565,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Army (Huge)", 
                     "type": "army", 
                     "hp": "27", 
-                    "section_id": 2066, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "humans (fighter 2)", 
@@ -1792,7 +1582,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Army (Large)", 
                     "type": "army", 
                     "hp": "16", 
-                    "section_id": 2067, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "humans (fighter 2)", 
@@ -1810,7 +1599,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Army (Medium)", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2068, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "humans (fighter 2)", 
@@ -1828,7 +1616,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Boggard Army", 
                     "type": "army", 
                     "hp": "9", 
-                    "section_id": 2069, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "boggards", 
@@ -1847,7 +1634,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Centaur Army", 
                     "type": "army", 
                     "hp": "16", 
-                    "section_id": 2070, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "centaurs", 
@@ -1866,7 +1652,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Dwarven Defenders", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2071, 
                     "source": "Ultimate Campaign", 
                     "alignment": "LN", 
                     "creature_type": "dwarves (fighter 2)", 
@@ -1884,7 +1669,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Duergar Army", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2072, 
                     "note": "+1 OM due to spell-like abilities", 
                     "source": "Ultimate Campaign", 
                     "alignment": "LE", 
@@ -1904,7 +1688,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Drow Army", 
                     "type": "army", 
                     "hp": "3", 
-                    "section_id": 2073, 
                     "note": "+2 OM due to spell-like abilities", 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
@@ -1925,7 +1708,6 @@
                     "type": "army", 
                     "hp": "16", 
                     "resources": "healing potions, improved armor, improved weapons, ranged weapons", 
-                    "section_id": 2074, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "humans (fighter 4)", 
@@ -1943,7 +1725,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Elite Mounted Knights", 
                     "type": "army", 
                     "hp": "11", 
-                    "section_id": 2075, 
                     "source": "Ultimate Campaign", 
                     "resources": "improved armor, improved weapons, mounts", 
                     "creature_type": "humans (fighter 3)", 
@@ -1962,7 +1743,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Elven Wardens", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2076, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "elves (ranger 2)", 
@@ -1980,7 +1760,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Ghoul Army", 
                     "type": "army", 
                     "hp": "4", 
-                    "section_id": 2077, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "ghouls", 
@@ -1998,7 +1777,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Gnoll Army", 
                     "type": "army", 
                     "hp": "4", 
-                    "section_id": 2078, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "gnolls", 
@@ -2017,7 +1795,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Gnome Stalkers", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2079, 
                     "note": "+1 OM due to spell-like abilities", 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
@@ -2036,7 +1813,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Goblin Army", 
                     "type": "army", 
                     "hp": "2", 
-                    "section_id": 2080, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "goblins (warrior 2)", 
@@ -2054,7 +1830,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Goblin Horde", 
                     "type": "army", 
                     "hp": "16", 
-                    "section_id": 2081, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "goblins (warrior 1)", 
@@ -2073,7 +1848,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Half-Orc Berserkers", 
                     "type": "army", 
                     "hp": "6", 
-                    "section_id": 2082, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CN", 
                     "creature_type": "half-orcs (barbarian 2)", 
@@ -2092,7 +1866,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Halfling Scouts", 
                     "type": "army", 
                     "hp": "4", 
-                    "section_id": 2083, 
                     "source": "Ultimate Campaign", 
                     "alignment": "LN", 
                     "creature_type": "halflings (rogue 2)", 
@@ -2112,7 +1885,6 @@
                     "type": "army", 
                     "hp": "5", 
                     "resources": "improved armor, improved weapons, ranged weapons", 
-                    "section_id": 2084, 
                     "source": "Ultimate Campaign", 
                     "alignment": "LE", 
                     "creature_type": "hobgoblins (fighter 2)", 
@@ -2131,7 +1903,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Kobold Army", 
                     "type": "army", 
                     "hp": "11", 
-                    "section_id": 2085, 
                     "source": "Ultimate Campaign", 
                     "alignment": "LE", 
                     "creature_type": "kobolds (warrior 1)", 
@@ -2149,7 +1920,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Lizardfolk Army", 
                     "type": "army", 
                     "hp": "4", 
-                    "section_id": 2086, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "lizardfolk", 
@@ -2167,7 +1937,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Militia (Colossal)", 
                     "type": "army", 
                     "hp": "38", 
-                    "section_id": 2087, 
                     "source": "Ultimate Campaign", 
                     "creature_type": "humans (warrior 1)", 
                     "dv": "17", 
@@ -2184,7 +1953,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Militia (Gargantuan)", 
                     "type": "army", 
                     "hp": "27", 
-                    "section_id": 2088, 
                     "source": "Ultimate Campaign", 
                     "creature_type": "humans (warrior 1)", 
                     "dv": "15", 
@@ -2201,7 +1969,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Militia (Huge)", 
                     "type": "army", 
                     "hp": "16", 
-                    "section_id": 2089, 
                     "source": "Ultimate Campaign", 
                     "creature_type": "humans (warrior 1)", 
                     "dv": "13", 
@@ -2218,7 +1985,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Militia (Large)", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2090, 
                     "source": "Ultimate Campaign", 
                     "creature_type": "humans (warrior 1)", 
                     "dv": "11", 
@@ -2236,7 +2002,6 @@
                     "type": "army", 
                     "hp": "11", 
                     "resources": "improved armor", 
-                    "section_id": 2091, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "orcs (fighter 3)", 
@@ -2254,7 +2019,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Orc Horde", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2092, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "orcs (warrior 3)", 
@@ -2272,7 +2036,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Skeleton Horde (Colossal)", 
                     "type": "army", 
                     "hp": "31", 
-                    "section_id": 2093, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human skeletons", 
@@ -2290,7 +2053,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Skeleton Horde (Gargantuan)", 
                     "type": "army", 
                     "hp": "22", 
-                    "section_id": 2094, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human skeletons", 
@@ -2308,7 +2070,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Skeleton Horde (Huge)", 
                     "type": "army", 
                     "hp": "13", 
-                    "section_id": 2095, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human skeletons", 
@@ -2326,7 +2087,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Skeleton Horde (Large)", 
                     "type": "army", 
                     "hp": "4", 
-                    "section_id": 2096, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human skeletons", 
@@ -2344,7 +2104,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Skeleton Horde (Medium)", 
                     "type": "army", 
                     "hp": "1", 
-                    "section_id": 2097, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human skeletons", 
@@ -2362,7 +2121,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Svirfneblin Army", 
                     "type": "army", 
                     "hp": "5", 
-                    "section_id": 2098, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "svirfneblin (ranger 1)", 
@@ -2381,7 +2139,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Tarrasque", 
                     "type": "army", 
                     "hp": "93", 
-                    "section_id": 2099, 
                     "note": "+4 OM due to feats and monster special abilities", 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
@@ -2401,7 +2158,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Tengu Army", 
                     "type": "army", 
                     "hp": "9", 
-                    "section_id": 2100, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "tengus (rogue 3)", 
@@ -2419,7 +2175,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Troglodyte Army", 
                     "type": "army", 
                     "hp": "4", 
-                    "section_id": 2101, 
                     "source": "Ultimate Campaign", 
                     "alignment": "CE", 
                     "creature_type": "troglodytes", 
@@ -2437,7 +2192,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Worg Army", 
                     "type": "army", 
                     "hp": "11", 
-                    "section_id": 2102, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "worgs", 
@@ -2455,7 +2209,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Yeti Pack", 
                     "type": "army", 
                     "hp": "22", 
-                    "section_id": 2103, 
                     "source": "Ultimate Campaign", 
                     "alignment": "N", 
                     "creature_type": "yetis", 
@@ -2473,7 +2226,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Zombie Horde (Colossal)", 
                     "type": "army", 
                     "hp": "36", 
-                    "section_id": 2104, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human zombies", 
@@ -2491,7 +2243,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Zombie Horde (Gargantuan)", 
                     "type": "army", 
                     "hp": "27", 
-                    "section_id": 2105, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human zombies", 
@@ -2509,7 +2260,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Zombie Horde (Huge)", 
                     "type": "army", 
                     "hp": "18", 
-                    "section_id": 2106, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human zombies", 
@@ -2527,7 +2277,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Zombie Horde (Large)", 
                     "type": "army", 
                     "hp": "9", 
-                    "section_id": 2107, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human zombies", 
@@ -2545,7 +2294,6 @@
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Sample Armies/Zombie Horde (Medium)", 
                     "type": "army", 
                     "hp": "2", 
-                    "section_id": 2108, 
                     "source": "Ultimate Campaign", 
                     "alignment": "NE", 
                     "creature_type": "human zombies", 
@@ -2555,71 +2303,58 @@
                     "special": "darkvision, mindless, undead", 
                     "size": "Medium"
                 }
-            ], 
-            "section_id": 2063, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>These mass combat rules treat armies as if they were individual creatures. Instead of making 100 attack rolls for each side of a battle between elves and orcs, you treat the elf army as one unit and the orc army as another unit, and they battle each other with just one roll each. Instead of the armies taking turns attacking each other, they roll simultaneously. Smaller armies have fewer individual creatures (units), larger armies have more units, and the number of units directly relates to how dangerous an army is.</p><p>Every army has a commander, typically a seasoned veteran, who directs the army's actions. You can lead an army yourself, making you its commander and providing bonuses depending on your kingdom leadership role.</p><p>Armies can learn different tactics, such as using reserve archers, forming a defensive wall, or using dirty tricks. An army can use strategies like attacking recklessly and aggressively (much like a creature using the Power Attack feat) or being cautious and defensive (like using Combat Expertise). The army's commander decides the tactics and strategy used in battle.</p><p>Conditions on the battlefield affect the process and outcome of the battle. For example, muddy terrain slows walking armies but has no effect on flying armies; night combat hinders human armies but not orc armies.</p><p>Resolving the battle consists of three phases in which the commanders decide on tactics, the armies make ranged attacks (if any), and the armies then close to melee range. They then remain in melee until one side flees or is destroyed.</p><p>The following summarizes the key rolls you'll make when using mass combat:</p>", 
             "name": "Mass Combat Quick Reference", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Mass Combat Quick Reference", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<p>d20 + Offense Modifier (OM)</p>", 
-                    "name": "Offense Check", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Mass Combat Quick Reference/Offense Check", 
-                    "section_id": 2110, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Offense Check", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>Offense check result &mdash; the defending army's Defense Value (DV)</p>", 
-                    "name": "Damage Dealt", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Mass Combat Quick Reference/Damage Dealt", 
-                    "section_id": 2111, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Damage Dealt", 
+                    "source": "Ultimate Campaign"
                 }, 
                 {
                     "body": "<p>d20 + the commander's modifiers + the army's Morale score</p>", 
-                    "name": "Morale Check", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Mass Combat Quick Reference/Morale Check", 
-                    "section_id": 2112, 
-                    "source": "Ultimate Campaign", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Morale Check", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 2109, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The mass combat rules often refer to aspects of the kingdom building rules, such as Loyalty checks and a kingdom's Control DC. If you aren't running a kingdom, substitute a Will save for a Loyalty check. Instead of a kingdom's Control DC, use the primary ability DC of a monster with a CR equal to the party's APL (see Monster Statistics By CR, <i>Bestiary</i> 291). For example, if the party's APL is 12, the Will save DC is 21. Instead of a kingdom turn or kingdom phase, use 1 month. Instead of BP, multiply the BP cost by 500 gp.</p>", 
-            "name": "Beyond the Kingdom", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Beyond the Kingdom", 
-            "section_id": 2113, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Beyond the Kingdom", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>Since an army's strength is represented by an ACR score, the GM can balance armies against each other using the guidelines for CR. For example, two ACR 9 armies should make for a relatively even battle, but so would an ACR 9 army against three ACR 6 armies. This applies mostly to typical humanoid armies, as monsters with powerful abilities might be significantly more formidable.</p>", 
-            "name": "Running Mass Combats", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Running Mass Combats", 
-            "section_id": 2114, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Running Mass Combats", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>If you are a leader of a kingdom, that fact is sufficient for you to recruit armies from your citizens. If you are not the leader of a kingdom, the GM may decide that you need to achieve some sort of in-game accomplishment to earn the respect and renown needed to raise an army.</p><p>Being able to recruit a monster army usually requires a special quest or adventure; you can't simply recruit an army of goblins to serve you because you've found a tribe of goblins or know they live in your kingdom.</p>", 
-            "name": "Recruiting Armies", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Recruiting Armies", 
-            "section_id": 2115, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Recruiting Armies", 
+            "source": "Ultimate Campaign"
         }
-    ], 
-    "section_id": 1851, 
-    "source": "Ultimate Campaign", 
-    "type": "section"
+    ]
 }

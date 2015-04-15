@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Wendigo/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When a wendigo uses its nightmare spell-like ability, the victim is also exposed to wendigo psychosis.", 
                     "name": "Dream Haunting", 
                     "url": "pfsrd://Bestiary 2/Monsters/Wendigo/Special Abilities/Dream Haunting", 
                     "ability_types": {
-                        "ability_type_id": 525, 
-                        "section_id": 2126, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2126, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -53,11 +52,8 @@
                     "name": "Howl", 
                     "url": "pfsrd://Bestiary 2/Monsters/Wendigo/Special Abilities/Howl", 
                     "ability_types": {
-                        "ability_type_id": 526, 
-                        "section_id": 2127, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2127, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -65,14 +61,6 @@
                     "body": "The save is Charisma-based. Curse:", 
                     "name": "Wendigo Psychosis", 
                     "url": "pfsrd://Bestiary 2/Monsters/Wendigo/Special Abilities/Wendigo Psychosis", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 527, 
-                        "section_id": 2128, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 2128, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Wendigo Psychosis", 
@@ -80,7 +68,6 @@
                             "url": "pfsrd://Bestiary 2/Monsters/Wendigo/Special Abilities/Wendigo Psychosis/Wendigo Psychosis", 
                             "type": "affliction", 
                             "contracted": "Nightmare or wind walk", 
-                            "section_id": 2129, 
                             "effect": "1d4 Wisdom drain (minimum Wisdom 1)", 
                             "onset": "1 minute", 
                             "subtype": "curse", 
@@ -91,48 +78,43 @@
                                 {
                                     "body": "When a victim's Wisdom reaches 1, he seeks an individual of his race to kill and devour. After completing this act, the afflicted individual takes off at a run, and in 1d4 rounds sprints up into the sky at such a speed that his feet burn away into jagged stumps. The transformation into a wendigo takes 2d6 minutes as the victim wind walks across the sky. Once the transformation is complete, the victim is effectively dead, replaced by a new wendigo. True resurrection, miracle, or wish can restore such a victim to life, yet doing so does not harm the new wendigo.", 
                                     "source": "Bestiary 2", 
-                                    "type": "section", 
-                                    "section_id": 2130
+                                    "type": "section"
                                 }
                             ]
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "If a wendigo pins a grappled foe, it can attempt to wind walk with the target by using its spell-like ability&mdash;it automatically succeeds on all concentration checks made to use wind walk. If the victim fails to resist the spell, the wendigo hurtles into the sky with him. Each round, a victim can make a new DC 23 Will save to turn solid again, but at this point he falls if he cannot fly. Eventually, the wendigo strands the victim in some rural area, usually miles from where \t\tit began. A creature that wind walks with a wendigo is exposed to wendigo psychosis. The save DC is Charisma-based.", 
                     "name": "Wind Walk", 
                     "url": "pfsrd://Bestiary 2/Monsters/Wendigo/Special Abilities/Wind Walk", 
                     "ability_types": {
-                        "ability_type_id": 528, 
-                        "section_id": 2131, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 2131, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2125, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Beings of ancient evil, wendigos haunt the minds of mortals, driving them to desperation and, ultimately, cannibalistic madness. They enjoy whittling down prey before they strike, trailing victims for days, even weeks, while plaguing their journeys with nightmares and foul weather.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 2132
+            "type": "section"
         }, 
         {
             "body": "<p>Tribal humanoids sometimes worship wendigos as gods, bringing them live sacrifices or attempting to appease the creatures by engaging in ritual cannibalism. They mark a wendigo's territory with fetishes and dress in the furs and hides of whatever animal it most closely resembles. Wendigos take little interest in the practices of their worshipers, and view them only as an ample supply of victims.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 2133
+            "type": "section"
         }
     ], 
     "hp": "279 (18d10+180); regeneration 15 (fire)", 
     "weaknesses": "vulnerability to fire", 
     "reach": "10 ft.", 
-    "section_id": 2124, 
     "wisdom": "20", 
     "creature_type": "Outsider", 
     "special_qualities": "no breath", 

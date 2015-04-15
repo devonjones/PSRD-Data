@@ -1,18 +1,17 @@
 {
-    "level_text": "Paladin: 1", 
-    "duration": "1 round", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, DF", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You compel an enemy to come and fight you. On its turn, the target moves its speed toward you, avoiding any other dangers along its path (including any movement that would provoke attacks of opportunity). The target may do nothing but move on its turn. If the target ends its move adjacent to you, you can make an attack of opportunity against the target. </p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Forces target to move toward you and fight you.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Knights Calling", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 162, 
+    "level_text": "Paladin: 1", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Paladin", 
@@ -26,14 +25,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Knight's Calling", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Knights Calling", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -41,5 +32,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, DF", 
+    "name": "Knight's Calling"
 }

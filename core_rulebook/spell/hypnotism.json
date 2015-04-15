@@ -1,21 +1,28 @@
 {
-    "level_text": "Bard: 1; Sorcerer: 1; Witch: 1; Wizard: 1", 
-    "duration": "2d4 rounds (D)", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>Your gestures and droning incantation fascinate nearby creatures, causing them to stop and stare blankly at you. In addition, you can use their rapt attention to make your suggestions and requests seem more plausible. Roll 2d4 to see how many total HD of creatures you affect. Creatures with fewer HD are affected before creatures with more HD. Only creatures that can see or hear you are affected, but they do not need to understand you to be fascinated.</p><p>If you use this spell in combat, each target gains a +2 bonus on its saving throw. If the spell affects only a single creature not in combat at the time, the saving throw has a penalty of &ndash;2.</p><p>While the subject is fascinated by this spell, it reacts as though it were two steps more friendly in attitude. This allows you to make a single request of the affected creature (provided you can communicate with it). The request must be brief and reasonable. Even after the spell ends, the creature retains its new attitude toward you, but only with respect to that particular request.</p><p>A creature that fails its saving throw does not remember that you enspelled it.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Fascinates 2d4 HD of creatures.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Hypnotism", 
     "spell_resistance": "yes", 
     "casting_time": "1 round", 
-    "section_id": 312, 
+    "level_text": "Arcanist: 1; Bard: 1; Skald: 1; Sorcerer: 1; Witch: 1; Wizard: 1", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 1
+        }, 
+        {
             "class": "Bard", 
+            "level": 1
+        }, 
+        {
+            "class": "Skald", 
             "level": 1
         }, 
         {
@@ -38,14 +45,6 @@
             "name": "Area"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Hypnotism", 
-    "url": "pfsrd://Core Rulebook/Spells/Hypnotism", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -53,5 +52,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "2d4 rounds (D)", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Hypnotism"
 }

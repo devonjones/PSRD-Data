@@ -26,19 +26,13 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Tentacle:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 375, 
-                        "section_id": 1210, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1210, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Death's Head Jellyfish Venom", 
@@ -46,7 +40,6 @@
                             "url": "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head/Special Abilities/Poison/Deaths Head Jellyfish Venom", 
                             "type": "affliction", 
                             "contracted": "injury", 
-                            "section_id": 1211, 
                             "effect": "1 Constitution and 1 Charisma", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -56,28 +49,27 @@
                                 {
                                     "body": "If a creature fails two consecutive saving throws, its jaw locks, its tongue swells, and its lips pull back, making speech impossible. This condition ends when the Charisma damage is healed.", 
                                     "source": "Bestiary 3", 
-                                    "type": "section", 
-                                    "section_id": 1212
+                                    "type": "section"
                                 }
                             ]
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1209, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Most common in warm or temperate waters, the death's head jellyfish is an aggressive predator. The creature derives its name from the pattern on its 4-foot-wide bell and from the poison it delivers with its tentacles. Those unfortunate enough to be subjected to this toxin develop rigor of the facial muscles that results in a wide-eyed grimace if left untreated.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1213
+            "type": "section"
         }
     ], 
     "hp": "15 (2d8+6)", 
     "reach": "10 ft.", 
-    "section_id": 1208, 
     "wisdom": "10", 
     "defensive_abilities": "amorphous", 
     "creature_type": "Vermin", 

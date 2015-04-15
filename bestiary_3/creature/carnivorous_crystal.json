@@ -3,7 +3,7 @@
     "ac": "17, touch 5, flat-footed 17 (-5 Dex, +12 natural)", 
     "special_attacks": "crystallize, entrap (DC 22, 1d10 rounds, hardness 10, hp 10), razor sharp", 
     "intelligence": "-", 
-    "racial_modifiers": "+5 stealth (+10 in rocky environs)", 
+    "racial_modifiers": "+5 Stealth (+10 in rocky environs)", 
     "resist": "fire 20", 
     "melee": "slam +18 (7d8+9/18-20 plus entrap)", 
     "cr": "11", 
@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Carnivorous Crystal/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bludgeoning and sonic attacks can inflict critical hits on a carnivorous crystal. A successful critical hit from such attacks causes the carnivorous crystal to split, even if the attack causes no damage. The crystal remains immune to precision-based damage, such as damage from sneak attacks.", 
                     "name": "Brittle", 
                     "url": "pfsrd://Bestiary 3/Monsters/Carnivorous Crystal/Special Abilities/Brittle", 
                     "ability_types": {
-                        "ability_type_id": 96, 
-                        "section_id": 310, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 310, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -47,11 +46,8 @@
                     "name": "Crystallize", 
                     "url": "pfsrd://Bestiary 3/Monsters/Carnivorous Crystal/Special Abilities/Crystallize", 
                     "ability_types": {
-                        "ability_type_id": 97, 
-                        "section_id": 311, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 311, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -60,11 +56,8 @@
                     "name": "Razor Sharp", 
                     "url": "pfsrd://Bestiary 3/Monsters/Carnivorous Crystal/Special Abilities/Razor Sharp", 
                     "ability_types": {
-                        "ability_type_id": 98, 
-                        "section_id": 312, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 312, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -73,35 +66,26 @@
                     "name": "Subsonic Hum", 
                     "url": "pfsrd://Bestiary 3/Monsters/Carnivorous Crystal/Special Abilities/Subsonic Hum", 
                     "ability_types": {
-                        "ability_type_id": 99, 
-                        "section_id": 313, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 313, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 309, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Natives of the endless caverns of the Plane of Earth, carnivorous crystals normally lead quiet existences, subsisting on minerals leeched from the surrounding rock. Living creatures, however, provide a veritable feast, as devouring the minerals in their bones and blood allows a crystal to reproduce in mere hours instead of years. Though lacking in anything that could be called intelligence, carnivorous crystals sense the living, and hunger for the sustenance trapped within their bodies. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 314
+            "type": "section"
         }, 
         {
             "body": "<p>On the Plane of Earth and in the deepest caverns of the Material Plane, ancient carnivorous crystals grow without bounds, reaching incredible sizes.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 315
+            "type": "section"
         }
     ], 
     "hp": "136 (16d8+64)", 
     "weaknesses": "brittle, vulnerable to sonic", 
-    "section_id": 308, 
     "wisdom": "1", 
     "creature_type": "Ooze", 
     "special_qualities": "freeze, split (critical hit from a bludgeoning or sonic attack, 15 hp)", 

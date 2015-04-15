@@ -1,18 +1,17 @@
 {
-    "level_text": "Bard: 2; Druid: 2; Ranger: 1", 
-    "duration": "1 day/level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M (a morsel of food the animal likes)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You compel a Tiny animal to go to a spot you designate. The most common use for this spell is to get an animal to carry a message to your allies. The animal cannot be one tamed or trained by someone else, including such creatures as familiars and animal companions.</p><p>Using some type of food desirable to the animal as a lure, you call the animal to you. It advances and awaits your bidding. You can mentally impress on the animal a certain place well known to you or an obvious landmark. The directions must be simple, because the animal depends on your knowledge and can't find a destination on its own. You can attach a small item or note to the messenger. The animal then goes to the designated location and waits there until the duration of the spell expires, whereupon it resumes its normal activities.</p><p>During this period of waiting, the messenger allows others to approach it and remove any scroll or token it carries. The intended recipient gains no special ability to communicate with the animal or read any attached message (if it's written in a language he doesn't know, for example).</p>", 
+    "school": "enchantment", 
+    "saving_throw": "none; see text", 
     "description": "Sends a Tiny animal to a specific place.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Animal Messenger", 
     "spell_resistance": "yes", 
     "casting_time": "1 minute", 
-    "section_id": 13, 
+    "level_text": "Bard: 2; Druid: 2; Hunter: 1; Hunter: 1; Ranger: 1; Shaman: 2; Skald: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Bard", 
@@ -23,8 +22,24 @@
             "level": 2
         }, 
         {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 1
+        }, 
+        {
             "class": "Ranger", 
             "level": 1
+        }, 
+        {
+            "class": "Shaman", 
+            "level": 2
+        }, 
+        {
+            "class": "Skald", 
+            "level": 2
         }
     ], 
     "descriptor_text": "mind-affecting", 
@@ -34,14 +49,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "none; see text", 
-    "name": "Animal Messenger", 
-    "url": "pfsrd://Core Rulebook/Spells/Animal Messenger", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -53,5 +60,13 @@
             "text": "a morsel of food the animal likes", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 day/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a morsel of food the animal likes)", 
+    "name": "Animal Messenger"
 }

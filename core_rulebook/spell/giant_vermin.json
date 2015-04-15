@@ -7,8 +7,7 @@
     "type": "spell", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "level_text": "Cleric: 4; Oracle: 4; Druid: 4", 
-    "section_id": 264, 
+    "level_text": "Cleric: 4; Druid: 4; Hunter: 4; Oracle: 4; Shaman: 4; Warpriest: 4", 
     "source": "Core Rulebook", 
     "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
@@ -21,7 +20,19 @@
             "level": 4
         }, 
         {
+            "class": "Hunter", 
+            "level": 4
+        }, 
+        {
             "class": "Oracle", 
+            "level": 4
+        }, 
+        {
+            "class": "Shaman", 
+            "level": 4
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 4
         }
     ], 
@@ -46,11 +57,10 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Caster Level</th><th>Centipedes</th><th>Scorpions</th><th>Spiders</th></tr></thead><tr class=\"odd\"><td>9th or lower</td><td>3</td><td>1</td><td>2</td></tr><tr class=\"even\"><td>10th&ndash;13th</td><td>4</td><td>2</td><td>3</td></tr><tr class=\"odd\"><td>14th&ndash;17th</td><td>6</td><td>3</td><td>4</td></tr><tr class=\"even\"><td>18th&ndash;19th</td><td>8</td><td>4</td><td>5</td></tr><tr class=\"odd\"><td>20th or higher</td><td>12</td><td>6</td><td>8</td></tr></table>", 
-            "name": "Caster Level", 
             "url": "pfsrd://Core Rulebook/Spells/Giant Vermin/Caster Level", 
-            "section_id": 265, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Caster Level", 
+            "source": "Core Rulebook"
         }
     ], 
     "component_text": "V, S, DF", 

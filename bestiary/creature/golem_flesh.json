@@ -1,6 +1,6 @@
 {
     "dexterity": "9", 
-    "ac": "20, touch 8, flat-footed 20; (-1 Dex, +12 natural, -1 size)", 
+    "ac": "20, touch 8, flat-footed 20 (-1 Dex, +12 natural, -1 size)", 
     "special_attacks": "berserk", 
     "intelligence": "-", 
     "melee": "2 slams +13 (2d8+5)", 
@@ -27,17 +27,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Golem/Flesh/Golem/Flesh/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When a flesh golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. The uncontrolled golem goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem, which requires a DC 19 Charisma check. It takes 1 minute of inactivity by the golem to reset the golem's berserk chance to 0%.", 
                     "name": "Berserk", 
                     "url": "pfsrd://Bestiary/Monsters/Golem/Flesh/Golem/Flesh/Special Abilities/Berserk", 
                     "ability_types": {
-                        "ability_type_id": 380, 
-                        "section_id": 1682, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1682, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -46,41 +45,31 @@
                     "name": "Immunity to Magic", 
                     "url": "pfsrd://Bestiary/Monsters/Golem/Flesh/Golem/Flesh/Special Abilities/Immunity to Magic", 
                     "ability_types": {
-                        "ability_type_id": 381, 
-                        "section_id": 1683, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1683, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1681, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A flesh golem is a ghoulish collection of stolen humanoid body parts, stitched together into a single composite form. Its cadaverous flesh has a sickly green or yellowish tint. A flesh golem wears whatever clothing its creator desires, usually just a ragged pair of trousers. It has no possessions and no weapons. A flesh golem stands 8 feet tall and weighs 500 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1684
+            "type": "section"
         }, 
         {
             "body": "<p>A flesh golem cannot speak, although it can emit a hoarse roar of sorts. It walks and moves with a stiff-jointed gait, as if not in complete control of its body.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1685
+            "type": "section"
         }, 
         {
             "body": "<p>Although most flesh golems are mindless, there are persistent rumors of unusual golems who somehow retain the memories of a previous life. The head (and thus brain) of such flesh golems must be just the right combination of fresh and (in its previous life) strong-willed, and even then luck and chance during the golem's creation seem just as important in retaining the creature's mind. Certainly most who construct flesh golems prefer mindless slaves over free-willed creations, and as a result intelligent flesh golems are rare indeed.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1686
+            "type": "section"
         }
     ], 
     "hp": "79 (9d10+30)", 
     "reach": "10 ft.", 
-    "section_id": 1680, 
     "wisdom": "11", 
     "creature_type": "Construct", 
     "dr": "5/adamantine", 

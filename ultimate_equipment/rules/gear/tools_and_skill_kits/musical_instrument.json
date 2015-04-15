@@ -1,7 +1,27 @@
 {
     "name": "Musical Instrument", 
     "url": "pfsrd://Ultimate Equipment/Rules/Gear/Tools and Skill Kits/Musical Instrument", 
-    "type": "item", 
+    "sections": [
+        {
+            "body": "<table><thead><th>Type</th><th>Price</th><th>Weight</th></thead><tr class=\"odd\"><td>Common</td><td>5 gp</td><td>3 lbs.</td></tr><tr class=\"even\"><td>Masterwork</td><td>100 gp</td><td>3 lbs.</td></tr></table>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Tools and Skill Kits/Musical Instrument/Type", 
+            "type": "table", 
+            "name": "Type", 
+            "source": "Ultimate Equipment"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive. </p>", 
+            "source": "Ultimate Equipment", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument.</p>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Tools and Skill Kits/Musical Instrument/Masterwork Musical Instrument", 
+            "type": "section", 
+            "name": "Masterwork Musical Instrument", 
+            "source": "Ultimate Equipment"
+        }
+    ], 
     "misc": {
         "null": {
             "Gear Type": "Item", 
@@ -14,30 +34,6 @@
             "Price": "5 gp"
         }
     }, 
-    "section_id": 698, 
     "source": "Ultimate Equipment", 
-    "sections": [
-        {
-            "body": "<table><thead><th>Type</th><th>Price</th><th>Weight</th></thead><tr class=\"odd\"><td>Common</td><td>5 gp</td><td>3 lbs.</td></tr><tr class=\"even\"><td>Masterwork</td><td>100 gp</td><td>3 lbs.</td></tr></table>", 
-            "name": "Type", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Tools and Skill Kits/Musical Instrument/Type", 
-            "section_id": 699, 
-            "source": "Ultimate Equipment", 
-            "type": "table"
-        }, 
-        {
-            "body": "<p class=\"stat-block\">If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive. </p>", 
-            "source": "Ultimate Equipment", 
-            "type": "section", 
-            "section_id": 700
-        }, 
-        {
-            "body": "<p class=\"stat-block\">This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument.</p>", 
-            "name": "Masterwork Musical Instrument", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Tools and Skill Kits/Musical Instrument/Masterwork Musical Instrument", 
-            "section_id": 701, 
-            "source": "Ultimate Equipment", 
-            "type": "section"
-        }
-    ]
+    "type": "item"
 }

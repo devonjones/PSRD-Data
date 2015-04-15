@@ -1,21 +1,28 @@
 {
-    "level_text": "Druid: 6; Summoner: 6", 
-    "duration": "1 hour/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "summoning", 
-    "subschool": [
-        "summoning"
-    ], 
-    "type": "spell", 
     "body": "<p>You summon a flight of giant eagles (one per three caster levels, maximum of six; <i>Bestiary</i> 118) to ferry you and your allies across the skies. The eagles avoid combat if possible but defend themselves if attacked; if the eagles attack, the remaining duration of the spell changes from 1 hour per level to 1 round per level (so if the spell had 5 full hours left, the eagles remain in combat for 5 rounds before the spell ends).</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "Summon 1 giant eagle/3 levels.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Eagle Aerie", 
     "spell_resistance": "no", 
     "casting_time": "1 round", 
-    "section_id": 69, 
+    "level_text": "Druid: 6; Hunter: 6; Summoner: 6; Hunter: 6", 
+    "descriptor": [
+        "good"
+    ], 
+    "range": "long (400 ft. + 40 ft./level)", 
     "levels": [
         {
             "class": "Druid", 
+            "level": 6
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 6
+        }, 
+        {
+            "class": "Hunter", 
             "level": 6
         }, 
         {
@@ -30,14 +37,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Eagle Aerie", 
-    "url": "pfsrd://Ultimate Magic/Spells/Eagle Aerie", 
-    "descriptor": [
-        "good"
-    ], 
-    "range": "long (400 ft. + 40 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -48,5 +47,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 hour/level", 
+    "subschool_text": "summoning", 
+    "subschool": [
+        "summoning"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Eagle Aerie"
 }

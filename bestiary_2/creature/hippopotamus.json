@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Hippopotamus/Hippopotamus/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A hippopotamus can overturn a boat of its size or smaller by ramming it as a charge attack and making a CMB check. The DC of this check is 25 or the result of the boat captain's Profession (sailor) check, whichever is higher.", 
                     "name": "Capsize", 
                     "url": "pfsrd://Bestiary 2/Monsters/Hippopotamus/Hippopotamus/Special Abilities/Capsize", 
                     "ability_types": {
-                        "ability_type_id": 280, 
-                        "section_id": 1140, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1140, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -47,47 +46,49 @@
                     "name": "Sweat", 
                     "url": "pfsrd://Bestiary 2/Monsters/Hippopotamus/Hippopotamus/Special Abilities/Sweat", 
                     "ability_types": {
-                        "ability_type_id": 281, 
-                        "section_id": 1141, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1141, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1139, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The ill-tempered &ldquo;river horse&rdquo; has a well-earned reputation for hostility, despite the fact that it is a herbivore.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1142
+            "type": "section"
         }, 
         {
-            "body": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> 40 ft.; <b>AC</b> +6 natural armor; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 11, Dex 12, Con 12, Int 2, Wis 13, Cha 5; <b>Special Qualities</b> low-light vision, scent, sweat.</p>", 
+            "ac": "+6 natural armor", 
             "name": "Hippo", 
+            "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Hippopotamus/Hippopotamus/Hippo", 
+            "speed": "40 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d8)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 11, Dex 12, Con 12, Int 2, Wis 13, Cha 5", 
             "sections": [
                 {
-                    "body": "<p id=\"7th-level-advancement\"><b>Size</b> Large; <b>AC</b> +2 nat. arm.; <b>Attack</b> bite (2d8); <b>Ability Scores</b> Str +8, <b>Dex</b> &ndash;2, <b>Con</b> +4; <b>Special Ability</b> trample.</p>", 
+                    "ac": "+2 nat. arm.", 
                     "name": "7th-Level Advancement", 
+                    "level": "7th", 
                     "url": "pfsrd://Bestiary 2/Monsters/Hippopotamus/Hippopotamus/Hippo/7th-Level Advancement", 
-                    "section_id": 1144, 
+                    "subtype": "advancement", 
+                    "attack": "bite (2d8)", 
                     "source": "Bestiary 2", 
-                    "type": "section"
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "special_abilities": "trample.", 
+                    "type": "animal_companion", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 1143, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            "special_qualities": "low-light vision, scent, sweat.", 
+            "size": "Medium"
         }
     ], 
     "hp": "59 (7d8+28)", 
     "reach": "5 ft.", 
-    "section_id": 1138, 
     "wisdom": "13", 
     "defensive_abilities": "sweat", 
     "creature_type": "Animal", 

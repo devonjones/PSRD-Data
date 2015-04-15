@@ -1,10 +1,10 @@
 {
     "dexterity": "17", 
     "ac": "29, touch 11, flat-footed 26 (+3 Dex, +18 natural, -2 size)", 
-    "special_attacks": "wailing dive, breath weapon (50-ft. cone, 14d6 sonic damage, Reflex DC 20 for half, usable every 1d4 rounds)", 
+    "special_attacks": "wailing dive, breath weapon (50-ft. cone, 14d6 sonic damage, Reflex DC 27 for half, usable every 1d4 rounds)", 
     "intelligence": "9", 
     "resist": "acid 10, cold 10, electricity 10, fire 10", 
-    "melee": "bite +28 (2d6+2), 2 claws +28 (1d8+12), tail slap +26 (2d6+6), 2 wings +26 (1d8+6)", 
+    "melee": "bite +28 (2d6+12), 2 claws +28 (1d8+12), tail slap +26 (2d6+6), 2 wings +26 (1d8+6)", 
     "cr": "15", 
     "xp": "51,200", 
     "speed": "40 ft., fly 160 ft. (average)", 
@@ -30,17 +30,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Kongamato/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A kongamato's beak is extremely hard and adept at breaking objects. When attempting to damage an item, a kongamato's beak attack does double damage and is treated as if it were adamantine for the purposes of overcoming the object's hardness.", 
                     "name": "Piercing Beak", 
                     "url": "pfsrd://Bestiary 3/Monsters/Kongamato/Special Abilities/Piercing Beak", 
                     "ability_types": {
-                        "ability_type_id": 397, 
-                        "section_id": 1314, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1314, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -49,41 +48,31 @@
                     "name": "Wailing Dive", 
                     "url": "pfsrd://Bestiary 3/Monsters/Kongamato/Special Abilities/Wailing Dive", 
                     "ability_types": {
-                        "ability_type_id": 398, 
-                        "section_id": 1315, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1315, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1313, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Kongamatos are primeval dragons that hunt the deep jungles of the world. Although not as intelligent or magically adept as their &ldquo;true&rdquo; cousins, kongamatos are respected and feared for their resilience and awesome strength. While the kongamato's body is clearly draconic&mdash;squat and dense with sharp claws capping each of its four limbs&mdash;the creature's head is distinctly avian, with a long, toothless beak and a pronounced crest. A kongamato's hide is a rich emerald hue, with an ash-colored underbelly and crimson webbing on its broad wings. Females have smaller head-crests than males, and a rosy hue colors both the undersides of their wings and their underbellies.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1316
+            "type": "section"
         }, 
         {
             "body": "<p>Kongamatos are apex predators that make their lairs in the tops of the oldest and strongest trees, or in caves and ruins. Kongamatos are carnivorous and prey on large herd animals. Although they do not have teeth, their beaks are sharp and strong, allowing them to carve their kills with precision and to punch through wood, rock, and even metal. When possible, kongamatos hunt on the perimeter of their territories, gliding silently and gracefully through even the thickest forest foliage to surprise prey.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1317
+            "type": "section"
         }, 
         {
             "body": "<p>Both males and females grow to a length of almost 30 feet, with an equally broad wingspan, and can weigh up to 7 tons. Kongamatos live between 500 and 600 years.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1318
+            "type": "section"
         }
     ], 
     "hp": "261 (18d12+144)", 
     "reach": "15 ft.", 
-    "section_id": 1312, 
     "wisdom": "14", 
     "creature_type": "Dragon", 
     "special_qualities": "compression, piercing beak", 

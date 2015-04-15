@@ -4,7 +4,7 @@
     "special_attacks": "boiling sea", 
     "intelligence": "12", 
     "resist": "acid 10, electricity 10", 
-    "melee": "bite +22 (1d8+7/19-20), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) or spear +20/+15/+10 (2d6+7/&times;3 plus poison)", 
+    "melee": "bite +21 (1d8+7/19\u201320), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) orspear +20/+15/+10 (2d6+10/x3 plus poison), bite +19 (1d8+3/19\u201320), sting +18 (1d6+3 plus poison)", 
     "cr": "10", 
     "xp": "9,600", 
     "speed": "30 ft., swim 80 ft.", 
@@ -27,7 +27,7 @@
         }
     ], 
     "type": "creature", 
-    "feats": "Combat Reflexes, Greater Weapon Focus (bite), Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus (bite)", 
+    "feats": "Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite)", 
     "senses": "darkvision 60 ft., detect good, detect magic, see in darkness; Perception +19", 
     "description": "Bristling with spiny ridges, coral horns, and needle-sharp teeth, this menacing biped seems to have emerged from some poisoned sea.", 
     "sections": [
@@ -35,17 +35,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
-                    "body": "As a standard action, a ghawwas can cause the waters around it to boil. Any creature within 50 feet of the ghawwas, within the same body of water, and at least half submerged takes 6d6 points of heat damage (DC 22 Fortitude save for half). The save DC is Constitution-based.", 
+                    "body": "As a standard action, a ghawwas can cause the waters around it to boil. Any creature within 50 feet of the ghawwas, within the same body of water, and at least half submerged takes 6d6 points of fire damage (DC 23 Fortitude save for half). The save DC is Constitution-based.", 
                     "name": "Boiling Sea", 
                     "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Boiling Sea", 
                     "ability_types": {
-                        "ability_type_id": 185, 
-                        "section_id": 640, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 640, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -53,21 +52,12 @@
                     "body": "Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 186, 
-                        "section_id": 641, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 641, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Ghawwas Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Poison/Ghawwas Venom", 
                             "contracted": "injury", 
-                            "section_id": 642, 
                             "effect": "1d6 Strength damage", 
                             "subtype": "poison", 
                             "cure": "2 consecutive saves", 
@@ -75,48 +65,43 @@
                             "save": "Fortitude DC 23", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Ghawwas have rough hides studded with jagged barbs and spiny protrusions. Any creature striking a ghawwas with a natural weapon or an unarmed strike takes 1d6 points of slashing and piercing damage.", 
                     "name": "Rough Hide", 
                     "url": "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Rough Hide", 
                     "ability_types": {
-                        "ability_type_id": 187, 
-                        "section_id": 643, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 643, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 639, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Full of poison and treachery, ghawwas foul the seas and seek to bring ruin to those who dwell there. Ghawwas resemble a mixture of hulking humanoid, prehistoric fish, and poisonous bottom-feeder. While most ghawwas live in salt water, they sometimes teleport to oases to defile them or suck them dry. Although they see all mortals as enemies, ghawwas bear a particular grudge against peaceable, water-breathing creatures such as merfolk and locathah.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 644
+            "type": "section"
         }, 
         {
             "body": "<p>All ghawwas find the tolling of bells insufferable, the sound filling them with rage and driving them to seek out the source and destroy either the bell or those ringing it. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 645
+            "type": "section"
         }, 
         {
             "body": "<p>The typical ghawwas stands 12 feet tall and weighs close to 1,200 pounds. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 646
+            "type": "section"
         }
     ], 
     "hp": "161 (14d10+84)", 
     "reach": "10 ft.", 
-    "section_id": 638, 
     "wisdom": "15", 
     "defensive_abilities": "rough hide", 
     "creature_type": "Outsider", 

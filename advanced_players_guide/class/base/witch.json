@@ -5,7 +5,6 @@
     "url": "pfsrd://Advanced Players Guide/Classes/Witch", 
     "type": "class", 
     "image": "Witch.png", 
-    "section_id": 1556, 
     "subtype": "base", 
     "hit_die": "d6", 
     "alt": "Feiya", 
@@ -14,80 +13,73 @@
             "body": "<p id=\"role\">While many witches are recluses, living on the edge of civilization, some live within society, openly or in hiding. The blend of witches' spells makes them adept at filling a number of different roles, from seer to healer, and their hexes grant them a number of abilities that are useful in a fight. Some witches travel about, seeking greater knowledge and better understanding of the mysterious powers that guide them.</p>", 
             "source": "Advanced Player's Guide", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 1557
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for witch characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Witch</td><td>3d6 &times; 10 gp</td><td>105 gp</td></tr></table>", 
                     "source": "Advanced Player's Guide", 
-                    "type": "table", 
-                    "section_id": 1559
+                    "type": "table"
                 }
             ], 
-            "section_id": 1558, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The witch's class skills are Craft (Int), Fly (Dex), Heal (Wis), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (nature) (Int), Knowledge (planes) (Int), Profession (Wis), Spellcraft (Int), and Use Magic Device (Cha). </p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">2 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-2-10:-witch\"><caption>Table:  Witch</caption><thead><tr id=\"level-bonus-save-save-save-special-0-1st-2nd-3rd-4th-5th-6th-7th-8th-9th\"><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"10\">Spells per Day</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Cantrips, hex, witch's familiar </td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+1</td><td>+1</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\"></td><td>4</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\"></td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+4</td><td>+2</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+4</td><td>+3</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Hex, major hex</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+7/+2</td><td>+4</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+7/+2</td><td>+5</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"even\"><td>18th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Hex, grand hex</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td></tr><tr class=\"odd\"><td>19th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td></tr><tr class=\"even\"><td>20th</td><td>+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">Hex</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td></tr></table>", 
-                            "name": "Table: Witch", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Skills/Skill Ranks per Level/Table Witch", 
-                            "section_id": 1562, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Witch", 
+                            "source": "Advanced Player's Guide"
                         }
                     ], 
-                    "section_id": 1561, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Advanced Player's Guide"
                 }
             ], 
-            "section_id": 1560, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The following are the class features of the witch.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Witches are proficient with all simple weapons. They are not proficient with any type of armor or shield. Armor interferes with a witch's gestures, which can cause her spells with somatic components to fail.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1564
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"spells\">A witch casts arcane spells drawn from the witch spell list. A witch must choose and prepare her spells ahead of time.</p><p>To learn or cast a spell, a witch must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a witch's spell is 10 + the spell level + the witch's Intelligence modifier.</p><p>A witch can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table 2&ndash;10. In addition, she receives bonus spells per day if she has a high Intelligence score (see Table 1&ndash;3 of the <i>Pathfinder RPG Core Rulebook</i>).</p><p>A witch may know any number of spells. She must choose and prepare her spells ahead of time by getting 8 hours of sleep and spending 1 hour communing with her familiar. While communing, the witch decides which spells to prepare.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1565
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"cantrips\">Witches can prepare a number of cantrips, or 0-level spells, each day, as noted on Table 2&ndash;10 under &ldquo;Spells per Day.&rdquo; These spells are cast like any other spell, but they are not expended when cast and may be used again. Cantrips prepared using other spell slots, due to metamagic feats for example, are expended normally.</p>", 
-                    "name": "Cantrips", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Cantrips", 
-                    "section_id": 1566, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cantrips", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"hex\">Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level, as noted on Table 2&ndash;10. A witch cannot select an individual hex more than once. </p><p>Unless otherwise noted, using a hex is a standard action that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 + 1/2 the witch's level + the witch's Intelligence modifier.</p>", 
                     "name": "Hex", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex", 
+                    "type": "section", 
+                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"blight\">The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it's used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level &times; 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex&mdash;<i>type</i> curse; <i>save</i> Will negates; <i>frequency</i> 1/day; <i>effect</i> 1 Con damage. Both types of curse can be removed with a <i>remove curse</i> or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</p>", 
@@ -95,11 +87,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Blight", 
                             "ability_types": {
-                                "ability_type_id": 335, 
-                                "section_id": 1568, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1568, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -109,11 +98,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Cackle", 
                             "ability_types": {
-                                "ability_type_id": 336, 
-                                "section_id": 1569, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1569, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -123,11 +109,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Cauldron", 
                             "ability_types": {
-                                "ability_type_id": 337, 
-                                "section_id": 1570, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1570, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -137,11 +120,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Charm", 
                             "ability_types": {
-                                "ability_type_id": 338, 
-                                "section_id": 1571, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1571, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -151,11 +131,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Coven", 
                             "ability_types": {
-                                "ability_type_id": 339, 
-                                "section_id": 1572, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1572, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -165,11 +142,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Disguise", 
                             "ability_types": {
-                                "ability_type_id": 340, 
-                                "section_id": 1573, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1573, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -179,11 +153,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Evil Eye", 
                             "ability_types": {
-                                "ability_type_id": 341, 
-                                "section_id": 1574, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1574, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -193,11 +164,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Flight", 
                             "ability_types": {
-                                "ability_type_id": 342, 
-                                "section_id": 1575, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1575, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -207,11 +175,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Fortune", 
                             "ability_types": {
-                                "ability_type_id": 343, 
-                                "section_id": 1576, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1576, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -221,11 +186,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Healing", 
                             "ability_types": {
-                                "ability_type_id": 344, 
-                                "section_id": 1577, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1577, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -235,11 +197,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Misfortune", 
                             "ability_types": {
-                                "ability_type_id": 345, 
-                                "section_id": 1578, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1578, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -249,11 +208,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Slumber", 
                             "ability_types": {
-                                "ability_type_id": 346, 
-                                "section_id": 1579, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1579, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -263,11 +219,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Tongues", 
                             "ability_types": {
-                                "ability_type_id": 347, 
-                                "section_id": 1580, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1580, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }, 
@@ -277,35 +230,25 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Hex/Ward", 
                             "ability_types": {
-                                "ability_type_id": 348, 
-                                "section_id": 1581, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1581, 
                             "subtype": "witch_hex", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1567, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Hexes: Ultimate Magic", 
-                    "section_id": 1582
+                    "name": "Hexes: Ultimate Magic"
                 }, 
                 {
                     "body": "<p id=\"witch's-familiar\">At 1st level, a witch forms a close bond with a familiar, a creature that teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her skill bonuses, additional spells, and help with some types of magic. This functions like the wizard's arcane bond class feature, except as noted in the Witch's Familiar section.</p><p>A witch must commune with her familiar each day to prepare her spells. Familiars store all of the spells that a witch knows, and a witch cannot prepare a spell that is not stored by her familiar. A witch's familiar begins play storing all of the 0-level witch spells plus three 1st-level spells of the witch's choice. The witch also selects a number of additional 1st-level spells equal to her Intelligence modifier to store in her familiar. At each new witch level, she adds two new spells of any spell level or levels that she can cast (based on her new witch level) to her familiar. A witch can also add additional spells to her familiar through a special ritual (see sidebar).</p>", 
                     "name": "Witch's Familiar", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Witchs Familiar", 
                     "ability_types": {
-                        "ability_type_id": 349, 
-                        "section_id": 1583, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1583, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -313,6 +256,8 @@
                     "body": "<p id=\"major-hex\">Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.</p>", 
                     "name": "Major Hex", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex", 
+                    "type": "section", 
+                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"agony\">With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to suffer intense pain. The target is nauseated for a number of rounds equal to the witch's level. A Fortitude save negates this effect. If the saving throw is failed, the target can attempt a new save each round to end the effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</p>", 
@@ -320,11 +265,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Agony", 
                             "ability_types": {
-                                "ability_type_id": 350, 
-                                "section_id": 1585, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1585, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }, 
@@ -334,11 +276,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Hags Eye", 
                             "ability_types": {
-                                "ability_type_id": 351, 
-                                "section_id": 1586, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1586, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }, 
@@ -348,11 +287,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Major Healing", 
                             "ability_types": {
-                                "ability_type_id": 352, 
-                                "section_id": 1587, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1587, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }, 
@@ -362,11 +298,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Nightmares", 
                             "ability_types": {
-                                "ability_type_id": 353, 
-                                "section_id": 1588, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1588, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }, 
@@ -376,11 +309,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Retribution", 
                             "ability_types": {
-                                "ability_type_id": 354, 
-                                "section_id": 1589, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1589, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }, 
@@ -390,11 +320,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Vision", 
                             "ability_types": {
-                                "ability_type_id": 355, 
-                                "section_id": 1590, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1590, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }, 
@@ -404,11 +331,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Waxen Image", 
                             "ability_types": {
-                                "ability_type_id": 356, 
-                                "section_id": 1591, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1591, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }, 
@@ -418,29 +342,24 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Major Hex/Weather Control", 
                             "ability_types": {
-                                "ability_type_id": 357, 
-                                "section_id": 1592, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1592, 
                             "subtype": "witch_major_hex", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1584, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Major Hexes: Ultimate Magic", 
-                    "section_id": 1593
+                    "name": "Major Hexes: Ultimate Magic"
                 }, 
                 {
                     "body": "<p id=\"grand-hex\">Starting at 18th level, and every two levels thereafter, a witch can choose one of the following grand hexes whenever she could select a new hex.</p>", 
                     "name": "Grand Hex", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Grand Hex", 
+                    "type": "section", 
+                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"death-curse\">This powerful hex seizes a creature's heart, causing death within just a few moments. This hex has a range of 30 feet. The hexed creature receives a Will save to negate the effect. If this save is failed, the creature becomes fatigued the first round of the hex. On the second round of the hex, the creature becomes exhausted. On the third round, the creature dies unless it succeeds at a Fort save. Creatures that fail the first save but succeed at the second remain exhausted and take 4d6 points of damage + 1 point of damage per level of the witch. Slaying the witch that hexed the creature ends the effect, but any fatigue or exhaustion remains. Whether or not the saves are successful, a creature cannot be the target of this hex again for 1 day.</p>", 
@@ -448,11 +367,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Grand Hex/Death Curse", 
                             "ability_types": {
-                                "ability_type_id": 358, 
-                                "section_id": 1595, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1595, 
                             "subtype": "witch_grand_hex", 
                             "type": "ability"
                         }, 
@@ -462,11 +378,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Grand Hex/Eternal Slumber", 
                             "ability_types": {
-                                "ability_type_id": 359, 
-                                "section_id": 1596, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1596, 
                             "subtype": "witch_grand_hex", 
                             "type": "ability"
                         }, 
@@ -476,11 +389,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Grand Hex/Forced Reincarnation", 
                             "ability_types": {
-                                "ability_type_id": 360, 
-                                "section_id": 1597, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1597, 
                             "subtype": "witch_grand_hex", 
                             "type": "ability"
                         }, 
@@ -490,11 +400,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Grand Hex/Life Giver", 
                             "ability_types": {
-                                "ability_type_id": 361, 
-                                "section_id": 1598, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1598, 
                             "subtype": "witch_grand_hex", 
                             "type": "ability"
                         }, 
@@ -504,103 +411,87 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Class Features/Grand Hex/Natural Disaster", 
                             "ability_types": {
-                                "ability_type_id": 362, 
-                                "section_id": 1599, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1599, 
                             "subtype": "witch_grand_hex", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1594, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Grand Hexes: Ultimate Magic", 
-                    "section_id": 1600
+                    "name": "Grand Hexes: Ultimate Magic"
                 }
             ], 
-            "section_id": 1563, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Advanced Player's Guide"
         }, 
         {
-            "name": "Witch's Familiar", 
             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Witchs Familiar", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table id=\"adding-spells-to-a-witch's-familiar\"><caption>Adding Spells to a Witch's Familiar</caption><thead><tr><th>Witches can add new spells to their familiars through several methods. A witch can only add spells to her familiar if those spells belong to the witch's spell list.</th></tr></thead><tr id=\"spells-gained-at-a-new-level\"><td style=\"white-space:normal;\"><b>Spells Gained at a New Level</b>: A witch's familiar learns a certain amount of lore and magic as the witch adventures. Whenever a witch gains a level, she may add two spells from the witch spell list to her familiar. The two free spells must be of spell levels she can cast.</td></tr><tr id=\"familiar-teaching-familiar\"><td style=\"white-space:normal;\"><b>Familiar Teaching Familiar</b>: A witch's familiar can learn spells from another witch's familiar. To accomplish this, the familiars must spend one hour per level of the spell being taught in communion with one another. At the end of this time, the witch whose familiar is learning a spell must make a Spellcraft check (DC 15 + spell level). If the check succeeds, the familiar has learned the spell and the witch may utilize it the next time she prepares spells. If the check fails, the familiar has failed to learn the spell and cannot try to learn that spell again until the witch has gained another rank in Spellcraft. Most witches require a spell of equal or greater level in return for this service. If a familiar belongs to a witch that has died, it only retains its knowledge of spells for 24 hours, during which time it is possible to coerce or bribe the familiar into teaching its spells to another, subject to GM discretion.</td></tr><tr id=\"learn-from-a-scroll\"><td style=\"white-space:normal;\"><b>Learn from a Scroll</b>: A witch can use a scroll to teach her familiar a new spell. This process takes 1 hour per level of the spell to be learned, during which time the scroll is burned and its ashes used to create a special brew or powder that is consumed by the familiar. This process destroys the scroll. At the end of this time, the witch must make a Spellcraft check (DC 15 + spell level). If the check fails, the process went awry in some way and the spell is not learned, although the scroll is still consumed.</td></tr></table>", 
-                    "name": "Adding Spells to a Witch's Familiar", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Witchs Familiar/Adding Spells to a Witchs Familiar", 
-                    "section_id": 1602, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Adding Spells to a Witch's Familiar", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p>By forging strange bonds with unnameable beings, witches gain the service of a mystical advisor, a familiar to both serve her and reveal to her secrets unknown to most mortals. A familiar is an animal chosen by a witch to aid her in her spellcasting and grant her special powers. This uses the same rules as the wizard's arcane bond class feature, except as noted below. A witch uses her level as her effective wizard level when determining the abilities of her familiar. A witch can choose any of the familiars available to a wizard in addition to the new familiars presented here. </p><p>Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the witch's level. If a witch possesses such levels, her familiar always uses the witch rules for familiars, not those provided by other classes, such as wizards or sorcerers with the arcane bloodline. A witch's familiar only stores witch spells. All other spells are stored normally, as noted in their class features.</p><p>If a familiar is lost or dies, it can be replaced 1 day later through a special ritual that costs 500 gp per witch level. The ritual takes 8 hours to complete. A new familiar begins knowing all of the 0-level spells plus two spells of every level the witch is able to cast. These are in addition to any bonus spells known by the familiar based on the witch's level and her patron (see patron spells).</p>", 
                     "source": "Advanced Player's Guide", 
-                    "type": "section", 
-                    "section_id": 1603
+                    "type": "section"
                 }, 
                 {
                     "body": "<p id=\"store-spells\">Starting at 1st level, a witch's familiar stores all of the spells that the witch knows. This does not allow the familiar to cast these spells or use spell-trigger or spell completion magic items. Starting at 2nd level, and every two levels thereafter, a witch's familiar adds new bonus spells to the witch's spell list based on her patron. These spells are automatically stored by the familiar and can be prepared as normal once they are gained.</p>", 
-                    "name": "Store Spells", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Witchs Familiar/Store Spells", 
-                    "section_id": 1604, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Store Spells", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"deliver-touch-spells\">If a witch is 3rd level or higher, her familiar can deliver touch spells or hexes for her. If the witch and the familiar are in contact at the time the witch casts a touch spell, she can designate her familiar as the &ldquo;toucher.&rdquo; The familiar can then deliver the touch spell just as the witch would. As usual, if the witch casts another spell before the touch is delivered, the touch spell dissipates. If the witch activates a hex, her familiar can be used to make the touch. She does not have to be in contact with the familiar to use this ability.</p>", 
                     "name": "Deliver Touch Spells", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Witchs Familiar/Deliver Touch Spells", 
                     "ability_types": {
-                        "ability_type_id": 363, 
-                        "section_id": 1605, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1605, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 1601, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Witch's Familiar", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>In addition to the familiars presented in the <i>Pathfinder RPG Core Rulebook</i>, witches might select any of the following animals as their familiar. Sorcerers and wizards might also adopt these new familiars, utilizing the same rules as for any other familiar. </p><p>These familiars make use these statistics: the house centipede, king crab, greensting scorpion, fox (dog with the young template), octopus (octopus with the young template), and scarlet spider.</p>", 
             "name": "New Familiars", 
             "url": "pfsrd://Advanced Players Guide/Classes/Witch/New Familiars", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Familiar</th><th>Special Ability</th></tr></thead><tbody><tr class=\"odd\"><td>Centipede</td><td>Master gains a +3 bonus on Stealth checks</td></tr><tr class=\"even\"><td>Crab</td><td>Master gains a +2 bonus on grapple checks</td></tr><tr class=\"odd\"><td>Fox</td><td>Master gains a +2 bonus on Reflex saves</td></tr><tr class=\"even\"><td>Octopus</td><td>Master gains a +3 bonus on Swim checks</td></tr><tr class=\"odd\"><td>Scorpion</td><td>Master gains a +2 bonus on initiative rolls</td></tr><tr class=\"even\"><td>Spider</td><td>Master gains a +3 bonus on Climb checks</td></tr></tbody></table>", 
-                    "name": "Familiar", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/New Familiars/Familiar", 
-                    "section_id": 1607, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Familiar", 
+                    "source": "Advanced Player's Guide"
                 }
-            ], 
-            "section_id": 1606, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold influence over one of the following forces. At 2nd level, and every two levels thereafter, a witch's patron adds new spells to a witch's list of spells known. These spells are also automatically added to the list of spells stored by the familiar. Spells marked with an asterisk (*) appear in Chapter 5 of this book. The spells gained depend upon the patron chosen. Each patron is listed by its theme. Its actual name is up to the GM and the witch to decide.</p>", 
             "name": "Patron Spells", 
             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "body": "<p id=\"agility\">2nd&mdash;<i>jump</i>, 4th&mdash;<i>cat's grace</i>, 6th&mdash;<i>haste</i>, 8th&mdash;<i>freedom of movement</i>, 10th&mdash;<i>polymorph</i>, 12th&mdash;<i>cat's grace (mass)</i>, 14th&mdash;<i>ethereal jaunt</i>, 16th&mdash;<i>animal shapes</i>, 18th&mdash;<i>shapechange</i>.</p>", 
                     "name": "Agility", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Agility", 
-                    "section_id": 1609, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -609,7 +500,6 @@
                     "name": "Animals", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Animals", 
-                    "section_id": 1610, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -618,7 +508,6 @@
                     "name": "Deception", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Deception", 
-                    "section_id": 1611, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -627,7 +516,6 @@
                     "name": "Elements", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Elements", 
-                    "section_id": 1612, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -636,7 +524,6 @@
                     "name": "Endurance", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Endurance", 
-                    "section_id": 1613, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -645,7 +532,6 @@
                     "name": "Plague", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Plague", 
-                    "section_id": 1614, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -654,7 +540,6 @@
                     "name": "Shadow", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Shadow", 
-                    "section_id": 1615, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -663,7 +548,6 @@
                     "name": "Strength", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Strength", 
-                    "section_id": 1616, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -672,7 +556,6 @@
                     "name": "Transformation", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Transformation", 
-                    "section_id": 1617, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -681,7 +564,6 @@
                     "name": "Trickery", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Trickery", 
-                    "section_id": 1618, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -690,7 +572,6 @@
                     "name": "Water", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Water", 
-                    "section_id": 1619, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }, 
@@ -699,45 +580,37 @@
                     "name": "Wisdom", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Witch/Patron Spells/Wisdom", 
-                    "section_id": 1620, 
                     "subtype": "witch_patron", 
                     "type": "section"
                 }
-            ], 
-            "section_id": 1608, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Patron Themes: Ultimate Magic", 
-            "section_id": 1621
+            "name": "Patron Themes: Ultimate Magic"
         }, 
         {
             "body": "<p>Witches gain access to the following spells. While most of these spells are found in the <i>Core Rulebook</i>, those marked with an asterisk (*) appear in Chapter 5 of this book.</p>", 
             "name": "Witch Spells", 
             "source": "Advanced Player's Guide", 
             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Witch Spells", 
-            "section_id": 1622, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "witch"
         }, 
         {
-            "name": "Witch Archetypes", 
             "url": "pfsrd://Advanced Players Guide/Classes/Witch/Witch Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Witch Archetypes: Ultimate Magic", 
-                    "section_id": 1624
+                    "name": "Witch Archetypes: Ultimate Magic"
                 }
             ], 
-            "section_id": 1623, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Witch Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

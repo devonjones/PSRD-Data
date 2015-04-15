@@ -1,19 +1,22 @@
 {
-    "level_text": "Sorcerer: 7; Witch: 7; Wizard: 7", 
-    "duration": "instantaneous", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>The affected creature suffers from a continuous <i>confusion</i> effect, as the spell.</p><p><i>Remove curse</i> does not remove<i> insanity. Greater restoration, heal, limited wish, miracle</i>, or <i>wish</i> can restore the creature.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Subject suffers continuous confusion.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Insanity", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 331, 
+    "level_text": "Arcanist: 7; Sorcerer: 7; Witch: 7; Wizard: 7", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 7
+        }, 
         {
             "class": "Sorcerer", 
             "level": 7
@@ -34,14 +37,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Insanity", 
-    "url": "pfsrd://Core Rulebook/Spells/Insanity", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -49,5 +44,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "instantaneous", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Insanity"
 }

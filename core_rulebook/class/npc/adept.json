@@ -2,78 +2,69 @@
     "name": "Adept", 
     "source": "Core Rulebook", 
     "url": "pfsrd://Core Rulebook/Classes/Adept", 
-    "type": "class", 
-    "section_id": 1637, 
-    "subtype": "npc", 
-    "hit_die": "d6", 
     "sections": [
         {
             "body": "<p>The adept's class skills (and the key ability for each skill) are Craft (Int), Handle Animal (Cha), Heal (Wis), Knowledge (all skills taken individually) (Int), Profession (Wis), Spellcraft (Int), and Survival (Wis). </p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>2 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-14-1-adept\"><caption>Table: Adept</caption><thead><tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"6\">Spells per Day</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\"></td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\">Summon familiar</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+1</td><td>+1</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\"></td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\"></td><td>3</td><td>2</td><td>0</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\"></td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\"></td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+4</td><td>+2</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>2</td><td>0</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+4</td><td>+3</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>2</td><td>0</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+7/+2</td><td>+4</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+7/+2</td><td>+5</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>0</td></tr><tr class=\"odd\"><td>17th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"even\"><td>18th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"odd\"><td>19th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td></tr><tr class=\"even\"><td>20th</td><td>+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\"></td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td></tr></table>", 
-                            "name": "Table: Adept", 
                             "url": "pfsrd://Core Rulebook/Classes/Adept/Class Skills/Skill Ranks per Level/Table Adept", 
-                            "section_id": 1640, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Adept", 
+                            "source": "Core Rulebook"
                         }
                     ], 
-                    "section_id": 1639, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 1638, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>All of the following are class features of the adept NPC class.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>Adepts are skilled with all simple weapons. Adepts are not proficient with any type of armor or shield.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1642
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p>An adept casts divine spells, which are drawn from the adept spell list. Like a cleric, an adept must choose and prepare her spells in advance. Unlike a cleric, an adept cannot spontaneously cast <i>cure</i> or <i>inflict</i> spells.</p><p>To prepare or cast a spell, an adept must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against an adept's spell is 10 + the spell level + the adept's Wisdom modifier.</p><p>Adepts, unlike wizards, do not acquire their spells from books or scrolls, nor do they prepare them through study. Instead, they meditate or pray for their spells, receiving them as divine inspiration or through their own strength of faith. Each adept must choose a time each day during which she must spend an hour in quiet contemplation or supplication to regain her daily allotment of spells. Time spent resting has no effect on whether an adept can prepare spells.</p><p>Like other spellcasters, an adept can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table 14&ndash;1. In addition, she receives bonus spells per day if she has a high Wisdom score.</p><p>Where Table 14&ndash;1 indicates that the adept gets 0 spells per day of a given spell level, she gains only the bonus spells she would be entitled to based on her Wisdom score for that spell level.</p><p>Each adept has a particular holy symbol (as a divine focus) depending on the adept's magical tradition.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1643
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"summon-familiar\">At 2nd level, an adept can call a familiar, just as a wizard can using the arcane bond ability.</p>", 
-                    "name": "Summon Familiar", 
                     "url": "pfsrd://Core Rulebook/Classes/Adept/Class Features/Summon Familiar", 
-                    "section_id": 1644, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Summon Familiar", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 1641, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Adepts choose their spells from the following list.</p>", 
             "name": "Adept Spells", 
             "source": "Core Rulebook", 
             "url": "pfsrd://Core Rulebook/Classes/Adept/Adept Spells", 
-            "section_id": 1645, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "adept"
         }
     ], 
+    "subtype": "npc", 
+    "hit_die": "d6", 
+    "type": "class", 
     "alignment": "Any."
 }

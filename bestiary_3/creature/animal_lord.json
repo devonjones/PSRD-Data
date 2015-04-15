@@ -13,7 +13,7 @@
     "languages": "Common, Sylvan; speak with animals (cats only)", 
     "strength": "20", 
     "constitution": "22", 
-    "treasure": "NPC gear (+1 leather armor, +1 keen composite longbow [+5 Str] with 20 arrows, amulet of natural armor +1, ring of protection +1, other treasure)", 
+    "treasure": "NPC gear (+1 leather armor, +1 seeking composite longbow [+5 Str] with 20 arrows, amulet of natural armor +1, ring of protection +1, other treasure)", 
     "init": "+7", 
     "environment": "warm jungles", 
     "source": "Bestiary 3", 
@@ -35,24 +35,21 @@
         {
             "body": "<p>When the gods of nature or powerful spirits desire a champion to defend the animal world, they invest a token of their power in a chosen vessel&mdash;be it animal or humanoid. Traditionally, only one animal lord for a specific animal species is active on a world at any one time, although sometimes, when an extant animal lord strays from its charge or otherwise fails, the force that created it might create a replacement to send against the fallen animal lord to challenge it in a combat to the death, with the victor claiming the right to rule or a chance at redemption.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 58
+            "type": "section"
         }, 
         {
             "body": "<p>An animal lord does not dwell among humanity&mdash;the wild is its domain. How an animal lord interacts with a humanoid society largely depends on how that society treats the animals of that lord's affinity. Societies that honor and respect those animals, even if they use the animals as a food source, earn the animal lord's (sometimes grudging) respect, but those who abuse or otherwise harm animals of that lord's species find a powerful and ardent enemy in the lord.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 59
+            "type": "section"
         }, 
         {
             "body": "<p>The cat lord above uses a leopard as the base animal&mdash;this particular cat lord represents a newly created animal lord. The longer an animal lord exists, the higher its level should be. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 60
+            "type": "section"
         }, 
         {
-            "name": "Creating an Animal Lord", 
             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>&ldquo;Animal Lord&rdquo; is an inherited template that can be added to any humanoid of 10 Hit Dice or more, referred to hereafter as the base creature. The animal lord also gains the characteristics of one type of animal (of a size no larger than one step larger than the base creature's size), referred to hereafter as the base animal.</p>", 
@@ -60,7 +57,6 @@
                     "source": "Bestiary 3", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord", 
                     "type": "section", 
-                    "section_id": 62, 
                     "subtype": "template", 
                     "abbrev": "CR +2", 
                     "sections": [
@@ -68,120 +64,104 @@
                             "body": "<p id=\"cr\">Same as the base creature or the base animal (whichever is higher) +2.</p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Challenge Rating", 
-                            "section_id": 63
+                            "name": "Challenge Rating"
                         }, 
                         {
                             "body": "<p id=\"alignment\">Any neutral.</p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Alignment", 
-                            "section_id": 64
+                            "name": "Alignment"
                         }, 
                         {
                             "body": "<p id=\"type\">The base creature's type changes to outsider (native, shapechanger). Do not recalculate class Hit Dice, BAB, or saves.</p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Type", 
-                            "section_id": 65
+                            "name": "Type"
                         }, 
                         {
                             "body": "<p id=\"senses\">An animal lord gains the senses of both the base creature and the base animal in both of its forms.</p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Senses", 
-                            "section_id": 66
+                            "name": "Senses"
                         }, 
                         {
                             "body": "<p id=\"ac\">An animal lord gains the base animal or base creature's natural armor bonus, whichever is higher, in both of its forms&mdash;this bonus is increased by +2 to determine the animal lord's actual natural armor bonus.</p>", 
-                            "name": "AC", 
                             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord/AC", 
-                            "section_id": 67, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "AC", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p id=\"defensive-abilities\">An animal lord gains DR 10/silver. It also gains all of the base animal's defensive abilities in both of its forms.</p>", 
                             "source": "Bestiary 3", 
                             "type": "section", 
-                            "name": "Defensive Abilities", 
-                            "section_id": 68
+                            "name": "Defensive Abilities"
                         }, 
                         {
                             "body": "<p id=\"speed\">An animal lord's base speed is that of its base creature form or its base animal form, whichever is greater. Animal lords whose base animal has a burrow, climb, fly, or swim speed can use that mode of movement even in humanoid form, instantly growing the necessary appendages as necessary. </p>", 
-                            "name": "Speed", 
                             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord/Speed", 
-                            "section_id": 69, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Speed", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p id=\"melee\">An animal lord in humanoid form can instantaneously transform parts of its body to make all of the natural attacks possessed by the base animal. An animal lord typically prefers to use its natural attacks in melee combat, but often carries manufactured ranged weapons to diversify its combat options as well.</p>", 
-                            "name": "Melee", 
                             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord/Melee", 
-                            "section_id": 70, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Melee", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p id=\"special-attacks\">An animal lord gains all of the special attacks possessed by the base animal and can employ them in both humanoid and animal form. It also gains abilities determined by its species affinity (see below).</p>", 
-                            "name": "Special Attacks", 
                             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord/Special Attacks", 
-                            "section_id": 71, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Special Attacks", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p id=\"ability-scores\">Animal lords use the higher ability score between the base creature and the base animal as their base ability scores, then increase all of these ability scores by +4. </p>", 
-                            "name": "Ability Scores", 
                             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord/Ability Scores", 
-                            "section_id": 72, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Ability Scores", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p id=\"skills\">An animal lord gains all of the base animal's racial modifiers to skill checks.</p>", 
-                            "name": "Skills", 
                             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord/Skills", 
-                            "section_id": 73, 
-                            "source": "Bestiary 3", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Skills", 
+                            "source": "Bestiary 3"
                         }, 
                         {
                             "body": "<p id=\"special-qualities\">An animal lord gains the following special qualities.</p><p id=\"change-shape\"><i>Change Shape</i> An animal lord has two forms&mdash;a humanoid and an animal form. When an animal lord in humanoid form uses the base animal's defensive abilities, movement types, attacks, and other features, the animal lord's body instantaneously changes as appropriate to allow the use of that ability, growing wings or claws or fangs as necessary. The animal lord can use this ability to take the shape of the base animal (as <i>shapechange</i>) as a move action. </p><p id=\"dominion\"><i>Dominion (Su)</i>In both forms, an animal lord is treated as if constantly under the effects of a <i>speak with animals</i> spell, but this only applies to creatures of the animal lord's species affinity (see below). In addition, an animal lord can cast <i>charm animal</i> on any animal of its affinity as a spell-like ability at will (CL equals the animal lord's HD). </p>", 
                             "name": "Special Qualities", 
                             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Creating an Animal Lord/Animal Lord/Special Qualities", 
                             "ability_types": {
-                                "ability_type_id": 19, 
-                                "section_id": 74, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 74, 
                             "source": "Bestiary 3", 
                             "type": "ability"
                         }
                     ]
                 }
             ], 
-            "section_id": 61, 
-            "source": "Bestiary 3", 
-            "type": "section"
+            "name": "Creating an Animal Lord", 
+            "source": "Bestiary 3"
         }, 
         {
             "body": "<p>Animal lords can be made from almost any creature of the animal type, but most are grouped into larger categories known as species affinities. The most common animal lord kingdom affinities are detailed below, but many others exist. Animals listed in parenthesis list typical base animals for that lord.</p>", 
             "name": "Species Affinity", 
             "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity", 
+            "type": "section", 
+            "source": "Bestiary 3", 
             "sections": [
                 {
                     "body": "<p id=\"bear-lord-(grizzly-bear)\">Bear lords have broad shoulders, sharp teeth, and thick fingers. Bear lords gain the following additional ability.</p><p id=\"bear-hug\"><i>Bear Hug</i> A bear lord deals +1d6 extra points of damage when it makes a grapple check to damage a creature. </p>", 
                     "name": "Bear Lord (Grizzly Bear)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Bear Lord (Grizzly Bear)", 
                     "ability_types": {
-                        "ability_type_id": 20, 
-                        "section_id": 76, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 76, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -190,11 +170,8 @@
                     "name": "Canine Lord (Dog, Hyena, Wolf)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Canine Lord (Dog/Hyena/Wolf)", 
                     "ability_types": {
-                        "ability_type_id": 21, 
-                        "section_id": 77, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 77, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -203,11 +180,8 @@
                     "name": "Cat Lord (Leopard, Lion, Tiger)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Cat Lord (Leopard/Lion/Tiger)", 
                     "ability_types": {
-                        "ability_type_id": 22, 
-                        "section_id": 78, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 78, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -216,11 +190,8 @@
                     "name": "Crocodile Lord (Crocodile)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Crocodile Lord (Crocodile)", 
                     "ability_types": {
-                        "ability_type_id": 23, 
-                        "section_id": 79, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 79, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -229,11 +200,8 @@
                     "name": "Dinosaur Lord (Deinonychus, Tyrannosaurus)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Dinosaur Lord (Deinonychus/Tyrannosaurus)", 
                     "ability_types": {
-                        "ability_type_id": 24, 
-                        "section_id": 80, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 80, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -242,11 +210,8 @@
                     "name": "Raptor Lord (Eagle, Falcon)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Raptor Lord (Eagle/Falcon)", 
                     "ability_types": {
-                        "ability_type_id": 25, 
-                        "section_id": 81, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 81, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -255,11 +220,8 @@
                     "name": "Rat Lord (Giant Rat)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Rat Lord (Giant Rat)", 
                     "ability_types": {
-                        "ability_type_id": 26, 
-                        "section_id": 82, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 82, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -268,11 +230,8 @@
                     "name": "Shark Lord (Shark)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Shark Lord (Shark)", 
                     "ability_types": {
-                        "ability_type_id": 27, 
-                        "section_id": 83, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 83, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -281,28 +240,21 @@
                     "name": "Serpent Lord (Snake)", 
                     "url": "pfsrd://Bestiary 3/Monsters/Animal Lord/Species Affinity/Serpent Lord (Snake)", 
                     "ability_types": {
-                        "ability_type_id": 28, 
-                        "section_id": 84, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 84, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 75, 
-            "source": "Bestiary 3", 
-            "type": "section"
+            ]
         }
     ], 
     "hp": "139 (10d10+80)", 
-    "section_id": 57, 
     "wisdom": "18", 
     "defensive_abilities": "evasion", 
     "creature_type": "Outsider", 
     "special_qualities": "change shape (leopard; shapechange), favored terrain (jungle +4, plains +2), hunter's bond (leopard), swift tracker, track +5, wild empathy +12, woodland stride", 
     "dr": "10/silver", 
-    "ranged": "+1 keen composite longbow +18/+13 (1d8+6/&times;3)", 
+    "ranged": "+1 seeking composite longbow +18/+13 (1d8+6/&times;3)", 
     "name": "Animal Lord", 
     "base_attack": "+10", 
     "skills": "Acrobatics +17 (+22 when jumping), Climb +26, Handle Animal +15, Knowledge (nature) +14, Perception +17, Sense Motive +14, Stealth +20 (+24 in undergrowth), Survival +17", 

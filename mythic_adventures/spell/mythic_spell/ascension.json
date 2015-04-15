@@ -8,11 +8,14 @@
     "type": "spell", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 hour", 
-    "level_text": "Cleric: 9; Oracle: 9; Druid: 9; Sorcerer: 9; Wizard: 9; Witch: 9", 
-    "section_id": 14, 
+    "level_text": "Cleric: 9; Oracle: 9; Warpriest: 9; Druid: 9; Sorcerer: 9; Wizard: 9; Arcanist: 9; Witch: 9", 
     "subtype": "mythic_spell", 
     "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 9
+        }, 
         {
             "class": "Cleric", 
             "level": 9
@@ -27,6 +30,10 @@
         }, 
         {
             "class": "Sorcerer", 
+            "level": 9
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 9
         }, 
         {
@@ -64,11 +71,10 @@
     "sections": [
         {
             "body": "<p>If you expend one use of mythic power when casting this spell, the duration increases to 1 day per level, and you can use yourself as the focus for this spell instead of a lesser artifact. If you're the focus, the targets retain their mythic tier only while they're within 100 feet of you, and if you die, the spell immediately ends and all targets gain 1d4 permanent negative levels.</p>", 
-            "name": "Mythic", 
             "url": "pfsrd://Mythic Adventures/Spells/Ascension/Mythic", 
-            "section_id": 15, 
-            "source": "Mythic Adventures", 
-            "type": "section"
+            "type": "section", 
+            "name": "Mythic", 
+            "source": "Mythic Adventures"
         }
     ], 
     "component_text": "V, S, F (minor artifact), M (10,000 gp in rare herbs, gems, and other exotic materials)", 

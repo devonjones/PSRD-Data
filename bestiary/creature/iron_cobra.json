@@ -26,17 +26,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Once per day, an iron cobra's creator can order it to find and kill a specific creature within 1 mile, which it does as if guided by discern location. The creator must have seen or be holding an item from the specified creature for this order to function.", 
                     "name": "Find Target", 
                     "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Special Abilities/Find Target", 
                     "ability_types": {
-                        "ability_type_id": 410, 
-                        "section_id": 1893, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1893, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -44,21 +43,12 @@
                     "body": "An iron cobra's bite injects poison from a hidden reservoir within its body. Because it is a construct, the cobra does not naturally produce this poison, and its creator must refill this reservoir manually. The reservoir holds enough poison for 3 successful bite attacks, after which the creature merely deals bite damage. Refilling the reservoir takes 5 rounds and provokes attacks of opportunity. The creator can fill the reservoir with any injury poison (typically black adder venom), though acid, alchemical substances, and even stranger liquids have been used. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 411, 
-                        "section_id": 1894, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1894, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Black Adder Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Special Abilities/Poison/Black Adder Venom", 
                             "contracted": "injury", 
-                            "section_id": 1895, 
                             "effect": "1d2 Constitution damage", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -66,88 +56,80 @@
                             "save": "Fortitude DC 11", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1892, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The iron cobra is a simple construct that resembles a hooded cobra made out of metal. The iron cobra is typically used as a bodyguard or guardian of treasure, though its magical ability to unerringly locate creatures means it is also used as an assassin. Since an iron cobra's poison reservoir can contain multiple types of venom, the construct's specific use can be further tailored by varying the poison used. Some spellcasters even fill these reservoirs with potions, so that when the cobra bites, it injects the potion into its target. This is a somewhat dangerous method for gaining the effects of a potion, but it does free up the cobra's master to do other things in a combat round apart from quaffing potions.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1896
+            "type": "section"
         }, 
         {
             "body": "<p>Iron is the most common material for these creations, but some crafters prefer more exotic materials when creating the serpentine constructs.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1897
+            "type": "section"
         }, 
         {
-            "name": "Adamantine Cobra (+1 CR)", 
             "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Adamantine Cobra (+1 CR)", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"adamintine-cobra\">This cobra is more solidly built than others. Its natural armor bonus increases to +12, it gains +5 hp per HD, and it gains DR 10/&mdash;.</p>", 
                     "source": "Bestiary", 
-                    "type": "section", 
-                    "section_id": 1899
+                    "type": "section"
                 }
             ], 
-            "section_id": 1898, 
-            "source": "Bestiary", 
-            "type": "section"
+            "name": "Adamantine Cobra (+1 CR)", 
+            "source": "Bestiary"
         }, 
         {
-            "name": "Cold Iron Cobra (+0 CR)", 
             "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Cold Iron Cobra (+0 CR)", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"cold-iron-cobra\">This cobra's natural attacks count as cold iron for the purpose of bypassing damage reduction.</p>", 
                     "source": "Bestiary", 
-                    "type": "section", 
-                    "section_id": 1901
+                    "type": "section"
                 }
             ], 
-            "section_id": 1900, 
-            "source": "Bestiary", 
-            "type": "section"
+            "name": "Cold Iron Cobra (+0 CR)", 
+            "source": "Bestiary"
         }, 
         {
-            "name": "Darkwood Cobra (+0 CR)", 
             "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Darkwood Cobra (+0 CR)", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"darkwood-cobra\">This cobra is more mobile; it gains a swim speed of 30 ft. and a climb speed of 20 ft.</p>", 
                     "source": "Bestiary", 
-                    "type": "section", 
-                    "section_id": 1903
+                    "type": "section"
                 }
             ], 
-            "section_id": 1902, 
-            "source": "Bestiary", 
-            "type": "section"
+            "name": "Darkwood Cobra (+0 CR)", 
+            "source": "Bestiary"
         }, 
         {
-            "name": "Mithral Cobra (+1 CR)", 
             "url": "pfsrd://Bestiary/Monsters/Iron Cobra/Mithral Cobra (+1 CR)", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"mithral-cobra\">This cobra is much swifter. Its Dexterity increases by +4 and its speed to 70 ft., and it can make 2 bite attacks per round as a full attack action.</p>", 
                     "source": "Bestiary", 
-                    "type": "section", 
-                    "section_id": 1905
+                    "type": "section"
                 }
             ], 
-            "section_id": 1904, 
-            "source": "Bestiary", 
-            "type": "section"
+            "name": "Mithral Cobra (+1 CR)", 
+            "source": "Bestiary"
         }, 
         {
             "body": "<p>An iron cobra's body is built from 100 pounds of magically treated materials (typically iron).</p>", 
-            "name": "Construction", 
+            "type": "section", 
             "sections": [
                 {
                     "name": "Iron Cobra", 
@@ -161,18 +143,15 @@
                             "Requirements": "Craft Construct, animate object, discern location, geas/quest"
                         }
                     }, 
-                    "section_id": 1907, 
                     "source": "Bestiary", 
                     "type": "item"
                 }
             ], 
-            "section_id": 1906, 
-            "source": "Bestiary", 
-            "type": "section"
+            "name": "Construction", 
+            "source": "Bestiary"
         }
     ], 
     "hp": "15 (1d10+10)", 
-    "section_id": 1891, 
     "wisdom": "11", 
     "creature_type": "Construct", 
     "special_qualities": "find target", 

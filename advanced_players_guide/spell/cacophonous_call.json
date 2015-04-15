@@ -1,21 +1,24 @@
 {
-    "level_text": "Bard: 2", 
-    "duration": "1 round/level", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, M (a scrap of sheet music)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You fill your target's mind with a blaring cacophony of discordant sounds, making it hard for the target to act and concentrate. The creature gains the nauseated condition for the duration of the spell if it fails its Will save.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Nauseates target.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Cacophonous Call", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 42, 
+    "level_text": "Bard: 2; Skald: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Skald", 
             "level": 2
         }
     ], 
@@ -26,14 +29,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Cacophonous Call", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Cacophonous Call", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -45,5 +40,13 @@
             "text": "a scrap of sheet music", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a scrap of sheet music)", 
+    "name": "Cacophonous Call"
 }

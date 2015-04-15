@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A meladaemon radiates an aura of hunger to a radius of 20 feet. Every round a creature begins its turn within this aura, it must succeed at a DC 22 Fortitude save or take 1d6 nonlethal damage and become fatigued from extreme hunger. Creatures that do not need to eat are immune to this effect. The save DC is Constitution-based.", 
                     "name": "Consumptive Aura", 
                     "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Consumptive Aura", 
                     "ability_types": {
-                        "ability_type_id": 109, 
-                        "section_id": 447, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 447, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -52,21 +51,12 @@
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 110, 
-                        "section_id": 448, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 448, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Daemonic wasting", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Disease/Daemonic wasting", 
                             "contracted": "injury", 
-                            "section_id": 449, 
                             "effect": "1d4 Constitution damage and 1d4 Charisma damage", 
                             "onset": "1 day", 
                             "subtype": "disease", 
@@ -75,42 +65,38 @@
                             "save": "Fortitude DC 22", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A meladaemon's claw attack deals an additional 1d6 points of nonlethal damage as it causes sudden pangs of horrific hunger in its foe. Creatures that do not need to eat are immune to this effect.", 
                     "name": "Hunger", 
                     "url": "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Hunger", 
                     "ability_types": {
-                        "ability_type_id": 111, 
-                        "section_id": 450, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 450, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 446, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>As personifications of death from starvation and thirst, these withered fiends spend their time destroying resources and spreading hunger. Deacons of the Horseman of Famine, these creatures visit worlds throughout the planes, destroying acres of crops and slaughtering livestock in order to harvest souls for their honored master. Meladaemons delight in the slow death of starvation, going so far as to experiment with various bodily deficiencies and mortal weaknesses. Arrogant and utterly bound to their patron, meladaemons rarely work with others of their kind and never serve any of the other three Horsemen except in the rarest of circumstances.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 451
+            "type": "section"
         }, 
         {
             "body": "<p>Meladaemons stand approximately 12 feet tall and weigh 350 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 452
+            "type": "section"
         }
     ], 
     "hp": "147 (14d10+70)", 
     "reach": "10 ft.", 
-    "section_id": 445, 
     "wisdom": "17", 
     "creature_type": "Outsider", 
     "dr": "10/good", 

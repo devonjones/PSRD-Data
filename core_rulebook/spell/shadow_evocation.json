@@ -1,21 +1,28 @@
 {
-    "level_text": "Bard: 5; Sorcerer: 5; Wizard: 5", 
-    "duration": "see text", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "shadow", 
-    "subschool": [
-        "shadow"
-    ], 
-    "type": "spell", 
     "body": "<p>You tap energy from the Plane of Shadow to cast a quasi-real, illusory version of a sorcerer or wizard evocation spell of 4th level or lower. Spells that deal damage have normal effects unless an affected creature succeeds on a Will save. Each disbelieving creature takes only one-fifth damage from the attack. If the disbelieved attack has a special effect other than damage, that effect is one-fifth as strong (if applicable) or only 20% likely to occur. If recognized as a <i>shadow evocation</i>, a damaging spell deals only one-fifth (20%) damage. Regardless of the result of the save to disbelieve, an affected creature is also allowed any save (or spell resistance) that the spell being simulated allows, but the save DC is set according to <i>shadow evocation</i>'s level (5th) rather than the spell's normal level.</p><p>Nondamaging effects have normal effects except against those who disbelieve them. Against disbelievers, they have no effect.</p><p>Objects automatically succeed on their Will saves against this spell.</p>", 
+    "school": "illusion", 
+    "saving_throw": "Will disbelief (if interacted with)", 
     "description": "Mimics evocation below 5th level, but only 20% real.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Shadow Evocation", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 530, 
+    "level_text": "Bard: 5; Skald: 5; Sorcerer: 5; Wizard: 5; Arcanist: 5", 
+    "descriptor": [
+        "shadow"
+    ], 
+    "range": "see text", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 5
+        }, 
+        {
             "class": "Bard", 
+            "level": 5
+        }, 
+        {
+            "class": "Skald", 
             "level": 5
         }, 
         {
@@ -34,14 +41,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "Will disbelief (if interacted with)", 
-    "name": "Shadow Evocation", 
-    "url": "pfsrd://Core Rulebook/Spells/Shadow Evocation", 
-    "descriptor": [
-        "shadow"
-    ], 
-    "range": "see text", 
     "components": [
         {
             "type": "V"
@@ -49,5 +48,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "see text", 
+    "subschool_text": "shadow", 
+    "subschool": [
+        "shadow"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Shadow Evocation"
 }

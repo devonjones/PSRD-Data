@@ -22,10 +22,7 @@
     "fortitude": "+9", 
     "spells": [
         {
-            "mythic": "Mythic spell"
-        }, 
-        {
-            "spells known": "(CL 7th; concentration +12)<p class=\"stat-block-2\">4th (5)-<i>charm monster</i> (DC 19), <i>dimension door</i></p><p class=\"stat-block-2\">3rd (7)-<i>lightning bolt</i><sup>M</sup> (DC 18), <i>suggestion</i><sup>M</sup> (DC 18), <i>vampiric touch</i></p><p class=\"stat-block-2\">2nd (7)-<i>acid arrow</i>, <i>invisibility</i><sup>M</sup>, <i>minor image</i> (DC 17), <i>mirror image</i></p><p class=\"stat-block-2\">1st (8)-<i>charm person</i> (DC 16), <i>mage armor</i>, <i>magic missile</i><sup>M</sup>, <i>shield</i>, <i>silent image</i><sup>M</sup> (DC 16)</p><p class=\"stat-block-2\">0 (at will)-<i>dancing lights</i>, <i>detect magic</i>, <i>ghost sound</i> (DC 15), <i>mage hand</i>, <i>mending</i>, <i>message</i>, <i>prestidigitation</i></p>"
+            "spells known": "(CL 7th; concentration +12)<p class=\"stat-block-2\">4th (5/day)-<i>charm monster</i> (DC 19), <i>dimension door</i></p><p class=\"stat-block-2\">3rd (7/day)-<i>lightning bolt</i><sup>M</sup> (DC 18), <i>suggestion</i><sup>M</sup> (DC 18), <i>vampiric touch</i></p><p class=\"stat-block-2\">2nd (7/day)-<i>acid arrow</i>, <i>invisibility</i><sup>M</sup>, <i>minor image</i> (DC 17), <i>mirror image</i></p><p class=\"stat-block-2\">1st (8/day)-<i>charm person</i> (DC 16), <i>mage armor</i>, <i>magic missile</i><sup>M</sup>, <i>shield</i>, <i>silent image</i><sup>M</sup> (DC 16)</p><p class=\"stat-block-2\">0 (at will)-<i>dancing lights</i>, <i>detect magic</i>, <i>ghost sound</i> (DC 15), <i>mage hand</i>, <i>mending</i>, <i>message</i>, <i>prestidigitation</i></p><p class=\"stat-block-2\"><b>M </b>Mythic spell</p>"
         }
     ], 
     "type": "creature", 
@@ -37,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Mythic Adventures", 
             "url": "pfsrd://Mythic Adventures/Monsters/Rakshasa/Mythic/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A rakshasa can detect thoughts as the spell (CL 18th). It can suppress or resume this ability as a free action. When a rakshasa uses this ability, it always functions as if it had spent 3 rounds concentrating and thus gains the maximum amount of information possible. A creature can resist this effect with a successful DC 20 Will save. The save DC is Charisma-based.", 
                     "name": "Detect Thoughts", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Rakshasa/Mythic/Special Abilities/Detect Thoughts", 
                     "ability_types": {
-                        "ability_type_id": 127, 
-                        "section_id": 1187, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1187, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }, 
@@ -56,11 +52,8 @@
                     "name": "Modify Memory", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Rakshasa/Mythic/Special Abilities/Modify Memory", 
                     "ability_types": {
-                        "ability_type_id": 128, 
-                        "section_id": 1188, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 1188, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }, 
@@ -69,28 +62,20 @@
                     "name": "Telepathic Dodge", 
                     "url": "pfsrd://Mythic Adventures/Monsters/Rakshasa/Mythic/Special Abilities/Telepathic Dodge", 
                     "ability_types": {
-                        "ability_type_id": 129, 
-                        "section_id": 1189, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1189, 
                     "source": "Mythic Adventures", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1186, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A mythic rakshasa is a natural mind reader and uses its abilities to tempt great heroes into failure and ruin&mdash;all toward to ultimate goal of seeding an entire civilization's destruction.</p>", 
             "source": "Mythic Adventures", 
-            "type": "section", 
-            "section_id": 1190
+            "type": "section"
         }
     ], 
     "hp": "165 (10d10+110)", 
-    "section_id": 1185, 
     "wisdom": "13", 
     "defensive_abilities": "telepathic dodge", 
     "creature_type": "Outsider", 

@@ -7,13 +7,16 @@
     "type": "spell", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "level_text": "Alchemist: 4; Cleric: 4; Oracle: 4; Inquisitor: 4; Sorcerer: 4; Wizard: 4; Witch: 4", 
-    "section_id": 103, 
+    "level_text": "Alchemist: 4; Investigator: 4; Cleric: 4; Oracle: 4; Warpriest: 4; Inquisitor: 4; Sorcerer: 4; Wizard: 4; Arcanist: 4; Witch: 4", 
     "source": "Mythic Adventures", 
     "range": "touch", 
     "levels": [
         {
             "class": "Alchemist", 
+            "level": 4
+        }, 
+        {
+            "class": "Arcanist", 
             "level": 4
         }, 
         {
@@ -25,11 +28,19 @@
             "level": 4
         }, 
         {
+            "class": "Investigator", 
+            "level": 4
+        }, 
+        {
             "class": "Oracle", 
             "level": 4
         }, 
         {
             "class": "Sorcerer", 
+            "level": 4
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 4
         }, 
         {
@@ -62,7 +73,6 @@
             "name": "Deathless", 
             "url": "pfsrd://Mythic Adventures/Spells/Deathless/Deathless", 
             "type": "mythic_spell", 
-            "section_id": 104, 
             "source": "Mythic Adventures", 
             "spell_source": "deathless", 
             "sections": [
@@ -70,8 +80,7 @@
                     "body": "<p>If you expend three uses of mythic power, the range increases to 1 mile, and the area to a 1-mile-radius emanation centered on you.</p>", 
                     "source": "Mythic Adventures", 
                     "type": "section", 
-                    "name": "Augmented (8th)", 
-                    "section_id": 105
+                    "name": "Augmented (8th)"
                 }
             ]
         }

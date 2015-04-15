@@ -1,6 +1,6 @@
 {
     "dexterity": "12", 
-    "ac": "14, touch 10, flat-footed 13; (+1 Dex, +4 natural, -1 size)", 
+    "ac": "14, touch 10, flat-footed 13 (+1 Dex, +4 natural, -1 size)", 
     "intelligence": "-", 
     "racial_modifiers": "+8 Perception", 
     "melee": "sting +6 (1d8+6 plus poison)", 
@@ -27,26 +27,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Wasp/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based, and includes a +2 racial bonus. Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Wasp/Giant/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 572, 
-                        "section_id": 2784, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2784, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Giant Wasp Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Wasp/Giant/Special Abilities/Poison/Giant Wasp Venom", 
                             "contracted": "injury", 
-                            "section_id": 2785, 
                             "effect": "1d2 Dexterity damage", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -54,29 +47,28 @@
                             "save": "Fortitude DC 18", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2783, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Giant wasps nearly always form nests, though not like their much smaller cousins. Each nest functions with one leader (the queen), a few workers, and several soldiers. The workers and the queen produce offspring while the soldiers protect the nest and hunt for food. Giant wasp nests are typically found in caves, abandoned houses, or any complex large enough to fit a dozen 10-foot-tall insects.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2786
+            "type": "section"
         }, 
         {
             "body": "<p>Giant wasps attack when hungry or threatened, stinging their prey to death. They take dead or incapacitated opponents back to their lairs as food for their unhatched young&mdash;the experience of lying in a wasp nest, paralyzed while its grubs feed, is one of nature's cruelest inventions. Even when part of a nest, giant wasps tend toward solitary hunting, and it's rare to see more than one at a time.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2787
+            "type": "section"
         }
     ], 
     "hp": "34 (4d8+16)", 
     "reach": "5 ft.", 
-    "section_id": 2782, 
     "wisdom": "13", 
     "creature_type": "Vermin", 
     "name": "Wasp, Giant", 

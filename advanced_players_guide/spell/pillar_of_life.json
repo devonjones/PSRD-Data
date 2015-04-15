@@ -1,18 +1,17 @@
 {
-    "level_text": "Cleric: 5; Oracle: 5", 
-    "duration": "1 round/level", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "healing", 
-    "subschool": [
-        "healing"
-    ], 
-    "type": "spell", 
     "body": "<p>You conjure a pillar of positive energy in a single 5-foot square within range that radiates light as if it were a sunrod. Living creatures adjacent to the pillar can spend a standard action to touch the pillar and heal 2d8 points of damage + 1 point per caster level (maximum +20). Creatures can move into the square containing the pillar, but if an undead creature moves into the pillar it takes 1d6 points of damage per caster level (maximum 10d6). Undead creatures vulnerable to bright light take 1d8 points if damage per caster level (maximum 10d8). A creature cannot benefit or suffer more than once from a single casting of this spell.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "Created pillar heals 2d8 + 1/level (max +20).", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Pillar Of Life", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 185, 
+    "level_text": "Cleric: 5; Oracle: 5; Warpriest: 5", 
+    "descriptor": [
+        "light"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
             "class": "Cleric", 
@@ -20,6 +19,10 @@
         }, 
         {
             "class": "Oracle", 
+            "level": 5
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 5
         }
     ], 
@@ -30,14 +33,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Pillar Of Life", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Pillar Of Life", 
-    "descriptor": [
-        "light"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -48,5 +43,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "healing", 
+    "subschool": [
+        "healing"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Pillar Of Life"
 }

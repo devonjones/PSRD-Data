@@ -1,21 +1,25 @@
 {
-    "level_text": "Bard: 3", 
-    "duration": "1 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>This spell instills powerful hope in the subjects. Each affected creature gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.</p><p><i>Good hope</i> counters and dispels <i>crushing despair</i>.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates (harmless)", 
     "description": "Subjects gain +2 on attack rolls, damage rolls, saves, and checks.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Good Hope", 
     "spell_resistance": "yes (harmless)", 
     "casting_time": "1 standard action", 
-    "section_id": 272, 
+    "level_text": "Bard: 3; Skald: 3", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
             "class": "Bard", 
+            "level": 3
+        }, 
+        {
+            "class": "Skald", 
             "level": 3
         }
     ], 
@@ -26,15 +30,6 @@
             "name": "Targets"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates (harmless)", 
-    "name": "Good Hope", 
-    "url": "pfsrd://Core Rulebook/Spells/Good Hope", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -42,5 +37,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Good Hope"
 }

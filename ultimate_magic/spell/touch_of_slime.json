@@ -1,25 +1,48 @@
 {
-    "level_text": "Alchemist: 4; Druid: 4; Sorcerer: 4; Wizard: 4; Witch: 4", 
-    "duration": "instantaneous", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S, M (a drop of acid and a black glass sphere)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>You create a coating of slime on your hand. When you make a successful melee touch attack with the slime, it pulls free of you and sticks to the target, at which point it acts like green slime, dealing 1d3 points of Constitution damage per round. Anything that destroys green slime (scraping, freezing, burning, cutting, sunlight, or <i>remove disease</i>) destroys this slime. If the slime kills a creature, it consumes the body and then dies. It cannot transfer to a creature other than the original target, and dies if separated from the original target.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "Fortitude negates", 
     "description": "Touch infests a target with green slime.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Touch Of Slime", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 199, 
+    "level_text": "Alchemist: 4; Arcanist: 4; Bloodrager: 4; Druid: 4; Hunter: 4; Hunter: 4; Hunter: 4; Investigator: 4; Sorcerer: 4; Witch: 4; Wizard: 4", 
+    "descriptor": [
+        "disease"
+    ], 
+    "range": "touch", 
     "levels": [
         {
             "class": "Alchemist", 
             "level": 4
         }, 
         {
+            "class": "Arcanist", 
+            "level": 4
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 4
+        }, 
+        {
             "class": "Druid", 
+            "level": 4
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 4
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 4
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 4
+        }, 
+        {
+            "class": "Investigator", 
             "level": 4
         }, 
         {
@@ -42,14 +65,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "Fortitude negates", 
-    "name": "Touch Of Slime", 
-    "url": "pfsrd://Ultimate Magic/Spells/Touch Of Slime", 
-    "descriptor": [
-        "disease"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -61,5 +76,13 @@
             "text": "a drop of acid and a black glass sphere", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "instantaneous", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a drop of acid and a black glass sphere)", 
+    "name": "Touch Of Slime"
 }

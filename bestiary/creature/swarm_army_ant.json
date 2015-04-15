@@ -1,6 +1,6 @@
 {
     "dexterity": "15", 
-    "ac": "20, touch 20, flat-footed 18; (+8 size, +2 Dex)", 
+    "ac": "20, touch 20, flat-footed 18 (+8 size, +2 Dex)", 
     "special_attacks": "cling, consume, distraction (DC 15)", 
     "intelligence": "-", 
     "racial_modifiers": "+4 Perception", 
@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Army Ant Swarm/Swarm/Army Ant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "If a creature leaves an army ant swarm's square, the swarm suffers 1d6 points of damage to reflect the loss of its numbers as several of the crawling pests continue to cling tenaciously to the victim. A creature with army ants clinging to him takes 3d6 points of damage at the end of his turn each round. As a full-round action, he can remove the ants with a DC 17 Reflex save. High wind or any amount of damage from an area effect destroys all clinging ants. The save DC is Dexterity-based.", 
                     "name": "Cling", 
                     "url": "pfsrd://Bestiary/Monsters/Army Ant Swarm/Swarm/Army Ant/Special Abilities/Cling", 
                     "ability_types": {
-                        "ability_type_id": 117, 
-                        "section_id": 560, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 560, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -47,29 +46,21 @@
                     "name": "Consume", 
                     "url": "pfsrd://Bestiary/Monsters/Army Ant Swarm/Swarm/Army Ant/Special Abilities/Consume", 
                     "ability_types": {
-                        "ability_type_id": 118, 
-                        "section_id": 561, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 561, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 559, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The notoriety of the army ant swarm is well earned. Constantly on the march, a hive of army ants is capable of eating anything that gets in the way of its unabating swath of destruction and ruin.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 562
+            "type": "section"
         }
     ], 
     "hp": "49 (11d8)", 
     "reach": "0 ft.", 
-    "section_id": 558, 
     "wisdom": "10", 
     "defensive_abilities": "swarm traits", 
     "creature_type": "Vermin", 

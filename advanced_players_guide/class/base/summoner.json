@@ -5,7 +5,6 @@
     "url": "pfsrd://Advanced Players Guide/Classes/Summoner", 
     "type": "class", 
     "image": "Summoner.png", 
-    "section_id": 1442, 
     "subtype": "base", 
     "hit_die": "d8", 
     "alt": "Balazar", 
@@ -14,102 +13,88 @@
             "body": "<p id=\"role\">Summoners spend much of their time exploring the arcane arts alongside their eidolons. While their power comes from within, they rely heavily on their eidolon companions in dangerous situations. While a summoner and his eidolon function as individuals, their true power lies in what they can accomplish together.</p>", 
             "source": "Advanced Player's Guide", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 1443
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for summoner characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Sumoner</td><td>2d6 &times; 10 gp</td><td>70 gp</td></tr></table>", 
                     "source": "Advanced Player's Guide", 
-                    "type": "table", 
-                    "section_id": 1445
+                    "type": "table"
                 }
             ], 
-            "section_id": 1444, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The summoner's class skills are Craft (Int), Fly (Dex), Handle Animal (Cha), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), Ride (Dex), Spellcraft (Int), and Use Magic Device (Cha). </p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">2 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-2-7:-summoner\"><caption>Table:  Summoner</caption><thead><tr id=\"level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th\"><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"6\">Spells per Day</th></tr><tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Cantrips, eidolon, life link,<i>summon monster I</i></td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\">Bond senses</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+1</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\"><i>Summon monster II</i></td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Shield ally</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\"><i>Summon monster III</i></td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Maker's call</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\"><i>Summon monster IV</i></td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+2</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\">Transposition</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+3</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\"><i>Summon monster V</i></td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Aspect</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\"><i>Summon monster VI</i></td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Greater shield ally</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\"><i>Summon monster VII</i></td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+4</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\">Life bond</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+5</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\"><i>Summon monster VIII</i></td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Merge forms</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\"><i>Summon monster IX</i></td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Greater aspect</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\"><i>Gate</i></td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">Twin eidolon</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr></table>", 
-                            "name": "Table: Summoner", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Skills/Skill Ranks per Level/Table Summoner", 
-                            "section_id": 1448, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Summoner", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<table id=\"table-2-8:-summoner-spells-known\"><caption>Table:  Summoner Spells Known</caption><thead><tr id=\"level-0-1st-2nd-3rd-4th-5th-6th\"><th rowspan=\"2\">Level</th><th colspan=\"7\">Spells Known</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>6</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>6</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>6</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>6</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td></tr><tr class=\"odd\"><td>17th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td></tr><tr class=\"even\"><td>18th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td></tr><tr class=\"odd\"><td>19th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td></tr><tr class=\"even\"><td>20th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td></tr></table>", 
-                            "name": "Table: Summoner Spells Known", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Skills/Skill Ranks per Level/Table Summoner Spells Known", 
-                            "section_id": 1449, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Summoner Spells Known", 
+                            "source": "Advanced Player's Guide"
                         }
                     ], 
-                    "section_id": 1447, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Advanced Player's Guide"
                 }
             ], 
-            "section_id": 1446, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The following are the class features of the summoner.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Summoners are proficient with all simple weapons. Summoners are also proficient with light armor. A summoner can cast summoner spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a summoner wearing medium or heavy armor, or using a shield, incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass summoner still incurs the normal arcane spell failure chance for arcane spells received from other classes.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1451
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"spells\">A summoner casts arcane spells drawn from the summoner spell list. He can cast any spell he knows without preparing it ahead of time, assuming he has not yet used up his allotment of spells per day for the spell's level. </p><p>To learn or cast a spell, a summoner must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a summoner's spell is 10 + the spell level + the summoner's Charisma modifier.</p><p>A summoner can cast only a certain number of spells of each spell level each day. His base daily spell allotment is given on Table 2&ndash;7. In addition, he receives bonus spells per day if he has a high Charisma score (see Table 1&ndash;3 of the <i>Pathfinder RPG Core Rulebook</i>).</p><p>A summoner's selection of spells is extremely limited. A summoner begins play knowing four 0-level spells and two 1st-level spells of the summoner's choice. At each new summoner level, he gains one or more new spells as indicated on Table 2&ndash;8. (Unlike spells per day, the number of spells a summoner knows is not affected by his Charisma score. The numbers on Table 2&ndash;8 are fixed.) </p><p>Upon reaching 5th level, and at every third summoner level thereafter (8th, 11th, and so on), a summoner can choose to learn a new spell in place of one he already knows. In effect, the summoner &ldquo;loses&rdquo; the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level summoner spell he can cast. A summoner may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1452
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"cantrips\">A summoner learns a number of cantrips, or 0-level spells, as noted on Table 2&ndash;8 under &ldquo;Spells Known.&rdquo; These spells are cast like any other spell, but they may be cast any number of times per day. Cantrips prepared using other spell slots, due to metamagic feats, for example, consume spell slots as normally.</p>", 
-                    "name": "Cantrips", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Cantrips", 
-                    "section_id": 1453, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cantrips", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"eidolon\">A summoner begins play with the ability to summon to his side a powerful outsider called an eidolon. The eidolon forms a link with the summoner, who, forever after, summons an aspect of the same creature. An eidolon has the same alignment as the summoner that calls it and can speak all of his languages. Eidolons are treated as summoned creatures, except that they are not sent back to their home plane until reduced to a number of negative hit points equal to or greater than their Constitution score. In addition, due to its tie to its summoner, an eidolon can touch and attack creatures warded by <i>protection from evil</i> and similar effects that prevent contact with summoned creatures. </p><p>A summoner can summon his eidolon in a ritual that takes 1 minute to perform. When summoned in this way, the eidolon hit points are unchanged from the last time it was summoned. The only exception to this is if the eidolon was slain, in which case it returns with half its normal hit points. The eidolon does not heal naturally. The eidolon remains until dismissed by the summoner (a standard action). If the eidolon is sent back to its home plane due to death, it cannot be summoned again until the following day. The eidolon cannot be sent back to its home plane by means of <i>dispel magic</i>, but spells such as <i>dismissal</i> and <i>banishment</i> work normally. If the summoner is unconscious, asleep, or killed, his eidolon is immediately banished.</p><p>The eidolon takes a form shaped by the summoner's desires. The eidolon's Hit Dice, saving throws, skills, feats, and abilities are tied to the summoner's class level and increase as the summoner gains levels. In addition, each eidolon receives a pool of evolution points, based on the summoner's class level, that can be used to give the eidolon different abilities and powers. Whenever the summoner gains a level, he must decide how these points are spent, and they are set until he gains another level of summoner.</p><p>The eidolon's physical appearance is up to the summoner, but it always appears as some sort of fantastical creature. This control is not fine enough to make the eidolon appear like a specific creature. The eidolon also bears a glowing rune that is identical to a rune that appears on the summoner's forehead as long as the eidolon is summoned. While this rune can be hidden through mundane means, it cannot be concealed through magic that changes appearance, such as <i>alter self</i> or <i>polymorph</i> (although <i>invisibility</i> does conceal it as long as the spell lasts). </p>", 
-                    "name": "Eidolon", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Eidolon", 
-                    "section_id": 1454, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Eidolon", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"life-link\">Starting at 1st level, a summoner forms a close bond with his eidolon. Whenever the eidolon takes enough damage to send it back to its home plane, the summoner can, as a free action, sacrifice any number of hit points. Each hit point sacrificed in this way prevents 1 point of damage done to the eidolon. This can prevent the eidolon from being sent back to its home plane.</p><p>In addition, the eidolon and the summoner must remain within 100 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 100 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by 50%. If the eidolon is more than 1,000 feet away but closer than 10,000 feet, its current and maximum hit point totals are reduced by 75%. If the eidolon is more than 10,000 feet away, it is immediately returned to its home plane. Current hit points lost in this way are not restored when the eidolon gets closer to its summoner, but its maximum hit point total does return to normal.</p>", 
                     "name": "Life Link", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Life Link", 
                     "ability_types": {
-                        "ability_type_id": 266, 
-                        "section_id": 1455, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1455, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -118,11 +103,8 @@
                     "name": "Summon Monster I", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Summon Monster I", 
                     "ability_types": {
-                        "ability_type_id": 267, 
-                        "section_id": 1456, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 1456, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -131,11 +113,8 @@
                     "name": "Bond Senses", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Bond Senses", 
                     "ability_types": {
-                        "ability_type_id": 268, 
-                        "section_id": 1457, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1457, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -144,11 +123,8 @@
                     "name": "Shield Ally", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Shield Ally", 
                     "ability_types": {
-                        "ability_type_id": 269, 
-                        "section_id": 1458, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1458, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -157,11 +133,8 @@
                     "name": "Maker's Call", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Makers Call", 
                     "ability_types": {
-                        "ability_type_id": 270, 
-                        "section_id": 1459, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1459, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -170,11 +143,8 @@
                     "name": "Transposition", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Transposition", 
                     "ability_types": {
-                        "ability_type_id": 271, 
-                        "section_id": 1460, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1460, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -183,11 +153,8 @@
                     "name": "Aspect", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Aspect", 
                     "ability_types": {
-                        "ability_type_id": 272, 
-                        "section_id": 1461, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1461, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -196,11 +163,8 @@
                     "name": "Greater Shield Ally", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Greater Shield Ally", 
                     "ability_types": {
-                        "ability_type_id": 273, 
-                        "section_id": 1462, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1462, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -209,11 +173,8 @@
                     "name": "Life Bond", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Life Bond", 
                     "ability_types": {
-                        "ability_type_id": 274, 
-                        "section_id": 1463, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1463, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -222,11 +183,8 @@
                     "name": "Merge Forms", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Merge Forms", 
                     "ability_types": {
-                        "ability_type_id": 275, 
-                        "section_id": 1464, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1464, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -235,11 +193,8 @@
                     "name": "Greater Aspect", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Greater Aspect", 
                     "ability_types": {
-                        "ability_type_id": 276, 
-                        "section_id": 1465, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1465, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -248,116 +203,101 @@
                     "name": "Twin Eidolon", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Class Features/Twin Eidolon", 
                     "ability_types": {
-                        "ability_type_id": 277, 
-                        "section_id": 1466, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1466, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 1450, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>An eidolon's abilities are determined by the summoner's level and by the choices made using its evolution pool. Table 2&ndash;9: Eidolon Base Statistics determines many of the base statistics of the eidolon. Each eidolon possesses a base form that modifies these base statistics. Eidolons are outsiders for the purpose of determining which spells affect them.</p>", 
             "name": "Eidolons", 
             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "body": "<p id=\"class-level\">This is the character's summoner level.</p>", 
-                    "name": "Class Level", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Class Level", 
-                    "section_id": 1468, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Class Level", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"hd\">This is the total number of 10-sided (d10) Hit Dice the eidolon possesses, each of which gains a Constitution modifier, as normal.</p>", 
-                    "name": "HD", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/HD", 
-                    "section_id": 1469, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "HD", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"bab\">This is the eidolon's base attack bonus. An eidolon's base attack bonus is equal to its Hit Dice. Eidolons do not gain additional attacks using their natural weapons for a high base attack bonus.</p>", 
-                    "name": "BAB", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/BAB", 
-                    "section_id": 1470, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "BAB", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"good/bad-saves\">These are the eidolon's base saving throw bonuses. An eidolon possesses two good saving throws and one bad saving throw, determined by the creature's base form.</p>", 
+                    "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Good_Bad Saves", 
+                    "type": "section", 
                     "name": "Good/Bad Saves", 
-                    "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Good/Bad Saves", 
-                    "section_id": 1471, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"skills\">This lists the eidolon's total skill ranks. An eidolon can assign skill ranks to any skill, but it must possess the appropriate appendages to use some skills. Eidolons with Intelligence scores above the base value modify these totals as normal (an eidolon receives a number of skill ranks equal to 6 + its Intelligence modifier per HD). An eidolon cannot have more ranks in a skill than it has Hit Dice. Eidolon skill ranks are set once chosen, even if the creature changes when the summoner gains a new level.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Skills", 
-                    "section_id": 1472
+                    "name": "Skills"
                 }, 
                 {
                     "body": "<p id=\"feats\">This is the total number of feats possessed by an eidolon. Eidolons can select any feat that they qualify for, but they must possess the appropriate appendages to use some feats. Eidolon feats are set once chosen, even if the creature changes when the summoner gains a new level. If, due to changes, the eidolon no longer qualifies for a feat, the feat has no effect until the eidolon once again qualifies for the feat.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Feats", 
-                    "section_id": 1473
+                    "name": "Feats"
                 }, 
                 {
                     "body": "<p id=\"armor-bonus\">The number noted here is the eidolon's base total armor bonus. This bonus may be split between an armor bonus and a natural armor bonus, as decided by the summoner. This number is modified by the eidolon's base form and some options available through its evolution pool. An eidolon cannot wear armor of any kind, as the armor interferes with the summoner's connection to the eidolon.</p>", 
-                    "name": "Armor Bonus", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Armor Bonus", 
-                    "section_id": 1474, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Armor Bonus", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"str/dex-bonus\">Add this modifier to the eidolon's Strength and Dexterity scores, as determined by its base form. Some options available through the eidolon's evolution pool might modify these scores.</p>", 
+                    "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Str_Dex Bonus", 
+                    "type": "section", 
                     "name": "Str/Dex Bonus", 
-                    "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Str/Dex Bonus", 
-                    "section_id": 1475, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"evolution-pool\">The value given in this column is the total number of points in the eidolon's evolution pool. Points from this pool can be spent on a wide variety of modifications and upgrades that add new abilities, attacks, and powers to the eidolon. Whenever the summoner gains a level, the number in this pool increases and the summoner can spend these points to change the abilities of the eidolon. These choices are not set. The summoner can change them whenever he gains a level (and through the <i>transmogrify</i> spell).</p>", 
-                    "name": "Evolution Pool", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Evolution Pool", 
-                    "section_id": 1476, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Evolution Pool", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p id=\"max.-attacks\">This indicates the maximum number of natural attacks that the eidolon is allowed to possess at the given level. If the eidolon is at its maximum, it cannot take evolutions that grant additional natural attacks. This does not include attacks made with weapons.</p>", 
-                    "name": "Max. Attacks", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Max. Attacks", 
-                    "section_id": 1477, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Max. Attacks", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "body": "<p>This includes a number of abilities gained by all eidolons as they increase in power. Each of these bonuses is described below.</p>", 
-                    "name": "Special", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<p id=\"darkvision\">The eidolon has darkvision out to a range of 60 feet.</p>", 
                             "name": "Darkvision", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Darkvision", 
                             "ability_types": {
-                                "ability_type_id": 278, 
-                                "section_id": 1479, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1479, 
                             "source": "Advanced Player's Guide", 
                             "type": "ability"
                         }, 
@@ -366,11 +306,8 @@
                             "name": "Link", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Link", 
                             "ability_types": {
-                                "ability_type_id": 279, 
-                                "section_id": 1480, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1480, 
                             "source": "Advanced Player's Guide", 
                             "type": "ability"
                         }, 
@@ -379,11 +316,8 @@
                             "name": "Share Spells", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Share Spells", 
                             "ability_types": {
-                                "ability_type_id": 280, 
-                                "section_id": 1481, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1481, 
                             "source": "Advanced Player's Guide", 
                             "type": "ability"
                         }, 
@@ -392,11 +326,8 @@
                             "name": "Evasion", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Evasion", 
                             "ability_types": {
-                                "ability_type_id": 281, 
-                                "section_id": 1482, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1482, 
                             "source": "Advanced Player's Guide", 
                             "type": "ability"
                         }, 
@@ -405,11 +336,8 @@
                             "name": "Ability Score Increase", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Ability Score Increase", 
                             "ability_types": {
-                                "ability_type_id": 282, 
-                                "section_id": 1483, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1483, 
                             "source": "Advanced Player's Guide", 
                             "type": "ability"
                         }, 
@@ -418,145 +346,127 @@
                             "name": "Devotion", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Devotion", 
                             "ability_types": {
-                                "ability_type_id": 283, 
-                                "section_id": 1484, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1484, 
                             "source": "Advanced Player's Guide", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"multiattack\">An eidolon gains Multiattack as a bonus feat if it has 3 or more natural attacks and does not already have that feat. If it does not have the requisite 3 or more natural attacks (or it is reduced to less than 3 attacks), the eidolon instead gains a second attack with one of its natural weapons, albeit at a &ndash;5 penalty. If the eidolon later gains 3 or more natural attacks, it loses this additional attack and instead gains Multiattack. </p>", 
-                            "name": "Multiattack", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Multiattack", 
-                            "section_id": 1485, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Multiattack", 
+                            "source": "Advanced Player's Guide"
                         }, 
                         {
                             "body": "<p id=\"improved-evasion\">When subjected to an attack that allows a Reflex saving throw for half damage, an eidolon takes no damage if it makes a successful saving throw and only half damage if the saving throw fails.</p>", 
                             "name": "Improved Evasion", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Improved Evasion", 
-                            "type": "ability", 
-                            "ability_types": {
-                                "ability_type_id": 284, 
-                                "section_id": 1486, 
-                                "ability_type": "Extraordinary"
-                            }, 
-                            "section_id": 1486, 
-                            "source": "Advanced Player's Guide", 
                             "sections": [
                                 {
                                     "body": "<table id=\"table-2-9:-eidolon-base-statistics\"><caption>Table:  Eidolon Base Statistics</caption><thead><tr><th>Class Level</th><th>HD</th><th>BAB</th><th>Good Saves</th><th>Bad Save</th><th>Skills</th><th>Feats</th><th>Armor Bonus</th><th>Str/Dex Bonus</th><th>Evolution Pool</th><th>Max. Attacks</th><th>Special</th></tr></thead><tbody><tr class=\"odd\"><td>1st</td><td>1</td><td>+1</td><td>+2</td><td>+0</td><td>4</td><td>1</td><td>+0</td><td>+0</td><td>3</td><td>3</td><td>Darkvision, link, share spells</td></tr><tr class=\"even\"><td>2nd</td><td>2</td><td>+2</td><td>+3</td><td>+0</td><td>8</td><td>1</td><td>+2</td><td>+1</td><td>4</td><td>3</td><td>Evasion</td></tr><tr class=\"odd\"><td>3rd</td><td>3</td><td>+3</td><td>+3</td><td>+1</td><td>12</td><td>2</td><td>+2</td><td>+1</td><td>5</td><td>3</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>3</td><td>+3</td><td>+3</td><td>+1</td><td>12</td><td>2</td><td>+2</td><td>+1</td><td>7</td><td>4</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>4</td><td>+4</td><td>+4</td><td>+1</td><td>16</td><td>2</td><td>+4</td><td>+2</td><td>8</td><td>4</td><td>Ability score increase</td></tr><tr class=\"even\"><td>6th</td><td>5</td><td>+5</td><td>+4</td><td>+1</td><td>20</td><td>3</td><td>+4</td><td>+2</td><td>9</td><td>4</td><td>Devotion</td></tr><tr class=\"odd\"><td>7th</td><td>6</td><td>+6</td><td>+5</td><td>+2</td><td>24</td><td>3</td><td>+6</td><td>+3</td><td>10</td><td>4</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>6</td><td>+6</td><td>+5</td><td>+2</td><td>24</td><td>3</td><td>+6</td><td>+3</td><td>11</td><td>4</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>7</td><td>+7</td><td>+5</td><td>+2</td><td>28</td><td>4</td><td>+6</td><td>+3</td><td>13</td><td>5</td><td>Multiattack</td></tr><tr class=\"even\"><td>10th</td><td>8</td><td>+8</td><td>+6</td><td>+2</td><td>32</td><td>4</td><td>+8</td><td>+4</td><td>14</td><td>5</td><td>Ability score increase</td></tr><tr class=\"odd\"><td>11th</td><td>9</td><td>+9</td><td>+6</td><td>+3</td><td>36</td><td>5</td><td>+8</td><td>+4</td><td>15</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>9</td><td>+9</td><td>+6</td><td>+3</td><td>36</td><td>5</td><td>+10</td><td>+5</td><td>16</td><td>5</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>10</td><td>+10</td><td>+7</td><td>+3</td><td>40</td><td>5</td><td>+10</td><td>+5</td><td>17</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>11</td><td>+11</td><td>+7</td><td>+3</td><td>44</td><td>6</td><td>+10</td><td>+5</td><td>19</td><td>6</td><td>Improved evasion</td></tr><tr class=\"odd\"><td>15th</td><td>12</td><td>+12</td><td>+8</td><td>+4</td><td>48</td><td>6</td><td>+12</td><td>+6</td><td>20</td><td>6</td><td>Ability score increase</td></tr><tr class=\"even\"><td>16th</td><td>12</td><td>+12</td><td>+8</td><td>+4</td><td>48</td><td>6</td><td>+12</td><td>+6</td><td>21</td><td>6</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th</td><td>13</td><td>+13</td><td>+8</td><td>+4</td><td>52</td><td>7</td><td>+14</td><td>+7</td><td>22</td><td>6</td><td>&mdash;</td></tr><tr class=\"even\"><td>18th</td><td>14</td><td>+14</td><td>+9</td><td>+4</td><td>56</td><td>7</td><td>+14</td><td>+7</td><td>23</td><td>6</td><td>&mdash;</td></tr><tr class=\"odd\"><td>19th</td><td>15</td><td>+15</td><td>+9</td><td>+5</td><td>60</td><td>8</td><td>+14</td><td>+7</td><td>25</td><td>7</td><td>&mdash;</td></tr><tr class=\"even\"><td>20th</td><td>15</td><td>+15</td><td>+9</td><td>+5</td><td>60</td><td>8</td><td>+16</td><td>+8</td><td>26</td><td>7</td><td>&mdash;</td></tr></tbody></table>", 
-                                    "name": "Table: Eidolon Base Statistics", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolons/Special/Improved Evasion/Table Eidolon Base Statistics", 
-                                    "section_id": 1487, 
-                                    "source": "Advanced Player's Guide", 
-                                    "type": "table"
+                                    "type": "table", 
+                                    "name": "Table: Eidolon Base Statistics", 
+                                    "source": "Advanced Player's Guide"
                                 }
-                            ]
+                            ], 
+                            "ability_types": {
+                                "ability_type": "Extraordinary"
+                            }, 
+                            "source": "Advanced Player's Guide", 
+                            "type": "ability"
                         }
                     ], 
-                    "section_id": 1478, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Special", 
+                    "source": "Advanced Player's Guide"
                 }
-            ], 
-            "section_id": 1467, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The following skills are class skills for eidolons: Bluff (Cha), Craft (Int), Knowledge (planes) (Int), Perception (Wis), Sense Motive (Wis), and Stealth (Dex). In addition, at 1st level, the summoner can choose 4 additional skills to be class skills for his eidolon. Note that eidolons with a fly speed receive Fly (Dex) as a free class skill, even if they do not gain a fly speed until a later level.</p>", 
             "name": "Eidolon Skills", 
             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "body": "<p>Each eidolon has one of three base forms that determines its starting size, speed, AC, attacks, and ability scores. All natural attacks are made using the eidolon's full base attack bonus unless otherwise noted (such as in the case of secondary attacks). Eidolon attacks add the eidolon's Strength modifier to the damage roll, unless it is its only attack, in which case it adds 1-1/2 times its Strength modifier. These base forms also note any free evolutions that base form possesses. The bonuses from these free evolutions are already factored into the starting statistics.</p><p>Alternatively, any one of these base forms can be used to make a Small eidolon. If the eidolon is Small, it gains a +2 bonus to its Dexterity score. It also takes a &ndash;4 penalty to its Strength and a &ndash;2 penalty to its Constitution. It also gains a +1 size bonus to its AC and attack rolls, a &ndash;1 penalty to its CMB and CMD scores, a +2 bonus on its Fly skill checks, and a +4 bonus on its Stealth skill checks. Reduce the damage of all of its attacks by one step (1d6 becomes 1d4, 1d4 becomes 1d3). If this choice is made, the eidolon can be made Medium whenever the summoner can change the eidolon's evolution pool (which causes it to lose these modifiers for being Small).</p>", 
-                    "name": "Base Forms", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills/Base Forms", 
-                    "section_id": 1489, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Base Forms", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
-                    "name": "Quadruped", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills/Quadruped", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> 40 ft.; <b>AC</b> +2 natural armor; <b>Saves </b>Fort (good), Ref (good), Will (bad); <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11; <b>Free Evolutions</b> bite, limbs (legs) (2).</p>", 
-                            "name": "Starting Statistics", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills/Quadruped/Starting Statistics", 
-                            "section_id": 1491, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Starting Statistics", 
+                            "source": "Advanced Player's Guide"
                         }
                     ], 
-                    "section_id": 1490, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Quadruped", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
-                    "name": "Biped", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills/Biped", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> 30 ft.; <b>AC</b> +2 natural armor; <b>Saves </b>Fort (good), Ref (bad), Will (good); <b>Attack</b> 2 claws (1d4); <b>Ability Scores</b> Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11; <b>Free Evolutions</b> claws, limbs (arms), limbs (legs).</p>", 
-                            "name": "Starting Statistics", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills/Biped/Starting Statistics", 
-                            "section_id": 1493, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Starting Statistics", 
+                            "source": "Advanced Player's Guide"
                         }
                     ], 
-                    "section_id": 1492, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Biped", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
-                    "name": "Serpentine", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills/Serpentine", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> 20 ft., climb 20 ft.; <b>AC</b> +2 natural armor; <b>Saves </b>Fort (bad), Ref (good), Will (good); <b>Attack</b> bite (1d6), tail slap (1d6); <b>Ability Scores</b> Str 12, Dex 16, Con 13, Int 7, Wis 10, Cha 11; <b>Free Evolutions </b>bite, climb, reach (bite), tail, tail slap.</p>", 
-                            "name": "Starting Statistics", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Eidolon Skills/Serpentine/Starting Statistics", 
-                            "section_id": 1495, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Starting Statistics", 
+                            "source": "Advanced Player's Guide"
                         }
                     ], 
-                    "section_id": 1494, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Serpentine", 
+                    "source": "Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Aquatic: Ultimate Magic", 
-                    "section_id": 1496
+                    "name": "Aquatic: Ultimate Magic"
                 }
-            ], 
-            "section_id": 1488, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Eidolon Models: Ultimate Magic", 
-            "section_id": 1497
+            "name": "Eidolon Models: Ultimate Magic"
         }, 
         {
             "body": "<p>Each eidolon receives a number of evolution points that can be spent to give the eidolon new abilities, powers, and other upgrades. These abilities, called evolutions, can be changed whenever the summoner gains a new level, but they are otherwise set. Some evolutions require that the eidolon have a specific base form or the summoner be of a specific level before they can be chosen. A number of evolutions grant the eidolon additional natural attacks. Natural attacks listed as primary are made using the eidolon's full base attack bonus and add the eidolon's Strength modifier on damage rolls. Natural attacks listed as secondary are made using the eidolon's base attack bonus &ndash; 5 and add 1/2 the eidolon's Strength modifier on damage rolls (if positive). If the eidolon only has a single natural attack, the attack is made using its full base attack bonus and it adds 1-1/2 times its Strength modifier on damage rolls made with that attack, regardless of the attack's type.</p><p>Evolutions are grouped by their cost in evolution points. Evolution points cannot be saved. All of the points must be spent whenever the summoner gains a level. Unless otherwise noted, each evolution can only be selected once.</p>", 
             "name": "Evolutions", 
             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "body": "<p>The following evolutions cost 1 point from the eidolon's evolution pool.</p>", 
                     "name": "1-Point Evolutions", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions", 
+                    "type": "section", 
+                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"bite\">An eidolon's maw is full of razor-sharp teeth, giving it a bite attack. This attack is a primary attack. The bite deals 1d6 points of damage (1d8 if Large, 2d6 if Huge). If the eidolon already has a bite attack, this evolution allows it to deal 1-1/2 times its Strength modifier on damage rolls made with its bite.</p>", 
@@ -564,11 +474,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Bite", 
                             "ability_types": {
-                                "ability_type_id": 285, 
-                                "section_id": 1500, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1500, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -578,11 +485,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Claws", 
                             "ability_types": {
-                                "ability_type_id": 286, 
-                                "section_id": 1501, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1501, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -592,11 +496,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Climb", 
                             "ability_types": {
-                                "ability_type_id": 287, 
-                                "section_id": 1502, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1502, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -606,11 +507,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Gills", 
                             "ability_types": {
-                                "ability_type_id": 288, 
-                                "section_id": 1503, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1503, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -620,11 +518,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Improved Damage", 
                             "ability_types": {
-                                "ability_type_id": 289, 
-                                "section_id": 1504, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1504, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -634,11 +529,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Improved Natural Armor", 
                             "ability_types": {
-                                "ability_type_id": 290, 
-                                "section_id": 1505, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1505, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -648,11 +540,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Magic Attacks", 
                             "ability_types": {
-                                "ability_type_id": 291, 
-                                "section_id": 1506, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1506, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -662,11 +551,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Mount", 
                             "ability_types": {
-                                "ability_type_id": 292, 
-                                "section_id": 1507, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1507, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -676,11 +562,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Pincers", 
                             "ability_types": {
-                                "ability_type_id": 293, 
-                                "section_id": 1508, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1508, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -690,11 +573,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Pounce", 
                             "ability_types": {
-                                "ability_type_id": 294, 
-                                "section_id": 1509, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1509, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -704,11 +584,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Pull", 
                             "ability_types": {
-                                "ability_type_id": 295, 
-                                "section_id": 1510, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1510, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -718,11 +595,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Push", 
                             "ability_types": {
-                                "ability_type_id": 296, 
-                                "section_id": 1511, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1511, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -732,11 +606,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Reach", 
                             "ability_types": {
-                                "ability_type_id": 297, 
-                                "section_id": 1512, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1512, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -746,11 +617,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Resistance", 
                             "ability_types": {
-                                "ability_type_id": 298, 
-                                "section_id": 1513, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1513, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -760,11 +628,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Scent", 
                             "ability_types": {
-                                "ability_type_id": 299, 
-                                "section_id": 1514, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1514, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -774,11 +639,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Skilled", 
                             "ability_types": {
-                                "ability_type_id": 300, 
-                                "section_id": 1515, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1515, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -788,11 +650,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Slam", 
                             "ability_types": {
-                                "ability_type_id": 301, 
-                                "section_id": 1516, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1516, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -802,11 +661,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Sting", 
                             "ability_types": {
-                                "ability_type_id": 302, 
-                                "section_id": 1517, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1517, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -816,11 +672,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Swim", 
                             "ability_types": {
-                                "ability_type_id": 303, 
-                                "section_id": 1518, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1518, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -830,11 +683,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Tail", 
                             "ability_types": {
-                                "ability_type_id": 304, 
-                                "section_id": 1519, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1519, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -844,11 +694,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Tail Slap", 
                             "ability_types": {
-                                "ability_type_id": 305, 
-                                "section_id": 1520, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1520, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -858,11 +705,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Tentacle", 
                             "ability_types": {
-                                "ability_type_id": 306, 
-                                "section_id": 1521, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1521, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }, 
@@ -872,23 +716,19 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/1-Point Evolutions/Wing Buffet", 
                             "ability_types": {
-                                "ability_type_id": 307, 
-                                "section_id": 1522, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1522, 
                             "subtype": "summoner_evolution_1", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1499, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>The following evolutions cost 2 points from the eidolon's evolution pool.</p>", 
                     "name": "2-Point Evolutions", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions", 
+                    "type": "section", 
+                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"ability-increase\">An eidolon grows larger muscles, gains faster reflexes, achieves greater intelligence, or acquires another increase to one of its abilities. Increase one of the eidolon's ability scores by +2. This evolution can be selected more than once. It can only be applied once to an individual ability score, plus 1 additional time for every 6 levels the summoner possesses.</p>", 
@@ -896,11 +736,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Ability Increase", 
                             "ability_types": {
-                                "ability_type_id": 308, 
-                                "section_id": 1524, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1524, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -910,11 +747,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Constrict", 
                             "ability_types": {
-                                "ability_type_id": 309, 
-                                "section_id": 1525, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1525, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -924,11 +758,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Energy Attacks", 
                             "ability_types": {
-                                "ability_type_id": 310, 
-                                "section_id": 1526, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1526, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -938,11 +769,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Flight", 
                             "ability_types": {
-                                "ability_type_id": 312, 
-                                "section_id": 1527, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1527, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -952,11 +780,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Gore", 
                             "ability_types": {
-                                "ability_type_id": 313, 
-                                "section_id": 1528, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1528, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -966,11 +791,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Grab", 
                             "ability_types": {
-                                "ability_type_id": 314, 
-                                "section_id": 1529, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1529, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -980,11 +802,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Immunity", 
                             "ability_types": {
-                                "ability_type_id": 315, 
-                                "section_id": 1530, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1530, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -994,11 +813,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Limbs", 
                             "ability_types": {
-                                "ability_type_id": 316, 
-                                "section_id": 1531, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1531, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -1008,11 +824,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Poison", 
                             "ability_types": {
-                                "ability_type_id": 317, 
-                                "section_id": 1532, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1532, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -1022,11 +835,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Rake", 
                             "ability_types": {
-                                "ability_type_id": 318, 
-                                "section_id": 1533, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1533, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -1036,11 +846,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Rend", 
                             "ability_types": {
-                                "ability_type_id": 319, 
-                                "section_id": 1534, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1534, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -1050,11 +857,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Trample", 
                             "ability_types": {
-                                "ability_type_id": 320, 
-                                "section_id": 1535, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1535, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -1064,11 +868,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Tremorsense", 
                             "ability_types": {
-                                "ability_type_id": 321, 
-                                "section_id": 1536, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1536, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -1078,11 +879,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Trip", 
                             "ability_types": {
-                                "ability_type_id": 322, 
-                                "section_id": 1537, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1537, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }, 
@@ -1092,23 +890,19 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/2-Point Evolutions/Weapon Training", 
                             "ability_types": {
-                                "ability_type_id": 323, 
-                                "section_id": 1538, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1538, 
                             "subtype": "summoner_evolution_2", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1523, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>The following evolutions cost 3 points from the eidolon's evolution pool.</p>", 
                     "name": "3-Point Evolutions", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/3-Point Evolutions", 
+                    "type": "section", 
+                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"blindsense\">An eidolon's senses become incredibly acute, giving it blindsense out to a range of 30 feet. This ability allows the eidolon to pinpoint the location of creatures that it cannot see without having to make a Perception check, but such creatures still have total concealment from the eidolon. Visibility still affects the eidolon's movement and it is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see. The summoner must be at least 9th level before selecting this evolution.</p>", 
@@ -1116,11 +910,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/3-Point Evolutions/Blindsense", 
                             "ability_types": {
-                                "ability_type_id": 324, 
-                                "section_id": 1540, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1540, 
                             "subtype": "summoner_evolution_3", 
                             "type": "ability"
                         }, 
@@ -1130,11 +921,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/3-Point Evolutions/Burrow", 
                             "ability_types": {
-                                "ability_type_id": 325, 
-                                "section_id": 1541, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1541, 
                             "subtype": "summoner_evolution_3", 
                             "type": "ability"
                         }, 
@@ -1144,11 +932,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/3-Point Evolutions/Damage Reduction", 
                             "ability_types": {
-                                "ability_type_id": 326, 
-                                "section_id": 1542, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1542, 
                             "subtype": "summoner_evolution_3", 
                             "type": "ability"
                         }, 
@@ -1158,11 +943,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/3-Point Evolutions/Frightful Presence", 
                             "ability_types": {
-                                "ability_type_id": 327, 
-                                "section_id": 1543, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1543, 
                             "subtype": "summoner_evolution_3", 
                             "type": "ability"
                         }, 
@@ -1172,11 +954,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/3-Point Evolutions/Swallow Whole", 
                             "ability_types": {
-                                "ability_type_id": 328, 
-                                "section_id": 1544, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1544, 
                             "subtype": "summoner_evolution_3", 
                             "type": "ability"
                         }, 
@@ -1186,23 +965,19 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/3-Point Evolutions/Web", 
                             "ability_types": {
-                                "ability_type_id": 329, 
-                                "section_id": 1545, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1545, 
                             "subtype": "summoner_evolution_3", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1539, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>The following evolutions cost 4 points from the eidolon's evolution pool.</p>", 
                     "name": "4-Point Evolutions", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/4-Point Evolutions", 
+                    "type": "section", 
+                    "source": "Advanced Player's Guide", 
                     "sections": [
                         {
                             "body": "<p id=\"blindsight\">An eidolon's senses sharpen even further, granting it blindsight out to a range of 30 feet. The eidolon can maneuver and attack as normal, ignoring darkness, invisibility, and most forms of concealment as long as it has line of effect to the target. The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level before selecting this evolution.</p>", 
@@ -1210,11 +985,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/4-Point Evolutions/Blindsight", 
                             "ability_types": {
-                                "ability_type_id": 330, 
-                                "section_id": 1547, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1547, 
                             "subtype": "summoner_evolution_4", 
                             "type": "ability"
                         }, 
@@ -1224,11 +996,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/4-Point Evolutions/Breath Weapon", 
                             "ability_types": {
-                                "ability_type_id": 331, 
-                                "section_id": 1548, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1548, 
                             "subtype": "summoner_evolution_4", 
                             "type": "ability"
                         }, 
@@ -1238,11 +1007,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/4-Point Evolutions/Fast Healing", 
                             "ability_types": {
-                                "ability_type_id": 332, 
-                                "section_id": 1549, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1549, 
                             "subtype": "summoner_evolution_4", 
                             "type": "ability"
                         }, 
@@ -1252,11 +1018,8 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/4-Point Evolutions/Large", 
                             "ability_types": {
-                                "ability_type_id": 333, 
-                                "section_id": 1550, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1550, 
                             "subtype": "summoner_evolution_4", 
                             "type": "ability"
                         }, 
@@ -1266,54 +1029,41 @@
                             "source": "Advanced Player's Guide", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Evolutions/4-Point Evolutions/Spell Resistance", 
                             "ability_types": {
-                                "ability_type_id": 334, 
-                                "section_id": 1551, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1551, 
                             "subtype": "summoner_evolution_4", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1546, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    ]
                 }
-            ], 
-            "section_id": 1498, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Evolutions: Ultimate Magic", 
-            "section_id": 1552
+            "name": "Evolutions: Ultimate Magic"
         }, 
         {
             "body": "<p>Summoners gain access to the following spells. While most of these spells are found in the <i>Core Rulebook</i>, all spells marked with an asterisk (*) appear in Chapter 5 of this book.</p>", 
             "name": "Summoner Spells", 
             "source": "Advanced Player's Guide", 
             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Summoner Spells", 
-            "section_id": 1553, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "summoner"
         }, 
         {
-            "name": "Summoner Archetypes", 
             "url": "pfsrd://Advanced Players Guide/Classes/Summoner/Summoner Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Summoner Archetypes: Ultimate Magic", 
-                    "section_id": 1555
+                    "name": "Summoner Archetypes: Ultimate Magic"
                 }
             ], 
-            "section_id": 1554, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Summoner Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

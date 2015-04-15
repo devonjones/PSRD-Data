@@ -1,25 +1,36 @@
 {
-    "level_text": "Adept: 1; Bard: 1; Sorcerer: 1; Witch: 1; Wizard: 1", 
-    "duration": "1 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M (fine sand, rose petals, or a live cricket)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>A <i>sleep</i> spell causes a magical slumber to come upon 4 HD of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell's point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Sleeping creatures are helpless. Slapping or wounding awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action). <i>Sleep</i> does not target unconscious creatures, constructs, or undead creatures.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Puts 4 HD of creatures into magical slumber.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Sleep", 
     "spell_resistance": "yes", 
     "casting_time": "1 round", 
-    "section_id": 549, 
+    "level_text": "Adept: 1; Arcanist: 1; Bard: 1; Shaman: 1; Skald: 1; Sorcerer: 1; Witch: 1; Wizard: 1", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
             "class": "Adept", 
             "level": 1
         }, 
         {
+            "class": "Arcanist", 
+            "level": 1
+        }, 
+        {
             "class": "Bard", 
+            "level": 1
+        }, 
+        {
+            "class": "Shaman", 
+            "level": 1
+        }, 
+        {
+            "class": "Skald", 
             "level": 1
         }, 
         {
@@ -42,14 +53,6 @@
             "name": "Area"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Sleep", 
-    "url": "pfsrd://Core Rulebook/Spells/Sleep", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -61,5 +64,13 @@
             "text": "fine sand, rose petals, or a live cricket", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (fine sand, rose petals, or a live cricket)", 
+    "name": "Sleep"
 }

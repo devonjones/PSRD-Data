@@ -33,17 +33,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Naga/Dark/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A dark naga can continuously use detect thoughts as per the spell (caster level 9th; Will DC 18 negates). The save DC is Charisma-based.", 
                     "name": "Detect Thoughts", 
                     "url": "pfsrd://Bestiary/Monsters/Naga/Dark/Special Abilities/Detect Thoughts", 
                     "ability_types": {
-                        "ability_type_id": 471, 
-                        "section_id": 2212, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2212, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -52,11 +51,8 @@
                     "name": "Guarded Thoughts", 
                     "url": "pfsrd://Bestiary/Monsters/Naga/Dark/Special Abilities/Guarded Thoughts", 
                     "ability_types": {
-                        "ability_type_id": 472, 
-                        "section_id": 2213, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2213, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -64,21 +60,12 @@
                     "body": "Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Naga/Dark/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 473, 
-                        "section_id": 2214, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2214, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Dark Naga Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Naga/Dark/Special Abilities/Poison/Dark Naga Venom", 
                             "contracted": "injury", 
-                            "section_id": 2215, 
                             "effect": "sleep for 2d4 minutes", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -86,42 +73,39 @@
                             "save": "Fortitude DC 19", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Dark nagas cast spells as 7th-level sorcerers.", 
                     "source": "Bestiary", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 2216
+                    "name": "Spells"
                 }
-            ], 
-            "section_id": 2211, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Dark nagas covet luxury, wealth, and power over others. With bodies covered by shimmering, eel-like black scales, dark nagas slither deftly through forsaken lands and abandoned ruins, scouring such places for treasures and weaker creatures they might force into service. Their forked tongues spread only lies, and others whom they can't manipulate they destroy with their insidious poison and destructive magical abilities. A typical dark naga measures approximately 12 feet long and weighs upward of 300 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2217
+            "type": "section"
         }, 
         {
             "body": "<p>Arrogant and sybaritic, dark nagas seek to dominate lesser creatures, relishing the fear they inspire and power over other beings. While some manage to carve indulgent fiefdoms from tribes of goblins, orcs, lizardfolk, or other barbarous races, the luster of cosmopolitan fineries proves enticing as well, leading some to infiltrate city sewers and slums to gather an urban following. They particularly relish morbidly crafted jewelry and treasures, often adorning themselves with jeweled bands or taking their ease atop piles of treasure.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2218
+            "type": "section"
         }, 
         {
             "body": "<p>Dark nagas hate others of their kind, especially other dark nagas, seeing their brethren as deadly opponents to be dispatched swiftly and mercilessly&mdash;often rightly so.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2219
+            "type": "section"
         }
     ], 
     "hp": "85 (10d8+40)", 
     "reach": "5 ft.", 
-    "section_id": 2210, 
     "wisdom": "15", 
     "defensive_abilities": "guarded thoughts", 
     "creature_type": "Aberration", 

@@ -3,7 +3,7 @@
     "ac": "36, touch 9, flat-footed 35 (+9 armor, +1 Dex, +18 natural, -2 size)", 
     "special_attacks": "commanding voice, energy drain (2 levels, DC 28), void trap", 
     "intelligence": "18", 
-    "melee": "mwk greatclub +39/+34/+29/+24 (3d8+25/19-20) or 2 slams +23 (2d6+25)", 
+    "melee": "mwk greatclub +39/+34/+29/+24 (3d8+25/19-20) or 2 slams +38 (2d6+17)", 
     "cr": "20", 
     "xp": "307,200", 
     "speed": "40 ft., fly 40 ft. (good); 60 ft., fly 60 ft. without armor", 
@@ -22,11 +22,11 @@
     "fortitude": "+24", 
     "spells": [
         {
-            "spell-like abilities": "(CL 20th; concentration +27)<p class=\"stat-block-2\">Constant-<i>fire shield</i> (chill shield), <i>fly</i>, <i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>deeper darkness</i>, <i>gaseous form</i> (self only), <i>greater dispel magic</i>, <i>greater teleport</i> (self plus 50 lbs. of objects only), <i>invisibility</i> (self only), <i>minor creation, vision</i></p><p class=\"stat-block-2\">3/day-<i>cone of cold</i> (DC 22), <i>demand</i> (DC 25), <i>dominate person</i> (DC 22), <i>major creation</i>, <i>mass charm monster</i> (DC 25), <i>polar ray, teleport object</i> (DC 24)</p><p class=\"stat-block-2\">1/day-<i>implosion</i> (DC 26), <i>plane shift</i> (DC 24)</p>"
+            "spell-like abilities": "(CL 20th; concentration +27)<p class=\"stat-block-2\">Constant-<i>fire shield</i> (chill shield), <i>fly</i>, <i>true seeing</i></p><p class=\"stat-block-2\">At will-<i>deeper darkness</i>, <i>gaseous form</i> (self only), <i>greater dispel magic</i>, <i>greater teleport</i> (self plus armor, weapon, and 50 lbs. of objects only), <i>invisibility</i> (self only), <i>minor creation, vision</i></p><p class=\"stat-block-2\">3/day-<i>cone of cold</i> (DC 22), <i>demand</i> (DC 25), <i>dominate person</i> (DC 22), <i>major creation</i>, <i>mass charm monster</i> (DC 25), <i>polar ray, teleport object</i> (DC 24)</p><p class=\"stat-block-2\">1/day-<i>implosion</i> (DC 26), <i>plane shift</i> (DC 24)</p>"
         }
     ], 
     "type": "creature", 
-    "feats": "Awesome Blow, Cleave, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (greatclub), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Weapon Finesse", 
+    "feats": "Awesome Blow, Cleave, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (greatclub), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike", 
     "senses": "darkvision 60 ft., low-light vision, true seeing; Perception +29", 
     "description": "This towering, three-eyed horned giant carries himself with the self-assurance of an undefeated champion of countless wars.", 
     "sections": [
@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Oni/Void Yai/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A void oni gains a +4 racial bonus on the save DC of any charm or compulsion effects it uses against humanoids.", 
                     "name": "Commanding Voice", 
                     "url": "pfsrd://Bestiary 3/Monsters/Oni/Void Yai/Special Abilities/Commanding Voice", 
                     "ability_types": {
-                        "ability_type_id": 482, 
-                        "section_id": 1636, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1636, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -53,11 +52,8 @@
                     "name": "Void Form", 
                     "url": "pfsrd://Bestiary 3/Monsters/Oni/Void Yai/Special Abilities/Void Form", 
                     "ability_types": {
-                        "ability_type_id": 483, 
-                        "section_id": 1637, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1637, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -66,11 +62,8 @@
                     "name": "Void Missile", 
                     "url": "pfsrd://Bestiary 3/Monsters/Oni/Void Yai/Special Abilities/Void Missile", 
                     "ability_types": {
-                        "ability_type_id": 484, 
-                        "section_id": 1638, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1638, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -79,48 +72,38 @@
                     "name": "Void Trap", 
                     "url": "pfsrd://Bestiary 3/Monsters/Oni/Void Yai/Special Abilities/Void Trap", 
                     "ability_types": {
-                        "ability_type_id": 485, 
-                        "section_id": 1639, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1639, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1635, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The concept of the void is a difficult one for many individuals to grasp, for it encompasses more than just an absence of anything. The concept of &ldquo;void&rdquo; as an element also represents the heavens above, the dark places between the stars, the nature of the spiritual world, and even the capacity to create and envision new ideas. The void yai represents all of these possibilities, interpreted in a way that exemplifies the evil of the oni race.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1640
+            "type": "section"
         }, 
         {
             "body": "<p>Unlike lesser oni, the void yai does not represent any single humanoid race&mdash;the closest it comes is perhaps the rune giant, and certainly the void yai superficially resembles monsters of legend, with its dark, heavily muscled body, horns, and fangs. A void yai manifests when the combination of an extremely powerful oni spirt and an overwhelmingly evil location intersect at precisely the right time. Rarely, an eldritch transformation spontaneously elevates an existing yai to the vaunted status of void yai&mdash;whispers of vile rituals that an oni can perform to quicken this transformation keep some sages awake at night, for if such rituals existed, then all oni could potentially become void yai&mdash;a sobering thought indeed, given the void yai's daunting capacity for cruelty. As with almost all oni, the void oni's use of weapons and armor seems like cruel overkill. A void oni is 20 feet tall and weighs 10,000 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1641
+            "type": "section"
         }, 
         {
             "body": "<p>Void yai turn toward the Material Plane to satisfy their desires, lording over lesser creatures with the aid of the void. A void yai usually claims a huge territory, bringing much larger creatures to heel as servants. As with fire yai, a void yai makes frequent use of lesser oni as its minions, but prefers to surround itself with whatever giant tribe or society it has conquered. Rarely, a void yai commands kingdoms of smaller humanoids, but since the immense void yai has no ability to assume the shape of such small and insignificant creatures, it often feels awkward and out of place. More so than other yai, void yai are ashamed of their true appearance&mdash;their vanity is such that most are masters of using their change shape ability to appear as breathtakingly handsome or beautiful giants, and it is in this form they prefer to live. Only when combat begins does their rage take control, causing them to revert to their true, horrific shapes.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1642
+            "type": "section"
         }
     ], 
     "hp": "379 (23d10+253); regeneration 15 (fire or good spells)", 
     "reach": "15 ft.", 
-    "section_id": 1634, 
     "wisdom": "23", 
     "creature_type": "Outsider", 
     "special_qualities": "change shape (Large, Huge, or Gargantuan humanoid; giant form II), void form", 
     "ranged": "void missile +23 touch (6d6 plus energy drain)", 
     "name": "Oni, Void Yai", 
     "base_attack": "+23", 
-    "skills": "Acrobatics +17 (+25 when jumping), Bluff +30, Fly +20, Intimidate +30, Knowledge (arcana) +27, Knowledge (history) +24, Knowledge (nobility) +14, Knowledge (planes) +27, Perception +29, Sense Motive +29, Spellcraft +24, Use Magic Device +30", 
+    "skills": "Acrobatics +17 (+25 when jumping), Bluff +30, Fly +20, Intimidate +30, Knowledge (arcana) +27, Knowledge (history) +24, Knowledge (nobility) +24, Knowledge (planes) +27, Perception +29, Sense Motive +29, Spellcraft +24, Use Magic Device +30", 
     "reflex": "+9", 
     "cmd": "54", 
     "cmb": "+42", 

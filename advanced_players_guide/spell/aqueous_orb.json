@@ -1,25 +1,44 @@
 {
-    "level_text": "Druid: 3; Elementalist Wizard: 3; Magus: 3; Sorcerer: 3; Summoner: 3; Wizard: 3", 
-    "duration": "1 round/level", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, M (a drop of water and a glass bead)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>You create a rolling sphere of churning water that can engulf those it strikes. The <i>aqueous orb</i> can move up to 30 feet per round, rolling over barriers less than 10 feet tall. It automatically quenches any nonmagical fires and functions as <i>dispel magic</i> against magical fires as long as those fires are size Large or less.</p><p>Any creature in the path of the <i>aqueous orb</i> takes 2d6 points of nonlethal damage. A successful Reflex save negates this damage, but a large or smaller creature that fails its save must make a second save or be engulfed by the <i>aqueous orb</i> and carried along with it. Engulfed creatures are immersed in water and must hold their breath unless capable of breathing water. They gain cover against attacks from outside the <i>aqueous orb</i> but are considered entangled by its churning currents, takes 2d6 points of nonlethal damage at the beginning of their turn each round they remain trapped. Creatures within the orb may attempt a new Reflex save each round to escape into a random square adjacent to the <i>aqueous orb</i>. The orb may hold one Large creature, 4 Medium, or 16 Small or smaller creatures within it.</p><p>The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and churns in place. An <i>aqueous orb</i> stops if it moves outside the spell's range.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "Reflex negates", 
     "description": "Creates rolling sphere of water.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Aqueous Orb", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 11, 
+    "level_text": "Arcanist: 3; Bloodrager: 3; Druid: 3; Elementalist Wizard: 3; Hunter: 3; Hunter: 3; Hunter: 3; Magus: 3; Sorcerer: 3; Summoner: 3; Wizard: 3", 
+    "descriptor": [
+        "water"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 3
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 3
+        }, 
         {
             "class": "Druid", 
             "level": 3
         }, 
         {
             "class": "Elementalist Wizard", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
             "level": 3
         }, 
         {
@@ -46,14 +65,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "Reflex negates", 
-    "name": "Aqueous Orb", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Aqueous Orb", 
-    "descriptor": [
-        "water"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -65,5 +76,13 @@
             "text": "a drop of water and a glass bead", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a drop of water and a glass bead)", 
+    "name": "Aqueous Orb"
 }

@@ -1,21 +1,33 @@
 {
-    "level_text": "Bard: 3; Sorcerer: 4; Witch: 4; Wizard: 4", 
-    "duration": "1 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>An invisible cone of despair causes great sadness in the subjects. Each affected creature takes a &ndash;2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.</p><p><i>Crushing despair</i> counters and dispels <i>good hope</i>.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Subjects take -2 on attack rolls, damage rolls, saves, and checks.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Crushing Despair", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 121, 
+    "level_text": "Arcanist: 4; Bard: 3; Bloodrager: 4; Skald: 3; Sorcerer: 4; Witch: 4; Wizard: 4", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "30 ft.", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 4
+        }, 
+        {
             "class": "Bard", 
+            "level": 3
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 4
+        }, 
+        {
+            "class": "Skald", 
             "level": 3
         }, 
         {
@@ -38,15 +50,6 @@
             "name": "Area"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Crushing Despair", 
-    "url": "pfsrd://Core Rulebook/Spells/Crushing Despair", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "30 ft.", 
     "components": [
         {
             "type": "V"
@@ -57,5 +60,13 @@
         {
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "1 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M", 
+    "name": "Crushing Despair"
 }

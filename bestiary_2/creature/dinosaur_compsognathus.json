@@ -26,26 +26,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Compsognathus/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Compsognathus/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 156, 
-                        "section_id": 616, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 616, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Compsognathus Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Compsognathus/Special Abilities/Poison/Compsognathus Venom", 
                             "contracted": "injury", 
-                            "section_id": 617, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -53,29 +46,28 @@
                             "save": "Fortitude DC 12", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 615, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The compsognathus is a small dinosaur that moves in swift, darting motions. Its bite injects a venom that causes numbness and weakness, a trait that the animal uses to bring down larger prey. A compsognathus measures 3 feet long and weighs 15 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 618
+            "type": "section"
         }, 
         {
             "body": "<p>These dinosaurs can serve spellcasters as a familiar. A compsognathus familiar grants its master a +4 bonus on Initiative checks.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 619
+            "type": "section"
         }
     ], 
     "hp": "6 (1d8+2)", 
     "reach": "0 ft.", 
-    "section_id": 614, 
     "wisdom": "11", 
     "creature_type": "Animal", 
     "name": "Dinosaur, Compsognathus", 

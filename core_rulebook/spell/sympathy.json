@@ -1,19 +1,23 @@
 {
-    "level_text": "Druid: 9; Sorcerer: 8; Summoner: 6; Witch: 8; Wizard: 8", 
-    "duration": "2 hours/level (D)", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, M (a drop of honey and crushed pearls worth 1,500 gp)", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You cause an object or location to emanate magical vibrations that attract either a specific kind of intelligent creature or creatures of a particular alignment, as defined by you. The particular kind of creature to be affected must be named specifically. A creature subtype is not specific enough. Likewise, the specific alignment must be named.</p><p>Creatures of the specified kind or alignment feel elated and pleased to be in the area or desire to touch or possess the object. The compulsion to stay in the area or touch the object is overpowering. If the save is successful, the creature is released from the enchantment, but a subsequent save must be made 1d6 &times; 10 minutes later. If this save fails, the affected creature attempts to return to the area or object.</p><p><i>Sympathy</i> counters and dispels <i>antipathy</i>.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates; see text", 
     "description": "Object or location attracts certain creatures.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Sympathy", 
     "spell_resistance": "yes", 
     "casting_time": "1 hour", 
-    "section_id": 632, 
+    "level_text": "Arcanist: 8; Druid: 9; Sorcerer: 8; Summoner: 6; Witch: 8; Wizard: 8", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 8
+        }, 
         {
             "class": "Druid", 
             "level": 9
@@ -42,15 +46,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates; see text", 
-    "name": "Sympathy", 
-    "url": "pfsrd://Core Rulebook/Spells/Sympathy", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -62,5 +57,13 @@
             "text": "a drop of honey and crushed pearls worth 1,500 gp", 
             "type": "M"
         }
-    ]
+    ], 
+    "duration": "2 hours/level (D)", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, M (a drop of honey and crushed pearls worth 1,500 gp)", 
+    "name": "Sympathy"
 }

@@ -5,123 +5,110 @@
     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger", 
     "type": "class", 
     "image": "Gunslinger.png", 
-    "section_id": 1092, 
     "subtype": "base", 
     "hit_die": "d10", 
     "alt": "Lirianne", 
     "sections": [
         {
             "body": "<p id=\"role\">Gunslingers are thunderous artillery, often found where the fighting is fiercest. Brave, clever, and frequently foolhardy, many gunslingers push to position themselves at close range, barrels blazing, to take down their foes and demoralize their enemies. Other gunslingers are masters of distant death, picking off enemies from afar with their strange and wondrous weapons. </p>", 
-            "name": "Role", 
             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Role", 
-            "section_id": 1093, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "type": "section", 
+            "name": "Role", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for gunslinger characters. In addition, each character begins play with an outfit worth 10 gp or less, and the gunslinger begins with her starting firearm.</p>", 
             "name": "Starting Wealth", 
             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Starting Wealth", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"odd\"><td>Gunslinger</td><td>5d6 &times;10 gp</td><td>175 gp</td></tr></table>", 
-                    "name": "Table: Starting Wealth", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Starting Wealth/Table Starting Wealth", 
-                    "section_id": 1095, 
-                    "source": "Ultimate Combat", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Starting Wealth", 
+                    "source": "Ultimate Combat"
                 }
-            ], 
-            "section_id": 1094, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The gunslinger's class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (local) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sleight of Hand (Dex), Survival (Wis), and Swim (Str).</p>", 
             "name": "Class Skills", 
             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Skills", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">4 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Skills/Skill Ranks per Level", 
-                    "section_id": 1097, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Skill Ranks per Level", 
+                    "source": "Ultimate Combat"
                 }
-            ], 
-            "section_id": 1096, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
-            "name": "Class Features", 
             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table:  Gunslinger</caption><thead><tr><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+1</td><td>+2</td><td>+2</td><td>+0</td><td style=\"white-space: normal;\">Deeds, grit, gunsmith</td></tr><tr class=\"even\"><td>2nd</td><td>+2</td><td>+3</td><td>+3</td><td>+0</td><td style=\"white-space: normal;\">Nimble +1</td></tr><tr class=\"odd\"><td>3rd</td><td>+3</td><td>+3</td><td>+3</td><td>+1</td><td style=\"white-space: normal;\">Deeds</td></tr><tr class=\"even\"><td>4th</td><td>+4</td><td>+4</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>5th</td><td>+5</td><td>+4</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">Gun training 1</td></tr><tr class=\"even\"><td>6th</td><td>+6/+1</td><td>+5</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Nimble +2</td></tr><tr class=\"odd\"><td>7th</td><td>+7/+2</td><td>+5</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Deeds</td></tr><tr class=\"even\"><td>8th</td><td>+8/+3</td><td>+6</td><td>+6</td><td>+2</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>9th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+3</td><td style=\"white-space: normal;\">Gun training 2</td></tr><tr class=\"even\"><td>10th</td><td>+10/+5</td><td>+7</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Nimble +3</td></tr><tr class=\"odd\"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Deeds</td></tr><tr class=\"even\"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">Gun training 3</td></tr><tr class=\"even\"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+9</td><td>+4</td><td style=\"white-space: normal;\">Nimble +4</td></tr><tr class=\"odd\"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+9</td><td>+5</td><td style=\"white-space: normal;\">Deeds</td></tr><tr class=\"even\"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">Gun training 4</td></tr><tr class=\"even\"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">Nimble +5</td></tr><tr class=\"odd\"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">Deeds</td></tr><tr class=\"even\"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+12</td><td>+6</td><td style=\"white-space: normal;\">Bonus feat, true grit</td></tr></table>", 
-                    "name": "Table: Gunslinger", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Table Gunslinger", 
-                    "section_id": 1099, 
-                    "source": "Ultimate Combat", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Gunslinger", 
+                    "source": "Ultimate Combat"
                 }, 
                 {
                     "body": "<p>The following are class features of the gunslinger. </p>", 
                     "source": "Ultimate Combat", 
-                    "type": "section", 
-                    "section_id": 1100
+                    "type": "section"
                 }, 
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Gunslingers are proficient with all simple and martial weapons, and with all firearms. They are proficient with all light armor. </p>", 
                     "source": "Ultimate Combat", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1101
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"gunsmith\">At 1st level, a gunslinger gains one of the following firearms of her choice: blunderbuss, musket, or pistol. Her starting weapon is battered, and only she knows how to use it properly. All other creatures treat her gun as if it had the broken condition. If the weapon already has the broken condition, it does not work at all for anyone else trying to use it. This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold). The gunslinger also gains Gunsmithing as a bonus feat.</p>", 
-                    "name": "Gunsmith", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Gunsmith", 
-                    "section_id": 1102, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Gunsmith", 
+                    "source": "Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"grit\">A gunslinger makes her mark upon the world with daring deeds. Some gunslingers claim they belong to a mystical way of the gun, but it's more likely that the volatile nature of firearms simply prunes the unlucky and careless from their ranks. Whatever the reason, all gunslingers have grit. In game terms, grit is a fluctuating measure of a gunslinger's ability to perform amazing actions in combat. At the start of each day, a gunslinger gains a number of grit points equal to her Wisdom modifier (minimum 1). Her grit goes up or down throughout the day, but usually cannot go higher than her Wisdom modifier (minimum 1), though some feats and magic items may affect this maximum. A gunslinger spends grit to accomplish deeds (see below), and regains grit in the following ways.</p>", 
                     "name": "Grit", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Grit", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 56, 
-                        "section_id": 1103, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1103, 
-                    "source": "Ultimate Combat", 
                     "sections": [
                         {
                             "body": "<p id=\"critical-hit-with-a-firearm\" class=\"stat-block-2\">Each time the gunslinger confirms a critical hit with a firearm attack while in the heat of combat, she regains 1 grit point. Confirming a critical hit on a helpless or unaware creature or on a creature that has fewer Hit Dice than half the gunslinger's character level does not restore grit. </p>", 
-                            "name": "Critical Hit with a Firearm", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Grit/Critical Hit with a Firearm", 
-                            "section_id": 1104, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Critical Hit with a Firearm", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"killing-blow-with-a-firearm\" class=\"stat-block-2\">When the gunslinger reduces a creature to 0 or fewer hit points with a firearm attack while in the heat of combat, she regains 1 grit point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half the gunslinger's character level to 0 or fewer hit points does not restore any grit.</p>", 
-                            "name": "Killing Blow with a Firearm", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Grit/Killing Blow with a Firearm", 
-                            "section_id": 1105, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Killing Blow with a Firearm", 
+                            "source": "Ultimate Combat"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Ultimate Combat", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "<p id=\"deeds\">Gunslingers spend grit points to accomplish deeds. Most deeds grant the gunslinger some momentary bonus or effect, but there are some that provide longer-lasting effects. Some deeds stay in effect as long as the gunslinger has at least 1 grit point. The following is the list of base gunslinger deeds. A gunslinger can only perform deeds of her level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the appropriate amount of grit is spent to perform the deed.</p>", 
                     "name": "Deeds", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds", 
+                    "type": "section", 
+                    "source": "Ultimate Combat", 
                     "sections": [
                         {
                             "body": "<p id=\"deadeye\" class=\"stat-block-2\">At 1st level, the gunslinger can resolve an attack against touch AC instead of normal AC when firing beyond her firearm's first range increment. Performing this deed costs 1 grit point per range increment beyond the first. The gunslinger still takes the &ndash;2 penalty on attack rolls for each range increment beyond the first when she performs this deed.</p>", 
@@ -129,11 +116,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Deadeye", 
                             "ability_types": {
-                                "ability_type_id": 57, 
-                                "section_id": 1107, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1107, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -143,11 +127,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Gunslingers Dodge", 
                             "ability_types": {
-                                "ability_type_id": 58, 
-                                "section_id": 1108, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1108, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -157,11 +138,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Quick Clear", 
                             "ability_types": {
-                                "ability_type_id": 59, 
-                                "section_id": 1109, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1109, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -171,11 +149,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Gunslinger Initiative", 
                             "ability_types": {
-                                "ability_type_id": 60, 
-                                "section_id": 1110, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1110, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -185,11 +160,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Pistol-Whip", 
                             "ability_types": {
-                                "ability_type_id": 61, 
-                                "section_id": 1111, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1111, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -199,11 +171,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Utility Shot", 
                             "ability_types": {
-                                "ability_type_id": 62, 
-                                "section_id": 1112, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1112, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -213,11 +182,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Dead Shot", 
                             "ability_types": {
-                                "ability_type_id": 63, 
-                                "section_id": 1113, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1113, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -227,11 +193,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Startling Shot", 
                             "ability_types": {
-                                "ability_type_id": 64, 
-                                "section_id": 1114, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1114, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -241,11 +204,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Targeting", 
                             "ability_types": {
-                                "ability_type_id": 65, 
-                                "section_id": 1115, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1115, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -255,11 +215,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Bleeding Wound", 
                             "ability_types": {
-                                "ability_type_id": 66, 
-                                "section_id": 1116, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1116, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -269,11 +226,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Expert Loading", 
                             "ability_types": {
-                                "ability_type_id": 67, 
-                                "section_id": 1117, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1117, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -283,11 +237,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Lightning Reload", 
                             "ability_types": {
-                                "ability_type_id": 68, 
-                                "section_id": 1118, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1118, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -297,11 +248,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Evasive", 
                             "ability_types": {
-                                "ability_type_id": 69, 
-                                "section_id": 1119, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1119, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -311,11 +259,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Menacing Shot", 
                             "ability_types": {
-                                "ability_type_id": 70, 
-                                "section_id": 1120, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1120, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -325,11 +270,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Slingers Luck", 
                             "ability_types": {
-                                "ability_type_id": 71, 
-                                "section_id": 1121, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1121, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -339,11 +281,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Cheat Death", 
                             "ability_types": {
-                                "ability_type_id": 72, 
-                                "section_id": 1122, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1122, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -353,11 +292,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Deaths Shot", 
                             "ability_types": {
-                                "ability_type_id": 73, 
-                                "section_id": 1123, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1123, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }, 
@@ -367,29 +303,20 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Deeds/Stunning Shot", 
                             "ability_types": {
-                                "ability_type_id": 74, 
-                                "section_id": 1124, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1124, 
                             "subtype": "gunslinger_deed", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1106, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p id=\"nimble\">Starting at 2nd level, a gunslinger gains a +1 dodge bonus to AC while wearing light or no armor. Anything that causes the gunslinger to lose her Dexterity bonus to AC also causes the gunslinger to lose this dodge bonus. This bonus increases by +1 for every four levels beyond 2nd level (to a maximum of +5 at 20th level).</p>", 
                     "name": "Nimble", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Nimble", 
                     "ability_types": {
-                        "ability_type_id": 75, 
-                        "section_id": 1125, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1125, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -397,19 +324,15 @@
                     "body": "<p id=\"bonus-feats\">At 4th level, and every four levels thereafter, a gunslinger gains a bonus feat in addition to those gained by normal advancement. These bonus feats must be combat or grit feats. </p>", 
                     "source": "Ultimate Combat", 
                     "type": "section", 
-                    "name": "Bonus Feats", 
-                    "section_id": 1126
+                    "name": "Bonus Feats"
                 }, 
                 {
                     "body": "<p id=\"gun-training\">Starting at 5th level, a gunslinger can select one specific type of firearm (such as an axe musket, blunderbuss, musket, or pistol). She gains a bonus equal to her Dexterity modifier on damage rolls when firing that type of firearm. Furthermore, when she misfires with that type of firearm, the misfire value of that firearm increases by 2 instead of 4. </p><p>Every four levels thereafter (9th, 13th, and 17th), the gunslinger picks up another type of firearm, gaining these bonuses for those types as well.</p>", 
                     "name": "Gun Training", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/Gun Training", 
                     "ability_types": {
-                        "ability_type_id": 76, 
-                        "section_id": 1127, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1127, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -418,51 +341,43 @@
                     "name": "True Grit", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Class Features/True Grit", 
                     "ability_types": {
-                        "ability_type_id": 77, 
-                        "section_id": 1128, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1128, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 1098, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p>The following method for regaining grit points requires a measure of GM judgment, so it is an optional rule.</p>", 
             "name": "Optional Rule: Daring Act", 
             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Optional Rule Daring Act", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<p>Each time a gunslinger performs a daring act, she can regain grit. As a general guideline, a daring act should be risky and dramatic. It should take a good deal of guts, and its outcome should have a low probability of success. If it is successful, the gunslinger regains 1 grit point.</p><p>Before attempting a daring act, the player should ask the GM whether the act qualifies. The GM is the final arbiter of what's considered a daring act, and can grant a regained grit point for a daring act even if the player does not ask beforehand whether the act qualifies.</p>", 
-                    "name": "Daring Act", 
                     "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Optional Rule Daring Act/Daring Act", 
-                    "section_id": 1130, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Daring Act", 
+                    "source": "Ultimate Combat"
                 }
-            ], 
-            "section_id": 1129, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
-            "name": "Gunslinger Archetypes", 
             "url": "pfsrd://Ultimate Combat/Classes/Gunslinger/Gunslinger Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Gunslinger Archetypes: Ultimate Combat", 
-                    "section_id": 1132
+                    "name": "Gunslinger Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 1131, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Gunslinger Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

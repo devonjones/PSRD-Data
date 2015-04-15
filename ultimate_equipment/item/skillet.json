@@ -1,7 +1,20 @@
 {
     "name": "Skillet", 
     "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Skillet", 
-    "type": "item", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Common</td><td>8 sp</td><td>4 lbs.</td></tr><tr class=\"even\"><td>Mithral</td><td>1,001 gp</td><td>2 lbs.</td></tr></table>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Skillet/Type", 
+            "type": "table", 
+            "name": "Type", 
+            "source": "Ultimate Equipment"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals. Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier storage and transport. A mithral skillet is lighter and food rarely sticks to it.</p>", 
+            "source": "Ultimate Equipment", 
+            "type": "section"
+        }
+    ], 
     "misc": {
         "null": {
             "Gear Type": "Item"
@@ -15,22 +28,6 @@
             "Weight": "4 lbs."
         }
     }, 
-    "section_id": 612, 
     "source": "Ultimate Equipment", 
-    "sections": [
-        {
-            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Common</td><td>8 sp</td><td>4 lbs.</td></tr><tr class=\"even\"><td>Mithral</td><td>1,001 gp</td><td>2 lbs.</td></tr></table>", 
-            "name": "Type", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Skillet/Type", 
-            "section_id": 613, 
-            "source": "Ultimate Equipment", 
-            "type": "table"
-        }, 
-        {
-            "body": "<p class=\"stat-block\">This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals. Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier storage and transport. A mithral skillet is lighter and food rarely sticks to it.</p>", 
-            "source": "Ultimate Equipment", 
-            "type": "section", 
-            "section_id": 614
-        }
-    ]
+    "type": "item"
 }

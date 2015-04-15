@@ -1,18 +1,17 @@
 {
-    "level_text": "Antipaladin: 3; Inquisitor: 4; Paladin: 3", 
-    "duration": "instantaneous", 
-    "source": "Ultimate Combat", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "teleportation", 
-    "subschool": [
-        "teleportation"
-    ], 
-    "type": "spell", 
     "body": "<p class=\"stat-description-2\">With a powerful prayer, you call upon the servants of your god to whisk a friend out of a grapple. The target loses the grappled and pinned conditions and is teleported 10 feet.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "no", 
     "description": "Teleports a friend out of a grapple.", 
+    "source": "Ultimate Combat", 
+    "url": "pfsrd://Ultimate Combat/Spells/Litany Of Escape", 
     "spell_resistance": "yes", 
     "casting_time": "1 swift action", 
-    "section_id": 68, 
+    "level_text": "Antipaladin: 3; Inquisitor: 4; Paladin: 3", 
+    "descriptor": [
+        "language-dependent"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Antipaladin", 
@@ -34,14 +33,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "no", 
-    "name": "Litany Of Escape", 
-    "url": "pfsrd://Ultimate Combat/Spells/Litany Of Escape", 
-    "descriptor": [
-        "language-dependent"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -52,5 +43,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "instantaneous", 
+    "subschool_text": "teleportation", 
+    "subschool": [
+        "teleportation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Litany Of Escape"
 }

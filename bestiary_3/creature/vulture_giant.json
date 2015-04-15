@@ -2,7 +2,7 @@
     "dexterity": "15", 
     "ac": "17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)", 
     "intelligence": "2", 
-    "racial_modifiers": "+4 Perception", 
+    "racial_modifiers": "+8 Perception", 
     "melee": "bite +9 (2d6+9 plus disease)", 
     "cr": "4", 
     "xp": "1,200", 
@@ -19,54 +19,47 @@
     "charisma": "7", 
     "fortitude": "+10", 
     "type": "creature", 
-    "feats": "Great Fortitude, Skill Focus (Perception), Toughness, Weapon Focus (bite)", 
-    "senses": "low-light vision, scent; Perception +13", 
+    "feats": "Great Fortitude, Toughness, Weapon Focus (bite)", 
+    "senses": "low-light vision, scent; Perception +14", 
     "description": "A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger's vast wingspan.", 
     "sections": [
         {
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Vulture/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Due to their filthy eating habits and constant exposure to decaying flesh, giant vultures are harbingers of disease&mdash;much more so than the standard vulture. Any creature bitten by a giant vulture has a 10% chance of being exposed to filth fever, blinding sickness, or a similar disease. Once this check is made, a victim can no longer be infected by this particular giant vulture, though attacks by different giant vultures are resolved normally and may result in multiple illnesses. While vultures aren't immune to all diseases, they do gain a +4 racial bonus on all saving throws against such ailments.", 
                     "name": "Diseased", 
                     "url": "pfsrd://Bestiary 3/Monsters/Vulture/Giant/Special Abilities/Diseased", 
                     "ability_types": {
-                        "ability_type_id": 616, 
-                        "section_id": 2265, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2265, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2264, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Larger even than condors, giant vultures dwell only in regions where carrion is both large and plentiful, such as the primeval wildernesses where megafauna roam. They also flock to regions torn by war, feasting on the dead with no concern for allegiance or race. Giant vultures rarely wait for  wounded creatures to finish dying before they feed, and are much braver than most wild animals. A giant vulture, for example, wouldn't think twice about swooping down on a heavily armored column of soldiers just to snatch up a few wounded stragglers from the end of the line.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2266
+            "type": "section"
         }, 
         {
             "body": "<p>A giant vulture stands more than 13 feet tall, has a wingspan of over 30 feet, and weighs 500 to 600 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 2267
+            "type": "section"
         }
     ], 
     "hp": "42 (5d8+20)", 
     "reach": "5 ft.", 
-    "section_id": 2263, 
     "wisdom": "15", 
     "creature_type": "Animal", 
     "special_qualities": "diseased", 
     "name": "Vulture, Giant", 
-    "skills": "Fly +7, Perception +13", 
+    "skills": "Fly +7, Perception +14", 
     "reflex": "+6", 
     "cmd": "22", 
     "cmb": "+10", 

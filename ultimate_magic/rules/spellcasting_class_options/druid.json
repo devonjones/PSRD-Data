@@ -1,41 +1,40 @@
 {
-    "name": "Druid", 
     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid", 
+    "type": "section", 
     "sections": [
         {
             "body": "<p>Druids are devotees of nature, protecting the bleakest deserts and most verdant forests. Through their kinship with animals and the elements, they learn the most potent secrets the natural world has to offer, and can call upon great power in the form of both magical abilities like wild shape and a wide array of thematic spells. Whether tapping the fundamental magic of the elements or relying on the teeth and claws of wild creatures to accomplish their goals, druids are forces to be reckoned with, and those whose actions threaten the wild places these nature folk hold dear had best be prepared to suffer the consequences.</p><p>The following section details new animal and terrain domains for druids, vermin companions for druids who don't want a more traditional animal companion, and new druid archetypes.</p>", 
             "source": "Ultimate Magic", 
             "type": "section", 
-            "name": "Druid", 
-            "section_id": 1009
+            "name": "Druid"
         }, 
         {
             "body": "<p>Presented in the section below are new rules for animal and terrain domains&mdash;domains for druids whose focus is more specific than the Animal, Plant, Weather, or elemental domains. A druid with the nature's bond ability can choose an animal domain or terrain domain. Just like cleric domains, animal and terrain domains have granted powers and domain spells, and a druid who selects an animal or terrain domain gains a domain spell slot at each level. A druid who worships a deity (as opposed to nature in general) cannot select an animal or terrain domain that contradicts or is outside of the portfolio of her deity.</p><p>If an animal or terrain domain ability calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's druid level + her Wisdom modifier.</p><p>Other nature-themed classes with access to domains may select an animal or terrain domain in place of a regular domain.</p>", 
             "name": "Animal and Terrain Domains", 
             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains", 
+            "type": "section", 
+            "source": "Ultimate Magic", 
             "sections": [
                 {
                     "name": "Aquatic Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Aquatic Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>You master the deeps of the sea, raging rivers, flowing falls, and relentless tides.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1012
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"sealord\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats to add to this ability, such as Extra Channel and Improved Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</p>", 
                             "name": "Sealord", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Aquatic Domain/Sealord", 
                             "ability_types": {
-                                "ability_type_id": 90, 
-                                "section_id": 1013, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1013, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -44,11 +43,8 @@
                             "name": "Seastrike", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Aquatic Domain/Seastrike", 
                             "ability_types": {
-                                "ability_type_id": 91, 
-                                "section_id": 1014, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1014, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -56,36 +52,30 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>hydraulic push</i>, 2nd&mdash;<i>slipstream</i>, 3rd&mdash;<i>water breathing</i>, 4th&mdash;<i>freedom of movement</i>, 5th&mdash;<i>black tentacles</i>, 6th&mdash;<i>freezing sphere</i>, 7th&mdash;<i>animal shapes</i> (aquatic creatures only), 8th&mdash;<i>seamantle</i>, 9th&mdash;<i>tsunami</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1015
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1011, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Arctic Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Arctic Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>You master the might of the endless, snow-covered wastes beneath the midnight sun, where icy polar winds blow.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1017
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"call-cold\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats that add to this ability, such as Extra Channel and Improved Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</p>", 
                             "name": "Call Cold", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Arctic Domain/Call Cold", 
                             "ability_types": {
-                                "ability_type_id": 92, 
-                                "section_id": 1018, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1018, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -94,11 +84,8 @@
                             "name": "Banish Flame", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Arctic Domain/Banish Flame", 
                             "ability_types": {
-                                "ability_type_id": 93, 
-                                "section_id": 1019, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1019, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -106,36 +93,30 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>frostbite</i>, 2nd&mdash;<i>aspect of the bear</i>, 3rd&mdash;<i>sleet storm</i>, 4th&mdash;<i>wall of ice</i>, 5th&mdash;<i>aspect of the wolf</i>, 6th&mdash;<i>freezing sphere</i>, 7th&mdash;<i>wind walk</i>, 8th&mdash;<i>polar ray</i>, 9th&mdash;<i>polar midnight</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1020
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1016, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Cave Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Cave Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>The wonders and dark secrets of the deepest caves give you strength.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1022
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"cavesight\">You can grant darkvision 60 feet to a willing creature you touch. This effect lasts 1 minute, or 1 hour if used on yourself. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
                             "name": "Cavesight", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Cave Domain/Cavesight", 
                             "ability_types": {
-                                "ability_type_id": 94, 
-                                "section_id": 1023, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 1023, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -144,11 +125,8 @@
                             "name": "Tremorsense", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Cave Domain/Tremorsense", 
                             "ability_types": {
-                                "ability_type_id": 95, 
-                                "section_id": 1024, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1024, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -156,36 +134,30 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>detect aberration</i>, 2nd&mdash;<i>stone call</i>, 3rd&mdash;<i>deeper darkness</i>, 4th&mdash;<i>echolocation</i>, 5th&mdash;<i>wall of stone</i>, 6th&mdash;<i>conjure black pudding</i>, 7th&mdash;<i>statue</i> (looking like a stalagmite or stalactite), 8th&mdash;<i>earthquake</i>, 9th&mdash;<i>imprisonment</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1025
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1021, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Desert Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Desert Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>The spirits and secrets of the endless wastes are yours to command.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1027
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"heat-shimmer\">As a free action, you can surround yourself with heat distortion that acts as the <i>blur</i> spell. Creatures that strike you in melee while you're using this ability are dazzled for 1 round (Fortitude negates). You may use this ability for a number of rounds per day equal to 3 + your Wisdom modifier. These rounds need not be consecutive.</p>", 
                             "name": "Heat Shimmer", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Desert Domain/Heat Shimmer", 
                             "ability_types": {
-                                "ability_type_id": 96, 
-                                "section_id": 1028, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1028, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -194,11 +166,8 @@
                             "name": "Servant of the Sands", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Desert Domain/Servant of the Sands", 
                             "ability_types": {
-                                "ability_type_id": 97, 
-                                "section_id": 1029, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 1029, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -206,44 +175,37 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>cloak of shade</i>, 2nd&mdash;<i>shifting sand</i>, 3rd&mdash;<i>cup of dust</i>, 4th&mdash;<i>hallucinatory terrain</i>, 5th&mdash;<i>transmute rock to mud</i> (creates loose sand instead of mud), 6th&mdash;<i>sirocco</i>, 7th&mdash;<i>sunbeam</i>, 8th&mdash;<i>sunburst</i>, 9th&mdash;<i>horrid wilting</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1030
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1026, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Eagle Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Eagle Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>Your spirit soars with the mightiest and noblest of all winged creatures.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1032
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"familiar\">You gain a hawk familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "name": "Familiar", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Eagle Domain/Familiar", 
-                            "section_id": 1033, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Familiar", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"hawkeye\">As a swift action, you may add a bonus equal to half your druid level (minimum +1) on one ranged attack or on one Perception check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
                             "name": "Hawkeye", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Eagle Domain/Hawkeye", 
                             "ability_types": {
-                                "ability_type_id": 98, 
-                                "section_id": 1034, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1034, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -252,11 +214,8 @@
                             "name": "Aerial evasion", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Eagle Domain/Aerial evasion", 
                             "ability_types": {
-                                "ability_type_id": 99, 
-                                "section_id": 1035, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1035, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -264,44 +223,37 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>aspect of the falcon</i>, 2nd&mdash;<i>eagle's splendor</i>, 3rd&mdash;<i>fly</i>, 4th&mdash;<i>river of wind</i>, 5th&mdash;<i>overland flight</i>, 6th&mdash;<i>eagle aerie</i>, 7th&mdash;<i>animal shapes</i> (birds only), 8th&mdash;<i>sunburst</i>, 9th&mdash;<i>winds of vengeance</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1036
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1031, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Frog Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Frog Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>You venerate the elder amphibians that first brought life to land.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1038
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"familiar\">You may gain a toad familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "name": "Familiar", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Frog Domain/Familiar", 
-                            "section_id": 1039, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Familiar", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"sticky-strike\">As a standard action, you can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the pull universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check. The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a free action. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
                             "name": "Sticky Strike", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Frog Domain/Sticky Strike", 
                             "ability_types": {
-                                "ability_type_id": 100, 
-                                "section_id": 1040, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1040, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -310,11 +262,8 @@
                             "name": "Webfoot", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Frog Domain/Webfoot", 
                             "ability_types": {
-                                "ability_type_id": 101, 
-                                "section_id": 1041, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1041, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -322,36 +271,30 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>jump</i>, 2nd&mdash;<i>delay poison</i>, 3rd&mdash;<i>lily pad stride</i>, 4th&mdash;<i>shout</i>, 5th&mdash;<i>blessing of the salamander</i>, 6th&mdash;<i>confusion</i>, 7th&mdash;<i>animal shapes</i> (amphibians only), 8th&mdash;<i>greater shout</i>, 9th&mdash;<i>summon froghemoth</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1042
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1037, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Jungle Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Jungle Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>The spirits of the jungle, both of natural guardians and lost civilizations, whisper in your heart.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1044
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"brachiation\">As a free action for a number of rounds per day equal to your druid level, you may climb with a climb speed equal to your land speed, and gain a bonus on Acrobatics checks equal to your druid level. These rounds do not have to be consecutive.</p>", 
                             "name": "Brachiation", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Jungle Domain/Brachiation", 
                             "ability_types": {
-                                "ability_type_id": 102, 
-                                "section_id": 1045, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1045, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -360,11 +303,8 @@
                             "name": "Trap Sense", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Jungle Domain/Trap Sense", 
                             "ability_types": {
-                                "ability_type_id": 103, 
-                                "section_id": 1046, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1046, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -372,44 +312,37 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>glide</i>, 2nd&mdash;<i>tar ball</i>, 3rd&mdash;<i>venomous bolt</i>, 4th&mdash;<i>arboreal hammer</i>, 5th&mdash;<i>blessing of the salamander</i>, 6th&mdash;<i>swarm skin</i>, 7th&mdash;<i>creeping doom</i>, 8th&mdash;<i>wall of lava</i>, 9th&mdash;<i>shambler</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1047
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1043, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Monkey Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Monkey Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>The balanced wisdom, skill, agility, and playfulness of the monkey are the model for your spiritual discipline.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1049
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"familiar\">You gain a monkey familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "name": "Familiar", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Monkey Domain/Familiar", 
-                            "section_id": 1050, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Familiar", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"monkey-athletics\">As a free action, you may add a competence bonus equal to half your druid level (minimum of +1) on one Acrobatics, Climb, Disable Device, or Sleight of Hand check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
                             "name": "Monkey Athletics", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Monkey Domain/Monkey Athletics", 
                             "ability_types": {
-                                "ability_type_id": 104, 
-                                "section_id": 1051, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1051, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -418,11 +351,8 @@
                             "name": "Ranged Legerdemain", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Monkey Domain/Ranged Legerdemain", 
                             "ability_types": {
-                                "ability_type_id": 105, 
-                                "section_id": 1052, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1052, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -430,36 +360,30 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>beguiling gift</i>, 2nd&mdash;<i>spider climb</i>, 3rd&mdash;<i>cacophonous call</i>, 4th&mdash;<i>freedom of movement</i>, 5th&mdash;<i>summon nature's ally V</i> (dire ape or girallon only), 6th&mdash;<i>confusion</i>, 7th&mdash;<i>animal shapes</i> (apes and monkeys only), 8th&mdash;<i>clenched fist</i>, 9th&mdash;<i>foresight</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1053
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1048, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Mountain Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Mountain Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>You have mastered the mighty powers of the great mountains that pierce the sky and stand aloof above the lowlands.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1055
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"foothold\">As a standard action, you can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as difficult terrain, and a Medium or smaller creature standing in the area or moving through it takes a &ndash;2 penalty on Acrobatics checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on Climb checks to climb it. The stone remains altered for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
                             "name": "Foothold", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Mountain Domain/Foothold", 
                             "ability_types": {
-                                "ability_type_id": 106, 
-                                "section_id": 1056, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1056, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -468,11 +392,8 @@
                             "name": "Thin Air", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Mountain Domain/Thin Air", 
                             "ability_types": {
-                                "ability_type_id": 107, 
-                                "section_id": 1057, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1057, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -480,36 +401,30 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>fist of stone</i>, 2nd&mdash;<i>stone call</i>, 3rd&mdash;<i>cloak of winds</i>, 4th&mdash;<i>stoneskin</i>, 5th&mdash;<i>geyser</i>, 6th&mdash;<i>suffocate</i>, 7th&mdash;<i>flesh to stone</i>, 8th&mdash;<i>reverse gravity</i>, 9th&mdash;<i>clashing rocks</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1058
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1054, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Plains Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Plains Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>The wide open spaces of the prairie, savanna, and steppe are yours to master.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1060
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"migrating-herd\">When you summon an aurochs, bison, elephant, horse, mastodon, pony, or similar quadruped herbivore with a summoning spell, the duration of the spell is increased by 100% (this does not stack with Extend Spell). The creature's land speed is increased by 10 feet.</p>", 
                             "name": "Migrating Herd", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Plains Domain/Migrating Herd", 
                             "ability_types": {
-                                "ability_type_id": 108, 
-                                "section_id": 1061, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1061, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -518,11 +433,8 @@
                             "name": "Pounce", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Plains Domain/Pounce", 
                             "ability_types": {
-                                "ability_type_id": 109, 
-                                "section_id": 1062, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1062, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -530,44 +442,37 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>mount</i>, 2nd&mdash;<i>chameleon stride</i>, 3rd&mdash;<i>haste</i>, 4th&mdash;<i>aspect of the stag</i>, 5th&mdash;<i>control winds</i>, 6th&mdash;<i>find the path</i>, 7th&mdash;<i>whirlwind</i>, 8th&mdash;<i>animal shapes</i>, 9th&mdash;<i>worldwave</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1063
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1059, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Serpent Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Serpent Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>You serve ancient serpentine mysteries whose coils still encircle the world.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1065
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"familiar\">You gain a viper familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "name": "Familiar", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Serpent Domain/Familiar", 
-                            "section_id": 1066, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Familiar", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"slither\">As a free action, you can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to squeeze through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on Escape Artist checks made to escape from a grapple. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
                             "name": "Slither", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Serpent Domain/Slither", 
                             "ability_types": {
-                                "ability_type_id": 110, 
-                                "section_id": 1067, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1067, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -576,11 +481,8 @@
                             "name": "Venom Immunity", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Serpent Domain/Venom Immunity", 
                             "ability_types": {
-                                "ability_type_id": 111, 
-                                "section_id": 1068, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1068, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -588,36 +490,30 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>charm animal</i>, 2nd&mdash;<i>animal trance</i>, 3rd&mdash;<i>poison</i>, 4th&mdash;<i>strong</i> jaw, 5th&mdash;<i>snakestaff</i>, 6th&mdash;<i>charm monster</i>, 7th&mdash;<i>animal shapes</i> (reptiles and snakes only), 8th&mdash;<i>scintillating pattern</i>, 9th&mdash;<i>crushing hand</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1069
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1064, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Swamp Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Swamp Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>The sour-sweet depths of bogs, marshes, and swamps are your places of power.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1071
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"natural-healing\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as Extra Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel.</p>", 
                             "name": "Natural Healing", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Swamp Domain/Natural Healing", 
                             "ability_types": {
-                                "ability_type_id": 112, 
-                                "section_id": 1072, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1072, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -626,11 +522,8 @@
                             "name": "Reed Hunter", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Swamp Domain/Reed Hunter", 
                             "ability_types": {
-                                "ability_type_id": 113, 
-                                "section_id": 1073, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1073, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -638,44 +531,37 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>hydraulic push</i>, 2nd&mdash;<i>burst of nettles</i>, 3rd&mdash;<i>lily pad stride</i>, 4th&mdash;<i>cape of wasps</i>, 5th&mdash;<i>insect plague</i>, 6th&mdash;<i>mass fester</i>, 7th&mdash;<i>animate plants</i>, 8th&mdash;<i>blood mist</i>, 9th&mdash;<i>shambler</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1074
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1070, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "name": "Wolf Domain", 
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Wolf Domain", 
+                    "type": "section", 
+                    "subtype": "druid_domain", 
                     "sections": [
                         {
                             "body": "<p>You run with the pack and are the master of the cold hunt of your spirit totem.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Granted Powers", 
-                            "section_id": 1076
+                            "name": "Granted Powers"
                         }, 
                         {
                             "body": "<p id=\"improved-trip\">You gain Improved Trip as a bonus feat.</p>", 
-                            "name": "Improved Trip", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Wolf Domain/Improved Trip", 
-                            "section_id": 1077, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Improved Trip", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"pack-tactics\">At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
                             "name": "Pack Tactics", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Wolf Domain/Pack Tactics", 
                             "ability_types": {
-                                "ability_type_id": 114, 
-                                "section_id": 1078, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1078, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -683,39 +569,32 @@
                             "body": "<p id=\"domain-spells\">1st&mdash;<i>hunter's howl</i>, 2nd&mdash;<i>bloodhound</i>, 3rd&mdash;<i>aspect of the wolf</i>, 4th&mdash;<i>strong jaw</i>, 5th&mdash;<i>tireless pursuers</i>, 6th&mdash;<i>find the path</i>, 7th&mdash;<i>animal shapes</i> (canines only), 8th&mdash;<i>phantasmal revenge</i>, 9th&mdash;<i>freedom</i>.</p>", 
                             "source": "Ultimate Magic", 
                             "type": "section", 
-                            "name": "Domain Spells", 
-                            "section_id": 1079
+                            "name": "Domain Spells"
                         }
-                    ], 
-                    "section_id": 1075, 
-                    "subtype": "druid_domain", 
-                    "type": "section"
+                    ]
                 }
-            ], 
-            "section_id": 1010, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>In addition to the normal choices of animal companions, a druid who is so inclined may select a vermin as her companion. Vermin companions follow the same rules as animal companions, advancing their Hit Dice and other abilities per the animal companion base statistics table. Vermin companions can be trained as if they were animals using the Handle Animal skill.</p>", 
             "name": "Vermin Companions", 
             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions", 
+            "type": "section", 
+            "source": "Ultimate Magic", 
             "sections": [
                 {
                     "body": "<p id=\"mindless\">Vermin companions have no Intelligence score and possess the mindless trait. In spite of this, vermin companions may learn one trick, plus additional bonus tricks. If a vermin animal companion gains an ability score increase (at 4 Hit Dice, 8 Hit Dice, and so on), the druid can apply this increase to the companion's Intelligence, changing it from &mdash; to 1, at which point the companion loses the mindless quality and is able to know up to 3 tricks per point of Intelligence, plus the additional bonus tricks. Vermin companions have no skill points or feats as long as they have the mindless quality.</p>", 
-                    "name": "Mindless", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Mindless", 
-                    "section_id": 1081, 
-                    "source": "Ultimate Magic", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Mindless", 
+                    "source": "Ultimate Magic"
                 }, 
                 {
                     "body": "<p id=\"trip\">Because many vermin have multiple limbs, they are very difficult to trip. As a result, a CMD entry has been included for each, indicating the bonus to CMD such vermin receive against trip attacks.</p>", 
-                    "name": "Trip", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Trip", 
-                    "section_id": 1082, 
-                    "source": "Ultimate Magic", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Trip", 
+                    "source": "Ultimate Magic"
                 }, 
                 {
                     "ac": "+2 natural armor", 
@@ -725,10 +604,9 @@
                     "sections": [
                         {
                             "special_attacks": "poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC).", 
-                            "name": "Ant, Giant", 
+                            "name": "4th-Level Advancement", 
                             "level": "4th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Ant/Giant/Ant/Giant", 
-                            "section_id": 1084, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Ant/Giant/4th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "bite (1d6 plus grab), sting (1d4 plus poison)", 
                             "source": "Ultimate Magic", 
@@ -738,13 +616,12 @@
                         }
                     ], 
                     "cmd": "trip +8.", 
-                    "section_id": 1083, 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus grab)", 
                     "type": "animal_companion", 
-                    "special_qualities": "low-light vision, scent", 
-                    "speed": "30 ft., climb 20 ft.", 
                     "ability_scores": "Str 10, Dex 12, Con 15, Int -, Wis 12, Cha 10", 
+                    "speed": "30 ft., climb 20 ft.", 
+                    "special_qualities": "low-light vision, scent", 
                     "size": "Small"
                 }, 
                 {
@@ -755,10 +632,9 @@
                     "sections": [
                         {
                             "special_attacks": "trample (1d4).", 
-                            "name": "Beetle, Giant", 
+                            "name": "4th-Level Advancement", 
                             "level": "4th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Beetle/Giant/Beetle/Giant", 
-                            "section_id": 1086, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Beetle/Giant/4th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "bite (1d6)", 
                             "source": "Ultimate Magic", 
@@ -768,13 +644,12 @@
                         }
                     ], 
                     "cmd": "trip +8.", 
-                    "section_id": 1085, 
                     "subtype": "base", 
                     "attack": "bite (1d8)", 
                     "type": "animal_companion", 
-                    "special_qualities": "darkvision", 
-                    "speed": "20 ft., fly 20 ft. (poor)", 
                     "ability_scores": "Str 13, Dex 12, Con 13, Int -, Wis 11, Cha 4", 
+                    "speed": "20 ft., fly 20 ft. (poor)", 
+                    "special_qualities": "darkvision", 
                     "size": "Small"
                 }, 
                 {
@@ -785,10 +660,9 @@
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Centipede/Giant", 
                     "sections": [
                         {
-                            "name": "Centipede, Giant", 
+                            "name": "4th-Level Advancement", 
                             "level": "4th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Centipede/Giant/Centipede/Giant", 
-                            "section_id": 1088, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Centipede/Giant/4th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "bite (1d6 plus poison)", 
                             "source": "Ultimate Magic", 
@@ -798,13 +672,12 @@
                         }
                     ], 
                     "cmd": "can't be tripped.", 
-                    "section_id": 1087, 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus poison)", 
                     "type": "animal_companion", 
-                    "special_qualities": "darkvision 60 ft.", 
-                    "speed": "20 ft., climb 20 ft.", 
                     "ability_scores": "Str 8, Dex 17, Con 11, Int -, Wis 10, Cha 2", 
+                    "speed": "20 ft., climb 20 ft.", 
+                    "special_qualities": "darkvision 60 ft.", 
                     "size": "Small"
                 }, 
                 {
@@ -816,10 +689,9 @@
                     "sections": [
                         {
                             "special_attacks": "constrict (1d4).", 
-                            "name": "Crab, Giant", 
+                            "name": "4th-Level Advancement", 
                             "level": "4th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Crab/Giant/Crab/Giant", 
-                            "section_id": 1090, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Crab/Giant/4th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "2 claws (1d4 plus grab)", 
                             "source": "Ultimate Magic", 
@@ -829,13 +701,12 @@
                         }
                     ], 
                     "cmd": "trip +12.", 
-                    "section_id": 1089, 
                     "subtype": "base", 
                     "attack": "2 claws (1d3 plus grab)", 
                     "type": "animal_companion", 
-                    "special_qualities": "aquatic, darkvision, water dependency (survive out of water for 1 hour per point of Con, after which it begins to suffocate as if it were drowning)", 
-                    "speed": "30 ft., swim 20 ft.", 
                     "ability_scores": "Str 13, Dex 14, Con 13, Int -, Wis 11, Cha 4", 
+                    "speed": "30 ft., swim 20 ft.", 
+                    "special_qualities": "aquatic, darkvision, water dependency (survive out of water for 1 hour per point of Con, after which it begins to suffocate as if it were drowning)", 
                     "size": "Small"
                 }, 
                 {
@@ -847,27 +718,25 @@
                     "sections": [
                         {
                             "special_attacks": "blood drain (1 Str and 1 Con damage)", 
-                            "name": "Leech, Giant", 
+                            "name": "7th-Level Advancement", 
                             "level": "7th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Leech/Giant/Leech/Giant", 
-                            "section_id": 1092, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Leech/Giant/7th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "bite (1d6 plus attach)", 
                             "source": "Ultimate Magic", 
-                            "special_qualities": "blindsight 30 ft.", 
-                            "type": "animal_companion", 
                             "ability_scores": "Str +2, Dex -2, Con +2", 
+                            "type": "animal_companion", 
+                            "special_qualities": "blindsight 30 ft.", 
                             "size": "Medium"
                         }
                     ], 
                     "cmd": "can't be tripped.", 
-                    "section_id": 1091, 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus attach)", 
                     "type": "animal_companion", 
-                    "special_qualities": "amphibious, blindsense 30 ft., scent, susceptible to salt", 
-                    "speed": "5 ft., swim 20 ft.", 
                     "ability_scores": "Str 9, Dex 14, Con 12, Int -, Wis 10, Cha 1", 
+                    "speed": "5 ft., swim 20 ft.", 
+                    "special_qualities": "amphibious, blindsense 30 ft., scent, susceptible to salt", 
                     "size": "Small"
                 }, 
                 {
@@ -878,18 +747,16 @@
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Mantis/Giant", 
                     "type": "animal_companion", 
                     "cmd": "trip +8.", 
-                    "section_id": 1093, 
                     "subtype": "base", 
                     "attack": "2 claws (1d4 plus grab)", 
-                    "special_qualities": "darkvision", 
+                    "ability_scores": "Str 10, Dex 15, Con 10, Int -, Wis 12, Cha 7", 
                     "sections": [
                         {
                             "ac": "+2 natural armor", 
                             "special_attacks": "mandibles (1d6 secondary attack against a grabbed target), sudden strike (may take a full attack in the surprise round).", 
-                            "name": "Mantis, Giant", 
+                            "name": "7th-Level Advancement", 
                             "level": "7th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Mantis/Giant/Mantis/Giant", 
-                            "section_id": 1094, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Mantis/Giant/7th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "2 claws (1d6)", 
                             "source": "Ultimate Magic", 
@@ -898,7 +765,7 @@
                             "size": "Large"
                         }
                     ], 
-                    "ability_scores": "Str 10, Dex 15, Con 10, Int -, Wis 12, Cha 7", 
+                    "special_qualities": "darkvision", 
                     "size": "Medium; Speed 30 ft., climb 30 ft., fly 40 ft. (average)"
                 }, 
                 {
@@ -911,27 +778,25 @@
                         {
                             "ac": "+3 natural armor", 
                             "special_attacks": "poison (frequency 1 round [6], effect 1d2 Str damage, cure 1 save, Con-based DC)", 
-                            "name": "Scorpion, Giant", 
+                            "name": "7th-Level Advancement", 
                             "level": "7th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Scorpion/Giant/Scorpion/Giant", 
-                            "section_id": 1096, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Scorpion/Giant/7th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "2 claws (1d6 plus grab) and sting (1d6 plus poison)", 
                             "source": "Ultimate Magic", 
-                            "special_qualities": "tremorsense 60 ft.", 
-                            "type": "animal_companion", 
                             "ability_scores": "Str +8, Dex -2, Con +4", 
+                            "type": "animal_companion", 
+                            "special_qualities": "tremorsense 60 ft.", 
                             "size": "Large"
                         }
                     ], 
                     "cmd": "trip +12.", 
-                    "section_id": 1095, 
                     "subtype": "base", 
                     "attack": "2 claws (1d4 plus grab) and sting (1d4 plus poison)", 
                     "type": "animal_companion", 
-                    "special_qualities": "darkvision, tremorsense 30 ft", 
-                    "speed": "40 ft.", 
                     "ability_scores": "Str 11, Dex 12, Con 12, Int -, Wis 10, Cha 2", 
+                    "speed": "40 ft.", 
+                    "special_qualities": "darkvision, tremorsense 30 ft", 
                     "size": "Medium"
                 }, 
                 {
@@ -944,27 +809,25 @@
                         {
                             "ac": "+2 natural armor", 
                             "special_attacks": "spit acid (ranged touch attack, 30-foot range, 1d8 acid damage)", 
-                            "name": "Slug, Giant", 
+                            "name": "7th-Level Advancement", 
                             "level": "7th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Slug/Giant/Slug/Giant", 
-                            "section_id": 1098, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Slug/Giant/7th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "tongue (1d6 plus 1d2 acid)", 
                             "source": "Ultimate Magic", 
-                            "special_qualities": "blindsight 30 ft.", 
-                            "type": "animal_companion", 
                             "ability_scores": "Str +2, Dex -2, Con +2", 
+                            "type": "animal_companion", 
+                            "special_qualities": "blindsight 30 ft.", 
                             "size": "Large"
                         }
                     ], 
                     "cmd": "can't be tripped.", 
-                    "section_id": 1097, 
                     "subtype": "base", 
                     "attack": "tongue (1d4 plus 1 acid)", 
                     "type": "animal_companion", 
-                    "special_qualities": "blindsense 30 ft., DR 5/slashing or piercing, susceptible to salt (Bestiary 254)", 
-                    "speed": "20 ft.", 
                     "ability_scores": "Str 13, Dex 8, Con 13, Int -, Wis 10, Cha 1", 
+                    "speed": "20 ft.", 
+                    "special_qualities": "blindsense 30 ft., DR 5/slashing or piercing, susceptible to salt (Bestiary 254)", 
                     "size": "Medium"
                 }, 
                 {
@@ -976,10 +839,9 @@
                     "sections": [
                         {
                             "ac": "+1 natural armor", 
-                            "name": "Spider, Giant", 
+                            "name": "4th-Level Advancement", 
                             "level": "4th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Spider/Giant/Spider/Giant", 
-                            "section_id": 1100, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Spider/Giant/4th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "bite (1d6 plus poison)", 
                             "source": "Ultimate Magic", 
@@ -989,13 +851,12 @@
                         }
                     ], 
                     "cmd": "trip +12.", 
-                    "section_id": 1099, 
                     "subtype": "base", 
                     "attack": "bite (1d4 plus poison)", 
                     "type": "animal_companion", 
-                    "special_qualities": "darkvision, tremorsense 30 feet", 
-                    "speed": "30 ft., climb 30 ft.", 
                     "ability_scores": "Str 6, Dex 17, Con 10, Int -, Wis 10, Cha 2", 
+                    "speed": "30 ft., climb 30 ft.", 
+                    "special_qualities": "darkvision, tremorsense 30 feet", 
                     "size": "Small"
                 }, 
                 {
@@ -1007,10 +868,9 @@
                     "sections": [
                         {
                             "ac": "+2 natural armor", 
-                            "name": "Wasp, Giant", 
+                            "name": "7th-Level Advancement", 
                             "level": "7th", 
-                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Wasp/Giant/Wasp/Giant", 
-                            "section_id": 1102, 
+                            "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Vermin Companions/Wasp/Giant/7th-Level Advancement", 
                             "subtype": "advancement", 
                             "attack": "sting (1d8 plus poison)", 
                             "source": "Ultimate Magic", 
@@ -1020,23 +880,19 @@
                         }
                     ], 
                     "cmd": "trip +8.", 
-                    "section_id": 1101, 
                     "subtype": "base", 
                     "attack": "sting (1d6 plus poison)", 
                     "type": "animal_companion", 
-                    "special_qualities": "darkvision", 
-                    "speed": "20 ft., fly 60 ft. (good)", 
                     "ability_scores": "Str 10, Dex 14, Con 11, Int -, Wis 13, Cha 4", 
+                    "speed": "20 ft., fly 60 ft. (good)", 
+                    "special_qualities": "darkvision", 
                     "size": "Medium"
                 }
-            ], 
-            "section_id": 1080, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            ]
         }, 
         {
-            "name": "Druid Archetypes", 
             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>Your totem is the legendary dragon, fearsome and deadly yet cunning and wise, a creature born of pure magic and raw elemental fury, bound within a shell of fangs, claws, and scales that few dare to challenge. Though your initial focus is on dragons' mundane cousins, as your powers grow you become attuned to actual dragons.</p>", 
@@ -1044,27 +900,22 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman", 
                     "type": "class_archetype", 
-                    "section_id": 1104, 
                     "subtype": "druid", 
                     "sections": [
                         {
                             "body": "<p id=\"nature-bond\">A dragon shaman who chooses an animal companion must select a crocodile or monitor lizard. If choosing a domain, the dragon shaman must choose from the Air, Animal, Destruction, Earth, Fire, War, and Water domains.</p>", 
-                            "name": "Nature Bond", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman/Nature Bond", 
-                            "section_id": 1105, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Nature Bond", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"wild-empathy\">A dragon shaman can use her wild empathy ability with lizards as a full-round action with a +4 bonus. </p>", 
                             "name": "Wild Empathy", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman/Wild Empathy", 
                             "ability_types": {
-                                "ability_type_id": 115, 
-                                "section_id": 1106, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1106, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1073,11 +924,8 @@
                             "name": "Totem Transformation", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman/Totem Transformation", 
                             "ability_types": {
-                                "ability_type_id": 116, 
-                                "section_id": 1107, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1107, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1086,11 +934,8 @@
                             "name": "Totemic Summons", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman/Totemic Summons", 
                             "ability_types": {
-                                "ability_type_id": 117, 
-                                "section_id": 1108, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1108, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1099,11 +944,8 @@
                             "name": "Wild Shape", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman/Wild Shape", 
                             "ability_types": {
-                                "ability_type_id": 118, 
-                                "section_id": 1109, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1109, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1112,21 +954,17 @@
                             "name": "Dragon Bite", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman/Dragon Bite", 
                             "ability_types": {
-                                "ability_type_id": 119, 
-                                "section_id": 1110, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1110, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a dragon shaman gains one of the following bonus feats: Combat Casting, Dazzling Display, Magical Aptitude, Skill Focus (Knowledge [arcana]), and Spell Penetration. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
-                            "name": "Bonus Feat", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Dragon Shaman/Bonus Feat", 
-                            "section_id": 1111, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Bonus Feat", 
+                            "source": "Ultimate Magic"
                         }
                     ]
                 }, 
@@ -1136,7 +974,6 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Menhir Savant", 
                     "type": "class_archetype", 
-                    "section_id": 1112, 
                     "subtype": "druid", 
                     "sections": [
                         {
@@ -1144,11 +981,8 @@
                             "name": "Spirit Sense", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Menhir Savant/Spirit Sense", 
                             "ability_types": {
-                                "ability_type_id": 120, 
-                                "section_id": 1113, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 1113, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1157,11 +991,8 @@
                             "name": "Place Magic", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Menhir Savant/Place Magic", 
                             "ability_types": {
-                                "ability_type_id": 121, 
-                                "section_id": 1114, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1114, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1170,11 +1001,8 @@
                             "name": "Walk the Lines", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Menhir Savant/Walk the Lines", 
                             "ability_types": {
-                                "ability_type_id": 122, 
-                                "section_id": 1115, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1115, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1183,11 +1011,8 @@
                             "name": "Empty Body", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Menhir Savant/Empty Body", 
                             "ability_types": {
-                                "ability_type_id": 123, 
-                                "section_id": 1116, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1116, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }
@@ -1199,7 +1024,6 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Mooncaller", 
                     "type": "class_archetype", 
-                    "section_id": 1117, 
                     "subtype": "druid", 
                     "sections": [
                         {
@@ -1207,11 +1031,8 @@
                             "name": "Night Sight", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Mooncaller/Night Sight", 
                             "ability_types": {
-                                "ability_type_id": 124, 
-                                "section_id": 1118, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1118, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1220,11 +1041,8 @@
                             "name": "Resist Call of the Wild", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Mooncaller/Resist Call of the Wild", 
                             "ability_types": {
-                                "ability_type_id": 125, 
-                                "section_id": 1119, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1119, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1233,11 +1051,8 @@
                             "name": "Purity of Body", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Mooncaller/Purity of Body", 
                             "ability_types": {
-                                "ability_type_id": 126, 
-                                "section_id": 1120, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1120, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1246,11 +1061,8 @@
                             "name": "Wolfsbane", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Mooncaller/Wolfsbane", 
                             "ability_types": {
-                                "ability_type_id": 127, 
-                                "section_id": 1121, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1121, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }
@@ -1262,7 +1074,6 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Pack Lord", 
                     "type": "class_archetype", 
-                    "section_id": 1122, 
                     "subtype": "druid", 
                     "sections": [
                         {
@@ -1270,11 +1081,8 @@
                             "name": "Pack Bond", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Pack Lord/Pack Bond", 
                             "ability_types": {
-                                "ability_type_id": 128, 
-                                "section_id": 1123, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1123, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1283,11 +1091,8 @@
                             "name": "Improved Empathic Link", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Pack Lord/Improved Empathic Link", 
                             "ability_types": {
-                                "ability_type_id": 129, 
-                                "section_id": 1124, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1124, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }
@@ -1299,7 +1104,6 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid", 
                     "type": "class_archetype", 
-                    "section_id": 1125, 
                     "subtype": "druid", 
                     "sections": [
                         {
@@ -1307,11 +1111,8 @@
                             "name": "Mysterious Stranger", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid/Mysterious Stranger", 
                             "ability_types": {
-                                "ability_type_id": 130, 
-                                "section_id": 1126, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1126, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1320,11 +1121,8 @@
                             "name": "Resist Death's Touch", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid/Resist Deaths Touch", 
                             "ability_types": {
-                                "ability_type_id": 131, 
-                                "section_id": 1127, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1127, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1333,11 +1131,8 @@
                             "name": "Many Lives", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid/Many Lives", 
                             "ability_types": {
-                                "ability_type_id": 132, 
-                                "section_id": 1128, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1128, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1346,11 +1141,8 @@
                             "name": "Wild Shape", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid/Wild Shape", 
                             "ability_types": {
-                                "ability_type_id": 133, 
-                                "section_id": 1129, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1129, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1359,11 +1151,8 @@
                             "name": "Cheat Death", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid/Cheat Death", 
                             "ability_types": {
-                                "ability_type_id": 134, 
-                                "section_id": 1130, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1130, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1372,11 +1161,8 @@
                             "name": "Tongue of the Sun and Moon", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid/Tongue of the Sun and Moon", 
                             "ability_types": {
-                                "ability_type_id": 135, 
-                                "section_id": 1131, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1131, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }
@@ -1388,27 +1174,22 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman", 
                     "type": "class_archetype", 
-                    "section_id": 1132, 
                     "subtype": "druid", 
                     "sections": [
                         {
                             "body": "<p id=\"nature-bond\">A saurian shaman who chooses an animal companion must select a dinosaur. If choosing a domain, a saurian shaman must choose from the Animal, Destruction, Strength, and War domains.</p>", 
-                            "name": "Nature Bond", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Nature Bond", 
-                            "section_id": 1133, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Nature Bond", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"wild-empathy\">A saurian shaman can use wild empathy with dinosaurs and reptiles as a full-round action with a +4 bonus. </p>", 
                             "name": "Wild Empathy", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Wild Empathy", 
                             "ability_types": {
-                                "ability_type_id": 136, 
-                                "section_id": 1134, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1134, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1417,11 +1198,8 @@
                             "name": "Totem Transformation", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Totem Transformation", 
                             "ability_types": {
-                                "ability_type_id": 137, 
-                                "section_id": 1135, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1135, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1430,11 +1208,8 @@
                             "name": "Totemic Summons", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Totemic Summons", 
                             "ability_types": {
-                                "ability_type_id": 138, 
-                                "section_id": 1136, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1136, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1443,21 +1218,17 @@
                             "name": "Wild Shape", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Wild Shape", 
                             "ability_types": {
-                                "ability_type_id": 139, 
-                                "section_id": 1137, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1137, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a saurian shaman gains one of the following bonus feats: Improved Overrun, Nimble Moves, Power Attack, Skill Focus (Intimidate), or Vital Strike. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
-                            "name": "Bonus Feat", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Bonus Feat", 
-                            "section_id": 1138, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Bonus Feat", 
+                            "source": "Ultimate Magic"
                         }
                     ]
                 }, 
@@ -1467,27 +1238,22 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman", 
                     "type": "class_archetype", 
-                    "section_id": 1139, 
                     "subtype": "druid", 
                     "sections": [
                         {
                             "body": "<p id=\"nature-bond\">A shark shaman who chooses an animal companion must select a shark. If choosing a domain, a shark shaman may choose the Animal, Death, War, or Water domain.</p>", 
-                            "name": "Nature Bond", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Nature Bond", 
-                            "section_id": 1140, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Nature Bond", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"wild-empathy\">A shark shaman can use wild empathy with fish as a full-round action with a +4 bonus. </p>", 
                             "name": "Wild Empathy", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Wild Empathy", 
                             "ability_types": {
-                                "ability_type_id": 140, 
-                                "section_id": 1141, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1141, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1496,11 +1262,8 @@
                             "name": "Totem Transformation", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Totem Transformation", 
                             "ability_types": {
-                                "ability_type_id": 141, 
-                                "section_id": 1142, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1142, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1509,11 +1272,8 @@
                             "name": "Totemic Summons", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Totemic Summons", 
                             "ability_types": {
-                                "ability_type_id": 142, 
-                                "section_id": 1143, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1143, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1522,21 +1282,17 @@
                             "name": "Wild Shape", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Wild Shape", 
                             "ability_types": {
-                                "ability_type_id": 143, 
-                                "section_id": 1144, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1144, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"bonus-feat\">At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats: Bleeding Critical, Improved Initiative, Lightning Reflexes, Self-Sufficient, or Skill Focus (Swim). She must meet prerequisites for these bonus feats. This ability replaces venom immunity. </p>", 
-                            "name": "Bonus Feat", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Bonus Feat", 
-                            "section_id": 1145, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Bonus Feat", 
+                            "source": "Ultimate Magic"
                         }
                     ]
                 }, 
@@ -1546,27 +1302,22 @@
                     "source": "Ultimate Magic", 
                     "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid", 
                     "type": "class_archetype", 
-                    "section_id": 1146, 
                     "subtype": "druid", 
                     "sections": [
                         {
                             "body": "<p id=\"spontaneous-domain-casting\">A storm druid can channel stored spell energy into domain spells that she has not prepared ahead of time. She can &ldquo;lose&rdquo; a prepared spell in order to cast any domain spell of the same level or lower. This replaces spontaneous casting.</p>", 
-                            "name": "Spontaneous Domain Casting", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Spontaneous Domain Casting", 
-                            "section_id": 1147, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Spontaneous Domain Casting", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"nature-bond\">A storm druid may not choose an animal companion. A storm druid must choose the Air or Weather domain, or the Cloud, Storm, or Wind subdomain.</p>", 
                             "name": "Nature Bond", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Nature Bond", 
                             "ability_types": {
-                                "ability_type_id": 144, 
-                                "section_id": 1148, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1148, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1575,11 +1326,8 @@
                             "name": "Windwalker", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Windwalker", 
                             "ability_types": {
-                                "ability_type_id": 145, 
-                                "section_id": 1149, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1149, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1588,11 +1336,8 @@
                             "name": "Stormvoice", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Stormvoice", 
                             "ability_types": {
-                                "ability_type_id": 146, 
-                                "section_id": 1150, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1150, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
@@ -1601,44 +1346,35 @@
                             "name": "Eyes of the Storm", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Eyes of the Storm", 
                             "ability_types": {
-                                "ability_type_id": 147, 
-                                "section_id": 1151, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1151, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"windlord\">At 9th level, a storm druid can select another domain or subdomain from those available to her through her nature bond. This ability replaces venom immunity. </p>", 
-                            "name": "Windlord", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Windlord", 
-                            "section_id": 1152, 
-                            "source": "Ultimate Magic", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Windlord", 
+                            "source": "Ultimate Magic"
                         }, 
                         {
                             "body": "<p id=\"storm-lord\">At 13th level, a storm druid is unaffected by natural and magical wind effects. She also becomes immune to deafness and gains +2 bonus on saving throws against sonic effects. This ability replaces a thousand faces.</p>", 
                             "name": "Storm Lord", 
                             "url": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Storm Lord", 
                             "ability_types": {
-                                "ability_type_id": 148, 
-                                "section_id": 1153, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1153, 
                             "source": "Ultimate Magic", 
                             "type": "ability"
                         }
                     ]
                 }
             ], 
-            "section_id": 1103, 
-            "source": "Ultimate Magic", 
-            "type": "section"
+            "name": "Druid Archetypes", 
+            "source": "Ultimate Magic"
         }
     ], 
-    "section_id": 1008, 
-    "source": "Ultimate Magic", 
-    "type": "section"
+    "name": "Druid", 
+    "source": "Ultimate Magic"
 }

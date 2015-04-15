@@ -5,7 +5,7 @@
     "intelligence": "8", 
     "racial_modifiers": "+8 Acrobatics when jumping, +8 Perception", 
     "resist": "acid 10, cold 10, fire 10", 
-    "melee": "mwk halberd +10 (1d10+4/&times;3 plus disease), gore +3 (1d6+2) or gore +8 (1d6+4)", 
+    "melee": "mwk halberd +10 (1d10+4/&times;3 plus disease), gore +3 (1d6+1) or gore +8 (1d6+4)", 
     "cr": "4", 
     "xp": "1,200", 
     "speed": "30 ft.", 
@@ -35,26 +35,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Demon/Schir/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A schir gnaws constantly at the ends of its halberd. This infuses the blades with disease from the demon's filthy spittle. Any creature struck by a schir's halberd must succeed at a DC 15 Fortitude save or contract gray pox&mdash;a frightening disease that causes weakness, gray splotches on the skin, and eventual catatonia. The save DC is Constitution-based. Halberd:", 
                     "name": "Disease", 
                     "url": "pfsrd://Bestiary 3/Monsters/Demon/Schir/Special Abilities/Disease", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 161, 
-                        "section_id": 541, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 541, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Gray Pox", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Demon/Schir/Special Abilities/Disease/Gray Pox", 
-                            "contracted": "injury", 
-                            "section_id": 542, 
+                            "contracted": "Halberd&mdash;injury", 
                             "effect": "1d6 Strength damage", 
                             "onset": "1 day", 
                             "subtype": "disease", 
@@ -63,40 +56,37 @@
                             "save": "Fortitude DC 15", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 540, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A schir resembles a tall, muscular humanoid with the head and hooves of a demonic goat. A ragged hide covers patches of a schir's body, usually around the forearms and lower legs, with a crestlike patch running down from the creature's crown to the nape of its neck. Schir demons are 7 feet tall, though they usually stoop and so appear shorter, and weigh 300 pounds. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 543
+            "type": "section"
         }, 
         {
             "body": "<p>Also known as spite demons, schirs are among the most violent and vile-tempered inhabitants of the Abyss. Schirs are formed from the souls of mortals who either committed or framed others for heinous crimes&mdash;acts committed for the sole purpose of petty retribution. Despite such origins, schirs occupy one of the lowest orders in the demonic hierarchy, often serving as front-line infantry in demonic armies or as guards for minor demonic commanders.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 544
+            "type": "section"
         }, 
         {
             "body": "<p>Although not especially intelligent, schirs are cunning warriors and able sentries. Although they prefer to charge into combat, a schir's natural jumping ability makes it a nimble enemy, capable of using its surroundings astutely. A schir will often jump on top of rocks, crumbling walls, or any other high place to hack with its disease-ridden halberd. For all of schirs' capabilities, their spitefulness makes them distrustful of any creature that has not proven its greater power and strength numerous times.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 545
+            "type": "section"
         }, 
         {
             "body": "<p>A schir set loose upon the Material Plane quickly seeks to set itself up as a leader of its own army&mdash;often, schirs seek out tribes of savage humanoids and attempt to replace the current leaders. They are particularly fond of infiltrating gnoll tribes.  </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 546
+            "type": "section"
         }
     ], 
     "hp": "37 (5d10+10)", 
-    "section_id": 539, 
     "wisdom": "5", 
     "creature_type": "Outsider", 
     "dr": "5/cold iron or good", 

@@ -5,7 +5,6 @@
     "url": "pfsrd://Core Rulebook/Classes/Barbarian", 
     "type": "class", 
     "image": "Barbarian.png", 
-    "section_id": 1712, 
     "subtype": "core", 
     "hit_die": "d12", 
     "alt": "Amiri", 
@@ -14,71 +13,61 @@
             "body": "<p>Barbarians excel in combat, possessing the martial prowess and fortitude to take on foes seemingly far superior to themselves. With rage granting them boldness and daring beyond that of most other warriors, barbarians charge furiously into battle and ruin all who would stand in their way.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 1713
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for barbarian characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Barbarian</td><td>3d6 &times; 10 gp</td><td>105 gp</td></tr></table>", 
                     "source": "Core Rulebook", 
-                    "type": "table", 
-                    "section_id": 1715
+                    "type": "table"
                 }
             ], 
-            "section_id": 1714, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The barbarian's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Knowledge (nature) (Int), Perception (Wis), Ride (Dex), Survival (Wis), and Swim (Str).</p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>4 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-3-2-barbarian\"><caption>Table: Barbarian</caption><thead><tr><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+1</td><td>+2</td><td>+0</td><td>+0</td><td>Fast movement, rage</td></tr><tr class=\"even\"><td>2nd</td><td>+2</td><td>+3</td><td>+0</td><td>+0</td><td>Rage power, uncanny dodge</td></tr><tr class=\"odd\"><td>3rd</td><td>+3</td><td>+3</td><td>+1</td><td>+1</td><td>Trap sense +1</td></tr><tr class=\"even\"><td>4th</td><td>+4</td><td>+4</td><td>+1</td><td>+1</td><td>Rage power</td></tr><tr class=\"odd\"><td>5th</td><td>+5</td><td>+4</td><td>+1</td><td>+1</td><td>Improved uncanny dodge</td></tr><tr class=\"even\"><td>6th</td><td>+6/+1</td><td>+5</td><td>+2</td><td>+2</td><td>Rage power, Trap sense +2</td></tr><tr class=\"odd\"><td>7th</td><td>+7/+2</td><td>+5</td><td>+2</td><td>+2</td><td>Damage reduction 1/&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+8/+3</td><td>+6</td><td>+2</td><td>+2</td><td>Rage power</td></tr><tr class=\"odd\"><td>9th</td><td>+9/+4</td><td>+6</td><td>+3</td><td>+3</td><td>Trap sense +3</td></tr><tr class=\"even\"><td>10th</td><td>+10/+5</td><td>+7</td><td>+3</td><td>+3</td><td>Damage reduction 2/&mdash;, Rage power</td></tr><tr class=\"odd\"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+3</td><td>+3</td><td>Greater rage</td></tr><tr class=\"even\"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+4</td><td>+4</td><td>Rage power, Trap sense +4</td></tr><tr class=\"odd\"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+4</td><td>+4</td><td>Damage reduction 3/&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+4</td><td>+4</td><td>Indomitable will, Rage power</td></tr><tr class=\"odd\"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+5</td><td>+5</td><td>Trap sense +5</td></tr><tr class=\"even\"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+5</td><td>Damage reduction 4/&mdash;, Rage power</td></tr><tr class=\"odd\"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+5</td><td>Tireless rage</td></tr><tr class=\"even\"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+6</td><td>Rage power, Trap sense +6</td></tr><tr class=\"odd\"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+6</td><td>Damage reduction 5/&mdash;</td></tr><tr class=\"even\"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+6</td><td>Mighty rage, Rage power</td></tr></table>", 
-                            "name": "Table: Barbarian", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Skills/Skill Ranks per Level/Table Barbarian", 
-                            "section_id": 1718, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Barbarian", 
+                            "source": "Core Rulebook"
                         }
                     ], 
-                    "section_id": 1717, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 1716, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>All of the following are class features of the barbarian.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1720
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"fast-movement\">A barbarian's land speed is faster than the norm for her race by +10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the barbarian's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed.</p>", 
                     "name": "Fast Movement", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Fast Movement", 
                     "ability_types": {
-                        "ability_type_id": 20, 
-                        "section_id": 1721, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1721, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -87,11 +76,8 @@
                     "name": "Rage", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage", 
                     "ability_types": {
-                        "ability_type_id": 21, 
-                        "section_id": 1722, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1722, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -99,14 +85,6 @@
                     "body": "<p id=\"rage-powers\">As a barbarian gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an action first. Unless otherwise noted, a barbarian cannot select an individual power more than once.</p>", 
                     "name": "Rage Powers", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 22, 
-                        "section_id": 1723, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1723, 
-                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<p id=\"rage-powers-animal-fury\">While raging, the barbarian gains a bite attack. If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus &ndash;5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier. A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus.</p>", 
@@ -114,11 +92,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Animal Fury", 
                             "ability_types": {
-                                "ability_type_id": 23, 
-                                "section_id": 1724, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1724, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -128,11 +103,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Clear Mind", 
                             "ability_types": {
-                                "ability_type_id": 24, 
-                                "section_id": 1725, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1725, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -142,11 +114,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Fearless Rage", 
                             "ability_types": {
-                                "ability_type_id": 25, 
-                                "section_id": 1726, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1726, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -156,11 +125,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Guarded Stance", 
                             "ability_types": {
-                                "ability_type_id": 26, 
-                                "section_id": 1727, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1727, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -170,11 +136,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Increased Damage Reduction", 
                             "ability_types": {
-                                "ability_type_id": 27, 
-                                "section_id": 1728, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1728, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -184,11 +147,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Internal Fortitude", 
                             "ability_types": {
-                                "ability_type_id": 28, 
-                                "section_id": 1729, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1729, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -198,11 +158,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Intimidating Glare", 
                             "ability_types": {
-                                "ability_type_id": 29, 
-                                "section_id": 1730, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1730, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -212,11 +169,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Knockback", 
                             "ability_types": {
-                                "ability_type_id": 30, 
-                                "section_id": 1731, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1731, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -226,11 +180,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Low-Light Vision", 
                             "ability_types": {
-                                "ability_type_id": 31, 
-                                "section_id": 1732, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1732, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -240,11 +191,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Mighty Swing", 
                             "ability_types": {
-                                "ability_type_id": 32, 
-                                "section_id": 1733, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1733, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -254,11 +202,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Moment of Clarity", 
                             "ability_types": {
-                                "ability_type_id": 33, 
-                                "section_id": 1734, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1734, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -268,11 +213,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Night Vision", 
                             "ability_types": {
-                                "ability_type_id": 34, 
-                                "section_id": 1735, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1735, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -282,11 +224,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/No Escape", 
                             "ability_types": {
-                                "ability_type_id": 35, 
-                                "section_id": 1736, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1736, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -296,11 +235,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Powerful Blow", 
                             "ability_types": {
-                                "ability_type_id": 36, 
-                                "section_id": 1737, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1737, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -310,11 +246,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Quick Reflexes", 
                             "ability_types": {
-                                "ability_type_id": 37, 
-                                "section_id": 1738, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1738, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -324,11 +257,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Raging Climber", 
                             "ability_types": {
-                                "ability_type_id": 38, 
-                                "section_id": 1739, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1739, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -338,11 +268,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Raging Leaper", 
                             "ability_types": {
-                                "ability_type_id": 39, 
-                                "section_id": 1740, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1740, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -352,11 +279,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Raging Swimmer", 
                             "ability_types": {
-                                "ability_type_id": 40, 
-                                "section_id": 1741, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1741, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -366,11 +290,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Renewed Vigor", 
                             "ability_types": {
-                                "ability_type_id": 41, 
-                                "section_id": 1742, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1742, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -380,11 +301,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Rolling Dodge", 
                             "ability_types": {
-                                "ability_type_id": 42, 
-                                "section_id": 1743, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1743, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -394,11 +312,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Roused Anger", 
                             "ability_types": {
-                                "ability_type_id": 43, 
-                                "section_id": 1744, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1744, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -408,11 +323,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Scent", 
                             "ability_types": {
-                                "ability_type_id": 44, 
-                                "section_id": 1745, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1745, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -422,11 +334,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Strength Surge", 
                             "ability_types": {
-                                "ability_type_id": 45, 
-                                "section_id": 1746, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1746, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -436,11 +345,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Superstition", 
                             "ability_types": {
-                                "ability_type_id": 46, 
-                                "section_id": 1747, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1747, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -450,11 +356,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Surprise Accuracy", 
                             "ability_types": {
-                                "ability_type_id": 47, 
-                                "section_id": 1748, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1748, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -464,11 +367,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Swift Foot", 
                             "ability_types": {
-                                "ability_type_id": 48, 
-                                "section_id": 1749, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1749, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -478,11 +378,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Terrifying Howl", 
                             "ability_types": {
-                                "ability_type_id": 49, 
-                                "section_id": 1750, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1750, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }, 
@@ -492,38 +389,35 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Rage Powers/Unexpected Strike", 
                             "ability_types": {
-                                "ability_type_id": 50, 
-                                "section_id": 1751, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1751, 
                             "subtype": "barbarian_rage_power", 
                             "type": "ability"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Core Rulebook", 
+                    "type": "ability"
                 }, 
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Rage Powers: Advanced Player's Guide", 
-                    "section_id": 1752
+                    "name": "Rage Powers: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Rage Powers: Ultimate Combat", 
-                    "section_id": 1753
+                    "name": "Rage Powers: Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"uncanny-dodge-barbarian\">At 2nd level, a barbarian gains the ability to react to danger before her senses would normally allow her to do so. She cannot be caught flat-footed, even if the attacker is invisible. She still loses her Dexterity bonus to AC if immobilized. A barbarian with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint action against her.</p><p>If a barbarian already has uncanny dodge from a different class, she automatically gains improved uncanny dodge (see below) instead.</p>", 
                     "name": "Uncanny Dodge", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Uncanny Dodge", 
                     "ability_types": {
-                        "ability_type_id": 51, 
-                        "section_id": 1754, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1754, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -532,11 +426,8 @@
                     "name": "Trap Sense", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Trap Sense", 
                     "ability_types": {
-                        "ability_type_id": 52, 
-                        "section_id": 1755, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1755, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -545,11 +436,8 @@
                     "name": "Improved Uncanny Dodge", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Improved Uncanny Dodge", 
                     "ability_types": {
-                        "ability_type_id": 53, 
-                        "section_id": 1756, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1756, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -558,11 +446,8 @@
                     "name": "Damage Reduction", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Damage Reduction", 
                     "ability_types": {
-                        "ability_type_id": 54, 
-                        "section_id": 1757, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1757, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -571,11 +456,8 @@
                     "name": "Greater Rage", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Greater Rage", 
                     "ability_types": {
-                        "ability_type_id": 55, 
-                        "section_id": 1758, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1758, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -584,11 +466,8 @@
                     "name": "Indomitable Will", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Indomitable Will", 
                     "ability_types": {
-                        "ability_type_id": 56, 
-                        "section_id": 1759, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1759, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -597,11 +476,8 @@
                     "name": "Tireless Rage", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Tireless Rage", 
                     "ability_types": {
-                        "ability_type_id": 57, 
-                        "section_id": 1760, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1760, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -610,47 +486,39 @@
                     "name": "Mighty Rage", 
                     "url": "pfsrd://Core Rulebook/Classes/Barbarian/Class Features/Mighty Rage", 
                     "ability_types": {
-                        "ability_type_id": 58, 
-                        "section_id": 1761, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1761, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 1719, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Core Rulebook"
         }, 
         {
-            "name": "Barbarian Archetypes", 
             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Barbarian Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Barbarian Archetypes: Advanced Player's Guide", 
-                    "section_id": 1763
+                    "name": "Barbarian Archetypes: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Barbarian Archetypes: Ultimate Combat", 
-                    "section_id": 1764
+                    "name": "Barbarian Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 1762, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Barbarian Archetypes", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>A barbarian who becomes lawful loses the ability to rage and cannot gain more levels as a barbarian. She retains all other benefits of the class.</p>", 
-            "name": "Ex-Barbarians", 
             "url": "pfsrd://Core Rulebook/Classes/Barbarian/Ex-Barbarians", 
-            "section_id": 1765, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Ex-Barbarians", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any nonlawful."

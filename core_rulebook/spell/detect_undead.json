@@ -7,13 +7,16 @@
     "type": "spell", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "level_text": "Alchemist: 1; Cleric: 1; Inquisitor: 1; Oracle: 1; Paladin: 1; Sorcerer: 1; Wizard: 1", 
-    "section_id": 164, 
+    "level_text": "Alchemist: 1; Arcanist: 1; Cleric: 1; Inquisitor: 1; Oracle: 1; Paladin: 1; Shaman: 1; Sorcerer: 1; Warpriest: 1; Wizard: 1", 
     "source": "Core Rulebook", 
     "range": "60 ft.", 
     "levels": [
         {
             "class": "Alchemist", 
+            "level": 1
+        }, 
+        {
+            "class": "Arcanist", 
             "level": 1
         }, 
         {
@@ -33,7 +36,15 @@
             "level": 1
         }, 
         {
+            "class": "Shaman", 
+            "level": 1
+        }, 
+        {
             "class": "Sorcerer", 
+            "level": 1
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 1
         }, 
         {
@@ -67,17 +78,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>HD</th><th>Strength</th><th>Lingering Aura Duration</th></tr></thead><tbody><tr class=\"odd\"><td>1 or lower</td><td>Faint</td><td>1d6 rounds</td></tr><tr class=\"even\"><td>2&ndash;4</td><td>Moderate</td><td>1d6 minutes</td></tr><tr class=\"odd\"><td>5&ndash;10</td><td>Strong</td><td>1d6 &times; 10 minutes</td></tr><tr class=\"even\"><td>11 or higher</td><td>Overwhelming</td><td>1d6 days</td></tr></tbody></table>", 
-            "name": "HD", 
             "url": "pfsrd://Core Rulebook/Spells/Detect Undead/HD", 
-            "section_id": 165, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "HD", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>", 
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 166
+            "type": "section"
         }
     ], 
     "component_text": "V, S, M/DF (earth from a grave)", 

@@ -1,18 +1,17 @@
 {
-    "level_text": "Cleric: 2; Inquisitor: 2; Oracle: 2; Paladin: 2; Witch: 2", 
-    "duration": "1 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>Creatures within the emanation area (or those who enter it) can't speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Subjects within range cannot lie.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Zone Of Truth", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 696, 
+    "level_text": "Cleric: 2; Inquisitor: 2; Oracle: 2; Paladin: 2; Warpriest: 2; Witch: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Cleric", 
@@ -31,6 +30,10 @@
             "level": 2
         }, 
         {
+            "class": "Warpriest", 
+            "level": 2
+        }, 
+        {
             "class": "Witch", 
             "level": 2
         }
@@ -42,14 +45,6 @@
             "name": "Area"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Zone Of Truth", 
-    "url": "pfsrd://Core Rulebook/Spells/Zone Of Truth", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -60,5 +55,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Zone Of Truth"
 }

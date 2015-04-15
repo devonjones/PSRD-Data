@@ -5,7 +5,6 @@
     "url": "pfsrd://Core Rulebook/Classes/Wizard", 
     "type": "class", 
     "image": "Wizard.png", 
-    "section_id": 2575, 
     "subtype": "core", 
     "hit_die": "d6", 
     "alt": "Ezren", 
@@ -14,137 +13,121 @@
             "body": "<p>While universalist wizards might study to prepare themselves for any manner of danger, specialist wizards research schools of magic that make them exceptionally skilled within a specific focus. Yet no matter their specialty, all wizards are masters of the impossible and can aid their allies in overcoming any danger.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 2576
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for wizard characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Wizard</td><td>2d6 &times; 10 gp</td><td>70 gp</td></tr></table>", 
                     "source": "Core Rulebook", 
-                    "type": "table", 
-                    "section_id": 2578
+                    "type": "table"
                 }
             ], 
-            "section_id": 2577, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The wizard's class skills are Appraise (Int), Craft (Int), Fly (Dex), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), and Spellcraft (Int). </p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>2 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-3-16-wizard\"><caption>Table: Wizard</caption><thead><tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"10\">Spells per Day</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Arcane bond, arcane school,cantrips, Scribe Scroll</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\"></td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+1</td><td>+1</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\"></td><td>4</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\"></td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Bonus feat</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\"></td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+4</td><td>+2</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+4</td><td>+3</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Bonus feat</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+7/+2</td><td>+4</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+7/+2</td><td>+5</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\">Bonus feat</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"even\"><td>18th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td></tr><tr class=\"odd\"><td>19th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td></tr><tr class=\"even\"><td>20th</td><td>+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">Bonus feat</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td></tr></table>", 
-                            "name": "Table: Wizard", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Class Skills/Skill Ranks per Level/Table Wizard", 
-                            "section_id": 2581, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Wizard", 
+                            "source": "Core Rulebook"
                         }
                     ], 
-                    "section_id": 2580, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 2579, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The following are the class features of the wizard.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. Armor interferes with a wizard's movements, which can cause his spells with somatic components to fail.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 2583
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"spells-wizard\">A wizard casts arcane spells drawn from the sorcerer/wizard spell list presented in Spell Lists. A wizard must choose and prepare his spells ahead of time.</p><p>To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a wizard's spell is 10 + the spell level + the wizard's Intelligence modifier.</p><p>A wizard can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: Wizard. In addition, he receives bonus spells per day if he has a high Intelligence score (see Table: Ability Modifiers and Bonus Spells).</p><p>A wizard may know any number of spells. He must choose and prepare his spells ahead of time by getting 8 hours of sleep and spending 1 hour studying his spellbook. While studying, the wizard decides which spells to prepare.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 2584
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"bonus-languages-wizard\">A wizard may substitute Draconic for one of the bonus languages available to the character because of his race.</p>", 
-                    "name": "Bonus Languages", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Class Features/Bonus Languages", 
-                    "section_id": 2585, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Bonus Languages", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"arcane-bond\">At 1st level, wizards form a powerful bond with an object or a creature. This bond can take one of two forms: a familiar or a bonded object. A familiar is a magical pet that enhances the wizard's skills and senses and can aid him in magic, while a bonded object is an item a wizard can use to cast additional spells or to serve as a magical item. Once a wizard makes this choice, it is permanent and cannot be changed. Rules for bonded items are given below, while rules for familiars are at the end of this section.</p><p>Wizards who select a bonded object begin play with one at no cost. Objects that are the subject of an arcane bond must fall into one of the following categories: amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be held in one hand. If a wizard attempts to cast a spell without his bonded object worn or in hand, he must make a concentration check or lose the spell. The DC for this check is equal to 20 + the spell's level. If the object is a ring or amulet, it occupies the ring or neck slot accordingly.</p><p>A bonded object can be used once per day to cast any one spell that the wizard has in his spellbook and is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the wizard, including casting time, duration, and other effects dependent on the wizard's level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from the wizard's opposition schools (see arcane school).</p><p>A wizard can add additional magic abilities to his bonded object as if he has the required item creation feats and if he meets the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see the Craft Magic Arms and Armor feat in Feats). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p><p>If a bonded object is damaged, it is restored to full hit points the next time the wizard prepares his spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. A wizard can designate an existing magic item as his bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>", 
                     "name": "Arcane Bond", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Class Features/Arcane Bond", 
                     "ability_types": {
-                        "ability_type_id": 340, 
-                        "section_id": 2586, 
                         "ability_type": "Spell-Like"
                     }, 
-                    "section_id": 2586, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
                 {
                     "body": "<p id=\"arcane-school\">A wizard can choose to specialize in one school of magic, gaining additional spells and powers based on that school. This choice must be made at 1st level, and once made, it cannot be changed. A wizard that does not select a school receives the universalist school instead.</p><p>A wizard that chooses to specialize in one school of magic must select two other schools as his opposition schools, representing knowledge sacrificed in one area of arcane lore to gain mastery in another. A wizard who prepares spells from his opposition schools must use two spell slots of that level to prepare the spell. For example, a wizard with evocation as an opposition school must expend two of his available 3rd-level spell slots to prepare a <i>fireball</i>. In addition, a specialist takes a &ndash;4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools as a prerequisite. A universalist wizard can prepare spells from any school without restriction.</p><p>Each arcane school gives the wizard a number of school powers. In addition, specialist wizards receive an additional spell slot of each spell level he can cast, from 1st on up. Each day, a wizard can prepare a spell from his specialty school in that slot. This spell must be in the wizard's spellbook. A wizard can select a spell modified by a metamagic feat to prepare in his school slot, but it uses up a higher-level spell slot. Wizards with the universalist school do not receive a school slot.</p>", 
-                    "name": "Arcane School", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Class Features/Arcane School", 
-                    "section_id": 2587, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Arcane School", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"cantrips-wizard\"> Wizards can prepare a number of cantrips, or 0-level spells, each day, as noted on Table: Wizard under &ldquo;Spells per Day.&rdquo; These spells are cast like any other spell, but they are not expended when cast and may be used again. A wizard can prepare a cantrip from a prohibited school, but it uses up two of his available slots (see below).</p>", 
-                    "name": "Cantrips", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Class Features/Cantrips", 
-                    "section_id": 2588, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cantrips", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"scribe-scroll\">At 1st level, a wizard gains Scribe Scroll as a bonus feat. </p>", 
-                    "name": "Scribe Scroll", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Class Features/Scribe Scroll", 
-                    "section_id": 2589, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Scribe Scroll", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"bonus-feats-wizard\">At 5th, 10th, 15th, and 20th level, a wizard gains a bonus feat. At each such opportunity, he can choose a metamagic feat, an item creation feat, or Spell Mastery. The wizard must still meet all prerequisites for a bonus feat, including caster level minimums. These bonus feats are in addition to the feats that a character of any class gets from advancing levels. The wizard is not limited to the categories of item creation feats, metamagic feats, or Spell Mastery when choosing those feats.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Bonus Feats", 
-                    "section_id": 2590
+                    "name": "Bonus Feats"
                 }, 
                 {
                     "body": "<p id=\"spellbooks\">A wizard must study his spellbook each day to prepare his spells. He cannot prepare any spell not recorded in his spellbook, except for <i>read magic</i>, which all wizards can prepare from memory.</p><p>A wizard begins play with a spellbook containing all 0-level wizard spells (except those from his prohibited schools, if any; see Arcane Schools) plus three 1st-level spells of his choice. The wizard also selects a number of additional 1st-level spells equal to his Intelligence modifier to add to the spellbook. At each new wizard level, he gains two new spells of any spell level or levels that he can cast (based on his new wizard level) for his spellbook. At any time, a wizard can also add spells found in other wizards' spellbooks to his own (see Magic).</p>", 
-                    "name": "Spellbooks", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Class Features/Spellbooks", 
-                    "section_id": 2591, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Spellbooks", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 2582, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The following descriptions detail each arcane school and its corresponding powers.</p>", 
             "name": "Arcane Schools", 
             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools", 
+            "type": "section", 
+            "source": "Core Rulebook", 
             "sections": [
                 {
                     "body": "<p>The abjurer uses magic against itself, and masters the art of defensive and warding magics.</p>", 
@@ -152,7 +135,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Abjuration School", 
                     "type": "section", 
-                    "section_id": 2593, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -160,11 +142,8 @@
                             "name": "Resistance", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Abjuration School/Resistance", 
                             "ability_types": {
-                                "ability_type_id": 341, 
-                                "section_id": 2594, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2594, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -173,11 +152,8 @@
                             "name": "Protective Ward", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Abjuration School/Protective Ward", 
                             "ability_types": {
-                                "ability_type_id": 342, 
-                                "section_id": 2595, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2595, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -186,11 +162,8 @@
                             "name": "Energy Absorption", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Abjuration School/Energy Absorption", 
                             "ability_types": {
-                                "ability_type_id": 343, 
-                                "section_id": 2596, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2596, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -202,7 +175,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Conjuration School", 
                     "type": "section", 
-                    "section_id": 2597, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -210,11 +182,8 @@
                             "name": "Summoner's Charm", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Conjuration School/Summoners Charm", 
                             "ability_types": {
-                                "ability_type_id": 344, 
-                                "section_id": 2598, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2598, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -223,11 +192,8 @@
                             "name": "Acid Dart", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Conjuration School/Acid Dart", 
                             "ability_types": {
-                                "ability_type_id": 345, 
-                                "section_id": 2599, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2599, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -236,11 +202,8 @@
                             "name": "Dimensional Steps", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Conjuration School/Dimensional Steps", 
                             "ability_types": {
-                                "ability_type_id": 346, 
-                                "section_id": 2600, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2600, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -252,7 +215,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Divination School", 
                     "type": "section", 
-                    "section_id": 2601, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -260,11 +222,8 @@
                             "name": "Forewarned", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Divination School/Forewarned", 
                             "ability_types": {
-                                "ability_type_id": 347, 
-                                "section_id": 2602, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2602, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -273,11 +232,8 @@
                             "name": "Diviner's Fortune", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Divination School/Diviners Fortune", 
                             "ability_types": {
-                                "ability_type_id": 348, 
-                                "section_id": 2603, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2603, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -286,11 +242,8 @@
                             "name": "Scrying Adept", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Divination School/Scrying Adept", 
                             "ability_types": {
-                                "ability_type_id": 349, 
-                                "section_id": 2604, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2604, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -302,7 +255,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Enchantment School", 
                     "type": "section", 
-                    "section_id": 2605, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -310,11 +262,8 @@
                             "name": "Enchanting Smile", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Enchantment School/Enchanting Smile", 
                             "ability_types": {
-                                "ability_type_id": 350, 
-                                "section_id": 2606, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2606, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -323,11 +272,8 @@
                             "name": "Dazing Touch", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Enchantment School/Dazing Touch", 
                             "ability_types": {
-                                "ability_type_id": 351, 
-                                "section_id": 2607, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2607, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -336,11 +282,8 @@
                             "name": "Aura of Despair", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Enchantment School/Aura of Despair", 
                             "ability_types": {
-                                "ability_type_id": 352, 
-                                "section_id": 2608, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2608, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -352,7 +295,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Evocation School", 
                     "type": "section", 
-                    "section_id": 2609, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -360,11 +302,8 @@
                             "name": "Intense Spells", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Evocation School/Intense Spells", 
                             "ability_types": {
-                                "ability_type_id": 353, 
-                                "section_id": 2610, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2610, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -373,11 +312,8 @@
                             "name": "Force Missile", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Evocation School/Force Missile", 
                             "ability_types": {
-                                "ability_type_id": 354, 
-                                "section_id": 2611, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2611, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -386,11 +322,8 @@
                             "name": "Elemental Wall", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Evocation School/Elemental Wall", 
                             "ability_types": {
-                                "ability_type_id": 355, 
-                                "section_id": 2612, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2612, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -402,7 +335,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Illusion School", 
                     "type": "section", 
-                    "section_id": 2613, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -410,11 +342,8 @@
                             "name": "Extended Illusions", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Illusion School/Extended Illusions", 
                             "ability_types": {
-                                "ability_type_id": 356, 
-                                "section_id": 2614, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2614, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -423,11 +352,8 @@
                             "name": "Blinding Ray", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Illusion School/Blinding Ray", 
                             "ability_types": {
-                                "ability_type_id": 357, 
-                                "section_id": 2615, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2615, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -436,11 +362,8 @@
                             "name": "Invisibility Field", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Illusion School/Invisibility Field", 
                             "ability_types": {
-                                "ability_type_id": 358, 
-                                "section_id": 2616, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2616, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -452,7 +375,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Necromancy School", 
                     "type": "section", 
-                    "section_id": 2617, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -460,11 +382,8 @@
                             "name": "Power over Undead", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Necromancy School/Power over Undead", 
                             "ability_types": {
-                                "ability_type_id": 359, 
-                                "section_id": 2618, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2618, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -473,11 +392,8 @@
                             "name": "Grave Touch", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Necromancy School/Grave Touch", 
                             "ability_types": {
-                                "ability_type_id": 360, 
-                                "section_id": 2619, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2619, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -486,11 +402,8 @@
                             "name": "Life Sight", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Necromancy School/Life Sight", 
                             "ability_types": {
-                                "ability_type_id": 361, 
-                                "section_id": 2620, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2620, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -502,7 +415,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Transmutation School", 
                     "type": "section", 
-                    "section_id": 2621, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -510,11 +422,8 @@
                             "name": "Physical Enhancement", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Transmutation School/Physical Enhancement", 
                             "ability_types": {
-                                "ability_type_id": 362, 
-                                "section_id": 2622, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2622, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -523,11 +432,8 @@
                             "name": "Telekinetic Fist", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Transmutation School/Telekinetic Fist", 
                             "ability_types": {
-                                "ability_type_id": 363, 
-                                "section_id": 2623, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2623, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -536,11 +442,8 @@
                             "name": "Change Shape", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Transmutation School/Change Shape", 
                             "ability_types": {
-                                "ability_type_id": 364, 
-                                "section_id": 2624, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2624, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
@@ -552,7 +455,6 @@
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Universalist School", 
                     "type": "section", 
-                    "section_id": 2625, 
                     "subtype": "arcane_school", 
                     "sections": [
                         {
@@ -560,11 +462,8 @@
                             "name": "Hand of the Apprentice", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Universalist School/Hand of the Apprentice", 
                             "ability_types": {
-                                "ability_type_id": 365, 
-                                "section_id": 2626, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2626, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -573,140 +472,122 @@
                             "name": "Metamagic Mastery", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Schools/Universalist School/Metamagic Mastery", 
                             "ability_types": {
-                                "ability_type_id": 366, 
-                                "section_id": 2627, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2627, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
                     ]
                 }
-            ], 
-            "section_id": 2592, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            ]
         }, 
         {
             "source": "Advanced Player's Guide", 
             "type": "link", 
-            "name": "Elemental Arcane Schools: Advanced Player's Guide", 
-            "section_id": 2628
+            "name": "Elemental Arcane Schools: Advanced Player's Guide"
         }, 
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Elemental Arcane Schools: Ultimate Magic", 
-            "section_id": 2629
+            "name": "Elemental Arcane Schools: Ultimate Magic"
         }, 
         {
             "source": "Advanced Player's Guide", 
             "type": "link", 
-            "name": "Focused Arcane Schools: Advanced Player's Guide", 
-            "section_id": 2630
+            "name": "Focused Arcane Schools: Advanced Player's Guide"
         }, 
         {
             "body": "<p>A familiar is an animal chosen by a spellcaster to aid him in his study of magic. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but is now a magical beast for the purpose of effects that depend on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.</p><p>A familiar grants special abilities to its master, as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.</p><p>Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master's level.</p><p>If a familiar is dismissed, lost or dies, it can be replaced 1 week later through a specialized ritual that costs 200 gp per wizard level. The ritual takes 8 hours to complete.</p>", 
             "name": "Familiars", 
             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars", 
+            "type": "section", 
+            "source": "Core Rulebook", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Familiar</th><th>Special Ability</th></tr></thead><tbody><tr class=\"odd\"><td>Bat</td><td>Master gains a +3 bonus on Fly checks</td></tr><tr class=\"even\"><td>Cat</td><td>Master gains a +3 bonus on Stealth checks</td></tr><tr class=\"odd\"><td>Hawk</td><td>Master gains a +3 bonus on sight-based and opposed Perception checks in bright light</td></tr><tr class=\"even\"><td>Lizard</td><td>Master gains a +3 bonus on Climb checks</td></tr><tr class=\"odd\"><td>Monkey</td><td>Master gains a +3 bonus on Acrobatics checks</td></tr><tr class=\"even\"><td>Owl</td><td>Master gains a +3 bonus on sight-based and opposed Perception checks in shadows or darkness</td></tr><tr class=\"odd\"><td>Rat</td><td>Master gains a +2 bonus on Fortitude saves</td></tr><tr class=\"even\"><td>Raven*</td><td>Master gains a +3 bonus on Appraise checks</td></tr><tr class=\"odd\"><td>Viper</td><td>Master gains a +3 bonus on Bluff checks</td></tr><tr class=\"even\"><td>Toad</td><td>Master gains +3 hit points</td></tr><tr class=\"odd\"><td>Weasel</td><td>Master gains a +2 bonus on Reflex saves</td></tr></tbody><tfoot><tr><td colspan=\"2\">*A raven familiar can speak one language of its master's choice as a supernatural ability.</td></tr></tfoot></table>", 
-                    "name": "Familiar", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar", 
-                    "section_id": 2632, 
-                    "source": "Core Rulebook", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Familiar", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>Use the basic statistics for a creature of the familiar's kind, but with the following changes.</p>", 
                     "name": "Familiar Basics", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Basics", 
+                    "type": "section", 
+                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<p>For the purpose of effects related to number of Hit Dice, use the master's character level or the familiar's normal HD total, whichever is higher.</p>", 
-                            "name": "Hit Dice", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Basics/Hit Dice", 
-                            "section_id": 2634, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Hit Dice", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The familiar has half the master's total hit points (not including temporary hit points), rounded down, regardless of its actual Hit Dice.</p>", 
-                            "name": "Hit Points", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Basics/Hit Points", 
-                            "section_id": 2635, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Hit Points", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>Use the master's base attack bonus, as calculated from all his classes. Use the familiar's Dexterity or Strength modifier, whichever is greater, to calculate the familiar's melee attack bonus with natural weapons. </p><p>Damage equals that of a normal creature of the familiar's kind.</p>", 
-                            "name": "Attacks", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Basics/Attacks", 
-                            "section_id": 2636, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Attacks", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>For each saving throw, use either the familiar's base save bonus (Fortitude +2, Reflex +2, Will +0) or the master's (as calculated from all his classes), whichever is better. The familiar uses its own ability modifiers to saves, and it doesn't share any of the other bonuses that the master might have on saves.</p>", 
-                            "name": "Saving Throws", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Basics/Saving Throws", 
-                            "section_id": 2637, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Saving Throws", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>For each skill in which either the master or the familiar has ranks, use either the normal skill ranks for an animal of that type or the master's skill ranks, whichever is better. In either case, the familiar uses its own ability modifiers. Regardless of a familiar's total skill modifiers, some skills may remain beyond the familiar's ability to use. Familiars treat Acrobatics, Climb, Fly, Perception, Stealth, and Swim as class skills.</p>", 
                             "source": "Core Rulebook", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 2638
+                            "name": "Skills"
                         }
-                    ], 
-                    "section_id": 2633, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p>All familiars have special abilities (or impart abilities to their masters) depending on the master's combined level in classes that grant familiars, as shown on the table below. The abilities are cumulative. </p>", 
                     "name": "Familiar Ability Descriptions", 
                     "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions", 
+                    "type": "section", 
+                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<table><thead><tr><th>Master Class Level</th><th>Natural Armor Adj.</th><th>Int</th><th>Special</th></tr></thead><tr class=\"odd\"><td>1st&ndash;2nd</td><td>+1</td><td>6</td><td>Alertness, improved evasion, share spells, empathic link</td></tr><tr class=\"even\"><td>3rd&ndash;4th</td><td>+2</td><td>7</td><td>Deliver touch spells</td></tr><tr class=\"odd\"><td>5th&ndash;6th</td><td>+3</td><td>8</td><td>Speak with master</td></tr><tr class=\"even\"><td>7th&ndash;8th</td><td>+4</td><td>9</td><td>Speak with animals of its kind</td></tr><tr class=\"odd\"><td>9th&ndash;10th</td><td>+5</td><td>10</td><td>&mdash;</td></tr><tr class=\"even\"><td>11th&ndash;12th</td><td>+6</td><td>11</td><td>Spell resistance</td></tr><tr class=\"odd\"><td>13th&ndash;14th</td><td>+7</td><td>12</td><td>Scry on familiar</td></tr><tr class=\"even\"><td>15th&ndash;16th</td><td>+8</td><td>13</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th&ndash;18th</td><td>+9</td><td>14</td><td>&mdash;</td></tr><tr class=\"even\"><td>19th&ndash;20th</td><td>+10</td><td>15</td><td>&mdash;</td></tr></table>", 
-                            "name": "Master Class Level", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Master Class Level", 
-                            "section_id": 2640, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Master Class Level", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The number noted here is in addition to the familiar's existing natural armor bonus.</p>", 
-                            "name": "Natural Armor Adj.", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Natural Armor Adj.", 
-                            "section_id": 2641, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Natural Armor Adj.", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p>The familiar's Intelligence score.</p>", 
-                            "name": "Int", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Int", 
-                            "section_id": 2642, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Int", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p id=\"familiar-alertness\">While a familiar is within arm's reach, the master gains the Alertness feat.</p>", 
                             "name": "Alertness", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Alertness", 
                             "ability_types": {
-                                "ability_type_id": 367, 
-                                "section_id": 2643, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2643, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -715,32 +596,25 @@
                             "name": "Improved Evasion", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Improved Evasion", 
                             "ability_types": {
-                                "ability_type_id": 368, 
-                                "section_id": 2644, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2644, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"familiar-share-spells\">The wizard may cast a spell with a target of &ldquo;You&rdquo; on his familiar (as a touch spell) instead of on himself. A wizard may cast spells on his familiar even if the spells do not normally affect creatures of the familiar's type (magical beast).</p>", 
-                            "name": "Share Spells", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Share Spells", 
-                            "section_id": 2645, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Share Spells", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p id=\"familiar-empathic-link\">The master has an empathic link with his familiar to a 1 mile distance. The master can communicate empathically with the familiar, but cannot see through its eyes. Because of the link's limited nature, only general emotions can be shared. The master has the same connection to an item or place that his familiar does.</p>", 
                             "name": "Empathic Link", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Empathic Link", 
                             "ability_types": {
-                                "ability_type_id": 369, 
-                                "section_id": 2646, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2646, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -749,11 +623,8 @@
                             "name": "Deliver Touch Spells", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Deliver Touch Spells", 
                             "ability_types": {
-                                "ability_type_id": 370, 
-                                "section_id": 2647, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 2647, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -762,11 +633,8 @@
                             "name": "Speak with Master", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Speak with Master", 
                             "ability_types": {
-                                "ability_type_id": 371, 
-                                "section_id": 2648, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2648, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -775,11 +643,8 @@
                             "name": "Speak with Animals of Its Kind", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Speak with Animals of Its Kind", 
                             "ability_types": {
-                                "ability_type_id": 372, 
-                                "section_id": 2649, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2649, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -788,11 +653,8 @@
                             "name": "Spell Resistance", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Spell Resistance", 
                             "ability_types": {
-                                "ability_type_id": 373, 
-                                "section_id": 2650, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2650, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -801,38 +663,27 @@
                             "name": "Scry on Familiar", 
                             "url": "pfsrd://Core Rulebook/Classes/Wizard/Familiars/Familiar Ability Descriptions/Scry on Familiar", 
                             "ability_types": {
-                                "ability_type_id": 374, 
-                                "section_id": 2651, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 2651, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 2639, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    ]
                 }
-            ], 
-            "section_id": 2631, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Armor restricts the complicated gestures required while casting any spell that has a somatic component. The armor and shield descriptions list the arcane spell failure chance for different armors and shields.</p><p>If a spell doesn't have a somatic component, an arcane spellcaster can cast it with no arcane spell failure chance while wearing armor. Such spells can also be cast even if the caster's hands are bound or he is grappling (although concentration checks still apply normally). The metamagic feat Still Spell allows a spellcaster to prepare or cast a spell without the somatic component at one spell level higher than normal. This also provides a way to cast a spell while wearing armor without risking arcane spell failure.</p>", 
-            "name": "Arcane Spells and Armor", 
             "url": "pfsrd://Core Rulebook/Classes/Wizard/Arcane Spells and Armor", 
-            "section_id": 2652, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Arcane Spells and Armor", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Wizards gain access to the following spells.</p>", 
             "name": "Wizard Spells", 
             "source": "Core Rulebook", 
             "url": "pfsrd://Core Rulebook/Classes/Wizard/Wizard Spells", 
-            "section_id": 2653, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "wizard"
@@ -840,29 +691,25 @@
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Arcane Discoveries: Ultimate Magic", 
-            "section_id": 2654
+            "name": "Arcane Discoveries: Ultimate Magic"
         }, 
         {
-            "name": "Wizard Archetypes", 
             "url": "pfsrd://Core Rulebook/Classes/Wizard/Wizard Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Wizard Archetypes: Ultimate Magic", 
-                    "section_id": 2656
+                    "name": "Wizard Archetypes: Ultimate Magic"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Wizard Archetypes: Ultimate Combat", 
-                    "section_id": 2657
+                    "name": "Wizard Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 2655, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Wizard Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

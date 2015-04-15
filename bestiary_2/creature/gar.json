@@ -1,6 +1,6 @@
 {
     "dexterity": "14", 
-    "ac": "12, touch 12, flat-footed 11 (+2 Dex, +1 natural)", 
+    "ac": "13, touch 12, flat-footed 11 (+2 Dex, +1 natural)", 
     "intelligence": "1", 
     "melee": "bite +3 (1d6+3 plus grab)", 
     "cr": "1", 
@@ -24,29 +24,37 @@
         {
             "body": "<p>Gars are predatory fish that live in deep lakes and rivers. Sleek and swift, they regard anything their own size or smaller as food. A typical gar is 7 feet long and weighs 200 pounds. One species known as the alligator gar can grow to lengths of 10 feet. An alligator gar is a gar with the advanced creature template.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 917
+            "type": "section"
         }, 
         {
-            "body": "<p id=\"starting-statistics\"><b>Size</b> Medium; <b>Speed</b> swim 60 ft.; <b>AC</b> +1 natural; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2; <b>Special Ability</b> grab.</p>", 
+            "ac": "+1 natural", 
             "name": "Gar", 
+            "source": "Bestiary 2", 
+            "url": "pfsrd://Bestiary 2/Monsters/Gar/Gar/Gar", 
+            "speed": "swim 60 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2", 
+            "special_abilities": "grab.", 
             "sections": [
                 {
-                    "body": "<p id=\"7th-level-advancement\"><b>Size</b> Large; <b>AC</b> +3 natural; <b>Attack</b> bite (1d8), <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4</p>", 
+                    "ac": "+3 natural", 
                     "name": "7th-Level Advancement", 
+                    "level": "7th", 
                     "url": "pfsrd://Bestiary 2/Monsters/Gar/Gar/Gar/7th-Level Advancement", 
-                    "section_id": 919, 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d8)", 
                     "source": "Bestiary 2", 
-                    "type": "section"
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "type": "animal_companion", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 918, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            "size": "Medium"
         }
     ], 
     "hp": "13 (2d8+4)", 
-    "section_id": 916, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Gar", 

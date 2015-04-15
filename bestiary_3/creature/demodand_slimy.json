@@ -1,13 +1,13 @@
 {
     "dexterity": "18", 
     "ac": "30, touch 13, flat-footed 27 (+6 armor, +3 Dex, +11 natural)", 
-    "special_attacks": "acid, dread claws, faith-stealing strike", 
+    "special_attacks": "acid, dread claws, faith-stealing strike (DC 23)", 
     "intelligence": "14", 
     "resist": "cold 10, fire 10", 
     "melee": "bite +30 (1d10+9 plus 2d6 acid), 2 claws +30 (2d6+13/19-20 plus 2d6 acid and grab)", 
     "cr": "16", 
     "xp": "76,800", 
-    "speed": "20 ft., fly 40 ft. (average)", 
+    "speed": "30 ft., fly 60 ft. (average), 20 ft., fly 40 ft. (average) in armor", 
     "alignment": "CE", 
     "size": "Medium", 
     "languages": "Abyssal, Celestial, Common", 
@@ -34,17 +34,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Demodand/Slimy/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A slimy demodand is coated in an ever-dripping layer of acid that deals an extra 2d6 points of acid damage on a successful natural attack. In addition, opponents that successfully strike a slimy demodand with an unarmed strike or natural attack take 2d6 points of acid damage.", 
                     "name": "Acid", 
                     "url": "pfsrd://Bestiary 3/Monsters/Demodand/Slimy/Special Abilities/Acid", 
                     "ability_types": {
-                        "ability_type_id": 155, 
-                        "section_id": 515, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 515, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -53,41 +52,32 @@
                     "name": "Dread Claws", 
                     "url": "pfsrd://Bestiary 3/Monsters/Demodand/Slimy/Special Abilities/Dread Claws", 
                     "ability_types": {
-                        "ability_type_id": 156, 
-                        "section_id": 516, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 516, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 514, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Slimy demodands are more muscular than shaggy demodands, but aren't as lithe or quick as their tarry brethren. They have froglike heads, similar to those of the shaggy demodands, but their constantly darting eyes give them a more feral look. A slimy demodand stands 6 feet tall and weighs 500 pounds. </p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 517
+            "type": "section"
         }, 
         {
             "body": "<p>Slimy demodands often serve as shock troops in demodand armies, but they are also frequently put in charge of gathering and keeping slaves. Slimy demodands have no magical mind control powers, but prefer to rely upon intimidation and physical threats anyway to manage their slaves and keep them in line.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 518
+            "type": "section"
         }
     ], 
     "hp": "241 (21d10+126)", 
-    "section_id": 513, 
     "wisdom": "15", 
     "creature_type": "Outsider", 
     "special_qualities": "heretical soul", 
     "dr": "10/good and magic", 
     "name": "Demodand, Slimy", 
     "base_attack": "+21", 
-    "skills": "Acrobatics +11, Bluff +27, Climb +19, Fly +25, Intimidate +36, Knowledge (arcana) +13, Knowledge (planes) +13, Sense Motive +26, Spellcraft +20, Stealth +25, Survival +20", 
+    "skills": "Acrobatics +8, Bluff +27, Climb +16, Fly +25, Intimidate +36, Knowledge (arcana) +13, Knowledge (planes) +13, Sense Motive +26, Spellcraft +20, Stealth +25, Survival +20", 
     "reflex": "+13", 
     "cmd": "44", 
     "cmb": "+30 (+34 grapple)", 

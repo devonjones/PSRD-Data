@@ -28,64 +28,57 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Eel/Giant Moray/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "If a giant moray begins a round with a grabbed foe, it inflicts automatic bite damage (2d6+9 points of damage). A giant moray eel possesses a second set of jaws in its throat that aid in swallowing&mdash;it can make a second bite attack (+11 attack, 1d6+3) against a foe it has already grabbed.", 
                     "name": "Gnaw", 
                     "url": "pfsrd://Bestiary/Monsters/Eel/Giant Moray/Special Abilities/Gnaw", 
                     "ability_types": {
-                        "ability_type_id": 320, 
-                        "section_id": 1351, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1351, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1350, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The moray eel is a ferocious predator, capable of holding prey in its primary jaws while a smaller set of jaws inside its throat chews away bite-sized portions.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1352
+            "type": "section"
         }, 
         {
             "ac": "+5 natural armor", 
             "name": "Moray Eel", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Eel/Giant Moray/Moray Eel", 
+            "speed": "swim 30 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d8)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8", 
             "sections": [
                 {
                     "ac": "+3 natural armor", 
                     "name": "7th-Level Advancement", 
                     "level": "7th", 
                     "url": "pfsrd://Bestiary/Monsters/Eel/Giant Moray/Moray Eel/7th-Level Advancement", 
-                    "section_id": 1354, 
                     "subtype": "advancement", 
                     "attack": "bite (2d6)", 
                     "source": "Bestiary", 
-                    "special_qualities": "gnaw", 
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
                     "type": "animal_companion", 
-                    "ability_scores": "Str +8, Dex &ndash;2, Con +4"
+                    "special_qualities": "gnaw.", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 1353, 
-            "subtype": "base", 
-            "attack": "bite (1d8)", 
-            "type": "animal_companion", 
-            "special_qualities": "low-light vision, grab", 
-            "speed": "swim 30 ft.", 
-            "ability_scores": "Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8", 
+            "special_qualities": "low-light vision, grab.", 
             "size": "Medium"
         }
     ], 
     "hp": "52 (7d8+21)", 
     "reach": "10 ft.", 
-    "section_id": 1349, 
     "wisdom": "12", 
     "creature_type": "Animal", 
     "name": "Eel, Giant Moray", 

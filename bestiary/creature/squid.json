@@ -25,17 +25,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A squid can emit a 5-foot-radius cloud of ink once per minute as a free action while underwater. This cloud provides total concealment. The ink persists for 1 minute.", 
                     "name": "Ink Cloud", 
                     "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Special Abilities/Ink Cloud", 
                     "ability_types": {
-                        "ability_type_id": 547, 
-                        "section_id": 2634, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2634, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -44,54 +43,44 @@
                     "name": "Jet", 
                     "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Special Abilities/Jet", 
                     "ability_types": {
-                        "ability_type_id": 548, 
-                        "section_id": 2635, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2635, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 2633, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Squids are aggressive predators that fear little and are more than willing to attack prey larger than themselves.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2636
+            "type": "section"
         }, 
         {
-            "ac": "+1 natural armor", 
+            "ac": "+1 natural", 
             "name": "Squid", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Squid", 
-            "sections": [
-                {
-                    "name": "4th-Level Advancement", 
-                    "level": "4th", 
-                    "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Squid/4th-Level Advancement", 
-                    "section_id": 2638, 
-                    "subtype": "advancement", 
-                    "source": "Bestiary", 
-                    "ability_scores": "Str +2, Con +2", 
-                    "type": "animal_companion"
-                }
-            ], 
-            "section_id": 2637, 
+            "speed": "swim 60 ft., jet 240 ft.", 
             "subtype": "base", 
             "attack": "tentacles (1d4 plus grab), bite (1d3)", 
             "type": "animal_companion", 
-            "special_qualities": "low-light vision, ink cloud", 
-            "speed": "swim 60 ft., jet 240 ft.", 
             "ability_scores": "Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2", 
+            "sections": [
+                {
+                    "name": "4th-Level Advancement", 
+                    "source": "Bestiary", 
+                    "url": "pfsrd://Bestiary/Monsters/Squid/Squid/Squid/4th-Level Advancement", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "ability_scores": "Str +2, Con +2.", 
+                    "type": "animal_companion"
+                }
+            ], 
+            "special_qualities": "low-light vision, ink cloud.", 
             "size": "Medium"
         }
     ], 
     "hp": "13 (3d8)", 
-    "section_id": 2632, 
     "wisdom": "12", 
     "defensive_abilities": "ink cloud (5-ft. radius)", 
     "creature_type": "Animal", 

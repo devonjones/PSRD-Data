@@ -1,6 +1,6 @@
 {
     "dexterity": "19", 
-    "ac": "34, touch 11, flat-footed 32 (+9 armor, +1 Dex, +1 dodge, +12 natural, +2 shield, -1 size) (+2 deflection vs. evil)", 
+    "ac": "34, touch 11, flat-footed 32 (+9 armor, +1 Dex, +1 dodge, +12 natural, +2 shield, -1 size; +2 deflection vs. evil)", 
     "special_attacks": "smite evil 1/day (+6 attack and AC, +29 damage)", 
     "intelligence": "20", 
     "melee": "+5 holy starknife +29/+24/+19/+14 (1d6+12/&times;3)", 
@@ -37,17 +37,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Archon/Star/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When killed, a star archon explodes in a blinding flash of energy that deals 50 points of damage (half fire, half holy damage) to anything within 100 feet (Reflex DC 29 half). The save DC is Constitution-based. The slain archon reincarnates 1d4 rounds later as an advanced shield archon.", 
                     "name": "Explosive Rebirth", 
                     "url": "pfsrd://Bestiary 2/Monsters/Archon/Star/Special Abilities/Explosive Rebirth", 
                     "ability_types": {
-                        "ability_type_id": 44, 
-                        "section_id": 169, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 169, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -55,24 +54,18 @@
                     "body": "Star archons cast divine spells as 19th-level clerics. They do not gain access to domains or other cleric abilities.", 
                     "source": "Bestiary 2", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 170
+                    "name": "Spells"
                 }
-            ], 
-            "section_id": 168, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Star archons are the tacticians and strategists of Heaven. Gifted with insight and powerful magic, they spend much of their time steering long-term plans for Heaven's armies and good folk in the world.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 171
+            "type": "section"
         }
     ], 
     "hp": "294 (19d10+190); regeneration 10 (evil weapons and effects)", 
     "reach": "10 ft.", 
-    "section_id": 167, 
     "wisdom": "24", 
     "defensive_abilities": "explosive rebirth", 
     "creature_type": "Outsider", 

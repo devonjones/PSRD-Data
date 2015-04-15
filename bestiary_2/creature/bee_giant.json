@@ -25,26 +25,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Bee/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Sting:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Bee/Giant/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 65, 
-                        "section_id": 253, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 253, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Giant Bee Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Bee/Giant/Special Abilities/Poison/Giant Bee Venom", 
                             "contracted": "injury", 
-                            "section_id": 254, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -52,54 +45,48 @@
                             "save": "Fortitude DC 12", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "Smoke from particularly smoky fires or effects (such as that created by a pyrotechnics spell) causes a giant bee to become nauseated if it fails a DC 14 Fortitude save. This condition persists as long as the giant bee remains in the smoke, plus 1d4 rounds.", 
                     "name": "Vulnerable to Smoke", 
                     "url": "pfsrd://Bestiary 2/Monsters/Bee/Giant/Special Abilities/Vulnerable to Smoke", 
                     "ability_types": {
-                        "ability_type_id": 66, 
-                        "section_id": 255, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 255, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 252, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Like their smaller cousins, giant bees fill their ecological niche by playing matchmaker for a vast array of flowering plant life. As a giant bee feeds on plant nectars, clumps of pollen attach to the coarse hairs covering its body and legs.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 256
+            "type": "section"
         }, 
         {
             "body": "<p>Giant bees grow to approximately 5 feet in length, with a similar wingspan. These creatures weigh 60 pounds and live in their adult form for nearly 10 years. Giant bees' stingers are not barbed like those of their diminutive counterparts, so these creatures can sting foes repeatedly and do not die after one sting.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 257
+            "type": "section"
         }, 
         {
             "body": "<p class=\"h2-body-2\">Giant Bumblebee (CR 2)</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 258
+            "type": "section"
         }, 
         {
             "body": "<p>These bulky and aggressive giant bees have the advanced creature simple template. Their venom is deadly, and deals Constitution damage rather than Strength damage.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 259
+            "type": "section"
         }
     ], 
     "hp": "16 (3d8+3)", 
     "weaknesses": "vulnerable to smoke", 
-    "section_id": 251, 
     "wisdom": "12", 
     "creature_type": "Vermin", 
     "name": "Bee, Giant", 

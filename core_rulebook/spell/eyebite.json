@@ -8,8 +8,7 @@
     "type": "spell", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "level_text": "Alchemist: 6; Bard: 6; Sorcerer: 6; Witch: 6; Wizard: 6", 
-    "section_id": 217, 
+    "level_text": "Alchemist: 6; Arcanist: 6; Bard: 6; Skald: 6; Sorcerer: 6; Witch: 6; Wizard: 6", 
     "descriptor": [
         "emotion", 
         "pain"
@@ -21,7 +20,15 @@
             "level": 6
         }, 
         {
+            "class": "Arcanist", 
+            "level": 6
+        }, 
+        {
             "class": "Bard", 
+            "level": 6
+        }, 
+        {
+            "class": "Skald", 
             "level": 6
         }, 
         {
@@ -56,17 +63,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>HD</th><th>Effect</th></tr></thead><tbody><tr class=\"odd\"><td>10 or more</td><td>Sickened</td></tr><tr class=\"even\"><td>5&ndash;9</td><td>Panicked, sickened</td></tr><tr class=\"odd\"><td>4 or less</td><td>Comatose, panicked, sickened</td></tr></tbody></table>", 
-            "name": "HD", 
             "url": "pfsrd://Core Rulebook/Spells/Eyebite/HD", 
-            "section_id": 218, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "HD", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The effects are cumulative and concurrent.</p><p><i>Sickened</i>: Sudden pain and fever sweeps over the subject's body. A creature affected by this spell remains sickened for 10 minutes per caster level. The effects cannot be negated by a <i>remove disease</i> or <i>heal</i> spell, but a <i>remove curse</i> is effective.</p><p><i>Panicked</i>: The subject becomes panicked for 1d4 rounds. Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time. This is a fear effect.</p><p><i>Comatose</i>: The subject falls into a catatonic coma for 10 minutes per caster level. During this time, it cannot be awakened by any means short of dispelling the effect. This is not a <i>sleep</i> effect, and thus elves are not immune to it.</p><p>You must spend a swift action each round after the first to target a foe.</p>", 
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 219
+            "type": "section"
         }
     ], 
     "component_text": "V, S", 

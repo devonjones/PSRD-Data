@@ -5,12 +5,15 @@
     "source": "Core Rulebook", 
     "url": "pfsrd://Core Rulebook/Spells/Create Greater Undead", 
     "type": "spell", 
-    "section_id": 114, 
-    "level_text": "Cleric: 8; Oracle: 8; Sorcerer: 8; Wizard: 8", 
+    "level_text": "Arcanist: 8; Cleric: 8; Oracle: 8; Shaman: 8; Sorcerer: 8; Warpriest: 8; Wizard: 8", 
     "descriptor": [
         "evil"
     ], 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 8
+        }, 
         {
             "class": "Cleric", 
             "level": 8
@@ -20,7 +23,15 @@
             "level": 8
         }, 
         {
+            "class": "Shaman", 
+            "level": 8
+        }, 
+        {
             "class": "Sorcerer", 
+            "level": 8
+        }, 
+        {
+            "class": "Warpriest", 
             "level": 8
         }, 
         {
@@ -32,11 +43,10 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Caster Level</th><th>Undead Created</th></tr></thead><tr class=\"odd\"><td>15th or lower</td><td>Shadow</td></tr><tr class=\"even\"><td>16th&ndash;17th</td><td>Wraith</td></tr><tr class=\"odd\"><td>18th&ndash;19th</td><td>Spectre</td></tr><tr class=\"even\"><td>20th or higher</td><td>Devourer</td></tr></table>", 
-            "name": "Caster Level", 
             "url": "pfsrd://Core Rulebook/Spells/Create Greater Undead/Caster Level", 
-            "section_id": 115, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Caster Level", 
+            "source": "Core Rulebook"
         }
     ], 
     "name": "Create Greater Undead"

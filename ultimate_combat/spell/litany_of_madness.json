@@ -1,18 +1,18 @@
 {
-    "level_text": "Antipaladin: 4; Inquisitor: 6", 
-    "duration": "1 or more rounds (see below)", 
-    "source": "Ultimate Combat", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "charm", 
-    "subschool": [
-        "charm"
-    ], 
-    "type": "spell", 
     "body": "<p class=\"stat-description-2\">This litany is a sermon of madness. The target is confused. At the start of each of its turns, it can make a Will saving throw against the confused effect (DC of the spell). If the target fails the save, it continues to be confused. If it makes the save, the effect ends.</p><p class=\"stat-description-indent-1\">While subject to this spell, the target cannot be the target of another spell that has the word &quot;litany&quot; in the title.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "no, see below", 
     "description": "A single target is confused for at least 1 round.", 
+    "source": "Ultimate Combat", 
+    "url": "pfsrd://Ultimate Combat/Spells/Litany Of Madness", 
     "spell_resistance": "yes", 
     "casting_time": "1 swift action", 
-    "section_id": 69, 
+    "level_text": "Antipaladin: 4; Inquisitor: 6", 
+    "descriptor": [
+        "language-dependent", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Antipaladin", 
@@ -30,15 +30,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "no, see below", 
-    "name": "Litany Of Madness", 
-    "url": "pfsrd://Ultimate Combat/Spells/Litany Of Madness", 
-    "descriptor": [
-        "language-dependent", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -49,5 +40,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 or more rounds (see below)", 
+    "subschool_text": "charm", 
+    "subschool": [
+        "charm"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Litany Of Madness"
 }

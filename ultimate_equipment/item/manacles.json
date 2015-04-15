@@ -1,7 +1,27 @@
 {
     "name": "Manacles", 
     "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Manacles", 
-    "type": "item", 
+    "sections": [
+        {
+            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Common</td><td>15 gp</td><td>2 lbs.</td></tr><tr class=\"even\"><td>Masterwork</td><td>50 gp</td><td>2 lbs.</td></tr><tr class=\"odd\"><td>Mithral</td><td>1,000 gp</td><td>2 lbs.</td></tr></table>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Manacles/Type", 
+            "type": "table", 
+            "name": "Type", 
+            "source": "Ultimate Equipment"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">Manacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points. </p><p class=\"stat-block\">Most manacles have locks; add the cost of the lock you want to the price of the manacles. </p><p class=\"stat-block\">For the same price, you can buy manacles for a Small creature. For a Large creature, manacles cost 10 times the indicated amount, and for a Huge creature, 100 times the indicated amount. Gargantuan, Colossal, Tiny, Diminutive, and Fine creatures can be held only by specially made manacles, which cost at least 100 times the indicated amount.</p>", 
+            "source": "Ultimate Equipment", 
+            "type": "section"
+        }, 
+        {
+            "body": "<p class=\"stat-block\">These bindings are more difficult to break than standard manacles and are particularly useful against lycanthropes. They have hardness 15, 30 hit points, and a break DC of 30. They are otherwise treated as masterwork manacles</p>", 
+            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Manacles/Mithral Manacles", 
+            "type": "section", 
+            "name": "Mithral Manacles", 
+            "source": "Ultimate Equipment"
+        }
+    ], 
     "misc": {
         "null": {
             "Gear Type": "Item", 
@@ -17,30 +37,6 @@
             "Price": "15 gp"
         }
     }, 
-    "section_id": 548, 
     "source": "Ultimate Equipment", 
-    "sections": [
-        {
-            "body": "<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead><tr class=\"odd\"><td>Common</td><td>15 gp</td><td>2 lbs.</td></tr><tr class=\"even\"><td>Masterwork</td><td>50 gp</td><td>2 lbs.</td></tr><tr class=\"odd\"><td>Mithral</td><td>1,000 gp</td><td>2 lbs.</td></tr></table>", 
-            "name": "Type", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Manacles/Type", 
-            "section_id": 549, 
-            "source": "Ultimate Equipment", 
-            "type": "table"
-        }, 
-        {
-            "body": "<p class=\"stat-block\">Manacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points. </p><p class=\"stat-block\">Most manacles have locks; add the cost of the lock you want to the price of the manacles. </p><p class=\"stat-block\">For the same price, you can buy manacles for a Small creature. For a Large creature, manacles cost 10 times the indicated amount, and for a Huge creature, 100 times the indicated amount. Gargantuan, Colossal, Tiny, Diminutive, and Fine creatures can be held only by specially made manacles, which cost at least 100 times the indicated amount.</p>", 
-            "source": "Ultimate Equipment", 
-            "type": "section", 
-            "section_id": 550
-        }, 
-        {
-            "body": "<p class=\"stat-block\">These bindings are more difficult to break than standard manacles and are particularly useful against lycanthropes. They have hardness 15, 30 hit points, and a break DC of 30. They are otherwise treated as masterwork manacles</p>", 
-            "name": "Mithral Manacles", 
-            "url": "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Manacles/Mithral Manacles", 
-            "section_id": 551, 
-            "source": "Ultimate Equipment", 
-            "type": "section"
-        }
-    ]
+    "type": "item"
 }

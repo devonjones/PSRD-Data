@@ -29,17 +29,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Tor/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Once every 1d4 rounds as a standard action, a tor linnorm can expel a 60-foot cone of flame and ash, dealing 24d8 points of fire damage to all creatures struck (Reflex DC 33 for half damage). One round after this breath weapon is used, the area affected by the attack becomes covered in a cloud of thick, scorching smoke that burns both the lungs and eyes, dealing an additional 8d8 points of fire damage to all creatures in the area. Each creature that begins its turn in the smoke-covered area and breathes must make a DC 33 (+ 1 per previous check) Fortitude save each round or spend that round choking and coughing. Creatures that keep their eyes open for more than 1 round while in the area of the smoke must make a DC 33 Fortitude save or go blind for 1d3 hours. The smoke dissipates after 2d4 rounds. This duration is halved in strong winds and quartered in more powerful winds. The save DC is Constitution-based.", 
                     "name": "Breath Weapon", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Tor/Special Abilities/Breath Weapon", 
                     "ability_types": {
-                        "ability_type_id": 430, 
-                        "section_id": 1435, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1435, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -48,11 +47,8 @@
                     "name": "Death Curse", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Tor/Special Abilities/Death Curse", 
                     "ability_types": {
-                        "ability_type_id": 431, 
-                        "section_id": 1436, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1436, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -61,11 +57,8 @@
                     "name": "Lava Affinity", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Tor/Special Abilities/Lava Affinity", 
                     "ability_types": {
-                        "ability_type_id": 432, 
-                        "section_id": 1437, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1437, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -73,21 +66,12 @@
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Tor/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 433, 
-                        "section_id": 1438, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1438, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Tor Linnorm Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Linnorm/Tor/Special Abilities/Poison/Tor Linnorm Venom", 
                             "contracted": "injury", 
-                            "section_id": 1439, 
                             "effect": "8d6 fire damage and 1d8 Constitution drain", 
                             "subtype": "poison", 
                             "cure": "3 consecutive saves", 
@@ -95,29 +79,28 @@
                             "save": "Fortitude DC 33", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1434, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Tor linnorms epitomize the raw and untempered power of their kin. They dwell in the tallest volcanic mountains, either in naturally formed caverns or in the craters themselves, and rain destruction down upon nearby mountain villages whenever the urge strikes them. Tor linnorms are brutes, but as far as linnorms go are relatively intelligent. With this intelligence comes an overwhelming vanity&mdash;unlike other linnorms, tor linnorms enjoy being adored and worshiped by lesser creatures, and have been known to delay eating prisoners who seem to be particularly cowed by their presence, simply basking in their victims' fear.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1440
+            "type": "section"
         }, 
         {
             "body": "<p>A tor linnorm is 50 feet long and weighs 15,000 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1441
+            "type": "section"
         }
     ], 
     "hp": "420 (24d12+264); regeneration 20 (cold iron)", 
     "reach": "30 ft.", 
-    "section_id": 1433, 
     "wisdom": "25", 
     "defensive_abilities": "freedom of movement", 
     "creature_type": "Dragon", 

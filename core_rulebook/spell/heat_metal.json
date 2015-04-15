@@ -8,8 +8,7 @@
     "type": "spell", 
     "spell_resistance": "yes (object)", 
     "casting_time": "1 standard action", 
-    "level_text": "Druid: 2", 
-    "section_id": 286, 
+    "level_text": "Druid: 2; Hunter: 2", 
     "descriptor": [
         "fire"
     ], 
@@ -17,6 +16,10 @@
     "levels": [
         {
             "class": "Druid", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
             "level": 2
         }
     ], 
@@ -42,17 +45,15 @@
     "sections": [
         {
             "body": "<table><thead><tr><th>Round</th><th>Metal Temperature</th><th>Damage</th></tr></thead><tbody><tr class=\"odd\"><td>1</td><td>Warm</td><td>None</td></tr><tr class=\"even\"><td>2</td><td>Hot</td><td>1d4 points</td></tr><tr class=\"odd\"><td>3&ndash;5</td><td>Searing</td><td>2d4 points</td></tr><tr class=\"even\"><td>6</td><td>Hot</td><td>1d4 points</td></tr><tr class=\"odd\"><td>7</td><td>Warm</td><td>None</td></tr></tbody></table>", 
-            "name": "Round", 
             "url": "pfsrd://Core Rulebook/Spells/Heat Metal/Round", 
-            "section_id": 287, 
-            "source": "Core Rulebook", 
-            "type": "table"
+            "type": "table", 
+            "name": "Round", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, <i>heat metal</i> deals half damage and boils the surrounding water.</p><p><i>Heat metal</i> counters and dispels <i>chill metal</i>.</p>", 
             "source": "Core Rulebook", 
-            "type": "section", 
-            "section_id": 288
+            "type": "section"
         }
     ], 
     "component_text": "V, S, DF", 

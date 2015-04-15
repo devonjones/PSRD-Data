@@ -22,7 +22,7 @@
     "fortitude": "+10", 
     "spells": [
         {
-            "spell-like abilities": "(CL 12th; concentration +19)<p class=\"stat-block-2\">At will-<i>charm person</i> (DC 18), <i>detect thoughts</i> (DC 19)</p><p class=\"stat-block-2\">3/day-<i>bestow curse</i> (DC 21), <i>suggestion</i> (DC 19)</p><p class=\"stat-block-2\">1/day-<i>hold monster</i> (DC 22), <i>summon nature's ally V</i> (1 ogre spider or 1d3 giant black widow spiders or 1d4+1 giant spiders)</p>"
+            "spell-like abilities": "(CL 12th; concentration +19)<p class=\"stat-block-2\">At will-<i>charm person</i> (DC 18), <i>detect thoughts</i> (DC 19)</p><p class=\"stat-block-2\">3/day-<i>bestow curse</i> (DC 21), <i>suggestion</i> (DC 20)</p><p class=\"stat-block-2\">1/day-<i>hold monster</i> (DC 22), <i>summon nature's ally V</i> (1 ogre spider or 1d3 giant black widow spiders or 1d4+1 giant spiders)</p>"
         }
     ], 
     "type": "creature", 
@@ -34,26 +34,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Jorogumo/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 3/Monsters/Jorogumo/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 378, 
-                        "section_id": 1222, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1222, 
-                    "source": "Bestiary 3", 
                     "sections": [
                         {
                             "name": "Jorogumo Venom", 
                             "source": "Bestiary 3", 
                             "url": "pfsrd://Bestiary 3/Monsters/Jorogumo/Special Abilities/Poison/Jorogumo Venom", 
                             "contracted": "injury", 
-                            "section_id": 1223, 
                             "effect": "1d6 Wisdom damage", 
                             "subtype": "disease", 
                             "cure": "3 saves", 
@@ -61,18 +54,20 @@
                             "save": "Fortitude DC 23", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 3", 
+                    "type": "ability"
                 }, 
                 {
-                    "body": "This ability functions as a druid's wild empathy, save that it works only on spiders. A jorogumo gains a racial bonus on this check equal to her Hit Dice (normally +14). Spiders are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing the jorogumo to train them and use them as guardians (though it does not grant them skills or feats).", 
+                    "body": "This ability functions as a druid's wild empathy, save that it works only on spiders. A jorogumo uses her Hit Dice (normally 14) as her effective druid level. Spiders are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing the jorogumo to train them and use them as guardians (though it does not grant them skills or feats).", 
                     "name": "Spider Empathy", 
                     "url": "pfsrd://Bestiary 3/Monsters/Jorogumo/Special Abilities/Spider Empathy", 
                     "ability_types": {
-                        "ability_type_id": 379, 
-                        "section_id": 1224, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1224, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -81,11 +76,8 @@
                     "name": "Spider Legs", 
                     "url": "pfsrd://Bestiary 3/Monsters/Jorogumo/Special Abilities/Spider Legs", 
                     "ability_types": {
-                        "ability_type_id": 380, 
-                        "section_id": 1225, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1225, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -94,28 +86,20 @@
                     "name": "Swift Shapechanger", 
                     "url": "pfsrd://Bestiary 3/Monsters/Jorogumo/Special Abilities/Swift Shapechanger", 
                     "ability_types": {
-                        "ability_type_id": 381, 
-                        "section_id": 1226, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1226, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1221, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Jorogumos are seductive schemers who secret themselves away in isolated mountain valleys where they lure travelers, especially men, to their dooms. Exclusively female, jorogumos must mate with humanoids to produce fertile eggs. After copulation, a jorogumo paralyzes her partner by poisoning him into a coma. She lays a single egg within the father's body, then cocoons the corpse and hides the victim. Periodic visits to re-poison the victim ensure his coma lasts for the 2d4 days required for the young jorogumo to hatch and feed. Jorogumos are enthusiastic enemies of tengus and attack them on sight&mdash;they never take tengus as &ldquo;mates.&rdquo;</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1227
+            "type": "section"
         }
     ], 
     "hp": "161 (14d10+84)", 
-    "section_id": 1220, 
     "wisdom": "17", 
     "creature_type": "Monstrous Humanoid", 
     "special_qualities": "change shape (giant spider; vermin shape I), spider empathy +21, swift shapechanger.", 

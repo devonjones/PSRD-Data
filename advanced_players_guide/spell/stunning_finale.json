@@ -1,21 +1,24 @@
 {
-    "level_text": "Bard: 5", 
-    "duration": "1 round", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You must have a bardic performance in effect to cast this spell. With a flourish, you immediately end your bardic performance, assaulting the senses of the targets with your finale. Each target is stunned for 1 round. On a successful saving throw, a target is staggered for 1 round.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Fortitude partial; see text", 
     "description": "Stuns 3 creatures for 1 round.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Stunning Finale", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 236, 
+    "level_text": "Bard: 5; Skald: 5", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
             "class": "Bard", 
+            "level": 5
+        }, 
+        {
+            "class": "Skald", 
             "level": 5
         }
     ], 
@@ -26,14 +29,6 @@
             "name": "Targets"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Fortitude partial; see text", 
-    "name": "Stunning Finale", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Stunning Finale", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -41,5 +36,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Stunning Finale"
 }

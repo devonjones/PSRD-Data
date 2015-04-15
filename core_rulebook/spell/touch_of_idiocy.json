@@ -1,19 +1,26 @@
 {
-    "level_text": "Sorcerer: 2; Witch: 2; Wizard: 2", 
-    "duration": "10 min./level", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>With a touch, you reduce the target's mental faculties. Your successful melee touch attack applies a 1d6 penalty to the target's Intelligence, Wisdom, and Charisma scores. This penalty can't reduce any of these scores below 1.</p><p>This spell's effect may make it impossible for the target to cast some or all of its spells, if the requisite ability score drops below the minimum required to cast spells of that level.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "no", 
     "description": "Subject takes 1d6 penalty to Int, Wis, and Cha.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Touch Of Idiocy", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 646, 
+    "level_text": "Arcanist: 2; Bloodrager: 2; Sorcerer: 2; Witch: 2; Wizard: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "touch", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 2
+        }, 
         {
             "class": "Sorcerer", 
             "level": 2
@@ -34,14 +41,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "no", 
-    "name": "Touch Of Idiocy", 
-    "url": "pfsrd://Core Rulebook/Spells/Touch Of Idiocy", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -49,5 +48,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "10 min./level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Touch Of Idiocy"
 }

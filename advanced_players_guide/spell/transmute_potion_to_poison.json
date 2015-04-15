@@ -6,8 +6,7 @@
     "url": "pfsrd://Advanced Players Guide/Spells/Transmute Potion To Poison", 
     "type": "spell", 
     "casting_time": "1 standard action", 
-    "level_text": "Alchemist: 2", 
-    "section_id": 251, 
+    "level_text": "Alchemist: 2; Investigator: 2", 
     "descriptor": [
         "poison"
     ], 
@@ -15,6 +14,10 @@
     "levels": [
         {
             "class": "Alchemist", 
+            "level": 2
+        }, 
+        {
+            "class": "Investigator", 
             "level": 2
         }
     ], 
@@ -36,13 +39,14 @@
             "body": "<p>The following poisons are created through the <i>transmute potion to poison</i> spell. The power of the poison depends on the level of the spell contained in the transmuted potion.</p>", 
             "name": "Transmuted Poisons", 
             "url": "pfsrd://Advanced Players Guide/Spells/Transmute Potion To Poison/Transmuted Poisons", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "name": "0-Level Potion Poison", 
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Spells/Transmute Potion To Poison/Transmuted Poisons/0-Level Potion Poison", 
                     "contracted": "injury", 
-                    "section_id": 253, 
                     "effect": "1 Dex damage", 
                     "subtype": "poison", 
                     "cure": "1 save", 
@@ -55,7 +59,6 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Spells/Transmute Potion To Poison/Transmuted Poisons/1st-Level Potion Poison", 
                     "contracted": "injury", 
-                    "section_id": 254, 
                     "effect": "1d2 Dex damage", 
                     "subtype": "poison", 
                     "cure": "1 save", 
@@ -68,7 +71,6 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Spells/Transmute Potion To Poison/Transmuted Poisons/2nd-Level Potion Poison", 
                     "contracted": "injury", 
-                    "section_id": 255, 
                     "effect": "1d4 Str damage", 
                     "subtype": "poison", 
                     "cure": "1 save", 
@@ -81,7 +83,6 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Spells/Transmute Potion To Poison/Transmuted Poisons/3rd-Level Potion Poison", 
                     "contracted": "injury", 
-                    "section_id": 256, 
                     "effect": "1d4 Con damage", 
                     "subtype": "poison", 
                     "cure": "2 consecutive saves", 
@@ -89,10 +90,7 @@
                     "save": "Fortitude DC 14", 
                     "type": "affliction"
                 }
-            ], 
-            "section_id": 252, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }
     ], 
     "component_text": "S", 

@@ -30,17 +30,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Death Worm/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A death worm's blood can corrode metal on contact. If a creature damages a death worm with a piercing or slashing weapon made of metal, the creature's blood deals 3d6 points of acid damage to the metal weapon (unlike most forms of energy damage, this damage is not halved when applied to a metal object, although it does still have to penetrate the metal's hardness). The weapon's wielder can halve the damage the weapon takes by making a successful DC 17 Reflex save. Creatures made of metal that deal slashing or piercing damage to a death worm with a natural attack take 3d6 points of acid damage (a DC 17 Reflex save halves this damage). The corrosive elements of the blood fade 1 round after it leaves the worm's body or the worm dies. The save DC is Constitution-based.", 
                     "name": "Corrosive Blood", 
                     "url": "pfsrd://Bestiary 2/Monsters/Death Worm/Special Abilities/Corrosive Blood", 
                     "ability_types": {
-                        "ability_type_id": 124, 
-                        "section_id": 499, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 499, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -49,11 +48,8 @@
                     "name": "Electrical Jolt", 
                     "url": "pfsrd://Bestiary 2/Monsters/Death Worm/Special Abilities/Electrical Jolt", 
                     "ability_types": {
-                        "ability_type_id": 125, 
-                        "section_id": 500, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 500, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -61,21 +57,12 @@
                     "body": "Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Death Worm/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 126, 
-                        "section_id": 501, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 501, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Death Worm Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Death Worm/Special Abilities/Poison/Death Worm Venom", 
                             "contracted": "injury, or skin&mdash;contact", 
-                            "section_id": 502, 
                             "effect": "1d2 Constitution damage", 
                             "subtype": "poison", 
                             "cure": "2 saves", 
@@ -83,42 +70,38 @@
                             "save": "Fortitude DC 17", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A death worm's skin secretes a noxious, waxy substance. This venomous sheen poisons any creature that touches a death worm, either by making a successful attack with an unarmed strike or natural weapon or with a touch attack. A creature that grapples a death worm is also exposed to the creature's venomous skin.", 
                     "name": "Venomous Skin", 
                     "url": "pfsrd://Bestiary 2/Monsters/Death Worm/Special Abilities/Venomous Skin", 
                     "ability_types": {
-                        "ability_type_id": 127, 
-                        "section_id": 503, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 503, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 498, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The reclusive death worm is much feared in the deserts, badlands, and steppes in which it dwells, for it brings to a battle multiple harrowing ways of inflicting death upon its foes&mdash;acid, lightning, poison, and its ravenous jaws. The creatures are remarkably good at hiding amid the sands and rocks of their favored terrain, and devilishly efficient at selecting foes that they can easily kill. This combination makes stories of these creatures hard to confirm, and in most urban centers, common wisdom is that the tales of death worms are fabrications&mdash;attempts to impress city folk or hallucinations born of too much drink.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 504
+            "type": "section"
         }, 
         {
             "body": "<p>A death worm is 15 feet long and weighs 1,200 pounds&mdash;although rumors of much larger death worms persist.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 505
+            "type": "section"
         }
     ], 
     "hp": "68 (8d10+24)", 
     "reach": "5 ft.", 
-    "section_id": 497, 
     "wisdom": "11", 
     "defensive_abilities": "corrosive blood, venomous skin", 
     "creature_type": "Magical Beast", 

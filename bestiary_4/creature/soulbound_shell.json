@@ -32,17 +32,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 4", 
             "url": "pfsrd://Bestiary 4/Monsters/Soulbound Shell/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A soulbound shell can never change its known or prepared spells.", 
                     "name": "Cemented Mind", 
                     "url": "pfsrd://Bestiary 4/Monsters/Soulbound Shell/Special Abilities/Cemented Mind", 
                     "ability_types": {
-                        "ability_type_id": 578, 
-                        "section_id": 1835, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1835, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -51,11 +50,8 @@
                     "name": "Soul Focus", 
                     "url": "pfsrd://Bestiary 4/Monsters/Soulbound Shell/Special Abilities/Soul Focus", 
                     "ability_types": {
-                        "ability_type_id": 579, 
-                        "section_id": 1836, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1836, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -63,36 +59,28 @@
                     "body": "A spellbound shell casts spells as a 12th-level cleric, witch, or wizard, but does not gain any other class abilities.", 
                     "source": "Bestiary 4", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1837
+                    "name": "Spells"
                 }, 
                 {
                     "body": "A soulbound shell is not immune to mind-affecting effects.", 
                     "name": "Susceptible to Mind-Affecting Effects", 
                     "url": "pfsrd://Bestiary 4/Monsters/Soulbound Shell/Special Abilities/Susceptible to Mind-Affecting Effects", 
                     "ability_types": {
-                        "ability_type_id": 580, 
-                        "section_id": 1838, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1838, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1834, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A soulbound shell is the perfected version of a soulbound mannequin, allowing the soul to retain its spellcasting.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1839
+            "type": "section"
         }, 
         {
             "body": "<p>A soulbound shell is constructed from marble, a 5,000 gp gem for the soul focus, and the soul of a willing spellcaster of at least 12th level who dies at the culmination of the creation process and animates the stone shell.</p>", 
-            "name": "Construction", 
+            "type": "section", 
             "sections": [
                 {
                     "name": "Soulbound Shell", 
@@ -106,19 +94,16 @@
                             "Requirements": "Craft Construct, false life, magic jar, make whole, mnemonic enhancer, stoneskin"
                         }
                     }, 
-                    "section_id": 1841, 
                     "source": "Bestiary 4", 
                     "type": "item"
                 }
             ], 
-            "section_id": 1840, 
-            "source": "Bestiary 4", 
-            "type": "section"
+            "name": "Construction", 
+            "source": "Bestiary 4"
         }
     ], 
     "hp": "132 (15d10+50)", 
     "weaknesses": "cemented mind, susceptible to mind-affecting effects", 
-    "section_id": 1833, 
     "wisdom": "10", 
     "creature_type": "Construct", 
     "special_qualities": "soul focus", 

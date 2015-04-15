@@ -1,21 +1,24 @@
 {
-    "level_text": "Bard: 3", 
-    "duration": "1 round/level (D)", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "shadow", 
-    "subschool": [
-        "shadow"
-    ], 
-    "type": "spell", 
     "body": "<p>You create a phantom instrument, a glowing construct of magic in the form of a portable musical instrument of your choice. The instrument floats beside you, moving as you move (even if you teleport). It cannot be damaged, but can be dispelled. The instrument plays as you direct, and as long as it plays, you do not have to expend rounds of bardic performance from your daily allotment to maintain an effect. Activating a bardic performance or switching to a new effect still costs a round of your overall bardic performances per day.</p>", 
+    "school": "illusion", 
+    "saving_throw": "none", 
     "description": "Instrument maintains bardic performance for you.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Exquisite Accompaniment", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 77, 
+    "level_text": "Bard: 3; Skald: 3", 
+    "descriptor": [
+        "shadow"
+    ], 
+    "range": "personal", 
     "levels": [
         {
             "class": "Bard", 
+            "level": 3
+        }, 
+        {
+            "class": "Skald", 
             "level": 3
         }
     ], 
@@ -26,14 +29,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "none", 
-    "name": "Exquisite Accompaniment", 
-    "url": "pfsrd://Ultimate Magic/Spells/Exquisite Accompaniment", 
-    "descriptor": [
-        "shadow"
-    ], 
-    "range": "personal", 
     "components": [
         {
             "type": "V"
@@ -41,5 +36,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round/level (D)", 
+    "subschool_text": "shadow", 
+    "subschool": [
+        "shadow"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Exquisite Accompaniment"
 }

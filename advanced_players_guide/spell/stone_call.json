@@ -1,25 +1,44 @@
 {
-    "level_text": "Druid: 2; Elementalist Wizard: 2; Magus: 2; Ranger: 2; Sorcerer: 2; Wizard: 2", 
-    "duration": "1 round/level", 
-    "source": "Advanced Player's Guide", 
-    "component_text": "V, S, DF", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>A rain of dirt, gravel, and small pebbles fills the area, dealing 2d6 points of bludgeoning damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, this debris covers the ground, making the entire area difficult terrain. At the end of the duration, the rocks disappear, leaving no aftereffects (other than the damage dealt).</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "2d6 damage to all creatures in area.", 
+    "source": "Advanced Player's Guide", 
+    "url": "pfsrd://Advanced Players Guide/Spells/Stone Call", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 231, 
+    "level_text": "Arcanist: 2; Bloodrager: 2; Druid: 2; Elementalist Wizard: 2; Hunter: 2; Hunter: 2; Hunter: 2; Magus: 2; Ranger: 2; Sorcerer: 2; Wizard: 2", 
+    "descriptor": [
+        "earth"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 2
+        }, 
         {
             "class": "Druid", 
             "level": 2
         }, 
         {
             "class": "Elementalist Wizard", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 2
+        }, 
+        {
+            "class": "Hunter", 
             "level": 2
         }, 
         {
@@ -46,14 +65,6 @@
             "name": "Area"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Stone Call", 
-    "url": "pfsrd://Advanced Players Guide/Spells/Stone Call", 
-    "descriptor": [
-        "earth"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "type": "V"
@@ -64,5 +75,13 @@
         {
             "type": "DF"
         }
-    ]
+    ], 
+    "duration": "1 round/level", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, DF", 
+    "name": "Stone Call"
 }

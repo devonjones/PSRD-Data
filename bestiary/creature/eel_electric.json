@@ -27,61 +27,53 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Eel/Electric/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "An electric eel can produce a powerful jolt of electricity from its tail, delivering the jolt with a successful touch attack. On a critical hit, the creature struck must make a DC 15 Fortitude save or be stunned for 1d4 rounds. The save DC is Constitution-based.", 
                     "name": "Electricity", 
                     "url": "pfsrd://Bestiary/Monsters/Eel/Electric/Special Abilities/Electricity", 
                     "ability_types": {
-                        "ability_type_id": 319, 
-                        "section_id": 1345, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1345, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1344, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The electric eel is a curious fish that breathes air instead of water, yet certainly its most unusual characteristic is its ability to generate powerful jolts of electricity. An electric eel is 6 feet long and weighs 45 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1346
+            "type": "section"
         }, 
         {
             "name": "Electric Eel", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Eel/Electric/Electric Eel", 
+            "speed": "5 ft., swim 30 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6", 
             "sections": [
                 {
                     "ac": "+2 natural armor", 
                     "name": "4th-Level Advancement", 
-                    "level": "4th", 
-                    "url": "pfsrd://Bestiary/Monsters/Eel/Electric/Electric Eel/4th-Level Advancement", 
-                    "section_id": 1348, 
-                    "subtype": "advancement", 
                     "source": "Bestiary", 
-                    "special_qualities": "electricity (1d6), electricity resistance 10", 
+                    "url": "pfsrd://Bestiary/Monsters/Eel/Electric/Electric Eel/4th-Level Advancement", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "ability_scores": "Dex +2, Con +2", 
                     "type": "animal_companion", 
-                    "ability_scores": "Dex +2, Con +2"
+                    "special_qualities": "electricity (1d6), electricity resistance 10."
                 }
             ], 
-            "section_id": 1347, 
-            "subtype": "base", 
-            "attack": "bite (1d6)", 
-            "type": "animal_companion", 
-            "special_qualities": "amphibious, low-light vision, electricity resistance 5", 
-            "speed": "5 ft., swim 30 ft.", 
-            "ability_scores": "Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6", 
+            "special_qualities": "amphibious, low-light vision, electricity resistance 5.", 
             "size": "Small"
         }
     ], 
     "hp": "17 (2d8+8)", 
-    "section_id": 1343, 
     "wisdom": "10", 
     "creature_type": "Animal", 
     "name": "Eel, Electric", 

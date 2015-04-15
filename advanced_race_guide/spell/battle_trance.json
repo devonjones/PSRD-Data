@@ -1,18 +1,18 @@
 {
-    "level_text": "alchemist: 3; antipaladin: 3; cleric: 4; oracle: 4; inquisitor: 3; ranger: 3; witch: 4", 
-    "duration": "1 minute/level", 
-    "source": "Advanced Race Guide", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You are transformed into a single-minded force of destruction. You gain the ferocity monster special ability, a number of temporary hit points equal to 1d6 + your caster level (maximum +10), and a +4 morale bonus on saving throws against mind-affecting effects. You cannot use the withdraw action or willingly move away from a creature that has attacked you.</p><p>When you use this spell, you immediately take 4 points of Intelligence damage. You must make a DC 20 concentration check to cast spells, and all other concentration checks to cast spells have a &ndash;5 penalty.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "You are transformed into a single-minded force of destruction.", 
+    "source": "Advanced Race Guide", 
+    "url": "pfsrd://Advanced Race Guide/Races/Half-Orcs/New Racial Rules/Half-Orc Spells/Battle Trance", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 1405, 
+    "level_text": "alchemist: 3; investigator: 3; antipaladin: 3; cleric: 4; oracle: 4; warpriest: 4; inquisitor: 3; ranger: 3; hunter: 3; witch: 4; hunter: 3", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "personal", 
     "levels": [
         {
             "class": "Alchemist", 
@@ -27,7 +27,19 @@
             "level": 4
         }, 
         {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
+            "class": "Hunter", 
+            "level": 3
+        }, 
+        {
             "class": "Inquisitor", 
+            "level": 3
+        }, 
+        {
+            "class": "Investigator", 
             "level": 3
         }, 
         {
@@ -37,6 +49,10 @@
         {
             "class": "Ranger", 
             "level": 3
+        }, 
+        {
+            "class": "Warpriest", 
+            "level": 4
         }, 
         {
             "class": "Witch", 
@@ -50,15 +66,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Battle Trance", 
-    "url": "pfsrd://Advanced Race Guide/Races/Half-Orcs/New Racial Rules/Half-Orc Spells/Battle Trance", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "personal", 
     "components": [
         {
             "type": "V"
@@ -66,5 +73,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 minute/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Battle Trance"
 }

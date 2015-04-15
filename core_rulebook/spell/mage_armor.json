@@ -1,19 +1,26 @@
 {
-    "level_text": "Sorcerer: 1; Summoner: 1; Witch: 1; Wizard: 1", 
-    "duration": "1 hour/level (D)", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S, F (a piece of cured leather)", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>An invisible but tangible field of force surrounds the subject of a <i>mage armor</i> spell, providing a +4 armor bonus to AC.</p><p>Unlike mundane armor, <i>mage armor</i> entails no armor check penalty, arcane spell failure chance, or speed reduction. Since <i>mage armor</i> is made of force, incorporeal creatures can't bypass it the way they do normal armor.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "Will negates (harmless)", 
     "description": "Gives subject +4 armor bonus.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Mage Armor", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 357, 
+    "level_text": "Arcanist: 1; Bloodrager: 1; Sorcerer: 1; Summoner: 1; Witch: 1; Wizard: 1", 
+    "descriptor": [
+        "force"
+    ], 
+    "range": "touch", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 1
+        }, 
+        {
+            "class": "Bloodrager", 
+            "level": 1
+        }, 
         {
             "class": "Sorcerer", 
             "level": 1
@@ -38,14 +45,6 @@
             "name": "Target"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "Will negates (harmless)", 
-    "name": "Mage Armor", 
-    "url": "pfsrd://Core Rulebook/Spells/Mage Armor", 
-    "descriptor": [
-        "force"
-    ], 
-    "range": "touch", 
     "components": [
         {
             "type": "V"
@@ -57,5 +56,13 @@
             "text": "a piece of cured leather", 
             "type": "F"
         }
-    ]
+    ], 
+    "duration": "1 hour/level (D)", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S, F (a piece of cured leather)", 
+    "name": "Mage Armor"
 }

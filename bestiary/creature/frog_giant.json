@@ -28,53 +28,54 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Frog/Giant/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A giant frog's tongue is a primary attack with reach equal to three times the frog's normal reach (15 feet for a Medium giant frog). A giant frog's tongue deals no damage on a hit, but can be used to grab. A giant frog does not gain the grappled condition while using its tongue in this manner.", 
                     "name": "Tongue", 
                     "url": "pfsrd://Bestiary/Monsters/Frog/Giant/Special Abilities/Tongue", 
                     "ability_types": {
-                        "ability_type_id": 334, 
-                        "section_id": 1477, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1477, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1476, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Giant frogs have razor-sharp teeth lining their mouths. They are 6 feet long and weigh 200 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1478
+            "type": "section"
         }, 
         {
-            "body": "<p><b>Size</b> Medium; <b>Speed</b> 30 ft., swim 30 ft.; <b>AC</b> +1 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6; <b>Special Qualities</b> low-light vision, scent, tongue, pull.</p>", 
+            "ac": "+1 natural armor", 
             "name": "Frog", 
+            "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Frog/Giant/Frog", 
+            "speed": "30 ft., swim 30 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6", 
             "sections": [
                 {
-                    "body": "<p><b>Ability Scores</b> Str +2, Dex +2; <b>Special Qualities</b> swallow whole.</p>", 
-                    "name": "4th-Level Adv.", 
-                    "url": "pfsrd://Bestiary/Monsters/Frog/Giant/Frog/4th-Level Adv.", 
-                    "section_id": 1480, 
+                    "name": "4th-Level Advancement", 
                     "source": "Bestiary", 
-                    "type": "section"
+                    "url": "pfsrd://Bestiary/Monsters/Frog/Giant/Frog/4th-Level Advancement", 
+                    "level": "4th", 
+                    "subtype": "advancement", 
+                    "ability_scores": "Str +2, Dex +2", 
+                    "type": "animal_companion", 
+                    "special_qualities": "swallow whole."
                 }
             ], 
-            "section_id": 1479, 
-            "source": "Bestiary", 
-            "type": "section"
+            "special_qualities": "low-light vision, scent, tongue, pull.", 
+            "size": "Medium"
         }
     ], 
     "hp": "15 (2d8+6)", 
     "reach": "5 ft. (15 ft. with tongue)", 
-    "section_id": 1475, 
     "wisdom": "8", 
     "creature_type": "Animal", 
     "name": "Frog, Giant", 

@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Swarm/Leech/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Any living creature that begins its turn with a leech swarm in its space is drained of its blood and takes 1d3 points of Str and Con damage.", 
                     "name": "Blood Drain", 
                     "url": "pfsrd://Bestiary/Monsters/Swarm/Leech/Special Abilities/Blood Drain", 
                     "ability_types": {
-                        "ability_type_id": 425, 
-                        "section_id": 1959, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1959, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }, 
@@ -46,21 +45,12 @@
                     "body": "Swarm:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Swarm/Leech/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 426, 
-                        "section_id": 1960, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1960, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Leech Swarm Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Swarm/Leech/Special Abilities/Poison/Leech Swarm Venom", 
                             "contracted": "injury", 
-                            "section_id": 1961, 
                             "effect": "1d4 Dexterity drain", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -68,24 +58,24 @@
                             "save": "Fortitude DC 15", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1958, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>This horrifying cloud of ravenous, blood-draining parasites eschews the stealth of a lone leech's methods in favor of swift and merciless feeding.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 1962
+            "type": "section"
         }
     ], 
     "hp": "39 (6d8+12)", 
     "weaknesses": "susceptible to salt (see giant leech)", 
     "reach": "0 ft.", 
-    "section_id": 1957, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
     "name": "Swarm, Leech", 

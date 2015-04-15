@@ -1,6 +1,6 @@
 {
     "slot": "wrist", 
-    "body": "<p class=\"stat-block\">Force fields are powered by a surprisingly light pair of slender, silvery bracelets. When activated as a standard action, dozens of tiny biofeedback needles pierce the wearer's arms to interface with the nervous system; this process is somewhat painful and the wearer must succeed at a DC 15 Fortitude save to avoid being dazed for 1 round as the force field is activated. Once active, the device generates an invisible and intangible field of force around the target. The force field blocks solids and liquids, but not gases or light (including laser beams). The user of a force field can still breathe, but she cannot eat or drink.</p><p class=\"stat-block\">Activating a force field is a standard action that consumes 1d6 charges from the device, after which point the field consumes 1 additional charge every round it remains active. While a force field is active, the user gains a number of temporary hit points that varies depending on the force field's power. All damage dealt to the wearer of a force field is subtracted from the temporary hit points it grants first. As long as the force field is active, the wearer is immune to critical hits (but not precision-based damage, such as sneak attacks). A force field has fast healing that replenishes its temporary hit points at a fixed rate each round, but if the force field's temporary hit points are ever reduced to 0, the force field shuts down and cannot be reactivated for 24 hours. Force fields are automatically reduced to 0 hp by disintegration effects. A force field can be deactivated as a free action.</p><p class=\"stat-block\">The charge capacity, amount of temporary hit points granted, and rate of fast healing these temporary hit points have varies according to the force field's color code, as detailed below.</p>", 
+    "body": "<p class=\"stat-block\">Force fields are powered by a surprisingly light pair of slender, silvery bracelets. When activated as a standard action, dozens of tiny biofeedback needles pierce the wearer's arms to interface with the nervous system; this process is somewhat painful and the wearer must succeed at a DC 15 Fortitude save to avoid being dazed for 1 round as the force field is activated. Once active, the device generates an invisible and intangible field of force around the target. The force field blocks solids and liquids, but not gases or light (including laser beams). The user of a force field can still breathe, but she cannot eat or drink.</p><p class=\"stat-block\">Activating a force field is a standard action that consumes 1 charge, after which point the field consumes 1 additional charge every minute it remains active. While a force field is active, the user gains a number of temporary hit points that varies depending on the force field's power. All damage dealt to the wearer of a force field is subtracted from the temporary hit points it grants first. As long as the force field is active, the wearer is immune to critical hits (but not precision-based damage, such as sneak attacks). A force field has fast healing that replenishes its temporary hit points at a fixed rate each round, but if the force field's temporary hit points are ever reduced to 0, the force field shuts down and cannot be reactivated for 24 hours. Force fields are automatically reduced to 0 hp by disintegration effects. A force field can be deactivated as a free action.</p><p class=\"stat-block\">The charge capacity, amount of temporary hit points granted, and rate of fast healing these temporary hit points have varies according to the force field's color code, as detailed below.</p>", 
     "name": "Force Field", 
     "weight": "1 lb.", 
     "subtype": "wrist", 
@@ -22,28 +22,24 @@
             "Red": "100,000 gp"
         }
     }, 
-    "section_id": 333, 
     "source": "Technology Guide", 
     "sections": [
         {
             "body": "<table><thead><tr><th>Color</th><th>Capacity</th><th>Temp HP</th><th>Fast Healing</th></tr></thead><tbody><tr class=\"odd\"><td>Brown</td><td>10</td><td>5</td><td>1</td></tr><tr class=\"even\"><td>Black</td><td>15</td><td>10</td><td>2</td></tr><tr class=\"odd\"><td>White</td><td>20</td><td>15</td><td>3</td></tr><tr class=\"even\"><td>Gray</td><td>25</td><td>20</td><td>4</td></tr><tr class=\"odd\"><td>Green</td><td>30</td><td>25</td><td>5</td></tr><tr class=\"even\"><td>Red</td><td>35</td><td>30</td><td>6</td></tr><tr class=\"odd\"><td>Blue</td><td>40</td><td>35</td><td>7</td></tr><tr class=\"even\"><td>Orange</td><td>45</td><td>40</td><td>8</td></tr><tr class=\"odd\"><td>Prismatic</td><td>50</td><td>60</td><td>10</td></tr></tbody></table>", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Gear/Technological Gear/On Signals/Force Field/", 
             "type": "table", 
-            "section_id": 334, 
             "source": "Technology Guide"
         }, 
         {
-            "body": "<table><thead><tr><th>Construction</th><th>Craft (varies)</th><th>Cost (varies</th></tr></thead><tbody><tr class=\"odd\"><td>Brown</td><td>DC 27</td><td>2,000 gp</td></tr><tr class=\"even\"><td>Black</td><td>DC 28</td><td>10,000 gp</td></tr><tr class=\"odd\"><td>White</td><td>DC 29</td><td>20,000 gp</td></tr><tr class=\"even\"><td>Gray</td><td>DC 30</td><td>30,000 gp</td></tr><tr class=\"odd\"><td>Green</td><td>DC 31</td><td>40,000 gp</td></tr><tr class=\"even\"><td>Red</td><td>DC 32</td><td>50,000 gp</td></tr><tr class=\"odd\"><td>Blue</td><td>DC 33</td><td>60,000 gp</td></tr><tr class=\"even\"><td>Orange</td><td>DC 34</td><td>70,000 gp</td></tr><tr class=\"odd\"><td>Prismatic</td><td>DC 35</td><td>110,000 gp</td></tr></tbody></table>", 
+            "body": "<table><thead><tr><th>Construction</th><th>Craft (varies)</th><th>Cost (varies)</th></tr></thead><tbody><tr class=\"odd\"><td>Brown</td><td>DC 27</td><td>2,000 gp</td></tr><tr class=\"even\"><td>Black</td><td>DC 28</td><td>10,000 gp</td></tr><tr class=\"odd\"><td>White</td><td>DC 29</td><td>20,000 gp</td></tr><tr class=\"even\"><td>Gray</td><td>DC 30</td><td>30,000 gp</td></tr><tr class=\"odd\"><td>Green</td><td>DC 31</td><td>40,000 gp</td></tr><tr class=\"even\"><td>Red</td><td>DC 32</td><td>50,000 gp</td></tr><tr class=\"odd\"><td>Blue</td><td>DC 33</td><td>60,000 gp</td></tr><tr class=\"even\"><td>Orange</td><td>DC 34</td><td>70,000 gp</td></tr><tr class=\"odd\"><td>Prismatic</td><td>DC 35</td><td>110,000 gp</td></tr></tbody></table>", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Gear/Technological Gear/On Signals/Force Field/", 
             "type": "table", 
-            "section_id": 335, 
             "source": "Technology Guide"
         }, 
         {
             "body": "<p class=\"stat-block\">Craft Technological Item, graviton lab</p>", 
             "source": "Technology Guide", 
-            "type": "section", 
-            "section_id": 336
+            "type": "section"
         }
     ]
 }

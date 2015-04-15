@@ -26,31 +26,38 @@
         {
             "body": "<p>This predatory marine lizard swims with four flippered limbs and a powerful, fluke-like tail. Its extended snout is filled with sharp teeth, and it feeds on both aquatic and surface prey. They are known to attack ships, mistaking them for basking whales or other creatures. A tylosaurus grows up to 50 feet in length and weighs 30,000 pounds.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 625
+            "type": "section"
         }, 
         {
-            "body": "<p id=\"starting-stats\">:<b> Size</b> Medium; <b>Speed </b>20 ft., swim 50 ft.; <b>AC </b>+3 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores</b> Str 10, Dex 17, Con 10, Int 2, Wis 13, Cha 9; <b>SQ</b> low-light vision, scent.</p>", 
+            "ac": "+3 natural armor", 
             "name": "Tylosaurus", 
+            "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Tylosaurus/Tylosaurus", 
+            "speed": "20 ft., swim 50 ft.", 
+            "subtype": "base", 
+            "attack": "bite (1d6)", 
+            "type": "animal_companion", 
+            "ability_scores": "Str 10, Dex 17, Con 10, Int 2, Wis 13, Cha 9", 
             "sections": [
                 {
-                    "body": "<p id=\"7th-level-adv.\">:<b> Size </b>Large; <b>AC </b>+2 natural armor; <b>Attack </b>bite (1d8); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>SQ </b>grab.</p>", 
-                    "name": "7th-level Adv.", 
-                    "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Tylosaurus/Tylosaurus/7th-level Adv.", 
-                    "section_id": 627, 
+                    "ac": "+2 natural armor", 
+                    "name": "7th-Level Advancement", 
                     "source": "Bestiary 2", 
-                    "type": "section"
+                    "url": "pfsrd://Bestiary 2/Monsters/Dinosaur/Tylosaurus/Tylosaurus/7th-Level Advancement", 
+                    "subtype": "advancement", 
+                    "attack": "bite (1d8)", 
+                    "ability_scores": "Str +8, Dex -2, Con +4", 
+                    "type": "animal_companion", 
+                    "special_qualities": "grab.", 
+                    "size": "Large"
                 }
             ], 
-            "section_id": 626, 
-            "source": "Bestiary 2", 
-            "type": "section"
+            "special_qualities": "low-light vision, scent.", 
+            "size": "Medium"
         }
     ], 
     "hp": "105 (10d8+60)", 
     "reach": "15 ft.", 
-    "section_id": 624, 
     "wisdom": "13", 
     "creature_type": "Animal", 
     "name": "Dinosaur, Tylosaurus", 

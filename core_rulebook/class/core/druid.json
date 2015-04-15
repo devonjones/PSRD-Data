@@ -5,7 +5,6 @@
     "url": "pfsrd://Core Rulebook/Classes/Druid", 
     "type": "class", 
     "image": "Druid.png", 
-    "section_id": 2021, 
     "subtype": "core", 
     "hit_die": "d8", 
     "alt": "Lini", 
@@ -14,110 +13,95 @@
             "body": "<p>While some druids might keep to the fringe of battle, allowing companions and summoned creatures to fight while they confound foes with the powers of nature, others transform into deadly beasts and savagely wade into combat. Druids worship personifications of elemental forces, natural powers, or nature itself. Typically this means devotion to a nature deity, though druids are just as likely to revere vague spirits, animalistic demigods, or even specific awe-inspiring natural wonders.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 2022
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for druid characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Druid</td><td>2d6 &times; 10 gp</td><td>70 gp</td></tr></table>", 
                     "source": "Core Rulebook", 
-                    "type": "table", 
-                    "section_id": 2024
+                    "type": "table"
                 }
             ], 
-            "section_id": 2023, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The druid's class skills are Climb (Str), Craft (Int), Fly (Dex), Handle Animal (Cha), Heal (Wis), Knowledge (geography) (Int), Knowledge (nature) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Spellcraft (Int), Survival (Wis), and Swim (Str).</p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>4 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-3-7-druid\"><caption>Table: Druid</caption><thead><tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"10\">Spells per Day</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+2</td><td>+0</td><td>+2</td><td style=\"white-space: normal;\">Nature bond, nature sense, orisons, wild empathy</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+3</td><td>+0</td><td>+3</td><td style=\"white-space: normal;\">Woodland stride</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+3</td><td>+1</td><td>+3</td><td style=\"white-space: normal;\">Trackless step</td><td>4</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\">Resist nature's lure,Wild shape (1/day)</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style=\"white-space: normal;\"></td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+5</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\">Wild shape (2/day)</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+5</td><td>+2</td><td>+5</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+6</td><td>+2</td><td>+6</td><td style=\"white-space: normal;\">Wild shape (3/day)</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+6</td><td>+3</td><td>+6</td><td style=\"white-space: normal;\">Venom immunity</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+7</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\">Wild shape (4/day)</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+7</td><td>+3</td><td>+7</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">Wild shape (5/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style=\"white-space: normal;\">A thousand faces</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+9</td><td>+4</td><td>+9</td><td style=\"white-space: normal;\">Wild shape (6/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+9</td><td>+5</td><td>+9</td><td style=\"white-space: normal;\">Timeless body</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\">Wild shape (7/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\">Wild shape (8/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td style=\"white-space: normal;\"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td style=\"white-space: normal;\">Wild shape (at will)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td></tr></table>", 
-                            "name": "Table: Druid", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Class Skills/Skill Ranks per Level/Table Druid", 
-                            "section_id": 2027, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Druid", 
+                            "source": "Core Rulebook"
                         }
                     ], 
-                    "section_id": 2026, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 2025, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>All of the following are class features of the druid.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>Druids are proficient with the following weapons: club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, and spear. They are also proficient with all natural attacks (claw, bite, and so forth) of any form they assume with wild shape (see below).</p><p>Druids are proficient with light and medium armor but are prohibited from wearing metal armor; thus, they may wear only padded, leather, or hide armor. A druid may also wear wooden armor that has been altered by the <i>ironwood</i> spell so that it functions as though it were steel. Druids are proficient with shields (except tower shields) but must use only those crafted from wood.</p><p>A druid who wears prohibited armor or uses a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 2029
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"spells-druid\">A druid casts divine spells which are drawn from the druid spell list presented in Spell Lists. Her alignment may restrict her from casting certain spells opposed to her moral or ethical beliefs; see Chaotic, Evil, Good, and Lawful Spells. A druid must choose and prepare her spells in advance.</p><p>To prepare or cast a spell, the druid must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a druid's spell is 10 + the spell level + the druid's Wisdom modifier.</p><p>Like other spellcasters, a druid can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: Druid. In addition, she receives bonus spells per day if she has a high Wisdom score (see Table: Ability Modifiers and Bonus Spells).</p><p>A druid must spend 1 hour each day in a trance-like meditation on the mysteries of nature to regain her daily allotment of spells. A druid may prepare and cast any spell on the druid spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her daily meditation.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 2030
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"spontaneous-casting-druid\">A druid can channel stored spell energy into summoning spells that she hasn't prepared ahead of time. She can &ldquo;lose&rdquo; a prepared spell in order to cast any <i>summon nature's ally</i> spell of the same level or lower. </p>", 
-                    "name": "Spontaneous Casting", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Spontaneous Casting", 
-                    "section_id": 2031, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Spontaneous Casting", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"chaotic-evil-good-and-lawful-spells-druid\">A druid can't cast spells of an alignment opposed to her own or her deity's (if she has one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</p>", 
-                    "name": "Chaotic, Evil, Good, and Lawful Spells", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Chaotic/Evil/Good/and Lawful Spells", 
-                    "section_id": 2032, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Chaotic, Evil, Good, and Lawful Spells", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"orisons-druid\">Druids can prepare a number of orisons, or 0-level spells, each day, as noted on Table: Druid under &ldquo;Spells per Day.&rdquo; These spells are cast like any other spell, but they are not expended when cast and may be used again.</p>", 
-                    "name": "Orisons", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Orisons", 
-                    "section_id": 2033, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Orisons", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"bonus-languages-druid\">A druid's bonus language options include Sylvan, the language of woodland creatures. This choice is in addition to the bonus languages available to the character because of her race.</p><p>A druid also knows Druidic, a secret language known only to druids, which she learns upon becoming a 1st-level druid. Druidic is a free language for a druid; that is, she knows it in addition to her regular allotment of languages and it doesn't take up a language slot. Druids are forbidden to teach this language to nondruids.</p><p>Druidic has its own alphabet.</p>", 
-                    "name": "Bonus Languages", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Bonus Languages", 
-                    "section_id": 2034, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Bonus Languages", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"nature-bond\">At 1st level, a druid forms a bond with nature. This bond can take one of two forms. The first is a close tie to the natural world, granting the druid one of the following cleric domains: Air, Animal, Earth, Fire, Plant, Water, or Weather. When determining the powers and bonus spells granted by this domain, the druid's effective cleric level is equal to her druid level. A druid that selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot and this spell cannot be used to cast a spell spontaneously.</p><p>The second option is to form a close bond with an animal companion. A druid may begin play with any of the animals listed in Animal Choices. This animal is a loyal companion that accompanies the druid on her adventures.</p><p>Unlike normal animals of its kind, an animal companion's Hit Dice, abilities, skills, and feats advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in size when their druid reaches 4th or 7th level, depending on the companion. If a druid releases her companion from service, she may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion typically lives. This ceremony can also replace an animal companion that has perished.</p>", 
                     "name": "Nature Bond", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Nature Bond", 
                     "ability_types": {
-                        "ability_type_id": 152, 
-                        "section_id": 2035, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2035, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -126,11 +110,8 @@
                     "name": "Nature Sense", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Nature Sense", 
                     "ability_types": {
-                        "ability_type_id": 153, 
-                        "section_id": 2036, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2036, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -139,11 +120,8 @@
                     "name": "Wild Empathy", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Wild Empathy", 
                     "ability_types": {
-                        "ability_type_id": 154, 
-                        "section_id": 2037, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2037, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -152,11 +130,8 @@
                     "name": "Woodland Stride", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Woodland Stride", 
                     "ability_types": {
-                        "ability_type_id": 155, 
-                        "section_id": 2038, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2038, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -165,11 +140,8 @@
                     "name": "Trackless Step", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Trackless Step", 
                     "ability_types": {
-                        "ability_type_id": 156, 
-                        "section_id": 2039, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2039, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -178,11 +150,8 @@
                     "name": "Resist Nature's Lure", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Resist Natures Lure", 
                     "ability_types": {
-                        "ability_type_id": 157, 
-                        "section_id": 2040, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2040, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -191,11 +160,8 @@
                     "name": "Wild Shape", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Wild Shape", 
                     "ability_types": {
-                        "ability_type_id": 158, 
-                        "section_id": 2041, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2041, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -204,11 +170,8 @@
                     "name": "Venom Immunity", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Venom Immunity", 
                     "ability_types": {
-                        "ability_type_id": 159, 
-                        "section_id": 2042, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2042, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -217,11 +180,8 @@
                     "name": "A Thousand Faces", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/A Thousand Faces", 
                     "ability_types": {
-                        "ability_type_id": 160, 
-                        "section_id": 2043, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 2043, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -230,123 +190,107 @@
                     "name": "Timeless Body", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Class Features/Timeless Body", 
                     "ability_types": {
-                        "ability_type_id": 161, 
-                        "section_id": 2044, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 2044, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 2028, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>A druid who ceases to revere nature, changes to a prohibited alignment, or teaches the Druidic language to a nondruid loses all spells and druid abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid until she atones (see the <i>atonement</i> spell description).</p>", 
-            "name": "Ex-Druids", 
             "url": "pfsrd://Core Rulebook/Classes/Druid/Ex-Druids", 
-            "section_id": 2045, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Ex-Druids", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>An animal companion's abilities are determined by the druid's level and its animal racial traits. Table: Animal Companion Base Statistics determines many of the base statistics of the animal companion. They remain creatures of the animal type for purposes of determining which spells can affect them.</p>", 
             "name": "Animal Companions", 
             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions", 
+            "type": "section", 
+            "source": "Core Rulebook", 
             "sections": [
                 {
                     "body": "<table id=\"table-3-8-animal-companion-base-statistics\"><caption>Table: Animal Companion Base Statistics</caption><thead><tr><th>Class Level</th><th>HD</th><th>BAB</th><th>Fort</th><th>Ref</th><th>Will</th><th>Skills</th><th>Feats</th><th>Natural Armor Bonus</th><th>Str/Dex Bonus</th><th>Bonus Tricks</th><th>Special</th></tr></thead><tbody><tr class=\"odd\"><td>1st</td><td>2</td><td>+1</td><td>+3</td><td>+3</td><td>+0</td><td>2</td><td>1</td><td>+0</td><td>+0</td><td>1</td><td>Link, share spells</td></tr><tr class=\"even\"><td>2nd</td><td>3</td><td>+2</td><td>+3</td><td>+3</td><td>+1</td><td>3</td><td>2</td><td>+0</td><td>+0</td><td>1</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>3</td><td>+2</td><td>+3</td><td>+3</td><td>+1</td><td>3</td><td>2</td><td>+2</td><td>+1</td><td>2</td><td>Evasion</td></tr><tr class=\"even\"><td>4th</td><td>4</td><td>+3</td><td>+4</td><td>+4</td><td>+1</td><td>4</td><td>2</td><td>+2</td><td>+1</td><td>2</td><td>Ability score increase</td></tr><tr class=\"odd\"><td>5th</td><td>5</td><td>+3</td><td>+4</td><td>+4</td><td>+1</td><td>5</td><td>3</td><td>+2</td><td>+1</td><td>2</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>6</td><td>+4</td><td>+5</td><td>+5</td><td>+2</td><td>6</td><td>3</td><td>+4</td><td>+2</td><td>3</td><td>Devotion</td></tr><tr class=\"odd\"><td>7th</td><td>6</td><td>+4</td><td>+5</td><td>+5</td><td>+2</td><td>6</td><td>3</td><td>+4</td><td>+2</td><td>3</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>7</td><td>+5</td><td>+5</td><td>+5</td><td>+2</td><td>7</td><td>4</td><td>+4</td><td>+2</td><td>3</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>8</td><td>+6</td><td>+6</td><td>+6</td><td>+2</td><td>8</td><td>4</td><td>+6</td><td>+3</td><td>4</td><td>Ability score increase, Multiattack</td></tr><tr class=\"even\"><td>10th</td><td>9</td><td>+6</td><td>+6</td><td>+6</td><td>+3</td><td>9</td><td>5</td><td>+6</td><td>+3</td><td>4</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>9</td><td>+6</td><td>+6</td><td>+6</td><td>+3</td><td>9</td><td>5</td><td>+6</td><td>+3</td><td>4</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>10</td><td>+7</td><td>+7</td><td>+7</td><td>+3</td><td>10</td><td>5</td><td>+8</td><td>+4</td><td>5</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>11</td><td>+8</td><td>+7</td><td>+7</td><td>+3</td><td>11</td><td>6</td><td>+8</td><td>+4</td><td>5</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>12</td><td>+9</td><td>+8</td><td>+8</td><td>+4</td><td>12</td><td>6</td><td>+8</td><td>+4</td><td>5</td><td>Ability score increase</td></tr><tr class=\"odd\"><td>15th</td><td>12</td><td>+9</td><td>+8</td><td>+8</td><td>+4</td><td>12</td><td>6</td><td>+10</td><td>+5</td><td>6</td><td>Improved evasion</td></tr><tr class=\"even\"><td>16th</td><td>13</td><td>+9</td><td>+8</td><td>+8</td><td>+4</td><td>13</td><td>7</td><td>+10</td><td>+5</td><td>6</td><td>&mdash;</td></tr><tr class=\"odd\"><td>17th</td><td>14</td><td>+10</td><td>+9</td><td>+9</td><td>+4</td><td>14</td><td>7</td><td>+10</td><td>+5</td><td>6</td><td>&mdash;</td></tr><tr class=\"even\"><td>18th</td><td>15</td><td>+11</td><td>+9</td><td>+9</td><td>+5</td><td>15</td><td>8</td><td>+12</td><td>+6</td><td>7</td><td>&mdash;</td></tr><tr class=\"odd\"><td>19th</td><td>15</td><td>+11</td><td>+9</td><td>+9</td><td>+5</td><td>15</td><td>8</td><td>+12</td><td>+6</td><td>7</td><td>&mdash;</td></tr><tr class=\"even\"><td>20th</td><td>16</td><td>+12</td><td>+10</td><td>+10</td><td>+5</td><td>16</td><td>8</td><td>+12</td><td>+6</td><td>7</td><td>Ability score increase</td></tr></tbody></table>", 
-                    "name": "Table: Animal Companion Base Statistics", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Table Animal Companion Base Statistics", 
-                    "section_id": 2047, 
-                    "source": "Core Rulebook", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Animal Companion Base Statistics", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>This is the character's druid level. The druid's class levels stack with levels of any other classes that are entitled to an animal companion for the purpose of determining the companion's statistics.</p>", 
-                    "name": "Class Level", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Class Level", 
-                    "section_id": 2048, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Class Level", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>This is the total number of eight-sided (d8) Hit Dice the animal companion possesses, each of which gains a Constitution modifier, as normal. </p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "HD", 
-                    "section_id": 2049
+                    "name": "HD"
                 }, 
                 {
                     "body": "<p>This is the animal companion's base attack bonus. An animal companion's base attack bonus is the same as that of a druid of a level equal to the animal's HD. Animal companions do not gain additional attacks using their natural weapons for a high base attack bonus.</p>", 
-                    "name": "BAB", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/BAB", 
-                    "section_id": 2050, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "BAB", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>These are the animal companion's base saving throw bonuses. An animal companion has good Fortitude and Reflex saves.</p>", 
+                    "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Fort_Ref_Will", 
+                    "type": "section", 
                     "name": "Fort/Ref/Will", 
-                    "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Fort/Ref/Will", 
-                    "section_id": 2051, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>This lists the animal's total skill ranks. Animal companions can assign skill ranks to any skill listed under Animal Skills. If an animal companion increases its Intelligence to 10 or higher, it gains bonus skill ranks as normal. Animal companions with an Intelligence of 3 or higher can purchase ranks in any skill. An animal companion cannot have more ranks in a skill than it has Hit Dice.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Skills", 
-                    "section_id": 2052
+                    "name": "Skills"
                 }, 
                 {
                     "body": "<p>This is the total number of feats possessed by an animal companion. Animal companions should select their feats from those listed under Animal Feats. Animal companions can select other feats, although they are unable to utilize some feats (such as Martial Weapon Proficiency). Note that animal companions cannot select a feat with a requirement of base attack bonus +1 until they gain their second feat at 3 Hit Dice.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Feats", 
-                    "section_id": 2053
+                    "name": "Feats"
                 }, 
                 {
                     "body": "<p>The number noted here is an improvement to the animal companion's existing natural armor bonus.</p>", 
-                    "name": "Natural Armor Bonus", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Natural Armor Bonus", 
-                    "section_id": 2054, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Natural Armor Bonus", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>Add this modifier to the animal companion's Strength and Dexterity scores.</p>", 
+                    "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Str_Dex Bonus", 
+                    "type": "section", 
                     "name": "Str/Dex Bonus", 
-                    "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Str/Dex Bonus", 
-                    "section_id": 2055, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>The value given in this column is the total number of &ldquo;bonus&rdquo; tricks that the animal knows in addition to any that the druid might choose to teach it (see the Handle Animal skill for more details on how to teach an animal tricks). These bonus tricks don't require any training time or Handle Animal checks, and they don't count against the normal limit of tricks known by the animal. The druid selects these bonus tricks, and once selected, they can't be changed. </p>", 
-                    "name": "Bonus Tricks", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Bonus Tricks", 
-                    "section_id": 2056, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Bonus Tricks", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p>This includes a number of abilities gained by animal companions as they increase in power. Each of these bonuses is described below.</p>", 
-                    "name": "Special", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<p id=\"companions-link\"> A druid can handle her animal companion as a free action, or push it as a move action, even if she doesn't have any ranks in the Handle Animal skill. The druid gains a +4 circumstance bonus on all wild empathy checks and Handle Animal checks made regarding an animal companion.</p>", 
                             "name": "Link", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Special/Link", 
                             "ability_types": {
-                                "ability_type_id": 162, 
-                                "section_id": 2058, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2058, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -355,11 +299,8 @@
                             "name": "Share Spells", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Special/Share Spells", 
                             "ability_types": {
-                                "ability_type_id": 163, 
-                                "section_id": 2059, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2059, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -368,11 +309,8 @@
                             "name": "Evasion", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Special/Evasion", 
                             "ability_types": {
-                                "ability_type_id": 164, 
-                                "section_id": 2060, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2060, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -381,11 +319,8 @@
                             "name": "Ability Score Increase", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Special/Ability Score Increase", 
                             "ability_types": {
-                                "ability_type_id": 165, 
-                                "section_id": 2061, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2061, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
@@ -394,78 +329,71 @@
                             "name": "Devotion", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Special/Devotion", 
                             "ability_types": {
-                                "ability_type_id": 166, 
-                                "section_id": 2062, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2062, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"companions-multiattack\">An animal companion gains Multiattack as a bonus feat if it has three or more natural attacks and does not already have that feat. If it does not have the requisite three or more natural attacks, the animal companion instead gains a second attack with one of its natural weapons, albeit at a &ndash;5 penalty.</p>", 
-                            "name": "Multiattack", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Special/Multiattack", 
-                            "section_id": 2063, 
-                            "source": "Core Rulebook", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Multiattack", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<p id=\"companions-improved-evasion\"> When subjected to an attack that allows a Reflex saving throw for half damage, an animal companion takes no damage if it makes a successful saving throw and only half damage if the saving throw fails.</p>", 
                             "name": "Improved Evasion", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Companions/Special/Improved Evasion", 
                             "ability_types": {
-                                "ability_type_id": 167, 
-                                "section_id": 2064, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 2064, 
                             "source": "Core Rulebook", 
                             "type": "ability"
                         }
                     ], 
-                    "section_id": 2057, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Special", 
+                    "source": "Core Rulebook"
                 }
-            ], 
-            "section_id": 2046, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Animal companions can have ranks in any of the following skills: Acrobatics* (Dex), Climb* (Str), Escape Artist (Dex), Fly* (Dex), Intimidate (Cha), Perception* (Wis), Stealth* (Dex), Survival (Wis), and Swim* (Str). All of the skills marked with an (*) are class skills for animal companions. Animal companions with an Intelligence of 3 or higher can put ranks into any skill. </p>", 
-            "name": "Animal Skills", 
             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Skills", 
-            "section_id": 2065, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Animal Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Animal companions can select from the following feats: Acrobatic, Agile Maneuvers, Armor Proficiency (light, medium, and heavy), Athletic, Blind-Fight, Combat Reflexes, Diehard, Dodge, Endurance, Great Fortitude, Improved Bull Rush, Improved Initiative, Improved Natural Armor, Improved Natural Attack, Improved Overrun, Intimidating Prowess, Iron Will, Lightning Reflexes, Mobility, Power Attack, Run, Skill Focus, Spring Attack, Stealthy, Toughness, Weapon Finesse, and Weapon Focus. Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources. </p>", 
-            "name": "Animal Feats", 
             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Feats", 
-            "section_id": 2066, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "type": "section", 
+            "name": "Animal Feats", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Each animal companion has different starting sizes, speed, attacks, ability scores, and special qualities. All animal attacks are made using the creature's full base attack bonus unless otherwise noted. Animal attacks add the animal's Strength modifier to the damage roll, unless it is its only attack, in which case it adds 1-1/2 its Strength modifier. Some have special abilities, such as scent. See Special Abilities for more information on these abilities. As you gain levels, your animal companion improves as well, usually at 4th or 7th level, in addition to the standard bonuses noted on Table: Animal Companion Base Statistics. Instead of taking the listed benefit at 4th or 7th level, you can instead choose to increase the companion's Dexterity and Constitution by 2.</p>", 
             "name": "Animal Choices", 
             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices", 
+            "type": "section", 
+            "source": "Core Rulebook", 
             "sections": [
                 {
                     "ac": "+1 natural armor", 
                     "name": "Ape", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Ape", 
+                    "speed": "30 ft., Climb 30 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4), 2 claws (1d4)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 13, Dex 17, Con 10, Int 2, Wis 12, Cha 7", 
                     "sections": [
                         {
                             "ac": "+2 natural armor", 
                             "name": "Ape", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Ape/Ape", 
-                            "section_id": 2069, 
                             "subtype": "advancement", 
                             "attack": "bite (1d6), 2 claws (1d6)", 
                             "source": "Core Rulebook", 
@@ -474,13 +402,7 @@
                             "size": "Large"
                         }
                     ], 
-                    "section_id": 2068, 
-                    "subtype": "base", 
-                    "attack": "bite (1d4), 2 claws (1d4)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "30 ft., Climb 30 ft.", 
-                    "ability_scores": "Str 13, Dex 17, Con 10, Int 2, Wis 12, Cha 7", 
                     "size": "Medium"
                 }, 
                 {
@@ -494,7 +416,6 @@
                             "name": "Badger (Wolverine)", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Badger (Wolverine)/Badger (Wolverine)", 
-                            "section_id": 2071, 
                             "subtype": "advancement", 
                             "attack": "bite (1d6), 2 claws (1d4)", 
                             "source": "Core Rulebook", 
@@ -503,13 +424,12 @@
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2070, 
                     "subtype": "base", 
                     "attack": "bite (1d4), 2 claws (1d3)", 
                     "type": "animal_companion", 
-                    "special_qualities": "low-light vision, scent.", 
-                    "speed": "30 ft., burrow 10 ft., climb 10 ft.", 
                     "ability_scores": "Str 10, Dex 17, Con 15, Int 2, Wis 12, Cha 10", 
+                    "speed": "30 ft., burrow 10 ft., climb 10 ft.", 
+                    "special_qualities": "low-light vision, scent.", 
                     "size": "Small"
                 }, 
                 {
@@ -517,12 +437,16 @@
                     "name": "Bear", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Bear", 
+                    "speed": "40 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4), 2 claws (1d3)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 15, Dex 15, Con 13, Int 2, Wis 12, Cha 6", 
                     "sections": [
                         {
                             "name": "Bear", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Bear/Bear", 
-                            "section_id": 2073, 
                             "subtype": "advancement", 
                             "attack": "bite (1d6), 2 claws (1d4)", 
                             "source": "Core Rulebook", 
@@ -531,39 +455,31 @@
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2072, 
-                    "subtype": "base", 
-                    "attack": "bite (1d4), 2 claws (1d3)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "40 ft.", 
-                    "ability_scores": "Str 15, Dex 15, Con 13, Int 2, Wis 12, Cha 6", 
                     "size": "Small"
                 }, 
                 {
                     "ac": "+1 natural armor", 
                     "name": "Bird (Eagle/Hawk/Owl)", 
                     "source": "Core Rulebook", 
-                    "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Bird (Eagle/Hawk/Owl)", 
+                    "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Bird (Eagle_Hawk_Owl)", 
+                    "speed": "10 ft., fly 80 ft. (average)", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4), 2 talons (1d4)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 10, Dex 15, Con 12, Int 2, Wis 14, Cha 6", 
                     "sections": [
                         {
                             "name": "Bird (Eagle/Hawk/Owl)", 
-                            "level": "4th", 
-                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Bird (Eagle/Hawk/Owl)/Bird (Eagle/Hawk/Owl)", 
-                            "section_id": 2075, 
-                            "subtype": "advancement", 
                             "source": "Core Rulebook", 
+                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Bird (Eagle_Hawk_Owl)/Bird (Eagle_Hawk_Owl)", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
                             "ability_scores": "Str +2, Con +2.", 
                             "type": "animal_companion"
                         }
                     ], 
-                    "section_id": 2074, 
-                    "subtype": "base", 
-                    "attack": "bite (1d4), 2 talons (1d4)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision.", 
-                    "speed": "10 ft., fly 80 ft. (average)", 
-                    "ability_scores": "Str 10, Dex 15, Con 12, Int 2, Wis 14, Cha 6", 
                     "size": "Small"
                 }, 
                 {
@@ -571,13 +487,17 @@
                     "name": "Boar", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Boar", 
+                    "speed": "40 ft.", 
+                    "subtype": "base", 
+                    "attack": "gore (1d6)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 13, Dex 12, Con 15, Int 2, Wis 13, Cha 4", 
                     "sections": [
                         {
                             "special_attacks": "ferocity.", 
                             "name": "Boar", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Boar/Boar", 
-                            "section_id": 2077, 
                             "subtype": "advancement", 
                             "attack": "gore (1d8)", 
                             "source": "Core Rulebook", 
@@ -586,13 +506,7 @@
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2076, 
-                    "subtype": "base", 
-                    "attack": "gore (1d6)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "40 ft.", 
-                    "ability_scores": "Str 13, Dex 12, Con 15, Int 2, Wis 13, Cha 4", 
                     "size": "Small"
                 }, 
                 {
@@ -600,25 +514,23 @@
                     "name": "Camel", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Camel", 
+                    "speed": "50 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4) or spit (ranged touch attack, target is sickened for 1d4 rounds, range 10 feet)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 18, Dex 16, Con 14, Int 2, Wis 11, Cha 4", 
                     "sections": [
                         {
                             "name": "Camel", 
-                            "level": "4th", 
-                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Camel/Camel", 
-                            "section_id": 2079, 
-                            "subtype": "advancement", 
                             "source": "Core Rulebook", 
+                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Camel/Camel", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
                             "ability_scores": "Str +2, Con +2.", 
                             "type": "animal_companion"
                         }
                     ], 
-                    "section_id": 2078, 
-                    "subtype": "base", 
-                    "attack": "bite (1d4) or spit (ranged touch attack, target is sickened for 1d4 rounds, range 10 feet)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "50 ft.", 
-                    "ability_scores": "Str 18, Dex 16, Con 14, Int 2, Wis 11, Cha 4", 
                     "size": "Large"
                 }, 
                 {
@@ -630,11 +542,10 @@
                     "sections": [
                         {
                             "ac": "+2 natural armor", 
-                            "special_attacks": "grab, pounce, rake (1d6)  .", 
+                            "special_attacks": "grab, pounce, rake (1d6).", 
                             "name": "Cat, Big (Lion, Tiger)", 
                             "level": "7th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Cat/Big (Lion/Tiger)/Cat/Big (Lion/Tiger)", 
-                            "section_id": 2081, 
                             "subtype": "advancement", 
                             "attack": "bite (1d8), 2 claws (1d6)", 
                             "source": "Core Rulebook", 
@@ -643,13 +554,12 @@
                             "size": "Large"
                         }
                     ], 
-                    "section_id": 2080, 
                     "subtype": "base", 
                     "attack": "bite (1d6), 2 claws (1d4)", 
                     "type": "animal_companion", 
-                    "special_qualities": "low-light vision, scent.", 
-                    "speed": "40 ft.", 
                     "ability_scores": "Str 13, Dex 17, Con 13, Int 2, Wis 15, Cha 10", 
+                    "speed": "40 ft.", 
+                    "special_qualities": "low-light vision, scent.", 
                     "size": "Medium"
                 }, 
                 {
@@ -657,28 +567,26 @@
                     "name": "Cat, Small (Cheetah, Leopard)", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Cat/Small (Cheetah/Leopard)", 
+                    "speed": "50 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4 plus trip), 2 claws (1d2)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 12, Dex 21, Con 13, Int 2, Wis 12, Cha 6", 
                     "sections": [
                         {
                             "name": "Cat, Small (Cheetah, Leopard)", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Cat/Small (Cheetah/Leopard)/Cat/Small (Cheetah/Leopard)", 
-                            "section_id": 2083, 
                             "subtype": "advancement", 
                             "attack": "bite (1d6 plus trip), 2 claws (1d3)", 
                             "source": "Core Rulebook", 
-                            "special_qualities": "sprint.", 
-                            "type": "animal_companion", 
                             "ability_scores": "Str +4, Dex -2, Con +2", 
+                            "type": "animal_companion", 
+                            "special_qualities": "sprint.", 
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2082, 
-                    "subtype": "base", 
-                    "attack": "bite (1d4 plus trip), 2 claws (1d2)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "50 ft.", 
-                    "ability_scores": "Str 12, Dex 21, Con 13, Int 2, Wis 12, Cha 6", 
                     "size": "Small"
                 }, 
                 {
@@ -686,13 +594,17 @@
                     "name": "Crocodile (Alligator)", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Crocodile (Alligator)", 
+                    "speed": "20 ft., swim 30 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d6)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 15, Dex 14, Con 15, Int 1, Wis 12, Cha 2", 
                     "sections": [
                         {
                             "special_attacks": "death roll, grab, sprint.", 
                             "name": "Crocodile (Alligator)", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Crocodile (Alligator)/Crocodile (Alligator)", 
-                            "section_id": 2085, 
                             "subtype": "advancement", 
                             "attack": "bite (1d8) or tail slap (1d12)", 
                             "source": "Core Rulebook", 
@@ -701,13 +613,7 @@
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2084, 
-                    "subtype": "base", 
-                    "attack": "bite (1d6)", 
-                    "type": "animal_companion", 
                     "special_qualities": "hold breath, low-light vision.", 
-                    "speed": "20 ft., swim 30 ft.", 
-                    "ability_scores": "Str 15, Dex 14, Con 15, Int 1, Wis 12, Cha 2", 
                     "size": "Small"
                 }, 
                 {
@@ -715,6 +621,11 @@
                     "name": "Dinosaur (Deinonychus, Velociraptor)", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Dinosaur (Deinonychus/Velociraptor)", 
+                    "speed": "60 ft.", 
+                    "subtype": "base", 
+                    "attack": "2 talons (1d6), bite (1d4)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 11, Dex 17, Con 17, Int 2, Wis 12, Cha 14", 
                     "sections": [
                         {
                             "ac": "+2 natural armor", 
@@ -722,7 +633,6 @@
                             "name": "Dinosaur (Deinonychus, Velociraptor)", 
                             "level": "7th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Dinosaur (Deinonychus/Velociraptor)/Dinosaur (Deinonychus/Velociraptor)", 
-                            "section_id": 2087, 
                             "subtype": "advancement", 
                             "attack": "2 talons (1d8), bite (1d6), 2 claws (1d4)", 
                             "source": "Core Rulebook", 
@@ -731,13 +641,7 @@
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2086, 
-                    "subtype": "base", 
-                    "attack": "2 talons (1d6), bite (1d4)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "60 ft.", 
-                    "ability_scores": "Str 11, Dex 17, Con 17, Int 2, Wis 12, Cha 14", 
                     "size": "Small"
                 }, 
                 {
@@ -745,12 +649,16 @@
                     "name": "Dog", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Dog", 
+                    "speed": "40 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 13, Dex 17, Con 15, Int 2, Wis 12, Cha 6", 
                     "sections": [
                         {
                             "name": "Dog", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Dog/Dog", 
-                            "section_id": 2089, 
                             "subtype": "advancement", 
                             "attack": "bite (1d6)", 
                             "source": "Core Rulebook", 
@@ -759,13 +667,7 @@
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2088, 
-                    "subtype": "base", 
-                    "attack": "bite (1d4)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "40 ft.", 
-                    "ability_scores": "Str 13, Dex 17, Con 15, Int 2, Wis 12, Cha 6", 
                     "size": "Small"
                 }, 
                 {
@@ -773,26 +675,24 @@
                     "name": "Horse", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Horse", 
-                    "sections": [
-                        {
-                            "name": "Horse", 
-                            "level": "4th", 
-                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Horse/Horse", 
-                            "section_id": 2091, 
-                            "subtype": "advancement", 
-                            "source": "Core Rulebook", 
-                            "special_qualities": "combat trained (see the Handle Animal skill).", 
-                            "type": "animal_companion", 
-                            "ability_scores": "Str +2, Con +2"
-                        }
-                    ], 
-                    "section_id": 2090, 
+                    "speed": "50 ft.", 
                     "subtype": "base", 
                     "attack": "bite (1d4), 2 hooves* (1d6)", 
                     "type": "animal_companion", 
-                    "special_qualities": "low-light vision, scent. *This is a secondary natural attack, see Combat for more information on how secondary attacks work.", 
-                    "speed": "50 ft.", 
                     "ability_scores": "Str 16, Dex 13, Con 15, Int 2, Wis 12, Cha 6", 
+                    "sections": [
+                        {
+                            "name": "Horse", 
+                            "source": "Core Rulebook", 
+                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Horse/Horse", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "ability_scores": "Str +2, Con +2", 
+                            "type": "animal_companion", 
+                            "special_qualities": "combat trained (see the Handle Animal skill)."
+                        }
+                    ], 
+                    "special_qualities": "low-light vision, scent. *This is a secondary natural attack, see Combat for more information on how secondary attacks work.", 
                     "size": "Large"
                 }, 
                 {
@@ -800,26 +700,24 @@
                     "name": "Pony", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Pony", 
-                    "sections": [
-                        {
-                            "name": "Pony", 
-                            "level": "4th", 
-                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Pony/Pony", 
-                            "section_id": 2093, 
-                            "subtype": "advancement", 
-                            "source": "Core Rulebook", 
-                            "special_qualities": "combat trained (see the Handle Animal skill).", 
-                            "type": "animal_companion", 
-                            "ability_scores": "Str +2, Con +2"
-                        }
-                    ], 
-                    "section_id": 2092, 
+                    "speed": "40 ft.", 
                     "subtype": "base", 
                     "attack": "2 hooves (1d3)", 
                     "type": "animal_companion", 
-                    "special_qualities": "low-light vision, scent.", 
-                    "speed": "40 ft.", 
                     "ability_scores": "Str 13, Dex 13, Con 12, Int 2, Wis 11, Cha 4", 
+                    "sections": [
+                        {
+                            "name": "Pony", 
+                            "source": "Core Rulebook", 
+                            "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Pony/Pony", 
+                            "level": "4th", 
+                            "subtype": "advancement", 
+                            "ability_scores": "Str +2, Con +2", 
+                            "type": "animal_companion", 
+                            "special_qualities": "combat trained (see the Handle Animal skill)."
+                        }
+                    ], 
+                    "special_qualities": "low-light vision, scent.", 
                     "size": "Medium"
                 }, 
                 {
@@ -827,28 +725,26 @@
                     "name": "Shark", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Shark", 
+                    "speed": "swim 60 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d4)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 13, Dex 15, Con 15, Int 1, Wis 12, Cha 2", 
                     "sections": [
                         {
                             "name": "Shark", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Shark/Shark", 
-                            "section_id": 2095, 
                             "subtype": "advancement", 
                             "attack": "bite (1d6)", 
                             "source": "Core Rulebook", 
-                            "special_qualities": "blindsense.", 
-                            "type": "animal_companion", 
                             "ability_scores": "Str +4, Dex -2, Con +2", 
+                            "type": "animal_companion", 
+                            "special_qualities": "blindsense.", 
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2094, 
-                    "subtype": "base", 
-                    "attack": "bite (1d4)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "swim 60 ft.", 
-                    "ability_scores": "Str 13, Dex 15, Con 15, Int 1, Wis 12, Cha 2", 
                     "size": "Small"
                 }, 
                 {
@@ -864,7 +760,6 @@
                             "name": "Snake, Constrictor", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Snake/Constrictor/Snake/Constrictor", 
-                            "section_id": 2097, 
                             "subtype": "advancement", 
                             "attack": "bite (1d4)", 
                             "source": "Core Rulebook", 
@@ -873,13 +768,12 @@
                             "size": "Large"
                         }
                     ], 
-                    "section_id": 2096, 
                     "subtype": "base", 
                     "attack": "bite (1d3)", 
                     "type": "animal_companion", 
-                    "special_qualities": "low-light vision, scent.", 
-                    "speed": "20 ft., climb 20 ft., swim 20 ft.", 
                     "ability_scores": "Str 15, Dex 17, Con 13, Int 1, Wis 12, Cha 2", 
+                    "speed": "20 ft., climb 20 ft., swim 20 ft.", 
+                    "special_qualities": "low-light vision, scent.", 
                     "size": "Medium"
                 }, 
                 {
@@ -893,7 +787,6 @@
                             "name": "Snake, Viper", 
                             "level": "4th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Snake/Viper/Snake/Viper", 
-                            "section_id": 2099, 
                             "subtype": "advancement", 
                             "attack": "bite (1d4 plus poison)", 
                             "source": "Core Rulebook", 
@@ -902,13 +795,12 @@
                             "size": "Medium"
                         }
                     ], 
-                    "section_id": 2098, 
                     "subtype": "base", 
                     "attack": "bite (1d3 plus poison)", 
                     "type": "animal_companion", 
-                    "special_qualities": "low-light vision, scent.", 
-                    "speed": "20 ft., climb 20 ft., swim 20 ft.", 
                     "ability_scores": "Str 8, Dex 17, Con 11, Int 1, Wis 12, Cha 2", 
+                    "speed": "20 ft., climb 20 ft., swim 20 ft.", 
+                    "special_qualities": "low-light vision, scent.", 
                     "size": "Small"
                 }, 
                 {
@@ -916,13 +808,17 @@
                     "name": "Wolf", 
                     "source": "Core Rulebook", 
                     "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Wolf", 
+                    "speed": "50 ft.", 
+                    "subtype": "base", 
+                    "attack": "bite (1d6 plus trip)", 
+                    "type": "animal_companion", 
+                    "ability_scores": "Str 13, Dex 15, Con 15, Int 2, Wis 12, Cha 6", 
                     "sections": [
                         {
                             "ac": "+2 natural armor", 
                             "name": "Wolf", 
                             "level": "7th", 
                             "url": "pfsrd://Core Rulebook/Classes/Druid/Animal Choices/Wolf/Wolf", 
-                            "section_id": 2101, 
                             "subtype": "advancement", 
                             "attack": "bite (1d8 plus trip)", 
                             "source": "Core Rulebook", 
@@ -931,32 +827,21 @@
                             "size": "Large"
                         }
                     ], 
-                    "section_id": 2100, 
-                    "subtype": "base", 
-                    "attack": "bite (1d6 plus trip)", 
-                    "type": "animal_companion", 
                     "special_qualities": "low-light vision, scent.", 
-                    "speed": "50 ft.", 
-                    "ability_scores": "Str 13, Dex 15, Con 15, Int 2, Wis 12, Cha 6", 
                     "size": "Medium"
                 }
-            ], 
-            "section_id": 2067, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            ]
         }, 
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Vermin Companions: Ultimate Magic", 
-            "section_id": 2102
+            "name": "Vermin Companions: Ultimate Magic"
         }, 
         {
             "body": "<p>Druids gain access to the following spells.</p>", 
             "name": "Druid Spells", 
             "source": "Core Rulebook", 
             "url": "pfsrd://Core Rulebook/Classes/Druid/Druid Spells", 
-            "section_id": 2103, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "druid"
@@ -964,35 +849,30 @@
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Animal and Terrain Domains: Ultimate Magic", 
-            "section_id": 2104
+            "name": "Animal and Terrain Domains: Ultimate Magic"
         }, 
         {
-            "name": "Druid Archetypes", 
             "url": "pfsrd://Core Rulebook/Classes/Druid/Druid Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Druid Archetypes: Advanced Player's Guide", 
-                    "section_id": 2106
+                    "name": "Druid Archetypes: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Druid Archetypes: Ultimate Magic", 
-                    "section_id": 2107
+                    "name": "Druid Archetypes: Ultimate Magic"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Druid Archetypes: Ultimate Combat", 
-                    "section_id": 2108
+                    "name": "Druid Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 2105, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Druid Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any neutral."

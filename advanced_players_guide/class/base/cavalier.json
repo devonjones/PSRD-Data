@@ -5,7 +5,6 @@
     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier", 
     "type": "class", 
     "image": "Cavalier.png", 
-    "section_id": 928, 
     "subtype": "base", 
     "hit_die": "d10", 
     "alt": "Alian", 
@@ -14,71 +13,61 @@
             "body": "<p id=\"role\">Cavaliers tend to marshal forces on the battlefield, using their mounted talents and challenges to control the flow of the fight. Outside of battle, cavaliers can be found advancing their cause through diplomacy and, if needed, subterfuge. The cavalier is no stranger to courtly intrigue and can hold his own in even the most delicate of social situations.</p>", 
             "source": "Advanced Player's Guide", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 929
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for cavalier characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Cavalier</td><td>5d6 &times; 10 gp</td><td>175 gp</td></tr></table>", 
                     "source": "Advanced Player's Guide", 
-                    "type": "table", 
-                    "section_id": 931
+                    "type": "table"
                 }
             ], 
-            "section_id": 930, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The cavalier's class skills are Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Intimidate (Cha), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Swim (Str). </p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">4 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-2-2:-cavalier\"><caption>Table:  Cavalier</caption><thead><tr id=\"level-bonus-save-save-save-special\"><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+1</td><td>+2</td><td>+0</td><td>+0</td><td style=\"white-space: normal;\">Challenge 1/day, mount, order, tactician</td></tr><tr class=\"even\"><td>2nd</td><td>+2</td><td>+3</td><td>+0</td><td>+0</td><td style=\"white-space: normal;\">Order ability</td></tr><tr class=\"odd\"><td>3rd</td><td>+3</td><td>+3</td><td>+1</td><td>+1</td><td style=\"white-space: normal;\">Cavalier's charge</td></tr><tr class=\"even\"><td>4th</td><td>+4</td><td>+4</td><td>+1</td><td>+1</td><td style=\"white-space: normal;\">Challenge 2/day, expert trainer</td></tr><tr class=\"odd\"><td>5th</td><td>+5</td><td>+4</td><td>+1</td><td>+1</td><td style=\"white-space: normal;\">Banner</td></tr><tr class=\"even\"><td>6th</td><td>+6/+1</td><td>+5</td><td>+2</td><td>+2</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>7th</td><td>+7/+2</td><td>+5</td><td>+2</td><td>+2</td><td style=\"white-space: normal;\">Challenge 3/day</td></tr><tr class=\"even\"><td>8th</td><td>+8/+3</td><td>+6</td><td>+2</td><td>+2</td><td style=\"white-space: normal;\">Order ability</td></tr><tr class=\"odd\"><td>9th</td><td>+9/+4</td><td>+6</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Greater tactician</td></tr><tr class=\"even\"><td>10th</td><td>+10/+5</td><td>+7</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Challenge 4/day</td></tr><tr class=\"odd\"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Mighty charge</td></tr><tr class=\"even\"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\">Bonus feat, demanding challenge</td></tr><tr class=\"odd\"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\">Challenge 5/day</td></tr><tr class=\"even\"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\">Greater banner</td></tr><tr class=\"odd\"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">Order ability</td></tr><tr class=\"even\"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">Challenge 6/day</td></tr><tr class=\"odd\"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">Master tactician</td></tr><tr class=\"even\"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Bonus feat</td></tr><tr class=\"odd\"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Challenge 7/day</td></tr><tr class=\"even\"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Supreme charge</td></tr></table>", 
-                            "name": "Table: Cavalier", 
                             "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Skills/Skill Ranks per Level/Table Cavalier", 
-                            "section_id": 934, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Cavalier", 
+                            "source": "Advanced Player's Guide"
                         }
                     ], 
-                    "section_id": 933, 
-                    "source": "Advanced Player's Guide", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Advanced Player's Guide"
                 }
             ], 
-            "section_id": 932, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The following are the class features of the cavalier.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Cavaliers are proficient with all simple and martial weapons, with all types of armor (heavy, light, and medium) and with shields (except tower shields).</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 936
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"challenge\">Once per day, a cavalier can challenge a foe to combat. As a swift action, the cavalier chooses one target within sight to challenge. The cavalier's melee attacks deal extra damage whenever the attacks are made against the target of his challenge. This extra damage is equal to the cavalier's level. The cavalier can use this ability once per day at 1st level, plus one additional time per day for every three levels beyond 1st, to a maximum of seven times per day at 19th level. </p><p>Challenging a foe requires much of the cavalier's concentration. The cavalier takes a &ndash;2 penalty to his Armor Class, except against attacks made by the target of his challenge.</p><p>The challenge remains in effect until the target is dead or unconscious or until the combat ends. Each cavalier's challenge also includes another effect which is listed in the section describing the cavalier's order.</p>", 
                     "name": "Challenge", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Challenge", 
                     "ability_types": {
-                        "ability_type_id": 28, 
-                        "section_id": 937, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 937, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -87,11 +76,8 @@
                     "name": "Mount", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Mount", 
                     "ability_types": {
-                        "ability_type_id": 29, 
-                        "section_id": 938, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 938, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -100,11 +86,8 @@
                     "name": "Order", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Order", 
                     "ability_types": {
-                        "ability_type_id": 30, 
-                        "section_id": 939, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 939, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -113,11 +96,8 @@
                     "name": "Tactician", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Tactician", 
                     "ability_types": {
-                        "ability_type_id": 31, 
-                        "section_id": 940, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 940, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -126,11 +106,8 @@
                     "name": "Cavalier's Charge", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Cavaliers Charge", 
                     "ability_types": {
-                        "ability_type_id": 32, 
-                        "section_id": 941, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 941, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -139,11 +116,8 @@
                     "name": "Expert Trainer", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Expert Trainer", 
                     "ability_types": {
-                        "ability_type_id": 33, 
-                        "section_id": 942, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 942, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -152,11 +126,8 @@
                     "name": "Banner", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Banner", 
                     "ability_types": {
-                        "ability_type_id": 34, 
-                        "section_id": 943, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 943, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -164,19 +135,15 @@
                     "body": "<p id=\"bonus-feat\">At 6th level, and at every six levels thereafter, a cavalier gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as combat feats. The cavalier must meet the prerequisites of these bonus feats.</p>", 
                     "source": "Advanced Player's Guide", 
                     "type": "section", 
-                    "name": "Bonus Feat", 
-                    "section_id": 944
+                    "name": "Bonus Feat"
                 }, 
                 {
                     "body": "<p id=\"greater-tactician\">At 9th level, the cavalier receives an additional teamwork feat as a bonus feat. He must meet the prerequisites for this feat. The cavalier can grant this feat to his allies using the tactician ability. Using the tactician ability is a swift action.</p>", 
                     "name": "Greater Tactician", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Greater Tactician", 
                     "ability_types": {
-                        "ability_type_id": 35, 
-                        "section_id": 945, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 945, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -185,11 +152,8 @@
                     "name": "Mighty Charge", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Mighty Charge", 
                     "ability_types": {
-                        "ability_type_id": 36, 
-                        "section_id": 946, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 946, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -198,11 +162,8 @@
                     "name": "Demanding Challenge", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Demanding Challenge", 
                     "ability_types": {
-                        "ability_type_id": 37, 
-                        "section_id": 947, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 947, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -211,11 +172,8 @@
                     "name": "Greater Banner", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Greater Banner", 
                     "ability_types": {
-                        "ability_type_id": 38, 
-                        "section_id": 948, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 948, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -224,11 +182,8 @@
                     "name": "Master Tactician", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Master Tactician", 
                     "ability_types": {
-                        "ability_type_id": 39, 
-                        "section_id": 949, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 949, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }, 
@@ -237,23 +192,21 @@
                     "name": "Supreme Charge", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Class Features/Supreme Charge", 
                     "ability_types": {
-                        "ability_type_id": 40, 
-                        "section_id": 950, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 950, 
                     "source": "Advanced Player's Guide", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 935, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Advanced Player's Guide"
         }, 
         {
             "body": "<p>The following orders represent the most common chosen by cavaliers. Members of these orders are not necessarily bound together, but some organizations do exist that are comprised of cavaliers that all belong to one specific order.</p>", 
             "name": "Cavalier Orders", 
             "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders", 
+            "type": "section", 
+            "source": "Advanced Player's Guide", 
             "sections": [
                 {
                     "body": "<p>A cavalier who belongs to this order serves only himself, working to further his own aims and increase his own prestige. Cavaliers of this order tend to be selfish and concerned only with personal goals and objectives.</p>", 
@@ -261,44 +214,37 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Cockatrice", 
                     "type": "section", 
-                    "section_id": 952, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"edicts\">The cavalier must keep his own interests and aims above those of all others. He must always accept payment when it is due, rewards when earned, and an even (or greater) share of loot. The cavalier must take every opportunity to increase his own stature, prestige, and power.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Edicts", 
-                            "section_id": 953
+                            "name": "Edicts"
                         }, 
                         {
                             "body": "<p id=\"challenge\">Whenever an order of the cockatrice cavalier issues a challenge, he receives a +1 morale bonus on all melee damage rolls made against the target of his challenge as long as he is the only creature threatening the target (not counting his mount). This bonus increases by +1 for every four levels the cavalier possesses.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 954
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\">An order of the cockatrice cavalier adds Appraise (Int) and Perform (Cha) to his list of class skills. In addition, an order of the cockatrice cavalier adds his Charisma modifier to the DC on another creature's attempt to demoralize him through Intimidate (in addition to his Wisdom modifier, as normal).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 955
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\">A cavalier that belongs to the order of the cockatrice gains the following abilities as he increases in level. </p>", 
-                            "name": "Order Abilities", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"braggart\">At 2nd level, the cavalier can spend a standard action to extol his own accomplishments and battle prowess. He receives Dazzling Display as a bonus feat. He does not need a weapon in hand to use this ability. The cavalier receives a +2 morale bonus on melee attack rolls made against demoralized targets.</p>", 
                                     "name": "Braggart", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Cockatrice/Order Abilities/Braggart", 
                                     "ability_types": {
-                                        "ability_type_id": 41, 
-                                        "section_id": 957, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 957, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -307,11 +253,8 @@
                                     "name": "Steal Glory", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Cockatrice/Order Abilities/Steal Glory", 
                                     "ability_types": {
-                                        "ability_type_id": 42, 
-                                        "section_id": 958, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 958, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -320,18 +263,14 @@
                                     "name": "Moment of Triumph", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Cockatrice/Order Abilities/Moment of Triumph", 
                                     "ability_types": {
-                                        "ability_type_id": 43, 
-                                        "section_id": 959, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 959, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 956, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Order Abilities", 
+                            "source": "Advanced Player's Guide"
                         }
                     ]
                 }, 
@@ -341,44 +280,37 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Dragon", 
                     "type": "section", 
-                    "section_id": 960, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"edicts\">The cavalier must remain loyal to his allies and must always work to further the aims of the group. He must protect his allies from harm and defend their honor when called into doubt.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Edicts", 
-                            "section_id": 961
+                            "name": "Edicts"
                         }, 
                         {
                             "body": "<p id=\"challenge\">Whenever an order of the dragon cavalier issues a challenge, his allies receive a +1 circumstance bonus on melee attack rolls against the target of his challenge whenever he is threatening the target. This bonus increases by +1 for every four levels the cavalier possesses.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 962
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\">An order of the dragon cavalier adds Perception (Wis) and Survival (Wis) to his list of class skills. In addition, whenever an order of the dragon cavalier uses Survival to provide food and water for his allies or to protect his allies from harsh weather, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 963
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\">A cavalier that belongs to the order of the dragon gains the following abilities as he increases in level.</p>", 
-                            "name": "Order Abilities", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"aid-allies\">At 2nd level, whenever an order of the dragon cavalier uses the aid another action to assist one of his allies, the ally receives a +3 bonus to his Armor Class, attack roll, saving throw, or skill check. At 8th level, and every six levels thereafter, this bonus increases by an additional +1.</p>", 
                                     "name": "Aid Allies", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Dragon/Order Abilities/Aid Allies", 
                                     "ability_types": {
-                                        "ability_type_id": 44, 
-                                        "section_id": 965, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 965, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -387,11 +319,8 @@
                                     "name": "Strategy", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Dragon/Order Abilities/Strategy", 
                                     "ability_types": {
-                                        "ability_type_id": 45, 
-                                        "section_id": 966, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 966, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -400,18 +329,14 @@
                                     "name": "Act as One", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Dragon/Order Abilities/Act as One", 
                                     "ability_types": {
-                                        "ability_type_id": 46, 
-                                        "section_id": 967, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 967, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 964, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Order Abilities", 
+                            "source": "Advanced Player's Guide"
                         }
                     ]
                 }, 
@@ -421,44 +346,37 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Lion", 
                     "type": "section", 
-                    "section_id": 968, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"edicts\">The cavalier must protect the life and lands of his sovereign at all costs. He must obey the commands of his sovereign without question. He must strive to expand the power and prestige of his realm.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Edicts", 
-                            "section_id": 969
+                            "name": "Edicts"
                         }, 
                         {
                             "body": "<p id=\"challenge\">Whenever an order of the lion cavalier issues a challenge, he receives a +1 dodge bonus to his AC against attacks made by the target of his challenge. This bonus increases by +1 for every four levels the cavalier possesses.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 970
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\">An order of the lion cavalier adds Knowledge (local) (Int) and Knowledge (nobility) (Int) to his list of class skills. An order of the lion cavalier can make Knowledge (nobility) skill checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as the check involves his sovereign.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 971
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\">A cavalier belonging to the order of the lion gains the following abilities as he increases in level.</p>", 
-                            "name": "Order Abilities", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"lion's-call\">At 2nd level, an order of the lion cavalier gains the ability to rally his allies. As a standard action, he can give an encouraging speech which grants all allies within 60 feet a competence bonus on their saving throws against fear equal to his Charisma modifier and a +1 competence bonus on attack rolls for a number of rounds equal to his cavalier level. If an ally within range is under the effect of a spell or ability that causes him to be frightened or panicked, he can immediately make another saving throw to resist the effect (if allowed).</p>", 
                                     "name": "Lion's Call", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Lion/Order Abilities/Lions Call", 
                                     "ability_types": {
-                                        "ability_type_id": 47, 
-                                        "section_id": 973, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 973, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -467,11 +385,8 @@
                                     "name": "For the King", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Lion/Order Abilities/For the King", 
                                     "ability_types": {
-                                        "ability_type_id": 48, 
-                                        "section_id": 974, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 974, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -480,18 +395,14 @@
                                     "name": "Shield of the Liege", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Lion/Order Abilities/Shield of the Liege", 
                                     "ability_types": {
-                                        "ability_type_id": 49, 
-                                        "section_id": 975, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 975, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 972, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Order Abilities", 
+                            "source": "Advanced Player's Guide"
                         }
                     ]
                 }, 
@@ -501,44 +412,37 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Shield", 
                     "type": "section", 
-                    "section_id": 976, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"edicts\">The cavalier must protect the lives and prosperity of the common folk, shielding them from the deprivations of those who would seek to cause them harm or exploit them. He must give charity when it is warranted and aid when needed. He must take no action that would cause harm or hardship to those who cannot defend themselves.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Edicts", 
-                            "section_id": 977
+                            "name": "Edicts"
                         }, 
                         {
                             "body": "<p id=\"challenge\">Whenever an order of the shield cavalier issues a challenge, he receives a +1 morale bonus on attack rolls made against the target of his challenge if the target makes an attack against a target other than the cavalier. This bonus lasts for 1 minute. The bonus increases by +1 for every four levels the cavalier possesses.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 978
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\">An order of the shield cavalier adds Heal (Wis) and Knowledge (local) (Int) to his list of class skills. Whenever an order of the shield cavalier uses the Heal skill on a creature other than himself, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 979
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\">A cavalier belonging to the order of the shield gains the following abilities as he increases in level.</p>", 
-                            "name": "Order Abilities", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"resolute\">At 2nd level, whenever the cavalier takes damage from a melee or ranged attack while wearing heavy armor, the cavalier can convert 1 point of lethal damage to 1 point of nonlethal damage. He can use this ability once each time he takes damage. This ability cannot be used to convert ability damage, ability drain, or energy damage to nonlethal damage. At 6th level, and every four levels thereafter, the amount of damage the cavalier can convert increases by 1. </p>", 
                                     "name": "Resolute", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Shield/Order Abilities/Resolute", 
                                     "ability_types": {
-                                        "ability_type_id": 50, 
-                                        "section_id": 981, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 981, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -547,11 +451,8 @@
                                     "name": "Stem the Tide", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Shield/Order Abilities/Stem the Tide", 
                                     "ability_types": {
-                                        "ability_type_id": 51, 
-                                        "section_id": 982, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 982, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -560,18 +461,14 @@
                                     "name": "Protect the Meek", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Shield/Order Abilities/Protect the Meek", 
                                     "ability_types": {
-                                        "ability_type_id": 52, 
-                                        "section_id": 983, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 983, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 980, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Order Abilities", 
+                            "source": "Advanced Player's Guide"
                         }
                     ]
                 }, 
@@ -581,44 +478,37 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Star", 
                     "type": "section", 
-                    "section_id": 984, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"edicts\">The cavalier must strive to protect the faith and all those who follow its teachings, from priest to common man. He must adhere to the strictures of the faith, promote its cause whenever possible, and serve the agents of the divine.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Edicts", 
-                            "section_id": 985
+                            "name": "Edicts"
                         }, 
                         {
                             "body": "<p id=\"challenge\">Whenever an order of the star cavalier issues a challenge, he receives a +1 morale bonus on all his saving throws as long as he is threatening the target of his challenge. This bonus increases by +1 for every four levels the cavalier possesses.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 986
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\">An order of the star cavalier adds Heal (Wis) and Knowledge (religion) (Int) to his list of class skills. An order of the star cavalier can make Knowledge (religion) skill checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as the check involves his chosen faith.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 987
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\">An order of the star cavalier gains the following abilities as he increases in level.</p>", 
-                            "name": "Order Abilities", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"calling\">At 2nd level, the cavalier can make a short prayer as a standard action, filling him with confidence in his abilities. At any point in the next minute, he can receive a competence bonus on an ability check, attack roll, saving throw, or skill check equal to his Charisma modifier. He must declare that he is using this bonus before the roll is made. He can use this ability up to four times per day, once for each type of check or roll. In addition, the cavalier adds 1/2 his cavalier level to any levels of paladin or cleric he might possess for the purposes of determining the effects of channel energy or lay on hands.</p>", 
                                     "name": "Calling", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Star/Order Abilities/Calling", 
                                     "ability_types": {
-                                        "ability_type_id": 53, 
-                                        "section_id": 989, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 989, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -627,11 +517,8 @@
                                     "name": "For the Faith", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Star/Order Abilities/For the Faith", 
                                     "ability_types": {
-                                        "ability_type_id": 54, 
-                                        "section_id": 990, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 990, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -640,18 +527,14 @@
                                     "name": "Retribution", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Star/Order Abilities/Retribution", 
                                     "ability_types": {
-                                        "ability_type_id": 55, 
-                                        "section_id": 991, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 991, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 988, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Order Abilities", 
+                            "source": "Advanced Player's Guide"
                         }
                     ]
                 }, 
@@ -661,44 +544,37 @@
                     "source": "Advanced Player's Guide", 
                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Sword", 
                     "type": "section", 
-                    "section_id": 992, 
                     "subtype": "warrior_order", 
                     "sections": [
                         {
                             "body": "<p id=\"edicts\">The cavalier must show courage in the face of danger, mercy to those who have wronged him, and charity to the poor and the meek. He must be just and honorable at all times and in all things. He must defend his honor and, above all else, the honor of those he serves.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Edicts", 
-                            "section_id": 993
+                            "name": "Edicts"
                         }, 
                         {
                             "body": "<p id=\"challenge\">Whenever an order of the sword cavalier issues a challenge, he receives a +1 morale bonus on attack rolls against the target of his challenge so long as he is astride his mount. The bonus increases by +1 for every four levels the cavalier possesses.</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Challenge", 
-                            "section_id": 994
+                            "name": "Challenge"
                         }, 
                         {
                             "body": "<p id=\"skills\">An order of the sword cavalier adds Knowledge (nobility) (Int) and Knowledge (religion) (Int) to his list of class skills. Whenever the cavalier uses Sense Motive to oppose a Bluff check, he receives a competence bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>", 
                             "source": "Advanced Player's Guide", 
                             "type": "section", 
-                            "name": "Skills", 
-                            "section_id": 995
+                            "name": "Skills"
                         }, 
                         {
                             "body": "<p id=\"order-abilities\">An order of the sword cavalier receives the following abilities as he increases in level.</p>", 
-                            "name": "Order Abilities", 
+                            "type": "section", 
                             "sections": [
                                 {
                                     "body": "<p id=\"by-my-honor\">At 2nd level, the cavalier must select one alignment. As long as he maintains the selected alignment, he receives a +2 morale bonus to one saving throw of his choice.</p>", 
                                     "name": "By My Honor", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Sword/Order Abilities/By My Honor", 
                                     "ability_types": {
-                                        "ability_type_id": 56, 
-                                        "section_id": 997, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 997, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -707,11 +583,8 @@
                                     "name": "Mounted Mastery", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Sword/Order Abilities/Mounted Mastery", 
                                     "ability_types": {
-                                        "ability_type_id": 57, 
-                                        "section_id": 998, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 998, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }, 
@@ -720,46 +593,36 @@
                                     "name": "Knight's Challenge", 
                                     "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Orders/Order of the Sword/Order Abilities/Knights Challenge", 
                                     "ability_types": {
-                                        "ability_type_id": 58, 
-                                        "section_id": 999, 
                                         "ability_type": "Extraordinary"
                                     }, 
-                                    "section_id": 999, 
                                     "source": "Advanced Player's Guide", 
                                     "type": "ability"
                                 }
                             ], 
-                            "section_id": 996, 
-                            "source": "Advanced Player's Guide", 
-                            "type": "section"
+                            "name": "Order Abilities", 
+                            "source": "Advanced Player's Guide"
                         }
                     ]
                 }
-            ], 
-            "section_id": 951, 
-            "source": "Advanced Player's Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "source": "Ultimate Combat", 
             "type": "link", 
-            "name": "Cavalier Orders: Ultimate Combat", 
-            "section_id": 1000
+            "name": "Cavalier Orders: Ultimate Combat"
         }, 
         {
-            "name": "Cavalier Archetypes", 
             "url": "pfsrd://Advanced Players Guide/Classes/Cavalier/Cavalier Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Cavalier Archetypes: Ultimate Combat", 
-                    "section_id": 1002
+                    "name": "Cavalier Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 1001, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Cavalier Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

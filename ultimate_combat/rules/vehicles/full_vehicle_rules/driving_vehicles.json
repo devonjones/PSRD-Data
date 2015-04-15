@@ -2,17 +2,20 @@
     "body": "<p>Controlling a vehicle takes common sense, awareness, intuition, and often some amount of skill in its method of propulsion. In the case of muscle propulsion, it is about guiding the creatures to move the vehicle. In the case of current propulsion, it is about using the current and tools like sails, oars, or a rudder to move the vehicle. With magic, it is typically about understanding the magic device that powers the propulsion and using the device properly.</p>", 
     "name": "Driving Vehicles", 
     "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles", 
+    "type": "section", 
+    "source": "Ultimate Combat", 
     "sections": [
         {
             "body": "<p id=\"driving-actions\">A driver can, at the start of her turn, before taking any other action, take any of the following actions (except the &ldquo;uncontrolled&rdquo; action) to control a vehicle. If the driver does not take an action, takes another action, or delays or readies an action, she loses control of the vehicle and the vehicle takes the &ldquo;uncontrolled&rdquo; action.</p>", 
             "name": "Driving Actions", 
             "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving Actions", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<p id=\"accelerate-(standard-action)\" class=\"stat-block-2\">With a successful driving check, the vehicle's current speed increases up to its acceleration (in 5-foot increments; minimum 5 feet), but no higher than its maximum speed. The vehicle can move forward or forward diagonally. In other words, each time a vehicle enters a new 5-foot square, it can choose any of its forward-facing squares&mdash;the ones directly in front or either of the squares directly forward and diagonal. This allows the vehicle to swerve. A driver who fails her driving check can only move into squares directly in front of the vehicle's forward facing.</p>", 
                     "name": "Accelerate", 
                     "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving Actions/Accelerate", 
-                    "section_id": 2327, 
                     "source": "Ultimate Combat", 
                     "abbrev": "standard action", 
                     "type": "section"
@@ -21,7 +24,6 @@
                     "body": "<p id=\"decelerate-(standard-action)\" class=\"stat-block-2\">With a successful driving check, the vehicle's current speed decreases by a rate up to its acceleration (in 5-foot increments; minimum 5 feet). On a failed check, the vehicle does not decelerate. Either way, the vehicle can move forward diagonally. If deceleration reduces a vehicle's speed to 0, some amount of inertia will continue to move the vehicle forward. The vehicle moves forward (either directly forward or forward diagonally) 1d4 <span class=\"char-style-override-9\">&times;</span> 5 feet before coming to a complete stop. Having the Expert Driver feat reduces this distance by 10 feet (minimum 0 feet). </p>", 
                     "name": "Decelerate", 
                     "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving Actions/Decelerate", 
-                    "section_id": 2328, 
                     "source": "Ultimate Combat", 
                     "abbrev": "standard action", 
                     "type": "section"
@@ -30,7 +32,6 @@
                     "body": "<p id=\"keep-it-going-(move-action)\" class=\"stat-block-2\">With a successful driving check, the driver can move the vehicle forward on its current facing at its current speed, and it can move forward diagonally. Failing the check keeps the speed constant, but you cannot move the vehicle forward diagonally. </p>", 
                     "name": "Keep It Going", 
                     "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving Actions/Keep It Going", 
-                    "section_id": 2329, 
                     "source": "Ultimate Combat", 
                     "abbrev": "move action", 
                     "type": "section"
@@ -39,7 +40,6 @@
                     "body": "<p id=\"reverse-(standard-action)\" class=\"stat-block-2\">A vehicle may only be moved in reverse if it is at a full stop (movement of 0 feet). On a successful driving check, a vehicle can move backward at half its acceleration, moving either directly backward (the reverse of its forward facing) or backward diagonally. On a failed check, it does not move backward. </p>", 
                     "name": "Reverse", 
                     "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving Actions/Reverse", 
-                    "section_id": 2330, 
                     "source": "Ultimate Combat", 
                     "abbrev": "standard action", 
                     "type": "section"
@@ -48,7 +48,6 @@
                     "body": "<p id=\"turn-(standard-action)\" class=\"stat-block-2\">The driver takes this action to turn a vehicle's forward facing 90 degrees. The vehicle moves its current speed. If a vehicle's current speed is twice its acceleration, the driving check DC increases by 5. If a vehicle's movement is three times its acceleration, the driving check DC increases by 10. If it is four or more times its acceleration, the DC increases by 20. With a successful driving check, the vehicle changes its facing either left or right by 90 degrees at any point during its movement. Do this by pivoting the vehicle so that the left rear or right rear side of the vehicle takes the place of the vehicle's former forward facing side. On a failed check, the vehicle does not turn, but can be moved forward diagonally during its movement.</p>", 
                     "name": "Turn", 
                     "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving Actions/Turn", 
-                    "section_id": 2331, 
                     "source": "Ultimate Combat", 
                     "abbrev": "standard action", 
                     "type": "section"
@@ -57,50 +56,39 @@
                     "body": "<p id=\"uncontrolled-(no-action)\" class=\"stat-block-2\">When the driver does nothing or there is no driver, the vehicle is uncontrolled. An uncontrolled vehicle moves forward only (it cannot move forward diagonally). If a vehicle has muscle propulsion, it decelerates a rate equal to its acceleration. If a vehicle is powered by an air current, water current, or some form of weird current, it slows by 10 feet. These decelerations are cumulative. If a vehicle does nothing, it cannot perform vehicular bull rushes, but can still perform a vehicular overrun or a ramming maneuver.</p>", 
                     "name": "Uncontrolled", 
                     "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving Actions/Uncontrolled", 
-                    "section_id": 2332, 
                     "source": "Ultimate Combat", 
                     "abbrev": "no action", 
                     "type": "section"
                 }
-            ], 
-            "section_id": 2326, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p id=\"driving-a-vehicle-outside-of-combat\">Since driving a vehicle outside of combat is easily accomplished by taking 10 on the skill check, driving checks are not normally needed. Almost every character can do it with relative ease; the DCs are given only to adjudicate special situations that may come up in your game.</p>", 
-            "name": "Driving a Vehicle Outside of Combat", 
             "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving a Vehicle Outside of Combat", 
-            "section_id": 2333, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "type": "section", 
+            "name": "Driving a Vehicle Outside of Combat", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p id=\"driving-a-vehicle-with-magic-propulsion\">Typically, a vehicle with magic propulsion requires actions but no driving checks in order to drive it. When driving a vehicle with magic propulsion, treat every action as though the driver succeeded at the driving check.</p>", 
-            "name": "Driving a Vehicle with Magic Propulsion", 
             "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving a Vehicle with Magic Propulsion", 
-            "section_id": 2334, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "type": "section", 
+            "name": "Driving a Vehicle with Magic Propulsion", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p id=\"driving-a-vehicle-without-the-proper-skill\">If a driver lacks the proper skill to drive a vehicle, the driver can always make a Wisdom ability check instead of the appropriate skill check. The driver can even take 10 or gain the benefits of aid another when using Wisdom instead of the vehicle's normal driving skill. </p>", 
-            "name": "Driving a Vehicle without the Proper Skill", 
             "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Driving a Vehicle without the Proper Skill", 
-            "section_id": 2335, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "type": "section", 
+            "name": "Driving a Vehicle without the Proper Skill", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p id=\"vehicle-crews\">Some vehicles require a crew. A vehicle with a full crew complement is as easy to control as any other vehicle. A vehicle without a full crew complement, but with at least half its crew, increases all driving check DCs by 10. A vehicle needs at least half its crew complement in order to be driven at all. Crew members can take no action while the vehicle is in motion except to aid in that vehicle's movement. A crew member does not threaten an area.</p>", 
-            "name": "Vehicle Crews", 
             "url": "pfsrd://Ultimate Combat/Rules/Vehicles/Full Vehicle Rules/Driving Vehicles/Vehicle Crews", 
-            "section_id": 2336, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "type": "section", 
+            "name": "Vehicle Crews", 
+            "source": "Ultimate Combat"
         }
-    ], 
-    "section_id": 2325, 
-    "source": "Ultimate Combat", 
-    "type": "section"
+    ]
 }

@@ -1,21 +1,28 @@
 {
-    "level_text": "Bard: 2; Sorcerer: 2; Wizard: 2", 
-    "duration": "Concentration + 2 rounds", 
-    "source": "Core Rulebook", 
-    "component_text": "V (bard only), S, M (a stick of incense or a crystal rod); see text", 
-    "subschool_text": "pattern", 
-    "subschool": [
-        "pattern"
-    ], 
-    "type": "spell", 
     "body": "<p>A twisting pattern of subtle, shifting colors weaves through the air, fascinating creatures within it. Roll 2d4 and add your caster level (maximum 10) to determine the total number of HD of creatures affected. Creatures with the fewest HD are affected first; and, among creatures with equal HD, those who are closest to the spell's point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Affected creatures become fascinated by the pattern of colors. Sightless creatures are not affected.</p><p>A wizard or sorcerer need not utter a sound to cast this spell, but a bard must perform as a verbal component.</p>", 
+    "school": "illusion", 
+    "saving_throw": "Will negates", 
     "description": "Fascinates 2d4 + level HD of creatures.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Hypnotic Pattern", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 311, 
+    "level_text": "Bard: 2; Skald: 2; Sorcerer: 2; Wizard: 2; Arcanist: 2", 
+    "descriptor": [
+        "mind-affecting"
+    ], 
+    "range": "medium (100 ft. + 10 ft./level)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
             "class": "Bard", 
+            "level": 2
+        }, 
+        {
+            "class": "Skald", 
             "level": 2
         }, 
         {
@@ -34,14 +41,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "illusion", 
-    "saving_throw": "Will negates", 
-    "name": "Hypnotic Pattern", 
-    "url": "pfsrd://Core Rulebook/Spells/Hypnotic Pattern", 
-    "descriptor": [
-        "mind-affecting"
-    ], 
-    "range": "medium (100 ft. + 10 ft./level)", 
     "components": [
         {
             "text": "bard only", 
@@ -58,5 +57,13 @@
             "text": "; see text", 
             "type": null
         }
-    ]
+    ], 
+    "duration": "Concentration + 2 rounds", 
+    "subschool_text": "pattern", 
+    "subschool": [
+        "pattern"
+    ], 
+    "type": "spell", 
+    "component_text": "V (bard only), S, M (a stick of incense or a crystal rod); see text", 
+    "name": "Hypnotic Pattern"
 }

@@ -1,6 +1,6 @@
 {
     "dexterity": "26", 
-    "ac": "25, touch 20, flat-footed 15 (+8 Dex, +2 dodge, +5 natural)", 
+    "ac": "24, touch 19, flat-footed 15 (+8 Dex, +1 dodge, +5 natural)", 
     "special_attacks": "frozen breath", 
     "intelligence": "13", 
     "racial_modifiers": "+8 Stealth in snow", 
@@ -10,7 +10,7 @@
     "speed": "40 ft.", 
     "alignment": "CN", 
     "size": "Medium", 
-    "languages": "Common, Adlet", 
+    "languages": "Adlet, Common", 
     "strength": "18", 
     "constitution": "18", 
     "immune": "cold", 
@@ -22,11 +22,11 @@
     "fortitude": "+9", 
     "spells": [
         {
-            "spell-like abilities": "(CL 10th; concentration +11)<p class=\"stat-block-2\">Constant-<i>pass without trace, ray of frost</i></p><p class=\"stat-block-2\">3/day-<i>fog cloud, sleet storm</i></p><p class=\"stat-block-2\">1/day-<i>ice storm, wind walk</i> (self only)</p>"
+            "spell-like abilities": "(CL 10th; concentration +11)<p class=\"stat-block-2\">Constant-<i>pass without trace</i></p><p class=\"stat-block-2\">At will-ray of frost</p><p class=\"stat-block-2\">3/day-<i>fog cloud, sleet storm</i></p><p class=\"stat-block-2\">1/day-<i>ice storm, wind walk</i> (self only)</p>"
         }
     ], 
     "type": "creature", 
-    "feats": "Diehard, Dodge, Improved Initiative, Multiattack, Power Attack, Run, Self-Sufficient, Weapon Focus (spear)", 
+    "feats": "Diehard, Dodge, Improved Initiative, Power Attack, Run, Self-Sufficient, Weapon Focus (spear)", 
     "senses": "low-light vision, scent; Perception +13", 
     "description": "This humanoid wolf's fur is snowy white and its eyes piercing blue; it grips an ornate spear in its fist. ", 
     "sections": [
@@ -34,54 +34,44 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Adlet/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "An adlet can move through any sort of difficult terrain at its normal speed while within arctic or snowy terrain. Magically altered terrain affects an adlet normally.", 
                     "name": "Arctic Stride", 
                     "url": "pfsrd://Bestiary 3/Monsters/Adlet/Special Abilities/Arctic Stride", 
                     "ability_types": {
-                        "ability_type_id": 6, 
-                        "section_id": 21, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 21, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
                 {
-                    "body": "An adlet's breath is supernaturally cold, and deals an additional 1d6 points of cold damage with its bite as a result. Once every 1d4 rounds as a swift action, it can exhale, filling a 10-foot-radius spread around it with frigid air that deals 2d6 points of cold damage and staggers those in the area with numbing cold. A DC 21 Fortitude save negates the staggered effect but not the cold damage. The save DC is Constitution-based.", 
+                    "body": "An adlet's breath is supernaturally cold, and deals an additional 1d6 points of cold damage with its bite as a result. Once every 1d4 rounds as a swift action, it can exhale, filling a 10-foot-radius spread around it with frigid air that deals 2d6 points of cold damage and staggers those in the area with numbing cold for 1d6 rounds. A DC 21 Fortitude save negates the staggered effect but not the cold damage. The save DC is Constitution-based.", 
                     "name": "Frozen Breath", 
                     "url": "pfsrd://Bestiary 3/Monsters/Adlet/Special Abilities/Frozen Breath", 
                     "ability_types": {
-                        "ability_type_id": 7, 
-                        "section_id": 22, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 22, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 20, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Adlets are cunning hunters of the arctic wilds. Tall, sinewy, nimble, and very quick, they see themselves as the true heritors of untamed arctic lands, and are offended by any other humanoid species that attempts to settle in such regions. Although not normally evil, adlets are very aggressive and warlike. They also have no social taboo against cannibalism, and their practice of eating their dead rather than burying them only further builds misconceptions about their morality.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 23
+            "type": "section"
         }, 
         {
             "body": "<p>Deeply religious, adlets worship the power and cruelty of nature, seeing divinity in the lash of the blizzard's wind, the ferocity of the polar bear, and the immensity of the towering iceberg. Many become oracles or druids, but all adlets know their place in the natural world. One in every dozen adlets is a shaman: an adlet with the advanced creature template and the ability to summon a greater ice elemental or 1d4+1 large ice elementals (see <i>Bestiary 2</i> 114) and <i>commune with nature</i> once per day each as spell-like abilities. An adlet is 6 feet tall and weighs 250 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 24
+            "type": "section"
         }
     ], 
     "hp": "127 each (15d8+60)", 
     "weaknesses": "vulnerability to fire", 
-    "section_id": 19, 
     "wisdom": "17", 
     "creature_type": "Humanoid", 
     "special_qualities": "arctic stride", 

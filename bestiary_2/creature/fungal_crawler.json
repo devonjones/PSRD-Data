@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Fungal Crawler/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A fungal crawler can perform a special kind of pounce attack by jumping into combat. When a fungal crawler charges, it can make a DC 20 Acrobatics check to jump into the air and land next to its enemies. If it makes the Acrobatics check, it can follow up with four claw attacks against foes in reach, but it cannot make a bite attack.", 
                     "name": "Leap", 
                     "url": "pfsrd://Bestiary 2/Monsters/Fungal Crawler/Special Abilities/Leap", 
                     "ability_types": {
-                        "ability_type_id": 234, 
-                        "section_id": 907, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 907, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -47,11 +46,8 @@
                     "name": "Plant Defenses", 
                     "url": "pfsrd://Bestiary 2/Monsters/Fungal Crawler/Special Abilities/Plant Defenses", 
                     "ability_types": {
-                        "ability_type_id": 235, 
-                        "section_id": 908, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 908, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -59,21 +55,12 @@
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Fungal Crawler/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 236, 
-                        "section_id": 909, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 909, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Fungal Crawler Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Fungal Crawler/Special Abilities/Poison/Fungal Crawler Venom", 
                             "contracted": "injury", 
-                            "section_id": 910, 
                             "effect": "1d2 Strength and 1d2 Constitution", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -81,40 +68,37 @@
                             "save": "Fortitude DC 14", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 906, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Fungal crawlers are a perverse fusion of animal and plant. Over thousands of years, they have prospered and spread beneath the world, dominating the wildest depths of these underground regions. Like hyenas, fungal crawlers are top-tier scavengers. They are efficient hunters, but just as often feed on found carrion or take meals from other predators. When times are especially lean, fungal crawlers can even survive without food, subsisting on radiation and heat absorbed through the fungal flutes covering their pale, sickly bellies.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 911
+            "type": "section"
         }, 
         {
             "body": "<p>Thousands of breeds of fungal crawlers exist across the world, varying in appearance and habits, but all share a few common features. They invariably appear as monstrous crickets or locusts fused with fungal growths, often topped with mushroom-like caps. This hybridization makes them adept survivors, and infestations are notoriously difficult to clear out entirely. Their needle-like teeth cannot chew solid food, so most fungal crawlers rely on digestive enzymes injected through their bite to make their meals palatable. Average specimens grow to 30 pounds and 3 feet in length. They reproduce by releasing spores, which remain viable for decades until they contact organic matter and eventually develop into small, pale grubs.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 912
+            "type": "section"
         }, 
         {
             "body": "<p>Many subterranean civilizations tame fungal crawlers as guard animals, pets, or food. Though simple-minded, they are amicable enough to be trained when well-fed. Fungal crawlers hold no loyalties, though, and often flee or attack their keepers at the slightest provocation.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 913
+            "type": "section"
         }, 
         {
             "body": "<p>Thanks to the bizarre energies that suffuse their homes, fungal crawlers are incredibly diverse. They have adapted over millennia to fill every environment: flying variants fill subterranean rifts with the deafening drone of their wings, while aquatic breeds skim across the surfaces of underground lakes, and still others thrive in the fiery chambers and tunnels of volcanic networks.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 914
+            "type": "section"
         }
     ], 
     "hp": "26 (4d8+8)", 
-    "section_id": 905, 
     "wisdom": "13", 
     "defensive_abilities": "plant defenses", 
     "creature_type": "Aberration", 

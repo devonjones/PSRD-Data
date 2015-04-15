@@ -2,146 +2,128 @@
     "body": "<p>The description of each army is presented in a standard format.</p>", 
     "name": "Army Statistics", 
     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics", 
+    "type": "section", 
+    "source": "Ultimate Campaign", 
     "sections": [
         {
             "body": "<p>This is the name of the army. This could be a mercenary company's name, such as \"Thokk's Bloodragers,\" a formal regiment number such as \"7th Royal Cavalry,\" or an informal name such as \"militia from Redstone.\"</p>", 
-            "name": "Name", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Name", 
-            "section_id": 1854, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Name", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This is the XP awarded to the PCs if their army defeats this army, and is the same as an XP award for an encounter with a CR equal to the army's ACR (see below).</p>", 
-            "name": "XP", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/XP", 
-            "section_id": 1855, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "XP", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>An army's alignment has no effect on its statistics, and is just a convenient way to summarize its attitude with two letters. It is usually the same alignment as a typical unit in that army.</p>", 
-            "name": "Alignment", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Alignment", 
-            "section_id": 1856, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Alignment", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>The army's size determines not only how many individual units exist in the army, but also the army's ACR.</p>", 
             "name": "Size", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Size", 
+            "type": "section", 
+            "source": "Ultimate Campaign", 
             "sections": [
                 {
                     "body": "<table id=\"table-army-sizes\"><caption>Army Sizes</caption><thead><tr><th>Army Size</th><th>Number of Units</th><th>ACR</th></tr></thead><tr class=\"odd\"><td>Fine</td><td>1</td><td>CR of individual creature &mdash;8</td></tr><tr class=\"even\"><td>Diminutive</td><td>10</td><td>CR of individual creature &mdash;6</td></tr><tr class=\"odd\"><td>Tiny</td><td>25</td><td>CR of individual creature &mdash;4</td></tr><tr class=\"even\"><td>Small</td><td>50</td><td>CR of individual creature &mdash;2</td></tr><tr class=\"odd\"><td>Medium</td><td>100</td><td>CR of individual creature</td></tr><tr class=\"even\"><td>Large</td><td>200</td><td>CR of individual creature +2</td></tr><tr class=\"odd\"><td>Huge</td><td>500</td><td>CR of individual creature +4</td></tr><tr class=\"even\"><td>Gargantuan</td><td>1,000</td><td>CR of individual creature +6</td></tr><tr class=\"odd\"><td>Colossal</td><td>2,000</td><td>CR of individual creature +8</td></tr></table>", 
-                    "name": "Army Sizes", 
                     "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Size/Army Sizes", 
-                    "section_id": 1858, 
-                    "source": "Ultimate Campaign", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Army Sizes", 
+                    "source": "Ultimate Campaign"
                 }
-            ], 
-            "section_id": 1857, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>This lists the nature of the army's individual units, such as \"orcs (warrior 1)\" or \"trolls.\" These rules assume all units in an army are essentially the same; if an army of 100 orc warriors 1 (meaning 1st-level warriors) actually has a few half-orc warriors or some orc barbarians, their presence has no effect on the army's statistics. If an army has a large number of units that are different than the typical unit in that army, and these differences are enough to change the army's stat block, it is generally best to treat the group as two separate armies with different stat blocks.</p>", 
-            "name": "Type", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Type", 
-            "section_id": 1859, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Type", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>An army's hit points equal its ACR \u00d7 the average hp value of 1 HD of the army's units (3.5 for d6 HD, 4.5 for d8 HD, 5.5 for d10 HD, and 6.5 for d12 HD). For example, warriors have d10 HD, so an ACR 1 army of warriors has 5.5 \u00d7 1 = 5.5 hp, rounded down to 5 hp. Note that only damage from other armies can reduce an army's hp; a non-army attacking an army is mostly ineffective, though you can treat the attacker as a Fine army if you want to determine the outcome of the attack. As with standard game effects that affect hit points, abilities that reduce hp damage or healing by half (or any other fraction) have a minimum of 1 rather than 0.</p>", 
-            "name": "hp", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/hp", 
-            "section_id": 1860, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "hp", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This is based on the CR of an individual unit from the army and the army's size, and scales like CRs for monsters. To determine ACR, see Table 4&mdash;15: Army Sizes and apply the modifier for the army's size to the CR of an individual unit in the army. If an army is cavalry, use the mount's CR or the rider's CR, whichever is higher. For example, an individual orc warrior 1 is CR 1/3, so an army of 100 orc warriors 1 is ACR 1/3; an army of 500 orc warriors 1 is ACR 3 (4 steps greater than the standard 100-unit army). If a group's ACR would be lower than 1/8, it doesn't count as an army&mdash;add more troops until you reach an ACR of 1/8 or higher.</p>", 
-            "name": "Army Challenge Rating (ACR)", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Army Challenge Rating (ACR)", 
-            "section_id": 1861, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Army Challenge Rating (ACR)", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This is a static number the army uses to resist attacks, much like an individual creature's AC. The army's DV is equal to ACR + 10 + any bonuses from fortifications or a settlement's Defense score.</p>", 
-            "name": "Defense Value (DV)", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Defense Value (DV)", 
-            "section_id": 1862, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Defense Value (DV)", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This is a modifier added to a d20 roll to determine the army's chance of success, much like an individual creature's attack bonus. The army's OM is equal to its ACR. If the army has the ability to make ranged attacks, that's mentioned here. Melee attacks and ranged attacks use the same OM unless an ability says otherwise.</p>", 
-            "name": "Offense Modifier (OM)", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Offense Modifier (OM)", 
-            "section_id": 1863, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Offense Modifier (OM)", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>These are any army tactics the army has at its disposal.</p>", 
-            "name": "Tactics", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Tactics", 
-            "section_id": 1864, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Tactics", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>These are any army resources the army has at its disposal.</p>", 
-            "name": "Resources", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Resources", 
-            "section_id": 1865, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Resources", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This section lists any special abilities the army has.</p>", 
             "source": "Ultimate Campaign", 
             "type": "section", 
-            "name": "Special", 
-            "section_id": 1866
+            "name": "Special"
         }, 
         {
             "body": "<p>This number indicates how many 12-mile hexes the army traverses in a day's march. Marching through difficult terrain halves the army's speed. Use the Movement and Distance table to determine the army's speed based on the speed of its individual units.</p>", 
-            "name": "Speed", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Speed", 
-            "section_id": 1867, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Speed", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This number represents how confident the army is. Morale is used to determine changing battle tactics, whether or not an army routs as a result of a devastating attack, and similar effects. Morale is a modifier from &mdash;4 (worst) to +4 (best). A new army's starting morale is +0. Morale can be further modified by the army's commander and other factors. If an army's Morale is ever reduced to &mdash;5 or lower, the army disbands or deserts and you no longer control it.</p>", 
-            "name": "Morale", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Morale", 
-            "section_id": 1868, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Morale", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This is how many Build Points (BP) an army consumes each week (unlike most kingdom expenses, this cost is per week, not per month), representing the cost to feed, hydrate, arm, train, care for, and pay the units. An army's base Consumption is equal to its ACR divided by 2 (minimum 1). If you fall behind on paying the army's Consumption, reduce its Morale by 2; this penalty ends when you catch up on the army's pay.</p>", 
-            "name": "Consumption", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Consumption", 
-            "section_id": 1869, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Consumption", 
+            "source": "Ultimate Campaign"
         }, 
         {
             "body": "<p>This entry lists the army's commander and the commander's Charisma modifier, ranks in Profession (soldier), and Leadership score. The commander must be able to communicate with the army (possibly using <i>message</i> spells and similar magical forms of communication) in order to give orders or provide a bonus on the army's rolls.</p>", 
-            "name": "Commander", 
             "url": "pfsrd://Ultimate Campaign/Rules/Kingdoms And War/Mass Combat/Army Statistics/Commander", 
-            "section_id": 1870, 
-            "source": "Ultimate Campaign", 
-            "type": "section"
+            "type": "section", 
+            "name": "Commander", 
+            "source": "Ultimate Campaign"
         }
-    ], 
-    "section_id": 1853, 
-    "source": "Ultimate Campaign", 
-    "type": "section"
+    ]
 }

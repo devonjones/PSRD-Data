@@ -1,21 +1,29 @@
 {
-    "level_text": "Bard: 1; Sorcerer: 2; Wizard: 2; Witch: 2", 
-    "duration": "1 round", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>Your target is filled with lust and desire for a single creature or object as designated by you at the time of casting. That creature or object must be within the spell's range and perceivable by the target of the spell. The target is filled with the compulsion to rush to the subject of its lust and passionately kiss or caress that subject on its next turn, taking no other actions. If the target would not normally have lustful feelings toward the designated creature or object, it receives a +4 bonus on its saving throw.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Target is compelled to kiss or caress another.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Unnatural Lust", 
     "spell_resistance": "yes", 
     "casting_time": "1 standard action", 
-    "section_id": 210, 
+    "level_text": "Bard: 1; Skald: 1; Sorcerer: 2; Wizard: 2; Arcanist: 2; Witch: 2", 
+    "descriptor": [
+        "emotion", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 2
+        }, 
+        {
             "class": "Bard", 
+            "level": 1
+        }, 
+        {
+            "class": "Skald", 
             "level": 1
         }, 
         {
@@ -38,15 +46,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Unnatural Lust", 
-    "url": "pfsrd://Ultimate Magic/Spells/Unnatural Lust", 
-    "descriptor": [
-        "emotion", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -54,5 +53,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 round", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Unnatural Lust"
 }

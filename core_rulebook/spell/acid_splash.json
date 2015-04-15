@@ -1,19 +1,22 @@
 {
-    "level_text": "Elementalist Wizard: 0; Inquisitor: 0; Magus: 0; Sorcerer: 0; Summoner: 0; Wizard: 0", 
-    "duration": "instantaneous", 
-    "source": "Core Rulebook", 
-    "component_text": "V, S", 
-    "subschool_text": "creation", 
-    "subschool": [
-        "creation"
-    ], 
-    "type": "spell", 
     "body": "<p>You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage. This acid disappears after 1 round.</p>", 
+    "school": "conjuration", 
+    "saving_throw": "none", 
     "description": "Orb deals 1d3 acid damage.", 
+    "source": "Core Rulebook", 
+    "url": "pfsrd://Core Rulebook/Spells/Acid Splash", 
     "spell_resistance": "no", 
     "casting_time": "1 standard action", 
-    "section_id": 5, 
+    "level_text": "Arcanist: 0; Elementalist Wizard: 0; Inquisitor: 0; Magus: 0; Sorcerer: 0; Summoner: 0; Wizard: 0", 
+    "descriptor": [
+        "acid"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
+        {
+            "class": "Arcanist", 
+            "level": 0
+        }, 
         {
             "class": "Elementalist Wizard", 
             "level": 0
@@ -46,14 +49,6 @@
             "name": "Effect"
         }
     ], 
-    "school": "conjuration", 
-    "saving_throw": "none", 
-    "name": "Acid Splash", 
-    "url": "pfsrd://Core Rulebook/Spells/Acid Splash", 
-    "descriptor": [
-        "acid"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -61,5 +56,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "instantaneous", 
+    "subschool_text": "creation", 
+    "subschool": [
+        "creation"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Acid Splash"
 }

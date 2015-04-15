@@ -28,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Reefclaw/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When a reefclaw is killed, its body spasms horrifically. Immediately upon dying, the reefclaw makes a full attack against a creature it threatens. If more than one creature is within reach, roll randomly for each attack to determine the target (which may be another reefclaw).", 
                     "name": "Death Frenzy", 
                     "url": "pfsrd://Bestiary 2/Monsters/Reefclaw/Special Abilities/Death Frenzy", 
                     "ability_types": {
-                        "ability_type_id": 421, 
-                        "section_id": 1741, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1741, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -47,11 +46,8 @@
                     "name": "Grab", 
                     "url": "pfsrd://Bestiary 2/Monsters/Reefclaw/Special Abilities/Grab", 
                     "ability_types": {
-                        "ability_type_id": 422, 
-                        "section_id": 1742, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1742, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -59,21 +55,12 @@
                     "body": "The save DC is Constitution-based. Claw:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Reefclaw/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 423, 
-                        "section_id": 1743, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 1743, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Reefclaw Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Reefclaw/Special Abilities/Poison/Reefclaw Venom", 
                             "contracted": "injury", 
-                            "section_id": 1744, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -81,40 +68,37 @@
                             "save": "Fortitude DC 13. ", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 1740, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Reefclaws are vicious predators. They possess greater intelligence than animals, but rely mainly on their strength and instincts to survive. They hunt fish, giant crabs, dolphins, and even land-dwelling creatures that come within a hundred paces of the water.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1745
+            "type": "section"
         }, 
         {
             "body": "<p>In populated areas, reefclaws prey on beachcombers, divers, and fishermen, sometimes abandoning their usual solitary nature and coordinating attacks with other reefclaws. The creatures must be wary, however, because in some regions, these abominations find their way to the dinner plate. Brave fishermen troll bays and coastlines infested with reefclaws, baiting the creatures with fresh meat and then harvesting their powerful claws with axes.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1746
+            "type": "section"
         }, 
         {
             "body": "<p>Reefclaws cannot speak, but the creatures understand the languages used by humanoids near their hunting grounds. They use this knowledge in order to avoid fishermen and coordinate attacks. Reefclaws keep no treasure, instead savoring the taste of flesh and crunch of bone and shell as much as a miser covets his gold.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1747
+            "type": "section"
         }, 
         {
             "body": "<p>A typical reefclaw reaches approximately 3-1/2 feet long at adulthood and weighs 70 pounds. Females gather to breed once every 2 to 3 years, engaging in a predatory hunt for a male and leaving him shredded to pieces.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 1748
+            "type": "section"
         }
     ], 
     "hp": "13 (2d8+4)", 
-    "section_id": 1739, 
     "wisdom": "12", 
     "defensive_abilities": "ferocity", 
     "creature_type": "Aberration", 

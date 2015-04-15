@@ -35,26 +35,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Devil/Bearded/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "If a bearded devil hits a single opponent with both claw attacks, it also lashes at the same target with its spiky, filthy beard. The victim takes 1d8+2 points of damage and must succeed on a DC 17 Fortitude save or contract devil chills. The save DC is Constitution-based.", 
                     "name": "Beard", 
                     "url": "pfsrd://Bestiary/Monsters/Devil/Bearded/Special Abilities/Beard", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 206, 
-                        "section_id": 948, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 948, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Devil Chills, Bearded Devil", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Devil/Bearded/Special Abilities/Beard/Devil Chills/Bearded Devil", 
                             "contracted": "injury", 
-                            "section_id": 949, 
                             "effect": "1d4 Strength damage", 
                             "onset": "1d4 days", 
                             "subtype": "disease", 
@@ -63,48 +56,43 @@
                             "save": "Fortitude DC 17", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "The damage a bearded devil deals with its glaive inflicts persistent wounds that cause 2 points of bleed damage. Bleed caused from an infernal wound is particularly difficult to stanch&mdash;a DC 17 Heal check stops the damage, and any attempt to heal a creature suffering from an infernal wound must succeed on a DC 16 caster level check or the spell does not function. Success indicates the healing works normally and stops all bleed effects on the victim. The infernal wounds caused by a bearded devil are a supernatural ability of the devil, not of the weapon.", 
                     "name": "Infernal Wound", 
                     "url": "pfsrd://Bestiary/Monsters/Devil/Bearded/Special Abilities/Infernal Wound", 
                     "ability_types": {
-                        "ability_type_id": 207, 
-                        "section_id": 950, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 950, 
                     "source": "Bestiary", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 947, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Elite warriors in Hell's legions, bearded devils&mdash;or barbazus&mdash;fight savagely in the name of their infernal lords and command mindless hordes of the damned into battle. They collect and train with their infernally forged glaives among the vaults of Hell's third layer, Erebus, but inevitably return to the first layer, Avernus, to serve at the side of the dread lord Barbatos.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 951
+            "type": "section"
         }, 
         {
             "body": "<p>Barbazus are fond of making charge attacks with their glaives, and try to maintain a 10-foot gap between themselves and their foes so they can use their signature polearms to great effect. Against a foe that has greater reach (or one able to otherwise avoid the devil's favored tactic), they drop their glaives and resort to their claws and hideous beards.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 952
+            "type": "section"
         }, 
         {
             "body": "<p>At attention, bearded devils stand over 6 feet tall (though their squatting battle stances often make them appear shorter) and weigh upward of 200 pounds.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 953
+            "type": "section"
         }
     ], 
     "hp": "57 (6d10+24)", 
     "reach": "5 ft. (10 ft. with glaive)", 
-    "section_id": 946, 
     "wisdom": "12", 
     "creature_type": "Outsider", 
     "dr": "5/good or silver", 

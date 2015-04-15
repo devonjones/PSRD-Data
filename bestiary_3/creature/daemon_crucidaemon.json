@@ -5,7 +5,7 @@
     "intelligence": "16", 
     "racial_modifiers": "+8 Craft (traps)", 
     "resist": "cold 10, electricity 10, fire 10", 
-    "melee": "daggers +29/+29/+24/+19/+14 (1d4+11/17-20)", 
+    "melee": "daggers +29/+29/+24/+19/+14 (1d4+11/17-20 plus bleed)", 
     "cr": "15", 
     "xp": "51,200", 
     "speed": "50 ft.", 
@@ -36,17 +36,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Daemon/Crucidaemon/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "A crucidaemon fights with the two daggers chained to its wrists as if dual wielding daggers with a reach of 10 feet (although it can also attack adjacent foes with no penalty). It takes no penalty on attack or damage rolls while wielding both of these daggers at once. These daggers are considered to be +2 daggers that deal 2d6 points of bleed damage. The daggers become nonmagical upon the daemon's death, and cannot be disarmed. A crucidaemon may remanifest a destroyed dagger as a standard action.", 
                     "name": "Chained Daggers", 
                     "url": "pfsrd://Bestiary 3/Monsters/Daemon/Crucidaemon/Special Abilities/Chained Daggers", 
                     "ability_types": {
-                        "ability_type_id": 140, 
-                        "section_id": 465, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 465, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -55,35 +54,26 @@
                     "name": "Trap Making", 
                     "url": "pfsrd://Bestiary 3/Monsters/Daemon/Crucidaemon/Special Abilities/Trap Making", 
                     "ability_types": {
-                        "ability_type_id": 141, 
-                        "section_id": 466, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 466, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 464, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Bloody representations of death by traps or torture, crucidaemons spend their existence subjecting creatures to an eternity of pain and terror. Whereas many daemons are quick to feed on the soul of mortals they capture, a crucidaemon lets its victims linger, marinating their souls in torment and pain so that when the time for feeding finally comes, they welcome their final oblivion with tears of gratitude.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 467
+            "type": "section"
         }, 
         {
             "body": "<p>Crucidaemons are 6 feet tall and weigh 250 pounds.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 468
+            "type": "section"
         }
     ], 
     "hp": "212 (17d10+119)", 
     "reach": "10 ft.", 
-    "section_id": 463, 
     "wisdom": "17", 
     "creature_type": "Outsider", 
     "dr": "10/good and silver", 

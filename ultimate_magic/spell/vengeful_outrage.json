@@ -1,21 +1,30 @@
 {
-    "level_text": "Bard: 5; Sorcerer: 6; Wizard: 6; Witch: 6", 
-    "duration": "1 minute/level", 
-    "source": "Ultimate Magic", 
-    "component_text": "V, S", 
-    "subschool_text": "compulsion", 
-    "subschool": [
-        "compulsion"
-    ], 
-    "type": "spell", 
     "body": "<p>You place a magical command upon a creature to seek out and destroy a single enemy that has inflicted some perceived or actual harm to the target. You designate the enemy at the time of casting, which must be known by the target (such as &ldquo;your brother's murderer&rdquo;) or can easily identify by sight (such as &ldquo;the hill giant king&rdquo;). The target is under the effect of a <i>geas</i> to find and capture or kill this enemy, and the target takes the penalties of that spell as long as it is not actively trying to reach the enemy. When the target enters combat with the enemy, it gains a +6 morale bonus to Strength and Constitution, a +3 morale bonus on Will saves, and is immune to the shaken and frightened conditions.</p><p>If you designate one of the target's friends or loved ones as the enemy, the target gains another saving throw to overcome the spell as soon as it enters combat with the enemy.</p>", 
+    "school": "enchantment", 
+    "saving_throw": "Will negates", 
     "description": "Target is compelled to destroy one enemy.", 
+    "source": "Ultimate Magic", 
+    "url": "pfsrd://Ultimate Magic/Spells/Vengeful Outrage", 
     "spell_resistance": "yes", 
     "casting_time": "1 round", 
-    "section_id": 214, 
+    "level_text": "Bard: 5; Skald: 5; Sorcerer: 6; Wizard: 6; Arcanist: 6; Witch: 6", 
+    "descriptor": [
+        "emotion", 
+        "language-dependent", 
+        "mind-affecting"
+    ], 
+    "range": "close (25 ft. + 5 ft./2 levels)", 
     "levels": [
         {
+            "class": "Arcanist", 
+            "level": 6
+        }, 
+        {
             "class": "Bard", 
+            "level": 5
+        }, 
+        {
+            "class": "Skald", 
             "level": 5
         }, 
         {
@@ -38,16 +47,6 @@
             "name": "Target"
         }
     ], 
-    "school": "enchantment", 
-    "saving_throw": "Will negates", 
-    "name": "Vengeful Outrage", 
-    "url": "pfsrd://Ultimate Magic/Spells/Vengeful Outrage", 
-    "descriptor": [
-        "emotion", 
-        "language-dependent", 
-        "mind-affecting"
-    ], 
-    "range": "close (25 ft. + 5 ft./2 levels)", 
     "components": [
         {
             "type": "V"
@@ -55,5 +54,13 @@
         {
             "type": "S"
         }
-    ]
+    ], 
+    "duration": "1 minute/level", 
+    "subschool_text": "compulsion", 
+    "subschool": [
+        "compulsion"
+    ], 
+    "type": "spell", 
+    "component_text": "V, S", 
+    "name": "Vengeful Outrage"
 }

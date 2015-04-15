@@ -5,106 +5,92 @@
     "url": "pfsrd://Ultimate Combat/Classes/Ninja", 
     "type": "class", 
     "image": "Ninja.png", 
-    "section_id": 989, 
     "subtype": "base", 
     "hit_die": "d8", 
     "alt": "Reiko", 
     "sections": [
         {
             "body": "<p id=\"role\">The ninja spends almost all of her time honing her skills, practicing her art, or working on her next assignment. Even when not specifically working, the ninja is ever vigilant and ready for the situation to turn deadly. Her line of work earns her many enemies, but it is a list that she frequently reduces through assassination and misdirection. The ninja is an alternate class for the rogue core class.</p>", 
-            "name": "Role", 
             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Role", 
-            "section_id": 990, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "type": "section", 
+            "name": "Role", 
+            "source": "Ultimate Combat"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for ninja characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
             "name": "Starting Wealth", 
             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Starting Wealth", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Ninja</td><td>4d6 &times; 10 gp</td><td>140 gp</td></tr></table>", 
-                    "name": "Table: Starting Wealth", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Starting Wealth/Table Starting Wealth", 
-                    "section_id": 992, 
-                    "source": "Ultimate Combat", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Starting Wealth", 
+                    "source": "Ultimate Combat"
                 }
-            ], 
-            "section_id": 991, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The ninja's class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Stealth (Dex), Swim (Str), and Use Magic Device (Cha).</p>", 
             "name": "Class Skills", 
             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Skills", 
+            "type": "section", 
+            "source": "Ultimate Combat", 
             "sections": [
                 {
                     "body": "<p id=\"skill-ranks-per-level\">8 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Skills/Skill Ranks per Level", 
-                    "section_id": 994, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Skill Ranks per Level", 
+                    "source": "Ultimate Combat"
                 }
-            ], 
-            "section_id": 993, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            ]
         }, 
         {
-            "name": "Class Features", 
             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table:  Ninja</caption><thead><tr><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+2</td><td>+0</td><td style=\"white-space: normal;\">Poison use, sneak attack +1d6</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+3</td><td>+0</td><td style=\"white-space: normal;\"><i>Ki</i> pool, ninja trick</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+1</td><td>+3</td><td>+1</td><td style=\"white-space: normal;\">No trace +1, sneak attack +2d6</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+1</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">ninja trick, uncanny dodge</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+1</td><td>+4</td><td>+1</td><td style=\"white-space: normal;\">Sneak attack +3d6</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+2</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Light steps, ninja trick, no trace +2</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+2</td><td>+5</td><td>+2</td><td style=\"white-space: normal;\">Sneak attack +4d6</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+2</td><td>+6</td><td>+2</td><td style=\"white-space: normal;\">Improved uncanny dodge, ninja trick</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+3</td><td>+6</td><td>+3</td><td style=\"white-space: normal;\">No trace +3, sneak attack +5d6</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+3</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Master tricks, ninja trick</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+3</td><td>+7</td><td>+3</td><td style=\"white-space: normal;\">Sneak attack +6d6</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+4</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">ninja trick, no trace +4</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+4</td><td>+8</td><td>+4</td><td style=\"white-space: normal;\">Sneak attack +7d6</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+4</td><td>+9</td><td>+4</td><td style=\"white-space: normal;\">ninja trick</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+5</td><td>+9</td><td>+5</td><td style=\"white-space: normal;\">No trace +5, sneak attack +8d6</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+5</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">ninja trick</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+5</td><td>+10</td><td>+5</td><td style=\"white-space: normal;\">Sneak attack +9d6</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+6</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">ninja trick, no trace +6</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+6</td><td>+11</td><td>+6</td><td style=\"white-space: normal;\">Sneak attack +10d6</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+6</td><td>+12</td><td>+6</td><td style=\"white-space: normal;\">Hidden master, ninja trick</td></tr></table>", 
-                    "name": "Table: Ninja", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Table Ninja", 
-                    "section_id": 996, 
-                    "source": "Ultimate Combat", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Table: Ninja", 
+                    "source": "Ultimate Combat"
                 }, 
                 {
                     "body": "<p>The following are the class features of the ninja.</p>", 
                     "source": "Ultimate Combat", 
-                    "type": "section", 
-                    "section_id": 997
+                    "type": "section"
                 }, 
                 {
                     "body": "<p id=\"weapon-and-armor-proficiency\">Ninja are proficient with all simple weapons, plus the kama, katana, kusarigama, nunchaku, sai, shortbow, short sword, shuriken, siangham, and wakizashi. They are proficient with light armor but not with shields.</p>", 
                     "source": "Ultimate Combat", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 998
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"poison-use\">At 1st level, a ninja is trained in the use of poison and cannot accidentally poison herself when applying poison to a weapon.</p>", 
-                    "name": "Poison Use", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Poison Use", 
-                    "section_id": 999, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Poison Use", 
+                    "source": "Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"sneak-attack\">If a ninja can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.</p><p>The ninja's attacks deal extra damage anytime her target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the ninja flanks her target. This extra damage is 1d6 at 1st level, and increases by 1d6 every two ninja levels thereafter. Bonus damage from sneak attacks is precision damage. Should the ninja score a critical hit with a sneak attack, this precision damage is not multiplied. Ranged attacks count as sneak attacks only if the target is within 30 feet.</p><p>With a weapon that deals nonlethal damage (such as a sap, whip, or unarmed strike), a ninja can make a sneak attack that deals nonlethal damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, even with the usual &ndash;4 penalty.</p><p>The ninja must be able to see the target well enough to pick out a vital spot, and must be able to reach this spot. A ninja cannot sneak attack while striking a creature that has concealment.</p>", 
-                    "name": "Sneak Attack", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Sneak Attack", 
-                    "section_id": 1000, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Sneak Attack", 
+                    "source": "Ultimate Combat"
                 }, 
                 {
                     "body": "<p id=\"ki-pool\">At 2nd level, a ninja gains a pool of <i>ki</i> points, supernatural energy she can use to accomplish amazing feats. The number of points in the ninja's <i>ki</i> pool is equal to 1/2 her ninja level + her Charisma modifier. As long as she has at least 1 point in her <i>ki</i> pool, she treats any Acrobatics skill check made to jump as if she had a running start. At 10th level, she also reduces the DC of Acrobatics skill checks made to jump by 1/2 (although she still cannot move farther than her speed allows).</p><p>By spending 1 point from her <i>ki</i> pool, a ninja can make one additional attack at her highest attack bonus, but she can do so only when making a full attack. In addition, she can spend 1 point to increase her speed by 20 feet for 1 round. Finally, a ninja can spend 1 point from her <i>ki</i> pool to give herself a +4 insight bonus on Stealth checks for 1 round. Each of these powers is activated as a swift action. A ninja can gain additional powers that consume points from her <i>ki</i> pool by selecting certain ninja tricks.</p><p>The <i>ki</i> pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive. If the ninja possesses levels in another class that grants points to a <i>ki</i> pool, ninja levels stack with the levels of that class to determine the total number of <i>ki</i> points in the combined pool, but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is set. The ninja can now use <i>ki</i> points from this pool to power the abilities of every class she possesses that grants a <i>ki</i> pool.</p>", 
                     "name": "Ki Pool", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ki Pool", 
                     "ability_types": {
-                        "ability_type_id": 1, 
-                        "section_id": 1001, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1001, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -112,6 +98,8 @@
                     "body": "<p id=\"ninja-tricks\">As a ninja continues her training, she learns a number of tricks that allow her to confuse her foes and grant her supernatural abilities. Starting at 2nd level, a ninja gains one ninja trick. She gains one additional ninja trick for every 2 levels attained after 2nd. Unless otherwise noted, a ninja cannot select an individual ninja trick more than once.</p><p>Tricks marked with an asterisk (*) add effects to a ninja's sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.</p>", 
                     "name": "Ninja Tricks", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks", 
+                    "type": "section", 
+                    "source": "Ultimate Combat", 
                     "sections": [
                         {
                             "body": "<p id=\"acrobatic-master\" class=\"stat-block-2\">As a swift action, a ninja with this trick can focus her <i>ki</i> to grant her a +20 bonus on one Acrobatics check of her choice made before the start of her next turn. Using this ability expends 1 <i>ki</i> point from her <i>ki</i> pool.</p>", 
@@ -119,11 +107,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Acrobatic Master", 
                             "ability_types": {
-                                "ability_type_id": 2, 
-                                "section_id": 1003, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1003, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -133,11 +118,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Bleeding Attack*", 
                             "ability_types": {
-                                "ability_type_id": 3, 
-                                "section_id": 1004, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1004, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -147,11 +129,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Choking Bomb", 
                             "ability_types": {
-                                "ability_type_id": 4, 
-                                "section_id": 1005, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1005, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -160,7 +139,6 @@
                             "name": "Combat Trick", 
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Combat Trick", 
-                            "section_id": 1006, 
                             "subtype": "ninja_trick", 
                             "type": "section"
                         }, 
@@ -170,11 +148,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Darkvision", 
                             "ability_types": {
-                                "ability_type_id": 5, 
-                                "section_id": 1007, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1007, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -184,11 +159,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Deadly Range", 
                             "ability_types": {
-                                "ability_type_id": 6, 
-                                "section_id": 1008, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1008, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -197,7 +169,6 @@
                             "name": "Deflect Arrows", 
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Deflect Arrows", 
-                            "section_id": 1009, 
                             "subtype": "ninja_trick", 
                             "type": "section"
                         }, 
@@ -207,11 +178,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Fast Stealth", 
                             "ability_types": {
-                                "ability_type_id": 7, 
-                                "section_id": 1010, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1010, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -221,11 +189,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Feather Fall", 
                             "ability_types": {
-                                "ability_type_id": 8, 
-                                "section_id": 1011, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1011, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -235,11 +200,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Flurry of Stars", 
                             "ability_types": {
-                                "ability_type_id": 9, 
-                                "section_id": 1012, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1012, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -249,11 +211,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Forgotten Trick", 
                             "ability_types": {
-                                "ability_type_id": 10, 
-                                "section_id": 1013, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1013, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -263,11 +222,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Hidden Weapons", 
                             "ability_types": {
-                                "ability_type_id": 11, 
-                                "section_id": 1014, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1014, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -277,11 +233,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/High Jumper", 
                             "ability_types": {
-                                "ability_type_id": 12, 
-                                "section_id": 1015, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1015, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -291,11 +244,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Ki Block*", 
                             "ability_types": {
-                                "ability_type_id": 13, 
-                                "section_id": 1016, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1016, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -305,11 +255,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Ki Charge", 
                             "ability_types": {
-                                "ability_type_id": 14, 
-                                "section_id": 1017, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1017, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -319,11 +266,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Poison Bomb", 
                             "ability_types": {
-                                "ability_type_id": 15, 
-                                "section_id": 1018, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1018, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -333,11 +277,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Pressure Points*", 
                             "ability_types": {
-                                "ability_type_id": 16, 
-                                "section_id": 1019, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1019, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -346,7 +287,6 @@
                             "name": "Rogue Talent", 
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Rogue Talent", 
-                            "section_id": 1020, 
                             "subtype": "ninja_trick", 
                             "type": "section"
                         }, 
@@ -356,11 +296,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Shadow Clone", 
                             "ability_types": {
-                                "ability_type_id": 17, 
-                                "section_id": 1021, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1021, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -370,11 +307,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Slow Metabolism", 
                             "ability_types": {
-                                "ability_type_id": 18, 
-                                "section_id": 1022, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1022, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -384,11 +318,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Slow Reactions*", 
                             "ability_types": {
-                                "ability_type_id": 19, 
-                                "section_id": 1023, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1023, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -398,11 +329,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Smoke Bomb", 
                             "ability_types": {
-                                "ability_type_id": 20, 
-                                "section_id": 1024, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1024, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -411,7 +339,6 @@
                             "name": "Snatch Arrows", 
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Snatch Arrows", 
-                            "section_id": 1025, 
                             "subtype": "ninja_trick", 
                             "type": "section"
                         }, 
@@ -420,7 +347,6 @@
                             "name": "Style Master", 
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Style Master", 
-                            "section_id": 1026, 
                             "subtype": "ninja_trick", 
                             "type": "section"
                         }, 
@@ -430,11 +356,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Sudden Disguise", 
                             "ability_types": {
-                                "ability_type_id": 21, 
-                                "section_id": 1027, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1027, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -443,7 +366,6 @@
                             "name": "Unarmed Combat Training", 
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Unarmed Combat Training", 
-                            "section_id": 1028, 
                             "subtype": "ninja_trick", 
                             "type": "section"
                         }, 
@@ -453,11 +375,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Undetected Sabotage", 
                             "ability_types": {
-                                "ability_type_id": 22, 
-                                "section_id": 1029, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1029, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -467,11 +386,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Vanishing Trick", 
                             "ability_types": {
-                                "ability_type_id": 23, 
-                                "section_id": 1030, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1030, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -481,11 +397,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Ventriloquism", 
                             "ability_types": {
-                                "ability_type_id": 24, 
-                                "section_id": 1031, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1031, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -495,11 +408,8 @@
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Wall Climber", 
                             "ability_types": {
-                                "ability_type_id": 25, 
-                                "section_id": 1032, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1032, 
                             "subtype": "ninja_trick", 
                             "type": "ability"
                         }, 
@@ -508,25 +418,18 @@
                             "name": "Weapon Training", 
                             "source": "Ultimate Combat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Ninja Tricks/Weapon Training", 
-                            "section_id": 1033, 
                             "subtype": "ninja_trick", 
                             "type": "section"
                         }
-                    ], 
-                    "section_id": 1002, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p id=\"no-trace\">At 3rd level, a ninja learns to cover her tracks, remain hidden, and conceal her presence. The DC to track a ninja using the Survival skill increases by +1. In addition, her training gives her a +1 insight bonus on Disguise skill checks and on opposed Stealth checks whenever she is stationary and does not take any action for at least 1 round. Every three levels thereafter, the increase to Survival DCs and the bonuses on Disguise and opposed Stealth checks increase by 1.</p>", 
                     "name": "No Trace", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/No Trace", 
                     "ability_types": {
-                        "ability_type_id": 26, 
-                        "section_id": 1034, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1034, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -535,11 +438,8 @@
                     "name": "Uncanny Dodge", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Uncanny Dodge", 
                     "ability_types": {
-                        "ability_type_id": 27, 
-                        "section_id": 1035, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1035, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -548,11 +448,8 @@
                     "name": "Light Steps", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Light Steps", 
                     "ability_types": {
-                        "ability_type_id": 28, 
-                        "section_id": 1036, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1036, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -561,11 +458,8 @@
                     "name": "Improved Uncanny Dodge", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Improved Uncanny Dodge", 
                     "ability_types": {
-                        "ability_type_id": 29, 
-                        "section_id": 1037, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1037, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }, 
@@ -573,24 +467,22 @@
                     "body": "<p id=\"master-tricks\">At 10th level, and every two levels thereafter, a ninja can select one of the following master tricks in place of a ninja trick.</p>", 
                     "name": "Master Tricks", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks", 
+                    "type": "section", 
+                    "source": "Ultimate Combat", 
                     "sections": [
                         {
                             "body": "<p id=\"advanced-talents\" class=\"stat-block-2\">The ninja can select a rogue talent from the list of Advanced Talents in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja cannot select improved evasion unless she has evasion (either as a class feature or as a ninja master trick).</p>", 
                             "source": "Ultimate Combat", 
                             "type": "section", 
-                            "name": "Advanced Talents", 
-                            "section_id": 1039
+                            "name": "Advanced Talents"
                         }, 
                         {
                             "body": "<p id=\"assassinate\" class=\"stat-block-2\">A ninja with this master trick can kill foes that are unable to defend themselves. To attempt to assassinate a target, the ninja must first study her target for 1 round as a standard action. On the following round, if the ninja makes a sneak attack against the target and the target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the ninja as an enemy. If the sneak attack is successful and the target of this attack fails a Fortitude save, it dies. The DC of this save is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the save is successful, the target still takes the sneak attack damage as normal, but it is immune to that ninja's assassinate ability for 1 day.</p>", 
                             "name": "Assassinate", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Assassinate", 
                             "ability_types": {
-                                "ability_type_id": 30, 
-                                "section_id": 1040, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1040, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
@@ -599,11 +491,8 @@
                             "name": "Blinding Bomb", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Blinding Bomb", 
                             "ability_types": {
-                                "ability_type_id": 31, 
-                                "section_id": 1041, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1041, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
@@ -612,11 +501,8 @@
                             "name": "Deadly Shuriken", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Deadly Shuriken", 
                             "ability_types": {
-                                "ability_type_id": 32, 
-                                "section_id": 1042, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1042, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
@@ -625,32 +511,25 @@
                             "name": "Evasion", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Evasion", 
                             "ability_types": {
-                                "ability_type_id": 33, 
-                                "section_id": 1043, 
                                 "ability_type": "Extraordinary"
                             }, 
-                            "section_id": 1043, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"feat\" class=\"stat-block-2\">A ninja may gain any feat that she qualifies for in place of a ninja trick.</p>", 
-                            "name": "Feat", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Feat", 
-                            "section_id": 1044, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Feat", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"ghost-step\" class=\"stat-block-2\">As a swift action, a ninja with this trick can pass through walls as if she were a ghost. Until the end of her turn, she can pass through a wall or other surface that is up to 5 feet thick per level as if she were incorporeal. She must exit the solid material by the end of her turn. Each use of this ability uses up 1 <i>ki</i> point.</p>", 
                             "name": "Ghost Step", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Ghost Step", 
                             "ability_types": {
-                                "ability_type_id": 34, 
-                                "section_id": 1045, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1045, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
@@ -659,11 +538,8 @@
                             "name": "Invisible Blade", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Invisible Blade", 
                             "ability_types": {
-                                "ability_type_id": 35, 
-                                "section_id": 1046, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1046, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
@@ -672,11 +548,8 @@
                             "name": "Master Disguise", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Master Disguise", 
                             "ability_types": {
-                                "ability_type_id": 36, 
-                                "section_id": 1047, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1047, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
@@ -685,11 +558,8 @@
                             "name": "See the Unseen", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/See the Unseen", 
                             "ability_types": {
-                                "ability_type_id": 37, 
-                                "section_id": 1048, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1048, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
@@ -698,57 +568,43 @@
                             "name": "Shadow Split", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Shadow Split", 
                             "ability_types": {
-                                "ability_type_id": 38, 
-                                "section_id": 1049, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1049, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }, 
                         {
                             "body": "<p id=\"unarmed-combat-mastery\" class=\"stat-block-2\">A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level &ndash;4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the Improved Unarmed Strike feat before taking this trick.</p>", 
-                            "name": "Unarmed Combat Mastery", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Unarmed Combat Mastery", 
-                            "section_id": 1050, 
-                            "source": "Ultimate Combat", 
-                            "type": "section"
+                            "type": "section", 
+                            "name": "Unarmed Combat Mastery", 
+                            "source": "Ultimate Combat"
                         }, 
                         {
                             "body": "<p id=\"unbound-steps\" class=\"stat-block-2\">This trick allows a ninja to use her <i>ki</i> to walk through the air. Whenever the ninja uses the light steps class feature, she can walk on air, rising or descending as she desires. She must end her move on a solid surface. Each use of this ability uses up 1 <i>ki</i> point. </p>", 
                             "name": "Unbound Steps", 
                             "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Master Tricks/Unbound Steps", 
                             "ability_types": {
-                                "ability_type_id": 39, 
-                                "section_id": 1051, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1051, 
                             "source": "Ultimate Combat", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1038, 
-                    "source": "Ultimate Combat", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p id=\"hidden-master\">At 20th level, a ninja becomes a true master of her art. She can, as a standard action, cast <i>greater invisibility</i> on herself. While invisible in this way, she cannot be detected by any means, and not even <i>invisibility purge</i>, <i>see invisibility</i>, and <i>true seeing</i> can reveal her. She uses her ninja level as her caster level for this ability. Using this ability consumes 3 <i>ki</i> points from her <i>ki</i> pool. In addition, whenever the ninja deals sneak attack damage, she can sacrifice additional damage dice to apply a penalty to one ability score of the target equal to the number of dice sacrificed for 1 minute. This penalty does not stack with itself and cannot reduce an ability score below 1.</p>", 
                     "name": "Hidden Master", 
                     "url": "pfsrd://Ultimate Combat/Classes/Ninja/Class Features/Hidden Master", 
                     "ability_types": {
-                        "ability_type_id": 40, 
-                        "section_id": 1052, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1052, 
                     "source": "Ultimate Combat", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 995, 
-            "source": "Ultimate Combat", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Ultimate Combat"
         }
     ], 
     "alignment": "Any."

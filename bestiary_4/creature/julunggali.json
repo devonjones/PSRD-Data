@@ -35,17 +35,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 4", 
             "url": "pfsrd://Bestiary 4/Monsters/Julunggali/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Any creature within 100 feet of the julunggali who can see it must succeed at a Will save (DC 26) or be fascinated as long as it remains within range. A creature that saves against the julunggali's aura is immune to it for 24 hours. The save DC is Charisma-based.", 
                     "name": "Fascination Aura", 
                     "url": "pfsrd://Bestiary 4/Monsters/Julunggali/Special Abilities/Fascination Aura", 
                     "ability_types": {
-                        "ability_type_id": 375, 
-                        "section_id": 1157, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1157, 
                     "source": "Bestiary 4", 
                     "type": "ability"
                 }, 
@@ -53,42 +52,32 @@
                     "body": "A julunggali has three different poisons. Each time it bites, it decides which poison to inject.Julunggali Venom: Bite&mdash;injury; save Fort DC 30; frequency 1/round for 6 rounds; effect 1d6 Con or 1d6 Dex or age one age category (julunggali's choice); cure 2 consecutive saves. The save DC is Constitution-based.", 
                     "source": "Bestiary 4", 
                     "type": "section", 
-                    "name": "descriptor", 
-                    "section_id": 1158
+                    "name": "descriptor"
                 }, 
                 {
-                    "name": "Poison", 
                     "url": "pfsrd://Bestiary 4/Monsters/Julunggali/Special Abilities/Poison", 
-                    "ability_types": {
-                        "ability_type_id": 377, 
-                        "section_id": 1159, 
-                        "ability_type": "Supernatural"
-                    }, 
-                    "section_id": 1159, 
                     "source": "Bestiary 4", 
-                    "type": "ability"
+                    "type": "ability", 
+                    "name": "Poison", 
+                    "ability_types": {
+                        "ability_type": "Supernatural"
+                    }
                 }
-            ], 
-            "section_id": 1156, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A julunggali is a semidivine entity. It watches over sacred and mystical places of the world, as well as the remote tribes that respect these locations. Young tribal warriors present themselves to the julunggali for its blessing, a vision quest, or other rite of passage necessary to become an adult in the community.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1160
+            "type": "section"
         }, 
         {
             "body": "<p>A julunggali is wise and can be entreated to perform helpful tasks, such as carving new river channels or pulling water into dry wells. But it is also vengeful, and has been known to punish those who break social taboos or intrude upon sacred places without permission. Those who have undergone rites of passage chosen for them by the julunggali face the harshest repercussions if they act wrongly.</p>", 
             "source": "Bestiary 4", 
-            "type": "section", 
-            "section_id": 1161
+            "type": "section"
         }
     ], 
     "hp": "399 (22d10+278); fast healing 10", 
     "reach": "30 ft.", 
-    "section_id": 1155, 
     "wisdom": "20", 
     "defensive_abilities": "mythic saving throws", 
     "creature_type": "Magical Beast", 

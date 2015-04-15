@@ -1,88 +1,80 @@
 {
-    "body": "<p>Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape&mdash;installing cybertech in a non-humanoid-shaped body is more difficult, but possible.</p><p>Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can't exceed either that creature's Constitution score or Intelligence score&mdash;a creature's Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature's Intelligence sets the mental limit of what its brain can control. An implants whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.</p><p>A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.</p><p>Installing a piece of cybertech takes a number of hours equal to the cybertech's implantation value if the installation is done by hand&mdash;certain technological items can speed this installation time. The target must be willing or helpless during the entire installation, at the end of which the installer attempts a Heal check against a DC of 20 + double the cybertech's implantation value&mdash;this value is listed for each cybertech item for ease of reference. On a success, the target takes Constitution damage equal to the cybertech's implantation value and the cybertech immediately activates. On a failed check, the target still takes the Constitution damage but the installation fails; a new attempt to install the cybertech can be made, although it's wise to wait for the Constitution damage to heal before trying again.</p><p>Cybertech can be extracted using the same procedure as implanting it, with a failed Heal check indicating the attempt to extract the item failed. Fortunately, extraction is a simpler task than installment, and Heal checks to remove cybertech gain a +10 bonus. Extracting a piece of cybertech from a dead body requires no Heal check but takes a number of rounds equal to the cybertech's implantation value. You can only install or extract a single piece of cybertech at a time.</p><p>An NPC generally charges an amount equal to 1/10 the total price of a piece of cybertech for the service of installing the item.</p><p>Each piece of cybertech has a full description, including a set of abbreviated statistics at the start. This information is organized as follows.</p>", 
+    "body": "<p>Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape&mdash;installing cybertech in a non-humanoid-shaped body is more difficult, but possible.</p><p>Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can't exceed either that creature's Constitution score or Intelligence score&mdash;a creature's Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature's Intelligence sets the mental limit of what its brain can control. An implant whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.</p><p>A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.</p><p>Installing a piece of cybertech takes a number of hours equal to the cybertech's implantation value if the installation is done by hand&mdash;certain technological items can speed this installation time. The target must be willing or helpless during the entire installation, at the end of which the installer attempts a Heal check against the cybertech's Install DC&mdash;this specific value is listed for each cybertech item. On a success, the target takes Constitution damage equal to the cybertech's implantation value and the cybertech immediately activates. On a failed check, the target still takes the Constitution damage but the installation fails; a new attempt to install the cybertech can be made, although it's wise to wait for the Constitution damage to heal before trying again.</p><p>Cybertech can be extracted using the same procedure as implanting it, with a failed Heal check indicating the attempt to extract the item failed. Fortunately, extraction is a simpler task than installment, and Heal checks to remove cybertech gain a +10 bonus. Extracting a piece of cybertech from a dead body requires no Heal check but takes a number of rounds equal to the cybertech's implantation value. You can only install or extract a single piece of cybertech at a time.</p><p>An NPC generally charges an amount equal to 1/10 the total price of a piece of cybertech for the service of installing the item.</p><p>Each piece of cybertech has a full description, including a set of abbreviated statistics at the start. This information is organized as follows.</p>", 
     "name": "Cybertech", 
     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech", 
+    "type": "section", 
+    "source": "Technology Guide", 
     "sections": [
         {
             "body": "<p>This is the cost in gold pieces to buy the implant if it's available for sale. This value does not include the cost to have the object surgically implanted. As with magic items, a piece of cybertech can be sold by PCs for half this value.</p>", 
-            "name": "Price", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Price", 
-            "section_id": 257, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Price", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>This is the part of the body into which the cybertech must be implanted. A single slot can only ever host a single piece of cybertech. Cybertech slots are separate from normal magic item slots and do not count as being used for the purposes of worn magic items.<b></b></p>", 
-            "name": "Slot", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Slot", 
-            "section_id": 258, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Slot", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>This is the weight of the cybertech in pounds. Once installed, the cybertech's weight does not count against a creature's encumbrance or maximum load.</p>", 
-            "name": "Weight", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Weight", 
-            "section_id": 259, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Weight", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>This is the Heal check DC required to successfully implant or remove the cybertech from a creature.</p>", 
-            "name": "Install", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Install", 
-            "section_id": 260, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Install", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>A numerical value indicating how invasive the cybertech is. The higher the number, the more invasive the cybertech. Implantation influences the time and difficulty of installing and removing the cybertech.</p>", 
-            "name": "Implantation", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Implantation", 
-            "section_id": 261, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Implantation", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>This section describes the cybertech's appearance and abilities.</p>", 
-            "name": "Description", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Description", 
-            "section_id": 262, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Description", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>Certain requirements must be met for a character to craft cybertech. These requirements generally consist of having a feat and access to a manufacturing facility.</p>", 
-            "name": "Construction", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Construction", 
-            "section_id": 263, 
-            "source": "Technology Guide", 
-            "type": "section"
+            "type": "section", 
+            "name": "Construction", 
+            "source": "Technology Guide"
         }, 
         {
             "body": "<p>This is the Craft DC required to create the cybertech. It is also the Knowledge (engineering) DC to correctly identify the cybertech.</p>", 
             "source": "Technology Guide", 
             "type": "section", 
-            "name": "Craft", 
-            "section_id": 264
+            "name": "Craft"
         }, 
         {
             "body": "<p>This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item.</p>", 
             "name": "Cost", 
             "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Cost", 
+            "type": "section", 
+            "source": "Technology Guide", 
             "sections": [
                 {
                     "body": "<table><caption>Cybertech</caption><thead><tr><th>Arm Slot Cybertech</th><th>Price</th><th>Weight</th><th>Implant</th><th>Install</th></tr></thead><tbody><tr class=\"odd\"><td>Cybernetic arm</td><td>4,750 gp</td><td>9 lbs.</td><td>2</td><td>DC 28</td></tr><tr class=\"even\"><td>Implanted weaponry</td><td>10,000 gp (special)</td><td>1 lb.</td><td>2</td><td>DC 26</td></tr></tbody><tr><th colspan=\"5\">Body Slot Cybertech</th></tr><tbody><tr class=\"odd\"><td>Dermal plating (mark I)</td><td>4,000 gp</td><td>5 lbs.</td><td>2</td><td>DC 24</td></tr><tr class=\"even\"><td>Cyberfiber muscles (mark I)</td><td>8,000 gp</td><td>10 lbs.</td><td>2</td><td>DC 24</td></tr><tr class=\"odd\"><td>Thoracic nanite chamber (mark I)</td><td>8,000 gp</td><td>5 lbs.</td><td>2</td><td>DC 24</td></tr><tr class=\"even\"><td>Wirejack tendons (mark I)</td><td>8,000 gp</td><td>10 lbs.</td><td>2</td><td>DC 24</td></tr><tr class=\"odd\"><td>Biofilter</td><td>16,000 gp</td><td>2 lbs.</td><td>3 </td><td>DC 25</td></tr><tr class=\"even\"><td>Dermal plating (mark II)</td><td>16,000 gp</td><td>5 lbs.</td><td>4</td><td>DC 26</td></tr><tr class=\"odd\"><td>Cyberfiber muscles (mark II)</td><td>32,000 gp</td><td>10 lbs.</td><td>4</td><td>DC 28</td></tr><tr class=\"even\"><td>Thoracic nanite chamber (mark II)</td><td>32,000 gp</td><td>5 lbs.</td><td>4</td><td>DC 28</td></tr><tr class=\"odd\"><td>Wirejack tendons (mark II)</td><td>32,000 gp</td><td>10 lbs.</td><td>4</td><td>DC 28</td></tr><tr class=\"even\"><td>Dermal plating (mark III)</td><td>36,000 gp</td><td>5 lbs.</td><td>4</td><td>DC 28</td></tr><tr class=\"odd\"><td>Dermal plating (mark IV)</td><td>64,000 gp</td><td>5 lbs.</td><td>8</td><td>DC 30</td></tr><tr class=\"even\"><td>Cyberfiber muscles (mark III)</td><td>72,000 gp</td><td>10 lbs.</td><td>8</td><td>DC 36</td></tr><tr class=\"odd\"><td>Thoracic nanite chamber (mark III)</td><td>72,000 gp</td><td>5 lbs.</td><td>8</td><td>DC 36</td></tr><tr class=\"even\"><td>Wirejack tendons (mark III)</td><td>72,000 gp</td><td>10 lbs.</td><td>8</td><td>DC 36</td></tr><tr class=\"odd\"><td>Dermal plating (mark V)</td><td>100,000 gp</td><td>5 lbs.</td><td>10</td><td>DC 32</td></tr></tbody><tr><th colspan=\"5\">Brain Slot Cybertech</th></tr><tbody><tr class=\"odd\"><td>Skillslot</td><td>2,000 gp</td><td>1 lb.</td><td>1</td><td>DC 30</td></tr><tr class=\"even\"><td>Frenzychip</td><td>36,400 gp</td><td>1 lb.</td><td>1</td><td>DC 32</td></tr></tbody><tr><th colspan=\"5\">Ears Slot Cybertech</th></tr><tbody><tr class=\"odd\"><td>Cybernetic ears</td><td>4,000 gp</td><td>1 lb.</td><td>1</td><td>DC 28</td></tr></tbody><tr><th colspan=\"5\">Eyes Slot Cybertech</th></tr><tbody><tr class=\"odd\"><td>Cybernetic eyes</td><td>4,000 gp</td><td>1 lb.</td><td>1</td><td>DC 28</td></tr></tbody><tr><th colspan=\"5\">Head Slot Cybertech</th></tr><tbody><tr class=\"odd\"><td>Cranial bomb</td><td>4,500 gp</td><td>1/2 lb.</td><td>1</td><td>DC 25</td></tr></tbody><tr><th colspan=\"5\">Legs Slot Cybertech</th></tr><tbody><tr class=\"odd\"><td>Cybernetic legs</td><td>8,500 gp</td><td>12 lbs.</td><td>4</td><td>DC 28</td></tr></tbody><tr><th colspan=\"5\">Body Slot Cybertech</th></tr><tbody><tr class=\"odd\"><td>Cyberart</td><td>100 gp</td><td>1 lb.</td><td>0</td><td>DC 20</td></tr></tbody></table>", 
-                    "name": "Cybertech", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Cost/Cybertech", 
-                    "section_id": 266, 
-                    "source": "Technology Guide", 
-                    "type": "table"
+                    "type": "table", 
+                    "name": "Cybertech", 
+                    "source": "Technology Guide"
                 }
-            ], 
-            "section_id": 265, 
-            "source": "Technology Guide", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p class=\"stat-block\">A nanite matrix is installed in the kidneys and liver to help purge the body of toxins. A biofilter provides a +4 competence bonus on saving throws against disease and poison. In addition, when the user attempts such a saving throw, she rolls twice and takes the higher result.</p>", 
@@ -102,7 +94,6 @@
                     "Cost": "8,000 gp"
                 }
             }, 
-            "section_id": 267, 
             "subtype": "body", 
             "type": "item"
         }, 
@@ -124,7 +115,6 @@
                     "Cost": "2,250 gp"
                 }
             }, 
-            "section_id": 268, 
             "subtype": "head", 
             "type": "item"
         }, 
@@ -145,7 +135,6 @@
                     "Cost": "50 gp"
                 }
             }, 
-            "section_id": 269, 
             "source": "Technology Guide", 
             "type": "item"
         }, 
@@ -167,28 +156,24 @@
                     "Install": "varies"
                 }
             }, 
-            "section_id": 270, 
             "source": "Technology Guide", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Cyberfiber</th><th>Enhancement</th><th>Implantation</th><th>Install</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>+2 Str</td><td>2</td><td>DC 24</td></tr><tr class=\"even\"><td>Mark II</td><td>+4 Str</td><td>4</td><td>DC 28</td></tr><tr class=\"odd\"><td>Mark III</td><td>+6 Str</td><td>8</td><td>DC 36</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Cyberfiber Muscles/", 
                     "type": "table", 
-                    "section_id": 271, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<table><thead><tr><th>Construction</th><th>Craft (varies)</th><th>Cost (varies)</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>DC 24</td><td>4,000 gp</td></tr><tr class=\"even\"><td>Mark II</td><td>DC 28</td><td>16,000 gp</td></tr><tr class=\"odd\"><td>Mark III</td><td>DC 32</td><td>36,000 gp</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Cyberfiber Muscles/", 
                     "type": "table", 
-                    "section_id": 272, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<p class=\"stat-block\">Craft Cybertech, cybernetics lab</p>", 
                     "source": "Technology Guide", 
-                    "type": "section", 
-                    "section_id": 273
+                    "type": "section"
                 }
             ]
         }, 
@@ -209,7 +194,6 @@
                     "Install": "DC 28"
                 }
             }, 
-            "section_id": 274, 
             "source": "Technology Guide", 
             "type": "item"
         }, 
@@ -230,12 +214,11 @@
                     "Cost": "2,000 gp"
                 }
             }, 
-            "section_id": 275, 
             "source": "Technology Guide", 
             "type": "item"
         }, 
         {
-            "body": "<p class=\"stat-block\">A cybernetic eye can be enhanced by cyberart at no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic eyes grant a +4 resistance bonus on all saving throws against blindness and visual effects.</p><p class=\"stat-block\">The listed price, implantation value, and install DC are for having two eyes installed. A single cybernetic eye costs half the price and half the listed implantation value, but a creature must replace all of its eyes to receive the benefits above.</p>", 
+            "body": "<p class=\"stat-block\">A cybernetic eye can be enhanced by cyber art for no additional cost. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one veemod at a price equal to twice the veemod's normal price.</p><p class=\"stat-block\">The listed price, implantation value, and install DC are for having two eyes installed. A single cybernetic eye costs half the price and half the listed implantation value, but a creature must replace all of its eyes to receive the benefits above.</p>", 
             "slot": "eyes", 
             "name": "Cybernetic Eyes", 
             "weight": "1 lb.", 
@@ -252,7 +235,6 @@
                     "Install": "DC 28"
                 }
             }, 
-            "section_id": 276, 
             "subtype": "eyes", 
             "type": "item"
         }, 
@@ -273,7 +255,6 @@
                     "Install": "DC 28"
                 }
             }, 
-            "section_id": 277, 
             "source": "Technology Guide", 
             "type": "item"
         }, 
@@ -297,28 +278,24 @@
                     "Install": "varies"
                 }
             }, 
-            "section_id": 278, 
             "source": "Technology Guide", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Plating</th><th>Enhancement</th><th>Implantation</th><th>Install</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>+1</td><td>2</td><td>DC 24</td></tr><tr class=\"even\"><td>Mark II</td><td>+2</td><td>4</td><td>DC 26</td></tr><tr class=\"odd\"><td>Mark III</td><td>+3</td><td>4</td><td>DC 28</td></tr><tr class=\"even\"><td>Mark IV</td><td>+4</td><td>8</td><td>DC 30</td></tr><tr class=\"odd\"><td>Mark V</td><td>+5</td><td>10</td><td>DC 32</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Dermal Plating/", 
                     "type": "table", 
-                    "section_id": 279, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<table><thead><tr><th>Construction</th><th>Craft (varies)</th><th>Cost (varies)</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>DC 24</td><td>2,000 gp</td></tr><tr class=\"even\"><td>Mark II</td><td>DC 25</td><td>8,000 gp</td></tr><tr class=\"odd\"><td>Mark III</td><td>DC 26</td><td>18,000 gp</td></tr><tr class=\"even\"><td>Mark IV</td><td>DC 27</td><td>32,000 gp</td></tr><tr class=\"odd\"><td>Mark V</td><td>DC 28</td><td>50,000 gp</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Dermal Plating/", 
                     "type": "table", 
-                    "section_id": 280, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<p class=\"stat-block\">Craft Cybertech, cybernetics lab</p>", 
                     "source": "Technology Guide", 
-                    "type": "section", 
-                    "section_id": 281
+                    "type": "section"
                 }
             ]
         }, 
@@ -339,7 +316,6 @@
                     "Install": "DC 32"
                 }
             }, 
-            "section_id": 282, 
             "source": "Technology Guide", 
             "type": "item"
         }, 
@@ -360,7 +336,6 @@
                     "Cost": "5,000 gp (special)"
                 }
             }, 
-            "section_id": 283, 
             "source": "Technology Guide", 
             "type": "item"
         }, 
@@ -381,7 +356,6 @@
                     "Cost": "1,000 gp"
                 }
             }, 
-            "section_id": 284, 
             "source": "Technology Guide", 
             "type": "item"
         }, 
@@ -403,28 +377,24 @@
                     "Install": "varies"
                 }
             }, 
-            "section_id": 285, 
             "source": "Technology Guide", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Chamber</th><th>Enhancement</th><th>Implantation</th><th>Install</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>+2</td><td>Con 2</td><td>DC 24</td></tr><tr class=\"even\"><td>Mark II</td><td>+4</td><td>Con 4</td><td>DC 28</td></tr><tr class=\"odd\"><td>Mark III</td><td>+6</td><td>Con 8</td><td>DC 36</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Thoracic Nanite Chamber/", 
                     "type": "table", 
-                    "section_id": 286, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<table><thead><tr><th>Construction</th><th>Craft (varies)</th><th>Cost (varies)</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>DC 24</td><td>4,000 gp</td></tr><tr class=\"even\"><td>Mark II</td><td>DC 28</td><td>16,000 gp</td></tr><tr class=\"odd\"><td>Mark III</td><td>DC 32</td><td>36,000 gp</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Thoracic Nanite Chamber/", 
                     "type": "table", 
-                    "section_id": 287, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<p class=\"stat-block\">Craft Cybertech, cybernetics lab</p>", 
                     "source": "Technology Guide", 
-                    "type": "section", 
-                    "section_id": 288
+                    "type": "section"
                 }
             ]
         }, 
@@ -446,33 +416,26 @@
                     "Install": "varies"
                 }
             }, 
-            "section_id": 289, 
             "source": "Technology Guide", 
             "sections": [
                 {
                     "body": "<table><thead><tr><th>Wirejack</th><th>Enhancement</th><th>Implantation</th><th>Install</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>+2</td><td>Dex 2</td><td>DC 24</td></tr><tr class=\"even\"><td>Mark II</td><td>+4</td><td>Dex 4</td><td>DC 28</td></tr><tr class=\"odd\"><td>Mark III</td><td>+6</td><td>Dex 8</td><td>DC 36</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Wirejack Tendons/", 
                     "type": "table", 
-                    "section_id": 290, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<table><thead><tr><th>Construction</th><th>Craft (varies)</th><th>Cost (varies)</th></tr></thead><tbody><tr class=\"odd\"><td>Mark I</td><td>DC 24</td><td>4,000 gp</td></tr><tr class=\"even\"><td>Mark II</td><td>DC 28</td><td>16,000 gp</td></tr><tr class=\"odd\"><td>Mark III</td><td>DC 32</td><td>36,000 gp</td></tr></tbody></table>", 
                     "url": "pfsrd://Technology Guide/Rules/Equipment/Cybertech/Wirejack Tendons/", 
                     "type": "table", 
-                    "section_id": 291, 
                     "source": "Technology Guide"
                 }, 
                 {
                     "body": "<p class=\"stat-block\">Craft Cybertech, cybernetics lab</p>", 
                     "source": "Technology Guide", 
-                    "type": "section", 
-                    "section_id": 292
+                    "type": "section"
                 }
             ]
         }
-    ], 
-    "section_id": 256, 
-    "source": "Technology Guide", 
-    "type": "section"
+    ]
 }

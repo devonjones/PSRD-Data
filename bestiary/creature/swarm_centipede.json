@@ -29,26 +29,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Swarm/Centipede/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based and includes a +2 racial bonus. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Swarm/Centipede/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 153, 
-                        "section_id": 744, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 744, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Centipede Swarm Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Swarm/Centipede/Special Abilities/Poison/Centipede Swarm Venom", 
                             "contracted": "injury", 
-                            "section_id": 745, 
                             "effect": "1d4 Dexterity damage", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -56,17 +49,18 @@
                             "save": "Fortitude DC 13, ", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 743, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }
     ], 
     "hp": "31 (9d8-9)", 
     "reach": "0 ft.", 
-    "section_id": 742, 
     "wisdom": "10", 
     "defensive_abilities": "swarm traits", 
     "creature_type": "Vermin", 

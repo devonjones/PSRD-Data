@@ -1,6 +1,6 @@
 {
     "dexterity": "17", 
-    "ac": "27, touch 14, flat-footed 23 (+3 Dex, +1 dodge, +13 natural) (+4 deflection vs. evil)", 
+    "ac": "27, touch 14, flat-footed 23 (+3 Dex, +1 dodge, +13 natural; +4 deflection vs. evil)", 
     "special_attacks": "roar, pounce, rake (2 claws +23, 1d6+8)", 
     "intelligence": "14", 
     "racial_modifiers": "+4 Acrobatics, +4 Stealth", 
@@ -35,17 +35,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Agathion/Leonal/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the leonal. Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level equals leonal's HD). The defensive benefits from the circle are not included in a leonal's stat block.", 
                     "name": "Protective Aura", 
                     "url": "pfsrd://Bestiary 2/Monsters/Agathion/Leonal/Special Abilities/Protective Aura", 
                     "ability_types": {
-                        "ability_type_id": 19, 
-                        "section_id": 79, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 79, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }, 
@@ -54,40 +53,30 @@
                     "name": "Roar", 
                     "url": "pfsrd://Bestiary 2/Monsters/Agathion/Leonal/Special Abilities/Roar", 
                     "ability_types": {
-                        "ability_type_id": 20, 
-                        "section_id": 80, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 80, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 78, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>A leonal is a lion-like agathion, noble and fierce. Though gentle with their families and patient with strangers on their home plane, in battle leonals are deadly foes of evil and cruelty. They hunt fiends and other evil monsters, silently tailing their prey until they find the right time to leap and slash. Leonals pride themselves on their hunting prowess, and few land creatures can match their speed. Although capable of using weapons, the majority of leonals prefer to battle evil with tooth and claw.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 81
+            "type": "section"
         }, 
         {
             "body": "<p>Leonals like their battles to be straightforward affairs. They begin with a roar to put their foes off balance, then follow up with claw and bite attacks. They closely coordinate with others in their pride, watching one another's flanks and setting up devastating attacks. They mainly use their magical abilities against large numbers of weaker foes and against those they need to capture or incapacitate without dealing harm to them.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 82
+            "type": "section"
         }, 
         {
             "body": "<p>Leonals stand 6 feet tall and weigh 270 pounds on average. Males usually have manes of either dark gold or black hair, which may only surround the head or may extend onto the shoulders and chest. Female leonals do not have manes, but may have longer hair on the back of the neck.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 83
+            "type": "section"
         }
     ], 
     "hp": "147 (14d10+70)", 
-    "section_id": 77, 
     "wisdom": "14", 
     "creature_type": "Outsider", 
     "special_qualities": "lay on hands (7d6, 9/day, as a 14th-level paladin)", 

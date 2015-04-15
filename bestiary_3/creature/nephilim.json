@@ -6,9 +6,10 @@
     "resist": "cold 10, fire 10", 
     "cr": "8", 
     "xp": "4,800", 
-    "speed": "30 ft.<p class=\"stat-block-2\"><b>Melee</b> <i>+1 longsword</i> +18/+13/+8 (2d6+11/17-20) or 2 slams +17 (1d6+7)</p>", 
+    "speed": "40 ft. (30 ft. in armor)<p class=\"stat-block-2\"><b>Melee</b> <i>+1 longsword</i> +18/+13/+8 (2d6+11/17-20) or 2 slams +17 (1d6+7)</p>", 
     "alignment": "N", 
     "size": "Large", 
+    "languages": "celestial", 
     "strength": "25", 
     "constitution": "18", 
     "space": "10 ft.", 
@@ -19,7 +20,7 @@
     "charisma": "17", 
     "fortitude": "+13", 
     "type": "creature", 
-    "feats": "EnduranceB, Great FortitudeB, Greater Sunder, Improved Critical (longsword), Improved Lightning Reflexes, Improved Sunder, Power Attack, Quick Draw", 
+    "feats": "EnduranceB, Great FortitudeB, Greater Sunder, Improved Critical (longsword), Lightning Reflexes, Improved Sunder, Power Attack, Quick Draw", 
     "senses": "darkvision 60 ft.; Perception +17", 
     "description": "The strength and stature of this giant-sized human is matched only by the nobility of its bearing.", 
     "sections": [
@@ -27,17 +28,16 @@
             "name": "Special Abilities", 
             "source": "Bestiary 3", 
             "url": "pfsrd://Bestiary 3/Monsters/Nephilim/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "When a nephilim makes a successful critical hit with a melee attack, the target must make a DC 22 Fortitude save or take an additional 3d6 points of nonlethal damage and be staggered for 1 round. The save DC is Strength-based.", 
                     "name": "Crushing Blow", 
                     "url": "pfsrd://Bestiary 3/Monsters/Nephilim/Special Abilities/Crushing Blow", 
                     "ability_types": {
-                        "ability_type_id": 461, 
-                        "section_id": 1564, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1564, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -46,11 +46,8 @@
                     "name": "Mortal Challenge", 
                     "url": "pfsrd://Bestiary 3/Monsters/Nephilim/Special Abilities/Mortal Challenge", 
                     "ability_types": {
-                        "ability_type_id": 462, 
-                        "section_id": 1565, 
                         "ability_type": "Supernatural"
                     }, 
-                    "section_id": 1565, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }, 
@@ -59,35 +56,26 @@
                     "name": "Soul of Sorrow", 
                     "url": "pfsrd://Bestiary 3/Monsters/Nephilim/Special Abilities/Soul of Sorrow", 
                     "ability_types": {
-                        "ability_type_id": 463, 
-                        "section_id": 1566, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1566, 
                     "source": "Bestiary 3", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 1563, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The nephilim are the offspring of demigods who bred with humans. This joining resulted in a race of giant-sized beings possessed of a shard of divine power and the mortal consciousness of humans. A nephilim stands 11 feet tall and weighs 1,100 pounds. Its divine heritage grants it a lifespan of almost 600 years.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1567
+            "type": "section"
         }, 
         {
             "body": "<p>Nephilim are a nomadic, secretive race. This isolationism has only heightened the wild tales surrounding them, making it even harder for other races to trust them. While the ancient animosity humans once had against them has been largely forgotten, zealots occasionally try to mount pogroms and crusades to wipe the nephilim out forever. The nephilim have proven strikingly resistant to these efforts.</p>", 
             "source": "Bestiary 3", 
-            "type": "section", 
-            "section_id": 1568
+            "type": "section"
         }
     ], 
     "hp": "104 (11d10+44)", 
     "reach": "10 ft.", 
-    "section_id": 1562, 
     "wisdom": "16", 
     "defensive_abilities": "soul of sorrow", 
     "creature_type": "Outsider", 
@@ -96,7 +84,7 @@
     "name": "Nephilim", 
     "base_attack": "+11", 
     "skills": "Bluff +12, Climb +13, Diplomacy +17, Intimidate +17, Knowledge (geography, planes) +11, Perception +17, Sense Motive +17, Stealth +9, Survival +12", 
-    "reflex": "+5", 
+    "reflex": "+7", 
     "cmd": "31 (33 vs. sunder)", 
     "cmb": "+19 (+23 sunder)", 
     "will": "+10; +2 vs. fear and sorrow effects", 

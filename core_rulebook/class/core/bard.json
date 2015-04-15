@@ -5,7 +5,6 @@
     "url": "pfsrd://Core Rulebook/Classes/Bard", 
     "type": "class", 
     "image": "Bard.png", 
-    "section_id": 1766, 
     "subtype": "core", 
     "hit_die": "d8", 
     "alt": "Lem", 
@@ -14,86 +13,74 @@
             "body": "<p>Bards capably confuse and confound their foes while inspiring their allies to ever-greater daring. While accomplished with both weapons and magic, the true strength of bards lies outside melee, where they can support their companions and undermine their foes without fear of interruptions to their performances.</p>", 
             "source": "Core Rulebook", 
             "type": "section", 
-            "name": "Role", 
-            "section_id": 1767
+            "name": "Role"
         }, 
         {
             "body": "<p>The following table lists the starting gold piece value for bard characters. In addition, each character begins play with an outfit worth 10 gp or less.</p>", 
-            "name": "Starting Wealth", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<table><caption>Table: Starting Wealth</caption><thead><tr><th>Class</th><th>Starting Wealth</th><th>Average</th></tr></thead><tr class=\"even\"><td>Bard</td><td>3d6 &times; 10 gp</td><td>105 gp</td></tr></table>", 
                     "source": "Core Rulebook", 
-                    "type": "table", 
-                    "section_id": 1769
+                    "type": "table"
                 }
             ], 
-            "section_id": 1768, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Starting Wealth", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>The bard's class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), and Use Magic Device (Cha).</p>", 
-            "name": "Class Skills", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>6 + Int modifier.</p>", 
-                    "name": "Skill Ranks per Level", 
+                    "type": "section", 
                     "sections": [
                         {
                             "body": "<table id=\"table-3-3-bard\"><caption>Table: Bard</caption><thead><tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Base Attack Bonus</th><th rowspan=\"2\">Fort Save</th><th rowspan=\"2\">Ref Save</th><th rowspan=\"2\">Will Save</th><th rowspan=\"2\">Special</th><th colspan=\"6\">Spells per Day</th></tr><tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>+0</td><td>+0</td><td>+2</td><td>+2</td><td style=\"white-space: normal;\">Bardic knowledge, bardic performance, cantrips,countersong, distraction, fascinate, inspire courage +1</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>+1</td><td>+0</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Versatile performance, well-versed</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>+2</td><td>+1</td><td>+3</td><td>+3</td><td style=\"white-space: normal;\">Inspire competence +2</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>+3</td><td>+1</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\"></td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>+3</td><td>+1</td><td>+4</td><td>+4</td><td style=\"white-space: normal;\">inspire courage +2, lore master 1/day</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>+4</td><td>+2</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">Suggestion, Versatile performance</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>+5</td><td>+2</td><td>+5</td><td>+5</td><td style=\"white-space: normal;\">Inspire competence +3</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>+6/+1</td><td>+2</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Dirge of doom</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>+6/+1</td><td>+3</td><td>+6</td><td>+6</td><td style=\"white-space: normal;\">Inspire greatness</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>+7/+2</td><td>+3</td><td>+7</td><td>+7</td><td style=\"white-space: normal;\">Jack-of-all-trades, Versatile performance</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>+8/+3</td><td>+3</td><td>+7</td><td>+7</td><td style=\"white-space: normal;\">Inspire competence +4, inspire courage +3,lore master 2/day</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>+9/+4</td><td>+4</td><td>+8</td><td>+8</td><td style=\"white-space: normal;\">Soothing performance</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>+9/+4</td><td>+4</td><td>+8</td><td>+8</td><td style=\"white-space: normal;\"></td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>+10/+5</td><td>+4</td><td>+9</td><td>+9</td><td style=\"white-space: normal;\">Frightening tune, Versatile performance</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>+11/+6/+1</td><td>+5</td><td>+9</td><td>+9</td><td style=\"white-space: normal;\">Inspire competence +5, inspire heroics</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>+12/+7/+2</td><td>+5</td><td>+10</td><td>+10</td><td style=\"white-space: normal;\"></td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td></tr><tr class=\"odd\"><td>17th</td><td>+12/+7/+2</td><td>+5</td><td>+10</td><td>+10</td><td style=\"white-space: normal;\">inspire courage +4, lore master 3/day</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td></tr><tr class=\"even\"><td>18th</td><td>+13/+8/+3</td><td>+6</td><td>+11</td><td>+11</td><td style=\"white-space: normal;\">Mass suggestion, Versatile performance</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td></tr><tr class=\"odd\"><td>19th</td><td>+14/+9/+4</td><td>+6</td><td>+11</td><td>+11</td><td style=\"white-space: normal;\">Inspire competence +6</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td></tr><tr class=\"even\"><td>20th</td><td>+15/+10/+5</td><td>+6</td><td>+12</td><td>+12</td><td style=\"white-space: normal;\">Deadly performance</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr></table>", 
-                            "name": "Table: Bard", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Skills/Skill Ranks per Level/Table Bard", 
-                            "section_id": 1772, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Bard", 
+                            "source": "Core Rulebook"
                         }, 
                         {
                             "body": "<table id=\"table-3-4-bard-spells-known\"><caption>Table: Bard Spells Known</caption><thead><tr><th rowspan=\"2\">Level</th><th colspan=\"7\">Spells Known</th></tr><tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead><tr class=\"odd\"><td>1st</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>2nd</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>3rd</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>4th</td><td>6</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>5th</td><td>6</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>6th</td><td>6</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>7th</td><td>6</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>8th</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>9th</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>10th</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>11th</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"even\"><td>12th</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td></tr><tr class=\"odd\"><td>13th</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td></tr><tr class=\"even\"><td>14th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr><tr class=\"odd\"><td>15th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td></tr><tr class=\"even\"><td>16th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td></tr><tr class=\"odd\"><td>17th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td></tr><tr class=\"even\"><td>18th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td></tr><tr class=\"odd\"><td>19th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td></tr><tr class=\"even\"><td>20th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td></tr></table>", 
-                            "name": "Table: Bard Spells Known", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Skills/Skill Ranks per Level/Table Bard Spells Known", 
-                            "section_id": 1773, 
-                            "source": "Core Rulebook", 
-                            "type": "table"
+                            "type": "table", 
+                            "name": "Table: Bard Spells Known", 
+                            "source": "Core Rulebook"
                         }
                     ], 
-                    "section_id": 1771, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "name": "Skill Ranks per Level", 
+                    "source": "Core Rulebook"
                 }
             ], 
-            "section_id": 1770, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Skills", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>All of the following are class features of the bard.</p>", 
-            "name": "Class Features", 
+            "type": "section", 
             "sections": [
                 {
                     "body": "<p>A bard is proficient with all simple weapons, plus the longsword, rapier, sap, short sword, shortbow, and whip. Bards are also proficient with light armor and shields (except tower shields). A bard can cast bard spells while wearing light armor and use a shield without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a bard wearing medium or heavy armor incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass bard still incurs the normal arcane spell failure chance for arcane spells received from other classes.</p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Weapon and Armor Proficiency", 
-                    "section_id": 1775
+                    "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "body": "<p id=\"spells-bard\">A bard casts arcane spells drawn from the bard spell list presented in Spell Lists. He can cast any spell he knows without preparing it ahead of time. Every bard spell has a verbal component (song, recitation, or music). To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a bard's spell is 10 + the spell level + the bard's Charisma modifier.</p><p>Like other spellcasters, a bard can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: Bard. In addition, he receives bonus spells per day if he has a high Charisma score (see Table: Ability Modifiers and Bonus Spells).</p><p>The bard's selection of spells is extremely limited. A bard begins play knowing four 0-level spells and two 1st-level spells of the bard's choice. At each new bard level, he gains one or more new spells, as indicated on Table: Bard Spells Known. (Unlike spells per day, the number of spells a bard knows is not affected by his Charisma score. The numbers on Table: Bard Spells Known are fixed.)</p><p>Upon reaching 5th level, and at every third bard level after that (8th, 11th, and so on), a bard can choose to learn a new spell in place of one he already knows. In effect, the bard &ldquo;loses&rdquo; the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level bard spell the bard can cast. A bard may swap only a single spell at any given level and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.</p><p>A bard need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his allotment of spells per day for the spell's level. </p>", 
                     "source": "Core Rulebook", 
                     "type": "section", 
-                    "name": "Spells", 
-                    "section_id": 1776
+                    "name": "Spells"
                 }, 
                 {
                     "body": "<p id=\"bardic-knowledge\">A bard adds half his class level (minimum 1) on all Knowledge skill checks and may make all Knowledge skill checks untrained. </p>", 
                     "name": "Bardic Knowledge", 
                     "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Knowledge", 
                     "ability_types": {
-                        "ability_type_id": 59, 
-                        "section_id": 1777, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1777, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -101,6 +88,8 @@
                     "body": "<p id=\"bardic-performance\">A bard is trained to use the Perform skill to create magical effects on those around him, including himself if desired. He can use this ability for a number of rounds per day equal to 4 + his Charisma modifier. At each level after 1st a bard can use bardic performance for 2 additional rounds per day. Each round, the bard can produce any one of the types of bardic performance that he has mastered, as indicated by his level. </p><p>Starting a bardic performance is a standard action, but it can be maintained each round as a free action. Changing a bardic performance from one effect to another requires the bard to stop the previous performance and start a new one as a standard action. A bardic performance cannot be disrupted, but it ends immediately if the bard is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action to maintain it each round. A bard cannot have more than one bardic performance in effect at one time.</p><p>At 7th level, a bard can start a bardic performance as a move action instead of a standard action. At 13th level, a bard can start a bardic performance as a swift action. </p><p>Each bardic performance has audible components, visual components, or both.</p><p>If a bardic performance has audible components, the targets must be able to hear the bard for the performance to have any effect, and many such performances are language dependent (as noted in the description). A deaf bard has a 20% chance to fail when attempting to use a bardic performance with an audible component. If he fails this check, the attempt still counts against his daily limit. Deaf creatures are immune to bardic performances with audible components.</p><p>If a bardic performance has a visual component, the targets must have line of sight to the bard for the performance to have any effect. A blind bard has a 50% chance to fail when attempting to use a bardic performance with a visual component. If he fails this check, the attempt still counts against his daily limit. Blind creatures are immune to bardic performances with visual components.</p>", 
                     "name": "Bardic Performance", 
                     "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance", 
+                    "type": "section", 
+                    "source": "Core Rulebook", 
                     "sections": [
                         {
                             "body": "<p id=\"countersong\">At 1st level, a bard learns to counter magic effects that depend on sound (but not spells that have verbal components). Each round of the countersong he makes a Perform (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher. If a creature within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard's Perform skill check result for the save. Countersong does not work on effects that don't allow saves. Countersong relies on audible components.</p>", 
@@ -108,11 +97,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Countersong", 
                             "ability_types": {
-                                "ability_type_id": 60, 
-                                "section_id": 1779, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1779, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -122,11 +108,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Distraction", 
                             "ability_types": {
-                                "ability_type_id": 61, 
-                                "section_id": 1780, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1780, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -136,11 +119,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Fascinate", 
                             "ability_types": {
-                                "ability_type_id": 62, 
-                                "section_id": 1781, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1781, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -150,11 +130,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Inspire Courage", 
                             "ability_types": {
-                                "ability_type_id": 63, 
-                                "section_id": 1782, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1782, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -164,11 +141,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Inspire Competence", 
                             "ability_types": {
-                                "ability_type_id": 64, 
-                                "section_id": 1783, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1783, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -178,11 +152,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Suggestion", 
                             "ability_types": {
-                                "ability_type_id": 65, 
-                                "section_id": 1784, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 1784, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -192,11 +163,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Dirge of Doom", 
                             "ability_types": {
-                                "ability_type_id": 66, 
-                                "section_id": 1785, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1785, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -206,11 +174,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Inspire Greatness", 
                             "ability_types": {
-                                "ability_type_id": 67, 
-                                "section_id": 1786, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1786, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -220,11 +185,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Soothing Performance", 
                             "ability_types": {
-                                "ability_type_id": 68, 
-                                "section_id": 1787, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1787, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -234,11 +196,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Frightening Tune", 
                             "ability_types": {
-                                "ability_type_id": 69, 
-                                "section_id": 1788, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 1788, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -248,11 +207,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Inspire Heroics", 
                             "ability_types": {
-                                "ability_type_id": 70, 
-                                "section_id": 1789, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1789, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -262,11 +218,8 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Mass Suggestion", 
                             "ability_types": {
-                                "ability_type_id": 71, 
-                                "section_id": 1790, 
                                 "ability_type": "Spell-Like"
                             }, 
-                            "section_id": 1790, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }, 
@@ -276,37 +229,27 @@
                             "source": "Core Rulebook", 
                             "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Bardic Performance/Deadly Performance", 
                             "ability_types": {
-                                "ability_type_id": 72, 
-                                "section_id": 1791, 
                                 "ability_type": "Supernatural"
                             }, 
-                            "section_id": 1791, 
                             "subtype": "bardic_performance", 
                             "type": "ability"
                         }
-                    ], 
-                    "section_id": 1778, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    ]
                 }, 
                 {
                     "body": "<p id=\"cantrips-bard\">Bards learn a number of cantrips, or 0-level spells, as noted on Table: Bard Spells Known under &ldquo;Spells Known.&rdquo; These spells are cast like any other spell, but they do not consume any slots and may be used again.</p>", 
-                    "name": "Cantrips", 
                     "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Cantrips", 
-                    "section_id": 1792, 
-                    "source": "Core Rulebook", 
-                    "type": "section"
+                    "type": "section", 
+                    "name": "Cantrips", 
+                    "source": "Core Rulebook"
                 }, 
                 {
                     "body": "<p id=\"versatile-performance\">At 2nd level, a bard can choose one type of Perform skill. He can use his bonus in that skill in place of his bonus in associated skills. When substituting in this way, the bard uses his total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not he has ranks in that skill or if it is a class skill. At 6th level, and every 4 levels thereafter, the bard can select an additional type of Perform to substitute.</p><p>The types of Perform and their associated skills are: Act (Bluff, Disguise), Comedy (Bluff, Intimidate), Dance (Acrobatics, Fly), Keyboard Instruments (Diplomacy, Intimidate), Oratory (Diplomacy, Sense Motive), Percussion (Handle Animal, Intimidate), Sing (Bluff, Sense Motive), String (Bluff, Diplomacy), and Wind (Diplomacy, Handle Animal).</p>", 
                     "name": "Versatile Performance", 
                     "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Versatile Performance", 
                     "ability_types": {
-                        "ability_type_id": 73, 
-                        "section_id": 1793, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1793, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -315,11 +258,8 @@
                     "name": "Well-Versed", 
                     "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Well-Versed", 
                     "ability_types": {
-                        "ability_type_id": 74, 
-                        "section_id": 1794, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1794, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -328,11 +268,8 @@
                     "name": "Lore Master", 
                     "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Lore Master", 
                     "ability_types": {
-                        "ability_type_id": 75, 
-                        "section_id": 1795, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1795, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }, 
@@ -341,25 +278,20 @@
                     "name": "Jack-of-All-Trades", 
                     "url": "pfsrd://Core Rulebook/Classes/Bard/Class Features/Jack-of-All-Trades", 
                     "ability_types": {
-                        "ability_type_id": 76, 
-                        "section_id": 1796, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 1796, 
                     "source": "Core Rulebook", 
                     "type": "ability"
                 }
             ], 
-            "section_id": 1774, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Class Features", 
+            "source": "Core Rulebook"
         }, 
         {
             "body": "<p>Bards gain access to the following spells.</p>", 
             "name": "Bard Spells", 
             "source": "Core Rulebook", 
             "url": "pfsrd://Core Rulebook/Classes/Bard/Bard Spells", 
-            "section_id": 1797, 
             "subtype": "spell_list", 
             "type": "embed", 
             "description": "bard"
@@ -367,35 +299,30 @@
         {
             "source": "Ultimate Magic", 
             "type": "link", 
-            "name": "Masterpieces: Ultimate Magic", 
-            "section_id": 1798
+            "name": "Masterpieces: Ultimate Magic"
         }, 
         {
-            "name": "Bard Archetypes", 
             "url": "pfsrd://Core Rulebook/Classes/Bard/Bard Archetypes", 
+            "type": "section", 
             "sections": [
                 {
                     "source": "Advanced Player's Guide", 
                     "type": "link", 
-                    "name": "Bard Archetypes: Advanced Player's Guide", 
-                    "section_id": 1800
+                    "name": "Bard Archetypes: Advanced Player's Guide"
                 }, 
                 {
                     "source": "Ultimate Magic", 
                     "type": "link", 
-                    "name": "Bard Archetypes: Ultimate Magic", 
-                    "section_id": 1801
+                    "name": "Bard Archetypes: Ultimate Magic"
                 }, 
                 {
                     "source": "Ultimate Combat", 
                     "type": "link", 
-                    "name": "Bard Archetypes: Ultimate Combat", 
-                    "section_id": 1802
+                    "name": "Bard Archetypes: Ultimate Combat"
                 }
             ], 
-            "section_id": 1799, 
-            "source": "Core Rulebook", 
-            "type": "section"
+            "name": "Bard Archetypes", 
+            "source": "Core Rulebook"
         }
     ], 
     "alignment": "Any."

@@ -28,26 +28,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary", 
             "url": "pfsrd://Bestiary/Monsters/Swarm/Spider/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Swarm:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary/Monsters/Swarm/Spider/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 546, 
-                        "section_id": 2628, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 2628, 
-                    "source": "Bestiary", 
                     "sections": [
                         {
                             "name": "Spider Swarm Venom", 
                             "source": "Bestiary", 
                             "url": "pfsrd://Bestiary/Monsters/Swarm/Spider/Special Abilities/Poison/Spider Swarm Venom", 
                             "contracted": "injury", 
-                            "section_id": 2629, 
                             "effect": "1d2 Strength", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -55,23 +48,23 @@
                             "save": "Fortitude DC 11, ", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary", 
+                    "type": "ability"
                 }
-            ], 
-            "section_id": 2627, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>The sight of a carpet of swarming spiders is unsettling indeed&mdash;particularly when the swarm is made up of spiders each the size of a gold coin and possessing blade-like mandibles capable of lacerating flesh with sickening ease. A swarm of spiders is a colonial mass of arachnids that relies on overwhelming much larger prey with sheer numbers rather than catching smaller snacks. While spider swarms spin webs, these webs are incapable of catching larger prey and typically serve the swarm as a lair rather than a method of capturing dinner.</p>", 
             "source": "Bestiary", 
-            "type": "section", 
-            "section_id": 2630
+            "type": "section"
         }
     ], 
     "hp": "9 (2d8)", 
     "reach": "0 ft.", 
-    "section_id": 2626, 
     "wisdom": "10", 
     "defensive_abilities": "swarm traits", 
     "creature_type": "Vermin", 

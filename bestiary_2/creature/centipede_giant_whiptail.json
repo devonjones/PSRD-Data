@@ -1,6 +1,6 @@
 {
     "dexterity": "11", 
-    "ac": "15, touch 8, flat-footed 14 (+7 natural, -2 size)", 
+    "ac": "15, touch 8, flat-footed 15 (+7 natural, -2 size)", 
     "intelligence": "-", 
     "racial_modifiers": "+4 Perception, +8 Stealth", 
     "melee": "bite +8 (2d6+7 plus poison), tail slap +3 (1d3 nonlethal plus trip)", 
@@ -27,26 +27,19 @@
             "name": "Special Abilities", 
             "source": "Bestiary 2", 
             "url": "pfsrd://Bestiary 2/Monsters/Centipede/Giant Whiptail/Special Abilities", 
+            "type": "section", 
+            "subtype": "special_abilities", 
             "sections": [
                 {
                     "body": "The save DC is Constitution-based. Bite:", 
                     "name": "Poison", 
                     "url": "pfsrd://Bestiary 2/Monsters/Centipede/Giant Whiptail/Special Abilities/Poison", 
-                    "type": "ability", 
-                    "ability_types": {
-                        "ability_type_id": 80, 
-                        "section_id": 331, 
-                        "ability_type": "Extraordinary"
-                    }, 
-                    "section_id": 331, 
-                    "source": "Bestiary 2", 
                     "sections": [
                         {
                             "name": "Giant Whiptail Centipede Venom", 
                             "source": "Bestiary 2", 
                             "url": "pfsrd://Bestiary 2/Monsters/Centipede/Giant Whiptail/Special Abilities/Poison/Giant Whiptail Centipede Venom", 
                             "contracted": "injury", 
-                            "section_id": 332, 
                             "effect": "1d4 Dexterity", 
                             "subtype": "poison", 
                             "cure": "1 save", 
@@ -54,36 +47,33 @@
                             "save": "Fortitude DC 17", 
                             "type": "affliction"
                         }
-                    ]
+                    ], 
+                    "ability_types": {
+                        "ability_type": "Extraordinary"
+                    }, 
+                    "source": "Bestiary 2", 
+                    "type": "ability"
                 }, 
                 {
                     "body": "A giant whiptail centipede's tail slap deals nonlethal damage and gains no bonus from its Strength score on damage dealt.", 
                     "name": "Tail Slap", 
                     "url": "pfsrd://Bestiary 2/Monsters/Centipede/Giant Whiptail/Special Abilities/Tail Slap", 
                     "ability_types": {
-                        "ability_type_id": 81, 
-                        "section_id": 333, 
                         "ability_type": "Extraordinary"
                     }, 
-                    "section_id": 333, 
                     "source": "Bestiary 2", 
                     "type": "ability"
                 }
-            ], 
-            "section_id": 330, 
-            "subtype": "special_abilities", 
-            "type": "section"
+            ]
         }, 
         {
             "body": "<p>Whiptail centipedes are carrion eaters, though corpses large enough to satiate them are a rarity. Corpses of Huge or larger creatures left to rot often attract whiptail centipedes, who viciously defend their bounty against any who would intrude upon their lairs.</p>", 
             "source": "Bestiary 2", 
-            "type": "section", 
-            "section_id": 334
+            "type": "section"
         }
     ], 
     "hp": "38 (4d8+20)", 
     "reach": "15 ft. (20 ft. with tail slap)", 
-    "section_id": 329, 
     "wisdom": "10", 
     "creature_type": "Vermin", 
     "special_qualities": "compression", 
