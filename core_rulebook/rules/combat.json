@@ -88,9 +88,23 @@
                     ]
                 }, 
                 {
-                    "body": "<p>Your attack bonus with a melee weapon is the following:</p><p><big><b>Base attack bonus + Strength modifier + size modifier</b></big></p><p>With a ranged weapon, your attack bonus is the following:</p><p><big><b>Base attack bonus + Dexterity modifier + size modifier + range penalty</b></big></p>", 
                     "url": "pfsrd://Core Rulebook/Rules/Combat/Combat Statistics/Attack Bonus", 
                     "type": "section", 
+                    "sections": [
+                        {
+                            "body": "<p>Your attack bonus with a melee weapon is the following:</p><p><big><b>Base attack bonus + Strength modifier + size modifier</b></big></p>", 
+                            "url": "pfsrd://Core Rulebook/Rules/Combat/Combat Statistics/Attack Bonus/Melee", 
+                            "type": "section", 
+                            "name": "Melee", 
+                            "source": "Core Rulebook"
+                        }, 
+                        {
+                            "url": "pfsrd://Core Rulebook/Rules/Combat/Combat Statistics/Attack Bonus/Ranged", 
+                            "source": "Core Rulebook", 
+                            "type": "section", 
+                            "name": "Ranged"
+                        }
+                    ], 
                     "name": "Attack Bonus", 
                     "source": "Core Rulebook"
                 }, 
