@@ -155,7 +155,13 @@
                             "source": "Core Rulebook", 
                             "text": "<p>This value is the weapon's cost in gold pieces (gp) or silver pieces (sp). The cost includes miscellaneous gear that goes with the weapon, such as a scabbard or quiver.</p><p>This cost is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.</p>", 
                             "type": "section", 
-                            "name": "Cost", 
+                            "name": "Cost" 
+                        }, 
+                        {
+                            "source": "Core Rulebook", 
+                            "text": "<p>These columns give the damage dealt by the weapon on a successful hit. The column labeled &ldquo;Dmg (S)&rdquo; is for Small weapons. The column labeled &ldquo;Dmg (M)&rdquo; is for Medium weapons. If two damage ranges are given, then the weapon is a double weapon. Use the second damage figure given for the double weapon's extra attack. Table: Tiny and Large Weapon Damage gives weapon damage values for Tiny and Large weapons.</p>", 
+                            "type": "section", 
+                            "name": "Dmg",
                             "sections": [
                                 {
                                     "text": "<table id=\"table-6-5-tiny-and-large-weapon-damage\"><caption>Table: Tiny and Large Weapon Damage</caption>\n<thead><tr><th>Medium Weapon Damage</th><th>Tiny Weapon Damage</th><th>Large Weapon Damage</th></tr></thead>\n<tbody>\n<tr class=\"even\"><td>1d2</td><td>&mdash;</td><td>1d3</td></tr>\n<tr class=\"odd\"><td>1d3</td><td>1</td><td>1d4</td></tr>\n<tr class=\"even\"><td>1d4</td><td>1d2</td><td>1d6</td></tr>\n<tr class=\"odd\"><td>1d6</td><td>1d3</td><td>1d8</td></tr>\n<tr class=\"even\"><td>1d8</td><td>1d4</td><td>2d6</td></tr>\n<tr class=\"odd\"><td>1d10</td><td>1d6</td><td>2d8</td></tr>\n<tr class=\"even\"><td>1d12</td><td>1d8</td><td>3d6</td></tr>\n<tr class=\"odd\"><td>2d4</td><td>1d4</td><td>2d6</td></tr>\n<tr class=\"even\"><td>2d6</td><td>1d8</td><td>3d6</td></tr>\n<tr class=\"odd\"><td>2d8</td><td>1d10</td><td>3d8</td></tr>\n<tr class=\"even\"><td>2d10</td><td>2d6</td><td>4d8</td></tr></tbody></table>", 
@@ -167,29 +173,9 @@
                         }, 
                         {
                             "source": "Core Rulebook", 
-                            "text": "<p>These columns give the damage dealt by the weapon on a successful hit. The column labeled &ldquo;Dmg (S)&rdquo; is for Small weapons. The column labeled &ldquo;Dmg (M)&rdquo; is for Medium weapons. If two damage ranges are given, then the weapon is a double weapon. Use the second damage figure given for the double weapon's extra attack. Table: Tiny and Large Weapon Damage gives weapon damage values for Tiny and Large weapons.</p>", 
+                            "text": "<p>The entry in this column notes how the weapon is used with the rules for critical hits. When your character scores a critical hit, roll the damage two, three, or four times, as indicated by its critical multiplier (using all applicable modifiers on each roll), and add all the results together.</p><p>Extra damage over and above a weapon's normal damage is not multiplied when you score a critical hit.</p><p>&times;<i>2</i>The weapon deals double damage on a critical hit.</p><p>&times;<i>3</i>The weapon deals triple damage on a critical hit.</p><p>&times;<i>3/</i>&times;<i>4</i>One head of this double weapon deals triple damage on a critical hit. The other head deals quadruple damage on a critical hit.</p><p>&times;<i>4</i>The weapon deals quadruple damage on a critical hit.</p><p>19-20/&times;<i>2</i>The weapon scores a threat on a natural roll of 19 or 20 (instead of just 20) and deals double damage on a critical hit. </p><p>18-20/&times;<i>2</i>The weapon scores a threat on a natural roll of 18, 19, or 20 (instead of just 20) and deals double damage on a critical hit. </p>", 
                             "type": "section", 
-                            "name": "Dmg"
-                        }, 
-                        {
-                            "source": "Core Rulebook", 
-                            "text": "<p>The entry in this column notes how the weapon is used with the rules for critical hits. When your character scores a critical hit, roll the damage two, three, or four times, as indicated by its critical multiplier (using all applicable modifiers on each roll), and add all the results together.</p><p>Extra damage over and above a weapon's normal damage is not multiplied when you score a critical hit.</p><p>&times;<i>2</i>The weapon deals double damage on a critical hit.</p><p>&times;<i>3</i>The weapon deals triple damage on a critical hit.</p><p>&times;<i>3/</i>&times;<i>4</i>One head of this double weapon deals triple damage on a critical hit. The other head deals quadruple damage on a critical hit.</p><p>&times;<i>4</i>The weapon deals quadruple damage on a critical hit.</p>", 
-                            "type": "section", 
-                            "name": "Critical", 
-                            "sections": [
-                                {
-                                    "source": "Core Rulebook", 
-                                    "text": "<p>&times;<i>2</i>The weapon scores a threat on a natural roll of 19 or 20 (instead of just 20) and deals double damage on a critical hit. </p>", 
-                                    "type": "section", 
-                                    "name": "19-20/"
-                                }, 
-                                {
-                                    "source": "Core Rulebook", 
-                                    "text": "<p>&times;<i>2</i>The weapon scores a threat on a natural roll of 18, 19, or 20 (instead of just 20) and deals double damage on a critical hit. </p>", 
-                                    "type": "section", 
-                                    "name": "18-20/"
-                                }
-                            ]
+                            "name": "Critical" 
                         }, 
                         {
                             "source": "Core Rulebook", 
@@ -214,6 +200,7 @@
                             "text": "<p>Some weapons have special features in addition to those noted in their descriptions. </p>", 
                             "type": "section", 
                             "name": "Special", 
+                            "create_index": true,
                             "sections": [
                                 {
                                     "source": "Core Rulebook", 
