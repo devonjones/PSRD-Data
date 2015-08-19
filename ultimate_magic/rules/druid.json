@@ -16,31 +16,44 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Aquatic Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "hydraulic push"},
+                        {"level": 2, "spell": "slipstream"},
+                        {"level": 3, "spell": "water breathing"},
+                        {"level": 4, "spell": "freedom of movement"},
+                        {"level": 5, "spell": "black tentacles"},
+                        {"level": 6, "spell": "freezing sphere"},
+                        {"level": 7, "spell": "animal shapes", "notes": "aquatic creatures only"},
+                        {"level": 8, "spell": "seamantle"},
+                        {"level": 9, "spell": "tsunami"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>You master the deeps of the sea, raging rivers, flowing falls, and relentless tides.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"sealord\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats to add to this ability, such as Extra Channel and Improved Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Sealord", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"seastrike\">At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous <i>freedom of movement</i>. As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a <i>returning</i> weapon (see page 471 of the <i>Core Rulebook</i>) for that attack.</p>", 
-                            "type": "ability", 
-                            "name": "Seastrike", 
-                            "ability_types": [
-                                "Supernatural"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"sealord\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats to add to this ability, such as Extra Channel and Improved Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Sealord", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"seastrike\">At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous <i>freedom of movement</i>. As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a <i>returning</i> weapon (see page 471 of the <i>Core Rulebook</i>) for that attack.</p>", 
+                                    "type": "ability", 
+                                    "name": "Seastrike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -54,31 +67,44 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Arctic Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "frostbite"},
+                        {"level": 2, "spell": "aspect of the bear"},
+                        {"level": 3, "spell": "sleet storm"},
+                        {"level": 4, "spell": "wall of ice"},
+                        {"level": 5, "spell": "aspect of the wolf"},
+                        {"level": 6, "spell": "freezing sphere"},
+                        {"level": 7, "spell": "wind walk"},
+                        {"level": 8, "spell": "polar ray"},
+                        {"level": 9, "spell": "polar midnight"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>You master the might of the endless, snow-covered wastes beneath the midnight sun, where icy polar winds blow.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"call-cold\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats that add to this ability, such as Extra Channel and Improved Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Call Cold", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"banish-flame\">At 6th level, you may use your call cold ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the Turn Undead feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted <i>dispel magic</i>; at 12th level, this functions as targeted or area <i>greater dispel magic</i> instead of <i>dispel magic</i>.</p>", 
-                            "type": "ability", 
-                            "name": "Banish Flame", 
-                            "ability_types": [
-                                "Supernatural"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"call-cold\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats that add to this ability, such as Extra Channel and Improved Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Call Cold", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"banish-flame\">At 6th level, you may use your call cold ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the Turn Undead feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted <i>dispel magic</i>; at 12th level, this functions as targeted or area <i>greater dispel magic</i> instead of <i>dispel magic</i>.</p>", 
+                                    "type": "ability", 
+                                    "name": "Banish Flame", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -92,31 +118,44 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Cave Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "detect aberration"},
+                        {"level": 2, "spell": "stone call"},
+                        {"level": 3, "spell": "deeper darkness"},
+                        {"level": 4, "spell": "echolocation"},
+                        {"level": 5, "spell": "wall of stone"},
+                        {"level": 6, "spell": "conjure black pudding"},
+                        {"level": 7, "spell": "statue", "notes": "looking like a stalagmite or stalactite"},
+                        {"level": 8, "spell": "earthquake"},
+                        {"level": 9, "spell": "imprisonment"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>The wonders and dark secrets of the deepest caves give you strength.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"cavesight\">You can grant darkvision 60 feet to a willing creature you touch. This effect lasts 1 minute, or 1 hour if used on yourself. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Cavesight", 
-                            "ability_types": [
-                                "Spell-Like"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"tremorsense\">At 6th level, you gain tremorsense 30 feet. At 12th level, you gain tremorsense 60 feet.</p>", 
-                            "type": "ability", 
-                            "name": "Tremorsense", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"cavesight\">You can grant darkvision 60 feet to a willing creature you touch. This effect lasts 1 minute, or 1 hour if used on yourself. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Cavesight", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"tremorsense\">At 6th level, you gain tremorsense 30 feet. At 12th level, you gain tremorsense 60 feet.</p>", 
+                                    "type": "ability", 
+                                    "name": "Tremorsense", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -129,32 +168,45 @@
                 }, 
                 {
                     "source": "Ultimate Magic", 
-                    "type": "section", 
                     "subtype": "druid_domain", 
+                    "type": "domain", 
                     "name": "Desert Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "cloak of shade"},
+                        {"level": 2, "spell": "shifting sand"},
+                        {"level": 3, "spell": "cup of dust"},
+                        {"level": 4, "spell": "hallucinatory terrain"},
+                        {"level": 5, "spell": "transmute rock to mud", "notes": "creates loose sand instead of mud"},
+                        {"level": 6, "spell": "sirocco"},
+                        {"level": 7, "spell": "sunbeam"},
+                        {"level": 8, "spell": "sunburst"},
+                        {"level": 9, "spell": "horrid wilting"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>The spirits and secrets of the endless wastes are yours to command.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"heat-shimmer\">As a free action, you can surround yourself with heat distortion that acts as the <i>blur</i> spell. Creatures that strike you in melee while you're using this ability are dazzled for 1 round (Fortitude negates). You may use this ability for a number of rounds per day equal to 3 + your Wisdom modifier. These rounds need not be consecutive.</p>", 
-                            "type": "ability", 
-                            "name": "Heat Shimmer", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"servant-of-the-sands\">At 8th level, once per day, you may call upon the aid of a janni as if using <i>lesser planar ally</i>. At 12th level, you may call upon the aid of any type of common (non-noble) genie as if using <i>planar ally</i>. At 16th level, you may call upon the aid of a noble genie as if using <i>greater planar ally</i>. If you use this power while in desert terrain, you need not make an offering to call the creature(s), and the cost of any service is halved.</p>", 
-                            "type": "ability", 
-                            "name": "Servant of the Sands", 
-                            "ability_types": [
-                                "Spell-Like"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"heat-shimmer\">As a free action, you can surround yourself with heat distortion that acts as the <i>blur</i> spell. Creatures that strike you in melee while you're using this ability are dazzled for 1 round (Fortitude negates). You may use this ability for a number of rounds per day equal to 3 + your Wisdom modifier. These rounds need not be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Heat Shimmer", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"servant-of-the-sands\">At 8th level, once per day, you may call upon the aid of a janni as if using <i>lesser planar ally</i>. At 12th level, you may call upon the aid of any type of common (non-noble) genie as if using <i>planar ally</i>. At 16th level, you may call upon the aid of a noble genie as if using <i>greater planar ally</i>. If you use this power while in desert terrain, you need not make an offering to call the creature(s), and the cost of any service is halved.</p>", 
+                                    "type": "ability", 
+                                    "name": "Servant of the Sands", 
+                                    "ability_types": [
+                                        "Spell-Like"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -168,37 +220,50 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Eagle Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "aspect of the falcon"},
+                        {"level": 2, "spell": "eagle's splendor"},
+                        {"level": 3, "spell": "fly"},
+                        {"level": 4, "spell": "river of wind"},
+                        {"level": 5, "spell": "overland flight"},
+                        {"level": 6, "spell": "eagle aerie"},
+                        {"level": 7, "spell": "animal shapes", "notes": "birds only"},
+                        {"level": 8, "spell": "sunburst"},
+                        {"level": 9, "spell": "winds of vengeance"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>Your spirit soars with the mightiest and noblest of all winged creatures.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"familiar\">You gain a hawk familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "type": "section", 
-                            "name": "Familiar"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"hawkeye\">As a swift action, you may add a bonus equal to half your druid level (minimum +1) on one ranged attack or on one Perception check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Hawkeye", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"aerial-evasion\">At 6th level, you gain the evasion ability (as a rogue) when you are flying. At 12th level, you gain improved evasion while flying.</p>", 
-                            "type": "ability", 
-                            "name": "Aerial evasion", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"familiar\">You gain a hawk familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
+                                    "type": "section", 
+                                    "name": "Familiar"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"hawkeye\">As a swift action, you may add a bonus equal to half your druid level (minimum +1) on one ranged attack or on one Perception check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Hawkeye", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"aerial-evasion\">At 6th level, you gain the evasion ability (as a rogue) when you are flying. At 12th level, you gain improved evasion while flying.</p>", 
+                                    "type": "ability", 
+                                    "name": "Aerial evasion", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -212,37 +277,50 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Frog Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "jump"}, 
+                        {"level": 2, "spell": "delay poison"}, 
+                        {"level": 3, "spell": "lily pad stride"}, 
+                        {"level": 4, "spell": "shout"}, 
+                        {"level": 5, "spell": "blessing of the salamander"}, 
+                        {"level": 6, "spell": "confusion"}, 
+                        {"level": 7, "spell": "animal shapes", "notes": "amphibians only"}, 
+                        {"level": 8, "spell": "shout, greater"}, 
+                        {"level": 9, "spell": "summon froghemoth"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>You venerate the elder amphibians that first brought life to land.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"familiar\">You may gain a toad familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "type": "section", 
-                            "name": "Familiar"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"sticky-strike\">As a standard action, you can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the pull universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check. The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a free action. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Sticky Strike", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"webfoot\">At 6th level, you gain the amphibious special quality and a swim speed equal to your land speed. At 12th level, you gain a climb speed equal to your land speed.</p>", 
-                            "type": "ability", 
-                            "name": "Webfoot", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"familiar\">You may gain a toad familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
+                                    "type": "section", 
+                                    "name": "Familiar"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"sticky-strike\">As a standard action, you can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the pull universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check. The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a free action. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Sticky Strike", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"webfoot\">At 6th level, you gain the amphibious special quality and a swim speed equal to your land speed. At 12th level, you gain a climb speed equal to your land speed.</p>", 
+                                    "type": "ability", 
+                                    "name": "Webfoot", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -256,31 +334,44 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Jungle Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "glide"},
+                        {"level": 2, "spell": "tar ball"},
+                        {"level": 3, "spell": "venomous bolt"},
+                        {"level": 4, "spell": "arboreal hammer"},
+                        {"level": 5, "spell": "blessing of the salamander"},
+                        {"level": 6, "spell": "swarm skin"},
+                        {"level": 7, "spell": "creeping doom"},
+                        {"level": 8, "spell": "wall of lava"},
+                        {"level": 9, "spell": "shambler"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>The spirits of the jungle, both of natural guardians and lost civilizations, whisper in your heart.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"brachiation\">As a free action for a number of rounds per day equal to your druid level, you may climb with a climb speed equal to your land speed, and gain a bonus on Acrobatics checks equal to your druid level. These rounds do not have to be consecutive.</p>", 
-                            "type": "ability", 
-                            "name": "Brachiation", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"trap-sense\">At 3rd level, you gain the trap sense ability. This is identical to the rogue class ability. Your effective rogue level is equal to your druid level for the purpose of determining your trap sense bonus. Trap sense bonuses gained from multiple classes stack.</p>", 
-                            "type": "ability", 
-                            "name": "Trap Sense", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"brachiation\">As a free action for a number of rounds per day equal to your druid level, you may climb with a climb speed equal to your land speed, and gain a bonus on Acrobatics checks equal to your druid level. These rounds do not have to be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Brachiation", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"trap-sense\">At 3rd level, you gain the trap sense ability. This is identical to the rogue class ability. Your effective rogue level is equal to your druid level for the purpose of determining your trap sense bonus. Trap sense bonuses gained from multiple classes stack.</p>", 
+                                    "type": "ability", 
+                                    "name": "Trap Sense", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -293,38 +384,51 @@
                 }, 
                 {
                     "source": "Ultimate Magic", 
-                    "type": "section", 
                     "subtype": "druid_domain", 
+                    "type": "domain", 
                     "name": "Monkey Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "beguiling gift"},
+                        {"level": 2, "spell": "spider climb"},
+                        {"level": 3, "spell": "cacophonous call"},
+                        {"level": 4, "spell": "freedom of movement"},
+                        {"level": 5, "spell": "summon nature's ally V", "notes": "dire ape or girallon only"},
+                        {"level": 6, "spell": "confusion"},
+                        {"level": 7, "spell": "animal shapes", "notes": "apes and monkeys only"},
+                        {"level": 8, "spell": "clenched fist"},
+                        {"level": 9, "spell": "foresight"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>The balanced wisdom, skill, agility, and playfulness of the monkey are the model for your spiritual discipline.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"familiar\">You gain a monkey familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "type": "section", 
-                            "name": "Familiar"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"monkey-athletics\">As a free action, you may add a competence bonus equal to half your druid level (minimum of +1) on one Acrobatics, Climb, Disable Device, or Sleight of Hand check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Monkey Athletics", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"ranged-legerdemain\">At 6th level, you can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.</p>", 
-                            "type": "ability", 
-                            "name": "Ranged Legerdemain", 
-                            "ability_types": [
-                                "Supernatural"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"familiar\">You gain a monkey familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
+                                    "type": "section", 
+                                    "name": "Familiar"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"monkey-athletics\">As a free action, you may add a competence bonus equal to half your druid level (minimum of +1) on one Acrobatics, Climb, Disable Device, or Sleight of Hand check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Monkey Athletics", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"ranged-legerdemain\">At 6th level, you can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.</p>", 
+                                    "type": "ability", 
+                                    "name": "Ranged Legerdemain", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -338,36 +442,49 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Mountain Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "stone fist"},
+                        {"level": 2, "spell": "stone call"},
+                        {"level": 3, "spell": "cloak of winds"},
+                        {"level": 4, "spell": "stoneskin"},
+                        {"level": 5, "spell": "geyser"},
+                        {"level": 6, "spell": "suffocation"},
+                        {"level": 7, "spell": "flesh to stone"},
+                        {"level": 8, "spell": "reverse gravity"},
+                        {"level": 9, "spell": "clashing rocks"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>You have mastered the mighty powers of the great mountains that pierce the sky and stand aloof above the lowlands.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"foothold\">As a standard action, you can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as difficult terrain, and a Medium or smaller creature standing in the area or moving through it takes a &ndash;2 penalty on Acrobatics checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on Climb checks to climb it. The stone remains altered for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Foothold", 
-                            "ability_types": [
-                                "Supernatural"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"foothold\">As a standard action, you can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as difficult terrain, and a Medium or smaller creature standing in the area or moving through it takes a &ndash;2 penalty on Acrobatics checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on Climb checks to climb it. The stone remains altered for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Foothold", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"thin-air\">At 8th level, as a free action, you can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are fatigued (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from altitude sickness, taking 1 point of ability damage to all ability scores. At 16th level, the aura increases to 10 feet. Creatures that do not breathe are immune to this aura. You can use this ability for a number of rounds per day equal to your druid level; the rounds need not be consecutive.</p>", 
+                                    "type": "ability", 
+                                    "name": "Thin Air", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }
                             ]
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"thin-air\">At 8th level, as a free action, you can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are fatigued (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from altitude sickness, taking 1 point of ability damage to all ability scores. At 16th level, the aura increases to 10 feet. Creatures that do not breathe are immune to this aura. You can use this ability for a number of rounds per day equal to your druid level; the rounds need not be consecutive.</p>", 
-                            "type": "ability", 
-                            "name": "Thin Air", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"domain-spells\">1st&mdash;<i>fist of stone</i>, 2nd&mdash;<i>stone call</i>, 3rd&mdash;<i>cloak of winds</i>, 4th&mdash;<i>stoneskin</i>, 5th&mdash;<i>geyser</i>, 6th&mdash;<i>suffocate</i>, 7th&mdash;<i>flesh to stone</i>, 8th&mdash;<i>reverse gravity</i>, 9th&mdash;<i>clashing rocks</i>.</p>", 
+                            "text": "<p id=\"domain-spells\">1st&mdash;<i>stone fist</i>, 2nd&mdash;<i>stone call</i>, 3rd&mdash;<i>cloak of winds</i>, 4th&mdash;<i>stoneskin</i>, 5th&mdash;<i>geyser</i>, 6th&mdash;<i>suffocation</i>, 7th&mdash;<i>flesh to stone</i>, 8th&mdash;<i>reverse gravity</i>, 9th&mdash;<i>clashing rocks</i>.</p>", 
                             "type": "section", 
                             "name": "Domain Spells"
                         }
@@ -376,36 +493,49 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Plains Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "mount"},
+                        {"level": 2, "spell": "chameleon stride"},
+                        {"level": 3, "spell": "haste"},
+                        {"level": 4, "spell": "aspect of the stag"},
+                        {"level": 5, "spell": "control winds"},
+                        {"level": 6, "spell": "find the path"},
+                        {"level": 7, "spell": "whirlwind"},
+                        {"level": 8, "spell": "animal shapes"},
+                        {"level": 9, "spell": "world wave"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>The wide open spaces of the prairie, savanna, and steppe are yours to master.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"migrating-herd\">When you summon an aurochs, bison, elephant, horse, mastodon, pony, or similar quadruped herbivore with a summoning spell, the duration of the spell is increased by 100% (this does not stack with Extend Spell). The creature's land speed is increased by 10 feet.</p>", 
-                            "type": "ability", 
-                            "name": "Migrating Herd", 
-                            "ability_types": [
-                                "Supernatural"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"migrating-herd\">When you summon an aurochs, bison, elephant, horse, mastodon, pony, or similar quadruped herbivore with a summoning spell, the duration of the spell is increased by 100% (this does not stack with Extend Spell). The creature's land speed is increased by 10 feet.</p>", 
+                                    "type": "ability", 
+                                    "name": "Migrating Herd", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"pounce\">At 6th level, you may use the pounce special attack once per day. You may pounce one additional time per day for every 3 levels after 6th.</p>", 
+                                    "type": "ability", 
+                                    "name": "Pounce", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"pounce\">At 6th level, you may use the pounce special attack once per day. You may pounce one additional time per day for every 3 levels after 6th.</p>", 
-                            "type": "ability", 
-                            "name": "Pounce", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"domain-spells\">1st&mdash;<i>mount</i>, 2nd&mdash;<i>chameleon stride</i>, 3rd&mdash;<i>haste</i>, 4th&mdash;<i>aspect of the stag</i>, 5th&mdash;<i>control winds</i>, 6th&mdash;<i>find the path</i>, 7th&mdash;<i>whirlwind</i>, 8th&mdash;<i>animal shapes</i>, 9th&mdash;<i>worldwave</i>.</p>", 
+                            "text": "<p id=\"domain-spells\">1st&mdash;<i>mount</i>, 2nd&mdash;<i>chameleon stride</i>, 3rd&mdash;<i>haste</i>, 4th&mdash;<i>aspect of the stag</i>, 5th&mdash;<i>control winds</i>, 6th&mdash;<i>find the path</i>, 7th&mdash;<i>whirlwind</i>, 8th&mdash;<i>animal shapes</i>, 9th&mdash;<i>world wave</i>.</p>", 
                             "type": "section", 
                             "name": "Domain Spells"
                         }
@@ -414,42 +544,55 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Serpent Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "charm animal"},
+                        {"level": 2, "spell": "animal trance"},
+                        {"level": 3, "spell": "poison"},
+                        {"level": 4, "spell": "strong jaw"},
+                        {"level": 5, "spell": "snake staff"},
+                        {"level": 6, "spell": "charm monster"},
+                        {"level": 7, "spell": "animal shapes", "notes": "reptiles and snakes only"},
+                        {"level": 8, "spell": "scintillating pattern"},
+                        {"level": 9, "spell": "crushing hand"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>You serve ancient serpentine mysteries whose coils still encircle the world.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"familiar\">You gain a viper familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
-                            "type": "section", 
-                            "name": "Familiar"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"slither\">As a free action, you can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to squeeze through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on Escape Artist checks made to escape from a grapple. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Slither", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"familiar\">You gain a viper familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>", 
+                                    "type": "section", 
+                                    "name": "Familiar"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"slither\">As a free action, you can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to squeeze through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on Escape Artist checks made to escape from a grapple. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Slither", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"venom-immunity\">At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype. At 12th level, you gain immunity to all poisons. This replaces venom immunity.</p>", 
+                                    "type": "ability", 
+                                    "name": "Venom Immunity", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
                             "source": "Ultimate Magic", 
-                            "text": "<p id=\"venom-immunity\">At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype. At 12th level, you gain immunity to all poisons. This replaces venom immunity.</p>", 
-                            "type": "ability", 
-                            "name": "Venom Immunity", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"domain-spells\">1st&mdash;<i>charm animal</i>, 2nd&mdash;<i>animal trance</i>, 3rd&mdash;<i>poison</i>, 4th&mdash;<i>strong</i> jaw, 5th&mdash;<i>snakestaff</i>, 6th&mdash;<i>charm monster</i>, 7th&mdash;<i>animal shapes</i> (reptiles and snakes only), 8th&mdash;<i>scintillating pattern</i>, 9th&mdash;<i>crushing hand</i>.</p>", 
+                            "text": "<p id=\"domain-spells\">1st&mdash;<i>charm animal</i>, 2nd&mdash;<i>animal trance</i>, 3rd&mdash;<i>poison</i>, 4th&mdash;<i>strong</i> jaw, 5th&mdash;<i>snake staff</i>, 6th&mdash;<i>charm monster</i>, 7th&mdash;<i>animal shapes</i> (reptiles and snakes only), 8th&mdash;<i>scintillating pattern</i>, 9th&mdash;<i>crushing hand</i>.</p>", 
                             "type": "section", 
                             "name": "Domain Spells"
                         }
@@ -458,31 +601,44 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Swamp Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "hydraulic push"},
+                        {"level": 2, "spell": "burst of nettles"},
+                        {"level": 3, "spell": "lily pad stride"},
+                        {"level": 4, "spell": "cape of wasps"},
+                        {"level": 5, "spell": "insect plague"},
+                        {"level": 6, "spell": "fester, mass"},
+                        {"level": 7, "spell": "animate plants"},
+                        {"level": 8, "spell": "blood mist"},
+                        {"level": 9, "spell": "shambler"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>The sour-sweet depths of bogs, marshes, and swamps are your places of power.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"natural-healing\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as Extra Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel.</p>", 
-                            "type": "ability", 
-                            "name": "Natural Healing", 
-                            "ability_types": [
-                                "Supernatural"
-                            ]
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"reed-hunter\">At 6th level, you gain blindsense 30 feet with respect to concealment and cover from fog, vegetation, or water. At 12th level, this improves to blindsight 30 feet with respect to these conditions.</p>", 
-                            "type": "ability", 
-                            "name": "Reed Hunter", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"natural-healing\">You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as Extra Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel.</p>", 
+                                    "type": "ability", 
+                                    "name": "Natural Healing", 
+                                    "ability_types": [
+                                        "Supernatural"
+                                    ]
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"reed-hunter\">At 6th level, you gain blindsense 30 feet with respect to concealment and cover from fog, vegetation, or water. At 12th level, this improves to blindsight 30 feet with respect to these conditions.</p>", 
+                                    "type": "ability", 
+                                    "name": "Reed Hunter", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
@@ -496,28 +652,41 @@
                 {
                     "source": "Ultimate Magic", 
                     "subtype": "druid_domain", 
-                    "type": "section", 
+                    "type": "domain", 
                     "name": "Wolf Domain", 
+                    "granted_spells": [
+                        {"level": 1, "spell": "hunter's howl"},
+                        {"level": 2, "spell": "bloodhound"},
+                        {"level": 3, "spell": "aspect of the wolf"},
+                        {"level": 4, "spell": "strong jaw"},
+                        {"level": 5, "spell": "tireless pursuers"},
+                        {"level": 6, "spell": "find the path"},
+                        {"level": 7, "spell": "animal shapes", "notes": "canines only"},
+                        {"level": 8, "spell": "phantasmal revenge"},
+                        {"level": 9, "spell": "freedom"}
+                    ],
                     "sections": [
                         {
                             "source": "Ultimate Magic", 
                             "text": "<p>You run with the pack and are the master of the cold hunt of your spirit totem.</p>", 
                             "type": "section", 
-                            "name": "Granted Powers"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"improved-trip\">You gain Improved Trip as a bonus feat.</p>", 
-                            "type": "section", 
-                            "name": "Improved Trip"
-                        }, 
-                        {
-                            "source": "Ultimate Magic", 
-                            "text": "<p id=\"pack-tactics\">At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
-                            "type": "ability", 
-                            "name": "Pack Tactics", 
-                            "ability_types": [
-                                "Extraordinary"
+                            "name": "Granted Powers",
+                            "sections": [
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"improved-trip\">You gain Improved Trip as a bonus feat.</p>", 
+                                    "type": "section", 
+                                    "name": "Improved Trip"
+                                }, 
+                                {
+                                    "source": "Ultimate Magic", 
+                                    "text": "<p id=\"pack-tactics\">At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>", 
+                                    "type": "ability", 
+                                    "name": "Pack Tactics", 
+                                    "ability_types": [
+                                        "Extraordinary"
+                                    ]
+                                }
                             ]
                         }, 
                         {
