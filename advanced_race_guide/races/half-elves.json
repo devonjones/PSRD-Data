@@ -1005,8 +1005,14 @@
                             "text": "<p>You surge with ancestral power, temporarily embodying all the strengths of both elvenkind and humankind simultaneously, and transforming into a paragon of both races, something greater than elf or human alone. Unlike with most polymorph effects, your basic form does not change, so you keep all extraordinary and supernatural abilities of your half-elven form as well as all of your gear. </p><p>For the duration of the spell, you receive a +2 enhancement bonus to Dexterity and Intelligence and are treated as if you possessed any one feat for which you meet the prerequisites, chosen when you cast this spell. The first time each day that you cast this spell, you must select a feat and make all the associated choices that come with it. Once that choice is made, it is set for the day and additional castings must make the exact same decisions.</p>", 
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
-                            "range": "personal (half-elf only)Target you", 
+                            "range": "personal (half-elf only)", 
                             "component_text": "V, S", 
+                            "effects": [
+                                {
+                                    "text": "you", 
+                                    "name": "Target"
+                                }
+                            ], 
                             "components": [
                                 {
                                     "type": "V"
@@ -1133,8 +1139,14 @@
                             "text": "<p>You become one with the city around you, allowing you to move more easily through its crowds and buildings. For the duration of this spell, your base land speed increases by 10 feet. In addition, it does not cost you 2 squares of movement to enter a square with crowds, though the crowd still provides cover to you. This ability does not allow you to enter the space of enemy creatures without making the appropriate Acrobatics check. In addition, you receive a +4 circumstance bonus on Acrobatics checks made to move across uneven urban surfaces, such as roofs and broken pavement, and on Climb checks made to scale walls and other artificial surfaces. Whenever you make an Acrobatics check to make a long jump between two buildings or artificial structures, you are always treated as if you had a running start, regardless of the actual distance traveled. </p>", 
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
-                            "range": "personal Target you", 
+                            "range": "personal", 
                             "component_text": "V, S", 
+                            "effects": [
+                                {
+                                    "text": "you", 
+                                    "name": "Target"
+                                }
+                            ], 
                             "components": [
                                 {
                                     "type": "V"
