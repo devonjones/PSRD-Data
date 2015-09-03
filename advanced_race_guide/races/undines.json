@@ -426,7 +426,7 @@
                                 }, 
                                 {
                                     "source": "Advanced Race Guide", 
-                                    "text": "<p class=\"stat-block-1\"> Once per day, you may expend your racial <i>hydraulic push</i> ability to instead cast <i>summon nature's ally III</i> as a spell-like ability with a caster level equal to your character level. This use of the ability can only summon a Small water elemental or 1d3 dolphins. Using this ability is a full-round action.</p>", 
+                                    "text": "<p class=\"stat-block-1\"> Once per day, you may expend your racial <i>hydraulic push</i> ability to instead cast <i>summon nature's ally III</i> as a spell-like ability with a caster level equal to your character level. This use of the ability can only summon 1d3 Small water elementals, 1d4+1 dolphins, a shark, or an electric eel. Using this ability is a full-round action.</p>", 
                                     "type": "section", 
                                     "name": "Benefit"
                                 }
@@ -631,7 +631,7 @@
                             "descriptor_text": "water", 
                             "effects": [
                                 {
-                                    "text": "creature touched", 
+                                    "text": "willing creature touched", 
                                     "name": "Target"
                                 }
                             ], 
@@ -648,12 +648,8 @@
                             "description": "The target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water."
                         }, 
                         {
-                            "school": "enchantment", 
+                            "school": "abjuration", 
                             "name": "Nereid's Grace", 
-                            "descriptor": [
-                                "mind-affecting"
-                            ], 
-                            "text": "<p>You radiate the unearthly grace of a nereid. If you are not wearing armor (or your armor is not visible, such as when using <i>glamered</i> armor), you gain a deflection bonus to your Armor Class and CMD equal to your Charisma bonus.</p>", 
                             "level": [
                                 {
                                     "class": "druid", 
@@ -672,11 +668,11 @@
                                     "level": 1
                                 }
                             ], 
+                            "text": "<p>You radiate the unearthly grace of a nereid. If you\u2019re not wearing armor, you gain a deflection bonus to your AC and CMD equal to your Charisma bonus (maximum +3). The maximum increases by 1 for every 6 levels you possess (maximum +6 at 18th level).</p>", 
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
-                            "range": "touch", 
+                            "range": "personal", 
                             "component_text": "V, S", 
-                            "descriptor_text": "mind-affecting", 
                             "effects": [
                                 {
                                     "text": "you", 
@@ -692,10 +688,6 @@
                                 }
                             ], 
                             "duration": "1 round/level", 
-                            "subschool_text": "charm", 
-                            "subschool": [
-                                "charm"
-                            ], 
                             "type": "spell", 
                             "description": "You radiate the unearthly grace of a nereid."
                         }, 
@@ -712,35 +704,35 @@
                             "level": [
                                 {
                                     "class": "bard", 
-                                    "level": 4
+                                    "level": 3
                                 }, 
                                 {
                                     "class": "skald", 
-                                    "level": 4
+                                    "level": 3
                                 }, 
                                 {
                                     "class": "druid", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "hunter", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "sorcerer", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "wizard", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "arcanist", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "hunter", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "summoner", 
@@ -748,15 +740,15 @@
                                 }, 
                                 {
                                     "class": "hunter", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "witch", 
-                                    "level": 3
+                                    "level": 4
                                 }, 
                                 {
                                     "class": "hunter", 
-                                    "level": 3
+                                    "level": 4
                                 }
                             ], 
                             "casting_time": "1 standard action", 
@@ -791,9 +783,10 @@
                             "saving_throw": "Will negates", 
                             "name": "Undine's Curse", 
                             "descriptor": [
+                                "curse", 
                                 "evil"
                             ], 
-                            "text": "<p>The target loses its body's natural ability to breathe automatically. As long as it remains conscious and is able to take physical actions, it keeps breathing and is able to function normally. If it is ever unconscious (including sleeping) or unable to take physical actions, it stops breathing and begins to suffocate. Creatures that do not have to breathe are immune to this spell.</p>", 
+                            "text": "<p>The target loses its body's natural ability to breathe automatically. As long as it remains conscious and is able to take physical actions, it keeps breathing and is able to function normally. If it is ever unconscious (including sleeping) or unable to take physical actions, it stops breathing, must hold its breath, and might begin to suffocate. Creatures that do not have to breathe are immune to this spell.</p>", 
                             "spell_resistance": "yes", 
                             "level": [
                                 {
@@ -817,7 +810,7 @@
                             "source": "Advanced Race Guide", 
                             "range": "close (25 ft. + 5 ft./2 levels)", 
                             "component_text": "V, S", 
-                            "descriptor_text": "evil", 
+                            "descriptor_text": "curse, evil", 
                             "effects": [
                                 {
                                     "text": "one creature", 

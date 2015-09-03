@@ -479,7 +479,7 @@
                         }, 
                         {
                             "source": "Advanced Race Guide", 
-                            "text": "<p id=\"order-abilities\">A cavalier belonging to the order of the paw gains the following abilities as he increases in level. </p><blockquote>\n<p id=\"danger-ward\"><i>Danger Ward (Ex)</i>At 2nd level, the cavalier can ready his allies for impending danger. As a standard action, he can ready all allies within 30 feet of the danger ahead, granting a bonus on a single type of saving throw (Fortitude, Reflex or Will) that he chooses when he grants this boon. At any point in the next minute, when these allies fail a saving throw of that type, they can choose to reroll the saving throw with a +4 competence bonus as an immediate action, but must take the results of the reroll even if it is worse. He can use this ability up to three times per day, once for each type of saving throw. </p>\n<p id=\"canine-ferocity\"><i>Canine Ferocity (Ex)</i>: At 8th level, when the cavalier uses his wolf or dog mount to perform a bull rush or overrun maneuver, the mount is considered to be one size category larger for the purposes of determining the size of creature it is maneuvering against and the mount's CMB. He also receives a bonus feat, chosen from the following list: Mounted Combat, Ride-By Attack, Skill Focus (Ride), Spirited Charge, Trample, or Unseat. He must qualify for the feat selected. </p>\n<p id=\"giant-slayer\"><i>Giant Slayer (Ex)</i>: At 15th level, when the cavalier hits the target of his challenge with a melee attack, and that target is at least two size categories larger than the cavalier, he gains a bonus on damage rolls equal to 1/2 his cavalier level. This damage is multiplied on a critical hit. </p>\n</blockquote>", 
+                            "text": "<p id=\"order-abilities\">A cavalier belonging to the order of the paw gains the following abilities as he increases in level. </p><blockquote>\n<p id=\"danger-ward\"><i>Danger Ward (Ex)</i>At 2nd level, the cavalier can ready his allies for impending danger. As a standard action, he can ready all allies within 30 feet of the danger ahead, granting a bonus on a single type of saving throw (Fortitude, Reflex or Will) that he chooses when he grants this boon. At any point in the next minute, when these allies fail a saving throw of that type, they can choose to reroll the saving throw with a +4 competence bonus as an immediate action, but must take the results of the reroll even if it is worse. He can use this ability up to three times per day, once for each type of saving throw. </p>\n<p id=\"canine-ferocity\"><i>Canine Ferocity (Ex)</i>: At 8th level, when the cavalier uses his wolf or dog mount to perform a bull rush or overrun maneuver, the mount is considered to be one size category larger for the purposes of determining the size of creature it is maneuvering against and the mount's CMB. He also receives a bonus feat, chosen from the following list: Mounted Combat, Ride-By Attack, Skill Focus (Ride), Spirited Charge, Trample (the mount can make a bite attack in place of a hoof attack), or Unseat. He must qualify for the feat selected. </p>\n<p id=\"giant-slayer\"><i>Giant Slayer (Ex)</i>: At 15th level, when the cavalier hits the target of his challenge with a melee attack, and that target is at least two size categories larger than the cavalier, he gains a bonus on damage rolls equal to 1/2 his cavalier level. This damage is multiplied on a critical hit. </p>\n</blockquote>", 
                             "type": "section", 
                             "name": "Order Abilities"
                         }
@@ -721,7 +721,7 @@
                                 }, 
                                 {
                                     "source": "Advanced Race Guide", 
-                                    "text": "<p class=\"stat-block-1\">Spend a use of your adaptive luck racial trait to reroll the damage healed from a single magical healing effect (such as a spell with \"cure\" in the title or channel energy). You regain a number of hit points equal to the new roll or the original roll, whichever is greater. Other creatures healed by the effect do not gain this benefit. </p>", 
+                                    "text": "<p class=\"stat-block-1\">When a magical healing effect (such as a spell with &ldquo;cure&rdquo; in the title or channel energy) cures you, you can spend one use of your adaptable luck racial trait to reroll the amount of damage cured. You regain a number of hit points equal to the new roll or the original roll, whichever is greater. Other creatures healed by the effect do not gain this benefit. </p>", 
                                     "type": "section", 
                                     "name": "Benefit"
                                 }
@@ -763,7 +763,7 @@
                                 }, 
                                 {
                                     "source": "Advanced Race Guide", 
-                                    "text": "<p class=\"stat-block-1\">You can choose to take a &ndash;1 penalty to AC to gain a +2 bonus on melee damage rolls against creatures two or more size categories larger than you. When your base attack bonus reaches +4 and every four levels thereafter, the damage increases by 2. The bonus damage is multiplied in the case of a critical hit. You can only choose to use this feat when you declare that you are making an attack action or a full-attack action with a melee weapon. The effects last until your next turn.</p>", 
+                                    "text": "<p class=\"stat-block-1\">You can choose to take a &ndash;1 penalty to AC to gain a +2 bonus on melee damage rolls against creatures two or more size categories larger than you. When your base attack bonus reaches +4 and every 4 levels thereafter, the penalty increases by -1 and the damage bonus increases by 2. The bonus damage is multiplied in the case of a critical hit. You can only choose to use this feat when you declare that you are making an attack action or a full-attack action with a melee weapon. The effects last until your next turn.</p>", 
                                     "type": "section", 
                                     "name": "Benefit"
                                 }
@@ -1000,11 +1000,13 @@
                     "sections": [
                         {
                             "school": "enchantment", 
-                            "name": "Blessing Of Luck And Resolve", 
+                            "saving_throw": "Will negates (harmless)", 
+                            "name": "Blessing of Luck and Resolve", 
                             "descriptor": [
                                 "mind-affecting"
                             ], 
                             "text": "<p>A favored blessing of halfling clerics, this spell grants its target a +2 morale bonus on saving throws against fear effects. If the target has the fearless racial trait, it is immune to fear instead. If the target fails a saving throw against fear, it can end the spell as an immediate action to reroll the save with a +4 morale bonus, and must take the new result, even if it is worse. </p>", 
+                            "spell_resistance": "yes (harmless)", 
                             "level": [
                                 {
                                     "class": "cleric", 
@@ -1202,7 +1204,7 @@
                                 }
                             ], 
                             "text": "<p>You create a larger and far more menacing version of yourself that you can send forth, manipulate like a puppet, and use to interact with others. You can make the duplicate up to two size categories larger than you are and determine a theme as to how it alters your original appearance. However, this duplicate always retains some vestiges of your actual appearance. Creatures who already know you gain a +2 bonus on saving throws made to disbelieve this spell. Your duplicate has no actual substance, and you cannot use it to alter its surroundings or to attack or otherwise harm creatures it encounters. You can use the duplicate to speak, and interact verbally with creatures using the Bluff, Diplomacy, and Intimidate skills, and you gain a +2 competence bonus on Intimidate checks when using that skill through the duplicate. </p><p>You can see, hear, taste, and smell your duplicate's surroundings as if you are actually present using your Perception skill. While you also remain aware of your own immediate surroundings when controlling your duplicate, controlling it does take a toll on your senses. You take a &ndash;4 penalty on Perception checks while you control your duplicate. </p><p>The duplicate moves under your mental command, and while you need not act out its movements, you must take a standard action to control your duplicate for 1 round (concentrating on the spell) or it winks out of existence. You can maintain control of your duplicate even if you have no line of sight or line of effect to it.</p><p>The duplicate immediately winks out of existence if it is hit by an attack or in the area of a damaging effect, or if it moves beyond the maximum range of the spell.</p>", 
-                            "spell_resistance": "yes", 
+                            "spell_resistance": "no", 
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
                             "range": "medium (100 ft. + 10 ft./level)", 
@@ -1237,7 +1239,7 @@
                                 "mind-affecting"
                             ], 
                             "text": "<p>You throw an illusion over an area to make creatures that view or interact with it believe it has suffered some great catastrophe or calamity that renders it utterly worthless for their needs. You must set a few general guidelines when casting the spell as to the nature of this disaster (fire, tornado, bandit raid, plague, etc.), after which the illusion fills in the remaining details to make it seem realistic. When casting the spell, you can grant creatures with particular, clearly identifiable physical traits (race, gender, age category, etc.) immunity to this spell. This allows all such eligible creatures to perceive the true nature of the affected area instead of its illusory appearance. Creatures without this immunity that fail their saving throws always perceive the affected area as having absolutely nothing of interest or worth to them. Unless they have reason for suspicion, they always move on without closely investigating the area. Creatures with sufficient reasons for suspicion who do choose to investigate the area gain another saving throw, this one with a +2 bonus, as they enter the village and directly interact with the illusion. </p><p>You can expand the area of this spell by casting it multiple times. Each time you do, you must effectively \"attach\" the spell to the existing area by using the same disaster and granting the same sorts of creatures immunity to its effects. If you fail to do this, the entire illusion, no matter how large, disappears.</p>", 
-                            "spell_resistance": "yes", 
+                            "spell_resistance": "no", 
                             "level": [
                                 {
                                     "class": "bard", 

@@ -230,7 +230,7 @@
                         }, 
                         {
                             "source": "Advanced Race Guide", 
-                            "text": "<p id=\"trap-saboteur\">At 8th level, a cat burglar becomes a master of avoiding and manipulating traps and locks. She can attempt to open a lock as a standard action and takes 1/2 the normal amount of time to disable traps (minimum 1 round) . When she has bypassed a trap without disarming it, she can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression prematurely as a free action. This ability replaces uncanny dodge.</p>", 
+                            "text": "<p id=\"trap-saboteur\">At 8th level, a cat burglar becomes a master of avoiding and manipulating traps and locks. She can attempt to open a lock as a standard action and takes 1/2 the normal amount of time to disable traps (minimum 1 round) . When she has bypassed a trap without disarming it, she can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression prematurely as a free action. This ability replaces improved uncanny dodge.</p>", 
                             "type": "section", 
                             "name": "Trap Saboteur (Su)"
                         }, 
@@ -630,10 +630,27 @@
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
                             "range": "touch", 
+                            "component_text": "V, S, M/DF (a cat's whisker)", 
                             "effects": [
                                 {
                                     "text": "one creature touched", 
                                     "name": "Target"
+                                }
+                            ], 
+                            "components": [
+                                {
+                                    "type": "V"
+                                }, 
+                                {
+                                    "type": "S"
+                                }, 
+                                {
+                                    "text": "a cat's whisker", 
+                                    "type": "M"
+                                }, 
+                                {
+                                    "text": "a cat's whisker", 
+                                    "type": "DF"
                                 }
                             ], 
                             "duration": "1 hour/level", 

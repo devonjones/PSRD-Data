@@ -217,7 +217,7 @@
                     "sections": [
                         {
                             "source": "Advanced Race Guide", 
-                            "text": "<p id=\"class-skills\">A shigenjo adds Knowledge (nature), Knowledge (religion), Knowledge (planes), and Survival to her list of class skills. These replace the additional class skills from her mystery. </p>", 
+                            "text": "<p id=\"class-skills\">A shigenjo adds Survival to her list of class skills in place of Diplomacy.</p>", 
                             "type": "section", 
                             "name": "Class Skills"
                         }, 
@@ -684,6 +684,7 @@
                         }, 
                         {
                             "school": "abjuration", 
+                            "saving_throw": "Will negates (harmless, object)", 
                             "name": "Theft Ward", 
                             "level": [
                                 {
@@ -720,6 +721,7 @@
                                 }
                             ], 
                             "text": "<p>You ward a single object in your possession against theft. You gain a +10 bonus on Perception checks to notice someone trying to take the object from you.</p>", 
+                            "spell_resistance": "yes (harmless, object)", 
                             "casting_time": "1 standard action", 
                             "source": "Advanced Race Guide", 
                             "range": "touch", 

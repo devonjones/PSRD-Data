@@ -454,7 +454,7 @@
                         }, 
                         {
                             "source": "Advanced Race Guide", 
-                            "text": "<p id=\"grand-discoveries\">A saboteur may select the following grand discovery.</p><blockquote>\n<p id=\"true-chameleon-mutagen\"><i>True Chameleon Mutagen</i>: The saboteur's chameleon mutagen now acts as if he was under the effects of the <i>improved invisibility</i> and <i>spider climb</i> spells, using his alchemist level as the caster level, for the duration of the mutagen. The saboteur must possess the grand chameleon mutagen discovery to select this grand discovery.</p>\n</blockquote>", 
+                            "text": "<p id=\"grand-discoveries\">A saboteur may select the following grand discovery.</p><blockquote>\n<p id=\"true-chameleon-mutagen\"><i>True Chameleon Mutagen</i>The saboteur's chameleon mutagen now acts as if he was under the effects of the <i>greater invisibility</i> and <i>spider climb</i> spells, using his alchemist level as the caster level, for the duration of the mutagen. The saboteur must possess the grand chameleon mutagen discovery to select this grand discovery.</p>\n</blockquote>", 
                             "type": "section", 
                             "name": "Grand Discoveries"
                         }, 
@@ -488,7 +488,7 @@
                         }, 
                         {
                             "source": "Advanced Race Guide", 
-                            "text": "<p id=\"hound's-blood\">If you apply the thick, red paste known as hound's blood to your nostrils or upper lip, it greatly enhances your sense of smell. For most creatures, this grants a +2 circumstance bonus on Perception checks for 1 hour. For gnomes, it briefly grants a super-heightened sense of smell, granting the scent ability for 5 minutes, before the potency is reduced to a +2 circumstance bonus on Perception checks for an additional 1 hour.</p>", 
+                            "text": "<p id=\"hound's-blood\">If you apply the thick, red paste known as hound's blood to your nostrils or upper lip, it greatly enhances your sense of smell. For most creatures, this grants a +2 alchemical bonus on Perception checks for 1 hour. For gnomes, it briefly grants a super-heightened sense of smell, granting the scent ability for 5 minutes, before the potency is reduced to a +2 alchemical bonus on Perception checks for an additional 1 hour.</p>", 
                             "type": "item", 
                             "name": "Hound's Blood"
                         }, 
@@ -707,7 +707,7 @@
                                 {
                                     "field": "Requirements", 
                                     "subsection": "Construction", 
-                                    "value": "Craft Wondrous Item, creator must be a gnome or a wizard specialized in the school of conjuration"
+                                    "value": "Craft Wondrous Item, dimension door, creator must be a gnome or a wizard specialized in the school of conjuration"
                                 }, 
                                 {
                                     "field": "Cost", 
@@ -902,9 +902,9 @@
                             "saving_throw": "Will negates", 
                             "name": "Major Phantom Object", 
                             "descriptor": [
-                                "mind-affecting"
+                                "shadow"
                             ], 
-                            "text": "<p>This spell functions as the <i>major creation spell</i>, except as noted above and the object created is a semi-real phantasm. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item.</p>", 
+                            "text": "<p>This spell functions as the <i>major creation spell</i>, except as noted above and the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item.</p>", 
                             "spell_resistance": "yes", 
                             "level": [
                                 {
@@ -923,20 +923,20 @@
                             "casting_time": "10 minutes", 
                             "source": "Advanced Race Guide", 
                             "range": "close (25 ft. + 5 ft./2 levels)", 
-                            "descriptor_text": "mind-affecting", 
+                            "descriptor_text": "shadow", 
                             "effects": [
                                 {
-                                    "text": "phantasmal, unattended, nonmagical object, up to 1 cu. ft./level", 
+                                    "text": "illusory, unattended, nonmagical object, up to 1 cu. ft./level", 
                                     "name": "Effect"
                                 }
                             ], 
                             "duration": "10 minutes/level (D)", 
-                            "subschool_text": "figment", 
+                            "subschool_text": "shadow", 
                             "subschool": [
-                                "figment"
+                                "shadow"
                             ], 
                             "type": "spell", 
-                            "description": "This spell functions as the major creation spell, except as noted above and the object created is a semi-real phantasm."
+                            "description": "This spell functions as the major creation spell, except as noted above and the object created is a semi-real illusion."
                         }, 
                         {
                             "school": "illusion", 
@@ -1013,9 +1013,9 @@
                             "saving_throw": "Will negates", 
                             "name": "Minor Phantom Object", 
                             "descriptor": [
-                                "mind-affecting"
+                                "shadow"
                             ], 
-                            "text": "<p>This spell functions as the <i>minor creation spell</i>, except the object created is a semi-real phantasm. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item.</p>", 
+                            "text": "<p>This spell functions as the <i>minor creation</i> spell, except the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item.</p>", 
                             "spell_resistance": "yes", 
                             "level": [
                                 {
@@ -1035,10 +1035,10 @@
                             "source": "Advanced Race Guide", 
                             "range": "0 ft.", 
                             "component_text": "V, S", 
-                            "descriptor_text": "mind-affecting", 
+                            "descriptor_text": "shadow", 
                             "effects": [
                                 {
-                                    "text": "phantasmal, unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level", 
+                                    "text": "illusory, unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level", 
                                     "name": "Effect"
                                 }
                             ], 
@@ -1051,12 +1051,12 @@
                                 }
                             ], 
                             "duration": "10 minutes/level (D)", 
-                            "subschool_text": "figment", 
+                            "subschool_text": "shadow", 
                             "subschool": [
-                                "figment"
+                                "shadow"
                             ], 
                             "type": "spell", 
-                            "description": "This spell functions as the minor creation spell, except the object created is a semi-real phantasm."
+                            "description": "This spell functions as the minor creation spell, except the object created is a semi-real illusion."
                         }, 
                         {
                             "school": "transmutation", 
