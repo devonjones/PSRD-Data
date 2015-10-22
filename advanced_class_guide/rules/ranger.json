@@ -6,25 +6,25 @@
     "sections": [
         {
             "source": "Advanced Class Guide", 
-            "text": "<p>Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution. His imbued weapon is likely to find purchase in his favored enemy.</p>", 
+            "text": "<p>Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution. His weapon is likely to find purchase in his favored enemy.</p>", 
             "type": "section", 
             "name": "Divine Tracker (Archetype)", 
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>A divine tracker's alignment must be within one step of his deity's, along either the law/chaos axis or the good/evil axis.</p>", 
+                    "text": "<p id=\"divine-tracker-alignment\">A divine tracker's alignment must be within one step of his deity's, along either the law/chaos axis or the good/evil axis. This replaces the ranger's alignment.</p>", 
                     "type": "section", 
                     "name": "Alignment"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, a divine tracker becomes proficient with the favored weapon of his deity. If his deity's favored weapon is unarmed strike, he instead gains Improved Unarmed Strike as a bonus feat. This ability replaces wild empathy.</p>", 
+                    "text": "<p id=\"divine-tracker-favored-weapon\">At 1st level, a divine tracker is proficient with the favored weapon of his deity. If his deity's favored weapon is unarmed strike, he instead gains Improved Unarmed Strike as a bonus feat. This ability replaces wild empathy.</p>", 
                     "type": "section", 
                     "name": "Favored Weapon"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 4th level, a divine tracker forms a close bond with his deity's ethos. He selects two warpriest domains from among the domains granted by his deity, and gains the minor blessings of those domains. A divine tracker can select an alignment domain (Chaos, Evil, Good, or Law) only if his alignment matches that domain. If a divine tracker isn't devoted to a particular deity, he still selects two blessings to represent his spiritual inclinations and abilities, subject to GM approval. The restriction on alignment domains still applies. A divine tracker uses his ranger level as his warpriest level to determine the effect of the blessing. At 13th level, a divine tracker gains the major blessing from both of his domains. This ability replaces hunter's bond.</p>", 
+                    "text": "<p id=\"blessings\">At 4th level, a divine tracker forms a close bond with his deity's ethos. He selects two warpriest blessings from among those granted by his deity and gains their minor powers. A divine tracker can select an alignment blessing (Chaos, Evil, Good, or Law) only if his alignment matches that blessing. If a divine tracker isn't devoted to a particular deity, he still selects two blessings to represent his spiritual inclinations and abilities, subject to GM discretion. The restriction on alignment blessings still applies. A divine tracker uses his ranger level as his warpriest level to determine the effects of blessings. At 13th level, a divine tracker gains the major powers of his blessings. This ability replaces hunter's bond.</p>", 
                     "type": "ability", 
                     "name": "Blessings", 
                     "ability_types": [
@@ -41,7 +41,7 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, the hooded champion gains the swashbuckler's panache class feature. He regains panache through critical hits and killing blows when using a bow of any kind, rather than when using a light or one-handed piercing melee weapon. If the hooded champion has this ability and the panache ability from another class or archetype, the panache points from the two sources do not stack, but the hooded champion regains panache in any way either class feature allows him to. For example, a character with a Charisma score of 16 who has both the hooded champion's and the swashbuckler's panache has a base of 3 panache points, and regains panache from critical hits and killing blows from both bows and light or one-handed piercing melee weapons. This ability replaces favored enemy at 1st level.</p>", 
+                    "text": "<p id=\"panache\">At 1st level, the hooded champion gains the swashbuckler's panache class feature. He regains panache by scoring critical hits and killing blows when using a bow of any kind, rather than when using a light or one-handed piercing melee weapon. If the hooded champion has this ability and the panache ability from another class or archetype, the panache points from the two sources do not stack, but the hooded champion regains panache in any way either class feature allows him to. For example, a character with a Charisma score of 16 who has both the hooded champion's and the swashbuckler's panache has a base of 3 panache points, and regains panache from critical hits and killing blows by scoring with either a bow or a light or one-handed piercing melee weapon. This ability replaces favored enemy at 1st level.</p>", 
                     "type": "ability", 
                     "name": "Panache", 
                     "ability_types": [
@@ -50,13 +50,13 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, the hooded champion gains the swashbuckler's derring-do and dodging panache deeds, as well as the following deeds. For all deeds, treat the hooded champion's ranger level as his swashbuckler level.</p>", 
+                    "text": "<p id=\"deeds\">At 1st level, the hooded champion gains the swashbuckler's derring-do and dodging panache deeds. He also gains the deeds below at the levels indicated. For all deeds, treat the hooded champion's ranger level as his swashbuckler level.</p>", 
                     "type": "section", 
                     "name": "Deeds", 
                     "sections": [
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 1st level, the hooded champion's can spend 1 panache point when making a single ranged attack with a bow to make a ranged touch attack instead. The target must be in the bow's first range increment.</p><p>At 3rd level, the hooded champion gains the swashbuckler's kip-up deed as well as the following deed. </p>", 
+                            "text": "<p id=\"dead-aim\">At 1st level, the hooded champion can spend 1 panache point when making a single ranged attack (not a full attack) with a bow to make a ranged touch attack instead. The target must be in the bow's first range increment.</p><p>At 3rd level, the hooded champion gains the swashbuckler's kip-up deed as well as the following deed. </p>", 
                             "type": "ability", 
                             "name": "Dead Aim", 
                             "ability_types": [
@@ -65,7 +65,7 @@
                         }, 
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 3rd level, while the hooded champion has at least 1 panache point, he gains a +2 bonus on initiative checks. In addition, if he has the Quick Draw feat, his hands are free and unrestrained, and his weapon isn't hidden, he can draw a single bow as part of the initiative check. </p>", 
+                            "text": "<p id=\"hooded-champions-initiative\">At 3rd level, while the hooded champion has at least 1 panache point, he gains a +2 bonus on initiative checks. Also, if he has the Quick Draw feat, his hands are free and unrestrained, and his weapon isn't hidden, then he can draw a single bow as part of the initiative check. </p>", 
                             "type": "ability", 
                             "name": "Hooded Champion's Initiative", 
                             "ability_types": [
@@ -76,7 +76,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 2nd level, the hooded champion must select the archery combat style. At 9th level, the hooded champion gains the swashbuckler's grace and evasive deeds. At 16th level, the hooded champion gains the swashbuckler's edge and cheat death deeds. This ability replaces wild empathy, endurance, evasion, and improved evasion. </p>", 
+                    "text": "<p id=\"hooded-champion-combat-style\">At 2nd level, the hooded champion must select the archery combat style. At 9th level, the hooded champion gains the swashbuckler's grace and evasive deeds. At 16th level, the hooded champion gains the swashbuckler's edge and cheat death deeds. This ability replaces wild empathy, endurance, evasion, and improved evasion. </p>", 
                     "type": "section", 
                     "name": "Combat Style"
                 }
@@ -90,7 +90,7 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, as a swift action a wild hunter can take on the aspect of an animal, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's animal focus class feature, though this only applies to the wild hunter and not an animal companion (see shared focus, below). The wild hunter can use this ability for 1 minute per day per ranger level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. He can only emulate one animal at a time. This ability replaces all instances of the favored enemy class ability.</p>", 
+                    "text": "<p id=\"animal-focus\">At 1st level, as a swift action a wild hunter can take on the aspect of an animal, gaining a bonus or a special ability based on the type of animal emulated. This ability functions as the hunter's animal focus class feature, though it applies only to the wild hunter and not an animal companion (see shared focus). The wild hunter can use this ability for 1 minute per day per ranger level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. He can emulate only one animal at a time. This ability replaces favored enemy.</p>", 
                     "type": "ability", 
                     "name": "Animal Focus", 
                     "ability_types": [
@@ -99,7 +99,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 7th level, a wild hunter can share his current animal focus with one creature appropriate to his hunter's bond. If the wild hunter's bond is with an animal companion, the companion automatically gains the benefits of the wild hunter's current animal focus. If the wild hunter's bond is with his companions, as a swift action he can select one bonded ally to gain the benefits of the hunter's current animal focus; this lasts until the hunter's bond ends, the animal focus ends for the wild hunter, or the wild hunter selects a different companion. This ability replaces woodland stride and swift tracker.</p>", 
+                    "text": "<p id=\"shared-focus\">At 7th level, a wild hunter can share his current animal focus with one creature appropriate to his hunter's bond. If the wild hunter's bond is with an animal companion, the companion automatically gains the benefits of the wild hunter's current animal focus. If the wild hunter's bond is with his companions, as a swift action he can select one bonded ally to gain the benefits of the wild hunter's current animal focus; these benefits last until the hunter's bond ends, the animal focus ends for the wild hunter, or the wild hunter selects a different companion. This ability replaces woodland stride and swift tracker.</p>", 
                     "type": "ability", 
                     "name": "Shared Focus", 
                     "ability_types": [

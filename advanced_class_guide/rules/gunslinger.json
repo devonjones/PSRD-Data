@@ -6,45 +6,33 @@
     "sections": [
         {
             "source": "Advanced Class Guide", 
-            "text": "<p>Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her respective pool, and become inactive until the character regains points of their respective pool. They grant the character a benefit and a new ability to regain or increase the ability to regain either grit or panache.</p><p>A dare can be taken in place of one of the bonus feats a gunslinger or a swashbuckler gains at 4th level and every 4 levels thereafter. A gunslinger or a swashbuckler can choose to have multiple dares, but can only pick one to be active each time she reaches 0 grit or panache points. Once chosen, the active dare cannot be changed until the gunslinger or swashbuckler reaches 0 grit or panache points again.</p><p>The following gunslinger dares can be used by swashbucklers. </p>", 
+            "text": "<p>Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her grit or panache, and become inactive until the character regains grit or panache. A dare grants the character a benefit and makes it easier to regain either grit or panache.</p><p>A dare can be taken in place of one of the bonus feats a gunslinger or a swashbuckler gains at 4th level and every 4 levels thereafter. A gunslinger or a swashbuckler can choose to have multiple dares, but must pick only one to be active each time she reaches 0 grit points or panache points. Once chosen, the active dare cannot be changed until the gunslinger or swashbuckler reaches 0 grit points or panache points again.</p><p>These dares can be used by gunslingers and swashbucklers. </p>", 
             "type": "section", 
             "name": "Dares", 
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>While this dare is active, you gain the evasion class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 grit or panache point when you succeed at two Reflex saving throws while using this dare.</p>", 
-                    "type": "ability", 
-                    "name": "Desperate Evasion", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "text": "<p id=\"vigilant-shooter\">While this dare is active, you gain the evasion class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 grit point or panache point when you succeed at two Reflex saving throws while using this dare.</p>", 
+                    "type": "section", 
+                    "name": "Vigilant Shooter"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 grit or panache point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy. </p>", 
-                    "type": "ability", 
-                    "name": "Frantically Nimble", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "text": "<p id=\"frantically-nimble\">While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 grit point or panache point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks don't need to come from the same enemy. </p>", 
+                    "type": "section", 
+                    "name": "Frantically Nimble"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>While this dare is active, your critical threat range with firearms (for gunslingers) or light or one-handed piercing melee weapons (for swashbucklers) increases by 1 (20/&times;4 becomes 19&ndash;20/&times;4, 19&ndash;20/&times;2 becomes 18&ndash;20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range. </p>", 
-                    "type": "ability", 
-                    "name": "Out for Blood", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "text": "<p id=\"out-for-blood\">While this dare is active, your critical threat range with firearms (for gunslingers) or light or one-handed piercing melee weapons (for swashbucklers) increases by 1 (20/&times;4 becomes 19&ndash;20/&times;4, 19&ndash;20/&times;2 becomes 18&ndash;20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range. </p>", 
+                    "type": "section", 
+                    "name": "Out for Blood"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 grit or panache point the first time you are more than 100 feet away from your closest enemy.</p>", 
-                    "type": "ability", 
-                    "name": "Run Like Hell", 
-                    "ability_types": [
-                        "Extraordinary"
-                    ]
+                    "text": "<p id=\"run-like-hell\">While this dare is active, your base speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 grit or panache point the first time you are more than 100 feet away from your closest enemy.</p>", 
+                    "type": "section", 
+                    "name": "Run Like Hell"
                 }
             ]
         }, 
@@ -53,7 +41,13 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>A bolt ace regains grit when she scores a critical hit or deals a killing blow with any kind of crossbow. This ability modifies the grit class feature. </p>", 
+                    "text": "<p id=\"crossbow-naven\">A bolt ace is proficient with all crossbows instead of all firearms and begins play with a masterwork crossbow of her choice. This ability alters the gunslinger's weapon proficiencies and replaces gunsmith.</p>", 
+                    "type": "section", 
+                    "name": "Crossbow Maven"
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p id=\"grit\">A bolt ace regains grit when she scores a critical hit or deals a killing blow with any kind of crossbow. This ability modifies the grit class feature. </p>", 
                     "type": "ability", 
                     "name": "Grit", 
                     "ability_types": [
@@ -62,78 +56,57 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>A bolt ace can perform the following deeds with a crossbow instead of a firearm: gunslinger initiative, pistol-whip, dead shot, targeting, bleeding wound, death's shot, and stunning shot. The bolt thrower swaps the following deeds.</p>", 
+                    "text": "<p id=\"bolt-ace-deeds\">A bolt ace can perform the following deeds with a crossbow instead of a firearm: gunslinger initiative, pistol-whip, dead shot, targeting, bleeding wound, death's shot, and stunning shot. The bolt ace gains the following deeds.</p>", 
                     "type": "section", 
                     "name": "Deeds", 
                     "sections": [
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 1st level, a bolt ace can resolve an attack against touch AC instead of normal AC when firing a crossbow at a target within its first range increment. Performing this deed costs 1 grit point. This deed replaces deadeye. </p>", 
-                            "type": "ability", 
-                            "name": "Sharp Shoot", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"sharp-shoot\">At 1st level, a bolt ace can resolve an attack against touch AC instead of normal AC when firing a crossbow at a target within its first range increment. Performing this deed costs 1 grit point. This deed's cost cannot be reduced by any ability or effect that reduces the amount of grit points a deed costs (such as Signature Deed). This deed replaces deadeye. </p>", 
+                            "type": "section", 
+                            "name": "Sharp Shoot"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 1st level, as long as a bolt ace has at least 1 grit point, she does not provoke attacks of opportunity when loading a crossbow. This deed replaces quick clear. </p>", 
-                            "type": "ability", 
-                            "name": "Vigilant Loading", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"vigilant-loading\">At 1st level, as long as a bolt ace has at least 1 grit point, she does not provoke attacks of opportunity when loading a crossbow. This deed replaces quick clear. </p>", 
+                            "type": "section", 
+                            "name": "Vigilant Loading"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 3rd level, a bolt ace can spend 1 grit point when making a crossbow attack as a standard action and ignore the effects of concealment (though not total concealment) and cover (other than total cover) against that shot. This deed replaces utility shot.</p>", 
-                            "type": "ability", 
-                            "name": "Shooter's Resolve", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"shooters-resolve\">At 3rd level, a bolt ace can spend 1 grit point when making a crossbow attack as a standard action and ignore the effects of concealment (though not total concealment) and cover (other than total cover) against that shot. This deed replaces utility shot.</p>", 
+                            "type": "section", 
+                            "name": "Shooter's Resolve"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 7th level, a bolt ace can spend 1 grit point and choose to miss a target that she could normally attack within her range with a crossbow attack. When she does, the target loses its Dexterity bonus to AC (if any) for 1 round. This deed replaces startling shot. </p>", 
-                            "type": "ability", 
-                            "name": "Distracting Shot", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"distracting-shot\">At 7th level, a bolt ace can spend 1 grit point and choose to miss a target that she could normally attack within her range with a crossbow attack. When she does, the target loses its Dexterity bonus to AC (if any) for 1 round. This deed replaces startling shot. </p>", 
+                            "type": "section", 
+                            "name": "Distracting Shot"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 11th level, as long as a bolt ace spends 1 grit point when she does so, she does not provoke attacks of opportunity when firing a crossbow. This deed replaces expert loading. </p>", 
-                            "type": "ability", 
-                            "name": "Vigilant Shooter", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"vigilant-shooter\">At 11th level, a bolt ace can spend 1 grit point when firing a crossbow to avoid provoking attacks of opportunity while doing so. This deed replaces expert loading. </p>", 
+                            "type": "section", 
+                            "name": "Vigilant Shooter"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 11th level, loading a crossbow becomes unthinking and automatic for a bolt ace. As long as she has at least 1 grit point, she always starts each round of combat (even a surprise round) with her crossbow loaded. Also the amount of time needed to reload a crossbow decreases by one step: a standard action becomes a move action, a move action becomes a swift action, a swift action becomes a free action, and a free action becomes not an action. This deed replaces lightning reload.</p>", 
-                            "type": "ability", 
-                            "name": "Inexplicable Reload", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"inexplicable-reload\">At 11th level, loading a crossbow becomes unthinking and automatic for a bolt ace. As long as she has at least 1 grit point, she always starts each round of combat (even a surprise round) with her crossbow loaded. Also, the amount of time needed to reload a crossbow decreases by one step: a standard action becomes a move action, a move action becomes a swift action, a swift action becomes a free action, and a free action becomes not an action. This deed replaces lightning reload.</p>", 
+                            "type": "section", 
+                            "name": "Inexplicable Reload"
                         }, 
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 15th level, the bolt ace can spend 1 grit point while shooting a crossbow and attempt to pin down its target with the bolt. If the crossbow attack hits, it pins the target to a nearby object, to a wall, or to the ground, entangling and staggering the target. While pinned by the bolt, the target cannot move out of its space until it takes a standard action to free itself from the pinning bolt, except by means of teleportation. This deed replaces menacing shot.</p>", 
-                            "type": "ability", 
-                            "name": "Pinning Shot", 
-                            "ability_types": [
-                                "Extraordinary"
-                            ]
+                            "text": "<p id=\"pinning-shot\">At 15th level, the bolt ace can spend 1 grit point while shooting a crossbow and attempt to pin down its target with the bolt. If the crossbow attack hits, it pins the target to a nearby object, to a wall, or to the ground, entangling and staggering the target. While pinned by the bolt, the target cannot move (except by teleportation) until it takes a standard action to free itself from the pinning bolt. This deed replaces menacing shot.</p>", 
+                            "type": "section", 
+                            "name": "Pinning Shot"
                         }
                     ]
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>Starting at 5th level, a bolt ace can select one specific type of crossbow, such as hand crossbow or heavy crossbow. She gains a bonus on damage rolls equal to her Dexterity modifier with that crossbow. Furthermore, when she scores a critical hit with that type of crossbow, her critical modifier increases by 1 (a &times;2 becomes a &times;3, for example). </p><p>Every 4 levels thereafter, she can pick a different type of crossbow, gaining the bonus damage and increased critical multiplier with that type of crossbow as well. This ability replaces gun training.</p>", 
+                    "text": "<p id=\"crossbow-training (Ex)\">Starting at 5th level, a bolt ace can select one specific type of crossbow, such as hand crossbow or heavy crossbow. She gains a bonus on damage rolls equal to her Dexterity modifier with that crossbow. Furthermore, when she scores a critical hit with that type of crossbow, her critical modifier increases by 1 (&times;2 becomes &times;3, for example). </p><p>Every 4 levels thereafter, she can pick a different type of crossbow, gaining the bonus damage and increased critical multiplier with that type of crossbow as well. This ability replaces gun training.</p>", 
                     "type": "ability", 
                     "name": "Crossbow Training", 
                     "ability_types": [
@@ -141,7 +114,7 @@
                     ]
                 }
             ], 
-            "text": "<p>While gunslingers are full of sound and fury, there is a class of gunslingers that never soil their hands with powder or feel the sting of gun smoke. They commit their deeds in a more hushed manner, but with just as much flair. </p>", 
+            "text": "<p>While most gunslingers are full of sound and fury, a few never soil their hands with powder or smell gun smoke. </p>", 
             "source": "Advanced Class Guide", 
             "abbrev": "Archetype", 
             "type": "section"

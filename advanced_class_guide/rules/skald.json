@@ -12,7 +12,7 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>When the character successfully demoralizes an opponent using intimidating glare, he also deals 1d6 points of sonic damage to that opponent. A character must be at least 6th level and have the intimidating glare rage power to select this rage power.</p>", 
+                    "text": "<p id=\"battle-roar\">When the character successfully demoralizes an opponent using intimidating glare, he also deals 1d6 points of sonic damage to that opponent. A character must be at least 6th level and have the intimidating glare rage power to select this rage power.</p>", 
                     "type": "ability", 
                     "name": "Battle Roar", 
                     "ability_types": [
@@ -21,7 +21,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>The character gains a +4 bonus on saving throws against diseases and poison. A skald must be trained in Intimidate to select this rage power. </p>", 
+                    "text": "<p id=\"fierce-fortitude\">The character gains a +4 bonus on saving throws against diseases and poison. A skald must be trained in Intimidate to select this rage power. </p>", 
                     "type": "ability", 
                     "name": "Fierce Fortitude", 
                     "ability_types": [
@@ -29,71 +29,127 @@
                     ]
                 }, 
                 {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>The character channels the power of a cairn linnorm. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of decay (Will negates). A character must be at least 8th level to select this rage power. <i>Curse of Decay</i>: <i>save</i> Will DC 10 + 1/2 character's level + character's Charisma bonus; <i>effect</i> target takes 1 point of Con damage per day and ages at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses).</p>", 
-                    "type": "ability", 
                     "name": "Linnorm Death Curse, Cairn", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"curse-of-decay\"><i>save</i> Will DC = 10 + 1/2 character's class level + character's Charisma modifier; <i>effect</i> target takes 1 point of Con damage per day and ages at the rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses).</p>", 
+                            "type": "section", 
+                            "name": "Curse of Decay"
+                        }
+                    ], 
+                    "text": "<p id=\"cairn-linnorm-death-curse\">The character channels the power of a cairn linnorm. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or a spell, the attacker suffers the curse of decay (Will negates). A character must be at least 8th level to select this rage power. </p>", 
                     "ability_types": [
                         "Supernatural"
-                    ]
+                    ], 
+                    "source": "Advanced Class Guide", 
+                    "type": "ability"
                 }, 
                 {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>The character channels the power of a crag linnorm. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of fire (Will negates). A character must be at least 4th level to select this rage power. <i>Curse of Fire</i>: <i>save</i> Will DC 10 + 1/2 character's level + character's Charisma bonus; <i>effect</i> target gains vulnerability to fire.</p>", 
-                    "type": "ability", 
                     "name": "Linnorm Death Curse, Crag", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"curse-of-fire\"><i>save</i> Will DC = 10 + 1/2 character's class level + character's Charisma modifier; <i>effect</i> target gains vulnerability to fire.</p>", 
+                            "type": "section", 
+                            "name": "Curse of Fire"
+                        }
+                    ], 
+                    "text": "<p id=\"crag-linnorm-death-curse\">The character channels the power of a crag linnorm. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or a spell, the attacker suffers the curse of fire (Will negates). A character must be at least 4th level to select this rage power. </p>", 
                     "ability_types": [
                         "Supernatural"
-                    ]
+                    ], 
+                    "source": "Advanced Class Guide", 
+                    "type": "ability"
                 }, 
                 {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>The character channels the power of a fjord linnorm. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of drowning (Will negates). A character must be at least 4th level to select this rage power. <i>Curse of Drowning</i>: <i>save</i> Will DC 10 + 1/2 character's level + character's Charisma bonus; <i>effect</i> target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is sickened whenever it holds its breath.</p>", 
-                    "type": "ability", 
                     "name": "Linnorm Death Curse, Fjord", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"curse-of-drowning\"><i>save</i> Will DC = 10 + 1/2 character's class level + character's Charisma modifier; <i>effect</i> target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is sickened when it holds its breath.</p>", 
+                            "type": "section", 
+                            "name": "Curse of Drowning"
+                        }
+                    ], 
+                    "text": "<p id=\"fjord-linnorm-death-curse\">The character channels the power of a fjord linnorm. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or a spell, the attacker suffers the curse of drowning (Will negates). A character must be at least 4th level to select this rage power.</p>", 
                     "ability_types": [
                         "Supernatural"
-                    ]
+                    ], 
+                    "source": "Advanced Class Guide", 
+                    "type": "ability"
                 }, 
                 {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>The character channels the power of an ice linnorm. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the curse of frost. A character must be at least 4th level to select this rage power. <i>Curse of Frost</i>: <i>save</i> Will DC 10 + 1/2 character's level + character's Charisma bonus; <i>effect</i> target gains vulnerability to cold.</p>", 
-                    "type": "ability", 
                     "name": "Linnorm Death Curse, Ice", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"curse-of-frost\"><i>save</i> Will DC = 10 + 1/2 character's class level + character's Charisma modifier; <i>effect</i> target gains vulnerability to cold.</p>", 
+                            "type": "section", 
+                            "name": "Curse of Frost"
+                        }
+                    ], 
+                    "text": "<p id=\"ice-linnorm-death-curse\">The character channels the power of an ice linnorm. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or a spell, the attacker suffers the curse of frost (Will negates). A character must be at least 4th level to select this rage power. </p>", 
                     "ability_types": [
                         "Supernatural"
-                    ]
+                    ], 
+                    "source": "Advanced Class Guide", 
+                    "type": "ability"
                 }, 
                 {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>The character channels the power of a taiga linnorm. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of electricity (Will negates). A character must be at least 4th level to select this rage power. <i>Curse of Electricity</i>: <i>save</i> Will DC 10 + 1/2 character's level + character's Charisma bonus; <i>effect</i> target gains vulnerability to electricity.</p>", 
-                    "type": "ability", 
                     "name": "Linnorm Death Curse, Taiga", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"curse-of-electricity\"><i>save</i> Will DC = 10 + 1/2 character's class level + character's Charisma modifier; <i>effect</i> target gains vulnerability to electricity.</p>", 
+                            "type": "section", 
+                            "name": "Curse of Electricity"
+                        }
+                    ], 
+                    "text": "<p id=\"taiga-linnorm-death-curse\">The character channels the power of a taiga linnorm. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or a spell, the attacker suffers the curse of electricity (Will negates). A character must be at least 4th level to select this rage power. </p>", 
                     "ability_types": [
                         "Supernatural"
-                    ]
+                    ], 
+                    "source": "Advanced Class Guide", 
+                    "type": "ability"
                 }, 
                 {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>The character channels the power of a tarn linnorm. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of death (Will negates). A character must be at least 4th level to select this rage power. <i>Curse of Death</i>: <i>save</i> Will DC 10 + 1/2 character's level + character's Charisma bonus; <i>effect</i> target is no longer affected by healing spells and can't heal damage naturally by resting.</p>", 
-                    "type": "ability", 
                     "name": "Linnorm Death Curse, Tarn", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"curse-of-death\"><i>save</i> Will DC = 10 + 1/2 character's class level + character's Charisma modifier; <i>effect</i> target is no longer affected by healing spells and can't heal damage naturally by resting.</p>", 
+                            "type": "section", 
+                            "name": "Curse of Death"
+                        }
+                    ], 
+                    "text": "<p id=\"tarn-linnorm-death-curse\">The character channels the power of a tarn linnorm. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or a spell, the attacker suffers the curse of death (Will negates). A character must be at least 4th level to select this rage power. </p>", 
                     "ability_types": [
                         "Supernatural"
-                    ]
+                    ], 
+                    "source": "Advanced Class Guide", 
+                    "type": "ability"
                 }, 
                 {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>The character channels the power of a tor linnorm. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of boiling blood (Will negates). A character must be at least 8th level to select this rage power. <i>Curse of Boiling Blood</i>: <i>save</i> Will DC 10 + 1/2 character's level + character's Charisma bonus; <i>effect</i> target gains vulnerability to fire and is permanently staggered from the pain of its boiling blood (this is a pain effect).</p>", 
-                    "type": "ability", 
                     "name": "Linnorm Death Curse, Tor", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"curse-of-boiling-blood\"><i>save</i> Will DC = 10 + 1/2 character's class level + character's Charisma modifier; <i>effect</i> target gains vulnerability to fire and is permanently staggered from the pain of its boiling blood (this is a pain effect).</p>", 
+                            "type": "section", 
+                            "name": "Curse of Boiling Blood"
+                        }
+                    ], 
+                    "text": "<p id=\"tor-linnorm-death-curse\">The character channels the power of a tor linnorm. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or a spell, the attacker suffers the curse of boiling blood (Will negates). A character must be at least 8th level to select this rage power. </p>", 
                     "ability_types": [
                         "Supernatural"
-                    ]
+                    ], 
+                    "source": "Advanced Class Guide", 
+                    "type": "ability"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>Once per rage, the character can fly up to her base speed as a move action. If she uses the charge action, she can use this flight as part of her movement during the charge. A character must be at least 6th level and have the raging leaper rage power to select this rage power.</p>", 
+                    "text": "<p id=\"raging-flier\">Once per rage, the character can fly up to her base speed as a move action. If she uses the charge action, she can use this flight as part of her movement during the charge. A character must be at least 6th level and have the raging leaper rage power to select this rage power.</p>", 
                     "type": "ability", 
                     "name": "Raging Flier", 
                     "ability_types": [
@@ -102,7 +158,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>Once per rage, the character can refine her senses, seeing through normal and magical darkness (including from magical effects such as blur and displacement), invisibility, and illusions; she can also discern the exact locations of creatures with concealment. This lasts for 1 round. A character must be at least 6th level and have the moment of clarity and perfect clarity rage powers to select this rage power. The character does not need to be using moment of clarity to use this rage power.</p>", 
+                    "text": "<p id=\"ultimate-clarity\">Once per rage, the character can refine her senses, seeing through normal and magical darkness (including from magical effects such as <i>blur</i> and <i>displacement</i>), invisibility, and illusions; she can also discern the exact locations of creatures with concealment. This lasts for 1 round. A character must be at least 6th level and have the moment of clarity and perfect clarity rage powers to select this rage power. The character does not need to be using moment of clarity to use this rage power.</p>", 
                     "type": "ability", 
                     "name": "Ultimate Clarity", 
                     "ability_types": [
@@ -116,7 +172,7 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 2nd level, a fated champion learns to see the tapestry of events moments before it is woven. He gains an insight bonus on initiative checks equal to 1/2 his skald level. This ability replaces well-versed.</p>", 
+                    "text": "<p id=\"watcher-of-the-weave\">At 2nd level, a fated champion learns to see the tapestry of events moments before it is woven. He gains an insight bonus on initiative checks equal to 1/2 his skald level. This ability replaces well-versed.</p>", 
                     "type": "ability", 
                     "name": "Watcher of the Weave", 
                     "ability_types": [
@@ -125,7 +181,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 5th level, a fated champion learns a method of spell kenning that is especially suited for divining and understanding the future, but not for directly harming opponents. For the purpose of determining what level spell slot he expends when using spell kenning, the skald treats the spell level of spells that predict the future (such as <i>augury</i> and <i>divination</i>) as one spell level lower (minimum spell level 1st), and treats the spell level of spells that deal damage as one spell level higher. This alters the spell kenning class feature.</p>", 
+                    "text": "<p id=\"far-seer\">At 5th level, a fated champion learns a method of spell kenning that is especially suited for divining and understanding the future, but not for directly harming opponents. For the purpose of determining what level of spell slot he expends when using spell kenning, the skald treats spells that predict the future (such as <i>augury</i> and <i>divination</i>) as one spell level lower (minimum spell level 1st), and treats spells that deal damage as one spell level higher. This ability alters the spell kenning class feature.</p>", 
                     "type": "ability", 
                     "name": "Far Seer", 
                     "ability_types": [
@@ -134,7 +190,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 10th level, a fated champion's certainty of his own fate grants him the ability to stare down fear and remain unbowed. When using raging song, he is immune to fear effects, and allies affected by his raging song gain a +5 bonus on saves attempted against fear effects. This ability replaces the dirge of doom raging song.</p>", 
+                    "text": "<p id=\"shield-of-foresight\">At 10th level, a fated champion's certainty of his own fate grants him the ability to stare down fear and remain unbowed. When using raging song, he is immune to fear effects, and allies affected by his raging song gain a +5 bonus on saves against fear effects. This ability replaces the dirge of doom raging song.</p>", 
                     "type": "ability", 
                     "name": "Shield of Foresight", 
                     "ability_types": [
@@ -143,7 +199,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 20th level, the fated champion gains the ability to reweave the strands of fate. As an immediate action, he can expend 10 rounds of raging song to either reroll a saving throw or force an opponent to reroll an attack roll. The decision to use this ability must be made before the results of the initial roll are revealed, and the champion or his opponent must take the result of the reroll. This ability replaces master skald.</p>", 
+                    "text": "<p id=\"not-this-day\">At 20th level, the fated champion gains the ability to reweave the strands of fate. As an immediate action, he can expend 10 rounds of raging song to either reroll a saving throw or force an opponent to reroll an attack roll. The decision to use this ability must be made before the result of the initial roll is revealed, and the champion or his opponent must take the result of the reroll. This ability replaces master skald.</p>", 
                     "type": "ability", 
                     "name": "Not This Day", 
                     "ability_types": [
@@ -152,12 +208,12 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>The following rage powers complement the fated champion archetype: boasting taunt, clear mind, eater of magic, fierce fortitude*, flesh wound, guarded life, intimidating glare, linnorm death curse* (cairn, tarn), and renewed vitality. (Those with asterisks [*] are listed in the rage powers section.)</p>", 
+                    "text": "<p id=\"fated-champion-rage-powers\">The following rage powers complement the fated champion archetype: boasting taunt, clear mind, eater of magic, fierce fortitude, flesh wound, guarded life, intimidating glare, linnorm death curse (cairn, tarn), and renewed vitality.</p>", 
                     "type": "section", 
                     "name": "Rage Powers"
                 }
             ], 
-            "text": "<p>Many cultures see fate as a limit that is both stifling and unwanted, regardless of the destiny that lurks in the days and years ahead. Among cultures where skalds are the keepers of lore and wisdom, there are those who learn to read the winds of fate and take up the mantle of the fated champion, knowing and embracing their destined paths with strength borne of conviction.</p>", 
+            "text": "<p>Many cultures see fate as a limit that is both stifling and unwanted, regardless of the destiny that lurks in the days and years ahead. Among cultures where skalds are the keepers of lore and wisdom, there are those who learn to read the winds of fate and take up the mantle of the fated champion, knowing and embracing their destined paths with strength born of conviction.</p>", 
             "source": "Advanced Class Guide", 
             "abbrev": "Archetype", 
             "type": "section"
@@ -167,7 +223,7 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, a herald of the horn forms a powerful bond with a horn (musical instrument). This functions like an arcane bloodline sorcerer's arcane bond with an object. Like a weapon, wand, or staff, the horn must be held in one hand when the herald of the horn casts skald spells. This ability replaces Scribe Scroll.</p>", 
+                    "text": "<p id=\"arcane-bond\">At 1st level, a herald of the horn forms a powerful bond with a horn (musical instrument). This bond functions as an arcane bloodline sorcerer's arcane bond with an object. Like a weapon, wand, or staff, the horn must be held in one hand when the herald of the horn casts skald spells. This ability replaces scribe scroll.</p>", 
                     "type": "ability", 
                     "name": "Arcane Bond", 
                     "ability_types": [
@@ -176,7 +232,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 5th level, a herald of the horn can use raging song to free allies from enchantment effects and fear. When beginning a raging song, he can expend 4 rounds of that ability to grant all allies within 60 feet a new saving throw against an ongoing enchantment or fear effect. The allies gain a +2 bonus on this new saving throw. This ability replaces the first daily use of spell kenning gained at 5th level.</p>", 
+                    "text": "<p id=\"rousing-retort\">At 5th level, a herald of the horn can use raging song to free allies from enchantment effects and fear. When beginning a raging song, he can expend 4 rounds of that ability to grant all allies within 60 feet a new saving throw against an ongoing enchantment or fear effect. The allies gain a +2 bonus on this new saving throw. This ability replaces the first daily use of spell kenning gained at 5th level.</p>", 
                     "type": "ability", 
                     "name": "Rousing Retort", 
                     "ability_types": [
@@ -185,7 +241,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 7th level, a herald's horn enhances his sonic spells. If a skald spell with the sonic descriptor is cast using the horn, its DC increases by 1. These DCs increase by an additional 1 at 13th and 19th levels. This ability replaces lore master.</p>", 
+                    "text": "<p id=\"horn-call\">At 7th level, a herald's horn enhances his sonic spells. If a skald spell with the sonic descriptor is cast using the horn, its DC increases by 1. The DC increases by an additional 1 at 13th level and again at 19th level. This ability replaces lore master.</p>", 
                     "type": "ability", 
                     "name": "Horn Call", 
                     "ability_types": [
@@ -194,7 +250,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 11th level, a herald of the horn can use his horn to create a devastating shock wave of energy. Once per day, he can sound a note on the horn that functions like a <i>horn of blasting</i> (DC = 10 + 1/2 the herald of the horn's level + his Charisma bonus). At 17th level, the herald of the horn can use this ability twice per day and it functions like a <i>greater horn of blasting</i>. Unlike an actual <i>horn of blasting</i>, this ability does not carry the risk of destroying the horn. This ability replaces the second and third daily uses of spell kenning gained at 11th and 17th levels.</p>", 
+                    "text": "<p id=\"crumbling-blast\">At 11th level, a herald of the horn can use his horn to create a devastating shock wave of energy. Once per day, he can sound a note on the horn that functions as a <i>horn of blasting</i> (DC = 10 + 1/2 the herald of the horn's skald level + his Charisma modifier). At 17th level, the herald of the horn can use this ability twice per day, and it functions as a <i>greater horn of blasting</i>. Unlike an actual <i>horn of blasting</i>, this ability does not carry the risk of destroying the horn. This ability replaces the second and third daily uses of spell kenning gained at 11th and 17th levels.</p>", 
                     "type": "ability", 
                     "name": "Crumbling Blast", 
                     "ability_types": [
@@ -203,7 +259,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>The following rage powers complement the herald of the horn archetype: battle roar*, energy absorption, energy eruption, fearless rage, knockback, knockdown, smasher, and swift foot. (Those with asterisks [*] are listed in the rage powers section above.)</p>", 
+                    "text": "<p id=\"herald-of-the-horn-rage-powers\">The following rage powers complement the herald of the horn archetype: battle roar, energy absorption, energy eruption, fearless rage, knockback, knockdown, smasher, and swift foot.</p>", 
                     "type": "section", 
                     "name": "Rage Powers"
                 }
@@ -218,7 +274,7 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, the spell warrior receives the Improved Counterspell feat as a bonus feat. This ability replaces Scribe Scroll.</p>", 
+                    "text": "<p id=\"improved-counterspell\">At 1st level, the spell warrior receives Improved Counterspell as a bonus feat. This ability replaces scribe scroll.</p>", 
                     "type": "section", 
                     "name": "Improved Counterspell"
                 }, 
@@ -227,7 +283,7 @@
                     "sections": [
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 1st level, the spell warrior can grant a +1 enhancement bonus to the weapons (including ammunition) of allies within 60 feet. At 5th level and every 5 levels thereafter, this enhancement bonus increases by 1. The maximum bonus gained is based upon the number of weapons affected: +5 to one weapon, +4 to two weapons, +3 to three weapons, or +2 to four or more weapons. Fifty pieces of ammunition count as one weapon for this purpose.</p><p>These bonuses can also be used to add any of the following weapon special abilities to the weapons enhanced by this ability: <i>dancing</i>, <i>defending</i>, <i>distance</i>, <i>flaming</i>, <i>frost</i>, <i>ghost touch</i>, <i>keen</i>, <i>mighty cleaving</i>, <i>returning</i>, <i>shock</i>, <i>seeking</i>, or <i>speed</i>. Adding these weapon special abilities consumes an amount of bonus equal to the special ability's cost. These enhancement bonuses and special abilities overlap with any enhancements or special abilities the weapon already has, though duplicate special abilities do not stack. If an affected weapon is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be.</p><p>The bonus and special abilities granted by this raging song are determined when the song begins, and cannot be changed until the raging song ends and another is begun. These bonuses apply to only one end of a double weapon. This ability replaces the inspired rage raging song.</p>", 
+                            "text": "<p id=\"enhance-weapons\">At 1st level, the spell warrior can grant a +1 enhancement bonus to the weapons (including ammunition) of allies within 60 feet. At 5th level and every 5 levels thereafter, this enhancement bonus increases by 1. The maximum bonus gained is based upon the number of weapons affected: +5 for one weapon, +4 for two weapons, +3 for three weapons, or +2 for four or more weapons. Fifty pieces of ammunition count as one weapon for this purpose. The wielder of a weapon enhanced by this raging song counts as if she were under the effect of an inspired rage raging song for all purposes involving the skald's rage powers.</p><p>These bonuses can also be used to add any of the following weapon special abilities to the weapons enhanced by this ability: <i>dancing</i>, <i>defending</i>, <i>distance</i>, <i>flaming</i>, <i>frost</i>, <i>ghost touch</i>, <i>keen</i>, <i>mighty cleaving</i>, <i>returning</i>, <i>shock</i>, <i>seeking</i>, or <i>speed</i>. Adding any of these special abilities consumes an amount of bonus equal to the special ability's base price modifier. These enhancement bonuses and special abilities overlap with any enhancements or special abilities the weapon already has, and duplicate special abilities do not stack. If an affected weapon is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be.</p><p>The bonus and special abilities granted by this raging song are determined when the song begins, and cannot be changed until the raging song ends and another is begun. These bonuses apply to only one end of a double weapon. This ability replaces the inspired rage raging song.</p>", 
                             "type": "ability", 
                             "name": "Enhance Weapons", 
                             "ability_types": [
@@ -235,7 +291,7 @@
                             ]
                         }
                     ], 
-                    "text": "<p>A spell warrior gains the following raging song, allowing him to grant his ally's weapons enhancement bonuses and special powers.</p>", 
+                    "text": "<p id=\"weapon-song\">A spell warrior gains the following raging song, allowing him to grant enhancement bonuses and special powers to his ally's weapons.</p>", 
                     "ability_types": [
                         "Supernatural"
                     ], 
@@ -244,7 +300,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 5th level, the spell warrior gains increased versatility when attempting to counteract enemy spellcasting. When counterspelling, he can expend two skald spell slots of the same level or higher than the opponent's spell, regardless of the school of that spell.</p><p>At 11th level, when counterspelling an opponent's spell, the spell warrior only has to expend one skald spell slot of the level of the spell being cast.</p><p>At 17th level, the spell warrior gains Parry Spell as a bonus feat. The skald does not have to meet the prerequisites for this feat.</p><p>This ability replaces spell kenning.</p>", 
+                    "text": "<p id=\"greater-counterspell\">At 5th level, the spell warrior gains increased versatility when attempting to counteract enemy spellcasting. When counterspelling, he can expend two skald spell slots of the same level or higher than the opponent's spell, regardless of the school of that spell.</p><p>At 11th level, when counterspelling an opponent's spell, the spell warrior has to expend only one skald spell slot of the level of the spell being cast.</p><p>At 17th level, the spell warrior gains Parry Spell as a bonus feat. The skald does not have to meet the prerequisites for this feat.</p><p>This ability replaces spell kenning.</p>", 
                     "type": "ability", 
                     "name": "Greater Counterspell", 
                     "ability_types": [
@@ -253,7 +309,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 10th level, a spell warrior can sacrifice his own rage magic to counter an opponent's spell. When using raging song, he can counterspell as an immediate action without interrupting his raging song. However, in addition to expending a spell slot (or spell slots) to attempt to counter the opponent's spell, the skald must expend 1 round of raging song per spell level of the opponent's spell (for example, if attempting to counterspell a 3rd-level spell, the skald must expend one of his own 3rd-level spell slots and 3 rounds of raging song). This ability replaces the dirge of doom raging song.</p>", 
+                    "text": "<p id=\"song-of-arcane-manipulation\">At 10th level, a spell warrior can sacrifice his own rage magic to counter an opponent's spell. When using raging song, he can counterspell as an immediate action without interrupting his raging song. However, in addition to expending a spell slot (or spell slots) to attempt to counter the opponent's spell, the skald must expend 1 round of raging song per spell level of the opponent's spell (for example, if attempting to counterspell a 3rd-level spell, the skald must expend one of his own 3rd-level spell slots and 3 rounds of raging song). This ability replaces the dirge of doom raging song.</p>", 
                     "type": "ability", 
                     "name": "Song of Arcane Manipulation", 
                     "ability_types": [
@@ -262,7 +318,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 20th level, when a spell warrior successfully counterspells an opponent's spell, the opponent suffers a backlash of magical energy and takes 1d6 points of damage per spell level of the countered spell. If the opponent succeeds at a Will saving throw (DC = 10 + 1/2 the skald's level + the skald's Charisma modifier), the damage is reduced by half. This damage is magical and is not subject to damage reduction or energy resistance. This ability replaces master skald.</p>", 
+                    "text": "<p id=\"spell-tamper\">At 20th level, when a spell warrior successfully counterspells an opponent's spell, the opponent suffers a backlash of magical energy and takes 1d6 points of damage per spell level of the countered spell. If the opponent succeeds at a Will saving throw (DC = 10 + 1/2 the skald's class level + the skald's Charisma modifier), the damage is reduced by half. This damage is magical and is not subject to damage reduction or energy resistance. This ability replaces master skald.</p>", 
                     "type": "ability", 
                     "name": "Spell Tamper", 
                     "ability_types": [
@@ -271,12 +327,12 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>The following rage powers complement the spell warrior archetype: clear mind, disruptive, eater of magic, elemental rage (lesser, normal, and greater), energy resistance, spell sunder, spellbreaker, sunder enchantment, superstition, and witch hunter.</p>", 
+                    "text": "<p id=\"spell-warrior-rage-powers\">The following rage powers complement the spell warrior archetype: clear mind, disruptive, eater of magic, elemental rage (lesser, normal, and greater), energy resistance, spell sunder, spellbreaker, sunder enchantment, superstition, and witch hunter.</p>", 
                     "type": "section", 
                     "name": "Rage Powers"
                 }
             ], 
-            "text": "<p>The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies. With a clash of bracers and a sonorous chant, the Spell Warrior's song reaches out to touch the weapons of his allies, lending them arcane power. While his song does not inspire rage, he can use the power of his music to enchant the weapons of his allies and counter the spells of his foes.</p>", 
+            "text": "<p>The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies. With a clash of bracers and a sonorous chant, the spell warrior's song reaches out to touch the weapons of his allies, lending them arcane power. While his song does not inspire rage, he can use the power of his music to enchant the weapons of his allies and counter the spells of his foes.</p>", 
             "source": "Advanced Class Guide", 
             "abbrev": "Archetype", 
             "type": "section"
@@ -289,7 +345,7 @@
                     "sections": [
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>The totemic skald grants the animal focus abilities of his totem animal (as the hunter's animal focus ability) to all allies affected by his raging song. He treats his skald level as his hunter level for determining the abilities of the animal focus (such as the improvements gained at 8th and 15th level). This ability replaces the rage power gained at 3rd level.</p>", 
+                            "text": "<p id=\"song-of-the-beast\">The totemic skald grants the animal focus abilities of his totem animal (as the hunter's animal focus ability) to all allies affected by his raging song. He treats his skald level as his hunter level for determining the abilities of the animal focus (such as the improvements gained at 8th and 15th levels). This ability replaces the rage power gained at 3rd level.</p>", 
                             "type": "ability", 
                             "name": "Song of the Beast", 
                             "ability_types": [
@@ -297,7 +353,7 @@
                             ]
                         }
                     ], 
-                    "text": "<p>At 3rd level, the totemic skald chooses one animal from the hunter's animal focus list. Once selected, this choice cannot be changed. This animal becomes the skald's personal totem animal and influences his later abilities. He gains the following rage power.</p>", 
+                    "text": "<p id=\"totem\">At 3rd level, the totemic skald chooses one animal from the hunter's animal focus list. Once selected, this choice cannot be changed. This animal becomes the skald's personal totem animal and influences his later abilities. He gains the following rage power.</p>", 
                     "ability_types": [
                         "Supernatural"
                     ], 
@@ -306,7 +362,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 4th level, the totemic skald can improve the attitude of animals of the same type as his totem. This ability functions just like a Diplomacy check to improve the attitude of a person. The skald rolls 1d20 and adds his skald level and his Charisma modifier to determine the totem empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p><p>In addition, at 4th level, the totemic skald can cast<i> charm animal</i> once per day as a spell-like ability, using his skald level as his caster level and his Charisma modifier to determine the DC. This only functions against animals that are of the same type as his totem animal (subject to GM discretion). At 8th level, and every 4 levels thereafter, he can use this ability one additional time per day.</p><p>This ability replaces uncanny dodge and improved uncanny dodge. </p>", 
+                    "text": "<p id=\"totem-empathy\">At 4th level, the totemic skald can improve the attitude of animals of the same type as his totem. This ability functions as a Diplomacy check to improve the attitude of a person. The skald rolls 1d20 and adds his skald level and his Charisma modifier to determine the totem empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p><p>In addition, at 4th level, the totemic skald can cast<i> charm animal</i> once per day as a spell-like ability, using his skald level as his caster level and his Charisma modifier to determine the DC. This effect functions only against animals that are of the same type as his totem animal (subject to GM discretion). At 8th level and every 4 levels thereafter, he can use this spell-like ability one additional time per day.</p><p>This ability replaces uncanny dodge and improved uncanny dodge. </p>", 
                     "type": "ability", 
                     "name": "Totem Empathy", 
                     "ability_types": [
@@ -316,7 +372,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 5th level, a totemic skald gains the ability to wild shape into the form of a Small or Medium version of his totem animal, as the druid class feature. His effective druid level for this ability is equal to his skald level &ndash; 1. He can use this ability twice per day at 11th level, and three times per day at 17th level. This doesn't allow the skald to assume other forms, such as elementals, plants, or other kinds of animals.</p><p>When in animal form, the skald is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as spellcasting). The skald uses his class level as his druid level for the purpose of qualifying for feats that affect wild shape (such as Wild Speech). This ability replaces spell kenning.</p>", 
+                    "text": "<p id=\"wild-shape\">At 5th level, a totemic skald gains the ability to turn himself into a Small or Medium version of his totem animal and back again once per day, as the wild shape druid class feature. His effective druid level for this ability is equal to his skald level &ndash; 1. He can use this ability twice per day at 11th level and three times per day at 17th level. This ability doesn't allow the skald to assume other forms, such as elementals, plants, or other kinds of animals.</p><p>When in animal form, the skald is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as spellcasting). The skald uses his class level as his effective druid level for the purpose of qualifying for feats that affect wild shape (such as Wild Speech). This ability replaces spell kenning.</p>", 
                     "type": "ability", 
                     "name": "Wild Shape", 
                     "ability_types": [
@@ -325,7 +381,7 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>The following rage powers complement the totemic skald archetype: animal fury, beast totem (lesser, normal, and greater), knockback, knockdown, low-light vision, primal scent, scent, sprint, and swift foot.</p>", 
+                    "text": "<p id=\"rage Powers\">The following rage powers complement the totemic skald archetype: animal fury, beast totem (lesser, normal, and greater), knockback, knockdown, low-light vision, primal scent, scent, sprint, and swift foot.</p>", 
                     "type": "section", 
                     "name": "Rage Powers"
                 }

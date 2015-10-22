@@ -1,13 +1,11 @@
 {
     "school": "evocation", 
-    "saving_throw": "none", 
     "name": "Thunderstomp, Greater", 
     "parent": "Thunderstomp", 
     "descriptor": [
         "earth"
     ], 
-    "text": "<p>This spell functions as <i>thunderstomp</i>, except as noted. It allows you target multiple creatures with this spell, including creatures more than one size category larger than you. When you attempt the combat maneuver check, apply its result to each creature within the area.</p>", 
-    "spell_resistance": "yes", 
+    "text": "<p>This spell functions as <i>thunderstomp</i>, except as noted, and that it affects all creatures in the area, regardless of size. When you attempt the combat maneuver check, apply its result to each creature within the area.</p>", 
     "level": [
         {
             "class": "Bloodrager", 
@@ -18,23 +16,11 @@
             "level": 3
         }, 
         {
-            "class": "Hunter", 
-            "level": 3
-        }, 
-        {
             "class": "Magus", 
             "level": 3
         }, 
         {
-            "class": "Hunter", 
-            "level": 3
-        }, 
-        {
             "class": "Ranger", 
-            "level": 3
-        }, 
-        {
-            "class": "Hunter", 
             "level": 3
         }, 
         {
@@ -54,10 +40,8 @@
             "level": 3
         }
     ], 
-    "casting_time": "1 standard action", 
     "source": "Advanced Class Guide", 
     "range": "60 ft.", 
-    "component_text": "V, S", 
     "descriptor_text": "earth", 
     "effects": [
         {
@@ -65,14 +49,5 @@
             "name": "Area"
         }
     ], 
-    "components": [
-        {
-            "type": "V"
-        }, 
-        {
-            "type": "S"
-        }
-    ], 
-    "duration": "instantaneous", 
     "type": "spell"
 }
