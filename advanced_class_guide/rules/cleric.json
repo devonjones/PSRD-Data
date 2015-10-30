@@ -9,25 +9,34 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>An ecclesitheurge is proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but he's not proficient with any type of armor or shield. This replaces the cleric's weapon and armor proficiencies.</p>", 
+                    "text": "<p id=\"ecclesitheurge-proficiencies\">An ecclesitheurge is proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but he's not proficient with any type of armor or shield. This ability replaces the cleric's weapon and armor proficiency.</p>", 
                     "type": "section", 
                     "name": "Weapon and Armor Proficiency"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, an ecclesitheurge makes a vow to his deity to be protected solely by his faith, not by armor or shields. An ecclesitheurge who wears prohibited armor or uses a prohibited shield is unable to use his blessing of the faithful ability, use cleric domain powers, or cast cleric spells.</p>", 
+                    "text": "<p id=\"ecclesitheurges-vow\">At 1st level, an ecclesitheurge makes a vow to his deity to protect himself solely with his faith, not with armor or shields. An ecclesitheurge who wears armor or uses a shield is unable to use his blessing of the faithful ability, to use cleric domain powers, or to cast cleric spells.</p>", 
                     "type": "section", 
                     "name": "Ecclesitheurge's Vow"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, when an ecclesitheurge chooses his cleric domains, he designates one as his primary domain and the other as his secondary domain. An ecclesitheurge can use his non-domain spell slots to prepare spells from his primary domain's spell list.</p><p>Each day when he prepares spells, an ecclesitheurge can select a different domain granted by his deity to gain access to that domain's spell list instead of his secondary domain spell list. He does not lose access to his actual secondary domain's granted powers or gain access to the other domain's granted powers.</p><p>This ability alters the normal domain ability.</p>", 
+                    "text": "<p id=\"blessing-of-the-faithful\">As a standard action, the ecclesitheurge can bless one ally within close range (25 ft. + 5 ft./2 levels). A blessed ally gains a +2 sacred or profane bonus (depending on whether the ecclesitheurge channels positive or negative energy) on attack rolls, skill checks, ability checks, or saving throws or to AC until the ecclesitheurge's next turn. The ecclesitheurge can expend 1 use of channel energy when activating this ability to increase the duration to a number of rounds equal to the number of dice of his channel energy.</p>", 
+                    "type": "ability", 
+                    "name": "Blessing of the Faithful", 
+                    "ability_types": [
+                        "Supernatural"
+                    ]
+                }, 
+                {
+                    "source": "Advanced Class Guide", 
+                    "text": "<p id=\"domain-mastery\">At 1st level, when an ecclesitheurge chooses his cleric domains, he designates one as his primary domain and the other as his secondary domain. An ecclesitheurge can use his non-domain spell slots to prepare spells from his primary domain's spell list.</p><p>Each day when he prepares spells, an ecclesitheurge can select a different domain granted by his deity and gain access to that domain's spell list instead of his secondary domain's spell list. He does not lose access to his secondary domain's granted powers or gain access to the other domain's granted powers.</p><p>This ability alters the domains ability.</p>", 
                     "type": "section", 
                     "name": "Domain Mastery"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 3rd level, an ecclesitheurge forms a powerful bond with a holy symbol of his deity, akin to a wizard's bonded object. Once per day, a bonded holy symbol can be used to cast any one spell that the ecclesitheurge has on his cleric or domain spell list that day. This spell is treated like any other spell cast by the ecclesitheurge, including with respect to casting time, duration, and other effects dependent on the ecclesitheurge's level. This spell cannot be modified by metamagic feats or other abilities. </p><p>An ecclesitheurge can add additional magic abilities to his bonded holy symbol as if he had the required item creation feat (typically Craft Wondrous Item), provided he meets the feat's level prerequisites. For example, an ecclesitheurge with a bonded holy symbol necklace must be at least 3rd level to add magic abilities to the item. The magic properties of a bonded holy symbol, including any magic abilities added to the object, function for only the ecclesitheurge. If a bonded holy symbol's owner dies or the item is replaced, the object reverts to being an ordinary holy symbol.</p><p>If a bonded holy symbol is damaged, it is restored to full hit points the next time the ecclesitheurge gains his spells for the day. If the holy symbol is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per cleric level plus the cost of the holy symbol itself. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded holy symbol. An ecclesitheurge can instead designate an existing holy symbol as his bonded holy symbol. This functions in the same way as replacing a lost or destroyed item, except that the new holy symbol retains its abilities while gaining the benefits and drawbacks of becoming a bonded holy symbol.</p><p>This ability replaces the increase to channel energy gained at 3rd level.</p>", 
+                    "text": "<p id=\"bonded-holy-symbol\">At 3rd level, an ecclesitheurge forms a powerful bond with a holy symbol of his deity, which functions identically to a wizard's bonded object except it can be used to cast cleric and domain spells (instead of wizard spells) and the ecclesitheurge can grant his bonded holy symbol only magic abilities appropriate for a holy symbol or a neck slot item. </p><p>As with a wizard's bonded item, an ecclesitheurge can add additional magic abilities to his bonded holy symbol as if he had the required item creation feat (typically Craft Wondrous Item), provided he meets the feat's level prerequisite. For example, an ecclesitheurge with a bonded holy symbol who wants to add a wondrous amulet ability, like <i>amulet of natural armor</i>, to his bonded holy symbol must be at least 3rd level to do so. The magic properties of a bonded holy symbol, including any magic abilities the ecclesitheurge added to the object, function only for the ecclesitheurge. If a bonded holy symbol's owner dies or the item is replaced, the object loses all enhancements the ecclesitheurge added using this ability. </p><p>This ability replaces the increase to channel energy gained at 3rd level.</p>", 
                     "type": "ability", 
                     "name": "Bonded Holy Symbol", 
                     "ability_types": [
@@ -35,7 +44,7 @@
                     ]
                 }
             ], 
-            "text": "<p>Eschewing physical armor for protection via the strength of his faith, an ecclesitheurge focuses on the miracles his deity bestows and the breadth of that deity's dominion.</p>", 
+            "text": "<p>Eschewing physical armor for the protection of his faith, an ecclesitheurge focuses on the miracles his deity bestows and the breadth of that deity's dominion.</p>", 
             "source": "Advanced Class Guide", 
             "abbrev": "Archetype", 
             "subtype": "cleric", 

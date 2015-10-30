@@ -653,12 +653,13 @@
                             "wisdom": "16", 
                             "creature_type": "Humanoid", 
                             "base_attack": "+4", 
-                            "name": "Gnoll Devotee", 
+                            "name": "Gnoll Clerics", 
                             "skills": "Spellcraft +8", 
-                            "reflex": "+2", 
+                            "super_race": "gnoll cleric 4", 
                             "cmd": "18", 
                             "cmb": "+7", 
                             "will": "+7", 
+                            "reflex": "+2", 
                             "combat_gear": "potion of cure light wounds, wand of cure light wounds (50 charges), alchemist's fire (2)", 
                             "creature_subtype": "gnoll"
                         }, 
@@ -671,10 +672,8 @@
                             "cr": "11", 
                             "xp": "12,800", 
                             "speed": "20 ft.", 
-                            "spells": {
-                                "antipaladin spells prepared": "(CL 7th; concentration +8)<p class=\"stat-block-2\">2nd-<i>bull's strength</i> </p><p class=\"stat-block-2\">1st-<i>doom</i> (DC 12),<i> litany of sloth</i>, <i>protection from good</i> </p>", 
-                                "antipaladin spell-like abilities": "(CL 10th; concentration +11)<p class=\"stat-block-2\">At will-<i>detect good</i> </p>"
-                            }, 
+                            "alignment": "CE", 
+                            "size": "Medium", 
                             "other_gear": "+1 full plate, +1 human-bane falchion, belt of mighty constitution +2, cloak of resistance +1, 125 gp", 
                             "strength": "23", 
                             "constitution": "18", 
@@ -684,6 +683,10 @@
                             "immune": "disease", 
                             "init": "+0", 
                             "fortitude": "+16", 
+                            "spells": {
+                                "antipaladin spells prepared": "(CL 7th; concentration +8)<p class=\"stat-block-2\">2nd-<i>bull's strength</i> </p><p class=\"stat-block-2\">1st-<i>doom</i> (DC 12),<i> litany of sloth</i>, <i>protection from good</i> </p>", 
+                                "antipaladin spell-like abilities": "(CL 10th; concentration +11)<p class=\"stat-block-2\">At will-<i>detect good</i> </p>"
+                            }, 
                             "type": "creature", 
                             "feats": "Cleave, Great Cleave, Improved Critical (falchion), Iron Will, Power Attack, Weapon Focus (falchion)", 
                             "senses": "darkvision 60 ft.; Perception +1", 
@@ -702,17 +705,19 @@
                             ], 
                             "hp": "122 (12 HD; 2d8+10d10+46)", 
                             "wisdom": "12", 
+                            "creature_type": "Humanoid", 
                             "special_qualities": "cruelties (fatigued, nauseated, staggered), fiendish boon (weapon +2, 2/day), touch of corruption (6/day, 5d6)", 
                             "base_attack": "+11", 
                             "name": "Gnoll Ravager", 
                             "skills": "Intimidate +16", 
-                            "creature_subtype": "Advanced Player's Guide 118CE Medium humanoid gnoll", 
+                            "super_race": "gnoll antipaladin 10", 
                             "cmd": "27", 
                             "cmb": "+17", 
                             "will": "+12", 
                             "aura": "cowardice (10 ft.), despair (10 ft.)", 
                             "reflex": "+5", 
-                            "combat_gear": "potion of cure moderate wounds"
+                            "combat_gear": "potion of cure moderate wounds", 
+                            "creature_subtype": "gnoll"
                         }, 
                         {
                             "dexterity": "8", 
@@ -724,10 +729,7 @@
                             "xp": "19,200", 
                             "speed": "20 ft.", 
                             "alignment": "CE", 
-                            "spells": {
-                                "domain spell-like abilities": "(CL 11th; concentration +14)<p class=\"stat-block-2\">6/day-strength surge (+5), touch of evil (5 rounds)</p>", 
-                                "cleric spells prepared": "(CL 11th; concentration +14)<p class=\"stat-block-2\">6th-<i>stoneskin</i> <sup>D</sup>, <i>summon monster</i> VI</p><p class=\"stat-block-2\">5th-<i>breath of life</i>, <i>righteous might</i> <sup>D</sup>, <i>slay living</i> (DC 18)</p><p class=\"stat-block-2\">4th-<i>confusion</i> (DC 17), <i>divine power</i>, <i>freedom of movement</i>, <i>unholy blight</i> <sup>D</sup> (DC 17)</p><p class=\"stat-block-2\">3rd-<i>bestow curse</i> (DC 16), <i>blindness</i> (DC 16), <i>cure serious wounds, magic vestment</i> <sup>D</sup>, <i>vision of hell</i> (DC 16), <i>wind wall</i> </p><p class=\"stat-block-2\">2nd-<i>aid</i>, <i>blinding ra y</i> (DC 15), <i>bull's strength</i> <sup>D</sup>, <i>death knell</i> (DC 15), <i>hold person</i> (DC 15), <i>sound burst</i> (DC 15)</p><p class=\"stat-block-2\">1st-<i>cause fear</i> (DC 14), <i>enlarge person</i> (DC 14), <i>entropic shield</i>, <i>forbid action</i> (DC 14), <i>murderous command</i> (DC 14), <i>protection from good</i> <sup>D</sup></p><p class=\"stat-block-2\">0 (at will)-<i>bleed</i> (DC 13), <i>detect magic</i>, <i>read magic</i>, <i>stabilize</i> </p><p class=\"stat-block-2\"><b>D</b> domain spell; <b>Domains</b> Evil, Strength</p>"
-                            }, 
+                            "size": "Medium", 
                             "other_gear": "+2 chainmail, +1 falchion, +1 spear, amulet of natural armor +1, cloak of resistance +1, headband of alluring charisma +2, ring of protection +1, silver holy symbol, granite and diamond dust (worth 750 gp), 448 gp", 
                             "strength": "18", 
                             "constitution": "14", 
@@ -736,7 +738,10 @@
                             "source": "Monster Codex", 
                             "init": "-1", 
                             "fortitude": "+13", 
-                            "size": "Medium", 
+                            "spells": {
+                                "domain spell-like abilities": "(CL 11th; concentration +14)<p class=\"stat-block-2\">6/day-strength surge (+5), touch of evil (5 rounds)</p>", 
+                                "cleric spells prepared": "(CL 11th; concentration +14)<p class=\"stat-block-2\">6th-<i>stoneskin</i> <sup>D</sup>, <i>summon monster</i> VI</p><p class=\"stat-block-2\">5th-<i>breath of life</i>, <i>righteous might</i> <sup>D</sup>, <i>slay living</i> (DC 18)</p><p class=\"stat-block-2\">4th-<i>confusion</i> (DC 17), <i>divine power</i>, <i>freedom of movement</i>, <i>unholy blight</i> <sup>D</sup> (DC 17)</p><p class=\"stat-block-2\">3rd-<i>bestow curse</i> (DC 16), <i>blindness</i> (DC 16), <i>cure serious wounds, magic vestment</i> <sup>D</sup>, <i>vision of hell</i> (DC 16), <i>wind wall</i> </p><p class=\"stat-block-2\">2nd-<i>aid</i>, <i>blinding ra y</i> (DC 15), <i>bull's strength</i> <sup>D</sup>, <i>death knell</i> (DC 15), <i>hold person</i> (DC 15), <i>sound burst</i> (DC 15)</p><p class=\"stat-block-2\">1st-<i>cause fear</i> (DC 14), <i>enlarge person</i> (DC 14), <i>entropic shield</i>, <i>forbid action</i> (DC 14), <i>murderous command</i> (DC 14), <i>protection from good</i> <sup>D</sup></p><p class=\"stat-block-2\">0 (at will)-<i>bleed</i> (DC 13), <i>detect magic</i>, <i>read magic</i>, <i>stabilize</i> </p><p class=\"stat-block-2\"><b>D</b> domain spell; <b>Domains</b> Evil, Strength</p>"
+                            }, 
                             "type": "creature", 
                             "feats": "Cleave, Combat Casting, Extra Channel, Iron Will, Power Attack, Selective Channeling, Weapon Focus (falchion)", 
                             "sections": [
@@ -764,12 +769,13 @@
                             "creature_type": "Humanoid", 
                             "dr": "10/adamantine (110 hp)", 
                             "base_attack": "+9", 
-                            "name": "Gnoll Cleric", 
+                            "name": "Chosen", 
                             "skills": "Perception +8, Spellcraft +10", 
-                            "reflex": "+3", 
+                            "super_race": "gnoll cleric 11", 
                             "cmd": "23", 
                             "cmb": "+13", 
                             "will": "+13", 
+                            "reflex": "+3", 
                             "combat_gear": "wand of cure moderate wounds (20 charges)", 
                             "creature_subtype": "gnoll"
                         }
@@ -882,7 +888,7 @@
                                 {
                                     "source": "Monster Codex", 
                                     "type": "section", 
-                                    "text": "<p> The flind pup is often female. A breeding female flind produces only flinds, though flinds' litters tend to be smaller than those of normal gnolls. Male flinds who breed with female gnolls produce a litter with a flind about three quarters of the time.</p>"
+                                    "text": "<p>The slyest and largest female gnolls sanctified by the chosen are paired with the most savage males, and a little more than half the time, the resulting litter includes at least one flind. The flind pup is often female. A breeding female flind produces only flinds, though flinds' litters tend to be smaller than those of normal gnolls. Male flinds who breed with female gnolls produce a litter with a flind about three quarters of the time.</p>"
                                 }, 
                                 {
                                     "source": "Monster Codex", 

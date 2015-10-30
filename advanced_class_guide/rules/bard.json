@@ -5,49 +5,45 @@
     "name": "Bard", 
     "sections": [
         {
-            "source": "Advanced Class Guide", 
-            "text": "<p>A flame dancer gains the following bardic performances.</p>", 
-            "type": "section", 
-            "name": "Bardic Performance", 
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, a fire dancer learns to protect himself and others from the pain of fire, and discovers how to control the flame while enduring its heat. Each round of the fire dance, he rolls a Perform (dance or sing) check. Any ally within 30 feet of the bard that has caught on fire or is affected by a fire effect or extreme heat can use the bard's Perform check result in place of its saving throw against that fire. Any ally within 30 feet of the bard who is suffering from heatstroke can ignore the fatigue from heat exposure so long as the bard maintains this performance. Fire dance relies on audible or visual components. This ability replaces countersong.</p>", 
-                    "subtype": "bardic_performance", 
-                    "type": "ability", 
-                    "name": "Fire Dance", 
-                    "ability_types": [
-                        "Supernatural"
+                    "text": "<p id=\"flame-dancer-bardic-performance\">A flame dancer gains the following bardic performances.</p>", 
+                    "type": "section", 
+                    "name": "Bardic Performance", 
+                    "sections": [
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"fire-dance\">At 1st level, a fire dancer learns to protect himself and others from the pain of fire, and discovers how to control the flame while enduring its heat. Each round of the fire dance, he rolls a Perform (dance or sing) check. Any ally within 30 feet of the bard that has caught on fire or is affected by a fire effect or extreme heat can use the bard's Perform check result in place of its saving throw result against that fire. Any ally within 30 feet of the bard who is suffering from heatstroke can ignore the fatigue from heat exposure so long as the bard maintains this performance. Fire dance relies on audible or visual components. This ability replaces countersong.</p>", 
+                            "type": "ability", 
+                            "name": "Fire Dance", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"song-of-the-fiery-gaze\">At 3rd level, a fire dancer can allow allies to see through flames without any distortion. Any ally within 30 feet of the bard who can hear the performance can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow him to see normally, as with the base effect of the gaze of flames oracle revelation. Song of the fiery gaze relies on audible components. This ability replaces inspire competence.</p>", 
+                            "type": "ability", 
+                            "name": "Song of the Fiery Gaze", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }, 
+                        {
+                            "source": "Advanced Class Guide", 
+                            "text": "<p id=\"fire-break\">At 6th level, a fire dancer's performance can bend flames away from others. Any ally within 30 feet of the bard who can hear or see the bardic performance gains resist fire 20 as long as the performance is maintained. At 11th level, this resistance increases to 30. Fire break relies on audible or visual components. This ability replaces suggestion.</p>", 
+                            "type": "ability", 
+                            "name": "Fire Break", 
+                            "ability_types": [
+                                "Supernatural"
+                            ]
+                        }
                     ]
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 3rd level, a fire dancer can allow allies to see through flames without any distortion. Any ally within 30 feet of the bard who can hear the performance can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow him to see normally, as with the base effect of the gaze of flames oracle revelation. Song of the fiery gaze relies on audible components. This ability replaces inspire competence.</p>", 
-                    "subtype": "bardic_performance", 
-                    "type": "ability", 
-                    "name": "Song of the Fiery Gaze", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }, 
-                {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>At 6th level, a fire dancer's performance can bend flames away from others. Any ally within 30 feet of the bard who can hear or see the bardic performance gains resist fire 20 as long as the performance is maintained. At 11th level, this resistance increases to 30. Fire break relies on audible or visual components. This ability replaces suggestion.</p>", 
-                    "subtype": "bardic_performance", 
-                    "type": "ability", 
-                    "name": "Fire Break", 
-                    "ability_types": [
-                        "Supernatural"
-                    ]
-                }
-            ]
-        }, 
-        {
-            "name": "Flame Dancer", 
-            "sections": [
-                {
-                    "source": "Advanced Class Guide", 
-                    "text": "<p>At 8th level, a fire dancer adds <i>burning hands</i>, <i>flaming sphere</i>, and <i>fireball</i> to his list of bard spells known (as 1st-, 2nd-, and 3rd-level spells, respectively). This ability replaces dirge of doom.</p>", 
+                    "text": "<p id=\"fan-the-flames\">At 8th level, a fire dancer adds <i>burning hands</i>, <i>flaming sphere</i>, and <i>fireball</i> to his list of bard spells known (as a 1st-, a 2nd-, and a 3rd-level spell, respectively). This ability replaces dirge of doom.</p>", 
                     "type": "ability", 
                     "name": "Fan the Flames", 
                     "ability_types": [
@@ -55,6 +51,7 @@
                     ]
                 }
             ], 
+            "name": "Flame Dancer", 
             "text": "<p>A flame dancer studies the movements of fire, adding its grace to his repertoire. He seeks truth in fire's burning essence, and uses his performance to unleash the power of fire against those who dare oppose him.</p>", 
             "source": "Advanced Class Guide", 
             "abbrev": "Archetype", 
@@ -66,7 +63,7 @@
             "sections": [
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, a voice of the wild adds 1/2 his level (minimum 1) to all Knowledge (nature) checks. He can use Knowledge (geography) and Knowledge (nature) untrained. This ability replaces bardic knowledge.</p>", 
+                    "text": "<p id=\"wild-knowldge\">At 1st level, a voice of the wild adds 1/2 his level (minimum 1) to all Knowledge (nature) checks. He can use Knowledge (geography) and Knowledge (nature) untrained. This ability replaces bardic knowledge.</p>", 
                     "type": "ability", 
                     "name": "Wild Knowledge", 
                     "ability_types": [
@@ -75,19 +72,19 @@
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>At 1st level, a voice of the wild can select a 1st-level druid or ranger spell as a bard spell known instead of a spell from the bard spell list. The voice of the wild can select another druid or ranger spell (of any bard spell level he can cast) at 4th, 7th, 10th, 13th, and 16th levels. If he chooses to learn a new spell in place of an old one, he can exchange a druid or ranger spell for another. This ability replaces countersong, all instances of versatile performance, and jack-of-all-trades.</p>", 
+                    "text": "<p id=\"nature-magic\">At 1st level, a voice of the wild can select a 1st-level druid or ranger spell as a bard spell known instead of a spell from the bard spell list. The voice of the wild can select another druid or ranger spell (of any bard spell level he can cast) at 4th, 7th, 10th, 13th, and 16th levels. If he chooses to learn a new spell in place of a druid or ranger spell he already knows, he can choose a replacement from the bard, druid, or ranger spell list. This ability replaces countersong, all instances of versatile performance, and jack-of-all-trades.</p>", 
                     "type": "section", 
                     "name": "Nature Magic"
                 }, 
                 {
                     "source": "Advanced Class Guide", 
-                    "text": "<p>Voices of the wild gain the following bardic performance.</p>", 
+                    "text": "<p id=\"voice-of-the-wild-bardic-performance\">Voices of the wild gain the following bardic performance.</p>", 
                     "type": "section", 
                     "name": "Bardic Performance", 
                     "sections": [
                         {
                             "source": "Advanced Class Guide", 
-                            "text": "<p>At 3rd level, the voice of the wild can use bardic performance to grant an animal aspect to an ally, as if using the hunter's animal focus class feature. The ally must be able to hear or see the performance. The voice of the wild uses his bard level as his hunter level for determining the effect of the animal aspect. The bard can affect a second ally with this performance at 10th level and a third at 17th level. Song of the wild relies on audible or visual components. This ability replaces all increments of inspire competence, dirge of doom, and inspire heroics.</p>", 
+                            "text": "<p id=\"song-of-the-wild\">At 3rd level, the voice of the wild can use bardic performance to apply an animal aspect to an ally, as if using the hunter's animal focus class feature. The ally must be able to hear or see the performance. The voice of the wild uses his bard level as his hunter level for determining the effect of the animal aspect. The bard can affect a second ally with this performance at 10th level and a third at 17th level. Song of the wild relies on audible or visual components. This ability replaces all instances of inspire competence, dirge of doom, and inspire heroics.</p>", 
                             "type": "ability", 
                             "name": "Song of the Wild", 
                             "ability_types": [
@@ -97,7 +94,7 @@
                     ]
                 }
             ], 
-            "text": "<p>Most bards are inspired by the art of civilization, yet the voice of the wild's muse is the grandeur and beauty of nature. The voice of the wild has discovered some of nature's magical secrets, and can use his performance to bring out the bestial side in his allies.</p>", 
+            "text": "<p>Most bards are inspired by the art of civilization, yet the voice of the wild's muse is the grandeur of nature. The voice of the wild has discovered nature's magical secrets, and can use his performance to bring out the bestial side in his allies.</p>", 
             "source": "Advanced Class Guide", 
             "abbrev": "Archetype", 
             "subtype": "bard",
